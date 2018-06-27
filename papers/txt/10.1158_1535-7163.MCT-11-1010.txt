@@ -1,0 +1,2579 @@
+Preclinical Development
+
+Molecular
+Cancer
+Therapeutics
+
+ERK Inhibition Overcomes Acquired Resistance to MEK
+Inhibitors
+
+Georgia Hatzivassiliou, Bonnie Liu, Carol O'Brien, Jill M. Spoerke, Klaus P. Hoeﬂich, Peter M. Haverty,
+Robert Soriano, William F. Forrest, Sherry Heldens, Huifen Chen, Karen Toy, Connie Ha, Wei Zhou,
+Kyung Song, Lori S. Friedman, Lukas C. Amler, Garret M. Hampton, John Moffat, Marcia Belvin, and
+Mark R. Lackner
+
+Abstract
+
+The RAS/RAF/MEK pathway is activated in more than 30% of human cancers, most commonly via
+mutation in the K-ras oncogene and also via mutations in BRAF. Several allosteric mitogen-activated protein/
+extracellular signal–regulated kinase (MEK) inhibitors, aimed at treating tumors with RAS/RAF pathway
+alterations, are in clinical development. However, acquired resistance to these inhibitors has been documented
+both in preclinical and clinical samples. To identify strategies to overcome this resistance, we have derived
+three independent MEK inhibitor–resistant cell lines. Resistance to allosteric MEK inhibitors in these cell lines
+was consistently linked to acquired mutations in the allosteric binding pocket of MEK. In one cell line,
+concurrent ampliﬁcation of mutant K-ras was observed in conjunction with MEK allosteric pocket mutations.
+Clonal analysis showed that both resistance mechanisms occur in the same cell and contribute to enhanced
+resistance. Importantly, in all cases the MEK-resistant cell lines retained their addiction to the mitogen-
+activated protein kinase (MAPK) pathway, as evidenced by their sensitivity to a selective inhibitor of the
+ERK1/2 kinases. These data suggest that tumors with acquired MEK inhibitor resistance remain dependent on
+the MAPK pathway and are therefore sensitive to inhibitors that act downstream of the mutated MEK target.
+Importantly, we show that dual inhibition of MEK and ERK by small molecule inhibitors was synergistic and
+acted to both inhibit the emergence of resistance, as well as to overcome acquired resistance to MEK inhibitors.
+Therefore, our data provide a rationale for cotargeting multiple nodes within the MAPK signaling cascade in
+K-ras mutant tumors to maximize therapeutic beneﬁt for patients. Mol Cancer Ther; 11(5); 1143–54. Ó2012 AACR.
+
+Introduction
+
+The RAS/RAF/MEK pathway is widely activated in
+human cancers and thus has attracted signiﬁcant interest
+as a therapeutic target for cancer (1). Efforts to target RAS
+directly have not been successful to date, but recent
+clinical trials with BRAF and mitogen-activated pro-
+tein/extracellular signal–regulated kinase (MEK) inhibi-
+tors have suggested that targeting these downstream RAS
+effectors holds promise in the treatment of cancers har-
+boring oncogenic alterations in the pathway (2). Although
+clinical responses and antitumor activity can be impres-
+sive, particularly for BRAF inhibitors in BRAF mutant
+
+Authors' Afﬁliation: Genentech, Inc., 1 DNA Way, South San Francisco,
+California
+
+Note: Supplementary data for this article are available at Molecular Cancer
+Therapeutics Online (http://mct.aacrjournals.org/).
+
+B. Liu and C. O'Brien contributed equally to this work.
+
+Corresponding Authors: Georgia Hatzivassiliou, Genentech,
+1 DNA Way, South San Francisco, CA 94080. E-mail:
+hatzivassiliou.georgia@gene.com; and Mark R. Lackner, Phone: 650-
+467-1846; Fax: 650-467-7571; E-mail: mlackner@gene.com
+
+Inc.,
+
+doi: 10.1158/1535-7163.MCT-11-1010
+Ó2012 American Association for Cancer Research.
+
+melanoma, the majority of patients ultimately develop
+clinical resistance and progressive disease on these agents
+(2, 3). Preclinical studies have identiﬁed multiple mechan-
+isms of acquired resistance to BRAF inhibitors, including
+switching between RAF isoforms (4), upregulation of RTK
+or NRAS signaling (5), and reactivation of mitogen-acti-
+vated protein kinase (MAPK) signaling via COT activa-
+tion (6) or a MEK kinase activating mutation (7). Similarly,
+preclinical studies have identiﬁed distinct mechanisms by
+which cells acquire resistance to MEK inhibition, includ-
+ing ampliﬁcation of mutant BRAF (8), STAT3 upregula-
+tion (9), or mutations in the allosteric pocket of MEK that
+can directly block binding of inhibitors to the MEK kinase
+or lead to constitutive MEK kinase activity (10, 11). MEK
+mutations have also been described in tumor samples
+from patients treated with MEK (11) or BRAF inhibitors
+(7), showing clinical relevance.
+
+In comparison with RAF and MEK inhibitors, the
+development of
+small molecule inhibitors against
+ERK1/2, the kinases that act directly downstream of MEK,
+has lagged behind. Nevertheless, examples of selective
+ERK1/2 inhibitors have been reported and are currently
+in preclinical development (12, 13). In this study, we set
+out to characterize the mechanisms of acquired resistance
+to MEK allosteric inhibitors in cancer cell lines harboring
+
+www.aacrjournals.org
+
+1143
+
+Hatzivassiliou et al.
+
+oncogenic K-ras mutations and identify strategies to over-
+come this resistance, with a focus on cotargeting ERK and
+MEK. Our goal was to determine whether K-ras mutant,
+MEK-resistant cells maintained addiction to the MAPK
+pathway and sensitivity to inhibition of the pathway at the
+level of ERK1/2.
+
+Our major ﬁnding is that MEK inhibitor–resistant
+cells consistently maintain their addiction to the MAPK
+pathway and their sensitivity to a selective inhibitor of
+ERK1/2. Combination treatment of naive K-ras mutant
+cells with MEK plus ERK inhibitors inhibited the out-
+growth of resistant cells, whereas ERK inhibitor treatment
+of cells with acquired MEK inhibitor resistance cells effec-
+tively blocked their proliferation. These ﬁndings support
+the rationale for the clinical development of small molecule
+ERK1/2 inhibitors in conjunction with MEK inhibitors as a
+therapeutic strategy for patients with MAPK pathway–
+addicted (K-ras mutant and BRAF mutant) tumors.
+
+Materials and Methods
+Cell lines
+
+MDA-MB-231, LoVo, HCT-116, H2122, and BL2122
+cells were obtained from American Type Culture Col-
+lection (ATCC) and archived in the Genentech cell bank.
+COLO206F and COLO206F-AR cells were kindly pro-
+vided by Ryan Corcoran and Jeffrey Engelman (Massa-
+chusetts General Hospital, Charlestown, MA). Starting
+parental cell lines for MDA-MB-231, LoVo, and HCT-116
+were authenticated at Genetica, Inc., (www.genetica.com)
+using a Multiplex STR assay, whereas H2122 and BL2122
+cells were assayed at early passage after acquisition from
+ATCC. All cell lines were maintained in RPMI 1640
+or Dulbecco’s Modiﬁed Eagle’s Medium supplemented
+with 10% FBS (Sigma), nonessential amino acids, and
+2 mmol/L L-glutamine.
+
+Compounds and cell viability experiments
+
+All studies in this article describing MEK and ERK
+inhibition have used the potent and selective MEK1/2
+inhibitors PD0325901 (Pﬁzer; ref. 14) and G-573 (Genentech;
+ref. 15), as well as the ERK inhibitor (12, 13), to evaluate
+the effects of MEK and ERK inhibition. Selectivity of the
+ERK inhibitor for ERK1/2 across a panel of kinases, and for
+KRAS mutant versus matched normal cells, is provided in
+Supplementary Fig. S1. The phosphoinositide 3-kinase
+(PI3K) inhibitors and BRAF inhibitors used in this study
+were provided by the Genentech Medicinal Chemistry
+department and have been described previously (16–18).
+The structures of the ERK, MEK, PI3K, and BRAF inhibitors
+used are provided. All other compounds were purchas-
+ed commercially. Cell viability and bromodeoxyuridine
+(BrdUrd) studies were conducted as described previously
+(19, 20). All in vitro cell viability experiments were repeated
+independently at least 3 times with similar results.
+
+Resistant cell line selection
+
+The breast cancer cell line MDA-MB-231 and colon
+cancer cell lines LoVo and HCT-116 were grown in
+
+of
+
+concentrations
+
+increasing
+the MEK inhibitor
+PD0325901 (Pﬁzer), until they grew normally in a con-
+centration of 10 mmol/L for MDA-MB-231 and 5 mmol/L
+for LoVo and HCT-116. Resistant clones of HCT-116 MEK-
+R were isolated by ﬂuorescence-activated cell sorting
+individual cells into 96-well plates.
+
+Western blot analyses and transfections
+For MEK and ERK inhibitor dose response blots, cells
+were plated at a density of 9 105 cells per well into 4-well
+plates and dosed the following day with 2-fold or 3-fold
+serial dilutions of ERKi, MEKi-1, MEKi-2, starting at
+10 mmol/L for 24 hours. Details of antibodies and condi-
+tions are provided in the Supplementary Materials and
+Methods.
+
+Combination experiments. Combination data were
+analyzed in R version 2.12.1 (21) and results summarized
+graphically across the combinations tested. To assess
+inhibition under various drug combinations in excess of
+that predicted by Bliss additivity, smoothed estimates of
+the 2 drugs’ single-agent curves were used to derive a
+predicted inhibition response surface, as in Borisy and
+colleagues (22). More details are provided in Supplemen-
+tary Methods.
+
+Three-dimensional cultures
+
+For 3-dimensional (3-D) cultures, MDA-MB-231 paren-
+tal and MEK-R cells were trypsinized from monolayer
+cultures and plated on top of commercially available
+laminin-rich matrix produced from Engelbreth-Holm-
+Swarm tumors (Matrigel; BD Biosciences) using a previ-
+ously described protocol (20).
+
+Sequencing parental and resistant cell lines
+
+Exonic regions of MEK1, MEK2, and KRAS were ampli-
+ﬁed by nested PCR of genomic DNA and sequenced in
+both directions using Big Dye Terminator Kit reagents
+and an ABI PRISM 3730xl DNA analyzer (Applied
+Biosystems).
+
+Gene expression microarray and copy number
+analyses
+
+Gene expression analysis of breast cancer cell lines
+MDA-MB-231 parental and MEK-R lines was as described
+previously (20). Pathway relationships for genes differen-
+tially expressed between MDA-MB-231 parental and MEK-
+R cells was determined using Ingenuity software. Copy
+number analyses were carried out after correcting for GC-
+content bias following Diskin and colleagues (23) and then
+segmented using CBS (24). These analyses are described in
+more detail in the Supplementary Materials and Methods.
+
+Results
+Selection of MEK-resistant basal-like breast cancer
+cells
+
+We initially focused our efforts on a K-ras mutant basal-
+like breast tumor model, representing an indication with
+poor prognosis and limited therapeutic options (25).
+
+1144
+
+Mol Cancer Ther; 11(5) May 2012
+
+Molecular Cancer Therapeutics
+
+ERK Inhibitors Overcome MEK Resistance
+
+Breast cancer is a heterogeneous disease with well-
+deﬁned molecular subtypes referred to as luminal, HER2
+positive, and basal-like (26). Previous work has suggested
+that basal-like breast cancer models are dependent on
+RAS/RAF/MEK signaling and show a high degree of
+sensitivity to MEK inhibition relative to models represent-
+ing the other subtypes (20, 27). We exposed K-ras mutant
+MDA-MB-231 basal-like breast cancer cells to increasing
+
+concentrations of the selective allosteric MEK inhibitor
+PD0325901 (ref. 28; referred to as MEKi-1) over a period of
+several months and gradually selected a pool of cells that
+could grow normally in the presence of 10 mmol/L MEKi-
+1. Analysis of cellular inhibition using an ATP-based cell
+viability assay showed a shift in IC50 for MEKi-1 from
+0.3 mmol/L in the parental line to greater than 10 mmol/L
+top). The
+in MEK-resistant
+
+(MEK-R) cells (Fig. 1A,
+
+Figure 1. K-ras mutant MDA-MB-231 MEK-resistant (MEK-R) cells are insensitive to 2 independent MEK inhibitors but retain sensitivity to ERK inhibition for
+both cell viability and pharmacodynamic responses. A, top, MDA-MB-231 parental and MEK-resistant (MEK-R) cells were treated with a range of
+concentrations of MEKi-1 (PD0325901) or MEKi-2 (G-573) for 72 hours and cell viability was measured by ATP-based viability assays. Cells were plated in
+quadruplicate for each condition, and cell viability experiments were repeated independently at least 3 times with similar results. Bottom, parental and
+MEK-R cells were treated with MEKi-1for 72 hours and BrdUrd incorporation over a 5-hour labeling period was quantitated by high content imaging.
+Asterisks indicate that IC50 values are signiﬁcantly different based on nonoverlapping 95% conﬁdence intervals (CI) from nonlinear regression analysis.
+B, MDA-MB-231 parental and MEK-R cells were grown in 3-D culture in the presence or absence of 1 mmol/L MEKi-1 or ERKi and representatives from
+triplicate wells were photographed to assess cell morphology and response to MEK inhibition. C, effects of MEKi versus ERKi on cell viability measured by
+ATP-based viability assay in parental and MEK-R cells. D, MEK-R cells fail to show downregulation of the ERK target pRSK in response to MEK
+inhibitor treatment but do show downregulation of pRSK in response to ERK inhibitor treatment. Cells treated for 24 hours with a serial dilution of MEKi-1 and
+ERKi before Western blotting. Total RSK levels are shown as a loading control. Structures for MEKi-1 and ERKi are shown above panel D. DMSO, dimethyl
+sulfoxide.
+
+www.aacrjournals.org
+
+Mol Cancer Ther; 11(5) May 2012
+
+1145
+
+Hatzivassiliou et al.
+
+mechanism of action of MEK inhibition in MDA-MB-231
+cells has been previously shown to involve reduced pro-
+liferation rather than apoptosis (20), so we next examined
+effects of MEKi-1 on BrdUrd incorporation in parental
+and MEK-R cells. We observed that although MEK-R cells
+showed a slightly lower proliferation rate at baseline (57%
+vs. 71% BrdUrd incorporation over 5 hours), they showed
+only minimal reduction of BrdUrd incorporation in the
+presence of increasing MEKi-1 concentration compared
+with parental cells (Fig. 1A, bottom). To conﬁrm that this
+resistance was not unique to MEKi-1, we veriﬁed that
+MEK-R cells are similarly resistant to a second allosteric
+MEK inhibitor (G-573, referred to as MEKi-2; ref. 15) in a
+cell viability assay (Supplementary Fig. S2). In addition,
+resistance was stable when cells were cultured for 3
+months in the absence of drug and then reassayed for
+sensitivity to MEK inhibition, suggesting a stable genetic
+change (Supplementary Fig. S2). Differential effects
+between parental and MEK-R cells seemed speciﬁc to
+MEK inhibition, as both lines responded similarly when
+screened with a panel of other targeted and chemother-
+apeutic agents, including PI3 kinase inhibitors (18, 29), the
+HSP90 inhibitor geldanamycin, and chemotherapeutics
+such as paclitaxel and etoposide (Supplementary Fig. S2).
+To assay resistance in a setting that may be more
+reﬂective of in vivo biology, we cultured both parental
+and MEK-R cells in a 3-D matrix of collagen and laminin
+(Matrigel) and assayed for sensitivity to MEK inhibition as
+well as for changes in morphology in the resistant cells
+(Fig. 1B). We found that growth of parental cells in 3-D
+culture was completely inhibited at a concentration of 1
+mmol/L MEK inhibitor, whereas MEK-R cells were still
+able to grow and form colonies at this concentration. In
+addition, we found that MEK-R cells plated and grown in
+3-D culture adopted a much more rounded morphology
+compared with the stellate morphology exhibited by
+parental cells. This rounded morphology is typically
+associated with a more luminal epithelial phenotype in
+cell lines, whereas the stellate morphology is associated
+with more invasive basal-like mesenchymal lines (30).
+Furthermore, microarray gene expression proﬁling of
+RNA from parental cells cultured in standard media and
+MEK-R cells cultured in 10 mmol/L MEKi-1 showed
+upregulation of genes involved in luminal epithelial cell
+fates and concomitant downregulation of mesenchymal
+cell fate regulators in MEK-R cells (Supplementary Fig.
+S3). These ﬁndings are consistent with recent studies
+showing that MAPK signaling can regulate the mesen-
+chymal fate in basal-like breast cancer cells (31) and
+suggest that selection of MDA-MB-231 cells in the pres-
+ence of a MEK inhibitor seems to have downregulated this
+pathway and resulted in mesenchymal-to-epithelial
+transition.
+
+MEK-R KRAS mutant cells retain sensitivity to ERK
+inhibition
+
+Because MEK-R cells maintain ERK and RSK activation
+in the presence of MEK inhibitor, we next tested whether
+
+they are still dependent on signaling through the RAS/
+MEK/ERK axis for survival and proliferation by treating
+with a selective and potent inhibitor of ERK1/2 (ERKi
+refs. 12, 13). Selectivity testing for activity of this inhibitor
+against a panel of 200 other kinases failed to identify any
+target other than ERK that was substantially inhibited
+(Supplementary Fig. S1A), and this compound was sub-
+stantially more potent in KRAS mutant H2122 cells than in
+normal, immortalized BL2122 cells derived from the same
+patient (Supplementary Fig. S1B). We found that parental
+and MEK-R cells showed similar sensitivity to this selec-
+tive ERK inhibitor in cell viability assays conducted in
+both 3-D culture and standard 2-D format, suggesting that
+ERK inhibition can overcome MEK inhibitor resistance
+(Fig. 1B and C, respectively). Furthermore, although MEK
+inhibition was unable to suppress levels of the ERK target
+sites on phospho- RSKT359Ser363 in MEK-R cells, ERK
+inhibitors effectively suppressed pRSKT359Ser363 levels
+with similar potency as in parental cells (Fig. 1D). These
+ﬁndings strongly suggested that KRAS mutant MEK-R
+cells retain overall dependence on RAS/MEK/ERK sig-
+naling despite their insensitivity to pathway inhibition at
+the level of MEK.
+
+We expanded our analysis to additional tumor cell lines
+from other tumor cell lines harboring K-ras mutations.
+Because up to 40% of colorectal cancers harbor activating
+K-ras mutations (32), we used the colorectal lines HCT-116
+and LoVo, both of which show strong in vitro sensitivity to
+2 different allosteric MEK inhibitors (Fig. 2A). We were
+able to select derivatives of both lines that could grow
+normally in the presence of 5 mmol/L MEKi-1 and were
+also resistant to MEKi-2 (Fig. 2A). Similar to the MDA-
+MB-231 MEK-R cells, both HCT-116 and LoVo MEK-R
+cells seemed to retain dependence on RAS/MEK/ERK
+signaling as ERK inhibition was able to decrease cell
+proliferation and inhibit pRSK to a similar degree as was
+observed in parental cells (Fig. 2A and B). In addition, we
+examined the effects of ERK and MEK inhibitors on
+MAPK substrates more globally by immunoblotting
+lysates from treated HCT-116 parental and MEK-R cells
+with an antibody recognizing the canonical ERK phos-
+phorylation motif PXtP (Fig. 2C). We found that although
+in parental cells both ERKi and MEKi could abolish ERK
+substrate phosphorylation, in contrast, in MEK-R cells,
+basal ERK substrate phosphorylation was higher and was
+only abolished by ERKi treatment. Thus, in all MEK-R cell
+lines analyzed, MEK resistance and pathway activation
+could be effectively overcome by ERK inhibition.
+
+Molecular mechanisms of MEK resistance
+
+The observation that all of the MEK-R lines identiﬁed
+in this study retained sensitivity to ERK inhibition sug-
+gested that the mechanism of resistance was acting at or
+above the level of MEK itself, as ERK is a direct down-
+stream substrate of MEK. To identify such mechanisms of
+resistance, we ﬁrst sequenced the coding regions of MEK1
+and MEK2. Mutational analysis showed that MEK-R cells
+derived from MDA-MB-231 and HCT-116 cells harbor
+
+1146
+
+Mol Cancer Ther; 11(5) May 2012
+
+Molecular Cancer Therapeutics
+
+ERK Inhibitors Overcome MEK Resistance
+
+)
+
+%
+
+(
+ 
+y
+t
+i
+l
+i
+
+i
+
+b
+a
+v
+ 
+l
+l
+
+e
+C
+
+100
+
+75
+
+50
+
+25
+
+0
+
+)
+
+%
+
+(
+ 
+y
+t
+i
+l
+i
+
+i
+
+b
+a
+v
+ 
+l
+l
+
+e
+C
+
+100
+
+75
+
+50
+
+25
+
+0
+
+A
+
+B
+
+HCT116
+parental
+HCT116
+MEK-R
+LoVo
+
+parental
+LoVo
+MEK-R
+
+MEKi-1 
+
+MEKi-2 
+
+ERKi
+
+*
+
+0.01
+
+0.1
+
+1
+
+10
+
+MEKi-1(µmol/L)
+
+*
+
+0.01
+
+0.1
+
+1
+
+10
+
+MEKi-1(µmol/L)
+
+)
+
+%
+
+(
+ 
+y
+t
+i
+l
+i
+
+i
+
+b
+a
+v
+ 
+l
+l
+
+e
+C
+
+100
+
+75
+
+50
+
+25
+
+0
+
+)
+
+%
+
+(
+ 
+y
+t
+i
+l
+i
+
+i
+
+b
+a
+v
+ 
+l
+l
+
+e
+C
+
+100
+
+75
+
+50
+
+25
+
+0
+
+*
+
+0.01
+
+0.1
+
+1
+
+10
+
+MEKi-2 (µmol/L)
+
+*
+
+0.01
+
+0.1
+
+1
+
+10
+
+MEKi-2 (µmol/L)
+
+)
+
+%
+
+(
+ 
+y
+t
+i
+l
+i
+
+i
+
+b
+a
+v
+ 
+l
+l
+
+e
+C
+
+100
+
+75
+
+50
+
+25
+
+0
+
+)
+
+%
+
+(
+ 
+y
+t
+i
+l
+i
+
+i
+
+b
+a
+v
+ 
+l
+l
+
+e
+C
+
+100
+
+75
+
+50
+
+25
+
+0
+
+ERKi (µmol/L)
+
+MEKi-2 (µmol/L)
+
+MEKi-1 (µmol/L)
+
+O
+S
+0.03
+M
+D
+
+0.1
+
+10.33
+
+3 10
+
+O
+S
+0.03
+M
+D
+
+0.1
+
+10.33
+
+3 10
+
+O
+S
+0.03
+M
+D
+
+0.1
+
+10.33
+
+3 10
+
+0.1
+
+1
+
+10
+
+100
+
+ERKi (µmol/L)
+
+0.1
+
+1
+
+10
+
+100
+
+ERKi (µmol/L)
+
+C
+
+pRSKT359S363
+tRSK
+pRSKT359S363
+tRSK
+
+pRSKT359S363
+tRSK
+pRSKT359S363
+tRSK
+
+)
+
+t
+
+P
+X
+P
+
+(
+ 
+
+t
+
+e
+a
+r
+t
+s
+b
+u
+s
+ 
+K
+R
+E
+
+83
+
+62
+
+47.5
+
+32.5
+
+HCT-116 parental
+HCT-116 MEK-R
+
+HCT-116 MEKi-1 IC50 MEKi-2 IC50 ERKi IC50
+Parental
+MEK-R
+
+0.27
+0.32
+
+Inhibitor concentration (µmol/L)
+
+0.17
+>2
+
+0.24
+>2
+
+LoVo parental
+LoVo MEK-R
+
+LoVo
+Parental
+MEK-R
+
+MEKi-1 IC50 MEKi-2 IC50 ERKi IC50
+
+0.01
+>2
+
+0.02
+>2
+
+0.1
+0.14
+
+Inhibitor concentration (µmol/L)
+
+Parental HCT-116 MEK-R
+
+O
+S
+M
+D
+
+i
+
+K
+R
+E
+
+i
+
+K
+E
+M
+
+O
+S
+M
+D
+
+i
+
+K
+R
+E
+
+i
+
+K
+E
+M
+
+Figure 2. Two independent MEK-R K-ras mutant colon cell lines show cross-resistance to a second MEK inhibitor but retain sensitivity to ERK inhibition. A, cell
+viability in response to inhibitors was assessed by ATP-based cell viability assays. Asterisks indicate nonoverlapping 95% CIs for IC50 values. B, Western blot
+analysis indicating that MEK-R lines show pRSK downregulation in response to ERK inhibitors but not MEK inhibitors. Cells were treated for 24 hours
+with inhibitors. Total RSK levels are shown as a loading control. C, effects of MEK and ERK inhibition on global phosphorylation levels of the consensus ERK
+substrate motif PXtP in HCT-116 parental and MEK-R cells. DMSO, dimethyl sulfoxide.
+
+mutations in MEK1 that are predicted to result in L115P
+and F129L substitutions, respectively, whereas those
+derived from LoVo cells harbor a mutation in MEK2
+predicted to cause a V215E substitution (homologous to
+V211D mutations in MEK1; Table 1, Supplementary Fig.
+S4). These mutations are all heterozygous and occur
+within the allosteric binding pocket in which arylamine
+MEK inhibitors are known to bind (Fig. 3A). In addition,
+the identiﬁed mutations have all previously been shown
+to confer in vitro MEK inhibitor resistance in random
+mutagenesis experiments followed by stable transfection
+functional assays of MEK inhibitor resistance in BRAF
+mutant cells (11). The L115P and V211D mutations confer
+resistance by abrogating MEK inhibitor binding, while
+F129L also increases intrinsic kinase activity of MEK (10).
+All 3 of our cell lines retained the activating K-ras (G13D)
+allele. To assess whether the MEK mutations were present
+in a preexisting subpopulation or arose de novo in the
+presence of MEK inhibitor, we used digital PCR with a
+TaqMan genotyping assay for the L115P-causing muta-
+tion on DNA from parental MDA-MB-231 cells (Supple-
+
+mentary Fig. S5). We screened approximately 68,850
+genome equivalents in this assay and did not detect any
+evidence of the L115P alteration. These data suggested
+that the L115P mutation is either not present, or is only
+present in a very small subpopulation, in the parental cell
+line. To show that these mutations can abrogate MEK
+
+Table 1. Summary of MEK1, MEK2, and KRAS
+mutational status of 3 KRAS mutant cells lines
+and their MEK-R derivatives
+
+Cell line
+
+MDA-MB-231 parental
+MDA-MB-231 MEK-R
+HCT-116 parental
+HCT-116 MEK-R
+LoVo parental
+LoVo MEK-R
+
+MEK1
+
+WT
+L115P
+WT
+F129L
+WT
+WT
+
+MEK2
+
+WT
+WT
+WT
+WT
+WT
+V215E
+
+KRAS
+
+G13D
+G13D
+G13D
+G13D
+G13D
+G13D
+
+www.aacrjournals.org
+
+Mol Cancer Ther; 11(5) May 2012
+
+1147
+
+Hatzivassiliou et al.
+
+A
+
+B
+
+C
+
+Figure 3. MEK-R cell lines harbor
+allosteric inhibitor binding site
+mutations in either MEK1 or MEK2
+that block MEK inhibitor but do
+not affect ERK inhibitor
+pharmacodynamic responses. A,
+X-ray structure (PDB code: 3EQG)
+depicting positions of mutations
+within the allosteric binding pocket
+of MEK for arylamine class of
+inhibitors, critical for binding. B,
+effect of transient transfection of
+MEK1 wild-type or L115P mutant
+form on ERK versus MEK inhibitor–
+mediated downregulation of pRSK
+levels in HCT-116 cells. Ectopic
+expression of the L115P mutation
+abrogates pharmacodynamic
+response to a MEK inhibitor. The
+transfection efﬁciency in this
+experiment was 68% based on
+expression of FLAG-tagged MEK
+(L115P), as described in the
+Supplementary Materials and
+Methods. C, left, Western blot
+analysis comparing basal levels
+and phosphorylation of key
+Ras/RAF/MAPK expression
+components in parental
+versus MEK-R cells. Right,
+immunoprecipitation/Western blot
+assays to compare levels of CRAF
+and BRAF kinase activity in
+parental and MEK-R cells. DMSO,
+dimethyl sulfoxide.
+
+ERKi
+
+MEKi-1
+
+L
+
+L
+
+/
+l
+
+o
+m
+µ
+2
+
+ 
+
+/
+l
+
+o
+m
+µ
+5
+
+ 
+
+L
+
+/
+l
+
+o
+m
+µ
+8
+0
+
+ 
+
+.
+
+0
+
+L
+
+/
+l
+
+o
+m
+µ
+4
+
+ 
+
+.
+
+0
+
+O
+S
+M
+D
+
+Construct
+MEK1 (WT)
+
+MEK1 (L115P)
+
+L
+
+/
+l
+
+o
+m
+µµ
+0
+1
+
+ 
+
+O
+S
+M
+D
+
+L
+
+/
+l
+
+o
+m
+µ
+8
+0
+
+ 
+
+.
+
+0
+
+L
+
+/
+l
+
+o
+m
+µ
+4
+
+ 
+
+.
+
+0
+
+L
+
+L
+
+/
+l
+
+o
+m
+µ
+2
+
+ 
+
+/
+l
+
+o
+m
+µ
+5
+
+ 
+
+L
+
+/
+l
+
+o
+m
+µ
+0
+1
+
+ 
+
+T359/S363
+
+pRSK
+
+T359/S363
+
+pRSK
+
+MDA-MB-231
+
+HCT-116
+
+LoVo
+
+Parental
+
+M EK-R
+
+Parental
+
+M EK-R
+
+Parental
+
+M EK-R
+
+K-ras
+
+BRAF
+
+pCRAFS338
+
+pERKT202Y204
+
+tERK
+
+      HCT116
+IP kinase assay
+
+ BRAF
+
+ CRAF      IgG
+
+Parental
+
+M EK-R
+
+Parental
+
+M EK-R
+
+Parental
+
+M EK-R
+
+pMEK
+
+(kinase assay)
+
+BRAF
+
+CRAF
+
+inhibitor responsiveness but have no effect on ERK inhib-
+itor sensitivity in the context of the KRAS mutant cell lines
+used in this study, we introduced the L115P mutation into
+MEK1 by site-directed mutagenesis and transfected HCT-
+116 parental cells with this construct or a wild-type ver-
+sion of MEK1. We found that expression of MEK1 (L115P)
+effectively blocked MEK inhibitor–mediated downregu-
+lation of pRSK in transfected cells but did not affect ERK
+inhibitor–mediated downregulation (Fig. 3B). These data
+suggested that although MEK-R cells may be escaping
+from tumor growth inhibition due to the failure of MEK
+
+inhibitors to bind and inhibit mutant MEK, they retain the
+ability to respond to ERK inhibition.
+
+We next sought to investigate the upregulation of ERK
+substrate phosphorylation observed in HCT-116 cells
+(Fig. 2C) by assaying for levels of MAPK signaling path-
+way components in all 3 MEK-R–resistant lines. Our
+Western blot data showed overexpression of K-Ras along
+with induction of phosphorylated CRAF and phosphor-
+ylated ERK, selectively in the HCT-116 MEK-R cells (Fig.
+3C, left panel) and not in the MDA-MB-231 or LoVo MEK-
+R cells. HCT-116 MEK-R cells also displayed increased
+
+1148
+
+Mol Cancer Ther; 11(5) May 2012
+
+Molecular Cancer Therapeutics
+
+ERK Inhibitors Overcome MEK Resistance
+
+BRAF and CRAF activity levels as shown by an immu-
+noprecipitation/kinase assay (Fig. 3C). These results,
+along with the ERK substrate results previously describ-
+ed, suggested that the pathway is hyperactivated in
+HCT-116 cells, and that additional mechanisms of resis-
+tance might be involved in this tumor model.
+
+To identify additional mechanisms of resistance, we
+assessed global copy number data from comparative
+genomic hybridization (CGH) arrays for differences
+between parental and resistant cell lines. In the case of
+MDA-MB-231 and LoVo cells, this analysis did not
+reveal any substantial differences in copy number for
+BRAF, MEK1/2, ERK1/2, or K-ras or any other loci. In
+contrast, HCT-116 MEK-R cells showed high-level
+ampliﬁcation, speciﬁcally at the K-ras locus, but not other
+loci, compared with parental cells (Fig. 4A). Quanti-
+tation of copy number by quantitative genomic PCR
+indicated that the HCT-116 MEK-R cells carry 23 copies
+
+of K-ras (Supplementary Fig. S6A), and sequence ana-
+lysis suggested selective ampliﬁcation of the mutant
+K-ras allele, because a wild-type allele peak is not detect-
+able in the sequencing trace (Supplementary Fig. S6B).
+K-ras ampliﬁcation has previously been reported to
+underlie acquired MEK resistance in derivatives of
+this cell line selected for resistance to the MEK inhibitor
+AZD-6244 (33). Because the HCT-116 MEK-R pool
+showed evidence of 2 distinct mechanisms of resist-
+ance, a MEK1 (F129L) mutation and KRAS ampliﬁcation,
+we next asked whether these alterations were occurr-
+ing in the same cells or in different cells within the
+pool population, perhaps representing distinct clonal
+lineages. We cloned individual cells in 96-well plates,
+waited until the population expanded, then sequenced
+MEK1 and determined KRAS copy number via qPCR
+assay. This analysis revealed surprising heterogeneity
+(Supplementary Fig. S7, Fig. 4), with the majority of cells
+
+KRAS
+
+HCT-116 parental 
+
+20.0 Mb
+
+40.0 Mb
+
+60.0 Mb
+
+80.0 Mb
+
+100.0 Mb
+
+120.0 Mb
+
+KRAS
+
+HCT-116 MEK-R
+
+20.0 Mb
+
+40.0 Mb
+
+60.0 Mb
+
+80.0 Mb
+
+100.0 Mb
+
+120.0 Mb
+
+MEKi-1
+ERKi
+
+Figure 4. HCT-116 MEK-R cells
+harbor multiple resistance
+mechanisms. A, CGH measurement
+of DNA copy number along the
+length of chromosome 12 shows
+focal K-ras ampliﬁcation in HCT-116
+MEK-R cells (below) but not in the
+HCT-116 parental line (above). Black
+dots represent the values for each
+probe and the red lines represent the
+mean copy number value for
+contiguous chromosomal segments.
+B, individual clones derived from the
+MEK-R pool were analyzed for MEK1
+mutations and level of KRAS
+ampliﬁcation, then tested for
+sensitivity to MEK and ERK
+inhibition. Y axis shows IC50 for MEK
+or ERK inhibitors, and genotypes for
+each clone are illustrated in the chart.
+Resistant clones contain at least 2
+candidate resistance mechanisms.
+
+4
+
+3
+
+2
+
+1
+
+0
+
+o
+i
+t
+a
+r
+ 
+2
+g
+o
+L
+
+1
+−
+
+2
+−
+
+4
+
+3
+
+2
+
+1
+
+0
+
+o
+i
+t
+a
+r
+ 
+2
+g
+o
+L
+
+1
+−
+
+2
+−
+
+10.000
+
+9.000
+
+8.000
+
+7.000
+
+6.000
+
+5.000
+
+4.000
+
+3.000
+
+2.000
+
+1.000
+
+0.000
+
+A
+
+B
+
+)
+L
+
+/
+l
+
+o
+m
+µ
+(
+ 
+0
+5
+C
+
+I
+
+MEK
+
+www.aacrjournals.org
+
+Mol Cancer Ther; 11(5) May 2012
+
+1149
+
+Hatzivassiliou et al.
+
+having both the F129L mutation and varying degrees of
+KRAS ampliﬁcation. One clone was wild-type for MEK1
+with very low levels of KRAS ampliﬁcation, similar to
+parental cells. Surprisingly, we also identiﬁed 2 clones
+with low levels of KRAS ampliﬁcation that harbored
+both F129L as well as a second MEK1 mutation predicted
+to cause an I111N substitution. This alteration has also
+been previously described to block MEK inhibitor bind-
+ing (11). We next screened a representative set of clones for
+sensitivity to MEKi-1 and ERKi (Fig. 4B) and found that the
+MEK1 F129L/I111N double mutant cells showed the
+greatest resistance to MEK inhibitors, whereas clones with
+KRAS ampliﬁcation and a concurrent F129L mutation
+showed a correlation between greater resistance to MEK
+inhibitors and high KRAS copy number above a certain
+threshold (approximately 30 copies). This pattern of
+mutations and resistance suggests that the F129L MEK1
+mutation was selected for early on, and during subse-
+quent selection, different subsets of clones acquired
+additional genetic events that increased their resistance,
+either high-level K-Ras ampliﬁcation or an additional
+I111N MEK1 mutation, to more effectively block MEK
+inhibitor binding. It is notable that all of the clones
+retained strong sensitivity to the ERK inhibitor, suggest-
+
+ing that downstream inhibition at the level of ERK1/2
+can overcome multiple mechanisms of resistance in the
+same cell (Fig. 4B).
+
+Ampliﬁcation of BRAF has also been shown to underlie
+resistance to MEK and RAF inhibitors in BRAF mutant
+tumors, in which RAF plus MEK inhibitor combinations
+are currently being tested in clinical trials with promising
+results (8, 33). Because ERK inhibitors remained effective
+in K-ras mutant ampliﬁed cells, we next sought to deter-
+mine whether they would remain effective in MEK
+inhibitor resistant, BRAF mutant ampliﬁed cells. A
+previous report showed that BRAF mutant colorectal
+cancer COLO206F cells with acquired resistance to the
+AZD-6244 MEK inhibitor (COLO206F-AR) displayed
+10 to 15 copies of mutant BRAF (8). We treated
+COLO206F parental and COLO206F-AR MEK-resistant
+cells with the 2 MEK inhibitors, the ERK inhibitor and
+the BRAF inhibitor PLX4720 (34). We found that, in
+contrast to MEK and BRAF inhibitors, the ERK inhib-
+itor again largely maintained its ability to block pro-
+liferation and pathway suppression at
+the level of
+pRSK in the BRAF-ampliﬁed COLO206F-AR cells, with
+only an approximately 4-fold shift in sensitivity to
+ERKi relative to parental cells compared with a 125-
+
+A
+
+)
+
+%
+
+(
+ 
+y
+t
+i
+l
+i
+
+i
+
+b
+a
+v
+ 
+l
+l
+
+e
+C
+
+125
+
+100
+
+75
+
+50
+
+25
+
+0
+
+B
+
+COLO206F parental
+COLO206F-AR (MEK-R)
+
+MEKi-1 
+
+MEKi-2 
+
+ERKi
+
+RAFi
+
+*
+
+0.0001 0.001 0.01
+
+0.1
+
+1
+
+10
+
+100
+
+125
+
+100
+
+75
+
+50
+
+25
+
+0
+
+125
+
+100
+
+75
+
+50
+
+25
+
+*
+
+125
+
+100
+
+75
+
+50
+
+25
+
+*
+
+0.0001 0.001 0.01
+
+0.1
+
+1
+
+10
+
+100
+
+0
+0.001
+
+0.01
+
+0.1
+
+1
+
+10
+
+100
+
+0
+0.001
+
+0.01
+
+0.1
+
+1
+
+10
+
+100
+
+Compound concentration (µmol/L)
+
+ERKi (µmol/L)
+0.012
+0.03
+0.1
+
+10.33
+
+O
+S
+M
+D
+
+0.004
+0.001
+
+3 10
+
+MEKi-1 (µmol/L)
+0.004
+0.001
+0.012
+0.03
+0.1
+
+10.33
+
+O
+S
+M
+D
+
+3 10
+
+pRSKT359/S363
+
+tRSK
+
+pRSKT359S363
+
+tRSK
+
+COLO206F
+
+parental
+
+COLO206F-AR
+
+MEK-R
+
+Figure 5. MEKi- and BRAFi-resistant COLO206F-AR cells with BRAF ampliﬁcation maintain their sensitivity and response to ERK inhibition. A, cell
+viability of COLO206F parental and COLO206F-AR MEK-resistant cells after treatment with MEKi-1, MEKi-2, ERKi, and BRAFi (PLX4720), as
+determined via an ATP-based viability assay. Asterisks indicate nonoverlapping 95% CIs for IC50 values. B, measurement of pharmacodynamic
+response at the level of pRSK after a 24-hour treatment with serial dilutions of compounds shows potency shift for the MEK but not the ERK inhibitor.
+DMSO, dimethyl sulfoxide.
+
+1150
+
+Mol Cancer Ther; 11(5) May 2012
+
+Molecular Cancer Therapeutics
+
+ERK Inhibitors Overcome MEK Resistance
+
+Table 2. Cellular IC50 as well as fold difference
+between the parental and MEK-R line
+
+Cell line
+
+IC50 MEKi-1
+(mmol/L)
+
+IC50 MEKi-2
+(mmol/L)
+
+IC50 ERKi
+(mmol/L)
+
+COLO206F parental 0.01
+1.5
+COLO206F-AR
+150
+
+MEK-R
+IC50 shift
+
+MEK-R/parental
+
+0.08
+10
+125
+
+0.3
+1.25
+4.17
+
+to 150-fold shift in sensitivity to the 2 MEK inhibitors
+(Fig. 5 and Table 2). These data further supported the
+conclusion that mechanisms resulting in activation of
+the MAPK pathway at several nodes (K-Ras, B-Raf, and
+
+MEK) can all be overcome by downstream blockade of
+the MAPK pathway at the level of ERK1/2.
+
+Combination strategies to overcome acquired MEK
+inhibitor resistance
+
+An important question in cancer management is wheth-
+er rational combinations of therapy given at the onset of
+therapy can delay or prevent resistance, or whether such
+combinations can overcome acquired resistance. To
+address the ﬁrst question, we carried out short-term
+selection of MDA-MB-231 cells in the presence of MEKi
+alone, ERKi alone, or the combination of MEKi and ERKi.
+After 9 days of culture, we found signiﬁcantly fewer
+resistant cells surviving in the presence of the combination
+versus either inhibitor alone (Fig. 6A). To address the
+second question, we treated the MEK-R cell
+lines
+described in this study with a combination of ERKi
+
+P < 0.01
+
+Naive tumors
+
+MEK-resistant tumors
+
+C
+
+RASMT
+
+P
+C-RAF B-RAF
+
+RASMT
+
+P
+C-RAF B-RAF
+
+RASMT
+
+P
+C-RAF B-RAF
+
+RASMT
+
+P
+C-RAF B-RAF
+
+MEK
+
+ERK
+
+MEK
+
+MEKi
+
+MEK
+
+MEK
+
+MEKi
+
+MEKi
+
+ERK
+
+ERK
+
+ERK
+
+ERKi
+
+MEKi-1
+
+ ERKi
+
+MEKi-1 + ERKi
+
+Growth
+
+Growth
+
+Growth
+
+Growth
+
+500
+450
+400
+350
+300
+250
+200
+150
+100
+50
+0
+
+n
+o
+
+l
+
+i
+t
+c
+e
+e
+s
+ 
+s
+y
+a
+d
+
+ 
+
+9
+
+ 
+
+A
+
+r
+e
+
+t
+f
+
+i
+
+i
+
+ 
+
+a
+g
+n
+n
+a
+m
+e
+r
+ 
+s
+
+l
+l
+
+e
+C
+
+B
+
+LoVo MEK-R
+Bliss score: 81
+
+% inhibition
+
+100
+
+10
+
+2.5
+
+0.6
+
+0.2
+
+i
+
+K
+R
+E
+
+0.04
+
+0.01
+
+0
+
+80
+
+60
+
+40
+
+20
+
+0
+
+0
+
+2
+0
+0
+
+.
+
+0
+
+5
+0
+0
+
+.
+
+0
+
+1
+0
+
+.
+
+0
+
+4
+0
+
+.
+
+0
+
+2
+1
+
+.
+
+0
+
+7
+3
+
+.
+
+0
+
+1
+
+.
+
+1
+
+3
+
+.
+
+3
+
+0
+1
+
+MEKi-1
+
+HCT116 MEK-R
+Bliss score: 0
+
+10
+
+2.5
+
+0.6
+
+0.2
+
+i
+
+K
+R
+E
+
+0.04
+
+0.01
+
+0
+
+0
+
+2
+0
+0
+0
+
+.
+
+5
+0
+0
+0
+
+.
+
+1
+0
+0
+
+.
+
+4
+0
+0
+
+.
+
+2
+1
+0
+
+.
+
+7
+3
+0
+
+.
+
+1
+1
+
+.
+
+3
+3
+
+.
+
+0
+1
+
+MEKi-1
+
+% inhibition
+
+100
+
+i
+
+K
+R
+E
+
+80
+
+60
+
+40
+
+20
+
+0
+
+10
+
+2.5
+
+0.6
+
+0.2
+
+0.04
+
+0.01
+
+0
+
+MDA-MB-231 MEK-R
+Bliss score: 132
+
+% inhibition
+
+100
+
+80
+
+60
+
+40
+
+20
+
+0
+
+0
+
+2
+0
+0
+
+.
+
+0
+
+5
+0
+0
+
+.
+
+0
+
+1
+0
+
+.
+
+0
+
+4
+0
+
+.
+
+0
+
+2
+1
+
+.
+
+0
+
+7
+3
+
+.
+
+0
+
+1
+
+.
+
+1
+
+3
+
+.
+
+3
+
+0
+1
+
+MEKi-1
+
+Figure 6. Dual inhibition of MEK and ERK abrogates de novo resistance and has synergistic effects on acquired resistance. A, MDA-MB-231 cells were treated
+for 9 days with the indicated inhibitors as single agents or in combination at a concentration of 2.5X IC50 with media changed every 3 days. Surviving cells were
+quantitated at the end of the experiment. B, MEK-R cells treated with MEK/ERK inhibitors as single agents and in combination across a range of
+concentrations. Percent inhibition is shown for each well and color coded based on the scale provided, with blue indicating no inhibition and red indicating
+100% inhibition of cell viability. BLISS scores more than 0 indicate greater than additive effects. C, dual MEK and ERK inhibition is a strategy to more effectively
+shut down MAPK pathway ﬂux, both in the context of naive MAPK-driven tumor cells (left) as well as in the context of acquired resistance to MEK inhibitors, by
+MEK mutation and/or upstream oncogene ampliﬁcation (Mutant K-ras or BRAF).
+
+www.aacrjournals.org
+
+Mol Cancer Ther; 11(5) May 2012
+
+1151
+
+Hatzivassiliou et al.
+
+and MEKi. Combination effects were assessed in cell
+viability assays conducted across a matrixed array of
+concentrations of each compound. This approach allows
+visualization of percent inhibition at each combination of
+concentrations, as well as calculation of measures of
+synergy such as the Bliss independence model (35). Under
+Bliss independence, the fractional inhibition from a com-
+bination of 2 agents at speciﬁc concentrations is pre-
+dicted as the sum of the inhibitions of each agent
+applied alone at the speciﬁc concentrations minus the
+product of those single-agent inhibitions (36). Devia-
+tions from additive effects in each well can be summed
+across the plate to give an overall Bliss score, with
+positive Bliss scores indicating greater than additive
+effects. We found that the MEKi þ ERKi combination
+showed enhanced inhibition of cell growth compared
+with single-agent treatment in all 3 MEK-R cell lines
+(Fig. 6B). The effect was additive in HCT-116 MEK-R
+cells and synergistic (Bliss score > 0) in MDA-MB-231
+and LoVo MEK-R cells. Therefore, the MEK–ERK inhib-
+itor combination offers the potential of enhanced tumor
+growth inhibition and delayed resistance in treatment-
+naive patients, as well as enhanced inhibition in the
+setting of acquired MEK inhibitor resistance.
+
+Discussion
+
+Somatic activation of the Ras/RAF/MEK/ERK path-
+way is a major driving event that underlies the initiation
+and continued expression of the malignant phenotype in
+neoplastic cells. Pharmacologic inhibition of the pathway
+with selective inhibitors of MEK or BRAF potently sup-
+presses growth of cancer cell lines harboring oncogenic
+activation of the pathway, such as those with K-ras and
+BRAF mutations (37). A number of agents targeting RAF
+and MEK have entered the clinic. BRAF inhibitors in
+particular have shown impressive clinical responses in
+patients with BRAFV600E mutant melanoma. For instance,
+treatment of metastatic melanoma patients with the selec-
+tive inhibitor RG7204 has resulted in partial or complete
+tumor responses in nearly 80% of patients and extended
+progression-free survival from 2 months to at least 7
+months (38). However, almost all patients eventually
+develop resistance and progressive worsening of disease,
+driven by the reactivation of the MAPK pathway in a
+BRAFV600E–independent manner (3). As such, there is a
+pressing need for therapeutic strategies that can prevent
+the onset of resistance or overcome diverse resistance
+mechanisms once they have arisen.
+
+Our observations, derived from multiple models,
+suggest that K-ras mutant tumors with acquired MEK
+inhibitor resistance often remain addicted to the MAPK
+pathway, as opposed to activating alternative redundant
+pathways. This is consistent with a recent report show-
+ing that in K-Ras mutant colorectal lines, PI3K pathway
+activity is driven by receptor tyrosine kinase rather
+than mutant K-Ras signaling (39). Furthermore, we show
+for the ﬁrst time that selective ERK inhibitors can over-
+
+come this resistance and thus that ERK inhibition may
+constitute a therapeutic option for treating patients who
+have progressed on MEK inhibitor therapy and show
+reactivation of MAPK signaling. Previous studies linking
+allosteric site MEK point mutations to MEK inhibitor
+resistance used site-directed mutagenesis followed by
+overexpression of mutants and focused on a BRAFV600E
+background (11). Our study validates these mutations
+as a resistance mechanism by showing that they can
+arise spontaneously during long-term selection of K-ras
+mutant cells in the presence of MEK inhibitors. To-
+gether, these results suggest that mutational alteration
+of the target may be a common mechanism of resistance
+to MEK inhibitors in the clinic and provide a strong
+rationale for testing MEK mutation status, in parallel with
+other described resistance mechanisms, upon patient
+relapse.
+
+Importantly, we show that MEK inhibitor–resistant
+cells can exhibit multiple concurrent resistance mechan-
+isms in distinct clones within the same HCT-116 MEK-
+resistant tumor pool, namely the presence of 2 distinct
+MEK allosteric point mutations in a subset of clones and a
+MEK1 allosteric point mutation concurrently with high-
+level KRAS ampliﬁcation in another subset. This is in
+contrast to a previous report suggesting that resistance
+in this model could be explained solely by KRAS ampli-
+ﬁcation (33), suggesting that perhaps diverse mechanisms
+of resistance can arise under different experimental con-
+ditions. Importantly, treatment with an ERK inhibitor
+could still effectively inhibit HCT-116 MEK-R cells despite
+the presence of both upstream alterations. Why ERK
+inhibitors remain effective in the context of upstream
+oncogene ampliﬁcation, although MEK inhibitors become
+less potent, is not entirely clear. We hypothesize that this
+phenomenon may be related to the fact that activation of
+MEK by these upstream oncogenes may change the
+steady-state conformation of MEK in a way that limits
+the accessibility of the allosteric binding pocket to MEK
+inhibitors (40). The ERK inhibitor described here is ATP
+competitive and may be less sensitive to altered confor-
+mation dynamics of activated ERK in the context of
+upstream oncogene ampliﬁcation.
+
+Clinical inhibition of MEK and BRAF is at an exciting
+crossroads with several examples of agents that have
+meaningful antitumor activity and survival beneﬁt.
+Acquired resistance to these agents is a pressing issue,
+and we propose that ERK inhibitors can be valuable
+tools in combating BRAF and MEK inhibitor resistance.
+Our study is the ﬁrst to provide preclinical evidence that
+administering combinations of MEK and ERK inhibitors
+in naive cells can prevent or delay the emergence of
+acquired resistance (Fig. 6C), as previously observed
+in the context of MEK/RAF inhibitor combinations
+(8, 11). Furthermore, we found that MEK/ERK inhibitor
+combinations can also be used to overcome acquired
+resistance, suggesting a treatment paradigm for patients
+who have progressed on single-agent MEK or BRAF
+inhibitor therapy. Additive or overlapping toxicity due
+
+1152
+
+Mol Cancer Ther; 11(5) May 2012
+
+Molecular Cancer Therapeutics
+
+ERK Inhibitors Overcome MEK Resistance
+
+to vertical inhibition of 2 pathway components may be
+a concern with such an approach, though we note that
+the clinical combination of BRAF and MEK inhibitors
+has thus far been clinically well tolerated (41), boding
+well
+for MEK/ERK clinical combinations. Overall,
+these data further highlight the beneﬁts of targeting
+multiple nodes within the MAPK pathway for achieving
+lasting responses in MAPK-addicted tumors and under-
+score the need to understand which of the various
+resistance mechanisms are at work in a given patient.
+Such efforts will require sustained commitment to the
+collection of serial biopsies at the time of disease pro-
+gression, to identify the most appropriate therapy upon
+relapse.
+
+Disclosure of Potential Conﬂicts of Interest
+
+All authors are employees of Genentech, Inc. J. Moffat has ownership
+
+interest (including patents) in Roche.
+
+Acknowledgments
+
+The authors thank Dan Burdick, Danette Dudley, and Jake Schwarz
+for help with synthesis of the ERK inhibitor; Ryan Corcoran and Jeffrey
+Engelman for supplying the COLO206F and COLO206F-AR cells,
+Scott Sproul for technical assistance, and Jeff Settleman for comments
+on the manuscript.
+
+The costs of publication of this article were defrayed in part by the
+payment of page charges. This article must therefore be hereby marked
+advertisement in accordance with 18 U.S.C. Section 1734 solely to indicate
+this fact.
+
+Received December 13, 2011; revised February 21, 2012; accepted
+
+February 23, 2012; published OnlineFirst March 8, 2012.
+
+References
+1. Roberts PJ, Der CJ. Targeting the Raf-MEK-ERK mitogen-activated
+protein kinase cascade for the treatment of cancer. Oncogene
+2007;26:3291–310.
+
+2. Flaherty KT, Hodi FS, Bastian BC. Mutation-driven drug development
+
+in melanoma. Curr Opin Oncol 2010;22:178–83.
+
+3. Solit DB, Rosen N. Resistance to BRAF inhibition in melanomas. N Engl
+
+J Med 2011;364:772–4.
+
+4. Villanueva J, Vultur A, Lee JT, Somasundaram R, Fukunaga-Kalabis
+M, Cipolla AK, et al. Acquired resistance to BRAF inhibitors medi-
+ated by a RAF kinase switch in melanoma can be overcome
+by cotargeting MEK and IGF-1R/PI3K. Cancer Cell 2010;18:
+683–95.
+
+5. Nazarian R, Shi H, Wang Q, Kong X, Koya RC, Lee H, et al. Melanomas
+inhibition by RTK or N-RAS
+
+acquire resistance to B-RAF(V600E)
+upregulation. Nature 2010;468:973–7.
+Johannessen CM, Boehm JS, Kim SY, Thomas SR, Wardwell L,
+Johnson LA, et al. COT drives resistance to RAF inhibition through
+MAP kinase pathway reactivation. Nature 2010;468:968–72.
+
+6.
+
+7. Wagle N, Emery C, Berger MF, Davis MJ, Sawyer A, Pochanard P, et al.
+Dissecting therapeutic resistance to RAF inhibition in melanoma by
+tumor genomic proﬁling. J Clin Oncol 2011;29:3085–96.
+
+8. Corcoran RB, Dias-Santagata D, Bergethon K, Iafrate AJ, Settleman J,
+Engelman JA. BRAF gene ampliﬁcation can promote acquired resis-
+tance to MEK inhibitors in cancer cells harboring the BRAF V600E
+mutation. Sci Signal 2011;3:ra84.
+
+9. Dai B, Meng J, Peyton M, Girard L, Bornmann WG, Ji L, et al. STAT3
+mediates resistance to MEK inhibitor through microRNA miR-17.
+Cancer Res 2011;71:3658–68.
+
+10. Wang H, Daouti S, Li WH, Wen Y, Rizzo C, Higgins B, et al. Identiﬁ-
+cation of the MEK1(F129L) activating mutation as a potential mech-
+anism of acquired resistance to MEK inhibition in human cancers
+carrying the B-RafV600E mutation. Cancer Res 2011;71:5535–45.
+
+11. Emery CM, Vijayendran KG, Zipser MC, Sawyer AM, Niu L, Kim JJ, et al.
+MEK1 mutations confer resistance to MEK and B-RAF inhibition. Proc
+Natl Acad Sci U S A 2009;106:20411–6.
+
+12. Aronov AM, Tang Q, Martinez-Botella G, Bemis GW, Cao J, Chen G,
+et al. Structure-guided design of potent and selective pyrimidylpyrrole
+inhibitors of extracellular signal-regulated kinase (ERK) using confor-
+mational control. J Med Chem 2009;52:6362–8.
+
+13. Martinez-Botella G, Hale M, Maltais F, Straub J, Tang Q inventor
+"Pyrrole inhibitors of ERK protein kinase, synthesis thereof and inter-
+mediates thereto" patent US patent number 7,354,939 B2. 2008.
+
+14. Brown AP, Carlson TC, Loi CM, Graziano MJ. Pharmacodynamic and
+toxicokinetic evaluation of the novel MEK inhibitor, PD0325901, in the
+rat following oral and intravenous administration. Cancer Chemother
+Pharmacol 2007;59:671–9.
+
+15. Choo EF, Belvin M, Chan J, Hoeﬂich K, Orr C, Robarge K, et al.
+Preclinical disposition and pharmacokinetics-pharmacodynamic
+modeling of biomarker response and tumour growth inhibition in
+
+xenograft mouse models of G-573, a MEK inhibitor. Xenobiotica
+2010;40:751–62.
+
+16. Folkes AJ, Ahmadi K, Alderton WK, Alix S, Baker SJ, Box G, et al. The
+identiﬁcation of 2-(1H-Indazol-4-yl)-6-(4-methanesulfonyl-piperazin-
+1-ylmethyl)-4-morpholin -4-yl-thieno[3,2-d]pyrimidine (GDC-0941) as
+a potent, selective, orally bioavailable inhibitor of class I PI3 kinase for
+the treatment of cancer. J Med Chem 2008;51:5522–32.
+
+17. Smalley KS. PLX-4032, a small-molecule B-Raf inhibitor for the poten-
+tial treatment of malignant melanoma. Curr Opin Investig Drugs
+2010;11:699–706.
+
+18. Sutherlin DP, Sampath D, Berry M, Castanedo G, Chang Z, Chuckow-
+ree I, et al. Discovery of (thienopyrimidin-2-yl)aminopyrimidines as
+potent, selective, and orally available pan-PI3-kinase and dual pan-
+PI3-kinase/mTOR inhibitors for the treatment of cancer. J Med Chem
+2011;53:1086–97.
+
+19. O'Brien C, Wallin JJ, Sampath D, GuhaThakurta D, Savage H, Pun-
+noose EA, et al. Predictive biomarkers of sensitivity to the phospha-
+tidylinositol 30 kinase inhibitor GDC-0941 in breast cancer preclinical
+models. Clin Cancer Res 2010;16:3670–83.
+
+20. Hoeﬂich KP, O'Brien C, Boyd Z, Cavet G, Guerrero S, Jung K, et al. In
+vivo antitumor activity of MEK and phosphatidylinositol 3-kinase
+inhibitors in basal-like breast cancer models. Clin Cancer Res
+2009;15:4649–64.
+
+21. Team RDC. R: A language and environment for statistical computing.
+
+[cited 2010]. Available from: http://www.R-project.org/
+
+22. Borisy AA, Elliott PJ, Hurst NW, Lee MS, Lehar J, Price ER, et al.
+Systematic discovery of multicomponent therapeutics. Proc Natl Acad
+Sci U S A 2003;100:7977–82.
+
+23. Diskin SJ, Li M, Hou C, Yang S, Glessner J, Hakonarson H, et al.
+Adjustment of genomic waves in signal intensities from whole-genome
+SNP genotyping platforms. Nucleic Acids Res 2008;36:e126.
+
+24. Venkatraman ES, Olshen AB. A faster circular binary segmentation
+algorithm for the analysis of array CGH data. Bioinformatics 2007;23:
+657–63.
+
+25. Anders C, Carey LA. Understanding and treating triple-negative
+breast cancer. Oncology (Williston Park) 2008;22:1233–9; discussion
+9–40, 43.
+
+26. Sorlie T, Perou CM, Tibshirani R, Aas T, Geisler S, Johnsen H, et al.
+Gene expression patterns of breast carcinomas distinguish tumor
+subclasses with clinical
+implications. Proc Natl Acad Sci U S A
+2001;98:10869–74.
+
+27. Mirzoeva OK, Das D, Heiser LM, Bhattacharya S, Siwak D,
+Gendelman R, et al. Basal subtype and MAPK/ERK kinase
+(MEK)-phosphoinositide 3-kinase feedback signaling determine
+susceptibility of breast cancer cells to MEK inhibition. Cancer Res
+2009;69:565–72.
+
+28. Wang JY, Wilcoxen KM, Nomoto K, Wu S. Recent advances of MEK
+inhibitors and their clinical progress. Curr Top Med Chem 2007;7:
+1364–78.
+
+www.aacrjournals.org
+
+Mol Cancer Ther; 11(5) May 2012
+
+1153
+
+Hatzivassiliou et al.
+
+29. Folkes AJ, Baker SJ, Chuckowree IS, Eccles SA, Hayes A, Hancox TC,
+et al.The discovery of GDC-0941: A potent, selective, orally bioavail-
+able inhibitor of class I PI3 kinase for the treatment of cancer. AACR
+Annual Meeting. San Diego; 2008.
+
+30. Kenny PA, Lee GY, Myers CA, Neve RM, Semeiks JR, Spellman PT,
+et al. The morphologies of breast cancer cell lines in three-dimensional
+assays correlate with their proﬁles of gene expression. Mol Oncol
+2007;1:84–96.
+
+31. Stinson S, Lackner MR, Adai AT, Yu N, Kim HJ, O'Brien C, et al. TRPS1
+targeting by miR-221/222 promotes the epithelial-to-mesenchymal
+transition in breast cancer. Sci Signal 2011;4:ra41.
+
+32. Samowitz WS, Curtin K, Schaffer D, Robertson M, Leppert M, Slattery
+ML. Relationship of Ki-ras mutations in colon cancers to tumor loca-
+tion, stage, and survival: a population-based study. Cancer Epidemiol
+Biomarkers Prev 2000;9:1193–7.
+
+33. Little AS, Balmanno K, Sale MJ, Newman S, Dry JR, Hampson M, et al.
+Ampliﬁcation of the driving oncogene, KRAS or BRAF, underpins
+acquired resistance to MEK1/2 inhibitors in colorectal cancer cells.
+Sci Signal 2011;4:ra17.
+
+34. Jiang CC, Lai F, Thorne RF, Yang F, Liu H, Hersey P, et al. MEK-
+independent survival of B-RAFV600E melanoma cells selected for
+resistance to apoptosis induced by the RAF inhibitor PLX4720. Clin
+Cancer Res 2011;17:721–30.
+
+35. CI B. The toxicity of poisons applied jointly. Ann Appl Biol
+
+1939;26:585–615.
+
+36. Greco WR, Faessel H, Levasseur L. The search for cytotoxic synergy
+between anticancer agents: a case of Dorothy and the ruby slippers? J
+Natl Cancer Inst 1996;88:699–700.
+
+37. Solit DB, Garraway LA, Pratilas CA, Sawai A, Getz G, Basso A, et al.
+BRAF mutation predicts sensitivity to MEK inhibition. Nature
+2006;439:358–62.
+
+38. Flaherty KT, Puzanov I, Kim KB, Ribas A, McArthur GA, Sosman JA,
+et al. Inhibition of mutated, activated BRAF in metastatic melanoma. N
+Engl J Med 2010;363:809–19.
+
+39. Ebi H, Corcoran RB, Singh A, Chen Z, Song Y, Lifshits E, et al. Receptor
+tyrosine kinases exert dominant control over PI3K signaling in human
+KRAS mutant colorectal cancers. J Clin Invest 2011;121:4311–21.
+
+41.
+
+40. Fischmann TO, Smith CK, Mayhood TW, Myers JE, Reichert P,
+Mannarino A, et al. Crystal structures of MEK1 binary and ternary
+complexes with nucleotides and inhibitors. Biochemistry 2009;48:
+2661–74.
+Infante JR, Falchook GS, Lawrence DP, Weber JS, Kefford RF, Bendell
+JC, et al. Phase I/II study to assess safety, pharmacokinetics, and
+efﬁcacy of the oral MEK 1/2 inhibitor GSK1120212 (GSK212) dosed in
+combination with the oral BRAF inhibitor GSK2118436 (GSK436). J
+Clin Oncol (supplement) 2011;29.
+
+1154
+
+Mol Cancer Ther; 11(5) May 2012
+
+Molecular Cancer Therapeutics
+
+

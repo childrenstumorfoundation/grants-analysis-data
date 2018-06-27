@@ -1,0 +1,1240 @@
+Molecular Cell 22, 819–830, June 23, 2006 ª2006 Elsevier Inc. DOI 10.1016/j.molcel.2006.05.011
+
+The Kelch Proteins Gpb1 and Gpb2 Inhibit Ras
+Activity via Association with the Yeast RasGAP
+Neuroﬁbromin Homologs Ira1 and Ira2
+
+Toshiaki Harashima,1,3 Scott Anderson,2
+John R. Yates III,2 and Joseph Heitman1,*
+1 Department of Molecular Genetics and Microbiology
+Duke University Medical Center
+Durham, North Carolina 27710
+2 The Scripps Research Institute
+La Jolla, California 92037
+
+Summary
+
+The G protein-coupled receptor Gpr1 and associated
+Ga subunit Gpa2 govern dimorphic transitions in re-
+sponse to extracellular nutrients by signaling coordi-
+nately with Ras to activate adenylyl cyclase in the
+yeast Saccharomyces cerevisiae. Gpa2 forms a protein
+complex with the kelch Gb mimic subunits Gpb1/2,
+and previous studies demonstrate that Gpb1/2 nega-
+tively control cAMP-PKA signaling via Gpa2 and an un-
+known second target. Here, we deﬁne these targets of
+Gpb1/2 as the yeast neuroﬁbromin homologs Ira1 and
+Ira2, which function as GTPase activating proteins of
+Ras. Gpb1/2 bind to a conserved C-terminal domain
+of Ira1/2, and loss of Gpb1/2 results in a destabilization
+of Ira1 and Ira2, leading to elevated levels of Ras2-GTP
+and unbridled cAMP-PKA signaling. Because the
+Gpb1/2 binding domain on Ira1/2 is conserved in the
+human neuroﬁbromin protein, an analogous signaling
+network may contribute to the neoplastic development
+of neuroﬁbromatosis type 1.
+
+Introduction
+
+Molecular switches composed of G protein-coupled re-
+ceptors (GPCRs) and associated heterotrimeric G pro-
+teins transduce extracellular stimuli to intracellular sig-
+naling molecules,
+including the ubiquitous second
+messenger cAMP. Canonical heterotrimeric G proteins
+consist of a, b, and g subunits. Ligand binding induces
+conformational changes in the receptor, stimulating
+GDP to GTP exchange on the associated Ga subunits,
+leading to dissociation of the receptor-Ga subunit com-
+plex and release of the Gbg dimer. Liberated Ga, Gbg, or
+both signal via downstream effectors. Signal transduc-
+tion is attenuated by either intrinsic or RGS-stimulated
+GTP hydrolysis followed by reassociation of Ga-GDP
+with the Gbg dimer (Cabrera-Vera et al., 2003; Dohlman
+et al., 1991; Ross and Wilkie, 2000).
+
+The budding yeast Saccharomyces cerevisiae de-
+ploys two distinct GPCR-G protein signaling modules
+to sense pheromones and nutrients, respectively (Hara-
+shima and Heitman, 2004). One is haploid and mating-
+type speciﬁc and involves the pheromone receptors
+Ste2/3 coupled to the Ga subunit Gpa1 in a canonical
+
+*Correspondence: heitm001@duke.edu
+3 Present address: Division of Molecular Cell Biology, National Insti-
+tute for Basic Biology, Nishigonaka 38, Myodaiji, Okazaki 444-8585,
+Aichi, Japan.
+
+heterotrimeric complex with the Gbg subunits Ste4/18.
+In response to pheromone, the Ste4/18 dimer dissoci-
+ates from Gpa1 and activates the pheromone-respon-
+sive MAP kinase pathway to enable mating.
+
+The second yeast GPCR signaling cascade involves
+the GPCR Gpr1, which is expressed in both haploid
+and diploid cells and activates the associated Ga sub-
+unit Gpa2 in response to glucose and structurally related
+sugars (Lemaire et al., 2004; Lorenz et al., 2000; Xue
+et al., 1998; Yun et al., 1998). Activated Gpa2 stimulates
+cAMP production by adenylyl cyclase and engages the
+PKA signaling pathway (Colombo et al., 1998; Lorenz
+and Heitman, 1997). In contrast to canonical Ga sub-
+units, Gpa2 is unable to form a heterotrimeric G protein
+with the known Gbg subunits Ste4/18. Instead, Gpa2 as-
+sociates with two kelch proteins, Gpb1 and Gpb2, which
+are functionally redundant, share w35% sequence iden-
+tity, and each contain seven kelch repeat motifs. In
+a striking example of convergent evolution, both the
+WD-40 repeat-based Gb subunits and the kelch repeat
+enzyme galactose oxidase are known to fold into seven
+bladed b propeller structures that are essentially super-
+imposable (Harashima and Heitman, 2004).
+
+Mutants lacking the Gpr1 receptor or the coupled
+Gpa2 subunit are defective in glucose-induced cAMP
+production and ﬁlamentous growth, whereas gpb1,2
+double mutants exhibit increased PKA phenotypes, in-
+cluding enhanced ﬁlamentous growth, sensitivity to ni-
+trogen starvation and heat shock, and impaired glyco-
+gen accumulation and sporulation (Batlle et al., 2003;
+Harashima and Heitman, 2002). Introduction of gpa2
+mutations only partially attenuates these gpb1,2 mutant
+phenotypes, providing evidence that Gpb1/2 negatively
+regulate cAMP signaling by inhibiting Gpa2 and an as
+yet unidentiﬁed second target. Mutation of the gene en-
+coding one of the three PKA catalytic subunits, Tpk2,
+largely suppresses the elevated PKA phenotypes of
+gpb1,2 mutants, indicating that this second target may
+be a component of the cAMP signaling pathway itself
+(Harashima and Heitman, 2002). Our recent studies pro-
+vide evidence that Gpb1/2 are recruited to and function
+at the plasma membrane in a Gpa2-dependent manner,
+suggesting that the unidentiﬁed second target may be
+membrane-associated (Harashima and Heitman, 2005).
+In S. cerevisiae, the cAMP-PKA signaling cascade is
+essential for cell viability. Loss of either adenylyl cyclase
+(Cyr1) or all three PKA catalytic subunits (Tpk1,2,3) is le-
+thal (Toda et al., 1988; Toda et al., 1987b). On the other
+hand, elevated PKA activity as a consequence of muta-
+tions in the PKA regulatory subunit Bcy1 results in
+a growth defect (Toda et al., 1987a). Therefore, cAMP
+signaling must be strictly controlled in response to ex-
+tracellular cues. Two distinct Gpr1-Gpa2 and Ras-medi-
+ated pathways converge on Cyr1. Notably, ras2 mutants
+fail to produce cAMP in response to glucose, similar to
+gpr1 and gpa2 mutants, and gpr1 ras2 and gpa2 ras2
+mutants exhibit a synthetic growth defect, suggesting
+that Gpr1-Gpa2 and Ras2 play a shared role in glu-
+cose-induced cAMP production (Bhattacharya et al.,
+1995; Ku¨ bler et al., 1997; Xue et al., 1998).
+
+Molecular Cell
+820
+
+S. cerevisiae expresses two Ras proteins: Ras1 and
+Ras2 (Powers et al., 1984). Although Ras1 and Ras2
+are functionally redundant for cell growth, Ras2 plays
+the predominant role in cAMP signaling in response to
+glucose. Ras activity is controlled positively by the gua-
+nine nucleotide exchange factors Cdc25 and Sdc25
+(GEFs) and negatively by the GTPase activating proteins
+Ira1 and Ira2 (GAPs) (Crechet et al., 1990; Munder and
+Furst, 1992; Tanaka et al., 1990a, 1991). Ras2 is known
+to bind to and activate Cyr1, yet how Ras2 regulates
+Cyr1 in response to glucose is not understood at a mo-
+lecular level (Field et al., 1988; Mintzer and Field, 1994).
+Previous studies have implicated Cdc25 in responses
+to glucose (Gross et al., 1999; Munder and Kuntzel,
+1989; Portillo and Mazon, 1986). On the other hand,
+Ira1 has been shown to interact with Cyr1 and may pro-
+mote its membrane localization (Mitts et al., 1991). ira1,2
+double mutant cells exhibit constitutively elevated Ras2-
+GTP levels and are unable to further mount a Ras2-GTP
+increase in response to glucose (Colombo et al., 2004).
+Therefore, both Cdc25 and Ira1/2 may coordinately acti-
+vate Ras2 and adenylyl cyclase in response to glucose.
+The RasGAP Ira1/2 proteins are large (w350 kDa) pro-
+teins that are conserved from yeast to humans (Tanaka
+et al., 1989, 1990b). In humans, the RasGAP activity of
+the Ira1/2 homolog neuroﬁbromin is implicated in one
+of the most common genetic diseases, neuroﬁbromato-
+sis type I (NF1) (Ballester et al., 1990; Cawthon et al.,
+1990; Viskochil et al., 1990; Wallace et al., 1990; Xu
+et al., 1990a). Although the IRA1, IRA2, and NF1 genes
+were cloned more than a decade ago, how the RasGAP
+activity of these proteins is controlled is largely un-
+known. Here, we identiﬁed the yeast neuroﬁbromin ho-
+mologs Ira1/2 as targets of the kelch Gb mimic subunits
+Gpb1/2. Gpb1/2 bind to a conserved C-terminal domain,
+stabilize Ira1/2, and thereby serve to govern cAMP-PKA
+signaling by constraining Ras2-GTP excursions. These
+ﬁndings have profound potential implications for our un-
+derstanding of NF1 functions in normal cell growth con-
+trol and its dysregulation in individuals with NF1.
+
+Results
+
+Kelch Gb Mimic Proteins Act Upstream
+of the PKA Pathway
+We hypothesized that the second target of the kelch Gb
+mimic Gpb1/2 proteins might be either an early or a later
+component of the PKA pathway. Here, epistasis analysis
+was used to pinpoint the site of Gpb1/2 action. In models
+in which Gpb1/2 function downstream of Cyr1, gpb1,2
+mutations would be predicted to rescue the growth
+defect of ras2 gpa2 double mutant cells. To test this
+hypothesis, two diploid mutants (gpa2/gpa2 ras2/RAS2
+and gpb1,2/gpb1,2 gpa2/GPA2 ras2/ras2) were con-
+structed, sporulated, and dissected. As shown in Fig-
+ure 1A, gpb1,2 ras2 gpa2 cells were as growth impaired
+as ras2 gpa2 cells, providing evidence that Gpb1/2
+instead act early in the pathway via Cyr1 or one of its
+regulatory elements such as Ras1/2, Cdc25, or Ira1/2.
+
+To examine genetic interactions between gpb1,2 and
+ras2 mutations, the RAS2 gene was deleted in gpb1,2
+cells and the resulting gpb1,2 ras2 cells were tested
+for ﬁlamentous growth, FLO11 expression, sensitivity
+to nitrogen starvation, and glycogen accumulation (Fig-
+
+ures 1B–1F). Consistent with our previous ﬁndings,
+gpb1,2 cells exhibited elevated pseudohyphal and inva-
+sive growth, increased FLO11 expression, sensitivity to
+nitrogen starvation, and reduced glycogen accumula-
+tion.
+Introduction of a gpa2 mutation partially sup-
+pressed these gpb1,2 mutant phenotypes (Figure 1
+and Harashima and Heitman [2002]). On the other
+hand, introduction of a ras2 mutation more completely
+suppressed these gpb1,2 mutant phenotypes. Steady-
+state and glucose-induced cAMP levels were also deter-
+mined. As shown previously (Harashima and Heitman,
+2002), an increased basal level of cAMP was observed
+in gpb1,2 cells, and this elevated cAMP level was re-
+stored to the wild-type level by a ras2 mutation (Fig-
+ure 1G). Introduction of a ras1 mutation was unable to
+suppress any of the gpb1,2 mutant phenotypes (data
+not shown). Taken together, these genetic studies sup-
+port the hypothesis that Gpb1/2 act directly on Ras2 or
+one of its regulators such as the RasGEF Cdc25 or the
+RasGAP Ira1/2 proteins.
+
+RasGAP Proteins Ira1/2 Interact with the Kelch Gb
+Mimic Subunits Gpb1/2
+Possible targets of Gpb1/2 were identiﬁed by mass
+spectrometry analysis of the Gpb1/2 native protein com-
+plex. For this purpose, the FLAG epitope tag was fused
+to the carboxy terminus of Gpb1 and to the amino termi-
+nus of Gpb2. These FLAG-Gpb1/2 proteins were ex-
+pressed from an attenuated ADH1 promoter on a 2 mm
+plasmid. Expression of the FLAG-tagged proteins re-
+stored wild-type ﬁlamentous growth of the gpb1,2 dou-
+ble mutant strain, indicating that both fusion proteins are
+functional (data not shown). Because endogenous Gpa2
+and Gpb1/2 may compete for Gpb1/2 with other targets,
+the FLAG-Gpb1/2 proteins were expressed in gpa2
+gpb1,2 triple mutant cells. Crude cellular extracts were
+prepared, and Gpb1/2 and interacting proteins were
+coimmunoprecipitated by using an anti-FLAG afﬁnity
+matrix. The native protein complexes were eluted with
+FLAG peptide, and the eluted proteins were analyzed
+by mass spectrometry (see Experimental Procedures).
+This analysis revealed a number of candidate Gpb1/2-
+interacting proteins. Importantly, the list of Gpb2-inter-
+acting proteins included Ira1 and Ira2, and no other
+components of the cAMP-PKA signaling cascade (in-
+cluding Cdc25, Ras1/2, Cyr1, Pde1/2, Bcy1, Tpk1/2/3,
+Flo8, or Sﬂ1) were identiﬁed (data not shown). Because
+Gpb1 and Gpb2, and also Ira1 and Ira2, represent par-
+tially redundant protein pairs, we hypothesized that
+Gpb1 and Gpb2 might bind to both Ira1 and Ira2. To ad-
+dress this possibility, Gpb1 was N-terminally tagged and
+expressed, and Gpb1/2-Ira1/2 interactions were exam-
+ined in cells that also expressed a functional version of
+the Ira1 or Ira2 protein fused with three copies of the
+hemagglutinin epitope tag (3HA) (Figure 2). Importantly,
+this coimmunoprecipitation analysis revealed that Gpb1
+and Gpb2 both interact with both Ira1 and Ira2 (Figures
+2A and 2B).
+
+Gpb1/2 contain a unique N-terminal domain and a C-
+terminal domain containing seven kelch repeats. Our
+previous studies revealed that the kelch domains of
+Gpb2 bind to Gpa2 but the unique N-terminal domain
+does not (Harashima and Heitman, 2002). To examine
+which domain(s)
+the Gpb1/2-Ira1/2
+
+is required for
+
+Stabilization of the RasGAP by Kelch Proteins
+821
+
+Figure 1. Genetic Interactions between gpb1,2 and ras2 Mutations
+
+(A) gpb1,2 mutations are unable to suppress the synthetic growth defect of gpa2 ras2 mutant cells. Diploid gpa2::G418/gpa2::hph ras2::nat/
+RAS2 (left) and gpb1,2::loxP/gpb1,2::loxP gpa2::loxP-G418/GPA2 ras2::nat/ras2::nat (right) cells were sporulated and dissected.
+(B–F) ras2 mutations alleviate increased PKA phenotypes associated with gpb1,2 mutations, including enhanced pseudohyphal growth (B),
+hyperinvasive growth (C), increased FLO11 expression (D), sensitivity to nitrogen starvation (E), and reduced glycogen accumulation (F).
+(G) Glucose-induced cAMP production was examined. Glucose was added to glucose-starved cells, and at the indicated time points, cells were
+collected and cAMP levels were determined.
+
+interaction, the FLAG tag was fused to either the N termi-
+nus of the N-terminal unique domain (FLAG-Gpb2N) or to
+the C-terminal kelch domain (FLAG-Gpb2C), and the
+resulting fusion proteins and FLAG-Gpb2 were coex-
+pressed with the Ira1-3HA protein in vivo (Figure 2C). In
+contrast to the Gpa2-Gpb1/2 interaction, neither the
+Gpb2 N-terminal nor the C-terminal domain alone was
+sufﬁcient to bind to Ira1. Therefore, both Gpb2 domains
+are required for interaction with Ira1. We note that the
+unique N-terminal and the C-terminal kelch domains
+are both essential for Gpb1/2 function in vivo (Harashima
+and Heitman, 2002).
+
+Because the gpb1,2 mutant phenotypes were sup-
+pressed by ras2 mutations and Gpb1/2 bind to the Ras-
+GAP proteins Ira1/2, Gpb1/2 could associate with Ira1/2
+and function via Ras2. However, Gpb1/2 interacted with
+Ira1/2 in the absence of Ras2 as strongly as in the pres-
+ence of Ras2 (Figure 2D). Therefore, Ras2 is dispensable
+for the Gpb1/2-Ira1/2 interactions, and Gpb1/2 may con-
+trol Ras activity through direct interaction with Ira1/2.
+
+Gpb1/2 Are Genetically Implicated in Both
+Gpa2- and Ras-Mediated Signaling
+ras2 mutants are defective in ﬁlamentous growth,
+whereas wild-type cells expressing a dominant active
+
+RAS2G19V allele that lacks intrinsic GTPase activity ex-
+hibit elevated ﬁlamentous growth. Consistent with these
+ﬁndings, cells lacking Ira1, Ira2, or both Ira1 and Ira2 were
+also hyperﬁlamentous (Figure 3A). Importantly, ira1,2
+cells expressing Gpb1/2 and ira1,2 gpb1,2 quadruple
+mutant cells lacking Gpb1/2 were morphologically indis-
+tinguishable from each other. These ﬁndings support
+models in which the hyperﬁlamentous phenotype con-
+ferred by the gpb1,2 mutations may be exerted via Ira1/2.
+Expression of the dominant active GPA2Q300L and
+RAS2G19V alleles dramatically enhances ﬁlamentous
+growth of wild-type cells (Figure 3B). In contrast, little
+if any further effect was observed when these dominant
+active mutant alleles were expressed in the hyperﬁla-
+mentous gpb1,2 double mutant, supporting models in
+which Gpa2 and Ras2 are activated by the gpb1,2 muta-
+tions and Gpb1/2 function to negatively control the ac-
+tivity of both (Figure 3B).
+
+If Gpb1/2 regulate Ira1/2, and the hyperﬁlamentous
+phenotype of the gpb1,2 mutant is due to reduced
+Ira1/2 RasGAP activity,
+increased expression of the
+IRA2 gene should suppress the gpb1,2 mutant pheno-
+type. In fact, overexpression of the IRA2 gene attenu-
+ated pseudohyphal differentiation of the gpb1,2 mutant
+(Figure 3C).
+
+Molecular Cell
+822
+
+Figure 2. Kelch Gb Mimic Subunits Interact
+with RasGAP Ira1/2
+
+(A and B) Ira1 (A) and Ira2 (B) physically bind
+to Gpb1/2 in vivo. The N-terminally FLAG-
+tagged Gpb1 (pTH111) and Gpb2 (pTH88)
+proteins were expressed in yeast cells that
+also express C-terminally 3HA-tagged Ira1
+or Ira2 and immunoprecipitated.
+(C) Gpb2 requires both the unique N-terminal
+and the C-terminal kelch domains to interact
+with Ira1. The N-terminally FLAG-tagged
+Gpb2 N-terminal region (FLAG-Gpb2N), C-
+terminal kelch domains (FLAG-Gpb2C), or
+full-length Gpb2 (FLAG-Gpb2) was coex-
+pressed with the Ira1-3HA protein in vivo. Po-
+sitions of molecular marker (128, 85, 41.7, and
+32.1 k) are indicated to the right of the panel.
+(D) Ras2 is dispensable for the Gpb2-Ira1 in-
+teraction. Gpb2-Ira1 interactions were exam-
+ined in the presence and absence of Ras2 by
+using cells that express FLAG-Gpb2.
+Note that the ﬁrst lane in the Co-IP panels of
+(A) and (B) was spliced to eliminate a space
+and that the data in each panel are directly
+comparable.
+In (A)–(D), protein complexes were captured
+on anti-FLAG afﬁnity gel and detected with
+anti-FLAG or anti-HA. Input levels of Ira1/2
+were captured on anti-HA agurose beads,
+eluted, and analyzed by Western blot using
+anti-HA antibody (see the Experimental Pro-
+cedures for details).
+
+Consistently, neither loss of the IRA1/2 genes nor in-
+troduction of the RAS2G19V gene exaggerated mutant
+phenotypes (including hyperinvasion, nitrogen starva-
+tion sensitivity, and decreased glycogen) associated
+with an elevated PKA activity in gpb1,2 cells (Figures
+3D–3F). On the other hand, overproduction of Ira2 was
+able to alleviate these gpb1,2 mutant phenotypes (Fig-
+ures 3D–3F). In addition, the increased basal and glu-
+cose-induced cAMP levels in gpb1,2 cells were signiﬁ-
+cantly attenuated by Ira2 overproduction (Figure 3G).
+
+In summary, these genetic data provide evidence that
+
+Gpb1/2 negatively control cAMP signaling via Ira1/2.
+
+Gpb1/2 Control Ira1/2 RasGAP Activity
+Biochemical and genetic data indicate that Ira1/2 repre-
+sent secondary targets of Gpb1/2 and that Gpb1/2 func-
+tion to enhance Ira1/2 activity. To investigate this at
+a mechanistic level, we quantiﬁed Ras2-GTP levels by
+measuring Ras2 protein binding to the Raf1 kinase that
+speciﬁcally interacts with Ras-GTP (Colombo et al.,
+2004). A low copy number plasmid carrying the wild-
+type RAS2 or dominant active RAS2G19V gene was intro-
+duced into wild-type, gpb1,2, ira1, ira2, and ira1,2 cells.
+Transformants were grown in synthetic medium to mid-
+logarithmic growth phase, and crude cell extracts were
+prepared to assess the steady state levels of Ras2-GTP.
+As shown previously, the Ras-GTP level was in-
+creased w5-fold in ira1 and ira2 cells, (Figure 4A and
+Tanaka et al. [1990a]). Similarly, gpb1,2 cells also ex-
+hibited an w5 fold increase in Ras2-GTP levels, indica-
+tive of reduced RasGAP activity (Figure 4A). The Ras-GTP
+level in ira1,2 cells was further increased and compara-
+ble to that in wild-type and gpb1,2 cells expressing
+the RAS2G19V gene, in which an w25-fold increase in
+
+Ras-GTP was observed (Figure 4A). These observations
+are in accord with the previous ﬁnding documenting
+that Ras2-GTP levels were indistinguishable between
+wild-type and ira1,2 cells when the RAS2G19V gene
+was expressed (Tanaka et al., 1990a). In summary, loss
+of Gpb1/2 results in an elevation of Ras2-GTP, possibly
+by reducing, but not eliminating, the RasGAP activity of
+Ira1/2.
+
+Gpb1/2 Control Protein Levels of Ira1/2
+To elucidate how Gpb1/2 control Ira1/2 RasGAP activity,
+we investigated the levels of the Ira1/2 proteins as well
+as Ira1/2-Ras2 interactions in the presence and absence
+of Gpb1/2. To examine protein levels, the functional
+Ira1/2-3HA proteins were expressed. Neither Ira1 nor
+Ira2 was detectable by Western blot analysis using
+crude cell extracts because of low expression levels
+(data not shown). The Ira1/2-3HA proteins were there-
+fore enriched by immunoprecipitation using anti-HA-
+conjugated agarose beads, which also enabled an ex-
+amination of the levels of the Ras2 protein bound to
+the Ira1/2-3HA afﬁnity captured proteins (Figure 4B).
+
+As shown in Figure 4B, loss of Gpb1/2 resulted in
+a marked decrease in the levels of both Ira1 and Ira2
+and a concomitant loss of Ras2 as an Ira1/2-interacting
+protein. Reintroduction of the GPB1 and GPB2 genes
+complemented this defect and restored the levels of
+Ira1/2 to the wild-type levels, indicating that Gpb1/2
+govern the stability of Ira1/2.
+
+To conﬁrm this model, protein stability of Ira1/2 was
+examined in the presence and absence of Gpb1/2 by a
+pulse-chase analysis (Figures 4C and 4D). In wild-type
+cells, the Ira1/2 and Fpr1 proteins were stable over
+time, and the half life (t1/2) of these proteins was more
+
+Stabilization of the RasGAP by Kelch Proteins
+823
+
+Figure 3. Genetic Interactions between gpb1,2 and ira1,2 Mutations
+
+(A) Isogenic diploid strains indicated were assayed for pseudohyphal growth.
+(B) The dominant active GPA2Q300L and RAS2G19V alleles were introduced into diploid wild-type and gpb1,2 cells and tested for ﬁlamentous
+growth.
+(C) Ira2 overproduction suppressed the increased ﬁlamentous phenotype of gpb1,2 cells.
+(D) Haploid cells indicated were tested for invasive growth. Cells were grown on YPD at 30ºC for 5 days and photographed after weak (W), mild
+(M), or strong (S) washing.
+(E) Cells were grown on YPD at 30ºC for 2 days and replica plated onto nitrogen-replete (+NH4) and no nitrogen (2NH4) media to test for nitrogen
+starvation sensitivity. After 6 (left) or 10 (right) days at 30ºC, cells were replica plated onto YPD again and incubated under the same conditions.
+(F) Glycogen levels of cells grown on YPD at 30ºC for 2 days were determined by using iodine vapor.
+(G) cAMP levels were determined in response to glucose readdition as described in the legend of Figure 1.
+
+than 4 hr (t1/2 > 4 hr, Figures 4C and 4D and data not
+shown). Similarly, the Fpr1 protein in gpb1,2 cells was
+as stable as in wild-type cells (Figures 4C and 4D and
+data not shown). However, levels of the Ira1/2 proteins
+decreased rapidly, and the half-life of Ira1 and Ira2 was
+reduced to w30 and 25 min, respectively (Figures 4C
+and 4D). Therefore, we conclude that Gpb1/2 bind to
+and stabilize Ira1/2 and that loss of Gpb1/2 leads to re-
+duced Ira1/2 protein levels.
+
+Gpb1/2 Stabilize Ira1/2 by Binding
+to a C-Terminal Domain
+To establish how Gpb1/2 control stability of the Ira1/2
+proteins, the Gpb1/2 binding domain on Ira1/2 was iden-
+tiﬁed. For this purpose, deletions were created in the en-
+dogenous Ira1 C terminus by inserting the 3HA epitope
+and expressing these deletion derivatives in an other-
+wise wild-type background (Figure 5). Plasmids ex-
+pressing the FLAG-Gpb1/2 proteins were then intro-
+duced into the resulting Ira1 deletion mutant cells, and
+Gpb1/2-Ira1 interactions were examined by FLAG-me-
+diated coimmunoprecipitation (Figures 5A and 5B).
+
+By Western blot analysis, the level of the C-terminally
+truncated 1–2925 aa Ira1 protein was signiﬁcantly re-
+duced and the shorter 1–2714 aa and 1–2432 aa Ira1 pro-
+teins were undetectable in this assay (Figure 5A and ‘‘In-
+put’’ panel in Figure 5B). Because Gpb1/2 control the
+stability of the Ira1/2 proteins, deletion of a Gpb1/2 bind-
+ing site should result in a decrease in Ira1/2 protein
+levels. Thus, we hypothesized that the Gpb1/2 binding
+site might be present in the C-terminal region of Ira1
+necessary for Ira1 stability. In fact, Gpb1/2 bound to
+the Ira1 deletion protein retaining 1–2925 aa, but not to
+the derivative containing only 1–1257 aa (Figure 5A
+and ‘‘Co-IP’’ panel in Figure 5B). Furthermore, two N-ter-
+minal deletion derivatives that retain amino acid resi-
+dues 2433–3092 and 2715–3092 were stably expressed
+and both associated with Gpb1/2 (Figure 5C). A C-termi-
+nal region spanning 2715–2925 aa of Ira1 also bound to
+Gpb1/2 (Figure 5D), and loss of this region resulted in in-
+stability of this Ira1 deletion derivative in accord with the
+role of Gpb1/2 in Ira1 protein stability (Figure 5A and
+data not shown). Taken together, these results reveal
+that the Gpb1/2 binding domain (GBD) maps between
+
+Molecular Cell
+824
+
+Figure 4. Gpb1/2 Stabilize Ira1/2
+
+(A) The relative increase in Ras2-GTP was examined in haploid cells that express the wild-type or dominant active (G19V) RAS2 gene. Repre-
+sentative data are shown in the top panel. Puriﬁed Ras2-GTP from ira1,2 double mutant cells expressing the wild-type Ras2 protein and
+wild-type and gpb1,2 mutant cells that express the dominant active Ras2G19V protein was 5-fold diluted prior to Western analysis, as the levels
+of Ras2-GTP in these cells were higher than those in the other cells. Levels of Ras-GTP and total cellular Ras protein (‘‘Input’’) were densitometri-
+cally quantiﬁed. Ras2-GTP levels were then normalized to ‘‘Input’’ Ras2 levels and shown as a relative level to Ras2-GTP in wild-type cells in the
+bottom panel. The values shown in the bottom panel are the means of two or three independent experiments with the standard error of the mean.
+(B) The GPB1/2 genes were introduced into wild-type and gpb1,2 cells expressing either IRA1-3HA or IRA2-3HA to examine protein stability of
+Ira1/2 and the Ras2-Ira1/2 interactions. ‘‘NT’’ indicates the nontagged, wild-type Ira1, Ira2, or Trp1 protein. Based on densitometric analysis, the
+steady-state protein levels of Ira1/2 were reduced in gpb1,2 cells by at least 2- to 10-fold compared to wild-type cells.
+(C and D) Protein stability of Ira1/2 was investigated by cycloheximide-chase assay in the presence and absence of Gpb1/2. Levels of Ira1/2-3HA
+and Fpr1 were densitometorically quantiﬁed, and the percentage of protein abundance of Ira1/2 and Fpr1 at ‘‘Time 0’’ is shown in the bottom
+panel. Note that the ﬁrst and the last lanes in the ‘‘Ras2-GTP’’ and ‘‘Input’’ panels in (A) were spliced to eliminate a space or a lane and that
+the data in each panel are directly comparable.
+
+amino acids 2715 and 2925 of Ira1. Signiﬁcantly, this re-
+gion is conserved in homologs of Ira1, including the hu-
+man neuroﬁbromin protein (see Discussion).
+
+Equivalent deletions were also introduced into Ira2
+(Figure S1 available in the Supplemental Data with this
+article online). The level of the Ira2 C-terminal deletion
+protein retaining 1–2922 aa was reduced, and this Ira2
+deletion derivative was still able to interact with Gpb1/2
+(Figures S1A and S1B). An Ira2 variant that preserves
+1–2702 aa, but not the GBD, was now undetectable
+(Figure S1B). These ﬁndings are similar to the equivalent
+Ira1 deletion proteins (1–2925 aa and 1–2714 aa) (Fig-
+
+ure 5). Both Gpb1 and Gpb2 bind to Ira2 deletion deriv-
+atives retaining amino acids 2703–3079 and 2703–2922
+that are homologous to the regions spanning the corre-
+sponding amino acids 2715–3092 and 2715–2925 of Ira1
+(Figures S1C and S1D). These results provide evidence
+that the GBD maps to the corresponding regions of
+both Ira1 and Ira2.
+
+The C Terminus of Ira1/2 Is Required for Function
+Biochemical studies reveal that deletion of the C-termi-
+nal 167 amino acids, and deletion of the C-terminal 378
+amino acids or the GBD in the Ira1 protein reduce and
+
+Stabilization of the RasGAP by Kelch Proteins
+825
+
+Figure 5. Gpb1/2 Bind to the C Terminus of Ira1
+
+(A) Schematic of Ira1 deletion proteins created and summary of results obtained from assays of protein abundance (Input) and Gpb1/2 binding
+(Co-IP) as below. Positions of deletions created in Ira1 are shown and numbered. A conserved region between Ira1/2 and human neuroﬁbromin is
+shaded in gray. The GAP-related domain (GRD) and the Gpb1/2 binding domain (GBD) are shown as hatched and dark gray rectangles, respec-
+tively.
+(B) Protein interactions were investigated by using crude cell extracts from cells expressing the 3HA-tagged full-length Ira1 (1–3092 aa) or Ira1
+C-terminal deletion variants. Positions of full-length wild-type Ira1 and deletion variants (1–2925 and 1w1257 aa) are indicated to the left of the
+panel. Positions at which molecular weight markers (250, 210, and 148 k) migrated are indicated to the right of the panels. The deletion
+of 167 amino acids leads to reduced protein levels of Ira1 from 3- to 7-fold in comparison of the full-length Ira1 protein level, and the further
+deletion (378 aa) results in undetectable levels (‘‘Input’’). Note that some smaller Ira1-3HA species were also detected via the C-terminal HA
+tag, indicating that these are proteolysis products lacking N-terminal regions. This further supports the assignment of the GBD to the C-terminal
+region of Ira1.
+(C) N-terminal deletion Ira1 variants were tested for interaction with Gpb1/2. Positions of the Ira1 deletion variants (2433–3092 and 2715–3092 aa)
+are indicated to the left of the panel.
+(D) A putative GBD of Ira1 spanning 2715–2925 aa was examined for Gpb1/2 interactions. Note that the last two lanes in (B) and the ﬁrst lane in (D)
+were spliced to remove a space and that the Western data in each panel are directly comparable.
+
+abolish protein stability, respectively. To test for a phys-
+iological relevance of these results, homozygous diploid
+cells that express these Ira1 C-terminal deletions
+(D2926–3092, D2715–3092, and DGBD) were con-
+structed and assessed for pseudohyphal differentiation
+(Figure 6A). Haploid cells that carry these Ira1 C-terminal
+deletions were also tested for invasive growth, nitrogen
+starvation sensitivity, and glycogen accumulation (Fig-
+ures 6B–6D). Cells expressing the truncated Ira1 deriva-
+tive that contains 1–2925 aa and also includes the GBD
+exhibited signiﬁcantly increased ﬁlamentous growth
+
+and sensitivity to nitrogen starvation and decreased gly-
+cogen (Figure 6). Cells expressing the shorter Ira1 deriv-
+atives that lack the GBD (1–2714 aa or DGBD) were
+markedly hyperﬁlamentous and phenotypically indistin-
+guishable from gpb1,2 or ira1 null mutant cells, suggest-
+ing that these two Ira1 deletion derivatives are nonfunc-
+tional (Figure 6). This is consistent with instability of
+these deletion proteins (Figure 5). Therefore, the GBD
+and the extreme C-terminal region are both involved in
+protein stability and physiological functions of the Ira1
+protein.
+
+Molecular Cell
+826
+
+Figure 6. The C Terminus of Ira1/2 Is Necessary for Function
+
+Homozygous diploid cells were tested for ﬁlamentous growth (A). Invasive growth (B), nitrogen starvation sensitivity (C), and glycogen accumu-
+lation (D) were examined by using isogenic haploid cells. To assay for nitrogen starvation sensitivity, cells were replica plated onto YPD after 7
+days on nitrogen replete or depleted medium.
+
+Discussion
+
+Kelch Gpb1/2 Proteins Stabilize the RasGAP
+Proteins Ira1/2
+The central ﬁnding of our study is the discovery that the
+activity of the yeast RasGAP neuroﬁbromin homologs
+Ira1/2 is controlled by two components of the GPCR-Ga
+signaling module: Gpb1 and Gpb2. Our studies provide
+evidence that Gpb1/2 bind to and control the stability of
+Ira1/2 and thereby affect intracellular Ras-GTP levels. In
+conjunction with their role in binding the Gpa2-GDP
+complex and inhibiting receptor-Ga coupling, Gpb1/2
+serve as potent molecular brakes to constrain signaling
+via the PKA signaling pathway during both vegetative
+growth and dimorphic transitions (Figure 7).
+
+Deletion analysis enabled the deﬁnition of two C-ter-
+minal domains involved in the protein stability of Ira1/2.
+Namely, the Gpb1/2 binding domain (GBD) spanning
+2715–2925 aa in Ira1 and the corresponding region in
+Ira2 (2703–2922 aa) and the more extreme C-terminal re-
+gion of Ira1/2 that is unique to the yeast proteins (Fig-
+ure 5 and Figure S1). The two domains have an additive
+effect, because the Ira1/2 C-terminally truncated pro-
+teins lacking the yeast-speciﬁc domain were still detect-
+able, yet deletions eliminating both domains or the GBD
+alone resulted in undetectable levels of the Ira1/2 C-ter-
+minal deletion variants (1–2714 aa Ira1, Ira1DGBD, and
+1–2702 aa Ira2). Consistent with this,
+Ira1/2 protein
+levels were signiﬁcantly reduced in gpb1,2 cells com-
+pared with those in wild-type cells (Figures 4B and 5
+
+and Figure S1). Therefore, two distinct mechanisms ap-
+pear to govern the stability of Ira1/2. Importantly, Ira1
+was found to be ubiquitinated in a proteomic analysis
+of membrane-associated proteins (Hitchcock et al.,
+2003). This ﬁnding indicates that Ira1/2 protein stability
+might be controlled by a ubiquitin/proteasome-depen-
+dent mechanism as is neuroﬁbromin (see below), and
+Gbp1/2 could inhibit Ira1/2 ubiquitination or interactions
+with the proteasome and thereby stabilize Ira1/2. Fur-
+ther studies will be required to elucidate in further detail
+the molecular mechanisms by which the yeast neuroﬁ-
+bromin homologs Ira1/2 are stabilized. These would
+also shed light on how RasGAP activity of neuroﬁbromin
+is controlled in response to extracellular stimuli.
+
+Interestingly, in previous studies, a transversion muta-
+tion resulting in a premature nonsense codon at the
+2700th amino acid was identiﬁed in Ira2, truncating the
+penultimate 222 amino acids,
+including the Gpb1/2
+binding domain, and resulting in a loss of Ira2 function
+(Halme et al., 2004). These studies provide complemen-
+tary support for our ﬁnding that the C-terminal domain of
+Ira1/2 is critical for biological function. Importantly, the
+role of the GBD is also likely to be conserved in human
+neuroﬁbromin because the GBD is conserved among
+the yeast and mammalian neuroﬁbromin homologs.
+Therefore, our ﬁndings should shed light on how the
+GAP activity of the neuroﬁbromin homologs is con-
+trolled and its dysregulation in the ontogeny of NF1.
+
+Ira1 and Ira2 share w45% sequence similarity and are
+functionary redundant, yet each may also play speciﬁc
+
+Stabilization of the RasGAP by Kelch Proteins
+827
+
+Figure 7. A Dual Role of the Kelch Proteins Gpb1/2 as Molecular Brakes on cAMP Signaling
+
+(A) A schematic of the yeast neuroﬁbromin homolog Ira1 and human neuroﬁbromin proteins. A conserved region including the GRD and the GBD
+is shown in gray. GRD, hatched rectangle; GBD, bold rectangle.
+(B) A model for how the kelch Gb mimic proteins Gpb1/2 control cAMP signaling. See details in the text.
+
+roles in Ras regulation. First, ira1,2 double mutants ex-
+hibit more severe phenotypes compared to each single
+mutant. For instance, ira1,2 double mutants exhibit an
+increased sensitivity to heat shock, enhanced ﬁlamen-
+tous growth, and increased Ras-GTP levels compared
+to ira1 or ira2 single mutants (Figure 3; [Tanaka et al.,
+1990a, 1990b]). Second, overproduction of the IRA2
+gene is able to suppress the heat shock sensitivity of
+ira1,2 cells, but overexpression of the IRA1 gene does
+not (Tanaka et al., 1990b). Similarly, we note that overex-
+pression of IRA2 suppresses the gpb1,2 double mutant
+phenotype, whereas overexpression of IRA1 does not
+(data not shown, Figure 3). Third, ira1 mutations sup-
+press the lethality of cdc25 mutations more efﬁciently
+than ira2 mutations (Tanaka et al., 1990b). Therefore,
+Ira1/2 may be controlled by both common and speciﬁc
+regulators. Indeed, Tfs1, which is a member of the phos-
+phatidylethanolamine binding protein family and known
+as a cytoplasmic inhibitor CPY, speciﬁcally binds to and
+inhibits Ira2, although the mechanisms by which Tfs1
+controls RasGAP activity of Ira2 remain unclear (Chau-
+tard et al., 2004).
+
+Gpb1/2 Link Signaling from the Ga Subunit Gpa2
+to Ras
+Our studies demonstrate that a central molecular link be-
+tween the GPCR Gpr1-Ga Gpa2 signaling module and
+Ras is exerted via the RasGAP Ira1/2. Our recent studies
+also demonstrate that Gpb1/2 preferentially bind to the
+GDP bound form of Gpa2 and Gpb1/2 are recruited to
+the plasma membrane in a Gpa2-dependent manner
+and function to inhibit coupling between the Gpr1 recep-
+tor and Gpa2 (Harashima and Heitman, 2002, 2005). We
+hypothesize that the following molecular events tran-
+spire when the ligand glucose binds to the Gpr1 receptor
+(Figure 7). First, GDP-GTP exchange occurs on Gpa2 and
+Gpb1/2 dissociate from Gpa2-GTP. Second, Gpa2-GTP
+stimulates cAMP production via adenylyl cyclase and
+the liberated Gpb1/2 subunits then interact with and sta-
+bilize the Ira1/2 proteins. On the other hand, Ras is also
+
+activated in response to glucose by a Cdc25-mediated
+GDP-GTP exchange reaction. The Gpb1/2 bound and
+stabilized Ira1/2 proteins now bind to Ras-GTP and stim-
+ulate GTP hydrolysis, attenuating Ras-mediated activa-
+tion of Cyr1. These mechanisms provide the cell with
+an elaborate and balanced regulatory network that con-
+strains cAMP signaling within a tightly controlled physi-
+ological range. In this model, Gpb1/2 play a dual inhibi-
+tory role to inhibit
+receptor-Ga coupling and to
+extinguish signaling by Ras-GTP via their action to stabi-
+lize and thereby promote the RasGAP activity of Ira1/2.
+A recent report has suggested that Gpb1/2 might act
+late in the PKA pathway to regulate signaling, possibly
+via direct actions on the PKA catalytic or regulatory sub-
+unit or on a protein phosphatase that impinges on PKA
+(Lu and Hirsch, 2005). Although such a model is conceiv-
+able, no direct evidence linking Gpb1 or Gpb2 to either
+PKA subunits or candidate regulators was presented.
+Instead, our genetic and physical evidence presented
+here support a model in which Gpb1/2 directly impinge
+upon Ira1/2 in the PKA signaling pathway. In addition, si-
+multaneous loss of Gpb1/2 was unable to suppress the
+growth defect of gpa2 ras2 cells (Figure 1A). However,
+given the complex nature of the PKA signaling cascade,
+one idea in which these two apparently conﬂicting
+models might be reconciled would be to consider that
+the signaling cascade might exist as a supramolecular
+complex, in which it might be difﬁcult to assign a strictly
+linear signaling pathway. Given the size of the Ira1/2 pro-
+teins, it would not be surprising if these were to act as
+scaffolds for PKA signaling via interactions with Ras,
+Gpb1/2, and other signaling components.
+In such
+a model, Gpb1/2 might exert regulatory roles at multiple
+steps in the cascade. Further studies will be required to
+elucidate the potent inhibitory action of Gpb1/2 on the
+PKA signaling pathway.
+
+A Yeast Model for NF1
+NF1 is an autosomal-dominant disorder that occurs in
+approximately one in every 3500 newborn infants.
+
+Molecular Cell
+828
+
+Mutations in the NF1 gene result in pleiotropic manifes-
+tations that include learning disabilities, small stature,
+bony abnormalities, and benign neuroﬁbromas involv-
+ing peripheral nerves. In some cases, NF1 patients pres-
+ent with malignant tumors involving peripheral nerve
+sheath tumors, optic gliomas, or the hematopoietic sys-
+tem (Zhu and Parada, 2002).
+
+The human Ira1/2 homolog neuroﬁbromin is a large
+protein (w300 kDa) that shares sequence identity with
+members of the RasGAP family, including p120GAP,
+and Drosophila NF1 (Buchberg et al., 1990; Cawthon
+et al., 1990; Marchuk et al., 1991; Wallace et al., 1990;
+Xu et al., 1990b). The RasGAP activity of neuroﬁbromin
+has a pivotal role in Ras-dependent NF1 development
+because expression of the GAP-related domain (GRD)
+of neuroﬁbromin can alleviate these NF12/2-deﬁcient
+phenotypes (DeClue et al., 1992; Hiatt et al., 2001). In ad-
+dition to regulating Ras activity, neuroﬁbromin also gov-
+erns G protein-mediated adenylyl cyclase activity in the
+fruit ﬂy Drosophila melanogaster to control learning and
+memory, neuropeptide responses, and regulation of
+body size (Guo et al., 1997, 2000; Hannan et al., 2006;
+The et al., 1997; Tong et al., 2002). Expression of a human
+NF1 gene complements the phenotypes in NF12/2 ﬂies
+associated with an adenylyl cyclase defect
+(Tong
+et al., 2002). Similarly, neuroﬁbromin controls adenylyl
+cyclase activity in response to the neuropeptide PACAP
+in mammals (Dasgupta et al., 2003; Tong et al., 2002).
+Therefore, neuroﬁbromin governs adenylyl cyclase ac-
+tivity not only in yeast but also in ﬂies and in mammals.
+Importantly, Ira1 binds to Cyr1, and this interaction plays
+a crucial role in Cyr1 activation (Mitts et al., 1991). Be-
+cause heterologous expression of the GRD from mam-
+malian neuroﬁbromin rescues yeast ira1 and ira2 mutant
+phenotypes (Ballester et al., 1989; Ballester et al., 1990;
+Martin et al., 1990; Tanaka et al., 1990a; Xu et al., 1990a),
+Ira1/2 are structural and functional counterparts of
+mammalian neuroﬁbromin and play key conserved roles
+in regulating both Ras and adenylyl cyclase.
+
+Our studies identiﬁed the GBD in the C-terminal region
+of the yeast Ira1/2 proteins; importantly, this region is
+conserved in the ﬂy and mammalian homologs (2247–
+2417 aa in human NF1, Figure 7). Analysis of the muta-
+tional spectra in the NF1 gene from NF1 patients reveals
+that many mutations lie downstream of the GRD and
+many missense, frameshift, nonsense, and splice site
+mutations map near or even within the GBD homologous
+region (Ars et al., 2003; Fahsold et al., 2000; Origone
+et al., 2002). These downstream mutations presumably
+leave the GRD functional but may affect protein stability
+of neuroﬁbromin and lead to the development of NF1.
+Importantly, neuroﬁbromin stability is controlled via pro-
+teolysis by a ubiquitin/proteasome system (Cichowski
+et al., 2003). Mammalian cells express a myriad of kelch
+repeat proteins, and most of these remain to be charac-
+terized at a functional level. In many previous examples,
+signaling precedents established ﬁrst in yeast were later
+found to also operate in multicellular eukaryotes. Our
+studies suggest that kelch repeat proteins related to
+Gpb1/2 may play an analogous role in controlling neuro-
+ﬁbromin stability and signaling in ﬂies and humans and
+might therefore provide clues to understand how NF1
+develops and stimulate the development of therapeutic
+interventions.
+
+Experimental Procedures
+
+Strains, Media, and Plasmids
+Media and standard yeast experimental procedures were as de-
+scribed (Sherman, 1991). A heterozygous diploid gpb1,2::loxP/
+gpb1,2::loxP gpa2::loxP-G418/GPA2 ras2::nat/ras2::nat strain was
+isolated after a cross between stains THY387a and THY389a. Yeast
+strains and plasmids used in this study are summarized in Tables S1
+and S2.
+
+Phenotypic Analysis
+Pseudohyphal and invasive growth assays, sensitivity to nitrogen
+starvation, glycogen accumulation, Northern analysis, and cAMP
+assay were conducted as described previously (Harashima and
+Heitman, 2002). In cAMP assay data shown in Figures 1G and 3G,
+the values shown are the mean of two independent experiments.
+
+Preparation of Crude Cell Extracts
+Total cell extracts from yeast cells that were grown to midlog phase
+(OD600 y 0.8) in YPD or synthetic drop-out media were prepared in
+lysis buffer (50 mM HEPES [pH 7.6], 120 mM NaCl, 0.3% CHAPS, 1
+mM EDTA, 20 mM NaF, 20 mM b-glycerophosphate, 0.1 mM Na-or-
+thovanadate, 0.5 mM DTT, protease inhibitors [Calbiochem, cocktail
+IV], and 0.5 mM PMSF) by using a bead beater. Because the levels of
+the full-length Ira1/2 and Ira1/2 N- and C-terminal deletion variant
+proteins in crude extracts were too low to detect by Western blot,
+the full-length and deletion Ira1/2 proteins were immunoprecipitated
+by using anti-HA agarose beads, eluted, subjected to Western anal-
+ysis, and examined for protein stability and indicated as ‘‘Input’’ in
+Figures 2, 4, and 5 and Figure S1.
+
+Immunoprecipitation and Western Blot Analysis
+HA-tagged Ira1/2 proteins were captured by using anti-HA agarose
+beads (F-7, Santa Cruz Biotechnology). The beads were then
+washed three times with lysis buffer, once with PBS, and once
+with elution buffer (50 mM HEPES [pH 7.6], 100 mM KCl, 1 mM
+EDTA, 20 mM b-glycerophosphate, 0.5 mM DTT, protease inhibitors
+[Calbiochem, cocktail IV], and 0.5 mM PMSF) for 5 min each. After
+washing, the immunoprecipitated proteins were eluted by the addi-
+tion of HA peptide (Roche) at a ﬁnal concentration of w800 mg/ml in
+elution buffer with incubation for 30 min at 30ºC. FLAG-tagged pro-
+teins were immunoprecipitated with anti-FLAG M2 afﬁnity gel
+(SIGMA), the beads were washed, and protein complexes were
+then eluted by incubating for 30 min at room temperature with
+FLAG peptide (SIGMA) at a ﬁnal concentration of w500 mg/ml in elu-
+tion buffer. The eluted proteins were subjected to Western analysis
+with anti-HA (F-7 or Y-11, Santa Cruz Biotechnology) and anti-FLAG
+M2 antibodies (SIGMA). Endogenous Ras2 protein levels were ana-
+lyzed with an anti-Ras2 antibody (yC-19, Santa Cruz Biotechnology).
+The Fpr1 protein served as a loading control and was examined with
+a polyclonal anti-Fpr1 antibody (Harashima and Heitman, 2002).
+
+Mass Spectrometry
+The eluted protein samples were TCA precipitated, washed with ac-
+etone, resuspended in Tris buffer, 8 M urea, pH 8.6, reduced with 100
+mM TCEP, and alkylated with 55 mM iodoacetamide. Trypsin diges-
+tion was performed in the presence of 1 mM CaCl2 to enhance spec-
+iﬁcity. Peptide mixtures were analyzed as described by Washburn
+et al.
+(2001). A FLAG-tagged GFP protein (pTH100) served as
+a mock control.
+
+Ras-GTP Detection
+Total cellular extracts were prepared as above and employed for
+coimmunoprecipitation by using a GST-fused Ras binding domain
+(RBD) from the Raf1 kinase that preferentially binds to Ras-GTP
+(EZ-DETECT Ras activation kit, PIERCE Biotechnology). Experimen-
+tal procedures were followed per the manufacturer’s instructions.
+
+Cycloheximide-Chase Assay
+Cycloheximide (CHX) was added to exponentially growing cells at
+a ﬁnal concentration of 50 mg/ml to inhibit de novo protein synthesis.
+At the time points indicated, cells were collected and washed. Total
+cell extracts were prepared and subjected to immunoprecipitation
+for Ira1/2 or SDS-PAGE for Fpr1 as above.
+
+Stabilization of the RasGAP by Kelch Proteins
+829
+
+Supplemental Data
+Supplemental Data include Supplemental Experimental Procedures,
+Supplemental References, one ﬁgure, and two tables and can be
+found with this article online at http://www.molecule.org/cgi/
+content/full/22/6/819/DC1/ or will be provided upon request from
+the authors.
+
+Acknowledgments
+
+We thank Akio Toh-e for providing a plasmid and Cristl Arndt and
+Emily Wenink for assistance. We also thank Julian Rutherford,
+Chaoyang Xue, and Yong-Sun Bahn for critical reading and Andy
+Alspaugh, Henrik Dohlman, Bob Lefkowitz, and Pat Casey for en-
+couragement. We are indebted to Yoshinori Ohsumi for his tremen-
+dous support during the revision of this manuscript. This study was
+supported by the Neuroﬁbromatosis program of the Department of
+Defense (W81xwh-04-01-0208). T.H. was supported by a fellowship
+from the Children’s Tumor Foundation. J.H. was an investigator of
+the Howard Hughes Medical Institute. Funding from the National
+Institute of Health (P41 RR11823-10) to J.R.Y. is gratefully acknowl-
+edged.
+
+Received: August 6, 2005
+Revised: March 14, 2006
+Accepted: May 8, 2006
+Published: June 22, 2006
+
+References
+
+Ars, E., Kruyer, H., Morell, M., Pros, E., Serra, E., Ravella, A., Estivill,
+X., and La´ zaro, C. (2003). Recurrent mutations in the NF1 gene are
+common among neuroﬁbromatosis type 1 patients. J. Med. Genet.
+40, e82.
+
+Ballester, R., Michaeli, T., Ferguson, K., Xu, H.P., McCormick, F., and
+Wigler, M. (1989). Genetic analysis of mammalian GAP expressed in
+yeast. Cell 59, 681–686.
+
+Ballester, R., Marchuk, D., Boguski, M., Saulino, A., Letcher, R.,
+Wigler, M., and Collins, F. (1990). The NF1 locus encodes a protein
+functionally related to mammalian GAP and yeast IRA proteins.
+Cell 63, 851–859.
+
+Batlle, M., Lu, A.L., Green, D.A., Xue, Y., and Hirsch, J.P. (2003).
+Krh1p and Krh2p act downstream of the Gpa2p Ga subunit to neg-
+atively regulate haploid invasive growth. J. Cell Sci. 116, 701–710.
+
+Bhattacharya, S., Chen, L., Broach, J.R., and Powers, S. (1995). Ras
+membrane targeting is essential for glucose signaling but not for vi-
+ability in yeast. Proc. Natl. Acad. Sci. USA 92, 2984–2988.
+
+Buchberg, A.M., Cleveland, L.S., Jenkins, N.A., and Copeland, N.G.
+(1990). Sequence homology shared by neuroﬁbromatosis type-1
+gene and IRA-1 and IRA-2 negative regulators of the RAS cyclic
+AMP pathway. Nature 347, 291–294.
+
+Cabrera-Vera, T.M., Vanhauwe, J., Thomas, T.O., Medkova, M., Pre-
+ininger, A., Mazzoni, M.R., and Hamm, H.E. (2003). Insights into G
+protein structure, function, and regulation. Endocr. Rev. 24, 765–
+781.
+
+Cawthon, R.M., Weiss, R., Xu, G.F., Viskochil, D., Culver, M., Ste-
+vens, J., Robertson, M., Dunn, D., Gesteland, R., O’Connell, P.,
+et al. (1990). A major segment of the neuroﬁbromatosis type 1
+gene: cDNA sequence, genomic structure, and point mutations.
+Cell 62, 193–201.
+Chautard, H., Jacquet, M., Schoentgen, F., Bureaud, N., and Be´ ne´ -
+detti, H. (2004). Tfs1p, a member of the PEBP family, inhibits the
+Ira2p but not the Ira1p Ras GTPase-activating protein in Saccharo-
+myces cerevisiae. Eukaryot. Cell 3, 459–470.
+
+Cichowski, K., Santiago, S., Jardim, M., Johnson, B.W., and Jacks,
+T. (2003). Dynamic regulation of the Ras pathway via proteolysis of
+the NF1 tumor suppressor. Genes Dev. 17, 449–454.
+
+Colombo, S., Ma, P.S., Cauwenberg, L., Winderickx, J., Crauwels,
+M., Teunissen, A., Nauwelaers, D., de Winde, J.H., Gorwa, M.F.,
+Colavizza, D., and Thevelein, J.M. (1998). Involvement of distinct G-
+proteins, Gpa2 and Ras, in glucose- and intracellular acidiﬁcation-
+induced cAMP signalling in the yeast Saccharomyces cerevisiae.
+EMBO J. 17, 3326–3341.
+
+Colombo, S., Ronchetti, D., Thevelein, J.M., Winderickx, J., and Mar-
+tegani, E. (2004). Activation state of the Ras2 protein and glucose-in-
+duced signaling in Saccharomyces cerevisiae. J. Biol. Chem. 279,
+46715–46722.
+
+Crechet, J.B., Poullet, P., Mistou, M.Y., Parmeggiani, A., Camonis,
+J., Boy-Marcotte, E., Damak, F., and Jacquet, M. (1990). Enhance-
+ment of the GDP-GTP exchange of Ras proteins by the carboxyl-ter-
+minal domain of Scd25. Science 248, 866–868.
+
+Dasgupta, B., Dugan, L.L., and Gutmann, D.H. (2003). The neuro-
+ﬁbromatosis 1 gene product neuroﬁbromin regulates pituitary
+adenylate cyclase-activating polypeptide-mediated signaling in as-
+trocytes. J. Neurosci. 23, 8949–8954.
+
+DeClue, J.E., Papageorge, A.G., Fletcher, J.A., Diehl, S.R., Ratner,
+N., Vass, W.C., and Lowy, D.R. (1992). Abnormal regulation of mam-
+malian p21ras contributes to malignant tumor growth in von Reck-
+linghausen (type 1) neuroﬁbromatosis. Cell 69, 265–273.
+
+Dohlman, H.G., Thorner, J., Caron, M.G., and Lefkowitz, R.J. (1991).
+Model systems for the study of seven-transmembrane-segment
+receptors. Annu. Rev. Biochem. 60, 653–688.
+
+Fahsold, R., Hoffmeyer, S., Mischung, C., Gille, C., Ehlers, C., Ku¨ cu¨ k-
+ceylan, N., Abdel-Nour, M., Gewies, A., Peters, H., Kaufmann, D.,
+et al. (2000). Minor lesion mutational spectrum of the entire NF1
+gene does not explain its high mutability but points to a functional
+domain upstream of the GAP-related domain. Am. J. Hum. Genet.
+66, 790–818.
+
+Field, J., Nikawa, J., Broek, D., MacDonald, B., Rodgers, L., Wilson,
+I.A., Lerner, R.A., and Wigler, M. (1988). Puriﬁcation of a RAS-
+responsive adenylyl cyclase complex from Saccharomyces cerevi-
+siae by use of an epitope addition method. Mol. Cell. Biol. 8, 2159–
+2165.
+
+Gross, A., Winograd, S., Marbach, I., and Levitzki, A. (1999). The N-
+terminal half of Cdc25 is essential for processing glucose signaling
+in Saccharomyces cerevisiae. Biochemistry 38, 13252–13262.
+
+Guo, H.F., The, I., Hannan, F., Bernards, A., and Zhong, Y. (1997). Re-
+quirement of Drosophila NF1 for activation of adenylyl cyclase by
+PACAP38-like neuropeptides. Science 276, 795–798.
+
+Guo, H.F., Tong, J., Hannan, F., Luo, L., and Zhong, Y. (2000). A
+neuroﬁbromatosis-1-regulated pathway is required for learning in
+Drosophila. Nature 403, 895–898.
+
+Halme, A., Bumgarner, S., Styles, C., and Fink, G.R. (2004). Genetic
+and epigenetic regulation of the FLO gene family generates cell-sur-
+face variation in yeast. Cell 116, 405–415.
+
+Hannan, F., Ho, I., Tong, J., Zhu, Y., Nurnberg, P., and Zhong, Y.
+(2006). Effect of neuroﬁbromatosis type I mutations on a novel path-
+way for adenylyl cyclase activation requiring neuroﬁbromin and Ras.
+Hum. Mol. Genet. 15, 1087–1098, Published online March 2, 2006.
+
+Harashima, T., and Heitman, J. (2002). The Ga protein Gpa2 controls
+yeast differentiation by interacting with kelch repeat proteins that
+mimic Gb subunits. Mol. Cell 10, 163–173.
+
+Harashima, T., and Heitman, J. (2004). Nutrient control of dimorphic
+growth in Saccharomyces cerevisiae. In Topics in Current Genetics,
+Vol. 7, J.G. Winderickx and P.M. Taylor, eds. (Heidelberg, Germany:
+Springer-Verlag), pp. 131–169.
+
+Harashima, T., and Heitman, J. (2005). Ga subunit Gpa2 recruits
+kelch repeat subunits that inhibit receptor-G protein coupling during
+cAMP-induced dimorphic transitions in Saccharomyces cerevisiae.
+Mol. Biol. Cell 16, 4557–4571.
+
+Hiatt, K.K., Ingram, D.A., Zhang, Y., Bollag, G., and Clapp, D.W. (2001).
+Neuroﬁbromin GTPase-activating protein-related domains restore
+normal growth in Nf12/2 cells. J. Biol. Chem. 276, 7240–7245.
+
+Hitchcock, A.L., Auld, K., Gygi, S.P., and Silver, P.A. (2003). A subset
+of membrane-associated proteins is ubiquitinated in response to
+mutations in the endoplasmic reticulum degradation machinery.
+Proc. Natl. Acad. Sci. USA 100, 12735–12740.
+
+Ku¨ bler, E., Mo¨ sch, H.U., Rupp, S., and Lisanti, M.P. (1997). Gpa2p,
+a G-protein a-subunit, regulates growth and pseudohyphal develop-
+ment in Saccharomyces cerevisiae via a cAMP-dependent mecha-
+nism. J. Biol. Chem. 272, 20321–20323.
+
+Lemaire, K., Van de Velde, S., Van Dijck, P., and Thevelein, J.M.
+(2004). Glucose and sucrose act as agonist and mannose as
+
+Molecular Cell
+830
+
+antagonist ligands of the G protein-coupled receptor Gpr1 in the
+yeast Saccharomyces cerevisiae. Mol. Cell 16, 293–299.
+
+cyclic AMP-dependent protein kinase in Saccharomyces cerevisiae.
+Mol. Cell. Biol. 7, 1371–1377.
+
+Toda, T., Cameron, S., Sass, P., Zoller, M., and Wigler, M. (1987b).
+Three different genes in S. cerevisiae encode the catalytic subunits
+of the cAMP-dependent protein kinase. Cell 50, 277–287.
+
+Toda, T., Cameron, S., Sass, P., and Wigler, M. (1988). SCH9, a gene
+of Saccharomyces cerevisiae that encodes a protein distinct from,
+but functionally and structurally related to, cAMP-dependent protein
+kinase catalytic subunits. Genes Dev. 2, 517–527.
+
+Tong, J., Hannan, F., Zhu, Y., Bernards, A., and Zhong, Y. (2002).
+Neuroﬁbromin regulates G protein-stimulated adenylyl cyclase ac-
+tivity. Nat. Neurosci. 5, 95–96.
+
+Viskochil, D., Buchberg, A.M., Xu, G., Cawthon, R.M., Stevens, J.,
+Wolff, R.K., Culver, M., Carey, J.C., Copeland, N.G., Jenkins, N.A.,
+et al. (1990). Deletions and a translocation interrupt a cloned gene
+at the neuroﬁbromatosis type 1 locus. Cell 62, 187–192.
+
+Wallace, M.R., Marchuk, D.A., Andersen, L.B., Letcher, R., Odeh,
+H.M., Saulino, A.M., Fountain, J.W., Brereton, A., Nicholson, J.,
+Mitchell, A.L., et al. (1990). Type 1 neuroﬁbromatosis gene: identiﬁ-
+cation of a large transcript disrupted in three NF1 patients. Science
+249, 181–186.
+
+Washburn, M.P., Wolters, D., and Yates, J.R., 3rd. (2001). Large-
+scale analysis of the yeast proteome by multidimensional protein
+identiﬁcation technology. Nat. Biotechnol. 19, 242–247.
+
+Xu, G.F., Lin, B., Tanaka, K., Dunn, D., Wood, D., Gesteland, R.,
+White, R., Weiss, R., and Tamanoi, F. (1990a). The catalytic domain
+of the neuroﬁbromatosis type 1 gene product stimulates ras GTPase
+and complements ira mutants of S. cerevisiae. Cell 63, 835–841.
+
+Xu, G.F., O’Connell, P., Viskochil, D., Cawthon, R., Robertson, M.,
+Culver, M., Dunn, D., Stevens, J., Gesteland, R., White, R., et al.
+(1990b). The neuroﬁbromatosis type 1 gene encodes a protein re-
+lated to GAP. Cell 62, 599–608.
+
+Xue, Y., Batlle, M., and Hirsch, J.P. (1998). GPR1 encodes a putative
+G protein-coupled receptor that associates with the Gpa2p Ga sub-
+unit and functions in a Ras-independent pathway. EMBO J. 17,
+1996–2007.
+
+Yun, C.W., Tamaki, H., Nakayama, R., Yamamoto, K., and Kumagai,
+H. (1998). Gpr1p, a putative G-protein coupled receptor, regulates
+glucose-dependent cellular cAMP level
+in yeast Saccharomyces
+cerevisiae. Biochem. Biophys. Res. Commun. 252, 29–33.
+
+Zhu, Y., and Parada, L.F. (2002). The molecular and genetic basis of
+neurological tumours. Nat. Rev. Cancer 2, 616–626.
+
+Lorenz, M.C., and Heitman, J. (1997). Yeast pseudohyphal growth is
+regulated by GPA2, a G protein a homolog. EMBO J. 16, 7008–7018.
+
+Lorenz, M.C., Pan, X.W., Harashima, T., Cardenas, M.E., Xue, Y.,
+Hirsch, J.P., and Heitman, J. (2000). The G protein-coupled receptor
+Gpr1 is a nutrient sensor that regulates pseudohyphal differentiation
+in Saccharomyces cerevisiae. Genetics 154, 609–622.
+
+Lu, A., and Hirsch, J.P. (2005). Cyclic AMP-independent regulation of
+protein kinase A substrate phosphorylation by Kelch repeat pro-
+teins. Eukaryot. Cell 4, 1794–1800.
+
+Marchuk, D.A., Saulino, A.M., Tavakkol, R., Swaroop, M., Wallace,
+M.R., Andersen, L.B., Mitchell, A.L., Gutmann, D.H., Boguski, M.,
+and Collins, F.S. (1991). cDNA cloning of the type 1 neuroﬁbromato-
+sis gene: complete sequence of the NF1 gene product. Genomics
+11, 931–940.
+
+Martin, G.A., Viskochil, D., Bollag, G., McCabe, P.C., Crosier, W.J.,
+Haubruck, H., Conroy, L., Clark, R., O’Connell, P., Cawthon, R.M.,
+et al. (1990). The GAP-related domain of the neuroﬁbromatosis
+type 1 gene product interacts with ras p21. Cell 63, 843–849.
+
+Mintzer, K.A., and Field, J. (1994). Interactions between adenylyl
+cyclase, CAP and RAS from Saccharomyces cerevisiae. Cell. Signal.
+6, 681–694.
+
+Mitts, M.R., Bradshaw-Rouse, J., and Heideman, W. (1991). Interac-
+tions between adenylate cyclase and the yeast GTPase-activating
+protein Ira1. Mol. Cell. Biol. 11, 4591–4598.
+
+Munder, T., and Kuntzel, H. (1989). Glucose-induced cAMP signaling
+in Saccharomyces cerevisiae is mediated by the Cdc25 protein.
+FEBS Lett. 242, 341–345.
+
+Munder, T., and Furst, P. (1992). The Saccharomyces cerevisiae
+CDC25 gene product binds speciﬁcally to catalytically inactive ras
+proteins in vivo. Mol. Cell. Biol. 12, 2091–2099.
+
+Origone, P., De Luca, A., Bellini, C., Buccino, A., Mingarelli, R., Cos-
+tabel, S., La Rosa, C., Garre` , C., Coviello, D.A., Ajmar, F., et al. (2002).
+Ten novel mutations in the human neuroﬁbromatosis type 1 (NF1)
+gene in Italian patients. Hum. Mutat. 20, 74–75.
+
+Portillo, F., and Mazon, M.J. (1986). The Saccharomyces cerevisiae
+start mutant carrying the cdc25 mutation is defective in activation of
+plasma membrane ATPase by glucose. J. Bacteriol. 168, 1254–1257.
+
+Powers, S., Kataoka, T., Fasano, O., Goldfarb, M., Strathern, J.,
+Broach, J., and Wigler, M. (1984). Genes in S. cerevisiae encoding
+proteins with domains homologous to the mammalian ras proteins.
+Cell 36, 607–612.
+
+Ross, E.M., and Wilkie, T.M. (2000). GTPase-activating proteins for
+heterotrimeric G proteins: regulators of G protein signaling (RGS)
+and RGS-like proteins. Annu. Rev. Biochem. 69, 795–827.
+
+Sherman, F. (1991). Getting started with yeast. Methods Enzymol.
+194, 3–21.
+
+Tanaka, K., Matsumoto, K., and Toh-e, A. (1989). IRA1, an inhibitory
+regulator of the RAS-cyclic AMP pathway in Saccharomyces cerevi-
+siae. Mol. Cell. Biol. 9, 757–768.
+
+Tanaka, K., Nakafuku, M., Satoh, T., Marshall, M.S., Gibbs, J.B., Mat-
+sumoto, K., Kaziro, Y., and Toh-e, A. (1990a). S. cerevisiae genes
+IRA1 and IRA2 encode proteins that may be functionally equivalent
+to mammalian ras GTPase activating protein. Cell 60, 803–807.
+
+Tanaka, K., Nakafuku, M., Tamanoi, F., Kaziro, Y., Matsumoto, K.,
+and Toh-e, A. (1990b). IRA2, a second gene of Saccharomyces cer-
+evisiae that encodes a protein with a domain homologous to mam-
+malian ras GTPase-activating protein. Mol. Cell. Biol. 10, 4303–4313.
+
+Tanaka, K., Lin, B.K., Wood, D.R., and Tamanoi, F. (1991). IRA2, an
+upstream negative regulator of RAS in yeast, is a RAS GTPase-acti-
+vating protein. Proc. Natl. Acad. Sci. USA 88, 468–472.
+
+The,
+I., Hannigan, G.E., Cowley, G.S., Reginald, S., Zhong, Y.,
+Gusella, J.F., Hariharan, I.K., and Bernards, A. (1997). Rescue of a
+Drosophila NF1 mutant phenotype by protein kinase A. Science
+276, 791–794.
+
+Toda, T., Cameron, S., Sass, P., Zoller, M., Scott, J.D., Mcmullen, B.,
+Hurwitz, M., Krebs, E.G., and Wigler, M. (1987a). Cloning and charac-
+terization of BCY1, a locus encoding a regulatory subunit of the
+
+

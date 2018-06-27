@@ -1,0 +1,1120 @@
+Cell Reports
+
+Article
+
+BET Bromodomain Inhibition Triggers Apoptosis
+of NF1-Associated Malignant Peripheral Nerve
+Sheath Tumors through Bim Induction
+
+Amish J. Patel,1,2 Chung-Ping Liao,1 Zhiguo Chen,1 Chiachi Liu,1 Yong Wang,1 and Lu Q. Le1,3,4,*
+1Department of Dermatology
+2Cancer Biology Graduate Program
+3Harold C. Simmons Cancer Center
+4UTSW Neuroﬁbromatosis Clinic
+University of Texas Southwestern Medical Center at Dallas, Dallas, TX, 75390-9133, USA
+*Correspondence: lu.le@utsouthwestern.edu
+http://dx.doi.org/10.1016/j.celrep.2013.12.001
+This is an open-access article distributed under the terms of the Creative Commons Attribution-NonCommercial-No Derivative Works
+License, which permits non-commercial use, distribution, and reproduction in any medium, provided the original author and source are
+credited.
+
+SUMMARY
+
+Malignant peripheral nerve sheath tumors (MPNSTs)
+are highly aggressive sarcomas that develop sporad-
+ically or in neuroﬁbromatosis type 1 (NF1) patients.
+There is no effective treatment for MPNSTs and
+they are typically fatal. To gain insights into MPNST
+pathogenesis, we utilized an MPNST mouse model
+that allowed us to study the evolution of these tumors
+at the transcriptome level. Strikingly, in MPNSTs we
+found upregulation of a chromatin regulator, Brd4,
+and show that BRD4 inhibition profoundly sup-
+presses both growth and tumorigenesis. Our ﬁnd-
+ings reveal roles for BET bromodomains in MPNST
+development and report a mechanism by which
+bromodomain inhibition induces apoptosis through
+induction of proapoptotic Bim, which may repre-
+sent a paradigm shift
+in therapy for MPNST
+patients. Moreover, these ﬁndings indicate epige-
+netic mechanisms underlying the balance of anti-
+and proapoptotic molecules and that bromodomain
+inhibition can shift this balance in favor of cancer
+cell apoptosis.
+
+INTRODUCTION
+
+Neuroﬁbromatosis type 1 (NF1) is one of the most common hu-
+man genetic disorders of the nervous system and affects one in
+3,500 individuals around the world regardless of ethnicity and
+gender (Wallace et al., 1990). NF1 manifests through inheritance
+or sporadic mutation of the Nf1 tumor suppressor gene, a nega-
+tive regulator of oncogenic p21-RAS, which predisposes NF1
+patients to a wide spectrum of symptoms including develop-
+mental, neurological, dermatological, and cardiovascular
+defects and tumor development (Le and Parada, 2007; Martin
+et al., 1990). Although NF1 patients are susceptible to devel-
+
+rhabdomyosarcoma),
+
+oping various neoplasms (juvenile myelomonocytic leukemia,
+optic glioma, astrocytoma,
+the most
+common occurring are benign neuroﬁbromas, which can be
+stratiﬁed into two subgroups: plexiform and dermal (Albers and
+Gutmann, 2009; Bajenaru et al., 2003; Le and Parada, 2007;
+Shannon et al., 1992). Plexiform neuroﬁbromas can progress
+to malignant sarcomas known as malignant peripheral nerve
+sheath tumors (MPNSTs), which account for 10% of all soft
+tissue sarcomas (King et al., 2000). They are highly aggressive,
+incurable through conventional chemotherapy or surgical
+resection, and a leading cause of mortality in the NF1 patient
+population (Duong et al., 2011). Although signiﬁcant progress
+in understanding NF1 tumor development has been made,
+surgery remains the standard of care for MPNST patients, and
+prognosis remains bleak (Zou et al., 2009).
+
+Neuroﬁbroma progression to MPNST in NF1 patients is asso-
+ciated with additional genetic changes including ampliﬁcation/
+overexpression of oncogenic receptor tyrosine kinases (i.e.,
+EGFR, PDGFR, MET) or growth factors (i.e., neuregulin-1, hepa-
+tocyte growth factor) and loss of tumor suppressors Ink4a, Pten,
+or P53 (the latter being the most common) (Cichowski et al.,
+1999; Endo et al., 2011; Gregorian et al., 2009; Huijbregts
+et al., 2003; Joseph et al., 2008; Keng et al., 2012; Ling et al.,
+2005; Perrone et al., 2009; Perry et al., 2002; Torres et al.,
+2011; Vogel et al., 1999). Modeling these genetic changes along-
+side loss of Nf1 in mice has been reported to promote MPNST
+development, which conﬁrms their contributions to MPNST
+pathogenesis. This has led to the identiﬁcation of therapeutic
+targets regulating the cell cycle, thus allowing for inhibition of
+proliferation, but eventual resistance or tumor burden are likely
+to hinder the efﬁcacy of such agents (Albritton et al., 2006;
+Jessen et al., 2013; Johannessen et al., 2008; Mo et al., 2013;
+Patel et al., 2012; Wu et al., 2013a). Selective inhibition of both
+proliferation and survival may offer MPNST patients a better
+prognosis. However,
+limited capability to culture human
+MPNSTs and lack of a model system that permits genome-
+wide analysis or functional interrogation of MPNSTs and their
+pre-tumorigenic counterparts have hindered the elucidation of
+
+Cell Reports 6, 81–92, January 16, 2014 ª2014 The Authors 81
+
+survival dependencies in MPNSTs. We and others have
+developed mouse models in which genetic loss of tumor sup-
+pressors Nf1 and P53 leads to spontaneous initiation of MPNSTs
+(Cichowski et al., 1999; Vogel et al., 1999) (L.Q.L., unpublished
+data). More recently, we identiﬁed skin-derived precursors
+(SKPs) with Nf1 deﬁciency to be a cell of origin for dermal neuro-
+ﬁbromas (Le et al., 2009).
+
+Serendipitously, we found that Nf1-deﬁcient SKPs are also
+capable of giving rise to plexiform neuroﬁbromas when trans-
+planted into a nerve, and further loss of P53 readily allows for
+malignant transformation into MPNSTs with histological and
+molecular features consistent with human MPNSTs (Mo et al.,
+2013; Chau et al., 2013). This MPNST mouse model affords us
+the opportunity to monitor the evolution of these tumors from
+stem cell to benign neuroﬁbroma to MPNST. Here, we utilized
+our SKP-derived MPNST model to study the evolution of these
+tumors by comparative transcriptome analysis of SKP-derived
+MPNSTs (sMPNSTs) and their pretumorigenic ancestors,
+Nf1;P53-deﬁcient SKPs (NP-SKPs), and identify upregulation
+of Brd4 in MPNSTs.
+
+We investigated the role of BRD4 in MPNST pathogenesis.
+BRD4 is a BET (bromodomain and extraterminal) family member
+that contains two bromodomains in tandem, which permit
+recognition and binding to acetylated histones, and subsequent
+recruitment of cofactors (including pTEFb) for RNA polymerase-
+II-dependent transcription elongation (Dey et al., 2003; Jang
+et al., 2005; Wu et al., 2013b; Yang et al., 2005). BRD4 is reported
+to regulate expression of mitotic genes required for cell-cycle
+progression, and its fusion to NUT (nuclear protein in testis)
+has been implicated in the pathogenesis of NUT-midline carci-
+nomas (Filippakopoulos et al., 2010; Mochizuki et al., 2008;
+Yang et al., 2008). The development of selective small molecule
+inhibitors of BRD4, called JQ1, I-BET 151, and CPI203, has
+allowed for selective inhibition of C-Myc expression and self-
+renewal in hematopoietic malignancies (acute myeloid leukemia,
+mixed lineage leukemia, multiple myeloma, and T cell acute
+lymphoblastic leukemia), thus establishing JQ1 or I-BET 151-
+mediated inhibition of BRD4 as therapeutic strategy to disable
+oncogenic C-Myc (Dawson et al., 2011; Delmore et al., 2011;
+King et al., 2013; Zuber et al., 2011). Recent evidence indicates
+that BRD4 and Mediator together occupy mostly active genes in
+multiple myeloma cells, and at high concentrations at superen-
+hancers for key oncogenic drivers or cell identity genes (Love´ n
+et al., 2013). These superenhancer-regulated genes have been
+shown to be highly sensitive to levels of BRD4 or its cofactors,
+such that selective inhibition with JQ1 leads to substantial sup-
+pression of their transcription elongation, whereas active genes
+with typical enhancers are less affected (Love´ n et al., 2013). All
+together, these ﬁndings suggest that the concentration/levels
+of BRD4 and its cofactors are important for the maintaining
+high levels of cancer cell speciﬁc oncogenes, thus indicating a
+general strategy for identifying dependencies in diverse cancer
+types (Love´ n et al., 2013). Whether the levels of BRD4 and its
+cofactors are important for solid tumor initiation and progres-
+sion, including MPNSTs, remains unknown.
+
+Here, we show that increased levels of BRD4 accompany the
+progression of pretumorigenic NP-SKPs to MPNSTs in vivo.
+inhibition of BRD4 substantially
+Genetic and pharmacological
+
+82 Cell Reports 6, 81–92, January 16, 2014 ª2014 The Authors
+
+inhibits both in vitro growth and in vivo tumorigenesis of NF1-
+associated MPNSTs. Transcriptome and genomic occupancy
+analysis of BRD4 inhibition in MPNSTs reveals downregulation
+of Cyclin D1 and Bcl2 expression along with derepression of
+Bim transcription, which we demonstrate to suppress tumori-
+genesis and initiate apoptosis of MPNSTs. Collectively, our
+ﬁndings reveal a role for BET bromodomains in maintaining the
+growth and survival of NF1-associated MPNSTs and identify a
+therapeutic strategy for selective inhibition of MPNST tumori-
+genesis and survival, which may serve to improve the prognosis
+for NF1-associated MPNST patients.
+
+RESULTS
+
+ / 
+
+P53
+
+ / 
+
+SKP
+
+Transcriptome Analysis of Nf1
+Progression to MPNST Identiﬁes Upregulation of Brd4
+Previously, we established a mouse model of dermal neuroﬁ-
+broma (dNF) where we demonstrate that Nf1-deﬁcient SKPs
+can give rise to dNFs, which is contingent on their local micro-
+environment (Le et al., 2009). In the course of these SKP and
+neuroﬁbroma studies, we serendipitously found that we could
+faithfully generate MPNSTs from SKPs doubly deﬁcient in Nf1
+and P53 (NP-SKPs) (Mo et al., 2013; Chau et al., 2013). This
+ﬁnding creates a powerful MPNST model that affords us the
+opportunity to genetically monitor the evolution of MPNSTs
+from their pretumorigenic precursors (NP-SKPs). These SKP-
+derived MPNSTs (sMPNSTs) were found to have a robust poten-
+tial for giving rise to tumors when either transplanted as tumor
+fragments or as few as 10,000 cells, whereas their ancestors
+(NP-SKPs) required at least 100,000 cells and longer time in vivo
+to become sMPNSTs. These observations led us to hypothesize
+that dual loss of tumor suppressors Nf1 and P53 is required but
+not sufﬁcient for progression of NP-SKPs to sMPNSTs. We
+envisioned that further genetic or epigenetic changes, the micro-
+environment, cells of origin, or multiple factors are required for
+progression to MPNST. Although these complexities pose
+challenges to addressing our hypothesis, we reasoned that
+underlying transcriptome changes would allow us to molecularly
+understand tumor initiation, maintenance, and progression regu-
+lated in this model system. Advantageously, our MPNST mouse
+model allows us to take our transcriptome insights and system-
+atically and rapidly determine how MPNST tumorigenesis is
+regulated. Therefore, we compared the gene expression proﬁles
+of sMPNST tumors to their pretumorigenic ancestors (NP-SKPs)
+via microarray analysis to understand what
+transcriptome
+changes occur after MPNST tumor initiation/progression (Fig-
+ure 1A). As anticipated, comparative microarray analysis
+indicates that sMPNST tumors had numerous genes up- and
+downregulated when compared to their ancestors (NP-SKPs).
+However, we found substantially more genes upregulated, and
+with greater magnitude of fold change expression (Figure 1B),
+which was associated with upregulation of RNA polymerase II
+(RNAP II) regulator Brd4 (Figure 1C). Quantitative RT-PCR and
+western blot analyses conﬁrm these ﬁndings (Figures 1D and
+1E). Consistent with these data, we also observed abundant
+expression of BRD4 in human MPNST primary tissue and xeno-
+graft (Figure S1). BRD4 along with Mediator and pTEFb are all
+implicated in promoting RNA polymerase-II (RNAP II)-dependent
+
+Figure 1. Identiﬁcation of Brd4 Upregulation and Roles in MPNSTs
+(A) Diagram of microarray experiment for transcriptome analysis.
+(B) Bar graph representation of the absolute fold change in expression of all genes from microarray experiment with fold change of R2.
+(C) Pictorial representation of positive regulators of transcriptional elongation by RNA polymerase II and identiﬁcation of Brd4 upregulation in MPNSTs (from
+microarray experiment).
+(D and E) qRT-PCR and western blot analysis of MPNST cells and precursors for expression of Brd4.
+(F and G) qRT-PCR and western blot analysis for Brd4 knockdown in sMPNST-pTripz cells with or without doxycycline (Dox).
+(H) Effect of Brd4 shRNA induction on MPNST cell growth/viability using ATP CellTiter Glo assay.
+All statistics are represented as the mean ± SEM (*p % 0.05, **p % 0.01, ***p % 0.001, ***p % 0.0001).
+
+Cell Reports 6, 81–92, January 16, 2014 ª2014 The Authors 83
+
+transcriptional elongation (Donner et al., 2010; Jang et al., 2005;
+Wu and Chiang, 2007) (Figure 1C). BRD4 has been previously
+implicated in cancer biology (Dawson et al., 2011; Delmore
+et al., 2011; Filippakopoulos et al., 2010; Firestein et al., 2008;
+Love´ n et al., 2013; Zuber et al., 2011) and is currently amenable
+to pharmacological inhibition through small molecule bromodo-
+main inhibitor JQ1 (Filippakopoulos et al., 2010), which may
+present a novel therapeutic modality for treating NF1-associated
+MPNSTs. Thus, we focused on elucidating the role of BRD4 in
+MPNSTs.
+
+Brd4 Is Critical for Growth and Tumorigenic Capacity
+of MPNSTs
+We sought to dissect the function of BRD4 in MPNSTs by
+employing a doxycycline (Dox)-inducible small hairpin RNA
+(shRNA) system to acutely knockdown Brd4 mRNA levels.
+sMPNST cells were transduced with lentivirus harboring either
+scrambled shRNA (pTripz-shCONTROL) or Brd4 shRNAs
+(pTripz-shBrd4.523 or pTripz-shBrd4.552), and then treated
+with puromycin to select for stably infected cells. Treatment of
+these cells with doxycycline to induce shRNA expression re-
+veals >80% reduction of Brd4 mRNA levels via Brd4 shRNAs
+compared to scrambled shRNA (shCONTROL) induction, which
+is consistent with protein levels (Figures 1F and 1G). To evaluate
+the effect of acute depletion of Brd4 on sMPNST cellular growth,
+we evaluated ATP levels as a surrogate for cell numbers before
+and after acute knockdown of Brd4 and observed signiﬁcantly
+reduced growth upon Brd4 shRNA induction with doxycycline
+(Figure 1H).
+
+To study the inﬂuence of BRD4 on the tumorigenic capacity of
+MPNST cells, we subcutaneously injected pTripz-shCONTROL
+and pTripz-shBrd4 sMPNST cells (Luciferase tagged) into nude
+mice. Two days later, both scrambled and Brd4 shRNAs were
+turned on in sMPNST allografts by administration of doxycycline
+(1 mg/ml) through drinking water of the mice. By 30 days of
+shRNA induction in vivo, we found that Brd4 shRNA-sMPNST
+cells had signiﬁcantly delayed tumor burden/progression
+compared to control as indicated by periodic measurements of
+tumor bioluminescence and volume and ﬁnal weight of excised
+tumors (Figures 2A–2E). Remarkably, induction of Brd4 shRNA
+expression in established tumors (30 days after subcutaneous
+implantation) halted sMPNST tumor progression/growth when
+compared to shCONTROL sMPNST tumors (Figures 2F and
+2G). Western blot analysis of these tumors indicates that these
+ﬁndings are consistent with reduced BRD4 protein levels in
+shBrd4+Dox tumors (Figure 2H). Through molecular analysis of
+tumor proliferation, we found that shBrd4 tumors had signiﬁ-
+cantly fewer bromodeoxyuridine (BrdU)-positive cells than
+shCONTROL tumors (Figures 2I and 2J). All together, these
+data indicate an important role for BRD4 in maintaining tumori-
+genic capacity of MPNSTs in vivo.
+
+Pharmacological Inhibition of Brd4 Suppresses MPNST
+Growth and Tumorigenesis
+The remarkable inhibition of MPNST tumorigenesis through Brd4
+knockdown prompted us to evaluate the effect of inhibiting
+BRD4 with small molecule BET bromodomain inhibitor JQ1
+(Filippakopoulos et al., 2010). We tested the effect of JQ1 on
+
+84 Cell Reports 6, 81–92, January 16, 2014 ª2014 The Authors
+
+pretumorigenic NP-SKPs, sMPNST cells, and cis MPNST cells
+(derived from spontaneous MPNST arising in cis Nf1+/ 
+P53+/ 
+mice) (Mo et al., 2013; Vogel et al., 1999). All MPNST cells and
+NP-SKPs had decreased cellular viability/growth in a JQ1
+dose-dependent manner with IC50 values less than 400 nM,
+whereas SKPs (both wild-type and Nf1 null) were relatively
+unaffected (Figure 3A). These data may suggest a role for
+BRD4 in maintaining in vitro growth and survival signaling prop-
+agated by loss of both Nf1 and P53 in MPNSTs and their pretu-
+morigenic precursors (NP-SKPs). Collectively, these promising
+ﬁndings suggest that JQ1 may have important therapeutic value
+in the treatment of MPNSTs.
+
+In that regard,
+
+to investigate the therapeutic efﬁcacy of
+JQ1 on MPNST tumor progression, we generated palpable
+(50 mm3 average) sMPNST allografts (luciferase expressing) in
+14 nude mice (two tumors per mouse). Prior to drug administra-
+tion, we measured tumor volume and bioluminescence to sepa-
+rate tumor-bearing mice into two groups (14 tumors per group),
+in which tumor size and mouse gender/weight are equally rep-
+resented (Figure 3B). Mice were treated with either vehicle or
+JQ1 for 15 days and then sacriﬁced. During this treatment
+period, we found that growth of all JQ1-treated tumors (n =
+14) had been severely blunted compared to vehicle-treated
+tumors (n = 14) as indicated by delayed progression of tumor
+bioluminescence and volume (Figures 3C and 3D). Interestingly,
+during the course of the experiment, we observed sMPNST
+tumor
+regression in JQ1-treated mice both visually and
+through bioluminescence imaging (Figure 3E). Remarkably, we
+observed 50% to near complete regression of tumor volume
+in as little as 10 days of JQ1 treatment, which resulted in
+much smaller tumors compared to vehicle tumors (Figures 3F
+and 3G). Moreover, analysis of tumor proliferation revealed
+signiﬁcantly fewer BrdU-positive cells in JQ1-treated sMPNST
+allografts compared to vehicle (Figures 3H and 3I). Importantly,
+we observed no signiﬁcant changes in body weight nor behavior
+of mice during JQ1 treatment (data not shown), which is consis-
+tent with JQ1 tolerance observed in published mouse studies
+(Cheng et al., 2013; Delmore et al., 2011; Filippakopoulos
+et al., 2010; Zuber et al., 2011). These data strongly suggest
+great therapeutic potential for JQ1 in the treatment of NF1-
+associated MPNSTs.
+
+Brd4 Regulates MPNST Cell-Cycle Progression and
+Cyclin D1 Expression
+To gain insight into the mechanism of action for BRD4 in
+MPNST tumorigenesis, we ﬁrst evaluated the effect of genetic
+and pharmacological inhibition of BRD4 on sMPNST cell num-
+ber. On average, we found that induction of Brd4 shRNAs led
+to 60%–65% reduction in cell number after 5 days in culture
+compared to cells without induction or shCONTROL cells (Fig-
+ure 4A). We observed a similar effect on sMPNST cells
+treated 4 days with JQ1 (Figure 4B). These data suggested
+inhibition of MPNST proliferation through BRD4 inhibition.
+Indeed, we found that BRD4 inhibition restrains MPNST cell-
+cycle progression. Analysis of proliferation via BrdU incorpora-
+tion and DNA content by ﬂow cytometry led us to ﬁnd that
+BRD4 depletion leads to signiﬁcant reduction of BrdU incorpo-
+ration, a predominant increase in percentage of cells in G1
+
+Figure 2. BRD4 Maintains Tumorigenic Capacity of MPNSTs In Vivo
+(A) Growth of shCONTROL and shBrd4.552 sMPNST tumors relative to ‘‘day 2’’ value. Values represent luminescence counts (tumor bioluminescence imaging,
+n = 6 tumors per group).
+(B) Representative pictures of sMPNST tumor bioluminescence in mice over time, which indicate that acute Brd4 knockdown suppresses MPNST tumorigenesis
+in vivo. Mice were started on doxycycline water on day 2 and kept on this treatment until the end of the experiment.
+(C) sMPNST tumor volume measurements (each data point represents the average measurement from six different tumors per group).
+(D) Top panel: mice at 36 days postsubcutaneous implantation of sMPNST tumor cells (shCONTROL on left ﬂank and shBrd4.552 on right ﬂank). Bottom panel:
+tumors excised from mice in the top panel.
+(E) Average weight of excised tumors from bottom panel of Figure 3D.
+(F) Tumor volume of shCONTROL and shBrd4.552 sMPNST-pTripz tumors in mice. At day 30, when tumors were established (200–400 mm3), mice were started
+on doxycycline water.
+(G) Representative picture and average weight of excised sMPNST tumors from end of experiment in Figure 3F.
+(H) Western blot analysis of BRD4 protein levels in shCONTROL and shBrd4.552 sMPNST tumors in mice given doxycycline water.
+(I) Representative images of sMPNST tumor sections stained with either hematoxylin and eosin (H&E) or BrdU antibody.
+(J) Quantiﬁcation of the percentage of BrdU(+) cells from sMPNST tumor sections (scale bars represent 100 mm). All statistics are represented as the mean ± SEM
+(*p % 0.05, **p % 0.01, ***p % 0.001, ***p % 0.0001).
+
+Cell Reports 6, 81–92, January 16, 2014 ª2014 The Authors 85
+
+ / 
+
+Figure 3. JQ1 Induces MPNST Regression In Vivo
+(A) Dose-response curves for 2 day JQ1 treatment on primary murine SKPs (wild-type, Nf1
+ATP CellTiter-glo assay was used to measure cell viability and normalized to DMSO (vehicle) for each cell type.
+(B) Overview of JQ1 drug trial with nude mice bearing sMPNST allografts.
+(C) Average sMPNST tumor volume measured during JQ1 drug trial (n = 14 tumors per treatment group).
+(D) Average sMPNST tumor bioluminescence counts measured during JQ1 drug trial (n = 14 tumors per treatment group).
+(E) Bioluminescence imaging of sMPNST allografts in mice before and after the JQ1 drug trial.
+(F) Waterfall plot showing the percentage change in sMPNST tumor volume from before starting (day 0) and after 10 days of JQ1 treatment.
+(G) Representative pictures of sMPNST allografts excised from mice treated with vehicle or JQ1 for 15 days.
+(H) Staining of sections from sMPNST allografts (vehicle or JQ1 treated) with hematoxylin and eosin (H&E) or immunostaining with BrdU antibody.
+(I) Quantiﬁcation of BrdU(+) cells from vehicle- and JQ1-treated sMPNST tumor sections (scale bars represent 100 mm). All statistics are represented as the
+mean ± SEM (*p % 0.05, **p % 0.01, ***p % 0.001, ***p % 0.0001).
+
+) and MPNST cells (SKP model and cisNP model).
+
+, Nf1
+
+P53
+
+ / 
+
+ / 
+
+phase, and modest affect on the percentage of cells in G2/M
+phase (Figure 4C). We observed similar results in both sMPNST
+cells and S462 human MPNST cells treated with JQ1 (Figures
+4C and 4D). Collectively, these data suggest that genetic and
+pharmacological inhibition of BRD4 impedes MPNST cell-cycle
+progression.
+
+Previously, we and others described a role for the CXCR4/
+b-catenin signaling pathway in stimulating MPNST cell-cycle
+progression via control of Cyclin D1 mRNA expression, which
+highlights the importance of Cyclin D1 maintenance in MPNST
+cell-cycle control (Mo et al., 2013). How Cyclin D1 transcription
+is regulated in MPNSTs remains unknown, but previous reports
+
+86 Cell Reports 6, 81–92, January 16, 2014 ª2014 The Authors
+
+Figure 4. BRD4 Maintains Cyclin D1 Expres-
+sion and Cell-Cycle Progression in MPNSTs
+(A) sMPNST cells harboring doxycycline (Dox)-
+inducible shRNAs were counted after 5 days
+culture (+ or – Dox) and normalized to cell count of
+‘‘-Dox’’ cells.
+(B) sMPNST cells were counted 4 days after
+culturing in the presence of vehicle (DMSO)
+or JQ1.
+(C) sMPNST cells were harvested 4 days after
+Brd4 shRNA induction or 3 days after JQ1 treat-
+ment for processing, and subsequent analysis of
+BrdU uptake and DNA content by ﬂow cytometry
+was conducted to determine the percentage of
+cells in the indicated cell-cycle phases.
+(D) Cell-cycle analysis of 48 hr treated S462 cells
+through ﬂow cytometry for BrdU(+) cells and DNA
+content (PI).
+(E) sMPNST cells treated 24 hr with vehicle or
+1,000 nM JQ1 were harvested for chromatin
+immunoprecipitation
+at
+different regions relative to Cyclin D1 transcription
+start site (TSS).
+(F) Western blot analysis of Cyclin D1 protein levels
+in sMPNST cells with Brd4 knockdown or JQ1
+treatment.
+(G and H) qPCR analysis of cell-cycle regulatory
+genes in sMPNST cells with Brd4 knockdown or
+JQ1 treatment, respectively.
+All statistics are represented as the mean ±
+SEM (*p % 0.05, **p % 0.01, ***p % 0.001,
+***p % 0.0001).
+
+(ChIP)-PCR analysis
+
+indicate Cyclin D1 as a potential target of BRD4 (Mochizuki et al.,
+2008; Yang et al., 2008). Therefore, we sought to determine if
+BRD4 directly regulates Cyclin D1 transcription in MPNSTs.
+Through chromatin immunoprecipitation quantitative PCR
+(ChIP-qPCR) analysis, we found that BRD4 occupies the pro-
+moter of Cyclin D1, and that displacement of BRD4 from
+chromatin by JQ1 treatment led to reduced promoter occupancy
+in sMPNST cells (Figure 4E). Consequently, we found that
+shRNA-mediated knockdown or pharmacological
+inhibition of
+BRD4 leads to substantial decrease in Cyclin D1 mRNA and
+protein abundance in MPNST cells, whereas other cell-cycle
+regulators are less affected by Brd4 shRNA or JQ1 in sMPNST
+cells (Figures 4F–4H). Together, these data point to a mechanism
+of BRD4-mediated epigenetic control of Cyclin D1 transcription
+and suggest BRD4 as a therapeutic target for inhibiting onco-
+genic Cyclin D1 in MPNSTs.
+
+Brd4 Regulates Expression of Proapoptotic Bim
+Cell-cycle arrest can lead to subsequent cellular apoptosis (Pie-
+tenpol and Stewart, 2002). Further analysis of acute knockdown
+of Brd4 in MPNST led us to observe increased ﬂoating cells in
+culture (Figure 5A), which was suggestive of apoptosis induction.
+Indeed, we found an increase in apoptotic cells and activation of
+apoptotic markers in both mouse and human MPNST cells with
+
+ / 
+
+BRD4 inhibition (Figures 5B–5D). On the
+other hand, we observed that both wild-
+SKPs do not
+type SKPs and Nf1
+undergo robust apoptosis when treated with JQ1 (Figure S2).
+To elucidate how BRD4 inhibition triggers apoptosis of MPNSTs,
+we performed gene expression microarray analysis to ﬁrst iden-
+tify differentially expressed genes in MPNST cells with or without
+BRD4 inhibition (both shRNA and JQ1), which led us to identify
+upregulation of proapoptotic BIM (Bcl2l11) (Figure 5E). We also
+found that BRD4 inhibition decreased expression of antiapop-
+totic Bcl2 in our microarray data (data not shown). Quantitative
+RT-PCR and western blot analyses conﬁrm that BRD4 inhibition
+(shRNA or JQ1) leads to induction of BIM and downregulation of
+BCL-2, and relatively minor effect on the expression of additional
+apoptosis regulators evaluated (Figures 5F and 5G). BIM is a pro-
+apoptotic, BH3-domain-containing protein that is thought to play
+a central role in apoptosis through activation of proapoptotic BAX
+and BAK, which leads to mitochondrial permeabilization that is
+followed by activation of caspases and apoptosis (Bean et al.,
+2013; Tait and Green, 2010; Wei et al., 2001). BCL-2 is an antia-
+poptotic protein that is thought to prevent BAX/BAK activation
+(Cheng et al., 2001). One of the mechanisms is through inhibi-
+tion/sequestration of proapoptotic BH3-only proteins, such as
+BIM and PUMA (Cheng et al., 2001; Letai et al., 2002; Youle
+and Strasser, 2008).
+
+To determine if BRD4-inhibition-mediated downregulation
+of Bcl2 expression promotes MPNST apoptosis, we treated
+
+Cell Reports 6, 81–92, January 16, 2014 ª2014 The Authors 87
+
+Figure 5. BET Bromodomain Inhibition Triggers MPNST Apoptosis through Bim Induction
+(A) Microscopy images of sMPNST cells after 5 days of shRNA induction in vitro.
+(B) Percentage apoptosis in sMPNST cells with and without Brd4 shRNA induction (5 days) by ﬂow cytometry analysis of Annexin V (+) cells.
+(C) Apoptosis induction by 3 days of JQ1 treatment in mouse and human MPNSTs cells through ﬂow cytometry analysis for Annexin V (+) cells.
+(D) Western blot analyses of lysates from sMPNST cells with (3 days) Brd4 knockdown or (2 days) JQ1 treatment for activation of apoptosis (cCasp3 = cleaved
+caspase 3, cParp = cleaved Parp).
+
+(legend continued on next page)
+
+88 Cell Reports 6, 81–92, January 16, 2014 ª2014 The Authors
+
+MPNST cells with ABT-263, a selective small molecule that
+inhibits BCL-2/BCL-XL, which prevents sequestration of proap-
+optotic BIM or PUMA. We found that BCL-2/BCL-XL inhibition
+with ABT-263 is not sufﬁcient to trigger robust apoptosis of
+MPNST cells (Figure S4), which suggests that perhaps inhibition
+of BRD4 leading to induction of Bim initiates MPNST apoptosis.
+Indeed, we found that constitutive knockdown of Bim
+attenuates/rescues JQ1-induced apoptosis in multiple MPNST
+cell types as indicated by reduced caspase-3 cleavage and
+fewer apoptotic cells (Figures 5H and 5I). Collectively, these ﬁnd-
+ings lead us to propose a model in which BRD4 inhibition or JQ1
+treatment initiates apoptosis through induction of proapoptotic
+Bim, and suppression of antiapoptotic Bcl2 to trigger apoptosis
+of NF1-associated MPNSTs (Figure 5J). Furthermore, the dual
+restraint on proliferation and survival may indicate how BRD4
+inhibition is exquisitely effective against MPNSTs.
+
+DISCUSSION
+
+Here, we employed a mouse model of MPNST that allowed us to
+study the evolution of these tumors at the transcriptome level,
+which permitted us to identify and elucidate a mechanistic basis
+for Brd4 in maintaining the tumorigenic capacity and survival of
+MPNSTs. Importantly, this study translates basic insights into a
+therapeutically tractable target for impeding the progression
+and survival of incurable NF1-associated MPNSTs, which may
+represent a signiﬁcant paradigm shift
+for MPNST patient
+therapy. We also provide a mechanism of action as a framework
+for developing new therapeutic strategies to disarm remaining
+cell-survival networks that MPNSTs may rely upon.
+
+Although traditional Genetic Engineered Mouse Models
+(GEMMs) with loss of tumor suppressors Nf1 and P53 have pro-
+vided a genetic basis for MPNST pathogenesis, their utility for
+discovering therapeutic targets to impede both progression
+and survival of these tumors has remained limited. In addition,
+the traditional route to study the function of additional genes in
+a GEMM would require generating new mouse strains (knockout,
+knockin, or conditional alleles), which incurs a longer time
+horizon and costs toward studying gene function (Heyer et al.,
+2010). Moreover, if one wishes to study gene expression at
+different stages of tumor evolution, isolation of relatively homog-
+enous cells from spontaneously arising tumors in traditional
+GEMMs would prove difﬁcult (Heyer et al., 2010). Although
+SKPs are a cell of origin for dermal neuroﬁbromas, at present it
+is not clear that SKPs are a cell of origin for MPNSTs in humans.
+SKPs can undergo
+Nevertheless, observing that Nf1
+malignant transformation to MPNSTs suggested a novel oppor-
+tunity to delineate what molecular changes underlie MPNST
+development. Thus, in this study, we took advantage of our
+nongermline GEMM of NF1-associated MPNST to study the
+
+ / 
+
+ / 
+
+P53
+
+transcriptome of relatively homogenous sMPNSTs and their pre-
+tumorigenic precursors (NP-SKPs). The elevated expression of
+Brd4 in our sMPNST transcriptome data captured our attention.
+Our ability to genetically and pharmacologically inhibit BRD4 in a
+temporal manner with great haste and ease in our stem/
+progenitor transplantation model allowed us to elucidate the
+role of BRD4 in MPNST tumorigenesis. These results highlight
+the strength and speed in which our nongermline GEMM can
+accelerate discovery of tractable therapeutic targets for rare
+malignancies that represent an unmet medical need.
+
+As a proof of principle, using this sMPNST model, we and our
+colleagues previously delineated a signaling pathway in which
+cell-surface receptor CXCR4 mediates intracellular activation of
+b-catenin, which leads to expression of Cyclin D1 and estab-
+lished a critical role for Cyclin D1 in promoting cell-cycle pro-
+gression and tumorigenesis of MPNSTs (Mo et al., 2013). In
+agreement, another group identiﬁed Wnt/b-catenin signaling as
+a potential driver of MPNSTs through a Sleeping Beauty genetic
+screen and found that this pathway regulates Cyclin D1 expres-
+sion in MPNSTs as well (Rahrmann et al., 2013; Watson et al.,
+2013). In the current study presented here, we demonstrate
+that BRD4 occupies the promoter of Cyclin D1 in MPNSTs, and
+that pharmacological
+inhibition with JQ1 inhibits BRD4 occu-
+pancy at that promoter leading to decreased expression of Cyclin
+D1, which correlates with decreased proliferation observed. In
+contrast, BRD4 has been shown to be required for maintaining
+transcription of oncogenic c-Myc in hematopoietic malignancies,
+but we did not observe loss of c-Myc expression in MPNSTs with
+BRD4 inhibition (data not shown). This cancer cell type speciﬁcity
+for regulating tumor oncogenes through BRD4 can now be attrib-
+uted to the recent discovery of BRD4-regulated superenhancers
+in multiple myeloma and other cancers (Love´ n et al., 2013). Those
+ﬁndings suggest that BRD4 may maintain the cancer cell state
+through transcriptional regulation of speciﬁc oncogenes depend-
+ing on the cell type of origin (c-Myc in the case of leukemia and
+multiple myeloma, and Cyclin D1 in NF1-associated MPNSTs)
+(Delmore et al., 2011; Zuber et al., 2011).
+
+Most importantly, our ﬁndings point to a mechanism of action
+by which bromodomain inhibition induces apoptosis through
+induction proapoptotic effector molecule BIM. We demonstrate
+that knockdown of Bim can rescue MPNST cells from JQ1-
+induced apoptosis, which further highlights the importance of
+this ﬁnding. Interestingly, in support for the role of Bim in MPNST
+tumor development, we observed that sMPNST cells with
+Bim knockdown had elevated tumor bioluminescence when
+compared control sMPNST cells. Thus, further highlighting the
+importance of Bim regulation through BRD4 (Figure S3).
+
+Albeit, additional mechanisms underlying JQ1-induced death
+in MPNSTs may exist. For example, we observed downregula-
+tion of Bcl2 expression in BRD4-inhibited MPNSTs, which is
+
+(E) Expression microarray analysis comparing the effect of Brd4 shRNA or JQ1 on sMPNST cells reveals induction of proapoptotic effector Bim.
+(F) qPCR analysis of the effect of (3 days) Brd4 shRNA or (2 days) JQ1 treatment on the expression of apoptosis regulators in sMPNST cells.
+(G) Western blot validation of BIM induction and BCL-2 downregulation through Brd4 shRNA (3 days) or JQ1 (2 days) treatment in sMPNST cells.
+(H) Western blot analysis of BIM knockdown leading to attenuation of cleaved caspase 3 in sMPNST and Cis MPNST cells treated with JQ1 (2 days).
+(I) Flow cytometry analysis of Annexin V (+) cells reveals attenuated apoptosis through Bim shRNAs in sMPNST cells treated with JQ1 for 4 days.
+(J) Model for how BET bromodomain inhibition modulates the ratio of proapoptotic and antiapoptotic molecules in favor of apoptosis.
+All statistics are represented as the mean ± SEM (*p % 0.05, **p % 0.01, ***p % 0.001, ***p % 0.0001).
+
+Cell Reports 6, 81–92, January 16, 2014 ª2014 The Authors 89
+
+consistent with a study involving bromodomain inhibition in
+MLL-fusion leukemia (Dawson et al., 2011). However, through
+direct inhibition of BCL-2 using ABT-263 we did not observe sig-
+niﬁcant apoptosis compared to JQ1, which suggests that BCL-2
+inhibition alone does not induce MPNST apoptosis robustly, but,
+in combination with BIM induction, can efﬁciently induce
+apoptosis. Our observations suggest that bromodomain inhibi-
+tion with JQ1 induces Bim and downregulates Bcl2 expression,
+leading to an imbalance of pro- and antiapoptotic effectors that
+favors induction of apoptosis (Figure 5J), and supports the
+model for an antiapoptotic/proapoptotic BCL-2 rheostat (Bean
+et al., 2013; Corcoran et al., 2013). Consistent with this idea,
+we found that further inhibition of BCL-2 with ABT-263 syner-
+gizes with JQ1 or shBrd4 to more potently induce MPNST
+apoptosis (Figure S4).
+
+ / 
+
+P53
+
+ / 
+
+On the other hand, we observed that a majority of JQ1-regu-
+lated genes do not overlapping with shBrd4-regulated genes (Fig-
+ure S5), which is expected given that JQ1 also inhibits Brd2 and
+Brd3. It remains unknown whether additional BET bromodomain
+proteins (BRD2, BRD3) (also targeted by JQ1) play a role in
+SKP and
+MPNST pathogenesis. However, in our Nf1
+MPNST microarray data, differential expression of neither Brd2
+nor Brd3 was observed, which is contrary to what we observed
+for Brd4 (data not shown). Nonetheless, the role of additional
+BET bromodomain family members (including Brd2 and Brd3)
+will be of interest in future studies, but at present, it remains clear
+from our ﬁndings that BIM induction plays a central role in shBrd4/
+JQ1-induced apoptosis in MPNSTs. More broadly, these ﬁndings
+suggest an epigenetic mechanism underlying the balance of pro-
+apoptotic/antiapoptotic proteins that can be exploited by BET
+bromodomain inhibitors for inducing cancer cell apoptosis.
+
+All together, the dual effect of growth inhibition and apoptosis
+leading to tumor regression via JQ1 may allow physicians to
+utilize JQ1 along with surgery to better manage these tumors
+in NF1 patients. Although JQ1 remains to be optimized for
+clinical development,
+its equivalent bromodomain inhibitor
+I-BET 151 is currently being evaluated in phase I clinical trials
+and we hope will reach patients in the clinic (http://www.
+clinicaltrials.gov). Future studies to molecularly understand
+how JQ1 induces proapoptotic Bim should lead to new targets
+or additional approved drugs for therapeutically inducing this
+apoptotic pathway, and we speculate those studies would allow
+more rapid or synergistic induction of tumor regression. There-
+fore, this may allow physicians to limit drug exposure to patients
+while maintaining or boosting therapeutic efﬁcacy.
+
+In conclusion, we took advantage of an MPNST mouse model
+that permits the study of tumor evolution for transcriptome
+analysis, which allowed us to identify and elucidate mechanisms
+for BRD4 in MPNST growth and survival. Our ﬁndings collectively
+provide a strong preclinical basis for evaluating BET bro-
+modomain inhibitors as novel therapies for these life-threatening
+MPNSTs in NF1 patients.
+
+S462 human MPNST cell line is a gift from Dr. Karen Cichowski (Brigham
+and Women’s Hospital, MA). All MPNST cells (mouse and human) are cultured
+in DMEM (10% fetal bovine serum, 1% penicillin-streptomycin, 1% L-gluta-
+mine, 1% sodium pyruvate). SKPs were prepared and cultured as described
+(Biernaskie et al., 2006).
+
+Animal Studies
+All mice were housed in the animal facility at the University of Texas South-
+western Medical Center at Dallas (UTSW). Animal care and use were in compli-
+ance with regulations of the Institutional Animal Care and Research Advisory
+Committee at UTSW. Athymic nude mice were used for tumor studies. For
+shRNA induction in sMPNST-pTripz tumors in vivo, mice were given water
+containing 1 mg/ml doxycycline (Sigma-Aldrich) in 5% sucrose. For daily
+drug administration, a single dose of vehicle or 50 mg/kg JQ1 (Cayman
+Chemical) were prepared as described (Filippakopoulos et al., 2010; Zuber
+et al., 2011). Tumor volume was calculated as described (Mo et al., 2013).
+D-Luciferin (50 mg/kg) was administered by intraperitoneal injection followed
+by bioluminescent imaging of mice 10 min later with IVIS Spectrum system
+(Caliper Life Sciences).
+
+Lentiviral Constructs
+Mouse Brd4 shRNAs were generated by synthesizing 22-mer sequences cor-
+responding to Brd4 shRNAs described previously (Zuber et al., 2011) for PCR
+cloning into pTripz lentiviral vector. For lentivirus production, psPAX2 and
+pMD2.g (Addgene plasmids 12260 and 12259) packaging vectors were used.
+
+In Vitro Growth Assays
+ATP CellTiter Glo assay (Promega) was performed as per manufacturer’s
+instructions. The FLUOstar OPTIMA 96-well plate reader (BMG Labtech)
+was used for luminescence measurements.
+
+BrdU Cell-Cycle Analysis and Annexin V Flow Cytometry
+Cell-cycle studies were conducted using BrdU Flow kit (BD Biosciences) as
+per manufacturer’s instructions. For analysis of cellular apoptosis/death,
+Annexin V-FITC Kit (Miltenyi Biotec) was used as per manufacturer’s instruc-
+tions. All ﬂow cytometry was performed using FACSCalibur Flow Cytometer
+(BD Biosciences) at the UTSW Flow Cytometry core facility. Data were
+analyzed using FlowJo software (Tree Star).
+
+RNA Isolation, cDNA Synthesis, qRT-PCR
+RNEasy mini kit (QIAGEN) was used to isolate total RNA from cells, followed by
+cDNA synthesis with iScript Select cDNA synthesis kit (Bio-Rad), and then
+qRT-PCR using iTaq Universal SYBR Green Supermix (Bio-Rad) on the CFX
+Connect Real-Time PCR platform (Bio-Rad). Data were quantiﬁed by DCt
+method and normalized relative to Gapdh. See Figure S6 for primers used.
+
+Expression Microarray Analysis
+For Figure 1, total RNA was isolated from sMPNST tumors and NP-SKPs from
+which those tumors were derived from (three biological replicates were
+prepared for both groups). For microarray analysis of shBrd4 and JQ1 effect
+on sMPNST cells, technical replicates (n = 3) were used for the experiment.
+RNA quality and microarray experiments using Mouse Genome 430 2.0
+microarrays (Affymetrix) were conducted by the UT Southwestern Microarray
+core facility. Data were analyzed with GeneSpring GX software (Agilent
+Technologies).
+
+Western Blot
+Protein isolation and subsequent western blot analysis were performed as
+described previously (Mo et al., 2013). Antibodies used were as follows:
+BRD4 (Epitomics, Bethyl Labs); BIM, Cleaved Caspase-3 (Cell Signaling
+Technology); Cleaved Parp, Cyclin D1 (Millipore); and Bcl2, Gapdh (Santa
+Cruz Biotechnology).
+
+EXPERIMENTAL PROCEDURES
+
+Cells and Reagents
+Primary sMPNST and Cis MPNST cells were established from SKP-MPNST
+and cisNP model mice as described (Mo et al., 2013; Vogel et al., 1999).
+
+Immunohistochemistry
+Tumor tissue sample preparation, immunohistochemistry, and data quantiﬁ-
+cation was performed as described previously (Mo et al., 2013). Antibodies
+used were BRD4 (Bethyl Laboratories) and BrdU (Dako).
+
+90 Cell Reports 6, 81–92, January 16, 2014 ª2014 The Authors
+
+Chromatin-Immunoprecipitation qPCR
+ChIP experiments were conducted as described in detailed protocol from
+Abcam. Brieﬂy, chromatin equivalent to 25 mg DNA was 10-fold diluted in IP
+dilution buffer, precleared by 1 hr incubation with ChIP-Grade Protein A/G
+Plus Agarose beads (Thermo Scientiﬁc), and then incubated overnight with
+Brd4 or control immunoglobulin G (IgG) antibody, 2 hr with protein A/G agarose
+beads, followed by wash, elution, and DNA puriﬁcation (phenol/chloroform
+extraction followed by ethanol precipitation). For qPCR analysis, each IP signal
+was normalized to input signal to plot data as percentage of input. Antibodies
+used were as follows: BRD4 (Bethyl Labs) and control IgG (Cell Signaling
+Technology).
+
+Statistical Analyses
+All data are displayed as the mean ± SEM unless speciﬁed otherwise. A two-
+tailed t test was used to evaluate statistical signiﬁcance (p < 0.05 was deemed
+statistically signiﬁcant).
+
+ACCESSION NUMBERS
+
+GEO accession number for data in this paper is GSE50865.
+
+SUPPLEMENTAL INFORMATION
+
+Supplemental Information includes six ﬁgures and can be found with this
+article online at http://dx.doi.org/10.1016/j.celrep.2013.12.001.
+
+ACKNOWLEDGMENTS
+
+We thank all members of the Le lab and Wei Mo for helpful suggestions and
+discussions. A.J.P.
+is a recipient of the Young Investigator Award from
+Children Tumor Foundation. L.Q.L. holds a Career Award for Medical Scien-
+tists from the Burroughs Wellcome Fund. This work was partially supported
+by funding from the Dermatology Foundation, Disease-Oriented Clinical
+Scholar Program, National Cancer Institute of the National
+Institutes of
+Health grant no. R01 CA166593, and U.S. Department of Defense grant no.
+W81XWH-12-1-0161 to L.Q.L.
+
+Received: July 19, 2013
+Revised: September 25, 2013
+Accepted: December 3, 2013
+Published: December 26, 2013
+
+REFERENCES
+
+Albers, A.C., and Gutmann, D.H. (2009). Gliomas in patients with neuroﬁbro-
+matosis type 1. Expert Rev. Neurother. 9, 535–539.
+
+Albritton, K., Rankin, C., Cofﬁn, C., Ratner, N., Budd, G., Schuetze, S., Randall,
+R., Declue, J., and Borden, E. (2006). Phase II study of erlotinib in metastatic or
+unresectable malignant peripheral nerve sheath tumors (MPNST). J. Clin. On-
+col. 24, 9518.
+
+Bajenaru, M.L., Hernandez, M.R., Perry, A., Zhu, Y., Parada, L.F., Garbow,
+J.R., and Gutmann, D.H. (2003). Optic nerve glioma in mice requires astrocyte
+Nf1 gene inactivation and Nf1 brain heterozygosity. Cancer Res. 63, 8573–
+8577.
+
+Bean, G.R., Ganesan, Y.T., Dong, Y., Takeda, S., Liu, H., Chan, P.M., Huang,
+Y., Chodosh, L.A., Zambetti, G.P., Hsieh, J.J.-D., and Cheng, E.H. (2013).
+PUMA and BIM are required for oncogene inactivation-induced apoptosis.
+Sci. Signal. 6, ra20.
+
+Biernaskie, J.A., McKenzie, I.A., Toma, J.G., and Miller, F.D. (2006). Isolation of
+skin-derived precursors (SKPs) and differentiation and enrichment of their
+Schwann cell progeny. Nat. Protoc. 1, 2803–2812.
+
+Chau, V., Lim, S.K., Mo, W., Liu, C., Patel, A.J., McKay, R.M., Wei, S., Posner,
+B.A., De Brabander, J.K., Williams, N.S., et al. (2013). Preclinical therapeutic
+efﬁcacy of a novel pharmacological inducer of apoptosis in malignant periph-
+eral nerve sheath tumors. Cancer Res. Published online November 27, 2013.
+
+Cheng, E.H.Y.A., Wei, M.C., Weiler, S., Flavell, R.A., Mak, T.W., Lindsten, T.,
+and Korsmeyer, S.J. (2001). BCL-2, BCL-X(L) sequester BH3 domain-only
+molecules preventing BAX- and BAK-mediated mitochondrial apoptosis.
+Mol. Cell 8, 705–711.
+
+Cheng, Z., Gong, Y., Ma, Y., Lu, K., Lu, X., Pierce, L.A., Thompson, R.C.,
+Muller, S., Knapp, S., and Wang, J. (2013). Inhibition of BET bromodomain
+targets genetically diverse glioblastoma. Clin. Cancer Res. 19, 1748–1759.
+
+Cichowski, K., Shih, T.S., Schmitt, E., Santiago, S., Reilly, K., McLaughlin,
+M.E., Bronson, R.T., and Jacks, T. (1999). Mouse models of tumor develop-
+ment in neuroﬁbromatosis type 1. Science 286, 2172–2176.
+
+Corcoran, R.B., Cheng, K.A., Hata, A.N., Faber, A.C., Ebi, H., Coffee, E.M.,
+Greninger, P., Brown, R.D., Godfrey, J.T., Cohoon, T.J., et al. (2013). Synthetic
+lethal interaction of combined BCL-XL and MEK inhibition promotes tumor
+regressions in KRAS mutant cancer models. Cancer Cell 23, 121–128.
+
+Dawson, M.A., Prinjha, R.K., Dittmann, A., Giotopoulos, G., Bantscheff, M.,
+Chan, W.-I., Robson, S.C., Chung, C.W., Hopf, C., Savitski, M.M., et al.
+(2011). Inhibition of BET recruitment to chromatin as an effective treatment
+for MLL-fusion leukaemia. Nature 478, 529–533.
+
+Delmore, J.E., Issa, G.C., Lemieux, M.E., Rahl, P.B., Shi, J., Jacobs, H.M.,
+Kastritis, E., Gilpatrick, T., Paranal, R.M., Qi, J., et al. (2011). BET bromodo-
+main inhibition as a therapeutic strategy to target c-Myc. Cell 146, 904–917.
+
+Dey, A., Chitsaz, F., Abbasi, A., Misteli, T., and Ozato, K. (2003). The double
+bromodomain protein Brd4 binds to acetylated chromatin during interphase
+and mitosis. Proc. Natl. Acad. Sci. USA 100, 8758–8763.
+
+Donner, A.J., Ebmeier, C.C., Taatjes, D.J., and Espinosa, J.M. (2010). CDK8 is
+a positive regulator of transcriptional elongation within the serum response
+network. Nat. Struct. Mol. Biol. 17, 194–201.
+
+Duong, T.A., Sbidian, E., Valeyrie-Allanore, L., Vialette, C., Ferkal, S., Hadj-
+Rabia, S., Glorion, C., Lyonnet, S., Zerah, M., Kemlin, I., et al. (2011). Mortality
+associated with neuroﬁbromatosis 1: a cohort study of 1895 patients in
+1980-2006 in France. Orphanet J. Rare Dis. 6, 18.
+
+Endo, M., Kobayashi, C., Setsu, N., Takahashi, Y., Kohashi, K., Yamamoto, H.,
+Tamiya, S., Matsuda, S., Iwamoto, Y., Tsuneyoshi, M., and Oda, Y. (2011).
+Prognostic signiﬁcance of p14ARF, p15INK4b, and p16INK4a inactivation in
+malignant peripheral nerve sheath tumors. Clin. Cancer Res. 17, 3771–3782.
+
+Filippakopoulos, P., Qi, J., Picaud, S., Shen, Y., Smith, W.B., Fedorov, O.,
+Morse, E.M., Keates, T., Hickman, T.T., Felletar, I., et al. (2010). Selective inhi-
+bition of BET bromodomains. Nature 468, 1067–1073.
+
+Firestein, R., Bass, A.J., Kim, S.Y., Dunn, I.F., Silver, S.J., Guney, I., Freed, E.,
+Ligon, A.H., Vena, N., Ogino, S., et al. (2008). CDK8 is a colorectal cancer
+oncogene that regulates beta-catenin activity. Nature 455, 547–551.
+
+Gregorian, C., Nakashima, J., Dry, S.M., Nghiemphu, P.L., Smith, K.B., Ao, Y.,
+Dang, J., Lawson, G., Mellinghoff, I.K., Mischel, P.S., et al. (2009). PTEN
+dosage is essential for neuroﬁbroma development and malignant transforma-
+tion. Proc. Natl. Acad. Sci. USA 106, 19479–19484.
+
+Heyer, J., Kwong, L.N., Lowe, S.W., and Chin, L. (2010). Non-germline genet-
+ically engineered mouse models for translational cancer research. Nat. Rev.
+Cancer 10, 470–480.
+
+Huijbregts, R.P.H., Roth, K.A., Schmidt, R.E., and Carroll, S.L. (2003). Hyper-
+trophic neuropathies and malignant peripheral nerve sheath tumors in trans-
+genic mice overexpressing glial growth factor b3 in myelinating Schwann cells.
+J. Neurosci. 23, 7269–7280.
+
+Jang, M.K., Mochizuki, K., Zhou, M., Jeong, H.-S., Brady, J.N., and Ozato, K.
+(2005). The bromodomain protein Brd4 is a positive regulatory component of
+P-TEFb and stimulates RNA polymerase II-dependent transcription. Mol.
+Cell 19, 523–534.
+
+Jessen, W.J., Miller, S.J., Jousma, E., Wu, J., Rizvi, T.A., Brundage, M.E.,
+Eaves, D., Widemann, B., Kim, M.-O., Dombi, E., et al. (2013). MEK inhibition
+exhibits efﬁcacy in human and mouse neuroﬁbromatosis tumors. J. Clin.
+Invest. 123, 340–347.
+
+Johannessen, C.M., Johnson, B.W., Williams, S.M.G., Chan, A.W., Reczek,
+E.E., Lynch, R.C., Rioth, M.J., McClatchey, A., Ryeom, S., and Cichowski,
+
+Cell Reports 6, 81–92, January 16, 2014 ª2014 The Authors 91
+
+K. (2008). TORC1 Is Essential for NF1-Associated Malignancies. Curr. Biol. 18,
+56–62.
+
+Pietenpol, J.A., and Stewart, Z.A. (2002). Cell cycle checkpoint signaling: cell
+cycle arrest versus apoptosis. Toxicology 181-182, 475–481.
+
+Joseph, N.M., Mosher, J.T., Buchstaller, J., Snider, P., McKeever, P.E., Lim,
+M., Conway, S.J., Parada, L.F., Zhu, Y., and Morrison, S.J. (2008). The loss
+of Nf1 transiently promotes self-renewal but not tumorigenesis by neural crest
+stem cells. Cancer Cell 13, 129–140.
+
+Keng, V.W., Rahrmann, E.P., Watson, A.L., Tschida, B.R., Moertel, C.L., Jes-
+sen, W.J., Rizvi, T.A., Collins, M.H., Ratner, N., and Largaespada, D.A. (2012).
+PTEN and NF1 inactivation in Schwann cells produces a severe phenotype in
+the peripheral nervous system that promotes the development and malignant
+progression of peripheral nerve sheath tumors. Cancer Res. 72, 3405–3413.
+
+King, A.A., Debaun, M.R., Riccardi, V.M., and Gutmann, D.H. (2000). Malignant
+peripheral nerve sheath tumors in neuroﬁbromatosis 1. Am. J. Med. Genet. 93,
+388–392.
+
+King, B., Trimarchi, T., Reavie, L., Xu, L., Mullenders, J., Ntziachristos, P.,
+Aranda-Orgilles, B., Perez-Garcia, A., Shi, J., Vakoc, C., et al. (2013). The ubiq-
+uitin ligase FBXW7 modulates leukemia-initiating cell activity by regulating
+MYC stability. Cell 153, 1552–1566.
+
+Le, L.Q., and Parada, L.F. (2007). Tumor microenvironment and neuroﬁbroma-
+tosis type I: connecting the GAPs. Oncogene 26, 4609–4616.
+
+Le, L.Q., Shipman, T., Burns, D.K., and Parada, L.F. (2009). Cell of origin and
+microenvironment contribution for NF1-associated dermal neuroﬁbromas.
+Cell Stem Cell 4, 453–463.
+
+Letai, A., Bassik, M.C., Walensky, L.D., Sorcinelli, M.D., Weiler, S., and
+Korsmeyer, S.J. (2002). Distinct BH3 domains either sensitize or activate mito-
+chondrial apoptosis, serving as prototype cancer therapeutics. Cancer Cell 2,
+183–192.
+
+Ling, B.C., Wu, J., Miller, S.J., Monk, K.R., Shamekh, R., Rizvi, T.A.,
+Decourten-Myers, G., Vogel, K.S., DeClue, J.E., and Ratner, N. (2005). Role
+for the epidermal growth factor receptor in neuroﬁbromatosis-related periph-
+eral nerve tumorigenesis. Cancer Cell 7, 65–75.
+
+Love´ n, J., Hoke, H.A., Lin, C.Y., Lau, A., Orlando, D.A., Vakoc, C.R., Bradner,
+J.E., Lee, T.I., and Young, R.A. (2013). Selective inhibition of tumor oncogenes
+by disruption of super-enhancers. Cell 153, 320–334.
+
+Martin, G.A., Viskochil, D., Bollag, G., McCabe, P.C., Crosier, W.J., Haubruck,
+H., Conroy, L., Clark, R., O’Connell, P., Cawthon, R.M., et al. (1990). The GAP-
+related domain of the neuroﬁbromatosis type 1 gene product interacts with ras
+p21. Cell 63, 843–849.
+
+Mo, W., Chen, J., Patel, A., Zhang, L., Chau, V., Li, Y., Cho, W., Lim, K., Xu, J.,
+Lazar, A.J., et al.
+(2013). CXCR4/CXCL12 mediate autocrine cell- cycle
+progression in NF1-associated malignant peripheral nerve sheath tumors.
+Cell 152, 1077–1090.
+
+Mochizuki, K., Nishiyama, A., Jang, M.K., Dey, A., Ghosh, A., Tamura, T.,
+Natsume, H., Yao, H., and Ozato, K. (2008). The bromodomain protein Brd4
+stimulates G1 gene transcription and promotes progression to S phase.
+J. Biol. Chem. 283, 9040–9048.
+
+Patel, A.V., Eaves, D., Jessen, W.J., Rizvi, T.A., Ecsedy, J.A., Qian, M.G.,
+Aronow, B.J., Perentesis, J.P., Serra, E., Cripe, T.P., et al. (2012). Ras-driven
+transcriptome analysis identiﬁes aurora kinase A as a potential malignant
+peripheral nerve sheath tumor therapeutic target. Clin. Cancer Res. 18,
+5020–5030.
+
+Perrone, F., Da Riva, L., Orsenigo, M., Losa, M., Jocolle` , G., Millefanti, C., Pas-
+tore, E., Gronchi, A., Pierotti, M.A., and Pilotti, S. (2009). PDGFRA, PDGFRB,
+EGFR, and downstream signaling activation in malignant peripheral nerve
+sheath tumor. Neuro-oncol. 11, 725–736.
+
+Perry, A., Kunz, S.N., Fuller, C.E., Banerjee, R., Marley, E.F., Liapis, H.,
+Watson, M.A., and Gutmann, D.H. (2002). Differential NF1, p16, and EGFR
+patterns by interphase cytogenetics (FISH)
+in malignant peripheral nerve
+sheath tumor (MPNST) and morphologically similar spindle cell neoplasms.
+J. Neuropathol. Exp. Neurol. 61, 702–709.
+
+Rahrmann, E.P., Watson, A.L., Keng, V.W., Choi, K., Moriarity, B.S., Beck-
+mann, D.A., Wolf, N.K., Sarver, A., Collins, M.H., Moertel, C.L., et al. (2013).
+Forward genetic screen for malignant peripheral nerve sheath tumor formation
+identiﬁes new genes and pathways driving tumorigenesis. Nat. Genet. 45,
+756–766.
+
+Shannon, K.M., Watterson, J., Johnson, P., O’Connell, P., Lange, B., Shah, N.,
+Steinherz, P., Kan, Y.W., and Priest, J.R. (1992). Monosomy 7 myeloprolifera-
+tive disease in children with neuroﬁbromatosis, type 1: epidemiology and
+molecular analysis. Blood 79, 1311–1318.
+
+Tait, S.W.G., and Green, D.R. (2010). Mitochondria and cell death: outer mem-
+brane permeabilization and beyond. Nat. Rev. Mol. Cell Biol. 11, 621–632.
+
+Torres, K.E., Zhu, Q.-S., Bill, K., Lopez, G., Ghadimi, M.P., Xie, X., Young, E.D.,
+Liu, J., Nguyen, T., Bolshakov, S., et al. (2011). Activated MET is a molecular
+prognosticator and potential therapeutic target for malignant peripheral nerve
+sheath tumors. Clin. Cancer Res. 17, 3943–3955.
+
+Vogel, K.S., Klesse, L.J., Velasco-Miguel, S., Meyers, K., Rushing, E.J., and
+Parada, L.F. (1999). Mouse tumor model for neuroﬁbromatosis type 1. Science
+286, 2176–2179.
+
+Wallace, M.R., Marchuk, D.A., Andersen, L.B., Letcher, R., Odeh, H.M.,
+Saulino, A.M., Fountain, J.W., Brereton, A., Nicholson, J., Mitchell, A.L.,
+et al. (1990). Type 1 neuroﬁbromatosis gene: identiﬁcation of a large transcript
+disrupted in three NF1 patients. Science 249, 181–186.
+
+Watson, A.L., Rahrmann, E.P., Moriarity, B.S., Choi, K., Conboy, C.B., Greeley,
+A.D., Halfond, A.L., Anderson, L.K., Wahl, B.R., Keng, V.W., et al. (2013).
+Canonical Wnt/b-catenin signaling drives human schwann cell transformation,
+progression, and tumor maintenance. Cancer Discov. 3, 674–689.
+
+Wei, M.C., Zong, W.-X., Cheng, E.H.-Y., Lindsten, T., Panoutsakopoulou, V.,
+Ross, A.J., Roth, K.A., MacGregor, G.R., Thompson, C.B., and Korsmeyer,
+S.J. (2001). Proapoptotic BAX and BAK: a requisite gateway to mitochondrial
+dysfunction and death. Science 292, 727–730.
+
+Wu, S.-Y., and Chiang, C.-M. (2007). The double bromodomain-containing
+chromatin adaptor Brd4 and transcriptional regulation. J. Biol. Chem. 282,
+13141–13145.
+
+Wu, J., Patmore, D.M., Jousma, E., Eaves, D.W., Breving, K., Patel, A.V.,
+Schwartz, E.B., Fuchs, J.R., Cripe, T.P., Stemmer-Rachamimov, A.O., and
+Ratner, N. (2013a). EGFR-STAT3 signaling promotes formation of malignant
+peripheral nerve sheath tumors. Oncogene. Published online January 14,
+2013. http://dx.doi.org/10.1038/onc.2012.579.
+
+Wu, S.-Y., Lee, A.Y., Lai, H.-T., Zhang, H., and Chiang, C.-M.
+(2013b).
+Phospho switch triggers Brd4 chromatin binding and activator recruitment
+for gene-speciﬁc targeting. Mol. Cell 49, 843–857.
+
+Yang, Z., Yik, J.H.N., Chen, R., He, N., Jang, M.K., Ozato, K., and Zhou, Q.
+(2005). Recruitment of P-TEFb for stimulation of transcriptional elongation
+by the bromodomain protein Brd4. Mol. Cell 19, 535–545.
+
+Yang, Z., He, N., and Zhou, Q. (2008). Brd4 recruits P-TEFb to chromosomes
+at late mitosis to promote G1 gene expression and cell cycle progression. Mol.
+Cell. Biol. 28, 967–976.
+
+Youle, R.J., and Strasser, A. (2008). The BCL-2 protein family: opposing
+activities that mediate cell death. Nat. Rev. Mol. Cell Biol. 9, 47–59.
+
+Zou, C., Smith, K.D., Liu, J., Lahat, G., Myers, S., Wang, W.-L., Zhang, W.,
+McCutcheon, I.E., Slopis, J.M., Lazar, A.J., et al. (2009). Clinical, Pathological,
+and Molecular Variables Predictive of Malignant Peripheral Nerve. Sheath
+Tumor Outcome. Ann. Surg. 249, 1014–1022.
+
+Zuber, J., Shi, J., Wang, E., Rappaport, A.R., Herrmann, H., Sison, E.A.,
+Magoon, D., Qi, J., Blatt, K., Wunderlich, M., et al. (2011). RNAi screen
+identiﬁes Brd4 as a therapeutic target in acute myeloid leukaemia. Nature
+478, 524–528.
+
+92 Cell Reports 6, 81–92, January 16, 2014 ª2014 The Authors
+
+

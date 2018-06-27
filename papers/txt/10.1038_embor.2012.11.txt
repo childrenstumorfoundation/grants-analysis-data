@@ -1,0 +1,2145 @@
+review
+
+review
+Merlin: a tumour suppressor with functions at the cell 
+cortex and in the nucleus
+Wei Li1*+, Jonathan Cooper1*, Matthias A. Karajannis2 & Filippo G. Giancotti1++
+1Cell Biology Program, Sloan–Kettering Institute for Cancer Research, Memorial Sloan–Kettering Cancer Center, New York,  
+and 2NYU Cancer Institute and Department of Pediatrics, NYU Langone Medical Center, New York, USA
+
+Inhibition of proliferation by cell-to-cell contact is essential for tis-
+sue organization, and its disruption contributes to tumorigenesis. 
+The  FERM  domain  protein  Merlin,  encoded  by  the  NF2  tumour 
+suppressor gene, is an important mediator of contact inhibition. 
+Merlin  was  thought  to  inhibit  mitogenic  signalling  and  activate 
+the Hippo pathway by interacting with diverse target-effectors at 
+or near the plasma membrane. However, recent studies highlight 
+that Merlin pleiotropically affects signalling by migrating into the 
+nucleus  and  inducing  a  growth-suppressive  programme  of  gene 
+expression through its direct inhibition of the CRL4DCAF1 E3 ubiq-
+uitin  ligase.  In  addition,  Merlin  promotes  the  establishment  of 
+epithelial adhesion and polarity by recruiting Par3 and aPKC to 
+E-cadherin-dependent junctions, and by ensuring the assembly of 
+tight junctions. These recent advances suggest that Merlin acts at 
+the cell cortex and in the nucleus in a similar, albeit antithetic, 
+manner to the oncogene β-catenin.
+Keywords: Merlin; type 2 neurofibromatosis; contact inhibition; 
+tumour suppression; Hippo
+EMBO reports (2012) 13, 204–215; published online 21 February 2012;  
+doi:10.1038/embor.2012.11
+See the Glossary for abbreviations used in this article.
+
+Introduction
+Normal cells cease to proliferate when they come into contact with 
+each other and assemble stable intercellular junctions. Contact inhi-
+bition of proliferation is essential for tissue organization and its loss 
+is a characteristic of cancer [1]. Since its discovery as the tumour 
+suppressor  that  is  inactivated  in  neurofibromatosis  type  2  (NF2) 
+almost two decades ago [2,3], the FERM domain protein Merlin has 
+emerged as a major effector of contact inhibition [4–7]. Furthermore, 
+genetic  studies  in  mice  have  shown  that  Merlin  has  a  relatively 
+
+1Cell Biology Program, Sloan–Kettering Institute for Cancer Research, Memorial Sloan–
+Kettering Cancer Center, 1275 York Avenue, Box 216, New York, New York 10065, USA 
+2NYU Cancer Institute and Department of Pediatrics, NYU Langone Medical Center, 
+New York, New York 10016, USA 
+*These authors contributed equally to this work 
++Corresponding author. Tel: +1 212 639 7044; Fax: +1 212 794 6236; 
+E-mail: liw@mskcc.org 
+++Corresponding author. Tel: +1 212 639 6998; Fax: +1 212 794 6236; 
+E-mail: f-giancotti@ski.mskcc.org 
+
+Received 23 October 2011; accepted 12 January 2012;  
+published online 21 February 2012
+
+broad tumour suppressor function (Sidebar A). In addition to NF2, 
+loss of Merlin function contributes to the development of sporadic 
+meningiomas, ependymomas and schwannomas, a significant frac-
+tion of malignant pleural mesotheliomas, and a small subset of renal 
+cell carcinomas, melanomas, glioblastomas and colorectal cancers 
+in humans (Sidebar B; [8–14]). As for other oncogenic mutations, it 
+remains unclear why loss of Merlin contributes to tumorigenesis in 
+some but not other tissues (Sidebar C). Cell-type-specificity in the 
+wiring of signalling pathways, previous accumulation of cooperat-
+ing mutations and/or differences in the stromal microenvironment 
+could all contribute to the tissue specificity of the phenotype.
+
+Although Nf2-knockout embryos deteriorate at an early develop-
+mental stage due to defects in extraembryonic structures [15], tissue-
+specific ablation experiments have provided insight into some of the 
+developmental roles of Merlin. Deletion of Nf2 in the skin causes 
+defects in epithelial adhesion and polarity that disrupt its barrier func-
+tion [16]. Inactivation of Nf2 in the liver causes a large expansion 
+of progenitor cells, suggesting that Merlin inhibits stem-cell renewal 
+or amplification [17,18]. Intriguingly, deletion of Nf2 in the entire 
+haematopoietic  compartment  leads  to  an  expansion  of  progenitor 
+cells that is largely secondary to the expansion of their perivascular 
+niche [19], suggesting that Merlin can regulate stem-cell expansion 
+by a non-cell-autonomous mechanism.
+
+Merlin has significant sequence homology to members of the 
+Ezrin/Radixin/Moesin  (ERM)  family  of  proteins,  which  in  their 
+open  conformation  link  various  cell-adhesion  receptors  to  the  
+cortical actin cytoskeleton [20]. On this basis, it has been argued 
+that Merlin mediates both contact inhibition and tumour suppres-
+sion  by  directly  modulating  mitogenic  signal  transduction  at  or 
+near the plasma membrane [21,22]. Analysis of various cell types 
+indicated that Merlin can potentially affect a variety of mitogenic 
+pathways,  such  as  Rac–PAK  signalling  [7,23–25],  activation  of 
+mTORC1 independently of Akt [26,27], the EGFR–Ras–ERK path-
+[26,27], the EGFR–Ras–ERK path-
+,27], the EGFR–Ras–ERK path-
+way,  the  PI3K–Akt  pathway  and  FAK–Src  signalling  [28–31].  
+In  addition,  genetic  studies  in  Drosophila  and  mice  showed  
+that  Merlin  contributes  to  the  activation  of  the  Hippo  tumour- 
+suppressor pathway [18,32,33].
+
+Against the backdrop of this rich biology, recent studies have 
+revealed that Merlin can interact with α-catenin and Par3 at nas-
+cent adherens junctions [16], as well as with the scaffold and sig-
+[16], as well as with the scaffold and sig-
+, as well as with the scaffold and sig-
+nalling protein Angiomotin at tight junctions [34]. In addition, it 
+has become clear that Merlin translocates to the nucleus to modify 
+
+204  
+
+EMBO reports  VOL 13 | NO 3 | 2012 
+
+©2012 EUROPEAN MOLECULAR BIOLOGY ORGANIZATION
+
+The tumour suppressor Merlin
+
+gene  expression  through  inhibition  of  the  E3  ubiquitin  ligase 
+CRL4DCAF1 [35]. In this review, we discuss these recent results and 
+the models of Merlin function they suggest, in an effort to provide  
+a framework for future studies.
+
+Merlin structure and modifications
+ERM proteins consist of an amino-terminal FERM domain followed 
+by  a  coiled-coil  segment  and  a  hydrophilic  tail  [20].  Although 
+Merlin  has  the  same  domain  organization  and  considerable 
+sequence  homology  to  canonical  ERM  proteins,  it  also  contains 
+unique sequence motifs [36,37]. In particular, the FERM domain of 
+Merlin contains an evolutionarily conserved Blue box motif (resi-
+dues 177–183), which is absent in canonical ERM proteins, whereas 
+the carboxy-terminal domain of the protein lacks a canonical actin-
+binding motif that is present in all ERM proteins. In addition, Merlin 
+has an extended 17 amino-acid-long N-terminal segment that is not 
+found in other ERM proteins (Fig 1A).
+
+Canonical ERM proteins are maintained in a dormant state by 
+an intramolecular association between the FERM domain and the 
+C-terminal tail [38–40]. In response to upstream activation of Rho, 
+Rho kinase phosphorylates a threonine residue in the C-terminal 
+domain  of  ERM  proteins,  disrupting  the  head-to-tail  associa-
+tion that maintains the closed conformation (Fig 1B). Once ERM 
+proteins  adopt  the  open  conformation,  their  FERM  domain  can 
+associate  with  the  cytoplasmic  segment  of  cell-adhesion  recep-
+tors—such as CD44 and ICAM—and their C-terminal domain can 
+interact  with  actin  filaments,  regulating  the  organization  of  the 
+cortical cytoskeleton [38,41,42].
+
+Biochemical and mutational studies suggest that Merlin under-
+goes  a  similar  conformational  transition  in  response  to  PAK-
+mediated  phosphorylation  of  Ser  518  (Fig  1C;  [43]).  However, 
+recent evidence suggests that additional post-translational modifi-
+cations might be required to fully disengage the α-helical segment 
+of Merlin from the FERM domain [44]. The putatively open form of 
+Merlin might associate with the cytoskeleton by forming head-to-
+tail heterodimers with canonical ERM proteins [45–47], as well as 
+through additional potential mechanisms [48], whereas the closed 
+form of Merlin seems to mediate growth inhibition in vitro and is 
+thereby considered active [25,43,49–51]. Several lines of evidence 
+support the latter point. Mutation of Ser 518 to alanine enhances 
+the  growth  inhibitory  activity  of  Merlin,  whereas  its  change  to 
+aspartic acid eliminates this activity [52]. Overexpression of a Blue 
+box mutant form of Merlin—presumed to be constitutively open 
+[37,39,40]—induces overproliferation in the wing of Drosophila, 
+and the murine analogue promotes cellular transformation in vitro, 
+both presumably through a dominant-negative mechanism [4,53]. 
+Finally, numerous missense mutations detected in patients affected 
+by NF2 map to the F2 segment of the FERM domain and the most 
+parsimonious  truncation  mutants  lack  only  the  C-terminal  seg-
+ment, which is predicted to interact with the F2 segment (Fig 2). 
+Furthermore, structural considerations based on the analysis of the 
+crystal structure of the closed form of Moesin—which is the only 
+closed  structure  available—suggest  that  virtually  all  pathogenic 
+missense  mutations  found  in  NF2,  including  the  few  affecting 
+the α-helical portion of Merlin, disrupt the extended surface that  
+mediates the interaction of the FERM domain with the C-terminal 
+segment of the protein [39,40]. Interestingly, a recent study found 
+that  Merlin  isoform  2—which  lacks  the  five  C-terminal  residues 
+found in the canonical Merlin isoform 1 necessary for interdomain 
+
+review
+
+eukaryotic translation initiation factor 4E-binding protein 1
+protein kinase B
+adenosine monophosphate
+atypical PKC
+AXL receptor tyrosine kinase
+cell division control protein 42 homologue
+cullin-ring E3 ligase 4
+chromosome region maintenance protein 1
+DDB1- and CUL4-associated factor 1
+DNA damage-binding protein 1
+epidermal growth factor receptor
+v-erb-b2 erythroblastic leukaemia viral oncogene homologue 2/3
+Erbb2 interacting protein
+extracellular-signal-regulated kinase
+focal adhesion kinase
+4.1 protein/Ezrin/Radixin/Moesin
+human embryonic kidney 293
+intercellular adhesion molecule
+insulin-like growth factor 1 receptor
+kidney and brain protein
+large tumour suppressor 1/2
+Madine–Darby kidney cancer
+mouse embryonic fibroblasts
+membrane-organizing extension spike protein
+
+Glossary
+4E-BP1 
+Akt 
+AMP 
+aPKC 
+AXL 
+Cdc42 
+CRL4 
+CRM1 
+DCAF1 
+DDB1 
+EGFR 
+ErbB2/3 
+Erbin 
+ERK 
+FAK 
+FERM 
+HEK-293 
+ICAM 
+IGF1R 
+Kibra 
+Lats1/2 
+MDCK 
+MEFs 
+Moesin 
+MST1/2  macrophage stimulating 1/2
+mTORC1/2  mammalian target of rapamycin complex 1/2
+MYPT1 
+PAK 
+Pals1 
+Par3 
+Patj 
+PDGFR 
+PI3K 
+PIKE-L 
+PIP2 
+PKA 
+PKCα 
+PP1δ 
+PTEN 
+Rac 
+Ras 
+Rich1 
+Roc1/Rbx1  RING box protein 1
+S6K1 
+TAZ 
+TEAD 
+TGF-β 
+TSC1/2 
+YAP 
+
+myosin phosphatase targeting subunit 1
+p21-activated kinase
+protein associated with Lin-7 1
+partitioning defective 3 homologue
+Pals1-associated tight junction protein
+platelet-derived growth factor receptors
+phosphatidylinositol 3-kinase
+phosphoinositide 3-kinase enhancer isoform 1 
+phosphatidylinositol 4,5-bisphosphate
+protein kinase A
+protein kinase C alpha type 
+serine/threonine-protein phosphatase PP1-δ catalytic subunit
+phosphatase and tensin homologue
+Ras-related C3 botulinum toxin substrate
+rat sarcoma
+RhoGAP interacting with CIP4 homologues 1
+
+S6 kinase 1
+transcriptional coactivator with PDZ-binding motif  
+TEA domain family member 
+transforming growth factor-β
+tuberous sclerosis complex 1/2
+Yes-associated protein
+
+binding in vitro [50]—suppresses Nf2–/– Schwann cell proliferation 
+to the same extent as Merlin isoform 1 [54]. As these results contra-
+[54]. As these results contra-
+. As these results contra-
+dict previous findings [50,55], further investigation is required to 
+understand how Merlin’s conformation affects its activity and how 
+Merlin isoform 2 functions (Sidebar C).
+
+The levels of closed, active Merlin increase substantially in cells 
+undergoing growth arrest due to contact inhibition, loss of matrix 
+adhesion, deprivation of growth factors or exposure to hyaluronic 
+acid [6,56], suggesting that Merlin integrates various anti-mitogenic 
+signals  (Fig  3A).  Promitogenic  signals—which  are  initiated  by  
+integrins  and  receptor  tyrosine  kinases  and  transduced  by  Cdc42 
+
+©2012 EUROPEAN MOLECULAR BIOLOGY ORGANIZATION 
+
+EMBO reports  VOL 13 | NO 3 | 2012 205
+
+review
+
+The tumour suppressor Merlin
+
+Sidebar A | Mouse models of NF2
+Nf2-knockout mice succumb in utero, whereas heterozygous Nf2 mutant 
+mice develop multiple malignancies, especially if an allele of p53 is 
+simultaneously inactivated. The tumours arising in Nf2 mutant mice include 
+hepatocellular carcinomas and osteosarcomas among others, but not 
+schwannomas or meningiomas, suggesting that Merlin is a haploinsufficient 
+tumour suppressor in several tissues [117]. Conditional biallelic 
+inactivation of Nf2 in Schwann cells leads to Schwann cell hyperplasia and 
+schwannoma formation [118], mimicking human neurofibromatosis type 2, 
+which results from loss of heterozygosity at the Nf2 locus [8]. Furthermore, 
+biallelic inactivation of Nf2 in arachnoidal cells leads to the formation 
+of meningiomas, which have significant histological similarity to the 
+corresponding human tumours [119]. In a similar fashion, Nf2+/– mice have 
+increased sensitivity to the carcinogenic effect of inhaled asbestos [120], 
+and conditional deletion of Nf2 in mesothelial cells cooperates with loss of 
+Ink4a/Arf and p53 to drive malignant mesothelioma [121]. Biallelic loss 
+of Merlin in the liver was recently shown to result in hepatomegaly and 
+formation of malignant tumours [17,18]. Although the issue has not been 
+completely resolved, it seems that biallelic Nf2 loss in the liver leads to the 
+expansion of a progenitor population able to differentiate at least partly 
+along the ductal lineage [99]. The complete penetrance observed in this 
+model indicates that Merlin is a potent regulator of liver size and tumour 
+suppression, and future studies using this model could provide great insight 
+into the normal biological role of Merlin and its tumour suppressor activity.
+
+and  Rac—activate  PAK,  which  directly  phosphorylates  Merlin  at 
+Ser  518.  This  phosphorylation  disrupts  the  binding  between  the 
+N-terminal FERM domain and the C-terminal tail, thereby inactivat-
+ing Merlin [7,25]. Conversely, engagement of cadherins or loss of 
+mitogenic signalling inactivates PAK, leading to an accumulation of 
+the closed form of Merlin [56]. Although most studies have placed 
+PAK upstream from Merlin, there is also evidence suggesting that 
+Merlin can suppress PAK activation [24,57]. Recent studies suggest 
+that this potential feed-forward mechanism is restricted to epithelial 
+cells that express Erbin. Binding to Erbin allows Merlin to inactivate 
+PAK2, disabling one branch of non-canonical TGF-β signalling [58]. 
+Ser 518 can also be phosphorylated by PKA, suggesting that Merlin 
+can also be inactivated by the cyclic AMP–PKA pathway, a signalling 
+axis that regulates gene expression, cell growth and cell cycle pro-
+gression  in  Schwann  cells  [59].  Increases  in  dephosphorylated 
+Merlin might be a result not only of PAK inhibition but also of the 
+activation of a Merlin phosphatase—such as MYPT1-PP1δ—which 
+dephosphorylates  Ser  518,  thus  activating  Merlin  [26].  Over-
+expression  of  CPI-17,  an  MYPT1  cellular  inhibitor,  induces  neo-
+plastic  transformation  in  vitro,  underscoring  the  importance  of 
+Ser  518  dephosphorylation  [29].  However,  whether  MYPT1-
+mediated dephosphorylation of Merlin is necessary and sufficient 
+for activation of Merlin in vivo remains to be determined.
+
+Phosphorylation  at  Ser  518  seems  to  be  the  primary  post-
+translational  modification  that  drives  the  activation–inactivation 
+cycle.  Nevertheless,  additional  phosphorylation  events  or  other 
+post-translational  modifications  might  be  required  to  disengage 
+the  extended  contacts  that  the  α-helical  and  C-terminal  seg-
+ments of Merlin form with the FERM domain in the closed con-
+formation  (Sidebar  C;  [39]).  In  agreement  with  this  hypothesis, 
+band-shift experiments suggest that Merlin is post-translationally 
+modified at multiple sites in response to mitogenic stimuli [56]. 
+Overexpression studies suggest that AKT can phosphorylate Merlin 
+at Thr  230  and  Ser  315,  stabilizing  the  open  conformation  and 
+
+1
+
+17
+
+Ser 10
+
+(cid:40)
+
+Merlin
+
+Band 4.1
+
+Ezrin
+
+Radixin
+
+Moesin
+
+FERM domain
+98
+
+112
+
+212 220
+
+311
+
+α-Helical domain
+
+C-term 
+domain
+595
+
+506
+
+Thr 230
+
+Ser 315
+
+Ser 518
+
+270
+
+406
+
+588
+
+585
+
+583
+
+577
+
+Unique N-term
+
+F-actin binding
+
+(cid:41)
+
+(cid:42)
+
+Open
+
+Closed
+
+P
+
+MYPT1
+
+PAK
+
+Mer
+
+CRL4DCAF1
+
+PIP2
+
+RhoK
+
+P
+
+F-actin
+
+Binding of phosphatidylinositol 
+4,5-bisphosphate and 
+phosphorylation of C-terminal 
+threonine
+
+Nucleus
+
+Dephosphorylation of Ser 518
+
+ERM protein activation via 
+reduced affinity between 
+N-terminal FERM domain and 
+C-terminus, unmasking of sites 
+for binding F-actin and membrane 
+proteins, promoting regulation 
+of cortical actin cytoskeleton
+
+Increased intramolecular assocation 
+between N-terminal FERM domain 
+and C-terminus maintains Merlin in 
+a closed conformation, promoting 
+nuclear translocation and growth 
+inhibition
+
+Fig 1 | Merlin and ERM protein domain organization and phosphoregulation. 
+(A) Merlin and other canonical ERM proteins have similar domain organizations 
+consisting of an amino-terminal (N-term) FERM domain that is divided into 
+three subdomains, an α-helical coiled-coil domain and a carboxy-terminal 
+(C-term) hydrophilic tail. Canonical ERM proteins contain an actin-binding 
+C-terminal ERM-associated domain (C-ERMAD; pink), whereas Merlin does 
+not. It also has an extended N-terminal motif (green) unique among ERM 
+proteins, illustrating its divergent structure with respect to other ERM proteins. 
+Merlin phosphorylation sites are indicated. (B) Canonical ERM proteins are 
+maintained in an inactive state by intramolecular interaction between the 
+C-terminal tail and FERM domain. Phosphorylation of a C-terminal threonine 
+by Rho kinase—which might be aided by ERM protein recruitment to membrane 
+regions rich in phosphatidylinositol 4,5-bisphosphate—activates the protein by 
+disrupting the head-to-tail interaction. (C) Conversely, Merlin’s dephosphorylated 
+and closed form is active and functions in tumour suppression and contact 
+inhibition. Phosphorylation by PAK and PKA at Ser 518 renders the protein 
+inactive in its putatively open form. ERM, Ezrin/Radixin/Moesin; FERM, 4.1 
+protein/Ezrin/Radixin/Moesin; MYPT1, myosin phosphatase targeting subunit 
+1; PAK, p21-activated kinase; PKA, protein kinase A;  PIP2, phosphatidylinositol 
+4,5-bisphosphate; RhoK, Ras homologue gene family, member K.
+
+206  
+
+EMBO reports  VOL 13 | NO 3 | 2012 
+
+©2012 EUROPEAN MOLECULAR BIOLOGY ORGANIZATION
+
+The tumour suppressor Merlin
+
+review
+
+disrupting  binding  to  PIKE-L—a  GTPase  that  binds  to  PI3K  and 
+enhances its activity [60]. These observations suggest that consti-
+[60]. These observations suggest that consti-
+. These observations suggest that consti-
+tutive activation of PI3K–Akt signalling, as occurs in cells lacking 
+PTEN or carrying activating mutations in PI3K, could lead to inac-
+tivation  of  Merlin  and  potentially  eliminate  a  negative-feedback 
+loop that restrains the activation of PI3K. In addition, Akt-mediated 
+phosphorylation  has  been  proposed  to  promote  Merlin  ubiqui-
+tination  and  proteasome-mediated  degradation  [60].  However, 
+the  significance  of  these  events  remains  unclear  because  cyclo-
+heximide chase experiments suggest that endogenous Merlin is not 
+significantly degraded by the ubiquitin–proteasome system (UPS; 
+[35]). Finally, PKA phosphorylation of Ser 10 was recently shown 
+to alter the organization of the actin cytoskeleton without affecting 
+Ser 518 phosphorylation [61].
+
+Merlin localization
+Due  to  its  homology  with  classical  ERM  proteins  and  seemingly 
+prevalent co-localization with cortical actin below the plasma mem-
+brane, Merlin has been proposed to regulate mitogenic signalling by 
+organizing  membrane  domains  [48]. The  accumulation  of  Merlin 
+at cell-to-cell junctions in confluent epithelial and endothelial cells 
+[5,7], within lamellipodia in various types of cell [62–64], and on the 
+surface of endocytic vesicles in Drosophila epithelial tissues [53,65] 
+is consistent with this general hypothesis (Sidebar C).
+
+Recent  studies  have  shown  that  the  distribution  of  Merlin  can 
+change  dynamically  in  response  to  various  signals  and  is  more 
+diverse  than  previously  anticipated.  For  example,  analysis  of  the 
+behaviour of the Blue box and the S518A mutant forms of Merlin 
+suggests that the open conformer of Merlin generated by integrin-
+mediated activation of PAK accumulates underneath matrix adhe-
+sions  [7].  Skin-epithelium-specific  deletion  of  Merlin  in  mouse 
+shows that the protein transiently associates with primordial inter-
+cellular adhesions and regulates their maturation into adherens junc-
+tions, as well as the formation of tight junctions [16]. Although this 
+study failed to detect any association of Merlin with mature adher-
+ens or tight junctions, another recent study indicated that Merlin is 
+enriched at tight junctions in confluent MDCK cells and co-localizes 
+with E-cadherin at the paranodes and Schmidt–Lanterman incisures 
+of myelinating Schwann cells [34]. Finally, a significant fraction of 
+Merlin is known to be associated with the soluble, cytosolic frac-
+tion in many cell types [64,66], and a smaller amount can move to a 
+detergent-insoluble fraction that has been interpreted as lipid rafts in 
+response to contact inhibition [67].
+
+The above results support the hypothesis that Merlin functions 
+at or near the plasma membrane. Nevertheless, the closed form of 
+Merlin has recently been shown to suppress tumorigenesis by trans-
+locating  to  the  nucleus,  where  it  inhibits  the  E3  ubiquitin  ligase 
+CRL4DCAF1 [35]. These findings are fully consistent with the widely 
+held view that only the closed form of Merlin is able to suppress 
+tumorigenesis [43,50,52] and with reports suggesting that Merlin 
+shuttles in and out of the nucleus [68,69]. However, most previous 
+studies had failed to detect Merlin in the nucleus, possibly because 
+the  antibodies  used  are  directed  against  an  epitope  of  nuclear 
+Merlin that is masked under standard fixation and permeabilization 
+conditions. In fact, Merlin was observed in the nucleus in multiple 
+cell types by using an antibody that recognizes its C-terminus and 
+an  enhanced  permeabilization  technique  [35].  Similar  problems 
+initially hampered the detection of β-catenin in the nucleus [70,71]. 
+In addition, consistent with the nucleo-cytoplasmic shuttling model, 
+
+Sidebar B | Clinical features of NF2
+Neurofibromatosis type 2 (NF2) is an autosomal dominant genetic disorder 
+with an incidence of approximately 1 in 40,000. It is caused by inactivation 
+of the NF2 gene located on chromosome 22q [2,3]. NF2 patients develop 
+multiple central nervous system (CNS) and peripheral nervous system (PNS) 
+tumours. The locations and types of CNS and PNS tumours seen in these 
+patients are highly specific. Schwannomas arise from Schwann cells that 
+form the myelin sheath surrounding the sensory and motor neurons. The 
+hallmark of NF2 is the development of bilateral vestibular schwannomas (VS), 
+which arise at the vestibular branch of the VIIIth cranial nerve. In addition 
+to VS, most NF2 patients develop schwannomas in other locations, such 
+as other cranial nerves and peripheral nerves, including nerve roots. Most 
+NF2 patients experience progressive hearing loss in adolescence or young 
+adulthood due to bilateral VS. Life-threatening neurological complications 
+occur when these tumours reach a critical size. In addition, schwannomas 
+involving other cranial nerves can impair swallowing, vision and facial 
+function. Other CNS and PNS tumours seen in NF2 patients include 
+meningiomas, which arise from arachnoid cap cells, and ependymomas, 
+which arise from ependymal cells lining the ventricles and central spinal 
+canal. There is a clear association between genotype and phenotype in NF2 
+patients, with nonsense/frameshift mutations being associated with earlier 
+onset of symptoms, larger tumour burden and shorter life expectancy [122]. 
+Sporadic VS, which occur in non-NF2 patients, consistently lack expression 
+of detectable Merlin [123], and genetic inactivation of the Nf2 gene also 
+occurs in the majority of sporadic meningiomas [124–126], indicating 
+similarities in tumour biology between sporadic and NF2-related VS and 
+meningiomas. Sporadic VS have an incidence of roughly 3,000 per year in 
+the USA, which seems to be rising [127], and sporadic meningiomas are the 
+most common type of brain tumour, accounting for approximately 25% of 
+primary intracranial tumours in the USA [128]. Despite major advances 
+in neuroimaging and neurosurgical techniques over the past decades—
+including microsurgery and stereotaxis —the neurosurgical management of 
+NF2 patients remains challenging. The identification of effective drugs to treat 
+these patients would also be relevant for large patient populations without 
+NF2, as there is no known effective treatment option for unresectable or 
+progressive sporadic meningiomas.
+
+Merlin was recently found to move along microtubules towards the 
+nucleus in Drosophila, in a kinesin-1- and dynein-dependent man-
+ner [72]. Thus, Merlin could potentially have a similar mechanism 
+of intracellular transport in mammals (Sidebar C). Although Merlin 
+does not have a canonical nuclear localization sequence, a dele-
+tion mutant lacking four amino acids near the N-terminus does not 
+localize to the nucleus, suggesting that these residues are essential 
+for  Merlin  nuclear  translocation  (W.L.  and  F.G.G.,  unpublished 
+observation). In addition, Merlin contains a motif in exon 15 that 
+promotes export via the CRM1–exportin pathway [68], and trun-
+[68], and trun-
+ and trun-
+cation  mutants  lacking  this  sequence  have  a  prominent  nuclear 
+localization [35,54]. In the closed form, intramolecular interactions 
+could block the recognition of this export sequence, contributing to 
+Merlin nuclear translocation.
+
+Recent  mutational  analyses  have  attempted  to  distinguish 
+between plasma membrane and nuclear models of Merlin func-
+tion. Merlin has been reported to associate with the plasma mem-
+brane by binding to phosphoinositides, particularly PIP2, through 
+six charged residues within the FERM domain that are conserved 
+in  other  ERM  proteins.  Although  the  interaction  of  Merlin  with 
+phospho inositides is dispensable for Ser 518 phosphoregulation, it 
+seems necessary for Merlin’s localization to the plasma membrane 
+and for some aspects of growth suppression [73]. In addition, dele-
+[73]. In addition, dele-
+. In addition, dele-
+tion of the 17 N-terminal residues that are not found in other ERM 
+
+©2012 EUROPEAN MOLECULAR BIOLOGY ORGANIZATION 
+
+EMBO reports  VOL 13 | NO 3 | 2012 207
+
+The tumour suppressor Merlin
+
+E106G
+
+V219M
+
+F119del
+L141P
+A211D
+
+L234R
+H242D
+E270G
+
+Q324L
+T352M
+L360P
+E392V
+K413E
+E463K
+
+K533T
+L535P
+
+review
+
+K42P
+K44N
+L46R
+F47L
+F62S
+L64P
+M77V
+K79E
+F96del
+
+9
+
+8
+
+7
+
+6
+
+5
+
+4
+
+3
+
+2
+
+1
+
+0
+
+y
+c
+n
+e
+u
+q
+e
+r
+f
+ 
+n
+o
+i
+t
+a
+t
+u
+M
+
+F1
+
+F2
+
+F3
+
+1
+
+17
+
+98
+
+112
+
+212 220
+
+311
+
+FERM domain
+
+(cid:95)-Helical domain
+
+506
+
+595
+
+C-term domain
+
+Fig 2 | Merlin missense mutations and single residue deletions in NF2. The position, frequency and type of mutation are plotted on a schematic diagram of Merlin. 
+The pathogenicity of mutations supported by biological evidence is shown in pink, by genetic evidence in grey and by both biological and genetic evidence in 
+brown. These mutations either correlate with disease in multiple members of a family, are found in two or more unrelated patients and/or there is biological 
+evidence of their pathogenicity. Data were obtained from Ahronowitz et al, 2007 [18] and Li et al, 2010 [35]. FERM, 4.1 protein/Ezrin/Radixin/Moesin.
+
+closed to the putatively open form of Merlin?
+
+changes?
+
+Sidebar C | In need of answers
+(i)  What is the atomic structure of unphosphorylated, closed Merlin?
+(ii)  What is the impact of tumour-derived missense mutations?
+(iii)  Which conformational changes underlie the transition from the 
+ 
+(iv)  Which post-translational events drive these conformational 
+ 
+(v)  What are the mechanisms that govern the association of Merlin with 
+ 
+the cortical cytoskeleton at various subcellular locations?
+(vi)  Which mechanisms govern Merlin nuclear entry and exit?
+(vii)  Does Merlin mediate contact inhibition and tumour suppression 
+ 
+(viii)  How does Merlin contribute to each of these two functions?
+(ix)  Why does Merlin deficiency drive tumour development in only a 
+ 
+(x)  Which oncogenic mutations cooperate with inactivation of Merlin  
+ 
+
+subset of tissue types and anatomical locations?
+
+through distinct or overlapping mechanisms?
+
+to drive tumorigenesis in sensitive tissues?
+
+proteins has been shown to prevent the association of Merlin with 
+the  cortical  cytoskeleton  in  confluent  hepatocytes,  preventing 
+downregulation of EGFR [21]. However, an elegant analysis of a 
+series of Merlin–Ezrin chimeric constructs revealed that the sup-
+pression  of  proliferation  exerted  by  Merlin  does  not  require  this 
+N-terminal  sequence  or  association  with  the  actin  cytoskeleton 
+in Schwann cells, which are a primary target of  NF2-dependent 
+tumori genesis  [54].  In  fact,  this  study  has  confirmed  that  the 
+sequences of Merlin that are involved in the intramolecular inter-
+action—the F2 subdomain of the FERM domain and the C-terminal 
+segment—are essential for growth inhibition in Schwann cells.
+
+Inhibition of receptor tyrosine kinase activation
+Merlin has been proposed to suppress proliferation by reducing the 
+amount  of  transmembrane  growth  factor  receptors  at  the  plasma 
+membrane [22,74,75]. Genetic analysis in Drosophila showed that 
+Merlin, cooperating with the FERM domain protein Expanded, pro-
+motes  endocytosis  of  several  transmembrane  receptors,  including 
+
+some  involved  in  mitogenic  signalling  [75].  Imaginal  epi thelial 
+cells lacking functional Merlin and Expanded have elevated lev-
+els  of  Notch,  EGFR,  Patched,  Smoothened  and  DE-cadherin  at 
+their surface. Pulse–chase labelling of Notch in living tissue indi-
+cated that Notch protein clearance from the membrane and deg-
+radation is deficient in these double mutant cells. This suggested 
+that Merlin, cooperating with Expanded, controls the clearance of 
+transmembrane  receptors,  regardless  of  their  activation  status. A 
+similar phenomenon was observed in mouse Schwann cells, which 
+were found to accumulate elevated levels of ErbB2, ErbB3, IGF1R 
+and PDGFR at their surface when Nf2 is deleted [74]. However, at 
+least in Schwann cells, loss of Merlin was proposed to not decrease 
+internalization  but  rather  accelerate  export  of  membrane  recep-
+tors to the cell surface. Thus, although the results of both studies 
+attribute  to  Merlin  a  role  in  regulating  subcellular  trafficking  of 
+multiple  transmembrane  receptors,  the  underlying  mechanisms 
+appear to be divergent. Genetic studies in Drosophila indicate that 
+such trafficking regulation functions through the Hippo signalling  
+pathway [76,77], as receptor accumulation on the surface of imagi-
+[76,77], as receptor accumulation on the surface of imagi-
+, as receptor accumulation on the surface of imagi-
+nal epithelial cells can similarly be seen when other components of 
+the Hippo pathway are depleted. Importantly, such accumulation 
+depends on Yorkie [77]. Finally, studies on contact inhibition sug-
+[77]. Finally, studies on contact inhibition sug-
+. Finally, studies on contact inhibition sug-
+gest that Merlin controls EGFR signalling by regulating the avail-
+ability  of  activatable  EGFR  at  the  cell  surface  [21,22]. Activated 
+EGFR was found to partition in a higher density membrane frac-
+tion in MEFs, osteoblasts and liver-derived cells that have become 
+fully confluent. Loss of Merlin attenuates this effect, leading to the 
+hypothesis  that  Merlin  sequesters  EGFR  at  a  specific  membrane 
+compartment where the activated receptor cannot access its down-
+stream targets. Notably, membrane extracts, rather than total cell 
+lysates, were used to examine the activation state of downstream 
+signalling  components—such  as  ERK  and Akt—leaving  open  the 
+question  of  whether  effectors  in  the  cytosolic  compartment  are 
+also influenced. Thus, both genetic studies in Drosophila and cell 
+biological studies in mammalian cells support the hypothesis that 
+Merlin controls the number of activatable growth factor receptors 
+
+208  
+
+EMBO reports  VOL 13 | NO 3 | 2012 
+
+©2012 EUROPEAN MOLECULAR BIOLOGY ORGANIZATION
+
+The tumour suppressor Merlin
+
+(cid:40)
+
+CD44
+
+Cadherins
+
+Active
+Mer
+
+Nucleus
+
+MYPT1
+
+PAK
+
+P
+
+Mer
+
+Inactive
+
+Ligand
+
+GPCR
+
+Active
+Mer
+
+cAMP
+
+Nucleus
+
+PKA
+
+PAK
+
+P
+
+Mer
+
+Inactive
+
+Rac
+
+Integrins
+
+(cid:95) (cid:96)
+
+Receptor 
+tyrosine kinases
+
+review
+
+(cid:41)
+
+RTK 
+transport
+
+EGFR
+
+Kibra
+
+Mer
+
+P
+
+Sav1
+
+Mst 1/2
+
+P
+
+P
+
+Mob1
+
+Lats 1/2
+
+14-3-3
+
+P
+
+P
+
+YAP/TAZ
+
+Rac
+
+Mer
+
+mTORC1
+
+PAKs
+
+Mer
+
+SOS
+
+RAS
+
+ERK
+
+PIKE-L
+
+PI3K
+
+AKT
+
+Cytoplasmic
+retention,
+degradation
+
+PP2A
+
+YAP/TAZ
+
+TEAD
+
+Mer
+
+CRL4DCAF1
+
+Fig 3 | Merlin activation and downstream signalling. The convergence of several upstream adhesion receptors regulates Merlin (Mer) activation and subsequently 
+controls downstream mitogenic pathways. (A) The assembly of cell-to-cell adhesions and CD44 activation by hyaluronic-acid-rich matrix activates MYPT1, 
+which dephosphorylates Merlin Ser 518 and maintains it in a closed and active conformation. Conversely, in sparse cells exposed to growth factors, integrins and 
+receptor tyrosine kinases activate PAK, phosphorylating Ser 518. PKA—activated by increased cAMP—also phosphorylates Ser 518. (B) Merlin can affect a variety 
+of mitogenic signalling pathways, including Rac–PAK signalling, mTORC1, EGFR–Ras–ERK and the PI3K–Akt pathway. In addition, Merlin contributes to the 
+activation of the Hippo tumour-suppressor pathway. The active form of Merlin can enter the nucleus, bind to and inactivate the E3 ubiquitin ligase CRL4DCAF1. 
+Akt,  protein kinase B; cAMP, cyclic AMP; CRL4, cullin-ring E3 ligase 4; DCAF1, DDB1- and CUL4-associated factor 1; EGFR, epidermal growth factor receptor; 
+ERK, extracellular-signal-regulated kinase; mTORC1, mammalian target of Rapamycin complex 1; MYPT1, myosin phosphatase targeting subunit 1; PAK, p21-
+activated kinase; PI3K, phosphatidylinositol 3-kinase; PKA, protein kinase A; Rac, Ras-related C3 botulinum toxin substrate; Ras, rat sarcoma.
+
+at the cell surface (Fig 3B), but the biochemical mechanisms under-
+lying this phenomenon are unclear and its significance in tumour 
+suppression remains to be tested (Sidebar C).
+
+Inhibition of Rac signalling
+It has long been known that cultured schwannoma and meningioma 
+cells have abundant lamellipodia and membrane ruffles, which are 
+reminiscent of fibroblasts expressing activated forms of Rac [78–80]. 
+Loss  of  Merlin  was  later  shown  to  activate  Rac  signalling,  which 
+has been attributed to the release of negative regulation that Merlin 
+exerts on PAK, consistent with the hypothesis that Merlin functions 
+both  upstream  and  downstream  from  PAK  in  a  positive  feedback 
+loop (Fig 3B; [7,23–25,79]). Furthermore, biochemical and imaging 
+studies indicated that the closed form of Merlin inhibits the recruit-
+ment of Rac to the plasma membrane in confluent cells [7]. Notably, 
+inactivation of Merlin enables normal confluent cells to exit contact 
+inhibition  and  re-enter  the  cell  cycle,  which  could  occur  at  least 
+partly through the activation of Rac signalling [7]. In agreement with 
+
+this model, the expression of a membrane-targeted, but not constitu-
+tively active, form of Rac enables exit from contact inhibition, albeit 
+not as efficiently as inactivation of Merlin [7]. Another mechanism 
+for the regulation of Rac signalling by Merlin was recently reported 
+[34]. Merlin can form a tight-junction-associated protein complex 
+with Angiomotin, Patj and Pals1; Merlin binds tightly to Angiomotin 
+and  displaces  Rich1,  a  small  GTPase-activating  protein  (GAP)  for 
+Rac1, thereby inhibiting Rac1 and PAK. As anticipated from previ-
+ous studies, inhibition of PAK attenuates Raf to ERK signalling [7]. 
+These results suggest that loss of Merlin activates Rac signalling by 
+multiple, potentially synergistic mechanisms. 
+
+Inhibition of mTORC1 signalling
+Merlin  is  a  negative  regulator  of  the  mTORC1  kinase  complex, 
+which regulates cell growth, proliferation, motility and survival by 
+phosphorylating  p70–S6K1  and  4E-BP1  [81].  Integrin-mediated 
+adhesion was found to promote activation of mTORC1 signalling 
+through PAK-mediated inactivation of Merlin, and Merlin-deficient 
+
+©2012 EUROPEAN MOLECULAR BIOLOGY ORGANIZATION 
+
+EMBO reports  VOL 13 | NO 3 | 2012 209
+
+review
+
+The tumour suppressor Merlin
+
+mesothelioma  cell  lines  were  shown  to  have  activated  mTORC1 
+signalling, whereas other cell lines do not [27]. Similarly, consti-
+[27]. Similarly, consti-
+. Similarly, consti-
+tutive  activation  of  mTORC1  signalling  was  found  in  meningi-
+oma and vestibular schwannoma cells from NF2 patients [26,27]. 
+Surprisingly, loss of Merlin was shown to activate mTORC1 inde-
+pendently  of  AKT  or  ERK,  which  activate  mTORC1  signalling  in 
+response to various mitogenic stimuli. Furthermore, re-expression of 
+Merlin attenuates mTORC1 activity in Merlin-deficient cells, which 
+requires  the TSC1–TSC2  complex. The  mechanism  by  which  loss 
+of Merlin induces hyperactivation of mTORC1 remains unknown. 
+However, recent studies have shown that Rac can recruit mTORC1 
+to  the  plasma  membrane  [82],  raising  the  possibility  that  Merlin 
+antagonizes mTORC1 signalling by limiting Rac recruitment to the 
+plasma  membrane  (Fig  3B;  [7]). The  significance  of  mTORC1  as 
+an important downstream effector of Merlin is emphasized by the 
+observation that the mTORC1 inhibitor rapamycin inhibits the pro-
+liferation of meningioma cells from NF2 patients and mesothelioma 
+cells lacking Merlin [26,27].
+
+(Lats1/2)—has  been  well  characterized 
+
+Activation of the Hippo pathway
+Increasing  evidence  implicates  the  Hippo  signalling  pathway  as 
+a  major  mediator  of  contact  inhibition  of  growth.  In  agreement 
+with this model, genetic analysis in Drosophila and mice showed 
+that  this  pathway  restrains  cell  proliferation  and  promotes  apop-
+tosis to limit organ size and suppress tumorigenesis [83–85]. The 
+core  kinase  cascade  of  this  pathway—Hippo  (MST1/2)–Salvador 
+(WW45)–Warts 
+in 
+Drosophila  and  is  conserved  in  mammals,  whereas  its  upstream 
+regulation, which is rather complex, seems to have diverged after 
+the separation of arthropods and chordates. In Drosophila, the atyp-
+ical cadherin Fat and the apical polarity protein Crumbs activate the 
+core kinase cascade through the FERM domain protein Expanded 
+[84,86].  Interestingly,  genetic  epistasis  experiments  showed  that 
+Merlin cooperates with Expanded to activate the Hippo pathway 
+in the fly [32]. Mammalian cells lack a clear functional homologue 
+of Fat [87,88]. A recent study suggested that the FERM6/Willin pro-
+[87,88]. A recent study suggested that the FERM6/Willin pro-
+. A recent study suggested that the FERM6/Willin pro-
+tein—which  is  a  putative  homologue  of  human  Expanded—can 
+activate the Hippo pathway in HEK-293 cells [89], but this prop-
+[89], but this prop-
+, but this prop-
+erty of FERM6 cannot be recapitulated in the human breast can-
+cer  cell  line  MDA-MB-231,  in  which  FERM6  expression  inhibits 
+proliferation [90]. Therefore, whether FERM6/Willin is a functional 
+homologue  of  Expanded  is  still  uncertain.  Similarly,  engagement 
+of  E-cadherin  has  been  reported  to  be  sufficient  to  activate  the 
+Hippo pathway in human MCF10A mammary epithelial cells and 
+MDA-MB-231 cells [91]. However, studies in the HaCaT human 
+keratinocyte cell line did not support this role of E-cadherin in acti-
+vation of the Hippo pathway [92], so the issue remains unresolved. 
+Nevertheless, loss of Crumbs [93] or the tight junction component 
+Angiomotin [94–96] inactivates the Hippo pathway in mammalian 
+cells,  suggesting  that  signals  originating  from  both  adherens  and 
+tight junctions can contribute to its activation.
+
+Although several studies support the hypothesis that Merlin can 
+activate  the  Hippo  pathway,  the  molecular  mechanisms  remain 
+largely  undefined.  Overexpression  of  Merlin  promotes  phospho-
+rylation and nuclear extrusion of YAP, a downstream target of the 
+Hippo kinase cascade [33,94], which functions as a co-activator of 
+TEAD transcription factors (Fig 3B; [97,98]). By contrast, silencing 
+of  Merlin  induces TEAD-dependent  transcription  [92]. Two  stud-
+[92]. Two  stud-
+. Two  stud-
+ies  have  recently  shown  that  liver-specific  deletion  of  Nf2  using 
+
+albumin-Cre results in massive liver overgrowth, followed by the 
+development  of  multiple  malignant  tumours  that  seem  to  arise 
+from hyperplastic lesions of a relatively differentiated ductal pop-
+ulation  [99],  and  finally  overt  hepatocellular  carcinoma  [17,18]. 
+Interestingly,  simultaneous  deletion  of  Yap  suppresses  liver  over-
+growth and the ensuing tumorigenesis in Nf2 mutant mice [18]. This 
+effect is remarkable, as loss of a single Yap allele is sufficient to sup-
+press liver overgrowth and tumorigenesis triggered by Nf2 loss, sug-
+gesting that YAP is necessary for this Merlin-deficient phenotype. 
+This robust genetic evidence, and the fact that Nf2 deficiency in 
+the liver reduces YAP phosphorylation, suggests that Merlin could 
+regulate YAP signalling [18]. However, as YAP is necessary for the 
+expansion of liver epithelial progenitors [18], its deficiency might 
+suppress Merlin-dependent tumorigenesis by reducing the size of 
+the  stem  cell  or  transit-amplifying  compartment  that  sustains  the 
+enlargement of the liver, as well as its subsequent neoplastic trans-
+formation. Furthermore, treatment with the EGFR kinase inhibitor 
+Erlotinib inhibits AKT activation and reduces hepatic tumour cell 
+proliferation in mice with a liver-specific deletion of Nf2, suggest-
+ing that upregulation of EGFR signalling might also contribute to 
+tumour development [17]. Although most of the genetic evidence 
+suggests  that YAP  is  necessary  for  liver  overgrowth  and  tumori-
+genesis driven by loss of Merlin [18], further studies will be needed 
+to compare the effect of conditional ablation of YAP or the EGFR on 
+hepatomegaly and liver tumorigenesis. It will also be important to 
+assess whether YAP is necessary for tumorigenesis in other mouse 
+models of Merlin-deficient tumorigenesis.
+
+Several  mechanisms  have  been  invoked  to  explain  the  effect 
+that  Merlin  exerts  on  YAP-dependent  transcription.  Two  addi-
+tional upstream components of the Hippo pathway in Drosophila 
+have  been  recently  identified:  Kibra  [100–102]  and  Angiomotin 
+[94–96].  Genetic  analysis  in Drosophila suggests that Kibra func-
+tions upstream from the Hippo kinase cascade. Although Merlin is 
+required for some functions of Kibra, including control of organ size 
+[100], evidence supports that both Kibra and Merlin cooperate with 
+Expanded. Indeed, Merlin, Expanded and Kibra interact to form a 
+protein complex [100–102] that subsequently binds to the Hippo–
+Salvador  complex  [102]. The  biochemical  mechanism  under lying 
+this  interaction  and  how  it  can  activate  the  kinase  cascade  are 
+unknown, but overexpression studies suggest that Merlin can bind 
+to Kibra and activate the canonical Hippo kinase cascade also in 
+mammalian cells (Fig 3B; [18]).
+
+Angiomotin has been shown to have a distinct role in Hippo sig-
+nalling in mammalian cells [94–96,103]. It localizes to primordial 
+tight  junctions  in  response  to  the  assembly  of  the  apical  polarity 
+complex [104] and retains YAP and the related co-activator TAZ at 
+the cell cortex, preventing them from acting in the nucleus [96,103]. 
+Furthermore,  it  has  been  suggested  that  Angiomotin  can  also  
+bind to Mst2 and Lats2 and function as a scaffold to enhance signal 
+propagation through the canonical kinase cascade to YAP [94].
+
+Nuclear inhibition of CRL4DCAF1
+Tandem affinity purification followed by mass spectrometry showed 
+that  wild-type  Merlin—but  not  mutants  obtained  from  tumours, 
+such as L64P—interacts with the E3 ubiquitin ligase CRL4DCAF1 with 
+high  affinity  [35].  Merlin  binds  directly  to  DCAF1,  the  substrate 
+receptor  subunit  of  CRL4DCAF1,  and  inhibits  CRL4DCAF1-mediated 
+ubiquitination of target proteins. The closed form of Merlin, which 
+is able to mediate growth inhibition, translocates to the nucleus and 
+
+210  
+
+EMBO reports  VOL 13 | NO 3 | 2012 
+
+©2012 EUROPEAN MOLECULAR BIOLOGY ORGANIZATION
+
+The tumour suppressor Merlin
+
+(cid:40)
+
+(cid:41)
+
+TJs
+
+Crumbs
+
+PALS1
+
+(cid:42)
+
+Kibra
+
+1
+
+Mst
+
+AJs
+
+Mer
+(cid:95) cat
+
+(cid:96) cat
+
+14-3-3
+
+P
+
+YAP
+
+LATS
+
+P
+
+YAP
+
+P
+
+YAP
+
+2
+
+PP2A
+
+YAP
+
+TEAD
+
+J
+T
+A
+P
+
+Mer
+
+1
+
+Mst
+
+LATS
+
+2
+
+AMOT
+
+YAP
+
+P
+
+Rich
+
+Rac
+
+PAK
+
+RAF
+
+ERK
+
+Assembly of adherens junctions (AJs)
+
+Assembly of tight junctions (TJs)
+
+review
+
+AJs
+
+P
+
+Mer
+
+Mer
+
+PAK
+
+Mer
+
+CRL4DCAF1
+
+(cid:95) (cid:96)
+
+Engagement of cadherins 
+Loss of integrin-mediated adhesion
+
+1
+
+2
+
+Activation of canonical Hippo 
+pathway via (cid:95)-catenin
+
+Sequestration of phosphorylated 
+YAP and protection from PP2A
+
+1
+
+2
+
+Displacement of Rich and 
+inhibition of Rac
+
+Scaffolding of Hippo pathway 
+components and sequestration of 
+phosphorylated YAP
+
+Inhibition of PAK, nuclear 
+translocation of Merlin, and 
+inhibition of CRL4DCAF1
+
+Fig 4 | Emerging mechanisms of Merlin-mediated epithelial adhesion, polarity and inhibition of proliferation. (A) Merlin (Mer) is recruited to nascent adherens 
+junctions by α-catenin and contributes to the activation of Hippo signalling by cooperating with Kibra to activate the classical core kinase cascade, or by enabling 
+α-catenin to sequester phosphorylated YAP in the cytoplasm through 14-3-3 proteins. (B) Upon assembly of tight junctions, Merlin binds to Angiomotin and 
+displaces the Rac GAP Rich, thereby inhibiting Rac. In addition, Merlin might assist Angiomotin in coordinating the activation of the Hippo core kinase cascade. 
+(C) Engagement of E-cadherin or loss of integrin-mediated adhesion leads to inactivation of PAK, promoting an accumulation of the de-phosphorylated (active) 
+form of Merlin. Active Merlin enters the nucleus and inhibits the E3 ubiquitin ligase CRL4DCAF1, thereby suppressing the expression of multiple pro-oncogenic genes. 
+CRL4, cullin-ring E3 ligase 4; DCAF1, DDB1- and CUL4-associated factor 1; ERK, extracellular-signal-regulated kinase; LATS1/2, large tumour suppressor 1/2; 
+Mst1/2, macrophage stimulating 1/2; PAK, p21-activated kinase; PALS1, protein associated with Lin-7 1; PATJ, Pals1-associated tight junction protein; Rac, Ras-related 
+C3 botulinum toxin substrate; TEAD, TEA domain family member; YAP, Yes-associated protein.
+
+binds to CRL4DCAF1, whereas the putatively open form, which is inac-
+tive, does so to a much more limited extent. Genetic epistasis analy-
+sis in human Schwann cells, endothelial cells, mesothelial cells and 
+mouse schwannoma cells indicates that Merlin inhibits growth and 
+suppresses  tumorigenesis  by  inhibiting  CRL4DCAF1.  For  example, 
+depletion of DCAF1 blocked the hyperproliferation caused by loss of 
+Merlin in human Schwann cells and endothelial cells. Conversely, 
+enforced expression of a Merlin-insensitive mutant of DCAF1 coun-
+teracted the anti-mitogenic effect of Merlin in human mesothelioma 
+cells. In addition, re-expression of Merlin and silencing of DCAF1 
+induced  an  overlapping  tumour-suppressive  gene  expression  pro-
+gramme  in  Merlin-deficient  mouse  schwannoma  cells,  suggest-
+ing that Merlin inactivation induces oncogenic gene expression by 
+deregulating  CRL4DCAF1  activity.  Notably,  a  detailed  biochemical 
+and functional analysis of several tumour-derived mutants of Merlin 
+revealed  that  pathogenic  mutations  fall  into  three  main  classes: 
+some of the missense mutants that map to the FERM domain are 
+defective in nuclear translocation; others fail to bind to DCAF1; and 
+
+the C-terminal truncation mutants accumulate in the nucleus and 
+bind to DCAF1 but fail to suppress E3 ligase activity. Finally, deple-
+tion  of  DCAF1  suppresses  the  ability  of  Merlin-deficient  schwan-
+noma  cells  to  hyperproliferate  in  vitro,  to  grow  in  soft  agar  or  to 
+form tumours after subcutaneous injection in nude mice. Together, 
+these findings suggest that Merlin needs to enter the nucleus, bind 
+to DCAF1 and suppress CRL4DCAF1 in order to inhibit tumorigenesis, 
+although additional mechanisms are also possible.
+
+CRL4DCAF1 belongs to a large subfamily of cullin-ring E3 ligases. 
+These ligases consist of a catalytic subunit (Roc1/Rbx1), a scaffold 
+(cullin 4), an adaptor protein (DDB1) and one of multiple WD40-
+domain-containing substrate receptors [105,106]. DCAF1 is the sub-
+105,106]. DCAF1 is the sub-
+. DCAF1 is the sub-
+strate receptor of CRL4DCAF1. Members of the CRL4 E3 ligase family 
+regulate chromatin remodelling, DNA replication and the response 
+to DNA damage. Although the physiological substrates of CRL4DCAF1 
+have not yet been identified, gene expression analysis suggests that 
+CRL4DCAF1 regulates a broad gene expression programme, consisting 
+of more than 1,000 genes [35]. CRL4DCAF1 could exert this effect by 
+
+©2012 EUROPEAN MOLECULAR BIOLOGY ORGANIZATION 
+
+EMBO reports  VOL 13 | NO 3 | 2012 211
+
+review
+
+The tumour suppressor Merlin
+
+promoting the poly- or mono-ubiquitination of histones, chromatin-
+remodelling  factors  or  transcription  factors,  as  it  has  been  estab-
+lished for other members of the CRL4 subfamily [107–110]. Indirect 
+targets  of  CRL4DCAF1  include  important  growth  regulators,  such  as 
+receptor tyrosine kinases (RTKs), their downstream target-effectors, 
+and  various  cell  cycle  regulators  and  anti-apoptotic  proteins.  For 
+example, AXL, a RTK recently found to regulate mesothelioma pro-
+liferation and invasiveness [111], seems to be inhibited at the tran-
+[111], seems to be inhibited at the tran-
+, seems to be inhibited at the tran-
+scriptional level by Merlin expression as well as DCAF1 knockdown 
+[35]. Irrespective of the specific mechanism by which CRL4DCAF1 reg-
+ulates gene expression, the breadth of the oncogenic gene expres-
+sion programme it induces and the identity of some of the genes 
+regulated suggest that Merlin could suppress several mitogenic sig-
+nalling pathways by inhibiting CRL4DCAF1. Notably, Merlin expres-
+sion or silencing of DCAF1 coordinately regulates a subset of Hippo 
+pathway target genes, suggesting a connection between CRL4 DCAF1 
+and YAP-dependent transcription [35]. 
+
+Cortical and nuclear models
+In addition to rescuing normal cells from contact inhibition, loss 
+of Merlin accelerates their transit through the G1 phase of the cell 
+cycle [26,27,112], suggesting that Merlin functions as a brake on 
+cell cycle progression in both sparse and confluent cells. In addi-
+tion, Merlin promotes the maturation of adherens junctions and 
+the assembly of tight junctions in skin epithelium [5,16], suggest-
+[5,16], suggest-
+, suggest-
+ing that loss of Merlin can contribute to disruption of cell adhe-
+sion and polarity during tumorigenesis. These observations imply 
+that Merlin restrains tumorigenesis by promoting epithelial adhe-
+sion  and  polarity  and  by  restraining  proliferation.  As  discussed 
+above, Merlin exerts these effects through multiple, non-mutually 
+exclusive mechanisms (Fig 4).
+
+The first model of Merlin function, which emphasizes the role 
+of contact inhibition in tumour suppression, places it downstream 
+from  the  E-cadherin–catenin  complex  and  upstream  from  Hippo 
+signalling (Fig 4A). In one variant of this model, Merlin is recruited 
+to nascent adherens junctions by binding to α-catenin [16] and acti-
+[16] and acti-
+ and acti-
+vates the canonical Hippo kinase cascade through Kibra [18,91]. 
+In  the  other  variant,  Merlin  fosters  maturation  of  adherens  junc-
+tions  [16],  enabling  α-catenin  to  bind  to  14-3-3  and  thereby  to 
+the phosphorylated inactive form of YAP [92]. Disassembly of the 
+junctions or loss of α-catenin—which is a tumour suppressor on its 
+own [113]—releases phosphorylated YAP from adherens junctions. 
+Finally, dephosphorylation by PP2A allows activation and nuclear 
+accumulation  of  YAP  [92].  These  mechanisms  probably  medi-
+[92].  These  mechanisms  probably  medi-
+.  These  mechanisms  probably  medi-
+ate  contact  inhibition,  but  their  contribution  to  Merlin-mediated 
+tumour suppression remains to be examined.
+
+The second model proposes that Merlin enforces contact inhi-
+bition  and  suppresses  tumorigenesis  by  binding  to  Angiomotin 
+(Fig  4B).  In  one  variant  of  this  model,  the  binding  of  Merlin  to 
+Angiomotin  displaces  the  Rac  GAP  Rich,  suppressing  Rac–PAK 
+signalling [34]. In another variant, binding of Merlin is necessary 
+for  Angiomotin  to  function  as  a  scaffold  in  the  activation  of  the 
+Hippo pathway. This latter possibility is consistent with the ability 
+of Angiomotin to function as an upstream component of the Hippo 
+pathway [94–96,103] but inconsistent with the fact that Angiomotin 
+is required for tumour development in a xenograft model of NF2 
+[34]. Although Merlin binding to Angiomotin might contribute to 
+contact inhibition, as suggested by studies implicating inhibition of 
+Rac in this process [7], its role in tumour suppression remains to be 
+
+fully investigated. In fact, Merlin binds to Angiomotin through the 
+α-helical and C-terminal segments, independently of whether it is in 
+its open or closed conformation [34].
+
+The  third  model  is  based  on  the  fact  that  the  closed  form  of 
+Merlin  translocates  into  the  nucleus  to  bind  to  DCAF1—thereby 
+suppressing  CRL4DCAF1-mediated  E3  ligase  activity—whereas  the 
+putatively open form does not (Fig 4C; [35]). The contribution of 
+this pathway to contact inhibition remains to be tested; however, its 
+involvement in tumour suppression is supported by strong genetic 
+evidence,  including  the  analysis  of  a  large  number  of  tumour-
+derived  missense  mutants  of  Merlin.  Furthermore,  this  model  is 
+compatible with a role for YAP in NF2-dependent tumorigenesis. 
+In fact, the observation that some of the genes regulated by YAP are 
+concordantly regulated by CRL4DCAF1 suggests that CRL4DCAF1 could 
+regulate YAP-dependent transcription [35]. As Merlin can promote 
+phosphorylation of YAP independently of MST1/2 [91], CRL4DCAF1 
+could inhibit the Hippo pathway by acting on a target downstream 
+from  MST.  In  addition,  CRL4DCAF1  probably  ubiquitinates  other 
+targets. Future challenges include the identification of the physio-
+logical  targets  of  CRL4DCAF1  and  understanding  how  it  regulates 
+oncogenic gene expression.
+
+Conclusions and perspectives
+Recent studies strengthen the idea that Merlin can function in the 
+nucleus as well as at the cell cortex. At the cell cortex, Merlin pro-
+motes the assembly of cell junctions by recruiting Par3–aPKC [16] 
+as well as by locally inhibiting Rac signalling [7,34]. Once formed, 
+both adherens and tight junctions can function as signalling hubs 
+for  the  initiation  of  antimitogenic  signals.  Merlin  can  contrib-
+ute to the initiation of some of these signals through interactions 
+with Kibra, α-catenin or Angiomotin at the cell cortex, although 
+additional signals are probably required to enforce contact inhi-
+bition. In particular, inactivation of PAK allows the accumulation 
+of the closed form of Merlin, which migrates into the nucleus to 
+inhibit CRL4DCAF1 and induce a growth-suppressive programme of 
+gene expression [35]. Conversely, mitogenic stimulation induces 
+activation  of  PAK  and  thereby  accumulation  of  the  putatively 
+open  form  of  Merlin,  which  remains  in  the  cytoplasm,  remov-
+ing a block to cell cycle progression [7,25]. Taken together, these 
+findings  suggest  that  Merlin-mediated  tumour  suppression  func-
+tions in an opposite manner to the Wnt–β-catenin signalling path-
+way  [114,115].  Confirmation  of  this  general  model  will  require 
+a careful assessment of the contribution of each of the signalling 
+mechanisms outlined above to both contact inhibition and tumour 
+suppression (Sidebar C). Considering the recent progress made in 
+this field, it is reasonable to anticipate a quick answer to the most 
+important outstanding questions. With a more definitive view of 
+Merlin-mediated tumour suppression, it will be possible to design 
+therapies that inhibit the oncogenic signalling pathways activated 
+by the loss of Merlin [116].
+
+ACKNOWLEDGEMENTS
+We apologize to colleagues whose work could not be cited here due to space 
+limitations. We thank members of our laboratory for discussions. This work 
+was supported by National Institutes of Health Grant R01 CA152975 (to 
+F.G.G.) and Cancer Center Support Grant P30 CA08748. W.L. is the recipient 
+of a Young Investigator Award from the Children’s Tumor Foundation.
+
+CONFLICT OF INTEREST
+The authors declare that they have no conflict of interest.
+
+212  
+
+EMBO reports  VOL 13 | NO 3 | 2012 
+
+©2012 EUROPEAN MOLECULAR BIOLOGY ORGANIZATION
+
+The tumour suppressor Merlin
+
+REFERENCES
+1.  Hanahan D, Weinberg R (2011) Hallmarks of cancer: the next 
+
+2. 
+
+3. 
+
+4. 
+
+5. 
+
+generation. Cell 144: 646–674
+Rouleau GA et al (1993) Alteration in a new gene encoding a putative 
+membrane-organizing protein causes neuro-fibromatosis type 2. Nature 
+363: 515–521
+Trofatter J, MacCollin M, Rutter J, Murrell J (1993) A novel moesin-, 
+exrin-, radixin-like gene is a candidate for the neurofibromatosis 2 
+tumor-suppressor. Cell 72: 791–800
+Johnson KC, Kissil JL, Fry JL, Jacks T (2002) Cellular transformation by a 
+FERM domain mutant of the Nf2 tumor suppressor gene. Oncogene 21: 
+5990–5997
+Lallemand D, Curto M, Saotome I, Giovannini M, McClatchey AI (2003) 
+NF2 deficiency promotes tumorigenesis and metastasis by destabilizing 
+adherens junctions. Genes Dev 17: 1090–1100
+
+6.  Morrison H, Sherman LS, Legg J, Banine F, Isacke C, Haipek CA, 
+
+Gutmann DH, Ponta H, Herrlich P (2001) The NF2 tumor suppressor 
+gene product, merlin, mediates contact inhibition of growth through 
+interactions with CD44. Genes Dev 15: 968–980
+
+8. 
+
+7.  Okada T, Lopez-Lago M, Giancotti FG (2005) Merlin/NF-2 mediates 
+contact inhibition of growth by suppressing recruitment of Rac to the 
+plasma membrane. J Cell Biol 171: 361–371
+Ahronowitz I, Xin W, Kiely R, Sims K, MacCollin M, Nunes FP (2007) 
+Mutational spectrum of the NF2 gene: a meta-analysis of 12 years of 
+research and diagnostic laboratory findings. Hum Mutat 28: 1–12
+Bianchi AB et al (1994) Mutations in transcript isoforms of the 
+neurofibromatosis 2 gene in multiple human tumour types. Nat Genet 6: 
+185–192
+
+9. 
+
+10.  Cheng JQ, Lee WC, Klein MA, Cheng GZ, Jhanwar SC, Testa JR (1999) 
+
+Frequent mutations of NF2 and allelic loss from chromosome band 
+22q12 in malignant mesothelioma: evidence for a two-hit mechanism of 
+NF2 inactivation. Genes Chromosomes Cancer 24: 238–242
+
+11.  Dalgliesh GL et al (2010) Systematic sequencing of renal carcinoma 
+
+12. 
+
+reveals inactivation of histone modifying genes. Nature 463: 360–363
+Jacoby LB, MacCollin M, Barone R, Ramesh V, Gusella JF (1996) 
+Frequency and distribution of NF2 mutations in schwannomas. Genes 
+Chromosomes Cancer 17: 45–55
+
+13.  Lau Y-KI, Murray LB, Houshmandi SS, Xu Y, Gutmann DH, Yu Q (2008) 
+
+Merlin is a potent inhibitor of glioma growth. Cancer Res 68: 5733–5742
+
+14.  Rustgi AK, Xu L, Pinney D, Sterner C, Beauchamp R, Schmidt S, 
+
+Gusella JF, Ramesh V (1995) Neurofibromatosis 2 gene in human 
+colorectal cancer. Cancer Genet Cytogenet 84: 24–26
+
+15.  McClatchey AI, Saotome I, Ramesh V, Gusella JF, Jacks T (1997) The 
+Nf2 tumor suppressor gene product is essential for extraembryonic 
+development immediately prior to gastrulation. Genes Dev 11:  
+1253–1265
+
+16.  Gladden AB, Hebert AM, Schneeberger EE, McClatchey AI (2010) 
+
+The NF2 tumor suppressor, merlin, regulates epidermal development 
+through the establishment of a junctional polarity complex. Dev Cell 19: 
+727–739
+
+17.  Benhamouche S, Curto M, Saotome I, Gladden AB, Liu CH, 
+
+Giovannini M, McClatchey AI (2010) Nf2/merlin controls progenitor 
+homeostasis and tumorigenesis in the liver. Genes Dev 24: 1718–1730
+18.  Zhang N, Bai H, David KK, Dong J, Zheng Y, Cai J, Giovannini M, Liu P, 
+
+Anders RA, Pan D (2010) The merlin/NF2 tumor suppressor functions 
+through the YAP oncoprotein to regulate tissue homeostasis in mammals. 
+Dev Cell 19: 27–38
+
+19.  Larsson J, Ohishi M, Garrison B, Aspling M, Janzen V, Adams GB, 
+
+Curto M, McClatchey AI, Schipani E, Scadden DT (2008) Nf2/
+merlin regulates hematopoietic stem cell behavior by altering 
+microenvironmental architecture. Cell Stem Cell 3: 221–227
+
+20.  Bretscher A, Edwards K, Fehon RG (2002) ERM proteins and merlin: 
+
+integrators at the cell cortex. Nat Rev Mol Cell Biol 3: 586–599
+
+21.  Cole BK, Curto M, Chan AW, McClatchey AI (2008) Localization to the 
+cortical cytoskeleton is necessary for Nf2/merlin-dependent epidermal 
+growth factor receptor silencing. Mol Cell Biol 28: 1274–1284
+
+22.  Curto M, Cole BK, Lallemand D, Liu CH, McClatchey AI (2007) Contact-
+
+dependent inhibition of EGFR signaling by Nf2/merlin. J Cell Biol 177: 
+893–903
+
+23.  Kaempchen K, Mielke K, Utermark T, Langmesser S, Hanemann CO 
+(2003) Upregulation of the Rac1/JNK signaling pathway in primary 
+human schwannoma cells. Hum Mol Genet 12: 1211–1221
+
+review
+
+26. 
+
+25. 
+
+24.  Kissil JL, Wilker EW, Johnson KC, Eckman MS, Yaffe MB, Jacks T (2003) 
+Merlin, the product of the Nf2 tumor suppressor gene, is an inhibitor of 
+the p21-activated kinase, Pak1. Mol Cell 12: 841–849
+Shaw RJ et al (2001) The Nf2 tumor suppressor, merlin, functions in Rac-
+dependent signaling. Dev Cell 1: 63–72
+James MF, Han S, Polizzano C, Plotkin SR, Manning BD, Stemmer-
+Rachamimov AO, Gusella JF, Ramesh V (2009) NF2/merlin is a novel 
+negative regulator of mTOR complex 1, and activation of mTORC1 is 
+associated with meningioma and schwannoma growth. Mol Cell Biol 29: 
+4250–4261
+Lopez-Lago MA, Okada T, Murillo MM, Socci N, Giancotti FG (2009) 
+Loss of the tumor suppressor gene NF2, encoding merlin, constitutively 
+activates integrin-dependent mTORC1 signaling. Mol Cell Biol 29:  
+4235–4249
+
+27. 
+
+28.  Ammoun S, Flaiz C, Ristic N, Schuldt J, Hanemann CO (2008) 
+
+Dissecting and targeting the growth factor-dependent and growth factor-
+independent extracellular signal-regulated kinase pathway in human 
+schwannoma. Cancer Res 68: 5236–5245
+Jin H, Sperka T, Herrlich P, Morrison H (2006) Tumorigenic transformation 
+by CPI-17 through inhibition of a merlin phosphatase. Nature 442:  
+576–579
+
+29. 
+
+30.  Poulikakos PI, Xiao GH, Gallagher R, Jablonski S, Jhanwar SC, Testa JR 
+
+(2006) Re-expression of the tumor suppressor NF2/merlin inhibits 
+invasiveness in mesothelioma cells and negatively regulates FAK. 
+Oncogene 25: 5960–5968
+
+31.  Rong R, Tang X, Gutmann DH, Ye K (2004) Neurofibromatosis 2 (NF2) 
+tumor suppressor merlin inhibits phosphatidylinositol 3-kinase through 
+binding to PIKE-L. Proc Natl Acad Sci USA 101: 18200–18205
+
+32.  Hamaratoglu F, Willecke M, Kango-Singh M, Nolo R, Hyun E, Tao C, 
+
+Jafar-Nejad H, Halder G (2006) The tumour-suppressor genes NF2/merlin 
+and expanded act through Hippo signalling to regulate cell proliferation 
+and apoptosis. Nat Cell Biol 8: 27–36
+
+33.  Zhao B et al (2007) Inactivation of YAP oncoprotein by the Hippo 
+
+pathway is involved in cell contact inhibition and tissue growth control. 
+Genes Dev 21: 2747–2761
+
+34.  Yi C et al (2011) A tight junction-associated merlin–angiomotin 
+
+35. 
+
+36. 
+
+37. 
+
+complex mediates merlin’s regulation of mitogenic signaling and tumor 
+suppressive functions. Cancer Cell 19: 527–540
+Li W et al (2010) Merlin/NF2 suppresses tumorigenesis by inhibiting the 
+E3 ubiquitin ligase CRL4(DCAF1) in the nucleus. Cell 140: 477–490
+Fehon RG, McClatchey AI, Bretscher A (2010) Organizing the cell cortex: 
+the role of ERM proteins. Nat Rev Mol Cell Biol 11: 276–287
+Shimizu T, Seto A, Maita N, Hamada K, Tsukita S, Tsukita S, Hakoshima T 
+(2002) Structural basis for neurofibromatosis type 2. Crystal structure of 
+the merlin FERM domain. J Biol Chem 277: 10332–10336
+
+39. 
+
+38.  Gary R, Bretscher A (1995) Ezrin self-association involves binding of 
+an N-terminal domain to a normally masked C-terminal domain that 
+includes the F-actin binding site. Mol Biol Cell 6: 1061–1075
+Li Q, Nance MR, Kulikauskas R, Nyberg K, Fehon R, Karplus PA, 
+Bretscher A, Tesmer JJG (2007) Self-masking in an intact ERM-merlin 
+protein: an active role for the central [alpha]-helical domain. J Mol Biol 
+365: 1446–1459
+
+40.  Pearson MA, Reczek D, Bretscher A, Karplus PA (2000) Structure of 
+
+the ERM protein moesin reveals the FERM domain fold masked by an 
+extended actin binding tail domain. Cell 101: 259–270
+
+41.  Heiska L, Alfthan K, Gronholm M, Vilja P, Vaheri A, Carpen O (1998) 
+
+Association of ezrin with intercellular adhesion molecule-1 and -2 
+(ICAM-1 and ICAM-2). J Biol Chem 273: 21893–21900
+
+42.  Tsukita S, Oishi K, Sato N, Sagara J, Kawai A (1994) ERM family members 
+
+as molecular linkers between the cell surface glycoprotein CD44 and 
+actin-based cytoskeletons. J Cell Biol 126: 391–401
+
+43.  Rong R, Surace EI, Haipek CA, Gutmann DH, Ye K (2004) Serine 518 
+
+phosphorylation modulates merlin intramolecular association and 
+binding to critical effectors important for NF2 growth suppression. 
+Oncogene 23: 8447–8454
+
+44.  Hennigan RF, Foster LA, Chaiken MF, Mani T, Gomes MM, Herr AB, 
+
+Ip W (2010) Fluorescence resonance energy transfer analysis of merlin 
+conformational changes. Mol Cell Biol 30: 54–67
+
+45.  Gronholm M, Sainio M, Zhao F, Heiska L, Vaheri A, Carpen O (1999) 
+
+Homotypic and heterotypic interaction of the neurofibromatosis 2 tumor 
+suppressor protein merlin and the ERM protein ezrin. J Cell Sci 112: 
+895–904
+
+©2012 EUROPEAN MOLECULAR BIOLOGY ORGANIZATION 
+
+EMBO reports  VOL 13 | NO 3 | 2012 213
+
+review
+
+The tumour suppressor Merlin
+
+46.  Meng J-J, Lowrie DJ, Sun H, Dorsey E, Pelton PD, Bashour A-M, Groden J, 
+
+68.  Kressel M, Schmucker B (2002) Nucleocytoplasmic transfer of the NF2 
+
+Ratner N, Ip W (2000) Interaction between two isoforms of the NF2 
+tumor suppressor protein, merlin, and between merlin and ezrin, suggests 
+modulation of ERM proteins by merlin. J Neurosci Res 62: 491–502
+
+tumor suppressor protein merlin is regulated by exon 2 and a CRM1-
+dependent nuclear export signal in exon 15. Hum Mol Genet 11:  
+2269–2278
+
+47.  Nguyen R, Reczek D, Bretscher A (2001) Hierarchy of merlin and ezrin 
+
+69.  Muranen T, Gronholm M, Renkema GH, Carpen O (2005) Cell cycle-
+
+N- and C-terminal domain interactions in homo- and heterotypic 
+associations and their relationship to binding of scaffolding proteins 
+EBP50 and E3KARP.J Biol Chem 276: 7621–7629
+
+48.  McClatchey AI, Giovannini M (2005) Membrane organization and 
+tumorigenesis—the NF2 tumor suppressor, merlin. Genes Dev 19:  
+2265–2277
+
+49.  Kissil JL, Johnson KC, Eckman MS, Jacks T (2002) Merlin phosphorylation 
+
+50. 
+
+by p21-activated kinase 2 and effects of phosphorylation on merlin 
+localization. J Biol Chem 277: 10394–10399
+Sherman L, Xu HM, Geist RT, Saporito-Irwin S, Howells N, Ponta H, 
+Herrlich P, Gutmann DH (1997) Interdomain binding mediates tumor 
+growth suppression by the NF2 gene product. Oncogene 15: 2505–2509
+51.  Xiao GH, Beeser A, Chernoff J, Testa JR (2002) p21-activated kinase links 
+
+52. 
+
+53. 
+
+54. 
+
+Rac/Cdc42 signaling to merlin. J Biol Chem 277: 883–886
+Surace EI, Haipek CA, Gutmann DH (2004) Effect of merlin 
+phosphorylation on neurofibromatosis 2 (NF2) gene function. Oncogene 
+23: 580–587
+LaJeunesse DR, McCartney BM, Fehon RG (1998) Structural analysis 
+of Drosophila merlin reveals functional domains important for growth 
+control and subcellular localization. J Cell Biol 141: 1589–1599
+Lallemand D, Saint-Amaux AL, Giovannini M (2009) Tumor-suppression 
+functions of merlin are independent of its role as an organizer of the actin 
+cytoskeleton in Schwann cells. J Cell Sci 122: 4141–4149
+
+55.  Bashour AM, Meng JJ, Ip W, MacCollin M, Ratner N (2002) The 
+
+neurofibromatosis type 2 gene product, merlin, reverses the F-actin 
+cytoskeletal defects in primary human Schwannoma cells. Mol Cell Biol 
+22: 1150–1157
+Shaw RJ, McClatchey AI, Jacks T (1998b) Regulation of the 
+neurofibromatosis type 2 tumor suppressor protein, merlin, by adhesion 
+and growth arrest stimuli. J Biol Chem 273: 7757–7764
+
+56. 
+
+57.  Hirokawa Y, Tikoo A, Huynh J, Utermark T, Hanemann CO, 
+
+Giovannini M, Xiao GH, Testa JR, Wood J, Maruta H (2004) A clue to 
+the therapy of neurofibromatosis type 2: NF2/merlin is a PAK1 inhibitor. 
+Cancer J 10: 20–26
+
+58.  Wilkes MC, Repellin CE, Hong M, Bracamonte M, Penheiter SG, Borg JP, 
+Leof EB (2009) Erbin and the NF2 tumor suppressor merlin cooperatively 
+regulate cell-type-specific activation of PAK2 by TGF-beta. Dev Cell 16: 
+433–444
+
+59.  Alfthan K, Heiska L, Gronholm M, Renkema GH, Carpen O (2004) 
+
+Cyclic AMP-dependent protein kinase phosphorylates merlin at serine 
+518 independently of p21-activated kinase and promotes merlin–ezrin 
+heterodimerization. J Biol Chem 279: 18559–18566
+
+60.  Tang X, Jang SW, Wang X, Liu Z, Bahr SM, Sun SY, Brat D, Gutmann DH, 
+Ye K (2007) Akt phosphorylation regulates the tumour-suppressor merlin 
+through ubiquitination and degradation. Nat Cell Biol 9: 1199–1207
+Laulajainen M, Muranen T, Carpen O, Gronholm M (2008) Protein kinase 
+A-mediated phosphorylation of the NF2 tumor suppressor protein merlin 
+at serine 10 affects the actin cytoskeleton. Oncogene 27: 3233–3243
+
+61. 
+
+63. 
+
+62.  Gonzalez-Agosti C, Xu L, Pinney D, Beauchamp R, Hobbs W, Gusella J, 
+Ramesh V (1996) The merlin tumor suppressor localizes preferentially in 
+membrane ruffles. Oncogene 13: 1239–1247
+Scherer SS, Gutmann DH (1996) Expression of the neurofibromatosis 2 
+tumor suppressor gene product, merlin, in Schwann cells. J Neurosci Res 
+46: 595–605
+Shaw RJ, McClatchey AI, Jacks T (1998a) Localization and functional 
+domains of the neurofibromatosis type II tumor suppressor, merlin. Cell 
+Growth Differ 9: 287–296
+
+64. 
+
+65.  McCartney B, Fehon R (1996) Distinct cellular and subcellular patterns 
+of expression imply distinct functions for the Drosophila homologues of 
+moesin and the neurofibromatosis 2 tumor suppressor, merlin. J Cell Biol 
+133: 843–852
+
+66.  Xu L, Gonzalez-Agosti C, Beauchamp R, Pinney D, Sterner C, Ramesh V 
+(1998) Analysis of molecular domains of epitope-tagged merlin isoforms 
+in Cos-7 cells and primary rat Schwann cells. Exp Cell Res 238: 231–240
+Stickney JT, Bacon WC, Rojas M, Ratner N, Ip W (2004) Activation of the 
+tumor suppressor merlin modulates its interaction with lipid rafts. Cancer 
+Res 64: 2717–2724
+
+67. 
+
+70. 
+
+71. 
+
+dependent nucleocytoplasmic shuttling of the neurofibromatosis 2 tumour 
+suppressor merlin. Oncogene 24: 1150–1158
+Funayama N, Fagotto F, McCrea P, Gumbiner BM (1995) Embryonic axis 
+induction by the armadillo repeat domain of beta-catenin: evidence for 
+intracellular signaling. J Cell Biol 128: 959–968
+Schneider S, Steinbeisser H, Warga RM, Hausen P (1996) Beta-catenin 
+translocation into nuclei demarcates the dorsalizing centers in frog and fish 
+embryos. Mech Dev 57: 191–198
+
+72.  Bensenor LB, Barlan K, Rice SE, Fehon RG, Gelfand VI (2010) Microtubule-
+mediated transport of the tumor-suppressor protein merlin and its mutants. 
+Proc Natl Acad Sci USA 107: 7311–7316
+
+73.  Mani T, Hennigan RF, Foster LA, Conrady DG, Herr AB, Ip W (2011) FERM 
+
+74. 
+
+domain phosphoinositide binding targets merlin to the membrane and is 
+essential for its growth-suppressive function. Mol Cell Biol 31: 1983–1996
+Lallemand D, Manent J, Couvelard A, Watilliaux A, Siena M, Chareyre F, 
+Lampin A, Niwa-Kawakita M, Kalamarides M, Giovannini M (2009) 
+Merlin regulates transmembrane receptor accumulation and signaling at 
+the plasma membrane in primary mouse Schwann cells and in human 
+schwannomas. Oncogene 28: 854–865
+
+75.  Maitra S, Kulikauskas RM, Gavilan H, Fehon RG (2006) The tumor 
+
+suppressors merlin and expanded function cooperatively to modulate 
+receptor endocytosis and signaling. Curr Biol 16: 702–709
+
+76.  Genevet A, Polesello C, Blight K, Robertson F, Collinson LM, Pichaud F, 
+
+Tapon N (2009) The Hippo pathway regulates apical-domain size 
+independently of its growth-control function. J Cell Sci 122: 2360–2370
+
+77.  Hamaratoglu F, Gajewski K, Sansores-Garcia L, Morrison C, Tao C, 
+
+78. 
+
+Halder G (2009) The Hippo tumor-suppressor pathway regulates apical-
+domain size in parallel to tissue growth. J Cell Sci 122: 2351–2359
+James MF, Lelke JM, Maccollin M, Plotkin SR, Stemmer-Rachamimov AO, 
+Ramesh V, Gusella JF (2008) Modeling NF2 with human arachnoidal 
+and meningioma cell culture systems: NF2 silencing reflects the benign 
+character of tumor growth. Neurobiol Dis 29: 278–292
+
+79.  Pelton PD, Sherman LS, Rizvi TA, Marchionni MA, Wood P, Friedman RA, 
+
+Ratner N (1998) Ruffling membrane, stress fiber, cell spreading and 
+proliferation abnormalities in human schwannoma cells. Oncogene 17: 
+2195–2209
+
+80.  Rosenbaum C, Kluwe L, Mautner VF, Friedrich RE, Muller HW, 
+
+Hanemann CO (1998) Isolation and characterization of Schwann cells 
+from neurofibromatosis type 2 patients. Neurobiol Dis 5: 55–64
+
+81.  Zoncu R, Efeyan A, Sabatini DM (2011) mTOR: from growth signal 
+
+82. 
+
+integration to cancer, diabetes and ageing. Nat Rev Mol Cell Biol 12: 21–35
+Saci A, Cantley LC, Carpenter CL (2011) Rac1 regulates the activity of 
+mTORC1 and mTORC2 and controls cellular size. Mol Cell 42: 50–61
+83.  Harvey K, Tapon N (2007) The Salvador–Warts–Hippo pathway—an 
+
+emerging tumour-suppressor network. Nat Rev Cancer 7: 182–191
+
+84.  Pan D (2010) The Hippo signaling pathway in development and cancer. 
+
+Dev Cell 19: 491–505
+
+85.  Zhao B, Li L, Lei Q, Guan K-L (2010) The Hippo–YAP pathway in organ 
+
+size control and tumorigenesis: an updated version. Genes Dev 24:  
+862–874
+
+86.  Oh H, Irvine KD (2010) Yorkie: the final destination of Hippo signaling. 
+
+Trends Cell Biol 20: 410–417
+
+87.  Mao Y, Mulvaney J, Zakaria S, Yu T, Morgan KM, Allen S, Basson MA, 
+Francis-West P, Irvine KD (2011) Characterization of a Dchs1 mutant 
+mouse reveals requirements for Dchs1–Fat4 signaling during mammalian 
+development. Development 138: 947–957
+Saburi S, Hester I, Fischer E, Pontoglio M, Eremina V, Gessler M, 
+Quaggin SE, Harrison R, Mount R, McNeill H (2008) Loss of Fat4 disrupts 
+PCP signaling and oriented cell division and leads to cystic kidney disease. 
+Nat Genet 40: 1010–1015
+
+88. 
+
+89.  Angus L et al (2012) Willin/FRMD6 expression activates the Hippo 
+
+signaling pathway kinases in mammals and antagonizes oncogenic YAP. 
+Oncogene 31: 238–250
+
+90.  Visser-Grieve S, Hao Y, Yang X (2011) Human homolog of Drosophila 
+
+expanded, hEx, functions as a putative tumor suppressor in human cancer 
+cell lines independently of the Hippo pathway. Oncogene [Epub ahead of 
+print] doi:10.1038/onc.2011.318
+
+214  
+
+EMBO reports  VOL 13 | NO 3 | 2012 
+
+©2012 EUROPEAN MOLECULAR BIOLOGY ORGANIZATION
+
+The tumour suppressor Merlin
+
+review
+
+91.  Kim N-G, Koh E, Chen X, Gumbiner BM (2011) E-cadherin mediates 
+contact inhibition of proliferation through Hippo signaling-pathway 
+components. Proc Natl Acad Sci USA 108: 11930–11935
+Schlegelmilch K et al (2011) Yap1 acts downstream of [alpha]-catenin to 
+control epidermal proliferation. Cell 144: 782–795
+
+92. 
+
+93.  Varelas X, Samavarchi-Tehrani P, Narimatsu M, Weiss A, Cockburn K, 
+
+Larsen BG, Rossant J, Wrana JL (2010) The Crumbs complex couples cell 
+density sensing to Hippo-dependent control of the TGF-[beta]–SMAD 
+pathway. Dev Cell 19: 831–844
+
+117.  McClatchey AI, Saotome I, Mercer K, Crowley D, Gusella JF, 
+
+Bronson RT, Jacks T (1998) Mice heterozygous for a mutation at the Nf2 
+tumor suppressor locus develop a range of highly metastatic tumors. 
+Genes Dev 12: 1121–1133
+
+118.  Giovannini M, Robanus-Maandag E, van der Valk M, Niwa-Kawakita M, 
+
+Abramowski V, Goutebroze L, Woodruff JM, Berns A, Thomas G 
+(2000) Conditional biallelic Nf2 mutation in the mouse promotes 
+manifestations of human neurofibromatosis type 2. Genes Dev 14: 
+1617–1630
+
+94.  Paramasivam M, Sarkeshik A, Yates JR 3rd, Fernandes MJ, McCollum D 
+
+119.  Kalamarides M, Niwa-Kawakita M, Leblois H, Abramowski V, 
+
+(2011) Angiomotin family proteins are novel activators of the LATS2 kinase 
+tumor suppressor. Mol Biol Cell 22: 3725–3733
+
+95.  Wang W, Huang J, Chen J (2011) Angiomotin-like proteins associate with 
+
+Perricaudet M, Janin A, Thomas G, Gutmann DH, Giovannini M 
+(2002) Nf2 gene inactivation in arachnoidal cells is rate-limiting for 
+meningioma development in the mouse. Genes Dev 16: 1060–1065
+
+and negatively regulate YAP1. J Biol Chem 286: 4364–4370
+
+120.  Fleury-Feith J, Lecomte C, Renier A, Matrat M, Kheuang L, 
+
+96.  Zhao B, Li L, Lu Q, Wang LH, Liu C-Y, Lei Q, Guan K-L (2011) Angiomotin 
+
+is a novel Hippo pathway component that inhibits YAP oncoprotein. 
+Genes Dev 25: 51–63
+
+97.  Vassilev A, Kaneko KJ, Shu H, Zhao Y, DePamphilis ML (2001) TEAD/TEF 
+
+transcription factors utilize the activation domain of YAP65, a Src/Yes-
+associated protein localized in the cytoplasm. Genes Dev 15: 1229–1241
+
+98.  Zhao B et al (2008) TEAD mediates YAP-dependent gene induction and 
+
+growth control. Genes Dev 22: 1962–1971
+
+99.  Breuhahn K, Schirmacher P (2010) A cellular view of Nf2 in liver 
+
+homeostasis and tumorigenesis. Dev Cell 19: 363–364
+
+100.  Baumgartner R, Poernbacher I, Buser N, Hafen E, Stocker H (2010) The 
+
+WW domain protein Kibra acts upstream of hippo in Drosophila. Dev Cell 
+18: 309–316
+
+101.  Genevet A, Wehr MC, Brain R, Thompson BJ, Tapon N (2010) Kibra is 
+a regulator of the salvador/warts/hippo signaling network. Dev Cell 18: 
+300–308
+
+102.  Yu J, Zheng Y, Dong J, Klusza S, Deng WM, Pan D (2010) Kibra functions as 
+
+a tumor suppressor protein that regulates hippo signaling in conjunction 
+with merlin and expanded. Dev Cell 18: 288–299
+
+103.  Chan SW, Lim CJ, Chong YF, Pobbati AV, Huang C, Hong W (2011) Hippo 
+
+pathway-independent restriction of TAZ and YAP by angiomotin. J Biol 
+Chem 286: 7018–7026
+
+104.  Wells CD et al (2006) A Rich1/Amot complex regulates the Cdc42 GTPase 
+
+and apical-polarity proteins in epithelial cells. Cell 125: 535–548
+
+105.  Lee J, Zhou P (2007) DCAFs, the missing link of the CUL4-DDB1 ubiquitin 
+
+ligase. Mol Cell 26: 775–780
+
+106.  O’Connell BC, Harper JW (2007) Ubiquitin proteasome system (UPS): 
+
+what can chromatin do for you? Curr Opin Cell Biol 19: 206–214
+
+107.  Higa LA, Wu M, Ye T, Kobayashi R, Sun H, Zhang H (2006) CUL4-DDB1 
+
+ubiquitin ligase interacts with multiple WD40-repeat proteins and 
+regulates histone methylation. Nat Cell Biol 8: 1277–1283
+
+108.  Jin J, Arias EE, Chen J, Harper JW, Walter JC (2006) A family of diverse 
+Cul4–Ddb1-interacting proteins includes Cdt2, which is required for 
+S phase destruction of the replication factor Cdt1. Mol Cell 23: 709–721
+
+109.  Sugasawa K et al (2005) UV-induced ubiquitylation of XPC protein 
+mediated by UV-DDB-ubiquitin ligase complex. Cell 121: 387–400
+110.  Wertz IE, O’Rourke KM, Zhang Z, Dornan D, Arnott D, Deshaies RJ, 
+
+Dixit VM (2004) Human de-etiolated-1 regulates c-Jun by assembling a 
+CUL4A ubiquitin ligase. Science 303: 1371–1374
+
+111.  Ou WB, Corson JM, Flynn DL, Lu WP, Wise SC, Bueno R, Sugarbaker DJ, 
+
+Fletcher JA (2011) AXL regulates mesothelioma proliferation and 
+invasiveness. Oncogene 30: 1643–1652
+
+112.  Xiao GH, Gallagher R, Shetler J, Skele K, Altomare DA, Pestell RG, 
+Jhanwar S, Testa JR (2005) The NF2 tumor suppressor gene product, 
+merlin, inhibits cell proliferation and cell cycle progression by repressing 
+cyclin D1 expression. Mol Cell Biol 25: 2384–2394
+
+113.  Silvis MR, Kreger BT, Lien W-H, Klezovitch O, Rudakova GM, 
+
+Camargo FD, Lantz DM, Seykora JT, Vasioukhin V (2011) {alpha}-Catenin 
+is a tumor suppressor that controls cell accumulation by regulating the 
+localization and activity of the transcriptional coactivator Yap1. Sci Signal 
+4: ra33 
+
+114.  Clevers H (2006) Wnt/beta-catenin signaling in development and disease. 
+
+Cell 127: 469–480
+
+115.  Nelson WJ, Nusse R (2004) Convergence of Wnt, beta-catenin, and 
+
+cadherin pathways. Science 303: 1483–1487
+
+116.  Ammoun S, Hanemann CO (2011) Emerging therapeutic targets in 
+
+schwannomas and other merlin-deficient tumors. Nat Rev Neurol 7: 
+392–399
+
+Abramowski V, Levy F, Janin A, Giovannini M, Jaurand MC (2003) 
+Hemizygosity of Nf2 is associated with increased susceptibility to 
+asbestos-induced peritoneal tumours. Oncogene 22: 3799–3805
+
+121.  Jongsma J, van Montfort E, Vooijs M, Zevenhoven J, Krimpenfort P, 
+
+van der Valk M, van de Vijver M, Berns A (2008) A conditional mouse 
+model for malignant mesothelioma. Cancer Cell 13: 261–271
+122.  Selvanathan SK, Shenton A, Ferner R, Wallace AJ, Huson SM, 
+Ramsden RT, Evans DG (2009) Further genotype–phenotype 
+correlations in neurofibromatosis 2. Clin Genet [Epub ahead of print] 
+doi:10.1111/j.1399-0004.2009.01327.x 
+
+123.  Roche PH, Bouvier C, Chinot O, Figarella-Branger D (2008) Genesis 
+and biology of vestibular schwannomas. Prog Neurol Surg 21: 24–31
+
+124.  De Vitis LR, Tedde A, Vitelli F, Ammannati F, Mennonna P, 
+
+Bigozzi U, Montali E, Papi L (1996) Screening for mutations in the 
+neurofibromatosis type 2 (NF2) gene in sporadic meningiomas. Hum 
+Genet 97: 632–637
+
+125.  Lekanne Deprez RH et al (1995) Cytogenetic, molecular genetic and 
+pathological analyses in 126 meningiomas. J Neuropathol Exp Neurol 
+54: 224–235
+
+126.  Papi L, De Vitis LR, Vitelli F, Ammannati F, Mennonna P, Montali E, 
+
+Bigozzi U (1995) Somatic mutations in the neurofibromatosis type 2 
+gene in sporadic meningiomas. Hum Genet 95: 347–351
+
+127.  Tos M, Stangerup SE, Caye-Thomasen P, Tos T, Thomsen J (2004) What is 
+the real incidence of vestibular schwannoma? Arch Otolaryngol Head 
+Neck Surg 130: 216–220
+
+128.  Claus EB, Bondy ML, Schildkraut JM, Wiemels JL, Wrensch M, Black PM 
+
+(2005) Epidemiology of intracranial meningioma. Neurosurgery 57: 
+1088–1095 
+
+Jonathan Cooper, Filippo G. Giancotti & Wei Li
+
+Matthias A. Karajannis
+
+©2012 EUROPEAN MOLECULAR BIOLOGY ORGANIZATION 
+
+EMBO reports  VOL 13 | NO 3 | 2012 215
+
+

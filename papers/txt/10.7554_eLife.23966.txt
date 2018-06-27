@@ -1,0 +1,1432 @@
+RESEARCH ARTICLE
+
+Regulation of localization and function of
+the transcriptional co-activator YAP by
+angiomotin
+Susana Moleirinho1†, Sany Hoxha1†, Vinay Mandati1, Graziella Curtale1,
+Scott Troutman1, Ursula Ehmer2, Joseph L Kissil1*
+
+1Department of Molecular Medicine, The Scripps Research Institute, Jupiter, United
+States; 2Department of Medicine II, Klinikum rechts der Isar, Technische Universita¨ t
+Mu¨ nchen, Munich, Germany
+
+Abstract The Hippo-YAP pathway is a central regulator of cell contact inhibition, proliferation
+and death. There are conflicting reports regarding the role of Angiomotin (Amot) in regulating this
+pathway. While some studies suggest a YAP-inhibitory function other studies indicate Amot is
+required for YAP activity. Here, we describe an Amot-dependent complex comprised of Amot, YAP
+and Merlin. The phosphorylation of Amot at Serine 176 shifts localization of this complex to the
+plasma membrane, where it associates with the tight-junction proteins Pals1/PATJ and E-cadherin.
+Conversely, hypophosphorylated Amot shifts localization of the complex to the nucleus, where it
+facilitates the association of YAP and TEAD, induces transcriptional activation of YAP target genes
+and promotes YAP-dependent cell proliferation. We propose that phosphorylation of AmotS176 is a
+critical post-translational modification that suppresses YAP’s ability to promote cell proliferation
+and tumorigenesis by altering the subcellular localization of an essential YAP co-factor.
+DOI: 10.7554/eLife.23966.001
+
+*For correspondence: jkissil@
+scripps.edu
+
+†These authors contributed
+equally to this work
+
+Competing interests: The
+authors declare that no
+competing interests exist.
+
+Funding: See page 20
+
+Received: 06 December 2016
+Accepted: 06 April 2017
+Published: 03 May 2017
+
+Reviewing editor: Helen
+McNeill, University of Toronto,
+Canada
+
+Copyright Moleirinho et al.
+This article is distributed under
+the terms of the Creative
+Commons Attribution License,
+which permits unrestricted use
+and redistribution provided that
+the original author and source are
+credited.
+
+Introduction
+Angiomotin (Amot) was originally identified as an angiostatin-binding protein involved in the regula-
+tion of endothelial cell polarization, migration, proliferation, and angiogenesis (Kikuno et al., 1999;
+Levchenko et al., 2003; Troyanovsky et al., 2001). Amot is expressed as two isoforms generated
+by alternative splicing, full-length Amot-p130 (referred to as Amot in this manuscript) and truncated
+Amot-p80, which lacks the 409-amino acid N-terminus (Ernkvist et al., 2006). Amot, Angiomotin-
+like 1 (AmotL1) and Angiomotin-like 2 (AmotL2) compose the Motin family of proteins, which share
+an N-terminus with conserved glutamine-rich domains and PPxY motifs, and a C-terminus containing
+conserved coiled-coil (CC) and PDZ-binding domains (Bratt et al., 2002; Nishimura et al., 2002;
+Zheng et al., 2009). Although structurally similar, the functions of Motin family members appear to
+be distinctive, as divergent spatiotemporal and expression levels have been described across human
+and mouse tissues and cell lines for each of the family members (Moleirinho et al., 2014).
+
+Functionally, Amot is required for endothelial cell migration, by binding to the Syx:Patj/Mupp1
+polarity complex to localize RhoA activity to the leading edge of migratory cells (Ernkvist et al.,
+2009). It has also been implicated in epithelial cell polarity, as an inhibitor of the GTPase-Activating
+Protein (GAP) Rich1 and shown to compromise the integrity of tight junctions by promoting Rich1-
+mediated hydrolysis of Rho GTPases Rac1 and Cdc42 (Wells et al., 2006; Yi et al., 2011). Amot reg-
+ulates collective migration of epithelial cells as part of a signaling axis composed of Merlin-Amot-
+Rich1 and the Rac1 small GTPase (Das et al., 2015). At tight junctions (TJ), TJ-associated Merlin
+inhibits Rac1 activation through the Amot-Rich1 axis, relocalizing Merlin to the cytoplasm during cell
+migration and releasing Rac1 from a suppressed state (Das et al., 2015; Yi et al., 2011). Amot also
+
+Moleirinho et al. eLife 2017;6:e23966. DOI: 10.7554/eLife.23966
+
+1 of 23
+
+Research article
+
+Cancer Biology Cell Biology
+
+eLife digest Cells in animals and other multi-cellular organisms need to know when and where
+they should grow and divide. Individual cells communicate with their surrounding environment and
+each other via signaling pathways such as the Hippo-YAP pathway, which stimulates cells to grow
+and therefore influences the size of organs. When the Hippo part of the pathway is active it causes a
+protein known as YAP to move out of a compartment in the cell called the nucleus. Inside the
+nucleus, YAP helps to activate genes that promote cell growth. If the Hippo pathway can no longer
+respond to cues from the environment, YAP becomes over-active and can contribute to the
+development of various cancers. Therefore researchers are trying to better understand how it is
+regulated.
+
+Many signals both from inside and outside the cell influence YAP activity. For example, some
+signals block YAP from entering the nucleus, whereas others cause YAP to be broken down entirely.
+Several studies have recently identified a signal protein called angiomotin as a regulator of YAP.
+However, the studies provide conflicting reports as to whether angiomotin promotes or inhibits cell
+growth.
+
+Like many other proteins, angiomotin can be tagged with a small molecule called a phosphate
+
+group that can alter its activity. Moleirinho, Hoxha et al. studied human cells containing versions of
+angiomotin that mimic different forms of the protein with or without the phosphate. The
+experiments indicate that when a phosphate is attached at a particular position (known as serine
+176), angiomotin predominantly interacts with YAP and another protein called Merlin at the cell
+surface. On the other hand, when angiomotin does not have a phosphate attached to it, all three
+proteins can move into the nucleus, where YAP is able to activate genes and promote cell growth.
+
+Overall, these findings indicate that adding a phosphate group to angiomotin can act as a switch
+
+to regulate where in the cell it and YAP are found and thus, whether YAP is active. Future
+experiments will investigate which enzymes add the phosphate group to serine 176, and when they
+are able to do so.
+DOI: 10.7554/eLife.23966.002
+
+directly binds to YAP, a central effector of the Hippo signaling pathway, via 106LPTY109/239PPxY242
+motifs present in the N-terminal domain of Amot-p130 and WW domain present in YAP (Yi et al.,
+2013, 2011; Zhao et al., 2011).
+
+The Hippo-YAP signaling pathway, originally characterized in Drosophila, is highly conserved in
+mammals and regulates organ size, cell contact inhibition, proliferation, apoptosis and polarity
+(Ramos and Camargo, 2012; Yi and Kissil, 2010; Yu et al., 2015). At the core of the mammalian
+pathway, MST1/2 promote phosphorylation of WW45 (also known as Sav1), Lats1/2, and MOB1
+(MOBKL1A/B). Once activated, Lats1/2 phosphorylates the primary downstream effector YAP, pro-
+moting ubiquitination and proteosomal degradation by a SCFbeta-TRCP E3 ligase and sequestering
+YAP from the nucleus, where it functions as a transcriptional co-activator (Hao et al., 2008;
+Zhao et al., 2010b, 2007). Among the different transcription factors activated by YAP, the DNA-
+binding TEA domain (TEAD) transcription factors are thought to mediate a YAP-driven pro-prolifer-
+ative gene expression program (Galli et al., 2015; Zhao et al., 2010b, 2007).
+
+YAP’s involvement in cancer has been demonstrated in several tissues, including liver, intestine,
+heart, pancreas, and brain (Yu et al., 2015; Guerrant et al., 2016). Importantly, recent studies
+revealed YAP plays a key role in developing resistance to RAF- and MEK-targeted therapies in lung
+and colon cancer cells (Lin et al., 2015) and cancer relapse in KRAS-driven colon and pancreatic can-
+cers (Kapoor et al., 2014; Shao et al., 2014). Upstream of the core kinase cassette is the tumor sup-
+pressor Merlin (moesin-ezrin-radixin-like protein), which is inactivated in Neurofibromatosis type 2
+(NF2) (McClatchey et al., 1998). Functions for Merlin have been described in the nucleus (Li et al.,
+2014, 2010) as well as at the plasma membrane (Yin et al., 2013; Zhang et al., 2010).
+
+In the mouse-liver, homozygous deletion of Nf2 results in tumor formation. However, heterozy-
+gous deletion of Yap significantly suppresses the loss-of-Nf2 phenotype, thus implicating YAP as a
+major downstream effector of NF2 (Zhang et al., 2010). Analysis of liver-specific Nf2 knockout mice
+and Nf2:Amot double knockout (DKO) mice showed Amot is required for hepatic ductal cell
+
+Moleirinho et al. eLife 2017;6:e23966. DOI: 10.7554/eLife.23966
+
+2 of 23
+
+Research article
+
+Cancer Biology Cell Biology
+
+proliferation and tumor formation in the context of either Nf2 loss or DDC (3,5-diethoxycarbonyl-
+1,4-dihydrocollidine)-induced injury. Additionally, substantially increased expression of Amot was
+observed in NF2-null human schwannomas samples, which primarily displayed localization of Amot
+in the nucleus (Yi et al., 2013). Further evidence demonstrated that in renal cell carcinoma (RCC),
+Amot promotes the proliferation of renal epithelial and RCC cells, and is crucial for YAP transcrip-
+tional activity by promoting its nuclear localization (Lv et al., 2016). However, it has also been
+reported that Amot functions as a negative regulator of YAP activity, as direct association of Amot
+junctions (Leung and Zernicka-Goetz, 2013;
+and YAP results in translocation to cytoplasm/cell
+Zhao et al., 2011). Moreover, a number of studies suggest that Amot acts as a scaffold protein to
+promote localization of YAP, as well as other Hippo/YAP core kinases, to the cytoplasm/cell junc-
+tions/actin cytoskeleton and promote Lats1/2-mediated phosphorylation of YAP (Chan et al., 2011;
+Dai et al., 2013; Paramasivam et al., 2011; Wang et al., 2011). One possible explanation for these
+opposing regulatory functions of Amot could be attributed to post-translational modifications. Phos-
+phorylation of Ser175 on human Amot (corresponding to Ser176 in mouse) at the conserved HVRSLS
+motif by Lats1/2 has been reported as a key post-translational modification controlling Amot func-
+tion and association with YAP (Hirate et al., 2013; Moleirinho et al., 2014). Here we show that
+Amot-p130 functions as a scaffold protein mediating YAP and Merlin association and that phosphor-
+ylation of Amot at Ser176 induces translocation of the complex from the cytoplasm and nucleus to
+the plasma membrane. This relocalization of the Amot/YAP/Merlin complex significantly impacts the
+activity of YAP and regulates YAP’s ability to promote cell proliferation and tumorigenesis. These
+results uncover an unrecognized layer of regulation in the Hippo-YAP pathway and resolve questions
+regarding the seemingly opposing functions of Amot.
+
+Results
+
+Amot, YAP and Merlin form a complex that localizes to the nucleus and
+cytoplasm
+Previous work by multiple groups identified the p130 splice isoform of Angiomotin (Amot) as a bind-
+ing partner of YAP and Merlin (Chan et al., 2011; Yi et al., 2013, 2011; Zhao et al., 2011). We first
+thought to assess whether Amot-p130, YAP and Merlin form a complex and subsequently whether
+this is dependent on Angiomotin phosphorylation. We used HEK293, as they express relatively high
+levels of endogenous Angiomotin. First, to determine the interaction between Merlin and YAP,
+HEK293 cells were transfected with expression vectors for HA-tagged Merlin and V5-tagged YAP.
+Reciprocal co-immunoprecipitation (co-IP) analyses using anti-HA or anti-V5 antibodies revealed
+association between YAP and Merlin (Figure 1A). The Merlin-YAP interaction was also confirmed in
+another independent cell type – the hSC2l immortalized human Schwann cells (Figure 1B). Impor-
+tantly, further validation of the association between YAP and Merlin was confirmed at the endoge-
+nous protein levels, using antibodies directed against Merlin or YAP (Figure 1C).
+
+As previous studies reported multiple cellular localizations for Merlin and YAP, we sought to
+determine the cellular compartments where YAP and Merlin co-localize. Flag-tagged Merlin and V5-
+tagged YAP were co-transfected in both HEK293 and hSC2l cells and the localization and associa-
+tion of these proteins were examined by subcellular fractionation coupled to IP with an anti-Flag
+antibody. These subcellular fractionation studies showed an association between Merlin and YAP pri-
+marily in the nucleus and cytoplasm, and to a much lesser extent at the plasma membrane
+(Figure 1D–E). Further confirmation of Merlin and YAP co-localization was provided by immunofluo-
+rescence (IF) staining, in HEK293 and hSC2l cells, where we observed co-localization of IF signal pre-
+dominantly in the cytoplasm and nucleus (Figure 1F). Thus, we conclude that YAP associates with
+Merlin, co-localizing mostly in the cytoplasm and nucleus.
+
+YAP-Merlin complex formation is dependent on Amot-p130
+Since Amot directly binds YAP and Merlin through two distinct domains (Yi et al., 2013, 2011), we
+hypothesized that Amot could act as a scaffold and recruit YAP and Merlin into the same complex.
+To confirm this hypothesis we generated HEK293 cells stably expressing a lentiviral short hairpin
+RNA specific to Amot (HEK293-shAmot cells). Co-IP experiments with HA-tagged Merlin and V5-
+tagged YAP confirmed that in the absence of Amot, the complex is not formed as YAP and Merlin
+
+Moleirinho et al. eLife 2017;6:e23966. DOI: 10.7554/eLife.23966
+
+3 of 23
+
+Research article
+
+Cancer Biology Cell Biology
+
+Figure 1. YAP associates with Merlin in the nucleus and cytoplasm. Co-immunoprecipitation of YAP and Merlin. (A) HEK293 or (B) hSC2l cells were co-
+transfected with expression plasmids for HA-Merlin or Flag-Merlin and V5-YAP. Total cell lysates (Input) and HA, Flag, YAP or V5 immunoprecipitates
+(IP) were subjected to immunoblotting analysis with anti-V5, anti-HA, anti-Flag, Merlin or YAP antibodies as indicated. (C) Association of endogenous
+YAP and Merlin. Total lysates from HEK293 cells (input) or IPs with anti-Merlin or anti-YAP antibodies were subjected to immunoblotting analysis with
+Figure 1 continued on next page
+
+Moleirinho et al. eLife 2017;6:e23966. DOI: 10.7554/eLife.23966
+
+4 of 23
+
+Research article
+
+Figure 1 continued
+
+Cancer Biology Cell Biology
+
+indicated antibodies. (D–F) YAP associates with Merlin in the nucleus and in the cytoplasm. (D) HEK293 or (E) hSC2l cells expressing Flag-Merlin and
+V5-YAP were fractionated into cytoplasmic, nuclear, and plasma membrane fractions. Cell lysates (input) and V5-IP or Flag-IP of each subcellular fraction
+were subjected to immunoblot analysis with indicated antibodies. GAPDH, Lamin A/C, and EGFR/ Na+/K+ATPase were used as fractionation controls
+for the cytoplasmic, nuclear, and plasma membrane fractions, respectively. IgG was used as a non-specific antibody control for IPs throughout. The
+blots shown are representative of three independent biological replicates (n = 3). (F) HEK293 (left) or hSC2l (right) cells were co-transfected with YAP
+and Merlin expression plasmids and subjected to immunofluorescence staining with anti-YAP and anti-Merlin antibodies. Hoechst was used for nuclei
+fluorescence staining. Pictures show fields at 63x magnification and representative of three independent biological replicates, in each of which 20
+independent fields were examined. Scale bar = 10 mm.
+DOI: 10.7554/eLife.23966.003
+
+could no longer be co-immunoprecipitated (Figure 2A). Similarly, knockdown of Amot using an
+siRNA smartpool impaired the association of Merlin and YAP (Figure 2—figure supplement 1).
+
+To further validate the scaffolding role of Amot we evaluated whether Amot-80 can support the
+interaction between Merlin and YAP. Amot-p80 lacks the 409 amino acid N-terminus present in
+Amot, which harbors the PPxY motifs (239PPEY242 and 284PPEY287), and an unconventional LPTY
+motif (106LPTY109) that mediate the interaction with YAP (Ernkvist et al., 2006; Wang et al., 2012;
+Yi et al., 2013) (Figure 2B). As expected, attempting to IP HA-Merlin or V5-YAP demonstrated that
+
+Figure 2. YAP and Merlin association is dependent on Amot-p130. (A) HEK293 cells stably infected with lentiviral vectors encoding a control shRNA
+(shCtr) or shRNA targeting Amot (shAmot) were co-transfected with expression plasmids for HA-Merlin and V5-YAP. Total lysates (input) and HA or V5
+IPs were subjected to immunoblot analysis with anti-YAP and anti-Merlin antibodies as indicated. (B) Graphical representation of Amot p130 and p80
+isoforms. Amot-p130 N-terminus PPxY and LPxY motifs are shown, and the generated PY motif mutants are highlighted in red. See Figure 2—figure
+supplement 1. CC/BAR – Coiled-Coil/(Bin/Amphiphysin/Rvs) domain. PDZ – Post synaptic density protein (PSD95, Drosophila disc large (Dlg1) and
+Zonula occludens-1 (ZO-1) domain. (C) HEK293-shAmot cells were co-transfected with HA-Merlin, V5-YAP, and Flag-Amot-p80. Total lysates (Input) and
+HA or V5 IPs were subjected to immunoblot analysis with anti-V5 and anti-HA antibodies as indicated. The blots shown are representative of three
+independent biological replicates (n = 3).
+DOI: 10.7554/eLife.23966.004
+The following figure supplements are available for figure 2:
+
+Figure supplement 1. YAP and Merlin association is dependent on Amot-p130.
+DOI: 10.7554/eLife.23966.005
+Figure supplement 2. YAP/Merlin complex require Amot-p130 PPxY and LPxY motifs.
+DOI: 10.7554/eLife.23966.006
+
+Moleirinho et al. eLife 2017;6:e23966. DOI: 10.7554/eLife.23966
+
+5 of 23
+
+Research article
+
+Cancer Biology Cell Biology
+
+Figure 3. Phosphorylation status of Amot-p130S176 does not impact formation of the Amot/YAP/Merlin complex. HEK293-shAmot cells were co-
+transfected with expression plasmids for Flag-Merlin, V5-YAP, and (A) HA-Amot-WT (B) HA-Amot-p130S176A or (C) HA-Amot-p130S176E. Total lysates
+(input) and Flag or V5 IPs were subjected to immunoblot analysis with anti-YAP and anti-Merlin antibodies as indicated. (D) HEK293-shAmot cells were
+co-transfected with an expression plasmid for Amot-p130. Total lysates (input) and IPs for phospho-Amot (Ser176), YAP, and Merlin were subjected to
+immunoblot analysis with indicated antibodies. The blots shown are representative of three independent biological replicates (n = 3).
+DOI: 10.7554/eLife.23966.007
+The following figure supplements are available for figure 3:
+
+Figure supplement 1. Analysis of exogenous Amot expression levels and distribution.
+DOI: 10.7554/eLife.23966.008
+Figure supplement 2. Phosphorylation of Amot does not impact formation of YAP/Amot-p130 or Merlin/Amot-p130 complexes.
+DOI: 10.7554/eLife.23966.009
+Figure supplement 3. Phosphorylation of YapS127 does not impact the formation of the Amot/YAP/Merlin complex.
+DOI: 10.7554/eLife.23966.010
+
+Amot-p80 was unable to support the association between these proteins (Figure 2C). Moreover,
+mutation of the individual PPEY/LPTY motifs or combinations thereof, significantly impaired the
+association between Merlin and YAP (Figure 2—figure supplement 2). Taken together, these results
+show that Amot functions as a scaffold that supports the YAP-Merlin association.
+
+Angiomotin phosphorylation does not impair formation of a YAP/
+Merlin complex
+Several reports have shown the importance of Amot post-translational modifications in regulating its
+function, specifically phosphorylation of Serine 176 (Serine 175 in humans) (Adler et al., 2013a;
+Chan et al., 2013; Dai et al., 2013; Hirate et al., 2013; Paramasivam et al., 2011). We therefore
+explored whether Amot phosphorylation regulates formation of the Amot/YAP/Merlin complex.
+HEK293-shAmot cells were transfected with expression vectors for Flag-Merlin, V5-YAP and either
+HA-Amot-p130, HA-Amot-p130S176A (non-phosphorylated mutant) or HA-Amot-p130S176E (phospho-
+mimetic mutant) and similar levels of the different Amot alleles were confirmed (Figure 3—figure
+supplement 1). IPs were carried out using anti-Flag or anti-V5 antibodies and the presence of Merlin
+and YAP was determined by western blotting. These analyses demonstrated that all three forms of
+Amot support the formation of the complex, as evidenced by the co-IP of Merlin and YAP
+
+Moleirinho et al. eLife 2017;6:e23966. DOI: 10.7554/eLife.23966
+
+6 of 23
+
+Research article
+
+Cancer Biology Cell Biology
+
+Figure 4. Amot-p130S176 shifts localization of the YAP/Merlin complex. (A) Phosphorylation of Amot-p130 shifts its localization at the plasma
+membrane. HEK293-shAmot cells were transfected with Amot-WT, Amot-p130S176A or Amot-p130S176E expression plasmids and fractionated into
+cytoplasm (C), nuclear (N) and plasma membrane (PM) fractions. Immunoblot analysis was conducted using an anti-Amot antibody. GAPDH, Lamin A/C,
+and Na+/K+ATPase were using as controls for the cytoplasmic, nuclear, and plasma membrane fractions, respectively. (B) IB analysis was used to verify
+Figure 4 continued on next page
+
+Moleirinho et al. eLife 2017;6:e23966. DOI: 10.7554/eLife.23966
+
+7 of 23
+
+Research article
+
+Figure 4 continued
+
+Cancer Biology Cell Biology
+
+the transfection efficiency of the indicated constructs in total lysates of HEK293-shAmot cells. Tubulin was used as loading control. Blots shown are
+representative of three independent biological experiments (n = 3). (C) HEK293-shAmot cells were transfected with Amot-WT, Amot-p130S176A or
+Amot-p130S176E and subjected to immunofluorescence staining using an antibody against Amot. DAPI was used for nuclei fluorescence staining.
+Pictures show fields at 63x magnification and are representative of three independent biological replicates, in each of which 20 independent fields were
+examined. Scale bar = 10 mm. (D–F) Phosphorylation state of Amot-p130 mediates YAP localization. HEK293-shAmot cells were co-transfected with YAP
+and (D) Amot-WT, (E) Amot-p130S176A or (F) Amot-p130S176E and subjected to subcellular fractionation as in (A). Cell lysates (input) and Amot IPs of
+each one of the subcellular fractions were subjected to immunoblot analysis with anti-YAP antibodies as indicated. Loading controls were as in (A). All
+western blots shown are representative of three independent biological replicates (n = 3). (G) Double-immunofluorescence staining with anti-YAP and
+anti-Merlin antibodies on HEK293-shAmot cells transfected with expression vectors for Amot-WT, Amot-p130S176A or Amot-p130S176E. Hoechst was
+used for staining of nuclei. Pictures show fields at 63x magnification and are representative of three independent biological replicates, in each of which
+20 independent fields were examined. Scale bar = 10 mm.
+DOI: 10.7554/eLife.23966.011
+The following figure supplements are available for figure 4:
+
+Figure supplement 1. Amot phosphorylation regulates the localization of the Amot/YAP complex in human Schwann cells.
+DOI: 10.7554/eLife.23966.012
+Figure supplement 2. Amot phosphorylation regulates the localization of the Amot/YAP complex in human hepatocellular carcinoma cells.
+DOI: 10.7554/eLife.23966.013
+
+(Figure 3A–C). Further validation of these results were demonstrated by co-IP experiments in which
+Amot was IPed using an anti-HA antibody (Figure 3—figure supplement 2). In addition, we exam-
+ined whether phosphorylated Amot is still able to bind both YAP and Merlin, by using an antibody
+that specifically binds phosphorylated S176 (p-S176). The antibody was used to IP phosphorylated
+Amot and co-IP of Merlin and YAP was assessed by western blotting. These experiments showed
+that Amot phosphorylated at S176 binds to both YAP and Merlin. Similarly, IP with antibodies
+against YAP or Merlin also showed co-IP with phosphorylated Amot (Figure 3D). Collectively, our
+findings demonstrate that Amot S176 phosphorylation state does not affect formation of the Amot/
+YAP/Merlin complex.
+
+A major regulatory mechanism of YAP localization is through Lats1/2 phosphorylation of Ser127
+promoting YAP cytoplasmic sequestration through 14-3-3 binding and concomitant sequestration
+from the nucleus (Zhao et al., 2010b, 2007). We therefore evaluated whether YAP phosphorylation
+at Serine 127 plays a role in the establishment of the Amot/YAP/Merlin complex. Using similar IP
+approaches described above, we found that both phosphorylated YAP and constitutively active
+YAPS127A mutant retain their ability to associate with Amot/Merlin (Figure 3—figure supplement 2).
+Surprisingly, a YAP mutant where five major phosphorylation sites have been abolished (YAP-5A
+[Zhao et al., 2010b]) was no longer associated with the complex (Figure 3—figure supplement
+2C).
+
+AmotS176 phosphorylation regulates YAP localization at the plasma
+membrane
+To determine whether phosphorylation induces a change in the sub-cellular localization of Amot/
+YAP/Merlin complex, 293-shAmot cells were transfected with expression vectors for Amot-p130,
+Amot-p130S176A or Amot-p130S176E. The transfected cells were fractionated and the presence of
+Amot determined by Western blot analysis. In the cells expressing Amot-p130, the majority of this
+protein localized to cytoplasmic and nuclear fractions, and to a lesser extent in the plasma mem-
+brane fraction. Interestingly, Amot-p130S176A showed a marked increase in nuclear localization and
+almost no presence at the plasma membrane. In contrast, Amot-p130S176E showed a clear shift in
+localization towards the cytoplasm and plasma membrane (Figure 4A). Immunoblotting of total cell
+extracts confirmed similar expression levels of Amot-p130, Amot-p130S176E and Amot-p130S176A
+(Figure 4B). To determine the broader relevance of our findings in HEK293 cells to additional bio-
+logical systems, we carried out a similar analysis in human hSC2l Schwann cells and HepG2 hepato-
+cellular carcinoma cells. Fractionation studies from these additional cell types followed a similar
+distribution pattern to the transfected 293-shAmot cells (Figure 4—figure supplements 1A and
+2A).
+
+To complement the biochemical fractionation studies, we assessed localization of the different
+Amot proteins by IF staining in the 293-shAmot cells. These analyses confirmed the fractionation
+
+Moleirinho et al. eLife 2017;6:e23966. DOI: 10.7554/eLife.23966
+
+8 of 23
+
+Research article
+
+Cancer Biology Cell Biology
+
+findings, demonstrating a stronger intensity of Amot in the cytoplasm and nucleus of cells express-
+ing Amot-p130, a shift to nuclear staining in Amot-p130S176A expressing cells and cytoplasmic/
+plasma membrane localization in Amot-p130S176E expressing cells (Figure 4C).
+
+We next examined if the status of S176 can regulate localization of the Amot/YAP/Merlin com-
+plex. First, we examined Amot/YAP localization using co-IP studies in fractions prepared from 293-
+shAmot cells transfected with expression vectors for Amot-p130, Amot-p130S176A or Amot-
+p130S176E. In agreement with our previous results, in 293-shAmot cells transfected with Amot-p130
+and YAP, Amot co-IPed with YAP mainly in the cytoplasm but also in the nucleus with little to no
+interaction detected at the plasma membrane (Figure 4D). Importantly, in cells expressing the
+Amot-p130S176A allele, the Amot-YAP complex mainly localized to the nucleus with little to no inter-
+action detected in the cytoplasm and plasma membrane (Figure 4E). Significantly, in cells expressing
+the Amot-p130S176E allele an increase in the Amot-YAP association was detected at the plasma
+membrane, in addition to the cytoplasmic fraction. Little to no interaction was detected in the
+nucleus (Figure 4F). Thus, the distribution of Amot/YAP complex mimics the distribution observed
+for Amot (Figure 4A). In addition to the analysis in the 293-shAmot cells, a similar analysis carried
+out in the hSC2l and HepG2 cells confirmed a similar distribution pattern (Figure 4—figure supple-
+ments 1B–D and 2B–D).
+
+These findings were extended and confirmed by IF analysis of the YAP-Merlin association in 293-
+shAmot cells, where the localization of YAP and Merlin to the plasma membrane is significantly
+enhanced in cells expressing the Amot-p130S176E allele (Figure 4G). Overall our findings demon-
+strate that while AmotS176 phosphorylation does not impact the formation of the Amot/YAP/Merlin
+complex, it mediates the localization of the complex through phosphorylation of Serine 176 that
+leads to recruitment of the complex to the plasma membrane or a shift to a nuclear localization in
+the hypophosphorylated state.
+
+Phosphorylation of Amot promotes localization to junctional structures
+at the plasma membrane
+Previous studies showed binding of Amot to the tight junction-associated proteins Pals1 and Patj at
+the apical membrane (Ernkvist et al., 2009; Sugihara-Mizuno et al., 2007; Wells et al., 2006;
+Yi et al., 2011). To further characterize the mechanisms by which phosphorylated Amot shifts from
+the cytoplasm and nucleus to the plasma membrane, we examined the interactions between Amot-
+p130, Amot-p130S176A and Amot-p130S176E with Patj, Pals1 and E-cadherin. Using co-IP, we found
+that Flag-tagged Patj strongly associates with Amot-p130S176E, compared to weaker or null interac-
+tion with Amot-p130 and Amot-p130S176A, respectively. In a reciprocal approach, IP of the different
+Amot forms demonstrated a stronger association between Patj and Amot-p130S176E (Figure 5A–C).
+Similar results were obtained when examining the association of Pals1 or E-cadherin with Amot.
+While we were consistently able to co-IP Pals1 or E-cadherin with Amot-p130S176E, this association
+was greatly diminished with Amot-p130S176A or wild type Amot-p130 (Figure 5D–E). These findings
+suggest that localization of phosphorylated Amot-p130 to the cell membrane is mediated through
+interactions with components of junctional structures, which remain to be identified.
+
+Previous reports concluded that phosphorylation of Amot at Serine 176 reduces the association
+between Amot and F-actin (Chan et al., 2013; Mana-Capelli et al., 2014; Dai et al., 2013). To
+assess this directly in cells, we employed a co-precipitation approach relying on the high selectivity
+and binding affinity of phalloidin to F-actin, previously employed to identify F-actin binding proteins
+in cells (Clarke and Mearow, 2013; Fulga et al., 2007). Briefly, biotinylated phalloidin was used to
+specifically pull-down F-actin from 293-shAmot cells transfected with expression vectors for Amot-
+p130, Amot-p130S176A or Amot-p130S176E and levels of precipitated proteins were examined by
+western blotting. As shown in Figure 5F, similar amounts of all Amot proteins were present in the
+pull downs (Upper panel). Importantly, similar levels of Actin were present in all pull downs indicat-
+ing the expression of the different Amot alleles did not affect cellular levels of F-actin (Lower panel).
+
+Amot phosphorylation regulates YAP-driven cellular proliferation and
+transcriptional activities
+Given the impact of Amot-p130S176 phosphorylation on localization of the Amot/YAP/Merlin com-
+plex, we conducted loss- and gain-of-function studies to gain insight into the functional significance
+
+Moleirinho et al. eLife 2017;6:e23966. DOI: 10.7554/eLife.23966
+
+9 of 23
+
+Research article
+
+Cancer Biology Cell Biology
+
+Figure 5. AmotS176 status impacts binding to the junctional proteins PATJ, Pals1 and E-cadherin. HEK293-shAmot cells were co-transfected with Flag-
+PATJ and (A) HA-Amot-WT or (B) HA-Amot-p130S176A or (C) HA-Amot-p130S176E. Total lysates (Input) and Flag or HA IPs were subjected to immunoblot
+analysis with anti-HA and anti-Flag antibodies, as indicated. (D–E) HEK293-shAmot cells were co-transfected with (D) Flag-Pals1 or (E) E-cadherin and
+relevant Amot alleles as in panels (A–C). Total lysates (input) and Flag IP were subjected to IB analysis with anti-Amot and anti-Flag antibodies as
+Figure 5 continued on next page
+
+Moleirinho et al. eLife 2017;6:e23966. DOI: 10.7554/eLife.23966
+
+10 of 23
+
+Research article
+
+Figure 5 continued
+
+Cancer Biology Cell Biology
+
+indicated. (F) HEK293-shAmot cells were transfected with expression vectors for HA-Amot-WT, HA-Amot-p130S176A or HA-Amot-p130S176E. Cells were
+extracted in F-actin stabilizing buffer and F-actin was pulled down using Biotinylated-phalloidin and streptavidin-coupled magnetic beads. Pull downs
+were then alayzed by western blotting using anti-Amot or Actin antibodies. The blots shown are representative of three biological replicates (n = 3).
+DOI: 10.7554/eLife.23966.014
+
+of this phosphorylation. First, we determined whether AmotS176 phosphorylation modulates cell pro-
+liferation. The 293-shAmot cells transfected with expression plasmids for Amot-p130 and Amot-
+p130S176A proliferated at increased rates compared to control transfected cells, as determined by
+cell counting and BrdU incorporation over a 96 hr period. In contrast, the Amot-p130S176E express-
+ing cells exhibited a growth rate comparable to that of the control cells (Figure 6A–B). Similar
+results were obtained in hSC2l and HepG2 cells transfected with the different Amot alleles (Fig-
+ure 6—figure supplement 1A–B). These findings indicate that expression of Amot can promote the
+proliferation of these three different cell types and that this activity is diminished when Amot is phos-
+phorylated at Serine 176.
+
+As work from our group and others has shown that Angiomotin functions as a regulator of small
+G-proteins from the Rac1/cdc42 family (Wells et al., 2006; Yi et al., 2011), we assessed whether the
+increased proliferation observed in the Amot-p130 and Amot-p130S176A expressing cells is mediated
+by activation of Rac1. Towards this goal we analyzed the status of active Rac1 (Rac1-GTP) in these
+cells compared to control 293-shAmot cells. As expected, transfection with the different Amot
+alleles resulted in increased Rac1-GTP levels. However, we found no significant differences in Rac1-
+GTP levels between the cells, suggesting the status of Amot serine 176 phosphorylation does not
+affect Rac1 activation (Figure 6C).
+
+We next determined whether the observed increased rates of cell proliferations induced by
+Amot-p130 and Amot-p130S176A expression are YAP-dependent, by introducing two independent
+siRNAs against YAP into these cells. Indeed, the increased proliferation afforded by Amot-p130 and
+Amot-p130S176A was completely inhibited by YAP knockdown (Figure 6B and Figure 6—figure sup-
+plement 2A). The expression of Amot-p130 and Amot-p130S176A and reduction of YAP levels was
+confirmed by immunoblotting (Figure 6B).
+
+Next, we determined if Amot Serine 176 phosphorylation regulates YAP-mediated transcriptional
+activation. We used two independent luciferase reporter assays, the HIP/HOP-flash and 8xGTIIC
+luciferase reporters (Leask and Abraham, 2006; Zhao et al., 2008). The HIP (Hippo-YAP signaling
+incompetent promoter)/HOP (Hippo-YAP signaling optimal promoter)-flash reporters contain,
+respectively, seven mutated TEAD-binding sites and multimerized (x8) TEAD-binding sites from the
+promoter of YAP’s direct target CTGF (Leask and Abraham, 2006; Zhao et al., 2008). The former
+is a negative control for HOP-flash activity (Kim and Gumbiner, 2015). In agreement with our previ-
+ously reported findings (Yi et al., 2013), the activity of YAP in the HOP-reporter assay was sup-
+pressed in 293-shAmot cells, while the reintroduction of Amot fully rescued YAP activity (Figure 6D–
+E). Moreover, the expression of Amot-p130S176A resulted in a substantial increase in the activation
+of the HOP-flash reporter when compared to Amot. Significantly, Amot-p130S176E was unable to res-
+cue the function of YAP in the 293-shAmot cells (Figure 6D–E). As expected, no significant changes
+in activation of the HIP reporter were observed under similar experimental conditions (Figure 6D).
+These observations were further confirmed using the GTIIC luciferase system, which has eight copies
+of TEAD-binding sequence driving the expression of the luciferase gene (Davidson et al., 1988;
+Ota and Sasaki, 2008; Yi et al., 2013) (Figure 6—figure supplement 2B).
+
+To further evaluate the regulation of YAP’s activity by Amot, we investigated the impact of Amot-
+p130, Amot-p130S176A and Amot-p130S176E expression in the 293-shAmot cells on known gene tar-
+gets of YAP by quantitative real-time PCR. We focused on Areg (amphiregulin) and ApoE (Apolipo-
+protein E) as previous findings suggest Amot plays a role in their regulation (Yi et al., 2013). While
+expression of both Amot-p130 and Amot-p130S176E had only minor effects on levels of Areg and
+ApoE, the expression of Amot-p130S176A significantly induced up-regulation of Areg and ApoE by
+2.5, and 3-fold respectively, relative to control cells (Figure 6F). Similar results were obtained in
+hSC2l and HepG2 cells transfected with the different Amot alleles (Figure 6—figure supplement
+3).
+
+Moleirinho et al. eLife 2017;6:e23966. DOI: 10.7554/eLife.23966
+
+11 of 23
+
+Research article
+
+Cancer Biology Cell Biology
+
+Figure 6. AmotS176A promotes the proliferative and transcriptional activities of YAP. (A) AmotS176 regulates cellular proliferation. HEK293-shAmot cells
+were transiently transfected with indicated expression plasmids and total cell numbers were counted over 4 days. Means of each data point were
+calculated from three independent biological replicates conducted in triplicate. Error bars represent ±S.D. Immunoblot analysis was used to verify the
+transfection efficiency of the indicated Amot-p130 constructs. Tubulin was used as a loading control. The blots shown are representative of three
+Figure 6 continued on next page
+
+Moleirinho et al. eLife 2017;6:e23966. DOI: 10.7554/eLife.23966
+
+12 of 23
+
+Research article
+
+Figure 6 continued
+
+Cancer Biology Cell Biology
+
+biological replicates. (B) Amot expression drives proliferative phenotype that is YAP-dependent. HEK293-shAmot cells were co-transfected with the
+indicated expression plasmid and either a SMARTpool of siRNAs targeting YAP or a non-targeting control (siCtr). Levels of BrdU incorporation
+compared to HEK293-shAmot+pcDNA+siCtr (set to 1) were determined 48 hr, 72 hr, and 96 hr post co-transfection for all the conditions. Means were
+calculated from three biological replicates conducted in triplicate. Error bars represent ±S.D. Individual pairwise comparisons were assessed by
+Student’s t-test, *p<0.05; **p<0.01; ***p<0.001; n.s. – non-significant. Exact p-values are indicated in the figure. Immunoblot analysis to confirm
+efficient knockdown of YAP using two independent siRNAs (siYAP-A and siYAP-B) (see Figure S6) and efficient overexpression of the indicated Amot-
+p130 constructs in HEK293-shAmot cells. Tubulin was used as a loading control. The blots shown are representative of three biological replicates
+(n = 3). (C) Amot-p130 serine 176 does not affect Rac1 activation. IB analysis of cell lysates from HEK293-shAmot cells expressing Amot-WT, Amot-
+p130S176A or Amot-p130S176E with anti-Rac1-GTP, anti-Rac1 and anti-Amot antibodies as indicated. Tubulin was used as a loading control. Cells were
+serum starved overnight and stimulated with 10 ng/mL EGF for 5’. The blots shown are representative of three biological replicates (n = 3). (D) AmotS176
+status regulates YAP transcriptional activity. HEK293 and HEK293-shAmot cells were transfected with indicated constructs and HIP-flash or HOP-flash
+reporters. Reporter’s firefly luciferase activity was normalized to the levels of Renilla luciferase used as an internal control. The means of luciferase
+activity were calculated from three biological replicates conducted in quadruplicate. Error bars represent ±S.D. Individual pairwise comparisons were
+assessed by Student’s t-test, **p<0.01; ***p<0.001; n.s. – non-significant. Exact p-values are indicated in the figure. (E) Immunoblot analysis showing
+efficient transfection of Amot-p130, Amot-p130 mutants, and YAP in cell lysates used in (D). Tubulin was used as a loading control. The blots shown are
+representative of three biological replicates. (F) AmotS176 status regulates expression of endogenous YAP targets. Expression of the YAP target genes
+Areg and ApoE was probed in HEK293-shAmot cells expressing Amot-WT, Amot-p130S176A or Amot-p130S176E by quantitative real-time PCR. mRNA
+levels were compared with the empty vector control (set to 1). Means were calculated from Ct values in three independent biological replicates
+conducted in triplicate. GAPDH was used to normalize for variances in input cDNA. See Table 1. Error bars represent ±S.D. Individual pairwise
+comparisons were assessed by Student’s t-test, **p<0.01; ***p<0.001; n.s. – non-significant. Exact p-values are indicated in the figure.
+DOI: 10.7554/eLife.23966.015
+The following source data and figure supplements are available for figure 6:
+
+Source data 1. Cell counts for HEK293 cells, treated as described Figure 6A.
+DOI: 10.7554/eLife.23966.016
+Figure supplement 1. AmotS176A promotes proliferation of human Schwann and hepatocellular carcinoma cells.
+DOI: 10.7554/eLife.23966.017
+Figure supplement 1—source data 1. Cell counts for hSCl cells, treated as described in Figure 6—figure supplement 1.
+DOI: 10.7554/eLife.23966.018
+
+Figure supplement 1—source data 2. Cell counts for hSCl cells, treated as described Figure 6—figure supplement 1.
+DOI: 10.7554/eLife.23966.019
+Figure supplement 2. Amot-p130S176 pro-proliferative phenotype is YAP dependent and regulates YAP transcriptional activity.
+DOI: 10.7554/eLife.23966.020
+Figure supplement 2—source data 1. Counts for BrdU incoporation.
+DOI: 10.7554/eLife.23966.021
+
+Figure supplement 2—source data 2. Counts for luciferase activity.
+DOI: 10.7554/eLife.23966.022
+Figure supplement 3. Amot-p130S176 regulates YAP transcriptional activity.
+DOI: 10.7554/eLife.23966.023
+Figure supplement 3—source data 1. Source data for qPCR analysis of AREG expression in hSC-lambda cells.
+DOI: 10.7554/eLife.23966.024
+
+Figure supplement 3—source data 2. Source data for qPCR analysis of APOE expression in hSC-lambda cells.
+DOI: 10.7554/eLife.23966.025
+
+Figure supplement 3—source data 3. Source data for qPCR analysis of AREG expression in HepG2 cells.
+DOI: 10.7554/eLife.23966.026
+
+Figure supplement 3—source data 4. Source data for qPCR analysis of APOE expression in HepG2 cells.
+DOI: 10.7554/eLife.23966.027
+
+Previously it was shown that Amot is part of transcriptionally active YAP-Tead-containing complex
+in the nuclei of adult liver and HEK293 cells (Yi et al., 2013). We hypothesized that Amot exerts its
+function in this complex in the dephosphorylated state. To test this, we performed reciprocal IP
+assays with antibodies against YAP or pan-Tead. We observed efficient co-IP of YAP and pan-Tead
+
+Moleirinho et al. eLife 2017;6:e23966. DOI: 10.7554/eLife.23966
+
+13 of 23
+
+Research article
+
+Cancer Biology Cell Biology
+
+Table 1. Primer sequences used in qPCR.
+
+Gene
+
+Amot
+
+ApoE
+
+Areg
+
+Primers
+
+Forward
+
+Reverse
+
+5’-CAGCTTGCAGAGAAGGAATATGAG-3’
+
+5’-CTGGCTTTCTTTATTTTTTGCAAAG-3’
+
+5’-AGGAACTGAGGGCGCTGA-3’
+
+5’-AGTTCCGATTTGTAGGCCTTCA-3’
+
+5’-TGATCCTCACAGCTGTTGCT-3’
+
+5’-TCCATTCTCTTGTCGAAGTTTCT-3’
+
+GAPDH
+
+5’ – GATCATCAGCAATGCCTCCT-3’
+
+5’ – TGTGGTCATGAGTCCTTCCA-3’
+
+DOI: 10.7554/eLife.23966.028
+
+in the presence of Amot-p130 and Amot-p130S176A but not in the presence of Amot-p130S176E
+(Figure 7A). Moreover, we conducted Chromatin immunoprecipitation (ChIP) with Amot antibodies
+in 293-shAmot cells transfected with Amot-p130, Amot-p130S176A or an empty control vector, fol-
+lowed by RT-PCR analysis. These experiments showed a striking enrichment and binding of Amot-
+p130S176A to the promoter of ApoE and Areg, compared to Amot (Figure 7B). These findings sug-
+gest that phosphorylation of Amot serine 176 prevents YAP-mediated transcriptional activation by
+inhibiting Amot nuclear function as a co-factor in a YAP-Tead transcriptional complex (Figure 7C).
+
+Discussion
+The role of Angiomotin regulating the Hippo/YAP pathway has so far been elusive, mainly due to
+conflicting reports suggesting that YAP regulation by Angiomotin is either positive or negative. To
+gain a deeper understanding of Amot function, we employed multiple cell types originating from tis-
+sues in which dysregulation of the Hippo-YAP pathway is observed under pathological conditions.
+Our study reveals that Angiomotin phosphorylation at serine 176 mediates YAP localization. This
+post-translational modification is the key event determining a promoting or repressing regulation of
+YAP by Angiomotin. We found that phosphorylation at serine 176 does not mediate Angiomotin’s
+scaffolding functions but does impact the localization of a tertiary complex composed by Amot, YAP
+and Merlin, which is present in both the cytoplasm and nucleus for the wild type protein. The serine
+176 phosphomimetic mutant (AmotS176E) is recruited to the plasma membrane where it is found co-
+localized and associated with Patj, Pals1 and E-cadherin at junctional structures. Our previous studies
+indicate that Amot is required for YAP function in the nucleus (Yi et al., 2013). Thus, the relocation
+of Amot out of the nucleus and sequestration of Amot/YAP complex to the plasma membrane, func-
+tion to prevent YAP from operating as a growth-promoting transcriptional activator. The non-phos-
+phorylated mutant (AmotS176A) is preferentially localized to the nucleus, where it facilitates YAP
+interactions with TEADs and concomitant activation of target gene transcription.
+
+Angiomotin’s involvement in regulation of Hippo-YAP signaling arises from studies showing that
+Amot functions as a scaffold protein for several components of this signaling cascade including YAP,
+Merlin, Kibra, Lats, and F-actin (Moleirinho et al., 2014). Our findings extend Amot scaffolding func-
+tions to the formation of the YAP-Merlin complex independent of Amot Ser176 phosphorylation,
+although it is possible that additional PTMs might regulate the complex specifically at different sub-
+cellular localizations. Multiple reports describe the role of AmotS176 phosphorylation on Amot inter-
+actions with binding partners and function (Adler et al., 2013b; Chan et al., 2013; Hirate et al.,
+2013; Mana-Capelli et al., 2014). While these reports converge towards the idea that Amot serine
+176 phosphorylation is mediated by Lats1/2 and that this impacts Amot’s binding to F-actin, they
+differ significantly when examining the influence on Amot localization and function. Whilst the dis-
+cussion of these differences merits a separate review, we highlight a few points that agree or conflict
+with our current findings. In regards to the effect of Amot phosphorylation on binding to F-actin or
+YAP, previous reports conclude that serine 176 phosphorylation impairs the interaction between
+Amot and F-actin and suggest that this can favor binding to YAP (Chan et al., 2013; Mana-
+Capelli et al., 2014; Dai et al., 2013). Our findings suggest that serine 176 phosphorylation does
+not impact association with F-actin. However, in agreement with one of these studies (Dai et al.,
+2013) our findings suggest that phosphorylation on Amot has little impact on the Amot-YAP associa-
+tion. Possible explanations for the differences between our current findings and previous reports
+could be attributed to the use of HEK293 cells expressing high levels of endogenous Amot, which
+
+Moleirinho et al. eLife 2017;6:e23966. DOI: 10.7554/eLife.23966
+
+14 of 23
+
+Research article
+
+Cancer Biology Cell Biology
+
+Figure 7. AmotS176A but not AmotS176E is required for formation of the nuclear Yap-Tead complex. HEK293-shAmot cells were co-transfected with
+Amot-WT or Amot-p130S176A or Amot-p130S176E. Total lysates (Input) and Pan-Tead or YAP IPs were subjected to immunoblot analysis with anti-Pan-
+Tead or anti-YAP antibodies, as indicated. The blots shown are representative of three independent biological replicates. (B) ChIP analysis of HEK293T-
+shAmot cells transfected with Amot-WT, Amot-p130S176A or an empty vector control. Real-time quantitative PCR was performed in eluted DNA using
+Figure 7 continued on next page
+
+Moleirinho et al. eLife 2017;6:e23966. DOI: 10.7554/eLife.23966
+
+15 of 23
+
+Research article
+
+Figure 7 continued
+
+Cancer Biology Cell Biology
+
+primers targeting the promoter regions of ApoE and Areg. See Table 2. The data show the means ±s.e.m. from three independent biological replicates
+(n = 3). Individual pairwise comparisons were assessed by Student’s t-test, **p<0.01; ***p<0.001; n.s. – non-significant. Exact p-values are indicated in
+the figure. (C) Proposed model for YAP-Merlin complex regulation by AmotS176. Hypophosphorylation of AmotS176 promotes translocation of the Amot-
+p130/YAP/Merlin complex from the cytoplasm to the nucleus where it binds to TEADs and activates YAP-dependent transcriptional programs.
+Conversely, phosphorylation of AmotS176 induces cytoplasmic sequestration and plasma membrane localization of the tertiary complex. At the
+membrane, the complex associates with the junctional proteins Patj and Pals1 and YAP’s nuclear functions are inhibited. S176 in blue indicates
+phosphorylation.
+DOI: 10.7554/eLife.23966.029
+The following source data is available for figure 7:
+
+Source data 1. Source data for qPCR analysis of ApoE expression in HEK293 cells.
+DOI: 10.7554/eLife.23966.030
+Source data 2. Source data for qPCR analysis of AREG expression in HEK293 cells.
+DOI: 10.7554/eLife.23966.031
+
+might mask some of the interactions with the mutated alleles. To circumvent this possibility, our
+studies incorporated HEK293 cells in which endogenous Amot expression was knocked-down and
+the different mutant alleles reintroduced. Additionally, previous studies used different cell types,
+which not only could impact the stability of the Amot/YAP interaction but also explain the observed
+differences in Amot localization. In MCF10A, MCF7 and MDA-MB-468 cells, hypophosphorylated
+Amot showed junctional
+localization and co-localization with F-actin (Adler et al., 2013b;
+Chan et al., 2013). Although we cannot exclude differences in the actin cytoskeleton between the
+different cell lines used in those studies, we observe enrichment of AmotS176E to the plasma mem-
+brane, in agreement with Hirate et al. (2013), and enrichment of AmotS176A to the nucleus. Further-
+more, our studies confirm previous findings and show that Amot is required for YAP activity and that
+the AmotS176A mutant displays prominent nuclear function by means of increased levels of YAP tar-
+get gene expression,
+increased cell proliferation rates and higher colony formation capacity
+(Adler et al., 2013b; Chan et al., 2013; Hirate et al., 2013). Importantly, in vivo studies are needed
+to clarify the role of Amot in different cell and tissue types. We further extended the analysis of
+Amot phosphorylation on the Amot-YAP-Merlin complex, by determining whether its formation
+depends on YAPS127 phosphorylation site. In agreement with previous reports showing that the
+Amot-YAP interaction is independent of phosphorylation at YAPS127 (Wang et al., 2011;
+Zhao et al., 2011), we observed that the YAP-Merlin-Angiomotin complex also occurs indepen-
+dently of YAPS127 (Figure 3—figure supplement 3A and B). Interestingly, mutation of serine in each
+of YAP’s five HxRxxS consensus sites (S5A, Zhao et al., 2010b) precluded formation of the complex
+(Figure 3—figure supplement 3C). The molecular mechanisms underlying the reduced association
+between the S5A and the Amot-merlin complex remain to be elucidated. However, this is not likely
+as a result of increased nuclear localization of YAP-S5A, since wild-type Amot can also be found in
+the nucleus in complex with wild type YAP. Therefore, it is likely that at least one additional post-
+translational modification of YAP could regulate the formation of the Amot-YAP-Merlin complex and
+future studies are needed to identify this modification.
+
+We found that AmotS176 phosphorylation induces association of the YAP-Merlin complex with
+Patj, Pals1 and E-cadherin, and that plasma membrane sequestration inhibits YAP activity. Several
+reports have described the localization of Amot at junctions in epithelial and endothelial cells
+(Bratt et al., 2005; Ernkvist et al., 2008; Patrie, 2005; Wells et al., 2006) and its colocalization
+with Patj/Pals1 via its C-terminal PDZ-binding motifs (Wells et al., 2006). However, binding to Patj is
+not required for Amot’s localization to the plasma membrane, as a mutant lacking the PDZ binding
+
+Table 2. Primer sequences used in CHIP.
+
+Gene
+
+ApoE
+
+Areg
+
+Primers
+
+Forward
+
+Reverse
+
+GCGTTCACTGTGGCCTGTCCA
+
+GCATGGAGGACAGCCCTGGC
+
+TGTTCTTCCCAGAAACCCTC
+
+TTTACCTACACCATCTCACAGC
+
+DOI: 10.7554/eLife.23966.032
+
+Moleirinho et al. eLife 2017;6:e23966. DOI: 10.7554/eLife.23966
+
+16 of 23
+
+Research article
+
+Cancer Biology Cell Biology
+
+motifs still localize to the cell cortex (Sugihara-Mizuno et al., 2007). This suggests that an additional
+mechanism can regulate Amot membrane localization, which is in agreement with our findings where
+phosphorylation of AmotS176 induces localization of Amot-YAP-Merlin complex to the cell cortex. In
+HeLa, HEK293 and MDCK cells, Amot mediates YAP localization at the plasma membrane resulting
+in suppression of cell proliferation (Chan et al., 2011; Paramasivam et al., 2011; Zhao et al.,
+2011). Thus, we propose that phosphorylation of Amot triggers a shift of the YAP-Merlin complex
+from the nucleus to the plasma membrane, thus suppressing the nuclear activity of YAP and exerting
+cell growth and tumor suppressive functions (Figure 7C).
+
+Amot associates with Merlin and Rich1 at junctional structures and inhibits Rac1 and downstream
+signaling into the MAPK pathway (Yi et al., 2011). Our results suggest that AmotS176 phosphoryla-
+tion does not impact the ability to modulate Rac1 activity at the cell membrane. Yet, it is possible
+that AmotS176 phosphorylation modulates Merlin’s nuclear function. Previous studies showed that
+nuclear accumulation of Merlin results in inhibition of the CRL4DCAF1 E3 ubiquitin ligase. In NF2-
+mutant tumors, CRL4DCAF1 ubiquitinates Lats, suppressing phosphorylation and activating YAP
+(Li et al., 2014, 2010). In light of our findings, we can speculate that in the nucleus, Lats is inacti-
+vated by CRL4DCAF1-driven ubiquitylation and becomes unable to phosphorylate Amot, resulting in
+an increase of YAP transcriptional activity. However, if Lats remains active and Amot phosphorylation
+occurs, Amot-YAP-Merlin tertiary complex translocates from the nucleus to the cytoplasm and
+plasma membrane, resulting in suppression of YAP nuclear functions. Future studies will be required
+to shed light on this possibility.
+
+Another open question pertains to what mechanism/s regulate Angiomotin/YAP localization.
+Lats1/2 are obvious candidates, as they were shown to phosphorylate both YAP and Amot
+(Adler et al., 2013b; Chan et al., 2013; Hirate et al., 2013; Mana-Capelli et al., 2014). However,
+the role of Lats1/2 in regulation of these proteins and the relationship between Lats, YAP and Angio-
+motin is complex. For example, a number of reports suggest that Lats phosphorylates Amot, leading
+to reduced binding to F-actin and increased YAP binding and inhibition (Chan et al., 2013; Mana-
+Capelli et al., 2014). Moreover, Amot has been proposed to activate Lats2 and increase phosphory-
+lation of YAP (Paramasivam et al., 2011; Chan et al., 2013). In contrast, we have previously shown
+that in multiple systems, Amot antagonizes the association of Lats and YAP and inhibits phosphoryla-
+tion of YAP by Lats (Yi et al., 2013). Given the complexity of the interactions between Amot and
+YAP, addressing the role of Lats1/2 in regulating the translocation and activity of the Amot-YAP
+complex will require future studies. Another potential regulatory mechanism stems from the lack of
+interaction between Amot and YAP-S5A mentioned above. This finding suggests that additional
+phosphorylation events could regulate the complex. As a number of other kinases such as AMPK
+and CK1delta/epsilon have been shown to phosphorylate YAP (Wang et al., 2015; Zhao et al.,
+2010a). Further work will be required to determine the relevant phosphorylation sites and responsi-
+ble kinases
+
+In conclusion, our studies suggest a mechanism to explain the previous conflicting observations
+regarding the role of Amot by demonstrating that AmotS176 phosphorylation state is a key event
+that dictates a positive or negative regulation of YAP by Amot by targeting the Amot-YAP-Merlin
+complex to the plasma membrane, sequestration in the cytoplasm or translocation to the nucleus.
+
+Materials and methods
+
+Plasmids and siRNAs
+The expression plasmids for HA-Amot-p130, HA-Amot-p130S176A and HA-Amot-p130S176E were a
+gift from Dr. Hiroshi Sasaki (Kumamoto University, Japan). The following plasmids were previously
+described: psCMV-Pals1-Flag; PATJ-Flag (Wells et al., 2006; Yi et al., 2011); Flag or HA-tagged
+Merlin (Kissil et al., 2002, 2003); pCMV-Flag-Amot-p80, pCMV-V5-YAP and pCMV-Amot-130 LPxY/
+PPxY mutants (Yi et al., 2011, Yi et al., 2013). The pcDNA4/His-MaxB-YAP-S127A (Plasmid #18988)
+and pCMV-Flag-YAP-5SA (Plasmid #27371) were from Addgene. Human Amot-p130 shRNA vectors
+have been previously described (Yi et al., 2011). siRNA duplexes targeting human YAP (ID #s20366)
+as well as non-targeting control siRNAs (ID #4390843) were from Thermo Fischer Scientific (Carls-
+bad, CA). The second siRNA targeting human YAP1 (5 FlexiTube #SI02662954) was purchased from
+Qiagen. siRNA targeting human angiomotin (ON-TARGETplus Human AMOT siRNA- smartpool
+
+Moleirinho et al. eLife 2017;6:e23966. DOI: 10.7554/eLife.23966
+
+17 of 23
+
+Research article
+
+Cancer Biology Cell Biology
+
+L-015417-01-0005) or control pool of siRNA (ON-TARGETplus Non-targeting pool-set of 4 LU-
+017595-01-0002).
+
+Cell culture, transfection, and infection conditions
+HEK293 and HepG2 cells were purchased from the ATCC. hSC2l cells were obtained from the labo-
+ratory of Dr. Margret Wallace (Li et al., 2016). All cell lines were authenticated by short tandem
+repeat (STR) DNA profiling (DDC Medical). Cells were tested every 3 months for mycoplasma con-
+tamination and confirmed free of contamination. Cells were maintained in low glucose Dulbecco’s
+Modified Eagle’s Medium (DMEM) (Gibco) supplemented with 10% fetal bovine serum (Atlas Biolog-
+icals) and antibiotics (100 units/ml penicillin and 100 mg/ml Streptomycin) (Gibco), at 37˚C in a
+humidified atmosphere of 5% CO2 (v/v). All experiments were carried out on cells grown to 70–80%
+confluency. Transfections were performed using Lipofectamine 2000 (Invitrogen, Carlsbad, CA)
+unless stated otherwise. Lentiviral infection of HEK293 cells was performed according to standard
+protocols. Briefly, HEK293T cells were co-transfected with packaging plasmids VSVG, D8.2, and
+either with pLKO.1-GFP or pLKO.1-shAmot constructs. Supernatants were collected 48 hr and 72 hr
+after transfection, and cells were infected with 4 mL of viral supernatant containing 4 mL of poly-
+brene (8 mg/mL). After 48 hr, transduced cells were selected with puromycin (2 mg/mL) and this
+selection maintained for 72 hr.
+
+Antibodies
+Rabbit polyclonal anti-Angiomotin was previously described (Yi et al., 2011) (IB: 1:1500). The follow-
+ing antibodies are available commercially: anti-phospho-Angiomotin (ABS1045 from EMD Millipore;
+1:2000). Anti-HA tag (sc805, 1:1000); monoclonal anti-Merlin (E-2, 1:500); polyclonal anti-Merlin (C-
+18, 1:500); polyclonal anti-YAP (H-125, 1:1000); polyclonal anti-Lamin A/C (sc-6215 (N-18), 1:500);
+polyclonal anti-EGFR (sc03, 1:1000) were from Santa Cruz Biotechnologies. Anti-Flag tag (F1804,
+1:1000); anti-GAPDH (68795, 1:10000); anti-tubulin (T5168, 1:1000); anti-actin (A4700; 1:10000) were
+from Sigma. Anti-V5 tag (ab27671, 1:2000) from Abcam. Anti-6x His tag (MA1-21315, 1:2000) from
+Thermo Scientific. Anti-phospho-YAP (4911, 1:1000); anti-pan-Tead (13295; 1:1000) from Cell Signal-
+ing Technologies. Anti-Na+/K+ATPase (a-5, 1:2500) from Developmental Studies Hybridoma Bank
+(University of Iowa). For immunofluorescence the following antibodies were used at the stated con-
+centrations: rabbit monoclonal anti-YAP D8H1X (14074, 1:50), Cell Signaling Technologies; mouse
+monoclonal anti-Merlin (E-2; 1:50), Santa Cruz Biotechnologies; Rabbit polyclonal anti-Angiomotin
+(1: 200).
+
+Immunoprecipitation and immunoblotting
+150 cm diameter dishes were transiently transfected with 10 mg of plasmid DNAs using Lipofect-
+amine 2000 (Invitrogen). 48 hr later cell lysates were collected, washed twice in ice-cold PBS, and
+lysed with radioimmuno precipitation assay buffer (RIPA: 50 mM Tris-HCl; 150 mM NaCl; 1% NP40;
+0.1% sodium dodecyl sulfate; 0.5% sodium deoxycholate; 1:25 protease inhibitor cocktail and phos-
+phatase inhibitors (Roche Applied Science)). 1 mg of protein was immunoprecipitated with Protein
+A/G resins (#20333; #20398; Thermo Scientific) and indicated antibody with gentle rotation at 4˚C,
+overnight. Immunoprecipitates were washed four times in RIPA buffer, and bound proteins were dis-
+sociated in 25 mL of 1x loading dye (25 mM Tris-HCl pH 6.8, 4% SDS, 5% glycerol, bromophenol
+blue). Eluted proteins were separated on SDS/10% polyacrylamide gel and transferred onto Immobi-
+lon-P membranes (Millipore). To prevent nonspecific binding, membranes were incubated in block-
+ing buffer (5% skimmed dried milk, 33.3 mM Tris-HCl, 16.68 mM Tris base, 138 mM NaCl, 2.7 mM
+KCl, 0.1% Tween-20) with agitation for 1 hr at room temperature, followed by immediate incubation
+with specific antibodies diluted in either 5% BSA or blocking buffer, overnight. Membranes were
+then washed three times in washing buffer (33.3 mM Tris-HCl, 16.68 mM Tris base; 138 mM NaCl;
+2.7 mM KCl; 0.1% Tween-20), incubated for 1 hr at room temperature with goat anti-mouse HRP-
+conjugated antibody (sc-2005; 1:10000) or Protein A-HRP linked (NA9120V; 1: 2000; GE Healthcare)
+and protein expression was detected by chemiluminescence using ECL (#RPN2106 or #RPN2236,
+GE Healthcare).
+
+Moleirinho et al. eLife 2017;6:e23966. DOI: 10.7554/eLife.23966
+
+18 of 23
+
+Research article
+
+Cancer Biology Cell Biology
+
+F-actin pull down assay
+Cells were collected and lysed with actin stabilization buffer (1% Triton-X 100, 0.1% SDS, 10 mM
+EDTA, 1% sodium deoxycholate, 200 pM sodium vanadate, 200 pM NaF, 1 complete protease inhib-
+itor cocktail tablet, 0.5 mM ATP and Tris-Buffered Saline, pH 7.4). Biotinylated-phalloidin (5 mg,
+Thermo-Fisher Scientific) was added to samples and incubated for 60’ at 4˚C with constant rotation.
+Subsequently, 20 mL of streptavidin-coupled magnetic Dynabeads were added, incubated for 60’ at
+4˚C with constant rotation. The magnetic beads were isolated with a magnet, washed 3X with PBS
+and analyzed as described.
+
+Immunofluorescence
+Immunofluorescence staining was carried out as previously described (Li et al., 2010). Briefly, cells
+were grown on coverslips and transfected the next day using Lipofectamine. After 48 hr, coverslips
+were fixed with 4% paraformaldehyde in PBS for 20 min at room temperature and incubated in per-
+meabilization buffer (0.3% sodium deoxycholate and 0.3% Triton-X in PBS) for 30 min on ice. Cover-
+slips were then washed twice in PBS and blocked in 5% goat serum/0.3% Triton-X in PBS for 1 hr at
+room temperature followed by overnight incubation with indicated primary antibodies. After three
+PBS washes, coverslips were incubated with goat anti-mouse Alexa Fluor 488 (#A11029, 1:400; Life
+Technologies), goat anti-rabbit Alexa Fluor 568 (#A11011, 1:400; Life Technologies) or both second-
+ary antibodies for 1 hr at room temperature. Cells were stained 5 min with 1 mg/mL of DAPI or
+Hoechst and mounted in Vectashield. Slides were examined using confocal microscopy (LSM 780;
+Carl Zeiss; Plan Neofluar 63x/1.3 NA Korr differential interference contrast M27 objective in water)
+at room temperature. Digitalized images were assembled using ZEN 2011 (64 bit) software (Carl
+Zeiss).
+
+Sub-cellular fractionation
+Cells were incubated on ice for 20 min in ice-cold cytoplasmic buffer (20 mM Tris-HCl pH 7.4, 150
+mM KCl, 1.5 mM MgCl2, 1 mM PMSF, 1 mM DTT, 0.5%Nonidet P-40, protease inhibitor mixture),
+centrifuged at 4000 g for 5’ at 4˚C. Supernatant was kept for the cytosolic and plasma membrane
+fractions. The pellet was washed five times with nuclear washing buffer (10 mM HEPES pH7.9, 10
+mM KCl, 1.5 mM MgCl2, 0.34 M Sucrose, and complete protease inhibitor mixture), lysed on ice for
+20 min in 400 ml of RIPA buffer and centrifuged at 13,000 g for 10 min at 4˚C. Supernatant was kept
+as the nuclear fraction. For the cytosolic and plasma membrane fractions the supernatant was spun
+at 200,000 g for 30 min at 4˚C and the resultant supernatant centrifuged again at 13,000g for 5 min
+at 4˚C and kept as the cytosolic fraction. The pellet was washed in 500 ml lysis buffer (50 mM Tris pH
+7.4, 1 mM EDTA, 2.5 mm MgCl2, 150 mM NaCl, and complete protease inhibitor mixture) and re-
+sedimented at 200,000g for 30 min at 4˚C. The pellet was then resuspended in ice-cold IP buffer (1
+M Tris-HCl pH 7.4, 4 M NaCl, 10% (w/v) Triton X-100, and complete protease inhibitor mixture),
+incubated on a rocker for 30 min at 4˚C, and cleared by centrifugation at 13,000g for 15 min at 4˚C.
+The supernatant was kept as the plasma membrane fraction.
+
+Immunoprecipitation and Rac1-GTP pull-down
+HEK293-shAmot cells were transfected with 8 mg of plasmid DNA (empty vector control/ wild type
+Amot-p130/AmotS176A/AmotS176E) and 48 hr later lysed in RIPA buffer and precipitated with indi-
+cated antibody overnight. Rac1-GTP was pulled down according to the manufacturer’s instructions
+(Millipore, #17–441).
+
+BrdU incorporation assay
+HEK293-shAmot cells were seeded at a cell density of 2  105 cells per well in 6-well plates. On the
+following day cells were co-transfected with 40 nM of siRNAs (targeting either YAP or a non-target-
+ing siRNA duplex (control)), and 2 mg of plasmid DNA (empty vector control/ wild type Amot-p130/
+AmotS176A/AmotS176E) using TransIT-LT1 and TransIT-TKO (Mirus, Fisher Scientific, Illinois) according
+to manufacturer’s instructions. After 24 hr, cells were trypsinized and 2  104 cells/well were
+reseeded in sterile 96-well tissue culture plates. 48 hr, 72 hr, and 96 hr after co-transfection, plates
+were processed and analysed using BrdU cell proliferation assay kit following manufacturer’s
+
+Moleirinho et al. eLife 2017;6:e23966. DOI: 10.7554/eLife.23966
+
+19 of 23
+
+Research article
+
+Cancer Biology Cell Biology
+
+instructions (Millipore, #2750). Plates were read using a spectrophotometer microplate reader set to
+450 nm (SpectraMax M5; Molecular Devices).
+
+luciferase
+
+reporter
+
+a
+
+system was
+
+Luciferase assay
+The HIP/HOP-flash
+Barry
+Gumbiner (Gumbiner and Kim, 2014) and the GTIIC-luciferase reporter was previously described
+(Yi et al., 2013). HEK293 and HEK293-shAmot cells were seeded at a concentration of 40  103
+cells/50 ml in 96-well plates. On the following day the indicated luciferase reporters and plasmids
+were transfected to a total of 160 ng and incubated overnight at 37˚C. Luciferase activity was then
+measured with Dual Luciferase Reporter Assay System (Promega; #E1910) according to manufac-
+turer’s instructions. The reporter’s firefly luciferase activity was normalized to the levels of Renilla
+luciferase used as an internal control reporter. The relative luciferase activity displayed on the Y-axis
+indicates the ratio between Firefly/Renilla luciferase activities.
+
+from Dr.
+
+kind
+
+gift
+
+RNA extraction and quantitative real-time PCR (qPCR)
+Extraction of RNA from cell lysates was performed using Qiagen RNeasy kit (Qiagen) followed by
+cDNA synthesis of 1 mg DNase-digested RNA, using SuperScript III First-Strand Synthesis System for
+quantitative RT–PCR (Invitrogen) according to manufacturer’s instructions. Quantitative PCR of the
+synthesized cDNA was conducted using SYBR Green 2x Master Mix (Applied Biosystems) according
+to the manufacturer’s protocol. 10 ng of each sample were used in each analysis. Real-time quantita-
+tive RT-PCR reactions were performed on StepOnePlus Real-Time PCR System (Applied Biosystems)
+and analysed using StepOne Software v2.2.2. All measurements were conducted three times in tripli-
+cate and standardized to the levels of GADPH. Relative changes in gene expression were calculated
+according to the 2 DDCT algorithm (Livak et al., 2001). Sequence of the qPCR primers is provided in
+Table 1.
+
+Chromatin immunoprecipitation (ChIP) and qPCR analysis
+20 million HEK293T-shAmot cells were fixed with 1% formaldehyde for 10 min at RT. Fixation was
+halted with 125 mM glycine for 5 min at RT. Fixed cells were washed twice with cold PBS. Cell pel-
+lets were then resuspended in ChIP lysis buffer and chromatin was sheared with sonicator to obtain
+0.3–0.5 kb DNA fragments. Angiomotin antibody (5 mg) and Dynabeads Protein A were added to
+the cell lysate and incubated overnight at 4˚C. Beads were washed with buffer 1 (150 mM NaCL, 20
+mM TrisCl pH 8.0, 5 mM EDTA, 65% w/v sucrose, 10% Triton-X-100, 20% SDS) and then washed
+with TE buffer. DNA was eluted by resuspending the beads in TE/1%SDS. ChIP DNA and Input were
+treated with RNase A (5 mg) for 1 hr at 37˚C. Proteinase K (0.5 mg/mL) was added and incubated
+overnight at 65˚C to reverse crosslinking. DNA was then purified phenol:chloroform and resus-
+pended in a 30 mL of elution buffer. DNA was used for real time-PCR using SYBR Green PCR kit. A
+standard dilution curve was obtained for each Input and 1 mL of ChIP DNA was used in each PCR
+reaction. Melt curves were analyzed to confirm specificity of the amplified target.
+
+Acknowledgements
+We thank Drs. Margaret Wallace and Hua Li (University of Florida) for the immortalized human
+Schwann cells; Dr. Hiroshi Sasaki (Institute of Molecular Embryology and Genetics, Japan) for provid-
+ing the HA-Amotp130/S176A/S176E/pcDNA3.1-pA83 plasmids and Dr. Barry M Gumbiner (Univer-
+sity of Virginia Health Sciences Center) for HIP/HOP-flash luciferase reporters. This work was
+supported by the NIH (NS077952 and CA124495 to JK). SM is a recipient of the Young Investigator
+Award from Children’s Tumor Foundation.
+
+Additional information
+
+Funding
+Funder
+
+Grant reference number
+
+Author
+
+National Cancer Institute
+
+CA124495
+
+Joseph L Kissil
+
+Moleirinho et al. eLife 2017;6:e23966. DOI: 10.7554/eLife.23966
+
+20 of 23
+
+Research article
+
+Cancer Biology Cell Biology
+
+National Institute of Neurolo-
+gical Disorders and Stroke
+
+NS077952
+
+Joseph L Kissil
+
+Children’s Tumor Foundation
+
+YIA
+
+Susana Moleirinho
+
+The funders had no role in study design, data collection and interpretation, or the decision to
+submit the work for publication.
+
+Author contributions
+SM, Conceptualization, Formal analysis, Investigation, Methodology, Writing—original draft, Writ-
+ing—review and editing; SH, Formal analysis, Investigation, Methodology; VM, GC, Formal analysis,
+Investigation; ST, UE, Investigation, Methodology; JLK, Conceptualization, Formal analysis, Supervi-
+sion, Funding acquisition, Methodology, Writing—original draft, Project administration, Writing—
+review and editing
+
+Author ORCIDs
+Joseph L Kissil,
+
+http://orcid.org/0000-0002-6471-346X
+
+References
+Adler JJ, Heller BL, Bringman LR, Ranahan WP, Cocklin RR, Goebl MG, Oh M, Lim HS, Ingham RJ, Wells CD.
+2013a. Amot130 adapts atrophin-1 interacting protein 4 to inhibit yes-associated protein signaling and cell
+growth. Journal of Biological Chemistry 288:15181–15193. doi: 10.1074/jbc.M112.446534, PMID: 23564455
+
+Adler JJ, Johnson DE, Heller BL, Bringman LR, Ranahan WP, Conwell MD, Sun Y, Hudmon A, Wells CD. 2013b.
+Serum deprivation inhibits the transcriptional co-activator YAP and cell growth via phosphorylation of the 130-
+kDa isoform of angiomotin by the LATS1/2 protein kinases. PNAS 110:17368–17373. doi: 10.1073/pnas.
+1308236110, PMID: 24101513
+
+Bratt A, Birot O, Sinha I, Veitonma¨ ki N, Aase K, Ernkvist M, Holmgren L. 2005. Angiomotin regulates endothelial
+
+cell-cell junctions and cell motility. Journal of Biological Chemistry 280:34859–34869. doi: 10.1074/jbc.
+M503915200, PMID: 16043488
+
+Bratt A, Wilson WJ, Troyanovsky B, Aase K, Kessler R, Van Meir EG, Holmgren L, Meir EG. 2002. Angiomotin
+
+belongs to a novel protein family with conserved coiled-coil and PDZ binding domains. Gene 298:69–77.
+doi: 10.1016/S0378-1119(02)00928-9, PMID: 12406577
+
+Chan SW, Lim CJ, Chong YF, Pobbati AV, Huang C, Hong W. 2011. Hippo pathway-independent restriction of
+TAZ and YAP by angiomotin. Journal of Biological Chemistry 286:7018–7026. doi: 10.1074/jbc.C110.212621,
+PMID: 21224387
+
+Chan SW, Lim CJ, Guo F, Tan I, Leung T, Hong W. 2013. Actin-binding and cell proliferation activities of
+
+angiomotin family members are regulated by Hippo pathway-mediated phosphorylation. Journal of Biological
+Chemistry 288:37296–37307. doi: 10.1074/jbc.M113.527598, PMID: 24225952
+
+Clarke JP, Mearow KM. 2013. Cell stress promotes the association of phosphorylated HspB1 with F-actin. PLoS
+
+One 8:e68978. doi: 10.1371/journal.pone.0068978, PMID: 23874834
+
+Dai X, She P, Chi F, Feng Y, Liu H, Jin D, Zhao Y, Guo X, Jiang D, Guan KL, Zhong TP, Zhao B. 2013.
+
+Phosphorylation of angiomotin by Lats1/2 kinases inhibits F-actin binding, cell migration, and angiogenesis.
+Journal of Biological Chemistry 288:34041–34051. doi: 10.1074/jbc.M113.518019, PMID: 24106267
+
+Das T, Safferling K, Rausch S, Grabe N, Boehm H, Spatz JP. 2015. A molecular mechanotransduction pathway
+
+regulates collective migration of epithelial cells. Nature Cell Biology 17:276–287. doi: 10.1038/ncb3115,
+PMID: 25706233
+
+Davidson I, Xiao JH, Rosales R, Staub A, Chambon P. 1988. The HeLa cell protein TEF-1 binds specifically and
+cooperatively to two SV40 enhancer motifs of unrelated sequence. Cell 54:931–942. doi: 10.1016/0092-8674
+(88)90108-0, PMID: 2843293
+
+Ernkvist M, Aase K, Ukomadu C, Wohlschlegel J, Blackman R, Veitonma¨ ki N, Bratt A, Dutta A, Holmgren L.
+
+2006. p130-angiomotin associates to actin and controls endothelial cell shape. FEBS Journal 273:2000–2011.
+doi: 10.1111/j.1742-4658.2006.05216.x, PMID: 16640563
+
+Ernkvist M, Birot O, Sinha I, Veitonmaki N, Nystro¨ m S, Aase K, Holmgren L. 2008. Differential roles of p80- and
+
+p130-angiomotin in the switch between migration and stabilization of endothelial cells. Biochimica Et
+Biophysica Acta (BBA) - Molecular Cell Research 1783:429–437. doi: 10.1016/j.bbamcr.2007.11.018, PMID: 1
+8164266
+
+Ernkvist M, Luna Persson N, Audebert S, Lecine P, Sinha I, Liu M, Schlueter M, Horowitz A, Aase K, Weide T,
+
+Borg JP, Majumdar A, Holmgren L. 2009. The Amot/Patj/Syx signaling complex spatially controls RhoA GTPase
+activity in migrating endothelial cells. Blood 113:244–253. doi: 10.1182/blood-2008-04-153874, PMID: 188245
+98
+
+Fulga TA, Elson-Schwab I, Khurana V, Steinhilb ML, Spires TL, Hyman BT, Feany MB. 2007. Abnormal bundling
+and accumulation of F-actin mediates tau-induced neuronal degeneration in vivo. Nature Cell Biology 9:139–
+148. doi: 10.1038/ncb1528, PMID: 17187063
+
+Moleirinho et al. eLife 2017;6:e23966. DOI: 10.7554/eLife.23966
+
+21 of 23
+
+Research article
+
+Cancer Biology Cell Biology
+
+Galli GG, Carrara M, Yuan WC, Valdes-Quezada C, Gurung B, Pepe-Mooney B, Zhang T, Geeven G, Gray NS, de
+Laat W, Calogero RA, Camargo FD. 2015. YAP drives growth by controlling transcriptional pause Release from
+Dynamic enhancers. Molecular Cell 60:328–337. doi: 10.1016/j.molcel.2015.09.001, PMID: 26439301
+
+Guerrant W, Kota S, Troutman S, Mandati V, Fallahi M, Stemmer-Rachamimov A, Kissil JL. 2016. YAP Mediates
+
+Tumorigenesis in Neurofibromatosis Type 2 by Promoting Cell Survival and Proliferation through a COX-2-
+EGFR Signaling Axis. Cancer Research 76:3507–3519. doi: 10.1158/0008-5472.CAN-15-1144, PMID: 27216189
+
+Gumbiner BM, Kim NG. 2014. The Hippo-YAP signaling pathway and contact inhibition of growth. Journal of
+
+Cell Science 127:709–717. doi: 10.1242/jcs.140103, PMID: 24532814
+
+Hao Y, Chun A, Cheung K, Rashidi B, Yang X. 2008. Tumor suppressor LATS1 is a negative regulator of
+
+oncogene YAP. Journal of Biological Chemistry 283:5496–5509. doi: 10.1074/jbc.M709037200, PMID: 181582
+88
+
+Hirate Y, Hirahara S, Inoue K, Suzuki A, Alarcon VB, Akimoto K, Hirai T, Hara T, Adachi M, Chida K, Ohno S,
+Marikawa Y, Nakao K, Shimono A, Sasaki H. 2013. Polarity-dependent distribution of angiomotin localizes
+Hippo signaling in preimplantation embryos. Current Biology 23:1181–1194. doi: 10.1016/j.cub.2013.05.014,
+PMID: 23791731
+
+Kapoor A, Yao W, Ying H, Hua S, Liewen A, Wang Q, Zhong Y, Wu CJ, Sadanandam A, Hu B, Chang Q, Chu GC,
+
+Al-Khalil R, Jiang S, Xia H, Fletcher-Sananikone E, Lim C, Horwitz GI, Viale A, Pettazzoni P, et al. 2014. Yap1
+activation enables bypass of Oncogenic Kras addiction in Pancreatic Cancer. Cell 158:185–197. doi: 10.1016/j.
+cell.2014.06.003, PMID: 24954535
+
+Kikuno R, Nagase T, Ishikawa K, Hirosawa M, Miyajima N, Tanaka A, Kotani H, Nomura N, Ohara O. 1999.
+
+Prediction of the coding sequences of unidentified human genes. XIV. the complete sequences of 100 new
+cDNA clones from brain which code for large proteins in vitro. DNA Research 6:197–205. doi: 10.1093/dnares/
+6.3.197, PMID: 10470851
+
+Kim NG, Gumbiner BM. 2015. Adhesion to fibronectin regulates Hippo signaling via the FAK-Src-PI3K pathway.
+
+The Journal of Cell Biology 210:503–515. doi: 10.1083/jcb.201501025, PMID: 26216901
+
+Kissil JL, Johnson KC, Eckman MS, Jacks T. 2002. Merlin phosphorylation by p21-activated kinase 2 and effects
+of phosphorylation on merlin localization. Journal of Biological Chemistry 277:10394–10399. doi: 10.1074/jbc.
+M200083200, PMID: 11782491
+
+Kissil JL, Wilker EW, Johnson KC, Eckman MS, Yaffe MB, Jacks T. 2003. Merlin, the product of the Nf2 tumor
+suppressor gene, is an inhibitor of the p21-activated kinase, Pak1. Molecular Cell 12:841–849. doi: 10.1016/
+S1097-2765(03)00382-4, PMID: 14580336
+
+Leask A, Abraham DJ. 2006. All in the CCN family: essential matricellular signaling modulators emerge from the
+
+bunker. Journal of Cell Science 119:4803–4810. doi: 10.1242/jcs.03270, PMID: 17130294
+
+Leung CY, Zernicka-Goetz M. 2013. Angiomotin prevents pluripotent lineage differentiation in mouse embryos
+via Hippo pathway-dependent and -independent mechanisms. Nature Communications 4:2251. doi: 10.1038/
+ncomms3251, PMID: 23903990
+
+Levchenko T, Aase K, Troyanovsky B, Bratt A, Holmgren L. 2003. Loss of responsiveness to chemotactic factors
+
+by deletion of the C-terminal protein interaction site of angiomotin. Journal of Cell Science 116:3803–3810.
+doi: 10.1242/jcs.00694, PMID: 12902404
+
+Li H, Chang LJ, Neubauer DR, Muir DF, Wallace MR. 2016. Immortalization of human normal and NF1
+neurofibroma schwann cells. Laboratory Investigation 96:1105–1115. doi: 10.1038/labinvest.2016.88,
+PMID: 27617404
+
+Li W, Cooper J, Zhou L, Yang C, Erdjument-Bromage H, Zagzag D, Snuderl M, Ladanyi M, Hanemann CO, Zhou
+P, Karajannis MA, Giancotti FG. 2014. Merlin/NF2 loss-driven tumorigenesis linked to CRL4(DCAF1)-mediated
+inhibition of the hippo pathway kinases Lats1 and 2 in the nucleus. Cancer Cell 26:48–60. doi: 10.1016/j.ccr.
+2014.05.001, PMID: 25026211
+
+Li W, You L, Cooper J, Schiavon G, Pepe-Caprio A, Zhou L, Ishii R, Giovannini M, Hanemann CO, Long SB,
+Erdjument-Bromage H, Zhou P, Tempst P, Giancotti FG. 2010. Merlin/NF2 suppresses tumorigenesis by
+inhibiting the E3 ubiquitin ligase CRL4(DCAF1) in the nucleus. Cell 140:477–490. doi: 10.1016/j.cell.2010.01.
+029, PMID: 20178741
+
+Lin L, Sabnis AJ, Chan E, Olivas V, Cade L, Pazarentzos E, Asthana S, Neel D, Yan JJ, Lu X, Pham L, Wang MM,
+Karachaliou N, Cao MG, Manzano JL, Ramirez JL, Torres JM, Buttitta F, Rudin CM, Collisson EA, et al. 2015.
+The Hippo effector YAP promotes resistance to RAF- and MEK-targeted Cancer therapies. Nature Genetics 47:
+250–256. doi: 10.1038/ng.3218, PMID: 25665005
+
+Livak KJ, Schmittgen TD. 2001. Analysis of relative gene expression data using real-time quantitative PCR and
+
+the 2(-Delta Delta C(T)) Method. Methods 25:402–408. doi: 10.1006/meth.2001.1262, PMID: 11846609
+
+Lv M, Li S, Luo C, Zhang X, Shen Y, Sui YX, Wang F, Wang X, Yang J, Liu P, Yang J. 2016. Angiomotin promotes
+
+renal epithelial and carcinoma cell proliferation by retaining the nuclear YAP. Oncotarget 7:12393–12403.
+doi: 10.18632/oncotarget.7161, PMID: 26848622
+
+Mana-Capelli S, Paramasivam M, Dutta S, McCollum D. 2014. Angiomotins link F-actin architecture to hippo
+
+pathway signaling. Molecular Biology of the Cell 25:1676–1685. doi: 10.1091/mbc.E13-11-0701, PMID: 246484
+94
+
+McClatchey AI, Saotome I, Mercer K, Crowley D, Gusella JF, Bronson RT, Jacks T. 1998. Mice heterozygous for a
+
+mutation at the Nf2 tumor suppressor locus develop a range of highly metastatic tumors. Genes &
+Development 12:1121–1133. doi: 10.1101/gad.12.8.1121, PMID: 9553042
+
+Moleirinho S, Guerrant W, Kissil JL. 2014. The angiomotins–from discovery to function. FEBS Letters 588:2693–
+
+2703. doi: 10.1016/j.febslet.2014.02.006, PMID: 24548561
+
+Moleirinho et al. eLife 2017;6:e23966. DOI: 10.7554/eLife.23966
+
+22 of 23
+
+Research article
+
+Cancer Biology Cell Biology
+
+Nishimura M, Kakizaki M, Ono Y, Morimoto K, Takeuchi M, Inoue Y, Imai T, Takai Y. 2002. JEAP, a novel
+
+component of tight junctions in exocrine cells. Journal of Biological Chemistry 277:5583–5587. doi: 10.1074/
+jbc.M110154200, PMID: 11733531
+
+Ota M, Sasaki H. 2008. Mammalian tead proteins regulate cell proliferation and contact inhibition as
+
+transcriptional mediators of Hippo signaling. Development 135:4059–4069. doi: 10.1242/dev.027151, PMID: 1
+9004856
+
+Paramasivam M, Sarkeshik A, Yates JR, Fernandes MJ, McCollum D. 2011. Angiomotin family proteins are novel
+
+activators of the LATS2 kinase tumor suppressor. Molecular Biology of the Cell 22:3725–3733. doi: 10.1091/
+mbc.E11-04-0300, PMID: 21832154
+
+Patrie KM. 2005. Identification and characterization of a novel tight junction-associated family of proteins that
+
+interacts with a WW domain of MAGI-1. Biochimica Et Biophysica Acta (BBA) - Molecular Cell Research 1745:
+131–144. doi: 10.1016/j.bbamcr.2005.05.011, PMID: 16019084
+
+Ramos A, Camargo FD. 2012. The Hippo signaling pathway and stem cell biology. Trends in Cell Biology 22:
+
+339–346. doi: 10.1016/j.tcb.2012.04.006, PMID: 22658639
+
+Shao DD, Xue W, Krall EB, Bhutkar A, Piccioni F, Wang X, Schinzel AC, Sood S, Rosenbluh J, Kim JW, Zwang Y,
+
+Roberts TM, Root DE, Jacks T, Hahn WC. 2014. KRAS and YAP1 converge to regulate EMT and tumor survival.
+Cell 158:171–184. doi: 10.1016/j.cell.2014.06.004, PMID: 24954536
+
+Sugihara-Mizuno Y, Adachi M, Kobayashi Y, Hamazaki Y, Nishimura M, Imai T, Furuse M, Tsukita S. 2007.
+
+Molecular characterization of angiomotin/JEAP family proteins: interaction with MUPP1/Patj and their
+endogenous properties. Genes to Cells 12:473–486. doi: 10.1111/j.1365-2443.2007.01066.x, PMID: 17397395
+Troyanovsky B, Levchenko T, Ma˚ nsson G, Matvijenko O, Holmgren L. 2001. Angiomotin: an angiostatin binding
+
+protein that regulates endothelial cell migration and tube formation. The Journal of Cell Biology 152:1247–
+1254. doi: 10.1083/jcb.152.6.1247, PMID: 11257124
+
+Wang C, An J, Zhang P, Xu C, Gao K, Wu D, Wang D, Yu H, Liu JO, Yu L. 2012. The Nedd4-like ubiquitin E3
+
+ligases target angiomotin/p130 to ubiquitin-dependent degradation. Biochemical Journal 444:279–289.
+doi: 10.1042/BJ20111983, PMID: 22385262
+
+Wang W, Huang J, Chen J. 2011. Angiomotin-like proteins associate with and negatively regulate YAP1. Journal
+
+of Biological Chemistry 286:4364–4370. doi: 10.1074/jbc.C110.205401, PMID: 21187284
+
+Wang W, Xiao ZD, Li X, Aziz KE, Gan B, Johnson RL, Chen J. 2015. AMPK modulates Hippo pathway activity to
+
+regulate energy homeostasis. Nature Cell Biology 17:490–499. doi: 10.1038/ncb3113, PMID: 25751139
+
+Wells CD, Fawcett JP, Traweger A, Yamanaka Y, Goudreault M, Elder K, Kulkarni S, Gish G, Virag C, Lim C,
+
+Colwill K, Starostine A, Metalnikov P, Pawson T. 2006. A Rich1/Amot complex regulates the Cdc42 GTPase and
+apical-polarity proteins in epithelial cells. Cell 125:535–548. doi: 10.1016/j.cell.2006.02.045, PMID: 16678097
+Yi C, Kissil JL. 2010. Merlin in organ size control and tumorigenesis: hippo versus EGFR? Genes & Development
+
+24:1673–1679. doi: 10.1101/gad.1964810, PMID: 20713513
+
+Yi C, Shen Z, Stemmer-Rachamimov A, Dawany N, Troutman S, Showe LC, Liu Q, Shimono A, Sudol M, Holmgren
+
+L, Stanger BZ, Kissil JL. 2013. The p130 isoform of angiomotin is required for Yap-mediated hepatic epithelial
+cell proliferation and tumorigenesis. Science Signaling 6:ra77. doi: 10.1126/scisignal.2004060, PMID: 24003254
+Yi C, Troutman S, Fera D, Stemmer-Rachamimov A, Avila JL, Christian N, Persson NL, Shimono A, Speicher DW,
+
+Marmorstein R, Holmgren L, Kissil JL. 2011. A tight junction-associated Merlin-angiomotin complex mediates
+Merlin’s regulation of mitogenic signaling and tumor suppressive functions. Cancer Cell 19:527–540. doi: 10.
+1016/j.ccr.2011.02.017, PMID: 21481793
+
+Yin F, Yu J, Zheng Y, Chen Q, Zhang N, Pan D. 2013. Spatial organization of Hippo signaling at the plasma
+
+membrane mediated by the tumor suppressor merlin/NF2. Cell 154:1342–1355. doi: 10.1016/j.cell.2013.08.
+025, PMID: 24012335
+
+Yu FX, Zhao B, Guan KL. 2015. Hippo Pathway in Organ size control, tissue homeostasis, and Cancer. Cell 163:
+
+811–828. doi: 10.1016/j.cell.2015.10.044, PMID: 26544935
+
+Zhang N, Bai H, David KK, Dong J, Zheng Y, Cai J, Giovannini M, Liu P, Anders RA, Pan D. 2010. The Merlin/NF2
+
+tumor suppressor functions through the YAP oncoprotein to regulate tissue homeostasis in mammals.
+Developmental Cell 19:27–38. doi: 10.1016/j.devcel.2010.06.015, PMID: 20643348
+
+Zhao B, Li L, Lei Q, Guan KL. 2010a. The Hippo-YAP pathway in organ size control and tumorigenesis: an
+
+updated version. Genes & Development 24:862–874. doi: 10.1101/gad.1909210, PMID: 20439427
+
+Zhao B, Li L, Lu Q, Wang LH, Liu CY, Lei Q, Guan KL. 2011. Angiomotin is a novel hippo pathway component
+
+that inhibits YAP oncoprotein. Genes & Development 25:51–63. doi: 10.1101/gad.2000111, PMID: 21205866
+
+Zhao B, Li L, Tumaneng K, Wang CY, Guan KL. 2010b. A coordinated phosphorylation by Lats and CK1 regulates
+
+YAP stability through SCF(beta-TRCP). Genes & Development 24:72–85. doi: 10.1101/gad.1843810,
+PMID: 20048001
+
+Zhao B, Wei X, Li W, Udan RS, Yang Q, Kim J, Xie J, Ikenoue T, Yu J, Li L, Zheng P, Ye K, Chinnaiyan A, Halder
+
+G, Lai ZC, Guan KL. 2007. Inactivation of YAP oncoprotein by the hippo pathway is involved in cell contact
+inhibition and tissue growth control. Genes & Development 21:2747–2761. doi: 10.1101/gad.1602907,
+PMID: 17974916
+
+Zhao B, Ye X, Yu J, Li L, Li W, Li S, Yu J, Lin JD, Wang CY, Chinnaiyan AM, Lai ZC, Guan KL. 2008. TEAD
+
+mediates YAP-dependent gene induction and growth control. Genes & Development 22:1962–1971. doi: 10.
+1101/gad.1664408, PMID: 18579750
+
+Zheng Y, Vertuani S, Nystro¨ m S, Audebert S, Meijer I, Tegnebratt T, Borg JP, Uhle´ n P, Majumdar A, Holmgren L.
+
+2009. Angiomotin-like protein 1 controls endothelial polarity and junction stability during sprouting
+angiogenesis. Circulation Research 105:260–270. doi: 10.1161/CIRCRESAHA.109.195156, PMID: 19590046
+
+Moleirinho et al. eLife 2017;6:e23966. DOI: 10.7554/eLife.23966
+
+23 of 23
+
+

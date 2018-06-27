@@ -1,0 +1,1007 @@
+www.neoplasia.com
+
+Volume 14 Number 2
+
+February 2012
+
+pp. 84–94 84
+
+Merlin/NF2 Regulates
+Angiogenesis in Schwannomas
+through a Rac1/Semaphorin
+3F–Dependent Mechanism1
+
+Hon-Kit Wong*,2, Akio Shimizu†,
+Nathaniel D. Kirkpatrick*, Igor Garkavtsev*,
+Annie W. Chan‡, Emmanuelle di Tomaso*,3,
+Michael Klagsbrun† and Rakesh K. Jain*
+
+*The Steele Lab of Tumor Biology, Department of Radiation
+Oncology, Massachusetts General Hospital and Harvard
+Medical School, Boston, MA, USA; †Departments of
+Surgery and Pathology, Children’s Hospital Boston and
+Harvard Medical School, Boston, MA, USA; ‡Department
+of Radiation Oncology, Massachusetts General Hospital
+and Harvard Medical School, Boston, MA, USA
+
+Abstract
+Neurofibromatosis type 2 (NF2) is an autosomal-dominant multiple neoplasia syndrome that results from mutations
+in the NF2 tumor suppressor gene. Patients with NF2 develop hallmark schwannomas that require surgery or radia-
+tion, both of which have significant adverse effects. Recent studies have indicated that the tumor microenvironment—
+in particular, tumor blood vessels—of schwannomas may be an important therapeutic target. Furthermore, although
+much has been done to understand how merlin, the NF2 gene product, functions as a tumor suppressor gene in
+schwannoma cells, the functional role of merlin in the tumor microenvironment and the mechanism(s) by which merlin
+regulates angiogenesis to support schwannoma growth is largely unexplored. Here we report that the expression of
+semaphorin 3F (SEMA3F) was specifically downregulated in schwannoma cells lacking merlin/NF2. When we reintro-
+duced SEMA3F in schwannoma cells, we observed normalized tumor blood vessels, reduced tumor burden, and ex-
+tended survival in nude mice bearing merlin-deficient brain tumors. Next, using chemical inhibitors and gene
+knockdown with RNA interference, we found that merlin regulated expression of SEMA3F through Rho GTPase family
+member Rac1. This study shows that, in addition to the tumor-suppressing activity of merlin, it also functions to main-
+tain physiological angiogenesis in the nervous system by regulating antiangiogenic factors such as SEMA3F. Restor-
+ing the relative balance of proangiogenic and antiangiogenic factors, such as increases in SEMA3F, in schwannoma
+microenvironment may represent a novel strategy to alleviate the clinical symptoms of NF2-related schwannomas.
+
+Neoplasia (2012) 14, 84–94
+
+Abbreviations: HMVECs, human microvascular endothelial cells; HUVECs, human umbilical vascular endothelial cells; NF2, neurofibromatosis type 2; NRP, neuropilin;
+ROCK, Rho-associated coiled-coil forming protein serine/threonine kinase; SEMA, semaphorin; TSP2, thrombospondin 2; VEGF, vascular endothelial growth factor
+Address all correspondence to: Rakesh K. Jain, PhD, Harvard Medical School and Edwin L. Steele Laboratory for Tumor Biology, Department of Radiation Oncology,
+Massachusetts General Hospital, 100 Blossom St, Cox 7, Boston, MA 02114. E-mail: jain@steele.mgh.harvard.edu
+1This work was supported in parts by grants from the National Institutes of Health (P01-CA80124 to R.K.J. and CA37392 and CA45548 to M.K.), Federal Share/National
+Cancer Institute Proton Beam Program Income Grant (to R.K.J.), the Claflin Award (to E.d.T.), and the Flight Attendant Medical Research Institute (A.W.C.). The authors
+have no conflicts of interest to declare.
+2Present address: Center for Neurologic Diseases, Brigham and Women’s Hospital and Harvard Medical School, Harvard Institutes of Medicine, Boston, MA 02115.
+3Present address: Novartis Institute of Biomedical Research, Cambridge, MA 02139.
+Received 16 November 2011; Revised 3 February 2012; Accepted 3 February 2012
+
+Copyright © 2012 Neoplasia Press, Inc. All rights reserved 1522-8002/12/$25.00
+DOI 10.1593/neo.111600
+
+Neoplasia Vol. 14, No. 2, 2012
+
+Merlin Regulates Angiogenesis through Rac1/SEMA3F Wong et al.
+
+85
+
+Introduction
+Neurofibromatosis type 2 (NF2) is an autosomal-dominant multiple neo-
+plasia syndrome that results from mutations in the NF2 tumor suppressor
+gene located on chromosome 22q. Patients mainly develop nervous system
+tumors (schwannomas and meningiomas), peripheral neuropathy (damage
+to nerves of the peripheral nervous system), and eye and skin lesions to
+a lesser extent [1]. Although most patients with sporadic schwannomas
+benefit from surgery, patients with NF2 have limited options owing to
+the multiplicity and bilateral location of their tumors [2]. The hallmark
+feature of NF2, vestibular schwannomas, is particularly challenging sur-
+gically because of the potential for brainstem or cranial nerve damage—
+hearing loss and tinnitus are very common in these patients.
+
+Our group recently provided encouraging clinical evidence that
+bevacizumab, an anti–vascular endothelial growth factor (VEGF) anti-
+body treatment, improved hearing and stabilization of tumor growth in
+patients with bilateral vestibular schwannoma [3] and subsequently de-
+lineated the mechanisms by which anti-VEGF treatment might have
+produced such clinical outcomes [4]. Keeping in line with the pub-
+lished data that VEGF is expressed in schwannomas [5–8], our preclin-
+ical and clinical results clearly show that VEGF and tumor angiogenesis
+are essential determinants in schwannoma progression and its associated
+clinical symptoms. More importantly, during the course of analysis, we
+discovered that the expression of class 3 semaphorins (SEMA3), partic-
+ularly SEMA3A and SEMA3F, was markedly decreased in NF2-related
+schwannomas, whereas that of VEGF remains unchanged. This observa-
+tion led to a hypothesis that the relative balance of VEGF and SEMA3
+expression regulates physiological angiogenesis in normal nerve tissues.
+With reduced levels of functional wild-type merlin/NF2 in schwannomas,
+the ratio of VEGF levels to SEMA3s increases and contributes to abnor-
+mal angiogenesis, tumor growth, and progression [9]. However, a causal
+link between merlin/NF2 and SEMA3s as well as the role of SEMAs
+in pathologic schwannoma angiogenesis remains not established.
+
+SEMA3s are secreted proteins that were first shown to regulate axon
+guidance in the developing nervous system [10–13] and subsequently
+found to also regulate both physiological and pathologic angiogenesis
+[14–17]. In general, SEMA3s first bind to neuropilin (NRP) and plex-
+ins to transduce intracellular signals and exert their antiangiogenic func-
+tions [18]. Specifically, SEMA3F, in an NRP2-dependent manner, can
+inhibit cell adhesion and cell migration in vitro and tumor angiogenesis
+and metastasis in vivo [19,20]. Furthermore, it has been recently shown
+that ABL2 and RhoA play key roles in mediating SEMA3F-induced
+depolymerization of F-actin and the subsequent cytoskeleton collapse
+in tumor cells and endothelial cells [21].
+
+In this study, we report that merlin/NF2 upregulates SEMA3F
+expression through Rho GTPase Rac1. Furthermore, we show that
+SEMA3F is indeed an essential molecule to regulate angiogenesis and
+normalize vessels in orthotopic preclinical tumor models of NF2 through
+reduction in vessel density and increased pericyte vascular coverage. Taken
+together, our results suggest that the mutation in NF2 directly contributes
+to tumor angiogenesis through modulation of SEMA3F expression.
+Interestingly, merlin/NF2 also induced the expression of other anti-
+angiogenic factors such as thrombospondin 2 (TSP2) whose precise role
+in NF2-mediated angiogenesis needs to be investigated.
+
+Materials and Methods
+
+Chemical Reagents and Antibodies
+
+Recombinant C3 transferase (CT03) was purchased from Cyto-
+skeleton (Denver, CO). Y-27632 (688001) and Rac1 (553502)
+
+inhibitor were purchased from Calbiochem (Darmstadt, Germany),
+and Evans Blue dye was purchased from Fisher Scientific (Waltham,
+MA). Lentiviral particles expressing merlin short hairpin RNA (shRNA;
+L271) and scramble (Lmag) were kind gifts from Dr Marianne F. James
+(Centre for Human Genetic Research, Massachusetts General Hospital,
+Richard B. Simches Research Building). The following antibodies were
+used in notated dilutions: β-tubulin (1:10,000, MAB3408; Chemicon,
+Billerica, MA), merlin (1:1000, sc-331/A-19; Santa Cruz Biotechnology,
+Santa Cruz, CA), Rac1 (1:1000, ARC03; Cytoskeleton), semaphorin
+3F (SEMA3F, 1:3000; GenScript, Piscataway, NJ), TSP2 (1:2000,
+611150; BD Transduction Laboratories, Sparks, MD), and V5 (1:5000,
+46-0705; Invitrogen, Grand Island, NY).
+
+Constructs
+
+The pMOWSdSV-dsred retroviral construct was a kind gift from
+Prof Brian Seed (Department of Genetics, Massachusetts General
+Hospital and Harvard Medical School) [22]. Murine SEMA3F or
+TSP2 was cloned into pMOWSdSV using PacI and SalI sites. Murine
+SEMA3F (in pCMV-SPORT6, MMM1013-65024) and TSP2 (in
+pcDNA3, plasmid 12411) was obtained from Open Biosystems (Rockford,
+IL) and Addgene (Cambridge, MA), respectively. SEMA3F was amplified
+from pCMV-SPORT6 using forward 5′-GCGCTTAATTAAACC
+ATGGTTGTCACTGCCTTCATC and reverse 5′-GCGCGTCGACT-
+CACGTAGAATCGAGACCGAGGAGAGGGTTAGGGATAGGCT-
+TACCTGTGTCCGGAGGGTGGTGGCG primers. TSP2 was
+amplified from pcDNA3 using forward 5′-GCGCTTAATTAAAC-
+CATGGTCTGGGCACTGGCCCTG and reverse 5′-GCGCGTC
+GACTCACGTAGAATCGAGACCGAGGAGAGGGTTAGGGA-
+TAGGCTTACCGGCATCTCT GCACTCATACTT. All the cloning-
+related polymerase chain reaction (PCR) amplifications were done with
+PfuUltra DNA polymerase (Agilent Technologies, Santa Clara, CA)
+using a standard protocol. Sequencing was performed by MGH DNA
+Core Facility (Boston, MA).
+
+Generation of Rac1 shRNA Retroviruses
+
+ShRNA against mouse Rac1 (5′-GCATTTCCTGGAGAGTA-
+CA-3′ [23]) was cloned into pSilencer 5.1-U6 construct (AM5782)
+according to the standard instructions (Ambion, Grand Island, NY),
+with pSilencer 5.1-U6 Retro scrambled (5783G) as a control. pSilencer
+5.1_U6_Rac1shRNA was then cotransfected with GAG/POL and VSV
+plasmids into HEK293T cells to produce retroviruses (see next section
+for the transfection procedures).
+
+Cell Lines and Generation of Stable Cell Lines
+
+The original clone of human HEI193 [24,25], which contained a
+mutated copy of merlin/NF2, was a gift from Dr Xandra Breakefield.
+Subsequent analysis of our HEI193 revealed that our clone did not
+contain a wild-type copy of merlin/NF2 [4]. The generation of murine
+Nf2−/− tumor Schwann cells has been described previously [4], and
+these cells were kindly provided by Drs Andrea I. McClatchey and
+Annie Chan. We verified that the Nf2−/− cells were merlin deficient
+through Western blot analysis. Both cell lines were kept in Schwann
+cell medium supplemented with Schwann cell supplement, 5% fetal
+bovine serum, and penicillin/streptomycin (ScienCell 1701, Carlsbad,
+CA). Human umbilical vein endothelial cells (HUVECs) were main-
+tained in endothelial growth medium (EGM) supplemented with bovine
+brain extract (CC-3024A; Lonza, Basel, Switzerland), human micro-
+vascular endothelial cells (HMVECs) were maintained in 1× EBM-2
+(CC-3156; Lonza) supplemented with EGM-2 MV (CC-4147; Lonza),
+
+86
+
+Merlin Regulates Angiogenesis through Rac1/SEMA3F Wong et al.
+
+Neoplasia Vol. 14, No. 2, 2012
+
+and U87MG was maintained in 1× Dulbecco modified Eagle medium
+(10-014-CV; CellGrow, Manassas, VA) supplemented with 10% fetal
+bovine serum. To generate Nf2−/− cell lines overexpressing SEMA3F
+or TSP2, pMOWSdSV-SEMA3F or pMOWSdSV-TSP2 was trans-
+fected into HEK293T cells with GAG/POL and VSV in a 3.3:2.3:1
+ratio using Lipofectamine 2000 (Invitrogen). Culture medium contain-
+ing retroviruses was collected 1 and 2 days after transfection. Nf2−/−
+cells were infected with SEMA3F or TSP2 retroviruses multiple times
+to ensure virtually 100% expression levels.
+
+Tube Formation Assay
+
+The effect of conditioned medium from various genetically mod-
+ified Nf2−/− cells on the endothelial cell structures and morphologies
+was investigated with endothelial cell tubes formed with HUVECs.
+Growth factor–reduced Matrigel (354230; BD Biosciences, Sparks, MD)
+was first plated in a 24-well plate and allowed to solidify for 30 minutes
+at 37°C with 5% CO2. One hundred thousand cells were then seeded
+on top, and tubes were allowed to form for 2 hours. Conditioned me-
+dium was added, and the effect on tube structure and morphology was
+examined with bright-field microscopy for 36 hours.
+
+Animal Models
+
+To recapitulate as closely as possible the microenvironment of
+vestibular schwannomas (intracranial but arising from a cranial nerve),
+we modified the previously published model for gliomas. In brief,
+Nf2−/− cells were implanted between the pia and arachnoid meninges
+in nude mice (8 weeks old) bearing transparent cranial windows [4]. In
+the second model, we reproduced the nerve microenvironment using
+the mouse sciatic nerve [4]. This environment had previously been
+shown to be suitable for schwannoma growth. In both models, approx-
+imately a million cells were injected with a 28.5-gauge needle to gen-
+erate schwannomas.
+
+Mouse Angiogenesis PCR Array
+
+RNA was extracted from tumor cells with or without merlin/NF2
+using RNeasy Mini Kit (Qiagen, Valencia, CA), DNase-treated
+(Promega, Madison, WI), and retrotranscribed by RT2 First Strand
+Kit (SA Bioscience, Valencia, CA). Mouse Angiogenesis RT2 Profiler
+PCR Array and RT2 Real-time SyBR Green/ROX PCR Mix were
+purchased from SA Biosciences. PCR was performed on either
+Stratagene Mx3000P or Mx3005P (Agilent Technologies). We used
+the ΔC t method for data analysis. For each gene fold, changes were cal-
+culated as difference in gene expression between cells expressing merlin/
+NF2 and that without. A positive value indicates gene up-regulation and
+a negative value indicates gene down-regulation.
+
+DNA Microarray Analysis
+
+Total RNA was isolated from merlin/NF2 cells (RNeasy Mini Kit;
+Qiagen) according to recommended Affymetrix (Santa Clara, CA)
+protocols. Total RNA was checked for RIN score using an Agilent
+2100 Bioanalyzer with an RNA Nano 2000 chip using methods
+according to the Agilent Bioanalyzer manual. Samples were processed
+using 20 μg of starting total RNA and were amplified and labeled
+using the GeneChip Expression 3′-Amplification Reagents One-
+Cycle complementary DNA (cDNA) synthesis kit (P/N 900431 from
+Affymetrix) followed by the GeneChip Expression 3′-Amplification
+Reagents for IVT Labeling (P/N 900449 from Affymetrix). The labeled
+
+sample was then fragmented using 5× fragmentation buffer contained
+in the above kits and hybridized to the chip overnight in a hybridization
+cocktail containing Control Oligo B2, biotinylated hybridization
+controls, acetylated bovine serum albumin, herring sperm DNA, 2×
+hybridization buffer in an Affymetrix Model 640 Hybridization oven
+for ∼16 hours at 45°C with rotation at 60 RPM. The chips were then
+washed using buffers A and B in a Model 450Gene Chip Fluidics
+station and then scanned using an Affymetrix Model 3000 GeneChip
+Scanner with Autoloader. Scanning and analysis were carried out using
+Affymetrix GCOS software. The raw data were then normalized using
+MAS5.0 and scaled to a factor of 500. Comparative analysis was then
+performed by using a two-sided t test with a minimum SD of 1.0. We
+used false discovery rate (FDR) adjustment to account for multiple
+testing hypothesis.
+
+Semiquantitative PCR
+
+Total RNA was extracted from Nf2−/− or HEI193 cells using the
+RNeasy Mini Kit (Qiagen) according to the instruction manual.
+Genomic DNA was digested using the RNase-free DNase I (Qiagen)
+to ensure the complete removal of DNA contamination. The amount
+of total RNA was quantified by absorbance at 260 nm (NanoDrop,
+Wilmington, DE). Five hundred nanograms of RNA from each sam-
+ple was transcribed to cDNA using SuperScript III RNase H− Reverse
+Transcriptase (Invitrogen). PCR was performed in a thermal cycler
+(DYAD). PCR products were then resolved in a 2% agarose gel by
+electrophoresis, and DNA images were captured with the UV transillumi-
+nator (Bio-Rad, Hercules, CA). Glyceraldehyde-3-phosphate dehydro-
+genase (Gapdh) gene was amplified in each PCR experiment as an
+internal loading control.
+
+Determination of Rac1 Activity
+
+Rac1 activity was measured with Rac1 (BK035) activation assay
+biochem kit (Cytoskeleton) according to the manufacturer’s protocol.
+Cells were first washed with phosphate-buffered saline (PBS) and then
+lysed with lysis buffer supplemented with protease inhibitors. About
+100 μg of lysates was precleared, and 10 μl of PAK-PBD beads was
+added for pull-down of activated Rac1. Positive (GTPrS) and negative
+(GDP) controls were included to show the functionality of the activity
+assay. After rocking at 4°C for 1 hour, we washed the beads once and
+boiled them at 100°C for 2 minutes. Protein lysates were subsequently
+resolved in a 8% to 16% gradient gel (Invitrogen) and transferred
+them to a polyvinylidene fluoride membrane, and Rac1 expression
+(corresponds to its activity) was detected using standard Western blot
+analysis. Ten nanograms of His-tagged Rac1 recombinant protein was
+loaded as a control.
+
+Western Blot Analysis
+
+Cells were rinsed with cold PBS and lysed in an appropriate volume
+of lysis buffer. Protein concentration was measured with bicinchoninic
+acid (BCA) protein assay kit (Pierce, Rockford, IL) according to the
+manufacturer’s instructions. Appropriate volumes of protein lysates
+were then mixed with 4× SDS gel-loading buffer, boiled at 100°C
+for 5 minutes, and resolved in 8% to 16% gradient polyacrylamide gels
+(Invitrogen). Proteins were subsequently transferred onto polyvinylidene
+fluoride membrane (0.45 μm; Thermo Scientific, Rockford, IL), and
+the membrane was blocked with 5% nonfat milk in Tris-buffered saline
+with Tween 20 for 1 hour. Blots were then incubated with appropri-
+ately diluted primary and horseradish peroxidase–conjugated secondary
+
+Neoplasia Vol. 14, No. 2, 2012
+
+Merlin Regulates Angiogenesis through Rac1/SEMA3F Wong et al.
+
+87
+
+antibodies, each for 1 hour at room temperature. Finally, blots were
+developed with enhanced chemiluminescence solutions and exposed
+onto HyBlot CL (Denville Scientific, Metuchen, NJ).
+
+Immunohistochemistry
+
+Mice were perfusion fixed with 4% formaldehyde in PBS. Perfused
+tumors were extracted, postfixed in formaldehyde at 4°C for 4 to
+5 hours, and incubated with 30% sucrose overnight at 4°C with con-
+stant rocking. Sciatic nerve tumors were then embedded in optimal
+cutting temperature freezing medium and frozen for sectioning.
+Sections (10 μm thick) were first air-dried for 30 minutes at room
+temperature and postfixed with acetone for 5 minutes at −20°C.
+Double staining was performed using CD31 (1:150, MAB 1398Z;
+Chemicon) and desmin (1:300, A0611; Dako, Carpinteria, CA).
+Detection was carried out using secondary antibodies (or streptavidin)
+labeled with fluorophores of different wavelength (fluorescein isothio-
+cyanate, Cy3, and Cy5). Confocal images were acquired using a
+FluoView 500 confocal microscope (Olympus, Center Valley, PA).
+A constant surface area (0.4 mm2) was imaged in all cases.
+
+Blood Vessel Permeability Measurement
+
+Changes in vessel permeability in sciatic nerve tumors was exam-
+ined with Evans Blue dye extravasation assay. Mice were first anes-
+thetized with ketamine (10 mg/kg)/xylazine (1 mg/kg) mix and then
+injected with 1 mg/kg 3% Evans Blue dissolved in 0.9% saline. After
+20 minutes, mice were perfusion fixed with 4% formaldehyde in
+PBS, and sciatic nerve tumors were extracted. Tumors were weighed
+(wet weight), cut, and immersed in 1 ml of formamide at 56°C over-
+night to extract the Evans Blue dye that was extravasated out of the
+vessels. The following day, tissues were removed from the formamide,
+and the absorbance (OD620nm) of the samples was measured with a
+spectrophotometer. Results were expressed as microgram of Evans
+Blue per milligram of tumor tissue based on a standard curve of Evans
+Blue and the wet weight of the tumor.
+
+Quantification of Vessel Area and Perivascular Cell Coverage
+Quantification of the immunohistochemistry (IHC) sections for
+vessel area and pericyte coverage was completed with a custom image
+process program written in MATLAB (MathWorks). On the basis of
+CD31 fluorescence intensity, images were thresholded to achieve vessel
+segmentation. To determine the vessel area (a surrogate for vessel den-
+sity), the total CD31 area was calculated and divided by the total area of
+4′,6-diamidino-2-phenylindole (DAPI)−stained nuclei. In addition, from
+the segmented images, the average vessel diameter was measured using
+automated protocols. Finally, the segmented CD31 images were dilated
+by 4 μm and colocalized with desmin fluorescence images to determine
+the amount of desmin+ cells in vessel regions (pericytes coverage).
+
+Statistical Analysis
+
+We used the unpaired, two-tailed Student’s t test for comparison
+between two samples. One-way analysis of variance Fisher test followed
+by Tukey honestly significant difference test was used for multiple
+comparisons with a 95% confidence level. For survival rate, we plotted
+the survival distribution curve with the Kaplan-Meier method followed
+by log-rank testing (XLSTAT software, New York, NY). We considered
+the difference between comparisons to be significant when P < .05 for
+all the statistical analysis. All values were presented as mean ± SEM.
+
+Results
+
+Class 3 Semaphorin Expression Levels Are Specifically
+Downregulated in the Absence of Wild-type Copies
+of Merlin/NF2
+
+We have previously shown that expression levels of SEMA3A and
+SEMA3F are significantly downregulated in both NF2-related and
+sporadic schwannomas [3]. To examine more systematically whether
+secreted class 3 SEMAs are specifically affected in tumor cells that do
+not express wild-type merlin/NF2, we compared the expression levels
+of class 3 SEMAs between primary human and mouse Schwann cells
+with HEI193 (human merlin-deficient Schwann cells) and Nf2−/−
+(mouse merlin-deficient Schwann cells), respectively. This comparison
+consistently revealed that the expression of most of SEMA3s was largely
+downregulated in the absence of merlin (Figure 1A) without affecting
+that of NRP or plexins (data not shown). Knocking down the expres-
+sion of merlin in primary mouse Schwann cells recapitulated similar
+observations (Figure 1B). When we reintroduced merlin into mouse
+Nf2−/− schwannoma cells [the Nf2−/−(pWZL-NF2)], we specifically
+restored expression of SEMA3B and SEMA3F (Figure 1C). Of note,
+SEMA3F, in particular, is a potent antiangiogenic factor [19,21].
+
+To determine whether other angiogenic factors in addition to
+SEMA3F were regulated by merlin, we compared the messenger
+RNA (mRNA) expression profile of 87 angiogenic factors between
+Nf2−/−(pWZL) and Nf2−/−(pWZL-NF2) cells with mouse angio-
+genesis array. We found that the expression of TSP2, a well-described
+antiangiogenic factor, was also prominently upregulated with merlin
+reintroduction. There was a 7.04 ± 1.85-fold increase (P < .02) of thbs2
+mRNA that encodes TSP2 protein. This increase is specific for TSP2
+because there was only a slight but insignificant increase for that of
+thbs1 (2.3 ± 0.78, P = .6, n = 3). Interestingly, we did not detect any
+significant change of VEGF or PDGFa expression, two very potent
+proangiogenic factors (0.9 ± 0.56- and 1.4 ± 0.36-folds, respectively).
+These data suggest that reintroduction of merlin/NF2 specifically tips
+the angiogenesis balance to antiangiogenic by increasing antiangiogenic
+factors rather than decreasing proangiogenic factors. We then con-
+firmed up-regulation of TSP2 and SEMA3F at the mRNA level by
+DNA microarray analysis (TSP2: 7.9 ± 0.7-fold increase and SEMA3F:
+15.3-fold increase). Finally, we determined that the up-regulation of
+SEMA3F and TSP2 was seen in the protein level (Figure 1D). These
+data indicate that merlin regulates the expression of two secreted anti-
+angiogenic factors (SEMA3F and TSP2) that could potentially modify
+the tumor microenvironment of schwannomas.
+
+Merlin/NF2 Regulates Expression of SEMA3F and
+TSP2 through a Rac1-Dependent Pathway
+
+To investigate the mechanism(s) whereby merlin/NF2 regulates
+expression of SEMA3F and TSP2, we used protein inhibitors and
+retroviral RNA interference in our schwannoma cells. One likely
+candidate modulating this pathway could be Rho GTPase because 1)
+Rac1 [26] and cdc42 [27] activity and intracellular localization were
+altered in human schwannoma cells deficient in merlin expression, 2)
+Rac1 was found to be able to regulate the expression of TSP2 in endo-
+thelial cells [28], and (3) RhoA and Rho-associated coiled-coil forming
+protein serine/threonine kinase (ROCK) were found to mediate the
+collapsing activity of SEMA3F [21]. Thus, in our system, we examined
+Rac1 activity. Compared with the cells that were reintroduced with
+wild-type merlin, we found that Rac1 activity is indeed increased in
+the merlin-deficient counterpart (Figure 2A). Next, we treated Nf2−/
+
+88
+
+Merlin Regulates Angiogenesis through Rac1/SEMA3F Wong et al.
+
+Neoplasia Vol. 14, No. 2, 2012
+
+−(pWZL-NF2) cells with exoenzyme C3 transferase (an ADP ribosyl
+transferase that selectively ribosylates RhoA, RhoB, and RhoC proteins
+on asparagine residue 41, rendering them inactive), Y-27632 (a specific
+inhibitor of the ROCK family of protein kinases), or a Rac1 inhibitor
+to examine which member in the Rho family GTPase is responsible for
+the induction of SEMA3F and TSP2 on the reintroduction of merlin/
+NF2. We found that Rac1 inhibition itself was enough to almost com-
+pletely abrogate the induction of SEMA3F and TSP2 (Figure 2B
+and quantified in Figure 2C). Blocking RhoA/B/C or ROCK did
+not produce any significant and detectable suppression of either
+SEMA3F or TSP2.
+
+To further confirm that Rac1 is the specific member in the Rho
+GTPase family regulating SEMA3F and TSP2 expression, we knocked
+down the expression of Rac1 genetically in the Nf2−/−(pWZL-NF2)
+cells by Rac1 shRNA retroviruses achieving a 60% reduction of Rac1
+expression (Figure 2D). This knockdown resulted in a marked suppres-
+sion of SEMA3F and TSP2 production, similar to the data that we
+obtained with Rac1 inhibitors. To investigate the consequence of this
+genetic modification, we treated endothelial tubes formed by HUVECs
+with conditioned medium collected from Nf2−/−(NF2 + Rac1 −
+scramble) or Nf2−/−(NF2 + Rac1 − shRNA). In endothelial tubes
+treated with the Rac1 shRNA conditioned medium, we observed a
+significant maintenance of tube structure compared with endothelial
+tubes treated with scramble conditioned medium where we found tube
+collapse (Figure 2D, 5.3 ± 0.47 more tubes in HUVECs treated with
+the Rac1 shRNA conditioned medium compared with the scrambled
+control). These data suggest that an increase in Rac1 activity in the
+absence of merlin leads to a subsequent decrease in SEMA3F and
+TSP2, thereby reducing the antiangiogenic effects of schwannoma cells.
+
+SEMA3F Normalizes Nf2−/− Tumor Vessels Resulting in
+Reduced Tumor Size and Improvement of Overall Survival
+
+To determine whether this merlin-mediated regulation of SEMA3F
+and TSP2 observed in vitro has a functional role in schwannoma angio-
+genesis and tumor progression in vivo, we generated Nf2−/− cell lines
+that constitutively express high levels of either SEMA3F or TSP2 com-
+pared with control cells (Figure 3A). We also confirmed that these cell
+lines continued to express SEMA3F or TSP2 in an orthotopic model of
+brain tumor (Figure 3B). Finally, to further confirm that the secreted
+SEMA3F is biologically active in these cells, we used a cytoskeleton
+
+Figure 1. Merlin regulates expression of class 3 semaphorins
+and TSP2. (A) Merlin-deficient tumor cells have significantly lower
+SEMA3 expression compared to their primary counterparts. Semi-
+quantitative PCR was done to examine the expression profile of
+SEMA3s in primary human Schwann cells (PHSC), primary mouse
+Schwann cells (PMSC), mouse schwannoma cells (Nf2−/−), and
+human schwannoma cells (HEI193). Expression levels of SEMA3s
+in primary cells were normalized with an input control (gapdh), and
+that of tumor cells was compared accordingly and expressed as
+relative expression levels. n = 3 and *P < .01. (B) Merlin expression
+positively correlates with SEMAs in primary Schwann cells. Merlin
+expression was downregulated with lentiviral particles expressing
+merlin shRNA. Total RNA was then extracted and reverse tran-
+scribed, and the expression of merlin and SEMA3s was examined
+with semiquantitative PCR. Scramble-infected primary Schwann
+cells were used as a control for comparison (set to 1). n = 3 and
+*P < . 01 compared with the expression in scramble control. (C)
+Reintroduction of wild-type merlin restores expression of SEMA3B
+and SEMA3F. Wild-type merlin (pWZL-NF2) was reintroduced into
+Nf2−/− cells with retroviruses. Infected cells were selected with
+hygromycin B at 200 μg/ml for several weeks, and single clones
+were selected. Expression of SEMAs in pWZL-NF2 was compared
+with a control schwannoma cell line that was infected with an
+empty vector pWZL. n = 3 and *P < .01. (D) Reintroduction of
+merlin upregulates SEMA3F and TSP2 protein expression in
+schwannoma cells. Protein lysates and conditioned medium from
+Nf2−/−(pWZL) and Nf2−/−(pWZL-NF2) were resolved in a gradi-
+ent gel and expression of SEMA3F, and TSP2 was examined by
+Western blot analysis. Merlin blot confirmed the successful reintro-
+duction, and β-tubulin was used as an input control. n = 3.
+
+Neoplasia Vol. 14, No. 2, 2012
+
+Merlin Regulates Angiogenesis through Rac1/SEMA3F Wong et al.
+
+89
+
+Figure 2. Merlin regulates expression of SEMA3F and TSP2 through a Rac1-dependent pathway. (A) Rac1 activity and expression
+increases in schwannoma cells that are deficient in merlin. PAK-PBD-Rac1 indicates active Rac1, and Rac1 represents the total form.
+PAK indicates p21 activated kinase 1; PBD, p21 binding domain. (B) Inhibiting Rac1 activity diminishes the expression of SEMA3F and
+TSP2 induced by merlin. Rho GTPases (cdc42, Rac1, and ROCK) were inhibited with specific inhibitors at increasing concentrations. One
+day after incubation, both medium and lysates were collected, and the expression levels of SEMA3F and TSP2 as well as merlin were
+analyzed with Western blots. (C) Quantification of SEMA3F and TSP2 expression levels in Rac1-inhibited conditions. Expression levels of
+SEMA3F and TSP2 were measured and normalized with β-tubulin. The normalized values in the control line (pWZL) were then set to 1,
+and the expression levels of SEMA3F and TSP2 in other conditions were compared with the control accordingly. HC indicates high
+concentration; LC, low concentration. n = 3 independent Western blots. *P = .012. **P = .043. ***P = .05. (D) Suppressing Rac1
+expression by RNA interference specifically reduces SEMA3F and TSP2 expression and results in a more intact network of endothelial
+tubes. Rac1 shRNA (or scramble [scr]) was transduced into Nf2−/−(pWZL-NF2) cells by retroviruses, and the infected cells were
+selected by puromycin at 1 μg/ml for 3 days. Conditioned medium from scr (i) or Rac1 shRNA (ii) was then added to the endothelial
+network formed by HUVECs. Phase-contrast images were captured 36 hours after the addition of conditioned medium to examine the
+biologic effect of Rac1 knockdown. The tube formation per field was calculated to be 5.3 ± 0.47 times higher in Rac1 knockdown
+conditioned medium wells compared with control conditioned medium.
+
+collapse assay that directly shows the activity of SEMA3F [21]. In cells
+treated with conditioned medium produced from Nf2−/−(SEMA3F),
+almost 90% of U87MG cells collapsed within 5 hours, whereas cells
+treated with control Nf2−/−(dsred) conditioned medium remained
+unchanged (Figure 3C). We also found that conditioned medium
+
+obtained from Nf2−/−(TSP2) decreased proliferation of HMVECs by
+more than 50% in 4 days after treatment compared with that produced
+from Nf2−/−(dsred) (Figure 3D).
+
+Given a functional role of SEMA3F and TSP2 in our cell lines, we
+implanted Nf2−/−(SEMA3F), Nf2−/−(TSP2), or Nf2−/−(dsred) into
+
+90
+
+Merlin Regulates Angiogenesis through Rac1/SEMA3F Wong et al.
+
+Neoplasia Vol. 14, No. 2, 2012
+
+the sciatic nerve of nude mice and examined the effect of these mole-
+cules on the progression of schwannoma. We found that nerve tumors
+with ectopic SEMA3F expression were much smaller compared with
+dsred control tumors (Figure 4A). Nevertheless, we were unable to ob-
+serve any prominent antitumor effect of TSP2 in the development of
+these tumors (data not shown). When we analyzed the tumor vessels in
+these tumors by immunohistochemistry, we found that overexpression of
+SEMA3F reduced total number of CD31+ vessels per area, a surrogate
+for vessel density, by 25% without affecting the diameter of the vessels
+(Figure 4B), whereas TSP2 did not affect vessel density or diameter.
+Moreover, SEMA3F was able to restore pericyte coverage on tumor
+vessels—we measured a 2.5-fold increase in pericyte coverage based
+on desmin staining (Figure 4C). Accompanying the increase of pericyte
+
+coverage, there was a 30% reduction of permeability in sciatic nerve
+tumors with SEMA3F overexpression (Figure 4D). When we implanted
+tumors using another orthotopic model of NF2 in the brain, Nf2−/
+−(SEMA3F) brain tumors also grew more slowly and were smaller in
+size, and the mice bearing these brain tumors had a significantly better
+overall survival rate (Figure 4E; dsred, 17.9 ± 1.5 days; SEMA3F, 26.5 ±
+1.3 days; P < .01). However, consistent with the lack of effects in the
+nerve tumor, Nf2−/−(TSP2) tumor-bearing mice had no improvement
+in survival over control tumor-bearing mice. Taken together, although
+reintroduction of merlin upregulates both SEMA3F and TSP2- in
+schwannoma microenvironment, increased expression of TSP2 merely
+does not result in any observable angiogenic changes. It is more likely
+that merlin-SEMA3F signaling keeps the angiogenic balance in check.
+The role of TSP2 in Schwann cells or the schwannoma microenviron-
+ment remains to be further investigated.
+
+Discussion
+Schwannomas typically progress slowly and are not considered to be
+angiogenic tumors. However, our recent review of surgical archival
+specimen revealed a proangiogenic profile defined by number and
+size of vessels combined with quantification of VEGF expression
+and SEMA3F loss [3]. Furthermore, in a recent preclinical study,
+we showed that loss of the Nf2 gene was accompanied by the loss
+of SEMA3F and that treatment with anti-VEGF therapies resulted in
+sustained decreases in growth rate and vessel permeability [4]. These
+
+Figure 3. Characterization of expression and function of SEMA3F and
+TSP2 in genetically modified schwannoma cells. (A) Schwannoma
+cells that are reintroduced with SEMA3F or TSP2 secrete these pro-
+teins in a time-dependent manner. Nf2−/− cells were infected with
+retroviral particles expressing either pMOWSdSV-SEMA3F or -TSP2.
+Almost 100% of the cells were positive for the reintroduction after
+two overnight infections, as evident by the red fluorescence from
+the dsred control. Conditioned medium (free of serum) was col-
+lected from each cell line, and 20 μl of medium was resolved in a
+gradient gel for the detection of SEMA3F and TSP2. V5 blots were
+used to confirm the expression of exogenously introduced protein.
+(B) Schwannoma cells continue to express high levels of SEMA3F or
+TSP2 in the brain environment. Schwannoma cells expressing either
+SEMA3F or TSP2 were implanted into the brain parenchyma, and
+tumors were allowed to form. Tumors were extracted when reached
+10 × 10 mm in size, and protein lysates were used for the detection
+of SEMA3F or TSP2. B indicates brain; T, tumor. (C) Conditioned
+medium collected from SEMA3F expressing schwannoma cells is
+able to collapse U87MG cells. Nf2−/−(SEMA3F) conditioned me-
+dium was added to U87MG cells at a 1:10 dilution (ii and ii′) and
+Nf2−/−(dsred) conditioned medium was used as a control (i and i′).
+Phase contrast images were captured 5 hours after the addition of
+SEMA3F conditioned medium and the number of collapsed cells
+were counted and presented graphically in lower panel. To define
+a cell that was collapsed, it had to possess a shrunken cell body
+and multiple extended processes (ii′). Controls cells were normally
+flat without many processes (i′). CM indicates conditioned medium.
+n = 3. *P < .01. (D) Conditioned medium collected from TSP2
+expressing schwannoma cells inhibits proliferation of HMVECs.
+Schwannoma cells were lysed with the same volume of protein lysis
+buffer, and 5 μl of precleared lysate was quantified by BCA assay.
+The total amount of cells in each condition was represented as the
+absorbance at 562 nm. SF indicates serum-free medium. n = 3.
+*P < .01. #Not significant.
+
+Neoplasia Vol. 14, No. 2, 2012
+
+Merlin Regulates Angiogenesis through Rac1/SEMA3F Wong et al.
+
+91
+
+Figure 4. SEMA3F normalizes schwannoma vessels and reduces tumor burden. (A) SEMA3F reexpression reduces sciatic nerve tumor
+burden. Animals were perfusion fixed, and tumors were extracted approximately 2 weeks after implantation. Tumor volume was mea-
+sured and compared accordingly. Scale bar, 1 cm. O/E indicates overexpression. n = 10. *P = .05. (B) SEMA3F reexpression reduces
+CD31+ area without affecting the vessel diameter. Frozen sections of sciatic nerve tumor generated from each schwannoma line as
+indicated in the diagram were immunostained with anti-CD31 to reveal tumor vessels. Overexpression of SEMA3F reduced vascularity by
+25% compared with the dsred control, without influencing the blood vessel diameter. n = 7. *P = .043. (C) SEMA3F reexpression mark-
+edly increases pericyte coverage. Frozen sections of sciatic nerve tumor generated from Nf2−/−(dsred) (i and i″) and Nf2−/−(SEMA3F)
+(ii and ii″) were costained with anti-CD31 and anti-desmin. The overlapping of desmin and CD31 area was quantified to indicate pericyte
+coverage. Scale bar, 100 μm. n = 7. *P = .028. (D) SEMA3F reexpression reduces tumor vessel permeability. Evans Blue dye extra-
+vasation assay was used to examine vessel permeability. Amount of Evans Blue dye in tumor tissues was expressed as micrograms
+of dye per gram of tissue. n = 3. *P = .039. (E) SEMA3F extends overall survival in mice bearing brain tumors. SEMA3F reexpression
+extends overall survival in mice bearing brain tumors, whereas TSP2 does not show any beneficial effect. n = 7 for dsred, n = 8 for
+SEMA3F, and n = 10 for TSP2. *P < .01 by log-rank test.
+
+92
+
+Merlin Regulates Angiogenesis through Rac1/SEMA3F Wong et al.
+
+Neoplasia Vol. 14, No. 2, 2012
+
+findings led us to propose that the loss of merlin could contribute to an
+abnormal tumor vasculature by disrupting the delicate balance of
+proangiogenic and antiangiogenic factors.
+
+In the current study, we indeed found that merlin regulates expres-
+sion of class 3 SEMAs through the Rho GTPase Rac1 specifically, but
+not the other close family members such as cdc42 or Rho A. Rac1
+expression levels were found upregulated as well as Rac1 protein trans-
+located to the membrane ruffles in human schwannoma cells lacking
+wild-type copies of merlin [26]. Merlin was subsequently found to
+regulate cell proliferation and contact inhibition dominantly by inter-
+fering with the guanine exchange of Ras and Rac and its downstream
+signaling cascades involving Raf and ERK [29]. In addition, Rac1 ac-
+tivity has been reported to modulate growth cone collapse induced by
+SEMA3A [30–32]. Our findings established a signaling cascade con-
+nection whereby Rac1 works downstream of merlin and upstream of
+SEMA3F (Figure 5). However, as blocking the expression and activity
+of Rac1 was able to virtually erase SEMA3F expression, it is likely that
+the regulation involves multiple steps. Histone deacetylase may rep-
+resent an intermediate step between Rac1 and SEMA3F because its
+activity directly correlated with active Rac1 [33,34] and histone dea-
+cetylase inhibition markedly stimulated the activity of SEMA3F [35].
+By reintroducing SEMA3F into merlin-deficient schwannoma
+cells, we further confirmed the role of SEMA3F as an antiangiogenic
+factor in our experimental settings. Our data are consistent with the
+published data that expression of SEMA3F was specifically down-
+regulated in NF2-driven schwannomas [3] as well as in tumors
+
+Figure 5. The proposed mechanism by which merlin loss supports
+neurofibromatosis angiogenesis. In the presence of wild-type merlin,
+Rac1 activity is maintained at a normal state, as well as the levels of
+SEMA3F/TSP2. The physiological balance of proangiogenic and anti-
+angiogenic factors supports normal vascularity that is necessary for
+healthy neural system functions (A). However, in Schwann cells that
+are deficient in merlin, the increased Rac1 activity leads to an en-
+hanced suppression of SEMA3F/TSP2 expression—the augmented
+relative VEGF levels and the subsequent pathologic changes thus
+are able to drive abnormal angiogenesis to further support the nutri-
+tious need for the unlimited proliferation of schwannoma cells (B). It
+is likely that the mechanism(s) by which Rac1 suppresses SEMA3F
+and TSP2 involves multiple steps, and the precise regulatory mech-
+anisms remain to be investigated.
+
+of the pancreatic and cervical origins [36] and that reexpressing
+SEMA3F is able to decrease tumor vascularity and restore pericyte
+coverage in vivo [19,36]. On the basis of this potent angioinhibitory
+effect, we are the first to show that orthotopic schwannoma tumors
+overexpressing SEMA3F were smaller in size and the lower tumor
+burden resulted in extension of overall survival, similar to the effect
+observed in mice carrying pancreatic tumors overexpressing SEMA3A
+[36]. Furthermore, we showed that reexpressing SEMA3F contrib-
+uted to an effective decrease in permeability. Although much less is
+known about the blood-nerve barrier, permeability has been shown
+to play a role in schwannomas and its control might have a direct
+benefit [3,4].
+
+In addition to SEMA3F, we also found that TSP2 was highly up-
+regulated in Nf2−/− schwannoma cells that were reintroduced with
+wild-type merlin. This up-regulation is consistent with the idea that
+Rac1 is working upstream because it has been reported that a con-
+stitutively active mutant of Rac1 (RacV12) is able to regulate TSP2
+expression at the transcription level in endothelial cells [28]. However,
+we did not observe any detectable antiangiogenic properties with
+merlin-deficient schwannoma cells that overexpress TSP2 in vivo
+(Figure 4). In general, thrombospondins are antiangiogenic [37].
+However, because TSP1 and TSP2 are composed of multiple func-
+tional domains and each has its own receptors, the consequence of
+TSP expression may not always be simply antiangiogenic. In fact, there
+is ample evidence that TSP1 is not antiangiogenic and even pro-
+angiogenic [38–41]. In all these studies, it can be concluded that the
+overall angiogenic outcome initiated by TSPs is largely determined by
+1) specific domain interaction with appropriate receptors, (2) absolute
+concentration of TSPs, and/or (3) the unique microenvironment of
+the experimental models. Because TSP2 has an equivalent domain
+structure to TSP1 and the microenvironment of nerve tumors is not
+completely explored, it is plausible to assume that the domain/receptor
+interactions between the tumor-secreted TSP2 and the stroma could be
+complex, and thus, the overall angiogenic outcome is difficult to pre-
+dict. Moreover, because TSP2 has pleiotropic effects and is involved in
+processes as disparate as bone growth, homeostasis, and foreign body
+response [42], it is also possible that TSP2 is not simply angioinhibitory
+in the nerve microenvironment. Nevertheless, it is essential to establish
+a causal correlation between TSP2 and merlin in clinical samples of
+NF2-related schwannomas so that the precise role of TSP2 can be
+investigated in the pathogenesis of schwannomas.
+
+Furthermore, there are few data on the regulation and interaction
+between SEMA3F, RAC1, and TSP2. Our data suggest SEMA3F is
+upstream of TSP2 because TSP2 is increased with SEMA3F expression,
+but the reverse is not true. SEMA3F works upstream of RhoA and
+ROCK because this signaling cascade leads to the activation of cofilin
+and actin depolymerization in both glioma and endothelial cells [21].
+In addition, RhoA and ROCK are able to suppress TSP1 through Myc,
+a close member of TSP2 [43]. Interestingly, Myb, a nuclear transcrip-
+tion factor in the same class of Myc, has been shown to suppress TSP2
+specifically [44]. Therefore, we speculate that SEMA3F works up-
+stream of TSP2, possibly through RhoA, ROCK, and Myb.
+
+In summary, this study revealed that merlin/NF2, a tumor sup-
+pressor gene, on top of its antiproliferative function on contact inhi-
+bition, also influenced tumor angiogenesis by regulating expression of
+SEMA3F, a potent angioinhibitory factor, and this regulation worked
+through Rac1. This study further advanced our knowledge that angio-
+genesis is essential in benign tumor progression, and by modulating
+the relative balance of proangiogenic and antiangiogenic components
+
+Neoplasia Vol. 14, No. 2, 2012
+
+Merlin Regulates Angiogenesis through Rac1/SEMA3F Wong et al.
+
+93
+
+in these tumors, one can successfully control tumor development.
+This study provides a mechanism for the potential “angiogenic
+switch” in NF2-driven schwannoma. Benign tumors such as schwan-
+nomas progress very slowly, and understanding the mechanism be-
+hind the modulation of the proangiogenic and antiangiogenic
+balance will contribute to improving treatment of these tumors.
+Although treatment with anti-VEGF therapies has proven successful
+so far, the long-term treatment of these patients necessitates the iden-
+tification of new therapeutic regimens. To date, although SEMA3F
+is well established as an inhibitor of angiogenesis, the regulatory
+mechanisms of SEMA3F, or other secreted SEMAs that possess po-
+tent antiangiogenic properties, are not completely understood. In fact,
+small molecules that can stimulate SEMA3s expression or activity
+have not been developed. We strongly believe that more effort should
+be focused on finding drugs/small molecules that can enhance the
+SEMA-NRP-plexin signaling event. Modulating angiogenic balance
+by inhibiting proangiogenesis (blocking VEGF [4]), or promoting
+antiangiogenesis (reintroducing SEMA3s, this study), proved to be
+a successful way to control schwannoma progression and should be
+considered as a novel approach to treat neurofibromatosis-related
+tumors similar to malignant tumors [9].
+
+Acknowledgments
+The authors thank Sylvie Roberge and Carolyn Smith for their tech-
+nical expertise, Padera T. Timothy and Lei Xu for discussions and
+guidance, and Andrew B. Gladden, Andrea I. McClatchey, and Brian
+Seed (Massachusetts General Hospital and Harvard Medical School,
+Boston, MA) for providing critical reagents.
+
+References
+[1] Asthagiri AR, Parry DM, Butman JA, Kim HJ, Tsilou ET, Zhuang Z, and
+
+Lonser RR (2009). Neurofibromatosis type 2. Lancet 373, 1974–1986.
+
+[2] Mrugala MM, Batchelor TT, and Plotkin SR (2005). Peripheral and cranial
+
+nerve sheath tumors. Curr Opin Neurol 18, 604–610.
+
+[3] Plotkin SR, Stemmer-Rachamimov AO, Barker FG II, Halpin C, Padera TP,
+Tyrrell A, Sorensen AG, Jain RK, and di Tomaso E (2009). Hearing improve-
+ment after bevacizumab in patients with neurofibromatosis type 2. N Engl J Med
+361, 358–367.
+
+[4] Wong HK, Lahdenranta J, Kamoun WS, Chan AW, McClatchey AI, Plotkin SR,
+Jain RK, and di Tomaso E (2010). Anti–vascular endothelial growth factor
+therapies as a novel therapeutic approach to treating neurofibromatosis-related
+tumors. Cancer Res 70, 3483–3493.
+
+[5] Caye-Thomasen P, Baandrup L, Jacobsen GK, Thomsen J, and Stangerup SE
+(2003). Immunohistochemical demonstration of vascular endothelial growth
+factor in vestibular schwannomas correlates to tumor growth rate. Laryngoscope
+113, 2129–2134.
+
+[6] Caye-Thomasen P, Werther K, Nalla A, Bog-Hansen TC, Nielsen HJ, Stangerup
+SE, and Thomsen J (2005). VEGF and VEGF receptor-1 concentration in ves-
+tibular schwannoma homogenates correlates to tumor growth rate. Otol Neurotol
+26, 98–101.
+
+[7] Koutsimpelas D, Stripf T, Heinrich UR, Mann WJ, and Brieger J (2007).
+Expression of vascular endothelial growth factor and basic fibroblast growth
+factor in sporadic vestibular schwannomas correlates to growth characteristics.
+Otol Neurotol 28, 1094–1099.
+
+[9]
+
+[8] Uesaka T, Shono T, Suzuki SO, Nakamizo A, Niiro H, Mizoguchi M, Iwaki T,
+and Sasaki T (2007). Expression of VEGF and its receptor genes in intracranial
+schwannomas. J Neurooncol 83, 259–266.
+Jain RK (2005). Normalization of tumor vasculature: an emerging concept in
+antiangiogenic therapy. Science 307, 58–62.
+
+[10] Yazdani U and Terman JR (2006). The semaphorins. Genome Biol 7, 211.
+[11] Chen H, He Z, and Tessier-Lavigne M (1998). Axon guidance mechanisms:
+semaphorins as simultaneous repellents and anti-repellents. Nat Neurosci 1,
+436–439.
+
+[12] Luo Y, Raible D, and Raper JA (1993). Collapsin: a protein in brain that
+induces the collapse and paralysis of neuronal growth cones. Cell 75, 217–227.
+[13] Puschel AW, Adams RH, and Betz H (1995). Murine semaphorin D/collapsin
+is a member of a diverse gene family and creates domains inhibitory for axonal
+extension. Neuron 14, 941–948.
+
+[14] Miao HQ, Soker S, Feiner L, Alonso JL, Raper JA, and Klagsbrun M (1999).
+Neuropilin-1 mediates collapsin-1/semaphorin III inhibition of endothelial cell
+motility: functional competition of collapsin-1 and vascular endothelial growth
+factor-165. J Cell Biol 146, 233–242.
+
+[15] Kessler O, Shraga-Heled N, Lange T, Gutmann-Raviv N, Sabo E, Baruch L,
+Machluf M, and Neufeld G (2004). Semaphorin-3F is an inhibitor of tumor
+angiogenesis. Cancer Res 64, 1008–1015.
+
+[16] Neufeld G, Lange T, Varshavsky A, and Kessler O (2007). Semaphorin signal-
+
+ing in vascular and tumor biology. Adv Exp Med Biol 600, 118–131.
+
+[17] Bielenberg DR and Klagsbrun M (2007). Targeting endothelial and tumor cells
+
+with semaphorins. Cancer Metastasis Rev 26, 421–431.
+
+[18] Takahashi T and Strittmatter SM (2001). Plexina1 autoinhibition by the plexin
+
+sema domain. Neuron 29, 429–439.
+
+[19] Bielenberg DR, Hida Y, Shimizu A, Kaipainen A, Kreuter M, Kim CC, and
+Klagsbrun M (2004). Semaphorin 3F, a chemorepulsant for endothelial cells,
+induces a poorly vascularized, encapsulated, nonmetastatic tumor phenotype.
+J Clin Invest 114, 1260–1271.
+
+[20] Coma S, Amin DN, Shimizu A, Lasorella A, Iavarone A, and Klagsbrun M
+(2010). Id2 promotes tumor cell migration and invasion through transcriptional
+repression of semaphorin 3F. Cancer Res 70, 3823–3832.
+
+[21] Shimizu A, Mammoto A, Italiano JE Jr, Pravda E, Dudley AC, Ingber DE, and
+Klagsbrun M (2008). ABL2/ARG tyrosine kinase mediates SEMA3F-induced
+RhoA inactivation and cytoskeleton collapse in human glioma cells. J Biol Chem
+283, 27230–27238.
+
+[22] Ketteler R, Glaser S, Sandra O, Martens UM, and Klingmuller U (2002).
+Enhanced transgene expression in primitive hematopoietic progenitor cells
+and embryonic stem cells efficiently transduced by optimized retroviral hybrid
+vectors. Gene Ther 9, 477–487.
+
+[23] Gualdoni S, Albertinazzi C, Corbetta S, Valtorta F, and de Curtis I (2007).
+Normal levels of Rac1 are important for dendritic but not axonal development
+in hippocampal neurons. Biol Cell 99, 455–464.
+
+[24] Hung G, Li X, Faudoa R, Xeu Z, Kluwe L, Rhim JS, Slattery W, and Lim D
+(2002). Establishment and characterization of a schwannoma cell line from a
+patient with neurofibromatosis 2. Int J Oncol 20, 475–482.
+
+[25] Prabhakar S, Messerli SM, Stemmer-Rachamimov AO, Liu TC, Rabkin S,
+Martuza R, and Breakefield XO (2007). Treatment of implantable NF2
+schwannoma tumor models with oncolytic herpes simplex virus G47Δ. Cancer
+Gene Ther 14, 460–467.
+
+[26] Kaempchen K, Mielke K, Utermark T, Langmesser S, and Hanemann CO
+(2003). Upregulation of the Rac1/JNK signaling pathway in primary human
+schwannoma cells. Hum Mol Genet 12, 1211–1221.
+
+[27] Flaiz C, Kaempchen K, Matthies C, and Hanemann CO (2007). Actin-rich
+protrusions and nonlocalized GTPase activation in Merlin-deficient schwannomas.
+J Neuropathol Exp Neurol 66, 608–616.
+
+[28] Lopes N, Gregg D, Vasudevan S, Hassanain H, Goldschmidt-Clermont P, and
+Kovacic H (2003). Thrombospondin 2 regulates cell proliferation induced by
+Rac1 redox-dependent signaling. Mol Cell Biol 23, 5401–5408.
+
+[29] Morrison H, Sperka T, Manent J, Giovannini M, Ponta H, and Herrlich P
+(2007). Merlin/neurofibromatosis type 2 suppresses growth by inhibiting the
+activation of Ras and Rac. Cancer Res 67, 520–527.
+Jin Z and Strittmatter SM (1997). Rac1 mediates collapsin-1–induced growth
+cone collapse. J Neurosci 17, 6256–6263.
+
+[30]
+
+[31] Kuhn TB, Brown MD, Wilcox CL, Raper JA, and Bamburg JR (1999). Myelin and
+collapsin-1 induce motor neuron growth cone collapse through different pathways:
+inhibition of collapse by opposing mutants of rac1. J Neurosci 19, 1965–1975.
+
+[32] Vastrik I, Eickholt BJ, Walsh FS, Ridley A, and Doherty P (1999). Sema3A-
+induced growth-cone collapse is mediated by Rac1 amino acids 17-32. Curr Biol
+9, 991–998.
+
+[33] Kim YB, Yu J, Lee SY, Lee MS, Ko SG, Ye SK, Jong HS, Kim TY, Bang YJ,
+and Lee JW (2005). Cell adhesion status–dependent histone acetylation is reg-
+ulated through intracellular contractility–related signaling activities. J Biol Chem
+280, 28357–28364.
+
+[34] Gao YS, Hubbert CC, Lu J, Lee YS, Lee JY, and Yao TP (2007). Histone
+deacetylase 6 regulates growth factor–induced actin remodeling and endocytosis.
+Mol Cell Biol 27, 8637–8647.
+
+94
+
+Merlin Regulates Angiogenesis through Rac1/SEMA3F Wong et al.
+
+Neoplasia Vol. 14, No. 2, 2012
+
+[35] Kusy S, Potiron V, Zeng C, Franklin W, Brambilla E, Minna J, Drabkin HA,
+and Roche J (2005). Promoter characterization of semaphorin SEMA3F, a
+tumor suppressor gene. Biochim Biophys Acta 1730, 66–76.
+
+[36] Maione F, Molla F, Meda C, Latini R, Zentilin L, Giacca M, Seano G, Serini G,
+Bussolino F, and Giraudo E (2009). Semaphorin 3A is an endogenous angio-
+genesis inhibitor that blocks tumor growth and normalizes tumor vasculature in
+transgenic mouse models. J Clin Invest 119, 3356–3372.
+
+[37] Bornstein P (2009). Thrombospondins function as regulators of angiogenesis.
+
+J Cell Commun Signal 3, 189–200.
+
+[38] Chandrasekaran L, He CZ, Al-Barazi H, Krutzsch HC, Iruela-Arispe ML,
+and Roberts DD (2000). Cell contact–dependent activation of α3β1 integrin
+modulates endothelial cell responses to thrombospondin-1. Mol Biol Cell 11,
+2885–2900.
+
+[39] Qian X, Wang TN, Rothman VL, Nicosia RF, and Tuszynski GP (1997).
+Thrombospondin-1 modulates angiogenesis in vitro by up-regulation of matrix
+metalloproteinase-9 in endothelial cells. Exp Cell Res 235, 403–412.
+
+[40] Staniszewska I, Zaveri S, Del Valle L, Oliva I, Rothman VL, Croul SE, Roberts DD,
+Mosher DF, Tuszynski GP, and Marcinkiewicz C (2007). Interaction of α9β1
+integrin with thrombospondin-1 promotes angiogenesis. Circ Res 100, 1308–1316.
+[41] Taraboletti G, Morbidelli L, Donnini S, Parenti A, Granger HJ, Giavazzi R, and
+Ziche M (2000). The heparin binding 25 kDa fragment of thrombospondin-1
+promotes angiogenesis and modulates gelatinase and TIMP-2 production in
+endothelial cells. FASEB J 14, 1674–1676.
+
+[42] Bornstein P, Armstrong LC, Hankenson KD, Kyriakides TR, and Yang Z
+(2000). Thrombospondin 2, a matricellular protein with diverse functions.
+Matrix Biol 19, 557–568.
+
+[43] Watnick RS, Cheng YN, Rangarajan A, Ince TA, and Weinberg RA (2003). Ras
+modulates Myc activity to repress thrombospondin-1 expression and increase
+tumor angiogenesis. Cancer Cell 3, 219–231.
+
+[44] Bein K, Ware JA, and Simons M (1998). Myb-dependent regulation of
+thrombospondin 2 expression. Role of mRNA stability. J Biol Chem 273,
+21423–21429.
+
+

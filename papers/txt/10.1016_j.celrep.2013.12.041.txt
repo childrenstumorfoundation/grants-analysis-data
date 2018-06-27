@@ -1,0 +1,1286 @@
+Please cite this article in press as: Almendro et al., Inference of Tumor Evolution during Chemotherapy by Computational Modeling and In Situ Analysis
+of Genetic and Phenotypic Cellular Diversity, Cell Reports (2014), http://dx.doi.org/10.1016/j.celrep.2013.12.041
+
+Cell Reports
+
+Article
+
+Inference of Tumor Evolution during Chemotherapy
+by Computational Modeling and In Situ Analysis
+of Genetic and Phenotypic Cellular Diversity
+
+Vanessa Almendro,1,2,3,4 Yu-Kang Cheng,5,6 Amanda Randles,5,6,7 Shalev Itzkovitz,8,9 Andriy Marusyk,1,2,3
+Elisabet Ametller,4 Xavier Gonzalez-Farre,4 Montse Mun˜ oz,4 Hege G. Russnes,10,11,12 A˚ slaug Helland,10,13,14
+Inga H. Rye,10,11 Anne-Lise Borresen-Dale,10,11 Reo Maruyama,1,2,3 Alexander van Oudenaarden,8,15 Mitchell Dowsett,16
+Robin L. Jones,16,17 Jorge Reis-Filho,16,18 Pere Gascon,4 Mithat Go¨ nen,19 Franziska Michor,5,6,*
+and Kornelia Polyak1,2,3,20,21,*
+1Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA 02215, USA
+2Department of Medicine, Brigham and Women’s Hospital, Boston, MA 02115, USA
+3Department of Medicine, Harvard Medical School, Boston, MA 02115, USA
+4Department of Medical Oncology, Hospital Clinic, Institut d’Investigacions Biomediques August Pi i Sunyer, Barcelona 08036, Spain
+5Department of Biostatistics and Computational Biology, Dana-Farber Cancer Institute, Boston, MA 02215, USA
+6Department of Biostatistics, Harvard School of Public Health, Boston, MA 02115, USA
+7Center for Applied Scientiﬁc Computing, Lawrence Livermore National Laboratory, Livermore, CA 94550, USA
+8Departments of Physics and Biology and Koch Institute for Integrative Cancer Research, Massachusetts Institute of Technology, Cambridge,
+MA 02139, USA
+9Department of Molecular Cell Biology, Weizmann Institute of Science, Rehovot 76100, Israel
+10Department of Genetics, Institute for Cancer Research, Oslo University Hospital Radiumhospitalet, Oslo 0424, Norway
+11K.G. Jebsen Center for Breast Cancer Research, Institute for Clinical Medicine, Faculty of Medicine, University of Oslo, Oslo 0316, Norway
+12Department of Pathology, Oslo University Hospital, Oslo 0424, Norway
+13Department of Oncology, Oslo University Hospital, Oslo 0424, Norway
+14Institute for Clinical Medicine, Faculty of Medicine, University of Oslo, Oslo 0316, Norway
+15Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences and University Medical Center Utrecht, Uppsalalaan 8, 3584 CT,
+Utrecht, the Netherlands
+16The Royal Marsden Hospital, The Breakthrough Breast Cancer Research Centre, Institute of Cancer Research, London SW3 6JJ, UK
+17Seattle Cancer Care Alliance, Seattle, WA 98109-1023, USA
+18Department of Pathology, Memorial Sloan-Kettering Cancer Center, New York, NY 10065, USA
+19Department of Epidemiology and Biostatistics, Memorial Sloan-Kettering Cancer Center, New York, NY 10065, USA
+20Harvard Stem Cell Institute, Cambridge, MA 02138, USA
+21Broad Institute, Cambridge, MA 02142, USA
+*Correspondence: michor@jimmy.harvard.edu (F.M.), kornelia_polyak@dfci.harvard.edu (K.P.)
+http://dx.doi.org/10.1016/j.celrep.2013.12.041
+This is an open-access article distributed under the terms of the Creative Commons Attribution-NonCommercial-No Derivative Works
+License, which permits non-commercial use, distribution, and reproduction in any medium, provided the original author and source are
+credited.
+
+SUMMARY
+
+Cancer therapy exerts a strong selection pressure
+that shapes tumor evolution, yet our knowledge of
+how tumors change during treatment is limited.
+Here, we report the analysis of cellular heterogeneity
+for genetic and phenotypic features and their spatial
+distribution in breast tumors pre- and post-neoadju-
+vant chemotherapy. We found that intratumor ge-
+netic diversity was tumor-subtype speciﬁc, and it
+did not change during treatment in tumors with
+partial or no response. However, lower pretreatment
+genetic diversity was signiﬁcantly associated with
+pathologic complete response. In contrast, pheno-
+typic diversity was different between pre- and post-
+treatment samples. We also observed signiﬁcant
+changes in the spatial distribution of cells with
+
+distinct genetic and phenotypic features. We used
+these experimental data to develop a stochastic
+computational model to infer tumor growth patterns
+and evolutionary dynamics. Our results highlight
+the importance of integrated analysis of genotypes
+and phenotypes of single cells in intact tissues to
+predict tumor evolution.
+
+INTRODUCTION
+
+Intratumor phenotypic heterogeneity is a deﬁning characteristic
+of human tumors. Cancer cells within a tumor can display differ-
+ences in many measurable traits, such as proliferative and
+metastatic capacity and therapeutic resistance (Almendro
+et al., 2013; Fidler, 1978; Heppner and Miller, 1983; Maley
+et al., 2006; Marusyk et al., 2012; Yap et al., 2012). Multiple
+mechanisms underlie intratumor heterogeneity, including both
+
+Cell Reports 6, 1–14, February 13, 2014 ª2014 The Authors 1
+
+Please cite this article in press as: Almendro et al., Inference of Tumor Evolution during Chemotherapy by Computational Modeling and In Situ Analysis
+of Genetic and Phenotypic Cellular Diversity, Cell Reports (2014), http://dx.doi.org/10.1016/j.celrep.2013.12.041
+
+2 Cell Reports 6, 1–14, February 13, 2014 ª2014 The Authors
+
+(legend on next page)
+
+Please cite this article in press as: Almendro et al., Inference of Tumor Evolution during Chemotherapy by Computational Modeling and In Situ Analysis
+of Genetic and Phenotypic Cellular Diversity, Cell Reports (2014), http://dx.doi.org/10.1016/j.celrep.2013.12.041
+
+heritable and nonheritable determinants (Fidler, 1978; Heppner
+and Miller, 1983; Maley et al., 2006; Marusyk et al., 2012; Maru-
+syk and Polyak, 2010; Yap et al., 2012). In addition, cellular ge-
+netic diversity was observed within populations of tumor cells
+that is distinct from clonal diversity because it combines inputs
+from both clonal architecture and lower-scale differences arising
+from genomic instability that are not ampliﬁed by selection
+(Maley et al., 2006; Merlo et al., 2006). The study and treatment
+of cancer are complicated by this heterogeneity because small
+tissue samples, typically obtained by biopsy, may not be repre-
+sentative of the whole tumor (Gerlinger et al., 2012), and a treat-
+ment that targets one tumor cell population may not be effective
+against another (Turner and Reis-Filho, 2012; Yap et al., 2012).
+Quantitative measures of intratumor heterogeneity might aid in
+the clinical management of patients with cancer including iden-
+tifying those at a high risk of progression and recurrence. For
+example, a larger extent of intratumor clonal heterogeneity is
+associated with a higher risk of invasive progression in Barrett’s
+esophagus (Maley et al., 2006; Merlo et al., 2010), and higher
+genetic heterogeneity in head and neck squamous carcinomas
+is related to worse outcome (Mroz et al., 2013). The presence
+of multiple cellular clones with distinct genetic alterations has
+also been implicated in therapeutic resistance (Engelman et al.,
+2007; Mroz et al., 2013; Nazarian et al., 2010; Sakai et al.,
+2008) and in metastatic progression (Fidler, 1978).
+
+Cancer therapy exerts a strong selection pressure that shapes
+tumor evolution (Merlo et al., 2006). Thus, residual tumors after
+treatment are likely to have different, frequently less-favorable
+characteristics and composition than those of the diagnostic
+sample. Despite the importance of these treatment-induced
+changes for the success of subsequent therapy, tumors have
+been rarely resampled and reanalyzed, with the exception of he-
+matopoietic malignancies (Ding et al., 2012; Landau et al., 2013).
+Thus, our understanding of how treatment impacts intratumor
+heterogeneity and cellular diversity in solid tumors, which then
+in turn determines the effectiveness of treatment, is very limited.
+The most informative approach to uncover intratumor hetero-
+geneity in clinical samples is the deﬁnition of the overall clonal
+architecture within a tumor. However, this level of resolution is
+not practically feasible. A lower-resolution view of clonal archi-
+tecture can be outlined based on computational
+inferences
+from allele frequencies of whole-genome sequencing of bulk
+tumors (Ding et al., 2012) or by low-resolution sequencing of sin-
+gle cancer cells (Navin et al., 2011). Unfortunately, both of these
+approaches have many technical caveats and are prohibitively
+expensive to apply for large patient cohorts.
+
+An alternative to the whole-genome studies is to study genetic
+diversity using a single or a few genomic loci. Although this
+approach cannot reveal the clonal architecture within a tumor,
+it is more feasible due to minimal sample requirements and low
+cost. Importantly, diversity indices calculated based on a limited
+number of loci (even selectively neutral ones) have been shown
+to predict clinical outcome (Maley et al., 2006; Merlo et al.,
+2010). Cellular heterogeneity reﬂects both clonal heterogeneity
+and genetic instability; thus, it can be impacted by anticancer
+therapy on several levels. First, the new selective pressures are
+expected to favor relatively treatment-resistant clonal sub-
+populations over sensitive ones,
+therefore limiting clonal
+diversity. Second, genotoxic treatments may elevate genomic
+instability, thereby potentially increasing cellular genetic diver-
+sity. Despite its clinical
+impact of
+cancer therapy on cellular genetic heterogeneity is largely un-
+known. Here, we report the effects of neoadjuvant chemo-
+therapy on the extent of genetic and phenotypic cellular diversity
+within breast tumors and the associations between intratumor
+genetic heterogeneity and therapeutic outcomes.
+
+importance, the potential
+
+RESULTS
+
+Tumor-Subtype- and Cancer Cell-Type-Speciﬁc
+Differences in Genetic Diversity
+To investigate relationships between intratumor heterogeneity
+and cancer therapy, we analyzed pre- and posttreatment tumor
+biopsies from 47 patients with breast cancer undergoing neoad-
+juvant chemotherapy (Table S1). These included 13 luminal A, 11
+luminal B, 11 HER2+, and 12 TNBC (triple-negative breast
+cancer) tumors representing each of the major breast tumor
+subtypes (Perou et al., 2000). Four patients showed pathologic
+complete response (pCR) to treatment; thus, in these cases,
+posttreatment samples could not be analyzed.
+
+Genetic heterogeneity was assessed based on immuno-
+ﬂuorescence in situ hybridization (iFISH) using BAC (bacterial
+artiﬁcial chromosome) probes for 8q24.3, 10p13, 16p13.3, and
+20q13.31 and the corresponding centromeric probes (CEPs)
+to distinguish between gain of whole chromosomes versus
+speciﬁc chromosomal
+regions. These genomic loci were
+selected because they are the most commonly ampliﬁed chro-
+mosomal regions in breast cancer regardless of tumor subtype
+(e.g., 8q24) or within a speciﬁc tumor subtype (Nikolsky et al.,
+2008). Phenotypic heterogeneity was assessed by staining for
+CD44 and CD24 (Figure 1A) because prior studies from our
+and other laboratories demonstrated that these cell surface
+
+Figure 1. Genetic Diversity in Breast Cancer According to Tumor Subtype and Treatment
+(A) Representative images of iFISH in four tumors of the indicated subtypes before and after treatment.
+(B) Shannon index of diversity in each tumor subtype before and after treatment calculated based on unique BAC and CEP counts for each cell. Each dot
+represents an individual tumor, black line shows mean ± SEM, and colors indicate luminal A (dark green), luminal B (light green), triple-negative (orange), and
+HER2+ (violet) tumor subtypes. Asterisks mark signiﬁcant differences between subtypes: *p % 0.05 and **p % 0.01, by Wilcoxon rank sum test.
+(C) Correlations between Shannon indices in each tumor before and after treatment and the relative change in diversity in each tumor. Black line shows mean ± SEM.
+(D) Correlations between pre- and posttreatment Shannon indices in the indicated cell subpopulations and tumor subtypes. Not all cell subpopulations are
+present in all tumors.
+(E) Shannon index in phenotypically distinct subpopulations in individual tumors before and after treatment. Each vertical line separates individual cases. LumA,
+luminal A; LumB, luminal B; TN, triple negative.
+(F) Correlations between Shannon indices in each tumor before and after treatment for the indicated loci.
+See also Figure S1 and Tables S1 and S2.
+
+Cell Reports 6, 1–14, February 13, 2014 ª2014 The Authors 3
+
+Please cite this article in press as: Almendro et al., Inference of Tumor Evolution during Chemotherapy by Computational Modeling and In Situ Analysis
+of Genetic and Phenotypic Cellular Diversity, Cell Reports (2014), http://dx.doi.org/10.1016/j.celrep.2013.12.041
+
+markers identify cancer cells with distinct molecular and biolog-
+ical properties (Al-Hajj et al., 2003; Bloushtain-Qimron et al.,
+2008; Li et al., 2008; Liu et al., 2007; Shipitsin et al., 2007),
+including genetic heterogeneity both between and within
+CD44+ and CD24+ breast cancer cell populations (Park et al.,
+2010a; Shipitsin et al., 2007). The neoplastic nature of the cells
+was conﬁrmed by examining cellular and nuclear morphology
+using adjacent hematoxylin and eosin-stained slides and in
+the majority of cases by the presence of chromosomal copy
+number gain.
+
+ 
+
+ 
+
+ 
+CD24
+
+CD24+, and CD44
+
+The 8q24 BAC and chromosome 8 (chr8) CEP signals were
+counted in about 100 individual cells for each of the four pheno-
+ 
+typically distinct tumor cell populations (i.e., CD44+CD24
+,
+CD44+CD24+, CD44
+cells). Diversity
+was evaluated based on Shannon and Simpson indices (Magur-
+ran, 2004) that were calculated in four different ways based on
+measures of (1) copy number of 8q24 (BAC probe), (2) copy
+number of chr8 centromeric region (CEP), (3) ratio of BAC/CEP
+counts, and (4) individual copy number of both BAC and CEP
+probes in each cell (unique counts). Overall, each of the four
+different calculations displayed similar
+relative differences
+among tumors and matched pre- and posttreatment samples,
+but diversity indices were the highest based on unique counts
+(Table S2). Thus, owing to its more accurate prediction of genetic
+diversity, we subsequently used unique counts for all analyses
+unless otherwise indicated.
+
+First, we investigated whether pre- and posttreatment ge-
+netic diversity for 8q24 is different in distinct breast tumor
+subtypes. HER2+ tumors had signiﬁcantly higher diversity after
+treatment compared to luminal B and TNBC tumors (Figure 1B;
+Table S2). However, there was no signiﬁcant difference in
+overall genetic diversity in any of the tumors between pre-
+and posttreatment samples (Figure 1C). Next, we investigated
+potential changes in genetic diversity in phenotypically distinct
+tumor cell subpopulations. We required cell subpopulations for
+analysis to represent at least 5% of all cancer cells within a
+tumor in order to avoid a counting bias; thus, not all four pheno-
+typic types were analyzed in all samples. In some tumors, we
+observed signiﬁcant differences in the relative distribution of
+copy number for BAC or CEP probes or BAC/CEP ratios in
+speciﬁc cell subpopulations when comparing pre- and post-
+treatment data (Figure S1A). We also observed changes in
+cell populations and unique cancer cells based on kernel
+density estimates and Whittaker plots (Figures S1B and S1C).
+However, pairwise analysis of pre- and posttreatment
+differences in genetic diversity in each of the four phenotypic
+subpopulations across all tumors did not reveal signiﬁcant
+changes (Figure 1D); cell-type-speciﬁc genetic diversity was
+signiﬁcantly higher after treatment only in a few cases (Fig-
+ure 1E; Table S2).
+
+To ensure that our results were not due to the inaccurate
+reﬂection of overall genomic diversity based on 8q24 counts,
+we also analyzed three additional loci commonly ampliﬁed in
+luminal (16p13), TNBC (10p13), and HER2+ (20q13) tumors.
+Similar to 8q24, these additional loci also failed to demonstrate
+signiﬁcant changes in genetic diversity (Figure 1F). Our data
+suggest that genetic diversity is an intrinsic tumor trait that re-
+mains relatively stable during treatment.
+
+4 Cell Reports 6, 1–14, February 13, 2014 ª2014 The Authors
+
+ 
+
+Changes in Phenotypic Heterogeneity Highlight Biologic
+Differences among Cell Types
+To determine potential changes in cellular phenotypes due to
+treatment, we analyzed the relative frequency of the four distinct
+cell subpopulations within tumors. We observed a signiﬁcant
+CD24+ cells in luminal A,
+increase in the frequency of CD44
+luminal B, and TNBC tumors after treatment, and residual
+cells (Figures
+TNBC tumors were also enriched for CD44
+2A and 2B). Concomitantly, there were fewer CD44+CD24
+cells
+in luminal A and triple-negative tumors after treatment, whereas
+HER2+ tumors displayed very few changes in the distribution of
+cell subpopulations. Next, we estimated the degree of pheno-
+typic diversity based on the Shannon index and found that
+phenotypic diversity for CD44 and CD24 markers tends to
+decrease in luminal tumors, whereas it increases in TNBC tu-
+mors (Figure S2).
+
+ 
+CD24
+
+ 
+
+ 
+
+ 
+
+and CD44
+
+Because chemotherapy is thought to target proliferative cells
+(Collecchi et al., 1998), the observed changes in the relative
+frequencies of the four cell subpopulations could be due to
+cell-type-speciﬁc differences in proliferation. Thus, we assessed
+the frequency of cells positive for the Ki67 proliferation marker
+within each of the four cell types before and after treatment.
+The fraction of Ki67+ cells was lower in all cell types in all tumors
+after treatment, with only a few exceptions (Figure S3A). We also
+observed signiﬁcant differences in the proportion of Ki67+ cells
+ 
+before treatment between CD44+CD24
+CD24+ cell
+populations, which were the most and least proliferative, respec-
+tively (Figures 2C and 2D). Spearman correlation analysis of
+associations between changes in the frequency of Ki67+ cells
+and cell subpopulations revealed a signiﬁcant positive correla-
+tion in CD44+CD24
+cells (p = 0.007) and a signiﬁcant negative
+CD24+ cells (p < 0.001) (Figure 2E). These
+correlation in CD44
+results imply that the increase in the relative frequency of
+CD24+ compared to CD44+ cells after treatment might be due
+to the preferential elimination of the more proliferative CD44+
+cells by chemotherapy. Thus, if a tumor remains highly prolifera-
+-to-
+tive after
+ 
+CD24+ cell ratio. However, the possibility of conversion
+CD44
+from CD44+ to CD24+ cellular phenotypes or a change in the
+expression of these markers due to the cell-cycle phase or as
+a direct effect of treatment cannot be excluded. These results
+are in agreement with previous ﬁndings that treatment selects
+for slow-growing CD24+ cancer cells in lung cancer (Sharma
+et al., 2010) and in melanoma (Roesch et al., 2013).
+
+it has a higher CD44+CD24
+
+treatment,
+
+ 
+ 
+
+ 
+
+Differences in cellular proliferation could also be related to
+differences in genetic diversity because faster-growing cells
+may have a larger population size and might therefore be more
+likely to accumulate genetic abnormalities. Thus, we also
+analyzed potential associations between the proliferation rate
+of each cell type and its genetic diversity index. Spearman
+correlation analysis demonstrated signiﬁcant associations be-
+tween Ki67 levels and the Shannon index of genetic diversity in
+ 
+CD24+ (p = 0.007) and CD44+CD24+ (p = 0.027) cells
+CD44
+before treatment, suggesting that the observed genetic diversity
+in these cell subpopulations could be inﬂuenced by their lower
+proliferation rates (Figure S3B). In contrast, after treatment,
+Ki67 levels and Shannon indices showed a signiﬁcant (p =
+0.04) correlation only in CD44+CD24
+cells. We failed to observe
+
+ 
+
+Please cite this article in press as: Almendro et al., Inference of Tumor Evolution during Chemotherapy by Computational Modeling and In Situ Analysis
+of Genetic and Phenotypic Cellular Diversity, Cell Reports (2014), http://dx.doi.org/10.1016/j.celrep.2013.12.041
+
+Figure 2. Changes in Phenotypic Heterogeneity and Cell-Type-Speciﬁc Variations in Proliferation Rates
+(A) Changes in the frequency of the indicated cell subpopulations in the different tumor subtypes. Dotted line connects values for each cell subpopulation before
+and after treatment. Signiﬁcant p values by two-sided Wilcoxon matched-pairs signed rank test are shown.
+(B) Box plot depicts relative changes in the frequency of each of the four cell subpopulations. Boxes correspond to 25th–75th percentile, whereas whiskers mark
+maximum and minimum values. Asterisks indicate statistically signiﬁcant differences by two-sided Wilcoxon matched-pairs signed rank test: *p < 0.05 and **p < 0.01.
+(C) Representative immunoﬂuorescence images of Ki67 staining in speciﬁc cell subpopulations.
+(D) Frequency of Ki67+ cells before treatment. Boxes correspond to 25th–75th percentile, whereas whiskers mark maximum and minimum values.
+(E) Correlation between differences (D denotes posttreatment minus pretreatment values) in the frequency of cell subpopulations and percentage (%) of Ki67+
+cells after treatment. Negative values indicate a decrease of each variable after treatment. A 95% conﬁdence interval is indicated in yellow.
+See also Figures S2 and S3.
+
+any associations between changes in diversity and changes in
+the fraction of Ki67+ cells during treatment (Figure S3C), sug-
+gesting that although differences in proliferation could be asso-
+ciated with differences in diversity in some cell subpopulations
+before treatment, changes in proliferation were not generally
+associated with differences in diversity after treatment.
+
+Topology Maps to Explore Changes of Cellular
+Heterogeneity in Spatially Explicit Context
+The previous analyses focused on population-level genotypic
+and phenotypic diversity. However, intermixing of tumor cells
+is substantially restricted in solid tumors by tissue architecture.
+Furthermore, heterogeneity of intratumor microenvironments,
+including differences in extracellular matrix and vascularization,
+
+is expected to impact selective pressures and differentiation
+cues, thereby translating into differences in genotypes and
+phenotypes. Therefore, we decided to address whether ac-
+counting for spatially explicit tissue organization can reveal
+therapy-induced changes in cellular heterogeneity missed by
+population-based analyses. To investigate this issue, we created
+tumor topology maps by analyzing the distribution of cancer
+cells with distinct genotypes and phenotypes in three physically
+distinct regions in 15 tumors (5 of each of the 3 major subtypes)
+before and after treatment. These cases were selected based on
+the presence of sufﬁciently large cell numbers after treatment to
+allow cell-to-cell interaction analyses. For each cell, we recorded
+copy numbers of 8q24 BAC and chr8 CEP probes and cellular
+phenotype. Representative examples of such topology maps
+
+Cell Reports 6, 1–14, February 13, 2014 ª2014 The Authors 5
+
+Please cite this article in press as: Almendro et al., Inference of Tumor Evolution during Chemotherapy by Computational Modeling and In Situ Analysis
+of Genetic and Phenotypic Cellular Diversity, Cell Reports (2014), http://dx.doi.org/10.1016/j.celrep.2013.12.041
+
+Figure 3. Analysis of Tumor Topology
+(A–C) Maps showing topologic differences in the distribution of genetically distinct tumor cells based on copy number for 8q24 BAC (A), chr8 CEP (B), and cellular
+phenotype (C) in three different regions of a luminal A tumor (Patient 1).
+(D) Histograms depicting absolute differences in copy numbers for BAC and CEP probe counts regardless of phenotype in all cells or in adjacent cells before and
+after treatment.
+
+(legend continued on next page)
+
+6 Cell Reports 6, 1–14, February 13, 2014 ª2014 The Authors
+
+Please cite this article in press as: Almendro et al., Inference of Tumor Evolution during Chemotherapy by Computational Modeling and In Situ Analysis
+of Genetic and Phenotypic Cellular Diversity, Cell Reports (2014), http://dx.doi.org/10.1016/j.celrep.2013.12.041
+
+Figure 4. Genotype of All Cells and Adjacent Cells within Tumors
+(A and B) Histograms depicting variability for 8q24 BAC and chr8 CEP probe counts regardless of phenotype in all cells (left panel) or in adjacent cells (right panel)
+before and after treatment in a triple-negative tumor (patient 20) (A) and in a HER2+ tumor (patient 30) (B).
+(C) Summary of differences for 8q24 BAC or chr8 CEP probe counts in all cells before and after treatment in the 15 tumors analyzed. Asterisks mark signiﬁcant
+differences, and red and blue color indicates increase and decrease in differences, respectively. Data are presented as mean ± SEM.
+
+are depicted in Figures 3A–3C (Patient 1, Luminal A tumor) and
+S4 (patient 20, TNBC, and patient 30, HER2+ tumor). The tumor
+of patient 1 showed a marked increase in both 8q24 BAC and
+ 
+CD24+
+chr8 CEP copy numbers and in the frequency of CD44
+cells after treatment (Figures 3A–3C). In patient 20, there was a
+clear decrease in both 8q24 BAC and chr8 CEP copy numbers,
+but no substantial changes in the frequencies of cellular pheno-
+types (Figures S4A–S4C). In contrast, in patient 30, there was a
+dramatic increase in 8q24 BAC copy numbers with a concomi-
+tant decrease in chr8 CEP counts but essentially no changes
+in cellular phenotypes (Figures S4D–S4F). Therefore, at least
+some tumors display substantial phenotypic and genotypic
+differences pre- and posttreatment. Despite these changes,
+pre- and posttreatment genetic diversity indices in the three
+topologically distinct areas of each tumor were not signiﬁcantly
+different (Table S3; Figure S5), with the exception of two cases
+(patients 1 and 3, both with partial response to treatment). These
+results imply that the analysis of even one region might be sufﬁ-
+cient to assess overall genetic diversity of a tumor. However,
+because the distant regions we compared were still within one
+section and one biopsy, the possibility cannot be excluded
+
+that biopsies taken from distant parts of the tumor may show
+more pronounced differences. Furthermore, the lack of signiﬁ-
+cant differences in genetic diversity in different regions of the
+same tumor does not mean that tumor cells located in distinct
+areas are genetically identical. It rather implies that diversity is
+an inherent feature of the tumors that is less subjective to sam-
+pling bias than the measurement of a speciﬁc trait.
+
+Effect of Treatment on the Distribution of Genetic
+Heterogeneity within Topology Maps
+We then employed the topology maps to assess the effects of
+treatment on spatial distribution of genetic heterogeneity by
+measuring genetic distances between the adjacent and all
+cancer cells within tumors using the copy number differences
+for both 8q24 BAC and chr8 CEP. We observed that in most
+cases, the distribution of the differences in copy number was
+signiﬁcantly different after treatment compared to before treat-
+ment, both when considering the differences only in adjacent
+cells or in all cells (Figures 3D and 4A). However, in some cases,
+the distribution of the differences in adjacent cells was not signif-
+icantly different (Figure 4B), indicating the differential topologic
+
+(E) Histograms depicting absolute differences in copy numbers for BAC and CEP probe counts in all cells of the same phenotype or in adjacent cells of the same
+ 
+phenotype before and after treatment. CD44+CD24
+(F) Fraction of adjacent cells with the same phenotype before and after treatment. Asterisks indicate signiﬁcant changes. Signiﬁcance of differences was
+determined by calculating the homotypic fraction for 100,000 iterations of permutation testing over randomized cellular phenotypes.
+See also Figures S4 and S5 and Table S3.
+
+and CD44+CD24+ cell subpopulations are not present after treatment.
+
+Cell Reports 6, 1–14, February 13, 2014 ª2014 The Authors 7
+
+Please cite this article in press as: Almendro et al., Inference of Tumor Evolution during Chemotherapy by Computational Modeling and In Situ Analysis
+of Genetic and Phenotypic Cellular Diversity, Cell Reports (2014), http://dx.doi.org/10.1016/j.celrep.2013.12.041
+
+distribution of cells with similar copy number. We observed
+that in several tumors, the genetic distance for both 8q24 BAC
+and chr8 CEP probes changed in the same direction after
+treatment, whereas in a few cases, the divergence for the 8q24
+BAC probe decreased with a concomitant increase in variability
+for chr8 CEP (Figures 3D and 4A–4C). Overall, in the 15 tumors
+analyzed, the cell-to-cell variability for 8q24 BAC and chr8 CEP
+counts was signiﬁcantly higher after treatment in eight cases,
+lower for chr8 CEP copy number in ﬁve patients, and decreased
+for 8q24 in three cases (Figure 4C). Therefore, incorporation of
+spatially explicit context into analysis of genetic diversity has
+revealed differences missed by population-wide analysis. How-
+ever, the causes of the observed differences are difﬁcult to inter-
+pret because increase in copy number differences between
+adjacent cells after chemotherapy could be due to an increase
+in genetic instability, the selection for slowly proliferating cells
+that are more likely to be phylogenetically distinct, or increased
+cell migration.
+
+We then sought to obtain further insight by analyzing changes
+in genetic divergence within cells with similar phenotype
+focusing on the four phenotypically distinct cellular subpopula-
+tions deﬁned by expression of CD24 and CD44. We found sig-
+niﬁcant cell-type-speciﬁc differences in the degree of genetic
+variability between all cells and all adjacent cells of the same
+phenotype within individual tumors. For example, in a luminal
+tumor (patient 1), the increase in cell-to-cell variability for 8q24
+ 
+CD24+
+and chr8 CEP copy numbers was signiﬁcant in CD44
+cells when considering all cells, whereas in
+and CD44
+ 
+CD24+ fraction showed a sig-
+adjacent cells, only the CD44
+niﬁcant increase for both BAC and CEP probes (Figure 3E).
+In this tumor, we could not detect any CD44+CD24
+and
+CD44+CD24+ cells after treatment. Thus, it is possible that the
+ 
+CD24+ and
+increased genetic heterogeneity of
+fractions was due to phenotypic switch of the
+CD44
+CD44+ cell populations due to treatment.
+
+ 
+CD24
+
+the CD44
+
+CD24
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Similarly, in a TNBC (patient 20), variability for 8q24 and chr8
+ 
+
+ 
+CEP counts decreased in all CD44+CD24
+CD24
+cells (adjacent or not), but in CD44+CD24+ cells, the variability
+for 8q24 only decreased in adjacent cells (Figures 5A and 5B).
+Similar differences were observed in other cases for changes
+in genetic variability between adjacent cells compared to all cells
+within the tumor, like in a HER2+ tumor (patient 30) (Figures 5B
+and 5C).
+
+and CD44
+
+The increased genetic variability in adjacent cells of the same
+phenotype together with the signiﬁcant changes in the relative
+frequency of distinct cell subpopulations due to treatment
+suggests either selection for distinct phenotypes based on their
+differential sensitivity to the treatment or increased rates of
+genomic instability resulting from the treatment. Interestingly,
+in all 15 tumors analyzed, the frequency of homotypic-pheno-
+typic clustering was signiﬁcantly higher compared to the hetero-
+typic one both before and after treatment (Figure 3F). Thus,
+tumor cells tend to cluster more based on their phenotype than
+on their genotype. The results of these topology analyses high-
+light the insights afforded by analyzing tumors at the single-cell
+level and in situ because the spatial organization of the cells
+with distinct genotypes and phenotypes is lost when analyzing
+bulk tissues or dissociated cells.
+
+8 Cell Reports 6, 1–14, February 13, 2014 ª2014 The Authors
+
+Computational Modeling Allows an Investigation of
+Tumor Growth Patterns and Evolution during Treatment
+To better understand the forces that could give rise to the
+observed patterns of spatial clustering of cells with the same
+phenotype, we next developed a stochastic computational
+model of cellular proliferation and death utilizing our tumor topol-
+ogy and Ki67 data (see Supplemental Experimental Procedures
+for details). This model is based on a stochastic process of cell
+growth and death in a 2D cross-section of a tumor, implemented
+as a patient-speciﬁc computer simulation informed by para-
+meters measured in a patient-speciﬁc manner. This model was
+used to investigate the growth patterns and evolutionary dy-
+namics of tumor cells during chemotherapy and also enabled
+us to determine the extent to which proliferation alone could
+explain the detected clustering of phenotypes.
+
+The initialization state for the simulation for each patient con-
+sisted of the cell coordinates for each cell in the pretreatment
+samples, an estimation of the age of each cell based on its
+size, and the cellular phenotypes. We considered the average
+length of the cell cycle across all cellular phenotypes and all
+patients to be comparable to the average cell-cycle time deter-
+mined by cell line experiments (Schiffer et al., 1979), and then
+varied individual cell-cycle times based on the corresponding
+Ki67 values. Initially, we assumed that daughter cells maintained
+the same phenotype as the mother cell, thus neglecting the
+possibility of phenotypic switching or migration; this assumption
+was later relaxed.
+
+Each patient-speciﬁc simulation was performed for three
+phases of proliferation. The ﬁrst phase consisted of the period
+of time between biopsy and start of chemotherapy. Cell prolifer-
+ation occurred at the rates determined by the pretreatment Ki67
+data. The probability of cell death per unit time for each pheno-
+type was selected to maintain a roughly constant population
+size. We chose these values for cell death because rates of
+apoptosis correlate well with proliferation, and the montage of
+visualized cells did not consist of cells crowded together as
+would be consistent with high growth rates. During treatment,
+we lowered proliferation by 5% and adjusted the rate of cell
+death accordingly. This choice of treatment effect was selected
+by ﬁtting the number of cells at the end of the simulation to the
+number of cells observed in the posttreatment samples, and
+due to evidence of a decrease in proliferation with anthracyclines
+with a corresponding decrease in apoptotic index (Burcombe
+et al., 2006). The last phase consisted of the period of time
+between the end of chemotherapy and surgery. Cell proliferation
+in this phase occurred at the rates determined by the post-
+treatment Ki67 data (Figure 6). These three time periods were
+obtained individually for each patient and implemented in the
+patient-speciﬁc simulations.
+
+Using this model, we found that
+
+the level of clustering
+detected in our posttreatment samples was less than what
+would be expected in a model without cellular motility or
+phenotypic switching (Figure 6; Table S4; Movie S1). Therefore,
+we sought to determine rates of phenotypic switching that
+types found in our post-
+would ﬁt
+treatment samples. We identiﬁed a lower
+for
+phenotypic switching or motility among the luminal tumors,
+whereas we observed both low and high rates for patients
+
+the distribution of cell
+
+requirement
+
+Please cite this article in press as: Almendro et al., Inference of Tumor Evolution during Chemotherapy by Computational Modeling and In Situ Analysis
+of Genetic and Phenotypic Cellular Diversity, Cell Reports (2014), http://dx.doi.org/10.1016/j.celrep.2013.12.041
+
+Figure 5. Genetic and Phenotypic Differences between All Cells and Adjacent Cells
+(A) Histograms depicting variability for 8q24 BAC and chr8 probe counts in all cells of the same phenotype (left panel) or in adjacent cells of the same phenotype
+(right panel) before and after treatment in a triple-negative tumor (patient 20).
+(B) Plots depicting differences in 8q24 BAC and chr8 CEP copy number in all adjacent cells and in adjacent cells of the same phenotype. Asterisks indicate
+signiﬁcant differences, and yellow and green color indicates increase and decrease in differences, respectively. Data are presented as mean ± SEM.
+(C) Similar as (A), histograms for a HER2+ tumor (patient 30).
+
+with HER2+ and triple-negative tumors (see Supplemental
+Experimental Procedures for more details). The inclusion of
+migration in this model, based on intravital
+imaging of meta-
+static breast cancer cells (Kedrin et al., 2008), led to increases
+in the rates of phenotypic switching necessary to recapitulate
+the posttreatment data but did not change the relative ordering
+of the breast tumor subtypes with regard to this rate. Migration
+was assumed to occur in a nondirected manner (i.e., in random
+for CD44+
+directions) and was considered to be higher
+ 
+CD24+
+CD24
+and CD44
+cells. This model provides a proof of princi-
+ple of feasibility of the prediction of therapy-induced pheno-
+typic changes in tumor based on the detailed characterization
+of tissue samples at
+level before and after
+treatment.
+
+and CD44+CD24+ cells as compared to CD44
+
+the single-cell
+
+ 
+
+ 
+CD24
+
+ 
+
+The Impact of Intratumor Diversity on Therapeutic
+Responses
+To explore the potential impact of intratumor diversity on thera-
+peutic resistance, we compared genetic and phenotypic diver-
+sity among tumors classiﬁed as pCR and pathological partial
+response (pPR) or stable disease. Interestingly, tumors with
+pCR had the lowest pretreatment genetic diversity using mea-
+sures that incorporated 8q24 copy number, whereas tumors
+with partial response or stable disease were not signiﬁcantly
+different from each other, neither before nor after treatment (Fig-
+ures 7 and S6A; Table S5).
+
+Age at diagnosis affects both breast tumor subtype and the
+success of chemotherapy within a subtype (Hess et al., 2006).
+TNBC is more common in younger women, and chemotherapy
+also tends to be more effective in younger patients (Silver
+
+Cell Reports 6, 1–14, February 13, 2014 ª2014 The Authors 9
+
+Please cite this article in press as: Almendro et al., Inference of Tumor Evolution during Chemotherapy by Computational Modeling and In Situ Analysis
+of Genetic and Phenotypic Cellular Diversity, Cell Reports (2014), http://dx.doi.org/10.1016/j.celrep.2013.12.041
+
+Figure 6. Examples of Snapshots of Computer-Simulated Tumor Growth during Treatment
+Representative images depicting changes in tumor topology and cellular composition during treatment based on simulations. Modeling was built based on actual
+data obtained from cases analyzed for topology. Confocal images were converted into topology maps for the distribution of cell phenotypes that served as time
+zero for the mathematical simulations of tumor growth. See also Table S4 and Movie S1.
+
+et al., 2010). These epidemiological data suggest that tumors of
+different subtypes may have different evolutionary paths and
+growth kinetics such as the length of time from tumor initiation
+to diagnosis, which may inﬂuence both treatment responses
+and intratumor heterogeneity. Thus, we analyzed potential
+associations between the age at diagnosis and the Shannon
+diversity index of each tumor. We found that the extent of pre-
+treatment diversity did not display a signiﬁcant correlation with
+patient age (Figure S6B). However, older age at diagnosis was
+signiﬁcantly correlated with a decrease in genetic diversity
+during treatment in TNBC (p = 0.025) and an increase in genetic
+diversity in HER2+ tumors (p = 0.038; Figure S6C). These results
+suggest that TNBC in older women may have a dominant, slowly
+proliferating subpopulation that
+to treatment,
+whereas HER2+ tumors in older women might be more geneti-
+cally unstable.
+
+is resistant
+
+It is possible that treatment-induced changes in genetic
+diversity might be masked by rediversiﬁcation during the time
+interval between the end of treatment and posttreatment sample
+collection (i.e., surgery). Similarly, the duration of the treatment
+(i.e., length of selective pressure) might affect intratumor genetic
+diversity. Thus, we analyzed potential associations between
+these clinical variables and changes in genetic diversity but did
+not detect any signiﬁcant associations (Figures S6D and S6E).
+These results suggest that the observed lack of changes in ge-
+
+10 Cell Reports 6, 1–14, February 13, 2014 ª2014 The Authors
+
+netic diversity during neoadjuvant chemotherapy is not likely to
+be affected by the lengths of treatment and time between the
+last dose of chemotherapy and the surgical removal of residual
+tumors.
+
+DISCUSSION
+
+Here, we describe a single-cell-based analysis of intratumor
+genetic and phenotypic diversity and topology in a cohort of
+breast tumors prior to and after neoadjuvant chemotherapy.
+Although inter- and intratumor heterogeneity has been described
+and well characterized in breast cancer (Cancer Genome Atlas
+Network, 2012; Geyer et al., 2010; Hernandez et al., 2012;
+Polyak, 2011; Stephens et al., 2012; Yap et al., 2012), our
+knowledge of how intratumor heterogeneity may change during
+therapeutic interventions in distinct subtypes of breast cancers
+is very limited.
+Neoadjuvant
+
+(i.e., preoperative) chemotherapy is a well-
+established standard treatment option for patients diagnosed
+with locally advanced disease or patients with large potentially
+operable tumors (Kaufmann et al., 2006).
+In addition to its
+effectiveness in reducing the size of the primary tumor, allow-
+ing for
+less-extensive surgery, neoadjuvant chemotherapy
+also improves long-term clinical outcome, presumably by elim-
+inating micrometastatic disease (Fisher et al., 1998). Moreover,
+
+Please cite this article in press as: Almendro et al., Inference of Tumor Evolution during Chemotherapy by Computational Modeling and In Situ Analysis
+of Genetic and Phenotypic Cellular Diversity, Cell Reports (2014), http://dx.doi.org/10.1016/j.celrep.2013.12.041
+
+success of neoadjuvant chemotherapy. The frequency of
+CD44+ stem cell-like and CD24+ more-differentiated breast
+cancer cells varies within tumors according to subtype, with
+CD44+ cells being more common in TNBCs than in luminal
+cancers (Honeth et al., 2008; Park et al., 2010b). The relative
+frequency of these cells within tumors also changes during
+neoadjuvant chemotherapy. A study analyzing pre- and
+posttreatment samples by ﬂuorescence-activated cell sorting
+cells; however,
+(FACS)
+the neoplastic nature of
+these cells was not conﬁrmed
+(Li et al., 2008). Another report found that whereas an increased
+frequency of CD44+CD24
+cells after neoadjuvant chemo-
+therapy was a poor prognostic factor, tumors that had a high
+fraction of these cells were more likely to have a pCR (Lee
+et al., 2011).
+
+found an increase in CD44+CD24
+
+ 
+
+ 
+
+Figure 7. Associations between Intratumor Diversity and Pathologic
+Response to Treatment
+(A) Shannon index of diversity before and after treatment in tumors with
+different response to treatment. Signiﬁcant p values between groups by the
+Wilcoxon rank sum test are indicated. Black lines show the mean ± SEM.
+Tumors with lower pretreatment diversity are more likely to have pCR
+regardless of tumor subtype. Tumors with pCR were only analyzed prior to
+treatment because there was no tumor tissue left at the time of surgery.
+(B) Shannon index of diversity before and after treatment in tumors with
+different grade. Boxes correspond to 25th–75th percentile, whereas whiskers
+mark maximum and minimum values. Signiﬁcant p values by two-sided Wil-
+coxon matched-pairs signed rank test are shown.
+See also Figure S6 and Table S5.
+
+a pCR to neoadjuvant treatment is a strong predictor of long-
+term disease-free survival (Esserman et al., 2012), particularly
+in estrogen receptor
+(ER)-negative cancers. Despite wide-
+spread use of neoadjuvant therapies, our knowledge of their
+inﬂuence on the subsequent evolution of the tumors is very
+limited.
+
+The success of chemotherapy is inﬂuenced by breast tumor
+subtype, with luminal tumors in general being less responsive
+than HER2+ and TNBC (Houssami et al., 2012). Because chemo-
+therapy is thought to target proliferating cells, associations
+between tumor proliferation (measured by the Ki67 index) and
+treatment response have been extensively characterized, with
+conﬂicting results. A recent study found that the relative change
+in the fraction of Ki67+ cells, but not the absolute pre- and post-
+treatment levels of Ki67+ cells, is an independent predictor of
+treatment outcomes after neoadjuvant chemotherapy in luminal
+B, HER2+, and TBNC subtypes (Matsubara et al., 2013).
+Changes in hormone receptors and HER2 due to neoadjuvant
+therapy have also been analyzed with inconclusive results (van
+de Ven et al., 2011).
+
+More recently, intratumor heterogeneity for cellular pheno-
+types, mainly focusing on stem cell-like and more differentiated
+cell features, has been explored as a potential predictor of the
+
+ 
+
+Here, we showed that whereas overall
+
+intratumor cellular
+genetic diversity for 8q24, 16p13, 10p13, and 20q does not
+change during treatment in tumors with a partial or no response,
+there are signiﬁcant changes in phenotypically distinct tumor cell
+subpopulations within tumors and in the relative localization of
+these populations of cells. Some of these changes might be
+explained by the observed differences in the proliferation rates
+among cell types, with CD44+CD24
+cells being more prolifera-
+tive and thus more likely to be eliminated. Our data, however,
+also imply potential changes in cellular phenotypes and selection
+for cells with more differentiated luminal features due to lower
+sensitivity to the therapy stemming from lower proliferation
+capacity. Moreover, our ﬁndings provide a potential explanation
+for the apparent paradox between the presumed resistance of
+CD44+ stem cell-like breast cancer cells (i.e., cancer stem cells)
+(Dave et al., 2012) and our data demonstrating a relative
+decrease in this cell population due to treatment. Based on
+our data, CD44+CD24
+cells are more proliferative than
+CD24+ cells, and thus, they might be preferentially elimi-
+CD44
+nated by chemotherapy. If a tumor does not respond to treat-
+ment due to inherent resistance, which is independent of stem
+cell-like or epithelial phenotype, then there is an apparent in-
+crease in the relative frequency of CD44+CD24
+cells due to their
+higher proliferation.
+
+ 
+
+ 
+
+ 
+
+Our observation that in some cases adjacent cells within a
+tumor are more likely to be genetically divergent yet phenotypi-
+cally similar implies that homotypic cell-cell interactions might
+favor treatment resistance and also that chemotherapy might in-
+crease genetic instability or select for cells with higher chromo-
+somal instability.
+
+Our computational model of tumor cell proliferation provides a
+tool with which we can predict changes in the distribution of cell
+phenotypes in a patient-speciﬁc fashion. These variations can
+manifest themselves in spatial coordinates and clustering of
+cells, or they can be the result of changing population dynamics
+over periods of time with and without therapy. Here, we found
+that
+the clustering of cellular phenotypes could not have
+occurred solely due to cell division placing daughter cells closer
+to the parent cell but must require some level of phenotypic plas-
+ticity. We tested varying levels of phenotypic switching and
+found that no single rate of switching could account for the diver-
+gence between simulation and biopsy samples: instead, rates of
+switch may vary at the subtype or individual patient level. We
+
+Cell Reports 6, 1–14, February 13, 2014 ª2014 The Authors 11
+
+Please cite this article in press as: Almendro et al., Inference of Tumor Evolution during Chemotherapy by Computational Modeling and In Situ Analysis
+of Genetic and Phenotypic Cellular Diversity, Cell Reports (2014), http://dx.doi.org/10.1016/j.celrep.2013.12.041
+
+also investigated the effects of migration on the predicted levels
+of phenotypic switching and found that migration increases
+the rate of phenotype switching necessary to explain the patient
+data. This effect might arise because migration scatters
+cells more widely throughout the tumor, and hence, phenotype
+switching is needed to return the patterns of cells to those
+observed in patient samples.
+
+In summary, our data provide an integrated view of how the
+genotype (measured by 8q24 copy number), phenotype (CD24
+and CD44 expression and proliferation state), and topology
+(distribution of cancer cells with deﬁned genotype and pheno-
+type within tumors) change in response to neoadjuvant chemo-
+therapy in breast cancer. Because phenotypic diversity in
+combination with selection pressure by local microenviron-
+mental signals is the driver of tumor evolution, our results high-
+light the importance of using an integrated approach. Finally,
+our in silico simulation of tumor growth using models built on
+the patient-speciﬁc characterization of tumors at the single-cell
+level in situ prior to and after chemotherapy illustrates the feasi-
+bility of predicting the evolution of tumors during treatment—
+knowledge that could be used for the design of more effective
+treatment strategies.
+
+EXPERIMENTAL PROCEDURES
+
+For further details, see the Supplemental Experimental Procedures.
+
+ImmunoFISH
+The use and collection of the human tissue samples were performed following
+protocols approved by the institutional review boards of the hospitals partici-
+pating in this study. Formalin-ﬁxed parafﬁn-embedded breast tumor samples
+were dewaxed in xylene and hydrated in a series of ethanol. Heat-induced
+antigen retrieval was performed in citrate buffer (pH 6), following by pepsin
+digestion. The immunostaining for CD44 and CD24 was performed at room
+temperature, followed by the hybridization with BAC and CEP probes and
+incubation for 20 hr at 37
+C. After several washes with different stringent
+SCC buffers, the slides were air-dried and protected for long storage with
+ProLong Gold. Different immunoﬂuorescence images from multiple areas of
+each sample were acquired with a Nikon Ti microscope attached to a Yoko-
+gawa spinning-disk confocal unit, 603 plan apo objective, and OrcaER cam-
+era controlled by Andor iQ software.
+
+
+
+Immunoﬂuorescence Analysis of Cellular Phenotypes and
+Proliferation
+Multicolor immunoﬂuorescence for CD44, CD24, and Ki67 was performed
+using whole sections of formalin-ﬁxed parafﬁn-embedded breast tumor sam-
+ples by sequential staining after antigen retrieval
+in citrate buffer (pH 6).
+Different immunoﬂuorescence images were acquired as described before,
+and the frequency of each cell phenotype was calculated by counting an
+average of 300 cells in each sample.
+
+Statistical Analyses
+Genetic diversity was determined as described by Park et al.
+(2010a).
+Statistical differences in genetic diversity were analyzed by bootstrapping
+and comparing the mean count of each bootstrap repetition against the
+mean count of the smaller cell population. Correlations were assessed using
+Spearman’s rank-based coefﬁcient. The association between diversity indices
+and clinical variables was assessed using the Wilcoxon test for categorical
+clinical variables (such as response) and a permutation test based on Spear-
+man’s rank correlation for continuous clinical variables (such as size). Statisti-
+cal differences in pre- and posttreatment BAC and CEP counts were evaluated
+using the achieved signiﬁcance level (ASL) method of Efron and Tibshirani
+(1993).
+
+12 Cell Reports 6, 1–14, February 13, 2014 ª2014 The Authors
+
+SUPPLEMENTAL INFORMATION
+
+Supplemental Information includes Supplemental Experimental Procedures,
+six ﬁgures, ﬁve tables, and one movie and can be found with this article online
+at http://dx.doi.org/10.1016/j.celrep.2013.12.041.
+
+ACKNOWLEDGMENTS
+
+We thank members of our laboratories for their critical reading of this manu-
+script and useful discussions. We thank Lisa Cameron in the DFCI Confocal
+Microscopy for her technical support. This work was supported by the National
+Cancer Institute Physical Sciences Oncology Center U54CA143874 (to A.v.O.)
+and U54CA143798 (to F.M.), the Susan G. Komen Foundation (to R.M.), Cellex
+Foundation (to V.A.), by Redes Tema´ ticas de Investigacio´ n en Ca´ ncer (RD12/
+0036/0055 to P.G. and E.A.), and the Breast Cancer Research Foundation (to
+K.P.). Part of this work was performed under the auspices of the U.S. Depart-
+ment of Energy by Lawrence Livermore National Laboratory under Contract
+DE-AC52-07NA27344.
+
+Received: June 14, 2013
+Revised: November 14, 2013
+Accepted: December 30, 2013
+Published: January 23, 2014
+
+REFERENCES
+
+Al-Hajj, M., Wicha, M.S., Benito-Hernandez, A., Morrison, S.J., and Clarke,
+M.F. (2003). Prospective identiﬁcation of tumorigenic breast cancer cells.
+Proc. Natl. Acad. Sci. USA 100, 3983–3988.
+
+Almendro, V., Marusyk, A., and Polyak, K. (2013). Cellular heterogeneity and
+molecular evolution in cancer. Annu. Rev. Pathol. 8, 277–302.
+
+Bloushtain-Qimron, N., Yao, J., Snyder, E.L., Shipitsin, M., Campbell, L.L.,
+Mani, S.A., Hu, M., Chen, H., Ustyansky, V., Antosiewicz, J.E., et al. (2008).
+Cell type-speciﬁc DNA methylation patterns in the human breast. Proc. Natl.
+Acad. Sci. USA 105, 14076–14081.
+
+Burcombe, R., Wilson, G.D., Dowsett, M., Khan, I., Richman, P.I., Daley, F.,
+Detre, S., and Makris, A. (2006). Evaluation of Ki-67 proliferation and apoptotic
+index before, during and after neoadjuvant chemotherapy for primary breast
+cancer. Breast Cancer Res. 8, R31.
+
+Cancer Genome Atlas Network (2012). Comprehensive molecular portraits of
+human breast tumours. Nature 490, 61–70.
+
+Collecchi, P., Baldini, E., Giannessi, P., Naccarato, A.G., Passoni, A., Gardin,
+G., Roncella, M., Evangelista, G., Bevilacqua, G., and Conte, P.F. (1998).
+Primary chemotherapy in locally advanced breast cancer (LABC): effects on
+tumour proliferative activity, bcl-2 expression and the relationship between
+tumour regression and biological markers. Eur. J. Cancer 34, 1701–1704.
+
+Dave, B., Mittal, V., Tan, N.M., and Chang, J.C. (2012). Epithelial-mesen-
+chymal transition, cancer stem cells and treatment resistance. Breast Cancer
+Res. 14, 202.
+
+Ding, L., Ley, T.J., Larson, D.E., Miller, C.A., Koboldt, D.C., Welch, J.S.,
+Ritchey, J.K., Young, M.A., Lamprecht, T., McLellan, M.D., et al. (2012). Clonal
+evolution in relapsed acute myeloid leukaemia revealed by whole-genome
+sequencing. Nature 481, 506–510.
+
+Efron, B., and Tibshirani, R.J. (1993). An Introduction to the Bootstrap (London:
+Chapman & Hall).
+
+Engelman, J.A., Zejnullahu, K., Mitsudomi, T., Song, Y., Hyland, C., Park, J.O.,
+Lindeman, N., Gale, C.M., Zhao, X., Christensen, J., et al. (2007). MET ampli-
+ﬁcation leads to geﬁtinib resistance in lung cancer by activating ERBB3
+signaling. Science 316, 1039–1043.
+
+Esserman, L.J., Berry, D.A., DeMichele, A., Carey, L., Davis, S.E., Buxton, M.,
+Hudis, C., Gray, J.W., Perou, C., Yau, C., et al. (2012). Pathologic complete
+response predicts recurrence-free survival more effectively by cancer subset:
+results from the I-SPY 1 TRIAL—CALGB 150007/150012, ACRIN 6657. J. Clin.
+Oncol. 30, 3242–3249.
+
+Please cite this article in press as: Almendro et al., Inference of Tumor Evolution during Chemotherapy by Computational Modeling and In Situ Analysis
+of Genetic and Phenotypic Cellular Diversity, Cell Reports (2014), http://dx.doi.org/10.1016/j.celrep.2013.12.041
+
+Fidler, I.J. (1978). Tumor heterogeneity and the biology of cancer invasion and
+metastasis. Cancer Res. 38, 2651–2660.
+
+Marusyk, A., and Polyak, K. (2010). Tumor heterogeneity: causes and conse-
+quences. Biochim. Biophys. Acta 1805, 105–117.
+
+Fisher, B., Bryant, J., Wolmark, N., Mamounas, E., Brown, A., Fisher, E.R.,
+Wickerham, D.L., Begovic, M., DeCillis, A., Robidoux, A., et al. (1998). Effect
+of preoperative chemotherapy on the outcome of women with operable breast
+cancer. J. Clin. Oncol. 16, 2672–2685.
+
+Gerlinger, M., Rowan, A.J., Horswell, S., Larkin, J., Endesfelder, D., Gronroos,
+E., Martinez, P., Matthews, N., Stewart, A., Tarpey, P., et al. (2012). Intratumor
+heterogeneity and branched evolution revealed by multiregion sequencing.
+N. Engl. J. Med. 366, 883–892.
+
+Marusyk, A., Almendro, V., and Polyak, K. (2012). Intra-tumour heterogeneity:
+a looking glass for cancer? Nat. Rev. Cancer 12, 323–334.
+
+Matsubara, N., Mukai, H., Fujii, S., and Wada, N. (2013). Different prognostic
+signiﬁcance of Ki-67 change between pre- and post-neoadjuvant chemo-
+therapy in various subtypes of breast cancer. Breast Cancer Res. Treat. 137,
+203–212.
+
+Merlo, L.M., Pepper, J.W., Reid, B.J., and Maley, C.C. (2006). Cancer as an
+evolutionary and ecological process. Nat. Rev. Cancer 6, 924–935.
+
+Geyer, F.C., Weigelt, B., Natrajan, R., Lambros, M.B., de Biase, D., Vatcheva,
+R., Savage, K., Mackay, A., Ashworth, A., and Reis-Filho, J.S. (2010). Molec-
+ular analysis reveals a genetic basis for the phenotypic diversity of metaplastic
+breast carcinomas. J. Pathol. 220, 562–573.
+
+Merlo, L.M., Shah, N.A., Li, X., Blount, P.L., Vaughan, T.L., Reid, B.J., and
+Maley, C.C. (2010). A comprehensive survey of clonal diversity measures in
+Barrett’s esophagus as biomarkers of progression to esophageal adenocarci-
+noma. Cancer Prev. Res. (Phila.) 3, 1388–1397.
+
+Heppner, G.H., and Miller, B.E. (1983). Tumor heterogeneity: biological impli-
+cations and therapeutic consequences. Cancer Metastasis Rev. 2, 5–23.
+
+Hernandez, L., Wilkerson, P.M., Lambros, M.B., Campion-Flora, A.,
+Rodrigues, D.N., Gauthier, A., Cabral, C., Pawar, V., Mackay, A., A’hern, R.,
+et al. (2012). Genomic and mutational proﬁling of ductal carcinomas in situ
+and matched adjacent invasive breast cancers reveals intra-tumour genetic
+heterogeneity and clonal selection. J. Pathol. 227, 42–52.
+
+Hess, K.R., Anderson, K., Symmans, W.F., Valero, V., Ibrahim, N., Mejia, J.A.,
+Booser, D., Theriault, R.L., Buzdar, A.U., Dempsey, P.J., et al. (2006). Pharma-
+cogenomic predictor of sensitivity to preoperative chemotherapy with pacli-
+taxel and ﬂuorouracil, doxorubicin, and cyclophosphamide in breast cancer.
+J. Clin. Oncol. 24, 4236–4244.
+
+Honeth, G., Bendahl, P.O., Ringne´ r, M., Saal, L.H., Gruvberger-Saal, S.K.,
+Lo¨ vgren, K., Grabau, D., Ferno¨ , M., Borg, A., and Hegardt, C. (2008). The
+CD44+/CD24- phenotype is enriched in basal-like breast tumors. Breast
+Cancer Res. 10, R53.
+
+Houssami, N., Macaskill, P., von Minckwitz, G., Marinovich, M.L., and Mamou-
+nas, E. (2012). Meta-analysis of the association of breast cancer subtype and
+pathologic complete response to neoadjuvant chemotherapy. Eur. J. Cancer
+48, 3342–3354.
+
+Kaufmann, M., Hortobagyi, G.N., Goldhirsch, A., Scholl, S., Makris, A., Vala-
+gussa, P., Blohmer, J.U., Eiermann, W., Jackesz, R., Jonat, W., et al. (2006).
+Recommendations from an international expert panel on the use of neo-
+adjuvant (primary) systemic treatment of operable breast cancer: an update.
+J. Clin. Oncol. 24, 1940–1949.
+
+Kedrin, D., Gligorijevic, B., Wyckoff, J., Verkhusha, V.V., Condeelis, J., Segall,
+J.E., and van Rheenen, J. (2008). Intravital imaging of metastatic behavior
+through a mammary imaging window. Nat. Methods 5, 1019–1021.
+
+Landau, D.A., Carter, S.L., Getz, G., and Wu, C.J. (2013). Clonal evolution in
+hematological malignancies and therapeutic implications. Leukemia.
+Published online August 27, 2013. http://dx.doi.org/10.1038/leu.2013.248.
+
+Lee, H.E., Kim, J.H., Kim, Y.J., Choi, S.Y., Kim, S.W., Kang, E., Chung, I.Y.,
+Kim, I.A., Kim, E.J., Choi, Y., et al. (2011). An increase in cancer stem cell
+population after primary systemic therapy is a poor prognostic factor in breast
+cancer. Br. J. Cancer 104, 1730–1738.
+
+Li, X., Lewis, M.T., Huang, J., Gutierrez, C., Osborne, C.K., Wu, M.F., Hilsen-
+beck, S.G., Pavlick, A., Zhang, X., Chamness, G.C., et al. (2008). Intrinsic resis-
+tance of tumorigenic breast cancer cells to chemotherapy. J. Natl. Cancer Inst.
+100, 672–679.
+
+Liu, R., Wang, X., Chen, G.Y., Dalerba, P., Gurney, A., Hoey, T., Sherlock, G.,
+Lewicki, J., Shedden, K., and Clarke, M.F. (2007). The prognostic role of a
+gene signature from tumorigenic breast-cancer cells. N. Engl. J. Med. 356,
+217–226.
+
+Magurran, A.E. (2004). Measuring Biological Diversity (Malden: Blackwell).
+
+Mroz, E.A., Tward, A.D., Pickering, C.R., Myers, J.N., Ferris, R.L., and Rocco,
+J.W. (2013). High intratumor genetic heterogeneity is related to worse outcome
+in patients with head and neck squamous cell carcinoma. Cancer 119, 3034–
+3042.
+
+Navin, N., Kendall, J., Troge, J., Andrews, P., Rodgers, L., McIndoo, J., Cook,
+K., Stepansky, A., Levy, D., Esposito, D., et al. (2011). Tumour evolution
+inferred by single-cell sequencing. Nature 472, 90–94.
+
+Nazarian, R., Shi, H., Wang, Q., Kong, X., Koya, R.C., Lee, H., Chen, Z., Lee,
+M.K., Attar, N., Sazegar, H., et al. (2010). Melanomas acquire resistance
+to B-RAF(V600E)
+inhibition by RTK or N-RAS upregulation. Nature 468,
+973–977.
+
+Nikolsky, Y., Sviridov, E., Yao, J., Dosymbekov, D., Ustyansky, V., Kazna-
+cheev, V., Dezso, Z., Mulvey, L., Macconaill, L.E., Winckler, W., et al. (2008).
+Genome-wide functional synergy between ampliﬁed and mutated genes in
+human breast cancer. Cancer Res. 68, 9532–9540.
+
+Park, S.Y., Go¨ nen, M., Kim, H.J., Michor, F., and Polyak, K. (2010a). Cellular
+and genetic diversity in the progression of in situ human breast carcinomas
+to an invasive phenotype. J. Clin. Invest. 120, 636–644.
+
+Park, S.Y., Lee, H.E., Li, H., Shipitsin, M., Gelman, R., and Polyak, K. (2010b).
+Heterogeneity for stem cell-related markers according to tumor subtype and
+histologic stage in breast cancer. Clin. Cancer Res. 16, 876–887.
+
+Perou, C.M., Sørlie, T., Eisen, M.B., van de Rijn, M., Jeffrey, S.S., Rees, C.A.,
+Pollack, J.R., Ross, D.T., Johnsen, H., Akslen, L.A., et al. (2000). Molecular
+portraits of human breast tumours. Nature 406, 747–752.
+
+Polyak, K. (2011). Heterogeneity in breast cancer. J. Clin. Invest. 121, 3786–
+3788.
+
+Roesch, A., Vultur, A., Bogeski, I., Wang, H., Zimmermann, K.M., Speicher, D.,
+Ko¨ rbel, C., Laschke, M.W., Gimotty, P.A., Philipp, S.E., et al. (2013). Over-
+coming intrinsic multidrug resistance in melanoma by blocking the mitochon-
+drial respiratory chain of slow-cycling JARID1B(high) cells. Cancer Cell 23,
+811–825.
+
+Sakai, W., Swisher, E.M., Karlan, B.Y., Agarwal, M.K., Higgins, J., Friedman,
+C., Villegas, E., Jacquemont, C., Farrugia, D.J., Couch, F.J., et al. (2008).
+Secondary mutations as a mechanism of cisplatin resistance in BRCA2-
+mutated cancers. Nature 451, 1116–1120.
+
+Schiffer, L.M., Braunschweiger, P.G., Stragand, J.J., and Poulakos, L. (1979).
+The cell kinetics of human mammary cancers. Cancer 43, 1707–1719.
+
+Sharma, S.V., Lee, D.Y., Li, B., Quinlan, M.P., Takahashi, F., Maheswaran, S.,
+McDermott, U., Azizian, N., Zou, L., Fischbach, M.A., et al. (2010). A chro-
+matin-mediated reversible drug-tolerant state in cancer cell subpopulations.
+Cell 141, 69–80.
+
+Shipitsin, M., Campbell, L.L., Argani, P., Weremowicz, S., Bloushtain-Qimron,
+N., Yao, J., Nikolskaya, T., Serebryiskaya, T., Beroukhim, R., Hu, M., et al.
+(2007). Molecular deﬁnition of breast tumor heterogeneity. Cancer Cell 11,
+259–273.
+
+Maley, C.C., Galipeau, P.C., Finley, J.C., Wongsurawat, V.J., Li, X., Sanchez,
+C.A., Paulson, T.G., Blount, P.L., Risques, R.A., Rabinovitch, P.S., and Reid,
+B.J.
+(2006). Genetic clonal diversity predicts progression to esophageal
+adenocarcinoma. Nat. Genet. 38, 468–473.
+
+Silver, D.P., Richardson, A.L., Eklund, A.C., Wang, Z.C., Szallasi, Z., Li, Q.,
+Juul, N., Leong, C.O., Calogrias, D., Buraimoh, A., et al. (2010). Efﬁcacy of
+neoadjuvant Cisplatin in triple-negative breast cancer. J. Clin. Oncol. 28,
+1145–1153.
+
+Cell Reports 6, 1–14, February 13, 2014 ª2014 The Authors 13
+
+Please cite this article in press as: Almendro et al., Inference of Tumor Evolution during Chemotherapy by Computational Modeling and In Situ Analysis
+of Genetic and Phenotypic Cellular Diversity, Cell Reports (2014), http://dx.doi.org/10.1016/j.celrep.2013.12.041
+
+Stephens, P.J., Tarpey, P.S., Davies, H., Van Loo, P., Greenman, C., Wedge,
+D.C., Nik-Zainal, S., Martin, S., Varela, I., Bignell, G.R., et al.; Oslo Breast Can-
+cer Consortium (OSBREAC) (2012). The landscape of cancer genes and muta-
+tional processes in breast cancer. Nature 486, 400–404.
+
+Turner, N.C., and Reis-Filho, J.S. (2012). Genetic heterogeneity and cancer
+drug resistance. Lancet Oncol. 13, e178–e185.
+
+van de Ven, S., Smit, V.T., Dekker, T.J., Nortier, J.W., and Kroep, J.R. (2011).
+Discordances in ER, PR and HER2 receptors after neoadjuvant chemotherapy
+in breast cancer. Cancer Treat. Rev. 37, 422–430.
+
+Yap, T.A., Gerlinger, M., Futreal, P.A., Pusztai, L., and Swanton, C. (2012).
+Intratumor heterogeneity: seeing the wood for the trees. Sci. Transl. Med. 4,
+127ps110.
+
+14 Cell Reports 6, 1–14, February 13, 2014 ª2014 The Authors
+
+

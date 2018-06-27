@@ -1,0 +1,2583 @@
+1521-009X/12/4005-919–927$25.00
+DRUG METABOLISM AND DISPOSITION
+Copyright © 2012 by The American Society for Pharmacology and Experimental Therapeutics
+DMD 40:919–927, 2012
+
+Vol. 40, No. 5
+43778/3763393
+
+Preclinical Disposition of GDC-0973 and Prospective and
+
+Retrospective Analysis of Human Dose and Efficacy Predictions
+
+Edna F. Choo, Marcia Belvin, Jason Boggs, Yuzhong Deng, Klaus P. Hoeflich, Justin Ly,
+
+Mark Merchant, Christine Orr, Emile Plise, Kirk Robarge, Jean F. Martini,1 Robert Kassees,2
+
+Ron G. Aoyama,3 Atulkumar Ramaiya,4 and Stuart H. Johnston
+
+Departments of Drug Metabolism and Pharmacokinetics (E.F.C., J.B., Y.D., J.L., E.P.), Cell Signaling Pathways (M.B., K.P.H.),
+Translational Oncology (M.M., C.O.), and Chemistry (K.R.), Genentech Inc., South San Francisco, California; and Exelixis Inc.,
+
+South San Francisco, California (J.F.M., R.K., R.G.A., A.R., S.H.J.)
+
+Received November 9, 2011; accepted February 7, 2012
+
+ABSTRACT:
+
+[3,4-Difluoro-2-(2-fluoro-4-iodo-phenylamino)-phenyl]-((S)-3-hy-
+droxy-3-piperidin-2-yl-azetidin-1-yl)-methanone (GDC-0973) is a po-
+tent and highly selective inhibitor of mitogen-activated protein
+kinase(MAPK)/extracellular signal-regulated kinase (ERK) 1/2 (MEK1/
+2), a MAPK kinase that activates ERK1/2. The objectives of these
+studies were to characterize the disposition of GDC-0973 in preclin-
+ical species and to determine the relationship of GDC-0973 plasma
+concentrations to efficacy in Colo205 mouse xenograft models. The
+clearance (CL) of GDC-0973 was moderate in mouse (33.5 ml 䡠 minⴚ1 䡠
+kgⴚ1), rat (37.9 ⴞ 7.2 ml 䡠 minⴚ1 䡠 kgⴚ1), and monkey (29.6 ⴞ 8.5 ml 䡠
+minⴚ1 䡠 kgⴚ1). CL in dog was low (5.5 ⴞ 0.3 ml 䡠 minⴚ1 䡠 kgⴚ1). The
+volume of distribution across species was large, 6-fold to 15-fold
+body water; half-lives ranged from 4 to 13 h. Protein binding in mouse,
+rat, dog, monkey, and human was high, with percentage unbound, 1
+to 6%. GDC-0973-related radioactivity was rapidly and extensively
+
+distributed to tissues; however, low concentrations were observed in
+the brain. In rats and dogs, [14C]GDC-0973 was well absorbed (frac-
+tion absorbed, 70–80%). The majority of [14C]GDC-0973-related ra-
+dioactivity was recovered in the bile of rat (74–81%) and dog (65%).
+The CL and volume of distribution of GDC-0973 in human, predicted
+by allometry, was 2.9 ml 䡠 minⴚ1 䡠 kgⴚ1 and 9.9 l/kg, respectively. The
+predicted half-life was 39 h. To characterize the relationship between
+plasma concentration of GDC-0973 and tumor growth inhibition,
+pharmacokinetic-pharmacodynamic modeling was applied using an
+indirect response model. The KC50 value for tumor growth inhibition
+in Colo205 xenografts was estimated to be 0.389 ␮M, and the pre-
+dicted clinical efficacious dose was ⬃10 mg. Taken together, these
+data are useful in assessing the disposition of GDC-0973, and where
+available, comparisons with human data were made.
+
+Introduction
+
+The mitogen-activated protein kinase (MAPK) signaling cascade
+transduces multiple proliferative and differentiating signals within
+
+1 Current affiliation: Pfizer Inc., La Jolla, California.
+2 Current affiliation: Genentech Inc., South San Francisco, California.
+3 Current affiliation: Rigel Pharmaceuticals Inc., South San Francisco, California.
+4 Current affiliation: University of Illinois, Chicago, Illinois.
+Article, publication date, and citation information can be found at
+
+http://dmd.aspetjournals.org.
+
+http://dx.doi.org/10.1124/dmd.111.043778.
+
+tumor cells. Four major mammalian MAPK pathway modules have
+been identified: extracellular signal-regulated kinase 1/2 (ERK1/2),
+c-Jun NH2-terminal kinase (JNK), p38 kinase, and ERK5 (Johnson
+and Lapadat, 2002; Roberts and Der, 2007). Each pathway stimulates
+different effector pathways. The ERK/MAPK signaling cascade trans-
+duces multiple proliferation and differentiation signals within the cell
+via activation of the RAS GTPase and subsequent sequential activa-
+tion of RAF, MAPK/ERK kinase (MEK), and ERK kinases. Aberrant
+regulation of this pathway contributes to many hallmarks of cancer
+cells, including uncontrolled proliferation, invasion, metastasis, an-
+giogenesis, and evasion of apoptosis (Downward, 2003; Roberts and
+
+ABBREVIATIONS: MAPK, mitogen-activated protein kinase; ERK, extracellular signal-regulated kinase; JNK, c-June NH2-terminal kinase; MEK,
+MAPK/ERK kinase; P-gp, P-glycoprotein; GDC-0973, [3,4-difluoro-2-(2-fluoro-4-iodo-phenylamino)-phenyl]-((S)-3-hydroxy-3-piperidin-2-yl-azetidin-1-
+yl)-methanone; GDC-0941, 2-(1H-indazol-4-yl)-6-[[4-(methylsulfonyl)-1-piperazinyl]methyl]-4-(4-morpholinyl)-thieno[3,2-d]pyrimidine; GSK1120212,
+N-{3-[3-cyclopropyl-5-(2-fluoro-4-iodophenylamino)-6,8-dimethyl-2,4,7-trioxo-3,4,6,7-tetrahydro-2H-pyrido[4,3-d]pyrimidin-1-yl]phenyl}acetamide;
+PI3K, phosphatidylinositol 3-kinase; AS703026, (S)-N-(2,3-dihydroxypropyl)-3-((2-fluoro-4-iodophenyl)amino)isonicotinamide; RDEA119, (R)-N-(3,4-
+difluoro-2-(2-fluoro-4-iodophenylamino)-6-methoxyphenyl)-1-(2,3-dihydroxypropyl)cyclopropane-1-sulfonamide; TAK-733, 3-[(2R)-2,3-
+dihydroxypropyl]-6-fluoro-5-(2-fluoro-4-iodoanilino)-8-methylpyrido[2,3-d]pyrimidine-4,7-dione; MDCK, Madin-Darby canine kidney; A-B, apical-to-
+basolateral; B-A, basolateral-to-apical; ER, efflux ratio; pERK, phosphorylated extracellular signal-regulated kinase; PK, pharmacokinetics; CL,
+clearance; LC-MS/MS, liquid chromatography/tandem mass spectrometry; AUCinf, area under the plasma concentration-time curve from time 0
+extrapolated to infinity; QWBA, quantitative whole-body autoradiography; BDC, bile duct cannulated; PD, pharmacodynamics; PK, pharmacokinetic;
+MLP, maximal life-span potential; AUC, area under the curve; TGI, tumor growth inhibition; F, bioavailability; AAG, ␣-1-acid glycoprotein; HSA, human
+serum albumin; MDR1, multidrug resistance 1; MCT, methylcellulose/0.2% (v/v) Tween 80; RO4987644, 3,4-difluoro-2-((2-fluoro-4-iodophenyl)amino)-
+N-(2-hydroxyethoxy)-5-((3-oxo-1,2-oxazinan-2-yl)methyl)benzamide.
+
+919
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+d
+m
+d
+
+ 
+
+.
+
+a
+s
+p
+e
+
+t
+j
+
+o
+u
+r
+n
+a
+s
+.
+
+l
+
+o
+r
+g
+b
+y
+ 
+
+ 
+
+g
+u
+e
+s
+t
+ 
+
+o
+n
+
+ 
+J
+u
+y
+ 
+
+l
+
+1
+
+,
+ 
+
+2
+0
+1
+3
+
+920
+
+CHOO ET AL.
+
+Der, 2007). Inhibition of MEK is a promising strategy in the devel-
+opment of oncology therapeutics to control the growth of tumors that
+are dependent on aberrant ERK/MAPK pathway signaling (Wellbrock
+et al., 2004; Solit et al., 2006; Hoeflich et al., 2008).
+
+[3,4-Difluoro-2-(2-fluoro-4-iodo-phenylamino)-phenyl]-((S)-3-
+hydroxy-3-piperidin-2-yl-azetidin-1-yl)-methanone (GDC-0973) (Fig. 1)
+is an allosteric inhibitor of MEK1/2, with a MEK1 IC50 of 4.2 nM. It
+shows ⬎100⫻ selectivity against ⬎100 kinases (Belvin et al., 2010). In
+Colo205 cells (BRAF V600E mutant), the IC50 values associated with
+cellular inhibition of ERK1/2 phosphorylation and proliferation were 1.8
+and 8 nM, respectively. Cellular inhibition of ERK1/2 was also observed
+in other tumor cell lines that are dependent on aberrant ERK/MAPK
+pathway signaling, e.g., harboring the BRAF and KRAS mutation(s). In
+addition, in vivo efficacy is observed in BRAF and KRAS mutant cell
+lines both as a single-agent GDC-0973 and in combination with 2-(1H-
+indazol-4-yl)-6-[[4-(methylsulfonyl)-1-piperazinyl]methyl]-4-(4-
+morpholinyl)-thieno[3,2-d]pyrimidine (GDC-0941) (Hoeflich et al.,
+2009; Belvin et al., 2010; Rosen et al., 2011). GDC-0973 is currently
+undergoing oncology clinical trials both as a single agent and in combi-
+nation with GDC-0941 (phosphatidylinositol 3-kinase [PI3K] inhibitor)
+and vemurafenib (BRAF inhibitor) (National Institutes of Health, www.
+clinicaltrials.gov). The effort to modulate MEK is a competitive area of
+research as evidenced by the multiple MEK inhibitors at various stages of
+clinical development, e.g., AZD6244, AZD8330, (S)-N-(2,3-dihydroxypro-
+pyl)-3-((2-fluoro-4-iodophenyl)amino)isonicotinamide (AS703026), N-{3-
+[3-cyclopropyl-5-(2-fluoro-4-iodophenylamino)-6,8-dimethyl-2,4,7-trioxo-
+3,4,6,7-tetrahydro-2H-pyrido[4,3-d]pyrimidin-1-yl]phenyl}acetamide
+(GSK1120212), (R)-N-(3,4-difluoro-2-(2-fluoro-4-iodophenylamino)-6-
+methoxyphenyl)-1-(2,3-dihydroxypropyl)cyclopropane-1-sulfonamide
+(RDEA119), RO4987644, and 3-[(2R)-2,3-dihydroxypropyl]-6-fluoro-5-(2-
+fluoro-4-iodoanilino)-8-methylpyrido[2,3-d]pyrimidine-4,7-dione (TAK-
+733) (Fre´min and Meloche, 2010).
+
+The objective of the studies/data presented here was to characterize
+the disposition of GDC-0973 in preclinical species and to determine
+the relationship of GDC-0973 plasma concentrations to efficacy in
+Colo205 (V600E; colon) mouse xenograft models. Where available,
+comparisons are made to observed human data.
+
+Materials and Methods
+
+Chemicals and Reagents. GDC-0973 was synthesized by Exelixis Inc.
+(South San Francisco, CA) and Genentech Inc. (South San Francisco, CA).
+[14C]GDC-0973 (radiochemical purity ⬎98%) was synthesized at Ricerca
+(Solon, OH). All other reagents or material used in these studies were pur-
+chased from Sigma-Aldrich (St. Louis, MO) unless otherwise stated.
+
+In Vitro Studies. MDCK cell permeability. The MDCKI cell line was ac-
+quired from American Type Culture Collection (Manassas, VA). GDC-0973
+was added to either the apical or the basolateral side of the monolayer at an
+initial concentration of 10 ␮M and was incubated at 37°C for 90 min. The
+apparent permeability (Papp), in the apical-to-basolateral (A-B) and basolat-
+⫽ (dQ/dt) 䡠 (1/AC0),
+eral-to-apical (B-A) directions, was calculated as Papp
+where dQ/dt ⫽ rate of compound appearance in the receiver compartment; A ⫽
+
+* 
+
+* Position of 14C label 
+FIG. 1. Chemical structure of GDC-0973.
+
+surface area of the insert; C0
+efflux ratio (ER) was calculated as (Papp, B-A/Papp, A-B).
+
+⫽ initial substrate concentration at time ⫽ 0. The
+
+MDR1-MDCK permeability. The assay was conducted by Absorption Sys-
+tems LP (Exton, PA). In the substrate assay, concentrations of 25 ␮M GDC-
+0973 or 10 ␮M digoxin (positive control) were used. In some studies, the assay
+buffer also contained 10 ␮M cyclosporine A or 25 ␮M GDC-0973 as potential
+P-glycoprotein (P-gp) inhibitors. After the preincubation period, cell mono-
+layers were dosed on the apical side (A-to-B) or basolateral side (B-to-A) and
+were incubated at 37°C with 5% CO2 in a humidified incubator for 2 h. After
+2 h of incubation, samples were taken from the donor chambers. All samples
+were assayed by liquid chromatography/tandem mass spectrometry (LC-MS/
+⫽ (dCr/dt) ⫻ Vr/(A ⫻
+MS). The Papp values were calculated as follows: Papp
+CN), where dCr/dt is the slope of the cumulative concentration in the receiver
+compartment versus time in ␮M s⫺1; Vr is the volume of the receiver com-
+partment in cm3; Vd is the volume of the donor compartment in cm3; A is the
+area of the cell monolayer (1.13 cm2 for 12-well Transwell plates); CN is the
+nominal concentration of the dosing solution in ␮M.
+
+Blood-to-plasma partitioning. The blood-to-plasma partitioning of GDC-
+0973 was assessed in pooled whole blood from CD-1 mice, Sprague-Dawley
+rats, beagle dogs, cynomolgus monkeys, and humans (Bioreclamation, Inc.,
+Hicksville, NY). Blood from all species was obtained from at least three
+individual donors. The blood-to-plasma partitioning of GDC-0973 and
+[14C]GDC-0973 was determined at whole-blood concentrations of 1, 5, and 10
+␮M. Blood samples were incubated at 37°C for 30 min in a shaking water bath.
+The blood-to-plasma ratio was calculated by dividing the measured radioac-
+tivity in blood by that measured in plasma. Incubations were performed in
+quadruplicate. Parameters are presented as mean ⫾ S.D.
+
+Plasma protein binding. The extent of plasma protein binding of GDC-0973
+was determined in vitro, in mouse, rat, monkey, dog, and human plasma
+(Bioreclamation, Inc.), as well as human serum albumin (HSA; 40 mg/ml) and
+␣-1-acid glycoprotein (AAG; 1 mg/ml) by equilibrium dialysis using an
+HTDialysis 96-well block (HTDialysis LLC, Gales Ferry, CT), as described
+previously (Choo et al., 2009). GDC-0973 and [14C]GDC-0973 were added to
+pooled plasma (n ⱖ 3) at total concentrations of 1, 5, and 10 ␮M. Plasma
+samples were equilibrated with phosphate-buffered saline (pH 7.4) at 37°C in
+90% humidity and 5% CO2 for 5 h. The percentage GDC-0973 unbound in
+plasma was determined by dividing the radioactivity measured in the postdi-
+alysis buffer by that measured in the post-dialysis plasma and multiplying by
+100. Incubations were performed in quadruplicate. Parameters are presented as
+mean ⫾ S.D. Using a similar method, brain binding of GDC-0973 was
+determined as described previously (Kalvass et al., 2007).
+
+Metabolic stability study in liver microsomes. The oxidative metabolism of
+GDC-0973 was evaluated in pooled liver microsomes (Celsis, Chicago, IL) of
+CD-1 mice, Sprague-Dawley rats, cynomolgus monkeys, beagle dogs, and
+humans (Invitrogen, Carlsbad, CA) as described previously (Salphati et al.,
+2011). The Incubation mixture contained 0.5 mg/ml microsomal protein and 1
+␮M GDC-0973. Reaction was initiated with the addition of NADPH. Samples
+were incubated at 37°C, aliquots were sampled at 0, 20, 40, and 60 min, and
+the percentage of GDC-0973 remaining was determined by LC-MS/MS using
+the t ⫽ 0 peak area ratio values as 100%. The in vitro intrinsic clearance and
+scaled hepatic clearance (CL) were determined as described by Obach et al.
+(1997).
+
+In Vivo Studies. Studies were performed at Genentech Inc. by Exelixis,
+Covance Laboratories (Madison, WI, Kalamazoo, MI, or Alice, TX), or QPS
+LLC (Newark, DE). Food and water were available ad libitum except for
+animals that were administered oral doses in pharmacokinetic (PK) studies,
+which were fasted overnight before dosing of GDC-0973. In all studies, blood
+samples were collected in tubes containing K2EDTA as the anticoagulant.
+Plasma was isolated and stored at ⫺80°C until analysis. The concentration of
+GDC-0973 in each plasma and/or tissue sample was determined by LC-
+MS/MS analysis.
+
+PK study in mouse. Twenty-seven female nu/nu mice (Charles River Lab-
+oratories, Inc., Wilmington, MA) were given a 1 mg/kg i.v. dose (4 ml/kg
+dosing volume) of GDC-0973 hydrochloride (HCl) salt in 60% propyl ethylene
+glycol 400 (60% v/v) and water (40% v/v). Another group of 27 mice at each
+dose level received 3, 10, and 30 mg/kg p.o. (4 ml/kg dosing volume) of
+GDC-0973, formulated in 0.5% (w/v) methylcellulose/0.2% (v/v) Tween-80
+(MCT). At the initiation of the study, the mice weighed from 20 to 27 g. One
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+d
+m
+d
+
+ 
+
+.
+
+a
+s
+p
+e
+
+t
+j
+
+o
+u
+r
+n
+a
+s
+.
+
+l
+
+o
+r
+g
+b
+y
+ 
+
+ 
+
+g
+u
+e
+s
+t
+ 
+
+o
+n
+
+ 
+J
+u
+y
+ 
+
+l
+
+1
+
+,
+ 
+
+2
+0
+1
+3
+
+PRECLINICAL PHARMACOKINETICS OF GDC-0973
+
+921
+
+blood sample of approximately 0.2 ml was collected from each mouse (n ⫽ 3
+mice per time point) by terminal cardiac puncture, under anesthesia with
+isoflurane. Blood samples were collected at predose and at 0.033, 0.16, 0.5, 1,
+3, 6, 9, and 24 h after the intravenous administration, and at predose and at
+0.083, 0.25, 0.5, 1, 3, 6, 9, and 24 h after the oral dose.
+
+In additional studies, GDC-0973 was administered at 3 mg/kg p.o. (dosing
+volume 4 ml/kg) to nu/nu mice. Brain and plasma were collected 2, 6, 10, 24,
+and 48 h (n ⫽ 3/time point) after the fifth dose, to take into consideration any
+possible accumulation and extended half-life in tissue and to ensure that
+sampling occurred at steady state. In addition to concentrations of GDC-0973
+in brain, phosphorylated extracellular signal-regulated kinase (pERK) levels
+(as a biomarker of target knockdown) in brain tissue were determined. In
+another separate study, brain, tumor (Colo205), and plasma were collected
+from mice at 2 h (n ⫽ 3). All collected blood samples were centrifuged within
+1 h of collection, and plasma was collected and stored at ⫺80°C until analysis.
+Brain and tumor were homogenized in 3 volumes of water.
+
+PK study in rat. Jugular vein-cannulated female CD rats (12 weeks old,
+⬃200 g) were purchased from Taconic Farms (Germantown, NY). Animals
+were acclimatized for 48 h before study initiation. Four rats were each given
+a single intravenous or oral dose of 3 mg/kg (10 ml/kg dosing volume)
+GDC-0973 HCl salt in 0.9% normal saline. Blood samples (approximately 0.2
+ml/sample) were drawn from each animal via the jugular vein cannulae at
+predose and at 0.02, 0.08, 0.25, 0.5, 1, 2, 4, 8, 12, and 24 h postdose. The
+samples were collected into tubes containing K2EDTA as an anticoagulant.
+Plasma was isolated and kept at ⫺80°C until analysis. The concentration of
+GDC-0973 in plasma was determined by LC-MS/MS.
+
+PK study in cynomolgus monkey. Six male cynomolgus monkeys (3.5– 4.7
+kg; Covance Laboratories) were administered GDC-0973 HCl. Three animals
+each were administered an intravenous (3 mg/kg) and oral (3 mg/kg) dose.
+GDC-0973 dose solutions were prepared in 0.9% normal saline and were
+administered at a dosing volume of 1 ml/kg. Blood samples (⬃1 ml/sample)
+were collected from the femoral vein at predose and at 0.083, 0.25, 0.5, 1, 2,
+3, 4, 6, 8, 12, 24, and 48 h after intravenous and oral dose administration.
+
+PK study in beagle dogs. Six male Beagle dogs (Covance Laboratories;
+10.0 –11.1 kg) were administered GDC-0973 as the HCl salt. Three animals
+each were administered an intravenous (3 mg/kg) and oral (3 mg/kg) dose.
+GDC-0973 dose solutions were prepared in 0.9% normal saline and were
+administered at a dosing volume of 1 ml/kg. Blood samples (⬃2 ml) were
+collected from the jugular vein at predose and at 0.083, 0.25, 0.5, 1, 2, 4, 6, 8,
+12, 24, and 48 h after intravenous and oral dose administration.
+
+LC-MS/MS Analysis. GDC-0973 concentrations were determined by LC-
+MS/MS after protein precipitation with acetonitrile and injection of the super-
+natant onto the column. The column was an Eclipse XBD-C18 (50 ⫻ 4.6 mm,
+5-␮m particle size) (Agilent Technologies, Santa Clara, CA). A CTC HTS
+PAL autosampler (LEAP Technologies, Carrboro, NC) linked to a Shimadzu
+LC-10AD pump (Shimadzu, Columbia, MD), coupled with a Sciex API 4000
+triple quadrupole mass spectrometer (Applied Biosystems, Foster City, CA),
+was used for the LC-MS/MS assay. The aqueous mobile phase was water with
+0.1% formic acid, and the organic mobile phase was acetonitrile with 0.1%
+formic acid. The total run time was 3 min, and the ionization was conducted
+in the positive-ion mode using the transition m/z 530.25 3 126.75. The lower
+and upper limits of quantitation of the assay were 0.004 and 40 ␮M, respec-
+tively. The internal standard used in the assays was the 6C13 analog of
+GDC-0973.
+
+PK Analysis. PK parameters were calculated by noncompartmental meth-
+ods as described in Gibaldi and Perrier (1982) using WinNonlin (Pharsight,
+Mountain View, CA) version 5.1.1. Parameters are presented as mean ⫾ S.D.
+Bioavailability (F) was determined by dividing the dose-normalized area under
+the plasma concentration-time curve from time 0 extrapolated to infinity
+(AUCinf) for each animal dosed orally by the dose-normalized mean AUCinf
+determined from the animals dosed intravenously (a pooled profile was used in
+mice).
+
+Determination of pERK Inhibition in Mouse Brain. To test whether
+MEK pathway inhibition (as measured by pERK inhibition) was observed in
+the brain at efficacious doses, brain tissue from mice was collected and
+prepared for Western blotting using methods described previously (Choo et al.,
+2010). Antibodies to pERK and total ERK proteins were obtained from Cell
+Signaling Technology (Danvers, MA). Specific antigen-antibody interaction
+
+was detected with a horseradish peroxidase-conjugated secondary antibody
+IgG using enhanced chemiluminescence Western blotting detection reagents
+(GE Healthcare, Chalfont St. Giles, Buckinghamshire, UK).
+
+Quantitative Whole-Body Autoradiography in Rat. The tissue distribu-
+tion of [14C]GDC-0973-related radioactivity in male Long-Evans rats (Harlan,
+Scottsdale, PA) was investigated after a single oral dose of 30 mg/kg (100
+␮Ci/kg) [14C]GDC-0973 (Ricera BioScience LLC, Concord, OH) combined
+with GDC-0973 formulated in MCT. One animal was euthanized under iso-
+flurane anesthesia at 0.5, 2, 4, 8, 24, 72, 96, 240, 480, and 672 h postdose. The
+carcasses were frozen in hexane dry ice and stored at ⫺20°C before processing
+for quantitative whole-body autoradiography (QWBA). Before section collec-
+tion, standards fortified with 14C radioactivity were placed into the frozen
+block containing the carcass. Each carcass was embedded, cut into sagittal
+sections, and mounted for QWBA. Selected sections were exposed to phosphor
+image screens, and exposed screens were scanned along with plastic-embedded
+ARC autoradiographic standards (American Radiolabeled Chemicals, Inc., St
+Louis, MO) for subsequent calibration of the image analysis software. Screens
+were exposed for 4 days, after which they were scanned using a Storm Scanner
+(GE Healthcare Life Sciences, Sunnyvale, CA). Tissue radioactivity concen-
+trations were quantified from the whole-body autoradiograms using Imaging
+Research AIS software (Imaging Research, St. Catharines, ON, Canada) on the
+basis of a calibrated standard curve. Concentrations of radioactivity were
+expressed as microcuries per gram and were converted to microgram equiva-
+lents of GDC-0973 per gram of matrix using the specific activity (55 mCi/
+mmol) of the administered dose of [14C]GDC-0973, which was a combination
+of radiolabeled and nonradiolabeled compound.
+
+Mass Balance and Routes of Elimination in Rat. A single dose of
+[14C]GDC-0973 (30 mg/kg, 400 ␮Ci/kg; Ricera Bioscience LLC) was admin-
+istered orally to bile duct-intact (n ⫽ 3 male and 3 female) and bile duct-
+cannulated (BDC) male (n ⫽ 3) Sprague-Dawley rats (QPS LLC, Newark,
+DE). The dose was prepared MCT. Urine and feces were collected in plastic
+containers surrounded by dry ice at predose (overnight for at least 12 h) and 0
+to 8 and 8 to 24 h postdose, and at 24-h intervals through 48 (BDC rats) or
+192 h (intact rats) postdose. Bile was collected from BDC animals in plastic
+containers surrounded by dry ice at predose and 0 to 8, 8 to 24, and 24 to 48 h
+postdose. Blood (approximately 0.5 ml) was collected from a jugular vein via
+syringe and needle and was transferred into tubes containing K2EDTA as the
+anticoagulant at predose and at 0.5, 1, 2, 4, 8, 24, and 48 h postdose. All
+samples were stored at approximately ⫺70°C before and after analysis. Blood
+was stored at approximately 4°C until centrifuged. Plasma was harvested,
+aliquoted, and stored at approximately ⫺70°C. Feces or feces homogenate was
+combusted using a model 307 Sample Oxidizer (PerkinElmer, Downers Grove,
+IL), and the resulting 14CO2 was trapped in a mixture of Perma-Fluor and
+Carbo-Sorb (PerkinElmer). Ultima Gold XR scintillation cocktail was added to
+all other samples and was analyzed directly. Samples were analyzed in dupli-
+cate or triplicate (feces). Radioactivity content was quantified by liquid scin-
+tillation counting [model 2800TR liquid scintillation counters (PerkinElmer)]
+for at least 5 min or 100,000 counts.
+
+Mass Balance and Routes of Elimination in Dog. A single dose of
+[14C]GDC-0973 (5 mg/kg, 20 ␮Ci/kg; Ricera Bioscience LLC) was adminis-
+tered orally to bile duct-intact (n ⫽ 2 male and 2 female) and BDC male (n ⫽
+2) Beagle dogs (Covance Laboratories). The dose was prepared in MCT. Urine
+and feces were collected in plastic containers surrounded by dry ice at predose
+(overnight for at least 12 h) and at 0 to 8 and 8 to 24 h postdose, and at 24-h
+intervals through 168 (BDC dogs) or 240 h (intact dogs) postdose. Bile was
+collected from BDC animals into plastic containers surrounded by dry ice
+predose at 0 to 8, 8 to 24, and at 24-h intervals through 168 h postdose. Blood
+(approximately 5 ml) was collected from intact dogs from a jugular vein via
+syringe and needle and was transferred into tubes containing K2EDTA as the
+anticoagulant at predose and at 0.083, 0.25, 0.5, 1, 3, 6, 12, 24, 48, 72, 96, 120,
+168, and 240 h postdose in both intact and BDC dogs. All samples were stored,
+prepared, and analyzed as described for the rat mass balance study above.
+
+Colo205 Xenograft Efficacy Studies. Five million human colorectal car-
+cinoma Colo205 cells were resuspended in Hanks’ buffered salt solution and
+were implanted subcutaneously into the right flank of naive female athymic
+nu/nu mice. Tumors were monitored until they reached a mean volume of 200
+to 300 mm3. Tumor sizes and body weights were recorded twice weekly, and
+the mice were observed regularly over the course of the study. Mice were
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+d
+m
+d
+
+ 
+
+.
+
+a
+s
+p
+e
+
+t
+j
+
+o
+u
+r
+n
+a
+s
+.
+
+l
+
+o
+r
+g
+b
+y
+ 
+
+ 
+
+g
+u
+e
+s
+t
+ 
+
+o
+n
+
+ 
+J
+u
+y
+ 
+
+l
+
+1
+
+,
+ 
+
+2
+0
+1
+3
+
+922
+
+CHOO ET AL.
+
+euthanized if their tumor volume exceeded 2000 mm3 or if their body weight
+dropped by more than 20% of the starting weight. Ten mice were randomly
+assigned to each group on the basis of mean tumor volume. Mean tumor
+volume across all six groups was 200 mm3 at the start of dosing. Tumor
+volumes were measured in two dimensions (length and width) using Ultra
+Cal-IV calipers (model 54-10-111; Fred V. Fowler Company, Inc., Newton,
+MA). The following formula was used with Excel version 11.2 (Microsoft
+Corporation, Redmond, WA) to calculate tumor volume (TV): TV (mm3) ⫽
+(length ⫻ width2) ⫻ 0.5.
+
+GDC-0973 or vehicle was administered daily (at a similar time of the day)
+by oral gavage for 20 days or until animals lost ⬎20% of body weight or until
+tumor size was ⬎2000 mm3. Animals in vehicle groups received 100 ␮l of
+MCT. Treatment groups (n ⫽ 10 mice/group) received oral doses of GDC-
+0973 formulated in 100 ␮l of MCT. The treatment groups were as follows:
+vehicle, 1, 3, 10, and 30 mg/kg.
+
+PK-Pharmacodynamic Modeling. Fitting of the PK-pharmacodynamic
+(PD) model to the efficacy data and mouse PK were performed using SAAM
+II (Saam Institute, University of Washington, Seattle, WA).
+
+An indirect response model (Mager et al., 2003) was used to fit the
+
+xenograft efficacy data; the differential equation is as follows:
+
+where
+
+d(TV)
+
+dt
+
+⫽ kng(TV) ⫺ K(TV)
+
+K ⫽
+
+Kmax ⫻ Cn
+n ⫹ Cn
+KC50
+
+TV (mm3) is defined as the tumor volume, t (h) is time, kng (h⫺1) is
+the net growth rate constant, K (h⫺1) is the rate constant describing the
+tumor growth inhibition (TGI) effects of GDC-0973, Kmax (h⫺1) is the
+maximal value of K, C (␮M) is the concentration of GDC-0973, n is
+the Hill coefficient, and KC50 (␮M) is the GDC-0973 concentration
+where K is 50% of Kmax. Concentrations of GDC-0973 in mice were
+simulated on the basis of parameters obtained from fitting the time-
+concentration data from PK studies. Mean tumor volumes for each
+dose group were used in the fitting. All dose groups were fit simul-
+taneously. PD parameters are presented as the estimate followed by
+the percentage CV in parentheses. Concentration required for tumor
+stasis (Cstasis) was calculated as the concentration where K is equal
+to kng.
+
+Prediction of Human PK Parameters and Efficacious Doses. Prediction
+of human CL and volume of distribution for GDC-0973 was performed
+prospectively by allometric scaling on the basis of the equation CL ⫽ aWb,
+where a, W, and b are the allometric coefficient, body weight, and allometric
+exponent, respectively (Boxenbaum, 1982). Total plasma CL and volume of
+distribution values obtained from PK studies in preclinical species were scaled
+on the basis of body weight to predict the systemic CL and volume of
+distribution in human. Body weights of 0.02, 0.25, 10, 3, and 70 kg were used
+for mouse, rat, dog, monkeys, and human, respectively. The human dose
+associated with 90% TGI was simulated on the basis of parameter estimates
+from PK-PD modeling of Colo205 xenografts in mouse and by substituting
+human predicted PK parameters for mouse PK estimates.
+
+Results
+
+Permeability in MDCK and MDR1-MDCK Cells. GDC-0973
+mean Papp (n ⫽ 8) in MDCK cells was moderate with A-B values of
+1.39 ⫾ 0.271 10⫺6 cm/s and B-A values of 4.00 ⫾ 0.215 10⫺6 cm/s.
+The ER was low at ⬃3.0, suggesting minor involvement of efflux
+transporter(s) in the B-A direction in this cell line. In the MDR1-
+transfected MDCK cell line, the A-B value was 0.88 ⫾ 0.05 and the
+B-A ratio was 35.4 ⫾ 6.0 10⫺6 cm/s, with a mean ER of 40,
+confirming the involvement of MDR1. Cyclosporine (25 ␮M) was
+able to increase the A-B ratio to 2.57 ⫾ 0.45 10⫺6 cm/s and decrease
+the ER to 1.6. In comparison, for digoxin (the positive control), the
+
+ER was 72. These data suggest that GDC-0973 appears to be a
+substrate of MDR1. In this assay, GDC-0973 (25 ␮M) did not appear
+to be an inhibitor of MDR1 (based on inhibition of digoxin efflux;
+data not shown).
+
+In Vitro Protein Binding and Blood-to-Plasma Partitioning.
+Plasma protein binding was determined by equilibrium dialysis at GDC-
+0973 concentrations of 1, 5, and 10 ␮M in mouse, rat, cynomolgus
+monkey, dog, and human pooled plasma. GDC-0973 was highly bound
+to plasma protein, with the highest percentage of unbound GDC-0973
+varying approximately 10-fold between species (Table 1).
+
+GDC-0973 appeared to be more highly bound to ␣-1-acid glyco-
+protein (AAG) compared with albumin. Protein binding across species
+was independent of concentration (1–10 ␮M). The free fraction of
+GDC-0973 in mouse brain homogenates was determined to be 0.12%.
+Blood-to-plasma partitioning of GDC-0973 was evaluated in
+mouse, rat, cynomolgus monkey, dog, and human pooled whole blood
+at concentrations of 1, 5, and 10 ␮M. Mean blood-to-plasma ratios
+ranged from 0.623 to 1.51 in all species tested and were independent
+of concentration (Table 2). Thus, GDC-0973 shows no substantial
+binding to red blood cell components.
+
+Metabolic Stability Study in Liver Microsomes. The predicted
+hepatic CL of GDC-0973 from the metabolic stability after a 1-h
+incubation in liver microsomes in mouse, rat, dog, monkey, and
+human was 45, 30, 14, 34, and 10 ml 䡠 min⫺1 䡠 kg⫺1, respectively.
+Except for dog, the predicted CL was generally well predicted by
+microsomes.
+
+Pharmacokinetics of GDC-0973 in Mouse, Rat, Cynomolgus
+Monkey, and Dog. The semilog plots of GDC-0973 plasma concen-
+tration versus time for mouse, rat, monkey, and dog after intravenous
+and oral administrations are presented in Fig. 2. The PK parameters
+are presented in Table 3. Total blood CL for all species was in the
+moderate range (relative to liver blood flow) (Davies and Morris,
+1993). Terminal half-life values ranged from approximately 4 h in
+the mouse to 13 h in the rat. The volume of distribution at steady
+state (Vss) was moderate to high in all species evaluated. After oral
+administration, bioavailability ranged from 20 in monkey to 93%
+in mouse.
+
+TABLE 1
+
+Mean (⫾S.D.) percentage of [14C]GDC-0973 bound in mouse, rat, dog,
+
+cynomolgus monkey, human plasma, human AAG, and HSA
+
+Matrix/Species
+
+Total GDC-0973
+Concentrationa
+
+Percentage Unbound
+
+关14C兴GDC-0973
+
+Mouse
+
+Rat
+
+Dog
+
+Cynomolgus monkey
+
+Human
+
+AAG, 1 mg/ml
+
+HSA, 40 mg/ml
+
+␮M
+1
+5
+10
+1
+5
+10
+1
+5
+10
+1
+5
+10
+1
+5
+10
+1
+5
+10
+1
+5
+10
+
+a Unlabeled ⫹ 关14C兴-labeled GDC-0973 (free-base equivalents).
+
+4.1 ⫾ 0.8
+3.4 ⫾ 0.1
+3.3 ⫾ 0.2
+2.8 ⫾ 0.4
+3.5 ⫾ 0.4
+3.7 ⫾ 0.3
+0.7 ⫾ 0.0
+1.2 ⫾ 0.2
+1.4 ⫾ 0.2
+4.5 ⫾ 1.1
+4.4 ⫾ 0.3
+4.8 ⫾ 0.3
+5.2 ⫾ 0.4
+6.5 ⫾ 0.4
+5.8 ⫾ 0.2
+4.4 ⫾ 0.6
+4.2 ⫾ 0.2
+5.3 ⫾ 0.1
+46.9 ⫾ 14.9
+40.8 ⫾ 0.2
+40.8 ⫾ 1.2
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+d
+m
+d
+
+ 
+
+.
+
+a
+s
+p
+e
+
+t
+j
+
+o
+u
+r
+n
+a
+s
+.
+
+l
+
+o
+r
+g
+b
+y
+ 
+
+ 
+
+g
+u
+e
+s
+t
+ 
+
+o
+n
+
+ 
+J
+u
+y
+ 
+
+l
+
+1
+
+,
+ 
+
+2
+0
+1
+3
+
+PRECLINICAL PHARMACOKINETICS OF GDC-0973
+
+923
+
+TABLE 2
+
+Mean (⫾S.D.) blood-to-plasma ratio of [14C]GDC-0973 in mouse, rat, dog,
+
+cynomolgus monkey, and human whole blood
+
+Species
+
+Total GDC-0973
+Concentrationa
+
+Blood-to-Plasma Ratio of
+
+关14C兴GDC-0973
+
+Mouse
+
+Rat
+
+Dog
+
+Cynomolgus monkey
+
+Human
+
+␮M
+1
+5
+10
+1
+5
+10
+1
+5
+10
+1
+5
+10
+1
+5
+10
+
+1.16 ⫾ 0.03
+1.19 ⫾ 0.03
+1.27 ⫾ 0.02
+1.36 ⫾ 0.02
+1.37 ⫾ 0.02
+1.51 ⫾ 0.08
+0.632 ⫾ 0.011
+0.752 ⫾ 0.009
+0.936 ⫾ 0.011
+1.57 ⫾ 0.04
+1.64 ⫾ 0.03
+1.82 ⫾ 0.07
+0.933 ⫾ 0.014
+0.945 ⫾ 0.007
+1.05 ⫾ 0.01
+
+a Unlabeled ⫹ 关14C兴-labeled GDC-0973 (free-base equivalents).
+
+Determination of GDC-0973 Concentrations and pERK Inhi-
+bition in Mouse Brain. Taking into account the free fraction of
+GDC-0973 in mouse brain (fu 0.0012), the unbound AUC of GDC-
+0973 was low, 0.003 ␮M 䡠 h. The low concentration of GDC-0973 in
+the brain is consistent with the lack of pERK inhibition observed in
+the brain (Fig. 3B). This is in comparison with the pERK knockdown
+observed with the positive control. In a separate study, at the 2-h time
+point, the brain unbound concentrations at the 3 mg/kg dose was
+0.0001 ␮⌴, and the unbound plasma concentration was 0.0057 ␮⌴,
+resulting in a unbound brain-to-plasma ratio of 0.018 (total brain-to-
+
+plasma ratio ⬃0.5). The low penetration of GDC-0973 into the brain
+suggests that GDC-0973 is effluxed out of the brain. Interestingly, the
+total tumor (Colo205) concentration of GDC-0973 at the 2-h time
+point was 1.56 ␮⌴ (total tumor-to-plasma ratio ⬃9), suggesting that
+GDC-0973 accumulates in tumors.
+
+Quantitative Whole-Body Autoradiography in Rat. After oral
+administration of 14[C]GDC-0973 (30 mg/kg), compound related ra-
+dioactivity in tissue was observed by 2 h post dose with extensive
+distribution into tissues and organs (Fig. 3A). The tissues showing the
+highest peak concentrations were the liver, large intestine, lungs,
+adrenal glands and lacrimal glands. Radioactivity in the central ner-
+vous system e.g., the cerebrum were low and were below the levels of
+detection by 4 h postdose. By 72 h, in most tissues, radioactivity levels
+were below the limit of detection with the exception for the organs of
+elimination e.g., liver, kidney intestine, as well as melanin containing
+tissue.
+
+Mass Balance and Routes of Elimination in Rat. The excretion of
+radioactivity was determined after administration of a single oral dose
+of [14C]GDC-0973 (30 mg/kg) to bile duct-intact and BDC male and
+female Sprague-Dawley rats. [14C]GDC-0973-related radioactivity
+was rapidly excreted after oral administration to bile duct-intact male
+and female rats, primarily within the first 48 h after dosing (⬃80%
+excreted). Routes and rates of excretion were similar in both males
+and females (Fig. 4, A and B). A high percentage of radioactivity was
+recovered in feces (⬃85%), and only 2.2 to 4.4% of radioactivity was
+recovered in urine (Fig. 4A). Approximately 74 to 81% of the admin-
+istered radioactivity was recovered in the bile of BDC rats through
+48 h postdose (Fig. 4B), with low amounts of radioactivity in feces.
+The combined recovery in urine and bile indicated that approximately
+80% of the oral dose was absorbed in male and female BDC rats.
+
+A
+
+)
+
+M
+(µ
+n
+o
+
+ 
+
+i
+t
+
+ 
+
+a
+r
+t
+n
+e
+c
+n
+o
+C
+3
+7
+9
+0
+-
+C
+D
+G
+
+10
+
+1
+
+0.1
+
+0.01
+
+0.001
+
+IV (1 mg/kg)
+PO (3 mg/kg)
+PO (10 mg/kg) 
+PO (30 mg/kg)
+
+B
+
+)
+
+M
+µ
+(
+ 
+
+n
+o
+i
+t
+a
+r
+t
+n
+e
+c
+n
+o
+C
+3
+7
+9
+0
+-
+C
+D
+G
+
+ 
+
+10
+
+1
+
+0.1
+
+0.01
+
+0.001
+
+IV- 1 mg/kg
+PO - 5 mg/kg
+
+0
+
+4
+
+8
+
+12
+
+16
+
+20
+
+24
+
+0
+
+10
+
+Time (hr)
+
+20
+30
+Time (hr)
+
+40
+
+50
+
+C
+
+)
+
+M
+µ
+(
+ 
+
+n
+o
+
+i
+t
+a
+r
+t
+n
+e
+c
+n
+o
+C
+3
+7
+9
+0
+-
+C
+D
+G
+
+ 
+
+10.000
+
+1.000
+
+0.100
+
+0.010
+
+0.001
+
+IV - 3 mg/kg
+PO - 3 mg/kg
+
+D
+
+)
+
+M
+µ
+(
+ 
+
+n
+o
+
+i
+t
+a
+r
+t
+n
+e
+c
+n
+o
+C
+3
+7
+9
+0
+-
+C
+D
+G
+
+ 
+
+10.000
+
+1.000
+
+0.100
+
+0.010
+
+0.001
+
+0.000
+
+IV - 1 mg/kg
+PO - 5 mg/kg
+
+0
+
+10
+
+20
+30
+Time (hr)
+
+40
+
+0
+
+10
+
+20
+30
+Time (hr)
+
+40
+
+50
+
+FIG. 2. Plasma concentration of GDC-
+0973 in nu/nu mouse (A), rat (B), dog (C),
+and monkey (D) after intravenous and oral
+administration.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+d
+m
+d
+
+ 
+
+.
+
+a
+s
+p
+e
+
+t
+j
+
+o
+u
+r
+n
+a
+s
+.
+
+l
+
+o
+r
+g
+b
+y
+ 
+
+ 
+
+g
+u
+e
+s
+t
+ 
+
+o
+n
+
+ 
+J
+u
+y
+ 
+
+l
+
+1
+
+,
+ 
+
+2
+0
+1
+3
+
+924
+
+CHOO ET AL.
+
+TABLE 3
+
+Pharmacokinetics (mean ⫾ S.D.) of GDC-0973 after single-dose intravenous and oral administration to mouse, rats, dogs, and monkeys
+
+Parameters
+
+Sex
+Intravenous
+
+Dose, mg/kg
+Plasma CL, ml 䡠 min⫺1 䡠 kg⫺1
+AUCinf, ng䡠 h/ml
+t1/2, h
+Vss, l/kg
+
+Oral
+
+Dose, mg/kg
+AUCinf, ng䡠 h/ml
+Cmax, ng/ml
+Tmax, h
+F, %
+
+Nude Mice
+
+Female
+
+1
+33.5
+0.935
+3.92
+9.40
+
+3
+1.51
+0.184
+0.250
+53.9
+
+Sprague-Dawley Rats
+
+Male
+
+3
+
+37.8 ⫾ 7.2
+2.32 ⫾ 0.18
+13.3 ⫾ 2.5
+34.6 ⫾ 8.5
+
+3
+
+1.59 ⫾ 0.10
+0.193 ⫾ 0.125
+
+3.50
+
+69.0 ⫾ 8.0
+
+Beagle Dogs
+
+Male
+
+3
+
+5.53 ⫾ 0.31
+17.1 ⫾ 1.0
+9.19 ⫾ 1.57
+3.99 ⫾ 0.58
+
+3
+
+11.9 ⫾ 2.6
+0.843 ⫾ 0.214
+
+2.67
+
+69.1 ⫾ 11.7
+
+Cynomolgus Monkeys
+
+Male
+
+3
+
+29.6 ⫾ 8.5
+3.34 ⫾ 0.87
+10.3 ⫾ 3.3
+29.6 ⫾ 8.5
+
+3
+
+0.64 ⫾ 0.12
+0.050 ⫾ 0.010
+
+2.00
+
+19.6 ⫾ 3.5
+
+Mass Balance and Routes of Elimination in Dog. The excretion
+of radioactivity was determined after administration of a single oral
+dose of [14C]GDC-0973 (5 mg/kg) to bile duct-intact and BDC male
+and female Beagle dogs. Approximately 80% of [14C]GDC-0973-
+derived radioactivity was excreted after oral administration to dogs
+within the first 72 h after dosing. Routes and rates of excretion were
+similar in both males and females (Fig. 4C). A high percentage of
+radioactivity was recovered in feces (⬃80%), and only 6.3 to 7.0% of
+radioactivity was recovered in urine (Fig. 4C). Approximately 65%
+of the administered radioactivity was recovered in the bile of BDC dogs
+through 168 h postdose (Fig. 4C), with a low amount of radioactivity
+recovered in feces. The combined recovery in urine and bile indicated that
+approximately 70% of the oral dose was absorbed in BDC dogs.
+
+In Vivo Xenograft Potency Assessment. TGI curves after a range
+of oral doses of GDC-0973 in Colo205 (BRAF V600E mutant)
+xenograft tumor-bearing mice are shown in Fig. 5A. Overall, GDC-
+0973 showed dose-dependent inhibition of tumor growth up to a dose
+of 10 mg/kg with saturation of efficacy observed at the highest dose
+tested (30 mg/kg). Figure 5B compares observed and predicted tumor
+volumes after simultaneous fitting of a simple indirect response model
+to the Colo205 tumor data (eq. 1). In general, a simple indirect
+response model was able to adequately characterize the PK-PD rela-
+tionship between GDC-0973 plasma concentrations and TGI. Esti-
+mated in vivo GDC-0973 PD parameters (%CV) characterizing the
+⫽ 0.389 ␮M (21) (207 ng/ml; total
+relationship were as follows: KC50
+⫽ 0.00372 h⫺1 (3), and
+concentration), Kmax
+n ⫽ 1 (fixed). Total concentration required for tumor stasis (Cstasis)
+was 0.05 ␮M (the concentration where the K is equal to kng).
+
+⫽ 0.0326 h⫺1 (14), kng
+
+Human PK and Dose Predictions. On the basis of allometry with
+maximal
+life-span potential (MLP) correction for CL (exponent
+⬎0.7), the correlation coefficient of the linear regression of log CL or
+volume of distribution (across species) versus log body weight was
+0.94 and 0.85 for CL and volume of distribution, respectively. A total
+human plasma CL and volume of distribution of 2.9 ml 䡠 min⫺1 䡠 kg⫺1
+and 9.9 l/kg, respectively, were predicted on the basis of the following
+regressions: CL ⫻ MLP ⫽ 2.23W1.11 and volume of distribution ⫽
+1.13W0.93. Because the current literature does not suggest that ac-
+counting for protein binding increases the accuracy in predicting
+human CL (Mahmood, 2005), the dose predictions were based on total
+CL. Assuming a one-compartment PK model, the predicted CL,
+⬃ 39 h), an
+volume of distribution, half-life (ke
+absorption rate constant (ka) of 1.00 h⫺1 (on the basis of the ka from
+fitting the dog PK data), and an assumed bioavailability of 80%, an
+estimate of a human PK profile was predicted. The predicted human
+dose (based on predicted PK) associated with the 90% TGI (compared
+with vehicle) at the end of study based on estimates from fitting the
+data from the Colo205 model was determined to be approximately 10
+mg, dosed daily. The predicted human PK profiles associated with a
+10-mg dose based on a one-compartment model are shown in Fig. 5C
+[area under the curve (AUC) and Cmax of ⬃655 ng 䡠 h/ml and ⬃11
+ng/ml, t1/2
+
+⫽ 0.0176 h⫺1; t1/2
+
+⬃ 39 h].
+
+Discussion
+
+Identification of potent and efficacious MEK inhibitors has been an
+active area of research. Currently, there are numerous MEK inhibitors at
+various stages of oncology clinical development (Fre´min and Meloche,
+
+A
+
+B
+
+p-ERK 
+
+t-ERK 
+
+Vehicle 
+ (MCT) 
+
+PosiƟve 
+control  
+
+2 hr 
+
+GDC-0973 (3 mg/kg) 
+
+2 hr 
+
+6 hr 
+
+10 hr 
+
+24 hr 
+
+48 hr 
+
+FIG. 3. A, whole-body autoradiogram of
+GDC-0973-related radioactivity distribu-
+tion in male Long-Evans rat at 2 h after
+a single administration of 30 mg/kg
+[14C]GDC-0973. B, pERK in the brain of
+mice after the fifth daily dose of 3 mg/kg
+GDC-0973.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+d
+m
+d
+
+ 
+
+.
+
+a
+s
+p
+e
+
+t
+j
+
+o
+u
+r
+n
+a
+s
+.
+
+l
+
+o
+r
+g
+b
+y
+ 
+
+ 
+
+g
+u
+e
+s
+t
+ 
+
+o
+n
+
+ 
+J
+u
+y
+ 
+
+l
+
+1
+
+,
+ 
+
+2
+0
+1
+3
+
+PRECLINICAL PHARMACOKINETICS OF GDC-0973
+
+925
+
+A
+
+100
+
+B
+
+100
+
+d
+e
+r
+e
+v
+o
+c
+e
+R
+e
+s
+o
+D
+%
+
+ 
+
+ 
+
+75
+
+50
+
+25
+
+0
+
+Males
+
+Females
+
+dUrine
+Feces
+Bile
+Total
+
+e
+r
+e
+v
+o
+c
+e
+R
+e
+s
+o
+D
+%
+
+ 
+
+ 
+
+75
+
+50
+
+25
+
+0
+
+C
+
+d
+e
+r
+e
+v
+o
+c
+e
+R
+e
+s
+o
+D
+
+ 
+
+ 
+f
+o
+%
+
+ 
+
+100
+
+75
+
+50
+
+25
+
+0
+
+Male Intact
+
+Female Intact
+
+Males BDC
+
+Males
+
+Females
+
+[14C]GDC-0973-re-
+FIG. 4. Recovery of
+lated radioactivity after oral administration
+of 30 mg/kg to male and female bile duct
+intact rats (A) and bile duct cannulated rats
+(B). Recovery of [14C]GDC-0973-related ra-
+dioactivity after oral administration of 5
+mg/kg to male and female bile duct intact
+dogs and bile duct cannulated male dogs (C).
+
+2010). Signs of clinical activity have been reported for GDC-0973 (Rosen
+et al., 2011) and GSK1120212 (Gilmartin et al., 2011) in Phase Ib trials
+in melanoma tumors bearing the BRAF V600E mutation. In addition, the
+BRAF inhibitor, vemurafenib, which acts downstream of MEK, has
+shown efficacy in the treatment of BRAF V600E melanoma (Flaherty et
+al., 2009; Puzanov et al., 2009; Bollag et al., 2010) and has been approved
+for treatment of BRAF mutant melanoma.
+
+Before clinical development of a compound, as part of the discov-
+ery process, preclinical assessment is conducted to understand the
+absorption, distribution, metabolism, and excretion of the compound.
+In addition, preclinical efficacy is also assessed and exposure-efficacy
+relationships are characterized. Collectively, this information forms
+the basis for predicting the human disposition, efficacy, and target
+dose of a compound in humans. Finally, when clinical information
+
+A
+
+)
+3
+m
+m
+
+(
+ 
+
+e
+m
+u
+o
+V
+
+l
+
+ 
+r
+o
+m
+u
+T
+
+Veh
+1 mg/kg
+3 mg/kg
+10 mg/kg
+30 mg/kg
+
+1200
+
+1000
+
+800
+
+600
+
+400
+
+200
+
+0
+
+0
+
+100
+
+200
+
+300
+
+400
+
+500
+
+B
+
+)
+3
+
+m
+m
+
+(
+ 
+
+e
+m
+u
+
+l
+
+o
+V
+ 
+r
+o
+m
+u
+T
+
+ 
+
+d
+e
+t
+c
+i
+
+d
+e
+r
+P
+
+1200
+
+1000
+
+800
+
+600
+
+400
+
+200
+
+0
+
+0
+
+y = 0.99x
+R2 = 0.97
+
+200
+
+400
+
+600
+
+800
+
+1000
+
+Observed Tumor Volume (mm3)
+
+Time (hr)
+
+C
+
+ 
+
+n
+o
+i
+t
+a
+r
+t
+n
+e
+c
+n
+o
+C
+3
+7
+9
+0
+-
+C
+D
+G
+
+ 
+
+)
+L
+m
+g
+n
+(
+
+/
+
+12
+
+10
+
+8
+
+6
+
+4
+
+2
+
+0
+
+AUC = 655 ng.h/mL 
+Cmax = 11 ng/mL
+t1/2 = ~ 39 h
+
+0
+
+5
+
+10
+15
+Time (hr)
+
+20
+
+25
+
+FIG. 5. Effect of GDC-0973 administration
+on the growth of Colo205 tumor xenografts
+in mice. Tumor volumes are presented as
+mean ⫾ S.E. (symbols, observed data; line,
+fit of indirect response model to data) (A).
+Observed versus predicted tumor volumes
+after fit of an indirect response model to the
+data (B). Simulated concentration-time pro-
+file of 10 mg of GDC-0973 (concentration
+predicted to be associated with 90% TGI in
+the Colo205 xenograft model; predicted CL
+of 2.9 ml 䡠 min⫺1 䡠 kg⫺1, Vss of 9.9 l/kg, and
+assumed F of 80%) (C).
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+d
+m
+d
+
+ 
+
+.
+
+a
+s
+p
+e
+
+t
+j
+
+o
+u
+r
+n
+a
+s
+.
+
+l
+
+o
+r
+g
+b
+y
+ 
+
+ 
+
+g
+u
+e
+s
+t
+ 
+
+o
+n
+
+ 
+J
+u
+y
+ 
+
+l
+
+1
+
+,
+ 
+
+2
+0
+1
+3
+
+926
+
+CHOO ET AL.
+
+becomes available, it is important to retrospectively revisit earlier
+predictions to learn and confirm from previous experiences.
+
+GDC-0973 is characterized to have high protein binding across
+species (⬃1– 6% unbound). Data from the rat QWBA study suggest
+that GDC-0973 is distributed rapidly and extensively into tissues. In
+the QWBA study, the highest concentration of compound-related
+radioactivity was observed in liver and bile, persisting beyond mea-
+surable levels in blood. This is consistent with data from the mass
+balance studies showing that in both rat and dog, biliary excretion is
+the major pathway for GDC-0973 elimination, with renal excretion
+playing a minor role. In addition, the QWBA data show low levels of
+GDC-0973-related radioactivity in the brain (Fig. 3), similar to data
+indicating that GDC-0973 does not appear to penetrate the brain
+appreciably. In addition, pERK inhibition, a downstream biomarker
+for MEK pathway inhibition, was not observed in brain tissue. The
+low unbound brain-to-plasma ratio (0.018) at 2 h suggests that the
+disproportionately low concentrations in brain may be limited by
+efflux. This is in keeping with studies in MDCK cells overexpressing
+P-gp, suggesting that GDC-0973 is a substrate for P-gp. However,
+unlike in brain, levels of GDC-0973 in Colo205 tumors were greater
+than plasma concentrations, suggesting lack of P-gp influence/expres-
+sion in Colo205 xenograft tumors.
+
+In preclinical species, the PK of GDC-0973 is characterized by
+moderate CL across species and a large volume of distribution. There
+are numerous methods that could be employed in CL predictions
+(Poulin et al., 2011a; Ring et al., 2011). In the case of GDC-0973, we
+chose to use allometry using all available preclinical CL data (with
+MLP correction based on the exponent) for scaling total CL. On the
+basis of allometry, the plasma CL in human was predicted to be low
+(⬃3 ml䡠 min⫺1 䡠 kg⫺1); this is lower than the predicted CL (10 ml 䡠
+min⫺1 䡠 kg⫺1) based on microsomes. On the basis of allometry, the
+volume of distribution was predicted to be high (⬃10 l/kg), with a
+predicted half-life of 39 h. The assumed F was 80%, which is
+consistent with the moderate permeability observed in MDCKI cell
+lines, the F observed in preclinical species (except monkey), the high
+fraction absorbed observed in the mass balance studies in rat and dog,
+and the predicted CL (F ⫽ 1 ⫺ E; assuming total CL is hepatic).
+Assuming a one-compartment model, the predicted CL of 3 ml 䡠
+min⫺1 䡠 kg⫺1, Vss, and F, a 10-mg dose of GDC-0973 is associated
+with an AUC and Cmax of ⬃655 ng 䡠 h/ml and ⬃11 ng/ml (Tmax
+⬃4
+h) (Fig. 5).
+
+It has been reported that the clinically observed half-life of GDC-
+0973 ranges from 26 to 53 h (Musib et al., 2011), similar to the
+predicted half-life of 39 h. At a 10-mg dose in the clinic, the observed
+⬃ 4 h),
+AUC and Cmax were 752 ng 䡠 h/ml and 53 ng/ml (Tmax
+respectively (Musib et al., 2011). Therefore, overall, the AUC of
+GDC-0973 was well predicted. However, the discrepancy (⬃5-fold)
+between the predicted and observed Cmax may be explained in part by
+the PK profile of GDC-0973, which was described by a two-compart-
+ment model with an absorption lag time (Budha et al., 2011), whereas
+a one-compartment model and absorption rate constant from dog was
+applied in the predictions. It is often difficult a priori to predict the PK
+profile of compounds, particularly if the profile is described by
+multiple compartments. Alternative methods proposed by Dedrick et
+al. (1970) or Wajima et al. (2004) and physiology-based PK modeling
+have been used to project human concentration-time profiles. How-
+ever, according to other studies, prediction of PK profiles of orally
+dosed compounds was relatively poor using these methods (Poulin et
+al., 2011b; Vuppugalla et al., 2011), highlighting the continuing
+challenge in predicting oral concentration-time profiles.
+
+Interestingly, the KC50 (16 nM; unbound plasma), describing the in
+vivo potency, was consistent with the IC50 values from the enzyme
+
+(4.2), cellular pERK (1.8), and proliferation (8 nM) assays in Colo205
+cells. The predicted efficacious dose in humans was determined on the
+basis of PK-PD modeling of the Colo205 (V600E mutant) mouse
+xenograft efficacy data. Estimates from this modeling were used to
+simulate human doses associated with 90% TGI (compared with
+vehicle) in human by substituting mouse PK for predicted human PK,
+thereby accounting for the difference in mouse PK and human pre-
+dicted PK. According to the Colo205 model, a ⬃10-mg daily dose of
+GDC-0973 is associated with 90% TGI. It has been reported that
+clinical signs of efficacy have been observed with GDC-0973 in
+BRAF V600E melanoma patients at doses of 60 and 100 mg, dosed
+daily for 21 and 14 days, respectively, in a 28-day cycle of treatment
+(Rosen et al., 2011). Considering the difference between the predicted
+and observed human PK, these data suggest the Colo205 model
+appears to be a sensitive model and underestimated the clinical
+efficacious dose of GDC-0973 because activity was observed at
+higher doses (60 mg) than predicted (⬃10 mg). Preliminary data
+suggest that clinical efficacy is observed at doses where efficacy is
+saturated in the Colo205 model. However, according to the H2122
+(KRAS, non–small-cell
+lung cancer) and A2058 (BRAF mutant,
+PTEN-null model) xenograft data, higher doses are predicted to be
+required for efficacy (data not shown), suggesting that less sensitive in
+vivo models may provide a better prediction of the ultimate clinical
+efficacious dose. Because signs of clinical efficacy are observed in
+melanoma patients with the BRAF V600E mutation, the Colo205
+(V600E) xenograft model appears to be the relevant genotype for
+comparison. Because prospectively we do not necessarily know the
+responsive tumor type(s) in the clinic, it highlights the importance for
+assessing multiple models with varying sensitivity in predicting a
+clinical efficacious dose.
+
+It is also interesting to note that in the Colo205 xenograft model,
+vemurafenib has been reported to show tumor stasis and regression at
+exposures (AUC) between 200 and 300 ␮M 䡠 h in the mouse (Bollag
+et al., 2010), whereas the clinical dose (960 mg b.i.d.) is associated
+with an AUC of 1741 ␮M 䡠 h (Flaherty et al., 2010). This suggests that
+as with GDC-0973, higher exposures of vemurafenib were required
+clinically compared with preclinical estimates based on the Colo205
+xenograft model. It is also interesting to note that the administration
+of the MEK inhibitor, GSK1120212 is associated with 85 and 83%
+TGI at a dose of 3 mg/kg in the Colo205 and HCT116 (KRAS mutant)
+xenograft model, respectively (Gilmartin et al., 2011). However,
+because mouse exposures are not reported, comparisons of mouse
+exposures with human exposures at 2 mg (recommended Phase II
+dose; AUC 360 ng 䡠 h/ml) where signs of efficacy have been observed
+cannot be made (Infante, et al., 2010).
+
+There are multiple caveats in translating preclinical efficacy data to
+human efficacy predictions. One primary assumption is that concen-
+trations required for antitumor activity translate directly from mouse
+xenograft models to humans. This assumes that distribution of drug is
+similar despite reported differences in tumor vasculature and transport
+in xenograft versus human tumors (Jang et al., 2003). Another as-
+sumption is that the capacity (Emax) and sensitivity (EC50) parameters
+are conserved across species (Mager et al., 2009). In addition, noted
+differences in growth rate and previous exposure of human tumors to
+prior therapies may complicate the interpretation of modeled xeno-
+graft data. Nevertheless, despite these limitations, there have been
+numerous reports where preclinical PK-PD modeling has been suc-
+cessfully applied in predicting dose targets associated with human
+efficacy (Simeoni et al., 2004; Tanaka et al., 2008; Rocchetti et al.,
+2009; Goteti et al., 2010).
+
+Drug discovery and development is an iterative process. As com-
+pounds progress in the clinic, it is important to apply the “learn and
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+d
+m
+d
+
+ 
+
+.
+
+a
+s
+p
+e
+
+t
+j
+
+o
+u
+r
+n
+a
+s
+.
+
+l
+
+o
+r
+g
+b
+y
+ 
+
+ 
+
+g
+u
+e
+s
+t
+ 
+
+o
+n
+
+ 
+J
+u
+y
+ 
+
+l
+
+1
+
+,
+ 
+
+2
+0
+1
+3
+
+PRECLINICAL PHARMACOKINETICS OF GDC-0973
+
+927
+
+confirm” paradigm. Here, with GDC-0973, where possible we have
+revisited and compared the preclinical data and predictions with
+observed clinical data. It is hoped that by learning from examples such
+as GDC-0973, this may ultimately lead to a more successful drug
+discovery/development process.
+
+Acknowledgments
+
+We thank Genentech colleagues in the Translational Oncology and Drug
+Metabolism and Pharmacokinetics departments. We also thank the In Vivo
+Studies Group for contributions in generating data for this study.
+
+Authorship Contributions
+
+Participated in research design: Choo, Belvin, Hoeflich, Merchant, Plise,
+
+Robarge, Martini, Aoyama, Ramaiya, and Johnston.
+
+Conducted experiments: Orr and Plise.
+Contributed new reagents or analytic tools: Deng and Robarge.
+Performed data analysis: Boggs, Ly, Plise, Kassees, and Ramaiya.
+Wrote or contributed to the writing of the manuscript: Choo.
+
+References
+
+Belvin M, Berry L, Chan J, den Otter D, Friedman L, Hoeflich K, Koeppen H, Merchant M, Orr
+C, and Rice K (2010) Intermittent dosing of the MEK inhibitor, GDC-0973, and the PI3K
+inhibitor, GDC-0941, results in prolonged accumulation of Bim and causes strong tumor
+growth inhibition in vivo. 22nd EORTC–NCI–AACR Symposium on Molecular Targets and
+Cancer Therapeutics Programme; 2010 Nov 16 –19; Berlin, Germany. European Organization
+for Research and Treatment of Cancer, Brussels, Belgium.
+
+Bollag G, Hirth P, Tsai J, Zhang J, Ibrahim PN, Cho H, Spevak W, Zhang C, Zhang Y, Habets
+G, et al. (2010) Clinical efficacy of a RAF inhibitor needs broad target blockade in BRAF-
+mutant melanoma. Nature 467:596 –599.
+
+Boxenbaum H (1982) Interspecies scaling, allometry, physiological time, and the ground plan of
+
+pharmacokinetics. J Pharmacokinet Biopharm 10:201–227.
+
+Budha N, Jin J, Musib L, Eppler S, Ware J, Chan I, and Dresser M (2011) Population
+pharmacokinetics of MAPK kinase (MEK) inhibitor GDC-0973 in phase I patients with
+solid tumors. American Society of Clinical Pharmacology and Therapeutics Annual
+Meeting; 2011 Mar 3; Dallas, TX. American Society of Clinical Pharmacology and
+Therapeutics, Alexandria, VA.
+
+Choo EF, Belvin M, Chan J, Hoeflich K, Orr C, Robarge K, Yang X, Zak M, and Boggs J (2010)
+Preclinical disposition and pharmacokinetics-pharmacodynamic modeling of biomarker re-
+sponse and tumour growth inhibition in xenograft mouse models of G-573, a MEK inhibitor.
+Xenobiotica 40:751–762.
+
+Choo EF, Driscoll JP, Feng J, Liederer B, Plise E, Randolph N, Shin Y, Wong S, and Ran Y
+(2009) Disposition of GDC-0879, a B-RAF kinase inhibitor in preclinical species. Xenobiotica
+39:700 –709.
+
+Davies B and Morris T (1993) Physiological parameters in laboratory animals and humans.
+
+Pharm Res 10:1093–1095.
+
+Dedrick R, Bischoff KB, and Zaharko DS (1970) Interspecies correlation of plasma concentra-
+
+tion history of methotrexate (NSC-740). Cancer Chemother Rep 54:95–101.
+
+Downward J (2003) Targeting RAS signalling pathways in cancer therapy. Nat Rev Cancer
+
+3:11–22.
+
+Flaherty K, Puzanov I, Sosman J, Kim K, Ribas A, McArthur G, Lee RJ, Grippo JF, Nolop K,
+and Chapman P (2009) Phase I study of PLX4032: proof of concept for V600E BRAF
+mutation as a therapeutic target in human cancer. J Clin Oncol 27:15s.
+
+Flaherty KT, Puzanov I, Kim KB, Ribas A, McArthur GA, Sosman JA, O’Dwyer PJ, Lee RJ,
+Grippo JF, Nolop K, et al. (2010) Inhibition of mutated, activated BRAF in metastatic
+melanoma. N Engl J Med 363:809 – 819.
+
+Fre´min C and Meloche S (2010) From basic research to clinical development of MEK1/2
+
+inhibitors for cancer therapy. J Hematol Oncol 3:8.
+
+Gibaldi M and Perrier D (1982) Pharmacokinetics, Marcel Dekker, New York.
+Gilmartin AG, Bleam MR, Groy A, Moss KG, Minthorn EA, Kulkarni SG, Rominger CM,
+Erskine S, Fisher KE, Yang J, et al. (2011) GSK1120212 (JTP-74057) is an inhibitor of MEK
+activity and activation with favorable pharmacokinetic properties for sustained in vivo path-
+way inhibition. Clin Cancer Res 17:989 –1000.
+
+Goteti K, Garner CE, Utley L, Dai J, Ashwell S, Moustakas DT, Go¨nen M, Schwartz GK, Kern
+SE, Zabludoff S, et al. (2010) Preclinical pharmacokinetic/pharmacodynamic models to
+predict synergistic effects of co-administered anti-cancer agents. Cancer Chemother Pharma-
+col 66:245–254.
+
+Hoeflich KP, Jaiswal B, Davis DP, and Seshagiri S (2008) Inducible BRAF suppression models
+
+for melanoma tumorigenesis. Methods Enzymol 439:25–38.
+
+Hoeflich KP, O’Brien C, Boyd Z, Cavet G, Guerrero S, Jung K, Januario T, Savage H, Punnoose
+E, Truong T, et al. (2009) In vivo antitumor activity of MEK and phosphatidylinositol 3-kinase
+inhibitors in basal-like breast cancer models. Clin Cancer Res 15:4649 – 4664.
+
+Infante JR, Fecher LA, Nallapareddy S, Gordon MS, Flaherty KT, Cox DS, DeMarini DJ, Morris
+SR, Burris HA, and Messersmith WA (2010) Safety and efficacy results from the first-in-
+human study of the oral MEK 1/2 inhibitor GSK1120212. 2010 American Society of Clinical
+Oncology Annual Meeting; 2010 Jun 4 – 8; Chicago, IL. Abstract 2503. American Society of
+Clinical Oncology, Alexandria, VA.
+
+Jang SH, Wientjes MG, Lu D, and Au JL (2003) Drug delivery and transport to solid tumors.
+
+Pharm Res 20:1337–1350.
+
+Johnson GL and Lapadat R (2002) Mitogen-activated protein kinase pathways mediated by ERK,
+
+JNK, and p38 protein kinases. Science 298:1911–1912.
+
+Kalvass JC, Maurer TS, and Pollack GM (2007) Use of plasma and brain unbound fractions to
+assess the extent of brain distribution of 34 drugs: comparison of unbound concentration ratios
+to in vivo p-glycoprotein efflux ratios. Drug Metab Dispos 35:660 – 666.
+
+Mager DE, Woo S, and Jusko WJ (2009) Scaling pharmacodynamics from in vitro and
+
+preclinical animal studies to humans. Drug Metab Pharmacokinet 24:16 –24.
+
+Mager DE, Wyska E, and Jusko WJ (2003) Diversity of mechanism-based pharmacodynamic
+
+models. Drug Metab Dispos 31:510 –518.
+
+Mahmood I (2005) Interspecies Pharmacokinetic Scaling, Pine House Publishers, Rockville,
+
+Maryland.
+
+Musib L, Eppler S, Choo E, Deng A, Miles D, Hsu B, Rosen L, Sikic B, LoRusso P, Ma W, et
+al. (2011) Clinical pharmacokinetics of GDC-0973, an oral MEK inhibitor, in cancer patients:
+data from a Phase 1 study (Abstract 1304). Cancer Res 71:1304.
+
+Obach RS, Baxter JG, Liston TE, Silber BM, Jones BC, MacIntyre F, Rance DJ, and Wastall P
+(1997) The prediction of human pharmacokinetic parameters from preclinical and in vitro
+metabolism data. J Pharmacol Exp Ther 283:46 –58.
+
+Poulin P, Jones HM, Jones RD, Yates JW, Gibson CR, Chien JY, Ring BJ, Adkison KK, He H,
+Vuppugalla R, et al. (2011a) PhRMA CPCDC initiative on predictive models of human
+pharmacokinetics, part 1: goals, properties of the PhRMA dataset, and comparison with
+literature datasets. J Pharm Sci 100:4050 – 4073.
+
+Poulin P, Jones RD, Jones HM, Gibson CR, Rowland M, Chien JY, Ring BJ, Adkison KK, Ku
+MS, He H, et al. (2011b) PHRMA CPCDC initiative on predictive models of human
+pharmacokinetics, part 5: prediction of plasma concentration-time profiles in human by using
+the physiologically-based pharmacokinetic modeling approach. J Pharm Sci 100:4127– 4157.
+Puzanov I, Nathanson KL, Chapman PB, Xu X, Sosman JA, McArthur GA, Ribas A, Kim KB,
+Grippo JF, and Flaherty KT (2009) PLX4032, a highly selective V600EBRAF kinase inhibitor:
+clinical correlation of activity with pharmacokinetic and pharmacodynamic parameters in a
+phase I trial. J Clin Oncol (Meeting Abstracts) 27 (Suppl):9021.
+
+Ring BJ, Chien JY, Adkison KK, Jones HM, Rowland M, Jones RD, Yates JW, Ku MS, Gibson
+CR, He H, et al. (2011) PhRMA CPCDC initiative on predictive models of human pharma-
+cokinetics, part 3: comparative assessment of prediction methods of human clearance. J Pharm
+Sci 100:4090 – 4110.
+
+Roberts PJ and Der CJ (2007) Targeting the Raf-MEK-ERK mitogen-activated protein kinase
+
+cascade for the treatment of cancer. Oncogene 26:3291–3310.
+
+Rocchetti M, Del Bene F, Germani M, Fiorentini F, Poggesi I, Pesenti E, Magni P, and De
+Nicolao G (2009) Testing additivity of anticancer agents in pre-clinical studies: a PK/PD
+modelling approach. Eur J Cancer 45:3336 –3346.
+
+Rosen L, LoRusso P, Ma WW, Goldman J, Weise A, Colevas AD, Adjei A, Yazji S, Shen A,
+Johnston S, et al. (2011) A first-in-human phase 1 study to evaluate the MEK1/2 inhibitor
+GDC-0973 administered daily in patients with advanced solid tumors (Abstract 4716). Cancer
+Res 71:4716.
+
+Salphati L, Pang J, Plise EG, Chou B, Halladay JS, Olivero AG, Rudewicz PJ, Tian Q, Wong S,
+and Zhang X (2011) Preclinical pharmacokinetics of the novel PI3K inhibitor GDC-0941 and
+prediction of its pharmacokinetics and efficacy in human. Xenobiotica 41:1088 –1099.
+
+Simeoni M, Magni P, Cammia C, De Nicolao G, Croci V, Pesenti E, Germani M, Poggesi I, and
+Rocchetti M (2004) Predictive pharmacokinetic-pharmacodynamic modeling of tumor growth
+kinetics in xenograft models after administration of anticancer agents. Cancer Res 64:1094 –
+1101.
+
+Solit DB, Garraway LA, Pratilas CA, Sawai A, Getz G, Basso A, Ye Q, Lobo JM, She Y, Osman
+I, et al. (2006) BRAF mutation predicts sensitivity to MEK inhibition. Nature 439:358 –362.
+Tanaka C, O’Reilly T, Kovarik JM, Shand N, Hazell K, Judson I, Raymond E, Zumstein-Mecker
+S, Stephan C, Boulay A, et al. (2008) Identifying optimal biologic doses of everolimus
+(RAD001) in patients with cancer based on the modeling of preclinical and clinical pharma-
+cokinetic and pharmacodynamic data. J Clin Oncol 26:1596 –1602.
+
+Vuppugalla R, Marathe P, He H, Jones RD, Yates JW, Jones HM, Gibson CR, Chien JY, Ring
+BJ, Adkison KK, et al. (2011) PhRMA CPCDC initiative on predictive models of human
+pharmacokinetics, part 4: prediction of plasma concentration-time profiles in human from in
+vivo preclinical data by using the Wajima approach. J Pharm Sci 100:4111– 4126.
+
+Wajima T, Yano Y, Fukumura K, and Oguma T (2004) Prediction of human pharmacokinetic
+profile in animal scale up based on normalizing time course profiles. J Pharm Sci 93:1890 –
+1900.
+
+Wellbrock C, Karasarides M, and Marais R (2004) The RAF proteins take centre stage. Nat Rev
+
+Mol Cell Biol 5:875– 885.
+
+Address correspondence to: Dr. Edna F. Choo, Department of Drug Metab-
+olism and Pharmacokinetics, Genentech, Inc., 1 DNA Way, South San Francisco,
+CA 94080. E-mail: choo.edna@gene.com
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+d
+m
+d
+
+ 
+
+.
+
+a
+s
+p
+e
+
+t
+j
+
+o
+u
+r
+n
+a
+s
+.
+
+l
+
+o
+r
+g
+b
+y
+ 
+
+ 
+
+g
+u
+e
+s
+t
+ 
+
+o
+n
+
+ 
+J
+u
+y
+ 
+
+l
+
+1
+
+,
+ 
+
+2
+0
+1
+3
+
+

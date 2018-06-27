@@ -1,0 +1,602 @@
+Downloaded from 
+
+genesdev.cshlp.org
+
+ on June 12, 2018 - Published by 
+
+Cold Spring Harbor Laboratory Press
+ 
+
+PERSPECTIVE
+
+Targeting oncogenic Ras
+
+Ernesto Diaz-Flores and Kevin Shannon1
+Department of Pediatrics, University of California, San Francisco, California 94143, USA
+
+Reversing the consequences of oncogenic Ras is a funda-
+mental problem in cancer therapeutics. Somatic RAS
+mutations are highly prevalent in many human cancers
+that respond poorly to current treatments, including car-
+cinomas of the lung, pancreas, and colon; melanoma; and
+myeloid leukemia (for review, see Schubbert et al. 2007).
+At first glance, oncogenic Ras is an appealing target for
+rational drug discovery as the mutant protein is a mem-
+brane-associated signaling molecule that is expressed at
+robust levels in primary tumor cells. However, targeting
+oncogenic Ras is extremely challenging in practice due
+to the nature of the Ras cycle and the functional conse-
+quences of oncogenic mutations (for review, see Vetter
+and Wittinghofer 2001; Downward 2003). Ras relies on
+an intrinsic GTPase activity to terminate signaling by
+hydrolyzing GTP to GDP. This “off” reaction is rela-
+tively inefficient, but is accelerated thousands of fold by
+the GTPase-activating proteins (GAPs) neurofibromin
+and p120 GAP, which stabilize a transition state be-
+tween Ras-GTP and Ras-GDP. Cancer-associated amino
+acid substitutions at codons 12, 13, and 61 both impair
+intrinsic Ras GTPase activity and confer resistance to
+GAPs. In principle, an effective small molecule therapy
+must therefore restore enzymatic activity within a
+highly constrained phosphate-binding loop of the onco-
+protein without deregulating normal Ras or related cel-
+lular GTPases. Given these grim biochemical realities,
+drug discovery efforts have primarily focused in two ar-
+eas: (1) blocking enzymes such as farnesyl transferase,
+which catalyze post-translational modifications of Ras
+that are essential for membrane targeting; and (2) devel-
+oping inhibitors of downstream kinases such as MEK,
+Akt, and mTOR. Inherent in these strategies is the no-
+tion that reversing the growth of Ras-driven malignan-
+cies inevitably requires interrupting aberrant cell-intrin-
+sic signaling networks. However, despite substantial ef-
+fort, there are currently no agents that effectively
+counter the biochemical consequences of oncogenic Ras.
+A provocative paper by Ancrile et al. (2007) in the July 15
+issue of Genes and Development suggests that interfer-
+ing with the ability of Ras-driven tumors to modulate
+the behaviors of other cells in the microenvironment
+could represent a viable therapeutic approach.
+
+1Corresponding author.
+E-MAIL shannonk@peds.ucsf.edu; FAX (415) 502-5127.
+Article is online at http://www.genesdev.org/cgi/doi/10.1101/gad.1587907.
+
+The current work was inspired, in part, by a previous
+study showing that HRAS-transformed HeLa cells se-
+crete the cytokine interleukin 8 (IL8), which contributes
+to tumor growth in immunodeficient mice by promoting
+angiogenesis (Sparmann and Bar-Sagi 2004), and by the
+reports of elevated levels of another cytokine, interleu-
+kin 6 (IL6), in the sera of patients with pancreatic cancer
+(Wigmore et al. 2002). Ancrile et al. (2007) harnessed a
+tractable system for transforming primary cells with a
+defined set of genes that includes SV40 T/t antigens, the
+telomerase catalytic subunit hTERT, the p110 isoform of
+phosphoinositide-3-OH (PI-3) kinase fused to a CAAX
+membrane localization sequence, and a regulatable
+HRASG12V oncogene (Lim and Counter 2005). Inducing
+H-RasG12V protein expression resulted in morphologic
+transformation and a tumorigenic phenotype, which was
+associated with dramatic up-regulation of IL6 production
+in multiple cell types. Moreover, reducing IL6 levels
+through the use of short hairpin RNA (shRNA) knock-
+down technology markedly attenuated tumorigenesis in
+vivo. Interestingly, Ancrile et al. (2007) present data that
+argue strongly against autocrine signaling as the reason
+that IL6 enhances tumor growth. Instead, the data sup-
+port a paracrine mechanism through which tumor-pro-
+duced IL6 acts on infiltrating cells in the tissue micro-
+environment (see Fig. 1). In related studies, these authors
+observed attenuated tumor formation in IL6 mutant
+mice that are exposed to a well-established model of skin
+carcinogenesis. They also showed that IL6 knockdown
+altered the growth of kidney and mesenchymal cancer
+cell lines. These experiments support the general prin-
+ciple of targeting the microenvironment as a strategy for
+inhibiting the growth of tumors expressing oncogenic
+Ras. This idea is consistent with elegant studies of
+Schwann cell tumorigenesis in Nf1 mutant mice. The
+Nf1 tumor suppressor gene encodes neurofibromin, a
+GAP for Ras, and inactivating this gene in the Schwann
+cell lineage deregulates Ras signaling and results in tu-
+mor formation, which is dependent on aberrant cytokine
+signaling between the tumor and infiltrating haploinsuf-
+ficient mast cells (Zhu et al. 2002; Yang et al. 2003).
+
+The data of Ancrile et al. (2007) also raise new ques-
+tions. First, it is uncertain how oncogenic Ras expression
+induces IL6 production and, in particular, whether this is
+consequence of activating Ras/Raf/MEK/ERK, Ral-GDS,
+PI3 kinase/Akt, and/or other effectors of Ras-GTP. Sec-
+ond, whereas IL6 production by tumorigenic cells is as-
+
+GENES & DEVELOPMENT 21:1989–1992 © 2007 by Cold Spring Harbor Laboratory Press ISSN 0890-9369/07; www.genesdev.org
+
+1989
+
+Downloaded from 
+
+genesdev.cshlp.org
+
+ on June 12, 2018 - Published by 
+
+Cold Spring Harbor Laboratory Press
+ 
+
+Diaz-Flores and Shannon
+
+Figure 1. Model for the effects of IL6 produc-
+tion by HRas mutant tumor cells and effects
+on the microenvironment. The tumor (green
+cells) produces IL6 (yellow), which diffuses
+into the surrounding stroma and activates re-
+ceptors expressed on infiltrating cells (pink).
+The identity of these intermediary cells is un-
+certain, but they could be epithelial cells, T
+lymphocytes, myeloid cells, and/or dendritic
+cells. This IL6-responsive population might
+produce soluble factors that directly stimu-
+late tumor growth (blue arrow). These cells
+might also express cell surface proteins (green
+bar) and/or produce soluble factors (green
+circles) that recruit endothelial cells (orange)
+into the microenvironment. Endothelial cells,
+in turn, could contribute to tumor growth
+either by feedback activation of tumor cells
+(orange arrow) and/or by releasing angiogenic
+factors (short red arrows) that promote blood
+vessel formation around the tumor.
+
+sociated with a marked increase in the number of intra-
+tumoral endothelial cells, these cells are not known to
+express the IL6 receptor. This suggests that an interme-
+diary population of IL6-responsive cells recruits endothe-
+lial cells (and perhaps other cell types) into the evolving
+tumor, and that these infiltrating cells promote the
+growth of the tumor mass by either overcoming negative
+regulatory factors and/or by producing molecules that
+directly or indirectly stimulate growth (Fig. 1). Under-
+standing this complex interplay between tumor-pro-
+duced IL6 and the microenvironment and, in turn, iden-
+tifying Ras-dependent and Ras-independent pathways
+within the tumor that are subsequently activated by in-
+filtrating IL6-responsive normal cells may uncover trac-
+table therapeutic targets. Finally, the data presented in
+this work largely focuses on the role of IL6 in tumor
+initiation. Regrettably, human cancers are not diagnosed
+until much later in the natural history of the disease and
+a sine qua non for an effective therapeutic is the ability
+to induce objective regression of established disease.
+Along these lines, it will be important to investigate if
+inhibiting IL6 signaling in advanced tumors is effica-
+cious in animal models and, if this approach appears
+promising, in clinical trials.
+
+Oncogenic Ras: meek or macho?
+
+Ras occupies a high position in the pantheon of oncopro-
+teins—diabolically activated with the ability to potently
+deregulate multiple effector molecules and cellular pro-
+cesses. This traditional view, which is largely based on
+observations made in immortalized cancer cell lines, has
+gradually given way to a more nuanced understanding
+that emphasizes cell context and the capacity of primary
+cells to adapt to the stress of oncogenic Ras protein ex-
+pression by remodeling signaling networks and adopting
+alternate fates such as senescence. Moreover, insights
+from cancer and developmental genetics infer that sub-
+
+1990
+
+GENES & DEVELOPMENT
+
+stantial gaps in our knowledge remain, which have im-
+portant therapeutic implications. The availability of ac-
+curate mouse models that now allow investigators to
+interrogate the genetic, cell biologic, and biochemical
+consequences of ablating one or more Ras alleles has
+provided provocative insights. For example, inactivating
+one normal Kras allele was shown to greatly accelerate
+the penetrance and aggressiveness of lung cancer in mice
+exposed to a mutagen that induces a high frequency of
+Kras point mutations (Zhang et al. 2001). Based on our
+understanding of Ras biochemistry, this result is unex-
+pected, as oncogenic K-Ras should confer a dominant
+cellular phenotype irrespective of the presence or ab-
+sence of the normal protein. Yet the genetics indicates
+that the normal K-Ras protein matters and somehow re-
+strains the deleterious effects of its mutant sibling. An-
+other major advance was the development of strains of
+“knock-in” mice that were engineered to conditionally
+express oncogenic K-RasG12D from the endogenous Kras
+promoter. Remarkably, biochemical investigation of pri-
+mary cell lineages from these animals revealed little or
+no activation of downstream effector signaling pathways
+even in the presence of elevated levels of Ras-GTP
+(Guerra et al. 2003; Braun et al. 2004; Tuveson et al.
+2004). However, despite the apparent ability of normal
+cells to moderate the downstream consequences of hy-
+peractive Ras, these mice are strongly predisposed to the
+development of fatal pancreatic, lung, and hematologic
+cancers (Guerra et al. 2003; Hingorani et al. 2003; Braun
+et al. 2004; Tuveson et al. 2004).
+
+A most surprising recent discovery was that HRAS and
+KRAS mutations are tolerated in the germline and un-
+derlie disorders of the Noonan syndrome spectrum (for
+review, see Schubbert et al. 2007). These conditions,
+which include Noonan, Costello, and cardio–facio–cuta-
+neous syndromes, are characterized by facial abnormali-
+ties, heart defects, and impaired growth and develop-
+ment. The germline KRAS mutations found in these in-
+dividuals introduce novel amino acid substitutions that
+
+Downloaded from 
+
+genesdev.cshlp.org
+
+ on June 12, 2018 - Published by 
+
+Cold Spring Harbor Laboratory Press
+ 
+
+are not found in cancer and encode K-Ras proteins that
+display intermediate biochemical and functional proper-
+ties (i.e., they are less activated than oncogenic K-Ras,
+but deregulated compared with the wild-type protein)
+(Niihori et al. 2006; Schubbert et al. 2006). Cancer is
+uncommon in Noonan syndrome, although affected in-
+fants frequently demonstrate a spectrum of hematologic
+abnormalities, and occasionally develop juvenile myelo-
+monocytic leukemia (for review, see Lauchle et al. 2006).
+In contrast, the germline HRAS mutations found in Cos-
+tello syndrome, which almost invariably alter codons 12
+and 13, also occur as somatic mutations in cancer (Aoki
+et al. 2005). Remarkably, persons with Costello syn-
+drome are not exceptionally cancer prone. The tissues
+that are perturbed developmentally (nervous system,
+musculoskeletal system) overlap with the types of ma-
+lignancies that are observed (rhabdomyosarcoma, neuro-
+blastoma, ganglioneuroblastoma, and bladder cancer).
+These data suggest that endogenous levels of activated
+H-Ras are only transforming in the context of certain
+tissues or the gene is expressed at low levels in most
+types of cancer-initiating cells. HRAS mutations ac-
+count for <1% of all cancer-associated RAS mutations.
+The observation that many individuals with Costello
+syndrome never develop cancer supports the idea that
+mutant HRAS requires cooperating mutations for tu-
+morigenesis. Interestingly, loss or silencing of the nor-
+mal HRAS allele has been reported in some of the ma-
+lignancies that arise in Costello syndrome patients. It is
+remarkable that epithelial cancers that show a high in-
+cidence of KRAS mutations have not been reported in
+persons with either Noonan or Costello syndrome.
+Whereas genetic ablation of either Nras or Hras is com-
+patible with normal development, homozygous Kras
+mutant embryos succumb in utero (Johnson et al. 1997;
+Koera et al. 1997; Esteban et al. 2001). If KRAS is the
+most important isoform for controlling developmental
+programs, it logically follows that it would be activated
+by somatic mutation in cancer cells far more often than
+either HRAS or NRAS. Together, recent observations in
+genetically engineered mice and human patients under-
+score the intimate interrelationship of development and
+cancer, and infer that most normal cell types have a re-
+markable capacity to tolerate hyperactive Ras signaling
+without deleterious phenotypic consequences. This is
+the “meek” side of oncogenic Ras. However, the same
+“macho” oncoprotein somehow overcomes the best ef-
+forts to contain it, and ultimately contributes to about a
+third of all human cancers. Understanding how cells re-
+spond acutely to the stress of oncogenic Ras expression
+and how these adaptive responses are subverted in can-
+cer have emerged as central questions in the field.
+
+Oncogenic Ras in context
+
+A persistent theme in understanding the biology of Ras
+in normal and malignant cells is the immense specificity
+conferred by specific growth factor/receptor interactions,
+the dose and duration of signaling, and different roles of
+the H-Ras, K-Ras, and N-Ras isoforms (for review, see
+
+Targeting oncogenic Ras
+
+Marshall 1995; Downward 2006). Translating this com-
+plexity into better treatments for cancers with RAS gene
+mutations will require maintaining a healthy degree of
+skepticism about any particular result with an aware-
+ness of the potential limitations of specific experimental
+systems. Investigators will need to integrate data from
+human tumors, mouse models, and cell lines. The clinic
+is always a good place to begin. Any analysis of onco-
+genic Ras in cancer leads to the inexorable conclusion
+that there is something special about KRAS. The reason
+for this is uncertain, although emerging evidence sup-
+ports the idea that differences within the C-terminal hy-
+pervariable domains have profound effects on signal out-
+put from different subcellular compartments (for review,
+see Mor and Philips 2006). While it is uncertain why
+primary human cancers frequently mutate KRAS, some-
+times mutate NRAS, and rarely mutate HRAS, the im-
+plications for developing and testing new therapeutic
+strategies are clear—the isoform matters. Provocative
+data that are obtained with oncogenic H-Ras or N-Ras
+should be extended to K-Ras wherever possible. These
+studies are best carried out in a primary tissue context
+such as the pancreas where somatic KRAS mutations are
+common, and should ideally exploit a system in which
+oncogenic K-Ras is expressed from the endogenous pro-
+moter. Along these lines, investigators who are studying
+the biology of melanoma or myeloid leukemia might
+consider models driven by NRAS, as this isoform is com-
+monly mutated in these cancers. Patients can also pro-
+vide clues about treatment strategies. For example, the
+observation that effector pathways in primary murine
+cancers that are initiated by K-RasG12D expression con-
+tinue to respond robustly to cytokine growth factors
+raises the possibility of therapeutically targeting pro-
+teins upstream of Ras-GTP. However, genetic analysis of
+lung tumors from patients who received small molecule
+inhibitors of
+receptor
+showed that oncogenic KRAS mutations were predictive
+of treatment failure (Pao et al. 2005). As additional tar-
+geted agents are tested clinically, correlating RAS muta-
+tion status with treatment responses should illuminate
+general principles for inhibiting oncogenic Ras in differ-
+ent tumor contexts. Well-designed preclinical trials in
+genetically engineered mice and biochemical analysis of
+tumors from these animals will also help to define both
+the architecture of Ras signaling networks in primary
+cells and potential approaches for achieving a beneficial
+therapeutic index in vivo. Finally, data from animal
+models should be integrated with high throughput analy-
+sis in well-defined panels of cancer cell lines. Although
+these studies must be interpreted with caution due to
+potential artifacts from adaptation to life on plastic and
+the lack of supporting stromal cells, looking across many
+cell lines can reveal general patterns such as the depen-
+dence of BRAF mutant cells, but not KRAS mutant cells,
+on MEK signaling (Solit et al. 2005).
+
+the epidermal growth factor
+
+After three decades and thousands of reports, the Ras
+field remains as dynamic and unsettled as ever. Onco-
+genic Ras represents both a tantalizing target and formi-
+dable obstacle to decreasing the burden of cancer
+
+GENES & DEVELOPMENT
+
+1991
+
+Downloaded from 
+
+genesdev.cshlp.org
+
+ on June 12, 2018 - Published by 
+
+Cold Spring Harbor Laboratory Press
+ 
+
+Diaz-Flores and Shannon
+
+throughout the world. Together, the development of
+many small molecules against aberrant signaling mol-
+ecules, the possibility of modulating the tumor micro-
+environment, and the availability of new tools for inter-
+rogating oncogenic Ras in primary cells hold out promise
+for substantial advances in the next few years.
+
+Acknowledgments
+
+We apologize to authors whose work we were not able to cite
+due to format restrictions. We are indebted to Jennifer Lauchle
+and David Tuveson for helpful conversations. The work in our
+laboratory addressing hyperactive Ras signaling in cancer is sup-
+ported by NIH grants CA72614 and CA104282, by a Leukemia
+and Lymphoma Society SCOR award, and by the Department of
+Defense Neurofibromatosis Research Program. E.D.-F. is the re-
+cipient of a Young Investigator Award from the Children’s Tu-
+mor Foundation.
+
+References
+
+Ancrile, B., Lim, K.-H., and Counter, C.M. 2007. Oncogenic
+Ras-induced secretion of IL6 is required for tumorigenesis.
+Genes & Dev. 21: 1714–1719.
+
+Aoki, Y., Niihori, T., Kawame, H., Kurosawa, K., Ohashi, H.,
+Tanaka, Y., Filocamo, M., Kato, K., Suzuki, Y., Kure, S., et al.
+2005. Germline mutations in HRAS proto-oncogene cause
+Costello syndrome. Nat. Genet. 37: 1038–1040.
+
+Braun, B.S., Tuveson, D.A., Kong, N., Le, D.T., Kogan, S.C.,
+Rozmus, J., Le Beau, M.M., Jacks, T.E., and Shannon, K.M.
+2004. Somatic activation of oncogenic Kras in hematopoietic
+cells initiates a rapidly fatal myeloproliferative disorder.
+Proc. Natl. Acad. Sci. 101: 597–602.
+
+Downward, J. 2003. Targeting RAS signalling pathways in can-
+
+cer therapy. Nat. Rev. Cancer 3: 11–22.
+
+Downward, J. 2006. Signal transduction. Prelude to an anniver-
+
+sary for the RAS oncogene. Science 314: 433–434.
+
+Esteban, L.M., Vicario-Abejon, C., Fernandez-Salguero, P., Fern-
+andez-Medarde, A., Swaminathan, N., Yienger, K., Lopez, E.,
+Malumbres, M., McKay, R., Ward, J.M., et al. 2001. Targeted
+genomic disruption of H-ras and N-ras, individually or in
+combination, reveals the dispensability of both loci for
+mouse growth and development. Mol. Cell Biol. 21: 1444–
+1452.
+
+Guerra, C., Mijimolle, N., Dhawahir, A., Dubus, P., Barradas,
+M., Serrano, M., Campuzano, V., and Barbacid, M. 2003. Tu-
+mor induction by an endogenous K-ras oncogene is highly
+dependent on cellular context. Cancer Cell 4: 111–120.
+
+Hingorani, S.R., Petricoin, E.F., Maitra, A., Rajapakse, V., King,
+C., Jacobetz, M.A., Ross, S., Conrads, T.P., Veenstra, T.D.,
+Hitt, B.A., et al. 2003. Preinvasive and invasive ductal pan-
+creatic cancer and its early detection in the mouse. Cancer
+Cell 4: 437–450.
+
+Johnson, L., Greenbaum, D., Cichowski, K., Mercer, K., Mur-
+phy, E., Schmitt, E., Bronson, R.T., Umanoff, H., Edelmann,
+W., Kucherlapati, R., et al. 1997. K-ras is an essential gene in
+the mouse with partial functional overlap with N-ras. Genes
+& Dev. 11: 2468–2481.
+
+Koera, K., Nakamura, K., Nakao, K., Miyoshi, J., Toyoshima, K.,
+Hatta, T., Otani, H., Aiba, A., and Katsuki, M., 1997. K-ras is
+essential for the development of the mouse embryo. Onco-
+gene 15: 1151–1159.
+
+Lauchle, J.O., Braun, B.S., Loh, M.L., and Shannon, K. 2006.
+Inherited predispositions and hyperactive Ras in myeloid
+
+1992
+
+GENES & DEVELOPMENT
+
+leukemogenesis. Pediatr. Blood Cancer 46: 579–585.
+
+Lim, K.H. and Counter, C.M. 2005. Reduction in the require-
+ment of oncogenic Ras signaling to activation of PI3K/AKT
+pathway during tumor maintenance. Cancer Cell 8: 381–
+392.
+
+Marshall, C. 1995. Specificity of receptor tyrosine kinase sig-
+naling: Transient versus sustained extracellular signal-regu-
+lated kinase activation. Cell 80: 179–185.
+
+Mor, A. and Philips, M.R. 2006. Compartmentalized Ras/MAPK
+
+signaling. Annu. Rev. Immunol. 24: 771–800.
+
+Niihori, T., Aoki, Y., Narumi, Y., Neri, G., Cave, H., Verloes,
+A., Okamoto, N., Hennekam, R.C., Gillessen-Kaesbach, G.,
+Wieczorek, D., et al. 2006. Germline KRAS and BRAF mu-
+tations in cardio-facio-cutaneous syndrome. Nat. Genet. 38:
+294–296.
+
+Pao, W., Wang, T.Y., Riely, G.J., Miller, V.A., Pan, Q., Ladanyi,
+M., Zakowski, M.F., Heelan, R.T., Kris, M.G., and Varmus,
+H.E. 2005. KRAS mutations and primary resistance of lung
+adenocarcinomas to gefitinib or erlotinib. PLoS Med. 2: e17.
+doi: 10.1371/journal.pmed.0020017.
+
+Schubbert, S., Zenker, M., Rowe, S.L., Boll, S., Klein, C., Bollag,
+G., van der Burgt, I., Musante, L., Kalscheuer, V., Wehner,
+L.E., et al. 2006. Germline KRAS mutations cause Noonan
+syndrome. Nat. Genet. 38: 331–336.
+
+Schubbert, S., Shannon, K., and Bollag, G. 2007. Hyperactive
+Ras in developmental disorders and cancer. Nat. Rev. Can-
+cer 7: 295–308.
+
+Solit, D.B., Garraway, L.A., Pratilas, C.A., Sawai, A., Getz, G.,
+Basso, A., Ye, Q., Lobo, J.M., She, Y., Osman, I., et al. 2005.
+BRAF mutation predicts sensitivity to MEK inhibition. Na-
+ture 439: 358–362.
+
+Sparmann, A. and Bar-Sagi, D. 2004. Ras-induced interleukin-8
+expression plays a critical role in tumor growth and angio-
+genesis. Cancer Cell 6: 447–458.
+
+Tuveson, D.A., Shaw, A.T., Willis, N.A., Silver, D.P., Jackson,
+E.L., Chang, S., Mercer, K.L., Grochow, R., Hock, H., Crow-
+ley, D., et al. 2004. Endogenous oncogenic K-rasG12D stimu-
+lates proliferation and widespread neoplastic and develop-
+mental defects. Cancer Cell 5: 375–387.
+
+Vetter, I.R. and Wittinghofer, A. 2001. The guanine nucleotide-
+binding switch in three dimensions. Science 294: 1299–
+1304.
+
+Wigmore, S.J., Fearon, K.C., Sangster, K., Maingay, J.P., Garden,
+O.J., and Ross, J.A. 2002. Cytokine regulation of constitutive
+production of interleukin-8 and -6 by human pancreatic can-
+cer cell lines and serum cytokine concentrations in patients
+with pancreatic cancer. Int. J. Oncol. 21: 881–886.
+
+Yang, F.C., Ingram, D.A., Chen, S., Hingtgen, C.M., Ratner, N.,
+Monk, K.R., Clegg, T., White, H., Mead, L., Wenning, M.J., et
+al. 2003. Neurofibromin-deficient Schwann cells secrete a
+potent migratory stimulus for Nf1+/− mast cells. J. Clin. In-
+vest. 112: 1851–1861.
+
+Zhang, Z., Wang, Y., Vikis, H.G., Johnson, L., Liu, G., Li, J.,
+Anderson, M.W., Sills, R.C., Hong, H.L., Devereux, T.R., et
+al. 2001. Wildtype Kras2 can inhibit lung carcinogenesis in
+mice. Nat. Genet. 29: 25–33.
+
+Zhu, Y., Ghosh, P., Charnay, P., Burns, D.K., and Parada, L.F.
+2002. Neurofibromas in NF1: Schwann cell origin and role of
+tumor environment. Science 296: 920–922.
+
+Downloaded from 
+
+genesdev.cshlp.org
+
+ on June 12, 2018 - Published by 
+
+Cold Spring Harbor Laboratory Press
+ 
+
+Targeting oncogenic Ras
+  
+Ernesto Diaz-Flores and Kevin Shannon
+  
+Genes Dev. 
+Access the most recent version at doi:
+
+2007, 
+
+ 21:
+
+10.1101/gad.1587907
+ 
+
+Related Content
+
+Oncogenic Ras-induced secretion of IL6 is required for tumorigenesis
+Brooke Ancrile, Kian-Huat Lim and Christopher M. Counter
+Genes Dev. July , 2007 21: 1714-1719
+ 
+  
+
+References
+  
+
+License
+  
+Email Alerting
+Service
+
+This article cites 26 articles, 7 of which can be accessed free at:
+http://genesdev.cshlp.org/content/21/16/1989.full.html#ref-list-1
+ 
+  
+Articles cited in:
+http://genesdev.cshlp.org/content/21/16/1989.full.html#related-urls
+ 
+  
+
+Receive free email alerts when new articles cite this article - sign up in the box at the top
+right corner of the article or 
+  
+
+click here.
+
+ 
+
+Copyright © 2007, Cold Spring Harbor Laboratory Press
+
+

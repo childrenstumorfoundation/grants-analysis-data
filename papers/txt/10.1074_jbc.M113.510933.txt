@@ -1,0 +1,1761 @@
+THE JOURNAL OF BIOLOGICAL CHEMISTRY VOL. 288, NO. 40, pp. 29105–29114, October 4, 2013
+© 2013 by The American Society for Biochemistry and Molecular Biology, Inc. Published in the U.S.A.
+
+FRAX597, a Small Molecule Inhibitor of the p21-activated
+Kinases, Inhibits Tumorigenesis of Neurofibromatosis Type 2
+(NF2)-associated Schwannomas*
+
+Received for publication, August 15, 2013 Published, JBC Papers in Press, August 19, 2013, DOI 10.1074/jbc.M113.510933
+Silvia Licciulli‡1, Jasna Maksimoska§1, Chun Zhou¶1, Scott Troutman‡1, Smitha Kota‡, Qin Liu¶, Sergio Duron储,
+David Campbell储, Jonathan Chernoff**, Jeffrey Field‡‡, Ronen Marmorstein§, and Joseph L. Kissil‡2
+From the ‡Department of Cancer Biology, The Scripps Research Institute, Jupiter, Florida 33458, §Gene Expression and Regulation
+and ¶Molecular Oncogenesis Programs, The Wistar Institute, Philadelphia, Pennsylvania 19104, 储Afraxis, Inc., San Diego, California
+92037, the **Cancer Biology Program, Fox Chase Cancer Center, Philadelphia, Pennsylvania 19111, and the ‡‡Department of
+Pharmacology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania 19104
+
+Background: The PAKs are effectors of Rac/cdc42.
+Results: Identification of a pyridopyrimidinone, as a potent inhibitor of the group I PAKs that shows anti-tumor activity in vivo.
+Conclusion: A pyridopyrimidinone provides a scaffold for development of high specificity group I PAK inhibitors.
+Significance: Identification class of orally available ATP-competitive Group I PAK inhibitors with significant potential for the
+treatment of NF2.
+
+Thep21-activatedkinases(PAKs)areimmediatedownstream
+effectors of the Rac/Cdc42 small G-proteins and implicated in
+promoting tumorigenesis in various types of cancer including
+breast and lung carcinomas. Recent studies have established a
+requirement for the PAKs in the pathogenesis of Neurofibroma-
+tosis type 2 (NF2), a dominantly inherited cancer disorder
+caused by mutations at the NF2 gene locus. Merlin, the protein
+product of the NF2 gene, has been shown to negatively regulate
+signaling through the PAKs and the tumor suppressive func-
+tions of Merlin are mediated, at least in part, through inhibition
+of the PAKs. Knockdown of PAK1 and PAK2 expression,
+through RNAi-based approaches, impairs the proliferation of
+NF2-null schwannoma cells in culture and inhibits their ability
+to form tumors in vivo. These data implicate the PAKs as
+potential therapeutic targets. High-throughput screening of a
+library of small molecules combined with a structure-activity
+relationship approach resulted in the identification of FRAX597, a
+small-molecule pyridopyrimidinone, as a potent inhibitor of
+the group I PAKs. Crystallographic characterization of the
+FRAX597/PAK1 complex identifies a phenyl ring that tra-
+verses the gatekeeper residue and positions the thiazole in the
+back cavity of the ATP binding site, a site rarely targeted by
+kinase inhibitors. FRAX597 inhibits the proliferation of NF2-
+deficient schwannoma cells in culture and displayed potent
+anti-tumor activity in vivo, impairing schwannoma develop-
+ment in an orthotopic model of NF2. These studies identify a
+novel class of orally available ATP-competitive Group I PAK
+
+* This work was supported, in whole or in part, by National Institutes of Health
+Grants CA124495 (to J. K.), CA114046 (to R. M.), and CA148805 (to J. C.) and
+from the American Cancer Society RSG-10-018-01-CDD (to J. K.). Work in
+the J. L. K.’s laboratory was also supported by Afraxis and the Children’s
+Tumor Foundation.
+
+The atomic coordinates and structure factors (code 4EQC) have been deposited in
+
+the Protein Data Bank (http://wwpdb.org/).
+
+1 These authors contributed equally to this manuscript.
+2 To whom correspondence should be addressed: Department of Cancer
+Biology. The Scripps Research Institute, Jupiter, Florida 33458. E-mail:
+jkissil@scripps.edu.
+
+inhibitors with significant potential for the treatment of NF2
+and other cancers.
+
+The p21-activated kinases (PAKs)3 form a protein family of
+serine/threonine kinases, divided into two sub groups, I and II.
+Group I PAKs consists of three members - PAK1, PAK2, and
+PAK3 that share 93–95% sequence identity within the kinase
+domain and are similarly regulated by Rac/Cdc42-GTP binding
+(1). The Rac and Cdc42 proteins are members of the Rho family
+of small G-proteins and mediate several signaling pathways that
+regulate cellular proliferation, cytoskeleton reorganization, and
+gene expression (2, 3). As immediate downstream effectors of
+Rac/Cdc42 and given the major roles these small G-proteins
+play in tumorigenesis, the PAKs have been implicated in mul-
+tiple types of cancer including breast and lung carcinomas and
+neurofibromatosis (4, 5).
+
+PAK1 has been reported to be widely overexpressed and/or
+hyperactivated in various types of benign and malignant can-
+cers (6). PAK1 expression is up-regulated in 40–50% of primary
+breast cancers (7, 8). Expression of a constitutively active PAK1
+mutant (CA-PAK1) increases cell motility, anchorage-inde-
+pendent growth, and invasiveness of breast cancer cells and
+leads to dissemination of metastatic mammary tumors and
+other types of breast lesions in transgenic mouse models
+(9–11). Conversely, inhibition of PAK1 function suppresses
+cellular motility and invasiveness of breast cancer cell lines and
+inhibits pre-malignant progression in a three-dimensional cul-
+ture model of breast cancer (10, 12–15). In squamous non-
+small cell lung cancer (NSCLC), PAK1 expression is elevated in
+64% of cases and is required for the proliferation of squamous
+NSCLC cells and for tumor growth in vivo (8).
+
+3 The abbreviations used are: PAK, p21-activated kinase; NF2, neurofibroma-
+tosis type 2; NSCLC, non-small cell lung cancer; BMMC, bone marrow-de-
+rived mast cell; LOH, loss-of-heterozygosity; PI, propidium iodide.
+
+OCTOBER 4, 2013 • VOLUME 288 • NUMBER 40
+
+JOURNAL OF BIOLOGICAL CHEMISTRY 29105
+
+D
+o
+w
+n
+l
+o
+a
+d
+e
+d
+
+ 
+
+ 
+f
+r
+o
+m
+h
+t
+t
+p
+:
+/
+/
+
+w
+w
+w
+
+.
+j
+b
+c
+.
+
+o
+r
+g
+/
+ 
+b
+y
+
+ 
+
+g
+u
+e
+s
+t
+ 
+
+o
+n
+
+ 
+J
+u
+n
+e
+ 
+
+1
+2
+
+,
+ 
+
+2
+0
+1
+8
+
+A Small Molecule Inhibitor of Group I PAKs Inhibits Tumor Growth
+
+The PAKs play critical roles in neurofibromatosis types 1
+(NF1) and 2 (NF2). NF1 and NF2 are dominantly inherited can-
+cer disorders that develop mostly benign nerve sheath tumors
+of the peripheral nerves (16). NF1 is quite common with a birth
+incidence of 1 in 3,000 and is caused by mutations of the NF1
+tumor suppressor gene that encodes a Ras GTPase-activating
+protein (GAP) named Neurofibromin. Deletion/inactivation of
+Neurofibromin leads to increased levels of activated GTP-
+bound Ras, which activates multiple oncogenic signaling cas-
+cades,
+including the MAPK and PI3K pathways. Previous
+studies have shown that dominant-negative PAK1 mutants effi-
+ciently block Ras transformation in both transformed Schwann
+cells and malignant peripheral nerve sheath tumor cells by
+interfering with the activation of the MAPK cascade (17). More
+recently, PAK1 has been shown to play a critical role in regulat-
+ing the NF1 tumor microenvironment. Previous studies have
+established that Nf1 heterozygosity in the tumor microenviron-
+ment, particularly in bone marrow-derived mast cells
+(BMMCs), is required to induce neurofibroma progression
+(18–20). Genetic approaches involving the crossing of Pak1⫺/⫺
+mice with Nf1⫹/⫺ mice have demonstrated that loss of Pak1
+reversed MAPK-mediated hyperproliferation and p38-regu-
+lated increased migration of Nf1 haploinsufficient BMMCs in
+culture and corrected dermal accumulation of Nf1⫹/⫺ mast
+cells in vivo, to levels found in wild-type mice (21).
+
+NF2 is a dominantly inherited autosomal disease (affecting 1
+in 30,000) attributed to the loss-of-heterozygosity (LOH) of the
+NF2 gene. Merlin, the protein encoded by the NF2 gene, has
+been implicated in the regulation of a number of signaling path-
+ways, including those regulated by Rac1, Ras/MAPK, mTOR,
+and Hpo (22). Several lines of evidence indicate that merlin
+functions as an inhibitor of Rac signaling. First, in NF2 patients,
+loss of Merlin is associated with elevated levels of Rac-GTP
+accompanied by abnormal PAK1 activation and the ablation of
+merlin in mouse embryo fibroblasts (MEFs) leads to PAK1 acti-
+vation (23–26). Conversely, merlin overexpression in Schwann
+cells suppresses PAK1 activity and prevents PAK1 and PAK2
+activation by Rac through competing with Rac-GTP for PAK
+binding (27–31). Importantly, previous work has established
+the PAKs as bona fide targets for inhibition in NF2. Use of RNAi
+approaches or specific peptide inhibitors to knockdown expres-
+sion or inhibit the function of the group 1 PAKs, respectively,
+has demonstrated that the PAKs are required for cell transfor-
+mation and tumorigenesis, subsequent to NF2 loss of function
+(25, 32). More recently a specific PAK inhibitor, IPA-3, was
+shown to block PAK2 phosphorylation at Ser-192/197, which
+antagonizes PAK-Pix interactions and reduces cell spreading
+and adhesion (33).
+
+Given the data implicating the group I Paks as targets in NF2
+and other types of cancers, we set out to identify PAK inhibitors
+to be developed as therapeutic agents. We describe the identifica-
+tion of a potent new small-molecule PAK inhibitor, FRAX597,
+characterize the molecular basis underlying the selectivity of this
+inhibitor and its anti-proliferative activities toward Nf2-null
+Schwann cells in culture and Nf2-associated schwannomas
+in vivo.
+
+EXPERIMENTAL PROCEDURES
+
+Cell Culture Conditions—SC4 cells are a gift from Dr. Marco
+Giovannini (House Ear Institute) and tested by PCR to confirm
+the presence of the Nf2 knock-out alleles. Cells were grown in
+low-glucose DME, 10% fetal calf serum, 1⫻ non-essential
+amino acids and 100 IU/ml penicillin-streptomycin. Transfec-
+tions were performed with Lipofectamine2000 (Invitrogen),
+following manufacturer’s instructions.
+
+Determination of Enzyme IC50 Values—IC50 values were
+determined using a 10 concentration point, non-radioactive,
+functional assay that employs a fluorescence-based, coupled-
+enzyme format, according to the manufacturer’s protocol (Z⬘-
+LYTE威 biochemical assay, Invitrogen). Kinase selectivity was
+determined using both the Z⬘-LYTE威 and Adapta威 kinase assay
+format provided by Invitrogen.
+
+Western Blot Analysis—Protein extracts were prepared with
+RIPA lysis buffer (50 mM Tris-HCl, pH 7.5, 1% Nonidet P-40,
+0.25% sodium deoxycholate, 150 mM NaCl, 1 mM EGTA, 1 mM
+sodium orthovanadate, and 1 mM NaF). The following antibod-
+ies were used according to manufactures’ instructions: PAK1
+(N-20 Santa Cruz Biotechnology), phospho-PAK1 (2606), YES1
+(3201), TEK (7403), and CSF1R (3152) all from Cell Signaling,
+RET (ab134100 Abcam), ␣-tubulin (AC42 Sigma), and ␤-actin
+(AC40 Sigma).
+
+Proliferation and Cell Cycle Assays—30,000 cells/well were
+plated in 12-well dishes in triplicate. Cell growth media with or
+without FRAX597 was replaced daily. At indicated time points,
+cells from individual wells were trypsinized and counted using a
+Coulter counter (Z1 series, Beckman Coulter). Statistical anal-
+ysis was performed using a Student’s t test. For cell cycle anal-
+ysis, cells were harvested, washed once with PBS and fixed in
+cold 70% ethanol. Fixed cells were resuspended in propidium
+iodide (PI) buffer (50 ␮g/ml PI, 250 mg/ml RNase A in PBS) and
+incubated overnight at 4 °C in the dark. Cell cycle distribution
+was evaluated using Coulter Epics XL flow cytometer (Beck-
+man). Data were analyzed using WinMDI software.
+
+In Vivo Tumor Models and Imaging—All animal experiments
+were approved by the Wistar Institutional Animal Care and Use
+Committee and performed in accordance with relevant institu-
+tional and national guidelines.
+
+Nf2⫺/⫺ SC4 Schwann cells were transduced by lentiviruses
+carrying pLuc-mCherry and sorted by FACS. 5 ⫻ 104 cells were
+transplanted into the sciatic nerve sheath of NOD/SCID mice
+(8 weeks of age) by intraneural injection. Tumor progression
+was monitored weekly by bioluminescence imaging (BLI)
+according to the manufacturer’s instructions on an IVIS-200
+system (Xenogen, San Francisco, CA).
+
+Statistical Analysis—To assess the anti-tumor activity of
+FRAX597 in vivo, the natural log-transformed flux readings
+were used to reflect tumor growth. The trends of tumor growth
+over time (followed up by days) were examined between control
+and treatment groups using a mixed-effect model with the ran-
+dom effect at the mouse level. A linear function in days was
+determined to provide the best fit without random slope on
+follow-up days. A likelihood ratio testing nested models (with
+versus without the interaction term of group and time) was used
+to examine if trends are significantly different overall between
+
+29106 JOURNAL OF BIOLOGICAL CHEMISTRY
+
+VOLUME 288 • NUMBER 40 • OCTOBER 4, 2013
+
+D
+o
+w
+n
+l
+o
+a
+d
+e
+d
+
+ 
+
+ 
+f
+r
+o
+m
+h
+t
+t
+p
+:
+/
+/
+
+w
+w
+w
+
+.
+j
+b
+c
+.
+
+o
+r
+g
+/
+ 
+b
+y
+
+ 
+
+g
+u
+e
+s
+t
+ 
+
+o
+n
+
+ 
+J
+u
+n
+e
+ 
+
+1
+2
+
+,
+ 
+
+2
+0
+1
+8
+
+A Small Molecule Inhibitor of Group I PAKs Inhibits Tumor Growth
+
+groups. The tumor weights were first examined by a Shapiro-
+Wilk test to assess data normality and a Variance ratio test was
+used to examine the equality of variances between two groups.
+The differences between the control and experimental cohorts
+were analyzed by a t test with equal variances. Statistical analy-
+ses were performed using Stata 12.0 (StataCorp LP).
+
+Recombinant PAK1 Protein Expression, Purification, and
+Mutagenesis—The DNA encoding the native kinase domain of
+PAK1 (residues 249 to 545) was subcloned into the pFastBac
+HTc expression vector. PAK1 V342 substitution mutants
+(V342F or V342Y) were generated by site-directed mutagenesis
+according to the manufacturer’s protocol (Stratagene, La Jolla,
+CA). Recombinant protein was expressed in Sf21 cells, and cells
+were harvested and lysed by sonication in 50 mM HEPES pH 7.0,
+500 mM NaCl, and 5 mM DTT (lysis buffer). The lysate was
+cleared by centrifugation and applied to a Ni-NTA affinity col-
+umn. The protein was eluted from the column with increasing
+concentration of imidazole in lysis buffer (20 mM to 250 mM).
+Collected protein was treated overnight with TEV protease to
+cleave the His6 tag. The protein was further purified by passage
+through a HiTrapQ column and a size-exclusion Superdex 200
+column equilibrated with 20 mM Tris pH 8.0, 125 mM NaCl.
+Purified protein was concentrated to 1.2 mg/ml and frozen for
+storage. FRAX597 inhibitor potencies against wild type and
+V342 mutant proteins were measured using the KinaseGlo
+Assay (Promega) according to the manufacturer’s protocol.
+Experiments were done in duplicate in the presence of 20 nM
+PAK1 and 1 ␮M ATP.
+
+PAK1 Structure Determination—The PAK1 kinase domain
+(residues 249 to 545, mutation K299R) was cloned into a pET-
+TOPO vector with an N-terminal 6-His tag and expressed in
+BL21(DE3) Escherichia coli cells. Cells were grown at 37 °C
+until they reached an A600 of 0.6, and protein expression was
+induced by adding 1 mM IPTG and carried on fo r 6 h at 28 °C.
+Protein was purified from harvested cells as described above.
+Purified protein was concentrated to 9 mg/ml in a buffer con-
+taining 20 mM Tris pH 8.0, 125 mM NaCl and used for
+crystallization.
+
+Crystals of apo-PAK1 were obtained using hanging drop
+vapor diffusion by mixing 1 ␮l of PAK1 (9 mg/ml) with 1 ␮l of
+crystallization solution (0.1 M HEPES pH 7.0, 1 M NaCl, 25%
+PEG 3350, 10 mM DTT) at 4 °C. Crystals were subjected to
+soaking with 1 mM FRAX597 inhibitor overnight. Crystals were
+cryoprotected, flash frozen in liquid nitrogen, and yielded x-ray
+diffraction t o 2 Å on aRigaku MicroMax-007HF x-ray genera-
+tor equipped with Saturn 944⫹ detector. Collected data were
+integrated and scaled using the program HKL2000 (34).
+
+The PAK1 inhibitor complex structure was determined by
+molecular replacement using the program PHASER with the
+structure of PAK1 (249–545, K299R) in complex with ⌳-FL172
+(PDB code 3FXZ) as a search model (35) with the ⌳-FL172
+inhibitor removed from the search model. Iterative cycles of
+refinement and manual rebuilding of the initial model were
+performed using the programs REFMAC5 (36) and COOT (37),
+respectively. The inhibitor models were manually fitted into the
+calculated Fo⫺Fc map. The validity of each step of refinement
+and rebuilding was monitored by the Rwork and Rfree (data not
+shown).
+
+RESULTS
+
+Discovery and Characterization of FRAX597 as a Group
+I PAK Inhibitor—The small molecule pyridopyrimidinone
+inhibitor FRAX597 was designed through a traditional struc-
+ture-activity relationship (SAR) approach starting from a dis-
+tinct chemical series identified from a high throughput screen
+(HTS) of a 12,000 member kinase-focused library against PAK1
+(Fig. 1). Hits exhibiting ⬎50% inhibition at 10 ␮M were priori-
+tized, followed up with a 7 point dose response that led to the
+identification of a class of unsubstituted pyridopyrimidinones
+that demonstrated moderate inhibition of group 1 and group 2
+PAK. Standard medicinal chemistry SAR evaluations of the
+HTS hit FRAX019 identified that 6-substitution with an aryl
+group on the pyridopyrimidinone core, shown in FRAX414,
+improved group 1 PAK potency while also improving group 2
+PAK selectivity (Fig. 1A). Further optimization of the 6-aryl-
+substituted pyridopyrimidinones led to the discovery of the
+molecule FRAX597 (Fig. 1B).
+
+FRAX597 was determined to be a potent, ATP-competitive
+inhibitor of group I PAKs (PAK 1–3), with biochemical IC50
+values as follows: PAK1 IC50 ⫽ 8 nM, PAK2 IC50 ⫽ 13 nM, PAK3
+IC50 ⫽ 19 nM. The IC50 toward PAK4, a member of group II
+PAKs was ⬎10 ␮M (Fig. 1C). To characterize the specificity of
+FRAX597, the inhibitory capacity of the compound was pro-
+filed against a representative panel of recombinant kinase
+domains (106 of 518 known human kinases), using an assay that
+monitors phosphorylation of a peptide substrate (Invitrogen
+Z⬘-LYTE威 biochemical assay). At a concentration of 100 nM
+FRAX597 displayed a significant (⬎80% inhibition) inhibitory
+capacity toward YES1 (87%), RET (82%), CSF1R (91%), TEK
+(87%), PAK1 (82%), and PAK2 (93%). FRAX597 displayed min-
+imal inhibitory activity toward the group II PAKs: PAK4 (0%),
+PAK6 (23%), and PAK7 (8%) (data not shown). To determine
+the cellular IC50 values for FRAX597, SC4 cells (Nf2-null
+Schwann cells) were treated with an escalating dose of
+FRAX597. PAK1 activation requires an autophosphorylation
+step and thus the activity of PAK1 was determined by Western
+blot analysis using an antibody against phospho(Ser-144)-
+PAK1. These studies establish an approximate IC50 of 70 nM for
+FRAX597 in culture (Fig. 1D).
+
+Structure of PAK1 in Complex with FRAX597—To identify
+the molecular basis for FRAX597 inhibition of PAK1, we deter-
+mined the x-ray crystal structure of the PAK1/FRAX597 com-
+plex (PDB ID 4EQC and RCSB 071940). The 2-Å resolution
+structure of PAK1 in complex with FRAX597 reveals a charac-
+teristic protein kinase fold containing smaller N-terminal and
+larger C-terminal lobes connected by a hinge region, with the
+inhibitor occupying the ATP binding site as expected (Fig. 2A).
+Clear and unambiguous Fo⫺Fc difference electron density con-
+firms the position and orientation of the inhibitor in the ATP
+binding pocket (Fig. 2B).
+
+The pyrido[2,3-d]pyrimidin-7-one moiety of FRAX597 is
+positioned in a fashion similar to the adenine base of ATP and
+dictates the orientation of the entire compound. Although the
+ring system forms two hydrogen bonds with the hinge region,
+its precise hydrogen-bonding pattern is different than ATP.
+While the N3 nitrogen of the pyrido[2,3-d]pyrimidin-7-one
+
+OCTOBER 4, 2013 • VOLUME 288 • NUMBER 40
+
+JOURNAL OF BIOLOGICAL CHEMISTRY 29107
+
+D
+o
+w
+n
+l
+o
+a
+d
+e
+d
+
+ 
+
+ 
+f
+r
+o
+m
+h
+t
+t
+p
+:
+/
+/
+
+w
+w
+w
+
+.
+j
+b
+c
+.
+
+o
+r
+g
+/
+ 
+b
+y
+
+ 
+
+g
+u
+e
+s
+t
+ 
+
+o
+n
+
+ 
+J
+u
+n
+e
+ 
+
+1
+2
+
+,
+ 
+
+2
+0
+1
+8
+
+A Small Molecule Inhibitor of Group I PAKs Inhibits Tumor Growth
+
+FIGURE 1. Characterization of FRAX597. A, chemical structures and IC50 of FRAX019 and FRAX414. B, chemical structure of FRAX597. C, inhibition profiles for
+FRAX597 against group I PAKs1–3 and group II PAK4. Each of the 10 concentration points was done in duplicate. D, Western blot analysis of FRAX597 inhibition
+of PAK1 autophosphorylation (p-PAK1). SC4 cells were treated in culture for 2 h at theindicated FRAX597 concentrations and then extracted for protein. Actin
+was used as a loading control.
+
+D
+o
+w
+n
+l
+o
+a
+d
+e
+d
+
+ 
+
+ 
+f
+r
+o
+m
+h
+t
+t
+p
+:
+/
+/
+
+w
+w
+w
+
+.
+j
+b
+c
+.
+
+o
+r
+g
+/
+ 
+b
+y
+
+ 
+
+g
+u
+e
+s
+t
+ 
+
+o
+n
+
+ 
+J
+u
+n
+e
+ 
+
+1
+2
+
+,
+ 
+
+2
+0
+1
+8
+
+FIGURE 2. Structure of the PAK1/FRAX597 complex. A, overall structure of PAK1 with FRAX597 bound in the active site. The N-terminal lobe is shown in light
+gray, the hinge region is shown in dark gray, and the C-terminal lobe is shown in salmon. The C-helix is labeled. B, electron density corresponding to FRAX597.
+A Fo⫺Fc electron density map is shown in green and contoured at 2 ␴as calculated before building the inhibitor model.
+
+ring hydrogen bonds to the amide nitrogen of Leu-347, the
+other hydrogen bond is not to Glu-345, as seen in ATP and ATP
+analogs, but is formed between the NH group of the phenyl-
+amino moiety to the carbonyl oxygen of Leu-347 (Fig. 3A). The
+
+entire ring system establishes one additional hydrogen bond
+between the carbonyl oxygen at position 7 of the inhibitor and
+Arg-299 of the protein, and presumably Lys-299 of the native
+protein (a K299R mutation was introduced into the recombi-
+
+29108 JOURNAL OF BIOLOGICAL CHEMISTRY
+
+VOLUME 288 • NUMBER 40 • OCTOBER 4, 2013
+
+A Small Molecule Inhibitor of Group I PAKs Inhibits Tumor Growth
+
+D
+o
+w
+n
+l
+o
+a
+d
+e
+d
+
+ 
+
+ 
+f
+r
+o
+m
+h
+t
+t
+p
+:
+/
+/
+
+w
+w
+w
+
+.
+j
+b
+c
+.
+
+o
+r
+g
+/
+ 
+b
+y
+
+ 
+
+g
+u
+e
+s
+t
+ 
+
+o
+n
+
+ 
+J
+u
+n
+e
+ 
+
+1
+2
+
+,
+ 
+
+2
+0
+1
+8
+
+FIGURE 3. Detailed view of the interactions of FRAX597 within the PAK1 active site. A, view of the PAK1 active site in complex with FRAX597. Residues that
+form the binding pocket for the inhibitor are labeled. Numbering for important carbon atoms of FRAX597 is shown. B, surface view of the gatekeeper residue
+and the back cavity of the ATP binding site. Residues involved in inhibitor binding are labeled. C, Van der Waals sphere representation of the inhibitor and
+surface representation of the residues forming the back cavity of the ATP binding site. D, inhibition profiles for FRAX597 against wild type PAK1 and Val342
+mutants. Each of the 10 concentration points was done in duplicate at 1 ␮M ATP and 20 nM PAK1.
+nant protein to facilitate the preparation of homogeneous inac-
+tive enzyme). The pyrido[2,3-d]pyrimidin-7-one ring also
+establishes extensive van der Waals interactions with the pro-
+tein. Ile-276, Val-284, and Ala-297 from the N-terminal
+domain, Leu-396, Thr-406, and Asp-407 from the C-terminal
+domain, and Tyr-346 and Leu-347 from the hinge region form
+a hydrophobic pocket that nicely accommodates the pyrido-
+[2,3-d]pyrimidin-7-one moiety and phenylamino substituent at
+position 2 of the inhibitor (Fig. 3A).
+
+Structural Basis for FRAX597 Potency and Selectivity toward
+Group I PAKs—To compare the binding mode of FRAX597 to
+other potent PAK1 inhibitors, we superimposed the structure
+of the PAK1/FRAX597 complex with PAK1 bound to two
+organometallic inhibitors, FL172 (38) and Ru-phthalimide (39).
+Although all three inhibitors target the ATP binding site and
+mimic ATP binding, there is one striking difference; the
+2-chloro-4-(thiazol-5-yl)phenyl moiety of FRAX597 occupies a
+part of the active site that is not sampled by the other inhibitors
+(Fig. 4A). Specifically, the 2-chloro-phenyl ring very efficiently
+traverses the Met-344 gatekeeper residue, and positions the
+thiazole in the back cavity of the ATP binding site (Fig. 3B).
+
+FRAX597 shows significant isoform selectivity within the
+PAK family, targeting only group I PAKs. To understand the
+molecular basis for this specificity, we superimposed the PAK1/
+FRAX597 structure with the structure of PAK4 in complex with
+CGP74514A, a selective inhibitor of group 2 PAKs (Fig. 4B)
+(40). This superposition reveals that although the architecture
+of the ATP binding pockets shows similarities between the two
+kinases, the back cavity of PAK4 is much more constricted than
+in PAK1. This increased constriction in PAK4 is largely medi-
+ated by gatekeeper residue Met-395 and Lys-350 of PAK4
+which are in distinctly different conformations than the corre-
+sponding residues in PAK1. This would result in a steric clash in
+PAK4 when a large group such as the 2-chloro-4-(thiazol-5-
+yl)phenyl of the FRAX597 inhibitor is present. Based on this
+
+The C6 substituent of the inhibitor, 2-chloro-4-(thiazol-5-
+yl)phenyl, penetrates deeply into the back cavity of the ATP
+binding site. The aromatic ring of the chlorophenyl moiety is
+nicely placed between the hydrophobic side chains of the Met-
+344 gatekeeper residue and the aliphatic carbons of Arg-299
+(Fig. 3B), allowing the thiazole group to protrude into the back
+cavity of the ATP binding site formed by Glu-315, Ile-316, and
+Val-342 (Fig. 3C).
+
+In contrast to the rest of the inhibitor that makes extensive
+interactions with the protein, the methyl-piperazine ligand
+points out of the ATP binding pocket toward where the protein
+substrate would bind. The entire group is solvent exposed with
+no apparent interactions with the protein (Figs. 2A and 3A).
+This is in agreement with the observation that very weak elec-
+tron density is observed for this group in the structure (Fig. 2B),
+suggesting possible flexibility of this region of the inhibitor
+when bound to PAK1 (Fig. 3A).
+
+OCTOBER 4, 2013 • VOLUME 288 • NUMBER 40
+
+JOURNAL OF BIOLOGICAL CHEMISTRY 29109
+
+A Small Molecule Inhibitor of Group I PAKs Inhibits Tumor Growth
+
+FIGURE 4. Structural basis for FRAX597 potency and selectivity toward group I PAKs. A, superimposition of the co-crystal structures of PAK1 with FL172
+(PDB ID 3FXZ), Ru-phthalimide (PDB ID 4DAW), and FRAX597. The protein chain is only displayed for the PAK1/FRAX597 structure for clarity. B, superimposed
+co-crystal structures of PAK4/CGP74514A (PDB ID 2CDZ) and PAK1/FRAX597 illustrating the difference in size of the back pocket between two kinases. PAK4 is
+shown in blue, and PAK1 is shown in gray. C, superimposed cocrystal structures of RET (PDB ID 2IVU) and PAK1 kinases showing that the thiazole ligand of
+FRAX597 is not optimally accommodated by the back pocket of RET (shown in “green”). D, surface view and cartoon representation of the RET and PAK1
+demonstrating the difference in the size of the back pockets and position of C-helices. The RET surface and C-helix are outlined in green and the PAK1 C-helix
+in gray.
+
+observation, it is not surprising that a 100 nM concentration of
+FRAX597 does not show detectable inhibition against PAK4,
+while the same compound concentration inhibits more than
+80% of PAK1 activity (data not shown).
+
+To test the hypothesis that the size and accessibility of the
+back cavity could be an important determinant for FRAX597
+selectivity toward PAK1 we mutated the Val-342 in the back
+cavity into phenylalanine (V342F) and tyrosine (V342Y), with
+the expectation that the bulky side chains would sterically
+interfere with the thiazole of the 2-chloro-phenyl and reduce
+inhibition of PAK1 by FRAX597. As expected the V342F and
+V342Y PAK1 mutants were less sensitive to FRAX597 inhibi-
+tion and displayed significantly higher IC50 values. When mea-
+sured using the Kinase Glo Assay in the presence of 20 nM
+protein and 1 ␮M ATP, FRAX597 displayed an IC50 value of 48
+nM against wild type PAK1, while IC50 values against the V342F
+and V342Y PAK1 mutants were higher than 3 ␮M and 2 ␮M,
+respectively (Fig. 3D). Importantly, the purified mutant pro-
+teins behaved similarly to the wild type protein during purifica-
+tion and displayed similar overall kinase activities as deter-
+mined by in vitro kinases assays (not shown).
+
+Finally, the finding that the accessibility of the back cavity is a
+critical determinant of FRAX597 selectivity is further demon-
+strated when the PAK1/FRAX597 structure is superimposed
+with the receptor tyrosine kinase RET (Rearranged During
+Transfection) (41). RET is one of the few receptor tyrosine
+kinases that are targeted by FRAX597 with similar potency as
+PAK1 (data not shown). This superimposition demonstrates
+that the small Val-804 gatekeeper residue in RET allows access
+to the back cavity, likely allowing the RET active site to accom-
+modate the 2-chloro-4-(thiazol-5-yl)phenyl group of FRAX597
+
+(Fig. 4C). However, the C helix of RET is rotated into the back
+cavity more than it is in PAK1, serving to further constrict the
+back of the pocket in RET relative to PAK1 (Fig. 4D). Although
+RET could accommodate the thiazole substituent of FRAX597,
+we hypothesize that larger substituents would not be accom-
+modated in RET. Interestingly, out of three additional receptor
+tyrosine kinases inhibited by FRAX597 with similar potency as
+RET, two have small threonine residues as the gatekeeper resi-
+due (YES1 and CSF1R) while one has a medium sized isoleucine
+(TEK) (data not shown), suggesting that they also accommo-
+date FRAX597 in a similar fashion as RET.
+
+FRAX597 Inhibits Schwannoma Cell Proliferation in Vitro
+and Tumor Formation in Vivo—To assess if FRAX597 can
+inhibit proliferation of transformed Schwann cells, Nf2-null
+SC4 Schwann cells were treated with the inhibitor, and cell
+numbers were followed over a period of 96 h. As shown in Fig.
+5A, FRAX597 treatment dramatically impaired cellular prolif-
+eration. Propidium iodide and FACS analysis confirmed cell
+cycle arrest in G1, as evidenced by accumulation of FRAX597-
+treated cells in G1 phase (74% versus 50% in control-treated
+cells) and decrease in the fraction of cells in S phase (12% versus
+27% in control) and G2/M phase (11% versus 22% in control).
+The absence of a sub-G1 population in treated cells suggests
+that FRAX597 does not impact cell viability (Fig. 5B). To deter-
+mine if FRAX597 can inhibit tumor growth in vivo, we
+employed an orthotopic model of NF2 that recapitulates the
+tumor microenvironment of schwannomas, by injection of
+luciferase-tagged NF2-null schwannoma cells into a myelinated
+nerve (42, 43). Tumor progression was monitored twice weekly
+by bioluminescence imaging (BLI) and total flux counts were
+
+29110 JOURNAL OF BIOLOGICAL CHEMISTRY
+
+VOLUME 288 • NUMBER 40 • OCTOBER 4, 2013
+
+D
+o
+w
+n
+l
+o
+a
+d
+e
+d
+
+ 
+
+ 
+f
+r
+o
+m
+h
+t
+t
+p
+:
+/
+/
+
+w
+w
+w
+
+.
+j
+b
+c
+.
+
+o
+r
+g
+/
+ 
+b
+y
+
+ 
+
+g
+u
+e
+s
+t
+ 
+
+o
+n
+
+ 
+J
+u
+n
+e
+ 
+
+1
+2
+
+,
+ 
+
+2
+0
+1
+8
+
+A Small Molecule Inhibitor of Group I PAKs Inhibits Tumor Growth
+
+D
+o
+w
+n
+l
+o
+a
+d
+e
+d
+
+ 
+
+ 
+f
+r
+o
+m
+h
+t
+t
+p
+:
+/
+/
+
+w
+w
+w
+
+.
+j
+b
+c
+.
+
+o
+r
+g
+/
+ 
+b
+y
+
+ 
+
+g
+u
+e
+s
+t
+ 
+
+o
+n
+
+ 
+J
+u
+n
+e
+ 
+
+1
+2
+
+,
+ 
+
+2
+0
+1
+8
+
+FIGURE 5. FRAX597 inhibits tumor cells proliferation and tumor growth in vivo. A, SC4 Nf2-null cells were plated in triplicate wells and treated with
+FRAX597 (1 ␮M) or DMSO control daily for 4 days, and cell numbers were scored daily. The experiment shown is representative of three independent
+experiments. B, percentage of treated SC4 cells in different phases of the cell cycle. The DNA content of treated SC4 cells was determined by staining with PI and
+analysis by FACS. The experiment shown is representative of three independent experiments. C, representative images from bioluminescence imaging (BLI) of
+mice carrying orthotopic tumors treated with FRAX597 (100 mg/kg) or vehicle control at day 14 of treatment. NOD/SCID mice were injected intraneurally with
+5 ⫻ 104 SC4/pLuc-mCherry cells and were enrolled into treatment after 10 days. Mice were treated daily for 14 days and imaged every 3 days to follow tumor
+development. D, quantitative analysis of the flux reading from treated cohorts. A mixed-effect model analysis indicated that the speed of tumor growth in
+treatment group is significantly slower than that in control group (p ⫽ 0.0002). E, distribution of tumor/body weight ratios in the cohorts treated with FRAX597
+or vehicle control. The results of t test with equal variances show that FRAX-A group has significant lower average tumor weight ratio than that observed in
+control group (p ⫽ 0.0001). For the in vivo experiments the n ⫽ 6 in each cohort, experiments repeated three times.
+
+OCTOBER 4, 2013 • VOLUME 288 • NUMBER 40
+
+JOURNAL OF BIOLOGICAL CHEMISTRY 29111
+
+A Small Molecule Inhibitor of Group I PAKs Inhibits Tumor Growth
+
+FIGURE 6. Inhibition of group I PAKs mediates FRAX597 inhibition of SC4 cells. A, Western blot analysis of Yes1, TEK, CSF1R and Ret expression in SC4 cells
+compared with relevant positive control cells. Tubulin was used as a loading control. B, SC4 Nf2-null cells were plated in triplicate wells and treated with
+PF3758309 (1 ␮M) or DMSO control daily for 4 days, and cell numbers were scored daily. The experiment shown is representative of three independent
+experiments.
+
+recorded for each animal. Ten days postinjection, similar flux
+readings for all animals were validated, and animals were
+enrolled randomly into control (vehicle only) or drug-treated
+cohorts (100 mg/kg, oral, once daily) for a period of 14 days.
+Analysis of the flux reading for the animals in the two cohorts
+demonstrated a significantly slower tumor growth rate in
+FRAX597-treated mice compared with control mice (Fig. 5B).
+After 14 days of treatment the animals were sacrificed and the
+tumors excised and weighed. FRAX597-treated cohort showed
+significantly lower average tumor weight compared with the
+control cohort (0.55gr versus 1.87gr, p ⫽ 0.0001). Taken
+together, these data demonstrate that FRAX597 has a signifi-
+cant anti-proliferative activity against Nf2-null Schwann cells in
+vitro and anti-tumor activity in vivo.
+
+The Inhibition of Group I PAKs Mediates FRAX597 Inhibition
+of Schwannoma Cell Proliferation—To further characterize the
+targets through which FRAX597 inhibits the proliferation of
+NF2-null Schwann cells, we assessed the expression level of the
+other kinases toward which FRAX597 displayed a significant
+inhibitory capacity (YES1, TEK, CSF1R, and RET) in SC4 cells.
+We find these kinases are not expressed, or below levels of
+detection, in these cells (Fig. 6A), thus suggesting it is unlikely
+the effects of FRAX597 on SC4 cell growth are mediated
+through inhibition of these targets.
+
+In addition, we employed another PAK inhibitor from Pfizer
+(PF-3758309), which potently suppresses both group I (PAK1,
+PAK2, and PAK3) and II (PAK4, PAK5, and PAK6) PAKs (44).
+Importantly, while both FRAX597 and PF-3758309 display
+some limited off-target effects on other kinases, these off-target
+effects are largely non-overlapping (45). In assessing the effects
+on SC4 cell growth, PF-3758309 treatment resulted in a similar
+inhibition of cell proliferation as exhibited by FRAX597 treat-
+ment (Fig. 6B). These results suggest that the effects of
+FRAX597 seen in Nf2-null Schwann cells are mediated through
+inhibition of the group I PAKs.
+
+DISCUSSION
+
+The identification of FRAX597 as a potent inhibitor of group
+I PAKs has allowed us to assess the consequences of PAK inhi-
+bition on tumor development in an orthotopic model of NF2
+that closely reflects the human disease. Consistent with our
+previous studies demonstrating that group I PAKs are critical
+effectors of merlin’s tumor suppressive functions, we find that
+by inhibiting PAKs we are able to inhibit the proliferation of
+Nf2-null Schwann cells in culture and growth of NF2-associ-
+ated schwannomas in vivo. While the possibility that part of the
+anti-tumor effects of FRAX597 can be attributed to targets
+other than the PAKs cannot be excluded, we find that other
+FRAX597 targets are not expressed in SC4 cells. Finally, treat-
+ment of SC4 cells with another PAK inhibitor (PF-3758309),
+which has off-target effects that are largely non-overlapping
+with FRAX597, recapitulates the effects of FRAX597 on SC4
+cells. These combined findings strengthen the notion that the
+effects of FRAX597 inhibition are mediated through the inhi-
+bition of the group I PAKs.
+
+Although relatively poorly conserved among different
+kinases, the back cavity of the ATP binding site is rarely tar-
+geted by kinase inhibitors. This cavity is typically hydrophobic
+and its accessibility depends on the size and position of the
+gatekeeper residue. For example, the BRAF and CDK2 kinases
+have small (Thr) and large (Phe) gatekeeper residues, respec-
+tively, allowing BRAF to have a larger cavity in this area creating
+what is known as a BRAF specificity pocket (46), while this
+region is essentially blocked off in CDK2 (47). In PAK1, the
+position of the Met-344 gatekeeper residue and the C-helix cre-
+ate a relatively large back cavity capable of accommodating the
+large 2-chloro-4-(thiazol-5-yl)phenyl moiety attached to the
+C6 position of the pyrido[2,3-d]pyrimidin-7-one ring system.
+Interestingly, some pyrido[2,3-d]pyrimidin-7-one derivatives
+were previously described as potent cyclin-dependent kinases
+(CDKs) inhibitors (47, 48). Some of them also contained a
+
+29112 JOURNAL OF BIOLOGICAL CHEMISTRY
+
+VOLUME 288 • NUMBER 40 • OCTOBER 4, 2013
+
+D
+o
+w
+n
+l
+o
+a
+d
+e
+d
+
+ 
+
+ 
+f
+r
+o
+m
+h
+t
+t
+p
+:
+/
+/
+
+w
+w
+w
+
+.
+j
+b
+c
+.
+
+o
+r
+g
+/
+ 
+b
+y
+
+ 
+
+g
+u
+e
+s
+t
+ 
+
+o
+n
+
+ 
+J
+u
+n
+e
+ 
+
+1
+2
+
+,
+ 
+
+2
+0
+1
+8
+
+A Small Molecule Inhibitor of Group I PAKs Inhibits Tumor Growth
+
+methyl-piperazine phenylamino substituent at the C2 position
+of the same pyrido[2,3-d]pyrimidin-7-one ring system as
+FRAX597 (Fig. 2A). However, CDKs were found unable to
+accommodate large substituents at the C6 position (data not
+shown), consistent with the larger Phe gatekeeper residue in
+CDKs (49). Based on this observation, it is not surprising that
+FRAX597 exhibits no detectable potency against CDKs. The
+importance of the back pocket of the ATP binding site for PAK1
+inhibition, and for inhibition by FRAX597 in particular, is fur-
+ther supported by the mutational sensitivity of Val-342 for
+inhibitor potency. This further highlights the importance of
+elaboration of the FRAX597 thiazole group for increasing
+PAK1 inhibitor potency and selectivity. In addition, elaboration
+of the methylpiperazine moiety on the opposite end of the
+FRAX597 inhibitor could provide additional opportunity to
+probe the protein substrate-binding site of PAK1.
+
+Identification of this highly-selective group I PAK inhibitor
+and its ability to inhibit the proliferation of Nf2-null Schwann
+cells in culture and growth of NF2-associated schwannomas in
+vivo establish the group I PAKs as targets for the development
+of therapeutics. Determination of the PAK1/FRAX597 struc-
+ture will guide further improvements of inhibitor potency and
+selectivity and provide opportunity to develop drugs for Neu-
+rofibromatosis type 2, a disease for which there are no approved
+therapeutics.
+
+REFERENCES
+1. Zhao, Z. S., and Manser, E. (2012) PAK family kinases: Physiological roles
+
+and regulation. Cell Logist. 2, 59–68
+
+2. Ridley, A. J., Paterson, H. F., Johnston, C. L., Diekmann, D., and Hall, A.
+(1992) The small GTP-binding protein rac regulates growth factor-in-
+duced membrane ruffling. Cell 70, 401–410
+
+3. Nobes, C. D., and Hall, A. (1995) Rho, rac, and cdc42 GTPases regulate the
+assembly of multimolecular focal complexes associated with actin stress
+fibers, lamellipodia, and filopodia. Cell 81, 53–62
+
+4. Ye, D. Z., and Field, J. (2012) PAK signaling in cancer. Cell Logist 2,
+
+105–116
+
+5. Molli, P. R., Li, D. Q., Murray, B. W., Rayala, S. K., and Kumar, R. (2009)
+
+PAK signaling in oncogenesis. Oncogene 28, 2545–2555
+
+6. Dummler, B., Ohshiro, K., Kumar, R., and Field, J. (2009) Pak protein
+
+kinases and their role in cancer. Cancer Metastasis Rev. 28, 51–63
+
+7. Balasenthil, S., Sahin, A. A., Barnes, C. J., Wang, R. A., Pestell, R. G., Vad-
+lamudi, R. K., and Kumar, R. (2004) p21-activated kinase-1 signaling me-
+diates cyclin D1 expression in mammary epithelial and cancer cells. J. Biol.
+Chem. 279, 1422–1428
+
+8. Ong, C. C., Jubb, A. M., Haverty, P. M., Zhou, W., Tran, V., Truong, T.,
+Turley, H., O’Brien, T., Vucic, D., Harris, A. L., Belvin, M., Friedman, L. S.,
+Blackwood, E. M., Koeppen, H., and Hoeflich, K. P. (2011) Targeting p21-
+activated kinase 1 (PAK1) to induce apoptosis of tumor cells. Proc. Natl.
+Acad. Sci. U.S.A. 108, 7177–7182
+
+9. Wang, R. A., Zhang, H., Balasenthil, S., Medina, D., and Kumar, R. (2006)
+PAK1 hyperactivation is sufficient for mammary gland tumor formation.
+Oncogene 25, 2931–2936
+
+10. Vadlamudi, R. K., Adam, L., Wang, R. A., Mandal, M., Nguyen, D., Sahin,
+A., Chernoff, J., Hung, M. C., and Kumar, R. (2000) Regulatable expression
+of p21-activated kinase-1 promotes anchorage-independent growth and
+abnormal organization of mitotic spindles in human epithelial breast can-
+cer cells. J. Biol. Chem. 275, 36238–36244
+
+11. Shrestha, Y., Schafer, E. J., Boehm, J. S., Thomas, S. R., He, F., Du, J., Wang,
+S., Barretina, J., Weir, B. A., Zhao, J. J., Polyak, K., Golub, T. R., Beroukhim,
+R., and Hahn, W. C. (2011) Pak1 is a breast cancer oncogene that coordi-
+nately activates MAPK and MET signaling. Oncogene 31, 3397–3408
+
+12. Adam, L., Vadlamudi, R., Mandal, M., Chernoff, J., and Kumar, R. (2000)
+
+Regulation of microfilament reorganization and invasiveness of breast
+cancer cells by kinase dead p21-activated kinase-1. J. Biol. Chem. 275,
+12041–12050
+
+13. Adam, L., Vadlamudi, R., Kondapaka, S. B., Chernoff, J., Mendelsohn, J.,
+and Kumar, R. (1998) Heregulin regulates cytoskeletal reorganization and
+cell migration through the p21-activated kinase-1 via phosphatidylinosi-
+tol-3 kinase. J. Biol. Chem. 273, 28238–28246
+
+14. Li, Q., Mullins, S. R., Sloane, B. F., and Mattingly, R. R. (2008) p21-Acti-
+vated kinase 1 coordinates aberrant cell survival and pericellular proteol-
+ysis in a three-dimensional culture model for premalignant progression of
+human breast cancer. Neoplasia 10, 314–329
+
+15. Arias-Romero, L. E., Villamar-Cruz, O., Huang, M., Hoeflich, K. P., and
+Chernoff, J. (2013) Pak1 kinase links ErbB2 to ␤-catenin in transformation
+of breast epithelial cells. Cancer Res. 73, 3671–3682
+
+16. Gerber, P. A., Antal, A. S., Neumann, N. J., Homey, B., Matuschek, C.,
+Peiper, M., Budach, W., and Bölke, E. (2009) Neurofibromatosis. Eur.
+J. Med. Res. 14, 102–105
+
+17. Tang, Y., Marwaha, S., Rutkowski, J. L., Tennekoon, G. I., Phillips, P. C.,
+and Field, J. (1998) A role for Pak protein kinases in Schwann cell trans-
+formation. Proc. Natl. Acad. Sci. U.S.A. 95, 5139–5144
+
+18. Yang, F. C., Ingram, D. A., Chen, S., Hingtgen, C. M., Ratner, N., Monk,
+K. R., Clegg, T., White, H., Mead, L., Wenning, M. J., Williams, D. A.,
+Kapur, R., Atkinson, S. J., and Clapp, D. W. (2003) Neurofibromin-defi-
+cient Schwann cells secrete a potent migratory stimulus for Nf1⫹/- mast
+cells. J. Clin. Invest. 112, 1851–1861
+
+19. Zhu, Y., Ghosh, P., Charnay, P., Burns, D. K., and Parada, L. F. (2002)
+Neurofibromas in NF1: Schwann cell origin and role of tumor environ-
+ment. Science 296, 920–922
+
+20. Yang, F. C., Ingram, D. A., Chen, S., Zhu, Y., Yuan, J., Li, X., Yang, X.,
+Knowles, S., Horn, W., Li, Y., Zhang, S., Yang, Y., Vakili, S. T., Yu, M.,
+Burns, D., Robertson, K., Hutchins, G., Parada, L. F., and Clapp, D. W.
+(2008) Nf1-dependent tumors require a microenvironment containing
+Nf1⫹/⫺ and c-kit-dependent bone marrow. Cell 135, 437–448
+
+21. McDaniel, A. S., Allen, J. D., Park, S. J., Jaffer, Z. M., Michels, E. G., Burgin,
+S. J., Chen, S., Bessler, W. K., Hofmann, C., Ingram, D. A., Chernoff, J., and
+Clapp, D. W. (2008) Pak1 regulates multiple c-Kit mediated Ras-MAPK
+gain-in-function phenotypes in Nf1⫹/⫺ mast cells. Blood 112, 4646–4654
+22. Stamenkovic, I., and Yu, Q. (2010) Merlin, a “magic” linker between ex-
+tracellular cues and intracellular signaling pathways that regulate cell mo-
+tility, proliferation, and survival. Curr. Protein Pept. Sci. 11, 471–484
+
+23. Nakai, Y., Zheng, Y., MacCollin, M., and Ratner, N. (2006) Temporal
+control of Rac in Schwann cell-axon interaction is disrupted in NF2-mu-
+tant schwannoma cells. J. Neurosci. 26, 3390–3395
+
+24. Kaempchen, K., Mielke, K., Utermark, T., Langmesser, S., and Hanemann,
+C. O. (2003) Upregulation of the Rac1/JNK signaling pathway in primary
+human schwannoma cells. Hum. Mol. Genet. 12, 1211–1221
+
+25. Yi, C., Wilker, E. W., Yaffe, M. B., Stemmer-Rachamimov, A., and Kissil,
+J. L. (2008) Validation of the p21-activated kinases as targets for inhibition
+in neurofibromatosis type 2. Cancer Res. 68, 7932–7937
+
+26. Flaiz, C., Kaempchen, K., Matthies, C., and Hanemann, C. O. (2007) Ac-
+tin-rich protrusions and nonlocalized GTPase activation in Merlin-defi-
+cient schwannomas. J. Neuropathol. Exp. Neurol. 66, 608–616
+
+27. Wilkes, M. C., Repellin, C. E., Hong, M., Bracamonte, M., Penheiter, S. G.,
+Borg, J. P., and Leof, E. B. (2009) Erbin and the NF2 tumor suppressor
+Merlin cooperatively regulate cell-type-specific activation of PAK2 by
+TGF-␤. Dev Cell 16, 433–444
+
+28. Xiao, G. H., Gallagher, R., Shetler, J., Skele, K., Altomare, D. A., Pestell,
+R. G., Jhanwar, S., and Testa, J. R. (2005) The NF2 tumor suppressor gene
+product, merlin, inhibits cell proliferation and cell cycle progression by
+repressing cyclin D1 expression. Mol. Cell Biol. 25, 2384–2394
+
+29. Hirokawa, Y., Tikoo, A., Huynh, J., Utermark, T., Hanemann, C. O., Gio-
+vannini, M., Xiao, G. H., Testa, J. R., Wood, J., and Maruta, H. (2004) A
+clue to the therapy of neurofibromatosis type 2: NF2/merlin is a PAK1
+inhibitor. Cancer J. 10, 20–26
+
+30. Kissil, J. L., Wilker, E. W., Johnson, K. C., Eckman, M. S., Yaffe, M. B., and
+Jacks, T. (2003) Merlin, the product of the Nf2 tumor suppressor gene, is
+an inhibitor of the p21-activated kinase, Pak1. Mol. Cell 12, 841–849
+
+31. Morrison, H., Sperka, T., Manent, J., Giovannini, M., Ponta, H., and Her-
+
+D
+o
+w
+n
+l
+o
+a
+d
+e
+d
+
+ 
+
+ 
+f
+r
+o
+m
+h
+t
+t
+p
+:
+/
+/
+
+w
+w
+w
+
+.
+j
+b
+c
+.
+
+o
+r
+g
+/
+ 
+b
+y
+
+ 
+
+g
+u
+e
+s
+t
+ 
+
+o
+n
+
+ 
+J
+u
+n
+e
+ 
+
+1
+2
+
+,
+ 
+
+2
+0
+1
+8
+
+OCTOBER 4, 2013 • VOLUME 288 • NUMBER 40
+
+JOURNAL OF BIOLOGICAL CHEMISTRY 29113
+
+A Small Molecule Inhibitor of Group I PAKs Inhibits Tumor Growth
+
+rlich, P. (2007) Merlin/neurofibromatosis type 2 suppresses growth by
+inhibiting the activation of Ras and Rac. Cancer Res. 67, 520–527
+
+32. Chow, H. Y., Stepanova, D., Koch, J., and Chernoff, J. (2010) p21-Activated
+kinases are required for transformation in a cell-based model of neurofi-
+bromatosis type 2. PLoS One 5, e13791
+
+33. Flaiz, C., Chernoff, J., Ammoun, S., Peterson, J. R., and Hanemann, C. O.
+(2009) PAK kinase regulates Rac GTPase and is a potential target in hu-
+man schwannomas. Exp. Neurol. 218, 137–144
+
+34. Otwinowski, Z., and Miner, T. (1997) Methods in Enzymology, pp.
+
+307–326, Elsevier Academic Press, San Diego
+
+35. Maksimoska, J., Feng, L., Harms, K., Yi, C., Kissil, J., Marmorstein, R., and
+Meggers, E. (2008) Targeting large kinase active site with rigid, bulky,
+octahedral ruthenium complexes. J. Am. Chem. Soc. 130, 15764–15765
+36. Murshudov, G. N., Vagin, A. A., and Dodson, E. J. (1997) Refinement of
+macromolecular structures by the maximum-likelihood method. Acta
+Crystallogr D. Biol. Crystallogr 53, 240–255
+
+37. Emsley, P., and Cowtan, K. (2004) Coot: model-building tools for molec-
+
+ular graphics. Acta Crystallogr D. Biol. Crystallogr 60, 2126–2132
+
+38. Maksimoska, J., Feng, L., Harms, K., Yi, C., Kissil, J., Marmorstein, R., and
+Meggers, E. (2008) Targeting large kinase active site with rigid, bulky
+octahedral ruthenium complexes. J. Am. Chem. Soc. 130, 15764–15765
+39. Blanck, S., Maksimoska, J., Baumeister, J., Harms, K., Marmorstein, R., and
+Meggers, E. (2012) The art of filling protein pockets efficiently with octa-
+hedral metal complexes. Angew Chem. Int. Ed. Engl. 51, 5244–5246
+
+40. Eswaran, J., Lee, W. H., Debreczeni, J. E., Filippakopoulos, P., Turnbull, A.,
+Fedorov, O., Deacon, S. W., Peterson, J. R., and Knapp, S. (2007) Crystal
+Structures of the p21-activated kinases PAK4, PAK5, and PAK6 reveal
+catalytic domain plasticity of active group II PAKs. Structure 15, 201–213
+41. Knowles, P. P., Murray-Rust, J., Kjaer, S., Scott, R. P., Hanrahan, S., San-
+toro, M., Ibáñez, C. F., and McDonald, N. Q. (2006) Structure and chem-
+ical inhibition of the RET tyrosine kinase domain. J. Biol. Chem. 281,
+33577–33587
+
+42. Saydam, O., Ozdener, G. B., Senol, O., Mizrak, A., Prabhakar, S., Stemmer-
+
+Rachamimov, A. O., Breakefield, X. O., and Brenner, G. J. (2011) A novel
+imaging-compatible sciatic nerve schwannoma model. J. Neurosci. Meth-
+ods 195, 75–77
+
+43. Wong, H. K., Lahdenranta, J., Kamoun, W. S., Chan, A. W., McClatchey,
+A. I., Plotkin, S. R., Jain, R. K., and di Tomaso, E. (2010) Anti-vascular
+endothelial growth factor therapies as a novel therapeutic approach to
+treating neurofibromatosis-related tumors. Cancer Res. 70, 3483–3493
+
+44. Murray, B. W., Guo, C., Piraino, J., Westwick, J. K., Zhang, C., Lamerdin, J.,
+Dagostino, E., Knighton, D., Loi, C. M., Zager, M., Kraynov, E., Popoff, I.,
+Christensen, J. G., Martinez, R., Kephart, S. E., Marakovits, J., Karlicek, S.,
+Bergqvist, S., and Smeal, T. (2010) Small-molecule p21-activated kinase
+inhibitor PF-3758309 is a potent inhibitor of oncogenic signaling and tu-
+mor growth. Proc. Natl. Acad. Sci. U.S.A. 107, 9446–9451
+
+45. Chow, H. Y., Jubb, A. M., Koch, J. N., Jaffer, Z. M., Stepanova, D., Camp-
+bell, D. A., Duron, S. G., O’Farrell, M., Cai, K. Q., Klein-Szanto, A. J.,
+Gutkind, J. S., Hoeflich, K. P., and Chernoff, J. (2012) p21-Activated kinase
+1 is required for efficient tumor formation and progression in a Ras-me-
+diated skin cancer model. Cancer Res. 72, 5966–5975
+
+46. Zuccotto, F., Ardini, E., Casale, E., and Angiolini, M. (2010) Through the
+“gatekeeper door”: exploiting the active kinase conformation. J. Med.
+Chem. 53, 2681–2694
+
+47. Barvian, M., Boschelli, D. H., Cossrow, J., Dobrusin, E., Fattaey, A., Fritsch,
+A., Fry, D., Harvey, P., Keller, P., Garrett, M., La, F., Leopold, W., Mc-
+Namara, D., Quin, M., Trumpp-Kallmeyer, S., Toogood, P., Wu, Z., and
+Zhang, E. (2000) Pyrido[2,3-d]pyrimidin-7-one inhibitors of cyclin-de-
+pendent kinases. J. Med. Chem. 43, 4606–4616
+
+48. VanderWel, S. N., Harvey, P. J., McNamara, D. J., Repine, J. T., Keller, P. R.,
+Quin, J., 3rd, Booth, R. J., Elliott, W. L., Dobrusin, E. M., Fry, D. W., and
+Toogood, P. L. (2005) Pyrido[2,3-d]pyrimidin-7-ones as specific inhibitors
+of cyclin-dependent kinase 4. J. Med. Chem. 48, 2371–2387
+
+49. Lu, H., and Schulze-Gahmen, U. (2006) Toward understanding the struc-
+tural basis of cyclin-dependent kinase 6 specific inhibition. J. Med. Chem.
+49, 3826–3831
+
+D
+o
+w
+n
+l
+o
+a
+d
+e
+d
+
+ 
+
+ 
+f
+r
+o
+m
+h
+t
+t
+p
+:
+/
+/
+
+w
+w
+w
+
+.
+j
+b
+c
+.
+
+o
+r
+g
+/
+ 
+b
+y
+
+ 
+
+g
+u
+e
+s
+t
+ 
+
+o
+n
+
+ 
+J
+u
+n
+e
+ 
+
+1
+2
+
+,
+ 
+
+2
+0
+1
+8
+
+29114 JOURNAL OF BIOLOGICAL CHEMISTRY
+
+VOLUME 288 • NUMBER 40 • OCTOBER 4, 2013
+
+FRAX597, a Small Molecule Inhibitor of the p21-activated Kinases, Inhibits
+Tumorigenesis of Neurofibromatosis Type 2 (NF2)-associated Schwannomas
+
+Silvia Licciulli, Jasna Maksimoska, Chun Zhou, Scott Troutman, Smitha Kota, Qin Liu,
+Sergio Duron, David Campbell, Jonathan Chernoff, Jeffrey Field, Ronen Marmorstein 
+
+and Joseph L. Kissil
+
+J. Biol. Chem. 
+doi: 10.1074/jbc.M113.510933 originally published online August 19, 2013
+
+2013, 288:29105-29114.
+
+Access the most updated version of this article at doi: 
+  
+Alerts: 
+•  
+•  
+  
+
+ 
+When this article is cited
+When a correction for this article is posted
+ 
+
+10.1074/jbc.M113.510933
+ 
+
+Click here
+
+ to choose from all of JBC's e-mail alerts
+
+This article cites 48 references, 17 of which can be accessed free at
+http://www.jbc.org/content/288/40/29105.full.html#ref-list-1
+ 
+  
+
+D
+o
+w
+n
+l
+o
+a
+d
+e
+d
+
+ 
+
+ 
+f
+r
+o
+m
+h
+t
+t
+p
+:
+/
+/
+
+w
+w
+w
+
+.
+j
+b
+c
+.
+
+o
+r
+g
+/
+ 
+b
+y
+
+ 
+
+g
+u
+e
+s
+t
+ 
+
+o
+n
+
+ 
+J
+u
+n
+e
+ 
+
+1
+2
+
+,
+ 
+
+2
+0
+1
+8
+
+ 
+

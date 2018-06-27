@@ -1,0 +1,1230 @@
+Article
+
+pubs.acs.org/jpr
+
+Characterization of a Chemical Aﬃnity Probe Targeting Akt Kinases
+Fiona Pachl,† Patrik Plattner,‡ Benjamin Ruprecht,† Guillaume Médard,† Norbert Sewald,‡
+and Bernhard Kuster*,†,§
+†
+Chair for Proteomics and Bioanalytics, Center of Life and Food Sciences Weihenstephan, Technische Universität München,
+Emil-Erlenmeyer-Forum 5, 85354 Freising, Germany
+‡
+Organic and Bioorganic Chemistry, Department of Chemistry, Bielefeld University, Bielefeld, Germany
+§Center for Integrated Protein Science Munich, Emil-Erlenmeyer-Forum 5, 85354 Freising, Germany
+
+*S Supporting Information
+
+ABSTRACT: Protein kinases are key regulators of cellular
+processes, and aberrant
+function is often associated with
+human disease. Consequently, kinases represent an important
+class of therapeutic targets and about 20 kinase inhibitors
+(KIs) are in clinical use today. Detailed knowledge about the
+selectivity of KIs is important for the correct interpretation of
+their pharmacological and systems biological eﬀects. Chemical
+proteomic approaches for systematic kinase inhibitor selectiv-
+ity proﬁling have emerged as important molecular tools in this regard, but the coverage of the human kinome is still incomplete.
+Here, we describe a new aﬃnity probe targeting Akt and many other members of the AGC kinase family that considerably
+extends the scope of KI proﬁling by chemical proteomics. In combination with the previously published kinobeads, the
+synthesized probe was applied to selectivity proﬁling of the Akt inhibitors GSK690693 and GSK2141795 in human cancer cells.
+The results conﬁrmed the inhibition of all Akt isoforms and of a number of known as well as CDC42BPB as a novel putative
+target for GSK690693. This work also established, for the ﬁrst time, the kinase selectivity proﬁle of the clinical phase I drug
+GSK2141795 and identiﬁed PRKG1 as a low nanomolar kinase target as well as the ATP-dependent 5′-3′ DNA helicase ERCC2
+as a potential new non-kinase oﬀ-target.
+KEYWORDS: chemical proteomics, kinobeads, Akt, mass spectrometry
+
+■ INTRODUCTION
+
+Protein kinases play a pivotal role in signal transduction and
+therefore are attractive drug targets in diseases such as cancer
+and inﬂammation.1−5 To date, about 20 small-molecule drugs
+are approved for clinical use (all
+in oncology) and several
+hundred further compounds are under investigation in clinical
+trials.6 Most of these agents exert their inhibitory eﬀects via
+binding to the structurally highly conserved ATP-binding
+pocket within the kinase domain. As a result, kinase inhibitors
+(KIs) are likely to target multiple protein kinases or ATP-
+hydrolyzing/binding enzymes, making the discovery of truly
+selective inhibitors a formidable challenge. In a physiological
+context, oﬀ-targets may lead to undesired side eﬀects but may
+also increase the therapeutic potential of a drug. Hence,
+determining an inhibitor’s full protein selectivity proﬁle is
+important for the correct interpretation of its biological eﬀects
+on a cellular and organismal
+level. Traditional methods to
+assess the selectivity of kinase inhibitors are based on in vitro
+kinase activity assays using large panels of
+recombinant
+kinases.7−9 Despite being powerful and widely used, these
+panels have shortcomings: notably,
+they mostly utilize an
+exogenously expressed catalytic kinase domain, thus ignoring
+regulatory sequence elements present in the full-length protein,
+activity-regulating posttranslational modiﬁcations, and the
+inﬂuence of further proteins and cofactors present in cells.10,11
+
+To complement such in vitro assays, aﬃnity-based chemical
+proteomic methods have been developed to allow for a more
+unbiased analysis of a drug’s potential to interact with kinases
+or other cellular proteins. One such successful approach makes
+use of
+immobilized low-selectivity kinase inhibitors for the
+speciﬁc enrichment of a large subset of the native kinome and
+other nucleotide binding proteins directly from cell or tissue
+extracts of biological signiﬁcance (exempliﬁed by the kinobead
+technology).12−16 Kinobeads enable diﬀerential proﬁling of
+kinase expression in cells and tissues and, when conﬁgured as a
+competition binding assay in conjunction with quantitative
+mass spectrometry, allow for determination of the selectivity of
+a small-molecule kinase inhibitor against hundreds of proteins
+in a single experiment.17−20 Despite conceptual advantages,
+chemical proteomic methods also have shortcomings, notably
+incomplete coverage of the kinome. For example, the published
+kinobead method,12 which uses a mixture of seven immobilized
+kinase inhibitors, does not eﬀectively address Akt kinases due to
+the lack of suitable aﬃnity probes. The serine/threonine kinase
+Akt, also known as protein kinase B, belongs to the AGC
+subfamily of protein kinases and is a key mediator of cell
+growth, proliferation, and apoptosis.21,22 Aberrant activation of
+
+Received: May 15, 2013
+Published:
+June 25, 2013
+
+© 2013 American Chemical Society
+
+3792
+
+dx.doi.org/10.1021/pr400455j | J. Proteome Res. 2013, 12, 3792−3800
+
+Journal of Proteome Research
+
+the Akt pathway has been identiﬁed in a wide variety of human
+cancers including tumors of the breast, prostate, ovaries, and
+skin.23−26 Therefore,
+inhibiting Akt activity is viewed as an
+attractive therapeutic approach, and several small-molecule
+inhibitors targeting this enzyme have been reported and are
+being tested in the clinic.27−29 Given the above shortcomings,
+we sought to develop a chemical aﬃnity probe targeting Akt
+and structurally related kinases in order to expand the kinome
+coverage of kinobeads. This was achieved by retroengineering
+the potent and reasonably selective Akt inhibitor GSK69069327
+into a broad kinase binder. In combination with the previous
+version of kinobeads,
+the new Akt probe enabled us to
+determine the selectivity proﬁle of the ATP-competitive Akt
+inhibitors GSK690693 and GSK214179530 and to identify a
+number of oﬀ-targets that may be responsible for desired and
+undesired biological eﬀects.
+
+■ MATERIALS AND METHODS
+
+Chemical Synthesis
+Synthetic schemes, detailed procedures, and characterization of
+synthesized compounds can be found in the Supporting
+Information.
+Sample Preparation
+Postdelivery human placenta tissue (obtained from Freising
+hospital following informed consent) was thoroughly washed
+with cold phosphate-buﬀered saline (PBS) and homogenized in
+lysis buﬀer (50 mM Tris-HCl, pH 7.5, 5% glycerol, 1.5 mM
+MgCl2, 150 mM NaCl, 0.8% NP-40, 1 mM dithiothreitol, and
+25 mM NaF with freshly added protease inhibitors and
+phosphatase inhibitors) by use of a tissue grinder. Lysates were
+incubated for 30 min at 4 °C, and protein extracts were clariﬁed
+by ultracentrifugation for 1 h at 145000g at 4 °C. Protein
+concentration was determined by the Bradford method.
+
+K562 and COLO205 cells were cultured in Roswell Park
+Memorial Institute 1640 (RPMI 1640) medium, SKNBE2 cells
+were cultured in Dulbecco’s modiﬁed Eagle’s medium
+(DMEM), and OVCAR8 cells were cultured in Iscove’s
+modiﬁed Dulbecco’s medium (IMDM), all supplemented
+with 10% fetal bovine serum (FBS). Cells were cultured in
+humidiﬁed air supplemented with 5% CO2 at 37 °C. Cells were
+washed with cold PBS and harvested by lysis in 50 mM Tris-
+HCl, pH 7.5, 5% glycerol, 1.5 mM MgCl2, 150 mM NaCl, 0.8%
+NP-40, 1 mM dithiothreitol, and 25 mM NaF with freshly
+added protease inhibitors and phosphatase inhibitors (5×
+phosphatase inhibitor cocktail 1, Sigma−Aldrich, Munich,
+Germany; 5× phosphatase inhibitor cocktail 2, Sigma−Aldrich,
+Munich, Germany; 1 mM Na3VO4; and 20 nM calyculin A, LC
+Laboratories, Woburn, MA). Protein extracts were clariﬁed by
+ultracentrifugation for 1 h at 145000g at 4 °C, and protein
+concentration was determined by the Bradford method.
+Compound Coupling
+Compounds were immobilized on Sepharose beads through
+covalent linkage via primary amino (compound) and carboxyl
+groups as described previously.12 One milliliter of N-
+hydroxysuccinimide (NHS) activated Sepharose (GE Health-
+care, Freiburg, Germany) and the compound (2 μmol/mL)
+were equilibrated in dimethyl sulfoxide (DMSO). Triethyl-
+amine (15 μL) was added to start the coupling reaction, and
+the mixture was incubated on an end-over-end shaker for 16−
+20 h in the dark. Free NHS groups on the beads were blocked
+by adding 50 μL of aminoethanol and the mixture was
+
+Article
+incubated on an end-over-end shaker for 16−20 h in the dark.
+Coupled beads were washed and stored in 2-propanol at 4 °C
+in the dark. The coupling reaction was monitored by high-
+performance liquid chromatography (HPLC).
+Compound Deprotection
+Sepharose beads (2 μmol/mL; 1 mL) functionalized with o-
+nitrobenzenesulfonyl (o-Nbs) protected compound were
+washed and equilibrated in N,N-dimethylformamide (DMF).
+For the deprotection reaction, N-methyl-2-pyrrolidone (NMP,
+2 mL), 1,8-diazabicyclo[5.4.0]undec-7-ene (DBU, 1.5 mL), and
+mercaptoethanol (1.5 mL) were added and the mixture was
+incubated on an end-over-end shaker for 15 min at room
+temperature. Subsequently, beads were washed and stored in 2-
+propanol at 4 °C in the dark.
+Aﬃnity Puriﬁcation
+Akt probe and kinobead pulldowns were performed as
+described previously.12 Brieﬂy,
+lysates of a cell mix were
+diluted with equal volumes of 1× compound pulldown (CP)
+buﬀer [50 mM Tris-HCl, pH 7.5, 5% glycerol, 1.5 mM MgCl2,
+150 mM NaCl, 25 mM NaF, 1 mM dithiothreitol, and freshly
+added protease inhibitors and phosphatase inhibitors (5×
+phosphatase inhibitor cocktail 1, Sigma−Aldrich, Munich,
+Germany; 5× phosphatase inhibitor cocktail 2, Sigma−Aldrich,
+Munich, Germany; 1 mM sodium orthovanadate; and 20 nM
+calyculin A, LC Laboratories, Woburn, MA)]. If necessary,
+lysates were further diluted to a ﬁnal protein concentration of 5
+mg/mL in 1× CP buﬀer supplemented with 0.4% NP-40.
+
+For selectivity proﬁling experiments, the lysates (5 mg of
+total protein each) were preincubated with 0 (DMSO control),
+2.5 nM, 25 nM, 250 nM, 2.5 μM or 25 μM free compound
+(GSK690693 or GSK2141795) on an end-over-end shaker for
+45 min at 4 °C. Subsequently,
+lysates were incubated with
+beads (coupled Akt probe or kinobeads) for 1 h at 4 °C, for
+both qualitative and quantitative experiments. The beads were
+washed with 1× CP buﬀer and collected by centrifugation.
+Bound proteins were eluted with 2× NuPAGE LDS sample
+buﬀer (Invitrogen, Darmstadt, Germany), and eluates were
+reduced and alkylated by 50 mM dithiothreitol and 55 mM
+iodoacetamide.
+Samples were then run into a 4−12% NuPAGE gel
+(Invitrogen, Darmstadt, Germany) for about 0.5 cm to
+concentrate the sample prior to in-gel tryptic digestion, which
+was performed according to standard procedures.
+Liquid Chromatography−Tandem Mass Spectrometry
+Measurements
+Nanoﬂow LC-MS/MS was performed by coupling an Eksigent
+nanoLC-Ultra 1D+ (Eksigent, Dublin, CA) to a LTQ-Orbitrap
+XL ETD (Thermo Scientiﬁc, Bremen, Germany). Peptides
+were delivered to a trap column (100 μm × 2 cm, packed in-
+house with Reprosil-Pur C18-AQ 5 μm resin; Dr. Maisch,
+Ammerbuch, Germany) at a ﬂow rate of 5 μL/min in 100%
+solvent A (0.1% formic acid in HPLC-grade water). After 10
+min of loading and washing, peptides were transferred to an
+analytical column (75 μm × 40 cm, packed in-house with
+Reprosil-Pur C18-AQ, 3 μm resin; Dr. Maisch, Ammerbuch,
+Germany) and separated via a 210 min gradient from 7% to
+35% solvent B (0.1% formic acid in acetonitrile) at 300 nL/min
+ﬂow rate. The LTQ Orbitrap XL was operated in data-
+dependent mode, automatically switching between MS and
+MS2. Full-scan MS spectra were acquired in the Orbitrap at
+60 000 (m/z 400) resolution after accumulation to a target
+
+3793
+
+dx.doi.org/10.1021/pr400455j | J. Proteome Res. 2013, 12, 3792−3800
+
+Journal of Proteome Research
+
+Article
+
+Figure 1. Comparison of Akt aﬃnity matrices. (A) Chemical structures of Akt inhibitor GSK690693 and aﬃnity probes 1−3 immobilized on
+Sepharose beads. (B) Kinome tree representing the diﬀerent classes of kinases enriched by probe 1 (blue), probe 2 (red), and probe 3 (green). The
+size of the circle reﬂects the number of unique spectra assigned to a kinase and serves as a semiquantitative measure for the quantity of an enriched
+kinase.
+
+value of 1 000 000. Internal calibration was performed by use of
+the ion signal [Si(CH3)2O]6H+ at m/z 445.120 025 present in
+ambient laboratory air. Tandem mass spectra were generated
+for up to eight peptide precursors in the linear ion trap for
+fragment by using collision-induced dissociation at a
+normalized collision energy of 35% after accumulation to a
+target value of 5000 for a maximum of 500 ms.
+
+Measurements using the Orbitrap Elite (Thermo Scientiﬁc,
+Bremen, Germany) employed the same LC conditions as
+described and similar data acquisition parameters. Full-scan MS
+spectra were acquired in the Orbitrap at 30 000 resolution.
+Tandem mass spectra were generated for up to 15 peptide
+precursors for fragment by using higher energy collisional
+dissociation (HCD) at normalized collision energy of 30% and
+a resolution of 15 000 with a target value of 100 000 charges
+after accumulation for a maximum of 100 ms.
+Peptide and Protein Identiﬁcation and Quantiﬁcation
+For qualitative analysis, raw MS data ﬁles were converted to
+peak lists by use of Mascot Distiller (version 2.3.0, Matrix
+Science, London) and searched against the IPI human database
+(version 3.68; 87 061 sequences) by use of the Mascot search
+engine (version 2.3.0, Matrix Science, London) and the
+following parameters: precursor tolerance 10 ppm, fragment
+tolerance 0.6 Da, full tryptic speciﬁcity with up to two missed
+cleavage sites, and misassignment of the monoisotopic peak to
+the ﬁrst 13C peak, ﬁxed modiﬁcation of carbamidomethylation
+of cysteine residues, and variable modiﬁcation of methionine
+
+oxidation. The database search results were imported into
+Scaﬀold (version 3.6.2, Proteome Software, Portland, OR) for
+further evaluation.
+
+Quantitative analysis with intensity-based label-free quanti-
+ﬁcation was performed by the Progenesis software (version 3.1,
+Nonlinear Dynamics, Newcastle, U.K.) Brieﬂy, after one sample
+was selected as a reference, the retention times of all eluting
+precursor m/z values in all other samples within the experiment
+were aligned, creating a large list of “features” representing the
+same peptide in each sample. Features with 2−5 charges were
+included for further analysis. Features with two or less isotopes
+were excluded. After alignment and feature ﬁltering, replicate
+samples were grouped together, and raw abundances of all
+features were normalized to determine a global scaling factor
+for correcting experimental variation such as diﬀerences in the
+quantity of protein loaded into the instrument. Brieﬂy, for each
+sample, one unique factor is calculated and used to correct all
+features in the sample for experimental variation according to
+Hauck et al.31 MS/MS spectra were transformed into peak lists
+and exported to generate Mascot generic ﬁles. The Mascot
+generic ﬁles were searched against
+the protein sequence
+database IPI human (version 3.68; 87 061 sequences) by use
+of Mascot (version 2.3.0, Matrix Science, London). Search
+parameters were as follows: precursor
+tolerance 10 ppm,
+fragment tolerance 0.02 Da, full tryptic speciﬁcity with up to
+two missed cleavage sites, misassignment of the monoisotopic
+peak to the ﬁrst 13C peak, ﬁxed modiﬁcation of carbamidome-
+
+3794
+
+dx.doi.org/10.1021/pr400455j | J. Proteome Res. 2013, 12, 3792−3800
+
+Journal of Proteome Research
+Table 1. List of Kinases Identiﬁed in Pulldowns by Use of Probes 1, 2, and 3 from Human Placenta Lysatea
+
+Article
+
+no. of unique peptides
+
+no. of unique peptides
+
+gene name
+
+IPI-ID
+
+21
+2
+25
+
+probe 1
+
+probe 2
+
+probe 3
+
+34
+12
+14
+4
+21
+4
+39
+57
+205
+68
+3
+3
+20
+4
+3
+15
+
+gene name
+MARK2
+MARK3
+MTOR
+PAK4
+PHKG2
+PI4KA
+PIM1
+PKN2
+PRKAA1
+PRKAB2
+PRKACA
+PRKACB
+PRKCA
+PRKCD
+PRKCZ
+PRKD2
+PRKDC
+PRKG1A
+PRKG1B
+PRKX
+ROCK1
+ROCK2
+RPS6KA1
+RPS6KA3
+RPS6KA4
+RPS6KA5
+STK17B
+TBK1
+aFor a complete list of identiﬁed proteins, see Table S1 in Supporting Information.
+
+AAK1
+Akt1
+Akt2
+Akt3
+CAMK2D
+CAMK2G_Iso6
+CAMK2G_Iso7
+CDC42BPA
+CDC42BPB
+CDC42BPG
+CDK9
+CDKL5
+CHUK
+CSNK1D
+DAPK3
+DMPK
+EGFR
+FLT1
+GSK3A
+GSK3B
+IKBKB
+ILK
+IRAK3
+LATS1
+MAP3K5
+MAPK1
+MAPK8
+MAPK9
+
+IPI00916402
+IPI00012866
+IPI00012870
+IPI00031747
+IPI00172636
+IPI00908444
+IPI00915309
+IPI00640957
+IPI00477763
+IPI00454910
+IPI00301923
+IPI00746301
+IPI00005104
+IPI00011102
+IPI00015213
+IPI00215958
+IPI00018274
+IPI00018335
+IPI00292228
+IPI00216190
+IPI00024709
+IPI00013219
+IPI00026984
+IPI00005858
+IPI00412433
+IPI00003479
+IPI00220305
+IPI00024673
+
+14
+23
+37
+39
+
+11
+7
+4
+5
+10
+13
+
+2
+
+6
+
+IPI-ID
+
+probe 1
+
+probe 2
+
+probe 3
+
+2
+
+2
+69
+
+3
+
+79
+6
+
+IPI00555838
+IPI00220506
+IPI00031410
+IPI00014068
+IPI00012891
+IPI00070943
+IPI00005014
+IPI00002804
+IPI00410287
+IPI00013905
+IPI00396630
+IPI00395654
+IPI00385449
+IPI00329236
+IPI00013749
+IPI00009334
+IPI00296337
+IPI00427586
+IPI00436355
+IPI00020904
+IPI00022542
+IPI00307155
+IPI00017305
+IPI00020898
+IPI00022536
+IPI00335101
+IPI00014934
+IPI00293613
+
+7
+
+11
+
+2
+
+19
+
+25
+8
+
+7
+10
+2
+6
+43
+10
+7
+7
+3
+9
+86
+91
+9
+2
+137
+124
+12
+35
+25
+30
+6
+20
+
+22
+38
+
+thylation of cysteine residues, and variable modiﬁcation of N-
+terminal protein acetylation and methionine oxidation. Search
+results for spectrum to peptide matches were exported in .xml
+format and then imported into Progenesis software to enable
+the combination of peptide quantiﬁcation and identiﬁcation.
+ion scores ≤32 (p = 0.05 identity
+Peptides with mascot
+threshold) were ﬁltered out, and only unique peptides for
+corresponding proteins were used for
+identiﬁcation and
+In dose−response measurements, protein
+quantiﬁcation.
+quantiﬁcation was performed by summing the feature
+intensities of all unique peptides of a protein.
+
+■ RESULTS AND DISCUSSION
+
+Design and Synthesis of Aﬃnity Probes Targeting Akt and
+AGC Family Kinases
+The potent ATP-competitive Akt inhibitor GSK690693 (Figure
+1A) was chosen as starting point for the design of chemical
+aﬃnity probes, as this compound inhibits all three isoforms of
+Akt (1, 2, and 3) at low nanomolar concentrations and further
+shows potent activity against a number of AGC family members
+as well as other protein kinases.27 For aﬃnity probes intended
+for KI selectivity proﬁling, low kinase selectivity (but potent
+binding) is desirable in order to enable the measurement of
+many kinases simultaneously. We therefore explored the merits
+of three linkable compounds (Figure 1A): probe 1 corresponds
+to the parental compound. which can be immobilized via its
+secondary amine. Considerations leading to the design and
+synthesis of probes 2 and 3 (see Supporting Information for
+
+details) were based on the cocrystal structure of GSK690693
+and the kinase domain of Akt2 (PDB code 3DOE; Figure S1,
+Supporting Information) as well as the described structure−
+activity relationship (SAR) of GSK690693.27 The inhibitor
+occupies the ATP binding pocket with the 1,2,5-oxidazole
+moiety located in the hinge region. Several
+inter- and
+intramolecular hydrogen bonds of the 1,2,5-oxidazole and the
+imidazopyridine ring, together with hydrophobic interactions
+with the glycine-rich loop, provide strong interactions between
+kinase and inhibitor. Furthermore, the alkynol group at position
+C4 of the imidazopyridine core is located in the back cleft
+pocket and improves potency for Akt and,
+importantly,
+selectivity against other kinases of the AGC family.27 The
+piperidinyl side chain is exposed to the solvent and also
+provides hydrogen bonding to the carboxylic acid side chain of
+Glu 236 in the substrate binding area of Akt. This feature makes
+this side of the molecule attractive for modiﬁcation with a
+linker, provided that the basicity of the amino group can be
+kept intact. Structural and SAR information together would
+predict that probe 3 should be more selective for Akt than
+probe 2.
+Protein Binding Proﬁles of Akt Probes
+the three immobilized
+The protein binding proﬁles of
+compounds (probes 1, 2, and 3) were assessed in pulldown
+experiments on lysates of human placenta, followed by mass
+spectrometry for protein identiﬁcation. A triplicate analysis
+resulted in the identiﬁcation of 204 proteins (six kinases) for
+probe 1, 347 proteins (50 kinases) for probe 2, and 458
+
+3795
+
+dx.doi.org/10.1021/pr400455j | J. Proteome Res. 2013, 12, 3792−3800
+
+Journal of Proteome Research
+
+Article
+
+Figure 2. Comparison of the enrichment proﬁles of kinobeads without (KBα) and with (KBβ) addition of probe 2. The heat map shows the
+identiﬁed kinases, with the number of unique spectra as a semiquantitative measure of the quantity of an enriched kinase. The darker the color, the
+more abundant the enriched kinase. Addition of probe 2 adds signiﬁcantly to the kinome coverage of kinobeads.
+
+proteins (11 kinases) for probe 3 (see Table 1 for kinases and
+Table S1, Supporting Information, for all proteins). This clearly
+identiﬁed probe 2 as the most eﬀective kinase binder, and in
+fact the only one capable of capturing all three isoforms of Akt.
+Visualization of the identiﬁed kinases on the phylogenetic
+kinome tree (Figure 1B) revealed that probe 2 captures a
+considerable number of
+further AGC kinases as well as
+members of the CMGC and CAMK kinase families. The
+broad kinase binding proﬁle can be rationalized (i) by the high
+structural conservation of the kinase domain and ATP binding
+pocket within the AGC family and (ii) by the removal of the
+alkynol moiety, which was previously shown to improve
+selectivity, for example, against ROCK and RSK.27 Probes 1
+and 3 were ineﬀective in capturing Akt and also captured only a
+few other kinases. This may not be surprising for probe 1, as
+the basicity of the secondary amine of the piperidinyl side chain
+present in GSK690693 and important for Akt binding is not
+preserved in the immobilized conﬁguration. The fairly low
+degree of kinase binding may be rationalized by the rather short
+and bulky group attaching the compounds to the beads, which
+may prevent the molecule from reaching deep enough into the
+ATP binding pocket. This argument does not apply for probe 3,
+as its linker is the same as that of probe 2. Instead, it is possible
+that the functional alkynol group cannot eﬃciently penetrate
+the very narrow opening into the back pocket of the ATP
+binding site of kinases, so that even small conformational
+
+changes in the compound and/or the native, full-length protein
+structure might considerably impair proper binding.
+is
+noteworthy, though, that probe 3 appears to be an eﬀective
+binder for the phosphatidylinositol kinase PI4KA, a lipid kinase
+that has recently been implicated in hepatitis C replication in
+human cells.32
+
+It
+
+Apart from kinases, the three probes bind to multiple other
+proteins. This is not unusual: proteins may bind unspeciﬁcally
+to the beads, but also the immobilized KIs are ATP mimetics
+that have the potential to bind nucleotide binding proteins, of
+which there are many hundreds in mammalian cells. Gene
+ontology (GO) analysis of the identiﬁed proteins (Figure S2,
+Supporting Information) reveals that all probes do bind a
+considerable number of these proteins as well as further RNA/
+DNA binding proteins. When the number of unique tandem
+mass spectra of identiﬁed proteins is used as a semiquantitative
+measure for protein abundance, it can be noted that about two-
+thirds of
+the total proteins binding to probe 2 can be
+rationalized by one of the aforementioned GO categories. In
+contrast,
+less than one-third of these proteins explain the
+binding proﬁles of probes 1 and 3.
+
+Having established that probe 2 is an eﬀective aﬃnity tool for
+capturing protein kinases, notably of the AGC branch, we next
+investigated whether the probe would extend the kinome
+coverage of kinobeads as published by Bantscheﬀ et al.12 For
+this purpose, we performed pulldown experiments (in
+
+3796
+
+dx.doi.org/10.1021/pr400455j | J. Proteome Res. 2013, 12, 3792−3800
+
+Journal of Proteome Research
+
+Article
+
+Figure 3. Target selectivity proﬁles of the clinical Akt inhibitors GSK690693 and GSK2141795. (A, B) Competition binding curves for identiﬁed
+isoforms of the primary target Akt. (C) Comparison of proteomic target proﬁles of GSK690693 and GSK2141795. It is evident that the selectivity
+range of GSK2141795 is much narrower than that of GSK690693. Only targets identiﬁed in both data sets are shown.
+
+triplicate) from lysates of human placenta using either
+kinobeads as published (seven immobilized compounds,
+KBα) or kinobeads supplemented with probe 2 (KBβ). In
+pulldowns with KBα, 130 kinases (total of 860 proteins; Figure
+2; Figures S3 and S4 and Table S3, Supporting Information)
+were identiﬁed and KBβ pulldown experiments led to the
+identiﬁcation of 139 kinases out of a total of 815 proteins. As
+expected, more than 80% of the protein kinases were identiﬁed
+in both experiments. Twenty-three kinases (15 from the AGC
+family) were exclusively found in the KBβ experiment (Figure
+S3B,C, Supporting Information), and members of the AGC
+family were present in signiﬁcantly higher amounts on KBβ
+compared to KBα (Figure S4 and Table S2, Supporting
+Information). The 14 kinases exclusively identiﬁed on KBα
+originate from many diﬀerent areas of the kinome tree and
+these hits were mostly identiﬁed with few spectra (Table S2,
+Supporting Information), thus representing kinases with either
+low aﬃnity to the kinobeads or kinases of very low abundance
+in the sample. Taken together, probe 2 both qualitatively and
+quantitatively adds to the published version of kinobeads, which
+is why this chemical aﬃnity tool was used for all subsequent
+experiments.
+
+Kinase Inhibitor Selectivity Proﬁle
+To demonstrate the utility of the new kinobeads KBβ, we
+inhibitors GSK69069333−35 (phase I,
+subjected the Akt
+terminated) and GSK214179530 (active phase I
+trials in
+patients with solid tumors or lymphomas) to kinase selectivity
+proﬁling in mixed lysates of four cancer cells (see Materials and
+Methods section). Brieﬂy, KBβ pulldowns were performed after
+preincubation of separate lysates with increasing concentrations
+of the respective drug. Protein targets that bind the drug in the
+lysate show a dose-dependent reduction in binding to the
+kinobeads, while proteins unaﬀected by the drug show no
+reduction in binding. Proteins were eluted from kinobeads,
+digested with trypsin into peptides, and analyzed by liquid
+chromatography−tandem mass spectrometry (LC-MS/MS).36
+Following protein identiﬁcation by database searching, proteins
+were quantiﬁed by use of their LC-MS/MS intensities, and
+dose−response curves were generated from the resulting data
+(Figure S5, Supporting Information). The results of these
+experiments show clear similarities as well as diﬀerences in the
+selectivity proﬁles of the two compounds. Both expectedly
+show inhibition of Akt1 and 2 (Figure 3A,B and Table 2; Akt3
+was detected only in assays with GSK2141795), and IC50 values
+
+3797
+
+dx.doi.org/10.1021/pr400455j | J. Proteome Res. 2013, 12, 3792−3800
+
+Journal of Proteome Research
+
+Table 2. Comparative List of Putative Targets of
+GSK690693 and GSK2141795 with IC50 Valuesa
+
+kinase
+
+Akt1
+Akt2
+CDC42BPB
+CDK7
+CSNK1A1
+GSK3A
+GSK3B
+MARK2
+PAK4
+PRKAA1
+PRKACA
+PRKACB
+PRKCA
+PRKCD
+PRKD2
+PRKG1
+ROCK1
+ROCK2
+RPS6KA4
+TAOK2
+
+IC50 (nM)
+
+GSK690693
+
+GSK2141795
+
+138
+128
+550
+>10 000
+>10 000
+147
+111
+50
+15
+148
+14
+26
+49
+48
+>10 000
+497
+1808
+340
+40
+1285
+
+180
+328
+>10 000
+2100
+3690
+>10 000
+>10 000
+2900
+>10 000
+>10 000
+29
+249
+>10 000
+849
+2260
+3
+1570
+1850
+>10 000
+>10 000
+
+aAs determined by the kinobead competition binding assay.
+
+of 138 nM (Akt1) and 128 nM (Akt2) were determined for
+GSK690693. GSK2141795 inhibited kinobead binding with
+IC50 values of 180 nM for Akt1, 328 nM for Akt2, and 38 nM
+for Akt3 (Table 2). We note here that IC50 values for target
+aﬃnities determined in such competition binding assays are
+often aﬀected by the partial depletion of
+individual target
+proteins from the lysate. This can be compensated for by
+calculating a target-speciﬁc KD value using a correction factor
+derived from the Cheng−Prusoﬀ equation.16,37 This results in
+KD values of 16 nM for Akt1, 49 nM for Akt2, and 5 nM for
+Akt3 (for GSK2141795), which are in line with literature data
+from biochemical assays that report potencies of 2 nM for Akt1,
+2−13 nM for Akt2, and 3−9 nM Akt3 for GSK690693.7,27,34
+We further note that compound potencies determined by
+kinobead assays are often weaker than those obtained from
+biochemical kinase assays. We attribute this to fundamental
+diﬀerences in assay conditions: in vitro kinase assays generally
+measure isolated recombinant kinase domains, while the
+kinobead assay measures full-length native kinases expressed
+in cell lines or tissues. In addition, the respective lysates contain
+other cellular proteins and cofactors not present in recombinant
+assays that might regulate kinase activity or otherwise interfere
+with or bind to the free compound (e.g., acting as a compound
+sink).
+
+IC50 values,
+
+Apart from Akt, the proﬁle of GSK690693 contains 13
+further kinases with submicromolar
+in sharp
+contrast to GSK2141795, for which only four such cases are
+detected (Figure 3C and Table 2). The selectivity of
+GSK690693 toward kinases has been studied before,7,27,34
+documenting low-
+to midnanomolar binding constants for
+members of the protein kinase A (13−24 nM) and protein
+kinase C (2−250 nM) family of proteins, GSK3a (5200 nM)
+and GSK3b (100−140 nM), ROCK1 (280−890 nM) and
+ROCK2 (200 nM), MARK2 (720 nM), and RPS6KA4 (51
+nM) as well as PAK4 (10−18 nM). These targets are also
+found in the kinobead assay with binding inhibition values
+
+Article
+
+between 15 and 340 nM. In addition to these previously known
+targets, our assay revealed binding inhibition of CDC42BPB
+(also known as MRCKB, IC50 = 550 nM). Interestingly, the
+kinase domain of MRCKB resembles that of PAK kinases and it
+is thus likely that MRCKB constitutes a novel
+target of
+GSK690693. Taken together, the selectivity proﬁle of this
+compound is fairly broad and the particular kinases inhibited
+should help in understanding the cellular action of
+the
+molecule. While anticancer activity of the compound may be
+rationalized based on several of the inhibited kinases, each
+playing a role in various types of cancer (e.g., Akt,21−26
+PKC,38−40 ROCK,41 PAK,42 MRCKB43),
+the inhibition of
+other kinases in the target spectrum may be more problematic.
+For example, potent inhibition of GSK3 might be a double-
+edged sword. On the one hand, GSK3 activity has been linked
+to cancer;44,45 on the other hand,
+in concert with Akt and
+mTOR, GSK3 is an important mediator of the insulin pathway
+and its inhibition may lead to impaired glucose uptake, induce
+hyperglycemia, hyperinsulinemia, and glucose intolerance.46
+Similarly, PKA signaling pathways are active in many cell types
+and mediate a wide spectrum of normal biological functions. If
+and how pharmacological PKA inhibition might be beneﬁcial
+for treating cancer or detrimental for normal cells is therefore
+not necessarily clear.47,48
+
+Judged from the kinobead selectivity proﬁle,
+
+the target
+spectrum of GSK2141795 appears to be much narrower than
+that of GSK690693. Apart from the Akts, only the PKC family
+members PRKACA and PRKACB as well as the cGMP-
+dependent protein kinase PRKG1 are potently inhibited (Table
+2). The much tighter selectivity proﬁle of GSK2141795 is likely
+beneﬁcial, as some of the potential biological toxicity issues
+might be circumvented. Still, while the inhibition of PKCs may
+contribute to the anticancer eﬀects of this compound, the
+physiological consequences of the very potent inhibition (IC50
+= 2.5 nM, Kd = 0.05 nM) of PRKG1 cannot be clearly
+anticipated at present. This kinase is a key mediator of a
+plethora of normal cellular and organ functions such as
+modulation of cellular calcium, platelet activation, smooth
+muscle contraction, axonal guidance, and learning, to name a
+few,49−52 which on their own or in combination might indicate
+toxic side eﬀects. However, results of ongoing phase I clinical
+trials have not been reported thus far, referring any such
+considerations into the realm of speculation at the present time.
+Given that kinobeads not only bind kinases and other
+nucleotide binding proteins but also capture binding proteins
+from cell lysates under denaturing conditions, one frequently
+observes non-kinase targets and copuriﬁcation of interacting
+proteins in competition binding experiments (Figure S6,
+spectrin α1
+Supporting Information). For example,
+(SPTAN1) shows a dose-dependent reduction in binding to
+kinobeads. This protein contains an SH3 domain, suggesting
+that it might copurify with a phosphorylated kinase that itself is
+inhibited by GSK2141795. The ATP-dependent 5′-3′ DNA
+helicase ERCC2 also shows a dose-dependent reduction of
+kinobead binding in response to drug treatment. Given the
+ATP-hydrolyzing activity of this enzyme, which is involved in
+nucleotide excision repair
+is
+tempting to speculate that it might be a non-kinase oﬀ-target
+of GSK2141795. How this might impact the phenotype of cells
+treated with the compound remains to be investigated.
+
+following DNA damage,
+
+it
+
+3798
+
+dx.doi.org/10.1021/pr400455j | J. Proteome Res. 2013, 12, 3792−3800
+
+Journal of Proteome Research
+
+■ CONCLUSIONS
+
+In summary, we describe a novel chemical aﬃnity probe for
+capturing Akt isoforms and about 50 further kinases, primarily
+from the AGC branch of the kinome phylogenetic tree. This
+not only increases the range of kinases that can be assayed by
+the established kinobead technology but also substantially
+reduces the bias of kinobeads toward the representation of
+tyrosine and tyrosine-like kinases. Application of
+the new
+probes to the selectivity proﬁling of Akt kinase inhibitors
+conﬁrmed the broad selectivity of GSK690693 and, for the ﬁrst
+time, established the much narrower proﬁle of GSK2141795,
+generating new hypotheses as to how this clinical Akt inhibitor
+exerts its cellular eﬀects. Our work shows that retroengineering
+kinase inhibitors into broad kinase binders works, and it is
+entirely feasible to apply the same or a similar strategy to other
+kinase families should reasonable chemical starting points exist.
+In fact, we are currently in the process of generating probes
+targeting kinases of the VEGFR and FGFR families, which are
+not well addressed by existing probes. In light of the current
+chemoproteomic literature,37,53,54 it is unlikely that a single true
+pan-kinase compound probe can be developed, but continuing
+eﬀorts by ourselves and others in the ﬁeld5,55 will
+likely
+eventually ﬁll the remaining gaps.
+■ ASSOCIATED CONTENT
+*S Supporting Information
+Additional text and three schemes, with experimental methods
+and characterization of compounds, and six ﬁgures and three
+tables as described in the main text. This material is available
+free of charge via the Internet at http://pubs.acs.org.
+
+■ AUTHOR INFORMATION
+
+Corresponding Author
+*E-mail kuster@tum.de; tel +49 8161 715696; fax +49 8161
+715931.
+Notes
+The authors declare no competing ﬁnancial interest.
+
+■ ACKNOWLEDGMENTS
+
+This work was in part funded by the Collaborative Research
+Center SFB 824. We gratefully acknowledge the Faculty
+Graduate Center Weihenstephan of the TUM Graduate School
+at the Technische Universität München, Germany, for ﬁnancial
+support (to F.P.). We are also grateful to GlaxoSmithKline for
+providing a sample of GSK2141795.
+
+■ REFERENCES
+
+(1) Manning, G.; Whyte, D. B.; Martinez, R.; Hunter, T.;
+Sudarsanam, S. The protein kinase complement of
+the human
+genome. Science 2002, 298 (5600), 1912−1934.
+(2) Cohen, P. Protein kinases–the major drug targets of the twenty-
+first century? Nat. Rev. Drug Discovery 2002, 1 (4), 309−315.
+(3) Fedorov, O.; Muller, S.; Knapp, S. The (un)targeted cancer
+kinome. Nat. Chem. Biol. 2010, 6 (3), 166−169.
+(4) Page, T. H.; Smolinska, M.; Gillespie, J.; Urbaniak, A. M.;
+Foxwell, B. M. Tyrosine kinases and inflammatory signalling. Curr.
+Mol. Med. 2009, 9 (1), 69−85.
+(5) Knapp, S.; Arruda, P.; Blagg, J.; Burley, S.; Drewry, D. H.;
+Edwards, A.; Fabbro, D.; Gillespie, P.; Gray, N. S.; Kuster, B.; Lackey,
+K. E.; Mazzafera, P.; Tomkinson, N. C. O.; Willson, T. M.; Workman,
+P.; Zuercher, W.
+J. A public-private partnership to unlock the
+untargeted kinome. Nat. Chem. Biol. 2013, 9 (1), 3−6.
+
+Article
+
+(6) Cohen, P.; Alessi, D. R. Kinase drug discovery–what’s next in the
+field? ACS Chem. Biol. 2013, 8 (1), 96−104.
+(7) Davis, M. I.; Hunt, J. P.; Herrgard, S.; Ciceri, P.; Wodicka, L. M.;
+Pallares, G.; Hocker, M.; Treiber, D. K.; Zarrinkar, P. P.
+Comprehensive analysis of kinase inhibitor selectivity. Nat. Biotechnol.
+2011, 29 (11), 1046−1051.
+(8) Karaman, M. W.; Herrgard, S.; Treiber, D. K.; Gallant, P.;
+Atteridge, C. E.; Campbell, B. T.; Chan, K. W.; Ciceri, P.; Davis, M. I.;
+Edeen, P. T.; Faraoni, R.; Floyd, M.; Hunt, J. P.; Lockhart, D. J.;
+Milanov, Z. V.; Morrison, M. J.; Pallares, G.; Patel, H. K.; Pritchard, S.;
+Wodicka, L. M.; Zarrinkar, P. P. A quantitative analysis of kinase
+inhibitor selectivity. Nat. Biotechnol. 2008, 26 (1), 127−132.
+(9) Anastassiadis, T.; Deacon, S. W.; Devarajan, K.; Ma, H.; Peterson,
+J. R. Comprehensive assay of kinase catalytic activity reveals features of
+kinase inhibitor selectivity. Nat. Biotechnol. 2011, 29 (11), 1039−1045.
+(10) Nolen, B.; Taylor, S.; Ghosh, G. Regulation of protein kinases;
+controlling activity through activation segment conformation. Mol. Cell
+2004, 15 (5), 661−675.
+(11) Shi, Z.; Resing, K. A.; Ahn, N. G. Networks for the allosteric
+control of protein kinases. Curr. Opin. Struct. Biol. 2006, 16 (6), 686−
+692.
+(12) Bantscheff, M.; Eberhard, D.; Abraham, Y.; Bastuck, S.; Boesche,
+M.; Hobson, S.; Mathieson, T.; Perrin, J.; Raida, M.; Rau, C.; Reader,
+V.; Sweetman, G.; Bauer, A.; Bouwmeester, T.; Hopf, C.; Kruse, U.;
+Neubauer, G.; Ramsden, N.; Rick,
+J.; Kuster, B.; Drewes, G.
+Quantitative chemical proteomics reveals mechanisms of action of
+clinical ABL kinase inhibitors. Nat. Biotechnol. 2007, 25 (9), 1035−
+1044.
+(13) Brehmer, D.; Greff, Z.; Godl, K.; Blencke, S.; Kurtenbach, A.;
+Weber, M.; Muller, S.; Klebl, B.; Cotten, M.; Keri, G.; Wissing, J.;
+Daub, H. Cellular targets of gefitinib. Cancer Res. 2005, 65 (2), 379−
+382.
+(14) Godl, K.; Gruss, O. J.; Eickhoff, J.; Wissing, J.; Blencke, S.;
+Weber, M.; Degen, H.; Brehmer, D.; Orfi, L.; Horvath, Z.; Keri, G.;
+Muller, S.; Cotten, M.; Ullrich, A.; Daub, H. Proteomic character-
+ization of the angiogenesis inhibitor SU6668 reveals multiple impacts
+on cellular kinase signaling. Cancer Res. 2005, 65 (15), 6919−6926.
+(15) Wissing, J.; Jansch, L.; Nimtz, M.; Dieterich, G.; Hornberger, R.;
+Keri, G.; Wehland, J.; Daub, H. Proteomics analysis of protein kinases
+by target class-selective prefractionation and tandem mass spectrom-
+etry. Mol. Cell. Proteomics 2007, 6 (3), 537−547.
+(16) Sharma, K.; Weber, C.; Bairlein, M.; Greff, Z.; Keri, G.; Cox, J.;
+Olsen, J. V.; Daub, H. Proteomics strategy for quantitative protein
+interaction profiling in cell extracts. Nat. Methods 2009, 6 (10), 741−
+744.
+(17) Wu, Z.; Doondeea, J. B.; Gholami, A. M.; Janning, M. C.;
+Lemeer, S.; Kramer, K.; Eccles, S. A.; Gollin, S. M.; Grenman, R.;
+Walch, A.; Feller, S. M.; Kuster, B. Quantitative chemical proteomics
+reveals new potential drug targets in head and neck cancer. Mol. Cell.
+Proteomics 2011, 10 (12), No. M111 011635.
+(18) Kruse, U.; Bantscheff, M.; Drewes, G.; Hopf, C. Chemical and
+pathway proteomics: powerful tools for oncology drug discovery and
+personalized health care. Mol. Cell. Proteomics 2008, 7 (10), 1887−
+1901.
+(19) Rix, U.; Hantschel, O.; Durnberger, G.; Remsing Rix, L. L.;
+Planyavsky, M.; Fernbach, N. V.; Kaupe, I.; Bennett, K. L.; Valent, P.;
+Colinge, J.; Kocher, T.; Superti-Furga, G. Chemical proteomic profiles
+of the BCR-ABL inhibitors imatinib, nilotinib, and dasatinib reveal
+novel kinase and nonkinase targets. Blood 2007, 110 (12), 4055−4063.
+(20) Daub, H.; Olsen, J. V.; Bairlein, M.; Gnad, F.; Oppermann, F. S.;
+Korner, R.; Greff, Z.; Keri, G.; Stemmann, O.; Mann, M. Kinase-
+selective enrichment enables quantitative phosphoproteomics of the
+kinome across the cell cycle. Mol. Cell 2008, 31 (3), 438−448.
+(21) Manning, B. D.; Cantley, L. C. Akt/PKB signaling: navigating
+downstream. Cell 2007, 129 (7), 1261−1274.
+(22) Garcia-Echeverria, C.; Sellers, W. R. Drug discovery approaches
+targeting the PI3K/Akt pathway in cancer. Oncogene 2008, 27 (41),
+5511−5526.
+
+3799
+
+dx.doi.org/10.1021/pr400455j | J. Proteome Res. 2013, 12, 3792−3800
+
+Journal of Proteome Research
+
+(23) Altomare, D. A.; Testa, J. R. Perturbations of the Akt signaling
+pathway in human cancer. Oncogene 2005, 24 (50), 7455−7464.
+(24) Vivanco, I.; Sawyers, C. L. The phosphatidylinositol 3-kinase
+Akt pathway in human cancer. Nat. Rev. Cancer 2002, 2 (7), 489−501.
+(25) Franke, T. F. PI3K/Akt: getting it right matters. Oncogene 2008,
+27 (50), 6473−6488.
+(26) Lu, Y.; Wang, H.; Mills, G. B. Targeting PI3K-Akt pathway for
+cancer therapy. Rev Clin Exp Hematol 2003, 7 (2), 205−228.
+(27) Heerding, D. A.; Rhodes, N.; Leber, J. D.; Clark, T. J.; Keenan,
+R. M.; Lafrance, L. V.; Li, M.; Safonov, I. G.; Takata, D. T.; Venslavsky,
+J. W.; Yamashita, D. S.; Choudhry, A. E.; Copeland, R. A.; Lai, Z.;
+Schaber, M. D.; Tummino, P. J.; Strum, S. L.; Wood, E. R.; Duckett, D.
+R.; Eberwein, D.; Knick, V. B.; Lansing, T. J.; McConnell, R. T.;
+Zhang, S.; Minthorn, E. A.; Concha, N. O.; Warren, G. L.; Kumar, R.
+Identification of 4-(2-(4-amino-1,2,5-oxadiazol-3-yl)-1-ethyl-7-{[(3S)-
+3-piperidinylmethyl]oxy}-1H-imidazo[4,5-c]pyridin-4-yl)-2-methyl-3-
+butyn-2-ol (GSK690693), a novel
+inhibitor of Akt kinase. J. Med.
+Chem. 2008, 51 (18), 5663−5679.
+(28) Pal, S. K.; Reckamp, K.; Yu, H.; Figlin, R. A. Akt inhibitors in
+clinical development for the treatment of cancer. Expert Opin. Invest.
+Drugs 2010, 19 (11), 1355−1366.
+(29) Blake, J. F.; Xu, R.; Bencsik, J. R.; Xiao, D.; Kallan, N. C.;
+Schlachter, S.; Mitchell, I. S.; Spencer, K. L.; Banka, A. L.; Wallace, E.
+M.; Gloor, S. L.; Martinson, M.; Woessner, R. D.; Vigers, G. P.;
+Brandhuber, B. J.; Liang, J.; Safina, B. S.; Li, J.; Zhang, B.; Chabot, C.;
+Do, S.; Lee, L.; Oeh, J.; Sampath, D.; Lee, B. B.; Lin, K.; Liederer, B.
+M.; Skelton, N. J. Discovery and preclinical pharmacology of a
+selective ATP-competitive Akt inhibitor (GDC-0068) for the treat-
+ment of human tumors. J. Med. Chem. 2012, 55 (18), 8110−8127.
+(30) Kumar, R. IDiscovery of an oral Akt kinase inhibitor. American
+Association for Cancer Research Annual Meeting, Washington, DC, April
+6−10, 2013.
+(31) Hauck, S. M.; Dietter, J.; Kramer, R. L.; Hofmaier, F.; Zipplies, J.
+K.; Amann, B.; Feuchtinger, A.; Deeg, C. A.; Ueffing, M. Deciphering
+membrane-associated molecular processes in target tissue of auto-
+immune uveitis by label-free quantitative mass spectrometry. Mol. Cell.
+Proteomics 2010, 9 (10), 2292−2305.
+(32) Tai, A. W.; Salloum, S. The role of the phosphatidylinositol 4-
+kinase PI4KA in hepatitis C virus-induced host membrane rearrange-
+ment. PLoS One 2011, 6 (10), No. e26300.
+(33) Levy, D. S.; Kahana, J. A.; Kumar, R. Akt inhibitor, GSK690693,
+induces growth inhibition and apoptosis in acute lymphoblastic
+leukemia cell lines. Blood 2009, 113 (8), 1723−1729.
+(34) Rhodes, N.; Heerding, D. A.; Duckett, D. R.; Eberwein, D. J.;
+Knick, V. B.; Lansing, T. J.; McConnell, R. T.; Gilmer, T. M.; Zhang, S.
+Y.; Robell, K.; Kahana, J. A.; Geske, R. S.; Kleymenova, E. V.;
+Choudhry, A. E.; Lai, Z.; Leber, J. D.; Minthorn, E. A.; Strum, S. L.;
+Wood, E. R.; Huang, P. S.; Copeland, R. A.; Kumar, R. Character-
+ization of an Akt kinase inhibitor with potent pharmacodynamic and
+antitumor activity. Cancer Res. 2008, 68 (7), 2366−2374.
+(35) Altomare, D. A.; Zhang, L.; Deng, J.; Di Cristofano, A.; Klein-
+Szanto, A. J.; Kumar, R.; Testa, J. R. GSK690693 delays tumor onset
+and progression in genetically defined mouse models expressing
+activated Akt. Clin. Cancer Res. 2010, 16 (2), 486−496.
+(36) Mallick, P.; Kuster, B. Proteomics: a pragmatic perspective. Nat.
+Biotechnol. 2010, 28 (7), 695−709.
+(37) Lemeer, S.; Zorgiebel, C.; Ruprecht, B.; Kohl, K.; Kuster, B.
+Comparing immobilized kinase inhibitors and covalent ATP probes
+for proteomic profiling of kinase expression and drug selectivity. J.
+Proteome Res. 2013, 12 (4), 1723−1731.
+(38) Carter, C. A.; Kane, C. J. Therapeutic potential of natural
+compounds that regulate the activity of protein kinase C. Curr. Med.
+Chem. 2004, 11 (21), 2883−2902.
+(39) Hofmann, J. Protein kinase C isozymes as potential targets for
+anticancer therapy. Curr. Cancer Drug Targets 2004, 4 (2), 125−146.
+(40) Teicher, B. A. Protein kinase C as a therapeutic target. Clin.
+Cancer Res. 2006, 12 (18), 5336−5345.
+(41) Riento, K.; Ridley, A. J. Rocks: multifunctional kinases in cell
+behaviour. Nat. Rev. Mol. Cell Biol. 2003, 4 (6), 446−456.
+
+Article
+
+lessons
+
+functions:
+
+(42) Dummler, B.; Ohshiro, K.; Kumar, R.; Field, J. Pak protein
+kinases and their role in cancer. Cancer Metastasis Rev. 2009, 28 (1−2),
+51−63.
+(43) Heikkila, T.; Wheatley, E.; Crighton, D.; Schroder, E.; Boakes,
+A.; Kaye, S. J.; Mezna, M.; Pang, L.; Rushbrooke, M.; Turnbull, A.;
+Olson, M. F. Co-crystal structures of inhibitors with MRCKbeta, a key
+regulator of tumor cell invasion. PLoS One 2011, 6 (9), No. e24825.
+(44) Piazza, F.; Manni, S.; Semenzato, G. Novel players in multiple
+myeloma pathogenesis: role of protein kinases CK2 and GSK3. Leuk
+Res 2013, 37 (2), 221−227.
+(45) Kim, H. M.; Kim, C. S.; Lee, J. H.; Jang, S. J.; Hwang, J. J.; Ro,
+S.; Choi, J. CG0009, a novel glycogen synthase kinase 3 inhibitor,
+induces cell death through cyclin D1 depletion in breast cancer cells.
+PLoS One 2013, 8 (4), No. e60383.
+(46) Crouthamel, M. C.; Kahana, J. A.; Korenchuk, S.; Zhang, S. Y.;
+Sundaresan, G.; Eberwein, D. J.; Brown, K. K.; Kumar, R. Mechanism
+and management of Akt inhibitor-induced hyperglycemia. Clin. Cancer
+Res. 2009, 15 (1), 217−225.
+(47) Assie, G. One single signaling pathway for so many different
+biological
+from the cyclic adenosine mono-
+phosphate/protein kinase A pathway-related diseases.
+J. Clin.
+Endocrinol. Metab. 2012, 97 (12), 4355−4357.
+(48) Pearce, L. R.; Komander, D.; Alessi, D. R. The nuts and bolts of
+AGC protein kinases. Nat. Rev. Mol. Cell Biol. 2010, 11 (1), 9−22.
+(49) Hofmann, F. The biology of cyclic GMP-dependent protein
+kinases. J. Biol. Chem. 2005, 280 (1), 1−4.
+(50) Lincoln, T. M.; Dey, N.; Sellak, H. Invited review: cGMP-
+dependent protein kinase signaling mechanisms in smooth muscle:
+from the regulation of tone to gene expression. J. Appl. Physiol. 2001,
+91 (3), 1421−1430.
+(51) Lohmann, S. M.; Vaandrager, A. B.; Smolenski, A.; Walter, U.;
+De Jonge, H. R. Distinct and specific functions of cGMP-dependent
+protein kinases. Trends Biochem. Sci. 1997, 22 (8), 307−312.
+(52) Orstavik, S.; Natarajan, V.; Tasken, K.; Jahnsen, T.; Sandberg,
+M. Characterization of the human gene encoding the type I alpha and
+type I beta cGMP-dependent protein kinase (PRKG1). Genomics
+1997, 42 (2), 311−318.
+(53) McAllister, F. E.; Niepel, M.; Haas, W.; Huttlin, E.; Sorger, P.
+K.; Gygi, S. P. Mass spectrometry based method to increase
+throughput
+for kinome analyses using ATP probes. Anal. Chem.
+2013, 85 (9), 4666−4674.
+(54) Schirle, M.; Bantscheff, M.; Kuster, B. Mass spectrometry-based
+proteomics in preclinical drug discovery. Chem. Biol. 2012, 19 (1), 72−
+84.
+(55) Zhang, L.; Holmes, I. P.; Hochgrafe, F.; Walker, S. R.; Ali, N. A.;
+Humphrey, E. S.; Wu, J.; de Silva, M.; Kersten, W. J. A.; Connor, T.;
+Falk, H.; Allan, L.; Street, I. P.; Bentley, J. D.; Pilling, P. A.; Monahan,
+B. J.; Peat, T. S.; Daly, R. J. Characterization of the novel broad-
+spectrum kinase inhibitor CTx-0294885 as an affinity reagent for mass
+spectrometry-based kinome profiling. J. Proteome Res. 2013.
+
+3800
+
+dx.doi.org/10.1021/pr400455j | J. Proteome Res. 2013, 12, 3792−3800
+
+

@@ -1,0 +1,1517 @@
+Article
+
+pubs.acs.org/jmc
+
+Discovery of Novel Allosteric Mitogen-Activated Protein Kinase
+Kinase (MEK) 1,2 Inhibitors Possessing Bidentate Ser212 Interactions
+Robert A. Heald,*,†
+†
+Richard Newman,
+‡
+Patrick Rudewicz,
+†
+Argenta, 8/9 Spire Green Centre, Flex Meadow, Harlow, Essex CM19 5TR, U.K.
+‡
+Genentech Inc., 1 DNA Way, South San Francisco, California 94080, United States
+*S Supporting Information
+
+Philip Jackson,
+‡
+Jason Boggs,
+‡
+Mark Ultsch,
+
+Emily Chan,
+Christian Wiesmann,
+
+Emanuela Gancia,
+Edna Choo,
+‡
+
+Marcia Belvin,
+
+†
+
+†
+Mark Jones,
+‡
+Jocelyn Chan,
+
+Mark Merchant,
+
+†
+
+†
+Brenda Burton,
+
+Pascal Savy,
+‡
+
+‡
+
+‡
+
+Qin Yue,
+
+and Steve Price
+
+†
+
+†
+
+‡
+
+‡
+
+ABSTRACT: Using structure-based design, two novel series of highly potent biaryl amine
+mitogen-activated protein kinase kinase (MEK) inhibitors have been discovered. These series
+contain an H-bond acceptor,
+in a shifted position compared with previously disclosed
+compounds, and an adjacent H-bond donor, resulting in a bidentate interaction with the
+Ser212 residue of MEK1. The most potent compound identiﬁed, 1 (G-894), is orally active in
+in vivo pharmacodynamic and tumor xenograft models.
+
+■ INTRODUCTION
+
+The Ras-Raf-MEK-ERK mitogen-activated protein kinase
+signaling pathway is one of the most promising targets for a
+new wave of molecularly targeted antitumor agents.1
+Constitutive activation of the extracellular regulated kinase
+(ERK) cascade, through oncogenic forms of Ras and mutations
+in B-Raf, has been observed in lung, colon, pancreas, kidney,
+and ovary primary human tumor samples.2 Similarly, hyper-
+activity by upstream receptor tyrosine kinases such as human
+epidermal growth factor receptor 2 (HER2) leads to increased
+signaling through the ERK pathway.3 Research eﬀorts in recent
+years have uncovered a variety of inhibitors of Raf, MEK, and
+ERK kinases as potential antitumor agents.4
+
+MEK is a crucial node in the ERK MAPK pathway: the only
+known downstream targets of MEK1/2 are ERK1/2. This has
+led to particularly intense eﬀorts to discover inhibitors of this
+target, and there are now 13 MEK inhibitors at some stage of
+clinical evaluation for the treatment of cancer, with two others
+having been withdrawn.5,6 The ﬁrst MEK inhibitors to progress
+past phase I clinical trials were 2 (AZD6244/Selumetinib,
+Figure 1)7−9 and PD325901,10 both of which were progressed
+to phase II studies as single agents for the treatment of a variety
+tumor types. Studies with 2 as a single agent and in
+of
+combination with other antitumor agents are continuing.11 The
+most advanced MEK inhibitor is GSK1120212,12 which began a
+phase III trial in BRAF V600E positive melanoma patients in
+late 2010.
+
+Although MEK inhibition alone is expected to provide
+signiﬁcant therapeutic beneﬁt, there is considerable evidence
+for synergistic combination with other targeted agents. For
+example, concerted MEK and PI3K inhibition provides
+
+Figure 1. Structures of designed analogue 1 with 2, 3, and 4. “A” and
+“B” rings of 2 are shown.
+
+synergistic inhibition of
+tumor growth in basal-like breast
+cancer models.13 Additionally, it has been demonstrated that in
+K-Ras mutant cell lines, Raf inhibition primes wild-type Raf to
+activate the Raf-MEK-ERK pathway, providing a clear rational
+for combination therapy with MEK inhibitors.14
+
+Allosteric MEK1/MEK2 inhibitors15 are particularly discrim-
+inating kinase inhibitors. These compounds form a tertiary
+complex with the MEK enzyme and the ATP binding site and
+are thus uncompetitive.16,17 The binding site for so-called type
+III kinase inhibitors is proximal to ATP and results in high
+
+Received: December 20, 2011
+Published: April 16, 2012
+
+© 2012 American Chemical Society
+
+4594
+
+dx.doi.org/10.1021/jm2017094 | J. Med. Chem. 2012, 55, 4594−4604
+
+Journal of Medicinal Chemistry
+
+speciﬁcity for the target enzyme. It has been postulated that this
+allosteric “MEK pocket” may be present in other kinases.18
+
+Examination of structural features of inhibitors disclosed in
+the patent literature reveals that the allosteric binding pocket of
+MEK1 is highly discriminating in its aﬃnity for drug molecules,
+resulting in low structural diversity.15,19 The structures of seven
+compounds that have entered the clinic have been disclosed: all
+are biaryl amines, by far the most common class of MEK
+inhibitor. The potency of these inhibitors is postulated to
+depend on three pharmacophoric elements (Figure 2).16 The
+
+Figure 2. The key interactions of biarylaniline MEK inhibitors: crystal
+structure of MEK1 in complex with ATP (green) and PD318088
+(orange) (PDB code 1S9J).
+
+ﬁrst of these is a “B-ring”, which occupies the lipophilic pocket
+formed by Leu118, Ile126, Val127, Ile141, Met143, Phe129,
+Phe209, and Val211, an important feature of which is para-
+substitution with a lipophilic polarizable atom or group capable
+of forming an interaction with the carbonyl of Val127. Where
+this atom is a halogen, the interaction is termed a halogen
+bond.20,21 The second feature is a polar group which can
+interact with the terminal phosphate of ATP and Lys97,
+typically a hydroxamate, but sometimes an amide, reverse
+sulfonamide, or sulfonyl urea.22 The third feature is an H-bond
+acceptor, which is suitably juxtaposed to Ser212. The strength
+
+Article
+
+of this H-bond acceptor23 and position relative to the aniline
+and hydroxamate are determined by the “A-ring” to which these
+moieties are attached. It has been proposed that increasing the
+strength of the Ser212/H-bond acceptor interaction results in
+greater tolerance in the other pharmacophoric elements.24
+■ RESULTS AND DISCUSSION
+
+In our search for additional MEK inhibitors, we utilized a
+computer-aided drug design (CADD) driven approach
+leveraging key information from the X-ray crystal structure
+(2.7 Å resolution) of 3 (G-925, Figure 1), a compound from
+our ﬁrst series of novel inhibitors25 which was optimized to give
+the orally eﬃcacious analogue 4 (G-573).26 From 2-D overlay
+of 2 and 3, it was noticed that the two A ring systems position
+the H-bond acceptor diﬀerently. Additionally, it was realized
+that for a 6,5-heterobicyclic system fusion of the ﬁve-membered
+ring toward the B-ring, in the opposite sense to 2, together with
+movement of the acceptor round one position, placed the key
+pharmocophoric elements described above in remarkably
+similar position to 3. An H-bond donor was added next to
+the acceptor, as it was postulated that this position would be
+proximal to the carbonyl of Ser212 resulting in the design of 1
+(G-894, Figure 1). This designed compound is fundamentally
+diﬀerent to all six-membered aryl and 6,5-fused biaryl amine
+MEK inhibitors disclosed in the literature in that the putative
+H-bond acceptor is not positioned on the six-membered ring
+meta to the aniline. Modeling of the indazole 1 in the 3/MEK1
+protein structure was performed using docking (Figure 3, A)
+and manual placement (Figure 3, B), as docking algorithms
+underestimate the iodine Val127 interaction. The docked pose
+shows bidentate Ser212 interaction, but the aniline ∼1.3 Å out
+of the lipophilic pocket compared with 3. In the manual
+overlay, the indazole acceptor was still appropriately positioned
+near Ser212, with the NH donor shifted slightly from the
+Ser212 carbonyl to a distance of 3.0 Å. Although neither pose
+of 1 was ideal, the protein movement required to enable all
+desired contacts is minimal.
+
+It should be noted that it is not possible to achieve a formal
+bidentate Ser212 interaction using monoaryl or 6,5-fused biaryl
+MEK inhibitor scaﬀolds which have been previously disclosed.
+The possibility of identifying a MEK inhibitor making such a
+bidentate interaction with Ser212, which could lead to
+increased aﬃnity, led us to target the synthesis of 1.
+
+Figure 3. (A) Overlay between the docked pose of 1 (orange) and the crystal structure of 3 (cyan, PDB code 3V01). (B) Overlay between 1
+manually adjusted in the binding site (orange) and the crystal structure of 3 (cyan).
+
+4595
+
+dx.doi.org/10.1021/jm2017094 | J. Med. Chem. 2012, 55, 4594−4604
+
+Journal of Medicinal Chemistry
+Scheme 1. Synthetic Route to Indazole Analogues 1 and 12a
+
+Article
+
+·H2O DME, 90 °C; (d) Boc2O, Et3N, DCM; (e)
+a(a) (COCl)2, DMF, DCM, (ii) tBuOH, pyridine, DCM; (b) (i) LDA, THF, (ii) DMF; (c) N2H4
+Pd2dba3, xantphos, K3PO4, toluene, 90 °C; (f) (i) ICl, DCM or NBS, DCM, (ii) TFA, DCM; (g) EDCI, DIPEA, HOBt, DMF; (h) MeOH, HCl.
+
+The desired 4-phenylamino-5-carboxylic acid core was
+synthesized following the route outlined in Scheme 1.
+Commercially available 2-bromo-4-ﬂuorobenzoic acid was
+converted to the tert-butyl ester 5 under standard conditions.
+Regiospeciﬁc metalation with LDA followed by DMF quench
+gave aldehyde 6. Cyclization of the ortho-ﬂuoro aldehyde 6 to
+indazole 7 and subsequent
+reaction with boc-anhydride
+provided the appropriately substituted and protected indazole
+core 8. Palladium-catalyzed amination with 2-ﬂuoro-4-trime-
+thylsilyl aniline using xantphos as the ligand25 gave anilino ester
+9. Regiospeciﬁc iodination, directed by the trimethylsilyl group,
+followed by simultaneous boc-deprotection and ester hydrol-
+ysis, provided 4-(2-ﬂuoro-4-iodo-phenylamino)-1H-indazole-5-
+carboxylic acid 10a. Installation of the hydroxamate side-chain
+could then be achieved via a coupling reaction with vinyl
+hydroxylamine 11a followed by acid-mediated deprotection.
+Bromo analogue 12 was prepared similarly from intermediate 9
+using NBS rather
+the
+halogentation step. Diol analogue 13 was also prepared from
+acid intermediate 10a.
+In a biochemical homogeneous time-resolved ﬂuorescence
+(HTRF) assay, 1 was found to be ∼2.5-fold more potent than 4
+(Table 1), demonstrating that this designed analogue is a
+potent inhibitor of MEK. Potency was further assessed in
+HCT116 (K-Ras mutant human colorectal carcinoma cell line)
+and A375 (BRAF V600E mutant human melanoma cell line)
+cell lines, determining both the inhibition of ERK phosphor-
+ylation and cell proliferation. In these assays, 1 is consistently
+∼10-fold more potent than 4. Bromo analogue 12 is less potent
+than 1, as would be expected by reduction in strength of the
+Val127 halogen bond. However, 12 is equipotent with 4 in
+cellular assays, again demonstrating the excellent potency
+facilitated by the indazole scaﬀold. Results for 4 and 13 show a
+direct comparison between the azabenzofuran and indazole
+scaﬀolds. The indazole 13 is marginally more potent in the
+
+than iodine monochloride for
+
+Table 1. Activity of Indazole Analogues 1, 12, and 13
+Compared with Azabenzofurans 3 and 4
+
+P-ERK EC50 (nM)
+
+cell proliferation
+
+EC50 (nM)
+
+compd MEK HTRF IC50 (nM) HCT116
+
+A375 HCT116
+
+1
+3
+4
+12
+13
+
+13
+25
+35
+125
+15
+
+0.2
+6.3
+4.0
+3.4
+0.4
+
+0.4
+34.0
+7.2
+6.4
+3.7
+
+16
+314
+175
+193
+31
+
+A375
+2
+264
+23
+19
+12
+
+HTRF assay, equipotent in A375 cells, but much more potent
+in HCT116 cellular assays. The improved potency in cellular
+but not biochemical assays of the indazole compared with
+azabenzofurans is intriguing. As all of these compounds are
+uncompetitive with respect to ATP, it is understandable that
+cellular potency is greater than biochemical potency due to high
+intracellular concentrations of ATP. As the biochemical assay
+used a constitutively activated kinase construct, cellular data
+were taken to be more indicative of true potency. Diﬀerences in
+proliferation values between the two cell lines used are most
+likely due to diﬀerential sensitivity, as the shift between A375
+and HCT116 cell lines is consistently 8−10-fold. 1 shows high
+speciﬁcity for MEK inhibition with <40% inhibition at 1 μM
+against a panel of 100 kinases (Invitrogen SelectScreen, see
+Supporting Information),
+the
+indazole was not leading to promiscuous kinase hinge-binding.
+An X-ray cocrystal structure (2.7 Å resolution) of 1 with
+MEK1 and ATP was obtained which conﬁrmed the allosteric
+mode of binding and bidentate interaction with Ser212 (Figure
+4, modeled hydrogen atoms shown for clarity) and a structure
+consistent with the manual overlay shown above (Figure 3,
+panel B). As expected, the iodo-aniline is positioned in the
+lipophilic pocket with the iodine atom ∼3.3 Å from the
+
+indicating that
+
+inclusion of
+
+4596
+
+dx.doi.org/10.1021/jm2017094 | J. Med. Chem. 2012, 55, 4594−4604
+
+Journal of Medicinal Chemistry
+
+Article
+
+Information). Bioavailability in mouse at 25 mg/kg was higher
+perhaps due to saturation of clearance mechanisms. The bromo
+analogue 12 was found to have higher clearance in rat than the
+iodo analogue despite lower lipophilicity, and bioavailability was
+found to be low. Diol hydroxamate 13 was not progressed into
+PK as it exhibited low MDCK cell permeability (A:B 2.0, B:A
+7.1 × 10−6 cm/s eﬄux ratio 3.5). The azabenzofuran 4 has
+much lower clearance and higher oral exposure than 1 in mice.
+Despite low oral exposure in rodents. the high potency of 1
+in cellular assays warranted further
+this
+compound in an eﬃcacy study. Gratifyingly, when dosed orally
+in nude HCT-116 tumor-bearing mice, 1 exhibited substantially
+greater eﬃcacy at 5 mg/kg than 4 at the same dose (Figure 5),
+
+investigation of
+
+Figure 5. Eﬃcacy in HCT116 colorectal xenograft model. Mice were
+randomized and treated with vehicle or 1 at 5, 25, and 75 mg/kg or 4
+at 5 mg/kg, orally (PO) every day (QD) for 3 weeks. \ = death or
+euthanasia: 2 animals in the vehicle treated group had tumor volume
+>2000 mm3; animals euthanized in the compound treated groups had
+body weight loss >20%.
+
+with tumor growth inhibition (TGI) approaching stasis (94%).
+The 5 mg/kg dose was well tolerated with no loss of body
+weight compared with vehicle (data not shown). At the 25 and
+75 mg/kg doses, 5 and 10 out of 10 partial responses were
+observed but ∼10% loss of body weight was noted at the higher
+dose. This improved eﬃcacy compared with 4 can be largely
+attributed to increased potency. The free fraction for 1 in mice
+is ∼2-fold higher than for 4, which is perhaps within the error
+of the experiment, whereas the exposure of 1 is ∼10-fold
+higher. Eﬃcacy was found to correlate with inhibition of ERK
+phosphorylation in a separate pharmacodynamic experiment: a
+single dose of 1 at 25 mg/kg led to maximal inhibition of pERK
+
+Figure 4. Crystal structure of 1 in complex with MEK1 (orange, PDB
+code 3V04); modeled hydrogens shown for clarity. For comparison,
+the crystal structure of MEK1 in complex with 3 is also shown (cyan).
+
+carbonyl of Val127, an appropriate distance for formation of a
+halogen bond. With the aniline positioned ideally for lipophilic
+contacts and halogen bond, the indazole is able to make a
+donor−acceptor
+interaction with Ser212. The interatom
+distance for both the H-bonding atom pairs is 2.58 Å with
+angles of 134° and 142° for the indazole N Ser NH and
+indazole NH Ser CO interactions. Comparison with the crystal
+structure of 3 shows a small but signiﬁcant
+induced-ﬁt
+movement of Ser212 (when compared with the highly
+conserved positions of other residues in the pocket) which
+allows the three pharmacophoric elements to interact as
+desired: a shift of 0.48 Å is observed for the carbonyl oxygen.
+The shift in Ser212 to accommodate the donor−acceptor pair
+of 1 indicates that the postulated bidentate interaction exists
+and most adequately explains the potency of this compound.
+When dosed in rats, the rate of clearance of 1 was found to
+be moderate ∼2/3 liver blood ﬂow (Table 2) and oral exposure
+and bioavailability were low. Similar results were found in mice
+where clearance was approximately equal to liver blood ﬂow
+and oral exposure (AUC) was low. Low oral bioavailability in
+rat was attributed to high liver extraction ratio and poor
+solubility (solubility 0.08 mg/mL (pH 6.5), 0.18 mg/mL
+(FASSIF); measured MDCK permeability was moderate to
+high with low eﬄux (A:B 9.9 B:A 13.8 × 10−6 cm/s; ratio: 1.4).
+Analysis of plasma samples following oral dosing in rats showed
+that glucoronidation and cleavage of the hydroxamate to acid
+were the major
+routes of metabolism (see Supporting
+
+Table 2. Rodent PK Data for 1, 4, and 12
+
+compound
+
+1
+
+4
+
+species
+rat
+
+PPBa
+96.1
+
+mouse
+
+97.0
+
+mouse
+
+98.4
+
+12
+
+rat
+
+96.5
+
+dose (mg/kg)/route
+
+Clb (mL/min/kg)
+
+1/IV
+5/PO(solution)
+1/IV
+25/PO(suspension)
+
+1/IV
+25/PO(suspension)
+
+1/IV
+5/PO(solution)
+
+36
+
+88
+
+7.7
+
+54
+
+c (h)
+T1/2
+1.4
+
+Vdss
+
+d (L/kg)
+2.4
+
+0.6
+2.9
+
+2.3
+
+0.36
+
+2.0
+
+0.71
+
+1.5
+
+AUCe (μM·h)
+
+Ff (%)
+
+1.01
+1.06
+0.41
+1.96
+
+4.42
+
+192
+
+0.75
+1.29
+
+21
+
+94
+
+173
+
+34
+
+aPlasma protein binding. bClearance. cHalf-life. dVolume of distribution at steady state. eArea under the curve. fBioavailability. For oral studies, MCT
+was used for suspension dosing and 60% PEG 400 for solution.
+
+4597
+
+dx.doi.org/10.1021/jm2017094 | J. Med. Chem. 2012, 55, 4594−4604
+
+Journal of Medicinal Chemistry
+
+Table 3. Activity Data for Further Indazole Analogues
+
+Article
+
+Scheme 2. Synthetic Route to Benzoisothiazole Analoguesa
+
+a(a) Boc2O, DMAP, tBuOH, 45 °C; (b) NBS, AIBN, CCl4, reﬂux; (c) trimethylamine oxide, DCM, DMSO, rt; (d) BnSH, tBuOK, THF, −30 °C;
+(e) (i) SOCl2, DCM, rt, (ii) NH3, MeOH, THF, rt; (f) LHMDS, THF, −78 °C; (g) TFA, DCM, rt; (h) RONH2, EDCI, HOBt, DIPEA, THF, rt; (i)
+HCl, MeOH, rt.
+(∼70% of control values) through 8 h (see Supporting
+Information).
+
+In an attempt to optimize the PK/potency balance, a number
+of analogues were prepared from acid intermediate 10a that
+investigated variation of the hydroxamate group (Table 3).
+These analogues were assessed using in vitro or in vivo
+experiments as appropriate. Cyclopropylmethyl (14) and ethyl
+(15) hydroxamate analogues were found to be signiﬁcantly less
+potent than 1, and both showed no oral exposure when dosed
+at 5 mg/kg in rats (data not shown). Replacement of the
+hydroxamate with amides was not tolerated: 16 exhibited an
+IC50 of >10 μM in the HTRF assay, and the azetidinol analogue
+17 possessed very weak activity. In general, it appears that the
+indazole scaﬀold, despite enabling a bidentate donor−acceptor
+interaction with Ser212,
+is less tolerant of changes to the
+hydroxamate compared with previously disclosed pyridone
+monocyclic inhibitors.24 This is perhaps due to less ﬂexibility in
+positioning of the donor−acceptor element of the indazole
+compared with the monodentate pyridone.
+
+Owing to the diﬃculty in balancing potency, metabolic
+stability, and oral bioavailability in the indazole series, our
+thoughts turned to other scaﬀolds that take advantage of our
+discovery of a bidentate Ser212 interaction and movement in
+the position of the H-bond acceptor. It has been postulated that
+the CH of some ﬁve-membered heterocycles can act as a weak
+H-bond donor.27,28 Additionally,
+it is likely that our earlier
+azabenzofuran template is positioned appropriately to make a
+similar interaction. Replacing the fused pyrazole ring of 1 with
+an isothiazole would provide a system able to make a C−H···O
+donor−acceptor interaction with Ser212 with reduced polarity.
+It was considered that the lower energy of H-bond interaction
+may be compensated for by a reduced desolvation penalty
+compared with the indazole.
+
+The synthesis of targeted analogues 18 and 19 (Scheme 2)
+depended on preparation of a benzoisothiazole with an
+unprecedented substitution pattern. The required intermediate,
+tetra-substituted derivative 22, was prepared in two steps from
+ester 20 via radical bromination followed by oxidation with
+
+4598
+
+dx.doi.org/10.1021/jm2017094 | J. Med. Chem. 2012, 55, 4594−4604
+
+Journal of Medicinal Chemistry
+
+trimethylamine oxide and DMSO. Regiospeciﬁc SNAr displace-
+ment at the 3-position with phenylmethanethiol was achieved
+using potassium tert-butoxide at low temperature to furnish the
+desired compound 23. The isothiazole ring was formed
+following a two-step procedure,29 providing the 6,7-disubsti-
+tuted benzoisothiazole scaﬀold 24. The 2-ﬂuoro-4-iodoaniline
+was introduced through SNAr displacement of the remaining
+ﬂuorine atom using LHMDS at low temperature, giving the
+aniline ester 25. Subsequent steps were carried out as for the
+indazole analogues.
+Pleasingly, hydroxyethyl hydroxamate analogue 18 showed
+excellent potency in all assays and is only ∼2−3-fold less potent
+indazole analogue 1 in P-ERK and cell
+than the direct
+proliferation assays (Table 4). These data prove that a formal
+
+Table 4. Activity Data for Benzoisothiazole Analogues
+
+P-ERK EC50 (nM)
+
+cell proliferation
+
+EC50 (nM)
+
+compd MEK HTRF IC50 (nM) HCT116
+
+18
+19
+
+15
+20
+
+0.6
+0.9
+
+A375 HCT116
+0.9
+1.1
+
+44
+62
+
+A375
+7
+10
+
+H-bond donor on this novel 6,5-fused scaﬀold is not necessary
+for excellent potency. Diol analogue 19 is 2-fold less potent
+than indazole analogue 13 in the HTC116 cell proliferation
+assay and equipotent in A375 cells.
+
+Calculated physicochemical properties for selected com-
+pounds with varying A-rings are shown in Table 5. These data
+show that cell shifts for both the benzoisothiazole and indazole
+analogues are much reduced compared with azabenzofuran
+analogue 3. Azabenzofuran analogue 4, which has a less polar
+hydroxamate substituent and an A-ring substituted with
+ﬂuorine, has more similar cell shifts to both benzoisothiazoles
+and indazole 13. High donor and acceptor count (>11) is the
+strongest correlate with increased cell shift; compare 1 and 13
+and 3 and 4, presumably due to reduced membrane
+permeability. This diﬀerence is more marked in A375 cells.
+From these data,
+the indazole and
+benzoisothiazole scaﬀolds achieve increased cell potency by
+more optimal positioning of polar functionality.
+When dosed in rats, compound 19 showed much reduced
+clearance and ∼5-fold higher oral exposure compared with 1
+(Table 6). However, as 19 is highly plasma protein bound, the
+unbound clearance is no better than for 1 (1875 cf. 923 mL/
+min/kg) and unbound oral AUC is very similar (0.046 cf. 0.040
+μM·h). As in the absence of active transport or restricted
+
+is apparent
+
+it
+
+that
+
+Article
+
+permeability the unbound fraction of drugs drives eﬃcacy, it
+was concluded that compound 19 does not improve on 1 and it
+was not tested further. Compound 18 was not progressed
+further, as it is a potent CYP2C9 and CYP2C19 inhibitor.
+
+■ CONCLUSION
+
+In summary, using structure-based design leveraging key
+information from a previously disclosed azabenzofuran series,
+we have discovered novel allosteric MEK inhibitors which,
+partly through strengthened interaction with Ser212, display
+improved potency in cellular assays. The most potent
+compound discovered, indazole 1, is eﬃcacious at low doses
+in a human tumor xenograft model.
+The relative contributions to potency of the C−H and N−H
+H-bond donors in the benzoisothiazole and indazole scaﬀolds
+cannot be determined from comparison of the biochemical and
+cellular data presented here. However, it is clear that the H-
+bond acceptor of both these scaﬀolds is ideally positioned and
+facilitates excellent potency in either case. This result is at odds
+with previous evidence from the literature which suggests that
+the H-bond acceptor should be positioned next to the ring
+junction on 6,5-fused scaﬀolds, as in 2. In this regard, the
+topology of MEK inhibitors such as 1 and 19 is unique.
+Additionally, taken together, the data on benzofuran, indazole,
+and benzoisothiazole biaryl amine allosteric MEK inhibitors
+show that
+to
+achieving a balance of potency and desirable ADME properties.
+Further details of related compounds which build on these
+discoveries will be disclosed in due course.
+
+the bicyclic A-ring is critical
+
+the design of
+
+■ EXPERIMENTAL SECTION
+
+Chemistry. General Experimental Conditions. All solvents and
+reagents were used as obtained. 1H NMR spectra were recorded at
+ambient
+temperature using a Varian Unity Inova (400 MHz)
+spectrometer with a triple resonance 5 mm probe. Chemical shifts
+are expressed in ppm relative to tetramethylsilane.
+
+LC-MS experiments to determine retention times (RT) and
+associated mass ions were performed using various methods which
+are fully described in the Supporting Information. Compounds 3 and 4
+were prepared according to the patented procedures.25 All ﬁnal
+compounds were assessed for purity by LC-MS and found to be ≥95%
+purity.
+
+2-Bromo-4-ﬂuoro-benzoic Acid tert-Butyl Ester (5). To a
+suspension of 2-bromo-4-ﬂuoro-benzoic acid (28.5 g, 0.13 mol) in
+DCM (500 mL) at rt was added oxalyl chloride (11.35 mL, 0.26
+mmol) followed by DMF (0.05 mL, catalytic, CARE vigorous gas
+evolution), and the reaction mixture stirred for 3 h. The reaction
+mixture was concentrated in vacuo and the residue dissolved in DCM
+(500 mL) before treatment with a solution of tert-butanol (28.5 g, 0.26
+
+Table 5. Physicochemical Properties for Selected Azabenzofuran, Indazole, And Bezoisothiazole Analogues
+
+compd
+
+3
+4
+
+1
+12
+13
+
+18
+19
+
+scaﬀold
+
+azabenzofuran
+
+indazole
+
+benzoisothiazole
+
+NAcca
+
+NDonb
+
+8
+7
+
+7
+7
+8
+
+6
+7
+
+4
+3
+
+4
+4
+5
+
+3
+4
+
+TPSAc
+117
+97
+
+99
+99
+120
+
+84
+104
+
+ClogPd
+2.11
+3.42
+
+3.32
+3.06
+2.49
+
+3.67
+2.84
+
+HCT116 cell shifte
+
+A375 cell shiftf
+
+13
+5
+
+1.2
+1.5
+2.0
+
+3.1
+2.9
+
+11
+0.65
+
+0.15
+0.15
+0.8
+
+0.50
+0.47
+
+aNumber of hydrogen bond acceptors. bNumber of hydrogen bond donors. cTopological polar surface area. dCalculated using Daylight v4.94.
+e(HCT cell proliferation EC50)/(MEK HTRF IC50). f(A375 cell proliferation EC50)/(MEK HTRF IC50).
+
+4599
+
+dx.doi.org/10.1021/jm2017094 | J. Med. Chem. 2012, 55, 4594−4604
+
+Journal of Medicinal Chemistry
+
+Article
+
+Table 6. Rat PK Data for 19
+
+compd
+
+species
+
+19
+
+rat
+
+PPBa
+99.2
+
+dose (mg/kg)/route
+
+Clb (mL/min/kg)
+
+1/IV
+5/PO(solution)
+
+15
+
+T1/2
+
+c (h)
+1.6
+
+Vdss
+
+d (L/kg)
+0.97
+
+AUCe (μM·h)
+
+Ff (%)
+
+2.2
+5.7
+
+51
+
+aPlasma protein binding. bClearance. cHalf-life. dVolume of distribution at steady state. eArea under the curve. fBioavailability. Vehicle for oral
+dosing: 60% PEG 400.
+
+mol) and pyridine (20.5 g, 0.26 mol). The resultant mixture was
+stirred at rt for 3 days before it was diluted with DCM and washed (1
+M aqueous sodium hydroxide, water, 0.1 M aqueous HCl, water),
+dried (Na2SO4), ﬁltered, and concentrated in vacuo to give a yellow
+oil. The crude oil was subjected to ﬂash chromatography (Si-PPC,
+gradient 0−20% ethyl acetate in cylcohexane) to give the title
+compound as a colorless oil (15.2 g, 42%). 1H NMR (CDCl3, 400
+MHz) δ ppm 7.76−7.73 (1H, m), 7.37 (1H, dd, J = 8.4, 2.5 Hz), 7.05
+(1H, ddd, J = 8.7, 7.7, 2.5 Hz), 1.60 (9H, s).
+2-Bromo-4-ﬂuoro-3-formyl-benzoic Acid tert-Butyl Ester (6).
+To a cold (−78 °C) solution of diisopropylamine (11.3 mL, 80.3
+mmol) in THF (200 mL) was added n-butyllithium (30 mL, 2.5 M in
+hexanes, 75 mmol), and the mixture stirred for 30 min. A solution of
+2-bromo-4-ﬂuoro-benzoic acid tert-butyl ester (20.0 g, 73 mmol) in
+THF (10 mL) was added dropwise, and the pale-orange solution
+stirred at −75 °C for 1.5 h. DMF (10.6 g, 146 mmol) was added, and
+the mixture stirred for a further 10 min before quenching with water.
+The products were partitioned between diethyl ether and water, and
+the organic layer was separated, washed with brine, dried (Na2SO4),
+ﬁltered, and concentrated in vacuo to give the title compound as a
+yellow solid (20 g, 90%). 1H NMR (CDCl3, 400 MHz) δ ppm 10.4
+(1H, s), 7.80−7.73 (1H, m), 7.17 (1H, t, J = 9.1 Hz), 1.62 (9H, s).
+4-Bromo-1H-indazole-5-carboxylic Acid tert-Butyl Ester (7).
+A biphasic solution of 2-bromo-4-ﬂuoro-3-formyl-benzoic acid tert-
+butyl ester (19.5 g, 65 mmol), DME (80 mL), and hydrazine hydrate
+(30 mL) was heated at 90 °C for 1.5 h. After cooling, volatile solvent
+was removed in vacuo and the products were partitioned between
+ethyl acetate and saturated aqueous ammonium chloride. The organic
+extract was dried (Na2SO4), ﬁltered, and concentrated in vacuo to give
+the title compound as a tan solid (17.2 g, 89%). LC-MS (method B):
+RT = 3.63 min, [M + CH3CN + H]+ = 338/340, [M − H]− = 295/
+297. 1H NMR (CDCl3) δ ppm 8.22 (1 H, d, J = 1.0 Hz), 7.82 (1 H, d,
+J = 8.7 Hz), 7.44 (1 H, dd, J = 8.7, 1.0 Hz), 1.43 (9 H, s).
+4-Bromo-indazole-1,5-dicarboxylic Acid di-tert-Butyl Ester
+(8). To a solution of 4-bromo-1H-indazole-5-carboxylic acid tert-butyl
+ester (12.0 g, 40 mmol) and triethylamine (6.1 mL, 44 mmol) in
+DCM (200 mL) was added di-tert-butyl-dicarbonate (9.6 g, 44 mmol),
+and the reaction mixture stirred at rt for 18 h. The reaction mixture
+was diluted with DCM, washed (saturated aqueous NaHCO3, water),
+dried (Na2SO4), ﬁltered, and concentrated in vacuo in the presence of
+diatomaceous earth. The crude product was subjected to ﬂash
+chromatography (Si-PPC, gradient 0−10% ethyl acetate in cyclo-
+hexane) to give the title compound as an oﬀ-white solid (8.5 g, 50%).
+1H NMR (CDCl3) δ ppm 8.29 (1H, s), 8.18−8.10 (1H, m), 7.92 (1H,
+d, J = 8.7 Hz), 1.70 (9H, s), 1.63 (9H, s).
+
+4-(2-Fluoro-4-trimethylsilanyl-phenylamino)indazole 1,5-Di-
+carboxylic Acid di-tert-Butyl Ester (9). A solution of 2-ﬂuoro-4-
+trimethylsilanyl-phenylamine (4.4 g, 24 mmol) in toluene (80 mL)
+was added to a mixture of 4-bromo-indazole-1,5-dicarboxylic acid di-
+tert-butyl ester (8.0 g, 20 mmol), Pd2dba3 (456 mg, 2.5 mol %),
+xantphos (576 mg, 5 mol %), and potassium phosphate tribasic (5.96
+g, 28 mmol) under nitrogen. The atmosphere was evacuated and
+backﬁlled with nitrogen, and then the reaction mixture heated at 100
+°C for 4 h. The cooled reaction mixture was diluted with ethyl acetate,
+ﬁltered through Celite, and the ﬁltrate concentrated in vacuo. The
+resultant residue was subjected to ﬂash chromatography (Si-PPC, dry
+loading on diatomaceous earth, gradient 0−10% ethyl acetate in
+cyclohexane) to give a solid which was triturated in methanol to give
+the title compound as a white solid (7.02 g, 70%). 1H NMR (CDCl3)
+δ ppm 10.03 (1H, s), 8.05 (1H, d, J = 9.0 Hz), 7.57 (1H, dd, J = 9.0,
+0.8 Hz), 7.28−7.18 (4H, m), 1.68 (9H, s), 1.63 (9H, s), 0.28 (9H, s).
+
+4-(2-Fluoro-4-iodophenylamino)-1H-indazole-5-carboxylic
+Acid (10a). To a solution of 4-(2-ﬂuoro-4-trimethylsilanylphenylami-
+no)-indazole-1,5-dicarboxylic acid di-tert-butyl ester (5.0 g, 10 mmol)
+in DCM (20 mL) at 0 °C was added iodine monochloride as a
+solution in DCM (20 mL, 1N, 20 mmol). The reaction mixture was
+stirred at 0 °C for 15 min and then diluted with saturated aqueous
+sodium thiosulfate solution (10 mL) and extracted with DCM. The
+combined organic extracts were washed with water, dried (Na2SO4),
+and concentrated in vacuo to yield the title compound as a tan foam.
+The foam was dissolved in DCM (25 mL) and TFA (15 mL) added.
+The reaction mixture was stirred at
+for 2 h before being
+rt
+concentrated in vacuo. The resultant
+residue was triturated in
+cyclohexane to give the title compound as a gray−pink solid (4.1 g,
+quantitative). LC-MS (method B): RT = 3.23 min, [M + H]+ = 398.
+1H NMR (DMSO-d6) δ ppm 10.2 (1 H, s), 7.84 (1 H, d, J = 8.9 Hz),
+7.78 (1 H, d, J = 9.9 Hz), 7.58 (1 H, d, J = 8.3 Hz), 7.16 (1 H, t, J = 8.5
+Hz), 7.02 (1 H, s), 6.96 (1 H, d, J = 8.9 Hz).
+
+4-(2-Fluoro-4-iodophenylamino)-1H-indazole-5-carboxylic
+Acid (2-vinyloxyethoxy)-amide. To a solution of 4-(2-ﬂuoro-4-
+iodophenylamino)-1H-indazole-5-carboxylic acid (2.14 g, 5.39 mmol)
+and O-(2-vinyloxy-ethyl)-hydroxylamine (668 mg, 6.50 mmol) in
+DMF (50 mL) was added EDCI hydrochloride (1.14 g, 5.93 mmol),
+HOBt (0.80 g, 5.93 mmol), and DIPEA (1 mL, 5.93 mmol). The
+reaction mixture was stirred at rt for 2 h before being concentrated in
+vacuo. The resultant residue was dissolved in ethyl acetate (30 mL),
+washed with aqueous saturated sodium bicarbonate solution (300
+mL), and the aqueous phase extracted with ethyl acetate (2 × 20 mL).
+The combined organic extracts were washed with brine (30 mL), dried
+(MgSO4), ﬁltered, and concentrated in vacuo. The resultant residue
+was subjected to ﬂash chromatography (SiO2, gradient 0−100%
+ethylacetate in cyclohexane) to give the title compound as a pale-
+yellow solid (1.85 g, 71%). LC-MS (method B): RT = 3.52 min, [M −
+H]+ = 481. 1H NMR (CD3OD) δ ppm 7.57 (1 H, dd, J = 10.2, 1.9
+Hz), 7.53 (1 H, d, J = 8.7 Hz), 7.45 (1 H, ddd, J = 8.4, 1.9, 1.1 Hz),
+7.37 (1 H, s), 7.07 (1 H, d, J = 8.8 Hz), 6.96 (1 H, t, J = 8.6 Hz), 6.50
+(1 H, dd, J = 14.3, 6.8 Hz), 4.23 (1 H, dd, J = 14.4, 2.05 Hz), 4.16−
+4.15 (2 H, m), 3.99−3.99 (3 H, m).
+
+4-(2-Fluoro-4-iodophenylamino)-1H-indazole-5-carboxylic
+Acid (2-Hydroxyethoxy)-amide (1). To a solution of 4-(2-ﬂuoro-4-
+iodophenylamino)-1H-indazole-5-carboxylic acid (2-vinyloxyethoxy)-
+amide (1.85 g, 3.84 mmol) in methanol (40 mL) was added
+hydrochloric acid (3 mL, 1N, 3 mmol). The reaction mixture was
+stirred at rt for 1 h, during which an oﬀ-white solid precipitated. The
+reaction mixture was concentrated in vacuo and the residue triturated
+with hot methanol/water (10 mL, 1:1). The product was collected by
+ﬁltration and dried in vacuo to yield the title compound as an oﬀ white
+solid (1.26 g, 72%). LC-MS (method A): RT = 8.28 min, [M + H]+ =
+457. 1H NMR (DMSO-d6) δ ppm 13.20 (1 H, s), 11.61 (1 H, s), 9.93
+(1 H, s), 7.66 (1 H, dd, J = 10.3, 1.9 Hz), 7.46 (1 H, d, J = 8.8 Hz),
+7.42 (1 H, dd, J = 8.5, 1.8 Hz), 7.24 (1 H, s), 7.01 (1 H, d, J = 8.8 Hz),
+6.91 (1 H, t, J = 8.6 Hz), 4.68 (1 H, s), 3.85 (2 H, dd, J = 5.4, 4.5 Hz),
+3.56 (2 H, t, J = 4.8 Hz). HRMS: calculated isotopic Mw (M + Na),
+478.9992; observed isotopic Mw (M + Na), 479.0080; conﬁrmed
+formula, C16H14FIN4O3; high resolution error, 18.4 ppm.
+
+2,3-Diﬂuoro-4-methyl-benzoic Acid tert-Butyl Ester (20). A
+mixture of 2,3-diﬂuoro-4-methyl-benzoic acid (20.0 g, 116 mmol), di-
+tert-butyl dicarbonate (25.0 g, 116 mmol), and DMAP (2.0 g, 16.4
+mmol) in tert-butanol (500 mL) was stirred at 45 °C for 5 h before
+being concentrated in vacuo. The resultant residue was triturated in
+diethyl ether and ﬁltered. The ﬁltrate was concentrated in vacuo to
+give a residue which was partitioned between ethyl acetate and a 1 M
+
+4600
+
+dx.doi.org/10.1021/jm2017094 | J. Med. Chem. 2012, 55, 4594−4604
+
+Journal of Medicinal Chemistry
+
+Article
+
+aqueous solution of hydrochloric acid. The organic layer was separated
+and washed with a saturated aqueous solution of sodium hydrogen
+carbonate followed by brine, dried (Na2SO4), ﬁltered, and
+concentrated in vacuo to give the title compound as a colorless oil
+(17.3 g, 65%). 1H NMR (CDCl3) δ ppm 7.51 (1 H, ddd, J = 8.3, 6.6,
+1.9 Hz), 6.95 (1 H, m), 2.33 (3 H, d, J = 2.3 Hz), 1.59 (9 H, s).
+4-Bromomethyl-2,3-diﬂuoro-benzoic Acid tert-Butyl Ester
+(21). A solution of 2,3-diﬂuoro-4-methyl-benzoic acid tert-butyl ester
+(17.3 g, 75.9 mmol) and N-bromosuccinimide (13.5 g, 75.9 mmol) in
+carbon tetrachloride (250 mL) was degassed for 10 min. AIBN (1.2 g,
+7.32 mmol) was added, and the reaction mixture was stirred at reﬂux
+for 18 h before being cooled to rt and ﬁltered. The ﬁltrate was
+concentrated in vacuo to give a residue which was subjected to ﬂash
+chromatography (Si-PPC, gradient 0−10% TBME in cyclohexane) to
+aﬀord the title compound as a colorless oil (16.7 g, contaminated by
+25% of starting material). 1H NMR (CDCl3) δ ppm 7.61 (1 H, ddd, J
+= 8.3, 6.4, 2.1 Hz), 7.18 (1 H, ddd, J = 8.1, 6.4, 1.8 Hz), 4.49 (2 H, d, J
+= 1.3 Hz), 1.59 (9 H, s).
+
+2,3-Diﬂuoro-4-formyl-benzoic Acid tert-Butyl Ester (22). To a
+solution of 4-bromomethyl-2,3-diﬂuoro-benzoic acid tert-butyl ester
+(12.9 g, 42.1 mmol) in DMSO (80 mL) and DCM (40 mL) at 0 °C
+was added trimethylamine N-oxide (3.4 g, 45.3 mmol). The reaction
+mixture was stirred at rt for 18 h before being concentrated in vacuo.
+The resultant residue was partitioned between iced water and ethyl
+acetate. The organic layer was separated and washed with brine twice,
+dried (Na2SO4), ﬁltered, and evaporated in vacuo. The resultant
+residue was subjected to ﬂash chromatography (Si-PPC, gradient 0−
+10% TBME in cyclohexane) to aﬀord the title compound as a white
+solid (4.34 g, 43%). 1H NMR (CDCl3) δ ppm 10.38 (1 H, d, J = 0.8
+Hz), 7.71 (1 H, dddd, J = 7.4, 5.6, 1.7, 0.8 Hz), 7.63 (1 H, ddd, J = 7.4,
+5.6, 1.5 Hz), 1.61 (9 H, s).
+
+3-Benzylsulfanyl-2-ﬂuoro-4-formyl-benzoic Acid tert-Butyl
+Ester (23). To a solution of potassium tert-butoxide (2.0 g, 17.9
+mmol) in anhydrous THF (80 mL) was added benzyl mercaptan (2.1
+mL, 17.9 mmol). The reaction mixture was stirred at rt for 5 min
+before being cooled to −30 °C. A solution of 2,3-diﬂuoro-4-formyl-
+benzoic acid tert-butyl ester (4.34 g, 17.9 mmol) in anhydrous THF
+(20 mL) was added dropwise over 15 min, and the resultant mixture
+was stirred at −30 °C for 30 min before being quenched by addition of
+water and extracted with ethyl acetate. The organic layer was
+separated, washed with water followed by brine, dried (Na2SO4),
+ﬁltered, and concentrated in vacuo to give the title compound as a
+yellow oil (6.2 g, 100%). 1H NMR (CDCl3) δ ppm 10.20 (1 H, d, J =
+0.6 Hz), 7.84 (1 H, ddd, J = 8.0, 6.8, 0.7 Hz), 7.59 (1 H, dd, J = 8.0, 0.9
+Hz), 7.19 (3 H, m), 7.05 (2 H, m), 4.07 (2 H, s), 1.63 (9 H, s).
+
+7-Fluoro-benzo[d]isothiazole-6-carboxylic Acid tert-Butyl
+Ester (24). To a solution of 3-benzylsulfanyl-2-ﬂuoro-4-formyl-
+benzoic acid tert-butyl ester (6.20 g, 17.9 mmol) in DCM (100 mL)
+was added sulfuryl chloride (2.9 mL, 35.8 mmol). The reaction
+mixture was stirred at rt for 1 h before being concentrated in vacuo.
+The resultant residue was azeotroped with toluene twice and then
+taken up in THF (50 mL). The resultant solution was cooled to 0 °C,
+and a 2 M solution of ammonia in methanol (100 mL) was added. The
+reaction mixture was stirred at rt for 1 h and then concentrated in
+vacuo. The resultant residue was partitioned between ethyl acetate and
+a saturated aqueous solution of sodium hydrogen carbonate. The
+organic layer was separated and washed with water followed by brine,
+dried (Na2SO4), ﬁltered, and evaporated in vacuo. The residue was
+subjected to ﬂash chromatography (Si-PPC, gradient 0−10% diethyl
+ether in pentane) to give the title compound as a yellow solid (2.96 g,
+65%). 1H NMR (CDCl3) δ ppm 8.93 (1 H, dd, J = 4.1, 0.5 Hz), 7.91
+(1 H, ddd, J = 8.3, 5.8, 0.5 Hz), 7.84 (1 H, d, J = 8.3 Hz), 1.64 (9 H, s).
+7-(2-Fluoro-4-iodo-phenylamino)-benzo[d]isothiazole-6-car-
+boxylic Acid tert-Butyl Ester (25). To a solution of 7-ﬂuoro-
+benzo[d]isothiazole-6-carboxylic acid tert-butyl ester (1.26 g, 5.0
+mmol) and 2-ﬂuoro-4-iodo-phenylamine (1.18 g, 5.0 mmol) in
+anhydrous THF (25 mL) at −78 °C was added a 1.0 M solution of
+LHMDS in hexanes (10.0 mL, 10.0 mmol) under a nitrogen
+atmosphere. The reaction mixture was allowed to warm to rt and
+then stirred for 30 min before being quenched by the addition of a
+
+saturated aqueous solution of ammonium chloride and extracted with
+ethyl acetate. The organic layer was separated and washed with water
+followed by brine, dried (Na2SO4), ﬁltered, and evaporated in vacuo.
+The residue was subjected to ﬂash chromatography (Si-PPC, gradient
+0−10% TBME in cyclohexane) to give the title compound as a yellow
+solid (717 mg, 30%). LC-MS (method B): RT = 5.14 min, [M + H]+ =
+471. 1H NMR (CDCl3) δ ppm 9.85 (1 H, s), 8.77 (1 H, s), 7.99 (1 H,
+dd, J = 8.6, 0.5 Hz), 7.49−7.48 (3 H, m), 6.90 (1 H, t, J = 8.3 Hz), 1.65
+(9 H, s).
+
+7-(2-Fluoro-4-iodo-phenylamino)-benzo[d]isothiazole-6-car-
+boxylic Acid (26). To a solution of 7-(2-ﬂuoro-4-iodo-phenylamino)-
+benzo[d]isothiazole-6-carboxylic acid tert-butyl ester (710 mg, 1.51
+mmol) in DCM (5 mL) were added water (0.15 mL) and TFA (5
+mL). The reaction mixture was stirred at rt for 1 h before being
+concentrated in vacuo. The resultant residue was azeotroped with
+toluene to give the title compound as a yellow solid (571 mg, 91%).
+LC-MS (method B): RT = 3.95 min, [M + H]+ = 415. 1H NMR
+(CDCl3) δ ppm 9.69 (1 H, s), 8.79 (1 H, s), 8.08 (1 H, d, J = 8.6 Hz),
+7.55−7.54 (2 H, m), 7.49 (1 H, d, J = 8.6 Hz), 7.01 (1 H, t, J = 8.3
+Hz).
+
+7-(2-Fluoro-4-iodo-phenylamino)-benzo[d]isothiazole-6-car-
+boxylic Acid (2-Vinyloxy-ethoxy)-amide. To a solution of 7-(2-
+ﬂuoro-4-iodo-phenylamino)-benzo[d]isothiazole-6-carboxylic acid
+(328 mg, 0.79 mmol) and DIPEA (0.41 mL, 2.37 mmol) in DMF
+(2 mL) were added O-(2-vinyloxy-ethyl)-hydroxylamine (163 mg, 1.58
+mmol), EDCI (303 mg, 1.58 mmol), and HOBt (213 mg, 1.58 mmol).
+The reaction mixture was stirred for 18 h at rt and then diluted with
+ethyl acetate and washed with water, then a saturated aqueous solution
+of sodium bicarbonate, and then brine before being dried (Na2SO4),
+ﬁltered, and concentrated in vacuo. The resultant
+residue was
+subjected to ﬂash chromatography (Si-PPC, gradient 0−100%
+TBME in cyclohexane) to aﬀord the title compound as a yellow
+foam (194 mg, 49%). LC-MS (method B): RT = 3.99 min, [M + H]+ =
+500. 1H NMR (CDCl3) δ ppm 9.38 (1 H, s), 8.99 (1 H, s), 8.81 (1 H,
+s), 8.29−6.73 (2 H, m), 6.82 (1 H, t, J = 8.8 Hz), 6.53 (1 H, dd, J =
+14.4, 6.8 Hz), 4.33 (2 H, m), 4.24 (1 H, m), 4.11 (1 H, m), 4.03 (2 H,
+m).
+
+7-(2-Fluoro-4-iodo-phenylamino)-benzo[d]isothiazole-6-car-
+boxylic Acid (2-Hydroxy-ethoxy)-amide (18). To a solution of 7-
+(2-ﬂuoro-4-iodo-phenylamino)-benzo[d]isothiazole-6-carboxylic acid
+(2-vinyloxy-ethoxy)-amide (187 mg, 0.37 mmol) in methanol (4
+mL) was added a 1.0 M aqueous solution of hydrochloric acid (0.75
+mL, 0.75 mmol). The reaction mixture was stirred at rt for 1 h before
+being concentrated under reduced pressure. The residue was taken up
+in ethyl acetate and washed with a saturated aqueous solution of
+sodium bicarbonate and brine, dried (Na2SO4), ﬁltered, and
+concentrated in vacuo. The residue was
+subjected to ﬂash
+chromatography (Si-PPC, gradient 0−100%, ethyl acetate in DCM)
+to give the title compound as a yellow solid (128 mg, 72%). LC-MS
+(method A): RT = 9.81 min, [M + H]+ = 474. 1H NMR (CDCl3) δ
+ppm 9.33 (1 H, s), 8.86 (1 H, s), 8.77 (1 H, s), 7.55−7.40 (4 H, m),
+6.84 (1 H, t, J = 8.3 Hz), 4.10 (2 H, t, J = 4.2 Hz), 3.91 (1 H, t, J = 6.4
+Hz), 3.80 (2 H, t, J = 4.5 Hz).
+
+7-(2-Fluoro-4-iodo-phenylamino)-benzo[d]isothiazole-6-car-
+boxylic Acid ((R)-2,2-Dimethyl-[1,3]dioxolan-4-ylmethoxy)-
+amide. To a solution of 7-(2-ﬂuoro-4-iodo-phenylamino)-benzo[d]-
+isothiazole-6-carboxylic acid (377 mg, 0.91 mmol) and DIPEA (0.47
+mL, 2.73 mmol) in DMF (4 mL) were added O-((R)-2,2-dimethyl-
+[1,3]dioxolan-4-ylmethyl)-hydroxylamine (268 mg, 1.82 mmol), EDCI
+(349 mg, 1.82 mmol), and HOBt (246 mg, 1.82 mmol). The reaction
+mixture was stirred for 18 h at rt before being diluted with ethyl
+acetate. The resultant solution was washed with water followed by a
+saturated aqueous solution of sodium hydrogen carbonate and then
+brine before being dried (Na2SO4), ﬁltered, and concentrated in vacuo.
+The resultant residue was subjected to ﬂash chromatography (Si-PPC,
+gradient 0−100% TBME in cyclohexane) to give the title compound
+as a yellow solid (266 mg, 54%). LC-MS (method B): RT = 4.04 min,
+[M + H]+ = 544. 1H NMR (CDCl3) δ ppm 8.88 (1 H, s), 8.63 (1 H,
+s), 8.28 (1 H, s), 7.04 (1 H, d, J = 8.3 Hz), 6.98 (1 H, dd, J = 9.5, 1.9
+
+4601
+
+dx.doi.org/10.1021/jm2017094 | J. Med. Chem. 2012, 55, 4594−4604
+
+Journal of Medicinal Chemistry
+Hz), 6.94 (2 H, m), 6.30 (1 H, t, J = 8.3 Hz), 3.96 (1 H, m), 3.62−3.60
+(3 H, m), 3.35 (1 H, m), 0.95 (3 H, s), 0.88 (3 H, s).
+
+7-(2-Fluoro-4-iodo-phenylamino)-benzo[d]isothiazole-6-car-
+boxylic Acid ((R)-2,3-Dihydroxy-propoxy)amide (19). To a
+solution of 7-(2-ﬂuoro-4-iodo-phenylamino)-benzo[d]isothiazole-6-
+carboxylic acid ((R)-2,2-dimethyl-[1,3]dioxolan-4-ylmethoxy)-amide
+(263 mg, 0.48 mmol) in methanol (10 mL) was added a 1.0 M
+aqueous solution of hydrochloric acid (0.97 mL). The reaction mixture
+was stirred at rt for 18 h before being concentrated in vacuo. The
+resultant residue was taken up in ethyl acetate, washed with a saturated
+aqueous solution of sodium hydrogen carbonate and then brine, dried
+(Na2SO4), ﬁltered, and concentrated in vacuo. The resultant residue
+was subjected to ﬂash chromatography (Si-PPC, gradient 0−100%
+ethyl acetate in DCM) to give the title compound as a yellow solid
+(127 mg, 53%). LC-MS (method A): RT = 9.05 min, [M + H]+ = 504.
+1H NMR (CD3OD) δ ppm 8.88 (1 H, s), 7.74 (1 H, d, J = 8.4 Hz),
+7.61 (1 H, d, J = 8.3 Hz), 7.53 (1 H, dd, J = 10.0, 1.9 Hz), 7.44 (1 H,
+ddd, J = 8.4, 1.9, 1.1 Hz), 6.76 (1 H, t, J = 8.5 Hz), 4.05 (1 H, dd, J =
+10.0, 3.5 Hz), 3.96−3.83 (2 H, m), 3.63−3.52 (2 H, m). HRMS:
+calculated isotopic Mw (M + Na), 525.9710; observed isotopic Mw (M
++ Na), 525.9601; conﬁrmed formula, C17H15FIN3O4S; high resolution
+error, −20.07 ppm.
+
+for
+
+In Vitro Methods for the Determination of MEK Inhibition,
+Cellular Levels of Phospho-ERK, and Cell Proliferation. MEK1
+Inhibition Assay. A homogeneous time-resolved ﬂuorescence assay
+(HTRF) was used to test
+inhibition of kinase activity. A
+constitutively active MEK1 was obtained from Invitrogen and was
+tested at a concentration of 15 nM with 50 μM ATP, 50 nM unactive
+ERK1, and the test compound in a 25 mM HEPES buﬀer, pH 7.5,
+containing 10 mM MgCl2, 5 mM β-glycerophosphate, 0.1 mM sodium
+orthovanadate, and 0.1 mg/mL Triton X 100. The kinase assay was
+carried out for 30 min at 25 °C and was terminated by the addition of
+EDTA. HTRF reagents (CisBiol) were added and time-resolved
+ﬂuorescence was read using a Wallac Victor V (Perkin-Elmer). IC50
+values quoted are the result of at least two separate determinations
+where the results were within 2-fold of eachother and were calculated
+using the KLﬁt software package (version 2.0.5).
+
+Assay for Cellular Levels of Phospho-ERK. Cells (HCT116 or
+A375) were seeded at 26700/well into collagen-coated 96-well plates
+and were incubated overnight under normal tissue culture conditions.
+The following day, the cells were exposed to MEK inhibitors for 2 h.
+At the end of this time, the cells were ﬁxed and permeabilized by
+incubation in 2% formaldehyde for 45 min followed by 100% ice-cold
+methanol for 10 min. The ﬁxed and permeabilized cells were washed
+with PBS and blocked with 3% BSA in Tris buﬀered saline plus Tween
+20 (TBST) for 1 h at 37 °C. At the end of this time, the blocking
+solution was replaced with an antiphospho-ERK antibody raised in
+rabbit (New England Biolabs) at a dilution of 1:1000 made in blocking
+solution and the cells were incubated overnight at 4 °C, followed by
+washing and incubation with antirabbit-Ig− Alexa Flour 488
+(Invitrogen) at a dilution of 1:1000 in blocking solution for 2 h at
+the cells were incubated with 1.5 μM
+rt. Following washing,
+propridium iodide for 2 h in the dark and read on a high content
+imager (Acumen, TTP LabTech) in the red and green channels to
+measure P-ERK content and cell number. EC50 values quoted are the
+result of at least two separate determinations, where the results were
+within 2-fold of eachother and were calculated using the KLﬁt software
+package (version 2.0.5).
+
+Cell Proliferation Assay. Cells (HCT116 or A375) were seeded at
+26700/well
+into collagen-coated 96-well plates and were incubated
+overnight under normal tissue culture conditions. The following day,
+the cells were exposed to MEK inhibitors for 72 h under normal tissue
+culture conditions. At the end of this time, the cells were equilibrated
+to rt and mixed 1:1 with Cell Titer Glo reagent prepared as indicated
+by the supplier (Promega),
+followed by a 10 min incubation.
+Luminescence was read using a TopCount (Perkin-Elmer). EC50
+values quoted are the result of at least two separate determinations,
+where the results were within 2-fold of eachother and were calculated
+using the KLﬁt software package (version 2.0.5).
+
+Article
+
+Molecular Modeling Methods. All molecular modeling experiments
+were carried out using software from Schrödinger Inc. The crystal
+structure of MEK1 (extracted from the cocrystal with 3, PDB
+reference 3V01) was prepared using the Protein Preparation Wizard in
+Maestro (Protein Preparation Wizard, Schrödinger, LLC, New York,
+NY), which assigns bond orders, adds hydrogen atoms, deletes water
+molecules, and generates appropriate protonation states. The prepared
+protein structure was then minimized using OPLS2001 (until the rmsd
+reached 0.3 Å) and used to generate the receptor grids for docking.
+The binding site was deﬁned using the native ligand and selecting the
+option “docking ligands similar in size”. The ligand structures were
+built in Maestro and prepared for docking using LigPrep 2.0 (LigPrep,
+Schrödinger, LLC, New York, NY). The docking experiments were
+carried out with Glide 4.030 in Extra Precision mode, using the default
+parameters setting. The top ﬁve docking poses for each ligand were
+selected and visually inspected.
+X-Ray Crystal Structure Determination Method. Cloning and
+Expression. The truncated (residues 63−393)MEK1 was cloned from
+a wt MEK1 full length construct via PCR and subcloned into pET24b
+(Novagen) as previously described.16 The recombinant MEK1 was
+expressed in Escherichia coli (Rosetta 2 pLys S) and grown in Ultra
+Yield Flasks (Thomson Instrument Company) TB media/MOPS/
+glycerol at 37 °C to an O.D. of 1 (600 nm). The cells were then placed
+at 16 °C and induced after 30 min with 0.5 mM IPTG and allowed to
+grow an additional 18 h.
+
+Protein Puriﬁcation and Crystallization. MEK1 was puriﬁed using
+Cobalt immobilized metal aﬃnity resin (TALON), ion exchange, and
+size exclusion chromatography. The protein was concentrated to 15
+mg/mL and incubated with 10-fold molar excess inhibitor plus 1 mM
+MgAMP-PNP before crystallization. MEK1 crystals grew from hanging
+drop vapor diﬀusion using 12% w/v PEG 8000, 0.4 M NH4H2PO4,
+and 0.1 M HEPES pH 6.9 at 18 °C. MEK1 crystals belonging to the
+space group P62 and unit cell a = 81 Å and c = 129 Å were previously
+described.16
+
+Structure Determination and Reﬁnement. Synchrotron data was
+collected at
+the Advanced Light Source (ALS) beamline 5.0.2.
+Diﬀraction data to 2.7 Å at 100 K was processed using HKL200031
+suite of programs. Molecular
+replacement was performed using
+MOLREP in CCP432 suite with PDB accession code 1S9J as the
+starting model. Reﬁnement was conducted using REFMAC5.2. The
+reﬁnement statistics are summarized in the Supporting Information.
+
+■ ASSOCIATED CONTENT
+*S Supporting Information
+Methods and further results for the in vivo pharmacodynamic
+and eﬃcacy studies involving 1; experimental procedures for
+the preparation of compounds 12−17; NMR spectra for 1 and
+19; data collection and reﬁnement statistics for complexes of 3
+and 1 with MEK1; kinase panel data for 1; rat
+in vivo
+metabolite identiﬁcation for 1. This material is available free of
+charge via the Internet at http://pubs.acs.org.
+Accession Codes
+The coordinates for the crystal structures of 1 and 3 with
+MEK1 have been deposited with the RCSB Protein Data Bank
+under the accession codes 3V04 and 3VO1, respectively.
+
+■ AUTHOR INFORMATION
+Corresponding Author
+*Phone: +44 (0) 1279 645623. Fax: +44 (0) 1279 645646. E-
+mail: robert.heald@glpg.com.
+Notes
+The authors declare no competing ﬁnancial interest.
+
+■ ACKNOWLEDGMENTS
+
+We thank Kirk Robarge, Mark Zak, and Paul Gibbons for
+helpful discussions and collection of experimental data.
+
+4602
+
+dx.doi.org/10.1021/jm2017094 | J. Med. Chem. 2012, 55, 4594−4604
+
+Journal of Medicinal Chemistry
+
+■ ABBREVIATIONS USED
+AMP-PNP, adenylyl-imidodiphosphate; DIPEA, diisopropyle-
+thylamine; EDCI, 1-ethyl-3-(3′-dimethylaminopropyl)-
+carbodiimide hydrochloride; HEPES, 4-(2-hydroxyethyl)-1-
+piperazineethanesulfonic acid; HOBt, 1-hydroxybenzotriazole;
+isopropyl-β-D-thiogalactopyranoside; MDCK, Madin−
+IPTG,
+Darby canine kidney cells; MOPS, 3-(N-morpholino)-
+propanesulfonic acid; Pd2dba3,
+tris-(dibenzylideneacetone)-
+dipalladium(0); SEM, standard error of the mean; Si-PPC,
+prepacked silica ﬂash chromatography cartridge (Isolute SPE,
+Biotage SNAP or ISCO Redisep); TBME, tert-butyl methyl
+ether; xantphos, 4,5-bis(diphenylphosphino)-9,9-dimethylxan-
+thene
+
+■ REFERENCES
+
+(1) Roberts, P. J.; Der, C. J. Targeting the Raf-MEK-ERK mitogen-
+activated protein kinase cascade for the treatment of cancer. Oncogene
+2007, 26, 3291−3310.
+(2) Hoshino, R.; Chantani, Y.; Yamori, T.; Tsuruo, T.; Oka, H.;
+Yoshida, O.; Shimada, Y.; Ari-I, S.; Wada, H.; Fujimoto, J.; Kohno, M.
+Constitutive activation of the 41-/43-kDa mitogen-activated protein
+kinase signaling pathway in human tumors. Oncogene 1999, 18, 813−
+822.
+(3) Olayioye, M. A.; Neve, R. M.; Lane, H. A.; Hynes, N. E. The
+ErbB signaling network: receptor heterodimerization in development
+and cancer. EMBO J. 2000, 19, 3159−3167.
+(4) Sebolt-Leopold, J. S. Advances in the development of cancer
+therapeutics directed against the RAS-mitogen-activated protein kinase
+pathway. Clin. Cancer Res. 2008, 14, 3651−3656.
+(5) Thomson Reuters Integrity; Thomson Reuters: East Haven, CT;
+http://integrity.prous.com/ (Accessed December 10, 2011).
+(6) Frémin, C.; Meloche, S. From basic research to clinical
+development of MEK1/2 inhibitors for cancer therapy. J. Hematol.
+Oncol. 2010, 3, 8.
+(7) Yeh, T. C.; Marsh, V.; Bernat, B. A.; Ballard, J.; Colwell, H.;
+Evans, R. J.; Parry, J.; Smith, D.; Brandhuber, B. J.; Gross, S.; Marlow,
+A.; Hurley, B.; Lyssikatos, J.; Lee, P. A.; Winkler, J. D.; Koch, K.;
+Wallace, E. Biological characterization of ARRY-142886 (AZD6244), a
+potent, highly selective mitogen-activated protein kinase kinase 1/2
+inhibitor. Clin. Cancer Res. 2007, 13, 1576−1583.
+(8) Davies, B. R.; Logie, A.; McKay, J. S.; Martin, P.; Steele, S.;
+Jenkins, R.; Cockerill, M.; Cartlidge, S.; Smith, P. D. AZD6244
+(ARRY-142886), a potent
+inhibitor of mitogen-activated protein
+kinase/extracellular signal-regulated kinase 1/2 kinases: mechanism of
+action in vivo, pharmacokinetic/pharmacodynamic relationship, and
+potential for combination in preclinical models. Mol. Cancer Ther.
+2007, 6, 2209−2219.
+(9) Adjei, A. A.; Cohen, R. B.; Franklin, W.; Morris, C.; Wilson, D.;
+Molina, J. R.; Hanson, L. J.; Gore, L.; Chow, L.; Leong, S.; Maloney,
+L.; Gordon, G.; Simmons, H.; Marlow, A.; Litwiler, K.; Brown, S.;
+Poch, G.; Kane, K.; Haney, J.; Eckhardt, S. G. Phase I pharmacokinetic
+and pharmacodynamic study of the oral, small-molecule mitogen-
+activated protein kinase kinase 1/2 inhibitor AZD6244 (ARRY-
+142886) in patients with advanced cancers. J. Clin. Oncol. 2008, 26,
+2139−2146.
+(10) Barrett, S. D.; Bridges, A. J.; Dudley, D. T.; Saltiel, A. R.; Fergus,
+J. H.; Flamme, C. M.; Delaney, A. M.; Kaufman, M.; LePage, S.;
+Leopold, W. R.; Przybranowski, S. A.; Sebolt-Leopold,
+J.; Van
+Becelaere, K.; Doherty, A. M.; Kennedy, R. M.; Marston, D.;
+Howard, W. A., Jr.; Smith, Y.; Warmus, J. S.; Tecle, H. The discovery
+of the benzhydroxamate MEK inhibitors CI-1040 and PD0325901.
+Bioorg. Med. Chem. Lett. 2008, 18, 6501−6504.
+(11) ClinicalTrials.gov; National Institutes of Health: Bethesda, MD;
+http://www.clinicaltrials.gov/ct2/results?term=AZD6244 (Accessed
+December 10, 2011).
+(12) Abe, H.; Kikuchi, S.; Hayakawa, K.; Iida, T.; Nagahashi, N.;
+Maeda, K.; Sakamoto, J.; Matsumoto, N.; Miura, T.; Matsumura, K.;
+
+Article
+
+Seki, N.; Inaba, T.; Kawasaki, H.; Yamaguchi, T.; Kakefuda, R.;
+Nanayama, T.; Kurachi, H.; Hori, Y.; Yoshida, T.; Kakegawa, J.;
+Watanabe, Y.; Gilmartin, A. G.; Richter, M. C.; Moss, K. G.; Laquerre,
+S. G. Discovery of a Highly Potent and Selective MEK Inhibitor:
+GSK1120212 (JTP-74057 DMSO Solvate). ACS Med. Chem. Lett.
+2011, 2 (4), 320−324.
+(13) Hoeﬂich, K. P.; O’Brien, C.; Boyd, Z.; Cavet, G.; Guerrero, S.;
+Jung, K.; Januario, T.; Savage, H.; Punnoose, E.; Truong, T.; Zhou, W.;
+Berry, L.; Murray, L.; Amler, L.; Belvin, M.; Friedman, L. S.; Lackner,
+M. R. In Vivo Antitumor Activity of MEK and Phosphatidylinositol 3-
+Kinase Inhibitors in Basal-Like Breast Cancer Models. Clin. Cancer Res.
+2009, 14, 4649−4664.
+(14) Hatzivassiliou1, G.; Song, K.; Yen,
+I.; Brandhuber, B. J.;
+Anderson, D. J.; Alvarado, R.; Ludlam, M. J. C.; Stokoe, D.; Gloor, S.
+L.; Vigers, G.; Morales, T.; Aliagas, I.; Liu, B.; Sideris, S.; Hoeﬂich, K.
+P.; Jaiswal, B. J.; Seshagiri, S.; Koeppen, H.; Belvin, M.; Friedman, L.
+S.; Malek, S. RAF inhibitors prime wild-type RAF to activate the
+MAPK pathway and enhance growth. Nature 2010, 464, 431−435.
+(15) Price, S. Putative allosteric MEK1 and MEK2 inhibitors. Expert
+Opin. Ther. Pat. 2008, 18, 603−627.
+(16) Ohren, J. F.; Chen, H.; Pavlovsky, A.; Whitehead, C.; Zhang, E.;
+Kuﬀa, P.; Yan, C.; McConnell, P.; Spessard, C.; Banotai, C.; Mueller,
+W. T.; Delaney, A.; Omer, C.; Sebolt-Leopold, J. S.; Dudley, D. T.;
+Leung, I. K.; Flamme, C.; Warmus, J.; Kaufman, M.; Barrett, S.; Tecle,
+H.; Hasemann, C. A. Structures of human MAP kinase kinase 1
+(MEK1) and MEK2 describe novel noncompetitive kinase inhibition.
+Nature Struct. Mol. Biol. 2004, 11, 1192−1197.
+(17) Fischmann, T. O.; Smith, C. K.; Mayhood, T. W.; Myers, J. E.,
+Jr.; Reichert, P.; Mannarino, A.; Carr, D.; Zhu, H.; Wong, J.; Yang, R.;
+Le, H. V.; Madison, V. S. Crystal structures of MEK1 binary and
+ternary complexes with nucleotides and inhibitors. Biochemistry 2009,
+48, 2661−2674.
+(18) Tecle, H.; Shao, J.; Li, Y.; Kothe, M.; Kazmirski, S.; Penzotti, J.;
+Ding, Y.-H.; Ohren, J.; Moshinsky, D.; Coli, R.; Jhawar, N.; Bora, E.;
+Jacques-O’Hagan, S.; Wu, J. Beyond the MEK-pocket: Can current
+MEK kinase inhibitors be utilized to synthesize novel type III NCKIs?
+Does the MEK-pocket exist in kinases other than MEK? Bioorg. Med.
+Chem. Lett. 2009, 19, 226−229.
+(19) Trujillo, J. I. MEK Inhibitors: a patent review. Expert Opin. Ther.
+Pat. 2011, 21 (7), 1045−1069.
+(20) Politzer, P.; Lane, P.; Concha, M. C.; Ma, Y.; Murray, J. S. An
+overview of halogen bonding. J. Mol. Model. 2007, 13, 305−311.
+(21) Voth, A. R.; Ho, P. S. The role of halogen bonding in inhibitor
+recognition and binding by protein kinases. Curr. Top. Med. Chem.
+2007, 7, 1336−1348.
+(22) Iverson, C.; Larson, G.; Lai, C.; Yeh, L.-T.; Dadson, C.;
+Weingarten, P.; Appleby, T.; Vo, T.; Maderna, A.; Vernier, J. M.;
+Hamatake, R.; Miner, J. N.; Quart, B. RDEA119/BAY 869766: A
+potent, selective, allosteric inhibitor of MEK1/2 for the treatment of
+cancer. Cancer Res. 2009, 69, 6839−6847.
+(23) Laurence, C.; Brameld, K. A.; Graton, J.; Le Questel, J. Y.;
+Renault, E. The pKBHX database: toward a better understanding of
+hydrogen-bond basicity for medicinal chemists. J. Med. Chem. 2009,
+52, 4073−4086.
+(24) Wallace, E. M.; Lyssikatos, J.; Blake, J. F.; Seo, J.; Yang, H. W.;
+Yeh, T. C.; Perrier, M.; Jarski, H.; Marsh, V.; Poch, G.; Livingston, M.
+G.; Otten, J.; Hingorani, G.; Woessner, R.; Lee, P.; Winkler, J.; Koch,
+K. Potent and selective mitogen-activated protein kinase kinase
+(MEK) 1,2 inhibitors. 1. 4-(4-Bromo-2-ﬂuorophenylamino)-1-meth-
+ylpyridin-2(1H)-ones. J. Med. Chem. 2006, 49, 441−444.
+(25) Price, S.; Williams, K.; Savy, P. P.; Dyke, H. J.; Montana, J. G.;
+Stanley, M. S.; Bao, L. Aza-benzofuranyl compounds and methods of
+use. Patent WO2008024725, 2008.
+(26) Choo, E. F.; Belvin, M.; Chan, J.; Hoeﬂich, K.; Orr, C.; Robarge,
+K.; Yang, X.; Zak, M.; Boggs,
+J. Preclinical disposition and
+pharmacokinetics−pharmacodynamic modeling of biomarker response
+and tumour growth inhibition in xenograft mouse models of G-573, a
+MEK inhibitor. Xenobiotica 2010, 11, 751−762.
+
+4603
+
+dx.doi.org/10.1021/jm2017094 | J. Med. Chem. 2012, 55, 4594−4604
+
+Article
+
+Journal of Medicinal Chemistry
+
+(27) Pierce, A. C.; Sandretto, K. L.; Bemis, G. W. Kinase inhibitors
+and the case for CH...O hydrogen bonds in protein−ligand binding.
+Proteins 2002, 49, 567−576.
+(28) Toth, G.; Bowers, S. G..; Truong, A. P.; Probst, G. The role and
+signiﬁcance of unconventional hydrogen bonds in small molecule
+recognition by biological receptors of pharmaceutical relevance. Curr.
+Pharm. Des. 2007, 13, 3476−3493.
+(29) Fink, D. M.; Strupczewski, J. T. Process and intermediates for
+the preparation of 6-ﬂuorobenzoisothiazoles. Can. Pat. Appl. CA
+2076556, 1993.
+(30) Friesner, R. A.; Banks, J. L.; Murphy, R. B.; Halgren, T. A.;
+Klicic, J. J.; Mainz, D. T.; Repasky, M. P.; Knoll, E. H.; Shelley, M.;
+Perry, J. K.; Shaw, D. E.; Francis, P.; Shenkin, P. S. Glide: A new
+approach for rapid, accurate docking and scoring. 1. Method and
+assessment of docking accuracy. J. Med. Chem. 2004, 47, 1739−1749.
+(31) Otwinowski, Z.; Minor, W. Processing of X-ray Diﬀraction Data
+Collected in Oscillation Mode. Methods Enzymol. 1997, 276, 307−326.
+(32) The CCP4 suite: programs
+for protein crystallography
+Collaborative Computational Project, Number 4. Acta Crystallogr.,
+Sect. D: Biol. Crystallogr. 1994, D50, 760−763; Vagin, A.; Teplyakov, A.
+MOLREP: an Automated Program for Molecular Replacement. J.
+Appl. Crystallogr. 1997, 30, 1022−1025.
+
+4604
+
+dx.doi.org/10.1021/jm2017094 | J. Med. Chem. 2012, 55, 4594−4604
+
+

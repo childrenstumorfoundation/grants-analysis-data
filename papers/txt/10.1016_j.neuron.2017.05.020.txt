@@ -1,0 +1,1886 @@
+Article
+
+Dorsal Raphe Dopamine Neurons Modulate Arousal
+and Promote Wakefulness by Salient Stimuli
+
+Highlights
+d DRNDA neurons are activated by salient stimuli irrespective of
+
+hedonic valence
+
+d DRNDA activity ﬂuctuates across sleep-wake states and is
+
+highest at wakefulness
+
+Authors
+
+Jounhong Ryan Cho,
+Jennifer B. Treweek,
+J. Elliott Robinson, Cheng Xiao,
+Lindsay R. Bremner, Alon Greenbaum,
+Viviana Gradinaru
+
+d Optogenetic activation promotes wakefulness
+
+d Chemogenetic inhibition opposes wakefulness, even in the
+
+presence of salient stimuli
+
+Correspondence
+viviana@caltech.edu
+
+In Brief
+Cho et al. demonstrate that dorsal raphe
+nucleus dopaminergic (DRNDA) activity
+escalates in response to salient stimuli
+irrespective of valence, correlates with
+sleep-wake states, and can bi-
+directionally modulate arousal.
+
+Cho et al., 2017, Neuron 94, 1205–1219
+June 21, 2017 ª 2017 Elsevier Inc.
+http://dx.doi.org/10.1016/j.neuron.2017.05.020
+
+Neuron
+
+Article
+
+Dorsal Raphe Dopamine Neurons Modulate Arousal
+and Promote Wakefulness by Salient Stimuli
+
+Jounhong Ryan Cho,1 Jennifer B. Treweek,2 J. Elliott Robinson,2 Cheng Xiao,2 Lindsay R. Bremner,2 Alon Greenbaum,2
+and Viviana Gradinaru2,3,*
+1Computation and Neural Systems
+2Division of Biology and Biological Engineering
+California Institute of Technology, Pasadena, CA 91125, USA
+3Lead Contact
+*Correspondence: viviana@caltech.edu
+http://dx.doi.org/10.1016/j.neuron.2017.05.020
+
+SUMMARY
+
+Ventral midbrain dopamine (DA) is unambiguously
+involved in motivation and behavioral arousal, yet
+the contributions of other DA populations to these
+processes are poorly understood. Here, we demon-
+strate that the dorsal raphe nucleus DA neurons are
+critical modulators of behavioral arousal and sleep-
+wake patterning. Using simultaneous ﬁber photom-
+etry and polysomnography, we observed time-delin-
+eated dorsal raphe nucleus dopaminergic (DRNDA)
+activity upon exposure to arousal-evoking salient
+cues, irrespective of their hedonic valence. We also
+observed broader ﬂuctuations of DRNDA activity
+across sleep-wake cycles with highest activity dur-
+ing wakefulness. Both endogenous DRNDA activity
+and optogenetically driven DRNDA activity were
+associated with waking from sleep, with DA signal
+strength predictive of wake duration. Conversely,
+chemogenetic inhibition opposed wakefulness and
+promoted NREM sleep, even in the face of salient
+stimuli. Therefore, the DRNDA population is a critical
+contributor to wake-promoting pathways and is
+capable of modulating sleep-wake states according
+to the outside environment, wherein the perception
+of salient stimuli prompts vigilance and arousal.
+
+INTRODUCTION
+
+In mammals, behavioral arousal ﬂuctuates as inputs are received
+from both the external environment (e.g., food availability, pred-
+ator threat) and internal milieu (e.g., hunger, mating drive, ho-
+meostatic sleep demand)
+(Garey et al., 2003; Brown et al.,
+2012). While the neural circuits that encode these individual stim-
+uli can be highly stimulus speciﬁc or tuned to a speciﬁc valence
+(positive or negative), their activation often promotes more gen-
+eral effects on arousal and electrocortical wakefulness through
+diverse wake-promoting neurons (Aston-Jones and Bloom,
+1981; Szymusiak and McGinty, 2008). Akin to how the noradren-
+ergic (NA) neurons of the locus coeruleus (LC) regulate circadian
+
+sleep-wake cycling (Takahashi et al., 2010) and promote vigi-
+lance during wake (Aston-Jones and Bloom, 1981), multiple
+neural circuits play roles in electrocortical wakefulness and
+behavioral arousal to motivationally relevant situations, including
+cholinergic neurons of the pons and basal forebrain (Jones,
+1991; Xu et al., 2015; Pinto et al., 2013), the corticotrophin-
+releasing hormone (CRH) and hypocretin (orexin) neuropeptide
+systems (Sakurai et al., 1998; Winsky-Sommerer et al., 2005),
+and the mesolimbic dopamine (DA) system (Eban-Rothschild
+et al., 2016; Taylor et al., 2016).
+
+Several
+
+(Wisor et al., 2001)
+
+lines of basic research and clinical observations
+converge upon DA as a crucial modulator of wake drive, but
+the neuroanatomical underpinnings have resisted detailed char-
+acterization. For example, persistent elevation of DA tone via
+pharmacology (i.e., amphetamine [Daberkow et al., 2013], mod-
+aﬁnil [Qu et al., 2008]) or genetic ablation of the dopamine trans-
+porter gene (Slc6a3)
+is associated with
+behavioral arousal, but these manipulations are diffuse and
+brain-wide rather than localized to a certain region. Recent
+work has revealed a role for ventral tegmental area (VTA) DA
+neurons in electrocortical arousal and sleep-wake patterning
+(Eban-Rothschild et al., 2016; Taylor et al., 2016), which comple-
+ments its long-standing role in behavioral arousal to motivation-
+ally relevant stimuli (Cohen et al., 2012; Lammel et al., 2014;
+Matsumoto and Hikosaka, 2009). In contrast, diminished DA
+signaling from the substantia nigra pars compacta (SNc) is asso-
+ciated with insomnia, a major symptom in Parkinson’s disease
+(Gjerstad et al., 2007). Considering the functional (Morales and
+Margolis, 2017), genetic (Poulin et al., 2014), and anatomical
+(Lammel et al., 2011, 2012; Margolis et al., 2008) heterogeneity
+of midbrain DA neurons, distinct DA subgroups may exert
+diverging effects on sleep-wake regulation.
+Previously, a small population of DA neurons (1,000 cells in
+rats) in the dorsal raphe nucleus (DRN; or ‘‘A10 dc’’ or ‘‘ventral/
+ventrolateral periaqueductal gray’’; herein referred to as the
+DRNDA) (Hokfelt et al., 1984; Descarries et al., 1986; Dougalis
+et al., 2012) was observed to be wake promoting (Lu et al.,
+2006). Chemical lesion of these cells precipitated profound hy-
+persomnia (20% increase in sleep), while prolonged wakeful-
+ness elicited increased c-fos expression (Lu et al., 2006; but
+see Le´ ger et al., 2010). Compared to other DA populations, little
+is known about the natural dynamics of DRNDA cells, such as
+whether their activity contributes to the valuation of external
+
+Neuron 94, 1205–1219, June 21, 2017 ª 2017 Elsevier Inc. 1205
+
+cues and whether this valuation is predictive of the correspond-
+response. Contrary to VTADA-driven reward
+ing behavioral
+circuits, optogenetic activation of DRNDA neurons fails to
+reinforce operant responding (McDevitt et al., 2014) but instead
+conveys a negative affective state and promotes social seeking
+via a negative reinforcement mechanism (Matthews et al.,
+2016). Given these seemingly disparate roles of DRNDA cells,
+namely to promote wakefulness (Lu et al., 2006) and encode
+a ‘‘loneliness-like’’ state (Matthews et al., 2016), we hypothe-
+sized that DRNDA neurons may signal arousal on a more general
+level, including awakening from sleep, maintenance of wakeful-
+ness, and promoting arousal in response to behaviorally rele-
+vant cues.
+
+Here, we performed longitudinal monitoring of DRNDA activity
+by calcium imaging via ﬁber photometry (Gunaydin et al., 2014)
+and of sleep-wake states via electroencephalography (EEG)
+and electromyography (EMG) recordings, in conjunction with
+optogenetics and chemogenetics for reversible, spatially spe-
+ciﬁc control of neural activity (Rajasethupathy et al., 2016; Urban
+and Roth, 2015). We found that DRNDA neurons are wake-active,
+showing higher population activity during wakefulness over
+sleep states, and that endogenous DRNDA activity correlates
+with state transitions and with external stimulus-driven behav-
+iors. Furthermore, reversible and bi-directional manipulations
+of DRNDA ﬁring support the sufﬁciency and necessity of these
+neurons in promoting vigilance and arousal. Taken together,
+our results provide evidence that DRNDA pathways provide a cir-
+cuit
+for modulating behavioral states and salience-induced
+arousal in mammals.
+
+RESULTS
+
+DRNDA Neurons Are Activated by Arousal-Provoking
+Salient Cues
+To investigate the natural dynamics of DRNDA neurons during
+awake-behaving states, we monitored DRNDA population activ-
+ity in subjects exposed to a diverse array of salient stimuli and
+environmental settings. In vivo activity of DRNDA neurons was
+recorded using ﬁber photometry (Gunaydin et al., 2014), which
+can measure bulk Ca2+-dependent ﬂuorescence of GCaMP6, a
+genetically encoded calcium indicator (Chen et al., 2013),
+through a single optical ﬁber positioned in deep brain structures
+(Figures S1A, S1G, and S1H). Our photometry setup utilized a
+490 nm beam to activate Ca2+-dependent GCaMP6 ﬂuores-
+cence, as well as a 405 nm beam to image an isosbestic refer-
+ence signal, which compensates for photo-bleaching and
+movement-related artifacts (Lerner et al., 2015). For speciﬁc tar-
+geting of DRNDA neurons, we stereotaxically injected an adeno-
+associated virus (AAV) encoding GCaMP6f in a Cre-dependent
+manner (AAV5-Syn-FLEX-GCaMP6f) into the DRN of tyrosine
+hydroxylase (TH)::IRES-Cre mice (Figures 1A and 1B). Control
+animals were injected with AAV encoding the ﬂuorescent marker
+EGFP (AAV5-hSyn-DIO-EGFP). An optical ﬁber was implanted
+over the DRN to acquire population ﬂuorescence emitted from
+DRNDA neurons (Figures 1A and S1A). We conﬁrmed that
+GCaMP6f-expressing neurons emitted dynamic ﬂuorescence
+ﬂuctuations, while EGFP-expressing cells showed minimal ﬂuo-
+rescence variation (Figures S1B and S1C).
+
+1206 Neuron 94, 1205–1219, June 21, 2017
+
+We quantiﬁed the efﬁciency and speciﬁcity of GCaMP6f+ neu-
+rons in the DRN of TH-Cre mice. Transfection was highly efﬁcient
+(94.2%, n = 407/432 neurons). Similar to previous reports that
+used the identical mouse line or others targeting TH or the
+Slc6a3 promoter (Matthews et al., 2016), 74.9% (n = 407/543)
+of GCaMP6f+ neurons were co-localized with TH in the DRN.
+These neurons are not noradrenergic, as they lack dopamine
+beta-hydroxylase, which converts dopamine to norepinephrine
+(Nagatsu et al., 1979). Importantly, GCaMP6f+ or TH+ neurons
+never overlapped with serotonergic neurons (Figures 1B and
+S1D; Lu et al., 2006; Matthews et al., 2016), a major population
+in the DRN that is hypothesized to regulate arousal states (Jou-
+vet, 1999). It is possible that GCaMP6f+/TH  neurons may
+express TH at a level below immunohistochemical detection limit
+but sufﬁcient to drive Cre expression.
+
+We ﬁrst tested DRNDA-GCaMP6f mice in a social
+
+interaction
+paradigm, in which physical contact with conspeciﬁcs after
+social isolation has been demonstrated to activate DRNDA neu-
+rons (Matthews et al., 2016). We observed the robust activation
+of DRNDA neurons in single-housed male DRNDA-GCaMP6f mice
+when they ﬁrst interacted with female intruders (Figures 1C
+and 1D). Similar activation was observed with juvenile mice (Fig-
+ure S2A; Movie S1; Matthews et al., 2016) and also when they
+displayed aggressive behavior toward adult male intruders (Fig-
+ure S2B). Beyond social interaction, we also observed prominent
+DRNDA activity when mice consumed palatable food (Figures 1E
+and 1F; Movie S2). To further characterize the valence tuning of
+DRNDA cells, we also challenged DRNDA-GCaMP6f mice in assays
+with negative contexts. Surprisingly, DRNDA neurons showed
+phasic activation upon delivery of unexpected electric foot-
+shocks (Figures 1G and 1H), air puffs (Figure S2C), or motivated
+responding (mobility/struggling)
+in tail suspension tests (Fig-
+ure S2D) and during investigation of predator odor TMT (compo-
+nent of
+they showed
+sustained activation when subjects were physically restrained
+(Figure S2F).
+
+fox urine; Figure S2E). Furthermore,
+
+In contrast, DRNDA activity showed minimal change when
+mice interacted with novel or familiar objects (Figures 1I–1L, ﬁrst
+encounters), which are less salient than social targets, food, or
+aversive cues. Indeed, DRNDA activation during female interac-
+tion, chocolate consumption, and footshock was signiﬁcantly
+larger than that during object investigation (Figure 1M). Further-
+more, the second and third bouts of female interaction and
+aggressive behavior continued to provoke a signiﬁcant elevation
+in DRNDA activity, whereas it remained relatively unchanged from
+baseline with repeated novel object encounters, suggesting
+rapid habituation toward physically salient but motivationally
+neutral cues (Figures S2G–S2I).
+
+These ﬁndings did not vary with subject social history, as
+similar patterns of DRNDA activation were seen in group-housed
+mice (Figures S2J–S2L). Furthermore, DRNDA neuronal activa-
+tion was not correlated with locomotion, which argues against
+the observed DRNDA activity resulting from the motor response
+alone (Figures S2M–S2O). Taken together, these ﬁndings sug-
+gest that DRNDA neurons are activated by a broad array of
+arousal-provoking stimuli, paralleling animals’ heightened envi-
+ronmental awareness that accompanies exposure to such moti-
+vationally salient stimuli.
+
+Figure 1. DRNDA Neurons Are Activated upon Exposure to Salient Stimuli or Behavioral Challenge
+(A) TH-Cre mice were injected with AAV5-Syn-FLEX-GCaMP6f or AAV5-hSyn-DIO-EGFP and implanted with an optical ﬁber into the DRN for ﬁber photometry.
+(B) Confocal images of GCaMP6f+ (green) neurons show co-localization with TH+ neurons (red), but no overlap with 5-HT+ neurons (blue). Scale bar, 100 mm.
+(C) Social interaction between a male DRNDA-GCaMP6f resident mouse and a female intruder were associated with increased DRNDA activity; the trace is a
+representative recording with interaction bouts indicated.
+(D) Left: female interaction caused an increase in ﬂuorescence at the onset (ﬁrst interactions only). Right: quantiﬁcation of the area under the curve per second
+(AUC) during the interaction (0–5 s) shows that social interaction caused signiﬁcant increase in DRNDA activity from baseline ( 5 to 0 s) (n = 7 DRNDA-GCaMP6f mice;
+paired t test, t6 = 11.97, ***p < 0.001).
+(E) Chocolate consumption by a DRNDA-GCaMP6f mouse increased DRNDA activity; representative recording.
+(F) Left: DRNDA activity was increased upon chocolate consumption. Right: AUC quantiﬁcation during consumption (0–5 s) compared with baseline ( 5 to 0 s)
+shows that food consumption is associated with signiﬁcant ﬂuorescence increase (n = 7 DRNDA-GCaMP6f mice; paired t test, t6 = 4.273, **p < 0.01).
+(G) Electric footshocks (0.25 mA, 1 s) were delivered; representative DRNDA trace during two consecutive footshocks.
+(H) Left: footshock induced phasic DRNDA activation. Right: DRNDA activity after footshock (0–5 s) was signiﬁcantly increased relative to baseline ( 5 to 0 s) (n = 7
+DRNDA-GCaMP6f mice; paired t test, t6 = 5.763, **p < 0.01).
+(I) DRNDA-GCaMP6f mouse was allowed to interact with a novel object; representative recording during interactions.
+(J) Left: ﬁrst interaction of a novel object was associated with DRNDA activity increase. Right: DRNDA activity after ﬁrst interaction (0-5 s) was signiﬁcantly
+increased relative to baseline ( 5 to 0 s) (n = 7 DRNDA-GCaMP6f mice; paired t test, t6 = 3.614, *p < 0.05).
+(K) A familiar object was introduced; representative DRNDA trace with interaction bouts.
+(L) Left: ﬁrst interaction bout was not associated with any change in DRNDA ﬂuorescence. Right: there was no change in DRNDA activity across familiar object
+interaction (n = 7 DRNDA-GCaMP6f mice; paired t test, t6 = 2.205, p > 0.05).
+(M) Peak DRNDA ﬂuorescence values during female interaction, chocolate consumption, and electric footshocks were signiﬁcantly higher than those during novel
+and familiar object interaction (n = 7 DRNDA-GCaMP6f mice; one-way ANOVA, F4,30 = 22.77, p < 0.0001, Bonferroni post hoc analysis, ***p < 0.001).
+Data represent mean ± SEM.
+
+Neuron 94, 1205–1219, June 21, 2017 1207
+
+Figure 2. Simultaneous Fiber Photometry and EEG/EMG Recordings Reveal a Correlation between DRNDA Neuronal Activity and Sleep-Wake
+States
+(A) In addition to ﬁber photometry, EEG screw electrodes and EMG wires were implanted to classify sleep-wake states.
+(B) Representative confocal images of GCaMP6s+ neurons (green) co-localized with TH+ neurons (red). Scale bar, 100 mm.
+(C) Representative example of an NREM-to-wake transition from a DRNDA-GCaMP6s mouse with EEG spectrogram, EEG, EMG, and photometry traces. Note
+DRNDA ﬂuorescence was increased at the wake onset, when EEG desynchronized from delta (0.5–4 Hz) and EMG amplitude increased.
+(D) Same as (C), but from a DRNDA-EGFP mouse. No change in photometry was observed.
+(E) Synchronized photometry and EEG/EMG recordings were performed during the entire light phase.
+(F) Representative photometry traces at distinct sleep-wake states (blue, wake; green, REM sleep; red, NREM sleep).
+
+(legend continued on next page)
+
+1208 Neuron 94, 1205–1219, June 21, 2017
+
+DRNDA Population Activity Correlates with Sleep-Wake
+States
+That DRNDA neurons were activated by exposure to a variety of
+salient cues expands their previous description as a socio-
+centric pathway (Matthews et al., 2016). It seems plausible that
+DRNDA neurons convey more generalized arousal signals across
+broad temporal scales, especially given that chemogenetic acti-
+vation promotes analgesia (Li et al., 2016) and selective lesion
+causes hypersomnia (Lu et al., 2006).
+
+To test this hypothesis, we prepared TH-Cre mice for simulta-
+neous and synchronized recording of DRNDA-GCaMP6s ﬂuores-
+cence (AAV5-Syn-FLEX-GCaMP6s, EGFP for control animals;
+DRN optical ﬁber insertion; Figures 2A and 2B) and polysomnog-
+raphy signals (implantation of EEG electrodes and EMG wires;
+Figure 2A). Sleep-wake states, which were manually classiﬁed
+in 5 s windows based on the visual and spectral characteristics
+of the EEG/EMG signals, were correlated to ﬂuctuations in
+DRNDA population activity (Figures 2C and S3A). Variations in
+ﬂuorescent signal were absent in control DRNDA-EGFP mice (Fig-
+ures 2D and S3B), and viral delivery of transgenes (here and in all
+subsequent experiments) did not alter the basic sleep-wake
+architecture (Figures S1E and S1F).
+
+To record DRNDA activity over many episodes of distinct
+sleep-wake states, we collected ﬁber photometry and EEG/
+EMG across the entire light
+(inactive) phase (Figure 2E).
+DRNDA-GCaMP6s mice showed normal EEG spectral characteris-
+tics and sleep-wake patterns, even in the presence of GCaMP6s
+excitation light (Figures S3C and S3D). Over long recording
+sessions, GCaMP6s bleaching was observed, but it could be
+effectively removed by subtracting the linearly scaled control
+signal from 405 nm excitation (Figure S3E). To examine the cor-
+relation of DRNDA activity with sleep-wake states, we calculated
+the area under the curve (AUC) for non-overlapping 5 s windows
+of photometry data during each state as an index of the esti-
+mated DRNDA population ﬁring rate (Figure 2F). AUC values
+were signiﬁcantly higher during wakefulness (Figure 2G). For
+further characterization, Ca2+ peak events were detected (Fig-
+ure S3F), and their quantitative features were compared across
+states. The peak amplitude and summed AUC values of de-
+tected events were highest during wakefulness, but there was
+no signiﬁcant difference in their frequency or duration across
+distinct states (Figures S3G–S3J). Altogether, these results sug-
+gest that DRNDA neurons are wake-active and that their activity
+proﬁle correlates with arousal states.
+
+To examine the temporal dynamics of DRNDA activity during
+each state, we normalized the variable durations of sleep-wake
+states to a unit-less time from 0 (onset) to 1 (offset) and accord-
+ingly down-sampled the normalized photometry traces. During
+wakefulness, DRNDA population ﬂuorescence peaked soon after
+wake onset and gradually decreased toward wake offset (Fig-
+ure 2H). Indeed, the DRNDA activity at the early 20th percentile
+
+of a wake episode was signiﬁcantly larger than at the late 20th
+percentile (Figure 2I). In contrast, DRNDA activity was continu-
+ously suppressed during NREM sleep and showed minimal
+variations during REM sleep (Figure 2H). We additionally veriﬁed
+that wake episodes whose durations were similar to sleep epi-
+sodes demonstrated similar dynamics (Figure S3K), suggesting
+that the observed DRNDA wake dynamics did not originate
+from photobleaching over time. In sum, the activity level of
+DRNDA populations not only varies across sleep-wake states
+but also shows dynamic changes within wakefulness, showing
+highest activity after wake onset and gradual decrease toward
+sleep onset.
+
+Next, we examined DRNDA activity during state transitions.
+DRNDA ﬂuorescence increased signiﬁcantly at NREM to wake
+(Figure 3A; when wake duration >60 s). There was no signiﬁcant
+ﬂuorescence change at REM-to-wake transitions (Figure 3B;
+when wake duration >60 s). Conversely, DRNDA activity decreased
+when animals fell asleep (Figure 3C). We also observed a gradual
+increase of DRNDA activity across NREM-to-REM transitions (Fig-
+ure 3D). When a brief period of wake (<15 s) intervened in transition
+from REM to NREM, DRNDA activity exhibited a corresponding
+decrease across the brief wake and NREM onset (Figure S3L).
+
+Interestingly, we observed that the duration of wake episodes
+varied as a function of the change in DRNDA activity across
+the wake onset. The net ﬂuctuation in DRNDA ﬂuorescence
+across sleep-to-wake transitions (from both NREM and REM)
+was signiﬁcantly larger when mice were awake for a longer
+period (‘‘long’’: >60 s) than when mice were brieﬂy awake
+(‘‘short’’: <30 s; ‘‘intermediate’’: between 30 and 60 s; Figures
+3E and 3F). This suggests that DRNDA activity at wake onset is
+positively correlated with the duration of the following wake
+episode.
+In sum, these results provide correlative evidence
+that endogenous DRNDA ﬁring is highest during wakefulness
+and that DRNDA activity is dynamic across state transitions.
+
+Optogenetic Activation of DRNDA Neurons Promotes
+Wakefulness
+To reveal a causal relationship between DRNDA activity and
+wakefulness, we tested for sufﬁciency using a Cre-dependent
+excitatory opsin to stimulate transduced DRNDA cells (AAV5-
+Ef1a-DIO-ChR2-eYFP, EGFP for controls; polysomnography
+for stage classiﬁcation; Figures 4A and 4B). ChR2-eYFP expres-
+sion was limited to the DRN and caudal linear nucleus, and never
+found in retrorubral ﬁeld or VTA (Figures S4N and S4O). To avoid
+potential ceiling effects, we applied optogenetic stimulation to
+DRNDA neurons during the light phase (Figure 4C). As endoge-
+nous ﬁring characteristics of DRNDA cells are unknown (one
+neuron reported by juxtacellular recording [Schweimer and Ung-
+less, 2010]), we used stimulus parameters commonly adopted
+for photoactivation of ventral midbrain DA neurons (Tsai et al.,
+2009), which operate in phasic and tonic ﬁring modes. We
+
+(G) Quantiﬁcation of AUC per 5 s window revealed higher DRNDA activity during wakefulness over NREM and REM sleep (n = 6 DRNDA-GCaMP6s mice; one-way
+ANOVA, F2,15 = 10.58, p < 0.01; Bonferroni post hoc analysis, *p < 0.05, **p < 0.01).
+(H) Temporal dynamics of normalized DRNDA activity during wake (blue), NREM (red), and REM (green) episodes within normalized time.
+(I) Normalized DRNDA activity at early wake (ﬁrst 20th percentile) was signiﬁcantly increased from late wake period (last 20th percentile) (n = 6 DRNDA-GCaMP6s mice;
+paired t test, t5 = 5.672, **p < 0.01).
+Data represent mean ± SEM.
+
+Neuron 94, 1205–1219, June 21, 2017 1209
+
+Figure 3. DRNDA Neuronal Dynamics across State Transitions
+(A) Left: DRNDA activity increased across NREM-to-wake transitions. Right: DRNDA activity after transitions (wake) was signiﬁcantly greater than before transitions
+(NREM) (n = 6 DRNDA-GCaMP6s mice; paired t test, t5 = 3.052, *p < 0.05).
+(B) Left: DRNDA activity did not change across REM-to-wake transitions. Right: DRNDA ﬂuorescence was not different across transitions (n = 6 DRNDA-GCaMP6s
+mice; paired t test, t5 = 1.556, p > 0.1).
+(C) Left: DRNDA activity decreased at wake-to-NREM transitions. Right: the AUC values after transitions (NREM) were signiﬁcantly lower than before transitions
+(wake) (n = 6 DRNDA-GCaMP6s mice; paired t test, t5 = 4.516, **p < 0.01).
+(D) Left: DRNDA ﬂuorescence increased across NREM-to-REM transitions. Right: DRNDA activity signiﬁcantly increased during NREM to REM transitions (n = 6
+DRNDA-GCaMP6s mice; paired t test, t5 = 3.192, *p < 0.05).
+(E) DRNDA activity increase across sleep-to-wake transitions was more prominent when mice spent longer time awake (> 60 s, blue) than when mice were awake
+for intermediate (between 30 and 60 s, purple) or short (< 30 s, pink) period.
+(F) Fluorescence increase across wake onsets was signiﬁcantly larger for long-duration wake episodes than for intermediate- or short-duration wake episodes
+(n = 366 short, 158 intermediate, and 185 long wake episodes; one-way ANOVA, F2,706 = 21.85, p < 0.0001; Bonferroni post hoc analysis, ***p < 0.001).
+Data represent mean ± SEM.
+
+applied both phasic (a train of ten 30 Hz pulses, 10 ms pulse
+width, every 5 s) and tonic (continuous 2 Hz pulses, 10 ms pulse
+width) stimulation patterns (Figures 4C and S4D). These speciﬁc
+parameters were designed to expose subjects to the same total
+number of light pulses with distinct temporal structures. We veri-
+
+ﬁed that DRNDA neurons were capable of faithfully following
+phasic pulse trains in whole-cell patch clamp recordings
+(Figure S4A).
+
+Two minutes of phasic stimulation caused immediate transi-
+tions to and maintenance of wakefulness from both NREM and
+
+1210 Neuron 94, 1205–1219, June 21, 2017
+
+REM sleep in DRNDA-ChR2 mice, but not in control DRNDA-EGFP
+mice (Figures 4D–4F, S4B, and S4C). By contrast, 2 min of tonic
+stimulation could only induce waking from REM sleep (Figures
+S4D–S4G). Because phasic stimulation more reliably evoked
+stage changes, we employed this paradigm in subsequent
+experiments. Phasic activation was effective in inducing
+immediate NREM-to-wake transitions even after 4 hr of sleep
+deprivation, suggesting that DRNDA activation can promote
+instantaneous arousal in face of high sleep pressure (Figure 4G).
+Phasic stimulation caused a signiﬁcant change in cortical EEG in
+DRNDA-ChR2, but not in control DRNDA-EGFP mice, as revealed by
+spectral analysis (Figures 4H, 4I, S4H, and S4I); delta (0.5–4 Hz)
+and high-frequency (40–100 Hz) EEG powers were decreased
+and increased, respectively, upon DRNDA activation (Figures
+4J and 4K).
+
+We next sought to examine the effect of longer, sustained acti-
+vation of DRNDA neurons on behavioral states. A 1 hr epoch of
+phasic stimulation was applied 4 hr into the subject’s light phase
+when sleep pressure is high. Photostimulation resulted in a net
+increase in time awake relative to unstimulated epochs, due to
+the extension of wake episodes (Figures 4L and 4M). Spectral
+analysis revealed that delta (0.5–4 Hz) power was signiﬁcantly
+diminished while high-frequency (40–100 Hz) activity was
+enhanced in ChR2-expressing mice (Figures 4N–4P). This spec-
+tral change from DRNDA activation could not be attributed to
+increased locomotion, which can also affect cortical activity
+and arousal (Vinck et al., 2015), because optogenetic manipula-
+tions did not affect locomotion in either the light or dark phase
+(open ﬁeld test; Figure S4L). Moreover, the sustained increase
+in wakefulness from DRNDA activation was directly mediated
+by DA, as systemic administration of D1 and D2 receptor antag-
+onists (SCH-23390 and eticlopride, respectively, 1 mg/kg) prior
+to stimulation abolished the wake-promoting effect of phasic
+stimulation in DRNDA-ChR2 mice but caused no overall effect in
+control mice (Figures S4J–S4K).
+
+In sum, phasic stimulation of DRNDA neurons can affect sleep-
+wake state patterning and promote arousal by inducing immedi-
+ate sleep-to-wake transitions and prolonging wake duration.
+DRNDA activity also causes electrocortical arousal, bi-direction-
+ally modulating low- and high-frequency rhythms across both
+minutes-short and hour-long temporal scales.
+
+Chemogenetic Inhibition of DRNDA Neurons Reduces
+Wakefulness
+To interrogate the necessity of DRNDA signaling for wake main-
+tenance, we used a chemogenetic (Urban and Roth, 2015)
+approach to reversibly inhibit DRNDA activity during polysomno-
+graphic recordings (Figure 5A). Here, DRNDA cell recruitment via
+expression of the inhibitory DREADD (AAV2-hSyn-DIO-hM4Di-
+mCherry; Figures 5A and 5B) rather than the analogous opsin
+is not limited to light spread from optical ﬁbers, and long-term
+suppression of DRNDA activity carries no potential for phototox-
+icity. We conﬁrmed with ex vivo whole-cell patch-clamp record-
+ings that bath application of 1 mM clozapine-N-oxide (CNO)
+reversibly reduced the ﬁring of hM4Di-expressing DRNDA neu-
+rons via hyperpolarization but showed no effect on EGFP-posi-
+tive cells in control mice (Figures S5B–S5E). We also veriﬁed
+that the hM4Di vector was not anterogradely or retrogradely
+
+transported from the DRN to other TH+ neurons (across a
+4-week window; Figures S5F–S5I), some of which have been
+shown to have reciprocal connections (Lu et al., 2006).
+
+DRNDA-hM4Di and DRNDA-EGFP mice were habituated to exper-
+imenter handling for three days prior to intraperitoneal injection of
+saline or CNO (1 mg/kg) 3 hr into their dark (active) cycle, and
+EEG/EMG recordings took place for 2 hr afterward (Figure 5C).
+Compared to saline, CNO injection led to a marked reduction in
+wakefulness (Figures 5D and 5E). At the group level, DRNDA inhi-
+bition decreased the time spent in wakefulness and increased
+NREM sleep time (Figure 5F). Speciﬁcally, CNO injection into
+the DRNDA-hM4Di mice increased NREM sleep duration (Figure 5G)
+but had no effect on the number of episodes of each state (Fig-
+ure 5H). Importantly, saline or CNO injection into control mice
+did not affect sleep-wake proportions (Figures 5F–5H). A change
+was also evident in cortical EEG (Figure 5I); contrary to optoge-
+netic activation, chemogenetic inhibition was associated with
+increased delta (0.5–4 Hz) power (Figure 5J) and decreased
+high-frequency (40–100 Hz) activity (Figure 5K) relative to vehicle
+injection. To test whether CNO-induced sleep-wake states have
+normal EEG architecture, we veriﬁed that the EEG spectrum in
+each state after CNO injection was not distinguishable from those
+after saline injection (Figures S5J–S5L). Thus, our ﬁndings indi-
+cate that DRNDA neuronal activity is required for supporting
+wakefulness in normal physiological conditions.
+
+DRNDA Neuronal Activity Supports Wakefulness in the
+Presence of Salient Stimuli
+Since diverse salient stimuli activated DRNDA neurons (Figure 1)
+and their ﬁring promoted wakefulness (Figures 4 and 5), we
+asked whether DRNDA neurons are necessary for maintaining
+arousal in the face of environmental salience by chemogeneti-
+cally inhibiting their activity (Figure 6A). We introduced female
+mouse and predator odor TMT to the subject’s home cage dur-
+ing the dark cycle while monitoring behavioral states. These two
+stimuli, which were shown to induce robust DRNDA activity (Fig-
+ures 1C, 1D, and S2E), hold ethological relevance and are of
+opposite valence. CNO injection into the DRNDA-hM4Di mice
+reduced the time spent awake and promoted NREM sleep in
+both assays, contrary to other conditions where mice remained
+awake (Figures 6B and 6C). More broadly, DRNDA inhibition
+during these assays caused a shift in cortical EEG spectra;
+CNO treatment of DRNDA-hM4Di mice led to an increase in delta
+(0.5–4 Hz) power and decreases in high-theta (8–12 Hz) and
+high-frequency (40–100 Hz) power relative to saline condition,
+which was absent in control mice (Figures 6D–6G).
+
+We further asked if the unexpected presentation of arousing or
+alerting stimuli (e.g., loud noises) during sleep could induce im-
+mediate wake transitions with DRNDA ﬁring. DRNDA-GCaMP6s
+mice were exposed to randomized auditory stimuli
+(65 dB,
+2–5 kHz, 2 Hz pulse frequency, 250 ms width, 10 s duration)
+throughout their light phase while recording GCaMP6s ﬂuores-
+cence and EEG/EMG signals (Figure S6A). We observed time-
+locked DRNDA activity upon tone onset, which was most
+prominent when subjects immediately (within 10 s) switched
+from sleep to wake (Figures S6B and S6C). There was no detect-
+able difference in DRNDA activity increase between NREM-
+and REM-to-wake transitions (Figures S6D and S6E). To test
+
+Neuron 94, 1205–1219, June 21, 2017 1211
+
+1212 Neuron 94, 1205–1219, June 21, 2017
+
+(legend on next page)
+
+for a causal contribution of DRNDA activity to cued arousal, we
+repeated the above experiment on mice expressing archaerho-
+dopsin-3 (Arch; Mattis et al., 2011), which allows for time-locked
+reversible inhibition (Figures S6F and S6G). When DRNDA neu-
+rons were exposed to a continuous 20 s light pulse (532 nm,
+10 mW) centered on tone delivery (70 dB), the probability of
+cued waking from NREM (Figures S6H–S6K), but not from
+REM sleep (Figures S6L–S6O), signiﬁcantly decreased. DRNDA
+inhibition did not completely block NREM-to-wake transitions,
+which suggests that multiple pathways likely work together to
+sustain full arousal, including, but not limited to, noradrenergic
+or cholinergic neurons (Aston-Jones and Bloom, 1981; Xu
+et al., 2015). In sum, these data indicate that DRNDA activity is
+required for maintaining salience-induced wakefulness and for
+triggering cued waking from sleep.
+
+DISCUSSION
+
+Using simultaneous calcium imaging and polysomnography in
+conjunction with optogenetic and chemogenetic manipulations,
+we demonstrated that DRNDA neurons respond to external
+salient events of positive and negative valence, show correlative
+ﬂuctuations at the population level across distinct sleep-wake
+states, and promote wakefulness. Furthermore, DRNDA activity
+is necessary to maintain normal levels of wakefulness and sup-
+port arousal
+in response to the perception of salient stimuli.
+These ﬁndings support a role for wake-promoting DRNDA neu-
+rons that parallels the arousal-promoting function of isolated
+DA cells in invertebrates (Pimentel et al., 2016), as well as a
+
+more expansive role for DRNDA signaling beyond promoting
+social interaction via negative reinforcement (Matthews et al.,
+2016) or mediating anti-nociceptive effects (Li et al., 2016).
+
+Our photometry data demonstrate not only that social interac-
+tion robustly enhances DRNDA spiking (female interaction, male
+intruder; Figures 1 and S2), akin to previous ﬁndings (juvenile
+interaction; Matthews et al., 2016), but also that these neurons
+respond to the perception of highly salient, non-social stimuli
+(Figures 1 and S2). DRNDA activation by a wide variety of
+rewarding and aversive stimuli, both social and non-social,
+occurred irrespective of the subject’s social history, as the stim-
+ulus-evoked change in DRNDA ﬂuorescence was not inﬂuenced
+by chronic separation from cage-mates (Figures S2J–S2M).
+Given the subtleties in how various forms of social deprivation
+(e.g., maternal separation, acute or chronic social
+isolation)
+can differentially alter physiology and behavior (George et al.,
+2010; Whitaker et al., 2013), the extent to which a subject’s social
+environment and rank causes plasticity in DRNDA neurons will
+require further investigation. Based on the documented hetero-
+geneity of ventral midbrain DA groups (Bromberg-Martin et al.,
+2010; Morales and Margolis, 2017), it is plausible that DRNDA
+cells may also be heterogeneous and individually tuned to spe-
+ciﬁc classes of stimuli. For example, some DRNDA neurons
+may play a general role in social engagement or may be more
+susceptible to changes in social history, while other subsets
+may ﬁre selectively for arousing, non-social stimuli. Since we
+and Matthews et al.
+(2016) used different ﬁber-placement
+methods (angled versus perpendicular, respectively), we may
+have sampled distinct, non-overlapping DRNDA subsets.
+
+Figure 4. Optogenetic Stimulation of DRNDA Neurons Promotes Wakefulness
+(A) TH-Cre mice injected with AAV5-Ef1a-DIO-ChR2-eYFP or AAV5-hSyn-DIO-EGFP and implanted with an optical ﬁber received optogenetic stimulation during
+sleep-wake state monitoring.
+(B) Confocal images of ChR2-eYFP+ neurons (green) co-localized with TH+ neurons (red). Scale bar, 100 mm.
+(C) Two-minute blocks (blue arrows) of phasic stimulations were delivered with intervals of 20 to 25 min throughout the light phase to photo-activate DRNDA
+neurons.
+(D) Probability of being awake was dramatically increased upon onset of the phasic stimulation, with concurrent reduction of both NREM and REM state
+probability in DRNDA-ChR2 mice.
+(E) Same as (D), but no change was observed in DRNDA-EGFP mice.
+(F) The increase in wake probability in DRNDA-ChR2 mice compared with DRNDA-EGFP mice was signiﬁcant, as were the decreases in NREM and REM sleep
+probability (n = 8 per group; unpaired t test, ****p < 0.0001).
+(G) There was no difference in the latency to wake onset even after 4 hr of sleep deprivation in both groups (n = 4 per group; paired t test, p > 0.2). Regardless of
+sleep deprivation, latency to wake after stimulation was signiﬁcantly shorter in DRNDA-ChR2 mice compared to controls (unpaired t test, *p < 0.05, **p < 0.01).
+(H) Power spectral density of frontal EEG shows reduced power in low-frequency range and increased power in high-frequency range during light ON (blue)
+compared to light OFF (gray) conditions in DRNDA-ChR2 mice.
+(I) Same as (H), but power spectral density showed no difference across light ON (orange) and OFF (gray) conditions in DRNDA-EGFP mice.
+(J) Left: time-varying spectral analysis showed that the amplitude of delta (0.5–4 Hz) rhythms was decreased upon phasic stimulation. Right: delta amplitude
+during the light ON epoch was signiﬁcantly decreased compared to baseline OFF epochs (n = 8 per group; two-way ANOVA revealed group 3 epoch interaction,
+F2,26 = 17.06, p < 0.0001; Bonferroni post hoc analysis, ****p < 0.0001).
+(K) Left: the amplitude of high-frequency (40–100 Hz) rhythms was increased upon phasic stimulation. Right: high-frequency amplitude was signiﬁcantly
+increased during the light ON epoch compared to the OFF epochs (n = 8 per group; two-way ANOVA revealed group 3 epoch interaction, F2,26 = 5.096, p < 0.05;
+Bonferroni post hoc analysis, **p < 0.01).
+(L) 1 hr of phasic DRNDA stimulation signiﬁcantly increased the time spent in wakefulness during the light ON hour compared to the light OFF hours (n = 6 per
+group; two-way ANOVA revealed group 3 epoch interaction, F2,20 = 15.99, p < 0.0001; Bonferroni post hoc analysis, ***p < 0.001).
+(M) 1 hr of phasic stimulation signiﬁcantly increased the duration of wake episodes (n = 6 per group; two-way ANOVA revealed group 3 epoch interaction,
+F2,20 = 12.16, p < 0.001; Bonferroni post hoc analysis, ***p < 0.001).
+(N) Power spectral density revealed decrease in low-frequency power and increase in high-frequency power in DRNDA-ChR2 mice during light ON compared to the
+light OFF hours, but no changes were observed in DRNDA-EGFP mice.
+(O) Stimulation-induced delta (0.5–4 Hz) power reduction was signiﬁcantly larger in DRNDA-ChR2 mice (n = 6 per group; unpaired t test, *p < 0.05).
+(P) Stimulation-induced high-frequency (40–100 Hz) power increase was signiﬁcantly larger in DRNDA-ChR2 mice (n = 6 per group; unpaired t test, **p < 0.01).
+Data represent mean ± SEM.
+
+Neuron 94, 1205–1219, June 21, 2017 1213
+
+Figure 5. Chemogenetic Inhibition of DRNDA Neurons Reduces Wakefulness
+(A) AAV2-hSyn-DIO-hM4Di-mCherry or EGFP vectors were injected to the DRN of TH-Cre mice, and EEG/EMG electrodes were implanted for sleep-wake state
+classiﬁcation.
+(B) Confocal images of TH+ (green) neurons co-localized with hM4Di-mCherry (red) expression. Scale bar, 100 mm.
+(C) Saline or CNO (1 mg/kg) was intraperitoneally injected to inhibit DRNDA neurons during the dark phase. EEG/EMG recordings were performed for 2 hr
+afterward.
+(D) Representative hypnogram (top), EMG amplitude (middle, in 5 s windows), and delta amplitude (bottom, in 5 s windows) from a DRNDA-hM4Di mouse after saline
+injection.
+(E) Same as (D), but with CNO injection. CNO injection caused reduced wakefulness, accompanied by lower EMG and higher delta amplitudes.
+
+(legend continued on next page)
+
+1214 Neuron 94, 1205–1219, June 21, 2017
+
+Figure 6. DRNDA Firing Supports Wakefulness upon Exposure to Salient Stimuli
+(A) DRNDA-hM4Di and DRNDA-EGFP mice were systemically administered with saline or CNO (1 mg/kg) 45 min prior to the introduction of a female mouse or a ﬁlter
+paper with predator odor TMT. EEG/EMG recordings were carried out for 1 hr after salient stimuli presentation.
+(B) While the introduction of a female mouse induced robust wakefulness in other conditions, CNO-injected DRNDA-hM4Di mice spent signiﬁcantly reduced time in
+wakefulness at the cost of NREM sleep (n = 4 per group; two-way ANOVA revealed a group 3 drug interaction, F1,15 [wake, NREM] = 20.83, p < 0.01, Bonferroni
+post hoc analysis, *p < 0.05, *p < 0.01).
+(C) Similar to (B), but a ﬁlter paper with predator odor TMT was introduced to home-cages. Compared to other conditions, CNO-injected DRNDA-hM4Di mice spent
+signiﬁcantly reduced time in wakefulness and increased time in NREM sleep (n = 4 per group; two-way ANOVA revealed a group 3 drug interaction, F1,15 [wake,
+NREM] = 26.88, p < 0.01, Bonferroni post hoc analysis, **p < 0.01).
+(D) Power spectral density analysis during female mouse interaction revealed CNO-induced increase in low-frequency power and decrease in high-theta
+(8–12 Hz) and high-frequency power in DRNDA-hM4Di mice with respect to the saline condition but no change in control mice.
+(E) CNO-induced increase in delta (0.5–4 Hz) power and decrease in high-theta (8–12 Hz) and high-frequency (40–100 Hz) power were signiﬁcantly larger in
+DRNDA-hM4Di mice than in controls (n = 4 per group; unpaired t test, **p < 0.01, ***p < 0.001).
+(F) Same as (D), but for the TMT condition. A similar trend was observed as (D).
+(G) CNO-induced increase in delta (0.5–4 Hz) power and decrease in high-theta (8–12 Hz) and high-frequency (40–100 Hz) power were signiﬁcantly larger in
+DRNDA-hM4Di mice than in controls (n = 4 per group; unpaired t test, *p < 0.05, **p < 0.01).
+Data represent mean ± SEM.
+
+Matthews et al. (2016) further demonstrated that DRNDA neu-
+rons signal aversion, a trend that was also corroborated, albeit
+weakly, by our data (Figure S4M). This is in stark contrast with
+
+wake-promoting VTADA neurons, whose activity supports robust
+place preference and operant responding (Tsai et al., 2009;
+Witten et al., 2011). That neural circuits may be involved in two
+
+(F) CNO injections into the DRNDA-hM4Di mice decreased the time spent in wake and increased the time spent in NREM sleep (n = 5 per group; two-way ANOVA
+revealed a group 3 drug interaction in wake and NREM, F1,19 [wake] = 20.96, p < 0.01, F1,19 [NREM] = 28.34, p < 0.001, F1,19 [REM] = 2.07, p > 0.1; Bonferroni post
+hoc analysis, *p < 0.05, **p < 0.01).
+(G) Duration of NREM sleep was signiﬁcantly increased when DRNDA-hM4Di mice were administered with CNO (n = 5 per group; two-way ANOVA revealed a
+group 3 drug interaction in NREM, F1,19 [wake] = 3.84, p > 0.05, F1,19 [NREM] = 10.78, p < 0.05, F1,19 [REM] = 0.26, p > 0.6; Bonferroni post hoc analysis, **p < 0.01,
+*p < 0.05).
+(H) There was no difference in the number of episodes in all states (n = 5 per group; two-way ANOVA revealed no group 3 drug interaction, F1,19 [wake] = 0.88,
+F1,19 [NREM] = 0.52, F1,19 [REM] = 0.55, all p > 0.3).
+(I) Power spectral density analysis revealed CNO-induced increase in low-frequency power and decrease in high-frequency power in DRNDA-hM4Di mice with
+respect to saline condition, but no change in controls.
+(J) CNO-induced delta (0.5–4 Hz) power increase was signiﬁcantly larger in DRNDA-hM4Di mice compared to controls (n = 5 per group; unpaired t test, **p < 0.01).
+(K) CNO-induced high-frequency (40–100 Hz) power decrease was signiﬁcantly larger in DRNDA-hM4Di mice compared to controls (n = 5 per group; unpaired t test,
+****p < 0.0001).
+Data represent mean ± SEM.
+
+Neuron 94, 1205–1219, June 21, 2017 1215
+
+seemingly unrelated roles, valence encoding and sleep-wake
+regulation, is not unique to midbrain DA groups; wake-promoting
+LC NA neurons and CRH inputs also convey negative valence
+(McCall et al., 2015). Considering the involvement of hypocretin
+and VTADA systems in reward behavior (Espan˜ a, 2012; Wise,
+2004), there may be dichotomous wake-promoting pathways
+signaling positive or negative valence upon their activation.
+That DRNDA neurons can simultaneously send arousal and
+anti-nociceptive signals (Li et al., 2016) can be understood by
+considering DRNDA connectivity with the bed nucleus of stria ter-
+minalis (BNST; Figure S4Q), which is a critical regulator of pain
+perception (Minami and Ide, 2015).
+
+Compared to ventral midbrain DA counterparts (Schultz, 1997;
+Ungless et al., 2004; Matsumoto and Hikosaka, 2009; Cohen
+et al., 2012; Lerner et al., 2015; Kim et al., 2016), the natural dy-
+namics of DRNDA neurons are much less characterized. Due to
+their relative low number and shared projection targets, DRNDA
+neurons have been assumed to be functionally similar to VTADA
+neurons and hence termed the dorso-caudal extension of the
+VTA (A10) or A10 dc group (Hokfelt et al., 1984). Several pieces
+of evidence argue against their treatment as a mere extension
+of the VTA. Unlike the well-studied dorsal or lateral VTADA neu-
+rons, which ﬁre bursts in response to rewarding or reward-pre-
+dicting stimuli and are inhibited by punishment (Schultz, 1997;
+Ungless et al., 2004; Cohen et al., 2012; Kim et al., 2016), or
+the ventromedial VTADA neurons, which are selectively excited
+(Brischoux et al., 2009), DRNDA neurons
+by aversive stimuli
+appear to be activated by any alerting or salient stimulus, regard-
+less of valence (Figures 1 and S2). Also, they appear to be mini-
+mally affected by physically salient but motivationally neutral
+cues, such as novel or familiar objects (Figure 1). Since both
+rewarding and aversive stimuli elicit arousal and motivated re-
+sponding, the VTADA system may address this challenge of
+dual positive (Schultz, 1997) and negative (Brischoux et al.,
+2009; Matsumoto and Hikosaka, 2009; Zweifel et al., 2011)
+valence coding in part through segregating to functionally and
+electrophysiologically distinct subgroups split across anatom-
+ical gradients (Brischoux et al., 2009; Bromberg-Martin et al.,
+2010) or projection targets (Lammel et al., 2011). The DRNDA
+population, from our observations, showed bimodal activation
+at the population level, responding to both positive and negative
+stimuli. Whether individual DRNDA neurons are uniformly excited
+by positive and negative valence (therefore encoding salience),
+or whether they are oppositely tuned and intermingled within
+the DRN, will require future single-cell recording techniques.
+
+DRNDA and VTADA populations diverge signiﬁcantly in down-
+stream targets, which may help to explain their functional hetero-
+geneity. Optogenetic excitation of VTADA neurons, especially
+those projecting to the nucleus accumbens, supports both
+appetitive conditioning and positive reinforcement behavior
+(Wise, 2004; Witten et al., 2011; Steinberg et al., 2014), whereas
+stimulation of DRNDA neurons produces neutral or mild aversion
+(Figure S4M; Matthews et al., 2016). These observations may be
+indicative of differences in downstream connectivity between
+these neuronal populations. Although DRNDA and VTADA neu-
+rons share overlap in some of their downstream targets (e.g.,
+the prefrontal cortex and the basolateral amygdala), DA neurons
+projecting to cortical and striatal regions predominantly arise
+
+1216 Neuron 94, 1205–1219, June 21, 2017
+
+from the VTA (Bjo¨ rklund and Dunnett, 2007). DRNDA terminals,
+however, are biased toward the extended amygdala, such as
+the BNST and central nucleus of the amygdala (CeA) (Figures
+S4P–S4S; Hasue and Shammah-Lagnado, 2002). Thus, as a
+major source of excitatory DA drive to the BNST and CeA
+(Matthews et al., 2016), two regions known to bi-directionally
+affect motivated behavior and regulate complex emotional
+states (Jennings et al., 2013), DRNDA neurons are uniquely posi-
+tioned to provide excitatory signals about environmental
+salience and internal arousal state to downstream nuclei, which
+can in turn initiate appropriate behavior, including triggering vig-
+ilance or patterning sleep-wake states.
+
+Although DA has been implicated in sleep-wake regulation by
+pharmacological (Lin et al., 1992), genetic (Wisor et al., 2001),
+and clinical (Lima, 2013) studies, the precise circuits mediating
+such actions have been elusive. Single-unit recordings of VTADA
+and SNcDA neurons have indicated that they do not change their
+mean ﬁring rate across distinct sleep-wake states (Miller et al.,
+1983; Dahan et al., 2007). Here, we show that DRNDA neurons
+are wake-active (Figures 2 and 3), whereas VTADA neurons ex-
+hibited increased burst ﬁring or Ca2+ signals during REM sleep
+over wakefulness (Dahan et al., 2007; Eban-Rothschild et al.,
+2016). While the role of VTADA ﬁring during REM sleep remains
+elusive, optogenetic activation of VTADA neurons can promote
+behavioral and electrocortical arousal (Eban-Rothschild et al.,
+2016; Taylor et al., 2016). Unlike the DRNDA or VTADA popula-
+tions, other DA groups appear to promote sleep rather than
+wakefulness. For example, chemical lesion of the SNcDA neurons
+projecting to the dorsal striatum (DS) promotes wakefulness, and
+optogenetic stimulation of SNcDA terminals in the DS increases
+NREM sleep (Qiu et al., 2016). Outside the midbrain, A13 zona
+incerta DA neurons express c-fos after REM sleep rebound
+(Le´ ger et al., 2010). Taken together, these studies indicate that
+anatomically segregated DA populations may play functionally
+heterogeneous or even opposing roles in regulating sleep-
+wake states, and the DRNDA as well as VTADA systems represent
+key arousal-promoting DA populations.
+
+(e.g., salient stimuli)
+
+As shown here (Figures 6 and S6), external factors can inﬂu-
+ence sleep-wake patterns, and DRNDA neurons contribute to
+these processes. Our ﬁndings that DRNDA activity tracks the
+arousal states over broad temporal scales and that DRNDA neu-
+rons respond to salient external cues position the DRNDA system
+at the interface between internal (e.g., wake/sleep drive) and
+external
+inﬂuences in regulating sleep-
+wake states. While this evolutionarily conserved trait is advanta-
+geous for organism survival, its dysfunction may have negative
+implications in humans, in which sleep disorders triggered by
+the malfunctioning of arousal-promoting circuits represent a
+highly morbid societal burden (Sanford et al., 2015). DRNDA neu-
+rons are not well studied in humans, but it has been shown that
+they degenerate in patients with multiple systems atrophy and
+Lewy body dementia, which commonly cause excessive day-
+time sleepiness (Benarroch et al., 2009). Going forward, thera-
+peutic strategies targeting DRNDA activity may have utility in
+the treatment of primary sleep-wake disorders and sleep/arousal
+disturbances secondary to myriad neuropsychiatric diseases
+(Sateia et al., 2000), including major depressive disorder, bipolar
+affective disorder, and schizophrenia.
+
+STAR+METHODS
+
+Detailed methods are provided in the online version of this paper
+and include the following:
+
+d KEY RESOURCES TABLE
+d CONTACT FOR REAGENT AND RESOURCE SHARING
+d EXPERIMENTAL MODEL AND SUBJECT DETAILS
+
+B Surgeries for viral delivery, optical ﬁber and EEG/EMG
+
+implantation
+
+B Fiber photometry
+B Behavioral experiments
+B EEG/EMG data acquisition, processing, and sleep-
+
+wake state classiﬁcation
+
+B Optogenetic and chemogenetic modulation of behav-
+
+ioral states and locomotion
+
+B Auditory cue arousal test
+B Data analysis
+B Ex vivo electrophysiology
+B Histology
+
+d QUANTIFICATION AND STATISTICAL ANALYSIS
+
+SUPPLEMENTAL INFORMATION
+
+Supplemental Information includes six ﬁgures and two movies and can be
+found with this article online at http://dx.doi.org/10.1016/j.neuron.2017.
+05.020.
+
+AUTHOR CONTRIBUTIONS
+
+J.R.C., J.B.T., and V.G. conceived and designed the project. J.R.C. performed
+and collected data from EEG/EMG recording, ﬁber photometry, and optoge-
+netic, chemogenetic, and behavioral experiments. C.X. and J.E.R. performed
+ex vivo slice recordings. J.R.C., J.B.T., and V.G. analyzed data and made ﬁg-
+ures. J.R.C. and A.G. assembled the ﬁber photometry setup and wrote scripts
+for processing. J.R.C. and L.R.B. set up the EEG and EMG recording system.
+J.R.C., J.B.T., and V.G. wrote the manuscript with signiﬁcant contributions
+from J.E.R. and L.R.B. All authors read and approved the ﬁnal manuscript.
+V.G. supervised all aspects of the project.
+
+ACKNOWLEDGMENTS
+
+We would like to acknowledge Drs. Karl Deisseroth and Tom Davidson for the
+ﬁber photometry setup. We appreciate the entire Gradinaru lab and Dr. David
+Anderson for helpful discussions. This work was supported by the NIH
+(Director’s New Innovator grants IDP20D017782-01 and PECASE), the NIH/
+NIA (grants 1R01AG047664-01 and NIH BRAIN 1U01NS090577), the Heritage
+Medical Research Institute (HMRI-15-09-01),
+the Pew Charitable Trust
+(00026171),
+the Michael J. Fox Foundation (RRIA 2013), Caltech-GIST
+(CG2013), and the Sloan Foundation (FR2015-65471, to V.G.). J.B.T. is a
+Colvin postdoctoral fellow. J.E.R.
+is supported by the Children’s Tumor
+Foundation (2016-01-006). C.X. was partly supported by the Michael J. Fox
+Foundation.
+
+Received: October 6, 2016
+Revised: March 31, 2017
+Accepted: May 11, 2017
+Published: June 8, 2017
+
+REFERENCES
+
+Benarroch, E.E., Schmeichel, A.M., Dugger, B.N., Sandroni, P., Parisi, J.E.,
+and Low, P.A. (2009). Dopamine cell loss in the periaqueductal gray in multiple
+system atrophy and Lewy body dementia. Neurology 73, 106–112.
+
+Bjo¨ rklund, A., and Dunnett, S.B. (2007). Dopamine neuron systems in the brain:
+an update. Trends Neurosci. 30, 194–202.
+
+Brischoux, F., Chakraborty, S., Brierley, D.I., and Ungless, M.A. (2009). Phasic
+excitation of dopamine neurons in ventral VTA by noxious stimuli. Proc. Natl.
+Acad. Sci. USA 106, 4894–4899.
+
+Bromberg-Martin, E.S., Matsumoto, M., and Hikosaka, O. (2010). Dopamine in
+motivational control: rewarding, aversive, and alerting. Neuron 68, 815–834.
+
+Brown, R.E., Basheer, R., McKenna, J.T., Strecker, R.E., and McCarley, R.W.
+(2012). Control of sleep and wakefulness. Physiol. Rev. 92, 1087–1187.
+
+Chen, T.W., Wardill, T.J., Sun, Y., Pulver, S.R., Renninger, S.L., Baohan, A.,
+Schreiter, E.R., Kerr, R.A., Orger, M.B., Jayaraman, V., et al.
+(2013).
+Ultrasensitive ﬂuorescent proteins for imaging neuronal activity. Nature 499,
+295–300.
+
+Cohen, J.Y., Haesler, S., Vong, L., Lowell, B.B., and Uchida, N. (2012). Neuron-
+type-speciﬁc signals for reward and punishment in the ventral tegmental area.
+Nature 482, 85–88.
+
+Daberkow, D.P., Brown, H.D., Bunner, K.D., Kraniotis, S.A., Doellman, M.A.,
+Ragozzino, M.E., Garris, P.A., and Roitman, M.F. (2013). Amphetamine para-
+doxically augments exocytotic dopamine release and phasic dopamine sig-
+nals. J. Neurosci. 33, 452–463.
+
+Dahan, L., Astier, B., Vautrelle, N., Urbain, N., Kocsis, B., and Chouvet, G.
+(2007). Prominent burst ﬁring of dopaminergic neurons in the ventral tegmental
+area during paradoxical sleep. Neuropsychopharmacology 32, 1232–1241.
+
+Descarries, L., Berthelet, F., Garcia, S., and Beaudet, A. (1986). Dopaminergic
+projection from nucleus raphe dorsalis to neostriatum in the rat. J. Comp.
+Neurol. 249, 511–520, 484–515.
+
+Dougalis, A.G., Matthews, G.A., Bishop, M.W., Brischoux, F., Kobayashi, K.,
+and Ungless, M.A. (2012). Functional properties of dopamine neurons and
+co-expression of vasoactive intestinal polypeptide in the dorsal raphe nucleus
+and ventro-lateral periaqueductal grey. Eur. J. Neurosci. 36, 3322–3332.
+
+Eban-Rothschild, A., Rothschild, G., Giardino, W.J., Jones, J.R., and de
+Lecea, L. (2016). VTA dopaminergic neurons regulate ethologically relevant
+sleep-wake behaviors. Nat. Neurosci. 19, 1356–1366.
+
+Espan˜ a, R.A. (2012). Hypocretin/orexin involvement in reward and reinforce-
+ment. Vitam. Horm. 89, 185–208.
+
+Garey, J., Goodwillie, A., Frohlich, J., Morgan, M., Gustafsson, J.A., Smithies,
+O., Korach, K.S., Ogawa, S., and Pfaff, D.W. (2003). Genetic contributions to
+generalized arousal of brain and behavior. Proc. Natl. Acad. Sci. USA 100,
+11019–11022.
+
+George, E.D., Bordner, K.A., Elwaﬁ, H.M., and Simen, A.A. (2010). Maternal
+separation with early weaning: a novel mouse model of early life neglect.
+BMC Neurosci. 11, 123.
+
+Gjerstad, M.D., Wentzel-Larsen, T., Aarsland, D., and Larsen, J.P. (2007).
+Insomnia in Parkinson’s disease:
+frequency and progression over time.
+J. Neurol. Neurosurg. Psychiatry 78, 476–479.
+
+Gunaydin, L.A., Grosenick, L., Finkelstein, J.C., Kauvar, I.V., Fenno, L.E.,
+Adhikari, A., Lammel, S., Mirzabekov, J.J., Airan, R.D., Zalocusky, K.A.,
+et al. (2014). Natural neural projection dynamics underlying social behavior.
+Cell 157, 1535–1551.
+
+Hasue, R.H., and Shammah-Lagnado, S.J. (2002). Origin of the dopaminergic
+innervation of the central extended amygdala and accumbens shell: a com-
+bined retrograde tracing and immunohistochemical study in the rat.
+J. Comp. Neurol. 454, 15–33.
+
+Hokfelt, T., Martensson, R., Bjorklund, A., Kleinau, S., and Goldstein, M.
+(1984). Distribution Maps of Tyrosine-Hydroxylase-Immunoreactive Neurons
+in the Rat Brain (Elsevier).
+
+Aston-Jones, G., and Bloom, F.E. (1981). Activity of norepinephrine-containing
+locus coeruleus neurons in behaving rats anticipates ﬂuctuations in the sleep-
+waking cycle. J. Neurosci. 1, 876–886.
+
+Jennings, J.H., Sparta, D.R., Stamatakis, A.M., Ung, R.L., Pleil, K.E., Kash,
+T.L., and Stuber, G.D. (2013). Distinct extended amygdala circuits for diver-
+gent motivational states. Nature 496, 224–228.
+
+Neuron 94, 1205–1219, June 21, 2017 1217
+
+Jones, B.E. (1991). Paradoxical sleep and its chemical/structural substrates in
+the brain. Neuroscience 40, 637–656.
+
+Jouvet, M.
+Neuropsychopharmacology 21 (2, Suppl), 24S–27S.
+
+(1999). Sleep
+
+and
+
+serotonin:
+
+an
+
+unﬁnished
+
+story.
+
+Kim, C.K., Yang, S.J., Pichamoorthy, N., Young, N.P., Kauvar, I., Jennings,
+J.H., Lerner, T.N., Berndt, A., Lee, S.Y., Ramakrishnan, C., et al. (2016).
+Simultaneous fast measurement of circuit dynamics at multiple sites across
+the mammalian brain. Nat. Methods 13, 325–328.
+
+Lammel, S., Ion, D.I., Roeper, J., and Malenka, R.C. (2011). Projection-speciﬁc
+modulation of dopamine neuron synapses by aversive and rewarding stimuli.
+Neuron 70, 855–862.
+
+Lammel, S., Lim, B.K., Ran, C., Huang, K.W., Betley, M.J., Tye, K.M.,
+Deisseroth, K., and Malenka, R.C. (2012). Input-speciﬁc control of reward
+and aversion in the ventral tegmental area. Nature 491, 212–217.
+
+Lammel, S., Lim, B.K., and Malenka, R.C. (2014). Reward and aversion in a
+heterogeneous midbrain dopamine system. Neuropharmacology 76 (Pt B),
+351–359.
+
+Le´ ger, L., Sapin, E., Goutagny, R., Peyron, C., Salvert, D., Fort, P., and Luppi,
+P.H. (2010). Dopaminergic neurons expressing Fos during waking and para-
+doxical sleep in the rat. J. Chem. Neuroanat. 39, 262–271.
+
+Lerner, T.N., Shilyansky, C., Davidson, T.J., Evans, K.E., Beier, K.T.,
+Zalocusky, K.A., Crow, A.K., Malenka, R.C., Luo, L., Tomer, R., and
+Deisseroth, K. (2015). Intact-brain analyses reveal distinct information carried
+by SNc dopamine subcircuits. Cell 162, 635–647.
+
+Miller, J.D., Farber, J., Gatz, P., Roffwarg, H., and German, D.C. (1983). Activity
+of mesencephalic dopamine and non-dopamine neurons across stages of
+sleep and walking in the rat. Brain Res. 273, 133–141.
+
+Minami, M., and Ide, S. (2015). How does pain induce negative emotion? Role
+of the bed nucleus of the stria terminalis in pain-induced place aversion. Curr.
+Mol. Med. 15, 184–190.
+
+Morales, M., and Margolis, E.B. (2017). Ventral tegmental area: cellular hetero-
+geneity, connectivity and behaviour. Nat. Rev. Neurosci. 18, 73–85.
+
+Nagatsu, I., Inagaki, S., Kondo, Y., Karasawa, N., and Nagatsu, T. (1979).
+Immunoﬂuorescent studies on the localization of tyrosine hydroxylase and
+dopamine-beta-hydroxylase in the mes-, di-, and telencephalon of the rat us-
+ing unperfused fresh fronzen section. Acta Histochem. Cytochem. 12, 20–37.
+
+Pimentel, D., Donlea, J.M., Talbot, C.B., Song, S.M., Thurston, A.J., and
+Miesenbo¨ ck, G. (2016). Operation of a homeostatic sleep switch. Nature
+536, 333–337.
+
+Pinto, L., Goard, M.J., Estandian, D., Xu, M., Kwan, A.C., Lee, S.H., Harrison,
+T.C., Feng, G., and Dan, Y. (2013). Fast modulation of visual perception by
+basal forebrain cholinergic neurons. Nat. Neurosci. 16, 1857–1863.
+
+Poulin, J.F., Zou, J., Drouin-Ouellet, J., Kim, K.Y., Cicchetti, F., and
+Awatramani, R.B. (2014). Deﬁning midbrain dopaminergic neuron diversity
+by single-cell gene expression proﬁling. Cell Rep. 9, 930–943.
+
+Qiu, M.H., Yao, Q.L., Vetrivelan, R., Chen, M.C., and Lu, J. (2016). Nigrostriatal
+dopamine action on globus pallidus regulates sleep. Cereb. Cortex 26,
+1430–1439.
+
+Li, C., Sugam, J.A., Lowery-Gionta, E.G., McElligott, Z.A., McCall, N.M.,
+Lopez, A.J., McKlveen, J.M., Pleil, K.E., and Kash, T.L. (2016). Mu opioid
+receptor modulation of dopamine neurons in the periaqueductal gray/
+dorsal raphe: a role in regulation of pain. Neuropsychopharmacology 41,
+2122–2132.
+
+Qu, W.M., Huang, Z.L., Xu, X.H., Matsumoto, N., and Urade, Y. (2008).
+Dopaminergic D1 and D2 receptors are essential for the arousal effect of mod-
+aﬁnil. J. Neurosci. 28, 8462–8469.
+
+Rajasethupathy, P., Ferenczi, E., and Deisseroth, K. (2016). Targeting neural
+circuits. Cell 165, 524–534.
+
+Lima, M.M. (2013). Sleep disturbances in Parkinson’s disease: the contri-
+bution of dopamine in REM sleep regulation. Sleep Med. Rev. 17,
+367–375.
+
+Lin, J.S., Roussel, B., Akaoka, H., Fort, P., Debilly, G., and Jouvet, M. (1992).
+Role of catecholamines in the modaﬁnil and amphetamine induced wakeful-
+ness, a comparative pharmacological study in the cat. Brain Res. 591,
+319–326.
+
+Lu, J., Jhou, T.C., and Saper, C.B. (2006). Identiﬁcation of wake-active dopa-
+minergic neurons in the ventral periaqueductal gray matter. J. Neurosci. 26,
+193–202.
+
+Margolis, E.B., Mitchell, J.M., Ishikawa, J., Hjelmstad, G.O., and Fields, H.L.
+(2008). Midbrain dopamine neurons: projection target determines action
+potential duration and dopamine D(2) receptor inhibition. J. Neurosci. 28,
+8908–8913.
+
+Matsumoto, M., and Hikosaka, O. (2009). Two types of dopamine neuron
+distinctly convey positive and negative motivational signals. Nature 459,
+837–841.
+
+Matthews, G.A., Nieh, E.H., Vander Weele, C.M., Halbert, S.A., Pradhan, R.V.,
+Yosafat, A.S., Glober, G.F., Izadmehr, E.M., Thomas, R.E., Lacy, G.D., et al.
+(2016). Dorsal raphe dopamine neurons represent the experience of social
+isolation. Cell 164, 617–631.
+
+Mattis, J., Tye, K.M., Ferenczi, E.A., Ramakrishnan, C., O’Shea, D.J., Prakash,
+R., Gunaydin, L.A., Hyun, M., Fenno, L.E., Gradinaru, V., et al.
+(2011).
+Principles for applying optogenetic tools derived from direct comparative anal-
+ysis of microbial opsins. Nat. Methods 9, 159–172.
+
+McCall, J.G., Al-Hasani, R., Siuda, E.R., Hong, D.Y., Norris, A.J., Ford, C.P.,
+and Bruchas, M.R. (2015). CRH engagement of the locus coeruleus noradren-
+ergic system mediates stress-induced anxiety. Neuron 87, 605–620.
+
+McDevitt, R.A., Tiran-Cappello, A., Shen, H., Balderas, I., Britt, J.P., Marino,
+R.A., Chung, S.L., Richie, C.T., Harvey, B.K., and Bonci, A.
+(2014).
+Serotonergic versus nonserotonergic dorsal raphe projection neurons: differ-
+ential participation in reward circuitry. Cell Rep. 8, 1857–1869.
+
+Sakurai, T., Amemiya, A., Ishii, M., Matsuzaki, I., Chemelli, R.M., Tanaka, H.,
+Williams, S.C., Richardson, J.A., Kozlowski, G.P., Wilson, S., et al. (1998).
+Orexins and orexin receptors: a family of hypothalamic neuropeptides and G
+protein-coupled receptors that regulate feeding behavior. Cell 92, 573–585.
+
+Sanford, L.D., Suchecki, D., and Meerlo, P. (2015). Stress, arousal, and sleep.
+Curr. Top. Behav. Neurosci. 25, 379–410.
+
+Sateia, M.J., Greenough, G., and Nowell, P. (2000). Sleep in neuropsychiatric
+disorders. Semin. Clin. Neuropsychiatry 5, 227–237.
+
+Schultz, W. (1997). Dopamine neurons and their role in reward mechanisms.
+Curr. Opin. Neurobiol. 7, 191–197.
+
+Schweimer, J.V., and Ungless, M.A. (2010). Phasic responses in dorsal raphe
+serotonin neurons to noxious stimuli. Neuroscience 171, 1209–1215.
+
+Steinberg, E.E., Boivin, J.R., Saunders, B.T., Witten, I.B., Deisseroth, K., and
+Janak, P.H. (2014). Positive reinforcement mediated by midbrain dopamine
+neurons requires D1 and D2 receptor activation in the nucleus accumbens.
+PLoS ONE 9, e94771.
+
+Szymusiak, R., and McGinty, D. (2008). Hypothalamic regulation of sleep and
+arousal. Ann. N Y Acad. Sci. 1129, 275–286.
+
+Takahashi, K., Kayama, Y., Lin, J.S., and Sakai, K. (2010). Locus coeruleus
+neuronal activity during the sleep-waking cycle in mice. Neuroscience 169,
+1115–1126.
+
+Taylor, N.E., Van Dort, C.J., Kenny, J.D., Pei, J., Guidera, J.A., Vlasov, K.Y.,
+Lee, J.T., Boyden, E.S., Brown, E.N., and Solt, K. (2016). Optogenetic activa-
+tion of dopamine neurons in the ventral tegmental area induces reanimation
+from general anesthesia. Proc. Natl. Acad. Sci. USA 113, 12826–12831.
+
+Tsai, H.C., Zhang, F., Adamantidis, A., Stuber, G.D., Bonci, A., de Lecea, L.,
+and Deisseroth, K. (2009). Phasic ﬁring in dopaminergic neurons is sufﬁcient
+for behavioral conditioning. Science 324, 1080–1084.
+
+Ungless, M.A., Magill, P.J., and Bolam, J.P. (2004). Uniform inhibition of dopa-
+mine neurons in the ventral tegmental area by aversive stimuli. Science 303,
+2040–2042.
+
+1218 Neuron 94, 1205–1219, June 21, 2017
+
+Urban, D.J., and Roth, B.L. (2015). DREADDs (designer receptors exclusively
+activated by designer drugs): chemogenetic tools with therapeutic utility.
+Annu. Rev. Pharmacol. Toxicol. 55, 399–417.
+
+Wisor, J.P., Nishino, S., Sora, I., Uhl, G.H., Mignot, E., and Edgar, D.M. (2001).
+Dopaminergic role in stimulant-induced wakefulness. J. Neurosci. 21,
+1787–1794.
+
+Vinck, M., Batista-Brito, R., Knoblich, U., and Cardin, J.A. (2015). Arousal and
+locomotion make distinct contributions to cortical activity patterns and visual
+encoding. Neuron 86, 740–754.
+
+Whitaker, L.R., Degoulet, M., and Morikawa, H. (2013). Social deprivation en-
+hances VTA synaptic plasticity and drug-induced contextual learning. Neuron
+77, 335–345.
+
+Winsky-Sommerer, R., Boutrel, B., and de Lecea, L. (2005). Stress and arousal:
+the corticotrophin-releasing factor/hypocretin circuitry. Mol. Neurobiol. 32,
+285–294.
+
+Wise, R.A. (2004). Dopamine, learning and motivation. Nat. Rev. Neurosci. 5,
+483–494.
+
+Witten,
+I.B., Steinberg, E.E., Lee, S.Y., Davidson, T.J., Zalocusky, K.A.,
+Brodsky, M., Yizhar, O., Cho, S.L., Gong, S., Ramakrishnan, C., et al. (2011).
+Recombinase-driver rat lines: tools, techniques, and optogenetic application
+to dopamine-mediated reinforcement. Neuron 72, 721–733.
+
+Xu, M., Chung, S., Zhang, S., Zhong, P., Ma, C., Chang, W.C., Weissbourd, B.,
+Sakai, N., Luo, L., Nishino, S., and Dan, Y. (2015). Basal forebrain circuit for
+sleep-wake control. Nat. Neurosci. 18, 1641–1647.
+
+Zweifel, L.S., Fadok, J.P., Argilli, E., Garelick, M.G., Jones, G.L., Dickerson,
+T.M., Allen, J.M., Mizumori, S.J., Bonci, A., and Palmiter, R.D.
+(2011).
+Activation of dopamine neurons is critical for aversive conditioning and pre-
+vention of generalized anxiety. Nat. Neurosci. 14, 620–626.
+
+Neuron 94, 1205–1219, June 21, 2017 1219
+
+STAR+METHODS
+
+KEY RESOURCES TABLE
+
+REAGENT or RESOURCE
+
+SOURCE
+
+IDENTIFIER
+
+Antibodies
+
+Chicken polyclonal anti-TH
+
+Rabbit polyclonal anti-TH
+
+Chicken polyclonal anti-GFP
+
+Goat polyclonal anti-5HT
+
+Rabbit polyclonal anti-mCherry
+
+Anti-chicken Alexa Fluor 488
+
+Anti-rabbit Alexa Fluor 488
+
+Anti-goat Rhodamine Red-X
+
+Anti-rabbit Rhodamine Red-X
+
+Anti-rabbit Alexa Fluor 647
+
+Anti-chicken Alexa Fluor 647
+
+Aves Labs
+
+Santa Cruz
+
+Aves Labs
+
+Immunostar
+
+Abcam
+
+Jackson ImmunoResearch
+
+Jackson ImmunoResearch
+
+Jackson ImmunoResearch
+
+Jackson ImmunoResearch
+
+Jackson ImmunoResearch
+
+Jackson ImmunoResearch
+
+Cat#: TYH RRID: AB_10013440
+
+Cat#: sc-14007 RRID: AB_671397
+
+Cat#: GFP-1020 RRID: AB_10000240
+
+Cat#: 20079 RRID: AB_572262
+
+Cat#: ab167453 RRID: AB_2571870
+
+Cat#: 703-545-155 RRID: AB_2340375
+
+Cat#: 711-545-152 RRID: AB_2313584
+
+Cat#: 705-297-003 RRID: AB_2340425
+
+Cat#: 711-297-003 RRID: AB_2340615
+
+Cat#: 711-607-003 RRID: AB_2340626
+
+Cat#: 703-606-155 RRID: AB_2340380
+
+Chemicals, Peptides, and Recombinant Proteins
+
+Clozapine-N-oxide
+
+Enzo Life Science
+
+Cat#: BML-NS105
+
+European Mouse Mutant Archive
+
+EM: 00254
+
+AV-5-PV2819
+
+AV-5-PV2821
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+Experimental Models: Organisms/Strains
+
+Mouse: TH::IRES-Cre
+
+Recombinant DNA
+
+AAV5-Syn-FLEX-GCaMP6f
+
+AAV5-Syn-FLEX-GCaMP6s
+
+AAV5-Ef1a-DIO-ChR2(H134R)-eYFP
+
+AAV5-Ef1a-DIO-eArch3.0-eYFP
+
+AAV5-hSyn-DIO-EGFP
+
+Penn Vector Core
+
+Penn Vector Core
+
+UNC Vector Core
+
+UNC Vector Core
+
+UNC Vector Core
+
+AAV2-hSyn-DIO-hM4Di-mCherry
+
+UNC Vector Core/Addgene
+
+Software and Algorithms
+
+MATLAB R2014a
+
+pClamp 10.4
+
+SleepSign 3.0
+
+EthoVision XT10
+
+ABETII
+
+Prism 5.0
+
+Mathworks
+
+Molecular Devices
+
+Kissei Comtec
+
+Noldus Information Technology
+
+Lafayette Instrument
+
+GraphPad Software
+
+CONTACT FOR REAGENT AND RESOURCE SHARING
+
+Detailed information and requests for agents may be directed to and will be fulﬁlled by the Lead Contact, Viviana Gradinaru (viviana@
+caltech.edu).
+
+EXPERIMENTAL MODEL AND SUBJECT DETAILS
+
+Tyrosine hydroxylase (TH)::IRES-Cre knockin mice were obtained from the European Mouse Mutant Archive (EM::00254) and
+crossed with wild-type C57BL/6N mice. We exclusively used male heterozygote mice for ﬁber photometry during behaviors and
+used both male and female heterozygote mice for other experiments with EEG/EMG. After weaning, animals were group-housed until
+they were 3-4 months old. Upon the completion of any surgical procedures, mice were allowed to recover from anesthesia on a
+heating-pad, and then they were transferred, singly housed (or group-housed for the group-housed cohort) to a new residence
+room for full recovery (2-4 weeks) prior to the start of any behavioral experiments or habituation to EEG/EMG tethers. In this
+
+e1 Neuron 94, 1205–1219.e1–e8, June 21, 2017
+
+residence/procedure room, subjects were housed on a 12 h: 12 hr light/dark cycle (light off at 6AM, light on at 6PM) with ad libitum
+access to food and water. Animal husbandry and all experimental procedures involving animal subjects were approved by the
+Institutional Animal Care and Use Committee (IACUC) and by the Ofﬁce of Laboratory Animal Resources at the California Institute
+of Technology under IACUC protocol 1672.
+
+Surgeries for viral delivery, optical ﬁber and EEG/EMG implantation
+General surgical procedures and viral delivery
+Mice were anesthetized with isoﬂurane gas/carbogen mixture (5% for induction and 1.5%–2% for maintenance during surgery) and
+placed to a stereotaxic frame (David Kopf Instruments, CA, USA). After shaving their hair and sterilizing the skin with chlorohexidine, a
+midline incision was made with a sterile scalpel. The skull surface was wiped and cleaned with autoclaved cotton swabs. Bregma and
+lambda were identiﬁed and leveled to be on the same z axis. Small craniotomy holes were made for 20 degree angled injection of
+viruses and optical ﬁber implantation over the dorsal raphe nucleus (DRN, antero-posterior (AP) axis:  4.65 mm, medio-lateral
+(ML) axis: ± 1.2 mm, relative to Bregma). Adeno-associated viral vectors (AAV, see below for details) were injected into the DRN
+(AP  4.6 mm, ML ± 1.2 mm, dorso-ventral (DV)  2.95 mm, at a 20 degree angle relative to vertical axis from the left and right sides).
+Viral injection was performed using a blunt 35-gauge microinjection needle within a 10 uL microsyringe (NanoFil, World Precision
+Instruments, FL, USA), which was controlled by a microsyringe pump (UMP3, World Precision Instruments) connected to a controller
+(Micro4, World Precision Instruments). 0.3-0.5 uL of AAV was infused per site at a rate of 50 nL per min. Following injection, the
+needle/syringe was held in the same location for an additional 10 min to allow further diffusion. To prevent potential backﬂow, the
+needle/syringe was slowly withdrawn over approximately 10 min.
+EEG and EMG implantation
+To implant the EEG/EMG apparatus, three additional craniotomy holes were made in frontal (for ﬁrst EEG channel; AP +2.0 mm,
+ML +0.7 mm), central (for second EEG channel; AP  1.3 mm, ML +1.3 mm) and lateral parietal (for reference and ground;
+AP  3.5 mm, ML  2.5 mm) regions with a drill bit (#73, 105-0240.340, Kyocera, Kyoto, Japan). 0.10’’ electrodes with wire leads
+(8403, Pinnacle Technology Inc., KS, USA) were screwed into the craniotomy holes. With the leads from the screw electrodes
+held away from the surface of the skull to prevent accidental glue application, a thin layer of adhesive cement (C&B Metabond, Parkell
+Inc., NY, USA) was applied on the skull surface to secure the screw electrodes. Another thin layer of dental cement (51458, Stoelting
+Co., IL, USA) was additionally applied until it covered screw heads. The EEG/EMG headmount (8201, Pinnacle Technology Inc.) was
+then placed on the dental cement layer and lead wires from screw electrodes were connected to the headmount. Silver epoxy (MG
+Chemicals, BC, Canada) was applied to ensure electrical conduction between the lead wires and headmount. An additional layer of
+dental cement was applied to secure the headmount to the animal’s head. Finally, EMG leads from the headmount were inserted into
+the trapezius muscles and then the incision was closed.
+Optical ﬁber implantation (for ﬁber photometry and optogenetic experiments)
+Following virus infusion, an optical ferrule/ﬁber with cut length of 4 mm and diameter of 300 um (for optogenetics, NA 0.37, home-
+made) or 400 um (for ﬁber photometry, NA 0.48, Doric lenses, Quebec, QC, Canada) was ﬁrmly mounted to a stereotaxic holder
+(1766AP, David Kopf Instruments, CA, USA). An optical ferrule/ﬁber was then inserted to the DRN (AP  4.6 mm, ML ± 1.2 mm,
+DV  2.52.7 mm, at a 20 degree angle relative to vertical axis from either left or right side) through a craniotomy hole, and stopped
+200 (for ﬁber photometry) or 500 um (for optogenetics) above the viral injection site. A thin layer of adhesive cement was applied on
+the skull surface to strongly hold the ferrule/ﬁber. After adhesive cement was completely dried, a thick layer of pink dental cement
+was applied to build a robust head cap.
+Viral constructs
+For ﬁber photometry experiments, 0.5 uL of AAV serotype 5 encoding GCaMP6f or GCaMP6s (Chen et al., 2013) under synapsin
+promoter and Cre-dependent FLEX switch (AAV5-Syn-FLEX-GCaMP6f or GCaMP6s, 1.0-1.5 X 1013 genome copies/mL) was unilat-
+erally injected. GCaMP6 viruses were packaged and purchased from the University of Pennsylvania Vector Core (Philadelphia, PA,
+USA). For optogenetic activation experiments, 0.3 uL of AAV serotype 5 encoding ChR2-eYFP under Ef1a promoter and double-
+ﬂoxed inverse open reading frame (DIO) (AAV5-Ef1a-DIO-ChR2(h134R)-eYFP, 4.5 X 1012 genome copies/mL) was bilaterally injected.
+For chemogenetic experiments, 0.3 uL of AAV serotype 2 encoding hM4Di-mCherry under human synapsin promoter and DIO switch
+(AAV2-hSyn-DIO-hM4Di-mCherry, 4.0 - 5.0 X 1012 genome copies/mL) was bilaterally injected. For optogenetic inhibition experi-
+ments, 0.5 uL of AAV serotype 5 encoding eArch3.0-eYFP under Ef1a promoter and DIO frame (AAV5-Ef1a-DIO-eArch3.0-eYFP,
+3.4 X 1012 genome copies/mL) was bilaterally injected. For control animals, 0.5 uL of AAV5-hSyn-DIO-eGFP (4.7 X 1012 genome
+copies/mL) was bilaterally injected. ChR2-eYFP, hM4Di-mCherry, eArch3.0-eYFP and eGFP viruses were packaged and purchased
+from the University of North Carolina Vector Core (Chapel Hill, NC, USA). hM4Di-mCherry vector was also purchased from Addgene
+(Cambridge, MA, USA).
+
+Fiber photometry
+Fiber photometry is a method of measuring population Ca2+ sensitive ﬂuorescence from genetically deﬁned cell types in deep brain
+structures, such as TH-expressing neurons in the DRN, using a single optical ﬁber for both excitation and emission in freely moving
+mice (Gunaydin et al., 2014). We based our photometry design from a previous literature (Lerner et al., 2015) with a few modiﬁcations.
+Two wavelength LEDs (490 nm for GCaMP6 excitation and 405 nm for isosbestic wavelength excitation, M490F1 and M405F1,
+
+Neuron 94, 1205–1219.e1–e8, June 21, 2017 e2
+
+Thorlabs Inc., NJ, USA) were modulated at two different frequencies (211 Hz for 490 nm, 531 Hz for 405 nm), which were controlled by
+a real-time processor (RX8-2, Tucker David Technologies, FL, USA) and a custom-written software (provided by Drs. Karl Deisseroth
+and Tom Davidson at Stanford University). The emission signal from 405 nm illumination was shown to be Ca2+-independent with
+GCaMP6 and to mostly reﬂect bleaching and motion artifacts (Lerner et al., 2015; Kim et al., 2016): thus, this signal serves as a control
+reference signal. 490 nm and 405 nm excitation lights were passed through GFP and violet cleanup excitation ﬁlters (FF02-472/30-25
+and FF01-400/40-25, Semrock, NY, USA) respectively, and reﬂected off dichroic mirrors (DMLP425 and MD498, Thorlabs). Excita-
+tion light was coupled into a low auto-ﬂuorescence 400 um patch cord (0.48 NA, 2 m cable length, Doric lenses) with a high NA
+coupler/collimator (F240FC-A, Thorlabs). Another end of the patch cord was connected to a ceramic optical ferrule/ﬁber
+(1.25 mm diameter ferrule, 400 um diameter ﬁber core) implanted into the brain region of interest in subjects. The LED powers for
+both excitation wavelengths were measured with a power meter (PM100D, Thorlabs) and set to be 50-80 uW at the end of the patch
+cord. GCaMP6 emission signals were collected through the patch cord and collimator and passed through a dichroic mirror (MD498,
+Thorlabs) and a GFP emission ﬁlter (MF525-39, Thorlabs) to reach a femtowatt photoreceiver (Model 2151, Newport Co., Irvine, CA,
+USA) using a focusing lens (62-561, Edmunds Optics, Barrington, NJ, USA). Photoreceiver signals were relayed into a RX8-2 proces-
+sor through a BNC cable and were demodulated into two signals, corresponding to each LED excitation wavelength based on its
+modulation frequency. These outputs were digitized at a sampling rate of 382 Hz and low-pass ﬁltered at 15 Hz. One digital input
+channel was additionally acquired to record any TTL pulses from an external source in order to synchronize transients with EEG/
+EMG, video recording, and/or behavioral events. Custom-written software was used to control data acquisition and signal
+visualization.
+
+Behavioral experiments
+All behavioral experiments involving ﬁber photometry were performed at least 2 weeks after viral injection. Behavioral tests with
+optogenetics were performed at least 4 weeks after surgery to allow maximal transgene expression. Mice underwent the following
+assays during their dark phase (10AM-5PM) in their residence room, unless otherwise stated.
+Resident-intruder assay
+Mice with an implanted optical ﬁber were connected to a patch cord for recording of ﬁber photometry. After connection, mice were
+placed back into their home cages and habituated to the open cage setup for 10 min. After habituation, a juvenile male (3-4 weeks
+old), adult female (2-3 months old), or adult male (2-3 months old) mouse was introduced as an intruder into each home cage. Video
+recording was performed and synchronized with ﬁber photometry signals. After 5 min, the intruder mouse was removed from the
+home cage. The behavior of resident mice, such as investigation and attack (observed only toward adult males), was manually scored
+by an experimenter.
+Novel object interaction assay
+The novel object interaction test setup was almost identical to the resident-intruder assay, but a distinct novel object was placed into
+the center of the empty cages instead of an intruder mouse. To run the test, mice were connected to the photometry patch cord, and
+habituated to being tethered in the open empty cage environment. Then, a novel object was introduced, and the subject was allowed
+to freely explore the object for a 5 min test session. Behavior scoring was manually performed to identify interaction bouts, which
+consisted of the subject approaching, snifﬁng, and/or touching of the object with forelimbs.
+Familiar object interaction assay
+This assay was similar to the novel object interaction assay described above, except that the designated familiar object (similar size
+and characteristics as used for the novel objects) was placed into the subject’s home cage 5 days prior to photometry recording
+sessions.
+Feeding assay
+Two days before the experiment, the palatable food treat (approximately 1 g of peanut butter chocolate pieces (Reese’s peanut
+butter cups)) was presented to each mouse for consumption. After connecting the mouse to the patch cord, they were placed in
+a clean, empty cage. After 5 min of habituation, approximately 2 g of treats in a small weighing boat were introduced into one of
+the cage corners. All tested subjects approached and consumed the treat after variable delays. Leftover treats were removed after
+10 min. Video recordings were manually scored to identify food consumption bouts.
+Air puff
+Mice were connected to a patch cord and placed in a clean empty cage without any bedding. Mice were allowed to explore and habit-
+uate for 5 min. Six brief (< 1 s) air puffs were applied to the tail using a compressed air duster with an inter-puff interval of 30-60 s. TTL
+pulses were sent to the ﬁber photometry digital input channel for time stamping when air puffs were applied.
+Unpredictable delivery of electric footshocks
+Mice were connected to a patch cord and placed inside an operant chamber (Lafayette Instruments, IN, USA). Mice were allowed to
+explore and habituate to the operant box for 10 min. Two mild footshocks (0.3 mA, 1 s) were delivered with intervals of about 30 s. TTL
+pulses were sent to the ﬁber photometry digital input channel for accurate time stamping.
+
+e3 Neuron 94, 1205–1219.e1–e8, June 21, 2017
+
+Exposure to predator odor
+Mice were connected to a patch cord and moved to a clean empty cage. To habituate to this new environment, mice were allowed to
+explore for 5 min. After photometry recording started, a ﬁlter paper applied with 10 uL of 2,3,5-trimethyl-3-thiazoline (TMT, a compo-
+nent of fox urine, SRQ Bio, Inc, FL, USA) was introduced to the cage corner. Simultaneous photometry and video recordings were
+performed to identify the time point of odor investigation.
+Restraint/Immobilization
+A test subject was connected to a patch cord and placed to a clean empty cage. A 5 min habituation session was conducted in which
+the subject was allowed to freely explore the cage. At the start of ﬁber photometry recording, 3 min of baseline data were obtained.
+Then, taking care not to cause signiﬁcant pain to the subject, a trained experimenter restrained the subject for one minute by placing
+gentle pressure on the mouse body with the left hand and immobilizing the tail with the right hand. All subjects engaged in active
+struggling and escape behaviors. Recordings were terminated after 3 min of recovery.
+Tail suspension test
+Mice were connected to a patch cord, and the tail was placed between strips of common lab tape, which was afﬁxed to a horizontal
+bar suspended about 50 cm from the ground. We additionally put a lightweight (1 g) plastic cylinder around the tail to prevent the
+mouse from climbing onto the tail. Synchronized ﬁber photometry and video recordings were performed for 5 min, and video was
+manually and blindly scored to pinpoint ‘‘mobility’’ bouts during which the animals struggled by moving their bodies.
+Open ﬁeld test
+Mice were connected to a patch cord, transferred to the open ﬁeld box (50 cm x 50 cm x 25 cm), and habituated to this setup for
+10-15 min prior to the start of 15 min test sessions. A video camera positioned above the behavioral arena and connected to
+EthoVision XT 9 software (Noldus Information Technology, Wageningen, Netherlands) allowed tracking of subject position and
+velocity throughout the test session. Fiber photometry and video recordings were synchronized via TTL pulses generated by the
+Noldus USB-IO box. Fiber photometry experiments took place during the subjects’ dark phase (10AM-5PM). For optogenetic exper-
+iments, open ﬁeld tests were performed during both the dark phase (9AM-1PM) and light phase (6PM-10PM) to examine whether
+locomotion varied across the circadian cycle. The order of open ﬁeld test sessions during dark and light phases was counter-
+balanced.
+Real-time place preference/aversion assay
+A subject was connected to a patch cord and transferred to the open ﬁeld box (50 cm x 25 cm x 25 cm), which was divided into left
+and right compartments. The subject was given free access to explore the two compartments for 30 min. However, upon entering the
+‘‘paired chamber,’’ the subject received phasic bursts of optogenetic stimulation (30 Hz, 10 pulses, 10 ms pulse width, every 5 s). The
+side paired with optogenetic stimulation was counter-balanced. EthoVision XT 9 software (Noldus) was used to track the movement
+and location of mice. As a dependent variable, time spent in the paired compartment was quantiﬁed.
+
+EEG/EMG data acquisition, processing, and sleep-wake state classiﬁcation
+After EEG/EMG implantation surgery, animals were single-housed for four weeks in a regular mouse cage for recovery and transgene
+’ diameter and 12’’ height) and connected to a custom-
+expression. Mice were then transferred to a transparent cylindrical cage (12
+ized pre-ampliﬁer (10x gain, 0.5 Hz high-pass ﬁlter, 10 Hz high-pass ﬁlter for EMG; Pinnacle Technology Inc., Lawrence, KS, USA) and
+a commutator (8204, Pinnacle Technology Inc.) for freely moving recordings. They were habituated for at least seven days to the
+recording setup before beginning any experiments. On the 7th day, four animals were randomly selected per group (depending on
+the viral transgene they expressed) and 24 hr baseline recordings were performed to test whether viral transgene expression or other
+experimental artifacts altered the sleep-wake architecture of subjects. Food and water were available ad libitum. EEG/EMG signals
+were digitized through the OmniPlex System (Plexon, TX, USA) with a sampling rate of 1,000 Hz in most experiments, or through
+Pinnacle Sirenia Acquisition (Pinnacle Technology Inc, KS, USA) with a sampling rate of 400 Hz (for 24 hr baseline recordings
+and chemogenetic experiments in presence of salient stimuli). Mice with lost EEG and EMG signals were excluded from the
+experiment - very occasionally, some mice showed a low signal-to-noise ratio or unintelligible EEG/EMG traces.
+
+0
+
+Data acquired in Plexon’s or Pinnacle’s proprietary ﬁle format (.pl2 or .pvfs) were converted to European data format (.edf) with
+MATLAB (MathWorks, MA, USA) using the EEGLAB plug-in (Schwartz Center for Computational Neuroscience, La Jolla, CA,
+USA). Polysomnographic EEG/EMG recordings were loaded, and behavioral states were scored using sleep analysis software
+(SleepSign for Animal, Kissei Comtec Co., Nagano, Japan).
+
+Sleep-wake state classiﬁcation is manually performed based on visual and spectral signatures of EEG and EMG signals. States
+were assigned across consecutive non-overlapping 5 s windows. We deﬁned wakefulness as desynchronized, low-amplitude,
+and high-frequency EEG rhythms with elevated EMG activity. We deﬁned NREM sleep as synchronized, high-amplitude, and low-
+frequency (< 4 Hz) EEG activity with lower tonic EMG tone. We deﬁned REM sleep as containing prominent theta (6-10 Hz) oscillations
+on EEG and minimal EMG activity. All sleep-wake state scorings were performed by an experimenter (J.R.C.), who was blind to
+expressed transgene and experimental conditions.
+
+Optogenetic and chemogenetic modulation of behavioral states and locomotion
+For optogenetic experiments, one side of a patch cord (1.25 mm ceramic ferrule, 300 um diameter, Doric lenses) was connected to
+the implanted optical ferrule/ﬁber with another side (FC/PC connector) connected to a swivel commutator (ﬁber-optic rotary joints,
+
+Neuron 94, 1205–1219.e1–e8, June 21, 2017 e4
+
+FRJ_1x1_FC-FC, Doric lenses) to allow free movement. Another patch cord was connected from the commutator to a 473 nm laser
+(MLL-FN-473nm/150mW, Changchun New Industries Optoelectronics Technology, Changchun, China). The intensity of the laser
+beam was measured with an optical power meter (PM100D, Thorlabs) and set to be 10 mW at the tip. Laser output was controlled
+by a TTL pulse generator (OTPG4, Doric lenses) via a BNC cable. For phasic stimulation, ten 30-Hz, 10-ms pulses were applied every
+5 s. For tonic stimulation, continuous 2-Hz, 10-ms pulses were used. These phasic and tonic parameters were chosen to have the
+same number of pulses for a given duration but with distinct temporal pattern. Both phasic and tonic patterns of stimulation were
+applied for 2 min with intervals of 20-25 min. Animals used for optogenetic experiments were always connected to the preampliﬁer
+and Plexon system to continuously acquire EEG and EMG signals for sleep-wake state classiﬁcation. TTL signals for controlling laser
+output were split and input into the Plexon acquisition system through an analog input for accurate time stamping of triggered stim-
+ulation. All optogenetic experiments with EEG/EMG monitoring were carried out during the light phase (6 PM-6 AM).
+
+To test whether the wake-promoting effect of DRNDA activation was mediated by direct action of DA, DRNDA-ChR2 and DRNDA-eGFP
+mice that were habituated to the recording setup were systemically administered dopamine receptor antagonists SCH-23390 (a se-
+lective D1 antagonist, 1 mg/kg) and eticlopride (a selective D2 antagonist, 1 mg/kg) 45 min before the onset of the light phase. The
+concentration of these dopamine antagonists was selected based on a previous literature (Eban-Rothschild et al., 2016). For con-
+trols, we injected sterile saline at the same circadian time. EEG/EMG recording and phasic optogenetic stimulation started at the light
+phase onset and lasted for 2 hr.
+
+To study whether the wake-promoting effect of optogenetic DRNDA stimulation is inﬂuenced by homeostatic sleep pressure,
+DRNDA-ChR2 or DRNDA-eGFP mice were sleep deprived for 0 or 4 hr by gentle handling (Eban-Rothschild et al., 2016). The order of
+experiments (0 or 4 hr deprivation) was counter-balanced across animals. For sleep deprivation, mice were continuously monitored
+by an experimenter (with EEG and EMG recordings turned on). Mice were softly touched by a brush whenever they become motion-
+less and/or exhibited reduced EMG tone or absent EMG bursts. After the sleep deprivation procedure, two phasic bursts (30 Hz,
+15 pulses, 10 ms width, 5 s interval) were applied about 510 min after they entered into NREM sleep, and the latency to wake tran-
+sitions was measured.
+
+To study the causal effect of increased DRNDA activity on locomotion, we performed the open ﬁeld test with DRNDA-ChR2 and
+DRNDA-eGFP mice. Procedures and experimental equipment were similar those described above for open ﬁeld testing during ﬁber
+photometry, with video monitoring and subject position and velocity tracking recorded throughout all sessions. Mice were ﬁrst habit-
+uated in the open ﬁeld for 20 min. After acquiring 20 min of baseline activity (not including habituation), laser stimulation (phasic or
+tonic patterns) was delivered for 5 min. After stimulation, ﬁve additional minutes were recorded. Throughout testing, distance traveled
+during 5 min epochs (before, during, and after stimulation) were analyzed.
+
+For chemogenetic experiments, animals with hM4Di-mCherry or eGFP injection were connected to the data acquisition system for
+EEG and EMG signals. Animals were habituated to experimenter handling for 3-4 days before any experiments commenced. Saline
+or clozapine-N-oxide (CNO, selective ligand for hM4Di, 1 mg/kg dissolved in saline; Enzo Life Sciences Inc., Exeter, UK) was intra-
+peritoneally injected immediately prior to the start of testing at 9 AM (3 hr after dark phase onset). Recordings were carried out for 2 hr
+following injection.
+
+To test whether DRNDA neuronal activity is required for wake maintenance after exposure to salient environmental stimuli,
+DRNDA-hM4Di or DRNDA-eGFP mice (which were already habituated to experimenter’s handling) were ﬁrst injected with saline or
+CNO (1 mg/kg) 45 min before testing. Then, a female mouse (contained in an inverted wire cup, thus not directly accessible for
+mounting) or a ﬁlter paper with predator odor TMT was introduced into the recording cage. We chose these two stimuli because
+they are of opposite valence (positive versus negative) and were shown effective in inducing robust DRNDA neuronal activity (See
+Figures 1 and S2). EEG/EMG recording began immediately after introduction of the salient stimulus and lasted for 1 hr.
+
+Auditory cue arousal test
+To examine whether DRNDA ﬁring mediates cue-induced arousal from sleep, we performed simultaneous recording of ﬁber photom-
+etry and EEG/EMG signals on DRNDA-GCaMP6s mice. On each experimental day, recordings began at the light phase onset (6PM).
+Auditory tonal stimuli (65 dB; 2, 3, or 5 kHz frequency; 2-Hz pulse; 250-ms pulse width, 10 s duration) were randomly applied during
+the ﬁrst half of the light phase (for 6 hr) with a minimum inter-trial interval of 15 min from a speaker located adjacent to the testing
+cages. In order to limit habituation to speciﬁc tonal frequencies, three different tones were administered in random order with a
+33.3% probability for each frequency. The speaker was placed 30 cm away from the cage, and the auditory tone intensity inside
+the cylindrical cage was calibrated with a sound meter (Digital Sound Level Meter, Foneso, Shenzhen, China) before the beginning
+of each session with mice temporarily removed from the room. TTL pulses time-locked to the auditory cues were generated and
+inputted into the Plexon data acquisition system for accurate time stamping.
+
+Sleep-wake states were classiﬁed as described above by an experimenter (J.R.C.) who was blind to the experimental conditions.
+Depending on the behavioral consequence of auditory cues, each trial was classiﬁed as 1) sleep-to-wake transitions (further divided
+from NREM or from REM sleep), 2) sleep-to-sleep (when auditory cue failed to induce wakefulness), and 3) wake-to-wake (auditory
+stimuli that were administered during wakefulness) cases. In order for a trial to be scored as a sleep-to-wake transition, animals had
+to show at least 3 s of wake EEG and EMG signs (EEG: desynchronized from delta or theta rhythm, EMG: sudden phasic elevation of
+muscle activity) within 10 s of the auditory cue onset. If these criteria were not met, the trial was categorized as sleep-to-sleep.
+
+e5 Neuron 94, 1205–1219.e1–e8, June 21, 2017
+
+To test for the necessity of DRNDA ﬁring in auditory cue-induced arousal from sleep, we inhibited DRNDA neurons in a time-locked
+manner with the inhibitory proton pump eArch3.0 (Arch). The experimental setup was identical to the procedure described above,
+except we used a slightly higher intensity tone (70 dB) to avoid possible ﬂoor effects, and 20 s of 532 nm green laser (10 mW at
+the tip) was continuously applied surrounding the tone presentation (starting 5 s before the tone, terminating 5 s after the end of
+the tone) to the DRNDA-Arch or DRNDA-eGFP mice. Only data epochs when auditory cues were turned on during NREM or REM sleep
+were considered and we manually reviewed whether auditory tones caused wake transitions (see above for speciﬁc criteria). If cues
+successfully woke up the animal, they were categorized as ‘NREM-to-Wake’ or ‘REM-to-Wake’ trials. If tones did not lead to imme-
+diate wake transitions, they were categorized as ‘NREM-to-NREM’ or ‘REM-to-REM’ trials. To conﬁrm that sleep-related oscillations
+(delta for NREM and theta for REM) were not perturbed in ‘NREM-to-NREM’ and ‘REM-to-REM’ trials, we calculated the delta and
+theta amplitude for NREM and REM, respectively, and determine whether there were any changes across the tone onset (see Fig-
+ure S6H-S6K).
+
+Data analysis
+Fiber photometry data processing and analysis
+Acquired data ﬁles were loaded and processed with custom-written codes in MATLAB. Pre-processing was performed as previously
+described (Lerner et al., 2015). Fiber photometry traces from 490 and 405 nm excitation wavelengths were ﬁrst low-pass ﬁltered at
+2 Hz using a 4th order Butterworth ﬁlter with zero-phase distortion. To calculate DF/F, a linear ﬁt was applied to 405-nm signal and
+aligned to the 490-nm signal. The ﬁtted 405-nm signal was subtracted from the 490-nm signal and then divided by the ﬁtted 405-nm
+signal again to yield the DF/F time-series.
+
+To visualize peri-event photometry traces, DF/F data epochs were extracted around immediately before and after relevant behav-
+ioral events (e.g., event onsets identiﬁed by either video scoring or TTL pulses) and averaged. For statistical comparison between
+baseline and behavior, areas under the curve (AUC) per second values were calculated for given conditions. Similarly, to visualize
+Ca2+ ﬂuorescence change across state transitions, the temporal location of state transitions were identiﬁed, and 120 s of photometry
+traces around the transition time points were extracted and averaged. AUC was also calculated to compare DRNDA population
+activity before and after transitions. We performed analyses for NREM-to-wake, REM-to-wake, wake-to-NREM, and NREM-to-
+REM transitions. We excluded other possible combinations as rodents rarely transit directly from REM to NREM, and none of the
+tested mice showed wake-to-REM transitions, which is a common feature of narcolepsy. We termed periods of less than 15 s of
+wakefulness after REM state as ‘‘short arousal’’ and we separately plotted these transitions as ‘‘REM-to-short arousal-to-NREM’’
+(See Figure S3L).
+
+To detect Ca2+ peak events from photometry traces and quantify them across sleep-wake states, we ﬁrst normalized the trace
+using z-score and then high-pass ﬁltered at 0.01 Hz using 2nd order butterworth ﬁlter with zero-phase distortion to eliminate possible
+low-frequency ﬂuctuations across states. Then we detected prominent Ca2+ peak events with an amplitude threshold, which was
+deﬁned as the 75th percentile of the entire photometry data amplitude distribution. This percentile threshold was heuristically chosen
+because the photometry amplitude distribution is positively skewed and does not follow Gaussian distribution, which makes it more
+sensitive to the presence of outliers (such as during Ca2+ peak events). For quantiﬁcation of these detected events, we calculated
+1) peak amplitude, 2) duration (from detection onset to offset), 3) frequency or number of events in a 5 s window, and 4) summed
+AUC values of detected events in a 5 s window.
+
+In order to account for inter-subject variability in amplitude during investigations into the temporal dynamics of DRNDA activity dur-
+ing each behavioral state from onset to offset, we ﬁrst converted the ﬂuorescence traces into z-scores (calculated from the entire
+traces). Next, photometry traces from each state including 10% of the trace before and after were cropped and down-sampled to
+120 points in order to normalize the timescale. This allowed us to project variable length photometry traces containing z-score
+normalized ﬂuorescence changes onto the normalized time of  0.1 to 1.1, where 0 notes the onset and 1 notes the offset of a
+wake or sleep episode.
+
+To examine any correlation between DRNDA activity and locomotion, we obtained the synchronized recordings of ﬁber photometry
+and video tracking. To test if increased DRNDA activity is associated with any change in locomotion, we detected prominent Ca2+
+peak events as previously described above, extracted 10 s of velocity traces around peak event onsets, and then averaged.
+Conversely, to test if initiation of locomotion is associated increased DRNDA activity, we detected locomotion onset similarly as
+the Ca2+ peak events (but with 65th percentile as an amplitude threshold), extracted 10 s of photometry traces around locomotion
+onsets, and then averaged.
+EEG spectrogram
+To visualize spectral and temporal proﬁles of EEG activity across distinct behavioral states, we decomposed EEG into time-fre-
+
+quency plan using Morlet wavelet. EEG data epoch of interest was convolved with a complex Morlet wavelet, wðt; f0Þ, having a
+Gaussian shape both in the time ðstÞ and frequency ðsfÞ domain around its central frequency, f0:
+expð2ipf0tÞ; where sf = 1=2pst:
+
+wðt; f0Þ =
+
+
+
+
+
+ 1=2
+
+st
+
+p
+
+exp
+
+  t2
+2s2
+t
+
+Neuron 94, 1205–1219.e1–e8, June 21, 2017 e6
+
+A wavelet family was characterized by a constant ðf0=sfÞ ratio of 6 from 1 to 20 Hz in 1 Hz steps. The time-varying energy of the
+signal, Eðt; f0Þ, is deﬁned as the squared norm of the convolution product of a complex wavelet wðt; f0Þ, with the signal
+s(t): Eðt; f0Þ =jwðt; f0Þ3sðtÞj 2.
+
+Time-varying energy is then smoothed by a moving average ﬁlter with span of 2 s for each frequency step to enhance visualization.
+
+Calculation of EEG frequency band
+To extract time-varying amplitude of a certain EEG frequency band (e.g., 0.5-4 Hz for delta, 5-10 Hz for theta, and 40-100 Hz for high-
+frequency - notch ﬁlter was applied from 58 to 62 Hz before calculating high-frequency activity amplitude to avoid any contribution
+from 60 Hz line noise), the signal of interest was ﬁrst band-pass ﬁltered using a 2nd order Butterworth ﬁlter. A zero-phase shift ﬁlter
+was used to prevent any phase distortion. Instantaneous amplitude was obtained by taking the absolute value of the Hilbert transform
+of the band-passed signal. EEG frequency band amplitude signals were smoothed by a moving average ﬁlter (with 10 s window for
+Figures 4 and S4 and with 2 s window for Figures 6 and S6) and then normalized using z-score with respect to the baseline. EEG data
+epochs containing high-amplitude artifacts were excluded from analysis.
+Power spectral density
+Power spectral density was estimated for EEG data using a Welch’s method. We used a 5 s window size and 50% overlap to estimate
+power from 0.5 to 100 Hz (except from 58 to 62 Hz). For 1 hr chronic optogenetic stimulation, spectral power changes during opto-
+genetic stimulation with respect to the baseline (1 hr before the stimulation) were obtained for both DRNDA-ChR2 and DRNDA-eGFP
+mice. For chemogenetic experiments, spectral power changes of CNO conditions from saline conditions were calculated at each
+frequency step. EEG data epochs with high-amplitude artifacts were excluded from analysis.
+Efﬁciency and speciﬁcity of GCaMP6f+ expression
+Efﬁciency was deﬁned as ‘‘the number of GCaMP6f+ and TH+ neurons out of the total number of TH+ neurons.’’ Speciﬁcity was
+deﬁned as ‘‘the number of GCaMP6f+ and TH+ neurons out of the total number of GCaMP6f+ neurons.’’
+
+
+
+Ex vivo electrophysiology
+TH-cre mice expressing ChR2-eYFP or hM4Di-mCherry were euthanized with carbon dioxide and transcardially perfused with ice-
+cold sucrose-based cutting solution saturated with 95% O2/5% CO2 (carbogen) that contained (mM) 85 NaCl, 75 sucrose, 2.5 KCl,
+1.25 NaH2PO4, 4.0 MgCl2, 0.5 CaCl2, 24 NaHCO3 and 25 glucose. The brain was removed and 250-mm coronal slices that contained
+the DRN were prepared in oxygenated cutting solution using a vibratome (VT-1200, Leica Biosystems, IL, USA). Slices were recov-
+C for one hour prior to recording in carbogenated ACSF containing (mM): 125 NaCl, 2.5 KCl, 1.2 NaH2PO4, 1.2 MgCl2,
+ered at 32
+2.4 CaCl2, 26 NaHCO3, and 11 glucose. Slices were transferred to the recording chamber and perfused (1.5 - 2.0 mL/min) with carb-
+C. Whole-cell patch clamp recordings of ﬂuorescently tagged (TH+) DRN neurons were obtained
+ogen-saturated ACSF at 32 ± 0.5
+using a MultiClamp 700B ampliﬁer (Molecular Devices, CA, USA) and a Digidata 1440 analog-to-digital converter (Molecular
+Devices). Data were sampled at 10 kHz and ﬁltered at 2 kHz with Clampex 10.4 (Molecular Devices). Patch electrodes had resistance
+of 4 - 6 MU and were ﬁlled with a potassium gluconate intrapipette solution (mM): 135 K gluconate, 5 KCl, 5 EGTA, 0.5 CaCl2,
+10 HEPES, 2 Mg-ATP, and 0.1 GTP. Electrophysiological data were analyzed with Clampﬁt 10.4 (Molecular Devices). For Figure S4A,
+light-evoked currents (voltage clamp) and action potentials (current clamp) were evoked by ten of 30 Hz (10 ms pulse width)
+blue (420-455 nm) light delivered by an LED light source (Lumencor, OR, USA) in neurons held at  70mV. Once we patched
+hM4Di-mCherry+ or eGFP+ DRNDA cells (Figures S5A–S5E), neuronal ﬁring was evoked by depolarizing the membrane potential
+to  45 mV in current clamp mode. After collecting baseline for 2 min, 1 mM of CNO was applied to the bath for neuronal silencing.
+After 3-4 min, CNO was washed out.
+
+
+
+Histology
+Perfusion
+Mice were euthanized with CO2 and transcardially perfused with 20 mL of ice-cold 1x PBS with heparin (10 U/mL) and then with 30 mL
+C overnight. The
+of ice-cold 4% PFA in 1x PBS. Mouse brains were carefully removed from the skull and post-ﬁxed in 4% PFA at 4
+4% PFA solution was switched to 1x PBS in the morning. Brains were sectioned into 50 mm coronal slices with a vibratome (VT1200,
+
+Leica Biosystems, IL, USA). Slices were stored in 1x PBS at 4
+Immunohistochemistry
+Brain sections were incubated in a 1x PBS solution containing 0.1% Triton X-100 and 10% normal donkey serum (NDS; Jackson
+
+C overnight. Afterward, sections were thoroughly
+ImmunoResearch, PA, USA) with primary antibodies (see below for details) at 4
+C. Sections were then transferred into a secondary antibody
+washed four times (15 min each) in 1x PBS and temporarily stored at 4
+cocktail, which included 1xPBS with 0.1% Triton X-100, 10% NDS with secondary antibodies (see below for details), and stored at
+
+C overnight. The next morning, sections were again washed by 1x PBS solution four times (15 min each), mounted on glass
+4
+microscope slides (Adhesion Superfrost Plus Glass Slides, #5075-Plus, Brain Research Laboratories, MA, USA), dried, and cover-
+slipped with a DAPI-containing mounting media (Fluoromount G with DAPI, 00-4959-52, eBioscience, CA, USA).
+Antibodies
+For primary antibodies, anti-chicken TH (1:500; TYH, Aves Labs, OR, USA), anti-rabbit TH (1:500; sc-14007, Santa Cruz Biotech-
+nology, CA, USA), anti-chicken GFP (1:500; GFP-1020, Aves Labs), anti-goat 5HT (1:1000; 20079, ImmunoStar, WI, USA), and
+anti-rabbit mCherry (1:500; ab167453, Abcam, Cambridge, UK) were used. For secondary antibodies, anti-chicken/rabbit Alexa
+
+C until immunohistochemical processing.
+
+
+
+
+
+e7 Neuron 94, 1205–1219.e1–e8, June 21, 2017
+
+Fluor 488 (1:500; 703-545-155, 711-545-152, Jackson ImmunoResearch), anti-goat/rabbit Rhodamine Red-X (1:500; 705-297-003,
+711-297-003, Jackson ImmunoResearch), and anti-rabbit/chicken Alexa Fluor 647 (1:500, 711-607-003, 703-606-155, Jackson
+ImmunoResearch) were used.
+Confocal microscopy imaging
+Fluorescent images from brain tissue were acquired by a LSM 780 confocal microscope (Carl Zeiss, Jena, Germany). We used a 10x
+Plan Apochromat air objective (NA 0.45), 25x Plan Apochromat water immersion objective (NA 1.2) and 4 laser wavelengths (405 nm,
+488 nm, 561 nm, and 633 nm). Image acquisition was controlled by Zen 2011 software (Zeiss), which also allowed automated z stack-
+ing, tiling, and maximum intensity projection. Images were not further processed.
+
+QUANTIFICATION AND STATISTICAL ANALYSIS
+
+All data are represented as mean ± SEM. Sample sizes were determined to be comparable to previous studies that used optoge-
+netics or chemogenetics to study neural circuits of sleep and wake state regulation (Xu et al., 2015; Eban-Rothschild et al., 2016).
+All statistical analyses were performed with in-built functions of the Statistics and Machine Learning toolbox in MATLAB (Mathworks)
+or Prism (GraphPad). Paired and unpaired t tests were used for single value comparisons. One-way ANOVA was used to compare
+more than two groups. Two-way repeated-measures ANOVA was used to perform group comparisons with multiple measurements.
+Data are considered to be statistically signiﬁcant if p < 0.05. We used Bonferroni correction to control for multiple comparisons where
+appropriate.
+
+Neuron 94, 1205–1219.e1–e8, June 21, 2017 e8
+
+

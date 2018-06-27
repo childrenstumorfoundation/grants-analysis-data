@@ -1,0 +1,1760 @@
+MED
+
+1100
+
+DOI: 10.1002/cmdc.200700059
+
+ 2007 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+ChemMedChem 2007, 2, 1100 – 1115
+
+DOI: 10.1002/cmdc.200700059
+
+Predicting and Tuning Physicochemical
+Properties in Lead Optimization:
+Amine Basicities
+Martin Morgenthaler,[a] Eliane Schweizer,[b] Anja Hoffmann-Rçder,[c]
+Fausta Benini,[a] Rainer E. Martin,[d] Georg Jaeschke,[d] Bjçrn Wagner,[d]
+Holger Fischer,[d] Stefanie Bendels,[d] Daniel Zimmerli,[d] Josef Schneider,[d]
+FranÅois Diederich,*[a] Manfred Kansy,*[d] and Klaus Müller*[d]
+
+This review describes simple and useful concepts for predicting
+and tuning the pKa values of basic amine centers, a crucial step
+in the optimization of physical and ADME properties of many
+lead structures in drug-discovery research. The article starts with
+a case study of tricyclic thrombin inhibitors featuring a tertiary
+amine center with pKa values that can be tuned over a wide
+range, from the usual value of around 10 to below 2 by (remote)
+neighboring functionalities commonly encountered in medicinal
+chemistry. Next, the changes in pKa of acyclic and cyclic amines
+upon substitution by fluorine, oxygen, nitrogen, and sulfur func-
+
+tionalities, as well as carbonyl and carboxyl derivatives are sys-
+tematically analyzed, leading to the derivation of simple rules for
+pKa prediction. Electronic and stereoelectronic effects in cyclic
+amines are discussed, and the emerging computational methods
+for pKa predictions are briefly surveyed. The rules for tuning
+amine basicities should not only be of interest in drug-discovery
+research, but also to the development of new crop-protection
+agents, new amine ligands for organometallic complexes, and in
+particular, to the growing field of amine-based organocatalysis.
+
+1. Introduction
+
+Modern drug-discovery chemistry is based on a multidimen-
+sional optimization (MDO) approach, in which the optimization
+of physicochemical properties, aspects of ADME (absorption,
+distribution, metabolism, and excretion), and safety of a lead
+compound are considered at an equal level together with po-
+tency and selectivity. Optimization of physicochemical proper-
+ties such as pKa and log D benefits from empirical knowledge
+available through both internal and publicly available databas-
+es.[1] In fact, with the establishment of high-throughput analyti-
+cal methodologies, the amount of physicochemical data is
+growing rapidly, allowing hundreds of compounds to be mea-
+sured rapidly and precisely each day.[2] The availability of large
+datasets covering a sufficiently broad structural diversity in-
+creases the chances that improved schemes for reasonably
+successful predictions of physicochemical properties can be
+developed. Both databases and chemoinformatics tools aim at
+enhancing the capacity of medicinal chemists to design com-
+pounds with desired physicochemical and pharmacological
+properties.
+
+A large fraction of the drugs currently on the market or in
+development contain one or more basic nitrogen atoms. They
+contribute to essentially all molecular properties relevant to
+the MDO process. Whether or not basic nitrogen atoms are
+protonated in the biological environment may not only be crit-
+ical for binding potency at the target, but also affects proper-
+ties such as lipophilicity, membrane permeability,[3, 4] amphiphi-
+licity, and the potential liability for phospholipidosis,[5] as well
+
+as interference with the hERG (human ether-a-go-go-related
+gene) potassium ion channel and associated cardiovascular
+toxicity.[6–8] It is therefore important not only to know the pKa
+value of an amine-containing compound, but even more so, to
+be able to modulate its basicity in a rational, structure-based
+fashion.
+
+The incentive to survey possibilities for tuning amine basicity
+arose from our exploration of tricyclic inhibitors of thrombin, a
+
+[a] M. Morgenthaler, F. Benini, Prof. Dr. F. Diederich
+
+Laboratorium für Organische Chemie, ETH Zürich
+HCI, Hçnggerberg, 8093 Zürich (Switzerland)
+Fax: (+ 41) 44-632-1109
+E-mail: diederich@org.chem.ethz.ch
+
+[b] Dr. E. Schweizer
+
+Institut für Organische Chemie, Universität Wien
+Abteilung Synthesechemie, Währinger Strasse 38, 1090 Wien (Austria)
+
+[c] Dr. A. Hoffmann-Rçder
+
+Institut für Organische Chemie, Johannes Gutenberg-Universität
+Duesbergweg 10–14, 55128 Mainz (Germany)
+
+[d] Dr. R. E. Martin, Dr. G. Jaeschke, B. Wagner, Dr. H. Fischer, Dr. S. Bendels,
+
+D. Zimmerli, Dr. J. Schneider, Dr. M. Kansy, Prof. Dr. K. Müller
+Pharmaceuticals Division, Discovery Chemistry
+F. Hoffmann–La Roche AG, 4070 Basel (Switzerland)
+Fax: (+ 41) 61-688-7408 (M.K.)
+Fax: (+ 41) 61-688-0986 (K.M.)
+E-mail: manfred.kansy@roche.com
+
+klaus.mueller@roche.com
+
+Supporting information for this article is available on the WWW under
+http://www.chemmedchem.org or from the author.
+
+ChemMedChem 2007, 2, 1100 – 1115
+
+ 2007 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+1101
+
+F. Diederich, M. Kansy, K. Müller, et al.
+
+amine center in ( )-1 (Figure 1), depending on whether the
+photometric titration was conducted from pH 2 to pH 13
+from pH 13 to pH 2
+(pKa 5.2) or
+
+in the reverse direction,
+
+MED
+
+an enzyme
+
+fluorophobicity/fluorophilicity of
+
+serine protease from the blood coagulation cascade, to map
+the
+active
+site.[2, 9–12] In that investigation, we observed that the pKa value
+of a tertiary non-aromatic amine could be shifted from values
+of around 10 to below 2 through the cumulative interaction ef-
+fects of relatively remote functionalities (see Section 2). Simple
+rules for predictions of amine basicity were subsequently de-
+veloped based on extensive database mining. These are sum-
+marized herein (see Section 3) along with a short overview of
+the current understanding of stereochemical and conforma-
+tional factors that influence amine basicities (see Section 4).
+We are well aware that after seminal publications on predic-
+tions of the strength of organic bases,[13, 14] numerous reports
+have dealt with this subject, particularly within the context of
+drug-discovery chemistry. Nevertheless, we feel that a survey
+such as this is long overdue and will be of great benefit to re-
+search groups involved in drug discovery as well as many
+other areas in which amine basicity plays a crucial role.
+
+It should be noted that the experimental data collection for
+this review (both in the main text and the Supporting Informa-
+tion (SI)) has been possible through high-throughput photo-
+routine potentiometric pKa determinations,[2, 15, 16]
+metric or
+which over the past years have replaced classical low-through-
+put titrimetric or electrochemical methods. The accuracy of pKa
+determinations in the range of 3–11 is now typically DpKa 0.1
+for compounds with sufficient aqueous solubility and UV ab-
+sorption (compared with DpKa 0.5 for older methods prior to
+1990). For these reasons, all pKa values in this review are
+rounded to one digit after the decimal point. Nevertheless, it
+should be mentioned that uncertainties in comparing data
+might arise from systematic pKa shifts due to different solvent
+systems, temperature, ionic strength, and other hidden experi-
+mental effects. Finally, this review contains several experimen-
+tal pKa values not previously published or re-measured for the
+sake of consistent comparison; these new or corrected pKa
+values are marked with an asterisk (*) in the figures through-
+out this account for easy identification.
+
+2. Tricyclic Thrombin Inhibitors
+
+Our thrombin inhibitors are readily constructed using the 1,3-
+dipolar cycloaddition of azomethine ylides to maleimides as
+the key step to build the central tricyclic scaffold.[17] This strat-
+egy allows substituents to be introduced and modified in a
+versatile fashion for occupation of the selectivity pocket S1,
+the large distal hydrophobic D pocket, the tight proximal hy-
+drophobic P pocket, and the region around the catalytic serine
+and the oxyanion hole. How these substituents alter the pKa
+value of the tertiary amine center in the tricyclic skeleton of
+the targeted inhibitors and some of their precursors (the latter
+data are mostly in the Supporting Information), are analyzed in
+the following sections.
+
+2.1. Variation of the S1 pocket vector
+
+The investigation started with the unexpected finding that two
+significantly different pKa values were measured for the tertiary
+
+Figure 1. Experimental pKa values for the tertiary amine center in precursors
+to tricyclic thrombin inhibitors, reflecting the basicity-lowering effects of b-
+carbonyl and a-aryl substituents. The numbers in italics below the experi-
+mental values indicate calculated[39] pKa values discussed in Section 5.
+
+(pKa 9.3). Subsequent chemical analysis revealed that ( )-1
+(and a large number of related imides) are unstable in even
+mildly basic solution and that the succinimide moiety under-
+goes rapid and regioselective ring opening by formation of
+( )-2.[2, 18] The pKa of the carboxylate group (4.0) in ( )-2 could
+be determined by potentiometric titration.
+
+To shed light on the origin of the remarkably low pKa value
+of ( )-1 (5.2), compounds ( )-3 to ( )-5 were measured. The
+pKa of ( )-5 (7.0) is still three units smaller than the approxi-
+mate value for a simple trialkylamine (~ 10.2) and some four
+units below the pKa of heliotridane (11.4, (1S,7aS)-2,3,5,6,7,7a-
+hexahydro-1-methyl-1H-pyrrolizine),[19] which could be taken as
+the closest available parent compound in this series. A search
+in the MedChem database[1, 2] revealed that a carbonyl group
+in the b-position can lower the pKa value of an aliphatic amine
+by ~ 1.8 units. As there are two imide C=O groups in ( )-5,
+each in b-position to the tertiary amine center, the overall
+effect could naïvely be guessed as DpKa = 2 ~ 1.8 =~ 3.6
+units. Several remarks are appropriate at this point: First, the
+pKa values observed for acyclic amines may represent confor-
+mational averages and therefore may not be transferable di-
+rectly to cyclic amines, which often adopt one specific confor-
+
+1102
+
+www.chemmedchem.org
+
+ 2007 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+ChemMedChem 2007, 2, 1100 – 1115
+
+Amine Basicities
+
+mation with fixed spatial relationships between the electron-
+withdrawing group and the amine function. This is particularly
+true for bi- and polycyclic amines. Second, in rigid (poly)cyclic
+systems, substantial direct through-space interactions may op-
+erate in addition to s-transmission effects. Third, the transfera-
+bility of pKa decrements may be best for 6-membered piperi-
+dine units in which properly staggered synclinal and anti-peri-
+planar arrangements of functional groups are closest to the sit-
+uation in acyclic amines. However, for amines embedded in 5-
+or 4-membered rings this may not hold, because significant
+deviations from ideally staggered conformations are observed,
+and s-transmission effects may be attenuated accordingly (see
+Section 4). Finally, s-transmissions typically operate through all
+intervening s-pathways between the electron-withdrawing
+function and amine group.[13] This is nicely illustrated, for ex-
+ample, by the shift from piperidine (pKa 11.1) to 2-(2’-oxopro-
+pyl)piperidine (pKa 9.5), with one s-transmission pathway, and
+from 2,2,6,6,-tetramethylpiperidine (pKa 11.1) to 4-oxo-2,2,6,6-
+tetramethylpiperidine (pKa 7.9), with two s-transmission path-
+ways (see Figure 14 a below). Such s-transmitted electron-with-
+drawing effects in cyclic systems are discussed further in Sec-
+tion 3.
+
+The decrease in pKa from 7.0 (for ( )-5) into the range be-
+tween 5 and 6 for the arylated tricycles ( )-1, ( )-3, and ( )-4
+reflects the s-transmission effects of the aryl rings in a-position
+to the nitrogen center, in agreement with the MedChem data-
+G(a-phenyl) = 1.4). It is interesting to note that the
+base (DpKa A
+pKa-lowering effects are significantly different for the endo-
+phenyl ring in ( )-3 (pKa 5.6) and the exo-phenyl ring in ( )-4
+(pKa 5.9) (endo and exo refer to the orientation of the aryl sub-
+stituent with respect to the bicyclic perhydropyrrolo A
+G[3,4-c]pyr-
+role scaffold). The relatively high pKa of ( )-2 (9.3) may be ex-
+plained by the decreased electron-withdrawing power of a car-
+G(COOH) = 1.9; s(C(=O)NH2) = 1.68),[13] as well
+boxylate unit (sA
+as, and probably most importantly, a direct (through-space)
+stabilization of the protonated ammonium center by the car-
+boxylate anion.
+
+The opposite effect can be observed upon introduction of a
+positive charge into the molecule by incorporating the amidi-
+nium unit into the benzyl group of ( )-3. From data in the
+MedChem database,[1] benzylamines with strong but neutral
+electron-withdrawing groups in the para position, such as
+cyano or nitro, produce an additional pKa shift of ~ 0.8 rela-
+tive to the parent benzyl group. Hence, the substantial shift of
+ 1.1 observed in going from ( )-3 to ( )-6 may reflect the
+additional destabilization of the protonated ammonium center
+by the presence of a positive charge.
+
+The phenylamidinium ring for occupancy of the S1 pocket
+was subsequently fluorinated as shown for ( )-7 to ( )-11
+(Figure 2), in order to decrease the basicity of the amidine resi-
+due and thus potentially enhance the bioavailability of these
+compounds.[2] Although this objective was reached (pKa2(()-6)
+11.1; pKa2(()-11) 10.1), binding affinity unfortunately dropped
+dramatically (Ki(()-6) = 0.057 mm; Ki(()-11) = 9 mm). Fluorine
+substitution expectedly influences the pKa value of the tertiary
+amine center as well; upon introduction of one or
+two
+F atoms, pKa1 decreases with one notable exception. The pKa1
+
+Figure 2. Effects of F substitution on the pKa values of amine (pKa1) and ami-
+dinium residues (pKa2) in the tricyclic thrombin inhibitors ( )-6 to ( )-11.
+
+value of compound ( )-9 (4.2), with two F atoms meta to the
+amidinium group, is 0.5 units higher than that of compound
+( )-11 (3.7) with two F atoms in the ortho position. This in-
+crease in basicity is readily explained by the fact that in ( )-9,
+one of two F atoms must approach the nitrogen lone pair (the
+aryl ring is roughly perpendicular to the mean plane of the
+pyrrolidine ring to which it is attached), leading to both lone-
+pair repulsion and unfavorable dipolar alignment, whereas
+upon protonation, the C F and N + H bonds can undergo fa-
+vorable dipolar alignment and lone-pair repulsion is eliminat-
+ed.[20] Similar trends were also observed in the corresponding
+series of nitrile precursors (Figure 1 SI).
+
+2.2. Variation of the D and P pocket vector
+
+When the F substituent in the para position of the benzylic
+ring in ( )-6, which occupies the D pocket of the thrombin
+is changed to Cl, Br, OMe, or OH, or the phenyl
+active site,
+group exchanged for a 4-pyridyl ring, the pKa value of the dis-
+tant tertiary amine center is not affected and remains at 4.5
+0.1.[10] Upon changing from the tricyclic imide to the tricyclic
+lactam series, on the other hand, the pKa values change sub-
+stantially (Figure 3). Lactams ( )-12 to ( )-14 feature an iso-
+propyl group to favorably fill the P pocket of thrombin, which
+results in improved binding to thrombin (Ki between 5 and
+15 nm) and high selectivities over trypsin (~ 400–1600-fold).[9, 10]
+Compared with imide ( )-6 (Figure 2, pKa 4.5) and the para-
+substituted benzyl analogues mentioned above, the pKa values
+of the tertiary amine centers in ( )-12 to ( )-14 are raised by
+nearly two units to 6.2–6.5. This is clearly the result of remov-
+ing one C=O group in the b-position.
+
+Whereas the change from the isopropyl group in ( )-12 to
+other hydrocarbon residues has expectedly only marginal ef-
+fects (see compounds ( )-15 to ( )-18 in Figure 3), the intro-
+residues (see ( )-19 to ( )-22 in
+duction of
+Figure 3) to fill the P pocket can change the pKa value signifi-
+
+fluoroalkyl
+
+ChemMedChem 2007, 2, 1100 – 1115
+
+ 2007 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+www.chemmedchem.org
+
+1103
+
+C
+H
+T
+U
+N
+G
+T
+R
+E
+N
+N
+U
+N
+C
+H
+T
+U
+N
+G
+T
+R
+E
+N
+N
+U
+N
+C
+H
+T
+U
+N
+G
+T
+R
+E
+N
+N
+U
+N
+MED
+
+F. Diederich, M. Kansy, K. Müller, et al.
+
+Figure 3. Long-range effects on the pKa value of the tertiary amine center in
+tricyclic thrombin inhibitors. Note: ( )-12 measured in 0.1 m KNO3 by poten-
+tiometric titration; ( )-13 and ( )-14 measured in 0.15 m SGA buffer (10 %
+MeOH) by Sirius ProfilerSGA photometric titration;[16] the slightly different
+pKa values for these three compounds can most likely be ascribed to the un-
+equal solvent mixtures and ionic strengths.
+
+cantly, despite the large topological distance of the F atoms
+from the tertiary amine center, which is five or six bonds
+away.[11] Thus, a CHF2 substituent, as in ( )-20 (F atoms in d-
+position to the N atom), lowers the pKa to a value of 5.6. In the
+presence of both OH/OMe and CF3 substituents in g-position
+to the N atom, as in ( )-23 to ( )-25, measured pKa values are
+as low as 4.9–5.5. This documents once more the substantial
+electron-withdrawing effects of fluorine and oxygen atoms and
+their dramatic effects on an amine center, even in rather
+remote locations.
+
+2.3. Variation of substituents pointing towards the oxyanion
+hole
+
+The introduction of F, OH, and OMe substituents at various po-
+sitions of the terminal pyrrolidine ring ((+)-26 to ( )-41 in
+Figure 4) to probe their bioisosteric behavior in thrombin bind-
+ing produced striking effects on the basicity of the adjacent
+tertiary amine center.[12] Inductive effects are transmitted over
+two s-pathways, as substituents at positions 8 ((+)-26 to (+)-
+33) and 7 ((+)-34 to ( )-41) are both located in b- and g-posi-
+tion to the amine center. With one substituent, the pKa is de-
+creased by amounts of  0.3 to  1.2 relative to the parent
+compound ( )-6. Remarkably, difluorination at either position
+produces essentially neutral amines with pKa values below 2
+((+)-32 and ( )-40). Several trends are noticeable: First, the in-
+teraction effects of fluorine are (expectedly) much stronger
+
+Figure 4. Additional F, OH, or OMe substitution in the terminal pyrrolidine
+ring changes the protonated tertiary ammonium ion into a moderately
+strong acid.
+
+than those of OH or OMe, resulting in pKa decrements that are
+larger by  0.3 to  0.9 units. Second, the DpKa effects of OH
+and OMe are somewhat similar, differing between 0 and 0.4
+units, depending on the position and relative configuration at
+the center of substitution. Third, the effects of two gem sub-
+stituents (F or OMe) seem to be more or less additive. Finally,
+the pKa decrements are essentially independent on the stereo-
+chemistry at C7, but show a marked configurational depend-
+ence for substituents at C8. Substituents at C8 are more
+strongly subjected to the anisotropic steric bulk of the tricyclic
+core, which could result in differential solvation, thus affecting
+the pKa values.
+
+The trends reported in Figures 3 and 4 are paralleled by the
+experimental pKa values measured for a series of precursor
+compounds not
+containing the charged benzamidinium
+group. These pKa data are collected in Figures 2 SI and 3 SI, re-
+spectively.
+
+All these pKa data for our tricyclic thrombin inhibitors, docu-
+menting significant long-range effects not only of F atoms, but
+also of OH and OMe substituents, led us to re-examine the pKa
+decrements induced by electron-withdrawing groups as a
+function of topological distance to an amine in a systematic
+manner.
+
+1104
+
+www.chemmedchem.org
+
+ 2007 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+ChemMedChem 2007, 2, 1100 – 1115
+
+Amine Basicities
+
+3. Trends for pKa Prediction of Amines
+
+3.2. s-Acceptor substitution: general remarks
+
+3.1. Alkyl substituents
+
+While gas-phase acidities of alkylammonium ions show an in-
++ <
+crease in pKa with alkyl substitution (NH4
+R3NH +), it is well known that the less-favorable solvation of a
+protonated tertiary ammonium ion lowers its pKa in water,
+leading to the series NH4
+(10.6) <
++ (10.8) > Me3NH + (9.8).[21] The pKa values are relatively
+Me2NH2
+insensitive to alkyl chain length, except for methyl versus ethyl
+groups (or longer alkyl chains, Figure 5 a). a-Branching in an
+
+(pKa 9.2) < MeNH3
+
++
+
++ < RNH3
+
++ < R2NH2
+
++
+
+Figure 5. pKa values of acyclic and cyclic aliphatic amines.
+
+aliphatic substituent tends to increase the basicity of only terti-
+ary amines, but not primary or secondary amines. This may be
+interpreted by the steric bulk around the N atom leading to a
+decrease of the amine’s pyramidal shape and thus an increase
+of the nitrogen lone-pair energy with a concomitant destabili-
+zation of the neutral amine. Single b-branching has little or no
+influence in all
+three types of aliphatic amines; however,
+double b-branching, such as in neopentylamine, decreases the
+pKa (Figure 5 b). This finding can be rationalized by a destabiliz-
+ing effect of the neopentyl group in the protonated ammoni-
+um ion due to unfavorable solvation in staggered conforma-
+tions and unavoidable 1,5-type steric interferences. The a- and
+b-branching effects on amine basicity are nicely corroborated
+by pKa values recently measured for a short series of N-(4’-aryl-
+butyl)-N,N-dimethylamines (Figure 5 c), containing a gem-di-
+methyl group in a-, b-, or d-position of the amine group.[22, 23]
+Aliphatic ring size seems to have little influence on amine
+basicity (Figure 5 d). Exceptions are the 3-membered aziridine
+systems, which are substantially less basic.
+
+As clearly demonstrated in the preceding analysis of the pKa
+values of substituted tricyclic thrombin inhibitors, the incorpo-
+ration of strong s-acceptor substituents can modulate the ba-
+sicity of an amine group dramatically. Fluorine, sulfones, vari-
+ous neutral O- or N-containing functional groups, and to a
+lesser extent nitriles, are s-acceptors commonly encountered
+in medicinal chemistry. For a general treatment of s-acceptor
+properties of C X bonds in which X is a main-group element
+from groups IVa–VIIa in the periodic table, the reader is refer-
+red to a recent article by Alabugin and Zeidan[24] and to com-
+
+prehensive tables of Hammett s-parameters.[25]
+
+3.3. Fluorine substitution in open-chain aliphatic
+amines
+
+Fluorine substitution in the vicinity of an amine
+center not only lowers its basicity but also enhances
+metabolic stability, for example, against oxidation or
+dealkylation by cytochrome P450 enzymes, one of
+the major incentives for fluorine introduction in lead-
+optimization processes. In open-chain molecules, flu-
+orination at the b-position to an amine center leads
+to a decrease in pKa of ~ 1.7 units for each additional
+fluorine atom (Figure 6 a). It appears that each addi-
+tional fluorine contributes similarly to electron with-
+drawal from the amine and thus to a successively
+larger destabilization of the protonated ammonium
+form.
+
+Increasing the number of carbon atoms between
+F acceptor and amine sites leads to an exponential
+attenuation of the pKa shifts, being typically a factor
+of 0.5 between two homologs that differ by one s-
+bond between the fluorine and amine function (Fig-
+ure 6 b). The additional sp3 carbon atoms act as insu-
+
+Figure 6. a) The additive effect of multiple fluorine atoms on amine basicity;
+the pKa values for the fluorinated ethylamines were re-measured and con-
+firm those given in the MedChem database,[1] except for difluoroethylamine
+(MedChem database: 7.5); experimental DpKa values are indicated above
+the arrows. b) Dependence of average pKa shifts (DpKa) induced per fluorine
+substituent as a function of its topological distance from the basic center.
+
+ChemMedChem 2007, 2, 1100 – 1115
+
+ 2007 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+www.chemmedchem.org
+
+1105
+
+MED
+
+lators, leading to a nonlinear loss of the acceptor magnitude.
+The table in Figure 6 b summarizes the approximate pKa-lower-
+ing effects by one fluorine atom at a specified position derived
+from various singly and multiply F-substituted amines, assum-
+ing additivity of the observed F-induced pKa decrements.[13]
+Based on these data, one can easily and accurately calculate
+the approximate pKa value of a multiply fluorinated acyclic ali-
+phatic amine. However, this additivity scheme may have its in-
+trinsic limitations if many (strong) s-acceptors are present
+which may attenuate the s-transmissions of more remote ac-
+ceptors and which may cooperatively stabilize conformations
+in which the basicity-lowering effects of certain groups are
+characteristically different (see Sections 3.4 and 4).
+
+3.4. Fluorine substitution in cyclic aliphatic amines
+
+As indicated in Section 2 and advocated by Perrin and co-
+workers[13, 14] in cyclic systems the electron-withdrawing effect
+towards the s-acceptor is transmitted via both s-pathways
+connected to the nitrogen atom. The idea is outlined in Fig-
+ure 7 a.
+
+Figure 7. a) Consideration of the two available s-transmission paths in pre-
+dicting pKa shifts for piperidine as a result of F introduction in the 4- or 3-
+position, taking the DpKa values of Figure 6 b. b) Experimental pKa values of
+mono- and difluorinated piperidines, and DpKa values (referenced to the
+parent piperidine) given in parentheses below; the estimated DpKa values
+based on the pKa shifts of Figure 6 b are placed parenthetically above and
+below the arrows. c) DpKa values for equatorial and axial F substituents in pi-
+peridine, as derived from the pKa shifts given by Bols and co-workers for
+equatorial F substituents in the 3- and 4-positions of polyhydroxypiperidine
+derivatives,[26, 33] and the experimental DpKa values of 3,3- and 4,4-difluoropi-
+peridine with possible rationales for the conformationally differentiated
+DpKa effects.
+
+Taking 4-fluoropiperidine as an example, the fluorine is locat-
+ed in g-position to the amine when passing along both alkyl
+chains (Figure 7 a). According to the table in Figure 6 b, this re-
+sults in a theoretical pKa shift of  1.4 with respect to unsubsti-
+tuted piperidine. In comparison with the decrement of DpKa =
+
+F. Diederich, M. Kansy, K. Müller, et al.
+
+ 1.7, estimated from the pKa value of a polyhydroxypiperidine
+derivative carrying an equatorial fluorine substituent in the 4-
+position,[26] this approximation is reasonable, albeit an underes-
+timation. The actual measured pKa value of 4-fluoropiperidine
+is 9.4 (Figure 7 b), which is highly consistent with the some-
+what larger pKa decrement. By analogy, the pKa shift in 3-fluo-
+ropiperidine can be calculated using the values for b- and d-
+fluorination, resulting in an expected decrease of 2.0 pKa units
+(Figure 7 a): again, close to but below the decrement of 2.3, es-
+timated from a pair of polyhydroxylated piperidines, in which
+one compound contains a fluorine substituent in a 3-equatorial
+position.[26] This pKa decrement would have us expect a pKa
+value for the 3-fluoropiperidine of 8.8; however, the actual
+measured pKa is 9.3 (Figure 7 b), with a concomitant DpKa of
+ 1.8. In a series of elegant NMR studies, Lankin, Snyder, and
+co-workers established that in various organic and water solu-
+tions, protonated 3-fluoropiperidine exists exclusively as a
+single conformer with the fluorine in axial orientation, whereas
+after deprotonation the substituent adopts the equatorial posi-
+In the axial orientation the dipole of the polar C F
+tion.[27]
+bond is favorably aligned antiparallel to the dipole of the H 
+N + bond. This arrangement stabilizes the protonated state and
+explains why the experimental pKa value of 3-fluoropiperidine
+is higher than expected. Thus, 3-fluoropiperidine presents an
+in which the experimental pKa shift ( 1.8)
+interesting case,
+would be expected to lie between that of an equatorial 3-F
+substituent ( 2.3) and that of an axial 3-F substituent ( 1.4,
+see Figure 7 c).
+
+Based on the experimental pKa values of 4,4- and 3,3-
+difluoroA
+Gpiperidine (Figure 7 b) and the pKa decrements of 1.7
+and 2.3 for equatorial fluorine substituents in the 4- and 3-po-
+sitions, respectively, the pKa decrements due to the second
+(axial) fluorine are calculated to be, respectively, 0.9 and 1.4.
+Thus, pKa decrements for axial fluorine substituents are consid-
+erably smaller than for the equatorial counterparts and reflect
+the dramatic dependence of DpKa values on the relative orien-
+tation of a fluorine substituent with respect to the amine func-
+tion. Gratifyingly, these results are well corroborated by the pKa
+shifts derived from experimental pKa values in the compound
+series 42, cis-43, cis-44, and trans-44 (Figure 8 a),[28] as well as
+for the DpKa of  0.9 for an axial 4-fluoro substituent, as ob-
+tained from the pKa values reported for 45 and its 4-fluoro de-
+rivative 46 (Figure 8 b). The average DpKa values for conforma-
+tionally differentiated fluorine substituents in the 3- and 4-po-
+sition of piperidine ( 1.8 and  0.7, respectively) compare re-
+markably well with the corresponding respective DpKa values
+obtained for b- and g-fluorine substituents in acyclic aliphatic
+amines.
+
+In this context, we report the pKa values measured for the
+simple pair of epimeric 4-benzyl-3-fluoropiperidines, cis-47 and
+trans-47 (Figure 8 c). The difference between their pKa values
+(0.5) is only about half of what we might have expected (~ 0.9)
+from our previous discussions. Close inspection of their confor-
+mational behavior as neutral base and protonated salts in
+water by NMR spectroscopic analysis reveals that cis-47 keeps
+the 3-fluorine substituent in axial position in both its neutral
+and protonated form (Figure 4 a SI). By contrast, the epimeric
+
+1106
+
+www.chemmedchem.org
+
+ 2007 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+ChemMedChem 2007, 2, 1100 – 1115
+
+C
+H
+T
+U
+N
+G
+T
+R
+E
+N
+N
+U
+N
+Amine Basicities
+
+Figure 8. Confirmation of the unequal DpKa effects of axial and equatorial
+fluorine substitution in a series of piperidine derivatives.[28]
+
+trans-47 adopts the expected diequatorial form only in its neu-
+tral state, but when protonated, exhibits the characteristics of
+two rapidly interconverting, roughly equally populated chair
+forms with the substituents in diequatorial and diaxial arrange-
+ments (Figure 4 b SI). Hence, trans-47 does not exhibit the full
+pKa decrement expected for an equatorial 3-fluoro substituent,
+as it acquires substantial 1,3-syn CF··· +NH stabilization in its
+partially populated diaxial conformer.
+
+The fluorine-induced pKa shifts identified for piperidines can
+be translated back into the acyclic situation. Take, for example,
+the case reported by van Niel et al.,[28] in which one and two
+fluorine atoms were introduced into the propyl linker unit be-
+tween a piperidine and an indole unit (Figure 9 a). Introduction
+of the first fluorine atom results in a moderate pKa shift by
+only  1 unit, whereas the second F atom produces a very pro-
+nounced additional shift of  2 units. The average pKa decre-
+ment per fluorine is 1.5 units,
+in good agreement with the
+shift expected for a fluorine in b-position to an amine (Fig-
+ure 6 b). However, the dramatic difference between the two
+pKa shifts clearly points to a specific inequality of the two
+F atoms. Because the propyl chain in these molecules most
+likely adopts an all-trans conformation, the first F atom will
+assume a gauche conformation with respect to the piperidine
+N atom. The most favorable position will be the one in which
+the polar C F bond is 1,3-syn to the N + H bond of the pro-
+tonated piperidine, with concomitant stabilization of the pro-
+tonated base, while the second F atom will have to take the
+other gauche position devoid of favorable 1,3-syn interactions
+
+Figure 9. a) Unequal pKa shifts observed for the first and second F atom in-
+troduced into the aliphatic linker attached to the N atom in piperidine deriv-
+atives[28] and possible rationalization in terms of the presence and absence
+of a 1,3-syn CF··· +NH interaction stabilizing the protonated ammonium ion.
+b) DpKa values for the replacement of a b-CH3 by a b-CF3 group in primary,
+secondary, and tertiary amines and possible rationalization in terms of the
+presence and absence of 1,3-syn CF··· +NH interactions stabilizing the proton-
+ated ammonium ion. Assuming that a b-fluorine atom in an anti-periplanar
+or gauche conformation without syn interaction results in similar DpKa ef-
+fects, the corresponding pKa shift parameters for 1,3-syn and trans/gauche
+arrangements can be estimated; they are in remarkably close agreement
+with the parameters obtained for equatorial and axial F substituents in pi-
+peridines (Figures 7 and 8).
+
+with the ammonium group. This case not only nicely illustrates
+that the same principles operate similarly in both cyclic and
+acyclic systems, but also provides an important new piece of
+information: F atoms in b-position, either trans or gauche but
+not 1,3-syn, to a (protonated) amine group, produce similar
+(strong) pKa shifts.
+
+With this information in hand, the case of trifluoroethyla-
+mine and its N-methyl and N,N-dimethyl derivatives is illumina-
+tive. In all three cases, fluorine atoms can be assigned to syn
+and anti/gauche orientations with respect to the hydrogen
+atoms at the protonated amine (Figure 9 b). For primary and
+secondary amines, DpKa~ 4.9 is observed when all hydrogens
+in b-position are replaced by fluorine. Two 1,3-syn CF··· +NH in-
+teractions are possible, while one fluorine in anti orientation
+does not interact with the amine hydrogens. For the tertiary
+amine, DpKa = 5.4 indicates a decreased stabilization of the
+
+ChemMedChem 2007, 2, 1100 – 1115
+
+ 2007 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+www.chemmedchem.org
+
+1107
+
+MED
+
+protonated state, as only one 1,3-syn interaction is possible,
+while two fluorines adopt non-interacting anti and gauche ori-
+entations. Taking these results together, the pKa shift contribu-
+tion of a single 1,3-syn CF··· +NH interaction can be calculated
+to be DpKa = 1.4, whereas the anti- or gauche-oriented fluo-
+rines contribute DpKa = 2.0, in good agreement with the ba-
+sicity shift effects identified for b-fluorinated piperidines (Fig-
+ure 7 c).
+
+3.5. Fluorine substitution in benzimidazoles
+
+Although this review deals mainly with the effects of s-accept-
+or substituents on the pKa values of aliphatic amines, one ex-
+ample from our research should also be added to illustrate the
+predictability of the effects of such substituents on the basicity
+of aromatic amines. Specifically, we present fluorine effects on
+the pKa values of benzimidazoles, common scaffolds in medici-
+nal chemistry and used as a central platform in our inhibitors
+of the metalloprotease neprilysin (NEP).[29, 30]
+
+Figure 10 gives the pKa values for the protonation (pKa1) and
+deprotonation (pKa2) of benzimidazole (48 a) and its differently
+fluorinated derivatives 48 b–j. Interesting correlations between
+the pKa values and the degree of fluorination at the benzene
+ring were observed. They are explicitly shown in Figures 5 SI–
+10 SI and are summarized in the following. Note that for non-
+symmetrical cases such as 48 b, two different values for each
+pKa1 and pKa2 would have to be considered in principle if tau-
+tomerization were slow relative to pKa measurements; howev-
+er, we have no experimental evidence for “split” pKa values.
+
+Upon initial inspection of the data, increasing fluorination of
+the phenyl ring strongly affects both pKa values, as expected,
+
+Figure 10. Experimental values for pKa1 (deprotonation of benzimidazolium)
+and pKa2 (deprotonation of benzimidazole) of benzimidazole 48 a and all its
+possible derivatives 48 b–j, having one to four F substituents in the benzene
+moiety.
+
+F. Diederich, M. Kansy, K. Müller, et al.
+
+which shift in the case of pKa1 from 5.5 (48 a) to 2.1 (48 j), and
+in the case of pKa2 from > 12 (48 a) to 9.4 (48 j). At equal de-
+grees of fluorination, remarkable variation in the pKa values is
+observed which corroborates the importance of the position of
+the fluorine atoms. Introduction of fluorine ortho to an N atom
+in the benzimidazole system has a larger effect than meta sub-
+stitution. Thus, ortho derivative 48 b features pKa1 4.2, whereas
+for meta derivative 48 c, a value of 5.0 is measured. Similarly, in
+the difluorinated series, 48 f with two ortho fluorines features
+pKa1 3.0, whereas the value for bis-meta-substituted 48 g is 1.5
+units higher (4.5).
+
+A more detailed analysis of the data shows remarkably con-
+sistent correlations. When comparing pairs of compounds that
+differ by only one additional fluorine at the ortho position to
+an imidazole nitrogen, a decrease in pKa1 of 1.2 0.2 units is
+observed, independent of the number of fluorine atoms and
+their substitution pattern in the starting compound (Figur-
+e 5 SI).
+
+Similarly, introduction of an additional fluorine at the meta
+position decreases the pKa1 values by 0.5 0.1 units for all
+pairs of compounds (Figure 6 SI). Shifting a fluorine from meta
+to ortho leads to a decrease in pKa1 by 0.7 0.1 for each series
+of mono- to tri-fluorinated benzimidazoles, again corroborating
+the weaker effect of meta fluorination (Figure 7 SI). Interesting-
+ly, and quite remarkably, virtually identical patterns are ob-
+served for pKa2 values as a function of the F-substitution pat-
+tern (Figures 8 SI–10 SI).
+
+3.6. Oxygen-containing functional groups
+
+The oxygen in ethers and alcohols also acts as a strong s-ac-
+ceptor and is well suited, but remarkably underused, as a pKa-
+modulating substituent (see also Figure 4). Figure 11 a shows
+that the pKa values of amino groups change incrementally as a
+function of the distance between N-donor and O-acceptor in
+open-chain aliphatic hydroxy, ether, and acetoxy derivatives, as
+previously demonstrated for fluorinated compounds. The DpKa
+values in Figure 11 a refer to N,N-dimethylbutylamine (pKa 10.2)
+as the parent base. It is apparent from the data that hydroxy
+and methoxy groups have a nearly identical inductive effect.
+The influence of these acceptors drops considerably for substi-
+tution at or beyond the d-position. In comparison, an acetoxy
+group causes distinctly larger decreases in pKa, as it is more ef-
+ficient in electron withdrawal due to the additional carbonyl
+group. The data nicely illustrate that the pKa shifts by hydroxy
+or methoxy substituents at a given topological distance from
+the basic center are approximately equal to those of an ace-
+toxy substituent at a distance one bond further away.
+
+For cyclic ethers such as morpholine, similar effects can be
+identified. As the electron-withdrawing effect of the oxygen
+atom acts through both s-pathways, as already pointed out in
+Section 3.4, morpholine can be viewed as a secondary amine
+with double methoxy substitution in b-position with an ex-
+pected pKa shift of  1.2 units through each s-path (Fig-
+ure 11 b). Indeed, the experimental values for both morpholine
+and N-methylmorpholine are close to those expected.
+
+1108
+
+www.chemmedchem.org
+
+ 2007 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+ChemMedChem 2007, 2, 1100 – 1115
+
+Amine Basicities
+
+Figure 11. Effects of oxygen-containing functional groups on amine pKa
+values. a) Distance dependence of DpKa effects in open-chain alcohols,
+ethers, and acetates; DpKa effects for OH and OMe groups in d- and e-posi-
+tions are estimated by comparison with the corresponding value for the
+OAc group and assuming continued attenuation. b) The consideration of
+two s-transmission pathways in morpholine derivatives provides a consis-
+tent rationalization (estimated value indicated above the arrow) of the ex-
+perimental pKa values (shown with DpKa values in parentheses) below the
+structures. c) Experimental pKa values in N-arylbutyl amines bearing an oxe-
+tane unit at different topological distances from the amine center.[23] The
+comparison of DpKa values indicates a distinct deviation from the more typi-
+cal exponential attenuation observed for other electron-withdrawing
+groups.
+
+Another useful class of ethers are oxetanes, as they not only
+modulate amine basicity, but can also favorably affect other es-
+sential physicochemical and pharmacological compound prop-
+erties.[23] The compounds in Figure 11 c demonstrate the applic-
+ability of the rules for DpKa of open-chain ethers and alcohols
+given in Figure 11 a. Closer inspection of these pKa data reveals
+that the pKa decrements as a function of topological distance
+between the oxetane and the amine group are not attenuated
+in a strictly exponential fashion, as may have been expected.
+This hints to specific conformation-dependent intramolecular
+interactions operating differently in various members of this
+series. They are the focus of ongoing research.[22]
+
+3.7. Nitrogen-containing functional groups
+
+Among the many N-containing functional groups, neutral
+amides, carbamates, sulfonamides, and N-arylamines play a
+considerable role in medicinal chemistry, and some of their
+pKa-lowering effects are documented, albeit by only a compa-
+
+Figure 12. Modulation of amine basicity by a) amides and carbamates, b) N-
+aryl- and N-heteroarylamines, and c) sulfonamides. Experimental pKa and
+DpKa values given in parentheses below. Estimated DpKa values (taking into
+account two s-transmission pathways in the cyclic systems) are placed par-
+enthetically above the arrows. The pKa shifts in a) and c) are estimated with
+reference to N-n-butyl-N,N-dimethylamine (pKa 10.2) and n-butylamine
+(pKa 10.7), respectively.
+
+ratively small set of available data (Figure 12). We note again
+relatively consistent patterns for DpKa shifts in going from the
+monoacylated ethylenediamine to the cyclic piperazine cases,
+taking into account the dual s-transmission paths in the latter,
+as well as in going from the N-monoacylated ethylenediamine
+to the corresponding propylenediamine, allowing us in princi-
+ple to estimate the pKa shifts due to more distantly placed N-
+acylamino groups. We also note a slight reduction of DpKa ef-
+fects for such groups in b-position in going from N-acetyl, to
+N-benzoyl, and to N-ethoxycarbonyl, as might have been ex-
+pected. Likewise, N-aryl tends to have distinct but considerably
+weaker effects that are similar to, but somewhat smaller than
+those of hydroxy, methoxy, or acetoxy groups. Of particular in-
+
+ChemMedChem 2007, 2, 1100 – 1115
+
+ 2007 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+www.chemmedchem.org
+
+1109
+
+MED
+
+F. Diederich, M. Kansy, K. Müller, et al.
+
+terest is the case of N-tosylpiperazine, from which it is appar-
+ent that a sulfonamide function exhibits a very strong pKa-low-
+ering effect, more pronounced than that of an N-acyl unit and
+perhaps more comparable to that of a keto-carbonyl unit (see
+Section 3.9). Again, we note a consistent pattern in comparing
+this pKa decrement with those derived for two acyclic monoar-
+ylsulfonylated diamines using n-butylamine (pKa 10.7) as refer-
+ence.
+
+It is also interesting to look at the pKa-lowering effect of the
+phenylthio group (Figure 13 c). As expected, the DpKa values
+are considerably lower than those of structurally analogous
+sulfones, but larger than for a methylthio group (b-(methyl-
+thio)ethylamine, pKa 9.5 (DpKa = 1.2)).[32] The latter pKa decre-
+ment is consistent with the experimental value of thiomorpho-
+line (Figure 13 d, pKa 9.0 (DpKa = 2.1)), taking into account
+two s-transmission paths in the cyclic system.[13]
+
+3.8. Sulfur-containing functional groups
+
+3.9. Carbonyl and carboxyl groups
+
+The sulfone group is an important module in medicinal
+chemistry owing to its powerful electron-withdrawing charac-
+ter that affects many physicochemical parameters accordingly,
+and that is topped only by highly fluorinated or cyano sub-
+stituents. Figure 13 a shows how arylsulfones lower amine ba-
+
+The electron-withdrawing effects of carbonyl and carboxyl de-
+rivatives on the basicity of neighboring amine groups are
+shown in Figure 14. The data for ketones depicted in Fig-
+
+Figure 13. Modulation of amine basicity by a) aryl sulfones in acyclic amines,
+b) a sulfone unit in a cyclic system, c) aryl thioethers in acyclic amines,[31]
+and d) a thioether unit in a cyclic system. Experimental pKa values are fol-
+lowed by DpKa values given in parentheses below. Estimated DpKa values
+(taking into account two s-transmission pathways in the cyclic systems) are
+placed parenthetically above the arrows.
+
+sicities in a saturated acyclic system,
+taking n-butylamine
+(pKa 10.7) as reference.[31] The basicity-lowering effect of sul-
+fones can again be viewed as an exponential function of the
+topological distance to the amine center. Similar effects are
+also found for secondary and tertiary amines. In addition, the
+example in Figure 13 b affirms again that both s-pathways
+have to be considered in cyclic amines. A b-sulfone group in
+an acyclic system would result in a pKa shift of  2.9 units
+which is consistent with the experimental DpKa value of  5.7
+for the cyclic case.
+
+Phenylsulfoxides may exhibit similar pKa-lowering effects as
+corresponding phenylsulfones
+(Figure 11 SI), although with
+only one reliable example currently available, no general state-
+ment can be made.
+
+Figure 14. Modulation of amine basicity by carbonyl-containing functional
+groups in a)–c) and nitriles in d). The respective pKa shifts are estimated with
+reference to N-n-butyl-N,N-dimethylamine (pKa 10.2) and n-butylamine
+(pKa 10.7). For the piperidine examples in a), experimental pKa values are
+given with DpKa in parentheses below; estimated DpKa values (taking into
+account two s-transmission pathways in the cyclic systems) are placed par-
+enthetically above the arrows. The pKa values for the two nitrile cases in d)
+with n = 2 and n = 3 are estimated from experimental pKa values for the cor-
+responding N,N-diethylamine derivatives (9.3 and 10.1, respectively) by
+taking into account a pKa shift of  0.6 in going from N,N-diethyl- to N,N-di-
+methylamines.[31] The DpKa values for nitriles represent averages from pKa
+shifts observed for various amines.
+
+1110
+
+www.chemmedchem.org
+
+ 2007 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+ChemMedChem 2007, 2, 1100 – 1115
+
+Different pKa decrements were also diagnosed for hydroxy
+groups in the 4-position of a piperidine ring,[26] the effect of 4-
+OHeq ( 0.6) being more pronounced than that of 4-OHax
+( 0.2). This qualitatively parallels the findings for 4-fluorinated
+piperidines, as mentioned in Section 3.4. For the interpretation
+of the stronger pKa-modulating effects of a polar C X bond in
+the equatorial 4-position, either a better aligned C X bond
+dipole or pronounced through-bond s-conjugative transmis-
+sion through properly aligned s*C X and intervening sC C orbi-
+tals may be invoked (see Figure 7 c).[26]
+
+Here we include two examples with recently measured pKa
+values that not only complement these findings, but also illus-
+trate another important conformational aspect. The first is
+shown in Figure 16.
+
+Amine Basicities
+
+ure 14 a are referenced to N,N-dimethylbutylamine (pKa 10.2).
+The amine pKa decrement induced by a keto-carbonyl group in
+b-position appears to be in the range of 1.6–1.8 units, as
+judged by both acyclic and cyclic systems. This value range is
+similar to pKa decrements observed for carboxyester and car-
+boxamide groups in b-position to an amine (Figure 14 b and c).
+However, there is some scatter in the currently available pKa
+data as well as a suspected systematic shift towards lower pKa
+values in the series of w-aminocarboxyesters and amides, sug-
+gesting the need to reassess various experimental data prior to
+drawing further conclusions. Nevertheless, it appears that the
+carbonyl group accounts for most of the electron withdrawal
+in all these cases.
+
+Finally, nitriles belong to the most powerful pKa-lowering
+functional groups, as illustrated by the pKa shifts in Figure 14 d.
+These effects parallel those identified for the phenylsulfone
+group and are similar or somewhat larger than those of a CF3
+group at an equal topological distance from an amine unit
+(see Section 3.3).[31] Again, an exponential attenuation of the
+pKa decrements as a function of topological distance between
+the cyano and amino function is evident.
+
+Carboxylic acids represent a special class of basicity-lowering
+functional groups. When in close proximity to the amine, the
+influence on amine basicity is relatively small due to intramo-
+lecular stabilization of the protonated nitrogen atom by the
+carboxylate anion, present at physiological pH (Figure 15). This
+
+Figure 15. Intramolecular stabilization of the protonated ammonium center
+decreases the basicity-decreasing effect of adjacent carboxylates.
+
+results in markedly lower DpKa decrements relative to the
+other carbonyl and carboxyl derivatives shown in Figure 14.
+
+4. Electronic and Stereoelectronic Considera-
+tions
+
+The conformational dependence of functional-group-induced
+pKa decrements is only at the beginning of being identified
+and understood, but as discussed in Section 3.4, it can be sub-
+stantial for fluorine-substituted piperidine derivatives.
+In the
+systematic study of polyhydroxylated piperidines, Bols and co-
+workers identified distinct differences of pKa shifts for axial and
+equatorial hydroxy groups.[26, 33] Without exception, axial OH
+groups at the 3-position of the piperidine ring resulted in
+markedly decreased DpKa values compared with equatorial OH
+Interestingly, the difference in pKa shifts of 1.0 0.3
+groups.
+units, observed for many equatorial–axial pKa couples, corre-
+sponds closely to the DpKa differences observed for fluorine
+atoms in b-position to a cyclic or acyclic amine, as discussed in
+Section 3.4.
+
+Figure 16. A 3-hydroxy group in piperidine derivatives exhibits conforma-
+tionally dependent pKa shifts similarly to fluorine (see Figures 7 c and 8 a).
+The pKa-lowering effect of the axial OH group is much less pronounced than
+that of the equatorial OH group.
+
+The parent compound 49, a 4-benzyl piperidine with an aryl-
+sulfonylethyl substituent at the N atom, exhibits a pKa value of
+6.8, which corresponds nicely to expectation, taking into ac-
+count the strong basicity-lowering effect of an arylsulfone
+group in b-position and the slight pKa-reducing effects of the
+remote phenyl group (~ 0.2) operating through both cyclic s-
+paths. Taking compound 49 as reference, the presence of an
+OH group in the 3-position of the piperidine in the cis (axial)
+derivative 50 results in only a small pKa shift as anticipated. By
+contrast,
+is much more pro-
+nounced in the trans (equatorial) epimer 51. Gratifyingly, the
+difference in pKa shifts amounts to one pKa unit, as observed
+for polyhydroxylated piperidines.[26]
+
+the basicity-lowering effect
+
+The second example is given for a cyclic and an acyclic rep-
+resentative of a series of 3,3,3-trifluoro-2-hydroxypropylamines
+(Figure 17).[34–37] This functional group has been of interest in
+medicinal chemistry[35, 36] and as a chiral auxiliary in asymmetric
+synthesis.[37] The measured pKa values of the two hydroxylated
+amines indicate a pKa shift of approximately  2.3 relative to
+the corresponding N-propylamines for the combined effects of
+the CF3 and the OH group both in b-position to the amine
+center. Because the DpKa effect due to a b-CF3 group is about
+
+ChemMedChem 2007, 2, 1100 – 1115
+
+ 2007 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+www.chemmedchem.org
+
+1111
+
+MED
+
+F. Diederich, M. Kansy, K. Müller, et al.
+
+Figure 17. Two examples of compounds bearing a 3,3,3-trifluoro-2-hydroxy-
+propylamine unit. The hydroxy group is forced by the bulky CF3 group to
+take a syn-orientation to the +N H bond, thus stabilizing the protonated
+ammonium center.
+
+ 2.0, the additional pKa shift due to the b-OH is only ~ 0.3.
+However, this would be expected if the bulky CF3 group is as-
+sumed to be trans to the amine center, thus forcing the hy-
+droxy group into a gauche orientation, where it could stabilize
+the protonated form by similar favorable interactions as diag-
+nosed for 3-hydroxypiperidine derivatives. Several X-ray crystal
+structures for different 3,3,3-trifluoro-2-hydroxypropylamines
+are available,[34–36] all of which show a conformational arrange-
+ment of the CF3 and OH groups as depicted in Figure 17.
+
+The first example (Figure 16) illustrates a case with good ad-
+ditivity of individual functional group effects operating essen-
+tially independently of each other.
+In the second example
+(Figure 17), the two pKa-modulating functions cooperate in
+specific and mutually exclusive conformational orientations. In
+such a case, a simple additivity scheme may not hold if one or
+both functional groups exhibit a distinct conformational de-
+pendence of pKa-lowering effects.
+
+The conformational dependence of pKa shifts has been rec-
+ognized only in recent years, and only fragmentary data are
+available for most common functional groups. Much more ex-
+perimental work is needed based on carefully designed model
+systems to clarify such important effects. All examples given
+above refer to systems in which the functional group (F or OH)
+is placed either in the 6-membered piperidine ring or in a
+simple aliphatic unit, both being able to adopt well-staggered
+conformations. Whether and to what extent the pKa-lowering
+effects observed in 6-membered rings or acyclic systems can
+be transferred to cases in which the electron-withdrawing ef-
+fects are transmitted through s-paths with poorly staggered or
+even eclipsed arrangements, as in substituted 5- and 4-mem-
+bered amines or in bicyclic ring systems, remains to be ex-
+plored.
+
+This is illustrated by a representative group of substituted
+pyrrolidine derivatives (Figure 18). The experimental pKa values
+may be referenced to the unsubstituted pyrrolidine (pKa 11.3)
+or N-benzylpyrrolidine (estimated pKa~ 8.9; for details of the
+calculations, see Figure 12 SI), which then results in the total
+pKa decrements indicated in parentheses below each formula.
+The expected total downshifts, calculated by pKa decrements
+derived from acyclic systems (or 6-membered model ring sys-
+
+Figure 18. Experimental pKa values of s-acceptor-substituted pyrrolidine de-
+rivatives. The first values in parentheses give the actual DpKa relative to un-
+substituted pyrrolidine (11.3). The expected total downshifts are given in ital-
+ics in a second set of parentheses; they must be multiplied by a correction
+factor of 0.6–0.8 to match the observed values. For details of the calcula-
+tions, see Figure 12 SI.
+
+tems) and taking into account the dual s-transmission paths,
+are given parenthetically in italics. The calculated total decre-
+ments must be reduced typically by a correctional factor of
+0.6–0.8 in order to match the observed values. This may indi-
+cate that s-transmission effects in these 5-membered ring sys-
+tems are suboptimal compared with those in well-staggered
+acyclic or 6-membered ring systems.
+
+Returning to the outset of tricyclic thrombin inhibitors of
+Figure 4, we note that the annulated succinimide unit posi-
+tions each of the two imide carbonyl groups in both a b- and
+g-position to the N atom of the central pyrrolidine. Hence,
+taking into account both s-transmission paths for each carbon-
+yl unit, and accounting for the various other substituents ac-
+cordingly (see Figure 13 SI), the calculated total pKa decrements
+again overestimate the electron-withdrawing effects relative to
+the corresponding values derived from the measured pKa
+values of compounds ( )-26 to ( )-41 with reference to the
+pKa value (11.4) of the unsubstituted hexahydropyrrolizine. In-
+terestingly, a correction factor of about 0.6–0.8 is again re-
+quired to match calculated and experimentally derived DpKa
+values. As previously emphasized, a more detailed understand-
+ing of pKa decrements in imperfectly staggered systems re-
+quires more experimental work with carefully designed model
+systems.
+
+5. Comments on pKa Prediction Methods and
+Developments of Computational Algorithms
+
+We already referred to the outstanding publications by Perrin
+and co-workers, allowing us an easy and remarkably accurate
+
+1112
+
+www.chemmedchem.org
+
+ 2007 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+ChemMedChem 2007, 2, 1100 – 1115
+
+Amine Basicities
+
+prediction of pKa values.[13, 14] Their approach is pragmatic and
+more concerned with experimentally derived linear free-energy
+relations for pKa predictions than with attempts to derive pKa
+values from first principles. In this way, the authors developed
+easy-to-use algorithms for certain classes of compounds which
+can be used as guiding rules for a large variety of molecules.
+More importantly, the relationship between molecular struc-
+ture and pKa-lowering effects remains transparent, which is a
+prerequisite for rational, structure-guided modulation of amine
+basicity.
+
+Numerous other publications deal with the topic of compu-
+tational pKa predictions, but most of the algorithms are appli-
+cable only to limited classes of compounds for which the cal-
+culation method was parameterized. Unfortunately,
+the
+amount of useful and publicly available data is remarkably lim-
+ited and increases at a relatively slow rate.[38] Furthermore, al-
+gorithms built on large fragment-based parameter sets apply-
+ing multi-linear correlation or neural-network-type techniques
+tend to become black boxes that, even with reasonably accu-
+rate predictions within the substructural calibration domain,
+make it difficult to the user to back-translate calculated results
+into structural features.
+
+Up to now, all prediction methods have been based on mo-
+lecular topology only and do not take into account conforma-
+tional or other 3D structural aspects. In view of the important
+and sometimes substantial yet still not sufficiently explored
+conformational effects, any such method has to be applied
+with due care.
+
+An additional complication may arise from differences in sol-
+vation of the protonated versus unprotonated amine as well as
+the electron-withdrawing substituents, particularly in bicyclic
+or otherwise sterically congested amines. Such effects may op-
+erate in the tricyclic thrombin inhibitors as well as in some of
+the bicyclic polyhydroxylated piperidine analogues discussed
+above; they may account for significant pKa shifts.
+
+Owing to such inherent limitations, currently available com-
+putational pKa prediction schemes are of limited practical value
+for general applications. Nevertheless, they can be helpful in
+specific cases to predict trends in series of related compounds.
+An in-depth discussion of the merits of the various computa-
+tional approaches towards pKa prediction is clearly far beyond
+the scope of this review. However, the increasing number of
+recent reports mandates that some of this ongoing work is
+briefly introduced; this may help the reader to get a quick
+entry into this developing field.
+
+Besides the experimentally derived pKa values of tricyclic
+thrombin inhibitors discussed above, Figures 1–4 also provide
+estimated values calculated by the commercially available and
+relatively widely used ACD/pKa prediction tool.[39] Although the
+general trends observed for the experimental pKa values are re-
+produced for most inhibitors, the calculated pKa values are sys-
+tematically some 1–1.5 units too high. Furthermore, this tool
+does not account for the different pKa values of epimeric com-
+pounds, such as ( )-24 and ( )-25 or ( )-3 and ( )-4. More
+generally, we find reasonable predictions for relatively simple
+amines for which experimental data are available for calibra-
+for amine compounds with more complex
+tion. However,
+
+structures or for which no data are yet available in the public
+domain, the method should be used with due care, as also evi-
+dent in a recent publication of pKa values of amines containing
+a sulfone group at different topological distances to the amine
+center.[31] It is hoped, however, that this method may be con-
+tinuously improved as more measured pKa values become
+available;
+this predictive
+method can be extended to include conformational effects on
+pKa as well.
+
+remains to be seen whether
+
+it
+
+Xing and Glen developed a simple but effective model for
+pKa predictions.[40] Based on a compound set of 384 basic and
+645 acidic aqueous pKa values extracted from Lange’s Hand-
+book of Chemistry,[41] an ionization model was generated. Com-
+bined descriptors ranked by cross-validated partial
+least-
+squares analysis were mapped onto molecular tree constructs
+around the ionizable center. The derived model
+is based on
+the hypothesis that the ionization of a particular group is de-
+pendent on its sub-environments constituted by its neighbor-
+ing atoms and bonds in topologically defined concentric
+shells. The idea is thus related to the concept of Perrin et al.[13]
+In a direct comparison with Perrin’s approach on a set of 25 in-
+dependent test compounds, the described model had slightly
+less predictive power. In a second phase, Xing and co-workers
+refined their algorithm for selected and well-represented sub-
+classes of basic and acidic compounds, resulting in improved
+predictions, albeit at the cost of uniform applicability.[42]
+
+Eckert and Klamt used an algorithm based on improved die-
+lectric continuum solvation methods (DCSMs), also accounting
+for short-range electrostatics of polar solutes and ions as well
+as hydrogen bonding.[43] Compared with other algorithms, the
+model was calibrated with a relatively small dataset of 43
+bases, excluding aliphatic amines. A fitted model was derived
+that was remarkably successful in predicting pKa values of un-
+saturated heterocyclic bases, conjugated amines, and primary
+aliphatic amines. However, the method systematically failed for
+secondary and tertiary amines, for which separate ad hoc cor-
+rection factors had to be introduced.
+In this way, the pKa
+values of a test set of 58 more complex bioactive N-containing
+basic compounds could be predicted reasonably well, with
+some 85 % of the predicted pKa values lying within one unit of
+the experimental pKa values. This method, which has been
+made commercially available,[43] is still computationally intense,
+as it requires the energy calculation of the base in its neutral
+and protonated states by relatively high-level density function-
+al theory (DFT).
+
+Seybold and co-workers performed a theoretical analysis on
+a limited set of 19 mono-substituted anilines (as well as 19
+mono-substituted phenol derivatives) to test the usefulness of
+different partial atomic charges obtained from high-level ab
+initio self-consistent field (SCF) calculations for pKa predic-
+tions.[44] Among various electron-density-partitioning schemes,
+they found partial atomic charges based on Bader’s “atoms-in-
+molecules”
+atomic orbital
+method, and natural population analysis to correlate best with
+experimental pKa data. However, significant deviations be-
+tween correlation-predicted and actual pKa values were noted
+for several cases. We are not aware of an extension of this
+
+Lçwdin’s orthogonal
+
+scheme,
+
+ChemMedChem 2007, 2, 1100 – 1115
+
+ 2007 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+www.chemmedchem.org
+
+1113
+
+MED
+
+analysis to other classes of organic bases, particularly to non-
+conjugated amines, to assess the potential of a more general
+applicability of this method.
+
+A limited set of 15 small aliphatic amines, nine of which
+having one or more hydroxy groups in b-position to the basic
+center, was investigated by da Silva and Svendsen using high-
+level quantum-mechanical calculations of gas-phase basicities,
+complemented by polarizable continuum methods and Monte
+Carlo free-energy perturbations to estimate solvation ener-
+gies.[45] Although this work pointed to the importance of intra-
+molecular hydrogen bonding modulating basicities, the overall
+pKa-predictive power of
+this computationally demanding
+scheme appears to be limited.
+
+Zhang and co-workers investigated a set of 74 drugs con-
+taining a basic center with experimental aqueous pKa values
+ranging between 6 and 11.[46] They applied both a multi-linear
+heuristic model and a nonlinear neural network algorithm
+based on radial basis functions incorporating a vast set of
+some 700 topological, geometrical, and quantum-mechanical
+descriptors. Based on a training set of 58 compounds (thus
+leaving only 16 compounds for testing) they concluded that
+the nonlinear neural-network-based method was overall more
+successful
+than the linear heuristic model. However, both
+methods showed a significant scatter of predicted versus ex-
+perimental pKa data, which still appears to limit the general ap-
+plicability of either method.
+
+Nagy et al. found good linear correlations between the pKa
+of nitrogen bases and the minimum of the molecular electro-
+static potential (MEP), estimated by either semi-empirical or
+small-basis-set ab initio SCF calculations.[47] This methodology
+provided reasonable prediction schemes for individual subsets
+of aliphatic amines, pyridines, and anilines. It was noted that a
+generalization over all three subsets was not possible, except
+with a significant sacrifice of pKa predictability. Furthermore,
+each compound subset contained only a small number of rep-
+resentatives with limited structural diversity, making it difficult
+to assess the proposed method regarding its potential
+for
+more general applications even within only a given subclass. In
+a subsequent investigation of solvation effects, Nagy found
+that hydration at the basic center as well as conformational
+changes of neighboring groups can strongly impact on the cal-
+culated MEP and thus on predicted pKa values.[48]
+
+A similar finding was described by Manivet and co-workers
+in a recent theoretical investigation of the basicity of seroto-
+nin.[49] Based on high-level DFT calculations, complemented by
+estimates of solvation effects by a polarizable continuum
+model, they showed that computed pKa values may differ sub-
+stantially depending on the conformation of the aminoethyl
+side chain, thus on the relative position of the terminal amino/
+ammonium group relative to the 5-hydroxyindolyl unit.
+
+Brown and Mora-Diez calculated the first pKa of one di-sub-
+stituted and 12 mono-substituted benzimidazoles using an ap-
+proach similar to Eckert and Klamt (see above), also taking into
+account possible tautomers of the neutral base.[50] Best perfor-
+mance was noted with a standard, but high-level DFT ap-
+proach. Whereas directly calculated pKa values differed sub-
+stantially from experimental data, correlated values gave ac-
+
+F. Diederich, M. Kansy, K. Müller, et al.
+
+ceptable agreement. However, it was noted that the applica-
+tion of their method to two mono-substituted benzimidazoles,
+not included in their original correlation, were moderately suc-
+cessful. Thus,
+the authors concluded that although their
+method gives overall good pKa predictions for this important
+structural motif, the predictive power may still be insufficient
+for practical applications.
+
+Finally, Chattaraj and co-workers introduced the concept of
+“group philicity”[51] to predict pKa values for a set of 63 small-
+molecule compounds containing carboxylic and phosphoric
+acids, alcohols, and anilines.[52] While individual subclasses
+showed promising linear correlations, this was not the case for
+all compounds taken together. A polynomial second-order cor-
+relation resulted in a significantly improved correlation for all
+compounds. Whether this “group philicity”-based approach
+can also be extended to a diverse set of saturated amines and
+refined to a level of sufficient prediction accuracy to become a
+method for general practical applications remains to be seen.
+In conclusion, most pKa prediction methods proposed or
+available today were derived and validated on data of relative-
+ly small structural series. Therefore, any application of such
+methods to compounds with new topological features should
+be done with due care, and spot-check measurements are
+highly recommended in such cases. This holds true even for
+applications of more established tools such as ACD/pKa, which
+is based on relatively large datasets.
+
+6. Conclusions
+
+This review provides useful insight for predicting and tuning
+amine basicities, one of the crucial factors determining molec-
+ular physicochemical properties of concern in lead optimiza-
+tion. Since the pioneering overviews by Perrin and co-workers
+some decades ago, many new data have become available for
+both relatively complex structures, such as typically encoun-
+tered in medicinal chemistry, and series of simpler model com-
+pounds. This has provided the incentive for a review on the
+current state-of-affairs regarding structural factors influencing
+amine basicity along with new complementary experimental
+pKa values. Computational pKa prediction tools are not yet suf-
+ficiently sophisticated to be of general practical value in the
+pharmaceutical
+this situation is expected to
+change in the future, as more experimental data become avail-
+able, and continued efforts are spent to refine existing tools.
+While this article primarily addresses scientists in drug-discov-
+ery chemistry, it should be equally useful to those in develop-
+ing crop-protection agents. Furthermore,
+it should appeal to
+the broad community pursuing the development of amine li-
+gands for organometallic complexes and, in particular, amine-
+based organocatalysis, for which fine-tuning of acid/base prop-
+erties is of utmost importance.[53]
+
+industry, but
+
+Acknowledgements
+
+We thank F. Hoffmann–La Roche Ltd., Basel and the ETH Re-
+search Council for support of this work. F.D. acknowledges the
+
+1114
+
+www.chemmedchem.org
+
+ 2007 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+ChemMedChem 2007, 2, 1100 – 1115
+
+Amine Basicities
+
+F. C. Donders chair during his visiting professorship at the Univer-
+sity of Utrecht.
+
+Keywords: amines · basicity · database mining · medicinal
+chemistry · pKa values
+
+[1] For an example of a commercial database that has been used in parts
+of this work, see: MedChem Database Version 06, Daylight Chemical In-
+formation Systems, Inc., Aliso Viejo, CA 92656 (USA); http://www.day-
+light.com/.
+
+[2] For protocols for determinations of high-throughput pKa and log D
+values, see: J. Olsen, P. Seiler, B. Wagner, H. Fischer, T. Tschopp, U. Obst-
+Sander, D. W. Banner, M. Kansy, K. Müller, F. Diederich, Org. Biomol.
+Chem. 2004, 2, 1339 – 1352.
+
+[3] A. Avdeef, Curr. Top. Med. Chem. 2001, 1, 277 – 351.
+[4] A. Avdeef, Absorption and Drug Development: Solubility, Permeability,
+
+and Charge State, Wiley, Hoboken, 2003.
+
+[5] H. Fischer, M. Kansy, D. Bur, Chimia 2000, 54, 640 – 645.
+[6] B. Fermini, A. A. Fossa, Nat. Rev. Drug Discovery 2003, 2, 439 – 447.
+[7] D. Alberati, D. Hainzl, S. Jolidon, E. A. Krafft, A. Kurt, A. Maier, E. Pinnard,
+A. W. Thomas, D. Zimmerli, Bioorg. Med. Chem. Lett. 2006, 16, 4311 –
+4315.
+
+[8] C. Jamieson, E. M. Moir, Z. Rankovic, G. Wishart, J. Med. Chem. 2006, 49,
+
+5029 – 5046.
+
+[9] J. A. Olsen, D. W. Banner, P. Seiler, U. Obst-Sander, A. D’Arcy, M. Stihle, K.
+Müller, F. Diederich, Angew. Chem. 2003, 115, 2611 – 2615; Angew. Chem.
+Int. Ed. 2003, 42, 2507 – 2511.
+
+[10] E. Schweizer, A. Hoffmann-Rçder, J. A. Olsen, P. Seiler, U. Obst-Sander, B.
+Wagner, M. Kansy, D. W. Banner, F. Diederich, Org. Biomol. Chem. 2006,
+4, 2364 – 2375.
+
+[11] A. Hoffmann-Rçder, E. Schweizer, J. Egger, P. Seiler, U. Obst-Sander, B.
+Wagner, M. Kansy, D. W. Banner, F. Diederich, ChemMedChem 2006, 1,
+1205 – 1215.
+
+[12] E. Schweizer, A. Hoffmann-Rçder, K. Schärer, J. A. Olsen, C. Fäh, P. Seiler,
+U. Obst-Sander, B. Wagner, M. Kansy, F. Diederich, ChemMedChem 2006,
+1, 611 – 621.
+
+[13] D. D. Perrin, B. Dempsey, E. P. Serjeant, pKa Prediction for Organic Acids
+
+and Bases, Chapman & Hall, London, 1981.
+
+[14] J. Clark, D. D. Perrin, Q. Rev. Chem. Soc. 1964, 18, 295 – 320.
+[15] A. Albert, E. P. Serjeant, The Determination of Ionization Constants, T&A
+
+Constable Ltd., Edinburgh, 1971.
+
+[16] a) Sirius Analytical
+
+Instruments Ltd., Applications and Theory Guide to
+pH-Metric pKa and log P Determination, Revision 1.0, August 1993;
+b) Sirius Analytical Instruments, Ltd., GLpKa Instruction Manual, January
+1999; c) http://www.sirius-analytical.com.
+
+[17] U. Obst, P. Betschmann, C. Lerner, P. Seiler, F. Diederich, V. Gramlich, L.
+Weber, D. W. Banner, P. Schçnholzer, Helv. Chim. Acta 2000, 83, 855 –
+909.
+
+[18] The extremely facile ring opening of the tricyclic imides in basic envi-
+ronment, discovered during pKa determination, has been developed
+into a useful preparative method in the meantime,
+leading to new
+highly substituted pyrrolizidines as inhibitors of the peptidyl-proline
+isomerase (PPIase) Pin 1; see: R. Siegrist, M. Zürcher, C. Baumgartner, P.
+Seiler, F. Diederich, S. Daum, G. Fischer, C. Klein, M. Dangl, M. Schwaiger,
+Helv. Chim. Acta 2007, 90, 217 – 259.
+
+[19] R. Adams, M. Carmack, J. E. Mahan, J. Am. Chem. Soc. 1942, 64, 2593 –
+
+2597.
+
+[20] For a review on dipolar interactions, see: R. Paulini, K. Müller, F. Dieder-
+ich, Angew. Chem. 2005, 117, 1820 – 1839; Angew. Chem. Int. Ed. 2005,
+44, 1788 – 1805.
+
+[21] M. Jones, Jr., Organic Chemistry, Norton, New York, 1997, pp. 1086 –
+
+1090.
+
+[22] G. Wuitschik, E. M. Carreira, personal communication.
+[23] G. Wuitschik, M. Rogers-Evans, K. Müller, H. Fischer, B. Wagner, F. Schu-
+ler, L. Polonchuk, E. M. Carreira, Angew. Chem. 2006, 118, 7900 – 7903;
+Angew. Chem. Int. Ed. 2006, 45, 7736 – 7739.
+
+[24] I. V. Alabugin, T. A. Zeidan, J. Am. Chem. Soc. 2002, 124, 3175 – 3185.
+
+[25] C. Hansch, A. Leo, D. Hoekman, Exploring QSAR—Hydrophobic, Electron-
+ic, and Steric Constants, ACS Professional Reference Book, Washington
+DC, 1995.
+
+[26] H. H. Jensen, L. Lyngbye, A. Jensen, M. Bols, Chem. Eur. J. 2002, 8,
+
+1218 – 1226.
+
+[27] D. C. Lankin, N. S. Chandrakumar, S. N. Rao, D. P. Spangler, J. P. Snyder, J.
+
+Am. Chem. Soc. 1993, 115, 3356 – 3357.
+
+[28] M. B. van Niel, I. Collins, M. S. Beer, H. B. Broughton, S. K. F. Cheng, S. C.
+Goodacre, A. Heald, K. L. Locker, A. M. MacLeod, D. Morrison, C. R.
+Moyes, D. O’Connor, A. Pike, M. Rowley, M. G. N. Russel, B. Sohal, J. A.
+Stanton, S. Thomas, H. Verrier, A. P. Watt, J. L. Castro, J. Med. Chem.
+1999, 42, 2087 – 2104.
+
+[29] S. Sahli, B. Frank, W. B. Schweizer, F. Diederich, D. Blum-Kaelin, J. D.
+Aebi, H.-J. Bçhm, C. Oefner, G. E. Dale, Helv. Chim. Acta 2005, 88, 731 –
+750.
+
+[30] M. Morgenthaler, D. Blum-Kaelin, J. D. Aebi, F. Diederich, manuscript in
+
+preparation.
+
+[31] R. E. Martin, B. Plancq, O. Gavelle, B. Wagner, H. Fischer, S. Bendels, K.
+
+Müller, ChemMedChem 2007, 2, 285 – 287.
+
+[32] G. H. McIntyre Jr., B. P. Block, W. C. Fernelius, J. Am. Chem. Soc. 1959, 81,
+
+529 – 535.
+
+[33] M. Bols, H. H. Jensen, L. Lyngbye, A. Jensen, I. Thomsen, Latv. Chim. J.
+
+2002, 60 – 68.
+
+[34] T. Katagiri, Y. Fujiwara, S. Takahashi, K. Uneyama, J. Fluorine Chem. 2005,
+
+126, 1134 – 1139.
+
+[35] R. C. Durley, M. L. Grapperhaus, M. A. Massa, D. A. Mischke, B. L. Parnas,
+Y. M. Fobian, N. P. Rath, D. D. Honda, M. Zeng, D. T. Connolly, D. M. Heu-
+velman, B. J. Witherbee, K. C. Glenn, E. S. Krul, M. E. Smith, J. A. Sikorski,
+J. Med. Chem. 2000, 43, 4575 – 4578.
+
+[36] R. C. Durley, M. L. Grapperhaus, B. S. Hickory, M. A. Massa, J. L. Wang,
+D. P. Spangler, D. A. Mischke, B. L. Parnas, Y. M. Fobian, N. P. Rath, D. D.
+Honda, M. Zeng, D. T. Connolly, D. M. Heuvelman, B. J. Witherbee, M. A.
+Melton, K. C. Glenn, E. S. Krul, M. E. Smith, J. A. Sikorski, J. Med. Chem.
+2002, 45, 3891 – 3904.
+
+[37] T. Katagiri, N. Iguchi, T. Kawate, S. Takahashi, K. Uneyama, Tetrahedron:
+
+Asymmetry 2006, 17, 1157 – 1160.
+
+[38] While the most recent update (Version 06) of the MedChem database
+(see Ref. [1]) contains some 12 000 additional entries compared with
+the previous Version 03, fewer than 100 entries with new pKa values
+became available.
+
+[39] ACD/pKa Version 8.19. Head Office, Advanced Chemistry Development,
+Inc., 110 Young Street, 14th floor, Toronto, ON, Canada M5C 1T4; http://
+www.acdlabs.com.
+
+[40] L. Xing, R. C. Glen, J. Chem. Inf. Comput. Sci. 2002, 42, 796 – 805.
+[41] J. G. Speight, Lange’s Handbook of Chemistry, 13th ed., McGraw Hill,
+
+New York, 2005, Tables 5 – 8.
+
+[42] L. Xing, R. C. Glen, R. D. Clark, J. Chem. Inf. Comput. Sci. 2003, 43, 870 –
+
+879.
+
+[43] F. Eckert, A. Klamt, J. Comput. Chem. 2006, 27, 11 – 19; http://www.
+
+cosmologic.de.
+
+[44] K. C. Gross, P. G. Seybold, C. M. Hadad, Int. J. Quantum Chem. 2002, 90,
+
+445 – 458.
+
+[45] E. F. da Silva, H. F. Svendsen, Ind. Eng. Chem. Res. 2003, 42, 4414 – 4421.
+[46] F. Luan, W. Ma, H. Zhang, X. Zhang, M. Liu, Z. Hu, B. Fan, Pharm. Res.
+
+2005, 22, 1454 – 1460.
+
+[47] P. Nagy, K. Novak, G. Szasz, J. Mol. Struct. (Theochem) 1989, 201, 257 –
+
+270.
+
+[48] P. Nagy, J. Mol. Struct. (Theochem) 1989, 201, 271 – 286.
+[49] J. Pratuangdejkul, W. Nosoongnoen, G.-A. GuØrin, S. Loric, M. Conti, J.-
+
+M. Launay, P. Manivet, Chem. Phys. Lett. 2006, 420, 538 – 544.
+
+[50] T. N. Brown, N. Mora-Diez, J. Phys. Chem. B 2006, 110, 9270 – 9279.
+[51] R. Parthasarathi, J. Padmanabhan, M. Elango, V. Subramanian, P. K. Chat-
+
+taraj, Chem. Phys. Lett. 2004, 394, 225 – 230.
+
+[52] R. Parthasarathi, J. Padmanabhan, M. Elango, K. Chitra, V. Subramanian,
+
+P. K. Chattaraj, J. Phys. Chem. A 2006, 110, 6540 – 6544.
+
+[53] B. List, J. W. Yang, Science 2006, 313, 1584 – 1586.
+
+Received: March 19, 2007
+Revised: May 2, 2007
+Published online on May 25, 2007
+
+ChemMedChem 2007, 2, 1100 – 1115
+
+ 2007 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+www.chemmedchem.org
+
+1115
+
+

@@ -1,0 +1,2175 @@
+Cancer Chemother Pharmacol (2013) 71:133–143
+DOI 10.1007/s00280-012-1988-6
+
+O R I G I N A L A R T I C L E
+
+PK-PD modeling of combination efﬁcacy effect
+from administration of the MEK inhibitor GDC-0973
+and PI3K inhibitor GDC-0941 in A2058 xenografts
+
+Edna F. Choo • Chee M. Ng • Leanne Berry •
+Marcia Belvin • Nicholas Lewin-Koh •
+Mark Merchant • Laurent Salphati
+
+Received: 2 April 2012 / Accepted: 18 September 2012 / Published online: 7 October 2012
+Ó Springer-Verlag Berlin Heidelberg 2012
+
+Abstract
+Purpose Mutations and activations of the MEK and PI3K
+pathways are associated with the development of many
+cancers. GDC-0973 and GDC-0941 are inhibitors of MEK
+and PI3K, respectively, currently being evaluated clinically
+in combination as anti-cancer treatment. The objective of
+these studies was to characterize the relationship between
+the plasma concentrations of GDC-0973 and GDC-0941
+administered in combination and efﬁcacy in A2058 mela-
+noma xenograft.
+Methods GDC-0973 and GDC-0941 were administered to
+A2058 tumor-bearing mice daily (QD) or every third day
+(Q3D) either as single agents or in combination. A semi-
+mechanistic population anti-cancer model was developed
+to simultaneously describe the tumor growth following
+
+Electronic supplementary material The online version of this
+article (doi:10.1007/s00280-012-1988-6) contains supplementary
+material, which is available to authorized users.
+E. F. Choo  L. Salphati (&)
+Drug Metabolism and Pharmacokinetics, Genentech, Inc.,
+1 DNA Way, South San Francisco, CA 94080, USA
+e-mail: salphati.laurent@gene.com
+
+C. M. Ng
+School of Medicine, University of Pennsylvania,
+Clinical Pharmacology and Therapeutics,
+Children Hospital of Philadelphia,
+Philadelphia, PA 19104, USA
+L. Berry  M. Belvin  M. Merchant
+Cancer Signaling and Translational Oncology,
+Genentech, Inc., 1 DNA Way, South San Francisco,
+CA 94080, USA
+
+N. Lewin-Koh
+Nonclinical Biostatistics, Genentech, Inc.,
+1 DNA Way, South San Francisco, CA 94080, USA
+
+QD/Q3D single-agent and QD combination treatments.
+The interaction terms w included in the model were used to
+assess whether the combination was additive. Using this
+model, data from the Q3D combination regimen were
+simulated and compared with the observed tumor volumes.
+Results The model consisting of saturable tumor growth
+provided the best ﬁt of the data. The estimates for w were
+not signiﬁcantly different from 1, suggesting an additive
+effect of GDC-0973 and GDC-0941 on tumor growth
+inhibition. The population rate constants associated with
+tumor growth inhibition for GDC-0973 and GDC-0941
+were 0.00102 and 0000651 lM-1 h-1, respectively. Using
+the model based on single-agent and QD combination
+efﬁcacy data, simulations adequately described the tumor
+growth from the Q3D combination regimen.
+Conclusions These ﬁndings suggest that, based on mini-
+mal data, it is possible to predict the effects of various
+combinations preclinically and also assess the potential
+clinical efﬁcacy of combinations using human pharmaco-
+kinetic inputs.
+Keywords MEK inhibitor  PI3K inhibitor 
+Pharmacokinetic–pharmacodynamic modeling 
+Tumor xenograft  A2058 tumor
+
+Introduction
+
+Combining multiple targeted anti-cancer agents with the
+goal of providing effective therapy has been increasingly
+explored in oncology. Many cancers (e.g., melanoma,
+colorectal, pancreatic, ovarian, NSCLC, and thyroid can-
+cers) have a high and overlapping frequency of oncogenic
+mutations as well as other genomic alterations that activate
+both RAS and PI3K pathways. In tumor cells, inhibition of
+
+123
+
+134
+
+A
+
+HO
+
+NH
+
+O
+
+N
+
+F
+
+H
+N
+
+F
+
+F
+
+Cancer Chemother Pharmacol (2013) 71:133–143
+
+O
+
+N
+
+N
+
+B
+
+S
+
+I
+
+N
+
+N
+
+O
+
+S
+
+O
+
+N
+
+N
+
+NH
+
+Fig. 1 Chemical structure of GDC-0973 (a) and GDC-0941 (b)
+
+either the MEK or PI3K pathway can result in activation of
+the other through feedback [30]; therefore, inhibition of
+both pathways represents a promising anti-cancer strategy.
+This is evidenced by improved in vitro potency and in vivo
+efﬁcacy observed from combined PI3K and MEK inhibi-
+tion in preclinical efﬁcacy models [5, 14].
+
+The RAS/RAF/MEK/ERK signaling pathway is involved
+in cellular responses relevant to tumorigenesis, including
+cell proliferation, invasion, survival and angiogenesis. This
+pathway is activated by a diverse array of growth factors,
+cytokines and proto-oncogenes, which transduce their
+growth-promoting signals through the activation of the small
+G protein RAS. Activation of RAS leads to the activation of
+RAF followed by the activation of MEK, which then
+phosphorylates and activates ERK [10, 17, 28, 29, 38].
+GDC-0973 ([3,4-Diﬂuoro-2-(2-ﬂuoro-4-iodo-phenylamino)-
+phenyl]-((S)-3-hydroxy-3-piperidin-2-yl-azetidin-1-yl)-
+methanone) (Fig 1a) is a MEK1/2 inhibitor. It is potent and
+selective in biochemical and cell-based assays with an IC50
+estimate of 0.004 lM against the puriﬁed MEK1 enzyme, a
+cellular pERK IC50 of 0.009 lM in the HCT116 cell line
+and an IC50 of 6.9 lM against A2058 cell proliferation. It
+also has broad in vivo efﬁcacy in xenograft models with
+BRAF and KRAS mutations [13].
+
+The phosphoinositide 3-kinase (PI3K) signaling path-
+way, a parallel pathway to MEK, is a major downstream
+effector of receptor tyrosine kinases, such as human epi-
+dermal growth factor-2 (HER2), epidermal growth factor
+receptor (EGFR) and insulin-like growth factor-1 receptor
+that stimulates cell proliferation, promotes survival and
+inhibits apoptosis. Abnormal regulation of this central
+signaling pathway has been identiﬁed in a large number of
+cancer types and occurs through various mechanisms [1, 2,
+4, 8, 16, 19, 25, 31].
+
+GDC-0941 (2-(1H-Indazol-4-yl)-6-(4-methanesulfo-nyl-
+piperazin-1-ylmethyl)-4-morpholin-4-yl-thieno[3,2-d]
+
+123
+
+pyrimidine) (Fig. 1b) is a novel small molecule inhibitor of
+the PI3K pathway currently being evaluated in phase II
+studies as an anti-cancer agent [26]. It is selective for the
+class I (a, b, d, c) PI3K [9] and is efﬁcacious against the
+U87MG glioblastoma and IGROV-1 human ovarian cancer
+xenograft models in athymic mice [22]. GDC-0941 is
+considered an inhibitor of class I PI3K isoforms with IC50
+of 0.003, 0.033, 0.003 and 0.075 lM against p110a, b, d
+and c, respectively. It potently inhibits the phosphorylation
+of downstream Akt in PC3-NCI (prostate) and MCF7.1
+cells (breast), with IC50 ranging from 0.028 to 0.037 lM. It
+is also able to inhibit the proliferation of MCF7.1, PC3-
+NCI and A2058 cells with IC50’s of 0.72 lM, 0.28 lM and
+2.1 lM, respectively [9, 13].
+
+Currently, GDC-0973 and GDC-0941 are being admin-
+istered as single agents and in combination in cancer
+patients (www.clinicaltrials.gov). However, prior to clini-
+cal combination trials, initial proof-of-concept studies were
+conducted using mouse xenograft models.
+
+These investigations in preclinical models provided
+useful information when comparing efﬁcacy from admin-
+istration of a single compound to efﬁcacy observed fol-
+lowing co-administration of two compounds. In mouse
+models, factorial combinations that would not be accept-
+able in human subjects can be explored to better understand
+the drug interaction proﬁle in vivo. To inform clinical
+studies, it is often useful to determine the target exposure/
+dose associated with efﬁcacy and the regimen that maxi-
+mizes the efﬁcacy of single or combination therapy.
+However, direct extrapolation of exposure from mouse to
+human may be confounded by differences in the pharma-
+cokinetics between mouse and human. Therefore, to further
+leverage the xenograft efﬁcacy data, pharmacokinetic–
+pharmacodynamic (PK-PD) modeling and simulations
+were conducted. The objectives of the present studies
+were to characterize the efﬁcacy of the combination of
+
+Cancer Chemother Pharmacol (2013) 71:133–143
+
+135
+
+GDC-0973 and GDC-0941 in vivo, develop a PK-PD
+model describing the relationship between the plasma
+concentrations of both agents and A2058 tumor growth
+inhibition, and verify that the model could be utilized to
+predict efﬁcacy for different dosing regimens with minimal
+xenograft efﬁcacy data.
+
+Materials and methods
+
+Chemicals
+
+GDC-0973 and GDC-0941 were provided by Genentech
+Inc (South San Francisco, USA). Solvents used for analysis
+were of analytical or HPLC grade (Fisher Scientiﬁc,
+Pittsburgh, PA, USA). All other reagents or material used
+in this study were purchased from Sigma-Aldrich (St
+Louis, MO, USA) unless otherwise stated. The Genentech
+Institutional Animal Care and Use Committee approved all
+procedures in animals.
+
+Pharmacokinetic studies in mouse
+
+Female athymic nu/nu mice weighing 25–28 g (Charles
+River Laboratories, Hollister, CA, USA) were administered
+oral doses of 3, 10 or 30 mg/kg GDC-0973 in 0.5 %
+methylcellulose/0.2 % Tween 80 (MCT). The pharmaco-
+kinetics of GDC-0941 in nu/nu mouse was previously
+described [24]. The pharmacokinetics of GDC-0973 (3 mg/
+kg) and GDC-0941 (100 mg/kg) was also evaluated when
+dosed in combination. Blood samples (*1 mL) from these
+studies were collected at 0.083, 0.25, 0.5, 1, 2, 4, 8 and
+24 h post-dose via cardiac puncture (terminal collection)
+into tubes containing potassium ethylenediaminetetraacetic
+acid (K2EDTA) anti-coagulant. Immediately upon collec-
+tion, the blood was mixed with K2EDTA and stored on ice.
+Within 30 min, blood samples were centrifuged at
+approximately 1,000–1,5009g for 5 min at 4 °C, and
+plasma was harvested. Plasma samples were stored at
+-80 °C until analysis.
+
+Samples were prepared for analysis by placing a 25 lL
+aliquot into a 96-well plate followed by the addition of
+25 lL of internal standard and 200 lL acetonitrile. After
+the samples were vortexed and centrifuged for 5 min at
+3,400 rpm, 50 lL of the supernatant was diluted with
+350 lL of water, of which 20 lL was injected onto the
+column. Concentrations of GDC-0973 in plasma were
+determined by a LC/MS/MS assay using a Sciex API 3,000
+triple quadrupole mass spectrometer (Applied Biosystems,
+Foster City, CA, USA) connected with a CTC HTS PAL
+autosampler
+(LEAP Technologies, Chapel Hill, NC).
+Chromatographic separation was achieved with gradient
+elution on an ACE 5 phenyl column (100 9 2.1 mm,
+
+5 lm) (MAC-MOD Analytical, Chadds Ford, CA, USA) at
+room temperature and a pair of Shimadzu LC-10AD pumps
+with a SCL-10A controller (Shimadzu, Columbia, MD,
+USA). The aqueous mobile phase was water with 0.1 %
+formic acid, and the organic mobile phase was acetonitrile
+with 0.1 % formic acid. The gradient elution was run at
+0.500 mL/min ﬂow rate from 20 to 80 % organic in 1 min
+with the total run time of 5 min. Ionization was conducted
+in the positive ion mode at an ionspray interface temper-
+ature of 450o C, using nitrogen nebulizing and heating gas.
+GDC-0973 and the internal standard (13C-stable label)
+were analyzed in the MRM mode using the transitions m/z
+532.1 ? 249.1 and 401.2 ? 322.2, respectively. Calibra-
+tion curve, which ranged from 0.005 to 10 lM for GDC-
+to a 1/x2 weighted quadratic regression
+0973, was ﬁt
+model. The concentration of GDC-0973 samples was
+determined by interpolation from the standard curve. A run
+was deemed acceptable when quality control (QC) samples
+were ±25 % of the nominal concentration, except the lowest
+QC where ±30 % was accepted. The dynamic range of the
+GDC-0973 and GDC-0941 assays was 0.005–10 lM.
+
+Xenograft efﬁcacy studies
+
+All procedures
+involving animals were performed in
+accordance with Genentech’s Institutional Animal Care and
+Use Committee guidelines. To generate tumors, A2058
+cells (ATCC, Manassas, VA, USA) were harvested in the
+log phase of growth and resuspended in 50 % Matrigel
+matrix (BC Biosciences, Bedford, MA, USA) in phosphate-
+buffered saline at a concentration of 5 9 107 cells/mL.
+Each 9–10-week-old female athymic nude mice (Harlan,
+Sommerville, NJ, USA) included in the study received a
+subcutaneous injection of 1 9 107 A2058 cells (0.2 mL
+cell suspension) into the right ﬂank. Tumor volume (TV)
+was calculated from diameters using the formula:
+TV (mm3Þ ¼ a  b2  0:5;
+
+where a and b are the shortest and longest perpendicular
+tumor diameters, respectively.
+
+Tumor volumes and body weights were measured at
+least twice weekly until the end of the study. Mice were
+euthanized if their tumor volume exceeded 2,000 mm3 and/
+or if their body weight dropped by more than 20 %. GDC-
+0973, GDC-0941 or the vehicle (control) were adminis-
+tered orally by gavage in a volume of 200 lL once tumor
+volumes reached 100–300 mm3 (8–10 days post inocula-
+tion). Treatment groups (n = 7 mice per group) received
+oral doses of GDC-0973 and GDC-0941, as a single agent
+or as combinations either on a daily (QD) or on a once-
+every-third-day (Q3D) regimen for 20 or 21 days. The
+treatment groups in the xenograft efﬁcacy experiments
+included in this study were as follows:
+
+123
+
+136
+
+Experiment 1
+
+Single agent
+
+GDC-0973—vehicle, 1, 6 and 10 mg/kg once QD
+
+GDC-0941—vehicle, 10, 30 and 100 mg/kg QD
+
+Combination
+
+GDC-0973 1 mg/kg QD ? GDC-0941—10, 30 and 100 mg/kg QD
+
+GDC-0973 6 mg/kg QD ? GDC-0941—10, 30 and 100 mg/kg QD
+
+GDC-0973 10 mg/kg QD ? GDC-0941—10, 30 and 100 mg/kg QD
+
+Experiment 2
+
+Single agent
+
+GDC-0973—vehicle, 10, 15 and 20 mg/kg Q3D
+
+GDC-0941—vehicle, 50, 100 and 150 mg/kg Q3D
+
+Combinations
+
+GDC-0973 10 mg/kg Q3D ? GDC-0941—50, 100 and 150 mg/kg
+Q3D
+
+GDC-0973 15 mg/kg Q3D ? GDC-0941—50, 100 and 150 mg/kg
+Q3D
+
+GDC-0973 20 mg/kg Q3D ? GDC-0941—50, 100 and 150 mg/kg
+Q3D
+
+Preclinical pharmacokinetics
+
+Mouse PK parameters of GDC-0973 and GDC-0941 were
+obtained by ﬁtting the PK model to mean concentration–
+time proﬁles of the compounds using SAAM II (Saam
+Institute, University of Washington, Seattle, WA, USA).
+The PK data of GDC-0973 and GDC-0941 were described
+by a one-compartment model with linear absorption and
+elimination according to the following:
+Ct ¼
+
+ ðe kt   e KatÞ
+
+Ka  Dose
+
+ð1Þ
+
+ðKa   KeÞ  V=F
+
+where Ct represents the mean plasma concentrations, Ka is
+absorption rate constant, Ke is elimination rate constant
+and V/F is volume of distribution.
+
+Pharmacokinetic–Pharmacodynamic (PK-PD)
+Modeling
+
+A semi-mechanistic anti-cancer model was used to simul-
+taneously describe the tumor growth data after vehicle,
+single-agent and combination administration of GDC-0973
+and/or GDC-0941. The model was constructed to mimic
+the physiological process and consisted of linear or satu-
+rable tumor growth and drug response model. The differ-
+ential equation describing the semi-mechanistic model is as
+follows:
+dðTVÞ
+
+¼ kngðTVÞð1   TGÞ   E0973  w1
+
+ TV   E0941  w2  TV
+
+ð2Þ
+
+dt
+
+123
+
+Cancer Chemother Pharmacol (2013) 71:133–143
+
+TV (mm3) is deﬁned as the tumor volume and t (h) is time.
+TG is a tumor growth model, where TG = 0 for linear
+growth and TG = TV/TVmax for logistic and saturable
+tumor growth where TVmax is the maximum growth
+capacity of tumors. E0973 and E0941 are the linear or satu-
+rable drug response models that are used to describe the
+anti-tumor effect of GDC-0973 and GDC-0941, respec-
+tively (Eqs. 3 and 4).
+
+Linear drug response model:
+
+E0973 ¼ A0973  C0973 and E0941 ¼ A0941  C0941
+
+Saturable drug response model:
+
+E0973 ¼ E max0973  C0973
+EC50 0973 þ C0973
+
+E0941 ¼ E max0941  C0941
+EC50 0941 þ C0941
+
+ð3Þ
+
+ð4Þ
+
+where A0973 and A0941 represent the linear tumor growth
+inhibition effect of GDC-0973 and GDC-0941, respectively.
+C0973 and C0941 (lM) are the plasma concentrations of GDC-
+0973 and GDC-0941, respectively. For the saturable drug
+response model, Emax0973 and Emax0941 represent
+the
+maximum tumor inhibition effects of GDC-0973 and GDC-
+0941, respectively. EC50-0973 and EC50-0941 correspond to
+the concentration at half-maximal tumor inhibition of GDC-
+0973 and GDC-0941, respectively. The terms w1 and w2 are
+the interaction terms that are used to determine the interac-
+tion of each agent on each other during co-administration of
+GDC-0973 and GDC-0941, respectively. This interaction
+term concept was previously described by Koch et al. [15].
+The values of w1 and w2 describe ‘‘additive’’ anti-tumor
+effects of each agent on each other when they are not sig-
+niﬁcantly different from 1, and w values signiﬁcantly greater
+or less than 1 signify the ‘‘greater-than’’ (or ‘‘synergistic’’) or
+‘‘less-than’’ (or ‘‘antagonistic’’) additive anti-tumor effect
+from co-administration of the two agents. Hence, these
+interaction terms can be used to indicate the nature and
+intensity of the drug interactions.
+
+To analyze the pooled tumor growth data from different
+studies (single and combination treatments) and repeated
+measurement of tumor volumes from the same animals over
+time appropriately, a nonlinear-mixed effect modeling
+approach with the Monte Carlo parametric expectation
+maximization (MCPEM) method implemented in S-ADAPT
+program [3, 20] was used to obtain the population model
+parameters. This population modeling approach addresses
+both repeated measurements and modest dropouts due to any
+non-treatment-related death of animals before the end of
+study [21]. The inter-individual variability among the model
+parameters were assumed to be log-normally distributed.
+Intra-individual variability was modeled with proportional
+error according to the following equations:
+yij ¼ ypij þ ypij  eij
+
+ð5Þ
+
+Cancer Chemother Pharmacol (2013) 71:133–143
+
+137
+
+where yij and ypij are the jth measured and model-predicted
+values, respectively, for the ith individual mice, and eij
+denote the proportional residual intra-individual random
+errors distributed with zero means and variances r2. To
+discriminate between two nested population models, a
+difference in an objective function of greater than 3.84 (1
+degree of freedom with v2 distribution), which corresponds
+to a signiﬁcant level of p \ 0.05 was used. AIC model
+selection criterion was used to discriminate non-nested
+population model.
+
+To test the ability of the model to predict the tumor
+growth data from new combination regimens, only data
+from studies with a single-agent (QD and Q3D) and
+combination treatments with QD regimens were used to
+develop the population model. The ﬁnal population model
+was then used to simulate the tumor growth data from
+combination treatments with the Q3D dosing regimen. The
+results from the simulated studies were compared with the
+observed data and used to provide evidence that the derived
+population model could be used to describe the observed
+data from studies with new dosage regimens.
+
+Results
+
+Preclinical pharmacokinetics
+
+The mean plasma concentration–time plots of GDC-0973
+in mice at doses of 3, 10 and 30 mg/kg are shown in
+Fig. 1a. The preclinical pharmacokinetic parameters of
+GDC-0973 were estimated as follows: Ka = 0.579 h-1,
+Ke = 0.185 h-1 and V/F = 18.7 L/kg (Fig. 2a). The esti-
+mated parameters for GDC-0941 were previously descri-
+bed [24] and are as follows: Ka = 10.4 h-1, Ke =
+0.228 h-1 and V/F = 19.9 L/kg. These parameters were
+used to simulate GDC-0973 and GDC-0941 plasma con-
+centrations when ﬁtting the model to the tumor volume
+data from xenograft efﬁcacy studies. The pharmacokinetics
+of either compound was unaffected by the co-administra-
+tion of either agent (Fig. 2b).
+
+Xenograft efﬁcacy
+
+Tumor growth curves following a range of GDC-0973 and
+GDC-0941 single-agent oral doses administered daily (QD)
+and every 3rd day (Q3D) in A2058 (BRAFV600E, PTENnull
+melanoma) xenograft tumor -bearing mice are shown in
+Figs. 3a–b and 4c–d, respectively. Tumor growth curve
+following combination of varying doses of GDC-0973
+and GDC-0941 are shown in Fig. 4a–f. Overall, as sin-
+gle agents, administration of GDC-0973 and GDC-0941
+resulted in dose-dependent inhibition of tumor growth in
+A2058 xenografts. At the highest single-agent doses tested,
+
+GDC-0973 achieved tumor growth inhibition (TGI) of
+73 % and 68 % when dosed QD and Q3D, respectively.
+GDC-0941, at the highest doses, achieved a TGI of *69 %
+when dosed QD and 50 % when dosed Q3D. When dosed
+in combination, one partial response (20 mg/kg GDC-0973
+and 100 mg/kg GDC-0941) and a complete response
+(10 mg/kg GDC-0973 and 150 mg/kg GDC-0941) were
+observed with the combination Q3D regimen.
+
+Pharmacokinetic–pharmacodynamic (PK-PD)
+modeling
+
+the ﬁt of this modiﬁed model
+
+A semi-mechanistic population model was developed to
+describe the pooled tumor growth data after vehicle, single-
+agent and combination treatment with GDC-0973 and
+GDC-0941 in the xenograft mouse model. A total of 1201
+tumor growth data from 161 animals were used to develop
+the ﬁnal population model. Initially, the model with linear
+tumor growth and drug response model with no drug
+interaction, with the assumption of an additive effect (w1
+and w2 were ﬁxed to 1), was developed. The model,
+however, failed to describe the tumor growth data. There-
+fore, the model was modiﬁed by adding saturable tumor
+growth components while w1 and w2 were ﬁxed to 1. As a
+result,
+to the data was
+markedly improved (p \ 0.05). Further modiﬁcation of the
+model with saturable drug response components (Eq. 4)
+did not signiﬁcantly improve the model ﬁt (p [ 0.05), and
+the EC50 values for both drugs were poorly estimated (%SE
+[50). In addition, allowing the ﬂexibility of the model
+to estimate the interaction terms w1 and w2 did not result
+in signiﬁcant decrease in the objective function and
+improvement of model ﬁt. Furthermore, the model esti-
+mates of the w1 and w2 did not signiﬁcantly differ from 1,
+suggesting that the combination of GDC-0973 and GDC-
+0941 had additive effects on tumor growth inhibition in the
+xenograft mouse model. Therefore, the ﬁnal population
+model consisted of saturable tumor growth, linear drug
+response and an additive effect for combination of GDC-
+0973 and GDC-0941 on tumor growth inhibition.
+
+The ﬁnal model reasonably predicted the observed tumor
+growth data after vehicle, single-agent and combination
+(QD) treatment of GDC-0973 and GDC-0941. Figure 5a
+shows individual predicted versus observed tumor volume
+data for all animals. Generally, there was good agreement
+between the predicted and observed individual data, and the
+diagnostic plots of the ﬁnal model identiﬁed no systematic
+bias (Fig. 5b–d). Representative plots of observed and
+model-predicted tumor volume in four animals receiving
+vehicle,
+single-agent and combination treatments of
+GDC-0973 and GDC-0941 are shown in Supplemental
+Figure 1A–D. These plots further demonstrated that the
+ﬁnal model reasonably described the observed data. The
+
+123
+
+138
+
+Cancer Chemother Pharmacol (2013) 71:133–143
+
+A
+
+ 
+)
+
+M
+µ
+(
+ 
+n
+o
+i
+t
+a
+r
+t
+n
+e
+c
+n
+o
+C
+ 
+a
+m
+s
+a
+l
+P
+ 
+3
+7
+9
+0
+-
+C
+D
+G
+
+10
+
+1
+
+0.1
+
+0.01
+
+0.001
+
+3 mg/kg
+
+10 mg/kg
+30 mg/kg
+
+0
+
+4
+
+8
+
+12
+
+16
+
+20
+
+24
+
+Time (hr)
+
+B
+
+ 
+)
+
+M
+µ
+(
+ 
+
+n
+o
+
+i
+t
+a
+r
+t
+n
+e
+c
+n
+o
+C
+ 
+a
+m
+s
+a
+l
+P
+ 
+3
+7
+9
+0
+-
+C
+D
+G
+
+10
+
+1
+
+0.1
+
+0.01
+
+0.001
+
+GDC-0973 PO (3mg/kg)
+
+GDC-0973 (3 mg/kg) + GDC-
+0941 (100 mg/kg)
+
+0
+
+5
+
+10
+15
+Time (hr)
+
+20
+
+25
+
+ 
+)
+
+C
+M
+µ
+(
+ 
+n
+o
+i
+t
+a
+r
+t
+n
+e
+c
+n
+o
+C
+ 
+a
+m
+s
+a
+l
+P
+ 
+1
+4
+9
+0
+-
+C
+D
+G
+
+100
+
+10
+
+1
+
+0.1
+
+0.01
+
+0.001
+
+GDC-0941 PO (100mg/kg)
+
+GDC-0941 (100 mg/kg) +
+GDC-0973 (3 mg/kg)
+
+0
+
+5
+
+10
+15
+Time (hr)
+
+20
+
+25
+
+Fig. 2 Concentration–time plot of GDC-0973 in mice at doses of 3,
+10 and 30 mg/kg (a). Concentration–time plot of GDC-0973 when
+administered alone and in combination with GDC-0941 (b) and when
+GDC-0941 was administered alone and in combination with GDC-
+
+0973 (c); the overlapping curves suggest that co-administration of
+either compound with the other does not alter its pharmacokinetics
+(presented as concentration ± SD; n = 3 per time point)
+
+estimated ﬁnal population model parameters are presented
+in Table 1. The population mean rate constant associated
+with tumor inhibition for GDC-0973 and GDC-0941 were
+0.00102 and 0.00065 lM-1 h-1, respectively. The popu-
+lation mean maximum growth capacity of tumors TVmax
+was 3947 mm3. The ﬁnal PK/PD and inter- and intra-sub-
+ject variability parameters for GDC-0973 and GDC-0941
+were estimated with good precision, with percent standard
+error of the parameter estimates \50 %.
+
+This ﬁnal population model was then used to simulate
+the tumor volume–time proﬁle from animals that received
+different dosages and combination regimens not included
+in the dataset used for model development. These animals
+received different doses of GDC-0973 and GDC-0941 on
+Q3D regimens. The results from the simulated results
+were compared with the observed data (Supplemental
+Figure 2A–B). In general, the simulated results agreed with
+
+those observed in the study. This indicates that our
+understanding of the drug exposure and tumor response
+relationships was adequate and allowed us to predict the
+time course of tumor response after single-agent and
+combination treatment of GDC-0973 and GDC-0941 in the
+A2058 xenograft mouse model.
+
+Discussion
+
+PK-PD modeling and simulations have increasingly been
+incorporated into the drug discovery and development
+process [18]. Although the structure of the models utilized
+may vary,
+the overall goal of PK-PD modeling is to
+integrate information from various experiments to facili-
+tate decision making, for example, dose/schedule selec-
+tion and trial design. In oncology, xenograft tumor models
+
+123
+
+Cancer Chemother Pharmacol (2013) 71:133–143
+
+139
+
+Vehicle
+1 mg/kg GDC-0973
+6 mg/kg GDC-0973
+10 mg/kg GDC-0973
+
+A
+
+)
+3
+
+m
+m
+
+(
+ 
+
+l
+
+e
+m
+u
+o
+V
+ 
+r
+o
+m
+u
+T
+
+2000
+
+1800
+
+1600
+
+1400
+
+1200
+
+1000
+
+800
+
+600
+
+400
+
+200
+
+Vehicle
+10 mg/kg GDC-0973 
+15 mg/kg GDC-0973
+20 mg/kg GDC-0973
+
+B
+
+)
+3
+
+m
+m
+
+(
+ 
+
+l
+
+e
+m
+u
+o
+V
+ 
+r
+o
+m
+u
+T
+
+2000
+
+1800
+
+1600
+
+1400
+
+1200
+
+1000
+
+800
+
+600
+
+400
+
+200
+
+0
+
+0
+
+5
+
+10
+15
+Time (day)
+
+20
+
+25
+
+0
+
+0
+
+5
+
+10
+15
+Time (day)
+
+20
+
+25
+
+Vehicle
+10 mg/kg GDC-0941 
+30 mg/kg GDC-0941
+100 mg/kg GDC-0941 
+
+C
+
+)
+3
+
+m
+m
+
+(
+ 
+
+l
+
+e
+m
+u
+o
+V
+ 
+r
+o
+m
+u
+T
+
+2000
+
+1800
+
+1600
+
+1400
+
+1200
+
+1000
+
+800
+
+600
+
+400
+
+200
+
+0
+
+0
+
+5
+
+Vehicle
+50 mg/kg GDC-0941
+100 mg/kg GDC-0941
+150 mg/kg GDC-0941
+
+D
+
+)
+3
+
+m
+m
+
+(
+ 
+
+l
+
+e
+m
+u
+o
+V
+ 
+r
+o
+m
+u
+T
+
+2000
+
+1800
+
+1600
+
+1400
+
+1200
+
+1000
+
+800
+
+600
+
+400
+
+200
+
+10
+15
+Time (day)
+
+20
+
+25
+
+0
+
+0
+
+5
+
+10
+15
+Time (day)
+
+20
+
+25
+
+Fig. 3 Mean (±SEM; n = 7) tumor volume versus time plots after QD (a) Q3D (b) dosing of GDC-0973 as a single-agent and QD (c) and Q3D
+(d) dosing of GDC-0941 as a single agent
+
+are the main pharmacology model used to evaluate New
+Molecular Entities (NME) [33]. The information from
+PK-PD modeling of mouse xenograft efﬁcacy data has
+been useful in extrapolating data from mouse to humans
+[6, 11, 32, 34, 35]. To date, most of the data from PK-PD
+modeling has been from single-agent efﬁcacy studies.
+However, cancer treatments are more frequently com-
+bined, usually with standard of care chemotherapy, but
+increasingly with other targeted agents to maximize efﬁ-
+cacy and/or
+to avoid resistance by targeting parallel
+pathways. To support these clinical regimens, preclinical
+efﬁcacy studies with combined agents are usually con-
+ducted. Several approaches can be used in analyzing the
+effects of combination, such as the Chou and Talalay
+combination index in vitro [6], and the isobologram
+method in vivo [12]. However, these approaches do not
+take into account inputs of dynamic changes in concen-
+trations (i.e., pharmacokinetics), and as such, cannot be
+utilized to predict effects in human based on changes in
+the concentration–time proﬁle.
+
+As combined agents including combinations of 2
+NME’s are tested earlier in the drug development process,
+when optimal dosing regimens for either compound are yet
+to be determined, preclinical PK-PD modeling becomes
+even more important. Therefore, in order to utilize the
+preclinical efﬁcacy data from administration of combined
+agents, PK-PD modeling has recently been applied to
+describe combination xenograft efﬁcacy data [11, 15, 23].
+For instance, Rocchetti et al. [23] described the modeling
+of efﬁcacy data from combined agents based on additivity
+of the effects from each agent. However, these authors
+mainly assessed the adequacy of their model by testing the
+goodness of ﬁt in a study that included only 4 groups.
+Goteti et al. [11] proposed a similar model to predict tumor
+growth, assuming synergy between AZD7762 (a check-
+point kinase inhibitor) and irinotecan. In addition, they
+modiﬁed their model to interrogate the optimal dosing
+interval of two agents, AZD7762 and ﬂavopiridol. The
+doses and interval predicted for the optimal efﬁcacy of
+irinotecan in combination with AZD7762 and ﬂavopiridol
+
+123
+
+140
+
+A
+
+2000
+
+)
+3
+
+m
+m
+
+l
+
+(
+ 
+e
+m
+u
+o
+V
+ 
+r
+o
+m
+u
+T
+
+1500
+
+1000
+
+500
+
+0
+
+0
+
+D
+
+)
+3
+
+m
+m
+
+l
+
+(
+ 
+e
+m
+u
+o
+V
+ 
+r
+o
+m
+u
+T
+
+2500
+
+2000
+
+1500
+
+1000
+
+500
+
+0
+
+0
+
+Cancer Chemother Pharmacol (2013) 71:133–143
+
+Vehicle
+10 mg/kg GDC-0941
+30 mg/kg GDC-0941
+100 mg/kg GDC-0941
+
++ 1 mg/kg GDC-0973
+
+Vehicle
+10 mg/kg GDC-0941
+30 mg/kg GDC-0941
+100 mg/kg GDC-0941
+
++ 6 mg/kg GDC-0973
+
+B
+
+)
+3
+
+m
+m
+
+l
+
+(
+ 
+e
+m
+u
+o
+V
+ 
+r
+o
+m
+u
+T
+
+2000
+
+1500
+
+1000
+
+500
+
+Vehicle
+10 mg/kg GDC-0941
+30 mg/kg GDC-0941
+100 mg/kg GDC-0941
+
++ 10 mg/kg GDC-0973
+
+C
+
+)
+3
+
+m
+m
+
+l
+
+(
+ 
+e
+m
+u
+o
+V
+ 
+r
+o
+m
+u
+T
+
+2000
+
+1500
+
+1000
+
+500
+
+5
+
+10
+
+15
+Time (Day)
+
+20
+
+25
+
+Vehicle
+50 mg/kg GDC-0941
+100 mg/kg GDC-0941
+150 mg/kg GDC-0941
+
++ 10 mg/kg GDC-0973
+
+5
+
+10
+
+15
+
+20
+
+25
+
+Time (Day)
+
+0
+
+0
+
+E
+
+2500
+
+)
+3
+
+m
+m
+
+l
+
+(
+ 
+e
+m
+u
+o
+V
+ 
+r
+o
+m
+u
+T
+
+2000
+
+1500
+
+1000
+
+500
+
+0
+
+0
+
+5
+
+10
+
+15
+Time (Day)
+
+20
+
+25
+
+Vehicle
+50 mg/kg GDC-0941
+100 mg/kg GDC-0941
+150 mg/kg GDC-0941
+
++ 15 mg/kg GDC-0973
+
+5
+
+10
+
+15
+
+20
+
+25
+
+Time (Day)
+
+0
+
+0
+
+F
+
+2500
+
+)
+3
+
+m
+m
+
+l
+
+(
+ 
+e
+m
+u
+o
+V
+ 
+r
+o
+m
+u
+T
+
+2000
+
+1500
+
+1000
+
+500
+
+0
+
+0
+
+5
+
+10
+
+15
+
+20
+
+25
+
+Time (Day)
+
+Vehicle
+50 mg/kg GDC-0941
+100 mg/kg GDC-0941
+150 mg/kg GDC-0941
+
++ 20 mg/kg GDC-0973
+
+5
+
+15
+
+10
+Time (Day)
+
+20
+
+25
+
+Fig. 4 Xenograft efﬁcacy data (mean tumor volume ± SEM; n = 7)
+after QD administration of 1 mg/kg (a), 6 mg/kg (b) and 10 mg/kg
+(c) of GDC-0973 in combination with 10, 30 and 100 mg/kg QD of
+GDC-0941 (top panel). Xenograft efﬁcacy data (mean tumor
+
+volume ± SEM; n = 7) after Q3D administration of 10 mg/kg (d),
+15 mg/kg (e) and 20 mg/kg (f) of GDC-0973 in combination with 50,
+100 and 150 mg/kg Q3D of GDC-0941 (bottom panel)
+
+based on their modeling appeared to be consistent with the
+reported effective clinical doses and schedules, respec-
+tively [11]. In these examples, the potency of each indi-
+vidual compound on tumor growth was initially determined
+and then ﬁxed when modeling combination efﬁcacy data.
+The modeling approach proposed here to describe the
+combination effect of GDC-0973 and GDC-0941 was a
+logical extension of the indirect response models that have
+been used to characterize single-agent xenograft efﬁcacy
+data from a number of kinase inhibitors [24, 36]. The
+population model was developed by simultaneously ﬁtting
+the model to the majority of tumor volume versus time
+data from single-agent and combination treatments. The
+approach is similar to the model described by Koch et al.
+[15], where a multiplicative ‘‘interaction factor’’ was
+included in the equation to assess the nature and intensity
+of the interaction between the two drugs. However, rather
+than assuming that one agent affects the other, and not vice
+versa, we have incorporated an interaction factor, associ-
+ated with each agent, assuming that efﬁcacy of each
+compound could be contributing to a ‘‘less-than’’ or
+‘‘greater-than’’ additive effect. In addition, the population
+modeling approach utilized in the study allows us to obtain
+
+reliable model parameter estimates from combining the
+data from different studies.
+
+Although ‘‘additive’’ models have been previously pro-
+posed [11, 15, 23], this study is, to our knowledge, the ﬁrst
+application of such a model to a large dataset and study
+design. Based on the model and simulations, the ‘‘addi-
+tivity’’ of tumor growth inhibition from each agent
+in
+A2058 xenografts holds up across the range of doses tested,
+as well as different regimens that is, Q3D. While this
+model is speciﬁc in describing the in vivo effects of GDC-
+0973 and GDC-0941 on A2058 xenograft tumors, we have
+found that it also applies to other tumors (DLD-1; colo-
+rectal cancer KRASG13D) [13] for this combination. In the
+case of the dataset with A2058 xenografts, using the
+‘‘additive’’ model described the combination effect of
+GDC-0973 and GDC-0941 adequately. This is consistent
+with the lack of pharmacokinetic interaction when these
+two compounds are co-administered and the biological
+activity of both compounds on parallel pathways, as
+described in detail by Hoeﬂich et al. [13].
+
+Once established, such a model can be applied to
+describe and simulate combination efﬁcacy using different
+dosing regimens (e.g., once every 2 days) without the need
+
+123
+
+Cancer Chemother Pharmacol (2013) 71:133–143
+
+141
+
+A
+
+ 
+
+e
+m
+u
+o
+V
+
+l
+
+ 
+
+ 
+r
+o
+m
+u
+T
+d
+e
+v
+r
+e
+s
+b
+O
+
+C
+
+l
+
+i
+
+s
+a
+u
+d
+s
+e
+R
+d
+e
+
+ 
+
+t
+
+i
+
+h
+g
+e
+W
+
+ 
+l
+
+i
+
+a
+u
+d
+v
+d
+n
+
+i
+
+I
+
+B
+
+l
+
+i
+
+s
+a
+u
+d
+s
+e
+R
+d
+e
+h
+g
+e
+W
+
+t
+
+ 
+
+i
+
+ 
+l
+
+i
+
+a
+u
+d
+v
+d
+n
+
+i
+
+500
+
+1000
+
+1500
+
+2000
+
+2500
+
+Individual Predicted Tumor Volume
+
+I
+
+D
+
+l
+
+i
+
+s
+a
+u
+d
+s
+e
+R
+d
+e
+
+ 
+
+t
+
+i
+
+h
+g
+e
+W
+n
+o
+
+ 
+
+0
+
+100
+
+200
+
+300
+
+400
+
+500
+
+600
+
+Time (hrs) 
+
+i
+t
+
+l
+
+a
+u
+p
+o
+P
+
+0
+0
+0
+2
+
+0
+0
+0
+1
+
+0
+0
+5
+
+0
+1
+
+5
+
+0
+
+5
+-
+
+0
+1
+-
+
+500
+
+1000
+
+1500
+
+2000
+
+Individual Predicted Tumor Volume
+
+4
+
+2
+
+0
+
+2
+-
+
+4
+-
+
+4
+
+2
+
+0
+
+2
+-
+
+4
+-
+
+500
+Population Predicted Tumor Volume
+
+1000
+
+1500
+
+2000
+
+Fig. 5 Model diagnostic plots. Individual predicted versus observed
+tumor volume data (a). Individual weighted residual versus individual
+predicted tumor volume (b). Individual weighted residual versus time
+
+(c) and population conditional weighted residuals versus population
+predicted tumor volume (d); Dotted line, LOESS smoothing (solid
+line)
+
+Table 1 Final population model parameters
+
+Parameter
+
+Population mean (%SE)a
+
+Kng (h-1)
+A0973 (lM-1 h-1)
+A0941 (lM-1 h-1)
+Vmax (mm3)
+b
+W1
+b
+W2
+rc
+
+0.0544 (21.7)
+
+0.00102 (42.5)
+
+0.000651 (17.3)
+
+3947 (7.2)
+
+1 (Fixed)
+
+1 (Fixed)
+
+0.145 (2.4)
+
+Inter-individual
+variability (%SE)
+
+0.100 (15.5)
+
+0.670 (48.6)
+
+0.217 (31.9)
+
+0.111 (22.7)
+
+–
+
+–
+
+–
+
+a Percent standard error of the parameter estimate = standard error of
+estimates/parameter estimates 9100 %
+b Estimates of W was not signiﬁcantly different from 1 and therefore
+ﬁxed in the ﬁnal model
+c Inter-individual variability
+
+further experimental data,
+
+for
+thus saving time and
+expense. The overarching goal in setting up this model is to
+be able to apply it to the clinical situation and therefore
+guide the clinical study design. For instance, based on
+substitution of human pharmacokinetic parameters for
+mouse pharmacokinetic parameters, we can predict doses
+at which signs of efﬁcacy can be expected or simulate and
+
+predict efﬁcacy at tolerated clinical doses and regimens.
+The information from these simulations is particularly
+important
+for combinations of NME where limited
+knowledge of clinical efﬁcacy is available. There are
+caveats to this modeling approach such as the assumption
+that
+the growth rate of xenografts is maintained from
+mouse to humans. However, despite the limitations, the
+xenograft models continue to be the mainstay of preclinical
+assessment of anti-tumor efﬁcacy [7, 27] and utilizing the
+data in a more quantitative manner is beneﬁcial. Recently,
+it has been shown by PK-PD modeling and simulation that
+anti-tumor activity of targeted agents in genotypic-appro-
+priate murine subcutaneous tumor model correlated with
+clinical response [37].
+
+The model described here is not intended to provide full
+mechanistic/biological information per se. However, the
+simplicity of this modeling approach means that one could
+generate similar information on combination agents from
+multiple tumor types representing different genotypes.
+These data will not only provide insight into the applica-
+bility of xenograft models in predicting clinical outcome
+but, collectively, this information would also be useful in
+guiding rational dosing regimens in the clinic as well as
+provide an assessment of target exposures that may be
+
+123
+
+142
+
+Cancer Chemother Pharmacol (2013) 71:133–143
+
+required clinically. Finally, as PK-PD modeling and sim-
+ulations become increasingly applied in the drug develop-
+ment process, it will be important to conduct retrospective
+analysis as clinical efﬁcacy data become available in order
+to gain insights into model reﬁnement and application.
+
+References
+
+1. Aoki M, Batista O, Bellacosa A, Tsichlis P, Vogt PK (1998) The
+akt kinase: molecular determinants of oncogenicity. Proc Natl
+Acad Sci USA 95:14950–14955
+
+2. Bagci-Onder T, Wakimoto H, Anderegg M, Cameron C, Shah K
+(2011) A dual PI3K/mTOR inhibitor, PI-103, cooperates with
+stem cell-delivered TRAIL in experimental glioma models.
+Cancer Res 71:154–163
+
+3. Bauer RJ, Guzy S (eds) (2004) Monte carlo parametric expec-
+tation maximization (MC-PEM) method for analyzing population
+pharmacokinetic/pharmacodynamic (PK/PD) data. Kluwer Aca-
+demic Publishers, Boston
+
+4. Bellacosa A, de Feo D, Godwin AK, Bell DW, Cheng JQ, Al-
+tomare DA, Wan M, Dubeau L, Scambia G, Masciullo V, Fer-
+randina G, Benedetti Panici P, Mancuso S, Neri G, Testa JR
+(1995) Molecular alterations of the AKT2 oncogene in ovarian
+and breast carcinomas. Int J Cancer 64:280–285
+
+5. Belvin M, Berry L, Chan J, Otter Dd, Friedman L, Hoeﬂich K,
+Koeppen H, Merchant M, Orr C, Rice K (2010) Intermittent
+dosing of the MEK inhibitor, GDC-0973, and the PI3K inhib-
+itor, GDC-0941, results in prolonged accumulation of Bim and
+causes strong tumor growth inhibition in vivo. 22nd EORTC—
+NCI–AACR Symposium on Molecular Targets and Cancer
+Therapeutics Programme and Abstract Book Berlin, Germany.
+p 48
+
+6. Chou TC, Talalay P (1984) Quantitative analysis of dose-effect
+relationships: the combined effects of multiple drugs or enzyme
+inhibitors. Adv Enzyme Regul 22:27–55
+
+7. Damia G, D’Incalci M (2009) Contemporary pre-clinical devel-
+opment of anticancer agents–what are the optimal preclinical
+models? Eur J Cancer 45:2768–2781
+
+8. Edgar KA, Wallin JJ, Berry M, Lee LB, Prior WW, Sampath D,
+Friedman LS, Belvin M (2010) Isoform-speciﬁc phosphoinositide
+3-kinase inhibitors exert distinct effects in solid tumors. Cancer
+Res 70:1164–1172
+
+9. Folkes AJ, Ahmadi K, Alderton WK, Alix S, Baker SJ, Box G,
+Chuckowree IS, Clarke PA, Depledge P, Eccles SA, Friedman
+LS, Hayes A, Hancox TC, Kugendradas A, Lensun L, Moore P,
+Olivero AG, Pang J, Patel S, Pergl-Wilson GH, Raynaud FI,
+Robson A, Saghir N, Salphati L, Sohal S, Ultsch MH, Valenti M,
+Wallweber HJ, Wan NC, Wiesmann C, Workman P, Zhyvoloup
+A, Zvelebil MJ, Shuttleworth SJ (2008) The identiﬁcation of
+2-(1H-indazol-4-yl)-6-(4-methanesulfonyl-piperazin-1-ylme-
+thyl)-4-morpholin -4-yl-thieno[3,2-d]pyrimidine (GDC-0941) as
+a potent, selective, orally bioavailable inhibitor of class I PI3
+kinase for the treatment of cancer. J Med Chem 51:5522–5532
+
+10. Gollob JA, Wilhelm S, Carter C, Kelley SL (2006) Role of Raf
+kinase in cancer: therapeutic potential of targeting the Raf/MEK/
+ERK signal transduction pathway. Semin Oncol 33:392–406
+
+11. Goteti K, Garner CE, Utley L, Dai J, Ashwell S, Moustakas DT,
+Gonen M, Schwartz GK, Kern SE, Zabludoff S, Brassil PJ (2010)
+Preclinical pharmacokinetic/pharmacodynamic models to predict
+synergistic effects of co-administered anti-cancer agents. Cancer
+Chemother Pharmacol 66:245–254
+
+123
+
+12. Greco WR, Bravo G, Parsons JC (1995) The search for synergy: a
+critical review from a response surface perspective. Pharmacol
+Rev 47:331–385
+
+13. Hoeﬂich KP, Merchant M, Orr C, Chan J, Den Otter D, Berry L,
+Kasman I, Koeppen H, Rice K, Yang NY, Engst S, Johnston S,
+Friedman LS, Belvin M (2012) Intermittent administration of
+MEK inhibitor GDC-0973 plus PI3K inhibitor GDC-0941 trig-
+gers robust apoptosis and tumor growth inhibition. Cancer Res
+72:210–219
+
+14. Hoeﬂich KP, O’Brien C, Boyd Z, Cavet G, Guerrero S, Jung K,
+Januario T, Savage H, Punnoose E, Truong T, Zhou W, Berry L,
+Murray L, Amler L, Belvin M, Friedman LS, Lackner MR (2009)
+In vivo antitumor activity of MEK and phosphatidylinositol
+3-kinase inhibitors in basal-like breast cancer models. Clin Cancer
+Res 15:4649–4664
+
+15. Koch G, Walz A, Lahu G, Schropp J (2009) Modeling of tumor
+growth and anticancer effects of combination therapy. J Pharma-
+cokinet Pharmacodyn 36:179–197
+
+16. Li J, Yen C, Liaw D, Podsypanina K, Bose S, Wang SI, Puc J,
+Miliaresis C, Rodgers L, McCombie R, Bigner SH, Giovanella
+BC, Ittmann M, Tycko B, Hibshoosh H, Wigler MH, Parsons R
+(1997) PTEN, a putative protein tyrosine phosphatase gene
+mutated in human brain, breast, and prostate cancer. Science 275:
+1943–1947
+
+17. Madhunapantula SV, Robertson GP (2008) Is B-Raf a good
+therapeutic target for melanoma and other malignancies? Cancer
+Res 68:5–8
+
+18. Mager DE, Woo S, Jusko WJ (2009) Scaling pharmacodynamics
+from in vitro and preclinical animal studies to humans. Drug
+Metab Pharmacokinet 24:16–24
+
+19. Maira SM, Stauffer F, Brueggen J, Furet P, Schnell C, Fritsch C,
+Brachmann S, Chene P, De Pover A, Schoemaker K, Fabbro D,
+Gabriel D, Simonen M, Murphy L, Finan P, Sellers W, Garcia-
+Echeverria C (2008) Identiﬁcation and characterization of NVP-
+BEZ235, a new orally available dual phosphatidylinositol
+3-kinase/mammalian target of rapamycin inhibitor with potent in
+vivo antitumor activity. Mol Cancer Ther 7:1851–1863
+
+20. Ng CM, Joshi A, Dedrick RL, Garovoy MR, Bauer RJ (2005)
+Pharmacokinetic-pharmacodynamic-efﬁcacy analysis of
+efali-
+zumab in patients with moderate to severe psoriasis. Pharm Res
+22:1088–1100
+
+21. Pinheiro J, Bates D, DebRoy S, Sarkar D, the R Core team (eds)
+linear and nonlinear mixed effects models. R
+
+(2009) nlme:
+package v. 3.1-93. http://cran.r-project.org/
+
+22. Raynaud FI, Eccles SA, Patel S, Alix S, Box G, Chuckowree I,
+Folkes A, Gowan S, De Haven Brandon A, Di Stefano F, Hayes
+A, Henley AT, Lensun L, Pergl-Wilson G, Robson A, Saghir N,
+Zhyvoloup A, McDonald E, Sheldrake P, Shuttleworth S, Valenti
+M, Wan NC, Clarke PA, Workman P (2009) Biological properties
+of potent inhibitors of class I phosphatidylinositide 3-kinases:
+from PI-103 through PI-540, PI-620 to the oral agent GDC-0941.
+Mol Cancer Ther 8:1725–1738
+
+23. Rocchetti M, Del Bene F, Germani M, Fiorentini F, Poggesi I,
+Pesenti E, Magni P, De Nicolao G (2009) Testing additivity of
+anticancer agents in pre-clinical studies: a PK/PD modelling
+approach. Eur J Cancer 45:3336–3346
+
+24. Salphati L, Wong H, Belvin M, Bradford D, Edgar KA, Prior
+WW, Sampath D, Wallin JJ (2010) Pharmacokinetic-pharmaco-
+dynamic modeling of tumor growth inhibition and biomarker
+modulation by the novel phosphatidylinositol 3-kinase inhibitor
+GDC-0941. Drug Metab Dispos 38:1436–1442
+
+25. Samuels Y, Wang Z, Bardelli A, Silliman N, Ptak J, Szabo S, Yan H,
+Gazdar A, Powell SM, Riggins GJ, Willson JK, Markowitz S, Kin-
+zler KW, Vogelstein B, Velculescu VE (2004) High frequency of
+mutations of the PIK3CA gene in human cancers. Science 304:554
+
+Cancer Chemother Pharmacol (2013) 71:133–143
+
+143
+
+26. Sarker D, Reid AH, Yap TA, de Bono JS (2009) Targeting the
+PI3K/AKT pathway for the treatment of prostate cancer. Clinical
+cancer research : an ofﬁcial journal of the American Association
+for Cancer Research 15:4799–4805
+
+27. Sausville EA, Burger AM (2006) Contributions of human tumor
+xenografts to anticancer drug development. Cancer Res 66: 3351–
+3354, discussion 3354
+
+28. Schreck R, Rapp UR (2006) Raf kinases: Oncogenesis and drug
+
+discovery. Int J Cancer 119:2261–2271
+
+29. Sebolt-Leopold JS, Herrera R (2004) Targeting the mitogen-
+activated protein kinase cascade to treat cancer. Nat Rev Cancer
+4:937–947
+
+30. Sos ML, Fischer S, Ullrich R, Peifer M, Heuckmann JM, Koker
+M, Heynck S, Stuckrath I, Weiss J, Fischer F, Michel K, Goel A,
+Regales L, Politi KA, Perera S, Getlik M, Heukamp LC, Ansen S,
+Zander T, Beroukhim R, Kashkar H, Shokat KM, Sellers WR,
+Rauh D, Orr C, Hoeﬂich KP, Friedman L, Wong KK, Pao W,
+Thomas RK (2009) Identifying genotype-dependent efﬁcacy of
+single and combined PI3K- and MAPK-pathway inhibition in
+cancer. Proc Natl Acad Sci USA 106:18351–18356
+
+31. Staal SP (1987) Molecular cloning of the akt oncogene and its
+human homologues AKT1 and AKT2: ampliﬁcation of AKT1 in
+a primary human gastric adenocarcinoma. Proc Natl Acad Sci
+USA 84:5034–5037
+
+32. Tanaka C, O’Reilly T, Kovarik JM, Shand N, Hazell K, Judson I,
+Raymond E, Zumstein-Mecker S, Stephan C, Boulay A, Hat-
+tenberger M, Thomas G, Lane HA (2008) Identifying optimal
+
+biologic doses of everolimus (RAD001) in patients with cancer
+based on the modeling of preclinical and clinical pharmacokinetic
+and pharmacodynamic data. J Clin Oncol 26:1596–1602
+
+33. Teicher BA (2006) Tumor models for efﬁcacy determination.
+
+Mol Cancer Ther 5:2435–2443
+
+34. Wang S, Guo P, Wang X, Zhou Q, Gallo JM (2008) Preclinical
+pharmacokinetic/pharmacodynamic models of geﬁtinib and the
+design of equivalent dosing regimens in EGFR wild-type and
+mutant tumor models. Mol Cancer Ther 7:407–417
+
+35. Wang S, Zhou Q, Gallo JM (2009) Demonstration of the equiv-
+alent pharmacokinetic/pharmacodynamic dosing strategy in a
+multiple-dose study of geﬁtinib. Mol Cancer Ther 8:1438–1447
+36. Wong H, Belvin M, Herter S, Hoeﬂich KP, Murray LJ, Wong L,
+Choo EF (2009) Pharmacodynamics of 2-[4-[(1E)-1-(hydroxyi-
+mino)-2,3-dihydro-1H-inden-5-yl]-3-(pyridine-4-yl)-1
+H-pyra-
+zol-1-yl]ethan-1-ol (GDC-0879), a potent and selective B-Raf
+kinase inhibitor: understanding relationships between systemic
+concentrations, phosphorylated mitogen-activated protein kinase
+kinase 1 inhibition, and efﬁcacy. J Pharmacol Exp Ther 329:
+360–367
+
+37. Wong H, Choo EF, Alicke B, Ding X, La H, McNamara E, Theil
+FP, Tibbitts J, Friedman LS, Hop CE, Gould SE (2012) Anti-
+tumor activity of targeted and cytotoxic agents in murine sub-
+cutaneous tumor models correlates with clinical response. Clin
+Cancer Res 18:3846–3855
+
+38. Zebisch A, Troppmair J (2006) Back to the roots: the remarkable
+
+RAF oncogene story. Cell Mol Life Sci 63:1314–1330
+
+123
+
+

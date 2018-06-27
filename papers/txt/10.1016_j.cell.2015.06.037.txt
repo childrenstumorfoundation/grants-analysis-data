@@ -1,0 +1,1112 @@
+Natural Variation in Gene Expression Modulates the
+Severity of Mutant Phenotypes
+
+Article
+
+Graphical Abstract
+
+Authors
+Victoria Vu, Adrian J. Verster, Michael
+Schertzberg, ..., G. Traver Hart, Jason
+Moffat, Andrew G. Fraser
+
+Correspondence
+andyfraser.utoronto@gmail.com
+
+In Brief
+How does genetic background affect the
+severity of a mutation? A large-scale
+comparison between two C. elegans
+isolates indicates that the level of
+expression of a gene predicts the severity
+of its mutant phenotype, suggesting an
+unexpectedly straightforward variable
+underlying the effects of genetic context.
+
+Highlights
+d Comparison of loss-of-function phenotypes of 1,400 genes
+
+in two C. elegans isolates
+
+d 20% of genes have different loss-of-function phenotypes in
+
+two individuals
+
+d Differences in severity of mutant phenotypes predictable
+
+from expression
+
+Vu et al., 2015, Cell 162, 391–402
+July 16, 2015 ª2015 Elsevier Inc.
+http://dx.doi.org/10.1016/j.cell.2015.06.037
+
+Article
+
+Natural Variation in Gene Expression
+Modulates the Severity of Mutant Phenotypes
+
+Victoria Vu,1,2 Adrian J. Verster,1,2 Michael Schertzberg,1,2 Tungalag Chuluunbaatar,1,2 Mark Spensley,1,2 Djina Pajkic,2
+G. Traver Hart,1,2 Jason Moffat,1,2 and Andrew G. Fraser1,2,*
+1The Donnelly Centre, University of Toronto, 160 College Street, Toronto, ON M5S 3E1, Canada
+2Department of Molecular Genetics, University of Toronto, 1 King’s College Circle, Toronto, ON M5S 1A8, Canada
+*Correspondence: andyfraser.utoronto@gmail.com
+http://dx.doi.org/10.1016/j.cell.2015.06.037
+
+SUMMARY
+
+Many mutations cause genetic disorders. However,
+two people inheriting the same mutation often have
+different severity of symptoms, and this is partly ge-
+netic. The effects of genetic background on mutant
+phenotypes are poorly understood, but predicting
+them is critical for personalized medicine. To study
+this phenomenon comprehensively and systemati-
+cally, we used RNAi to compare loss-of-function
+phenotypes for 1,400 genes in two isolates of
+C. elegans and ﬁnd that 20% of genes differ in the
+severity of phenotypes in these two genetic back-
+grounds. Crucially, this effect of genetic background
+on the severity of both RNAi and mutant phenotypes
+can be predicted from variation in the expression
+levels of the affected gene. This is also true in
+mammalian cells, suggesting it is a general property
+of genetic networks. We suggest that differences in
+the manifestation of mutant phenotypes between in-
+dividuals are largely the result of natural variation in
+gene expression.
+
+INTRODUCTION
+
+Many mutations affect phenotype.
+Intriguingly, however, an
+identical genetic mutation can have very different effects on
+phenotype in different individuals of the same species. In part
+this is due to differences in genetic background, that is, to the
+speciﬁc combination of rare and common variants that comprise
+each individual genome. In model organisms, this impact of dif-
+ferences in genetic background on the severity of mutant pheno-
+types has been known for around a century. However, although
+there are many isolated examples in organisms ranging from
+mouse (Dietrich et al., 1993; Hamilton and Yu, 2012; Nadeau,
+2001) to yeast (Dowell et al., 2010), we still understand relatively
+little about the general mechanisms underlying this effect of ge-
+netic background. This is a major gap in our basic understanding
+of how genotype determines phenotype.
+
+Understanding the effect of genetic background on mutant
+phenotypes also has speciﬁc medical relevance. Mendelian dis-
+orders such as cystic ﬁbrosis (CF) and sickle cell anemia are the
+best understood genetic diseases in humans—each disorder is
+
+caused by inheritance of a mutation in a single gene (reviewed
+in Antonarakis and Beckmann, 2006 and cataloged extensively
+in the Online Inheritance in Man [OMIM] database). However,
+even classic ‘‘monogenic’’ disorders such as CF show clear
+genetic background effects—around half of all CF patients of
+European ancestry are homozygous for the DF508 CFTR allele
+(Bobadilla et al., 2002), yet they present with a broad range of
+clinical symptoms due to variation in so-called ‘‘modiﬁer genes,’’
+including MBL2 and TGF-b (Wright et al., 2011). Similar effects of
+genetic background and modiﬁer genes on disease severity are
+observed in many Mendelian disorders (Dorfman, 2012; Nadeau,
+2001), and the picture emerging is that although disease risk may
+be largely monogenic and its heritability predictable, the severity
+of the disease phenotype is the outcome of interaction between
+multiple genes (reviewed extensively in Cooper et al., 2013). We
+cannot yet predict these effects of genetic background on dis-
+ease severity with any accuracy, nor do we understand the gen-
+eral mechanisms underlying this. Here we endeavored to carry
+out a systematic study to examine the effects of genetic back-
+ground on mutant phenotypes.
+
+In C. elegans, many genome-scale RNAi screens have been
+carried out. These screens have identiﬁed the majority of genes
+whose knockdown causes an obviously detectable phenotype
+(Kamath et al., 2003). This set of genes is analogous to the set
+of human genes that cause Mendelian disorders, that is, inheri-
+tance of mutant alleles of any one of these genes will have a
+detectable effect on the phenotype of the individual. We selected
+1,353 of these genes to cover a diverse set of RNAi phenotypes,
+ranging from sterility and lethality to more subtle phenotypes
+such as tissue development defects (Fraser et al., 2000; Kamath
+et al., 2003)—our test set thus allows us to perturb most aspects
+of C. elegans biology. By carrying out RNAi on each of these
+genes in different C. elegans wild-type isolates, we can system-
+atically assess the effects of genetic background on the severity
+of loss-of-function phenotypes in an intact animal model.
+Here we report a comparison of the RNAi phenotypes of these
+1,400 test genes in two isolates of C. elegans: the canonical
+N2 Bristol isolate and the CB4856 Hawaiian isolate. They differ
+genetically by 1 SNP per 800 bp (Wicks et al., 2001) as well
+as having many copy-number variants (Maydan et al., 2010).
+They are the two best characterized C. elegans isolates—N2 is
+the standard laboratory strain (Brenner, 1974), and CB4856
+has also been widely used. Furthermore, the efﬁcacy of RNAi
+itself has been extremely well studied in this pair of isolates
+(Pollard and Rockman, 2013; Tijsterman et al., 2002). Our results
+
+Cell 162, 391–402, July 16, 2015 ª2015 Elsevier Inc. 391
+
+show that there is extensive variation in the severity of loss-of-
+function phenotypes between individuals and that this variation
+in mutant phenotypes is partly predictable from variation in
+gene expression. We thus suggest that variations in personal
+gene expression levels are one of the key causes of the variation
+in disease severity in Mendelian disorders.
+
+RESULTS
+
+A Quantitative RNAi Screen Identiﬁes Many Genes with
+Different RNAi Phenotypes in Two C. elegans Isolates
+To assess how differences in genetic background affect the
+severity of loss-of-function phenotypes, we compared the RNAi
+phenotypes of each of 1,353 test genes in two isolates of
+C. elegans: the canonical N2 Bristol
+isolate and the CB4856
+Hawaiian isolate. To measure RNAi phenotypes, we used a quan-
+titative phenotyping pipeline that we adapted from methods
+we had previously described (Lehner et al., 2006). In outline, in
+any single RNAi assay, 15 L1-stage worms are mixed with
+double-stranded RNA (dsRNA)-expressing bacteria targeting a
+gene of interest and incubated for 4 days in 96-well plates. The
+contents of each well are then analyzed using a commercially
+available worm sorter—the body length and the optical density
+of each worm or embryo in the sample are measured (shown
+schematically in Figure 1A). In control cultures fed with non-tar-
+geting dsRNA-expressing bacteria, there are 800 animals—
+15 adults and their progeny (at L1, L2, or L3 larval stages).
+When any of our test genes is targeted, however, we can measure
+changes in brood size, embryonic lethality, and growth rate, as
+illustrated schematically in Figure 1B. Almost all (1,319/1,353;
+97%) of the test genes have a detectable RNAi phenotype in at
+least one of these assays.
+
+We compared RNAi phenotypes for each of the 1,353 test
+genes in N2 and CB4856 in three independent biological re-
+peats, each with three technical replicates as shown in Figure 1A;
+details of data analysis are found in Experimental Procedures. In
+broadest outline, 9% (120/1,353) of genes screened had signiﬁ-
+cantly more severe phenotypes in CB4856, and 42% (570/1,353)
+had more severe phenotypes in N2 (all data in Table S1). Before
+analyzing these gene sets, we carried out a series of validation
+steps described in the next section.
+
+Data Validation and Conﬁrmation of Differences in RNAi
+Phenotype with Mutant Alleles
+To validate our data, we carried out a series of tests. First,
+to conﬁrm the differences in RNAi phenotypes we observed
+with the quantitative phenotyping pipeline, we repeated the
+phenotyping manually. We had captured images of each well
+that was analyzed using the worm sorter; two observers scored
+all
+images and categorized phenotypes into ﬁve classes: N2
+more severe (strongly or weakly), similar phenotype in N2
+and CB4856, and CB4856 more severe (strongly or weakly) (all
+data in Table S1). Overall, the overlap between quantitative
+and manual phenotype was 55%; that is, 382/690 of the genes
+that had more severe phenotypes in N2 or CB4856 could be
+conﬁrmed by manual screening. We note that almost all differ-
+ences are due to the greater sensitivity of the quantitative sorter
+assay because the agreement is > 90% for the largest differ-
+
+392 Cell 162, 391–402, July 16, 2015 ª2015 Elsevier Inc.
+
+ences in phenotype (see Figures S1A and S1B). We also set up
+an additional three replicates of all RNAi experiments and pheno-
+typed them manually, and the results were again similar (Figures
+S1A and S1B). We thus believe that the sorter data give accurate
+measures of the differences in RNAi phenotype between the
+isolates.
+
+Second, we removed any confounding effects in which differ-
+ences in RNAi phenotype between N2 and CB4856 were due
+to differences in RNAi efﬁcacy—this can vary between isolates
+of C. elegans. Differences in RNAi efﬁcacy between N2 and
+CB4856 are well-characterized—CB4856 has less effective
+RNAi than N2 (Pollard and Rockman, 2013; Tijsterman et al.,
+2002). Thus, whereas more severe RNAi phenotypes in the
+CB4856 isolate are indeed due to true differences in severity of
+loss-of-function phenotype, more severe RNAi phenotypes in
+N2 may be due to greater levels of knockdown in the N2 back-
+ground. CB4856 has a naturally occurring null mutation in
+ppw-1, a member of the Argonaute family, and genetic studies
+have shown that this is the sole relevant variant affecting
+RNAi efﬁcacy between N2 and CB4856 (Pollard and Rockman,
+2013). We can thus control for the effect of variation in RNAi ef-
+ﬁcacy by directly assessing the contribution of ppw-1 activity to
+differences in RNAi phenotypes between N2 and CB4856.
+
+To test whether the more severe RNAi phenotypes that we
+see in the N2 isolate are due to differences in ppw-1 activity be-
+tween N2 and CB4856, we compared the RNAi phenotypes
+of all 570 genes that had more severe RNAi phenotypes in N2
+in three worm strains: N2, CB4856, and the NL2550 strain.
+The NL2550 strain is identical to N2 except that (like CB4856)
+it is homozygous for a null mutation in ppw-1. If the RNAi phe-
+notype of any gene is severe in N2 but similarly weak
+in both CB4856 and NL2550, then the difference in phenotype
+between N2 and CB4856 is due to differences in RNAi efﬁcacy.
+Conversely,
+if both N2 and NL2550 have similarly severe
+phenotypes and CB4856 is weaker, then the difference in
+phenotype between N2 and CB4856 is not due to variation in
+ppw-1; rather, it is a true effect of the difference in genetic back-
+ground between N2 and CB4856 (see Figure S1C for sche-
+matic). We used a rapid manual screen to compare the RNAi
+phenotypes of all 570 genes that had more severe phenotypes
+in N2 in the N2, CB4856, and NL2550 strains. Each gene was
+placed into one of three classes: class A, wherein the phenotype
+in NL2550 is similar to that in N2 (difference in RNAi phenotype
+between N2 and CB4856 is not due to ppw-1); class C, wherein
+NL2550 is similar to CB4856 (difference is due to ppw-1); and
+class B, wherein NL2550 has an intermediate phenotype. We
+validated these data by testing a subset with our quantitative
+pipeline (Figure S1D): the median contribution of variation in
+ppw-1 activity to the difference in RNAi phenotype between
+N2 and CB4856 in the three classes is 25%, 39%, and 74%
+for classes A, B, and C, respectively. We ﬁnd that in over 75%
+of the cases where genes had more severe RNAi phenotypes
+in N2 than CB4856, this is largely the result of differences in
+RNAi efﬁcacy (genes in class C). Removing these artifactual
+hits from our data, we thus ﬁnd that 9% (127/1353) of the genes
+screened have more severe loss-of-function phenotypes in N2
+due largely to differences in genetic background rather than to
+differences in RNAi efﬁcacy.
+
+A
+
+B
+
+Figure 1. Outline of Quantitative Phenotyping Pipeline
+(A) Experimental set up and sorter output. dsRNA-expressing bacteria are fed to worms in 96-well plates. Each gene is targeted in three independent cultures in
+each isolate, and every plate includes six negative control cultures (‘‘Neg1’’ and ‘‘Neg2’’). The set up shown has 10 genes being targeted in N2 and CB4856 (CB).
+After 96 hr, cultures are aspirated into a worm sorter that analyzes the length and darkness of each animal—we show here the full sorter data for a control culture
+(‘‘Full sort’’) as well as an expanded view of the progeny (‘‘Progeny’’). Adults lie in the region marked in green, embryos and L1 animals lie in the red region, and L2
+and L3 larvae in the purple region. All data appear in Table S1.
+(B) Biological interpretation of sorter data. Here we show how a range of worm phenotypes appear both in sorter data and under light microscopy. Each
+photograph is a composite of several high-magniﬁcation images of any single well that are computationally stitched together.
+
+Finally, and most importantly, to validate that any difference in
+RNAi phenotype between N2 and CB4856 truly reﬂects a differ-
+ence in the severity of mutant phenotypes, we tested a subset
+of our hits using genetic mutants. For example, CB4856 has a
+more severe RNAi phenotype when we target the gene mua-3.
+We constructed a CB4856 strain that is homozygous for the char-
+acterized loss-of-function mua-3(rh195) allele (see Experimental
+Procedures) and compared its phenotype to that of N2 worms
+that are homozygous for the same mua-3(rh195) mutant allele.
+The result is shown in Figure 2A: whereas N2 mua-3(rh195) worms
+are mostly viable, over 80% of CB4856 mua-3(rh195) animals die
+as larvae, thus conﬁrming our RNAi data. We tested eight genes
+
+like this, restricting our choice to genes with viable, well-charac-
+terized mutant alleles. These eight genes included ﬁve with
+more severe RNAi phenotypes in CB4856 and three that are
+more severe in N2 and cover diverse molecular pathways—
+mua-3, vab-10, and unc-52 encode components of the ﬁbrous
+organelle (FO), nuo-6 encodes a subunit of the electron transport
+chain (ETC), cgh-1 encodes an RNA helicase, gld-1 encodes an
+RNA-binding protein, unc-32 encodes a subunit of the vacuolar
+ATPase, and unc-45 affects thick ﬁlaments in muscle cells.
+
+Our results are shown in Figures 2 and 3 and Table S2—as pre-
+dicted from our RNAi data, mua-3, unc-52, vab-10, and unc-32
+mutants all have more severe mutant phenotypes in the
+
+Cell 162, 391–402, July 16, 2015 ª2015 Elsevier Inc. 393
+
+A
+
+B
+
+C
+
+Figure 2. Mutations in Components of the FO Have More Severe Phenotypes in the CB4856 Background
+We generated CB4856 strains homozygous for loss-of-function mutations in mua-3, vab-10, or unc-52 and compared their phenotypes to N2 strains carrying the
+same mutant alleles.
+(A) Most N2 worms homozygous for mua-3(rh195) develop into adults (cyan arrow and inset), but most CB4856 mua-3(rh195) homozygotes die as early larvae (red
+arrow and inset). This difference in severity is quantiﬁed in the lefthand (LH) column graph (‘‘MUTANT,’’ p < 0.001, chi-square, error bars denote SD from ﬁve
+independent measurements) and is concordant with differences in severity of RNAi phenotypes in our primary screen (boxplot labeled ‘‘RNAi’’ shows distribution
+of nine measurements of brood sizes after targeting mua-3 in either N2 or CB4856, p < 0.01). Finally, the column graph at the righthand (RH) side (‘‘EXPRESSION’’)
+shows the relative expression of mua-3 in either L4 animals (yellow) or young adults (YA, orange) expressed as the ratio of CB4856:N2 expression.
+(B) Adult worms homozygous for the hypomorphic vab-10(e698) allele have a detachment of the hypoderm from the cuticle (yellow arrow) and head defects (red
+arrow). This is more severe in the CB4856 background (column graph ‘‘MUTANT,’’ p < 0.001, chi-square, error bars denote SD from ﬁve independent mea-
+surements), and this recapitulates the differences in severity of RNAi phenotypes (boxplot labeled ‘‘RNAi,’’ p < 0.001). The RH column graph (‘‘EXPRESSION’’)
+shows the expression of vab-10 in L4s (yellow) or young adults (YA, orange) expressed as the ratio of CB4856:N2 expression.
+(C) Adult worms homozygous for the unc-52(e669su250) allele show paralysis at 20
+C (green arrow). This is more severe in the CB4856 background (column
+graph ‘‘MUTANT,’’ p < 0.001, chi-square, error bars denote SD from ﬁve independent measurements), and this recapitulates the differences in severity of RNAi
+phenotypes seen in our primary screen (boxplot labeled ‘‘RNAi,’’ p < 0.01). The RH column graph (‘‘EXPRESSION’’) shows the expression of unc-52 in either L4s
+(yellow) or young adults (YA, orange) expressed as the ratio of CB4856:N2 expression.
+All data appear in Table S2.
+
+
+
+CB4856 background, whereas cgh-1 and nuo-6 mutants have
+more severe phenotypes in the N2 background. Although we de-
+tected no difference in phenotype for mutants in either unc-45 or
+gld-1 between the N2 and CB4856 backgrounds, we note that
+for these two genes, the mutant alleles have weaker loss-of-
+function phenotypes than we generated by RNAi, and this might
+
+explain the difference in result. The alternative is that these might
+be false positives from our RNAi screen. Our data thus show that
+in most cases where we found a difference in RNAi phenotype
+between N2 and CB4856, this difference in phenotype can be
+conﬁrmed using genetic mutants. This validates our approach
+of using RNAi-based screens to investigate the effect of
+
+394 Cell 162, 391–402, July 16, 2015 ª2015 Elsevier Inc.
+
+A
+
+B
+
+Figure 3. Mutations in Components of the ETC and in P Granule Regulators Cause More Severe Phenotypes in the N2 Background
+We generated CB4856 strains that were homozygous for the hypomorphic nuo-6(qm200) allele or the temperature-sensitive cgh-1(tn691) allele and compared
+their phenotypes to N2 strains homozygous for the same alleles.
+(A) The hypomorphic nuo-6(qm200) allele causes more severe growth defects in the N2 background. Parallel liquid cultures of N2 or CB4856 parental isolates and
+C. Samples were taken after 8 days and
+of strains homozygous for the nuo-6(qm200) allele in either the N2 or CB4856 background were set up and grown at 20
+analyzed using the worm sorter. The LH panel shows the raw sorter output—N2 and CB4856 populations show similar growth, but N2 nuo-6(qm200) grows more
+slowly than CB4856 nuo-6(qm200). The LH boxplot (‘‘MUTANT’’) shows the number of L4 and adult worms in N2 nuo-6(qm200) or CB4856 nuo-6(qm200) strains
+relative to the number in the respective wild-type backgrounds. The RH boxplot (‘‘RNAi’’) shows the differences in severity of RNAi phenotypes in our primary
+screen (p < 0.01). Finally, the column graph (‘‘EXPRESSION’’) shows the relative expression of nuo-6 in either L4 animals (yellow) or young adults (YA, orange)
+expressed as the ratio of CB4856:N2 expression.
+(B) The temperature-sensitive cgh-1(tn691) allele causes highly penetrant embryonic lethality in the N2 background. Embryos homozygous for the temperature-
+sensitive cgh-1(tn691) allele fail to hatch at 22
+C in the N2 background, whereas most CB4856 cgh-1(tn691) embryos hatch normally (LH panel; cyan arrowheads
+show dead embryos). This can be quantiﬁed as a difference in the ratio of L2 and L3 larvae to embryos (LH column graph, ‘‘MUTANT,’’ p < 0.01, t test, error bars
+denote SD from ﬁve independent measurements). The boxplot (‘‘RNAi’’) shows the differences in severity of RNAi phenotypes in our primary screen (relative
+brood size, p < 0.001). Finally, the RH column graph (‘‘EXPRESSION’’) shows relative expression of cgh-1 in L4s (yellow) or young adults (YA, orange) expressed
+as the ratio of CB4856:N2 expression.
+All data appear in Table S2.
+
+
+
+
+
+differences in genetic background on the severity of phenotypes
+that arise from inheritance of a mutation.
+
+Many Genes with Different Severity of Loss-of-Function
+Phenotype Fall into Distinct Functional Classes
+We identiﬁed 120 genes that have more severe phenotypes in
+CB4856 and 127 that have more severe phenotypes in the
+N2 background; this is due mainly to differences in genetic
+background. To gain some insight into the underlying causes
+of these differences in phenotypes, we ﬁrst examined whether
+these genes tend to encode components of similar molecular
+machineries. We manually annotated all 1,353 genes into one
+of 19 major functional classes that comprise over 40 more
+speciﬁc classes (annotations in Table S1). We identiﬁed three
+signiﬁcant enrichments: N2 has more severe phenotypes for
+
+genes involved in the ETC (8/28 genes more severe in N2)
+and for genes encoding RNA-binding proteins (8/22 genes
+more severe in N2); this latter enrichment is due to genes
+that affect P granules (7/11 screened). CB4856 has more se-
+vere phenotypes for genes involved in protein synthesis (31/
+200 screened). All enrichments are shown in Figure 4A and
+listed in Table S3. We note that because some of the functional
+classes are broad, they hide more ﬁne-grained enrichments.
+For example, we screened ﬁve genes that encode subunits
+of the FO, the structure that links muscle cells to the cuticle.
+Three of these genes (vab-10, unc-52, and mua-3) have signif-
+icantly more severe phenotypes in CB4856, and the other
+two (mup-4 and let-805) also have more severe phenotypes
+in CB4856 but narrowly miss the statistical cut-off (Z scores
+of 1.67 and 1.63, respectively).
+
+Cell 162, 391–402, July 16, 2015 ª2015 Elsevier Inc. 395
+
+A
+
+B
+
+C
+
+Figure 4. Distribution of Functional Classes
+of Genes with More Severe Phenotypes in
+Either N2 or CB4856 Isolates
+(A) All genes were placed into one of 40 functional
+classes. The pie charts shows the distribution of
+the genes that had more severe RNAi phenotypes
+in either N2 or CB4856 in each class. Only classes
+with > 20 members are shown; classes that are
+signiﬁcantly enriched (p < 0.05; Bonferroni cor-
+rected hypergeometric test) are shown as sepa-
+rated segments of the pie chart. Enrichments are
+all found in Table S3.
+(B and C) The N2 isolate is more sensitive to
+treatment with KCN, and the CB4856 isolate is
+more sensitive to puromycin. Approximately 120
+L1 worms were treated with a range of concen-
+trations of KCN or puromycin, and their movement
+quantiﬁed after 90 min—the graph shows the
+fraction of worms that are moving (fractional
+mobility score; mean of six replicates; error bars
+represent SEM).
+
+(µM)
+
+The enrichments that we found involve many of the genes
+that we retested using mutants (Figures 2 and 3)—mutations
+in mua-3, unc-52, or vab-10 (all encode FO components) have
+more severe phenotypes in CB4856, whereas mutations in
+nuo-6 (encodes a component of complex I
+in the ETC) or
+cgh-1 (an RNA helicase that affects P granules) cause more
+severe phenotypes in N2. Furthermore, we can conﬁrm these
+data using drugs—N2 is more sensitive to targeting ETC com-
+ponents by RNAi and is more severely affected by treatment
+with cyanide, an ETC inhibitor, whereas CB4856 is more sensi-
+tive to targeting genes encoding protein translational machinery
+and is more sensitive to treatment with puromycin, an inhibitor
+of protein synthesis (Figures 4B and 4C). We thus suggest
+that the same disease-causing mutation may have different
+effects in different individuals because of variation in the level
+of the requirement for the entire module in which the mutated
+gene acts.
+
+Natural Variation in Gene Expression Causes
+Differences in Sensitivity to Perturbation in Each
+Individual
+Almost 20% of the genes we examined have different severity
+of loss-of-function phenotypes in two isolates. Why is this?
+The great majority of the genes that have different loss-of-func-
+tion phenotypes have identical coding sequences in the two
+isolates, and we thus focused on whether variation in gene
+expression could contribute to the differences in severity of
+RNAi and mutant phenotypes in N2 and CB4856. There is ex-
+tensive variation in gene expression between N2 and CB4856,
+but the functional consequences of this are still
+largely un-
+known. We used RNA-seq to measure mRNA expression
+levels in two stages of the life cycle (the L4 larval stage and
+the young adult stage) in both N2 and CB4856 (see Experi-
+
+396 Cell 162, 391–402, July 16, 2015 ª2015 Elsevier Inc.
+
+mental Procedures) and used this data-
+set to investigate whether variation in
+gene expression might affect the severity
+of loss-of-function phenotypes.
+
+We ﬁrst focused on the functional modules that showed sys-
+tematic differences in loss-of-function phenotypes between
+the two isolates. As described above, N2 is more sensitive to
+perturbations affecting either the ETC or P granule regulators,
+whereas CB4856 is more sensitive to changes in activity of
+the protein synthesis machinery or the FO. We ﬁnd that the
+ETC and P granule regulators are lower expressed in N2
+than in CB4856, whereas components of the FO and the protein
+synthesis machinery (speciﬁcally, genes affecting ribosome
+biogenesis; see Figure S2A) are lower expressed in CB4856
+(Figure 5A). This suggests that variation in gene expression
+may affect the severity of mutant phenotypes—the lower the
+expression in any individual, the more severe the phenotype.
+This is not speciﬁc to RNAi-induced phenotypes because we
+see the same sensitization to drugs (e.g., N2 has lower expres-
+sion of the ETC and is more sensitive to cyanide; CB4856 has
+lower expression of the protein synthesis machinery and is
+more sensitive to puromycin; Figures 4B and 4C). Most impor-
+tantly, we see that differences in expression levels also correlate
+with the severity of the mutant phenotypes of genes—mua-3,
+unc-52, vab-10, and unc-32 are lower expressed in CB4856,
+and CB4856 has more severe mutant phenotypes for these
+genes (Figure 2). Conversely, cgh-1 is lower expressed in N2,
+and nuo-6 encodes a subunit of the ETC that is lower expressed
+in N2; both have more severe mutant phenotypes in N2 (Fig-
+ure 3). The differences in expression are generally subtle (see
+Table S1), but at least for cgh-1, the expression differences
+are larger (2-fold lower in N2). We ﬁnd that qPCR conﬁrms
+the lower expression of cgh-1 in N2 (Figure S2D) and also that
+cgh-1 expression is lower in the N2 cgh-1(tn691) strain than
+in the CB4856 cgh-1(tn691) strain. This conﬁrms that lower
+expression of cgh-1 correlates with increased severity of mutant
+phenotype (see Figure 3B).
+
+Our data suggest that natural variation in gene expression
+affects the severity of mutant phenotypes—individuals with
+lower expression tend to have more severe phenotypes. To
+examine this further, we tested whether experimentally altering
+expression levels could modulate the severity of mutant phe-
+notypes. We examined two functional modules—the FO and
+the P granule regulators. CB4856 has lower FO expression and
+more severe mutant phenotypes of FO components—if we
+reduce the expression of FO components in the higher-express-
+ing N2 isolate, does this increase the severity of FO mutant
+phenotypes? Conversely, most P granule regulators have lower
+expression and more severe phenotypes in the N2 back-
+ground—if we reduce expression of P granule regulators, does
+this increase the severity of their mutant phenotypes in the
+higher-expressing CB4856 background?
+
+We used RNAi to reduce expression of vab-10 or unc-52 in N2
+wild-type worms or in N2 strains homozygous for hypomorphic
+alleles of either vab-10 or unc-52. Reducing vab-10 expression
+greatly increases the severity of the vab-10 mutant phenotype
+(Figure 5B), and reducing unc-52 expression increases the
+severity of the unc-52 mutant phenotype (Figure 5C). Impor-
+tantly, reducing vab-10 expression also increases the severity
+of the unc-52 mutant phenotype and vice versa (Figure 5C).
+This indicates that the severity of the mutant phenotype of any
+speciﬁc gene in any individual can be affected by the level of
+either its own expression or the expression of other genes that
+act in the same functional module. We ﬁnd very similar results
+when we alter expression of P granule regulators (higher ex-
+pressed in CB4856)—reducing expression of either mex-3 or
+pos-1 signiﬁcantly enhances the severity of the cgh-1 mutant
+phenotype in the CB4856 background (see Figure 5D). In all
+cases, the combined phenotype is more severe than the simple
+additive effect of each perturbation alone.
+
+Together, these data suggest that natural variation in gene
+expression can signiﬁcantly affect the severity of mutant pheno-
+types. This can either be variation in the expression level of the
+mutant gene itself or variation in the expression of other genes
+that act in the same functional module. In either case, the trend
+is the same—individuals with lower expression tend to have a
+more severe mutant phenotype.
+
+Natural Variation in Gene Expression Can Predict the
+Severity of Loss-of-Function Phenotypes
+A central goal of this study was to improve our ability to predict
+the severity of mutant phenotypes in each affected individual. As
+described above, we found that variation in gene expression cor-
+relates with the severity of mutant phenotypes—lower expres-
+sion of a mutant gene or of the functional module in which it
+acts results in a more severe loss-of-function phenotype. This
+trend is most obvious in the functional modules that are enriched
+for phenotypic differences but is still predictive across all genes.
+For example, genes that are at least 50% lower expressed in
+CB4856 are around twice as likely (1.8 times) to have a more se-
+vere phenotype in CB4856 than expected and around half as
+likely (0.4 times) to have a more severe phenotype in N2 (see Fig-
+ure S2B). However, predicting the relative severity of a mutant
+phenotype in two individuals is not our goal—we want to predict
+the severity of a mutant phenotype for any single individual rela-
+
+tive to some ‘‘average phenotype’’ for the species, that is, to
+answer ‘‘how severe will my phenotype be?’’ To examine this
+for the C. elegans species, rather than simply between N2 and
+CB4856, we selected two other isolates (AB1 from Australia
+and ED3040 from South Africa) that represent additional major
+branches of the phylogenetic tree (Andersen et al., 2012).
+
+We used RNA-seq to measure gene expression in these iso-
+lates at the L4 larval stage and examined whether the expression
+level of any gene in a given isolate predicts the severity of its loss-
+of-function phenotype in that isolate. To address this, rather than
+screen all 1,400 genes again in all 4 isolates, we focused on the
+ETC and used RNAi to compare loss-of-function phenotypes for
+35 ETC genes in all 4 isolates. We found that ETC expression
+varies between isolates (Figure 6A). This does not reﬂect any
+general differences in expression of mitochondrial genes, e.g.,
+the 75 mitochondrial ribosome genes are similarly expressed in
+3 isolates, and the only exception (ED3040) shows lower expres-
+sion of the mitochondrial ribosome and higher levels of ETC (see
+Figure S2C). We ﬁnd that the isolates with lower ETC expression
+(N2 and AB1) tend to have more severe phenotypes for ETC
+genes (Figure 6B). Crucially, this trend is predictive at the sin-
+gle-gene level: the lower the expression of any ETC gene in an
+isolate, the more severe the phenotype of that gene in that isolate
+(Figure 6C). For example, in individuals with at least a 20% differ-
+ence in expression level compared to the species average, we
+predict with over 85% accuracy their relative severity of pheno-
+type (23/27 correct predictions, p < 0.001, binomial test). We
+note that these results are unlikely to be an effect of differences
+in RNAi efﬁcacy between the isolates—not only did we conﬁrm
+the difference in severity of the loss-of-function phenotype of
+a component of the ETC between N2 and CB4856 using a ge-
+netic mutant (Figure 3A), but we see the predicted differential
+sensitivity to cyanide between the isolates, e.g., ED3040 and
+CB4856 have higher ETC expression (Figure 6A), less severe
+RNAi phenotypes for ETC genes (Figure 6B), and weaker sensi-
+tivity to cyanide (Figure 6D), whereas AB1 and N2 have lower
+ETC expression (Figure 6A) and more severe RNAi phenotypes
+for ETC genes and are more sensitive to cyanide (Figures 6B
+and 6D).
+
+Finally, to test whether differences in expression level result in
+differences in severity of loss-of-function phenotype in another
+biological system, we examined data from a large number of
+genome-scale RNAi screens in mammalian cells. We identiﬁed
+507 genes that are required for cell growth or viability and tested
+whether lower expression of each of these genes in a number of
+different cell lines correlates with increased severity of their RNAi
+phenotype (see Experimental Procedures for methods and Table
+S5 for list of genes). We ﬁnd that the severity of phenotype is
+indeed greater in cell lines that have lower expression levels of
+the target gene (see Figure 6E and an example for the gene
+PAF1 in Figure 6F). Thus, although we have not tested our model
+in another whole animal model, or indeed in human populations,
+this suggests that the ﬁnding that differences in gene expression
+lead to differences in severity of loss-of-function phenotypes is a
+general feature of biological networks.
+
+Taken together, our results suggest that one of the major ways
+in which variation in genetic background affects the severity of
+Mendelian disorders in humans is via variation in the expression
+
+Cell 162, 391–402, July 16, 2015 ª2015 Elsevier Inc. 397
+
+A
+
+B
+
+D
+
+C
+
+Figure 5. Natural Variation in Gene Expression Affects Loss-of-Function Phenotypes
+(A) Differences in expression of speciﬁc functional modules in N2 and CB4856 mRNA expression levels were measured in either L4 or young adult (YA) animals
+using RNA-seq. The boxplot shows log2-transformed relative expression levels of genes encoding components of the ETC, P granule regulators (P-g), com-
+ponents of the FO, and protein synthesis machinery (Psyn) in N2 and CB4856. Boxes are bold if expression differences are signiﬁcant (p < 0.05, paired t test).
+
+(legend continued on next page)
+
+398 Cell 162, 391–402, July 16, 2015 ª2015 Elsevier Inc.
+
+levels of the mutated genes—the variants that affect gene expres-
+sion can ultimately affect the severity of the inherited disorder.
+
+DISCUSSION
+
+Two individuals inheriting the same mutation may have very
+different severity of mutant phenotypes. Many factors can affect
+this, but in this study we focus speciﬁcally on the effect of genetic
+background. We used RNAi to knock down the expression of
+each of 1,353 genes in two different C. elegans natural isolates
+and measured the effect of each knockdown on phenotype.
+This set of 1,400 genes comprises the majority of genes that
+have a readily detectable mutant phenotype in C. elegans, that
+is, the genes whose mutation causes a ‘‘genetic disorder’’ in
+worms. The set of genes we are studying is thus broadly analo-
+gous to the set of genes whose mutation causes genetic disor-
+ders in humans (for example, those described in the OMIM
+database). Our conclusions should therefore generalize to the
+impact of genetic background on disease severity following the
+inheritance of a disease-related variant. We believe our data sup-
+port two main conclusions.
+
+First, genetic background frequently has a marked impact on
+the phenotypic outcome of a genetic perturbation. Approxi-
+mately 20% of genes have different severity of RNAi phenotypes
+due to differences in genetic background even when we com-
+pare only two individuals. As more individuals are examined
+(e.g., when we compared the loss-of-function phenotypes of
+components of the ETC in 4 isolates), this impact of genetic
+background on variation in loss-of-function phenotypes be-
+comes more obvious. Over two-thirds of the genes encoding
+components of the ETC showed major differences (at least
+50% different to the species average) in phenotype severity in
+at least one isolate—these isolates are representatives of major
+branches of the phylogenetic tree for C. elegans (Andersen et al.,
+2012). These data suggest that the majority of disease-causing
+mutations will have phenotypes that are affected by differences
+in genetic background.
+
+Second, we ﬁnd that natural variation in gene expression has a
+signiﬁcant impact on the severity of mutant phenotypes. The
+lower the expression of a gene in any individual, the more likely
+it is that the effect of an inherited mutation in that gene will be se-
+vere. We also ﬁnd that the mutant phenotype of any gene is
+affected by the expression of other genes that act in the same
+
+functional module—again, reduced expression correlates with
+increased severity. Importantly, we ﬁnd that personal expression
+levels are good predictors of personal severity of mutant pheno-
+types. If an individual isolate has at least a 20% lower expression
+of a given gene than the species average, we can predict with
+over 85% accuracy that the mutant phenotype of that gene will
+be more severe in that isolate; conversely, if the isolate has at
+least 20% higher expression, this predicts with over 90% accu-
+racy that the mutant phenotype will be less severe in that isolate.
+Thus, our data suggest that our personal levels of gene expres-
+sion provide a strong predictor of the likely effects of the severity
+of the phenotype arising from rare variants that drive Mendelian
+disorders. This model is illustrated schematically in Figure 7.
+
+We note that there are already indications that variations in
+expression levels can modulate severity of Mendelian disorders
+in humans. For example, Marfan syndrome is a dominantly in-
+herited connective tissue disorder that has a complex array of
+symptoms. Marfan syndrome is primarily caused by mutations
+in FBN1 (Dietz et al., 1991; Lee et al., 1991)—the C. elegans or-
+tholog is mua-3, which we studied here. Just as variations in
+mua-3 expression in different isolates of C. elegans affects the
+severity of the mua-3 mutant phenotype, so variations in FBN1
+levels have been found to correlate with severity of Marfan syn-
+drome in humans (Hutchinson et al., 2003). This relationship be-
+tween the level of expression and the severity of phenotypes
+appears to hold in several other dominantly inherited syndromes
+(e.g., retinitis pigmentosa 11; Vithana et al., 2003). It will be
+intriguing to see ﬁrst whether this correlation generally holds in
+other syndromes, including those that are inherited in a recessive
+manner, and second whether variations in expression levels
+of other hemidesomosome components such as perlecan
+(HSPG2) or dystonin (DST) can also modulate the effect of
+FBN1 mutations on Marfan severity as we ﬁnd for variations in
+unc-52 and vab-10 in C. elegans.
+
+In summary, our data suggest that most rare variants that
+cause Mendelian disorders will have phenotypic outcomes of
+different severity in different individuals. We believe that one
+way to view the genetics of Mendelian disorders is that there
+is a difference between the genetics underlying the risk of
+having a Mendelian disorder and the genetics underlying the
+severity of the symptoms. The risk is binary, monogenic, and
+predictable from genome sequence—one either inherits or
+does not inherit a disease-causing mutation like the DF508
+
+(B) Reducing expression of vab-10 increases the severity of the vab-10(e698) mutant phenotype. Wild-type N2 animals or N2 animals homozygous for the vab-
+10(e698) allele were fed with bacteria targeting either vab-10 or GFP (control) for 4 days and populations analyzed on a worm sorter. Almost all of the initial added
+L1 worms developed to adulthood (TOF > 400) in the N2 wild-type animals either with RNAi targeting GFP (control; black) or vab-10 (cyan). The same is true for
+vab-10(e698) animal control cultures (yellow); however, vab-10(e698) animals fed with dsRNAs targeting vab-10 (green) grew more slowly, and few reached
+adulthood. Red circles mark median TOF and extinctions in each plot.
+(C) Altering expression of FO components affects severity of FO mutant phenotypes. Wild-type N2 animals or N2 strains homozygous for either vab-10(e698) or
+unc-52(e669su250) mutant alleles were exposed to bacteria expressing dsRNAs targeting either GFP (control), vab-10, or unc-52. The percentage of L1 animals
+that failed to develop to adulthood or that had severe movement defects was scored after 4 days.
+(D) Altering expression of P granule regulators affects severity of cgh-1 mutant phenotypes. We assessed the effect of targeting different P granule regulators
+using RNAi in four different worm strains: N2 and CB4856 wild-type isolates and N2 and CB4856 strains each homozygous for the temperature-sensitive
+cgh-1(tn691) allele. In each case, 15 L1 worms were fed with dsRNAs targeting either GFP (control), pos-1, or mex-3 for 4 days at 20
+C, and brood sizes were
+measured using the worm sorter and expressed relative to brood sizes in control cultures. The effect of the cgh-1(tn691) allele on brood size is greater in the N2
+background than in the CB4856 background (purple lines). Importantly, whereas targeting pos-1 or mex-3 has only a weak effect on brood size in the CB4856
+wild-type isolate, it has a strong defect on brood size in the CB4856 strain with the cgh-1(tn691) allele (green lines). All marked differences are signiﬁcant at
+p < 0.01. Error bars denote SD from three independent measurements
+
+
+
+Cell 162, 391–402, July 16, 2015 ª2015 Elsevier Inc. 399
+
+B
+
+D
+
+F
+
+A
+
+C
+
+Figure 6. Differences in Gene Expression
+Predict the Relative Severity of Loss-of-
+Function Phenotypes
+(A) Expression levels of the ETC in four isolates.
+mRNA levels in L4 larvae were measured in all four
+isolates using RNA-seq. The expression level of
+any gene is expressed relative to the average
+expression of that gene across all four isolates.
+The plot shows expression levels of genes en-
+coding ETC components; all isolates differ at p <
+0.05 (paired t test) except AB1 and N2. See also
+Figure S2 for more expression analyses.
+(B) Severity of RNAi phenotypes of ETC compo-
+nents in four isolates. We used RNAi to target each
+of 35 components of the ETC in all isolates and
+measured the effect on brood size. The RNAi
+phenotype of each gene in any isolate is expressed
+relative to the average RNAi phenotype of that
+gene across all four isolates and plotted in the
+box-and-whisker plot. All
+isolates have different
+severity of phenotypes (p < 0.05, paired t test)
+except AB1 and N2.
+(C) Differences in gene expression predict differ-
+ences in severity of mutant phenotypes. Thirty-ﬁve
+genes encoding components of the ETC were
+placed into bins based on their relative expression
+in any isolate: 20% or more lower than the average
+expression ( 20%); 10%–20% lower
+( 10%);
+10%–20% higher (10%); and 20% or more higher
+than average expression (20%). In each bin, the
+box-and-whisker plot shows the distribution of
+severity of RNAi phenotypes; the RNAi phenotype
+of each gene in any single isolate is expressed
+relative to the average phenotype of that gene
+across all four isolates.
+(D) Sensitivity of different C. elegans isolates
+to KCN treatment. Approximately 120 ED3040,
+CB4856, N2, and AB1 L1 worms were treated with
+different concentrations of KCN, and their move-
+ment quantiﬁed after 90 min—the graph shows
+the fraction of worms that were moving (fractional
+mobility score; data are mean of eight assays; error bars represent SEM). AB1 and N2 are more sensitive to KCN than CB4856 and ED3040 (p < 0.01, t test).
+(E) Correlation between expression level and severity of RNAi phenotypes in mammalian cell lines. We identiﬁed 507 human genes that are required for normal cell
+growth (see Experimental Procedures) and tested whether their relative expression in a range of 18 pancreatic and ovarian cell lines predicted their relative
+severity of RNAi phenotype in each cell line. Here we show the distribution of correlations between the severity of RNAi phenotype and the expression level for the
+507 genes across a panel of 18 pancreatic and ovarian cell lines (see Experimental Procedures). The mean correlation is  0.20, which is signiﬁcantly lower than
+zero (p < 2.2 3 10
+(F) As an example of the data that are contained in Figure 6E, we show a plot of the correlation between essentiality and expression level for an individual gene, PAF1.
+
+ 16, t test).
+
+E
+
+CFTR mutation in CF. However, the severity of the outcome is
+genetically complex and is at least in part due to variants that
+affect gene expression. These ﬁndings may ultimately allow us
+to predict the phenotypic differences between individuals who
+inherit the same Mendelian mutation and, more broadly, to un-
+derstand how the interplay between rare variants and modi-
+ﬁers affects the phenotype of any individual.
+
+EXPERIMENTAL PROCEDURES
+
+Strain Maintenance and Worm Handling
+
+
+
+C. elegans strains were maintained at 20
+C on NGM agar plates seeded with
+OP50 E.coli according to standard protocols (Stiernagle, 2006). All strains
+were supplied by the Caenorhabditis Genetics Centre (CGC), University of
+Minnesota, USA.
+
+RNAi Screening and Data Processing
+
+RNAi by feeding was carried out as described in Lehner et al. (2006). Genes
+were screened in triplicates in each RNAi screen, and three biological re-
+peats were carried out. Strains were also grown with non-targeting control
+bacteria (bacteria expressing dsRNA-targeting GFP); over 100 replicates of
+these were screened in each experiment. Each well was analyzed using
+the Reﬂex module of a Union Biometria worm sorter to acquire the time of
+ﬂight (TOF) and Extinction (EXT) for each object—bubble counts were re-
+moved using custom Perl scripts. We measured three parameters for each
+well—the number of adults, the brood size, and a measure of the rate of
+growth of the progeny population (the ratio between the number of objects
+with TOF below 75 [embryos and L1 larvae] and objects with TOF > 75
+and < 350 [L2 and L3 worms]). To compute Z scores for differences in any
+parameter between the isolates, we used the distribution of the differences
+in the controls.
+Genes were classed as having more severe phenotypes in either isolate as
+follows. If the Z score for differences in brood size was either <  2 or > 2, genes
+
+400 Cell 162, 391–402, July 16, 2015 ª2015 Elsevier Inc.
+
+A
+
+B
+
+Figure 7. Natural Variation in Gene Expression Results in Variation in
+Severity of Mutant Phenotypes
+In this schematic, we illustrate how natural variation in gene expression can
+lead to differences in the severity of mutant phenotypes. Lower expression
+either of a mutated gene (‘gene A*’) or of other components of the functional
+module in which that gene acts (‘gene B’) can equally result in a more severe
+mutant phenotype. We also suggest that this variation in expression levels only
+has a signiﬁcant effect on phenotype in the context of a mutant allele. In (A),
+natural variation in gene expression has little or no effect on phenotype in the
+context of wild-type alleles; in (B), the same variation in gene expression
+modulates the severity of the mutant phenotype.
+
+were annotated as being more severe in either N2 or CB4856, respectively.
+However, if brood sizes were < 10% of control levels in both isolates, we
+required a greater signiﬁcance of z <  2.5 or z > 2.5. If there was no signiﬁcant
+difference in brood size, we next examined the Z scores for differences in
+growth—if z <  2 or z > 2, we annotated genes as being more severe in
+either N2 or CB4856, respectively. To reduce false positives, we also required
+that brood-size differences did not contradict the growth severity, i.e., we
+only scored differences in severity if z (growth) > 2 AND z (brood) > 0 or z
+(growth) <  2 AND z (brood) < 0.
+
+Enrichment Analysis
+
+Genes were manually annotated into each of 19 major functional classes (that
+comprise 40 more speciﬁc functional classes) using all available gene informa-
+tion in WormBase. An enrichment analysis was performed to identify which of
+the 19 major functional classes were under- or over-represented for genes with
+more severe RNAi phenotypes in N2 or CB4856, and p values were calculated
+based on a hypergeometric test and Bonferroni-corrected for multiple hypoth-
+esis testing.
+
+Construction of CB4856 Strains Carrying Mutant Alleles
+
+All mutant alleles used were initially isolated in an N2 background. To generate
+CB4856 background strains carrying these same alleles, we crossed CB4856
+and the N2 strain carrying the mutant of interest. We then carried out multiple
+rounds of backcrossing with CB4856 (in all cases, at least ﬁve rounds of back-
+crossing) following by at least ﬁve generations of selﬁng before isolating
+CB4856 lines that were homozygous for the mutation of interest. Multiple
+CB4856 lines were generated for each gene tested; results are reported for
+a single representative line.
+
+Using Expression to Predict Relative Fitness in Human Cell Lines
+
+Gene-expression and siRNA knockdown data for human cell lines were ob-
+tained from the COLT database (http://colt.ccbr.utoronto.ca/cancer/) and
+analyzed based on Z scores (Marcotte et al., 2012) and on Bayes Factors
+(Hart et al., 2014). We identiﬁed genes that are required for normal cell
+growth by ﬁtting a logistic regression model from the COLT RNAi Bayes Fac-
+tors in different cell lines to a set of genes whose orthologs are known to be
+required for viability in C. elegans and S. cerevisiae. When tested against the
+training set, we observed a bimodal distribution of response scores. We
+considered the upper peak to be genes that affect cell growth or viability
+and identiﬁed genes likely to be drawn from that distribution using a
+Gaussian mixture model with a cutoff probability of 0.95, giving us 507
+genes. We calculated the Pearson correlation between expression and
+severity of RNAi phenotype across different cell
+lines for each one of the
+507 genes we identiﬁed and examined the entire distribution for evidence
+of global correlation.
+
+Acute Effect of Potassium Cyanide (KCN) or Puromycin Treatment
+
+L1 larvae in M9 buffer were exposed to a range of concentrations of KCN or
+puromycin. For each concentration, six replicate wells were analyzed each
+containing 120 worms. After 90 min at 20
+C, each well was photographed
+twice at a 500 ms interval under bright-ﬁeld illumination. A fractional paralysis
+score was determined by counting the number of worms that did not move be-
+tween the consecutive images.
+
+
+
+ACCESSION NUMBERS
+
+The SRA accession numbers for the RNA-seq data reported in this paper are
+SAMN03839005, SAMN03839006, SAMN03839007, and SAMN03839008.
+
+SUPPLEMENTAL INFORMATION
+
+Supplemental Information includes Supplemental Experimental Procedures,
+two ﬁgures, and ﬁve tables and can be found with this article online at http://
+dx.doi.org/10.1016/j.cell.2015.06.037.
+
+ACKNOWLEDGMENTS
+
+We thank Brent Derry for the generous gift of a worm sorter and Ben Lehner,
+Jovana Drinjakovic, and Leonid Kruglyak for helpful discussions. This research
+was primarily supported by a CIHR grant (488367) and also by an NSERC
+(487143) grant to A.G.F. V.V. was supported by OGS and NSERC PGS-D;
+A.J.V. was supported by NSERC CGS-M and CGS-D. All strains were provided
+by the CGC, which is funded by NIH Ofﬁce of Research Infrastructure Pro-
+grams (P40 OD010440).
+
+Received: February 28, 2014
+Revised: November 4, 2014
+Accepted: June 10, 2015
+Published: July 16, 2015
+
+Correlation between Expression and Severity of RNAi Phenotype
+
+REFERENCES
+
+We used standard RNA-seq protocols to measure gene-expression levels in
+L4-staged animals of four isolates and also young adults of N2 or CB4856 iso-
+lates. In cases where genes had multiple isoforms, we combined these to give
+a single mean rpkm value for each gene.
+
+Andersen, E.C., Gerke, J.P., Shapiro, J.A., Crissman, J.R., Ghosh, R., Bloom,
+J.S., Fe´ lix, M.A., and Kruglyak, L. (2012). Chromosome-scale selective sweeps
+shape Caenorhabditis elegans genomic diversity. Nat. Genet. 44, 285–290.
+
+Cell 162, 391–402, July 16, 2015 ª2015 Elsevier Inc. 401
+
+Antonarakis, S.E., and Beckmann, J.S. (2006). Mendelian disorders deserve
+more attention. Nat. Rev. Genet. 7, 277–282.
+
+tional analysis of the Caenorhabditis elegans genome using RNAi. Nature
+421, 231–237.
+
+Bobadilla, J.L., Macek, M., Jr., Fine, J.P., and Farrell, P.M. (2002). Cystic
+ﬁbrosis: a worldwide analysis of CFTR mutations—correlation with incidence
+data and application to screening. Hum. Mutat. 19, 575–606.
+
+Brenner, S. (1974). The genetics of C. elegans. Genetics 77, 71–94.
+
+Cooper, D.N., Krawczak, M., Polychronakos, C., Tyler-Smith, C., and Kehrer-
+Sawatzki, H. (2013). Where genotype is not predictive of phenotype: towards
+an understanding of the molecular basis of reduced penetrance in human in-
+herited disease. Hum. Genet. 132, 1077–1130.
+
+Dietrich, W.F., Lander, E.S., Smith, J.S., Moser, A.R., Gould, K.A., Luongo, C.,
+Borenstein, N., and Dove, W. (1993). Genetic identiﬁcation of Mom-1, a major
+modiﬁer locus affecting Min-induced intestinal neoplasia in the mouse. Cell 75,
+631–639.
+
+Dietz, H.C., Cutting, G.R., Pyeritz, R.E., Maslen, C.L., Sakai, L.Y., Corson,
+G.M., Puffenberger, E.G., Hamosh, A., Nanthakumar, E.J., Curristin, S.M.,
+et al. (1991). Marfan syndrome caused by a recurrent de novo missense muta-
+tion in the ﬁbrillin gene. Nature 352, 337–339.
+
+Dorfman, R. (2012). Modiﬁer gene studies to identify new therapeutic targets in
+cystic ﬁbrosis. Curr. Pharm. Des. 18, 674–682.
+
+Dowell, R.D., Ryan, O., Jansen, A., Cheung, D., Agarwala, S., Danford, T.,
+Bernstein, D.A., Rolfe, P.A., Heisler, L.E., Chin, B., et al. (2010). Genotype to
+phenotype: a complex problem. Science 328, 469.
+
+Fraser, A.G., Kamath, R.S., Zipperlen, P., Martinez-Campos, M., Sohrmann,
+M., and Ahringer, J. (2000). Functional genomic analysis of C. elegans chromo-
+some I by systematic RNA interference. Nature 408, 325–330.
+
+Hamilton, B.A., and Yu, B.D. (2012). Modiﬁer genes and the plasticity of ge-
+netic networks in mice. PLoS Genet. 8, e1002644.
+
+Hart, T., Brown, K.R., Sircoulomb, F., Rottapel, R., and Moffat, J. (2014).
+Measuring error rates in genomic perturbation screens: gold standards for hu-
+man functional genomics. Mol. Syst. Biol. 10, 733.
+
+Hutchinson, S., Furger, A., Halliday, D., Judge, D.P., Jefferson, A., Dietz, H.C.,
+Firth, H., and Handford, P.A. (2003). Allelic variation in normal human FBN1
+expression in a family with Marfan syndrome: a potential modiﬁer of pheno-
+type? Hum. Mol. Genet. 12, 2269–2276.
+
+Kamath, R.S., Fraser, A.G., Dong, Y., Poulin, G., Durbin, R., Gotta, M., Kana-
+pin, A., Le Bot, N., Moreno, S., Sohrmann, M., et al. (2003). Systematic func-
+
+Lee, B., Godfrey, M., Vitale, E., Hori, H., Mattei, M.G., Sarfarazi, M., Tsipouras,
+P., Ramirez, F., and Hollister, D.W. (1991). Linkage of Marfan syndrome and a
+phenotypically related disorder to two different ﬁbrillin genes. Nature 352,
+330–334.
+
+Lehner, B., Crombie, C., Tischler, J., Fortunato, A., and Fraser, A.G. (2006).
+Systematic mapping of genetic interactions in Caenorhabditis elegans iden-
+tiﬁes common modiﬁers of diverse signaling pathways. Nat. Genet. 38,
+896–903.
+
+Marcotte, R., Brown, K.R., Suarez, F., Sayad, A., Karamboulas, K., Krzyza-
+nowski, P.M., Sircoulomb, F., Medrano, M., Fedyshyn, Y., Koh, J.L., et al.
+(2012). Essential gene proﬁles in breast, pancreatic, and ovarian cancer cells.
+Cancer Discov 2, 172–189.
+
+Maydan, J.S., Lorch, A., Edgley, M.L., Flibotte, S., and Moerman, D.G. (2010).
+Copy number variation in the genomes of twelve natural isolates of Caeno-
+rhabditis elegans. BMC Genomics 11, 62.
+
+Nadeau, J.H. (2001). Modiﬁer genes in mice and humans. Nat. Rev. Genet. 2,
+165–174.
+
+Pollard, D.A., and Rockman, M.V. (2013). Resistance to germline RNA interfer-
+ence in a Caenorhabditis elegans wild isolate exhibits complexity and nonad-
+ditivity. G3 (Bethesda) 3, 941–947.
+
+Stiernagle, T. (2006). Maintenance of C. elegans. WormBook, 1–11.
+
+Tijsterman, M., Okihara, K.L., Thijssen, K., and Plasterk, R.H. (2002). PPW-1, a
+PAZ/PIWI protein required for efﬁcient germline RNAi, is defective in a natural
+isolate of C. elegans. Curr. Biol. 12, 1535–1540.
+
+Vithana, E.N., Abu-Saﬁeh, L., Pelosini, L., Winchester, E., Hornan, D., Bird,
+A.C., Hunt, D.M., Bustin, S.A., and Bhattacharya, S.S. (2003). Expression of
+PRPF31 mRNA in patients with autosomal dominant retinitis pigmentosa: a
+molecular clue for incomplete penetrance? Invest. Ophthalmol. Vis. Sci. 44,
+4204–4209.
+
+Wicks, S.R., Yeh, R.T., Gish, W.R., Waterston, R.H., and Plasterk, R.H. (2001).
+Rapid gene mapping in Caenorhabditis elegans using a high density polymor-
+phism map. Nat. Genet. 28, 160–164.
+
+Wright, F.A., Strug, L.J., Doshi, V.K., Commander, C.W., Blackman, S.M., Sun,
+L., Berthiaume, Y., Cutler, D., Cojocaru, A., Collaco, J.M., et al. (2011).
+Genome-wide association and linkage identify modiﬁer loci of lung disease
+severity in cystic ﬁbrosis at 11p13 and 20q13.2. Nat. Genet. 43, 539–546.
+
+402 Cell 162, 391–402, July 16, 2015 ª2015 Elsevier Inc.
+
+

@@ -1,0 +1,1226 @@
+Review
+published: 29 March 2017
+doi: 10.3389/fonc.2017.00058
+
+The Chaperone TRAP1 As a 
+Modulator of the Mitochondrial 
+Adaptations in Cancer Cells
+
+Ionica Masgras1†, Carlos Sanchez-Martin1†, Giorgio Colombo2 and Andrea Rasola1*
+
+1 Dipartimento di Scienze Biomediche, Istituto di Neuroscienze, Consiglio Nazionale delle Ricerche (CNR), Università di 
+Padova, Padova, Italy, 2 Istituto di Chimica del Riconoscimento Molecolare, Consiglio Nazionale delle Ricerche (CNR),  
+Milano, Italy
+
+Mitochondria can receive, integrate, and transmit a variety of signals to shape many 
+biochemical activities of the cell. In the process of tumor onset and growth, mitochon-
+dria  contribute  to  the  capability  of  cells  of  escaping  death  insults,  handling  changes 
+in  ROS  levels,  rewiring  metabolism,  and  reprograming  gene  expression.  Therefore, 
+mitochondria can tune the bioenergetic and anabolic needs of neoplastic cells in a rapid 
+and flexible way, and these adaptations are required for cell survival and proliferation in 
+the fluctuating environment of a rapidly growing tumor mass. The molecular bases of 
+pro-neoplastic  mitochondrial  adaptations  are  complex  and  only  partially  understood. 
+Recently, the mitochondrial molecular chaperone TRAP1 (tumor necrosis factor recep-
+tor associated protein 1) was identified as a key regulator of mitochondrial bioenergetics 
+in tumor cells, with a profound impact on neoplastic growth. In this review, we analyze 
+these findings and discuss the possibility that targeting TRAP1 constitutes a new anti-
+tumor approach.
+
+Keywords:  tumor  necrosis  factor  receptor-associated  protein  1,  tumor  metabolism,  heat  shock  proteins, 
+mitochondria, reactive oxygen species, post-translational modifications, kinase, allosteric ligands
+
+MiTOCHONDRiAL MeTABOLiSM iN CANCeR
+
+Mitochondria take part actively in the process of neoplastic transformation as critical components in 
+the regulation of cell survival, redox equilibrium, autophagy, and core metabolic pathways (Figure 1) 
+(1). Changes in each of these biological routines are required for cell progression to malignancy, 
+allowing to escape death signals, to cope with oxidative stress, and to meet energy demands for 
+growth and proliferation in an environment where nutrient and oxygen can be spatially and tempo-
+rally heterogeneous (2–4). The profound metabolic rewiring of tumor cells is driven by alterations 
+in multiple signaling pathways that deeply intertwine mitochondrial changes with rearrangements 
+occurring in other cellular compartments. These pathways are mastered by activation of oncogenes 
+such as Ras or Myc (5, 6), induction of transcription factors such as HIF1α (7), and inactivation 
+of tumor suppressor genes such as p53 (8, 9). In most tumor cell types, this leads to enhanced 
+glucose utilization paralleled by inhibition of oxidative phosphorylation (OXPHOS) irrespective 
+of oxygen availability, a rearrangement also known as aerobic glycolysis or Warburg effect (10–12). 
+Induction of pathways that branch from glycolysis, including the pentose phosphate pathway (13) 
+or amino acid biosynthetic pathways (14, 15) also affords high levels of anabolic intermediates, 
+whereas the increased activity of ROS scavenging systems shields tumor cells from potentially lethal 
+oxidative insults (16,  17), and acidification of the extracellular microenvironment increases the 
+
+Edited by: 
+Anna Rita Migliaccio,  
+Icahn School of Medicine at Mount 
+Sinai, USA
+
+Reviewed by: 
+Barbara Ghinassi,  
+University of Chieti-Pescara, Italy  
+Jian Lu,  
+Johns Hopkins University, USA  
+Fabrizio Martelli,  
+Istituto Superiore di Sanità, Italy
+
+*Correspondence:
+Andrea Rasola  
+andrea.rasola@unipd.it
+
+†These authors have contributed 
+equally to this work.
+
+Specialty section: 
+This article was submitted to Cancer 
+Molecular Targets and Therapeutics,  
+a section of the journal  
+Frontiers in Oncology
+
+Received: 27 January 2017
+Accepted: 15 March 2017
+Published: 29 March 2017
+
+Citation: 
+Masgras I, Sanchez-Martin C, 
+Colombo G and Rasola A (2017) The 
+Chaperone TRAP1 As a Modulator of 
+the Mitochondrial Adaptations  
+in Cancer Cells.  
+Front. Oncol. 7:58.  
+doi: 10.3389/fonc.2017.00058
+
+Frontiers in Oncology  |  www.frontiersin.org
+
+1
+
+March 2017  |  Volume 7  |  Article 58
+
+Masgras et al.
+
+FiguRe 1 | Mitochondria and cancer. Mitochondria play a crucial role in several biological routines involved in tumorigenesis (1): control of ROS levels, whose 
+increase can lead to DNA mutations and genomic instability; autophagy regulation; resistance to cell death stimuli; metabolic changes, such as decreased oxidative 
+phosphorylation (OXPHOS) and induction of anabolic pathways; dysregulation of transduction pathways, including kinase signaling and changes in oncometabolite 
+levels that modulate transcription factors and epigenetic changes.
+
+activity of several pro-invasive factors (18,  19). To fulfill their 
+anabolic needs, tumor cells also stimulate lipid biosynthesis (20) 
+and increase the usage of glutamine as an anaplerotic mechanism 
+to fuel the tricarboxylic acid (TCA) cycle and to provide nitrogen 
+and carbon (21). As a result, the neoplastic cell proliferates even 
+in the core of an expanding tumor mass, where it can face short-
+ages of blood supply leading to hypoxia, paucity of nutrients, and 
+oscillations of redox conditions (2, 10, 22).
+
+In  this  complex  scenario,  mitochondria  are  not  only  the 
+effector  devices  of  the  bioenergetic  adaptations  of  tumor  cells, 
+but also active inducers of their metabolic rewiring. For instance, 
+inactivating  mutations  in  genes  encoding  respiratory  complex 
+subunits have been associated with a wide range of cancer types 
+(23–25). However, the neoplastic role played by these mutations 
+
+is unclear, as most cancer cells are able to generate ATP through 
+a competent OXPHOS (26). Thus, more subtle molecular mecha-
+nisms might be responsible for mitochondrial changes in cancer 
+cells.  One  example  is  provided  by  the  increase  in  intracellular 
+levels  of  oncometabolites,  i.e.,  metabolic  intermediates  whose 
+accumulation can drive pro-neoplastic programs (27, 28). Loss-
+of-function mutations in the TCA cycle enzymes succinate dehy-
+drogenase (SDH) or fumarate hydratase, cause the accumulation 
+of succinate or fumarate, respectively, leading to the onset of a 
+specific subset of tumors, including paraganglioma, pheochro-
+mocytoma and renal cell carcinoma (29). In addition, gain-of-
+function mutations in isocitrate dehydrogenase (IDH) cause the 
+accumulation of 2-hydroxyglutarate, which plays an important 
+role  in  glioma,  acute  myeloid  leukemia,  chondrosarcoma  and 
+
+Frontiers in Oncology  |  www.frontiersin.org
+
+2
+
+March 2017  |  Volume 7  |  Article 58
+
+TRAP1 in Tumor Metabolism AdaptationsMasgras et al.
+
+cholangiocarcinoma  (28).  The  pro-neoplastic  activity  of  these 
+oncometabolites is complex and probably not entirely understood 
+yet (27), spanning from induction of transcription factors such 
+as HIF1α (25, 29) to epigenetic modifications (30) and miRNA 
+regulation leading to epithelial-to-mesenchymal transition and 
+invasiveness (31).
+
+In addition to the conceptual interest and to the mechanistic 
+insights  provided  by  the  work  on  oncometabolite  functions, 
+these  observations  highlight  the  importance  of  mitochondria-
+driven  tuning  of  metabolic  features  in  neoplastic  cells.  It  is 
+conceivable to envision that mitochondrial metabolic rearrange-
+ments are complex and highly dynamic process on the route to 
+tumor onset and growth, which might require fast and flexible 
+adaptations  to  environmental  changes  well  beyond  mutations 
+targeting components of the bioenergetic circuitries. Therefore, 
+components of the mitochondrial metabolic machinery might 
+be rapidly regulated during tumorigenesis, for instance, by post-
+transcriptional  modifications  such  as  phosphorylation  events 
+or chaperone-mediated tuning of their activity. In this review, 
+we  analyze  how  one  of  these  components,  the  mitochondrial 
+chaperone  TRAP1,  contributes  to  the  neoplastic  process  and 
+how  TRAP1  targeting  might  be  a  new  promising  therapeutic 
+approach for cancer treatment.
+
+THe MOLeCuLAR CHAPeRONe TRAP1
+
+In the last few years, several observations have pointed toward 
+an important role played by TRAP1 in the adaptive metabolic 
+changes of tumor cell mitochondria. TRAP1 was first identified 
+as an interactor of the type 1 tumor necrosis factor receptor-1 (32) 
+and later as heat shock protein 75 (HSP75) (33). It is a molecular 
+chaperone of the heat shock protein 90 (HSP90) family, as TRAP1 
+and HSP90 display 34% identity and 60% homology at the mRNA 
+level and share the same domain organization (34). The TRAP1 
+cognate  HSP90  is  crucial  in  maturation,  activation,  and  stabi-
+lization of a large set of proteins, including components of cell 
+cycle, apoptosis, and motility programs, whose deregulation is 
+crucial in tumorigenesis (35, 36). Therefore, HSP90 has emerged 
+as a promising target for development of anticancer drugs (37). 
+In more recent years, the observation that TRAP1 expression is 
+induced in several tumor types (38), together with its similarity 
+with HSP90, have sparked interest in better understanding the 
+mode of action and the potential role(s) in the neoplastic process 
+played by this mitochondrial chaperone.
+
+A TRAP(1) for Keeping Clients in Shape
+TRAP1 expression seems to be mainly restricted to mitochondria 
+(1). Indeed, TRAP1 is the only HSP90-family member that con-
+tains a 59-amino acid, N-terminal mitochondrial import sequence 
+that  is  removed  upon  organelle  import  (34).  TRAP1  acts  as  a 
+homodimer that utilizes ATP to carry out its chaperone activity. 
+Each of the two protomers is formed by three major domains: the 
+N-terminal domain, responsible for ATP binding and hydrolysis; 
+the C-terminal domain (CTD) that provides a dimerization inter-
+face between protomers; and the middle domain (M-domain) that 
+completes the ATP-pocket and contains the recognition surface 
+for the chaperone substrates, called clients. Thus, the M-domain 
+
+directly couples ATP binding and hydrolysis with client remod-
+eling (39). Unlike other eukaryotic HSP90 paralogs, TRAP1 lacks 
+the charged linker between the middle and C-terminal domains 
+and  features  a  long  extension  of  the  N-terminal  β-strand  (the 
+so-called “strap”) that crosses between protomers in the closed 
+state and acts as a thermal regulator of protein function, inhibit-
+ing it at low temperatures. However, the most distinctive trait of 
+TRAP1 is the presence of a marked asymmetric conformation, as 
+one protomer is reconfigured via a helix swap at the middle:C-
+terminal domain (M-domain:CTD) interface (40).
+
+The ATPase cycle of TRAP1 has been investigated in detail 
+(39, 41, 42) allowing to establish a model for its conformational 
+cycle.  Both  TRAP1  protomers  undergo  concerted  structural 
+changes through rounds of ATP binding, hydrolysis, and release 
+(39, 42), although it is unknown how ATP hydrolysis is coupled 
+to client maturation. During the ATPase cycle, TRAP1 can adopt 
+three  distinct  states  (Figure  2):  an  open  conformation,  called 
+the apo state; a closed conformation with an N-terminal strap/
+extension straddled between both protomers and a coiled-coil, 
+intermediate  conformation  with  the  N-terminal  domains  in 
+close physical proximity (40, 42). ATP binding induces a dra-
+matic structural change in the chaperone configuration leading 
+to the formation of a closed asymmetric conformation (39, 43). 
+
+FiguRe 2 | Schematic representation of the of the TRAP1 
+conformational cycle. TRAP1 protomers are shown in different hues and 
+colored orange [ADP-bound or naked N-terminal domain (NTD)], red 
+(ATP-bound NTD), blue [middle domain (MD)], and green [C-terminal domain 
+(CTD)]. In the absence of bound nucleotides (apo state), TRAP1 populates a 
+number of states with open conformations. Upon ATP binding, the 
+chaperone shifts to an asymmetric closed conformation with significant 
+strain, leading to buckling of the MD:CTD interface. After hydrolysis of the 
+first ATP, strain is relieved and the MD:CTD interface is rearranged, forming a 
+symmetric state. Hydrolysis of the second ATP leads to the formation of the 
+ADP state. The cycle eventually returns to the open conformation after ADP 
+release (39–42).
+
+Frontiers in Oncology  |  www.frontiersin.org
+
+3
+
+March 2017  |  Volume 7  |  Article 58
+
+TRAP1 in Tumor Metabolism AdaptationsMasgras et al.
+
+The subsequent ATP hydrolysis gives off the energy required for 
+client remodeling and is performed in a two-step process (39). 
+The hydrolysis of the first ATP causes changes in protomer sym-
+metry that lead to the rearrangement of the client-binding site, 
+which in turn is coupled to structural changes in the client con-
+formation. The second ATP is used to induce the formation of a 
+compact ADP state of the chaperone, which releases the client 
+and eventually the ADP molecules. So far the number of known 
+clients of TRAP1 is quite small (38) and TRAP1 co-chaperones, 
+i.e., proteins that assist and regulate the chaperone cycle, have 
+yet to be identified.
+TRAP1 Functions: Mitochondrial 
+Homeostasis
+A detailed analysis of the tissue expression profile of TRAP1 is 
+lacking and little is known on its physiological functions. Early 
+experiments  have  shown  that  TRAP1  displays  an  anti-oxidant 
+activity.  Indeed,  reduced  TRAP1  expression  corresponds  to 
+increased ROS levels and enhanced susceptibility to cell death 
+upon  oxidative  stress,  whereas  exposure  to  sublethal  doses  of 
+oxidants increases TRAP1 protein levels (44–47). This involve-
+ment of TRAP1 in mitochondrial redox control has been linked 
+to  the  pathogenesis  of  several  disorders,  among  which  there 
+are the Parkinson’s disease (PD) and ischemic damage. In PD, 
+redox unbalance and mitochondrial dysfunction play key roles 
+(48). TRAP1 could protect mitochondria by reversing cytotox-
+icity  mediated  either  by  α-synuclein,  whose  accumulation  is 
+pathogenic in PD (49) or by alterations in the Parkin/PINK1 axis, 
+which controls mitochondrial homeostasis (50, 51). In ischemia, 
+the antioxidant activity of TRAP1 could decrease mitochondrial 
+dysfunction, thus reducing damage both in brain (52) and in heart 
+(53, 54). These observations, together with reports of a TRAP1 
+involvement in the regulation of mitochondrial dynamics (55) 
+and mitophagy (50, 51) have led to the hypothesis that TRAP1 
+would have an important role in maintenance of mitochondrial 
+homeostasis  under  specific  stress  or  pathological  conditions, 
+including  those  encountered  by  cells  during  the  deregulated 
+growth of a tumor mass.
+
+In  spite  of  these  protective  functions  exerted  by  TRAP1, 
+its  overexpression  in  transgenic  mice  leads  to  fatty  liver  and 
+increased  inflammation  after  partial  hepatectomy  (PH)  (56). 
+Indeed,  PH  is  a  stress  factor  that  boosts  proliferation  and 
+profound metabolic changes in hepatocytes, which is somehow 
+reminiscent of neoplastic growth, but expression levels of TRAP1 
+do not change after PH in wild-type animals (57). Therefore, the 
+importance of TRAP1 in responding to stress conditions and its 
+modes of regulation are probably context dependent, a concept 
+that  could  be  crucial  for  understanding  TRAP1  functions  in 
+tumorigenesis.
+
+A MeTABOLiC TRAP iN CANCeR
+
+TRAP1 expression is higher in many tumors compared to sur-
+rounding non-malignant tissues (1, 38). Elevation of TRAP1 
+protein  levels  correlates  with  malignant  progression  and 
+metastasis in several neoplastic models, including prostate and 
+breast cancer, hepatocellular carcinoma (HCC), and colorectal 
+
+carcinoma (57–61), and with disease recurrence in non-small 
+cell lung cancer (62). Hence, in these malignancies, TRAP1 is a 
+candidate biomarker for cancer progression and for prognosis 
+outcome. These studies open the possibility that TRAP1 activ-
+ity  could  in  some  way  favor  neoplastic  growth,  in  line  with 
+observations that levels of several chaperones increase in a wide 
+range of cancer types, where they contribute to uncontrolled 
+growth, enhanced survival, and acquisition of angiogenic and 
+metastatic potential (63). Understanding whether TRAP1 has 
+any tumorigenic role could help in elucidating how mitochon-
+dria can contribute to the neoplastic process and could possibly 
+pave the way for novel antitumor strategies.
+TRAP1 and the warburg Phenotype: For 
+Many but Not for All
+In  the  last  few  years,  several  reports  have  demonstrated  that 
+TRAP1 is involved in the metabolic regulation of tumor cells. The 
+first suggestion came with the observation that mitochondrial 
+HSP90 proteins, including TRAP1, maintain energy homeosta-
+sis  in  transformed  cells  by  inhibiting  nutrient-sensing  AMP-
+activated kinase, autophagy, and unfolded protein response of 
+the  endoplasmic  reticulum  (64).  These  authors  proposed  that 
+the  effect  of  TRAP1  activity  on  cell  metabolism  was  that  of 
+maintaining proteostasis, i.e., organelle integrity and energy con-
+servation. In particular, under stress conditions TRAP1 would 
+impede ATP depletion and the consequent autophagy induction. 
+A more mechanistic comprehension of TRAP1 metabolic func-
+tions has been achieved when two different groups have reported 
+that TRAP1 contributes to the switch toward aerobic glycolysis, 
+i.e., decreased OXPHOS activity together with enhanced glucose 
+utilization. They demonstrated that TRAP1 deficiency increases 
+fatty acid oxidation and accumulation of TCA intermediates in 
+neoplastic cells (65, 66), and that TRAP1 inhibited mitochon-
+drial  respiration  by  two  different  but  not  mutually  exclusive 
+molecular  mechanisms  (Figure  3).  On  the  one  hand,  TRAP1 
+inhibits OXPHOS via downregulation of cytochrome oxidase, 
+the  complex  IV  of  the  respiratory  chain  (66).  On  the  other 
+hand, TRAP1 inhibits SDH, a metabolic enzyme that is both the 
+complex II of the respiratory chain and a component of the TCA 
+cycle (65). This observation supports a model whereby TRAP1 
+has an important oncogenic activity. Indeed, TRAP1-dependent 
+inhibition of SDH leads to the consequent increase in intracel-
+lular succinate levels, which in turn stabilizes the transcription 
+factor  HIF1α,  as  already  postulated  (67).  The  transcriptional 
+program mastered by HIF1α stimulates invasiveness of tumor 
+cells together with their angiogenic potential and further ampli-
+fies their metabolic rewiring (7, 68), and succinate-dependent 
+HIF1α induction turned out to be essential for the neoplastic 
+growth of several tumor cells (65).
+
+TRAP1 might also contribute to tumor cell survival under con-
+ditions of stress normally encountered during neoplastic growth, 
+such as exposure to redox disequilibria or nutrient shortage. In 
+these conditions, TRAP1 both inhibits the permeability transi-
+tion pore (PTP) (70, 73), a mitochondrial channel whose opening 
+leads to cell death (71), and maintains proteostasis by blocking 
+autophagy,  as  mentioned  (64).  In  accord  with  the  importance 
+of TRAP1 induction along tumor progression, we have recently 
+
+Frontiers in Oncology  |  www.frontiersin.org
+
+4
+
+March 2017  |  Volume 7  |  Article 58
+
+TRAP1 in Tumor Metabolism AdaptationsMasgras et al.
+
+FiguRe 3 | TRAP1 activity in tumor cell mitochondria. (A) TRAP1 inhibits oxidative phosphorylation (OXPHOS) by interacting with both succinate 
+dehydrogenase (SDH) and cytochrome oxidase, aka complex II and complex IV of the respiratory chain, respectively. SDH inhibition is enhanced by ERK1/2-
+dependent phosphorylation of TRAP1 and leads to succinate-dependent stabilization of the transcription factor HIF1α, which masters several pro-neoplastic 
+programs (65, 69). Downregulation of cytochrome oxidase activity relies upon the inhibitory interaction between TRAP1 and Src (66). (B) TRAP1 inhibits ROS 
+generation by SDH and cytochrome oxidase (66, 70). This, together with the interaction with other chaperones, such as cyclophilin D (CyP-D) and heat shock 
+protein 90 (HSP90), inhibits opening of the permeability transition pore (PTP), which requires conformational changes of the ATP synthase and leads to cell death 
+(71, 72). Therefore, TRAP1 protects tumor cells from cell death stimuli.
+
+observed that its protein levels are markedly increased in very 
+early, pre-neoplastic foci in a model of liver carcinogenesis. In 
+this setting, the enhancement of TRAP1 expression is restricted 
+to lesions that progress to malignancy, where it associates with 
+a marked SDH inhibition that can be reverted by HSP90-family 
+inhibitors (57).
+
+TRAP1 and Redox Homeostasis: 
+Chaperoning Controversies on ROS in 
+Cancer
+The metabolic regulations exerted by TRAP1 could explain its 
+anti-oxidant activity. Mitochondrial respiration is responsible for 
+the generation of a large fraction of cellular ROS (74) and inhibi-
+tion  of  respiratory  complexes  by  TRAP1  downregulates  ROS 
+levels (66, 70). Thus, TRAP1 relevance in tumorigenesis might 
+also stem from its function of oxidant shield (Figure 3). However, 
+the interplay between redox status and malignancy of cells is a 
+multifaceted  one  (16,  17).  Therefore,  the  effects  of  TRAP1  on 
+the neoplastic process could be complex, possibly depending on 
+the tumor type and stage. Indeed, neoplastic cells have to cope 
+with  increased  steady-state  accumulation  of  ROS  and  with  a 
+quickly changing redox equilibrium, making them vulnerable to 
+oxidative stress. This could rapidly become lethal, for instance, by 
+inducing PTP opening (75).
+
+In tumor cell mitochondria, TRAP1 could be part of a chap-
+erone network involving HSP90, heat shock protein 60 (HSP60), 
+and cyclophilin D (CyP-D) (73, 76), one of the best characterized 
+proteinaceous PTP inducers (72). TRAP1 function in this com-
+plex would be to antagonize PTP opening (73). Therefore, these 
+observations  were  a  first  clue  to  decipher  the  mechanisms  by 
+which TRAP1 protects cells from oxidants and contributes to the 
+
+resistance to cell death stimuli that hallmarks cancer cells (77). It 
+is reasonable to envisage that TRAP1 could inhibit mitochondrial 
+PTP opening independently of a direct interaction with chan-
+nel components or regulators. In line with this hypothesis, we 
+have recently shown that TRAP1 limits ROS generation by SDH, 
+aka the complex II of the respiratory chain, thus increasing the 
+threshold for PTP opening in cancer cells and protecting them 
+from death stimuli (70). Handling of oxidative stress might be 
+extremely important at the beginning of tumorigenesis, to avoid 
+that a deregulated ROS increase becomes detrimental for viability 
+of cells in which adequate antioxidant defenses are not yet fully 
+established.  Accordingly,  in  the  hepatocarcinogenesis  model 
+in which TRAP1 levels are induced from the very early stages, 
+malignant cells build up an anti-oxidant program mastered by 
+the transcription factor Nrf2, which also affects TRAP1 expres-
+sion (57). Hence, in this tumor type a strong correlation exists 
+among early TRAP1 induction, Warburg-like metabolic rewiring 
+and protection from oxidative insults, and these adaptations are 
+required for neoplastic progression to malignancy.
+
+However,  a  ROS  surge  could  favor  tumor  growth,  as  it 
+damages nucleic acids and leads to genetic instability, a crucial 
+adaptive  strategy  for  increasing  malignancy  that  could  be 
+particularly  gainful  for  advanced  neoplasms  (78).  Therefore, 
+the anti-oxidant effect of TRAP1 could hamper neoplastic pro-
+gression in specific tumor types or stages. Accordingly, TRAP1 
+expression levels inversely correlate with tumor grade in cervical 
+carcinoma, clear cell renal cell carcinoma (66), and high-grade 
+ovarian cancer (79).
+
+Changes in redox equilibrium are also involved in the regula-
+tion of cell invasiveness. Again, contradictory reports show that 
+the  absence  of  TRAP1  favors  in  vitro  cell  invasiveness  (80) 
+through an increase in ROS levels (66) and that cell motility and 
+
+Frontiers in Oncology  |  www.frontiersin.org
+
+5
+
+March 2017  |  Volume 7  |  Article 58
+
+TRAP1 in Tumor Metabolism AdaptationsMasgras et al.
+
+invasion of prostate cancer and glioblastoma cells are promoted 
+by  TRAP1  in  conditions  of  limited  nutrient  availability  (81). 
+Moreover, the anti-oxidant activity of TRAP1 could contribute 
+to cancer cell resistance to chemotherapeutics that elicit oxida-
+tive stress, especially in colorectal and breast cancer models (47, 
+82, 83). Accordingly, TRAP1 interaction with the Ca2+-binding 
+protein Sorcin was reported to enhance both the stability of the 
+chaperone and resistance of tumor cells to antineoplastic com-
+pounds (84).
+
+TRAP1 and Post-Translational 
+Modifications (PTMs): Mitochondrial 
+Signaling in and Signaling Out
+Chaperone activity is required to face a variety of cellular stresses, 
+in order to avoid damage by maintaining protein stability and 
+function, thus ensuring cell survival (85). Therefore, many chap-
+erones have many layers of regulation, both at the transcriptional 
+and at the protein level.
+
+Several  lines  of  evidence  indicate  that  TRAP1  is  target  of 
+several PTMs that could influence its stability and activity under 
+conditions of cellular stress. A first clue to understand this kind 
+of regulatory events came with the demonstration that TRAP1 
+is a phosphorylation target of PINK1, a Ser/Thr kinase that can 
+associate  to  mitochondria.  PINK1-dependent  phosphorylation 
+leads to an increase in TRAP1 anti-oxidant function (86), even 
+if the relevance of this PTM in tumorigenesis remains unknown. 
+TRAP1 is also Tyr-phosphorylated and this is abrogated by the 
+c-Src  inhibitor  dasatinib,  strongly  suggesting  that  TRAP1  is  a 
+target of the mitochondrial fraction of c-Src (Figure 3) (66). The 
+interaction between TRAP1 and c-Src would inhibit the kinase, 
+in turn leading to inhibition of the complex IV of the respiratory 
+chain,  a  c-Src  phosphorylation  target  (87).  Interestingly,  Tyr 
+kinases  of  the  Src  family  are  activated  upon  oxidative  stress 
+and  can  integrate  mitochondrial  redox  signaling  pathways 
+(88–90). By inhibiting a respiratory complex via c-Src inhibition, 
+TRAP1  would  keep  ROS  levels  low,  whereas  knocking-down 
+TRAP1  expression  would  stimulate  ROS-dependent  migration 
+and invasion of tumor cells in vitro, again suggesting the pos-
+sibility  that  the  impact  of  TRAP1  on  tumorigenicity  might  be 
+context-dependent.
+
+These  reports  open  the  reasonable  perspective  that  TRAP1 
+PTMs could be crucial in tuning metabolic adaptations of tumor 
+cells. Further hints were provided by recent observations that link 
+TRAP1 phosphorylations to Ras/ERK signaling, a kinase trans-
+duction pathway whose hyperactivation has a pivotal importance 
+in a variety of tumor types (91, 92). TRAP1 phosphorylation by 
+BRAF, the first Ser/Thr kinase activated downstream to Ras, was 
+associated with resistance to apoptosis in colorectal carcinoma 
+models  (93).  More  mechanistic  details  came  with  our  recent 
+observation that TRAP1 is phosphorylated in an ERK-dependent 
+way on two Ser residues, Ser511 and Ser568 of the human protein 
+(69). We found that cells endowed with deregulated induction of 
+the Ras/ERK1/2 signaling pathway have a metabolic switch toward 
+aerobic glycolysis that is regulated by a fraction of active ERK1/2 
+located into mitochondria. Mitochondrial ERK1/2 forms a multi-
+meric complex with TRAP1 and SDH in which the chaperone and 
+
+the kinase display a reciprocal interaction. ERK1/2 phosphoryl-
+ates TRAP1, thus stimulating TRAP1 inhibition of SDH activity 
+and  crucially  contributing  to  cell  metabolic  rewiring.  In  turn, 
+TRAP1 stabilizes mitochondrial ERK1/2, maintaining the kinase 
+active  even  under  stress  conditions  (69).  These  observations 
+were made on cells where the Ras/ERK1/2 signaling pathway is 
+deregulated following loss of the Ras GTPase-activating protein 
+neurofibromin, encoded by the NF1 gene. Biallelic inactivation 
+at the NF1 locus is one of the most frequent cancer-associated 
+mutations in a wide array of tumor types and characterizes the 
+tumor-predisposing  genetic  syndrome  neurofibromatosis  type 
+1  (94).  Abrogation  of  TRAP1  expression  completely  ablates 
+tumorigenicity  in  cells  lacking  neurofibromin  (69).  Therefore, 
+we propose that hyperactivation of a Ras/ERK/TRAP1 signaling 
+axis might be an oncogenic determinant in a large spectrum of 
+neoplastic cells by switching their metabolism toward an aerobic 
+glycolysis phenotype.
+
+Reversible  cysteine  S-nitrosylation  is  a  redox-based  PTM 
+consequent to nitric oxide bioreactivity (95). TRAP1 cysteine 501 
+residue is S-nitrosylated in HCC cells, as highlighted in cells lack-
+ing S-nitrosoglutathione reductase (GSNOR). GSNOR regulates 
+the  levels  of  proteins  undergoing  S-nitrosylation  by  catalyzing 
+S-nitrosoglutathione  reduction  (96),  and  its  deficiency  has 
+been observed in certain models of hepatocarcinogenesis (97). 
+S-nitrosylation of TRAP1 primes it for proteasomal degradation. 
+As a consequence, SDH levels and activity rise in HCC cells (98), 
+further confirming the inhibitory role of TRAP1 on SDH and the 
+complexity of metabolic adaptations occurring in the process of 
+neoplastic progression.
+
+Taken  together,  these  observations  indicate  that  PTMs  of 
+TRAP1 can be a way by which deregulated transduction pathways 
+funnel signals to the mitochondrial bioenergetic machinery, finely 
+tuning its activity during tumor progression in accordance with 
+the metabolic needs of cells. Notably, this bioenergetic regulation 
+contributes to retrograde signaling, as SDH inhibition by TRAP1 
+impacts  on  the  nuclear  transcriptional  profile  of  cancer  cells 
+through succinate-mediated HIF1α stabilization, thus promoting 
+cancer growth (65). Therefore, TRAP1 might have a central role 
+in shaping inward- and outward-moving mitochondrial signals 
+in cancer cells and in setting the metabolic adaptations they need 
+to thrive.
+
+TARgeTiNg TRAP1 AS A STRATegY FOR 
+CANCeR TReATMeNT
+
+Considering  the  above  observations,  it  is  reasonable  to  envis-
+age  that  TRAP1  is  a  good  target  to  develop  novel  therapeutic 
+approaches  for  cancer  treatment.  So  far,  the  strategy  used  to 
+inhibit its chaperone activity has been to exploit molecules already 
+used as HSP90 blockers. These compounds inhibit ATP binding 
+at the HSP90 N-terminal domain (Figure 4) (99, 100) and are 
+active on TRAP1 too, given the high similarity of its ATP-binding 
+pocket with that of HSP90. The approach developed to increase 
+the selectivity of these compounds for TRAP1 has been to link 
+them to moieties that facilitate permeability across mitochondrial 
+membranes and accumulation in the organelle.
+
+Frontiers in Oncology  |  www.frontiersin.org
+
+6
+
+March 2017  |  Volume 7  |  Article 58
+
+TRAP1 in Tumor Metabolism AdaptationsMasgras et al.
+
+FiguRe 4 | TRAP1 inhibition by small molecules. TRAP1 inhibitors can 
+act either at the level of the ATP-binding pocket (the yellow portion of the two 
+protomers), with the aim of blocking ATP hydrolysis, or at an allosteric 
+druggable site, in analogy with heat shock protein 90 (101, 102). In red, it is 
+represented a potential target of allosteric inhibitors at the middle domain:C-
+terminal domain interface.
+
+Targeting HSP90-Family Chaperones in 
+Mitochondria: Moving Toward Organelle-
+Specific inhibitors
+The  first  designed  molecule  that  has  shown  ability  to  enter 
+mitochondria and target the mitochondrial pool of HSP90s has 
+been shepherdin, a synthetic peptidomimetic inhibitor of HSP90 
+ATPase  activity  (103).  To  accumulate  inside  mitochondria, 
+shepherdin utilizes a highly positive charged Antennapedia cell-
+penetrating moiety fused at its amino terminus (104). Shepherdin 
+prompts apoptosis probably via PTP opening, as it induces cell 
+death in a CyP-D-dependent manner, causing organelle swelling 
+and depolarization and release of cytochrome c into the cytosol. 
+Shepherdin has shown efficacy against tumor cells both in vitro 
+and in xenograft models, but it exhibits some serious limitations 
+for drug development, such as a low half-life due to degradation 
+in the plasma by esterases and capability to induce an immune 
+response (105, 106). It also modulates the expression of a number 
+of cytosolic HSP90 client proteins (103), suggesting that its activ-
+ity is not restricted to mitochondria and could have unpredictable 
+off-target effects in non-transformed cells. To circumvent these 
+limitations,  another  class  of  mitochondrial  HSP90  inhibitors 
+has  been  designed  by  attaching  either  triphenylphosphonium 
+(TPP) or 1–4 units of cyclic guanidinium to the HSP90 blocker 
+geldanamycin,  to  make  it  organelle-permeable  (101).  At  high 
+concentration  these  compounds,  dubbed  gamitrinib-TPP  and 
+gamitrinib-G1–4, induce an irreversible collapse of mitochondrial 
+functions, cause PTP opening and elicit death in cancer cell lines, 
+
+while affecting growth in xenograft tumor models (101, 105, 106). 
+Nonetheless, some critical issues must be resolved, such as com-
+pound formulation (like their parent molecules, gamitrinibs are 
+water insoluble), dosing, tolerability, and potential side effects on 
+tissues characterized by high levels of mitochondrial respiration. 
+Recently, another putative TRAP1 inhibitor, named SMTIN-P01, 
+was  obtained  by  replacing  the  isopropyl  amine  of  the  HSP90 
+inhibitor PU-H71 with the mitochondria-permeant moiety TPP. 
+SMTIN-P01  induces  mitochondrial  membrane  depolarization 
+and shows a slightly improved cytotoxicity over gamitrinibs in 
+some tumor cell lines, but it has not been tested yet in xenograft 
+models (43).
+
+In  general,  all  the  experiments  performed  with  these  com-
+pounds must be considered with caution. First, they are based on 
+the assumption that conventional HSP90 inhibitors such as the 
+geldanamycin derivative 17-AAG are excluded from mitochon-
+dria, but whether 17-AAG can penetrate into mitochondria is still 
+under debate (43, 65, 73). In addition, several questions about 
+the specificity of these compounds and the mechanism of their 
+antitumor activity have not been answered yet. In this context, it 
+is still unclear whether it is necessary to inhibit single or multiple 
+HSP90  chaperones  in  mitochondria  to  obtain  clinical  relevant 
+anticancer activity. As there is a significant diversity in the ATP-
+binding affinity between TRAP1 and HSP90, the same compound 
+may not be able to target multiple HSP90 chaperones with the 
+same efficiency, and the degree of selectivity it displays toward 
+different  chaperones  is  unknown.  Possible  off-target  effects  of 
+these  molecules  also  depend  on  whether  they  can  target  only 
+mitochondrial HSP90 family chaperones or also their cytosolic 
+counterparts, an issue that is not fully understood. It is therefore 
+mandatory to design highly selective TRAP1 inhibitors that can 
+be used as potential antineoplastic lead compounds.
+
+Development of Specific TRAP1 inhibitors: 
+An innovative Strategy for Cancer 
+Treatment
+To  achieve  TRAP1-specific  inhibition,  alternative  approaches 
+may be proposed to exploit the structural peculiarities of TRAP1. 
+Allosteric targeting of TRAP1 may represent a viable strategy to 
+identify isoform-specific ligands. Allostery is the prime mecha-
+nism  by  which  functional  regulation  can  be  achieved  via  the 
+activation of specific conformational states that meet functional 
+requirements.  Allosteric  drugs  might  display  high  selectivity, 
+since proteins of the same family with a high degree of sequence 
+conservation  in  their  active  sites  can  have  different  sequences 
+and structures at allosteric sites. The atomistic understanding of 
+allosteric mechanisms of protein regulation provides the basis for 
+the development of new drug candidates.
+
+In this context, it is possible to characterize the main traits of 
+nucleotide-regulated internal dynamics of TRAP1 using all atom 
+molecular dynamics simulations, with the aim of identifying the 
+most  responsive  regions  located  outside  of  the  ATP-site.  Such 
+approach has already proven effective in the design of allosteric 
+anticancer  leads  against  HSP90  (102,  107).  Allosteric  sites  are 
+located in the M-domain and in the CTD of TRAP1 (Figure 4) 
+and their stereoelectronic properties can be used to design a new 
+
+Frontiers in Oncology  |  www.frontiersin.org
+
+7
+
+March 2017  |  Volume 7  |  Article 58
+
+TRAP1 in Tumor Metabolism AdaptationsMasgras et al.
+
+class of small molecule inhibitors. These new leads can represent 
+novel chemical tools to perturb TRAP1 conformational dynam-
+ics.  Therefore,  they  could  be  exploited  to  study  how  TRAP1 
+conformational changes reverberate on the interaction between 
+chaperone and clients, on regulation of signaling and metabolic 
+pathways in mitochondria and eventually on the role played by 
+TRAP1 in tumorigenesis.
+
+types and stages the metabolic rewiring prompted by TRAP1 
+is  pivotal  for  neoplastic  progression.  The  identification  of 
+highly selective compounds to modulate its chaperone activity 
+will be instrumental to dissect how TRAP1 acts in tumor cell 
+mitochondria and to understand its importance as a molecular 
+target for innovative antineoplastic strategies or for the setup 
+of novel combinatorial therapies.
+
+CONCLuDiNg ReMARKS
+
+Additional clues about TRAP1 role in tumors can only derive 
+from a more in-depth characterization of its mode of action 
+and  regulation.  The  complexity  of  TRAP1  effects  on  tumor 
+cells could stem from several factors, including TRAP1 regu-
+lation  by  several  PTMs  and  possibly  cochaperones,  and  the 
+possibility that it interacts with other client proteins in cells 
+endowed with continuously changing energy needs under the 
+pressure  of  diverse  environmental  factors.  In  this  scenario, 
+the possibility of connecting TRAP1 chaperone activity with 
+oncogenic  transduction  pathways,  such  as  hyperactive  Ras/
+ERK signaling, opens new avenues to elucidate in which tumor 
+
+AuTHOR CONTRiBuTiONS
+
+IM, CS-M, GC, and AR contributed to writing the manuscript 
+and drawing the figures.
+
+FuNDiNg
+
+This work was supported by grants from Associazione Italiana 
+Ricerca sul Cancro (Grant IG15863 to AR and Grant IG15420 
+to GC) and from Children’s Tumor Foundation (Drug Discovery 
+Initiative  Award  #2016A-05-009  to  AR).  IM  is  recipient  of  a 
+Young Investigator Award of the Children’s Tumor Foundation.
+
+ReFeReNCeS
+
+1.  Vyas  S,  Zaganjor  E,  Haigis  MC.  Mitochondria  and  cancer.  Cell  (2016) 
+
+166(3):555–66. doi:10.1016/j.cell.2016.07.002 
+
+2.  Nakazawa  MS,  Keith  B,  Simon  MC.  Oxygen  availability  and  metabolic 
+adaptations. Nat Rev Cancer (2016) 16(10):663–73. doi:10.1038/nrc.2016.84 
+3.  Schulze  A,  Harris  AL.  How  cancer  metabolism  is  tuned  for  proliferation 
+and vulnerable to disruption. Nature (2012) 491(7424):364–73. doi:10.1038/
+nature11706 
+
+4.  Ward PS, Thompson CB. Metabolic reprogramming: a cancer hallmark even 
+Warburg did not anticipate. Cancer Cell (2012) 21(3):297–308. doi:10.1016/j.
+ccr.2012.02.014 
+
+5.  Stine ZE, Walton ZE, Altman BJ, Hsieh AL, Dang CV. MYC, metabolism, 
+and  cancer.  Cancer  Discov  (2015)  5(10):1024–39.  doi:10.1158/2159-8290.
+CD-15-0507 
+
+6.  White E. Exploiting the bad eating habits of Ras-driven cancers. Genes Dev 
+
+(2013) 27(19):2065–71. doi:10.1101/gad.228122.113 
+
+7.  Semenza GL. HIF-1 mediates metabolic responses to intratumoral hypoxia 
+and oncogenic mutations. J Clin Invest (2013) 123(9):3664–71. doi:10.1172/
+JCI67230 
+
+8.  Berkers  CR,  Maddocks  OD,  Cheung  EC,  Mor  I,  Vousden  KH.  Metabolic 
+regulation  by  p53  family  members.  Cell  Metab  (2013)  18(5):617–33. 
+doi:10.1016/j.cmet.2013.06.019 
+
+9.  Levine AJ, Puzio-Kuter AM. The control of the metabolic switch in cancers 
+by oncogenes and tumor suppressor genes. Science (2010) 330(6009):1340–4. 
+doi:10.1126/science.1193494 
+
+10.  Hsu PP, Sabatini DM. Cancer cell metabolism: Warburg and beyond. Cell 
+
+(2008) 134(5):703–7. doi:10.1016/j.cell.2008.08.021 
+
+11.  Warburg O. On the origin of cancer cells. Science (1956) 123(3191):309–14. 
+
+doi:10.1126/science.123.3191.309 
+
+12.  Warburg O, Wind F, Negelein E. The metabolism of tumors in the body. J Gen 
+
+Physiol (1927) 8(6):519–30. doi:10.1085/jgp.8.6.519 
+
+13.  Patra KC, Hay N. The pentose phosphate pathway and cancer. Trends Biochem 
+
+Sci (2014) 39(8):347–54. doi:10.1016/j.tibs.2014.06.005 
+
+14.  Amelio I, Cutruzzola F, Antonov A, Agostini M, Melino G. Serine and glycine 
+metabolism in cancer. Trends Biochem Sci (2014) 39(4):191–8. doi:10.1016/j.
+tibs.2014.02.004 
+
+15.  Yang M, Vousden KH. Serine and one-carbon metabolism in cancer. Nat Rev 
+
+Cancer (2016) 16(10):650–62. doi:10.1038/nrc.2016.81 
+
+16.  Cairns RA, Harris IS, Mak TW. Regulation of cancer cell metabolism. Nat Rev 
+
+Cancer (2011) 11(2):85–95. doi:10.1038/nrc2981 
+
+17.  Schumacker PT. Reactive oxygen species in cancer: a dance with the devil. 
+
+Cancer Cell (2015) 27(2):156–7. doi:10.1016/j.ccell.2015.01.007 
+
+18.  Barbosa IA, Machado NG, Skildum AJ, Scott PM, Oliveira PJ. Mitochondrial 
+remodeling 
+in  cancer  metabolism  and  survival:  potential  for  new 
+therapies.  Biochim  Biophys  Acta  (2012)  1826(1):238–54.  doi:10.1016/j.
+bbcan.2012.04.005 
+
+19.  Parks SK, Chiche J, Pouyssegur J. Disrupting proton dynamics and energy 
+metabolism  for  cancer  therapy.  Nat  Rev  Cancer  (2013)  13(9):611–23. 
+doi:10.1038/nrc3579 
+
+20.  Rohrig F, Schulze A. The multifaceted roles of fatty acid synthesis in cancer. 
+
+Nat Rev Cancer (2016) 16(11):732–49. doi:10.1038/nrc.2016.89 
+
+21.  Hensley CT, Wasti AT, DeBerardinis RJ. Glutamine and cancer: cell biology, 
+physiology, and clinical opportunities. J Clin Invest (2013) 123(9):3678–84. 
+doi:10.1172/JCI69600 
+
+22.  Vander Heiden MG, Cantley LC, Thompson CB. Understanding the Warburg 
+effect:  the  metabolic  requirements  of  cell  proliferation.  Science  (2009) 
+324(5930):1029–33. doi:10.1126/science.1160809 
+
+23.  Chandra D, Singh KK. Genetic insights into OXPHOS defect and its role 
+in  cancer.  Biochim  Biophys  Acta  (2011)  1807(6):620–5.  doi:10.1016/j.
+bbabio.2010.10.023 
+
+24.  Chatterjee  A,  Mambo  E,  Sidransky  D.  Mitochondrial  DNA  mutations  in 
+human cancer. Oncogene (2006) 25(34):4663–74. doi:10.1038/sj.onc.1209604 
+25.  Gaude E, Frezza C. Defects in mitochondrial metabolism and cancer. Cancer 
+
+Metab (2014) 2:10. doi:10.1186/2049-3002-2-10 
+
+26.  Alam MM, Lal S, FitzGerald KE, Zhang L. A holistic view of cancer bioen-
+ergetics: mitochondrial function and respiration play fundamental roles in 
+the development and progression of diverse tumors. Clin Transl Med (2016) 
+5(1):3. doi:10.1186/s40169-016-0082-9 
+
+27.  Sullivan LB, Gui DY, Vander Heiden MG. Altered metabolite levels in cancer: 
+implications for tumour biology and cancer therapy. Nat Rev Cancer (2016) 
+16(11):680–93. doi:10.1038/nrc.2016.85 
+
+28.  Yang  M,  Soga  T,  Pollard  PJ. Oncometabolites:  linking  altered  metabolism 
+
+with cancer. J Clin Invest (2013) 123(9):3652–8. doi:10.1172/JCI67228 
+
+29.  Adam  J,  Yang  M,  Soga  T,  Pollard  PJ. Rare  insights  into  cancer  biology. 
+
+Oncogene (2014) 33(20):2547–56. doi:10.1038/onc.2013.222 
+
+30.  Kinnaird  A,  Zhao  S,  Wellen  KE,  Michelakis  ED.  Metabolic  control  of 
+epigenetics in cancer. Nat Rev Cancer (2016) 16(11):694–707. doi:10.1038/
+nrc.2016.82 
+
+31.  Sciacovelli M, Goncalves E, Johnson TI, Zecchini VR, da Costa AS, Gaude 
+E, et al. Fumarate is an epigenetic modifier that elicits epithelial-to-mesen-
+chymal transition. Nature (2016) 537(7621):544–7. doi:10.1038/nature19353 
+
+Frontiers in Oncology  |  www.frontiersin.org
+
+8
+
+March 2017  |  Volume 7  |  Article 58
+
+TRAP1 in Tumor Metabolism AdaptationsMasgras et al.
+
+32.  Song  HY,  Dunbar  JD,  Zhang  YX,  Guo  D,  Donner  DB.  Identification  of  a 
+protein with homology to hsp90 that binds the type 1 tumor necrosis factor 
+receptor. J Biol Chem (1995) 270(8):3574–81. doi:10.1074/jbc.270.8.3574 
+
+33.  Chen CF, Chen Y, Dai K, Chen PL, Riley DJ, Lee WH. A new member of the 
+hsp90 family of molecular chaperones interacts with the retinoblastoma pro-
+tein during mitosis and after heat shock. Mol Cell Biol (1996) 16(9):4691–9. 
+doi:10.1128/MCB.16.9.4691 
+
+34.  Kang  BH.  TRAP1  regulation  of  mitochondrial  life  or  death  decision  in 
+cancer cells and mitochondria-targeted TRAP1 inhibitors. BMB Rep (2012) 
+45(1):1–6. doi:10.5483/BMBRep.2012.45.1.1 
+
+35.  Picard  D.  Preface  to  Hsp90.  Biochim  Biophys  Acta  (2012)  1823(3):605–6. 
+
+doi:10.1016/j.bbamcr.2012.02.004 
+
+36.  Rohl A, Rohrberg J, Buchner J. The chaperone Hsp90: changing partners for 
+demanding clients. Trends Biochem Sci (2013) 38(5):253–62. doi:10.1016/j.
+tibs.2013.02.003 
+
+37.  Neckers  L,  Workman  P.  Hsp90  molecular  chaperone  inhibitors:  are  we 
+there  yet?  Clin  Cancer  Res  (2012)  18(1):64–76.  doi:10.1158/1078-0432.
+CCR-11-1000 
+
+38.  Rasola  A,  Neckers  L,  Picard  D.  Mitochondrial  oxidative  phosphoryla-
+tion  TRAP(1)ped  in  tumor  cells.  Trends  Cell  Biol  (2014)  24(8):455–63. 
+doi:10.1016/j.tcb.2014.03.005 
+
+39.  Lavery  LA,  Partridge  JR,  Ramelot  TA,  Elnatan  D,  Kennedy  MA,  Agard 
+DA.  Structural  asymmetry  in  the  closed  state  of  mitochondrial  Hsp90 
+(TRAP1) supports a two-step ATP hydrolysis mechanism. Mol Cell (2014) 
+53(2):330–43. doi:10.1016/j.molcel.2013.12.023 
+
+40.  Partridge JR, Lavery LA, Elnatan D, Naber N, Cooke R, Agard DA. A novel 
+N-terminal extension in mitochondrial TRAP1 serves as a thermal regulator 
+of chaperone activity. Elife (2014) 3. doi:10.7554/eLife.03487 
+
+41.  Leskovar  A,  Wegele  H,  Werbeck  ND,  Buchner  J,  Reinstein  J. The  ATPase 
+cycle  of  the  mitochondrial  Hsp90  analog  Trap1.  J Biol  Chem  (2008) 
+283(17):11677–88. doi:10.1074/jbc.M709516200 
+
+42.  Sung N, Lee J, Kim JH, Chang C, Joachimiak A, Lee S, et al. Mitochondrial 
+Hsp90 is a ligand-activated molecular chaperone coupling ATP binding to 
+dimer closure through a coiled-coil intermediate. Proc Natl Acad Sci U S A 
+(2016) 113(11):2952–7. doi:10.1073/pnas.1516167113 
+
+43.  Lee C, Park HK, Jeong H, Lim J, Lee AJ, Cheon KY, et al. Development of 
+a  mitochondria-targeted  Hsp90  inhibitor  based  on  the  crystal  structures 
+of  human  TRAP1.  J Am  Chem  Soc  (2015)  137(13):4358–67.  doi:10.1021/
+ja511893n 
+
+44.  Hua  G,  Zhang  Q,  Fan  Z.  Heat  shock  protein  75  (TRAP1)  antagonizes 
+reactive  oxygen  species  generation  and  protects  cells  from  granzyme 
+M-mediated apoptosis. J Biol Chem (2007) 282(28):20553–60. doi:10.1074/
+jbc.M703196200 
+
+45.  Im CN, Lee JS, Zheng Y, Seo JS. Iron chelation study in a normal human 
+hepatocyte cell line suggests that tumor necrosis factor receptor-associated 
+protein  1  (TRAP1)  regulates  production  of  reactive  oxygen  species.  J Cell 
+Biochem (2007) 100(2):474–86. doi:10.1002/jcb.21064 
+
+46.  Masuda Y, Shima G, Aiuchi T, Horie M, Hori K, Nakajo S, et al. Involvement 
+of  tumor  necrosis  factor  receptor-associated  protein  1  (TRAP1)  in 
+apoptosis  induced  by  beta-hydroxyisovalerylshikonin.  J Biol  Chem  (2004) 
+279(41):42503–15. doi:10.1074/jbc.M404256200 
+
+47.  Montesano  Gesualdi  N,  Chirico  G,  Pirozzi  G,  Costantino  E,  Landriscina 
+M, Esposito F. Tumor necrosis factor-associated protein 1 (TRAP-1) pro-
+tects cells from oxidative stress and apoptosis. Stress (2007) 10(4):342–50. 
+doi:10.1080/10253890701314863 
+
+48.  Ryan BJ, Hoek S, Fon EA, Wade-Martins R. Mitochondrial dysfunction and 
+mitophagy in Parkinson’s: from familial to sporadic disease. Trends Biochem 
+Sci (2015) 40(4):200–10. doi:10.1016/j.tibs.2015.02.003 
+
+49.  Butler EK, Voigt A, Lutz AK, Toegel JP, Gerhardt E, Karsten P, et al. The 
+mitochondrial chaperone protein TRAP1 mitigates alpha-Synuclein toxicity. 
+PLoS Genet (2012) 8(2):e1002488. doi:10.1371/journal.pgen.1002488 
+
+50.  Costa AC, Loh SH, Martins LM. Drosophila Trap1 protects against mito-
+chondrial dysfunction in a PINK1/parkin model of Parkinson’s disease. Cell 
+Death Dis (2013) 4:e467. doi:10.1038/cddis.2012.205 
+
+51.  Zhang L, Karsten P, Hamm S, Pogson JH, Muller-Rischart AK, Exner N, et al. 
+TRAP1 rescues PINK1 loss-of-function phenotypes. Hum Mol Genet (2013) 
+22(14):2829–41. doi:10.1093/hmg/ddt132 
+
+52.  Xu L, Voloboueva LA, Ouyang Y, Emery JF, Giffard RG. Overexpression of 
+mitochondrial  Hsp70/Hsp75  in  rat  brain  protects  mitochondria,  reduces 
+
+oxidative stress, and protects from focal ischemia. J Cereb Blood Flow Metab 
+(2009) 29(2):365–74. doi:10.1038/jcbfm.2008.125 
+
+53.  Xiang  F,  Huang  YS,  Shi  XH,  Zhang  Q.  Mitochondrial  chaperone  tumour 
+necrosis factor receptor-associated protein 1 protects cardiomyocytes from 
+hypoxic  injury  by  regulating  mitochondrial  permeability  transition  pore 
+opening.  FEBS  J  (2010)  277(8):1929–38.  doi:10.1111/j.1742-4658.2010. 
+07615.x 
+
+54.  Zhang  P,  Lu  Y,  Yu  D,  Zhang  D,  Hu  W.  TRAP1  provides  protection 
+against  myocardial  ischemia-reperfusion  injury  by  ameliorating  mito-
+chondrial  dysfunction.  Cell  Physiol  Biochem  (2015)  36(5):2072–82. 
+doi:10.1159/000430174 
+
+55.  Takamura  H,  Koyama  Y,  Matsuzaki  S,  Yamada  K,  Hattori  T,  Miyata  S, 
+et al. TRAP1 controls mitochondrial fusion/fission balance through Drp1 
+and  Mff  expression.  PLoS  One  (2012)  7(12):e51912.  doi:10.1371/journal.
+pone.0051912 
+
+56.  Im CN. Past, present, and emerging roles of mitochondrial heat shock protein 
+TRAP1 in the metabolism and regulation of cancer stem cells. Cell Stress 
+Chaperones (2016) 21(4):553–62. doi:10.1007/s12192-016-0687-3 
+
+57.  Kowalik MA, Guzzo G, Morandi A, Perra A, Menegon S, Masgras I, et al. 
+Metabolic  reprogramming  identifies  the  most  aggressive  lesions  at  early 
+phases  of  hepatic  carcinogenesis.  Oncotarget  (2016)  7(22):32375–93. 
+doi:10.18632/oncotarget.8632 
+
+58.  Gao  JY,  Song  BR,  Peng  JJ,  Lu  YM.  Correlation  between  mitochondrial 
+TRAP-1 expression and lymph node metastasis in colorectal cancer. World 
+J Gastroenterol (2012) 18(41):5965–71. doi:10.3748/wjg.v18.i41.5965 
+
+59.  Leav I, Plescia J, Goel HL, Li J, Jiang Z, Cohen RJ, et al. Cytoprotective mito-
+chondrial chaperone TRAP-1 as a novel molecular target in localized and 
+metastatic prostate cancer. Am J Pathol (2010) 176(1):393–401. doi:10.2353/
+ajpath.2010.090521 
+
+60.  Pak  MG,  Koh  HJ,  Roh  MS.  Clinicopathologic  significance  of  TRAP1 
+expression  in  colorectal  cancer:  a  large  scale  study  of  human  colorectal 
+adenocarcinoma  tissues.  Diagn  Pathol  (2017)  12(1):6.  doi:10.1186/
+s13000-017-0598-3 
+
+61.  Zhang B, Wang J, Huang Z, Wei P, Liu Y, Hao J, et al. Aberrantly upregulated 
+TRAP1  is  required  for  tumorigenesis  of  breast  cancer.  Oncotarget  (2015) 
+6(42):44495–508. doi:10.18632/oncotarget.6252 
+
+62.  Agorreta J, Hu J, Liu D, Delia D, Turley H, Ferguson DJ, et al. TRAP1 regu-
+lates proliferation, mitochondrial function, and has prognostic significance 
+in  NSCLC.  Mol  Cancer  Res  (2014)  12(5):660–9.  doi:10.1158/1541-7786.
+MCR-13-0481 
+
+63.  Calderwood  SK,  Gong  J. Heat  shock  proteins  promote  cancer:  it’s  a 
+protection  racket.  Trends  Biochem  Sci  (2016)  41(4):311–23.  doi:10.1016/j.
+tibs.2016.01.003 
+
+64.  Chae YC, Caino MC, Lisanti S, Ghosh JC, Dohi T, Danial NN, et al. Control of 
+tumor bioenergetics and survival stress signaling by mitochondrial HSP90s. 
+Cancer Cell (2012) 22(3):331–44. doi:10.1016/j.ccr.2012.07.015 
+
+65.  Sciacovelli M, Guzzo G, Morello V, Frezza C, Zheng L, Nannini N, et al. The 
+mitochondrial chaperone TRAP1 promotes neoplastic growth by inhibiting 
+succinate  dehydrogenase.  Cell  Metab  (2013)  17(6):988–99.  doi:10.1016/j.
+cmet.2013.04.019 
+
+66.  Yoshida  S,  Tsutsumi  S,  Muhlebach  G,  Sourbier  C,  Lee  MJ,  Lee  S,  et  al. 
+Molecular  chaperone  TRAP1  regulates  a  metabolic  switch  between  mito-
+chondrial respiration and aerobic glycolysis. Proc Natl Acad Sci U S A (2013) 
+110(17):E1604–12. doi:10.1073/pnas.1220659110 
+
+67.  Selak MA, Armour SM, MacKenzie ED, Boulahbel H, Watson DG, Mansfield 
+KD, et al. Succinate links TCA cycle dysfunction to oncogenesis by inhibiting 
+HIF-alpha prolyl hydroxylase. Cancer Cell (2005) 7(1):77–85. doi:10.1016/j.
+ccr.2004.11.022 
+
+68.  Semenza  GL.  Cancer-stromal  cell  interactions  mediated  by  hypoxia-in-
+ducible  factors  promote  angiogenesis,  lymphangiogenesis,  and  metastasis. 
+Oncogene (2013) 32(35):4057–63. doi:10.1038/onc.2012.578 
+
+69.  Masgras  I,  Ciscato  F,  Brunati  AM,  Tibaldi  E,  Indraccolo  S,  Curtarello  M, 
+et al. Absence of neurofibromin induces an oncogenic metabolic switch via 
+mitochondrial  ERK-mediated  phosphorylation  of  the  chaperone  TRAP1. 
+Cell Rep (2017) 18(3):659–72. doi:10.1016/j.celrep.2016.12.056 
+
+70.  Guzzo G, Sciacovelli M, Bernardi P, Rasola A. Inhibition of succinate dehy-
+drogenase  by  the  mitochondrial  chaperone  TRAP1  has  anti-oxidant  and 
+anti-apoptotic  effects  on  tumor  cells.  Oncotarget  (2014)  5(23):11897–908. 
+doi:10.18632/oncotarget.2472 
+
+Frontiers in Oncology  |  www.frontiersin.org
+
+9
+
+March 2017  |  Volume 7  |  Article 58
+
+TRAP1 in Tumor Metabolism AdaptationsMasgras et al.
+
+71.  Rasola A, Bernardi P. The mitochondrial permeability transition pore and 
+its involvement in cell death and in disease pathogenesis. Apoptosis (2007) 
+12(5):815–33. doi:10.1007/s10495-007-0723-y 
+
+72.  Bernardi  P,  Rasola  A,  Forte  M,  Lippe  G.  The  mitochondrial  permeability 
+transition pore: channel formation by F-ATP synthase, integration in signal 
+transduction, and role in pathophysiology. Physiol Rev (2015) 95(4):1111–55. 
+doi:10.1152/physrev.00001.2015 
+
+73.  Kang BH, Plescia J, Dohi T, Rosa J, Doxsey SJ, Altieri DC. Regulation of tumor 
+cell  mitochondrial  homeostasis  by  an  organelle-specific  Hsp90  chaperone 
+network. Cell (2007) 131(2):257–70. doi:10.1016/j.cell.2007.08.028 
+
+74.  Sullivan LB, Chandel NS. Mitochondrial reactive oxygen species and cancer. 
+
+Cancer Metab (2014) 2:17. doi:10.1186/2049-3002-2-17 
+
+75.  Rasola  A,  Bernardi  P.  Mitochondrial  permeability  transition  in  Ca(2+)-
+dependent  apoptosis  and  necrosis.  Cell  Calcium  (2011)  50:222–33. 
+doi:10.1016/j.ceca.2011.04.007 
+
+76.  Ghosh JC, Siegelin MD, Dohi T, Altieri DC. Heat shock protein 60 regulation 
+of the mitochondrial permeability transition pore in tumor cells. Cancer Res 
+(2010) 70(22):8988–93. doi:10.1158/0008-5472.CAN-10-2225 
+
+77.  Hanahan D, Weinberg RA. Hallmarks of cancer: the next generation. Cell 
+
+(2011) 144(5):646–74. doi:10.1016/j.cell.2011.02.013 
+
+78.  Sabharwal  SS,  Schumacker  PT.  Mitochondrial  ROS  in  cancer:  initiators, 
+amplifiers  or  an  Achilles’  heel?  Nat  Rev  Cancer  (2014)  14(11):709–21. 
+doi:10.1038/nrc3803 
+
+79.  Matassa DS, Amoroso MR, Lu H, Avolio R, Arzeni D, Procaccini C, et al. 
+Oxidative metabolism drives inflammation-induced platinum resistance in 
+human ovarian cancer. Cell Death Differ (2016) 23(9):1542–54. doi:10.1038/
+cdd.2016.39 
+
+80.  Amoroso  MR,  Matassa  DS,  Agliarulo  I,  Avolio  R,  Lu  H,  Sisinni  L,  et  al. 
+TRAP1  downregulation  in  human  ovarian  cancer  enhances  invasion  and 
+epithelial-mesenchymal  transition.  Cell  Death  Dis  (2016)  7(12):e2522. 
+doi:10.1038/cddis.2016.400 
+
+81.  Caino  MC,  Chae  YC,  Vaira  V,  Ferrero  S,  Nosotti  M,  Martin  NM,  et  al. 
+Metabolic  stress  regulates  cytoskeletal  dynamics  and  metastasis  of  cancer 
+cells. J Clin Invest (2013) 123(7):2907–20. doi:10.1172/JCI67841 
+
+82.  Costantino E, Maddalena F, Calise S, Piscazzi A, Tirino V, Fersini A, et al. 
+TRAP1, a novel mitochondrial chaperone responsible for multi-drug resis-
+tance and protection from apoptotis in human colorectal carcinoma cells. 
+Cancer Lett (2009) 279(1):39–46. doi:10.1016/j.canlet.2009.01.018 
+
+83.  Maddalena F, Sisinni L, Lettini G, Condelli V, Matassa DS, Piscazzi A, et al. 
+Resistance to paclitxel in breast carcinoma cells requires a quality control 
+of  mitochondrial  antiapoptotic  proteins  by  TRAP1.  Mol  Oncol  (2013) 
+7(5):895–906. doi:10.1016/j.molonc.2013.04.009 
+
+84.  Landriscina  M,  Laudiero  G,  Maddalena  F,  Amoroso  MR,  Piscazzi  A, 
+Cozzolino F, et al. Mitochondrial chaperone Trap1 and the calcium binding 
+protein Sorcin interact and protect cells against apoptosis induced by anti-
+blastic  agents.  Cancer  Res  (2010)  70(16):6577–86.  doi:10.1158/0008-5472.
+CAN-10-1256 
+
+85.  Akerfelt M, Morimoto RI, Sistonen L. Heat shock factors: integrators of cell 
+stress, development and lifespan. Nat Rev Mol Cell Biol (2010) 11(8):545–55. 
+doi:10.1038/nrm2938 
+
+86.  Pridgeon JW, Olzmann JA, Chin LS, Li L. PINK1 protects against oxidative 
+stress  by  phosphorylating  mitochondrial  chaperone  TRAP1.  PLoS  Biol 
+(2007) 5(7):e172. doi:10.1371/journal.pbio.0050172 
+
+87.  Miyazaki T, Neff L, Tanaka S, Horne WC, Baron R. Regulation of cytochrome 
+c oxidase activity by c-Src in osteoclasts. J Cell Biol (2003) 160(5):709–18. 
+doi:10.1083/jcb.200209098 
+
+88.  Giannoni  E,  Taddei  ML,  Chiarugi  P.  Src  redox  regulation:  again  in 
+the  front  line.  Free  Radic  Biol  Med  (2010)  49(4):516–27.  doi:10.1016/j.
+freeradbiomed.2010.04.025 
+
+89.  Hebert-Chatelain  E.  Src  kinases  are  important  regulators  of  mitochon-
+drial  functions.  Int  J Biochem  Cell  Biol  (2013)  45(1):90–8.  doi:10.1016/j.
+biocel.2012.08.014 
+
+90.  Pantic  B,  Trevisan  E,  Citta  A,  Rigobello  MP,  Marin  O,  Bernardi  P,  et  al. 
+Myotonic  dystrophy  protein  kinase  (DMPK)  prevents  ROS-induced  cell 
+death  by  assembling  a  hexokinase  II-Src  complex  on  the  mitochondrial 
+surface. Cell Death Dis (2013) 4:e858. doi:10.1038/cddis.2013.385 
+
+91.  Dhillon AS, Hagan S, Rath O, Kolch W. MAP kinase signalling pathways in 
+
+cancer. Oncogene (2007) 26(22):3279–90. doi:10.1038/sj.onc.1210421 
+
+92.  Karnoub AE, Weinberg RA. Ras oncogenes: split personalities. Nat Rev Mol 
+
+Cell Biol (2008) 9(7):517–31. doi:10.1038/nrm2438 
+
+93.  Condelli V, Maddalena F, Sisinni L, Lettini G, Matassa DS, Piscazzi A, et al. 
+Targeting TRAP1 as a downstream effector of BRAF cytoprotective pathway: 
+a novel strategy for human BRAF-driven colorectal carcinoma. Oncotarget 
+(2015) 6(26):22298–309. doi:10.18632/oncotarget.4263 
+
+94.  Ratner  N,  Miller  SJ. A  RASopathy  gene  commonly  mutated  in  cancer: 
+the  neurofibromatosis  type  1  tumour  suppressor.  Nat  Rev  Cancer  (2015) 
+15(5):290–301. doi:10.1038/nrc3911 
+
+95.  Hess  DT,  Matsumoto  A,  Kim  SO,  Marshall  HE,  Stamler  JS.  Protein 
+S-nitrosylation:  purview  and  parameters.  Nat  Rev  Mol  Cell  Biol  (2005) 
+6(2):150–66. doi:10.1038/nrm1569 
+
+96.  Liu L, Hausladen A, Zeng M, Que L, Heitman J, Stamler JS. A metabolic 
+enzyme for S-nitrosothiol conserved from bacteria to humans. Nature (2001) 
+410(6827):490–4. doi:10.1038/35068596 
+
+97.  Wei W, Yang Z, Tang CH, Liu L. Targeted deletion of GSNOR in hepato-
+cytes  of  mice  causes  nitrosative  inactivation  of  O6-alkylguanine-DNA 
+alkyltransferase  and  increased  sensitivity  to  genotoxic  diethylnitrosamine. 
+Carcinogenesis (2011) 32(7):973–7. doi:10.1093/carcin/bgr041 
+
+98.  Rizza  S,  Montagna  C,  Cardaci  S,  Maiani  E,  Di  Giacomo  G,  Sanchez-
+Quiles V, et al. S-nitrosylation of the mitochondrial chaperone TRAP1 
+sensitizes hepatocellular carcinoma cells to inhibitors of succinate dehy-
+drogenase.  Cancer  Res  (2016)  76(14):4170–82.  doi:10.1158/0008-5472.
+CAN-15-2637 
+
+99.  Hong DS, Banerji U, Tavana B, George GC, Aaron J, Kurzrock R. Targeting 
+the  molecular  chaperone  heat  shock  protein  90  (HSP90):  lessons  learned 
+and future directions. Cancer Treat Rev (2013) 39(4):375–87. doi:10.1016/j.
+ctrv.2012.10.001 
+
+100.  Patki  JM,  Pawar  SS.  HSP90:  chaperone-me-not.  Pathol  Oncol  Res  (2013) 
+
+19(4):631–40. doi:10.1007/s12253-013-9675-4 
+
+101.  Seo  YH.  Organelle-specific  Hsp90  inhibitors.  Arch  Pharm  Res  (2015) 
+
+38(9):1582–90. doi:10.1007/s12272-015-0636-1 
+
+102.  Morra  G,  Neves  MA,  Plescia  CJ,  Tsustsumi  S,  Neckers  L,  Verkhivker  G, 
+et  al.  Dynamics-based  discovery  of  allosteric  inhibitors:  selection  of  new 
+ligands for the C-terminal domain of Hsp90. J Chem Theory Comput (2010) 
+6(9):2978–89. doi:10.1021/ct100334n 
+
+103.  Plescia  J,  Salz  W,  Xia  F,  Pennati  M,  Zaffaroni  N,  Daidone  MG,  et  al. 
+Rational design of shepherdin, a novel anticancer agent. Cancer Cell (2005) 
+7(5):457–68. doi:10.1016/j.ccr.2005.03.035 
+
+104.  Neckers  L,  Kern  A,  Tsutsumi  S.  Hsp90  inhibitors  disrupt  mitochondrial 
+homeostasis in cancer cells. Chem Biol (2007) 14(11):1204–6. doi:10.1016/j.
+chembiol.2007.11.002 
+
+105.  Altieri  DC,  Stein  GS,  Lian  JB,  Languino  LR.  TRAP-1,  the  mitochondrial 
+Hsp90.  Biochim  Biophys  Acta  (2012)  1823(3):767–73.  doi:10.1016/j.
+bbamcr.2011.08.007 
+
+106.  Siegelin MD. Inhibition of the mitochondrial Hsp90 chaperone network: a 
+novel, efficient treatment strategy for cancer? Cancer Lett (2013) 333(2):133–
+46. doi:10.1016/j.canlet.2013.01.045 
+
+107.  Sattin  S,  Tao  J,  Vettoretti  G,  Moroni  E,  Pennati  M,  Lopergolo  A,  et  al. 
+Activation of Hsp90 enzymatic activity and conformational dynamics through 
+rationally designed allosteric ligands. Chemistry (2015) 21(39):13598–608. 
+doi:10.1002/chem.201502211 
+
+Conflict of Interest Statement: The authors declare that the research was con-
+ducted in the absence of any commercial or financial relationships that could be 
+construed as a potential conflict of interest.
+
+Copyright  ©  2017  Masgras,  Sanchez-Martin,  Colombo  and  Rasola.  This  is  an 
+open-access article distributed under the terms of the Creative Commons Attribution 
+License (CC BY). The use, distribution or reproduction in other forums is permitted, 
+provided the original author(s) or licensor are credited and that the original publica-
+tion in this journal is cited, in accordance with accepted academic practice. No use, 
+distribution or reproduction is permitted which does not comply with these terms.
+
+Frontiers in Oncology  |  www.frontiersin.org
+
+10
+
+March 2017  |  Volume 7  |  Article 58
+
+TRAP1 in Tumor Metabolism Adaptations

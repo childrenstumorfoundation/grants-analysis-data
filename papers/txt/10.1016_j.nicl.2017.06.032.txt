@@ -1,0 +1,1713 @@
+NeuroImage: Clinical 15 (2017) 801–811
+
+Contents lists available at ScienceDirect
+
+NeuroImage: Clinical
+
+journal homepage: www.elsevier.com/locate/ynicl
+
+Spatial working memory in neuroﬁbromatosis 1: Altered neural activity and
+functional connectivity
+Amira F.A. Ibrahima, Caroline A. Montojob, Kristen M. Hautc, Katherine H. Karlsgodtd,e,
+Laura Hansene, Eliza Congdone, Tena Rosserf, Robert M. Bilderd,e, Alcino J. Silvad,e,g,h,
+Carrie E. Beardend,e,h,⁎
+a Department of Psychology, University of Michigan, Ann Arbor, United States
+b Kavli Foundation, Oxnard, United States
+c Department of Psychiatry, Rush University Medical Center, United States
+d Department of Psychology, University of California, Los Angeles, United States
+e Department of Psychiatry & Biobehavioral Sciences, University of California, Los Angeles, United States
+f Department of Neurology, Children's Hospital of Los Angeles, University of Southern California Keck School of Medicine, Los Angeles, United States
+g Department of Neurobiology, University of California, Los Angeles, United States
+h Integrative Center for Learning and Memory, University of California, Los Angeles, United States
+
+MARK
+
+A R T I C L E I N F O
+
+A B S T R A C T
+
+Keywords:
+fMRI
+NF1
+Working memory
+Spatial ability
+Psychophysiological interaction
+
+Background: Neuroﬁbromatosis Type 1 (NF1) is a genetic disorder that disrupts central nervous system devel-
+opment and neuronal function. Cognitively, NF1 is characterized by diﬃculties with executive control and vi-
+suospatial abilities. Little is known about the neural substrates underlying these deﬁcits. The current study
+utilized Blood-Oxygen-Level-Dependent (BOLD) functional MRI (fMRI) to explore the neural correlates of spatial
+working memory (WM) deﬁcits in patients with NF1.
+Methods: BOLD images were acquired from 23 adults with NF1 (age M = 32.69; 61% male) and 25 matched
+healthy controls (age M = 33.08; 64% male) during an in-scanner visuo-spatial WM task. Whole brain functional
+and psycho-physiological interaction analyses were utilized to investigate neural activity and functional con-
+nectivity, respectively, during visuo-spatial WM performance. Participants also completed behavioral measures
+of spatial reasoning and verbal WM.
+Results: Relative to healthy controls, participants with NF1 showed reduced recruitment of key components of
+WM circuitry, the left dorsolateral prefrontal cortex and right parietal cortex. In addition, healthy controls
+exhibited greater simultaneous deactivation between the posterior cingulate cortex (PCC) and temporal regions
+than NF1 patients. In contrast, NF1 patients showed greater PCC and bilateral parietal connectivity with visual
+cortices as well as between the PCC and the cerebellum. In NF1 participants, increased functional coupling of the
+PCC with frontal and parietal regions was associated with better spatial reasoning and WM performance, re-
+spectively; these relationships were not observed in controls.
+Conclusions: Dysfunctional engagement of WM circuitry, and aberrant functional connectivity of ‘task-negative’
+regions in NF1 patients may underlie spatial WM diﬃculties characteristic of the disorder.
+
+1. Introduction
+
+Neuroﬁbromatosis Type 1 (NF1) is a common autosomal dominant
+neurogenetic disorder, occurring in approximately 1 in every 3000
+births, that results from mutation(s) in a single gene located on
+Chromosome 17q11 (Fain et al., 1987; Cawthon et al., 1990; Viskochil
+et al., 1990; Wallace et al., 1990). The NF1 gene encodes the neuroﬁ-
+bromin (NF1) protein, which plays an essential role in central nervous
+
+system (CNS) development and neural diﬀerentiation via the p21 Ras
+GTP-ase (Ras) signaling pathway (North, 2000). Neuroﬁbromin is also
+known to play a role in adult function in the CNS, including the control
+of GABA-mediated inhibition (Costa et al., 2002). Mutation of the NF1
+gene results in increased Ras signaling, which is hypothesized to lead to
+the characteristic abnormalities in brain morphology in NF1 patients
+and to increased neuronal inhibition in adults with NF1 (Costa et al.,
+2002; Mainberger et al., 2013; Shilyansky et al., 2010). Notably, brain
+
+⁎ Corresponding author at: Department of Psychology, University of California, Los Angeles, United States.
+E-mail address: CBearden@mednet.ucla.edu (C.E. Bearden).
+
+http://dx.doi.org/10.1016/j.nicl.2017.06.032
+Received 26 February 2017; Received in revised form 25 May 2017; Accepted 23 June 2017
+Available online 27 June 2017
+2213-1582/ © 2017 The Authors. Published by Elsevier Inc. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/BY-NC-ND/4.0/).
+
+A.F.A. Ibrahim et al.
+
+NeuroImage: Clinical 15 (2017) 801–811
+
+morphology changes include macrocephaly, increased gray and white
+matter volume, widespread alterations in white matter integrity
+(Karlsgodt et al., 2012), white matter hyperintensities, and increased
+volume of the corpus collosum (Payne et al., 2010). In addition to
+structural brain abnormalities, increased Ras signaling is associated
+with speciﬁc cognitive deﬁcits in studies of NF1 mouse models
+(Shilyansky et al., 2010). As a single gene mutation that disrupts
+learning and memory, NF1 presents a valuable model for understanding
+mechanisms underlying cognitive disability.
+
+Individuals with NF1 exhibit visuospatial diﬃculties, executive
+function deﬁcits (Hyman et al., 2005; Rowbotham et al., 2009; Roy
+et al., 2010; Payne et al., 2011), and speciﬁc learning disabilities
+(Hyman et al., 2006), as well as increased rates of autism spectrum
+disorders (ASD; Garg et al., 2013). The extent to which documented
+brain structural abnormalities relate to the NF1 behavioral proﬁle is not
+yet well understood. However, there is some evidence to suggest that
+the magnitude of neuroanatomic alteration is associated with the se-
+verity of cognitive impairment in NF1 patients, as reviewed by Payne
+et al. (2010). For instance, Moore et al. (2000) found that increased
+volume of the corpus collosum in NF1 patients was associated with
+poorer visuospatial performance and academic achievement.
+
+Although few functional magnetic resonance imaging (fMRI) studies
+have been conducted to date in NF1 patients, existing studies oﬀer
+evidence for disrupted neural activity during visuospatial task perfor-
+mance (Payne et al., 2010). Using a mental rotation task, Billingsley
+et al. (2004) found that, relative to matched typically developing con-
+trols, children with NF1 engaged posterior brain regions, whereas
+controls tended to engage frontal regions. An altered pattern of hemi-
+spheric specialization has also been observed in NF1 patients relative to
+controls during performance on a line orientation judgment task
+(Clements-Stephens et al., 2008), involving signiﬁcantly greater left
+hemisphere than right hemisphere activation across both frontal and
+posterior regions. More recently, Violante et al. (2012) found evidence
+for a link between visual processing and aberrant in-task default mode
+network (DMN) recruitment. Speciﬁcally, they found that, relative to
+healthy controls, patients with NF1 (both children and adults) exhibited
+deﬁcient activation of low-level visual cortex in response to visual sti-
+muli, and that altered activation of the magnocellular pathway was
+associated with increased activation in midline DMN regions. Violate
+et al. hypothesized that the increased activation of DMN regions during
+task performance suggests a failure to appropriately deactivate the
+DMN, possibly leading to ‘default mode interference’ during visual
+processing.
+
+In addition, our research group observed diﬀerential recruitment of
+working memory circuitry during performance on a task of spatial
+working memory capacity (SCAP) in an independent sample of NF1
+patients relative to healthy controls. The SCAP task requires individuals
+to keep locations of spatially dispersed stimuli in mind for a brief period
+of time and has been shown to robustly activate neural circuitry in-
+volved in spatial working memory (Glahn et al., 2002). Speciﬁcally, we
+found that adult NF1 patients exhibited right lateralized hypoactivation
+within the frontal eyeﬁelds and right parietal cortex relative to controls
+during task trials. In addition, NF1 patients exhibited less deactivation
+of default mode regions (i.e., medial prefrontal cortex) than healthy
+controls (Shilyansky et al., 2010), providing some support for the hy-
+pothesis of ‘default mode interference’ in NF1 suggested by Violante
+et al. (2012); however, the general nature of the relationship between
+“task positive” and “task negative” networks is still unclear. Activation
+within the dorsolateral prefrontal cortex (DLPFC) predicted task per-
+formance accuracy in the NF1 patients, such that as neural activity
+increased within this region, performance accuracy increased, a result
+consistent with the hypothesis that increased neuronal inhibition may
+contribute to cognitive deﬁcits in NF1 (Costa et al., 2002; Mainberger
+et al., 2013; Shilyansky et al., 2010).
+
+To our knowledge there have been no investigations of task-based
+functional connectivity in the NF1 population. Here we investigated the
+
+neural underpinnings of spatial working memory deﬁcits in NF1 by
+probing two complementary aspects of task-dependent blood oxyge-
+nation level dependent (BOLD) activity – magnitude changes and
+functional connectivity (using psychophysiological interaction analysis;
+PPI). We compared these measures of neural function in NF1 patients
+relative to healthy controls during performance on a parametrically
+varying spatial working memory capacity task (SCAP; 18). Based upon
+previous work (Shilyansky et al., 2010), we predicted that during
+spatial working memory task performance NF1 patients would exhibit
+relative hypoactivation within working memory-relevant neural cir-
+cuitry (i.e. DLPFC and parietal regions). Given pre-clinical ﬁndings
+suggesting NF1 is associated with increased inhibitory activity within
+fronto-striatal networks (Shilyansky et al., 2010), we hypothesized that
+NF1 patients would show reduced task-related functional connectivity
+within working memory-related neural circuitry compared to healthy
+controls. In addition, we expected reduced connectivity within DMN-
+related regions during task performance in healthy individuals, but
+greater connectivity in NF1 patients, suggesting increased default mode
+interference.
+
+2. Methods and materials
+
+2.1. Participants
+
+A total of 48 participants were included in the current study (23 NF1
+patients and 25 demographically comparable healthy controls).
+Participants ranged in age from 18 to 47 years. NF1 participants were
+screened and enrolled by a pediatric neurologist (T.R.), a clinician with
+experience caring for individuals with NF. All subjects included were
+participants in a clinical trial, as described in Bearden et al. (2016);
+however, all testing was conducted prior to treatment randomization.
+Two NF1 patients included were conﬁrmed to have asymptomatic optic
+gliomas at the time of testing.
+
+NF1 patient inclusion criteria were: 1) Meets NIH NF1 diagnostic
+criteria (Stumf, 1988) and does not have segmental NF1. 2) No evi-
+dence of intracranial pathology such as hydrocephalus or brain tumor,
+other than an asymptomatic optic pathway or other NF1-related
+glioma; 3) Full-Scale IQ ≥ 70 (as determined by the Wechsler Abbre-
+viated Scale of Intelligence [WASI]; Wechsler, 2011); 4) No comorbid
+major neurological or psychiatric disorder (e.g., epilepsy, bipolar dis-
+order, psychotic illness, major depression); 5) No MRI contra-
+indications; female participants could not be pregnant or lactating; 6)
+Suﬃcient ﬂuency in English. Healthy controls also had to meet inclu-
+sion criteria 2 through 6 above.
+
+Participants were recruited from three primary sources: 1) The
+Children's Hospital Los Angeles Neuroﬁbromatosis Clinic, a major NF1
+referral center for the greater Los Angeles region; 2) local Children's
+Tumor Foundation and NF Network family educational symposia; 3)
+NF-related websites as well as www.clinicaltrials.gov. Demographically
+comparable healthy controls were recruited from the Consortium for
+Neuropsychiatric Phenomics, a study ongoing concurrently at UCLA
+(Poldrack et al., 2016a), and for which the neuroimaging data are now
+freely available at OpenfMRI (https://openfmri.org/dataset/ds000030/
+).
+
+2.2. Procedure
+
+All aspects of the research project were granted IRB approval by
+UCLA, prior to the collection of any data. All participants provided
+verbal and written informed consent before participation in any aspect
+of the study, after study procedures were fully explained.
+
+2.3. Measures
+
+2.3.1. Neuropsychological measures
+
+Cognitive functioning was assessed via a neuropsychological battery
+
+802
+
+A.F.A. Ibrahim et al.
+
+NeuroImage: Clinical 15 (2017) 801–811
+
+administered by supervised clinical psychology doctoral students or
+Master's level psychometricians. IQ data were obtained using either the
+Matrix Reasoning and Vocabulary subtests from the WASI (Wechsler,
+2011) for the NF1 patients and the same measures from the Wechsler
+Adult Intelligence Scale, Version 4 (WAIS-IV; Wechsler, 2014) for the
+healthy controls (scaled scores were used to account for diﬀerences
+between task versions). Matrix Reasoning was also examined as a
+measure of nonverbal reasoning ability.
+
+Working memory capacity was measured behaviorally using the
+University of Maryland Letter–Number Sequencing (LNS) task (Gold
+et al., 1997). In this task, participants are presented with sets of num-
+bers and letters of varying length and then must repeat back the pre-
+sented numbers in ascending order and letters in alphabetical order.
+
+2.3.2. Spatial capacity working memory (SCAP) task
+
+Participants viewed a visual array presenting 1, 3, 5, or 7 circles on
+the screen followed by a probe circle. The participant had to indicate
+whether the probe circle was presented in the same position as one of
+the circles in the previous array, as described in detail in Montojo et al.
+(2014) and Glahn et al. (2002). Trial events included a two second
+target-array presentation, a 1.5, 3 or 4.5 s delay period, and a three
+second response period. Half the task trials were true-positive, and half
+were true-negative. Task trials were compared to the ﬁxation during the
+inter-trial interval. Participants underwent a brief behavioral training
+session on the task prior to administration in the scanner, as described
+below.
+
+2.3.3. fMRI acquisition
+
+All data were collected at the University of California, Los Angeles
+in one of two scanning facilities both with 3 T Siemens Tim Trio MRI
+scanner, running Siemens versions syngo MR B15 and B17. 219. Group
+level whole brain and PPI analyses included scanner as a covariate.
+Functional T2- weighted echo planar images (EPIs) were collected with
+the following parameters: slice thickness = 4 mm, 34 slices, TR = 2 s,
+TE = 30 ms, ﬂip angles = 90°, matrix 192 × 192, FOV = 192 mm.
+Additionally, a T2-weighted matched-bandwidth high resolution ana-
+tomical scan (same slice prescription as EPI) and MPRAGE were col-
+lected. The parameters for the MPRAGE were the following: TR = 2.3 s,
+TE = 2.91 ms, FOV = 256 mm, matrix = 240 × 256, ﬂip angle = 9°,
+slice thickness = 1.20 mm, 160 slices.
+
+2.3.4. Statistical analyses
+
+Analyses of neuropsychological and clinical data were performed
+using SPSS software v. 21 (IBM). We compared demographic char-
+acteristics between groups using independent samples t-tests for con-
+tinuous variables and chi-square tests for categorical variables.
+
+FMRI data analyses were performed using the FMRIB software li-
+brary (www.fmrib.ox.ac.uk/fsl), version 5.0 (Smith et al., 2004).
+Images for each participant were realigned to compensate for small
+head movements (Jenkinson and Smith, 2001). Subjects with average
+translational motion > 3 mm were excluded (n = 1). Data were spa-
+tially smoothed using a 5-mm,
+full-width-half-maximum Gaussian
+kernel. The data were ﬁltered in the temporal domain using a nonlinear
+high-pass ﬁlter with a 66 s cutoﬀ. A three-step registration process was
+used in which EPI images were ﬁrst registered to the matched-band-
+width high-resolution scan, then to the MPRAGE structural image, and
+ﬁnally into standard (Montreal Neurological Institute [MNI]) space,
+using nonlinear transformations. Four NF1 patients were registered
+using linear transformations due to image distortion during registration
+with nonlinear transformation.
+
+Standard model ﬁtting was conducted for all subjects, and all task
+trials were included in the analysis. Higher-level analyses modeled all
+loads. For ﬁrst-level whole brain analyses, the following events were
+modeled after convolution with a canonical gamma hemodynamic re-
+sponse function: All loads, load 1, load 3, load 5, load 7, delay 1.5 s
+(sec), delay 3 s, and delay 4.5 s. Events were modeled with the onset at
+
+the target presentation and duration of 6.5, 8, and 9.5 s to include the
+variable delay and probe periods. The six motion parameters and
+temporal derivatives of all regressors were included as covariates of no
+interest to improve statistical sensitivity. For each subject, the following
+contrasts were computed: All loads, load 1, load 3, load 5, load 7. The
+output from the subject-speciﬁc analyses was analyzed using a mixed-
+eﬀects model with FMRIB's Local Analysis of Mixed Eﬀects (FLAME).
+To ﬁrst rule out potential scanner-related diﬀerences, we checked
+for diﬀerences in neural activity between scanners in each group. Seven
+healthy controls and nine NF1 patients were scanned at the UCLA
+Center for Cognitive Neuroscience, and 18 healthy controls and 14 NF1
+patents were scanned at the UCLA Brain Mapping Center, on identically
+conﬁgured scanners. There were no signiﬁcant diﬀerences in the pro-
+portion of NF1 patients and healthy controls scanned at each location
+(χ2(2,48) = 0.67, p > 0.05). There were no diﬀerences in activation
+between scanners (p > 0.05 for all comparisons); thus, all subsequent
+group-level analyses were conducted with age, gender, and scanner
+added as covariates.
+
+Using FSL's FLAME, group-level statistics images were thresholded
+with a cluster-forming threshold of z > 2.3 as well as 3.1 and a cluster
+probability of p < 0.05, corrected for whole-brain multiple compar-
+isons using Gaussian random ﬁeld theory. According to Eklund et al.
+(2016, pp. 7902), “among the parametric software packages, FSL's
+FLAME1 clusterwise inference stood out as having much lower FWE,
+often being valid (under 5%), but this comes at the expense of highly
+conservative voxelwise inference.” These ﬁndings suggest that FSL's
+FLAME1 at a cluster threshold of 2.3 has much lower family wise error
+rates than other parametric software packages, almost comparable to
+permutation methods. Nevertheless, we still ran the analysis with a
+cluster z > 3.1 to see if the results at the z > 2.3 threshold were
+maintained.
+brain
+(139,264 voxels). Brain regions were identiﬁed using the Harvard-Ox-
+ford cortical and subcortical probabilistic atlases as well as associated
+Brodmann areas for regions without Harvard-Oxford designations. All
+activations are reported in MNI coordinates. For reporting of clusters,
+we used the cluster command in FSL. Anatomical localization within
+each cluster was obtained by searching within maximum likelihood
+regions from the FSL Harvard-Oxford probabilistic atlas to obtain the
+maximum z-statistic and MNI coordinates within each anatomical re-
+gion contained within a cluster.
+
+the whole
+
+included
+
+The
+
+search
+
+region
+
+Due to a technical issue during scan acquisition, behavioral data
+from the SCAP task were only available for a subset of NF1 patients
+(n = 5), although behavioral data were successfully collected on all 25
+healthy controls. Thus, we modeled all trials in our fMRI analyses. To
+conﬁrm that any observed diﬀerences in neural activity were not due to
+diﬀerences in task performance, subjects with available SCAP beha-
+vioral data were included in a follow-up analysis modeling all trials vs.
+correct trials only (see Supplementary Results for details).
+
+2.3.5. PPI analyses
+
+We used the generalized psychophysiological interaction (gPPI)
+method described in McLaren et al. (2012). Prior to running the gPPI
+analysis all subjects' SCAP scans were run through the FSL motion
+outlier tool (http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FSLMotionOutliers) to
+remove timepoints with signiﬁcant motion (FD > 0.5 mm). First, the
+following events were modeled after convolution with a canonical
+gamma hemodynamic response function: load 1, load 3, load 5, and
+load 7. Events were modeled with the onset of the visual array pre-
+sentation.
+
+Second, we extracted the time course of a priori seed regions within
+the left parietal, right parietal, and posterior cingulate cortex (PCC).
+The parietal regions were selected given their central role in working
+memory function (Baddeley, 2003; Todd and Marois, 2004). The PCC
+seed was selected as a central hub of the default mode network (DMN;
+33,34), as we were interested in exploring potential task related DMN
+interference in NF1. Seed regions were 8 mm spheres centered on the
+
+803
+
+A.F.A. Ibrahim et al.
+
+NeuroImage: Clinical 15 (2017) 801–811
+
+Table 1
+Coordinates for regions of interest used as PPI seeds. Montreal Neurological Institute
+(MNI) coordinates represent the center location of the 8 mm sphere.
+
+ROI
+
+PCC
+Left parietal
+Right parietal
+
+X (mm)
+
+Y (mm)
+
+Z (mm)
+
+2
+−20
+22
+
+−56
+−64
+−66
+
+22
+56
+52
+
+point of maximum activation during SCAP trials obtained from an in-
+dependent sample of healthy individuals; see Poldrack et al. (2016b) for
+description of the sample and Table 1 for ROI coordinates.
+
+Third, the seed time-course was multiplied by condition onset times
+for load 1, load 3, load 5, and load 7 separately, and then convolved
+with the hemodynamic response function to obtain the PPI results for
+each load. The six motion parameters and temporal derivatives of all
+regressors were included as covariates of no interest to improve sta-
+tistical sensitivity by reducing the inﬂuence of motion. In order to
+simplify the analyses and reduce multiple comparisons, rather than
+investigating each load separately, a contrast was set up in order to
+calculate the mean PPI for all loads. Similar to the whole brain analysis,
+Group-level statistics images were thresholded with a cluster-forming
+threshold of z > 2.3 and a Bonferroni corrected cluster probability of
+p < 0.017. PPI beta values between seed and secondary regions
+(Harvard-Oxford anatomical masks of the frontal, temporal, and par-
+ietal regions) were extracted from the all loads zstat image.
+
+2.3.6. PPI and behavioral measures
+
+To assess whether functional connectivity during task performance
+was associated with cognitive performance outside the scanner, we
+assessed the relationship between seed-based connectivity and beha-
+vioral performance on two tasks of nonverbal reasoning and auditory
+working memory, respectively, Matrix Reasoning and LNS, using linear
+regression models. Each Beta coeﬃcient value represents the mean
+connectivity between a seed region (PCC, left parietal, or right parietal)
+and a target region of interest (ROI). Target ROIs are structural ROIs
+extracted from the Harvard-Oxford atlas (frontal = frontal pole + in-
+ferior middle frontal, temporal = middle temporal lobe posterior divi-
+sion + inferior temporal posterior division, and parietal = lateral oc-
+cipital + superior parietal lobule; see Supplementary Fig. 3 for ROIs).
+Betas were extracted using the fslmeants command in fsl from each PPI
+group level model (controlling for scanner), which presents the average
+intensities over all voxels in the ROI. We then used the betas extracted
+from each seed-target pair as predictors in a regression with each of the
+
+Table 2
+Demographic and clinical characteristics of study participants.
+
+behavioral tasks as the outcome variable.
+
+NF1 patients and healthy controls were analyzed separately. We did
+not include all the connectivity values in one model because of sig-
+niﬁcant collinearity with the overlapping PPI seed regions. Thus, we
+ran three separate models run for each behavioral measure as the
+outcome; the connectivity values for each target region were included
+in the same model. Speciﬁcally, Model I included age, left parietal-
+frontal betas (i.e., beta regression coeﬃcient value indexing con-
+nectivity between the left parietal seed and the Harvard-Oxford derived
+frontal pole region), right parietal-frontal betas, and PCC-frontal betas
+as predictors. Model II includes age, left parietal-parietal betas, right
+parietal-parietal betas, and PCC-parietal betas as predictors. Lastly,
+Model III includes age, left parietal-temporal betas, right parietal-tem-
+poral betas, and PCC-temporal betas as predictors.
+
+3. Results
+
+3.1. Behavioral results
+
+3.1.1. Demographic and clinical characteristics
+
+The total sample consisted of 47 adult participants (23 NF1, 25
+healthy controls). As shown in Table 2, NF1 and control groups were
+matched on all demographic factors except for IQ and years of educa-
+tion, such that controls had signiﬁcantly higher IQ and more years of
+education than NF1 patients. Diﬀerences between NF1 patients and
+healthy controls on IQ and years of education are consistent with pre-
+vious ﬁndings (Levine et al., 2006; Tomson et al., 2015).
+
+3.2. Whole brain activation results
+
+3.2.1. All loads
+
+As shown in Fig. 1 and Table 3, a comparison between controls and
+NF1 patients across all working memory loads revealed signiﬁcantly
+increased activation in controls relative to NF1 patients in the left
+DLFPC and right intraparietal sulcus (IPS) at the cluster threshold of
+2.3. The left DLPFC cluster was still signiﬁcant at a cluster threshold of
+3.1, although the right IPS cluster was no longer signiﬁcant at this
+threshold (see Supplementary Fig. 4 and Table 3). There were no re-
+gions showing greater activation for NF1 patients relative to controls, at
+either threshold.
+
+3.2.2. High versus low loads
+
+As shown in Fig. 1c and Table 3 (cluster threshold of 2.3), controls
+showed greater right lateral occipital activation in high loads than low
+loads as compared to NF1 patients. In contrast, relative to controls NF1
+
+NF1 participants (n = 23)
+
+Control participants (n = 25)
+
+Age (years, ± SD)
+
+Participant education (years, ± SD)
+
+Gender (N, % female)
+
+Ethnicity (N, % Latino)
+
+Psychotropic medication (N, none/antidepressant)
+
+Full scale IQ (Mean, ± SD)*
+
+LNS (proportion correct; Mean, ± SD)
+
+Matrix Reasoning T-Score (Mean, ± SD)
+
+32.69
+(9.08)
+13.39
+(2.76)
+14
+(61%)
+5
+(22%)
+19/4
+
+98.70
+(14.10)
+0.65
+(0.06)
+50.74
+(7.72)
+
+*Based on 2-subtest Wechsler Abbreviated Scale of Intelligence (Vocabulary and Matrix Reasoning).
+**No other medication classes were reported by any subjects.
+
+804
+
+33.08
+(8.89)
+15.12
+(1.13)
+16
+(64%)
+12
+(48%)
+25/0
+
+112.36
+(21.32)
+0.67
+(0.09)
+55.84
+(10.66)
+
+p-Value
+
+n.s.
+
+p = 0.006
+
+n.s.
+
+n.s.
+
+χ2 for controls vs NF1:
+p = 0.029
+p = 0.012
+
+n.s.
+
+p = 0.023
+
+A.F.A. Ibrahim et al.
+
+NeuroImage: Clinical 15 (2017) 801–811
+
+Fig. 1. Diﬀerences in neural activity between NF1 Patients
+versus Controls. In 1a red clusters represent activity from
+the contrast of all WM conditions > baseline for NF1 pa-
+tients greater than controls. To visualize group diﬀerences
+within these regions (1b), bar plots are presented which
+show percent signal change extracted from left dorsolateral
+prefrontal cortex and right parietal cortex. The X-axis re-
+presents the group (NF1 Patients = blue, Controls = red)
+and the Y-axis represents percent signal change. No addi-
+tional statistics were run on data presented in bar graphs. 1c
+shows the results from the high minus low contrast, where
+red clusters represent regions where NF1 patients showed
+greater activity than heathy controls and green clusters
+represent regions where healthy controls have greater ac-
+tivity than NF1 patients. All analyses co-vary for scanner,
+age, and gender (For interpretation of the references to
+colour in this ﬁgure legend, the reader is referred to the web
+version of this article.).
+
+patients exhibited more activation in the posterior cingulate, right an-
+gular gyrus, right orbitofrontal cortex, right temporal pole, right middle
+frontal gyrus, left parietal cortex, and left inferior temporal gyrus in
+high loads than low loads. At a cluster threshold of 3.1, healthy controls
+did not show any regions of diﬀerentially increased activation relative
+to NF1 patients for high versus low loads; however, most of the pre-
+viously observed results for NF1 patients relative to controls survived
+this more stringent threshold (i.e., greater activation in the posterior
+cingulate, left parietal cortex, and right orbitofrontal cortex). Increased
+
+activation in the right middle temporal gyrus was also observed in NF1
+patients vs. controls at this threshold (see Supplementary Fig. 5 and
+Table 3).
+
+3.3. PPI results
+
+3.3.1. Functional connectivity with left parietal seed region
+
+Despite the overall reduced neural activity, we observed during task
+performance in all loads, NF1 patients showed greater connectivity
+
+805
+
+A.F.A. Ibrahim et al.
+
+NeuroImage: Clinical 15 (2017) 801–811
+
+Table 3
+Regions showing between-group diﬀerences in activation for NF1 patients and healthy controls during all working memory conditions. Montreal Neurological Institute (MNI) coordinates
+represent the location of maximum activation for signiﬁcant clusters.
+
+Contrast
+
+Cluster threshold
+
+Cluster
+
+BA
+
+Voxels
+
+Max Z-stat
+
+Max X (mm)
+
+Max Y (mm)
+
+Max Z (mm)
+
+All loads controls > NF1
+
+All loads NF1 > controls
+
+High-low loads controls > NF1
+
+High-low loads NF1 > controls
+
+2.3
+2.3
+3.1
+2.3
+3.1
+2.3
+3.1
+2.3
+2.3
+2.3
+2.3
+2.3
+2.3
+2.3
+3.1
+3.1
+3.1
+3.1
+3.1
+
+Right intraparietal sulcus
+Left middle frontal gyrus*
+Left middle frontal gyrus*
+None
+None
+Right lateral occipital
+None
+Posterior cingulate
+Right angular gyrus
+Right orbitofrontal cortex
+Left parietal cortex
+Right temporal pole
+Right middle frontal gyrus
+Left inferior temporal gyrus
+Posterior cingulate
+Left parietal cortex
+Right middle temporal gyrus
+Right orbitofrontal cortex
+Right middle temporal gyrus
+
+7
+–
+–
+–
+–
+19
+–
+–
+39
+11
+39
+38
+9
+20
+–
+39
+21
+11
+21
+
+626
+370
+115
+–
+–
+588
+–
+3294
+2807
+2748
+1012
+611
+429
+375
+531
+156
+141
+135
+107
+
+4.26
+4.12
+4.12
+–
+–
+3.82
+–
+4.16
+4.47
+4.65
+4.19
+4.33
+4.05
+3.71
+4.16
+4.19
+4.05
+4.65
+4.45
+
+22
+−28
+−28
+–
+–
+30
+–
+2
+48
+18
+−54
+44
+26
+−48
+2
+−54
+60
+18
+48
+
+−78
+−6
+−6
+–
+–
+−68
+–
+−48
+−56
+62
+−62
+26
+34
+−20
+−48
+−62
+−36
+62
+−46
+
+44
+40
+40
+–
+–
+26
+–
+12
+24
+−2
+34
+−12
+42
+−14
+12
+34
+−8
+−2
+12
+
+Table 4
+Regions showing between-group diﬀerences in PPI for NF1 patients and healthy controls during all working memory conditions and high versus low loads. Montreal Neurological Institute
+(MNI) coordinates represent the location of maximum activation for signiﬁcant clusters.
+
+Contrast
+
+Seed
+
+Cluster threshold Cluster
+
+BA Voxels Max Z-
+
+All loads controls > NF1
+
+Left parietal
+
+Right parietal
+
+PCC
+
+High-low loads controls > NF1
+
+Left Parietal
+
+Right Parietal
+
+PCC
+
+All loads NF1 > controls
+
+Left parietal
+
+Right parietal
+
+PCC
+
+High-low loads NF1 > controls
+
+Left parietal
+
+Right parietal
+
+PCC
+
+2.3
+3.1
+2.3
+3.1
+2.3
+2.3
+3.1
+2.3
+3.1
+2.3
+
+2.3
+2.3
+2.3
+2.3
+3.1
+
+2.3
+2.3
+2.3
+3.1
+2.3
+2.3
+2.3
+3.1
+2.3
+2.3
+3.1
+2.3
+2.3
+2.3
+2.3
+3.1
+2.3
+3.1
+2.3
+3.1
+2.3
+2.3
+3.1
+
+None
+None
+None
+None
+Left superior temporal gyrus
+Left fusiform gyrus
+Left superior temporal gyrus
+None
+None
+Right inferior frontal gyrus (pars
+opercularis)
+Left parietal cortex
+Left premotor cortex
+Right parietal cortex
+Posterior Cingulate
+Right inferior frontal gyrus (pars
+opercularis)
+Right precentral gyrus
+Right premotor cortex
+Central premotor cortex
+None
+Left secondary visual cortex
+Left premotor cortex
+Left associative visual cortex
+None
+Primary visual cortex
+Left associative visual cortex
+Primary visual cortex
+Cerebellum*
+Right inferior temporal gyrus
+Right precentral gyrus*
+Left premotor cortex
+Cerebellum*
+Left secondary visual cortex
+None
+None
+None
+Left secondary visual cortex
+Left inferior temporal gyrus
+None
+
+stat
+
+–
+–
+–
+–
+5.53
+4.43
+5.53
+–
+–
+5.58
+
+3.88
+4.4
+4.63
+4.01
+5.58
+
+4.06
+3.89
+3.77
+–
+4.06
+4.07
+3.81
+–
+3.82
+3.63
+3.82
+5.08
+4.15
+3.48
+4.98
+5.08
+4.18
+–
+–
+–
+4.08
+3.82
+–
+
+–
+–
+–
+–
+22
+37
+22
+–
+–
+44
+
+7
+6
+40
+23
+44
+
+–
+6
+6
+–
+18
+6
+19
+–
+17
+19
+17
+–
+20
+–
+6
+–
+18
+–
+–
+–
+18
+20
+–
+
+–
+–
+–
+–
+3122
+1392
+867
+–
+–
+758
+
+587
+569
+404
+387
+235
+
+788
+634
+464
+–
+620
+474
+296
+–
+996
+527
+134
+2447
+1429
+513
+494
+159
+564
+–
+–
+–
+380
+370
+–
+
+Max X
+(mm)
+
+Max Y
+(mm)
+
+Max Z (mm)
+
+–
+–
+–
+–
+−56
+−42
+−56
+–
+–
+50
+
+−28
+−38
+56
+2
+50
+
+18
+22
+0
+–
+−4
+−26
+−32
+–
+−6
+−18
+−6
+10
+42
+24
+−30
+10
+−24
+–
+–
+–
+−24
+−42
+–
+
+–
+–
+–
+–
+−22
+−66
+−22
+–
+–
+10
+
+−66
+−2
+−46
+−32
+10
+
+−30
+−8
+−4
+–
+−84
+−22
+−82
+–
+−68
+−60
+−68
+−72
+−30
+−26
+−8
+−72
+−82
+–
+–
+–
+−82
+−6
+–
+
+–
+–
+–
+–
+8
+−4
+8
+–
+–
+36
+
+46
+58
+44
+28
+36
+
+60
+70
+60
+–
+12
+70
+−20
+–
+8
+−14
+8
+−28
+−18
+42
+64
+−28
+12
+–
+–
+–
+10
+−24
+–
+
+Note: some coordinates had no associated Brodmann area, for which the Harvard-Oxford region name was used. For coordinates marked with a * no associated Brodmann area or
+Harvard-Oxford region was found, in which case the name for the closest Brodmann area was listed.
+
+806
+
+A.F.A. Ibrahim et al.
+
+NeuroImage: Clinical 15 (2017) 801–811
+
+Fig. 2. Diﬀerences in task associated functional connectivity (psycho-physiological interaction analysis) for NF1 versus controls, all working memory conditions. Red clusters indicate
+regions were individuals with NF1 show greater functional connectivity than healthy controls. Green clusters represent indicate regions where healthy controls show greater functional
+connectivity than individuals with NF1. Panels A & B show PPI results from the left and right parietal seeds, respectively. Panel C shows PPI results from the posterior cingulate seed. (For
+interpretation of the references to colour in this ﬁgure legend, the reader is referred to the web version of this article.)
+
+between the left parietal seed and multiple cortical and subcortical
+regions (at z = 2.3); speciﬁcally, left secondary visual cortex, left pre-
+motor cortex, left associative visual cortex, and cerebellum, relative to
+healthy controls. There were no regions for which controls showed
+greater left parietal connectivity than NF1 patients (see Table 4 and
+Fig. 2a). Percent signal change in the left parietal seed indicates acti-
+vation of the region (Fig. 2d). At a cluster threshold of 3.1 there were no
+regions of diﬀerential connectivity with the left parietal seed.
+
+When comparing high versus low loads (z = 2.3), NF1 patients
+exhibited greater connectivity between the left parietal seed and left
+secondary visual cortex. There were no regions in which healthy con-
+trols showed greater connectivity with the left parietal seed region than
+NF1 patients (see Fig. 3a and Table 4). At z = 3.1, however, neither
+NF1 patients or healthy controls exhibited greater connectivity with the
+left parietal seed.
+
+3.3.2. Functional connectivity with right parietal seed region
+
+Similarly, in all loads (z = 2.3), NF1 patients showed greater con-
+nectivity between the right parietal seed and left associative visual
+cortex as well as the primary visual cortex. There were no regions in
+which controls showed greater right parietal connectivity than NF1
+patients (see Table 4 and Fig. 2b). Percent signal change in the right
+parietal seed indicates activation of the region (Fig. 2d). At a cluster
+
+threshold of 3.1, neither NF1 patients or healthy controls showed sig-
+niﬁcant connectivity with the right parietal seed (see Supplementary
+Fig. 6 and Table 4).
+
+In the high versus low load contrast, NF1 patients did not exhibit
+greater connectivity with the right parietal seed than healthy controls.
+Healthy controls showed greater connectivity between the right parietal
+seed with the right pars opercularis, bilateral parietal cortex, left pre-
+motor cortex, and the posterior cingulate (see Fig. 3b and Table 4). At a
+cluster threshold of 3.1, healthy controls still showed greater con-
+nectivity between the right parietal seed and right pars opercularis
+relative to NF1 patients (see Supplementary Fig. 7 and Table 4).
+
+3.3.3. Functional connectivity with posterior cingulate (PCC) seed region
+
+For all loads (z = 2.3), NF1 patients showed greater connectivity
+between the PCC and cerebellum, right inferior temporal gyrus, right
+precentral gyrus, and left premotor cortex than did healthy controls. In
+contrast, we found that healthy controls showed greater connectivity
+between the PCC and left superior temporal gyrus, as well as the left
+fusiform gyrus, than did NF1 patients (see Table 4 and Fig. 2c). Percent
+signal change in the PCC seed indicates deactivation of the region;
+hence, connectivity between regions listed above indicates healthy
+controls are exhibiting greater simultaneous deactivation in these re-
+gions during the task compared to baseline than are NF1 patients
+
+807
+
+A.F.A. Ibrahim et al.
+
+NeuroImage: Clinical 15 (2017) 801–811
+
+Fig. 3. Diﬀerences in task associated functional connectivity (psycho-physiological interaction analysis) for NF1 versus controls, high-low working memory conditions. Red clusters
+indicate regions where individuals with NF1 show greater functional connectivity than healthy controls. Green clusters represent indicate regions where healthy controls show greater
+functional connectivity than individuals with NF1. Panels A & B show PPI results from the left and right parietal seeds, respectively. Panel C shows PPI results from the posterior cingulate
+seed. (For interpretation of the references to colour in this ﬁgure legend, the reader is referred to the web version of this article.)
+
+(Fig. 2d). At a cluster threshold of 3.1, NF1 patients still showed greater
+connectivity between the PCC and cerebellum than healthy controls,
+and healthy controls still showed greater connectivity between the PCC
+and left superior temporal gyrus (see Supplementary Fig. 8 and
+Table 4).
+
+In the high versus low load contrast, NF1 patients exhibited greater
+connectivity between the PCC seed and the left secondary visual cortex
+and left inferior temporal gyrus. Healthy controls exhibited greater
+connectivity between the PCC seed and the right precentral gyrus, right
+and medial premotor cortex (see Fig. 3c and Table 4). No signiﬁcant
+connectivity diﬀerences between NF1 patients and healthy controls for
+the high vs. low load contrast were observed at a cluster threshold of
+3.1.
+
+3.4. Functional connectivity and cognitive abilities
+
+3.4.1. Matrix Reasoning
+
+PCC-frontal connectivity was a signiﬁcant predictor of Matrix
+Reasoning performance in NF1 patients, but this relationship was not
+observed in healthy controls (see Supplementary Table 1 and Fig. 4a).
+The relationship was such that greater connectivity between the PCC
+and the frontal region was associated with better Matrix Reasoning
+performance for NF1 patients (β = 0.57, p < 0.05). This eﬀect sur-
+vives Bonferroni correction of p < 0.017. There were no other sig-
+niﬁcant predictors of Matrix Reasoning performance.
+
+3.4.2. LNS
+PCC-parietal connectivity was a signiﬁcant predictor of LNS per-
+formance (β = 0.45, p < 0.05) in NF1 patients but not in healthy
+
+808
+
+A.F.A. Ibrahim et al.
+
+NeuroImage: Clinical 15 (2017) 801–811
+
+connectivity
+
+Fig. 4. PPI connectivity and performance on cognitive tasks.
+A. PCC-Frontal
+correlates with Matrix
+Reasoning performance in NF1 patients but not controls.
+Standardized beta reported is controlling for age, left par-
+ietal-frontal, and right parietal-frontal connectivity betas for
+NF1 patients.
+B. PCC-parietal connectivity correlates with LNS perfor-
+mance in NF1 patients but not controls. Standardized beta
+reported is controlling for age, left parietal-parietal, and
+right parietal -parietal connectivity betas for NF1 patients.
+
+controls (see Supplementary Table 2 and Fig. 4b). As PCC-parietal
+connectivity increased in NF1 patients, so did LNS performance.
+However, this eﬀect does not hold up under Bonferroni correction.
+There were no other signiﬁcant predictors of LNS performance.
+
+4. Discussion
+
+Our study both conﬁrmed and extended previous ﬁndings regarding
+the neural substrates of spatial working memory in patients with NF1, a
+monogenic disorder associated with speciﬁc cognitive impairments.
+First, we found signiﬁcant hypoactivation of key components of
+working memory circuitry, the right IPS and left DLPFC in patients with
+NF1 relative to healthy controls during task performance, thus sup-
+porting prior ﬁndings in independent samples (Hyman et al., 2006;
+Clements-Stephens et al., 2008), including our own previous work
+(Shilyansky et al., 2010). In addition, when investigating regions acti-
+vated in high memory loads relative to low loads, controls showed
+greater right lateral occipital activation than NF1 patients. In contrast,
+NF1 patients exhibited more diﬀuse activation during high loads than
+low loads, speciﬁcally in the posterior cingulate, right angular gyrus,
+right orbitofrontal cortex, right temporal pole, right middle frontal
+gyrus, left parietal cortex, and left inferior temporal gyrus, as compared
+to healthy controls. Based on these ﬁndings, it is tempting to speculate
+that the more diﬀuse pattern of increased activation in high vs low
+memory loads in NF1 patients may reﬂect a less eﬃcient pattern of
+neural activity. This hypothesis warrants further investigation in future
+studies of both working memory and other cognitive functions aﬀected
+in NF1.
+
+Secondly, our ﬁndings revealed novel information regarding func-
+tional connectivity during spatial WM task performance in NF1. The PPI
+analyses indicated diﬀerential patterns of connectivity between patients
+with NF1 and healthy controls. Speciﬁcally, NF1 patients exhibited
+greater connectivity than healthy controls between bilateral parietal
+(‘task-positive’) regions and visual cortices. In addition, consistent with
+the overall pattern of ﬁndings, when comparing high vs. low memory
+loads NF1 patients exhibited greater connectivity (relative to healthy
+controls) between the left parietal and the left visual cortex. In contrast,
+healthy controls showed greater connectivity (compared to NF1) with
+the right parietal and frontal, bilateral parietal regions, and the PCC.
+Notably, healthy controls exhibited greater connectivity between a
+‘task-negative’ region (PCC) and left temporal regions than NF1 pa-
+tients. As the PCC showed deactivation during task performance, this
+pattern of ﬁndings indicates diﬀerentially greater simultaneous deac-
+tivation of the PCC and left temporal regions during working memory
+trials in controls relative to patients with NF1. In contrast, NF1 patients
+exhibited greater connectivity between the “task-negative” region
+(PCC) and regions not generally associated with the DMN or visuo-
+spatial WM performance (i.e. cerebellum) than healthy controls.
+
+Previous research has implicated the PCC and lateral temporal
+cortex (as well as several other regions) in the DMN (Buckner et al.,
+2008). DMN regions are associated with self-referential thought and are
+generally known to be less active during demanding cognitive tasks
+(Buckner et al., 2008). In addition, diﬀerential activation and deacti-
+vation of the DMN has been found in multiple clinical groups (e.g.
+patients with Alzheimer's disease, schizophrenia, depression, and an-
+xiety) as compared to healthy controls (Broyd et al., 2009). Relatively
+
+809
+
+A.F.A. Ibrahim et al.
+
+NeuroImage: Clinical 15 (2017) 801–811
+
+less deactivation of the DMN during a cognitive task is associated with
+lapsed attention (Buckner et al., 2008), and evidence of decreased de-
+activation of the DMN has been observed in patients with Alzheimer's,
+epilepsy, and autism (Broyd et al., 2009). Reduced functional con-
+nectivity between the PCC and temporal regions in individuals with
+NF1 relative to controls could indicate DMN interference, as postulated
+by Violante et al. (2012). To elaborate, the increased connectivity be-
+tween DMN associated regions during task trials in healthy controls
+could suggest appropriate deactivation of the DMN during WM per-
+formance. In contrast, the reduced connectivity in the DMN associated
+regions of NF1 patients could indicate a failure to properly deactivate
+the DMN, possibly leading to task interference. However, deﬁnitive
+support for the DMN interference hypothesis warrants further experi-
+ments capable of dissecting the causal inﬂuence of task-positive net-
+works on DMN activation/deactivation. Our study is the ﬁrst to explore
+task based functional connectivity in NF1 patients, and thus provides
+unique insight into atypical patterns of neural activity that underlie
+characteristic cognitive impairments in NF1. It is currently unclear
+whether the altered functional connectivity observed in patients with
+NF1 is a source of their cognitive dysfunction or a compensatory me-
+chanism.
+
+Finally, we found that task-related long-range connectivity between
+the PCC and frontal/parietal lobes was associated with better perfor-
+mance on behavioral measures of visuospatial and working memory
+ability (respectively) in patients with NF1, although this relationship
+was not observed in controls. As hypothesized, this ﬁnding suggests that
+appropriate deactivation of DMN implicated regions is associated with
+better task performance for NF1 patients. Anterior-posterior con-
+nectivity could be essential for successful visuo-spatial performance,
+speciﬁcally in NF1 patients. Our ﬁnding is the ﬁrst to demonstrate a
+possible relationship between functional connectivity and cognitive
+ability in NF1 patients.
+
+5. Implications, limitations and future directions
+
+Our ﬁndings expand current understanding of aberrant neural
+functioning in NF1 patients. Two major strengths of the current study
+were that: 1) we replicated the prior ﬁndings of Shilyansky et al. (2010)
+of hypoactivation of working memory circuitry in an independent
+sample of patients with NF1; and 2), in a novel analysis, we extended
+our previous ﬁndings to explore on-line working memory task related
+connectivity in NF1 patients, and the relationship of task-related con-
+nectivity to behavioral performance.
+
+Understanding the speciﬁc mechanisms associated with these deﬁ-
+cits has the potential to inform future intervention trials. Interventions
+targeting impairments in visuospatial learning and attention have not
+yielded replicable results in children with NF1 (Bearden et al., 2016;
+Payne et al., 2016), despite work in animal models showing that ma-
+nipulations which decrease Ras activity can rescue cognitive deﬁcits
+(Costa and Silva, 2002). It is important to note that our fMRI study
+included adults with NF1, and thus may not generalize to children with
+this disorder.
+
+Several other limitations of the current study should be noted. Most
+obviously, the sample size was modest; however, given that the pre-
+valence of NF1 is about 1:3000 (Fain et al., 1987), larger samples are a
+challenge for a single site study. Finally, due to a technical malfunction
+behavioral data were unavailable for the majority of NF1 participants
+from the in-scanner working memory task. Despite this, we did ﬁnd that
+functional connectivity was associated with behavioral performance on
+tasks of visuospatial reasoning and working memory in NF1 patients.
+Future studies in larger samples are warranted, both to replicate the
+current ﬁndings and to explore the extent to which the NF1 neural
+signature from the SCAP task applies to other working memory-asso-
+ciated tasks. Additional studies are also needed to explore the extent to
+which DMN interference occurs in patients with NF1 as well as the
+relationship between spatial WM dysfunction and the structural brain
+
+abnormalities often seen in individuals with NF1.
+
+6. Concluding remarks
+
+In summary, our ﬁndings elucidate the link between characteristic
+functional brain abnormalities in NF1 and the behavioral proﬁle while
+replicating previous ﬁndings. We found that there is a distinct neural
+signature associated with the visuo-spatial impairment generally ex-
+hibited by NF1 patients. This distinct neural signature consists of re-
+duced activation of key brain regions associated with working memory
+function, abnormal activation between parietal regions and visual
+cortices, and aberrant deactivation of regions associated with the de-
+fault mode network, a result consistent with the hypothesis that en-
+hanced neuronal inhibition contributes to cognitive deﬁcits in NF1
+(Costa et al., 2002; Mainberger et al., 2013; Shilyansky et al., 2010).
+These ﬁndings oﬀer initial insights into the neural mechanisms through
+which NF1 inﬂuences cognitive abilities and future research should
+further explore this relationship to provide a more comprehensive un-
+derstanding of the eﬀects of NF1.
+
+Financial disclosures
+
+None of the authors involved in this project have any conﬂicts of
+
+interest to report.
+
+Acknowledgements
+
+This work was supported by NIMH R34 MH089299, the Carol Moss
+Spivak Foundation,
+and the Consortium for Neuropsychiatric
+Phenomics (NIH Roadmap for Medical Research grants UL1-DE019580
+and PL1MH083271). The funding agencies played no role in the deci-
+sion to submit the manuscript for publication. These data were pre-
+sented in part at
+the Society for Neuroscience
+2013 & 2016 (AI) and Children's Tumor Foundation 2014 (TR).
+
+the meetings of
+
+Appendix A. Supplementary data
+
+Supplementary data to this article can be found online at http://dx.
+
+doi.org/10.1016/j.nicl.2017.06.032.
+
+References
+
+Baddeley, A., 2003. Working memory: looking back and looking forward. Nat. Rev.
+
+Neurosci. 4 (10), 829–839.
+
+Bearden, C.E., Hellemann, G.S., Rosser, T., Montojo, C., Jonas, R., Enrique, N., et al.,
+
+2016. A randomized placebo-controlled lovastatin trial for neurobehavioral function
+in neuroﬁbromatosis I. Ann. Clin. Transl. Neurol. 3 (4), 266–279.
+
+Billingsley, R.L., Jackson, E.F., Slopis, J.M., Swank, P.R., Mahankali, S., Moore, B.D.,
+
+2004. Functional MRI of visual–spatial processing in neuroﬁbromatosis, type I.
+Neuropsychologia 42 (3), 395–404.
+
+Broyd, S.J., Demanuele, C., Debener, S., Helps, S.K., James, C.J., Sonuga-Barke, E.J.S.,
+
+2009. Default-mode brain dysfunction in mental disorders: a systematic review.
+Neurosci. Biobehav. Rev. 33 (3), 279–296.
+
+Buckner, R.L., Andrews-Hanna, J.R., Schacter, D.L., 2008. The brain's default network.
+
+Ann. N. Y. Acad. Sci. 1124 (1), 1–38.
+
+Cawthon, R.M., Weiss, R., Xu, G., Viskochil, D., Culver, M., Stevens, J., et al., 1990. A
+
+major segment of the neuroﬁbromatosis type 1 gene: cDNA sequence, genomic
+structure, and point mutations. Cell 62 (1), 193–201.
+
+Clements-Stephens, A.M., Rimrodt, S.L., Gaur, P., Cutting, L.E., 2008. Visuospatial pro-
+
+cessing in children with neuroﬁbromatosis type 1. Neuropsychologia 46 (2),
+690–697.
+
+Costa, R.M., Silva, A.J., 2002. Review article: molecular and cellular mechanisms un-
+
+derlying the cognitive deﬁcits associated with neuroﬁbromatosis 1. J. Child Neurol.
+17 (8), 622–626.
+
+Costa, R.M., Federov, N.B., Kogan, J.H., Murphy, G.G., Stern, J., Ohno, M., et al., 2002.
+Mechanism for the learning deﬁcits in a mouse model of neuroﬁbromatosis type 1.
+Nature 415 (6871), 526–530.
+
+Eklund, A., Nichols, T.E., Knutsson, H., 2016. Cluster failure: why fMRI inferences for
+spatial extent have inﬂated false-positive rates. Proc. Natl. Acad. Sci. U. S. A. 113
+(28), 7900–7905.
+
+Fain, P.R., Barker, D.F., Goldgar, D.E., Wright, E., Nguyen, K., Carey, J., et al., 1987.
+
+Genetic analysis of NF1: identiﬁcation of close ﬂanking markers on chromosome 17.
+Genomics 1 (4), 340–345.
+
+810
+
+A.F.A. Ibrahim et al.
+
+NeuroImage: Clinical 15 (2017) 801–811
+
+Garg, S., Lehtonen, A., Huson, S.M., Emsley, R., Trump, D., Evans, D.G., et al., 2013.
+
+Payne, J.M., Barton, B., Ullrich, N.J., Cantor, A., Hearps, S.J.C., Cutter, G., Rosser, T.,
+
+Autism and other psychiatric comorbidity in neuroﬁbromatosis type 1: evidence from
+a population-based study. Dev. Med. Child Neurol. 55 (2), 139–145.
+
+Glahn, D.C., Kim, J., Cohen, M.S., Poutanen, V.-P., Therman, S., Bava, S., et al., 2002.
+
+Maintenance and manipulation in spatial working memory: dissociations in the
+prefrontal cortex. NeuroImage 17 (1), 201–213.
+
+Gold, J.M., Carpenter, C., Randolph, C., Goldberg, T.E., Weinberger, D.R., 1997. Auditory
+
+working memory and Wisconsin card sorting test performance in schizophrenia.
+Arch. Gen. Psychiatry 54 (2), 159–165.
+
+Hyman, S.L., Shores, A., North, K.N., 2005. The nature and frequency of cognitive deﬁcits
+
+in children with neuroﬁbromatosis type 1. Neurology 65 (7), 1037–1044.
+
+Hyman, S.L., Shores, E.A., North, K.N., 2006. Learning disabilities in children with neu-
+roﬁbromatosis type 1: subtypes, cognitive proﬁle, and attention-deﬁcit–hyperactivity
+disorder. Dev. Med. Child Neurol. 48 (12), 973–977.
+
+Jenkinson, M., Smith, S., 2001. A global optimisation method for robust aﬃne registra-
+
+tion of brain images. Med. Image Anal. 5 (2), 143–156.
+
+Karlsgodt, K.H., Rosser, T., Lutkenhoﬀ, E.S., Cannon, T.D., Silva, A., Bearden, C.E., 2012.
+Alterations in white matter microstructure in neuroﬁbromatosis-1. PLoS One 7 (10),
+e47854.
+
+Levine, T.M., Materek, A., Abel, J., O'Donnell, M., Cutting, L.E., 2006. Cognitive proﬁle of
+
+neuroﬁbromatosis type 1. Semin. Pediatr. Neurol. 13 (1), 8–20.
+
+Mainberger, F., Jung, N.H., Zenker, M., Wahlländer, U., Freudenberg, L., Langer, S., et al.,
+
+2013. Lovastatin improves impaired synaptic plasticity and phasic alertness in pa-
+tients with neuroﬁbromatosis type 1. BMC Neurol. 13, 131.
+
+McLaren, D.G., Ries, M.L., Xu, G., Johnson, S.C., 2012. A generalized form of context-
+dependent psychophysiological interactions (gPPI): a comparison to standard ap-
+proaches. NeuroImage 61 (4), 1277–1286.
+
+Montojo, C.A., Ibrahim, A., Karlsgodt, K.H., Chow, C., Hilton, A.E., Jonas, R.K., et al.,
+
+2014. Disrupted working memory circuitry and psychotic symptoms in 22q11.2 de-
+letion syndrome. NeuroImage Clin. 4, 392–402.
+
+Moore, B.D., Slopis, J.M., Jackson, E.F., Winter, A.E.D., Leeds, N.E., 2000. Brain volume
+
+in children with neuroﬁbromatosis type 1 relation to neuropsychological status.
+Neurology 54 (4), 914–920.
+
+North, K., 2000. Neuroﬁbromatosis type 1. Am. J. Med. Genet. 97 (2), 119–127.
+Payne, J.M., Moharir, M.D., Webster, R., North, K.N., 2010. Brain structure and function
+
+in neuroﬁbromatosis type 1: current concepts and future directions. J. Neurol.
+Neurosurg. Psychiatry 81 (3), 304–309.
+
+Payne, J.M., Hyman, S.L., Shores, E.A., North, K.N., 2011. Assessment of executive
+
+function and attention in children with neuroﬁbromatosis type 1: relationships be-
+tween cognitive measures and real-world behavior. Child Neuropsychol. 17 (4),
+313–329.
+
+Walsh, K.S., Gioia, G.A., Wolters, P.L., et al., 2016. Randomized placebo-controlled
+study of lovastatin in children with neuroﬁbromatosis type 1. Neurology 87 (1),
+2575–2584.
+
+Poldrack, R.A., Congdon, E., Triplett, W., Gorgolewski, K.J., Karlsgodt, K.H., Mumford,
+J.A., et al., 2016a. A phenome-wide examination of neural and cognitive function.
+Sci. Data 3. ([Internet], Dec 6 [cited 2016 Dec 27], Available from:). http://www.
+ncbi.nlm.nih.gov/pmc/articles/PMC5139672/.
+
+Poldrack, R., Congdon, E., Triplett, W., Gorgolewski, K., Karlsgodt, K., Mumford, J., et al.,
+2016b. A phenome-wide examination of neural and cognitive function. In: bioRxiv,
+pp. 59733.
+
+Rowbotham, I., M I, S EJ, J SC, 2009. Cognitive control in adolescents with neuroﬁ-
+
+bromatosis type 1. Neuropsychology 23 (1), 50–60.
+
+Roy, A., Roulin, J.-L., Charbonnier, V., Allain, P., Fasotti, L., Barbarot, S., et al., 2010.
+Executive dysfunction in children with neuroﬁbromatosis type 1: a study of action
+planning. J. Int. Neuropsychol. Soc. 16 (6), 1056–1063.
+
+Shilyansky, C., Karlsgodt, K.H., Cummings, D.M., Sidiropoulou, K., Hardt, M., James, A.S.,
+
+et al., 2010. Neuroﬁbromin regulates corticostriatal inhibitory networks during
+working memory performance. Proc. Natl. Acad. Sci. 107 (29), 13141–13146.
+
+Smith, S.M., Jenkinson, M., Woolrich, M.W., Beckmann, C.F., Behrens, T.E.J., Johansen-
+Berg, H., et al., 2004. Advances in functional and structural MR image analysis and
+implementation as FSL. NeuroImage 23 (Suppl. 1), S208–S219.
+
+Stumf, D.A., 1988. NIH consensus development conference. Neuroﬁbromatosis con-
+
+ference statement. Arch. Neurol. 45, 575–578.
+
+Todd, J.J., Marois, R., 2004. Capacity limit of visual short-term memory in human pos-
+
+terior parietal cortex. Nature 428 (6984), 751–754.
+
+Tomson, S.N., Schreiner, M.J., Narayan, M., Rosser, T., Enrique, N., Silva, A.J., et al.,
+2015. Resting state functional MRI reveals abnormal network connectivity in neu-
+roﬁbromatosis 1. Hum. Brain Mapp. 36 (11), 4566–4581.
+
+Violante, I.R., Ribeiro, M.J., Cunha, G., Bernardino, I., Duarte, J.V., Ramos, F., et al.,
+
+2012. Abnormal brain activation in neuroﬁbromatosis type 1: a link between visual
+processing and the default mode network. PLoS One 7 (6), e38785.
+
+Viskochil, D., Buchberg, A.M., Xu, G., Cawthon, R.M., Stevens, J., Wolﬀ, R.K., et al., 1990.
+Deletions and a translocation interrupt a cloned gene at the neuroﬁbromatosis type 1
+locus. Cell 62 (1), 187–192.
+
+Wallace, M.R., Marchuk, D.A., Andersen, L.B., Letcher, R., Odeh, H.M., et al., 1990. Type
+1 neuroﬁbromatosis gene: identiﬁcation of a large transcript disrupted in three NF1
+patients. Science 249 (4965), 181.
+
+Wechsler, D., 2011. Wechsler Abbreviated Scale of Intelligence, 2nd. Psychological
+
+Corporation.
+
+Wechsler, D., 2014. Wechsler Adult Intelligence Scale–Fourth Edition (WAIS–IV).
+
+811
+
+

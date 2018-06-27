@@ -1,0 +1,5237 @@
+Published OnlineFirst December 10, 2014; DOI: 10.1158/1535-7163.MCT-14-0647 
+
+Small Molecule Therapeutics
+
+Evaluation of the In Vitro and In Vivo Efﬁcacy of the
+JAK Inhibitor AZD1480 against JAK-Mutated
+Acute Lymphoblastic Leukemia
+Santi Suryani1, Lauryn S. Bracken1, Richard C. Harvey2, Keith C.S. Sia1,
+Hernan Carol1, I-Ming Chen2, Kathryn Evans1, Philipp A. Dietrich1,
+Kathryn G. Roberts3, Raushan T. Kurmasheva4, Catherine A. Billups5,
+Charles G. Mullighan3, Cheryl L. Willman2, Mignon L. Loh6, Stephen P. Hunger7,
+Peter J. Houghton4, Malcolm A. Smith8, and Richard B. Lock1
+
+Molecular
+Cancer
+Therapeutics
+
+Abstract
+
+Genome-wide studies have identiﬁed a high-risk subgroup of
+pediatric acute lymphoblastic leukemia (ALL) harboring muta-
+tions in the Janus kinases (JAK). The purpose of this study was to
+assess the preclinical efﬁcacy of the JAK1/2 inhibitor AZD1480,
+both as a single agent and in combination with the MEK inhibitor
+selumetinib, against
+JAK-mutated patient-derived xenografts.
+Patient-derived xenografts were established in immunodeﬁcient
+mice from bone marrow or peripheral blood biopsy specimens,
+and their gene expression proﬁles compared with the original
+patient biopsies by microarray analysis. JAK/STAT and MAPK
+signaling pathways, and the inhibitory effects of targeted drugs,
+were interrogated by immunoblotting of phosphoproteins. The
+antileukemic effects of AZD1480 and selumetinib, alone and in
+combination, were tested against JAK-mutated ALL xenografts
+both in vitro and in vivo. Xenografts accurately represented the
+
+primary disease as determined by gene expression proﬁling.
+Cellular phosphoprotein analysis demonstrated that JAK-mutat-
+ed xenografts exhibited heightened activation status of JAK/STAT
+and MAPK signaling pathways compared with typical B-cell
+precursor ALL xenografts, which were inhibited by AZD1480
+exposure. However, AZD1480 exhibited modest single-agent
+in vivo efﬁcacy against
+JAK-mutated xenografts. Combining
+AZD1480 with selumetinib resulted in profound synergistic in
+vitro cell killing, although these results were not translated in vivo
+despite evidence of target inhibition. Despite validation of target
+inhibition and the demonstration of profound in vitro synergy
+between AZD1480 and selumetinib, it is likely that prolonged
+target inhibition is required to achieve in vivo therapeutic enhance-
+ment between JAK and MEK inhibitors in the treatment of JAK-
+mutated ALL. Mol Cancer Ther; 14(2); 364–74. Ó2014 AACR.
+
+Introduction
+
+Although the overall cure rate for the most common pediatric
+cancer, acute lymphoblastic leukemia (ALL) now approaches
+90%, certain high-risk subtypes experience shorter remission
+duration and a signiﬁcantly reduced likelihood of survival (1).
+
+1Children's Cancer Institute Australia for Medical Research, Lowy
+Cancer Research Centre, University of New South Wales, Sydney,
+Australia. 2Cancer Center, University of New Mexico, Albuquerque,
+New Mexico. 3Department of Pathology, St. Jude Children's Research
+Hospital, Memphis, Tennessee. 4Center for Childhood Cancer, Nation-
+wide Children's Hospital, Columbus, Ohio. 5Department of Biostatis-
+tics, St. Jude Children's Research Hospital, Memphis, Tennessee.
+6Department of Pediatrics, University of California at San Francisco,
+San Francisco, California. 7University of Colorado Denver School of
+Medicine and Children's Hospital Colorado, Aurora, Colorado. 8CTEP/
+NCI, Bethesda, Maryland.
+
+Note: Supplementary data for this article are available at Molecular Cancer
+Therapeutics Online (http://mct.aacrjournals.org/).
+
+S. Suryani and L.S. Bracken contributed equally to this article.
+
+Corresponding Author: Richard B. Lock, Children's Cancer Institute Australia for
+Medical Research, Lowy Cancer Research Centre, University of New South
+Wales, PO BOX 81, Randwick, Sydney, New South Wales 2031, Australia. Phone:
+1800-685-686; Fax: 612-9662-6583; E-mail: rlock@ccia.unsw.edu.au
+
+doi: 10.1158/1535-7163.MCT-14-0647
+Ó2014 American Association for Cancer Research.
+
+Recent genome-wide studies have focused on the molecular
+characterization of these high-risk subtypes, including B-cell
+precursor ALL (BCP-ALL) harboring mutations in the Janus
+kinases (JAKs; JAK-mutated ALL; refs. 2–4). Activating mutations
+in the pseudokinase or kinase domains of JAK1, JAK2, or JAK3
+were detected in approximately 10% of high-risk pediatric ALL
+cases, and are frequently accompanied by deletion of the IKZF1
+gene. These cases also exhibit gene expression signatures similar to
+BCR-ABL1–positive ALL, despite the absence of BCR-ABL1 trans-
+locations (2–4). The presence of JAK mutations in pediatric ALL
+with this "Kinase-like" gene expression signature is also signiﬁ-
+cantly associated with high expression of cytokine receptor–like
+factor 2 (CRLF2) and a dismal outcome (2–4).
+
+JAK mutations and CRLF2 overexpression result in aberrant
+activation of downstream signaling pathways, including JAK/
+STAT, MAPK, and PI3K/protein kinase B (PI3K/AKT) pathways
+(5–10). Cross-talk between the JAK/STAT, MAPK, and PI3K path-
+ways has also been shown to occur at multiple levels (11).
+Constitutive activation of the JAK/STAT pathway enhances the
+MAPK and PI3K signaling pathways, causes cytokine-indepen-
+dent cell survival and proliferation of lymphoid cells (4, 5, 9, 12),
+and is implicated in the progression of lymphoproliferative dis-
+eases such as ALL, as well as other cancers (11, 13, 14). Conse-
+quently, they are compelling pathways for the development of
+targeted therapeutics to improve cancer treatment.
+
+364
+
+Mol Cancer Ther; 14(2) February 2015
+
+Downloaded from 
+
+mct.aacrjournals.org 
+
+on March 4, 2015. © 2015 American Association for Cancer Research. 
+
+Published OnlineFirst December 10, 2014; DOI: 10.1158/1535-7163.MCT-14-0647 
+
+Several small molecules with inhibitory activity against JAK
+family members have shown preclinical and clinical activity in the
+treatment of myeloproliferative neoplasms, which harbor the
+JAK2 V617F mutation, as well as other solid tumors (15–20).
+Although the JAK2 V617F mutation is different from those that
+occur in ALL, these mutations occur in the same region of the
+protein and are functionally analogous in vitro (4, 5). AZD1480 is
+an ATP-competitive small-molecule inhibitor of JAK1 and JAK2
+that also shows some selectivity towards JAK3 (20, 21). AZD1480
+was selected by the Pediatric Preclinical Testing Program (PPTP)
+for preclinical efﬁcacy testing against a panel of xenografts estab-
+lished in immunodeﬁcient mice that were derived from high-risk
+pediatric ALL patient subtypes, including those harboring JAK
+point mutations, JAK2 fusions, high CRLF2 expression, and a
+Kinase-like gene expression proﬁle. This rationale was based on
+the success achieved with imatinib in the treatment of BCR-ABL1–
+positive leukemia (22).
+
+The JAK1/2 inhibitor ruxolitinib was recently shown to
+exhibit greater in vivo efﬁcacy against two Kinase-like pediatric
+ALL patient-derived xenografts with activation of the JAK/STAT
+axis (one via a BCR-JAK2 translocation) but without CRLF2
+overexpression, compared with several xenografts derived from
+Kinase-like cases harboring JAK point mutations and CRLF2
+overexpression (23). This observation suggests that alternative
+survival pathways activated by CRLF2 may result in reduced
+sensitivity of ALL cells with activated JAK/STAT signaling to
+single-agent JAK inhibitors. Therefore, because xenografts estab-
+lished from JAK-mutated/CRLF2-high ALL biopsies would also
+be expected to exhibit heightened activation of the MAPK and
+PI3K/AKT pathways in addition to JAK/STAT (4, 5, 9, 12), we
+sought to enhance antileukemic efﬁcacy by targeting multiple
+signaling nodes using the combination of AZD1480 and the
+MEK inhibitor, selumetinib (AZD6244, ARRY-142886). Selu-
+metinib is a potent small-molecule inhibitor of MEK1/2, which
+blocks ERK1/2 activation (24). Despite strong evidence of
+in vitro synergy between AZD1480 and selumetinib, both drugs
+exhibited modest in vivo single-agent and combination efﬁcacy.
+These ﬁndings highlight the complexity of translating in vitro
+synergistic drug combinations to the in vivo setting, and suggest
+that prolonged target inhibition may be required to achieve
+in vivo therapeutic beneﬁt using JAK inhibitors for the treatment
+of pediatric ALL cases harboring JAK point mutations and high
+CRLF2 expression.
+
+Materials and Methods
+Patient and xenograft details
+
+Efﬁcacy of AZD1480 against JAK-Mutated ALL
+
+Affymetrix U133_Plus_2.0 expression arrays
+
+RNA from 38 xenograft samples was isolated from cryopre-
+served cells, labeled, and hybridized to Affymetrix U133_Plus_2.0
+arrays as previously described (2). These new data, and the 13
+parental samples analyzed in our prior study, were also masked
+and normalized by MAS5 as previously reported (2). The gene
+expression dataset can be accessed via Gene Expression Omnibus
+(http://www.ncbi.nlm.nih.gov/geo) under accession numbers
+GSE11877 and GSE58290. The xenograft samples were scanned
+in 2011, whereas the parent samples were scanned in 2006.
+The results for the 3 microarray quality control inclusion criteria
+are provided in Supplementary Table S1. Samples were retained
+0
+only if all 3 conditions were satisﬁed: scale factors <35; GAPDH 3
+signal for M33197 >15,000; and, the GAPDH 3
+ratio < 3.5. All
+but one of the xenografts (XRL_24) met these conditions.
+
+:5
+
+0
+
+0
+
+Of the 54,675 probe sets on the Affytmetrix U133_Plus_2.0
+array, 89 represent X- and Y-speciﬁc transcripts associated with
+sex, 62 are Affymetrix controls, and 20 are globins. Removal of
+these resulted in 54,504 potentially informative probe sets. The
+average median expression across all the arrays was 173. A
+minimally interpretable expression level of 500 (3-fold back-
+ground) was established and all values <500 were set to a baseline
+of 500 for subsequent analysis. A total of 18,090 probe sets
+(33.2%) showed no signals greater than this baseline for any of
+the samples, leaving 36,414 probe sets for a comparison of
+xenografts to parental samples.
+
+Quantitative RT-PCR
+
+One microgram of total RNA was converted to cDNA using
+the High Capacity cDNA kit (Life Technologies). This was diluted
+to 50 mL and mixed with an equal volume of TaqMan Universal
+Master Mix II without UNG (Life Technologies). The 24 genes
+and an endogenous control gene (EEF2) were selected from
+the group of inventoried assays (available upon request) and
+were plated on custom microﬂuidic cards (Life Technologies). The
+sample ports were ﬁlled with the cDNA/master mix and the cards
+were sealed and run on an ABI model 7900HT instrument using
+the following parameters: 94.5
+C for 10 minutes followed by
+40 cycles of 97.0
+C for 1 minute. A
+manual Ct threshold of 0.2 and automatic baseline were applied
+as analysis settings. The raw Ct value for the endogenous control
+sample, EEF2, was required to be <30. The DCt values were cal-
+culated by subtracting the EEF2 Ct from each gene's Ct. Even
+though most samples had EEF2 Ct values much less than 30, a
+maximum DCt of 10 was applied to all gene intensities to permit
+equivalent treatment across all samples.
+
+C for 30 seconds and 59.7
+
+
+
+
+
+
+
+Pretreatment leukemia specimens were obtained from 21 chil-
+dren with high-risk BCP-ALL enrolled in the Children's Oncology
+Group (COG) P9906 clinical
+trial, and were molecularly
+characterized by the Therapeutically Applicable Research to Gen-
+erate Effective Treatments (TARGET) initiative (Table 1; ref. 3).
+Procedures by which continuous xenografts are routinely estab-
+lished from childhood ALL biopsies in female 6–8 week old 20–25 g
+immunodeﬁcient NOD/SCID (NOD.CB17-Prkdcscid/SzJ) or NOD/
+(NOD.Cg-Prkdcscid Il2rgtm1Wjl/SzJ,
+SCID/IL-2 receptor gamma
+NSG) mice, and criteria for determining successful engraftment,
+have been described in detail previously (25–27). Additional
+established BCP-ALL (ALL-4, ALL-10JAK1/V658L, ALL-19, ALL-25
+and ALL-26) and T-ALL (ALL-31) xenografts were included in
+this study (26). JAK mutations are detailed where annotated.
+
+ / 
+
+Statistical and analytical software
+
+Affymetrix microarray data were analyzed using Expression
+Console (build 1.3.0.187, Affymetrix). Microﬂuidic cards were
+analyzed using SDS 2.4.1 software (Life Technologies). Heatmaps
+were created using MATLAB and its Bioinformatics toolbox
+(R2013b; MathWorks).
+
+In vitro culture and drug treatments
+
+Xenograft cells were retrieved from cryostorage and resus-
+pended in QBSF-60 medium (Quality Biological) supplemented
+with Flt-3 ligand (20 ng/mL), penicillin (100 U/mL), streptomy-
+cin (100 mg/mL), and L-glutamine (2 mmol/L). Viability was
+determined by Trypan blue exclusion. Before treatment, cells were
+plated in 96-well plates (100 mL/well) at a density previously
+
+www.aacrjournals.org
+
+Mol Cancer Ther; 14(2) February 2015
+
+365
+
+Downloaded from 
+
+mct.aacrjournals.org 
+
+on March 4, 2015. © 2015 American Association for Cancer Research. 
+
+Published OnlineFirst December 10, 2014; DOI: 10.1158/1535-7163.MCT-14-0647 
+
+Suryani et al.
+
+o
+r
+t
+i
+v
+
+n
+I
+
+)
+L
+/
+l
+o
+m
+m
+(
+
+0
+8
+4
+1
+D
+Z
+A
+
+0
+5
+C
+
+I
+
+M
+R
+O
+
+D
+G
+L
+
+o
+v
+i
+v
+
+n
+I
+
+0
+8
+4
+1
+D
+Z
+A
+
+0
+1
+>
+
+0
+1
+>
+
+.
+
+9
+0
+
+1
+
+D
+P
+
+1
+
+D
+P
+
+0
+0
+
+.
+
+1
+.
+3
+ 
+
+2
+D
+P
+
+.
+
+7
+2
+1
+
+0
+5
+
+.
+
+0
+1
+>
+
+0
+1
+>
+
+0
+1
+>
+
+1
+
+D
+P
+
+a
+1
+D
+P
+
+1
+
+D
+P
+
+a
+1
+D
+P
+
+
+
+3
+.
+1
+1
+
+.
+
+.
+
+0
+0
+
+5
+0
+ 
+
+a
+0
+0
+1
+
+.
+
+ 
+
+4
+2
+
+.
+
+3
+.
+1
+
+.
+
+6
+0
+
+0
+1
+>
+
+2
+D
+P
+
+2
+D
+P
+
+1
+
+D
+P
+
+2
+D
+P
+
+6
+.
+1
+1
+
+.
+
+3
+9
+
+.
+
+6
+0
+
+4
+3
+
+.
+
+1
+
+D
+P
+
+1
+.
+1
+
+ 
+
+s
+u
+o
+u
+n
+i
+t
+n
+o
+C
+
+t
+f
+a
+r
+g
+o
+n
+e
+x
+
+r
+e
+b
+m
+u
+N
+
+e
+c
+i
+m
+
+f
+o
+
+r
+e
+b
+m
+u
+N
+
+e
+c
+i
+m
+
+f
+o
+
+d
+e
+t
+f
+a
+r
+g
+n
+e
+
+d
+e
+t
+a
+l
+u
+c
+o
+n
+
+i
+
+l
+
+e
+p
+m
+a
+S
+
+i
+
+n
+g
+i
+r
+o
+
+o
+N
+
+o
+N
+
+s
+e
+Y
+
+s
+e
+Y
+
+o
+N
+
+s
+e
+Y
+
+o
+N
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+o
+N
+
+o
+N
+
+o
+N
+
+s
+e
+Y
+
+o
+N
+
+o
+N
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+o
+N
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+2
+
+4
+
+7
+
+3
+
+0
+
+3
+
+4
+
+8
+
+2
+
+7
+
+6
+
+0
+
+0
+
+2
+
+2
+1
+
+1
+
+0
+
+9
+
+9
+
+3
+
+0
+
+A
+N
+
+A
+N
+
+A
+N
+
+A
+N
+
+A
+N
+
+A
+N
+
+7
+
+5
+
+7
+
+5
+
+4
+
+6
+
+8
+
+8
+
+2
+
+7
+
+6
+
+3
+
+8
+
+4
+
+2
+1
+
+4
+
+8
+
+0
+1
+
+0
+1
+
+7
+
+7
+
+A
+N
+
+A
+N
+
+A
+N
+
+A
+N
+
+A
+N
+
+A
+N
+
+B
+P
+
+B
+P
+
+B
+P
+
+M
+B
+
+M
+B
+
+B
+P
+
+B
+P
+
+B
+P
+
+M
+B
+
+M
+B
+
+M
+B
+
+B
+P
+
+M
+B
+
+B
+P
+
+M
+B
+
+M
+B
+
+M
+B
+
+M
+B
+
+B
+P
+
+M
+B
+
+M
+B
+
+A
+N
+
+A
+N
+
+A
+N
+
+A
+N
+
+A
+N
+
+A
+N
+
+s
+e
+n
+e
+g
+
+l
+l
+
+e
+c
+-
+B
+n
+
+i
+
+n
+o
+i
+t
+a
+r
+e
+t
+l
+A
+
+B
+/
+A
+2
+N
+K
+D
+C
+
+d
+n
+a
+
+A
+2
+N
+K
+D
+C
+
+,
+
+5
+X
+A
+P
+
+,
+1
+F
+Z
+K
+
+I
+
+B
+/
+A
+2
+N
+K
+D
+C
+
+,
+1
+F
+Z
+K
+
+I
+
+B
+/
+A
+2
+N
+K
+D
+C
+
+,
+1
+F
+Z
+K
+
+I
+
+B
+/
+A
+2
+N
+K
+D
+C
+
+5
+X
+A
+P
+
+,
+1
+F
+Z
+K
+
+I
+
+B
+/
+A
+2
+N
+K
+D
+C
+
+A
+2
+N
+K
+D
+C
+
+,
+
+5
+X
+A
+P
+
+,
+1
+F
+Z
+K
+
+I
+
+A
+2
+N
+K
+D
+C
+
+,
+
+5
+X
+A
+P
+
+,
+1
+F
+Z
+K
+
+I
+
+B
+/
+A
+2
+N
+K
+D
+C
+
+,
+1
+F
+Z
+K
+
+I
+
+B
+/
+A
+2
+N
+K
+D
+C
+
+,
+
+5
+X
+A
+P
+
+,
+1
+F
+B
+E
+
+,
+1
+F
+Z
+K
+
+I
+
+A
+2
+N
+K
+D
+C
+
+,
+
+5
+X
+A
+P
+
+1
+F
+B
+E
+
+B
+/
+A
+2
+N
+K
+D
+C
+
+,
+1
+F
+Z
+K
+
+I
+
+A
+2
+N
+K
+D
+C
+
+,
+
+5
+X
+A
+P
+
+,
+1
+F
+Z
+K
+
+I
+
+5
+X
+A
+P
+
+,
+
+B
+/
+A
+2
+N
+K
+D
+C
+
+,
+1
+F
+Z
+K
+
+I
+
+B
+/
+A
+2
+N
+K
+D
+C
+
+,
+1
+F
+Z
+K
+
+I
+
+A
+2
+N
+K
+D
+C
+
+,
+
+5
+X
+A
+P
+
+A
+2
+N
+K
+D
+C
+
+,
+
+5
+X
+A
+P
+
+,
+1
+F
+Z
+K
+
+I
+
+A
+2
+N
+K
+D
+C
+
+,
+
+5
+X
+A
+P
+
+,
+1
+F
+Z
+K
+
+I
+
+5
+X
+A
+P
+
+,
+1
+F
+Z
+K
+
+I
+
+1
+X
+N
+U
+R
+-
+6
+V
+T
+E
+
+r
+e
+h
+t
+O
+
+e
+s
+a
+n
+i
+k
+
+s
+n
+o
+i
+s
+e
+
+l
+
+B
+R
+F
+G
+D
+P
+-
+1
+F
+B
+E
+
+R
+O
+P
+E
+-
+@
+H
+G
+
+I
+
+3
+B
+2
+H
+S
+
+,
+
+R
+7
+L
+
+I
+
+1
+L
+B
+A
+-
+4
+1
+2
+P
+U
+N
+
+1
+L
+B
+A
+-
+R
+C
+B
+
+-
+e
+s
+a
+n
+K
+
+i
+
+s
+u
+t
+a
+t
+s
+
+2
+F
+L
+R
+C
+
+e
+k
+i
+l
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+o
+N
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+o
+N
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+t
+n
+e
+m
+e
+g
+n
+a
+r
+r
+a
+e
+R
+
+n
+o
+i
+s
+s
+e
+r
+p
+x
+E
+
+2
+F
+L
+R
+C
+-
+@
+H
+G
+
+I
+
+2
+F
+L
+R
+C
+-
+8
+Y
+R
+2
+P
+
+2
+F
+L
+R
+C
+-
+@
+H
+G
+
+I
+
+2
+F
+L
+R
+C
+-
+8
+Y
+R
+2
+P
+
+2
+F
+L
+R
+C
+-
+8
+Y
+R
+2
+P
+
+2
+F
+L
+R
+C
+-
+@
+H
+G
+
+I
+
+2
+F
+L
+R
+C
+-
+@
+H
+G
+
+I
+
+2
+F
+L
+R
+C
+-
+@
+H
+G
+
+I
+
+2
+F
+L
+R
+C
+-
+@
+H
+G
+
+I
+
+2
+F
+L
+R
+C
+-
+@
+H
+G
+
+I
+
+2
+F
+L
+R
+C
+-
+@
+H
+G
+
+I
+
+2
+F
+L
+R
+C
+-
+@
+H
+G
+
+I
+
+2
+F
+L
+R
+C
+-
+@
+H
+G
+
+I
+
+h
+g
+H
+
+i
+
+h
+g
+H
+
+i
+
+h
+g
+H
+
+i
+
+h
+g
+H
+
+i
+
+h
+g
+H
+
+i
+
+h
+g
+H
+
+i
+
+h
+g
+H
+
+i
+
+h
+g
+H
+
+i
+
+h
+g
+H
+
+i
+
+h
+g
+H
+
+i
+
+h
+g
+H
+
+i
+
+l
+
+a
+m
+r
+o
+N
+
+l
+
+a
+m
+r
+o
+N
+
+h
+g
+H
+
+i
+
+h
+g
+H
+
+i
+
+l
+
+a
+m
+r
+o
+N
+
+l
+
+a
+m
+r
+o
+N
+
+l
+
+a
+m
+r
+o
+N
+
+l
+
+a
+m
+r
+o
+N
+
+l
+
+a
+m
+r
+o
+N
+
+l
+
+a
+m
+r
+o
+N
+
+l
+
+a
+m
+r
+o
+N
+
+h
+g
+H
+
+i
+
+l
+
+a
+m
+r
+o
+N
+
+l
+
+a
+m
+r
+o
+N
+
+l
+
+a
+m
+r
+o
+N
+
+l
+
+a
+m
+r
+o
+N
+
+s
+u
+t
+a
+t
+s
+
+K
+A
+J
+
+G
+3
+8
+6
+R
+2
+K
+A
+J
+
+3
+8
+6
+R
+s
+n
+G
+2
+
+i
+
+2
+K
+A
+J
+
+G
+3
+8
+6
+R
+2
+K
+A
+J
+
+W
+>
+9
+2
+6
+R
+_
+4
+2
+6
+L
+
+1
+K
+A
+J
+
+N
+3
+7
+8
+D
+2
+K
+A
+J
+
+Q
+7
+6
+8
+R
+2
+K
+A
+J
+
+F
+2
+8
+6
+
+I
+
+2
+K
+A
+J
+
+F
+8
+5
+6
+V
+
+1
+K
+A
+J
+
+G
+3
+8
+6
+R
+2
+K
+A
+J
+
+R
+3
+3
+9
+P
+
+2
+K
+A
+J
+
+i
+
+3
+8
+6
+I
+s
+n
+P
+G
+2
+K
+A
+J
+
+F
+6
+4
+6
+S
+
+1
+K
+A
+J
+
+P
+9
+8
+7
+S
+
+3
+K
+A
+J
+
+e
+p
+y
+t
+-
+d
+W
+
+l
+i
+
+e
+p
+y
+t
+-
+d
+W
+
+l
+i
+
+e
+p
+y
+t
+-
+d
+W
+
+l
+i
+
+e
+p
+y
+t
+-
+d
+W
+
+l
+i
+
+e
+p
+y
+t
+-
+d
+W
+
+l
+i
+
+e
+p
+y
+t
+-
+d
+W
+
+l
+i
+
+2
+K
+A
+J
+-
+R
+C
+B
+
+2
+K
+A
+J
+-
+3
+N
+R
+T
+S
+
+e
+p
+y
+t
+-
+d
+W
+
+l
+i
+
+L
+8
+5
+6
+V
+
+1
+K
+A
+J
+
+e
+p
+y
+t
+-
+d
+W
+
+l
+i
+
+e
+p
+y
+t
+-
+d
+W
+
+l
+i
+
+e
+p
+y
+t
+-
+d
+W
+
+l
+i
+
+e
+p
+y
+t
+-
+d
+W
+
+l
+i
+
+t
+f
+a
+r
+g
+o
+n
+e
+X
+
+D
+
+I
+
+S
+K
+D
+M
+A
+P
+
+Y
+T
+K
+L
+A
+P
+
+L
+S
+R
+K
+A
+P
+
+F
+C
+J
+L
+A
+P
+
+I
+
+C
+T
+L
+A
+P
+
+T
+Z
+H
+K
+A
+P
+
+M
+Z
+M
+K
+A
+P
+
+W
+W
+S
+K
+A
+P
+
+D
+S
+L
+L
+A
+P
+
+B
+T
+N
+L
+A
+P
+
+M
+R
+D
+M
+A
+P
+
+D
+V
+M
+K
+A
+P
+
+N
+H
+G
+K
+A
+P
+
+B
+X
+K
+K
+A
+P
+
+S
+W
+T
+L
+A
+P
+
+A
+C
+K
+K
+A
+P
+
+I
+
+N
+B
+L
+A
+P
+
+L
+D
+J
+L
+A
+P
+
+K
+K
+V
+K
+A
+P
+
+P
+E
+Y
+K
+A
+P
+
+L
+A
+T
+K
+A
+P
+
+0
+1
+-
+L
+L
+A
+
+9
+1
+-
+L
+L
+A
+
+5
+2
+-
+L
+L
+A
+
+6
+2
+-
+L
+L
+A
+
+4
+-
+L
+L
+A
+
+1
+3
+-
+L
+L
+A
+-
+T
+
+.
+s
+k
+e
+e
+w
+2
+
+r
+o
+f
+
+y
+a
+d
+i
+r
+F
+
+o
+t
+
+y
+a
+d
+n
+o
+M
+y
+
+l
+i
+
+a
+d
+
+e
+c
+w
+
+i
+
+t
+
+g
+k
+/
+g
+m
+0
+3
+
+o
+t
+
+d
+e
+t
+a
+u
+n
+e
+t
+t
+a
+
+s
+a
+w
+e
+s
+o
+d
+
+e
+h
+T
+
+.
+
+y
+d
+u
+t
+s
+
+n
+o
+i
+t
+a
+n
+b
+m
+o
+c
+
+i
+
+4
+4
+2
+6
+D
+Z
+A
+/
+0
+8
+4
+1
+D
+Z
+A
+e
+h
+t
+
+f
+o
+
+t
+r
+a
+p
+
+s
+a
+
+t
+n
+e
+g
+a
+
+l
+
+e
+g
+n
+i
+s
+0
+8
+4
+1
+D
+Z
+A
+e
+r
+a
+
+n
+w
+o
+h
+s
+
+s
+e
+u
+a
+V
+a
+
+l
+
+.
+
+e
+s
+a
+e
+s
+i
+d
+
+e
+v
+i
+s
+s
+e
+r
+g
+o
+r
+p
+
+,
+
+D
+P
+
+;
+
+d
+o
+o
+b
+
+l
+
+l
+
+a
+r
+e
+h
+p
+i
+r
+e
+p
+
+,
+
+B
+P
+
+;
+
+e
+r
+u
+s
+a
+e
+m
+e
+s
+n
+o
+p
+s
+e
+r
+
+e
+v
+i
+t
+c
+e
+b
+o
+
+j
+
+,
+
+M
+R
+O
+
+;
+
+l
+
+e
+b
+a
+c
+
+i
+l
+
+p
+p
+a
+
+t
+o
+n
+
+,
+
+A
+N
+
+;
+
+l
+
+y
+a
+e
+d
+
+h
+t
+w
+o
+r
+g
+
+i
+
+a
+m
+e
+k
+u
+e
+
+l
+
+,
+
+D
+G
+L
+
+;
+
+w
+o
+r
+r
+a
+m
+e
+n
+o
+b
+
+,
+
+M
+B
+
+i
+
+:
+s
+n
+o
+i
+t
+a
+v
+e
+r
+b
+b
+A
+
+0
+8
+4
+1
+D
+Z
+A
+o
+t
+
+s
+e
+s
+n
+o
+p
+s
+e
+r
+
+o
+v
+v
+
+i
+
+n
+
+i
+
+d
+n
+a
+
+o
+r
+t
+i
+v
+
+n
+
+i
+
+d
+n
+a
+
+s
+e
+p
+y
+t
+o
+n
+e
+g
+
+t
+f
+a
+r
+g
+o
+n
+e
+x
+
+L
+L
+A
+
+,
+
+y
+s
+p
+o
+b
+
+i
+
+t
+n
+e
+i
+t
+a
+p
+
+y
+r
+a
+m
+
+i
+r
+P
+
+.
+1
+
+l
+
+e
+b
+a
+T
+
+366
+
+Mol Cancer Ther; 14(2) February 2015
+
+Molecular Cancer Therapeutics
+
+Downloaded from 
+
+mct.aacrjournals.org 
+
+on March 4, 2015. © 2015 American Association for Cancer Research. 
+
+Published OnlineFirst December 10, 2014; DOI: 10.1158/1535-7163.MCT-14-0647 
+
+
+
+ 6 to 10
+
+optimized (3–6  106/mL) and equilibrated overnight at 37
+C in
+5% CO2. Cells were exposed to 10-fold serial dilutions of
+ 12 mol/L)
+AZD1480 or selumetinib (AstraZeneca; 10
+for 72 hours, following which AlamarBlue reagent (Life Techno-
+logies) was added and ﬂuorescence was measured at 0, 6, and
+24 hours using a ﬂuorescent plate reader (VICTOR3; PerkinElmer;
+excitation 560 nm, emission 590 nm). For ﬁxed ratio combina-
+tion assays, cells were treated with AZD1480 and selumetinib,
+alone or in combination, at 4, 2, 1, 0.5, 0.25, and 0.1 mmol/L. The
+combination drug effect was assessed using Calcusyn software
+(Version 2.0, Biosoft) to calculate combination indices (CI)
+indicative of synergy (CI < 1), additivity (CI ¼ 1), or antagonism
+(CI > 1).
+
+In vivo drug treatments
+
+þ
+
+þ
+
+AZD1480 and selumetinib were obtained from AstraZeneca
+under a standard Materials Transfer Agreement. Structures of both
+drugs are shown in Supplementary Fig. S1. Groups of 8 to 10 mice
+were inoculated with 5  106 xenograft cells retrieved from
+cryostorage, and engraftment monitored by weekly enumeration
+of the proportion of human CD45
+cells in the peripheral blood
+þ
+(%huCD45
+; refs. 26, 27). Drug treatments were initiated when
+the median %huCD45
+exceeded 1% for each cohort. For single-
+agent in vivo efﬁcacy testing, AZD1480 was administered by oral
+gavage twice daily at 10 mg/kg for 5 days, followed by a single
+daily dose of 15 mg/kg for 2 days. This cycle was repeated 3 times.
+For the combination efﬁcacy study selumetinib (25 mg/kg) was
+administered 3 hours before AZD1480 (30 mg/kg), and both
+drugs were administered once daily by oral gavage Monday to
+Friday for 2 weeks and were dissolved in 0.5% hydroxypropyl
+methylcellulose and 1% Tween-80, with the pH adjusted to 3.0 for
+AZD1480. A preliminary tolerability study on nonengrafted mice
+had shown that this was the maximum tolerated dose and
+schedule of the combined drugs.
+
+þ
+
+þ
+
+Following randomization of mice and the initiation of drug
+treatment, the %huCD45
+was measured weekly. Individual
+mouse event-free survival (EFS) was calculated as the day from
+treatment initiation until the %hCD45
+reached 25%. The EFS
+was represented graphically by Kaplan–Meier analysis and
+survival curves were compared by log-rank test. The efﬁcacy
+of the drug treatment was evaluated by leukemia growth delay
+(LGD), calculated as the difference between the median EFS of
+the drug-treated cohort and the median EFS of the vehicle-
+treated cohort. An objective response measure (ORM), mod-
+eled after stringent clinical criteria, was assigned to individual
+mice, which allowed the determination of a median group
+response as described previously (25). Detailed methodology is
+presented in the Supplementary Methods and Supplementary
+Table S2. Correlations between in vivo and in vitro drug sensi-
+tivity were assessed by Spearman test. To evaluate interactions
+between drugs in vivo, Therapeutic Enhancement was deﬁned as
+the EFS of mice treated with the drug combination being
+signiﬁcantly greater than both single agents used at
+their
+maximum tolerated doses (28, 29).
+
+Analysis of protein expression
+
+Methods for preparation of whole-cell extracts, determination
+of protein concentrations, and analysis of cellular proteins by
+immunoblotting have been described in detail elsewhere (30).
+Antibody details can be provided upon request. Ba/F3TEL-JAK2–
+positive control cells were kindly provided by Dr. Chris Burns
+
+Efﬁcacy of AZD1480 against JAK-Mutated ALL
+
+(Walter and Elisa Hall Institute of Medical Research, Melbourne,
+Victoria, Australia).
+
+In vivo pharmacodynamic analysis
+
+þ
+
+Mice were inoculated with PAMDRM xenograft cells, and
+reached 25%. The following
+monitored until the %hCD45
+treatment was administered with three mice per group per time-
+point: (i) vehicle control; (ii) one dose of AZD1480 (30 mg/kg);
+(iii) one dose of selumetinib (25 mg/kg); and (iv) one dose of
+selumetinib (25 mg/kg) 3 hours before one dose of AZD1480
+(30 mg/kg). Spleen, peripheral blood (PB), and bone marrow
+(BM) samples were collected at 2 and 9 hours post-AZD1480
+treatment for phosphorylated protein analysis by immunoblot-
+ting as described above.
+
+Results
+Development and characterization of xenografts derived from
+JAK-mutated pediatric ALL biopsies
+
+Of the original 21 bone marrow or peripheral blood biopsy
+specimens inoculated from the P9906 study, 15 showed evidence
+of engraftment in at least 2 mice using previously deﬁned criteria
+(Table 1; ref. 27). This engraftment efﬁciency was lower than
+expected (27), and closer inspection revealed a distinct relation-
+ship between high CRLF2 expression and engraftment potential in
+this subset of high-risk ALL samples (Supplementary Fig. S2). The
+proportion of mice engrafted with CRLF2 high samples was
+signiﬁcantly greater than CRLF2 normal samples (P ¼ 0.023).
+Similarly, higher levels of spleen (P ¼ 0.036), peripheral blood
+(P ¼ 0.043), and bone marrow (P ¼ 0.019) inﬁltration were
+observed in the CRLF2 high compared with CRLF2 normal
+xenografts. The gene expression proﬁles of spleen-derived cells
+from primary xenografts of 37 mice representative of 13 patient
+samples were then analyzed in relation to the original biopsy
+(parental) specimen.
+
+Supplementary Table S1 lists the 13 parent samples and their
+corresponding xenografts analyzed at ﬁrst passage. In addition,
+partial clinical information on the underlying lesions in the
+parental sample is provided in Table 1. The lesions and muta-
+tions of these parental samples have been previously charac-
+terized and reported as part of a larger study by Roberts and
+colleagues (6). Eleven of the 13 parents have CRLF2 lesions
+(9 IGH-CRLF2 and 2 P2RY8-CRLF2) with all but one of these
+(PALTWS) also having a JAK mutation. Each of the two cases
+without a CRLF2 lesion has a different kinase-related lesion
+(NUP214-ABL1 or IL7R mutation with SH2B3 deletion). Over-
+all, eleven of the 13 parents also are considered Kinase-like on
+the basis of their gene expression pattern. The two primary
+leukemias that are not Kinase-like (PALNTB and PALTWS) both
+have IGH–CRLF2 translocations.
+
+Overall, the quality of the xenograft samples was much better
+than the parent samples for scale factor and GAPDH expression:
+median xenograft scale factor 6.0 v. 15.9 and median GAPDH
+63,272 v. 49,762 for the xenografts and parents, respectively
+(Supplementary Table S1). The median 3
+ratios were compa-
+rable for the parents and xenografts (1.2 and 1.3, respectively;
+Supplementary Table S1). Despite the 5-year gap between ana-
+lyzing the parent and xenograft samples, and the different lots of
+materials, there appeared to be no obvious large differences in the
+arrays. Supplementary Fig. S3 shows the distribution of expres-
+sion levels for the 54,504 probe sets across all the parent samples
+
+:5
+
+0
+
+0
+
+www.aacrjournals.org
+
+Mol Cancer Ther; 14(2) February 2015
+
+367
+
+Downloaded from 
+
+mct.aacrjournals.org 
+
+on March 4, 2015. © 2015 American Association for Cancer Research. 
+
+Published OnlineFirst December 10, 2014; DOI: 10.1158/1535-7163.MCT-14-0647 
+
+Suryani et al.
+
+and xenografts. Overall, 89.7% of these intensities were less than
+1,500 (3-fold baseline). For the purposes of comparing xenograft
+expression to the parental lines, only those probe sets with
+parental expression >1,500 (9,741 of 54,504 probe sets) were
+evaluated, which permitted a minimum interpretation of 3-fold
+higher or lower expression. There were 2,052 of 9,741 probesets
+(21.1%) with expression levels >1,500 in all 13 of the parent
+samples. Each of the 37 xenograft samples was compared with its
+parent sample and the concordance of expression was evaluated.
+The number of interpretable probe sets (expression >1,500) for
+each of the 13 parent samples ranged from 3,911 to 5,671
+(median 5,221; mean 5,127). Concordance of each of the xeno-
+grafts was determined by whether the expression for these probe
+sets in the xenografts was within three-fold of its parent expres-
+sion. The overall frequency of xenograft expression within three-
+fold of parental expression for the interpretable probe sets is
+shown in Supplementary Table S3 and ranged from 74.2% to
+95.0% (median 84.1%; mean 84.0%). Supplementary Table S3
+also shows the R-squared (RSQ) results and slope for the corre-
+lation between the intensities of parent samples with the xeno-
+grafts. RSQ values ranged from 0.644 to 0.901 (median 0.831;
+mean 0.820) and the slopes varied from 0.385 to 1.306 (median
+0.835; mean 0.817).
+
+We also explored the possibility that certain probe sets would
+be uniquely associated with either the parent or xenograft mate-
+rial. Probe sets were selected on the basis of the minimum
+expression by type (either parent or xenograft) being higher than
+the maximum expression of the alternative type. They were also
+required to have the average expression for the higher expressing
+category >1,500. Supplementary Tables S4 and S5 show the probe
+sets identiﬁed by this approach. Only 20 probe sets were found in
+which the expression of the parents was always higher than the
+xenografts (Supplementary Table S4). A similar result was
+obtained for probe sets in which the xenograft expression always
+exceeded the parents (n ¼ 26, Supplementary Table S5). For the
+most part, these probe sets were differentially expressed rather
+than being completely on or off. The most noteworthy exceptions
+are 217572_at and 231628_s_at. For these two probe sets the
+parent samples had no detectable expression (baseline of 500),
+whereas the average xenograft expression was 75,903 and 23,880,
+respectively.
+
+Given the emphasis on CRLF2 lesions (and underlying JAK
+mutations) in the selection of the parents of the xenografts, we
+also wanted to see how well the xenografts retained the
+parental expression of CRLF2. Eleven of the 13 parental sam-
+ples had CRLF2 lesions (9 with IGH-CRLF2 and 2 with P2RY8-
+CRLF2) and originally showed high CRLF2 expression. All
+xenografts for these 11 cases had expression levels >1,500 and
+ranged from 0.58 to 3.31 times the parental intensity (median
+1.28; mean 1.48).
+
+In addition to the comparison of array data, qRT-PCR for a
+panel of 24 genes that were previously shown to be differentially
+expressed in a cohort of patients with ALL (2, 6) was also
+performed (Fig. 1). Nearly all of the genes showed comparable
+expression levels for their respective xenografts. The most notable
+exception to this is sample PAKSWW, for which 3 xenografts are
+shown. All 3 of the xenografts display nearly identical expression
+levels, yet none of these retain the relatively high IGJ expression of
+the parent. A heatmap of the microarray gene expression data is
+shown in Supplementary Fig. S4, which corresponds to the qRT-
+PCR data shown in Fig. 1.
+
+Continuous xenografts have been established from 11 of the
+15 primary xenografts following inoculation of spleen-derived
+cells into secondary and tertiary recipient mice (Table 1). Spleen-
+derived cells from these secondary and/or tertiary engrafted
+mice were used in the experiments described below.
+
+AZD1480 inhibits aberrant JAK/STAT signaling in JAK-mutated
+xenografts
+
+Because previous studies have shown that JAK mutations result
+in aberrant signaling via the JAK/STAT, MAPK, and PI3K/AKT
+pathways (2–5, 14, 31), we analyzed basal expression levels of key
+phosphoproteins as a surrogate for pathway activation in the
+xenograft panel. JAK-mutated xenografts exhibited increased sig-
+naling in JAK/STAT, MAPK, and PI3K/AKT signaling relative to
+xenografts ALL-25 and ALL-26, which have no annotated JAK
+mutations, as shown by elevated levels of pJAK1, pJAK2, pSTAT1,
+pSTAT3, pSTAT5, pMEK1/2, and pAKT (Fig. 2A). Elevated levels of
+these phosphoproteins were not uniform across all JAK-mutated
+xenografts.
+
+The ability of AZD1480 to inhibit JAK/STAT signaling was
+tested across three JAK-mutated xenografts (PAKHZT, PAKRSL,
+and PALNTB) and compared with a xenograft harboring an
+activating translocation in JAK2 (BCR-JAK2, PAKYEP), as well as
+a xenograft with lesions in IL7R and SH2B3 (PALJDL). AZD1480
+broadly decreased levels of pSTAT1/3/5 across the xenografts
+(Fig. 2B).
+In contrast, AZD1480 had minimal effects on
+pMEK1/2 and pAKT levels in all xenografts with the exception
+of PALJDL, which showed decreased levels of these phosphopro-
+teins. Phosphorylation of ERK1/2 was also reduced in 3 of 5
+xenografts tested (PAKHZT, PAKRSL, and PALJDL).
+
+AZD1480 exerts variable antileukemic efﬁcacy in vitro and
+in vivo
+
+To gain additional evidence for the use of JAK inhibitors such
+as AZD1480 for the treatment of patients with JAK-mutated
+ALL, we tested its in vitro and in vivo efﬁcacy against represen-
+tative xenografts. The in vitro IC50 values for xenografts ranged
+from 0.6–5.0 mmol/L for 5 xenografts, to >10 mmol/L for the
+remaining 6 tested (Table 1; Fig. 2C and D and Supplementary
+Fig. S5). The 5 most sensitive xenografts (PAKHZT, PAKSWW,
+PAKYEP, PALJDL, and ALL-10JAK1/V658L),
+including that
+with BCR-JAK2 fusion (PAKYEP) and wild-type JAK (PALJDL),
+did not appear to conform to any speciﬁc JAK mutational
+status. Moreover, the differences in AZD1480 in vitro sensitivity
+did not appear to relate to differential inhibition of the JAK/
+STAT and MAPK signaling pathways, as described above and
+in Fig. 2B.
+
+When tested in vivo as a single-agent AZD1480 induced
+signiﬁcant progression delays in 3 of 10 of the JAK-mutated
+xenografts (Table 1; Fig. 3, Supplementary Table S6 and Sup-
+plementary Fig. S6). Despite some evidence of activity in
+delaying leukemia progression, AZD1480 was unable to elicit
+objective responses (modeled after stringent clinical criteria) in
+any of the xenografts regardless of their JAK status (all were
+scored as Progressive Disease, PD1 or PD2). A complete sum-
+mary of results is provided in Table 1, Supplementary Tables S6
+and S9, including total numbers of mice, number of mice that
+died (or were otherwise excluded), numbers of mice that
+reached event, average time to event, LGD values, as well as
+numbers in each of the ORM categories and median ORM
+values.
+
+368
+
+Mol Cancer Ther; 14(2) February 2015
+
+Molecular Cancer Therapeutics
+
+Downloaded from 
+
+mct.aacrjournals.org 
+
+on March 4, 2015. © 2015 American Association for Cancer Research. 
+
+Published OnlineFirst December 10, 2014; DOI: 10.1158/1535-7163.MCT-14-0647 
+
+Efﬁcacy of AZD1480 against JAK-Mutated ALL
+
+PAKHZT PAKMZM PAKRSL
+12
+P
+
+P
+
+P
+
+5
+
+2
+
+ABCA9
+ARHGEF12
+BMFR1B
+CA6
+CHN2
+CRLF2
+GBP5
+GPR110
+IFITM1
+IGJ
+KIAA1958
+LDB3
+MDFIC
+MUC4
+NRXN3
+PON2
+S100Z
+SEMA6A
+SLC2A5
+SLC37A3
+SOCS2
+SPATS2L
+TMEM154
+TP53INP1
+
+PAKSWW
+9
+
+35
+
+P
+
+4
+
+PAKVKK PALJCF
+P
+
+19
+
+P
+
+3
+
+PALJDL
+
+P
+
+23
+
+10
+
+PALKTY PALLSD
+P
+11
+
+21
+
+P
+
+PALNTB
+33
+18
+
+P
+
+6
+
+PALTWS PAMDKS
+P
+30
+
+22
+
+P
+
+PAMDRM
+27
+
+25
+
+P
+
+1
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+Figure 1.
+Expression of candidate genes in xenografts and parent samples. qRT-PCR DCt data for parental samples and representative xenografts are shown for
+24 selected genes. The color scale spans a 1,024-fold range of expression with each unit representing a doubling in intensity. At the high end of the scale, the
+darkest red indicates expression at the same level as EEF2 (the control gene, DCt ¼ 0), while the darkest blue denotes expression at least 10-doublings
+lower (DCt ¼ 10). The minimum expression value for any gene is 10. Numbers above columns refer to unique xenograft identiﬁers, and correspond to
+those listed in Supplementary Tables S1 and S3. P, parental sample.
+
+Rational targeting of the JAK/STAT and MAPK pathways to
+achieve synergistic antileukemic efﬁcacy
+
+Because of
+
+the modest single-agent activity exhibited by
+AZD1480 in vitro and in vivo, we investigated the potential for
+combination with other pathway inhibitors. As JAK-mutated ALL
+cells and JAK wild-type with a Kinase-like signature exhibited
+aberrant JAK/STAT and MAPK signaling (Fig. 2A and B), but
+modest inhibition of MAPK signaling by AZD1480 alone (Fig.
+2B), we tested the combination of AZD1480 with selumetinib.
+Fixed ratio in vitro cytotoxicity assays revealed that the AZD1480/
+selumetinib combination exerted strong to very strong synergistic
+effects in 4 of 5 JAK-mutated ALLs (PAKRSL, PALJCF, PALLSD, and
+PAMDRM; average CI values < 0.14; Fig. 4A–D and J, Supple-
+mentary Table S7). Synergism and moderate synergism were also
+observed with ALL-10JAK1/V658L (CI ¼ 0.34) and PALJDL (CI ¼
+0.73), respectively (Fig. 4E and I and Supplementary Table S7). In
+contrast, antagonism was observed for ALL-4, ALL-19 and ALL-26
+(CI values > 1; Fig. 4F–H and J and Supplementary Table S7).
+Signiﬁcantly greater synergy between AZD1480 and selumetinib
+was observed in the JAK-mutated compared with the JAK wild-
+type xenografts (P ¼ 0.036; Fig. 4K). Of note, selumetinib alone
+exhibited poor single-agent activity against all xenografts tested
+(IC50 >10 mmol/L; Fig. 4A–I), regardless of their JAK mutational
+status.
+
+The combined effects of AZD1480 and selumetinib were also
+assessed by phosphoprotein analysis of
+the PALLSD and
+PAMDRM xenografts. Consistent with the results presented
+in Fig. 2B, AZD1480 alone markedly decreased STAT1/3/5 phos-
+phorylation (Fig. 4L and M). Selumetinib alone exerted minimal
+effects on levels of phosphorylated STATs, but substantially
+decreased pERK1/2 levels in both xenografts. Reduced levels of
+pSTAT1/3/5 and pERK1/2 were maintained or even enhanced
+with combination treatment for up to 24 hours in both xenografts.
+Minimal changes in pAKT were observed throughout the 24-hour
+treatment period for both xenografts.
+
+Because of the strong synergy observed between AZD1480 and
+selumetinib against JAK-mutated xenografts in vitro, the combi-
+nation was tested in vivo against xenografts PALLSD and
+PAMDRM, which both exhibited very strong synergism in vitro
+(Supplementary Table S7). Although AZD1480 alone delayed the
+progression of PAMDRM by 10 days, it did not delay the leukemia
+progression of PALLSD with both responses categorized as PD1
+(Fig. 5A and B, Table 1; Supplementary Tables S8–S9). Selume-
+tinib alone exerted no signiﬁcant antileukemic efﬁcacy against
+either xenograft. Despite the combination of AZD1480 and
+selumetinib exerting a signiﬁcant progression delay in PAMDRM
+in comparison with vehicle-treated control and selumetinib
+alone, no objective responses or Therapeutic Enhancement were
+
+www.aacrjournals.org
+
+Mol Cancer Ther; 14(2) February 2015
+
+369
+
+Downloaded from 
+
+mct.aacrjournals.org 
+
+on March 4, 2015. © 2015 American Association for Cancer Research. 
+
+Published OnlineFirst December 10, 2014; DOI: 10.1158/1535-7163.MCT-14-0647 
+
+Suryani et al.
+
+A
+
+W
+W
+S
+K
+A
+P
+
+F
+C
+J
+L
+A
+P
+
+T
+Z
+H
+K
+A
+P
+
+D
+S
+L
+L
+A
+P
+
+5
+2
+-
+L
+L
+A
+
+6
+2
+-
+L
+L
+A
+
+/
+
+2
+K
+A
+J
+L
+E
+T
+3
+F
+a
+B
+
+/
+
+T
+Z
+H
+K
+A
+P
+– +
+
+L
+S
+R
+K
+A
+P
+– +
+
+B
+T
+N
+L
+A
+P
+– +
+
+P
+E
+Y
+K
+A
+P
+– +
+
+L
+D
+J
+L
+A
+P
+– +
+
+B
+
+pJAK1
+JAK1
+pJAK2
+JAK2
+pSTAT1
+STAT1
+pSTAT3
+STAT3
+pSTAT5
+STAT5
+pMEK1/2
+MEK1/2
+pERK1/2
+ERK1/2
+pAKT
+AKT
+Actin
+
+AZD1480
+pSTAT1
+
+STAT1
+
+pSTAT3
+
+STAT3
+pSTAT5
+
+STAT5
+pMEK1/2
+
+MEK1/2
+
+pERK1/2
+
+ERK1/2
+
+pAKT
+
+AKT
+
+Actin
+
+C
+
+)
+l
+o
+r
+t
+n
+o
+c
+%
+
+ 
+
+(
+ 
+l
+
+i
+
+a
+v
+v
+r
+u
+S
+
+D
+
+)
+l
+o
+r
+t
+n
+o
+c
+%
+
+ 
+
+(
+ 
+l
+
+i
+
+a
+v
+v
+r
+u
+S
+
+120
+100
+80
+60
+40
+20
+0
+–12
+
+120
+100
+80
+60
+40
+20
+0
+–12
+
+PAKRSL
+IC50 > 10 mmol/L
+
+–10
+
+–8
+
+–6
+
+–4
+
+AZD1480 (log mol/L)
+
+PALJDL
+
+IC50 = 2.4 mmol/L
+
+–10
+
+–8
+
+–6
+
+–4
+
+AZD1480 (log mol/L)
+
+Figure 2.
+Aberrant signaling pathways in JAK-mutated xenografts and their inhibition by AZD1480. A, immunoblots of signaling proteins involved in the JAK/STAT, MAPK, and
+PI3K/AKT pathways in a panel of JAK-mutated and JAK wild-type xenografts. Ba/F3TEL-JAK2 cells were included as positive controls. B, effects of in vitro
+AZD1480 treatment (1 mmol/L, 1 hour) on signaling proteins in JAK mutated and JAK wild-type with a kinase-like signature xenograft cells. C and D, in vitro
+sensitivity of xenograft cells to single-agent AZD1480. Representative cytotoxicity curves of a resistant (PAKRSL, C) and sensitive (PALJDL, D) xenograft are
+shown. Following exposure of cells to various AZD1480 concentrations for 72 hours, viability was determined by AlamarBlue assay. Each data point represents
+the mean  SEM of 3 independent experiments.
+
+observed. A complete summary of all in vivo results is provided in
+Supplementary Tables S6, S8, and S9.
+
+Pharmacodynamic evaluation of AZD1480 and selumetinib in
+leukemia-engrafted mice
+
+In an effort to understand our inability to translate the pro-
+found in vitro synergistic interactions between AZD1480 and
+selumetinib to the in vivo setting, we evaluated signaling pathways
+by phosphoprotein immunoblots of PAMDRM cells harvested
+from the spleens of highly engrafted mice following drug treat-
+ment. Although both drugs alone and in combination profoundly
+reduced pSTAT1/3/5, and pERK1/2 levels at 2 hours after treat-
+ment (Fig. 5C), all had recovered to control levels by 9 hours.
+Moreover, although pAKT levels were not affected at 2 hours after
+treatment,
+they had increased markedly at 9 hours in the
+AZD1480 and combination-treated mice relative to control levels.
+Subsequent reassessment of the in vitro combination cytotoxicity
+assays revealed that, whereas the length of drug exposure did not
+substantially affect the activity of the single agents, the profound
+synergy observed between AZD1480 and selumetinib against
+PALLSD and PAMDRM required continuous drug exposures in
+excess of 12 hours (Supplementary Fig. S7). Moreover, 72-hour
+exposure of PAMDRM cells to the AZD1480/selumetinib combi-
+nation resulted in a greater repression of pSTAT1/3/5, pAKT, and
+pERK compared with cells only treated for 12 hours (Supplemen-
+tary Fig. S8), further supporting the requirement for prolonged
+pathway inhibition to achieve synergistic cytotoxicity.
+
+Discussion
+
+Patient-derived xenografts are increasingly recognized as
+important tools for understanding tumor biology and optimizing
+new treatments. This study describes the development and molec-
+
+ular characterization of a large panel of xenografts derived from a
+cohort of high-risk patients with Kinase-like gene expression
+signatures, most of which harbor JAK mutations. The concordance
+in gene expression proﬁles between xenografts and parent biop-
+sies is remarkable, considering the number of uncontrollable
+variables associated with analysis of the batches of samples several
+years apart, indicating that these xenografts provide a valuable
+resource for preclinical experimental therapeutics.
+
+Previous reports have identiﬁed dysregulation of multiple key
+signaling pathways in Kinase-like ALL (6, 13), while Tasian and
+colleagues reported that both JAK/STAT and PI3K/mTOR path-
+ways are activated in CRLF2-rearranged BCP-ALL (9). The JAK-
+mutated ALL xenografts established in this study also exhibited
+constitutive activation of JAK/STAT, MAPK, and PI3K/AKT path-
+ways in contrast to BCP-ALL xenografts. Thus, the expectation was
+that pharmacologic inhibition of the JAK/STAT pathway with
+AZD1480 in JAK-mutated xenografts would result in substantial
+in vitro and in vivo antileukemic efﬁcacy. However, despite evi-
+dence that AZD1480 inhibited JAK/STAT signaling both in vitro
+and in vivo, it exerted modest antileukemia efﬁcacy and signiﬁ-
+cantly delayed the progression of only 3 of 10 xenografts in vivo.
+With the exception of one xenograft with BCR-JAK2 fusion
+(PAKYEP) and one xenograft with JAK wild-type (PALJDL), the
+extent of leukemia progression is consistent with that reported for
+the JAK1/2 inhibitor ruxolitinib against JAK-mutated ALL xeno-
+grafts (6, 23). Previously, signiﬁcant decreases in leukemia burden
+were observed when mice engrafted with PAKYEP and PALJDL
+were treated with ruxolitinib (23). One possible explanation for
+the difference in efﬁcacy between the two studies is that ruxoli-
+tinib was administered by continuous subcutaneous infusion,
+while we administered AZD1480 by oral gavage once or twice
+daily. As demonstrated in this study, the inhibitory effects of
+10 mg/kg AZD1480 lasted between 2 and 9 hours in vivo.
+
+370
+
+Mol Cancer Ther; 14(2) February 2015
+
+Molecular Cancer Therapeutics
+
+Downloaded from 
+
+mct.aacrjournals.org 
+
+on March 4, 2015. © 2015 American Association for Cancer Research. 
+
+Published OnlineFirst December 10, 2014; DOI: 10.1158/1535-7163.MCT-14-0647 
+
+Efﬁcacy of AZD1480 against JAK-Mutated ALL
+
+A
+
+B
+
+C
+
+D
+
+Figure 3.
+In vivo sensitivity of representative ALL
+xenografts to AZD1480. The panel
+illustrates the in vivo AZD1480 responses
+of two JAK-mutated (A and B) and two
+JAK wild-type (C and D) xenografts.
+Results are presented as the percentage
+of huCD45
+cells in the PB over time (left)
+or mouse EFS (right). Gray shading
+indicates the treatment period. Dashed
+lines, vehicle control–treated mice; solid
+lines, AZD1480-treated mice. Log-rank
+P values are shown comparing control
+and treated for each xenograft.
+
+þ
+
+B
+P
+n
+
+ 
+
+ 
+
+i
+ 
++
+5
+4
+D
+C
+n
+a
+m
+u
+H
+%
+
+ 
+
+B
+P
+n
+
+ 
+
+ 
+
+i
+ 
++
+5
+4
+D
+C
+n
+a
+m
+u
+H
+%
+
+ 
+
+B
+P
+n
+
+ 
+
+ 
+
+i
+ 
++
+5
+4
+D
+C
+n
+a
+m
+u
+H
+%
+
+ 
+
+B
+P
+n
+
+ 
+
+ 
+
+i
+ 
++
+5
+4
+D
+C
+n
+a
+m
+u
+H
+%
+
+ 
+
+50
+
+40
+
+30
+
+20
+
+10
+
+0
+
+50
+
+40
+
+30
+
+20
+
+10
+
+0
+
+50
+
+40
+
+30
+
+20
+
+10
+
+0
+
+50
+
+40
+
+30
+
+20
+
+10
+
+0
+
+7
+
+14
+
+21
+
+28
+
+35
+
+42
+
+0
+
+7
+
+14
+
+21
+
+28
+
+35
+
+42
+
+0
+
+7
+
+14
+
+21
+
+28
+
+35
+
+42
+
+100
+
+75
+
+50
+
+25
+
+l
+a
+v
+i
+v
+r
+u
+S
+%
+
+ 
+
+0
+
+0
+
+100
+
+l
+a
+v
+i
+v
+r
+u
+S
+%
+
+ 
+
+75
+
+50
+
+25
+
+0
+
+0
+
+100
+
+75
+
+50
+
+25
+
+0
+100
+
+0
+
+75
+
+50
+
+25
+
+l
+
+i
+
+a
+v
+v
+r
+u
+S
+%
+
+ 
+
+l
+
+i
+
+a
+v
+v
+r
+u
+S
+%
+
+ 
+
+PAKHZT
+P < 0.001
+
+7
+
+14
+
+21
+
+28
+
+35
+
+42
+
+PAKRSL
+P = 0.471
+
+7
+
+14
+
+21
+
+28
+
+35
+
+42
+
+PALJDL
+P < 0.001
+
+7
+
+14
+
+21
+
+28
+
+42
+
+35
+ALL-4
+P = 0.951
+
+0
+
+7
+
+0
+42
+Time (days after treatment initiation)
+
+28
+
+35
+
+21
+
+14
+
+0
+
+7
+
+0
+42
+Time (days after treatment initiation)
+
+35
+
+28
+
+14
+
+21
+
+Therefore, the lack of any observed objective responses in the
+current study when stringent objective response criteria developed
+by the Pediatric Preclinical Testing Program (25) were applied
+indicates that prolonged target inhibition is likely to be required
+to achieve signiﬁcant therapeutic beneﬁt. Furthermore, the appar-
+ent increased sensitivity of xenografts PAKYEP and PALJDL to
+both ruxolitinib and AZD1480 in vivo suggests that Kinase-like
+ALL cells with normal CRLF2 expression are more dependent on
+the JAK/STAT pathway than those with JAK point mutations and
+high CRLF2 expression.
+
+Recent reports have highlighted compensatory activation of
+signaling pathways in response to inhibition of a single kinase
+node, and the successful targeting of dual pathways to achieve
+therapeutic synergy (32–34). Therefore, we explored dual inhi-
+bition of the JAK/STAT and MEK pathways in JAK-mutated ALL
+xenografts to improve the in vitro and in vivo antileukemic efﬁcacy
+of a JAK inhibitor when used alone. We observed potent syner-
+gistic cell killing in vitro with the AZD1480/selumetinib combi-
+nation at submicromolar concentrations, suggesting that both the
+JAK/STAT and MAPK pathways are critical for the survival of
+
+JAK-mutated ALL. There was also evidence for selectivity in this
+synergy against JAK-mutated/Kinase-like xenografts, as synergy
+was not observed in 4 xenografts with wild-type JAK (Fig. 4J).
+However, despite the AZD1480/selumetinib combination signif-
+icantly delaying the progression of one JAK-mutated xenograft,
+no objective responses were achieved. These results, along with
+our additional in vitro combination cytotoxicity experiments and
+pharmacodynamics study, suggest that prolonged pathway inhi-
+bition is required in order to achieve synergy between AZD1480
+and selumetinib.
+
+The plasma half-life (t1/2) of AZD1480 was approximately 2
+and 5 hours in mouse models (21) and humans (35), respectively.
+However, whereas the human study showed maximal pSTAT
+inhibition in circulating granulocytes at 1 to 2 hours postadmi-
+nistration (35), a murine Ba/F3 TEL-JAK2 model showed pro-
+longed pSTAT5 inhibition for up to 12 hours in spleen-derived
+cells upon administration of a 30 mg/kg dose, consistent
+with signiﬁcant in vivo antileukemic efﬁcacy (21). In the same
+study, pSTAT5 suppression was observed to a maximum of 8
+hours at the 10 mg/kg dose, consistent with our ﬁndings. The t1/2
+
+www.aacrjournals.org
+
+Mol Cancer Ther; 14(2) February 2015
+
+371
+
+Downloaded from 
+
+mct.aacrjournals.org 
+
+on March 4, 2015. © 2015 American Association for Cancer Research. 
+
+Published OnlineFirst December 10, 2014; DOI: 10.1158/1535-7163.MCT-14-0647 
+
+Suryani et al.
+
+A
+
+l
+
+o
+r
+t
+n
+o
+c
+o
+t
+ 
+l
+
+ 
+
+i
+
+a
+v
+v
+r
+u
+S
+%
+
+ 
+
+C
+
+l
+
+o
+r
+t
+n
+o
+c
+o
+t
+ 
+l
+
+ 
+
+i
+
+a
+v
+v
+r
+u
+S
+%
+
+ 
+
+E
+
+l
+
+o
+r
+t
+n
+o
+c
+o
+t
+ 
+l
+
+ 
+
+i
+
+a
+v
+v
+r
+u
+S
+%
+
+ 
+
+G
+
+l
+
+o
+r
+t
+n
+o
+c
+o
+t
+ 
+l
+
+ 
+
+i
+
+a
+v
+v
+r
+u
+S
+%
+
+ 
+
+I
+
+l
+
+o
+r
+t
+n
+o
+c
+o
+t
+ 
+l
+
+ 
+
+i
+
+a
+v
+v
+r
+u
+S
+%
+
+ 
+
+120
+100
+80
+60
+40
+20
+0
+
+120
+100
+80
+60
+40
+20
+0
+
+120
+100
+80
+60
+40
+20
+0
+
+120
+100
+80
+60
+40
+20
+0
+
+120
+100
+80
+60
+40
+20
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+B
+
+PAKRSL
+
+1
+
+4
+AZD1480/selumetinib
+
+2
+
+3
+
+(mmol/L)
+
+PALLSD
+
+D
+
+1
+
+4
+AZD1480/selumetinib
+
+2
+
+3
+
+(mmol/L)
+ALL-10JAK1/V658L
+
+F
+
+1
+
+4
+AZD1480/selumetinib
+
+2
+
+3
+
+(mmol/L)
+
+H
+
+ALL-19
+
+1
+
+4
+AZD1480/selumetinib
+
+2
+
+3
+
+(mmol/L)
+
+l
+
+o
+r
+t
+n
+o
+c
+o
+t
+ 
+l
+
+ 
+
+i
+
+a
+v
+v
+r
+u
+S
+%
+
+ 
+
+l
+
+o
+r
+t
+n
+o
+c
+o
+t
+ 
+l
+
+ 
+
+i
+
+a
+v
+v
+r
+u
+S
+%
+
+ 
+
+l
+
+o
+r
+t
+n
+o
+c
+o
+t
+ 
+l
+
+ 
+
+i
+
+a
+v
+v
+r
+u
+S
+%
+
+ 
+
+l
+
+o
+r
+t
+n
+o
+c
+o
+t
+ 
+l
+
+ 
+
+i
+
+a
+v
+v
+r
+u
+S
+%
+
+ 
+
+120
+100
+80
+60
+40
+20
+0
+
+120
+100
+80
+60
+40
+20
+0
+
+120
+100
+80
+60
+40
+20
+0
+
+120
+100
+80
+60
+40
+20
+0
+
+0
+
+0
+
+0
+
+0
+
+PALJCF
+
+L
+
+Time
+(h)
+
+M
+1
+
+AZD1480
+1
+8 24
+
+PALLSD
+Selumetinib
+1
+
+8 24
+
+Combined
+1
+
+M
+8 24 24
+
+2
+
+1
+
+4
+AZD1480/selumetinib
+
+3
+(mmol/L)
+
+PAMDRM
+
+2
+
+1
+
+4
+AZD1480/selumetinib
+
+3
+(mmol/L)
+
+ALL-4
+
+2
+
+1
+
+4
+AZD1480/selumetinib
+
+3
+(mmol/L)
+
+ALL-26
+
+M
+
+Time
+(h)
+
+PAMDRM
+Selumetinib
+1
+8 24
+
+AZD1480
+1
+8 24
+
+M
+1
+
+Combined
+1
+
+M
+24 24
+
+8
+
+1
+
+4
+AZD1480/selumetinib
+
+3
+
+2
+
+(mmol/L)
+
+PALJDL
+
+AZD1480
+Selumetinib
+AZD1480/selumetinib
+Expected
+
+1
+
+4
+AZD1480/selumetinib
+
+2
+
+3
+
+(mmol/L)
+
+J
+
+PAKRSL
+PALJCF
+PALLSD
+PAMDRM
+ALL-10JAK1/V658L
+ALL-4
+ALL-19
+ALL-26
+PALJDL
+
+Synergism antagonism
+
+K
+1
+0
+–1
+–2
+–3
+
+)
+l
+
+C
+
+(
+ 
+
+0
+1
+G
+O
+L
+
+–3
+
+–1
+
+0
+–2
+Log10 (CI)
+
+1
+
+P = 0.016
+
+JAK
+mutated
+(n = 5)
+
+BCP-ALL
+(n = 4)
+
+pSTAT1
+STAT1
+pSTAT3
+STAT3
+pSTAT5
+
+STAT5
+pERK1/2
+
+ERK1/2
+pAKT
+AKT
+Actin
+
+pSTAT1
+STAT1
+pSTAT3
+STAT3
+pSTAT5
+STAT5
+pERK1/2
+ERK1/2
+pAKT
+AKT
+Actin
+
+Figure 4.
+Combination effects of AZD1480
+and selumetinib on cell survival and
+signaling pathways in ALL
+xenografts. A–H, sensitivity of JAK-
+mutated (A–E) and JAK wild-type
+(F–I) xenografts to in vitro ﬁxed
+ratios of single agents and the
+combination of AZD1480 and
+selumetinib. After 72 hours, drug
+exposure cell viability assessed by
+AlamarBlue assay. Each data point
+represents the mean  SEM of 3
+independent experiments. J, Log10
+CIs from xenografts shown in A–I,
+represented as mean  SE. K, mean
+CIs of JAK-mutated and JAK wild-
+type xenografts were compared
+using the Student t test. L and M,
+effects of AZD1480 and selumetinib
+alone and in combination on
+candidate signaling pathways in
+PALLSD (L) and PAMDRM (M).
+Cells were exposed to each drug
+(1 mmol/L) alone or in combination
+for up to 24 hours and cell extracts
+analyzed by immunoblotting.
+
+of selumetinib in humans was a median of 8.3 hours (36), and
+increased with increasing dose, while sustained inhibition of
+pERK was observed in circulating lymphocytes from patients
+treated on a prolonged twice daily dosing regimen. The rapid
+plasma clearance of AZD1480 and selumetinib, along with our
+inability to coadminister the higher doses more frequently than
+once daily due to toxicity issues, are likely to have signiﬁcantly
+contributed to our failure to translate their impressive in vitro
+synergy to the in vivo setting.
+
+Inhibition of the MAPK pathway results in activation of the
+PI3K/AKT pathway in breast cancer cells (32, 33), and the com-
+bination of MEK and mTOR inhibitors exerted synergistic anti-
+cancer activity both in vitro and in vivo (33). However, given the
+difﬁculty we experienced in optimizing a tolerable combination
+schedule of AZD1480 and selumetinib in NOD/SCID mice, it was
+not possible to include an mTOR inhibitor in our in vivo combi-
+
+nation studies. As CRLF2 is capable of activating the JAK/STAT,
+MAPK, and PI3K/AKT pathways (5–10), and given the current
+problems associated with the therapeutic use of small-molecule
+JAK inhibitors (37), CRLF2 may represent a more promising target
+for drug development in the treatment of JAK-mutated/CRLF2-
+rearranged ALL, although such inhibitors remain to be developed
+and tested in the preclinical setting.
+
+Despite the disappointing outcome of our efﬁcacy experiments
+testing the in vivo combination of AZD1480 and selumetinib,
+other JAK inhibitors may be useful for the treatment of JAK-
+mutated ALL. Although the clinical development of AZD1480
+has recently been halted due to dose-limiting toxicities (35), our
+data clearly demonstrate that AZD1480 was able to inhibit its
+target in vivo, albeit brieﬂy. Other JAK inhibitors such as ruxoli-
+tinib, TGT101348, and CYT387 have demonstrated clinical safety
+and efﬁcacy in other malignancies (16, 17, 38), and ruxolitinib in
+
+372
+
+Mol Cancer Ther; 14(2) February 2015
+
+Molecular Cancer Therapeutics
+
+Downloaded from 
+
+mct.aacrjournals.org 
+
+on March 4, 2015. © 2015 American Association for Cancer Research. 
+
+Published OnlineFirst December 10, 2014; DOI: 10.1158/1535-7163.MCT-14-0647 
+
+Efﬁcacy of AZD1480 against JAK-Mutated ALL
+
+Figure 5.
+In vivo efﬁcacy of the combination of AZD1480 and selumetinib. Mice inoculated with PALLSD (A) or PAMDRM (B) were randomized to receive vehicle
+control or treatment with AZD1480 or selumetinib either as single agents or combination, as described in the Materials and Methods. Results are presented
+cells in the PB over time (left) or mouse EFS (right). Gray shading indicates the treatment period. C, pharmacodynamic analysis
+as the percentage of huCD45
+of ALL engrafted mice treated with AZD1480/selumetinib. Mice highly engrafted with PAMDRM cells were treated with vehicle control (M), AZD1480
+(30 mg/kg), selumetinib (25 mg/kg), or selumetinib (25 mg/kg) 3 hours before AZD1480 (30 mg/kg). Spleens were collected at 2 and 9 hours after
+AZD1480 treatment. Vehicle-treated spleens were collected at the 9-hour timepoint. Protein extracts were analyzed by immunoblotting. Each lane is
+representative of a single spleen.
+
+þ
+
+particular was efﬁcacious against preclinical models of pediatric
+JAK-mutated ALL (23, 39). Thus, alternative JAK inhibitors,
+when used under conditions that can achieve prolonged target
+inhibition, may yet be efﬁcacious in the treatment of JAK-
+mutated ALL.
+
+In summary, this study has detailed the development and
+molecular characterization of a panel of patient-derived xeno-
+grafts from Kinase-like/JAK-mutated pediatric ALL. These xeno-
+grafts exhibited dysregulated activation of multiple signaling
+pathways, consistent with the primary disease, indicating that
+they provide a highly relevant preclinical experimental model.
+Despite strong evidence of target inhibition, a small-molecule
+JAK1/2 inhibitor exhibited modest in vitro and in vivo antileu-
+kemic efﬁcacy against these xenografts,
+leading to rational
+targeting of dual signaling nodes that resulted in profound in
+vitro drug synergy. Translation of these synergistic drug inter-
+actions to the in vivo setting, however, appeared to require
+sustained target inhibition that was not achievable using tol-
+erable drug dosing and administration schedules in experimen-
+tal mouse models.
+
+Disclosure of Potential Conﬂicts of Interest
+
+M.L. Loh is a consultant/advisory board member for Novartis. No potential
+
+conﬂicts of interest were disclosed by the other authors.
+
+Disclaimer
+
+Children's Cancer Institute Australia for Medical Research is afﬁliated with
+
+UNSW Australia and The Sydney Children's Hospitals Network.
+
+Authors' Contributions
+Conception and design: S. Suryani, H. Carol, C. Willman, P.J. Houghton, M.A.
+Smith, R.B. Lock
+Development of methodology: S. Suryani, H. Carol, C.G. Mullighan, C. Will-
+man, P.J. Houghton, R.B. Lock
+
+Acquisition of data (provided animals, acquired and managed patients,
+provided facilities, etc.): S. Suryani, L.S. Bracken, K.C.S. Sia, H. Carol, K. Evans,
+P.A. Dietrich, C.G. Mullighan, C. Willman, M.L. Loh, S.P. Hunger
+Analysis and interpretation of data (e.g., statistical analysis, biostatistics,
+computational analysis): S. Suryani, L.S. Bracken, R.C. Harvey, K.C.S. Sia,
+H. Carol, K.G. Roberts, R.T. Kurmasheva, C.A. Billups, C. Willman, P.J.
+Houghton, M.A. Smith, R.B. Lock
+Writing, review, and/or revision of the manuscript: S. Suryani, L.S. Bracken,
+R.C. Harvey, K.C.S. Sia, C. Willman, S.P. Hunger, P.J. Houghton, M.A. Smith,
+R.B. Lock
+Administrative, technical, or material support (i.e., reporting or organizing
+data, constructing databases): S. Suryani, L.S. Bracken, I.-M. Chen, K.G.
+Roberts, M.L. Loh
+Study supervision: S. Suryani, P.J. Houghton, R.B. Lock
+
+Acknowledgments
+
+The authors thank AstraZeneca Pharmaceuticals for providing AZD1480 and
+selumetinib and the Children's Oncology Group for the provision of the P9906
+primary patient samples.
+
+Grant Support
+
+This research was funded by grants from the National Cancer Institute
+including NOI-CM-42216 and NOI-CM-91001-03 (to P.J. Houghton),
+CA98543 (COG Chair's grant), CA98413 (COG Statistical Center) and
+CA114766 (COG Specimen Banking; to S.P. Hunger). S. Suryani is supported
+by Postdoctoral Fellowships from the Leukaemia Foundation of Australia and
+the Cure Cancer Australia Foundation, and an Early Career Fellowship from the
+Cancer Institute NSW. S.P. Hunger is the Ergen Family Chair in Pediatric Cancer.
+R.B. Lock is supported by a Fellowship from the National Health and Medical
+Research Council.
+
+The costs of publication of this article were defrayed in part by the
+payment of page charges. This article must therefore be hereby marked
+advertisement in accordance with 18 U.S.C. Section 1734 solely to indicate
+this fact.
+
+Received August 6, 2014; revised October 29, 2014; accepted November 13,
+
+2014; published OnlineFirst December 10, 2014.
+
+www.aacrjournals.org
+
+Mol Cancer Ther; 14(2) February 2015
+
+373
+
+Downloaded from 
+
+mct.aacrjournals.org 
+
+on March 4, 2015. © 2015 American Association for Cancer Research. 
+
+Published OnlineFirst December 10, 2014; DOI: 10.1158/1535-7163.MCT-14-0647 
+
+Suryani et al.
+
+References
+1. Pui CH, Mullighan CG, Evans WE, Relling MV. Pediatric acute lympho-
+blastic leukemia: where are we going and how do we get there? Blood
+2012;120:1165–74.
+
+2. Harvey RC, Mullighan CG, Wang X, Dobbin KK, Davidson GS, Bedrick EJ,
+et al. Identiﬁcation of novel cluster groups in pediatric high-risk B-precursor
+acute lymphoblastic leukemia with gene expression proﬁling: correlation
+with genome-wide DNA copy number alterations, clinical characteristics,
+and outcome. Blood 2010;116:4874–84.
+
+3. Harvey RC, Mullighan CG, Chen IM, Wharton W, Mikhail FM, Carroll AJ,
+et al. Rearrangement of CRLF2 is associated with mutation of JAK kinases,
+alteration of IKZF1, Hispanic/Latino ethnicity, and a poor outcome in
+pediatric B-progenitor acute lymphoblastic leukemia. Blood 2010;115:
+5312–21.
+
+4. Mullighan CG, Zhang J, Harvey RC, Collins-Underwood JR, Schulman BA,
+Phillips LA, et al. JAK mutations in high-risk childhood acute lympho-
+blastic leukemia. Proc Natl Acad Sci U S A 2009;106:9414–8.
+
+5. Mullighan CG, Collins-Underwood JR, Phillips LA, Loudin MG, Liu W,
+Zhang J, et al. Rearrangement of CRLF2 in B-progenitor- and Down
+syndrome-associated acute lymphoblastic leukemia. Nat Genet 2009;41:
+1243–6.
+
+6. Roberts KG, Morin RD, Zhang J, Hirst M, Zhao Y, Su X, et al. Genetic
+alterations activating kinase and cytokine receptor signaling in high-risk
+acute lymphoblastic leukemia. Cancer Cell 2012;22:153–66.
+
+7. Roll JD, Reuther GW. CRLF2 and JAK2 in B-progenitor acute lympho-
+blastic leukemia: a novel association in oncogenesis. Cancer Res 2010;
+70:7347–52.
+
+8. Russell LJ, Capasso M, Vater I, Akasaka T, Bernard OA, Calasanz MJ, et al.
+Deregulated expression of cytokine receptor gene, CRLF2, is involved in
+lymphoid transformation in B-cell precursor acute lymphoblastic leuke-
+mia. Blood 2009;114:2688–98.
+
+9. Tasian SK, Doral MY, Borowitz MJ, Wood BL, Chen IM, Harvey RC, et al.
+Aberrant STAT5 and PI3K/mTOR pathway signaling occurs in human
+CRLF2-rearranged B-precursor acute lymphoblastic leukemia. Blood 2012;
+120:833–42.
+
+10. van Bodegom D, Zhong J, Kopp N, Dutta C, Kim MS, Bird L, et al.
+Differences in signaling through the B-cell leukemia oncoprotein CRLF2
+in response to TSLP and through mutant JAK2. Blood 2012;120:2853–63.
+11. Steelman LS, Pohnert SC, Shelton JG, Franklin RA, Bertrand FE, McCubrey
+JA. JAK/STAT, Raf/MEK/ERK, PI3K/Akt and BCR-ABL in cell cycle progres-
+sion and leukemogenesis. Leukemia 2004;18:189–218.
+
+12. Flex E, Petrangeli V, Stella L, Chiaretti S, Hornakova T, Knoops L, et al.
+Somatically acquired JAK1 mutations in adult acute lymphoblastic leuke-
+mia. J Exp Med 2008;205:751–8.
+
+13. Zhang J, Mullighan CG, Harvey RC, Wu G, Chen X, Edmonson M, et al. Key
+pathways are frequently mutated in high-risk childhood acute lympho-
+blastic leukemia: a report from the Children's Oncology Group. Blood
+2011;118:3080–7.
+
+14. Chang F, Lee JT, Navolanic PM, Steelman LS, Shelton JG, Blalock WL, et al.
+Involvement of PI3K/Akt pathway in cell cycle progression, apoptosis, and
+neoplastic transformation: a target for cancer chemotherapy. Leukemia
+2003;17:590–603.
+
+15. Lim J, Taoka B, Otte RD, Spencer K, Dinsmore CJ, Altman MD, et al.
+Discovery of 1-amino-5H-pyrido[4,3-b]indol-4-carboxamide inhibitors
+of Janus kinase 2 (JAK2) for the treatment of myeloproliferative disorders.
+J Med Chem 2011;54:7334–49.
+
+16. Pardanani A, Gotlib JR, Jamieson C, Cortes JE, Talpaz M, Stone RM, et al.
+Safety and efﬁcacy of TG101348, a selective JAK2 inhibitor, in myeloﬁ-
+brosis. J Clin Oncol 2011;29:789–96.
+
+17. Tyner JW, Bumm TG, Deininger J, Wood L, Aichberger KJ, Loriaux MM, et al.
+CYT387, a novel JAK2 inhibitor, induces hematologic responses and
+normalizes inﬂammatory cytokines in murine myeloproliferative neo-
+plasms. Blood 2010;115:5232–40.
+
+18. Barrio S, Gallardo M, Arenas A, Ayala R, Rapado I, Rueda D, et al. Inhibition
+of related JAK/STAT pathways with molecular targeted drugs shows strong
+synergy with ruxolitinib in chronic myeloproliferative neoplasm. Br J
+Haematol 2013;161:667–76.
+
+19. Chase A, Bryant C, Score J, Haferlach C, Grossmann V, Schwaab J, et al.
+Ruxolitinib as potential targeted therapy for patients with JAK2 rearrange-
+ments. Haematologica 2013;98:404–8.
+
+20. Hedvat M, Huszar D, Herrmann A, Gozgit JM, Schroeder A, Sheehy A, et al.
+The JAK2 inhibitor AZD1480 potently blocks Stat3 signaling and onco-
+genesis in solid tumors. Cancer Cell 2009;16:487–97.
+Ioannidis S, Lamb ML, Wang T, Almeida L, Block MH, Davies AM, et al.
+Discovery of 5-chloro-N2-[(1S)-1-(5-ﬂuoropyrimidin-2-yl)ethyl]-N4-(5-
+methyl-1H-pyrazol-3-yl)p yrimidine-2,4-diamine (AZD1480) as a novel
+inhibitor of the Jak/Stat pathway. J Med Chem 2011;54:262–76.
+
+21.
+
+22. Schultz KR, Bowman WP, Aledo A, Slayton WB, Sather H, Devidas M, et al.
+Improved early event-free survival with imatinib in Philadelphia chromo-
+some-positive acute lymphoblastic leukemia: a children's oncology group
+study. J Clin Oncol 2009;27:5175–81.
+
+23. Maude SL, Tasian SK, Vincent T, Hall JW, Sheen C, Roberts KG, et al.
+Targeting JAK1/2 and mTOR in murine xenograft models of Ph-like acute
+lymphoblastic leukemia. Blood 2012;120:3510–8.
+
+24. Dry JR, Pavey S, Pratilas CA, Harbron C, Runswick S, Hodgson D, et al.
+Transcriptional pathway signatures predict MEK addiction and response to
+selumetinib (AZD6244). Cancer Res 2010;70:2264–73.
+
+25. Houghton PJ, Morton CL, Tucker C, Payne D, Favours E, Cole C, et al. The
+pediatric preclinical testing program: description of models and early
+testing results. Pediatr Blood Cancer 2007;49:928–40.
+
+26. Liem NL, Papa RA, Milross CG, Schmid MA, Tajbakhsh M, Choi S, et al.
+Characterization of childhood acute lymphoblastic leukemia xenograft
+models for the preclinical evaluation of new therapies. Blood 2004;103:
+3905–14.
+
+27. Lock RB, Liem N, Farnsworth ML, Milross CG, Xue C, Tajbakhsh M, et al.
+The nonobese diabetic/severe combined immunodeﬁcient (NOD/SCID)
+mouse model of childhood acute lymphoblastic leukemia reveals intrinsic
+differences in biologic characteristics at diagnosis and relapse. Blood
+2002;99:4100–8.
+
+28. Houghton PJ, Morton CL, Gorlick R, Lock RB, Carol H, Reynolds CP, et al.
+Stage 2 combination testing of rapamycin with cytotoxic agents by the
+Pediatric Preclinical Testing Program. Mol Cancer Ther 2010;9:101–12.
+
+29. Rose WC, Wild R. Therapeutic synergy of oral taxane BMS-275183 and
+cetuximab versus human tumor xenografts. Clin Cancer Res 2004;10:
+7413–7.
+
+30. Bachmann PS, Gorman R, Papa RA, Bardell JE, Ford J, Kees UR, et al.
+Divergent mechanisms of glucocorticoid resistance in experimental
+models of pediatric acute lymphoblastic leukemia. Cancer Res 2007;67:
+4482–90.
+
+31. Mullighan CG, Su X, Zhang J, Radtke I, Phillips LA, Miller CB, et al. Deletion
+of IKZF1 and prognosis in acute lymphoblastic leukemia. N Engl J Med
+2009;360:470–80.
+
+32. Duncan JS, Whittle MC, Nakamura K, Abell AN, Midland AA, Zawis-
+towski JS, et al. Dynamic reprogramming of the kinome in response to
+targeted MEK inhibition in triple-negative breast cancer. Cell 2012;
+149:307–21.
+
+33. Hoeﬂich KP, O'Brien C, Boyd Z, Cavet G, Guerrero S, Jung K, et al. In vivo
+antitumor activity of MEK and phosphatidylinositol 3-kinase inhibitors in
+basal-like breast cancer models. Clin Cancer Res 2009;15:4649–64.
+
+34. Koppikar P, Bhagwat N, Kilpivaara O, Manshouri T, Adli M, Hricik T, et al.
+Heterodimeric JAK-STAT activation as a mechanism of persistence to JAK2
+inhibitor therapy. Nature 2012;489:155–9.
+
+35. Plimack ER, Lorusso PM, McCoon P, Tang W, Krebs AD, Curt G, et al.
+AZD1480: a phase I study of a novel JAK2 inhibitor in solid tumors.
+Oncologist 2013;18:819–20.
+
+36. Adjei AA, Cohen RB, Franklin W, Morris C, Wilson D, Molina JR, et al. Phase
+I pharmacokinetic and pharmacodynamic study of the oral, small-mole-
+cule mitogen-activated protein kinase kinase 1/2 inhibitor AZD6244
+(ARRY-142886) in patients with advanced cancers. J Clin Oncol 2008;
+26:2139–46.
+
+37. Trelinski J, Robak T. JAK inhibitors: pharmacology and clinical activity
+in chronic myeloprolipherative neoplasms. Curr Med Chem 2013;20:
+1147–61.
+
+38. Pardanani A, Laborde RR, Lasho TL, Finke C, Begna K, Al-Kali A, et al. Safety
+and efﬁcacy of CYT387, a JAK1 and JAK2 inhibitor, in myeloﬁbrosis.
+Leukemia 2013;27:1322–7.
+
+39. Roberts KG, Li Y, Payne-Turner D, Harvey RC, Yang YL, Pei D, et al.
+Targetable kinase-activating lesions in Ph-like acute lymphoblastic leuke-
+mia. N Engl J Med 2014;371:1005–15.
+
+374
+
+Mol Cancer Ther; 14(2) February 2015
+
+Molecular Cancer Therapeutics
+
+Downloaded from 
+
+mct.aacrjournals.org 
+
+on March 4, 2015. © 2015 American Association for Cancer Research. 
+
+Published OnlineFirst December 10, 2014; DOI: 10.1158/1535-7163.MCT-14-0647 
+
+In Vitro
+
+ and 
+
+In Vivo
+
+Evaluation of the 
+AZD1480 against JAK-Mutated Acute Lymphoblastic Leukemia
+  
+Santi Suryani, Lauryn S. Bracken, Richard C. Harvey, et al. 
+  
+Mol Cancer Ther 
+
+ Efficacy of the JAK Inhibitor
+
+2015;14:364-374. Published OnlineFirst December 10, 2014.
+
+  
+  
+  
+  
+
+  
+  
+
+Updated version
+  
+Supplementary
+Material
+  
+
+10.1158/1535-7163.MCT-14-0647
+ 
+
+Access the most recent version of this article at:
+doi:
+  
+Access the most recent supplemental material at:
+ 
+http://mct.aacrjournals.org/content/suppl/2014/12/10/1535-7163.MCT-14-0647.DC1.html
+  
+
+Cited Articles
+  
+
+This article cites by 39 articles, 24 of which you can access for free at:
+http://mct.aacrjournals.org/content/14/2/364.full.html#ref-list-1
+ 
+  
+
+E-mail alerts
+  
+Reprints and 
+Subscriptions
+  
+Permissions
+  
+
+Sign up to receive free email-alerts
+
+ related to this article or journal.
+
+To order reprints of this article or to subscribe to the journal, contact the AACR Publications Department at
+pubs@aacr.org
+.
+  
+To request permission to re-use all or part of this article, contact the AACR Publications Department at
+.
+permissions@aacr.org
+  
+
+Downloaded from 
+
+mct.aacrjournals.org 
+
+on March 4, 2015. © 2015 American Association for Cancer Research. 
+
+

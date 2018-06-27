@@ -1,0 +1,2142 @@
+RESEARCH ARTICLE
+
+Microarray-Based Copy Number Analysis of
+Neuroﬁbromatosis Type-1 (NF1)-Associated Malignant
+Peripheral Nerve Sheath Tumors Reveals a Role for
+Rho–GTPase Pathway Genes in NF1 Tumorigenesis
+
+OFFICIAL JOURNAL
+
+www.hgvs.org
+
+Meena Upadhyaya,1∗ Gill Spurlock,1 Laura Thomas,1 Nick S. T. Thomas,1 Mark Richards,1 Viktor-Felix Mautner,2
+David N. Cooper,1 Abhijit Guha,3† and Jim Yan4
+1InstituteofMedicalGenetics,SchoolofMedicine,CardiffUniversity,Cardiff,UK;2DepartmentofNeurosurgery,UniversityClinic
+Hamburg-Eppendorf,Hamburg,Germany;3TheArthurandSoniaLabattBrainTumorResearchCentre,TheHospitalforSickChildren,
+UniversityofToronto,Toronto,Ontario,Canada;4CompanionDiagnostics,LaboratoryCorporationofAmerica,YorkshirePlace,
+Durham,NorthCarolina
+Communicated by Paolo M. Fortina
+Received 5 October 2011; accepted revised manuscript 18 January 2012.
+Published online 13 February 2012 in Wiley Online Library (www.wiley.com/humanmutation).DOI: 10.1002/humu.22044
+
+ABSTRACT: Neuroﬁbromatosis type-1 (NF1) is associ-
+ated with the growth of benign and malignant tumors.
+Approximately 15% of NF1 patients develop malignant
+peripheral nerve sheath tumors (MPNSTs), underlin-
+ing the need to identify speciﬁc diagnostic/prognostic
+biomarkers associated with MPNST development. The
+Affymetrix Genome-Wide Human single-nucleotide poly-
+morphism (SNP) Array 6.0 was used to perform SNP
+genotyping and copy number alteration (CNA), loss-of-
+heterozygosity (LOH), and copy number neutral–LOH
+(CNN–LOH) analyses of DNA isolated from 15 MPN-
+STs, ﬁve benign plexiform neuroﬁbromas (PNFs), and
+patient-matched lymphocyte DNAs. MPNSTs exhibited
+high-level CNN-LOH, with recurrent changes occurring
+in MPNSTs but not PNFs. CNN–LOH was evident
+in MPNSTs but occurred less frequently than genomic
+deletions. CNAs involving the ITGB8, PDGFA, Ras-
+related C3 botulinum toxin substrate 1 (RAC1) (7p21-
+p22), PDGFRL (8p22-p21.3), and matrix metallopep-
+tidase 12 (MMP12) (11q22.3) genes were speciﬁc to
+MPNSTs. Pathway analysis revealed the MPNST-speciﬁc
+ampliﬁcation of seven Rho–GTPase pathway genes and
+several cytoskeletal remodeling/cell adhesion genes. In
+knockdown experiments employing short-hairpin RAC1,
+ROCK2, PTK2, and LIMK1 RNAs to transfect both con-
+trol and MPNST-derived cell lines, cell adhesion was sig-
+niﬁcantly increased in the MPNST cell lines, whereas
+wound healing, cell migration, and invasiveness were re-
+duced, consistent with a role for these Rho–GTPase path-
+way genes in MPNST development and metastasis. These
+
+Additional Supporting Information may be found in the online version of this article.
+†This manuscript is dedicated to the memory of Professor Abhijit Guha, who sadly
+passed away on 8 November 2011, shortly before this article was accepted for publi-
+
+cation.∗Correspondence to: Meena Upadhyaya, Institute of Medical Genetics, School of
+
+Medicine, Cardiff University, Cardiff CF14 4XN, UK. E-mail: upadhyaya@cardiff.ac.uk
+
+results suggest new targets for therapeutic intervention in
+relation to MPNSTs.
+Hum Mutat 33:763–776, 2012. C(cid:2) 2012 Wiley Periodicals, Inc.
+KEY WORDS: neuroﬁbromatosis type-1; benign and malig-
+nant tumors; loss-of-heterozygosity; copy number alter-
+ations; Rho–GTPase pathway genes; cell adhesion; mi-
+gration; invasion; wound healing; metastasis
+
+Introduction
+
+Neuroﬁbromatosis type-1 (NF1; MIM# 162200) is a familial can-
+cer syndrome that affects one in 3,500 individuals worldwide. It is
+caused by inactivation of the NF1 tumor suppressor gene (MIM#
+162200) located at 17q11.2. Consistent with Knudson’s two-hit hy-
+pothesis, NF1 patients harboring a heterozygous germline NF1
+mutation develop neuroﬁbromas upon somatic mutation of the
+second wild-type NF1 allele. The benign and malignant periph-
+eral nerve sheath tumors (MPNSTs) that develop in NF1 patients
+are a hallmark of the disease, with cutaneous neuroﬁbromas be-
+ing the commonest benign tumors, and MPNSTs, a type of sar-
+coma, contributing to malignancy [Bennett et al., 2009; Upadhyaya
+and Cooper, 1998; reviewed by Upadhyaya, 2010]. NF1 individuals
+are predisposed to develop a variety of other cancers, such as op-
+tic gliomas, pheochromocytomas, gastrointestinal stromal tumors,
+and myeloid malignancies. NF1 is also characterized by a plethora of
+nontumor clinical features, including dermal pigmentary changes,
+hamartomatous lesions of the iris, bone deformities, and cognitive
+deﬁcit.
+
+Neuroﬁbromatosis type-1 patients exhibit an 8–13% lifetime risk
+of developing an MPNST, usually from within a preexisting plex-
+iform neuroﬁbroma (PNF) or a focal subcutaneous neuroﬁbroma
+[Brems et al., 2009a; Evans et al., 2002; Spurlock et al., 2010; Tucker
+et al., 2005 & Carrolle & Ratner, 2008]. Although most MPNSTs
+develop in adult NF1 patients, they can also occur in much younger
+affected individuals, emphasizing the need for early detection of
+MPNST development given that these aggressive tumors frequently
+recur and can metastasize to the lungs and other organs. Radical
+
+C(cid:3) 2012 WILEY PERIODICALS, INC.
+
+surgery, usually in combination with radiotherapy, constitutes the
+optimum treatment, especially if chemotherapy is also given in par-
+allel to inhibit metastasis. Although early detection would facili-
+tate both the identiﬁcation and clinical management of those NF1
+patients most likely to develop malignant tumors, a prerequisite
+for early detection is the availability of diagnostic and prognos-
+tic biomarkers associated with MPNST development [reviewed by
+Upadhyaya, 2011].
+
+The difﬁculties inherent in the early clinical and pathological di-
+agnosis of NF1–MPNSTs underline the need for a clearer deﬁnition
+of the molecular basis of NF1-associated malignancy. Somatic bial-
+lelic inactivation of both NF1 alleles was ﬁrst demonstrated in NF1–
+MPNSTs more than 20 years ago [Skuse et al., 1989], an observation
+consistent with NF1 being a tumor suppressor gene. Homozygous
+NF1 inactivation was also subsequently detected in benign cuta-
+neous and PNFs as well as in MPNSTs when loss-of-heterozygosity
+(LOH) analysis was performed [Glover et al., 1991; John et al., 2000;
+Legius et al., 1993; Rasmussen et al., 2000], indicating that addi-
+tional genetic changes are required for malignant transformation to
+occur.
+
+Although the functional loss of neuroﬁbromin represents the
+primary event in tumorigenesis, the precise role of other genetic
+lesions in promoting the malignant transformation of benign neu-
+roﬁbromas is poorly understood. However, the recent introduction
+of microarray-based technologies allows us to simultaneously an-
+alyze multiple genes and genomic regions (at both the RNA and
+DNA level) in a single experiment. Such array-based analyses pro-
+vide us with an unrivaled opportunity to proﬁle concomitant copy
+number and gene expression changes associated with a given tumor
+state. Several studies have already analyzed tumor DNA and/or RNA
+in searches for potential molecular signatures capable of differen-
+tiating between MPNSTs and benign neuroﬁbromas [Miller et al.,
+2006, 2010; Mantripragada et al., 2008, 2009; reviewed by Upad-
+hyaya, 2011]. Array-based analyses have a major advantage in that
+they can be used to detect copy number variation/alterations, which
+can play a key role in tumorigenesis. Copy number variants (CNVs)
+constitute heritable genomic alterations that range in size from one
+kilobase up to several megabases in size. Although CNVs make a
+substantial contribution to interindividual variation, acquired so-
+matic copy number alterations (CNAs) are increasingly being iden-
+tiﬁed in many different cancers [Albertson, 2006; Kuiper et al., 2010;
+Rothenberg and Settleman, 2010; Shlien and Malkin, 2009, 2010].
+As with other tumor-associated genetic changes, such CNAs (by
+virtue of the genes they contain) can confer a selective advantage
+with respect to cellular proliferation, survival, and clonal expan-
+sion. Various microarray-based methodologies have been developed
+to detect both CNVs and CNAs genome wide. Initially, compara-
+tive genomic hybridization arrays (array-CGH) constructed from
+overlapping human bacterial artiﬁcial chromosome (BAC) clones
+were recruited, but more recently, combined high-density single-
+nucleotide polymorphism (SNP) and CNV genotyping arrays have
+been employed. Such high-density microarrays, often containing
+several million individual markers, can now be used to simulta-
+neously assess both heritable copy number variation and somatic
+CNA-based genomic changes associated with a speciﬁc tumor type
+[Lebron et al., 2011].
+
+Recent studies of NF1-associated benign and malignant tu-
+mors, which have aimed to identify tumor-speciﬁc diagnostic and
+prognostic markers, have detected extensive somatic copy number
+changes in DNA derived from NF1–MPNSTs that were absent from
+the DNA of benign PNFs [Kresse et al., 2008; Mantripragada et al.,
+2008, 2009]. The present study has extended this analysis by provid-
+ing high-resolution information from a combined genomic CNA
+764
+
+HUMAN MUTATION, Vol. 33, No. 4, 763–776, 2012
+
+analysis with data from an LOH screen of both PNF and MPNST
+tumor DNAs from 20 unrelated NF1 patients using the Affymetrix
+Genome-Wide Human SNP 6.0 Array.
+
+Materials and Methods
+
+Patient Samples and DNA Preparation
+
+This project was approved by the local Ethics committee. In-
+formed consent for sample collection was obtained according to
+protocols approved by this committee. Diagnosis of MPNSTs was
+made by the individual referring centers. All available information
+on the nature and grading of the tumors under study (15 MPNSTs)
+is provided in Supp. Table S1. Tumor biopsies and matched lym-
+phocyte samples were obtained from the 20 unrelated NF1 patients.
+DNA from the tumors and matched lymphocyte samples was ex-
+tracted as previously described [Upadhyaya et al., 2008a, 2008b].
+DNA samples were checked to ensure compliance with the strin-
+gent spectrophotometric and electrophoretic quality control (QC)
+criteria required by the Affymetrix SNP 6.0 Array platform.
+
+Affymetrix SNP 6.0 Array Analysis
+
+The Affymetrix Genome-Wide Human SNP Array 6.0 was used
+as per the manufacturer’s instructions. This Affymetrix array offers
+whole-genome coverage as well as superior resolution, and permits
+the simultaneous assessment of unbalanced chromosomal defects
+such as CNA, LOH, and acquired copy number neutral (CNN)–
+LOH. Details are given in the Supp. Methods.
+
+Genomic Segmentation algorithms or Hidden Markov Model
+(HMM) (Affymetrix White Paper; http://www.affymetrix.com/
+support/technical/whitepapers.affx) were used to detect the copy
+number variation. The minimal number of genomic markers was
+set at 50 for both algorithms. Most copy number analysis was per-
+formed using the segmentation method, with the P value threshold
+set at 0.001 and a signal-to-noise ratio of ≥0.5, to attain the level
+required for positive CNA detection. In these copy number analyses,
+overlapping CNA regions were identiﬁed on the basis of the overlap
+of physical location intervals at each CNA boundary, either in NF1–
+MPNSTs or benign PNFs. All CNA and LOH analyses, including
+CNN–LOH, were performed in Partek Genomics Suite 6.4. Most
+CNA analysis entailed paired analysis involving the comparison of
+tumor DNAs against the matched constitutional patient lymphocyte
+DNAs, whereas unpaired CNA analysis was only used in median ab-
+solute pairwise difference (MAPD) calculation and QC to compare
+tumor DNA against reference data derived from the 270 normal indi-
+viduals catalogued in the HapMap database (International HapMap
+Consortium, 2005). All LOH and CNN–LOH analyses were paired
+using matched lymphocyte DNAs as the baseline. Each positive
+tumor-speciﬁc CNA was assessed to determine the genomic region,
+overlap, or recurrence between samples, as well as the identity of
+the genes residing within the corresponding genomic regions. For
+CNN–LOH analysis, two separate workﬂows were used. One of these
+was the allele-speciﬁc copy number (ASCN) analysis in Partek that
+used both the CEL ﬁles containing probe intensity data and CHP
+ﬁles containing SNP call results together to assess copy number allele
+imbalance. The other workﬂow involved the comparison of paired
+CNV analysis using CEL ﬁles and paired LOH analysis (using both
+CEL ﬁles and CHP ﬁles) to identify regions with CNVs and LOH,
+respectively, and then to identify regions of CNN–LOH. The results
+from the two separate workﬂows were then merged, generating a
+consensus in CNN–LOH identiﬁcation. Biological pathway analysis
+was performed in GeneGO’s MetaCore (http://www.genego.com)
+
+using gene set enrichment analysis in conjunction with the gene
+lists from the corresponding CNA regions or LOH regions.
+
+Quantitative Real-Time Polymerase Chain Reaction
+
+From the derived Affymetrix array CGH data in the present study,
+the relative copy numbers of 14 genes found to be encompassed by
+tumor-speciﬁc CNAs were independently assessed by quantitative
+polymerase chain reaction (qPCR) of DNA and RNA isolated from
+the relevant tumor samples. The details are given in the Supporting
+Information.
+
+Details of the short-hairpin RNA (shRNA) experiments, cell cul-
+ture, Western blotting, immunohistochemistry, the wound healing
+assay, and the cell adhesion, invasion, and migration assays are given
+in the Supporting Information.
+
+Results
+
+Data Quality Assessment
+
+In the present study, we analyzed the copy number and LOH
+state in DNA isolated from tumors and matched constitutional
+(lymphocyte) samples from 20 NF1 patients (including 15 MP-
+NSTs and ﬁve PNFs) using the Affymetrix 6.0 SNP array. (NB.
+Throughout the text, the preﬁx M denotes MPNST, whereas the
+preﬁx P denotes PNF.) Because LOH and CNN–LOH analyses re-
+quire satisfactory genotyping performance and consistent intensity
+measurement across genomic regions, we examined the SNP call
+rate to assess genotyping performance, MAPD to assess the suit-
+ability for using unpaired copy number analysis against the 794
+normal HapMap samples (Supp. Fig. S1a–c), and principal com-
+ponent analysis (PCA) and clustering analysis for sample grouping
+and detection of sample outliers. Apart from one lymphocyte sam-
+ple (patient M6) that failed to yield DNA of sufﬁcient quality, all
+39 samples successfully yielded data. The SNP call rates for 36 of
+the 39 arrays analyzed were 97–99%, and were therefore suitable
+for LOH analysis. The remaining three arrays yielded SNP call rates
+of 96.0–96.8% with acceptable genotyping performance and were
+therefore also included in the data analysis. All 39 DNA hybridiza-
+tions yielded good MAPD scores, 0.23–0.37 (<0.4), thereby meeting
+the acceptance criterion for copy number analysis.
+
+The clustering analysis (Fig. 1a and b) of copy numbers from
+the unpaired and paired analyses indicated that the MPNSTs repre-
+sented a diverse group, with some samples (M10, M11, M12, M13,
+and M14) resembling PNF samples in terms of their copy num-
+ber changes, whereas others (such as M2, M3, M7, M8, M9, and
+MX) were quite distinct from the PNF samples. After reviewing the
+PCA and clustering analysis results of copy numbers from the un-
+paired analysis, an apparent batch effect related to scan date (data
+production date) was noted. Three arrays, corresponding to M14
+tumor and lymphocyte samples and M9 tumor samples produced
+on September 16, 2008 (Supp. Fig. S1a) deviated signiﬁcantly from
+the rest of data due to the scan date batch effect. Although the paired
+analysis (Fig. 1a) placed M14 in the middle of the cluster, because
+both its tumor and matched lymphocyte samples were from the
+same batch, M9 would appear to be an outlier in the paired analysis
+because its tumor sample was proﬁled in the batch of September 16,
+2008, but its matched reference lymphocyte sample was made in the
+other batch (August 28, 2008). Therefore, M9 was not used for any
+sample overlap and recurrent CNA analysis.
+
+The genome-wide CNA/CNV proﬁles associated with each tumor
+type and the matching lymphocyte DNA from the same patient were
+visualized using the heatmaps generated from hierarchical cluster-
+
+ing analysis in Partek Genomics Suite 6.4. Each CNA proﬁle was
+presented as a “heatmap” that depicted the copy number changes
+associated with each of the 23 chromosomes. As an example, the
+CNA heatmap for chromosome 5 is shown for the 13 MPNST tu-
+mor samples (top panel) and ﬁve PNF tumor samples pairwise in
+Figure 2; this serves to identify all copy number gains (in red) and all
+copy number losses (in blue) across the entire length of chromosome
+5. Five PNF-harboring patients (bottom panel) displayed relatively
+few copy number changes, whereas the CNA proﬁles derived from
+ﬁve MPNSTs (top panel, M2, M3, M5, M6, M7, M8, and MX) were
+generally comparable (with genomic gains across the entire 5p arm
+and genomic losses across the 5q arm). However, the CNA proﬁles
+from several other MPNSTs (M4, M10, M11, M12, and M13) were
+quite varied, with several displaying CNA proﬁles with respect to
+chromosome 5 that were similar to those exhibited by benign PNFs.
+The genome-wide CNA proﬁles associated with the MPNSTs dis-
+played a similar trend; however, these molecular proﬁles harbored
+two subgroups of malignant tumors, those that exhibited a large
+number of CNAs and those which exhibited relatively few CNA
+proﬁles and were comparable to the proﬁles characterizing benign
+PNFs (Figs. 1a and 2).
+
+CNV/CNA Identiﬁcation by Paired and Unpaired Analysis
+
+To determine whether any of the identiﬁed CNAs were speciﬁc to
+either the PNFs or the malignant MPNSTs, all tumor CNVs/CNAs
+were compared with the CNV proﬁles derived from the matched
+lymphocyte DNA samples from the same patients, as well as against
+the CNV proﬁles of the 794 normal HapMap samples. The Database
+of Genomic Variants (http://projects.tcag.ca/variation/) was queried
+for all CNV/CNA-harboring regions identiﬁed in the tumor and
+blood samples in order to exclude the possibility that they might
+constitute rare CNVs found in the normal population rather than
+true somatic events. To identify signiﬁcant CNAs, we employed the
+criteria of 50 or more markers, a P value of 0.001 and a signal-to-
+noise ratio of no less than 0.5 for segmentation analysis. The CNA
+distributions in 14 MPNST and ﬁve PNF patients are summarized in
+Table 1 and Supp. Tables S2 and S3 for both the paired and unpaired
+analyses. The detailed results for individual patients are presented
+in Supp. Table S4. It would appear that CNAs in MPNSTs are much
+more frequent than in PNFs in the paired analysis (Table 1, Supp.
+Fig. S2a and b). The unpaired analysis yielded more CNAs in some
+samples than the paired analysis (Table 1), indicating that germline
+CNVs were evident in the unpaired analysis but not in the paired
+analysis. These results from the unpaired analysis did not include the
+X and Y chromosomes because the genders of individuals from the
+HapMap samples were different from those of the NF1 patients and
+hence inclusion of the sex chromosomes would have rendered the
+CNA analysis invalid. Therefore, the primary results and conclusion
+were based solely on the paired analysis. The unpaired analysis
+was mainly used to assess the difference between the somatic and
+germline changes. Among the results of the paired analysis, 41 CNAs
+had copy numbers greater than 4 or less than 0.5; 40 of these high-
+magnitude changes occurred in MPNST patients M2, M3, M7, M8,
+and MX including 13 ampliﬁcations on 18q21.2 in patient M3, two
+deletions on 17p11.2 in patient M2, and three deletions on 11p12
+in MX. Only one ampliﬁcation event was found in a PNF (P1 on
+12p11.1).
+
+Deletions and Ampliﬁcations
+
+Of the total 1,022 CNVs/CNAs identiﬁed, there were more
+copy number losses (571; 55.87%) than copy number gains (451;
+765
+
+HUMAN MUTATION, Vol. 33, No. 4, 763–776, 2012
+
+Figure 1.
+(A) Hierachical clustering of genome-wide copy number from the paired analysis. Global clustering view of copy number alterations
+across all NF1 tumor samples. M, malignant; P, plexiform neuroﬁbromas ampliﬁcation is indicated by red and deletion is denoted by blue. (B)
+Hierachical clustering of genome-wide copy number from the unpaired analysis compared with the HapMap reference. Ampliﬁcation is indicated
+by red and deletion is denoted by blue.
+
+44.13%). Most CNAs (996/1022) were identiﬁed in MPNST tumor
+DNA, whereas only 26 CNAs were identiﬁed in benign PNF tumor
+DNA (Supp. Table S3). Recurrent or overlapping CNVs/CNAs were
+absent from PNFs (Supp. Table S3), except for one overlap on chro-
+mosome 4 in two patients, P1 and P3. Identiﬁcation of the CNAs
+most likely to be involved in malignant transformation required the
+selection of recurrent CNAs (i.e., those CNAs found in at least three
+different MPNSTs from unrelated patients, and with copy number
+gains of ≥2.8 or losses of ≤1.5); employing these criteria, a total of
+232 CNVs were selected for further analysis (all were among the
+MPNSTs because no such recurrent CNAs were observed among
+the benign PNFs). A subsequent assessment of the 232 recurrent
+MPNST-associated CNAs identiﬁed at least 2,972 genes that were
+contained within, or overlapped with, these variant genomic regions
+(Supp. Table S4, overlapping genes).
+
+LOH Analysis and CNN–LOH analysis
+
+The 19 pairs of samples were used to identify regions with CNN
+changes. Patient M6 was excluded owing to the lack of sufﬁcient
+766
+
+HUMAN MUTATION, Vol. 33, No. 4, 763–776, 2012
+
+matched lymphocyte sample. In LOH analysis, a matched refer-
+ence is required to eliminate potentially confounding genotypic
+differences from the reference sample. Two approaches were used to
+identify CNN changes (uniparental disomy) using Partek Genomics
+Suite 6.4. First, CNN–LOH was analyzed to identify regions where
+LOH was identiﬁed, yet total copy number equalled 2. Second, the
+ASCN was performed to identify CNN allele imbalance.
+
+The 19 pairs of samples (corresponding to DNAs from 14 MP-
+NSTs and ﬁve PNFs) were used in LOH analysis with the individu-
+ally matched lymphocyte DNAs serving as reference samples in the
+paired analysis (Table 2).
+
+Loss-of-heterozygosity results were obtained from paired analyses
+of matched tumor and lymphocyte DNAs from each patient using
+the SNP probe set in the Affymetrix SNP6.0 array. MPNST DNAs
+exhibited a higher level of LOH (with a considerable number of
+overlapping regions) as compared with benign tumors.
+
+In total, 7,643 LOH regions were found that exhibited a heterozy-
+gosity rate of zero for at least two SNP markers. Supp. Table S3
+summarizes the results obtained in LOH analysis and illustrates the
+very high levels of LOH exhibited by MPNST DNA as compared
+
+Figure 2. Copy number alteration (CNA) analysis of all NF1 tumor samples, both benign PNFs and malignant MPNSTs for chromosome 5. CNA
+heatmap for chromosome 5 is shown for the 13 MPNST tumor samples (top panel) and ﬁve PNF tumor samples pairwise; it identiﬁes all copy
+number gains (in red) and all copy number losses (in blue) across the entire length of chromosome 5. Five PNF-harboring patients (bottom panel)
+displayed relatively few copy number changes, whereas the CNA proﬁles derived from ﬁve MPNSTs (top panel, M2, M3, M5, M6, M7, M8, and MX)
+were generally comparable (with genomic gains across the entire 5p arm and genomic losses across the 5q arm). However, the CNA proﬁles from
+several other MPNSTs (M4, M10, M11, M12, and M13) were quite varied, with several displaying CNA proﬁles with respect to chromosome 5 that
+were similar to those exhibited by benign PNFs.
+
+with the general lack of LOH, evident in benign PNF tumor DNAs.
+Among the MPNST DNA samples, a considerable number of over-
+lapping LOH regions were observed, with at least 450 overlapping
+regions identiﬁed in ﬁve tumors and 40 overlapping regions identi-
+ﬁed in six tumors. In contrast, no overlap in LOH was found among
+
+the benign PNF tumors. In the paired copy number analysis, the 19
+pairs of samples were used in HMM copy number analysis using
+their matched lymphocyte samples as a reference and a threshold of
+at least 50 SNP markers for a positive CNA to be ascertained. In the
+output of HMM copy number analysis, 1,310 regions with a copy
+
+Table 1. Signiﬁcant Copy Number (CN) Alteration Regions (Region P < 0.001 in segmentation) in MPNSTs and PNFs
+
+Patient ID
+
+Tumor
+
+Paired analysis number of CN gain
+
+Paired analysis number of CN loss
+
+of CN gain
+
+of CN loss
+
+Unpaired analysis number
+
+Unpaired analysis number
+
+M1
+M2
+M3
+M4
+M5
+M7
+M8
+M9
+M10
+M11
+M12
+M13
+M14
+MX
+P1
+P2
+P3
+P4
+PX
+
+MPNST
+MPNST
+MPNST
+MPNST
+MPNST
+MPNST
+MPNST
+MPNST
+MPNST
+MPNST
+MPNST
+MPNST
+MPNST
+MPNST
+
+PNF
+PNF
+PNF
+PNF
+PNF
+
+37
+64
+
+11
+68
+131
+61
+1
+
+10
+44
+16
+1
+6
+1
+
+1
+61
+76
+
+13
+102
+129
+23
+1
+
+16
+146
+1
+
+1
+
+8
+35
+61
+9
+15
+50
+68
+39
+7
+7
+9
+9
+19
+41
+23
+18
+20
+27
+26
+
+18
+65
+75
+23
+32
+63
+107
+34
+18
+25
+13
+9
+42
+121
+28
+30
+24
+33
+38
+
+HUMAN MUTATION, Vol. 33, No. 4, 763–776, 2012
+
+767
+
+Table 2. Multiple Overlapping Regions with LOH in MPNST DNA
+Not Found in Benign Tumor DNA
+
+Categories of LOH or genes
+
+Overall
+Benign tumors
+Overlap in benign tumors
+Malignant tumors
+Overlap in two MPNSTs
+Overlap in ﬁve MPNSTs
+Overlap in six MPNSTs
+
+LOH
+
+7,643
+
+78
+0
+
+7,565
+8,159
+445
+40
+
+LOH genes
+
+39,847
+
+117
+0
+
+39,730
+15,122
+
+543
+529
+
+number of 2 and a P value of ∼1.00 were then subsequently merged
+with the 7,643 LOH regions to identify overlaps. In total, 9,188 over-
+lapping regions of potential CNN–LOH were identiﬁed. Following
+ﬁltration of these 9,188 regions with a 0% heterozygosity call rate
+and the requirement for a minimum of 50 SNP markers in each re-
+gion, the number of CNN–LOH regions was reduced to 512 because
+a majority of the LOH regions had fewer than 50 SNP markers. By
+further applying the criterion that each region must either occur in
+at least two unrelated patients, the CNN–LOH regions were reduced
+to 71 (CNN–LOH regions detected in two to four patients). The 71
+identiﬁed regions were variously located on chromosomes 1, 4, 5,
+9, 16, 17, 18, and X. The CNN allele imbalance approach was also
+applied in the analysis. Paired copy number analysis was performed
+using segmentation on the 19 pairs of samples. With the segmenta-
+tion algorithms, at least 50 SNP markers, a P value of 0.001, and a
+signal-to-noise ratio of 0.5 set as threshold; 599 regions were found
+to have a P value of ∼1.00 or were unchanged in copy number in the
+segmentation. In the SCNA analysis, 3,768 regions are detected for
+SCNA imbalance. By overlapping the 599 CNVs from the total copy
+number analysis with the 3,768 regions from the SCNA analysis, we
+identiﬁed 578 regions of CNN imbalance with recurrence in two
+or more patients. Most of the 578 regions were identiﬁed in ﬁve or
+more patients.
+
+Identiﬁcation of Potential Genes Associated with MPNST
+Development
+
+Biologicalpathwayanalysis
+
+A variety of genes were contained within those CNAs that were
+found exclusively in MPNSTs. These included ITGB8 (7p15.3),
+
+PDGFA and Ras-related C3 botulinum toxin substrate 1 (RAC1)
+(7p22), PDGFRB (5q31-q32), and matrix metallopeptidase 12
+(MMP12) (11q22.3). A biological pathway analysis was performed
+on the 1,521 genes that were associated with MPNST-speciﬁc CNAs,
+as identiﬁed by the MetaCore database (http://www.genego.com/
+metacore.php). MetaCore is an integrated software suite designed
+for the pathway analysis of array experimental data. The speciﬁc
+pathways deemed to be potentially involved are listed in Table 3
+and Supp. Table S5, together with the map name, cell process, and
+hypergeometric P value found in the present study and in the entire
+pathway.
+
+The details of these individual pathways are given in Supp. Fig-
+ure S3. The main conclusion from this analysis was that the genomic
+aberrations present exclusively in MPNST DNA comprise both spe-
+ciﬁc CNAs and widespread LOH, whereas no such genomic changes
+were evident in DNA from any benign PNF tumor.
+
+A similar biological pathway assessment was undertaken on the
+543 genes shown to be consistently affected by informative LOH
+changes in DNA from at least ﬁve MPNSTs from unrelated pa-
+tients. The top 10 pathways identiﬁed are listed in Table 3. Many of
+these pathways are involved with cell growth, cell adhesion, signal
+transduction, and the immune response, and are therefore broadly
+representative of the systems frequently found to be involved in
+tumorigenesis and metastasis. This study has therefore identiﬁed a
+number of genes with potential links to the process of NF1 tumori-
+genesis, including genes directly involved in cytoskeletal remodel-
+ing and cell adhesion. For example, at least seven members of the
+Rho–GTPase gene family known to mediate cytoskeletal remodeling
+(ACTB, ACTG1, LIMK1, PRKCA, PTK2, RAC1, and ROCK2) (Supp.
+Fig. S3) were found to be associated with recurrent copy number
+gains in MPNST DNA. In addition, both ACTB and ACTG1 are cy-
+toplasmic actin genes. Hence, their increased expression (as a likely
+consequence of gene duplication) may inﬂuence either the motility
+or the invasive properties of affected tumor cells (Table 3 and Supp.
+Table S5).
+
+The relationship between copy number changes and gene ex-
+pression was assessed by qPCR and a correlation was noted for the
+majority (∼90%) of the genes analyzed (Supp. Fig. S4a and b). All
+CNAs identiﬁed in this analysis were conﬁrmed by real-time (RT)
+qPCR and at least seven genes in the Rho–GTPase pathway were
+found to be ampliﬁed (Supp. Fig. S4b). Four of these seven Rho–
+GTPase pathway genes have been shown to be involved in some of
+the features of NF1 tumorigenesis, namely, wound healing, cellular
+
+Table 3. The Top 10 Affected Biological Pathways Predicted to be Involved in NF1 Tumorigenesis as Deduced from the 543 Genes
+Found to Display Consistent LOH in Five MPNSTs Derived from NF1 Patients
+
+Map
+
+Cell process
+
+P Value
+
+gene list
+
+Total objects
+
+Objects from LOH
+
+Cell adhesion_ECM remodeling
+Apoptosis and survival_Lymphotoxin-beta receptor signaling
+Immune response_Role of TLRs 3 and 4 in cell antiviral
+
+Cell adhesion
+Immune response, apoptosis
+Immune response
+
+response: TICAM1-speciﬁc signaling pathways
+
+0.0064
+0.0109
+0.0207
+
+Immune response _Oncostatin M signaling via JAK-Stat in
+
+Cytokine and chemokine mediated signaling
+
+0.0207
+
+mouse cells
+
+wtCFTR and delta508 trafﬁc / Clathrin coated vesicles
+
+formation (norm and CF)
+
+pathway, immune response
+
+0.0240
+
+Immune response _Oncostatin M signaling via JAK-Stat in
+
+Cytokine and chemokine mediated signaling
+
+0.0275
+
+human cells
+
+pathway, immune response
+
+Immune response _Oncostatin M signaling via MAPK in
+
+Cytokine and chemokine mediated signaling
+
+0.0280
+
+mouse cells
+
+pathway, immune response
+
+Immune response_Oncostatin M signaling via MAPK in
+
+Cytokine and chemokine mediated signaling
+
+0.0336
+
+human cells
+
+Immune response _Histamine H1 receptor signaling in
+
+immune response
+
+pathway, immune response
+
+Immune response, G-protein coupled
+receptor protein signaling pathway
+
+0.0431
+
+6
+5
+3
+
+3
+
+3
+
+3
+
+4
+
+4
+
+4
+
+51
+41
+18
+
+18
+
+19
+
+20
+
+35
+
+37
+
+40
+
+768
+
+HUMAN MUTATION, Vol. 33, No. 4, 763–776, 2012
+
+adhesion, migration, and invasion in this study. Alteration of the
+Rho–GTPase-encoding RAC1 gene has been identiﬁed in multiple
+solid cancer types including testicular, gastric, and breast cancer
+in addition to chronic myelogenous leukemia and primary human
+schwannoma cells [Harnois et al., 2003; Kaempchen et al., 2003].
+
+Immunohistochemistry
+
+For all four proteins, RAC1, ROCK2, LIMK1, and PTK2, greater
+intensity of cytoplasmic staining was observed in MPNSTs versus
+benign neuroﬁbromas, both cutaneous and plexiform (data not
+shown). This ﬁnding is consistent with the results obtained by array
+and qPCR analysis. In neuroﬁbromas, the vast majority of nuclei,
+blood vessels, and mast cells were stained, whereas in MPNST few
+nuclei were stained. The pattern of staining was similar for all four
+proteins in both the tumor types (data not shown) [Bartley & Ross,
+2002].
+
+ExploringtheinvolvementofRAC1,ROCK2,PTK2,andLIMK1
+inwoundhealingandcelladhesion,migration,andinvasion
+
+RAC1, ROCK2, PTK2, and LIMK1 were selected for further func-
+tional studies not only because they are key members of the Rho–
+GTPase pathway and have been implicated in many cancers [Malliri
+and Collard, 2003] but also because MPNST-speciﬁc copy number
+gains were observed for these genes. In addition, shRNAs for these
+four genes have been fully validated. All three MPNST cell lines
+ST8814, 507.1, and T529 used in this study exhibited copy number
+gains and overexpression of these genes (data not shown).
+
+Wound healing is an intricate process in which the skin (or an-
+other organ–tissue) repairs itself after injury. In order to explore the
+potential role of the overexpression of RAC1, ROCK2, PTK2, and
+LIMK1 on wound healing, cells transfected with RAC1, ROCK2,
+PTK2, and LIMK1 knockdowns and scrambled control shRNA were
+seeded onto laminin and wounded with a pipette tip. Between 0 and
+12 hr after wounding, the cells migrated across the wound. Wound
+healing was reduced in RAC1, ROCK2, PTK2, and LIMK1 knock-
+down cells by comparison with control scrambled shRNA (Fig. 3a;
+data for PTK2 and LIMK1 provided in Supp. Fig. S5a and b). Owing
+to the kinetics of wound healing, healing was deemed to be com-
+plete when no gap was observed in all shRNA cell lines by 24 hr,
+although healing occurred earlier (12–16 hr) in the control cell line
+than in the RAC1, ROCK2, PTK2, and LIMK1 knockdown cell lines
+(16–24 hr). The above experiment was repeated on a further three
+cell lines (ST8814, 507.1, and T529). All experiments were repeated
+a minimum of three times and the results generated from each of
+the three experiments were in concordance. MPNST cell doubling
+time is approximately 20.44 hr (ST8814) [Vahidnia et al. 2007].
+Wound healing is unlikely to have been affected by cell proliferation
+as wound healing was observed by 12 hr in the scrambled control
+cell line.
+
+Cell adhesion is a complex mechanism involved in a variety of pro-
+cesses including cell migration and invasion, embryogenesis, wound
+healing, and tissue remodeling. In order to explore the potential role
+of the overexpression of RAC1, ROCK2, PTK2, and LIMK1 on cell
+adhesion, cells were transfected with RAC1 and ROCK2 knockdown
+and control shRNAs on both laminin and ﬁbronectin, and PTK2 and
+LIMK1 with control shRNA on laminin. Adhesion was signiﬁcantly
+increased in cell lines containing RAC1, ROCK2, PTK2, and LIMK1
+knockdowns (P = 0.02, P = 0.05, P = 0.001, and P = 0.002, respectively)
+by comparison with cell lines transfected with the scrambled control
+shRNA (Fig. 3b) (data for PTK2 and LIMK1 in Supp. Fig. S4a and
+b). RAC1 knockdown resulted in greater cell adhesion than ROCK2
+
+knockdown, and LIMK1 knockdown resulted in greater cell adhe-
+sion than PTK2 knockdown. However, these differences were not
+statistically signiﬁcant, P = 0.07 and P = 0.12, respectively. Adhesion
+on ﬁbronectin appeared to be more efﬁcient than that on laminin in
+cell lines harboring both RAC1 and ROCK2 knockdowns, but again
+this difference was not statistically signiﬁcant (P = 0.20).
+
+Cell migration is a highly integrated, multistep process that plays
+an important role in the progression of cancer. In order to explore
+the potential role of the overexpression of RAC1, ROCK2, PTK2,
+and LIMK1 on cell migration, the migration of cells transfected
+with RAC1, ROCK2, PTK2, and LIMK1 and control shRNA was
+assessed by seeding the cells onto polycarbonate membranes [de
+Pril et al., 2009]. Cell migration was signiﬁcantly reduced in RAC1,
+ROCK2, PTK2, and LIMK1 knockdown cell lines in comparison
+with cells transfected with a scrambled vector (P = 0.05, P = 0.03,
+P = 0.025, and P = 0.027, respectively) (Fig. 3c). The reduction
+in migration was similar in cells that were transfected with RAC1,
+ROCK2, PTK2, and LIMK1 (Fig. 3C) (data for PTK2 and LIMK1 in
+Supp. Fig. S5). Approximately 40% reduction in cell migration was
+observed in 80% knockdowns of RAC1, ROCK2, PTK2, and LIMK1
+and approximately 25% reduction in 50% knockdowns of RAC1,
+ROCK2, PTK2, and LIMK1. Results were representative of all cell
+lines and replicates (ST8814, 507.1, and T529).
+
+Tumor cell invasion into the basement membrane is an impor-
+tant step in the multistep process of tumor metastasis. The potential
+role of the overexpression of RAC1 and ROCK2 on the invasive
+properties of cells transfected with RAC1 and ROCK2 knockdowns
+and control shRNAs was assessed by seeding cells onto matrigel
+basement membrane on polycarbonate membranes. A signiﬁcant
+reduction in the invasive potential of cell lines transfected with both
+RAC1 and ROCK2 knockdown shRNA was observed by compar-
+ison with the scrambled control (P = 0.05 for both) (Fig. 3d and
+e) This analysis was not performed for PTK2 and LIMK1. RAC1
+and ROCK2 knockdowns elicited a similar reduction in invasive
+potential; an approximately 45% reduction in cell invasion was ob-
+served with both RAC1 and ROCK2 80% knockdown clones as com-
+pared with the scrambled control-transfected cell line. Similarly, a
+25% reduction in invasion was seen in both genes carrying 50%
+knockdown clones. All experiments were repeated and the results
+were comparable in all three cell lines (ST8814, 507.1, and T529)
+tested. In summary, both RAC1 and ROCK2 knockdown resulted in
+a reduction in wound healing, cell migration, and invasiveness and
+an increase in cell adhesion.
+
+Validation of speciﬁc gene knockdown using shRNA clones was
+completed by western blot analysis followed by densitometry using
+Image J software (http://rsbweb.nih.gov/ij/) (Fig. 3f).
+
+Discussion
+
+Neuroﬁbromin, the NF1 gene product, is a tumor suppressor
+protein whose main function is to downregulate Ras activity in the
+cell. The mutational inactivation of the NF1 gene, leading to loss
+of functional neuroﬁbromin, therefore, results in the constitutive
+activation of cellular Ras, as well as the associated RAS/RAF/MAPK
+signaling pathway, leading to increased cell growth and prolifera-
+tion and an increased likelihood of tumorigenesis [Guha et al., 2006;
+Upadhyaya, 2010]. The majority of the somatic NF1 mutations iden-
+tiﬁable in both benign and malignant NF1-associated tumors serve
+to inactivate the normal NF1 allele [Knudson, 1971]. However, the
+presence of biallelic NF1 inactivation in both benign and malignant
+tumors indicates that constitutive Ras activation cannot fully ex-
+plain the malignant transformation of a benign PNF to an MPNST
+and that additional genetic (or epigenetic) alterations are required to
+769
+
+HUMAN MUTATION, Vol. 33, No. 4, 763–776, 2012
+
+Figure 3.
+(A) Wound healing assay on MPNST cell line ST8814. Cells were seeded on laminin, syncronized in 1% FBS for 24 hr and wounded
+with a pipette tip. Wounds were followed up for 24 hr. Reduction in the rate of wound healing can be seen in the cell lines carrying RAC1and
+ROCK2knockdowns. Cells were imaged on a microscope at ×10 magniﬁcation (Leica). (B) Adhesion assay on MPNST cell line ST8814. (i) ST8814
+cells transfected with RAC1shRNA seeded on laminin, (ii) ROCK2shRNA-transfected cells seeded on laminin, (iii) cells transfected with RAC1
+shRNA on ﬁbronectin, and (iv) ROCK2shRNA-transfected ST8814 cells seeded on ﬁbronectin. Adhesion was signiﬁcantly increased in samples
+containing RAC1and ROCK2knockdowns in comparison with a cell line transfected with the scrambled control shRNA (P= 0.02) and (P= 0.05),
+respectively. The RAC1knockdown results in more cell adhesion than the ROCK2knockdown but this difference was not signiﬁcant (P= 0.07).
+Adhesion on ﬁbronectin was more efﬁcient than that on laminin in cell lines carrying both RAC1and ROCK2knockdown, but again this observed
+difference was not signiﬁcant (P= 0.2). All results were a readout of the absorbance of crystal violet (5 mg/ml) eluted with 1% SDS at 550 nm on a
+Genova MK3 Lifescience Analyser (Jenway). (C) Migration assay on ST8814 cell lines. (i) Migration of ST8814 cells transfected with RAC1shRNA,
+(ii) migration of ST8814 cells transfected with ROCK2shRNA. Migration of ST8814 cells was signiﬁcantly reduced in cell lines carrying Rac1and
+ROCK2knockdowns in comparison with ST8814 cells transfected with a scrambled vector (P= 0.05 and P= 0.03, respectively). The reduction in
+migration was similar in cells transfected with both RAC1and ROCK2. 1.34× 10 fewer cells migrated through the membrane in the cell line with
+the RAC180% knockdown and 1.3× 106 fewer cells migrated in the ROCK280% knockdown cell line as compared with the scrambled control.
+All results were a readout of the absorbance of crystal violet (5 mg/ml) eluted with 1% SDS at 550 nm on a Genova MK3 Lifescience Analyser
+(Jenway). (D) Invasion assay on ST8814 cell lines. (i) Invasion of ST8814 cells transfected with RAC1shRNA. (ii) Invasion of ST8814 cells transfected
+with ROCK2shRNA. The invasion activity of ST8814 cell lines was signiﬁcantly reduced in those cell lines with both RAC1and ROCK2knockdown
+as compared with the scrambled control (P= 0.05 for both). RAC1and ROCK2knockdowns elicited similar reductions in invasive potential of the
+ST8814 cells. 1.85 × 106 fewer cells invaded the matrigel and membrane in the cell line with the RAC1 80% knockdown and 1.8× 106 in the ROCK2
+80% knockdown as compared with the control scrambled cell line. All results were a readout of the absorbance of crystal violet (5 mg/ml) eluted
+with 1% SDS at 550 nm on a Genova MK3 Lifescience Analyser (Jenway). (E) Invasion assay on ST8814 cells transfected with RAC1, ROCK2, and
+scrambled control shRNA. Cells were stained with crystal violet (5 mg/ml) and images were taken at ×10 magniﬁcation (Leica). RAC1and ROCK2
+knockdown elicited a reduction in the invasive potential of ST8814 cell lines as evidenced by the lack of RAC1and ROCK2shRNA-transfected cells
+on the underside of the membrane following 3 days incubation. All experiments were repeated a minimum of three times. Results were similar
+for all three MPNST cell lines studied (ST8814, 507.1, and T529). All statistical analysis was completed with SPSS v16 using independent samples
+t-test. (F) Western blot assay of cell lines transacted with 5 RAC1and ROCK2shRNA clones in addition to one cell line transfected with a scrambled
+control. β-actin control blots were completed to ensure expression was unaffected in genes not targeted by the shRNA.
+
+drive such transformation. In order to better understand the basis
+of tumorigenesis in NF1, the detailed characterization of all ma-
+lignant tumor-associated genetic/genomic defects will be required.
+However, the somatic inactivation of cancer-associated genes may
+involve many different mutational mechanisms, from point muta-
+tions to large genomic rearrangements and even epigenetic changes
+[Bignell et al., 2010; Stratton et al., 2009; Kops et al., 2005; Ra-
+jagopalan et al., 2004. In NF1 tumors, somatic microlesions as well
+as LOH and CNAs are likely to play a key role in malignant trans-
+formation (reviewed by Upadhyaya, 2011)].
+
+Both LOH analysis and/or direct somatic mutation screening at
+the NF1 locus have been reported for many NF1-associated tu-
+mors (both benign and malignant), including cutaneous and PNFs,
+MPNSTs, pheochromocytomas, myeloid leukemias, gastrointestinal
+tumors, glomus tumors, and bone tumors [Serra et al., 2000; Upad-
+hyaya et al., 2004, Garcia-Linares et al., 2011; Bausch et al., 2007;
+Side et al., 1997; Stewart et al., 2007, 2008; Maertens et al., 2006;
+Brems et al., 2009b, Stevenson et al., 2006]. Such genetic analyses
+770
+
+HUMAN MUTATION, Vol. 33, No. 4, 763–776, 2012
+
+of MPNSTs have clearly shown that biallelic NF1 gene inactivation
+only occurs in the component Schwann cells or glial cells of these
+NF1-related tumors. What is still puzzling, however, is why only
+10–15% of PNFs undergo malignant transformation to MPNSTs
+even though both cutaneous and PNFs have essentially the same
+cellular constitution. Alterations of other regions of the genome
+have also been detected in several NF1-related tumors including
+MPNSTs; these are known to involve the TP53, CDKN2A, and RB1
+genes [Brems et al., 2009a; Cichowski and Jacks, 2001]. In contrast
+to the speciﬁc chromosomal translocations found in many synovial
+(and other types of) sarcoma, no consistently speciﬁc pathogenic
+chromosomal aberrations are known to be associated with MP-
+NSTs, although a number of small recurring chromosomal alter-
+ations have been reported. Indeed, several cytogenetic studies have
+noted that MPNSTs possess complex karyotypes characterized by
+a wide spectrum of chromosomal aberrations including transloca-
+tions and duplications as well as numerical gains and losses [Bridge
+et al., 2004; Fang et al., 2009]. Frequent deletions of the 9p21 region
+
+containing the CDKN2A (p16) gene have been reported in sev-
+eral NF1–MPNSTs [Cairns et al., 1995; Frahm et al., 2004; Nielsen
+et al., 1999; Perrone et al., 2003; Sabah et al., 2006]. At least two
+other regions on chromosome 17, in addition to that containing
+the NF1 gene at 17q11.2, appear to be involved in NF1 tumorigene-
+sis, with gains at 17q21-q22 potentially accounting for the reported
+upregulation of the TOP2A gene from this chromosomal region in
+patients harboring MPNSTs and who have a poor disease outcome
+[Skotheim et al., 2003]. Loss of the 17p13 region, encompassing the
+TP53 gene, has been noted not only in NF1–MPNSTs [Legius et al.,
+1994; Lothe et al., 2001] but also in soft sarcomas and other cancers
+[Borr´as et al., 2011; Latres et al., 1994]. In similar vein, aberrant
+expression of proteins of the Rb pathway has been associated with
+soft-tissue sarcomas including MPNSTs [Mawrin et al, 2002].
+
+The identiﬁcation of tumor-speciﬁc genomic copy number
+changes in a range of different cancers [Weir et al., 2004; Suzuki et al.,
+2008; Chen and Chen, 2008; Dear, 2009; Kuiper et al., 2010; Park
+et al., 2010; Barretina et al., 2010] has led to the increased use of SNP
+and CNV/CNA microarray platforms to screen tumor DNAs. Previ-
+ous studies aimed at identifying the global genetic changes present
+in benign and malignant NF1 tumors have variously applied gene
+expression proﬁling and RT-PCR analysis to RNA from both benign
+and malignant tumors in order to identify speciﬁc gene expression
+signatures associated with malignancy. Signiﬁcant alterations in the
+expression of many genes have been reported in MPNSTs, includ-
+ing the TP53, RB1, CDKN2A (p16INK4A and p14/ARF), CDKN1B
+(p27/KIP1), TWIST1, SOX9, SOX10, TNC, TRIO, NKD2, IRX2,
+tenascin C and tenascin XB, and EGFR loci [L´evy et al., 2004; Miller
+et al., 2006, 2009; L´evy et al., 2007 reviewed by Upadhyaya, 2011].
+Although CNAs have been reported in many primary tumors, few
+such studies of NF1 tumors have so far been undertaken. Initially, we
+constructed an exon-based cancer gene microarray that speciﬁcally
+targeted 57 different genes whose expression had previously been re-
+ported to be signiﬁcantly altered in MPNSTs [Mantripragada et al.,
+2008]. Subsequently, a 32K BAC array was used to analyze DNA
+from both benign neuroﬁbromas and MPNSTs, thereby providing a
+genome-wide analysis of large [up to 150 kb] copy number changes
+potentially associated with progression to malignancy [Mantripra-
+gada et al., 2009] with an average resolution of 100 kb. However,
+the relatively low resolution of this array platform meant that many
+smaller (≤100 kb) genomic variants were unlikely to be identiﬁed,
+leading us here to repeat such a genome-wide analysis using the
+newly available Affymetrix Genome-wide SNP 6.0 platform, which
+permits the simultaneous high-resolution analysis of both CNA and
+LOH.
+
+In a number of such microarray CNA studies, signiﬁcant variabil-
+ity using different array platforms has been obtained when similar
+tumor types are analyzed [Dear, 2009]. Whether such variability
+arises from the different microarray platforms (BAC, PAC, SNPs,
+and oligonucleotides) used, or from the variable size, number, and
+genomic distribution of the probes in the microarray, or whether
+it relates to the inherent genetic heterogeneity of the tumors them-
+selves, is often difﬁcult to determine. We have found, however, that
+the Affymetrix SNP 6.0 platform provides both increased resolution
+(with an average interprobe distance of only 700 bp) and signiﬁ-
+cantly greater genome-wide coverage (with 0.9× 106 SNP probes
+and 0.95× 106 CNV probes) by comparison with the older 32K
+BAC array [Kresse et al., 2008; Mantripragada et al., 2008, 2009].
+
+A total of at least 17 different studies have now attempted to as-
+sess the chromosomal and genomic copy number changes associated
+with NF1-related tumors (see Table 4). Taken together, these studies
+indicate that genes involved in cell cycle regulation, cell growth, cell
+differentiation, and motility are speciﬁcally altered in terms of their
+
+copy number in MPNSTs. The present study has not only served
+to conﬁrm these initial ﬁndings but also, courtesy of its higher
+resolution, identiﬁed additional genes that appear to be involved in
+MPNST development. For example, across chromosome 17, we ﬁnd
+that several regions exhibit recurring copy number changes in MP-
+NSTs; apart from the obvious 17q11.2 region containing the NF1
+gene, two quite distinct regions at 17q22 and 17q24-q25 were also
+found to be frequently ampliﬁed in MPNSTs, whereas one region at
+17p13 was consistently deleted in MPNSTs. The 17q24-25 region,
+which contains the BIRC5 gene, a gene previously reported to be
+ampliﬁed in MPNSTs [Storlazzi et al., 2006] and consistently up-
+regulated in many other tumors [Kanwar et al., 2010], was found to
+be ampliﬁed in four MPNSTs. Survivin, the BIRC5 gene product, is
+a central inhibitory protein of apoptosis that also regulates mitosis.
+The 17q22 region, ampliﬁed in two MPNSTs in our study, contains
+the TOP2A gene known to play a role in cell proliferation [Skotheim
+et al., 2003]. The 17p13 region, which contains the TP53 gene, was
+found to be deleted in four MPNSTs but not in any of the benign
+tumors. Our CNA study also identiﬁed consistent ampliﬁcation of
+the entire 5p region, reminiscent of ﬁndings from a previous CNA
+analysis of soft-tissue sarcomas [Adamowicz et al., 2006]. This latter
+study, which also analyzed 10 NF1-associated MPNSTs, found that
+most of the 5p13-p15.3 region was ampliﬁed in several different
+MPNSTs. Several of the 5p13-p15.3 region genes, including TRIO,
+IRX2, and NKD2, were also found to exhibit increased expression
+speciﬁcally in MPNSTs [Adamowicz et al., 2006]. TRIO is a mem-
+ber of the large family of guanine nucleotide-exchange factors that
+activate Rho–GTPases, speciﬁcally the RAC1 and RhoA Rho family
+GTPases, by accelerating GDP/GTP exchanges. TRIO has been im-
+plicated in the control of cytoskeleton organization, transcriptional
+regulation, cell cycle progression, apoptosis, vesicle trafﬁcking, and
+cell–cell adhesion, whereas signiﬁcant TRIO gene ampliﬁcation has
+been previously associated with both rapid tumor cell proliferation
+and increased invasive tumor growth in bladder cancer [Zheng et al.,
+2004].
+
+Our earlier study found that the hepatocyte growth factor (HGF)
+gene, the cellular HGF receptor (MET) gene, and the platelet-derived
+growth factor receptor A (PDGFRA) gene were concomitantly
+ampliﬁed (despite their being located on different chromosomes) in
+a number of MPNSTs but not in PNFs or cutaneous neuroﬁbromas
+[Mantripragada et al., 2008]. The HGF–PDGFRA–p70S6K path-
+way is known to play an essential role in tumor angiogenesis, and
+rapamycin treatment could therefore be considered as a means to
+limit tumor growth by inhibiting p70S6K. In the present study, MET
+displayed a copy number of 2.8–3.0 in M3, M5, and MX, whereas
+PDGFRA displayed a copy number of 3–4 in MX (but only 1.2–1.5
+in M3 and M7).
+
+Our previous 32K BAC array-based analysis [Mantripragada et al.,
+2009] of MPNST DNA revealed that genomic gains (62%) were
+much more frequent than genomic losses (38%) in these malignant
+tumors. A number of genes were also consistently ampliﬁed in MPN-
+STs; indeed, the NEDL1, AP3B1, and CUL1 genes located at 7q, 5q14,
+and 7q36 were ampliﬁed in some 60% of tumors [Mantripragada
+et al., 2009]. The most frequently deleted region, at 9p21, which en-
+compasses the CDKN2A, CDKN2B, and MTAP genes, was, however,
+only deleted in some 30% of tumors. Several of the abovementioned
+six genes have also been implicated in a number of other cancers
+[Goh et al., 2011; Mizuarai et al., 2011] and they may, therefore,
+prove to have potential diagnostic, prognostic, and even therapeutic
+relevance in the context of NF1 tumorigenesis.
+
+The results of the Affymetrix SNP 6.0 analysis described here
+extended our previous ﬁndings [reviewed by Upadhyaya, 2011]
+based on different sets of benign and malignant tumors with
+771
+
+HUMAN MUTATION, Vol. 33, No. 4, 763–776, 2012
+
+Table 4. Reported CNAs Identiﬁed in Different NF1-Associated Tumors
+
+References
+
+Tumors studied
+
+Analytical methods used
+
+Lothe et al. (1995, 1996)
+
+Lothe et al. (1996)
+
+Kourea et al. (1999)
+
+Nielsen et al. (1999)
+
+Schmidt et al. (2000)
+Skotheim et al. (2003)
+
+Levy et al. (2004)
+
+Neuroﬁbromas (15)
+MPNSTs (9)
+MPNSTs (7)
+
+MPNSTs (11)
+Primary tumors (8)
+Recurrent tumors (3)
+MPNSTs (6)
+
+MPNSTs (14)
+MPNSTs (14)
+MPNSTs (16)
+MPNSTs (44)
+
+MPNSTs (9)
+PNF (16)
+Dermal NF (10)
+
+17q LOH study FISH
+
+analysis
+
+INK4A cDNA probe on
+
+Southern blot
+
+Multiplex PCR
+
+Chromosome CGH
+Combined analyses
+1) Chr:17-speciﬁc cDNA
+
+microarray
+
+2) FISH analysis
+3) Tissue microarray
+Real-time quantitative
+
+PCR on tumor RNA
+
+Chromosome CGH
+
+Increased 17q24-ter copy number
+
+in 5 of 7 tumors
+
+Gene or chromosomal changes
+
+Gains
+
+–
+
+–
+
+–
+
+Losses
+
+17q allelic imbalance 4/6
+
+NF1-associated MPNSTs
+
+Loss of 13q14-q21 in 6/10
+
+MPNSTs
+
+INK4A deletions in ?? MPNSTs
+
+Homozygous CDKN2A
+
+deletions in 3 MPNSTs
+
+Gains on Chr 7; 8q; 15q; 17q
+TOP2A overexpressed in most MPNSTs
+
+–
+–
+
+MK167, BIRC5, MMP13, MMP9, TERT,
+
+ITGB4, CMA1, LICA1, DHH,
+
+TERC, TOP2A, SPP2, FOXM1, FOXA2,
+HNF3B, HMMR, CXCL5, OSF2,
+CCNE2, EPHA7 and TP73 only
+upregulated in MPNST
+
+S100B, ERBB3, RASSF2,
+TPSB and SOX10 all
+downregulated only in
+MPNSTs
+
+Adamowicz et al. (2006)
+
+Soft-tissue sarcomas (34)
+
+Chr:5p BAC microarray
+
+TRIO, IRX2, and NKD2 all located at
+
+–
+
+Miller et al. (2006)
+
+Storlazzi et al. (2006)
+
+Kresse et al. (2008)
+Tabone-Eghanger et al. (2008)
+Mantripragada et al. (2008)
+
+Perrone et al. (2009)
+
+Mantripragada et al. (2009)
+Miller et al. (2009)
+
+Yu et al. (2011)
+
+included MPNSTs (10)
+
+Primary MPNSTs (44)
+MPNST cell lines (8)
+Normal Schwann cells (7)
+MPNSTs (28)
+Primary tumors (25)
+Recurrent tumors (2)
+Metastatic tumor (1)
+High-grade MPNSTs (7)
+MPNSTs (42)
+MPNSTs (35)
+PNFs (16)
+Derm NFs (8)
+Sporadic MPNST (11)
+NF1 MPNST (16)
+
+MPNSTs (24)
+MPNST cell lines (13)
+Neuroﬁbromal Schwann
+
+cells (22)
+
+Primary MPNSTs (6)
+Primary MPNSTs (125)
+
+Gene expression proﬁling
+
+(Affymetrix chip)
+
+5p15.3 are ampliﬁed
+EDGRE, SOX9, TWIST1
+
+SOX10, CNP, PMP2
+
+Interpase FISH analysis of
+17q with BAC probes
+
+ERBB2 and TOP2A in 17q12>17q25
+
+amplicon that also contains BIRC5
+
+Array CGH
+FISH
+Targeted gene array
+
+LOXL2, TOP2A, ETV4, and BIRC5
+EGFR
+ITGB4, PDGFRA, MET, HGF and PP73
+
+–
+
+–
+–
+
+NF1, HMMR, MMP13, INK4A
+
+and CDKN2B
+
+COMBINED ANALYSES
+1) FISH
+2) Gene activation
+3) Mutational analysis
+32K BAC genomic array
+Gene expression proﬁling
+
+(Affymetrix chip)
+Affymetrix
+
+Affymetrix Genome-
+Wide 500K SNP
+
+PDGFRA and PDGFRB EGFR copy
+
+–
+
+number
+
+NEDL1, AP3B1, and CUL1
+SOX9, TWIST1
+
+CFKN2A and CDKN2B
+
+–
+
+CDK4, FOXM1, SOX5, NOL1, MLF2,
+
+ERBB2, MYC, TP53
+
+FKBP4, TSPAN31
+
+recurrent MPNST-speciﬁc ampliﬁed CNAs being found at 1q24,
+1q34, 17q23.2, and 8p23. These copy number changes have al-
+ready been noted to affect a variety of different genes including
+ITGB4, BIRC5, MET, ETV4, TWIST1, TRIO, NKD2, IRX1, IRX2,
+IRX4, EGFR, SOX9, HOXB5-9, TOP2A, MMP13, TP53, CDKN2A,
+RB1, TNC, HMM, CDK4, and FOXM1 (Table 4). The use of the
+Affymetrix SNP 6.0 Array in this study led to the identiﬁcation of
+several additional genes that were consistently ampliﬁed in MPN-
+STs, including the ITGB8, PDGFA, and RAC1 genes (all at 7p21.1-
+p22) and the PDGFRL gene (8p22-p21.3), and the MMP12 gene
+(11q22.3), which was deleted in MPNSTs.
+
+The ampliﬁcation in MPNSTs of two related integrin genes,
+ITGB4 at 17q25 and ITGB8 at 7p21.1-p22, is intriguing because
+integrin signaling regulates the metastatic cancer phenotype [Guo,
+2004], mainly through synergistic interactions with several criti-
+cal signaling pathways, including the Ras/Raf/MAPK pathway, the
+Rho-effector pathway, and the epidermal growth factor receptor
+pathway [Schubbert et al., 2004]. The RAC1 gene is a member of
+the Rac subfamily of the large family of Rho–GTPases directly in-
+volved in cell signaling and the regulation of cell growth, cell–cell
+772
+
+HUMAN MUTATION, Vol. 33, No. 4, 763–776, 2012
+
+adhesion, cytoskeletal reorganization, and the activation of protein
+kinases. RAC1 protein interacts with the T-cell lymphoma invasion
+and metastasis-inducing protein 1 and both are upregulated in na-
+sopharyngeal carcinoma [Gao et al., 2001; Wu et al., 2007; Qi et al.,
+2009; Worthylake et al., 2000]. The MMP12 gene is one of several
+MMP genes located at 11q22.3. As with most other MMP proteins,
+activated MMP12 degrades soluble and insoluble elastin, and is di-
+rectly involved in extracellular matrix protein degradation [Shapiro,
+1998, 1999]. MMP12 has been reported to be involved in glioma cell
+invasion in the brain, apparently through its direct interactions with
+tenascin C [Erickson and Bourdon, 1989]. Changes in MMP12 gene
+expression might therefore be expected to accompany increased in-
+vasiveness of central nervous system (CNS) tumors. As the PDGF
+signaling system is upregulated in many cancers, the ﬁnding of
+coampliﬁcation of the PDGFA and PDGFRL genes in four MPNSTs
+in the present study may well be functionally signiﬁcant. A previous
+investigation of the PDGF pathway in MPNSTs also noted increased
+expression of PDGFRA and PDGFRB, as well as the EGFR gene
+where increased gene expression and protein phosphorylation was
+found to correlate with gains in EGFR copy number [Perrone et al.,
+
+2007]. A more recent study also reported increased EGFR expres-
+sion and PDGFRA ampliﬁcation in MPNSTs and noted that both
+features were associated with a poor prognosis [Tabone-Eglinger
+et al., 2008]. Once activated, EGFR and PDGFR stimulate tyrosine
+kinase activity and intracellular pathways that control proliferation
+and differentiation.
+
+The present study identiﬁed a much larger number of deleted
+genomic regions in MPNSTs than the two previous studies [Kresse
+et al., 2008; Mantripragada et al., 2009]. However, we failed to iden-
+tify any relationship between the grade of MPNSTs (Supp. Table S1)
+and the CNA proﬁle. Furthermore, the copy number proﬁles gen-
+erated from the individual MPNSTs appear to identify two distinct
+subgroups of malignant tumors: those with a major CNA proﬁle (tu-
+mors M2, M3, M6, M7, M8, and M15) and those with a minor CNA
+proﬁle (tumors M4, M10, M11, M12, and M13) comparable with
+the copy number proﬁles obtained from benign PNFs. It is perhaps
+difﬁcult to reconcile these data pertaining to inter-MPNST hetero-
+geneity, especially as several of the MPNSTs in both subgroups were
+classiﬁed as high-grade tumors. Similarly, the ﬁnding of a high-CNA
+proﬁle associated with a benign PNF (P116) derived from a sporadic
+NF1 patient is puzzling, although one explanation could be that this
+PNF was in transition toward MPNST development. This disparity
+in CNA proﬁles between apparently high-grade MPNSTs may also
+be a consequence of the considerable somatic genetic heterogeneity
+associated with these malignant tumors [reviewed by Upadhyaya,
+2011] and further highlights the signiﬁcant diagnostic and therapeu-
+tic challenges posed by these histologically complex and genetically
+highly heterogeneous tumors [Stasik & Tawﬁk, 2006; Spurlock et al.,
+2010].
+
+Loss-of-heterozygosity and CNAs are only two of the many
+genetic mechanisms potentially involved in NF1 tumorigenesis.
+Hence, MPNSTs lacking a signiﬁcant number of CNAs may har-
+bor microlesions and/or aberrant methylation of gene promoter
+regions. However, the signiﬁcant degree of LOH found in most MP-
+NSTs, LOH that is essentially absent from benign neuroﬁbromas,
+conﬁrms our previous ﬁnding that many NF1-associated MPN-
+STs harbor large somatic NF1 deletions [Upadhyaya et al., 2008;
+Botillo et al., 2009]. Furthermore, CNN–LOH analysis indicated
+that CNN–LOH is less common than LOH (allelic imbalance) in
+the development of MPNSTs and this concurs with our earlier ﬁnd-
+ing.
+
+This study is the ﬁrst to assess both LOH and CNA within the
+same panel of MPNST and PNF tumors. This approach has yielded
+new insights into the biological pathways involved in the malignant
+transformation of PNFs in NF1. This study has also identiﬁed a
+number of candidate genes that may be involved in MPNST devel-
+opment. Further studies of these genes should now be performed
+with a larger set of tumor samples, both to conﬁrm the copy number
+changes and to seek additional types of tumor-associated mutation
+within these genes.
+
+It is unclear what would be the net effect of the observed CNAs on
+cellular properties and how this would impact upon tumorigenesis.
+A better understanding of how such CNAs inﬂuence the expression
+of the genes they encompass is required in order to assess their pos-
+sible role in tumorigenesis. Such studies are ongoing, one of which
+directly assessed the impact that SNPs and CNVs have on gene ex-
+pression, ﬁnding that less than 20% of gene expression variability
+was directly attributable to CNVs of ≥40 kb in size [Henrichsen
+et al., 2009a, 2009b]. In addition, at least half of the genes whose
+expression was directly inﬂuenced by a CNV were actually located
+outside the relevant CNV [Henrichsen et al., 2009a, 2009b], an in-
+dication that many CNVs affect gene regulatory sequences located
+at some distance from the target gene. A genetic pathway represents
+
+a set of interactions occurring within and between a group of genes
+that are dependent upon each other’s individual functions in order
+to make the aggregate function of the network available to the cell.
+Gene pathways are composed of multiple genes with coordinated
+functions. Thus, a genetic mutation disrupting the function of one
+gene in a pathway necessarily breaks the informational connection
+between genes acting before and after the mutant gene in that path-
+way. Several new insights into pathways potentially involved in NF1
+tumorigenesis were obtained during the course of this study.
+
+The principal requirements for cancer metastasis to occur include
+tumor cell adhesion, migration, cell invasion, and wound healing.
+The present study identiﬁed CNAs affecting several genes from the
+Ras-homologous (Rho)–GTPase signaling pathway (ACTB, ACTG1,
+LIMK1, PRKCA, PTK2, RAC1, ROCK2, and TRIO) speciﬁcally in
+MPNSTs. The potential involvement of this signaling pathway in tu-
+mor development is likely to be important because Rho–GTPases are
+key regulators of actin reorganization, cell motility, cell–cell and cell–
+extracellular matrix adhesion, cell cycle progression, gene expres-
+sion, and apoptosis [Etienne-Manneville and Hall, 2002], processes
+that are involved in both malignant transformation and metastasis.
+Many of the copy number gains observed in our study may therefore
+be directly implicated in the malignant transformation from benign
+PNF to malignant MPNST through the promotion of cell prolifer-
+ation, motility, and metastasis and by the speciﬁc alteration of the
+cellular pathways that serve to reorganize the cytoskeletal structures.
+Functional analysis of MPNST cell lines transfected with shRNAs for
+RAC1, ROCK2, PTK2, and LIMK1 indicated that targeted knock-
+down of at least four of the genes that map to the Rho–GTPase
+pathway reduces the malignant potential of these cells as evidenced
+by a signiﬁcant reduction in wound healing, invasion, and migra-
+tion and an increase in cell adhesion. On this basis, we propose that
+it would be worth exploring whether the use of speciﬁc inhibitors
+of individual Rho functions could be used to provide therapeutic
+beneﬁt in patients with MPNSTs [Fritz & Kaina, 2006]. The use of
+such an inhibitor in a prostate carcinoma cell line has been shown
+to inhibit the proliferation, anchorage-dependent growth, and in-
+vasiveness of these tumor cells [Gao et al., 2004].
+
+The use of DNA copy number data to explore the process of ma-
+lignant transformation, as well as to subclassify different tumors,
+does however have several limitations, the most obvious being that
+many such tumor-speciﬁc CNAs involve multiple genes, many of
+which are unlikely to be involved in the process of tumorigenesis.
+Hence, the identiﬁcation of diagnostically and prognostically appli-
+cable genetic markers in tumors is always going to be challenging.
+Indeed, this is clearly demonstrated in the present study, which re-
+vealed that no single gene, or even multiple gene set, was consistently
+altered in all MPNSTs as compared with PNFs. Other mutational
+mechanisms will therefore need to be considered in NF1-assocated
+tumorigenesis, for example, microlesions, increased microsatellite
+instability, and even epigenetic changes that may inﬂuence gene ex-
+pression either speciﬁcally or globally. A major problem with many
+of the high-resolution analytical technologies recently applied to the
+study of human tumor genomes is the plethora of somatic mutation
+data they create. This mass of data then requires careful dissection
+to identify the very few “driver” mutations from among the many
+accompanying “passenger” mutations [Stratton et al., 2009]. Unfor-
+tunately, this is especially problematic in tumors such as MPNSTs,
+which exhibit both complex chromosomal abnormalities and signif-
+icant cellular heterogeneity. A comprehensive study of a large panel
+of both NF-associated and sporadic MPNSTs, and that integrates
+copy number change measurements, gene expression analysis, and
+biologically relevant functional analyses, is clearly warranted. Such
+studies should follow the example of the comprehensive integrated
+773
+
+HUMAN MUTATION, Vol. 33, No. 4, 763–776, 2012
+
+genomic analyses that the Cancer Genome Atlas programme have
+applied to deﬁne a range of cancer genomes [Ding et al., 2008; Par-
+sons et al., 2008]. It is intriguing that these and other similar studies
+consistently identify the presence of inactivating NF1 gene muta-
+tions in many of these tumors including ovarian serous carcinomas
+[Sangha et al., 2008; Kuo et al., 2009], acute myelogenous leukemia
+[Mullally and Ebert, 2010], neuroblastoma [H¨olzel et al., 2010], lung
+cancer [Bignell et al., 2010, Ding et al., 2008; Kan et al., 2010], as well
+as in various other cancers [Kan et al., 2010]. These studies serve to
+highlight the central role that neuroﬁbromin plays in the function
+of normal cells and supports the view that the loss of this function is
+a major cause of tumorigenesis. As somatic gene ampliﬁcation, par-
+alleled by increased gene expression, is a hallmark of many cancers,
+the generation of comprehensive maps of copy number variation
+[Bergamaschi et al., 2006; Lee et al., 2008] and their associated gene
+expression changes should contribute to a better understanding
+of the mechanisms through which CNAs promote tumorigenesis.
+Current challenges involve developing high-resolution methods for
+determining the association of CNAs with biological function in
+common cancer.
+
+In summary, we have identiﬁed speciﬁc genomic changes in MP-
+NSTs as reﬂected by CNV, LOH, and CNN–LOH analyses. Some
+1,521 genes were found to be associated with the speciﬁc CNAs
+in MPNSTs, several of which represent excellent candidates for
+involvement in tumorigenesis, including novel changes involving
+ITGB8, PDGFA and RAC1 (all 7p21-p22), PDGFRL (8p22-p21.3),
+and MMP12 (11q22.3). We also report that allelic imbalance in NF1-
+associated MPNSTs is more prevalent than CNN–LOH, consistent
+with the view that imbalances of expression are critically impor-
+tant in tumorigenesis. Our other key ﬁnding was the involvement
+of several genes of the Rho–GTPase pathway, which could prove to
+have a pivotal role in the regulation of processes involved in NF1
+tumorigenesis and metastasis. shRNA for RAC1, ROCK2, PTK2, and
+LIMK1 were used in adhesion, migration, and wound healing assays
+and also RAC1 and ROCK2 in cell invasion in control and MPNST-
+derived cell lines. The results of these assays clearly demonstrated
+that targeted knockdown of such genes is capable of reducing the
+malignant potential of these cells. Taken together, we have identiﬁed
+several new potential targets for therapeutic intervention during
+MPNST development.
+
+Acknowledgments
+
+We thank all the patients who have contributed to this study. We are grateful
+to Dr. Paul Northcote for his comments. We thank Cancer Research UK for
+their ﬁnancial support. We are grateful to Dr. Jim Neal for his advice on IHC
+work and Chris Lovejoy for technical assistance.
+
+Disclosure Statement: The authors declare no conﬂict of interest.
+
+References
+
+Adamowicz M, Radlwimmer B, Rieker RJ, Mertens D, Schwarzbach M, Schraml P,
+Benner A, Lichter P, Mechtersheimer G, Joos S. 2006. Frequent ampliﬁcations and
+abundant expression of TRIO, NKD2, and IRX2 in soft tissue sarcomas. Genes
+Chrom Cancer 45:829–838.
+
+Albertson DG. 2006. Gene ampliﬁcation in cancer. Trends Genet 22:447–455.
+Barretina J, Taylor BS, Banerji S, Ramos AH, Lagos-Quintana M, Decarolis PL, Shah
+K, Socci ND, Weir BA, Ho A, Chiang DY, Reva B, Mermel CH, Getz G, Antipin Y,
+Beroukhim R, Major JE, Hatton C, Nicoletti R, Hanna M, Sharpe T, Fennell TJ,
+Cibulskis K, Onofrio RC, Saito T, Shukla N, Lau C, Nelander S, Silver SJ, Sougnez C,
+Viale A, Winckler W, Maki RG, Garraway LA, Lash A, Greulich H, Root DE, Sellers
+WR, Schwartz GK, Antonescu CR, Lander ES, Varmus HE, Ladanyi M, Sander C,
+Meyerson M, Singer S. 2010. Subtype-speciﬁc genomic alterations deﬁne new
+targets for soft-tissue sarcoma therapy. Nat Genet 42:715–721.
+
+Bartley AN, Ross DW. 2002. Validation of p53 immunohistochemistry as a prognostic
+
+factor in breast cancer in clinical practice. Arch Pathol Lab Med 126:456–458.
+
+774
+
+HUMAN MUTATION, Vol. 33, No. 4, 763–776, 2012
+
+Bausch B, Borozdin W, Mautner V, Hoffmann MM, Boehm D, Robledo M, Cascon A,
+Harenberg T, Schiavi F, Pawlu C, Peczkowska M, Letizia C, Calvieri S, Arnaldi G,
+Klingenberg-Noftz RD, Reisch N, Fassina A, Brunaud L, Walter MA, Mannelli M,
+MacGregor G, Palazzo FF, Barontini M, Walz MK, Kremens B, Brabant G, Pf¨afﬂe
+R, Koschker AC, Lohoefner F, Mohaupt M, Gimm O, Jarzab B, McWhinney SR,
+Opocher G, Januszewicz A, Kohlhase J, Eng C, Neumann HP; European-American
+Phaeochromocytoma Registry Study Group. 2007. Germline NF1 mutational spec-
+tra and loss-of-heterozygosity analyses in patients with pheochromocytoma and
+neuroﬁbromatosis type 1. J Clin Endocrinol Metab 92:2784–2792.
+
+Bennett E, Thomas NS, Upadhyaya M. 2009. Neuroﬁbromatosis type 1: its association
+
+with the Ras/MAPK pathway syndromes. J Pediatr Neurol 7:105–115.
+
+Bergamaschi A, Kim YH, Wang P, Sørlie T, Hernandez-Boussard T, Lonning PE,
+Tibshirani R, Børresen-Dale AL, Pollack JR. 2006. Distinct patterns of DNA copy
+number alteration are associated with different clinicopathological features and
+gene-expression subtypes of breast cancer. Genes Chrom Cancer 45:1033–1040.
+
+Bignell GR, Greenman CD, Davies H, Butler AP, Edkins S, Andrews JM, Buck G, Chen
+L, Beare D, Latimer C, Widaa S, Hinton J, Fahey C, Fu B, Swamy S, Dalgliesh
+GL, Teh BT, Deloukas P, Yang F, Campbell PJ, Futreal PA, Stratton MR. 2010.
+Signatures of mutation and selection in the cancer genome. Nature 463:893–898.
+Borr´as C, G ´omez-Cabrera MC, Vi˜na J. 2011. The dual role of p53: DNA protection and
+
+antioxidant. Free Radic Res 45:643–652.
+
+Bottillo I, Ahlquist T, Brekke H, Danielsen SA, van den Berg E, Mertens F, Lothe
+RA, Dallapiccola B. 2009. Germline and somatic NF1 mutations in sporadic and
+NF1-associated malignant peripheral nerve sheath tumours. J Pathol 217:693–701.
+Brems H, Beert E, de Ravel T, Legius E. 2009a. Mechanisms in the pathogenesis of
+
+malignant tumors in neuroﬁbromatosis type 1. Lancet Oncol 10:508–515.
+
+Brems H, Park C, Maertens O, Pemov A, Messiaen L, Upadhyaya M, Claes K7, Beert
+E, Peeters K, Mautner V, Sloan J, Yao L, Lee R, Sciot R, De Smet L, Legius E1,
+Stewart D. 2009b. Molecular pathogenesis of NF1 related glomus tumors. Cancer
+Res 69:7393–7401.
+
+Bridge RS Jr., Bridge JA, Neff JR, Naumann S, Althof P, Bruch LA. 2004. Recurrent
+chromosomal imbalances and structurally abnormal breakpoints within complex
+karyotypes of malignant peripheral nerve sheath tumor and malignant triton
+tumor: a cytogenetic and molecular cytogenetic study. J Clin Pathol 57:1172–
+1178.
+
+Cairns P, Polascik TJ, Eby Y, Tokino K, Califano J, Merlo A, Mao L, Herath J, Jenkins
+R, Westra W. 1995. Frequency of homozygous deletion at p16/CDKN2 in primary
+human tumors. Nat Genet 11:210–212.
+
+Carroll SL, Ratner N. 2008. How does the Schwann cell lineage form tumors in NF1?
+
+Glia 56:1590–1605.
+
+Chen Y, Chen C. 2008. DNA copy number variation and loss of heterozygosity in relation
+to recurrence of and survival from head and neck squamous cell carcinoma: a
+review. Head Neck 30:1361–1383.
+
+Cichowski K, Jacks T. 2001. NF1 tumor suppressor gene function: narrowing the GAP.
+
+Cell 104:593–604.
+
+Dear PH. 2009. Copy-number variation: the end of the human genome? Trends Biotech-
+
+nol 27:448–454.
+
+Ding L, Getz G, Wheeler DA, Mardis ER, McLellan MD, Cibulskis K, Sougnez C,
+Greulich H, Muzny DM, Morgan MB, Fulton L, Fulton RS, Zhang Q, Wendl MC,
+Lawrence MS, Larson DE, Chen K, Dooling DJ, Sabo A, Hawes AC, Shen H,
+Jhangiani SN, Lewis LR, Hall O, Zhu Y, Mathew T, Ren Y, Yao J, Scherer SE, Clerc
+K, Metcalf GA, Ng B, Milosavljevic A, Gonzalez-Garay ML, Osborne JR, Meyer R,
+Shi X, Tang Y, Koboldt DC, Lin L, Abbott R, Miner TL, Pohl C, Fewell G, Haipek C,
+Schmidt H, Dunford-Shore BH, Kraja A, Crosby SD, Sawyer CS, Vickery T, Sander
+S, Robinson J, Winckler W, Baldwin J, Chirieac LR, Dutt A, Fennell T, Hanna M,
+Johnson BE, Onofrio RC, Thomas RK, Tonon G, Weir BA, Zhao X, Ziaugra L,
+Zody MC, Giordano T, Orringer MB, Roth JA, Spitz MR, Wistuba II, Ozenberger
+B, Good PJ, Chang AC, Beer DG, Watson MA, Ladanyi M, Broderick S, Yoshizawa
+A, Travis WD, Pao W, Province MA, Weinstock GM, Varmus HE, Gabriel SB,
+Lander ES, Gibbs RA, Meyerson M, Wilson RK. 2008. Somatic mutations affect
+key pathways in lung adenocarcinoma. Nature 455:1069–1075.
+
+de Pril R, Perera T, Lekkerkerker A. 2009. A high-content screen for inhibitors of cell
+migration in cancer metastasis using adenoviral knock-down. Biotech Int 21:16–
+18.
+
+Erickson HP, Bourdon MA. 1989. Tenascin: an extracellular matrix protein prominent
+
+in specialized embryonic tissues and tumors. Annu Rev Cell Biol 5:71–92.
+
+Etienne-Manneville S, Hall A. 2002. Rho GTPases in cell biology. Nature 420:629–635.
+Evans DG, Baser ME, McGaughran J, Sharif S, Howard E, Moran A. 2002. Malignant
+peripheral nerve sheath tumors in neuroﬁbromatosis 1. J Med Genet 39:311–314.
+Fang Y, Elahi A, Denley RC, Rao PH, Brennan MF, Jhanwar SC. 2009. Molecu-
+lar characterization of permanent cell lines from primary, metastatic and re-
+current malignant peripheral nerve sheath tumors (MPNST) with underlying
+neuroﬁbromatosis-1. Anticancer Res 29:1255–1262.
+
+Frahm S, Mautner V, Brems H, Legius E, Debiec-Rychter M, Friedrich R, Kn¨ofel W,
+Peiper M, Kluwe L. 2004. Genetic and phenotypic characterization of tumor cells
+derived from malignant peripheral nerve sheath tumors of neuroﬁbromatosis
+type-1 patients. Neurobiol Dis 16:85–91.
+
+Fritz G, Kaina B. 2006. Rho GTPases: promising cellular targets for novel anticancer
+
+drugs. Curr Cancer Drug Targets 6:1–14.
+
+Garcia-Linares C, Fern´andez-Rodr´ıguez J, Terribas E, Mercad´e J, Pros E, Benito L,
+Benavente Y, Capell`a G, Ravella A, Blanco I, Kehrer-Sawatzki H, L´azaro C, Serra
+E. 2011. Dissecting loss of heterozygosity (LOH) in neuroﬁbromatosis type 1-
+associated neuroﬁbromas: importance of copy neutral LOH. Hum Mutat 32:78–
+90.
+
+Gao Y, Xing J, Streuli M, Leto T L, Zheng Y. 2001. Trp56 of Rac1 speciﬁes interaction with
+
+a subset of guanine nucleotide exchange factors. J Biol Chem 276:47530–47541.
+
+Gao Y, Dickerson JB, Guo F, Zheng J, Zheng Y. 2004. Rational design and characteri-
+zation of a Rac GTPase-speciﬁc small molecule inhibitor. Proc Natl Acad Sci U S
+A 101:7618–7623.
+
+Glover TW, Stein CK, Legius E, Andersen LB, Brereton A, Johnson S. 1991. Molecular
+and cytogenetic analysis of tumors in von Recklinghausen neuroﬁbromatosis.
+Genes Chrom Cancer 3:62–70.
+
+Goh XY, Rees JR, Paterson AL, Chin SF, Marioni JC, Save V, O’Donovan M, Eijk PP,
+Alderson D, Ylstra B, Caldas C, Fitzgerald RC. 2011. Integrative analysis of array-
+comparative genomic hybridisation and matched gene expression proﬁling data
+reveals novel genes with prognostic signiﬁcance in oesophageal adenocarcinoma.
+Gut 60:1317–1326.
+
+Guha A, Lau N, Huvar I, Gutmann D, Provias J, Pawson T, Boss G. 1996. Ras-GTP
+levels are elevated in human NF1 peripheral nerve tumors. Oncogene 12:507–513.
+Harnois T, Constantin B, Rioux A, Grenioux E, Kitzis A, Bourmeyster N. 2003. Dif-
+ferential interaction and activation of Rho family GTPases by p210bcr-abl and
+p190bcr-abl. Oncogene 22:6445–6454.
+
+Henrichsen CN, Chaignat E, Reymond A. 2009a. Copy number variants, diseases and
+
+gene expression. Hum Mol Genet 18:R1–R8.
+
+Henrichsen CN, Vinckenbosch N, Z¨ollner S, Chaignat E, Pradervand S, Sch¨utz F, Ruedi
+M, Kaessmann H, Reymond A. 2009b. Segmental copy number variation shapes
+tissue transcriptomes. Nat Genet 41:424–429.
+
+H¨olzel M, Huang S, Koster J, Øra I, Lakeman A, Caron H, Nijkamp W, Xie J, Callens
+T, Asgharzadeh S, Seeger RC, Messiaen L, Versteeg R, Bernards R. 2010. NF1 is
+a tumor suppressor in neuroblastoma that determines retinoic acid response and
+disease outcome. Cell 142:218–229.
+
+International HapMap Consortium. 2005. A haplotype map of the human genome.
+
+Nature 437:1299–1320.
+
+John AM, Ruggieri M, Ferner R, Upadhyaya M. 2000. A search for evidence of somatic
+
+mutations in the NF1 gene. J Med Genet 37:44–49.
+
+Kan Z, Jaiswal BS, Stinson J, Janakiraman V, Bhatt D, Stern HM, Yue P, Haverty PM,
+Bourgon R, Zheng J, Moorhead M, Chaudhuri S, Tomsho LP, Peters BA, Pujara K,
+Cordes S, Davis DP, Carlton VE, Yuan W, Li L, Wang W, Eigenbrot C, Kaminker
+JS, Eberhard DA, Waring P, Schuster SC, Modrusan Z, Zhang Z, Stokoe D, de
+Sauvage FJ, Faham M, Seshagiri S. 2010. Diverse somatic mutation patterns and
+pathway alterations in human cancers. Nature 466:869–873.
+
+Kanwar JR, Kamalapuram SK, Kanwar RK. 2010. Targeting survivin in cancer: patent
+
+review. Expert Opin Ther Pat 20:1723–1737.
+
+Kaempchen K, Mielke K, Utermark T, Langmesser S, Hanemann CO. 2003. Upregu-
+lation of the Rac1/JNK signalling pathway in primary human schwannoma cells.
+Hum Mol Genet 12:1211–1221.
+
+Knudson AG Jr. 1971. Mutation and cancer: statistical study of retinoblastoma. Proc
+
+Natl Acad Sci USA 68:820–823.
+
+Kops GJ, Weaver BA, Cleveland DW. 2005. On the road to cancer: aneuploidy and the
+
+mitotic checkpoint. Nat Rev Cancer 10:773–785.
+
+Kourea HP, Orlow I, Scheithauer BW, Cordon-Cardo C, Woodruff JM. 1999. Deletions
+of the INK4A gene occur in malignant peripheral nerve sheath tumors but not
+neuroﬁbromas. Am J Pathol 155:1855–1860.
+
+Legius E, Marchuk DA, Collins FS, Glover TW. 1993. Somatic deletion of the neu-
+roﬁbromatosis type 1 gene in a neuroﬁbrosarcoma supports a tumour suppressor
+gene hypothesis. Nat Genet 3:122–126.
+
+Legius E, Dierick H, Wu R, Hall B, Marynen P, Cassiman J, Glover T. 1994. TP53
+mutations are frequent in malignant NF1 tumors. Genes Chrom Cancer 10: 250–
+255.
+
+L´evy P, Vidaud D, Leroy K, Laurendeau I, Wechsler J, Bolasco G, Parfait B, Wolkenstein
+P, Vidaud M, Bi`eche I. 2004. Molecular proﬁling of malignant peripheral nerve
+sheath tumors associated with neuroﬁbromatosis type 1, based on large-scale
+real-time RT-PCR. Mol Cancer 3:20.
+
+L´evy P, Ripoche H, Laurendeau I, Lazar V, Ortonne N, Parfait B, Leroy K, Wechsler
+J, Salmon I, Wolkenstein P, Dessen P, Vidaud M, Vidaud D, Bi`eche I. 2007.
+Microarray-based identiﬁcation of tenascin C and tenascin XB, genes possibly
+involved in tumorigenesis associated with neuroﬁbromatosis type 1. Clin Cancer
+Res 13:398–407.
+
+Livak KJ, Schmittgen TD. 2001. Analysis of relative gene expression data using real-time
+
+quantitative PCR and the 2DDCt method. Methods 25:402–408.
+
+Lothe RA, Slettan A, Saeter G, Brøgger A, Børresen AL, Nesland JM. 1995. Alterations at
+chromosome 17 loci in peripheral nerve sheath tumors. J Neuropathol Exp Neurol
+54:65–73.
+
+Lothe RA, Karhu R, Mandahl N, Mertens F, Saeter G, Heim S, Borresen-Dale AL,
+Kallioniemi OP. 1996. Gain of 17q24-qter detected by comparative genomic hy-
+bridization in malignant tumors from patients with von Recklinghausen’s neu-
+roﬁbromatosis. Cancer Res 56:4778–4781.
+
+Lothe RA, Smith-Sørensen B, Hektoen M, Stenwig AE, Mandahl N, Saeter G, Mertens
+F. 2001. Biallelic inactivation of TP53 rarely contributes to the development of
+malignant peripheral nerve sheath tumors. Genes Chrom Cancer 30:202–206.
+
+Maertens O, Prenen H, Debiec-Rychter M, Wozniak A, Sciot R, Pauwels P, De Wever
+I, Vermeesch JR, de Raedt T, De Paepe A, Speleman F, van Oosterom A, Messiaen
+L, Legius E. 2006. Molecular pathogenesis of multiple gastrointestinal stromal
+tumors in NF1 patients. Hum Mol Genet 15:1015–1023.
+
+Malliri A, Collard JG. 2003. Role of Rho-family proteins in cell adhesion and cancer.
+
+Curr Opin Cell Biol 15:583–589.
+
+Mantripragada KK, Spurlock G, Kluwe L, Chuzhanova N, Ferner RE, Frayling IM,
+Dumanski JP, Guha A, Mautner V, Upadhyaya M. 2008. High-resolution DNA
+copy number proﬁling of malignant peripheral nerve sheath tumors using targeted
+microarray-based comparative genomic hybridization. Clin Cancer Res 14:1015–
+1024.
+
+Mantripragada KK, de St˚ahl TD, Patridge C, Menzel U, Andersson R, Chuzhanova
+N, Kluwe L, Guha A, Mautner V, Dumanski JP, Upadhyaya M. 2009. Genome-
+wide high-resolution analysis of DNA copy number alterations in NF1-associated
+malignant peripheral nerve sheath tumors using the 32K BAC array. Genes Chrom
+Cancer 48:897–907.
+
+Mawrin C, Kirches E, Boltze C, Dietzmann K, Roessner A, Schneider-Stock R. 2002.
+Immunohistochemical and molecular analysis of p53, RB, and PTEN in malignant
+peripheral nerve sheath tumors. Virchows Arch 440:610–615.
+
+Miller SJ, Rangwala F, Williams J, Ackerman P, Kong S, Jegga AG, Kaiser S, Aronow BJ,
+Frahm S, Kluwe L, Mautner V, Upadhyaya M, Muir D, Wallace M, Hagen J, Quelle
+DE, Watson MA, Perry A, Gutmann DH, Ratner N. 2006. Large-scale molecular
+comparison of human Schwann cells to malignant peripheral nerve sheath tumor
+cell lines and tissues. Cancer Res 66:2584–2591.
+
+Miller S, Walter JJ, Mehta T, Hardiman A, Sites E, Kaiser S, Jegga A, Li H, Upadhyaya
+M, Giovannini M, Muir D, Wallace M, Lopez E, Serra E, Lazaro C, Stemmer-
+Rachamimov, Page G, Aronow BJ, Ratner N. 2009. Integrative genomic analyses
+show altered Schwann cell development in neuroﬁbromatosis tumors and impli-
+cate SOX9 as an addicting oncogene. EMBO Mol Med 1:236–248.
+
+Kresse SH, Sk˚arn M, Ohnstad HO, Namløs HM, Bjerkehagen B, Myklebost O, Meza-
+Zepeda LA. 2008. DNA copy number changes in high-grade malignant peripheral
+nerve sheath tumors by array CGH. Mol Cancer 7:48.
+
+Mizuarai S, Machida T, Kobayashi T, Komatani H, Itadani H, Kotani H. 2011. Expres-
+sion ratio of CCND1 to CDKN2A mRNA predicts RB1 status of cultured cancer
+cell lines and clinical tumor samples. Mol Cancer 10:31.
+
+Kuiper RP, Ligtenberg MJ, Hoogerbrugge N, Geurts van Kessel A. 2010. Germline copy
+
+Mullally A, Ebert BL. 2010. NF1 inactivation revs up Ras in adult acute myelogenous
+
+number variation and cancer risk. Curr Opin Genet Dev 20:282–289.
+
+leukemia. Clin Cancer Res 16:4074–4076.
+
+Kuo KT, Guan B, Feng Y, Mao TL, Chen X, Jinawath N, Wang Y, Kurman RJ, Shih
+IeM, Wang TL. 2009. Analysis of DNA copy number alterations in ovarian serous
+tumors identiﬁes new molecular genetic changes in low-grade and high-grade
+carcinomas. Cancer Res 69:4036–4042.
+
+Latres E, Drobnjak M, Pollack D, Oliva MR, Ramos M, Karpeh M, Woodruff JM,
+Cordon-Cardo C. 1994. Chromosome 17 abnormalities and TP53 mutations in
+adult soft tissue sarcomas. Am J Pathol 145:345–355.
+
+LeBron C, Pal P, Brait M, Dasgupta S, Guerrero-Preston R, Looijenga LH, Kowalski J,
+Netto G, Hoque MO. 2011. Genome-wide analysis of genetic alterations in tes-
+ticular primary seminoma using high resolution single nucleotide polymorphism
+arrays. Genomics 97:341–349.
+
+Lee H, Kong SW, Park PJ. 2008. Integrative analysis reveals the direct and indirect
+interactions between DNA copy number aberrations and gene expression changes.
+Bioinformatics 24:889–896.
+
+Nielsen GP, Stemmer-Rachamimov AO, Ino Y, Moller MB, Rosenberg AE, Louis DN.
+1999. Malignant transformation of neuroﬁbromas in neuroﬁbromatosis 1 is asso-
+ciated with CDKN2A/p16 inactivation. Am J Pathol 155:1879–1884.
+
+Park CH, Rha SY, Jeung HC, Kang SH, Ki DH, Lee WS, Noh SH, Chung HC. 2010.
+Identiﬁcation of novel gastric cancer-associated CNVs by integrated analysis of
+microarray. J Surg Oncol 102:454–461.
+
+Parsons D, Jones S, Zhang X, Lin J, Leary R, Angenendt P, Mankoo P, Carter H, Siu
+I, Gallia G, Olivi A, McLendon R, Rasheed B, Keir S, Nikolskaya T, Nikolsky
+Y, Busam D, Tekleab H, Diaz LJ, Hartigan J, Smith D, Strausberg R, Marie S,
+Shinjo S, Yan H, Riggins G, Bigner D, Karchin R, Papadopoulos N, Parmigiani
+G, Vogelstein B, Velculescu V, Kinzler K. 2008. An integrated genomic analysis of
+human glioblastoma multiforme. Science 321:1807–1812.
+
+Perrone F, Tabano S, Colombo F, Dagrada G, Birindelli S, Gronchi A, Colecchia M,
+Pierotti M, Pilotti S. 2003. p15INK4b, p14ARF, and p16INK4a inactivation in
+
+HUMAN MUTATION, Vol. 33, No. 4, 763–776, 2012
+
+775
+
+sporadic and neuroﬁbromatosis type-1-related malignant peripheral nerve sheath
+tumors. Clin Cancer Res 9:4132–4138.
+
+Perrone F, Mariani L, Pastore E, Orsenigo M, Suardi S, Marcomini B, DaRiva L, Licitra
+L, Carbone A, Pierotti MA, Pilotti S. 2007. p53 codon 72 polymorphisms in
+human papillomavirus-negative and human papillomavirus-positive squamous
+cell carcinomas of the oropharynx. Cancer 109:2461–2465.
+
+Perrone F, Da Riva L, Orsenigo M, Losa M, Jocoll`e G, Millefanti C, Pastore E, Gronchi A,
+Pierotti MA, Pilotti S. 2009. PDGFRA, PDGFRB, EGFR, and downstream signalling
+activation in malignant peripheral nerve sheath tumor. Neuro Oncol 11:725–736.
+Qi Y, Huang B, Yu L, Wang Q, Lan G, Zhang Q. 2009. Prognostic value of Tiam1 and
+Rac1 overexpression in nasopharyngeal carcinoma. ORL J Otorhinolaryngol Relat
+Spec 71:163–171.
+
+Rajagopalan H, Lengauer C. 2004. Aneuploidy and cancer. Nature 432:338–341.
+Rasmussen S, Overman J, Thomson S, Colman S, Abernathy C, Trimpert R, Moose
+R, Virdi G, Roux K, Bauer M, Rojiani A, Maria B, Muir D, Wallace M. 2000.
+Chromosome 17 loss-of-heterozygosity studies in benign and malignant tumors
+in neuroﬁbromatosis type-1. Genes Chrom Cancer 28:425–431.
+
+Rothenberg SM, Settleman J. 2010. Discovering tumor suppressor genes through
+
+genome-wide copy number analysis. Curr Genomics 11:297–310.
+
+Sabah M, Cummins R, Leader M, Kay E. 2006. Loss of p16 (INK4A) expression is as-
+sociated with allelic imbalance/loss of heterozygosity of chromosome 9p21 in mi-
+crodissected malignant peripheral nerve sheath tumors. Appl Immunohistochem
+Mol Morphol 14:97–102.
+
+Sangha N, Wu R, Kuick R, Powers S, Mu D, Fiander D, Yuen K, Katabuchi H, Tashiro
+H, Fearon E, Cho K. 2008. Neuroﬁbromin 1 (NF1) defects are common in human
+ovarian serous carcinomas and co-occur with TP53 mutations. Neoplasia 10:1362–
+1372.
+
+Schmidt H, Taubert H, Meye A, W¨url P, Bache M, Bartel F, Holzhausen HJ, Hinze
+R. 2000. Gains in chromosomes 7, 8q, 15q and 17q are characteristic changes in
+malignant but not in benign peripheral nerve sheath tumors from patients with
+Recklinghausen’s disease. Cancer Lett 155:181–190.
+
+Schmittgen T, Livak KJ. 2008. Analyzing real-time PCR data by the comparative CT
+
+method. Nat Protocols 3:1101–1108.
+
+Schubbert S, Shannon K, Bollag G. 2004. Hyperactive Ras in developmental disorders
+
+and cancer. Nat Rev Cancer 7:295–308.
+
+Stevenson DA, Zhou H, Ashraﬁ S, Messiaen LM, Carey JC, D’Astous JL, Santora SD,
+Viskochil DH. 2006. Double inactivation of NF1 in tibial pseudarthrosis. Am J
+Hum Genet 79:143–148.
+
+Stewart W, Traynor JP, Cooke A, Grifﬁths S, Onen NF, Balsitis M, Shah AA, Upadhyaya
+M, Tobias ES. 2007. Gastric carcinoid: germline and somatic mutation of the
+neuroﬁbromatosis type 1 gene. Fam Cancer 6:147–152.
+
+Stewart H, Bowker C, Edees S, Smalley S, Crocker M, Mechan D, Forrester N, Spurlock
+G, Upadhyaya M. 2008. Congenital disseminated neuroﬁbromatosis type 1: a
+clinical and molecular case report. Am J Med Genet 146A:1444–1452.
+
+Storlazzi CT, Brekke HR, Mandahl N, Brosj¨o O, Smeland S, Lothe RA, Mertens F. 2006.
+Identiﬁcation of a novel amplicon at distal 17q containing the BIRC5/SURVIVIN
+gene in malignant peripheral nerve sheath tumors. J Pathol 209:492–500.
+
+Stratton MR, Campbell PJ, Futreal PA. 2009. The cancer genome. Nature 458:719–
+
+724.
+
+Suzuki M, Kato M, Yuyan C, Takita J, Sanada M, Nannya Y, Yamamoto G, Takahashi
+A, Ikeda H, Kuwano H, Ogawa S, Hayashi Y. 2008. Whole-genome proﬁling of
+chromosomal aberrations in hepatoblastoma using high-density single-nucleotide
+polymorphism genotyping microarrays. Cancer Sci 99:564–570.
+
+Tabone-Eglinger S, Bahleda R, Cˆot´e JF, Terrier P, Vidaud D, Cayre A, Beauchet A,
+Th´eou-Anton N, Terrier-Lacombe MJ, Lemoine A, Penault-Llorca F, Le Cesne A,
+Emile JF. 2008. Frequent EGFR positivity and overexpression in high-grade areas
+of human MPNSTs. Sarcoma 2008:849156.
+
+Tucker T, Wolkenstein P, Revuz J, Zeller J, Friedman JM. 2005. Association between
+benign and malignant peripheral nerve sheath tumors in NF1. Neurology 65:205–
+211.
+
+Upadhyaya M, Cooper DN, editors. 1998. Neuroﬁbromatosis Type 1: From genotype
+
+to phenotype. Oxford: BIOS Scientiﬁc Publishers.
+
+Upadhyaya M, Han S, Consoli C, Majounie E, Horan M, Thomas NS, Potts C, Grifﬁths
+S, Ruggieri M, von Deimling A, Cooper DN. 2004. Characterisation of the somatic
+mutational spectrum of the neuroﬁbromatosis type 1 (NF1) gene in neuroﬁbro-
+matosis patients with benign and malignant tumors. Hum Mutat 23:134–146.
+
+Upadhyaya M, Kluwe L, Spurlock G, Monem B, Majounie E, Mantripragada K, Ruggieri
+M, Chuzhanova N, Evans DG, Ferner R, Thomas N, Guha A, Mautner V. 2008a.
+Germline and somatic NF1 gene mutation spectrum in NF1-associated malignant
+peripheral nerve sheath tumors (MPNSTs). Hum Mutat 29:74–82.
+
+Serra E, Rosenbaum T, Winner U, Aledo R, Ars E, Estivill X, Lenard HG, L´azaro C.
+2000. Schwann cells harbor the somatic NF1 mutation in neuroﬁbromas: evidence
+of two different Schwann cell subpopulations. Hum Mol Genet 9:3055–3064.
+
+Upadhyaya M, Spurlock G, Monem B, Thomas N, Friedrich RE, Kluwe L, Mautner V.
+2008b. Germline and somatic NF1 gene mutations in plexiform neuroﬁbromas.
+Hum Mutat 29:E103–E111.
+
+Shlien A, Malkin D. 2010. Copy number variations and cancer susceptibility. Curr Opin
+
+Upadhyaya M. 2010. Neuroﬁbromatosis type 1: diagnosis and recent advances. Expert
+
+Oncol 22:55–63.
+
+Opin Med Diagn 4:307–322.
+
+Shlien A, Malkin D. 2009. Copy number variations and cancer. Genome Med 1:62.
+Shapiro SD. 1999. Diverse roles of macrophage matrix metalloproteinases in tissue
+
+destruction and tumor growth. Thromb Haemost 82:846–849.
+
+Shapiro SD. 1998. Matrix metalloproteinase degradation of extracellular matrix: bio-
+
+logical consequences. Curr Opin Cell Biol 10:602–608.
+
+Side L, Taylor B, Cayouette M, Conner E, Thompson P, Luce M, Shannon K. 1997.
+Homozygous inactivation of the NF1 gene in bone marrow cells from children
+with neuroﬁbromatosis type 1 and malignant myeloid disorders. N Engl J Med
+336:1713–1720.
+
+Skotheim R, Kallioniemi A, Bjerkhagen B, Mertens F, Brekke H, Monni O, Mousses
+S, Mandahl N, Soeter G, Nesland J, Smeland S, Kallioniemi O, Lothe R. 2003.
+Topoisomerase-II alpha is upregulated in malignant peripheral nerve sheath tu-
+mors and associated with clinical outcome. J Clin Oncol 21:4586–4591.
+
+Skuse GR, Kosciolek BA, Rowley PT.1989. Molecular genetic analysis of tumors in von
+Recklinghausen neuroﬁbromatosis: loss of heterozygosity for chromosome 17.
+Genes Chromosomes Cancer 1:36–41.
+
+Spurlock G, Knight SJ, Thomas N, Kiehl TR, Guha A, Upadhyaya M. 2010. Molec-
+ular evolution of a neuroﬁbroma to malignant peripheral nerve sheath tumor
+(MPNST) in an NF1 patient: correlation between histopathological, clinical and
+molecular ﬁndings. J Cancer Res Clin Oncol 136:1869–1880.
+
+Stasik CJ, Tawﬁk O. 2006. Malignant peripheral nerve sheath tumor with rhab-
+domyosarcomatous differentiation (malignant triton tumor). Arch Pathol Lab
+Med 130:1878–1881.
+
+Upadhyaya M. 2011. Genetic basis of tumorigenesis in NF1 malignant peripheral nerve
+
+sheath tumors. Front Biosci 16:937–951.
+
+Vahidnia A, van der Straaten RJHM, Romijn F, van Pelt J, van der Voet GB, de Wolff FA.
+2007. Arsenic metabolites affect expression of the neuroﬁlament and tau genes:
+an in-vitro study into the mechanism of arsenic neurotoxicity. Toxicol In Vitro
+21:1104–1112.
+
+Weir B, Zhao X, Meyerson M. 2004. Somatic alterations in the human cancer genome.
+
+Cancer Cell 6:433–438.
+
+Worthylake DK, Rossman KL, Sondek J. 2000. Crystal structure of Rac1 in com-
+plex with the guanine nucleotide exchange region of Tiam1. Nature 408: 682–
+688.
+
+Wu M, Zhi-fen W, Wu, Merajver SD. 2007. Rho proteins and cell-matrix interactions
+
+in cancer. Cells Tissues Organs 18:100–103.
+
+Yu J, Deshmukh H, Payton JE, Dunham C, Scheithauer BW, Tihan T, Prayson RA, Guha
+A, Bridge JA, Ferner RE, Lindberg GM, Gutmann RJ, Emnett RJ, Salavaggione L,
+Gutmann DH, Nagarajan R, Watson MA, Perry A. 2011. Array-based comparative
+genomic hybridization identiﬁes CDK4 and FOXM1 alterations as independent
+predictors of survival in malignant peripheral nerve sheath tumor. Clin Cancer
+Res 17:1924–1934.
+
+Zheng M, Simon R, Mirlacher M, Maurer R, Gasser T, Forster T, Diener PA, Mihatsch
+MJ, Sauter G, Schraml P. 2004. TRIO ampliﬁcation and abundant mRNA expres-
+sion is associated with invasive tumor growth and rapid tumor cell proliferation
+in urinary bladder cancer. Am J Pathol 165:63–69.
+
+776
+
+HUMAN MUTATION, Vol. 33, No. 4, 763–776, 2012
+
+

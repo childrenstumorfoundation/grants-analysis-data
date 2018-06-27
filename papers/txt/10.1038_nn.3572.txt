@@ -1,0 +1,1696 @@
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+NIH Public Access
+Author Manuscript
+Nat Neurosci. Author manuscript; available in PMC 2014 July 15.
+Published in final edited form as:
+
+Nat Neurosci. 2013 December ; 16(12): 1728–1730. doi:10.1038/nn.3572.
+
+Parvalbumin interneurons mediate neuronal circuitry-
+neurogenesis coupling in the adult hippocampus
+
+Juan Song1,2, Jiaqi Sun1,3,*, Jonathan Moss4,*, Zhexing Wen1,2,*, Gerald J. Sun1,5, Derek
+Hsu1, Chun Zhong1,2, Heydar Davoudi1, Kimberly M. Christian1,2, Nicolas Toni4,#, Guo-li
+Ming1,2,5,#, and Hongjun Song1,2,5,#
+
+1Institute for Cell Engineering, Johns Hopkins University School of Medicine, Baltimore, MD
+21205, USA. 2Department of Neurology, Johns Hopkins University School of Medicine, Baltimore,
+MD 21205, USA. 3School of Life Sciences, Tsinghua University, Beijing 100084, P.R. China.
+4Department of Fundamental Neurosciences, University of Lausanne, 9 Rue du Bugnon, 1005
+Lausanne, Switzerland. 5The Solomon H. Snyder Department of Neuroscience, Johns Hopkins
+University School of Medicine, Baltimore, MD 21205, USA.
+
+Abstract
+
+Using immunohistology, electron microscopy, electrophysiology and optogenetics, we show that
+proliferating adult hippocampal neural precursors receive immature GABAergic synaptic inputs
+from parvalbumin-expressing interneurons. Recently shown to suppress quiescent neural stem cell
+activation, parvalbumin interneuron activation promotes newborn neuronal progeny survival and
+development. Our study suggests a niche mechanism involving parvalbumin interneurons that
+couples local circuit activity to diametric regulation of two critical initial phases of adult
+hippocampal neurogenesis.
+
+One fundamental question in stem cell biology is whether and how niche factors couple
+tissue demands to produce proper numbers of progeny from somatic stem cells. In the adult
+subgranular zone (SGZ), a substantial loss of newborn progeny occurs during the first 4 days
+after they are born1–4. Adult hippocampal neurogenesis occurs within a dynamic neuronal
+network; therefore we hypothesized that the local circuit activity may serve as an effective
+indicator of current tissue demands and provide a signal to regulate this critical event.
+
+We used retroviruses expressing GFP to birth-date proliferating neural progenitors in the
+adult SGZ5. At 4 days post viral injection (dpi), 92% of GFP+ cells were MCM2+ and 81%
+were DCX+MCM2+ proliferating neuroblasts (Supplementary Fig. 1). Whole-cell recordings
+in acute slices showed that 95% of GFP+ cells recorded responded to GABA (n = 37;
+Supplementary Fig. 2a). Confocal imaging analysis revealed close association of GFP+ cells
+with synapsin+GAD67+ GABAergic presynaptic boutons (Supplementary Fig. 2b and
+
+Correspondence should be addressed to: Hongjun Song, Ph.D., Institute for Cell Engineering, Department of Neurology, Johns
+Hopkins University School of Medicine, 733 N. Broadway, MRB 759, Baltimore, MD 21205, USA. Tel: 443-287-7499; Fax:
+410-614-9568; shongju1@jhmi.edu.
+*, #These authors contribute equally to this work.
+COMPETINGNG FINANCNCIAL INTERESTS: The authors declare no competing financial interests.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Song et al.
+
+Page 2
+
+Supplementary Movie 1). As previously shown6, 7, presynaptic terminals onto newborn
+progeny were observed by immuno-electron microscopy (immuno-EM; Fig. 1a). While none
+of GFP+ cells recorded (n = 55) exhibited any spontaneous, or evoked post-synaptic currents
+(PSCs) in response to 0.1 Hz field stimulation (Supplementary Fig. 2c), bicuculline-sensitive
+PSCs were recorded in 14.3% of GFP+ cells upon 5 Hz stimulation (n = 35; Supplementary
+Fig. 2d), suggesting an immature nature of these synapses. This result is in contrast to that
+has been observed in the adult subventricular zone, where neuroblasts are activated by tonic,
+but not synapitc GABA8.
+
+We next explored the sources of GABAergic inputs. Confocal and light microscopy analyses
+revealed close associations of parvalbumin-expressing (PV+) synapsin+ puncta with GFP+
+cells at 4 dpi (Fig. 1b and Supplementary Movie 2), including those that were proliferating
+(MCM2+; Supplementary Fig. 3). Immuno-EM showed symmetric synaptic contacts
+between vesicle-filled PV+ axonal terminals and newborn progeny (Figs. 1c-d and
+Supplementary Figs. 4a-f), which were very similar to those between PV+ neurons and
+unlabelled mature neurons (Fig. 1e and Supplementary Figs. 4m-p). Interestingly, various
+contacts exist between PV+ axons and newborn progeny, ranging from proximal PV+
+boutons to mature-looking symmetric synapses (Supplementary Figs. 4a-l).
+
+To determine whether observed synaptic structures are functional, we selectively expressed
+ChR2-YFP in dentate PV+ neurons using adult PV-Cre mice9 and labelled proliferating
+neural progenitors with RFP (Supplementary Fig. 5). Light stimulation at 8 Hz, but not 0.1
+Hz, led to GABAergic PSCs in 17% of RFP+ cells examined at 4 dpi in acute slices (n = 48;
+Fig. 1f). The low induction rate, small amplitude and broad distribution of rise times of
+evoked PSCs recorded in RFP+ cells reflect characteristics of immature synapses (Figs. 1g-
+i). Importantly, blockade of glutamatergic synaptic transmission had no effect on PSCs
+recorded (Figs. 1g-h), supporting the presence of monosynaptic connections from PV+
+neurons. Interestingly, optogenetic activation of somatostatin-expressing (SST+)
+interneurons led to evoked PSCs in mature dentate granule neurons, but not in RFP+ cells
+(Fig. 1g).
+
+The identification of PV+ neurons as one source of synaptic inputs onto newborn progeny,
+although not eliminating the possibility of inputs from other neurons7, 10, provided an entry
+point to investigate how local circuitry may regulate these progeny in vivo. We labelled
+proliferating neural progenitors with EdU and then applied light-induced activation of
+ChR2+PV+ interneurons between 1 and 4 dpi (Fig. 2a). Consistent with previous findings1–4,
+stereological quantification in the no-light sham group showed a significant decrease of
+EdU+ cells in the adult SGZ from 1 to 4 dpi (Figs. 2b-c). Interestingly, 8 Hz light
+stimulation led to significant increases of EdU+ cells and EdU+DCX+ neuronal progeny at 4
+dpi compared to the sham no-light treatment (Figs. 2c-d). The survival effect was
+accompanied by reduction of dying cells, identified by pyknotic nuclei surrounded by Iba-1+
+microglia (Figs. 2e-g), as previously reported1. NeuroD has been suggested to promote
+newborn neuron survival during adult SGZ neurogenesis11, 12. Indeed, there was a
+significant increase of EdU+NeuroD+ cells upon light stimulation (Supplementary Fig. 6a).
+In contrast, percentages of EdU+ cells that remained in cell cycle (MCM2+) or underwent
+neuronal differentiation (DCX+) were not significantly different (Supplementary Figs. 6b-c).
+
+Nat Neurosci. Author manuscript; available in PMC 2014 July 15.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Song et al.
+
+Page 3
+
+Importantly, similar optogenetic manipulation of dentate SST+ interneurons had no effect
+(Figs. 2c-d and Supplementary Figs. 6b-c).
+
+To assess the role of endogenous PV+ neuron activity for newborn progeny survival, we
+selectively expressed NpHR in dentate PV+ neurons and optogenetically suppressed
+NpHR+PV+ neurons between 1 and 4 dpi (Supplementary Figs. 7a-c). Stereological
+quantification showed a further decrease in EdU+MCM2+ proliferating neural precursors
+and DCX+EdU+ neuronal progeny from 1 to 4 dpi (Figs. 3a-b). The number of dying cells
+surrounded by Iba-1+ microglia was increased (Figs. 3c-d), whereas that of EdU+NeuroD+
+progeny was decreased (Supplementary Fig. 7h). No significant difference was found for
+cell cycle exit or neuronal differentiation of EdU+ cells (Supplementary Figs. 7d-e). An
+independent approach to suppress PV+ neuron activity using Arch showed similar effects as
+NpHR, while SST+ neuron suppression had no effect (Figs. 3a-b and Supplementary Figs.
+7d-e).
+
+Loss of proliferating precursors could have a bigger impact on the ultimate number of
+mature adult-born neurons than the loss of individual post-mitotic neurons (Fig. 3e). Indeed,
+PV+ neuron suppression between 1 to 4 dpi led to an 18.9% decrease of EdU+MCM2+
+proliferating neural progeny at 4 dpi, but a 49% decrease of EdU+NeuN+ neurons at 30 dpi
+(Figs. 3e-f).
+
+Adult neurogenesis is dynamically regulated by external stimuli13. We introduced mice to
+an enriched environment between 1 and 4 dpi, an experience known to increase PV+ neuron
+activity14. This treatment significantly increased EdU+, EdU+DCX+ and EdU+NeuroD+
+progeny at 4 dpi compared to animals in standard conditions (Figs. 3g-h and Supplementary
+Fig. 7h). Remarkably, PV+ neuron suppression largely abolished the survival effect of an
+enriched environment (Fig. 3h). Thus, PV+ neuron activity is also involved in experience-
+dependent regulation of early critical phases of adult hippocampal neurogenesis.
+
+Finally, we examined whether PV+ neuron activity continues to influence neuronal progeny
+beyond 4 dpi. Indeed, PV+ neuron-induced synaptic activation was detected at 7 dpi
+(Supplementary Fig. 8a). Interestingly, optogenetic activation of PV+ neurons between 4 and
+7 dpi promoted dendritic development of newborn neurons, whereas suppression of PV+
+neuron activity resulted in the opposite effect (Supplementary Figs. 8b-f).
+
+We identified a novel neuronal circuitry-based niche mechanism regulating proliferating
+neuronal progeny survival and their development via local PV+ interneuron activity. While
+PV+ neurons make direct synaptic contacts with these newborn progeny, the optogenetic
+approach used here does not rule out potential contributions from secondary circuitry
+modulation, nor factors other than GABA. In sharp contrast to the increased survival of
+newborn progeny, PV+ neuron activation, via nonsynaptic GABAergic signalling, inhibits
+quiescent neural stem cell activation9. Together, these results reveal a striking diametric
+regulation of two early critical steps of adult neurogenesis via PV+ neuron activity
+(Supplementary Fig. 9a). Computational models have suggested advantages of circuit
+activity-neurogenesis coupling for temporal storage and memory clearing in the adult
+hippocampus15, 16. Experimental evidence also suggests that a proper rate of both addition
+
+Nat Neurosci. Author manuscript; available in PMC 2014 July 15.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Song et al.
+
+Page 4
+
+and elimination of new neurons optimizes behavioural outcomes in animal models17, 18.
+What are potential advantages of such a diametric mode of neuronal circuitry-neurogenesis
+coupling? First, it promotes an adaptive regulation of adult neurogenesis – a lack of dentate
+neuronal activity minimizes the need to retain and develop new neurons that were just born,
+but increases the quiescent neural stem cell pool via symmetric cell division to prepare for
+the future. Second, it facilitates time-stamping of a specific cohort of newborn neurons
+during a period of heightened dentate activity by increasing their survival while
+simultaneously suppressing upcoming generation of new neurons from neural stem cell
+activation. This could be particularly important, given recent behavioural studies suggesting
+a critical contribution of newborn neurons at specific developmental stages to hippocampal
+function13, 19. Our findings point to the presence of multiple critical periods in regulating
+progeny survival via circuit-based, activity-dependent mechanisms20 (Supplementary Fig.
+9b), which may facilitate the development of novel strategies to enhance functional repair
+from endogenous or transplanted neurons after injury and degenerative neurological
+disorders.
+
+ONLINE METHODS
+
+Construction, production and stereotaxic injection of engineered retroviruses and AAV
+
+Engineered murine oncoretroviruses expressing GFP or RFP were used to birth-date and
+label proliferating cells and their progeny as previously described5, 21, 22. For experiments
+without optogenetic manipulations, adult mice (8 weeks old, female, C57BL/6 background;
+Charles River) housed under the standard condition or enriched environment23 were
+anaesthetized and retroviruses were stereotaxically injected into the dentate gyrus at 2 sites
+as previously described5, 22. Immunohistological or electrophysiological analysis was
+performed at 2–10 dpi as previously described5, 22.
+
+Cre-dependent recombinant AAV vectors were used for cell type-specific transgene
+expression24–26. AAV vectors were obtained from vector cores of University of
+Pennsylvania and University of North Carolina. Transgenic PV-Cre (B6;129P2-
+Pvalbtm1(cre)Arbr/J) and SST-Cre (mixed background, Ssttm21(cre)Zjh/J) mice were obtained
+from the Jackson Laboratory. Stereotaxic injection of AAV was performed using following
+coordinates: anterioposterior = − 2 mm from Bregma; lateral = ± 1.5 mm; ventral = 2.2 mm.
+For the cell survival assay, optic fibers (Doric Lenses, Inc) were implanted at same injection
+sites right after AAV injection with a depth of 1.6 mm from the skull surface. Animals were
+then allowed to recover for 4 weeks before analyses. The specificity and efficacy of
+expression of opsins in PV+ and SST+ neurons have been previously characterized9. All
+animal procedures were performed in accordance with institutional guidelines.
+
+In vivo optogenetic manipulation, immunostaining, confocal imaging, processing and
+quantification
+
+For analysis of neurogenesis after optogenetic and environmental manipulation23, adult PV-
+Cre or SST-Cre mice at 4 weeks after AAV injection were pulsed with EdU (32.5 mM EdU
+stock solution, 41.1 mg/kg body weight, i.p.) four times with the interval of 2.5 hr. Twenty-
+four hours after the first EdU injection, the in vivo light paradigm was administered as
+
+Nat Neurosci. Author manuscript; available in PMC 2014 July 15.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Song et al.
+
+Page 5
+
+previously described9. For ChR2 stimulation, blue light flashes (472 nm) lasting 5 ms at 8
+Hz programmed by Master 8 through DPSSL laser system (Laser century Co. Ltd.,
+Shanghai, China) were delivered in vivo every 5 min for 30 s/per trial. For eNpHR or Arch
+stimulation, continuous yellow light (593 nm) was delivered in vivo. For opsin stimulation,
+the whole light stimulation paradigm lasted 8 hr per day for 4 consecutive days (Fig. 2a and
+Supplementary Fig. 7a). At the end of the 4th day, animals were processed for
+immunohistology. Given the expected light spread in vivo, every 6th section within a
+distance 1.0 mm anterior and posterior to injection sites were used for quantification and
+analysis. Histological and electrophysiological analyses showed that these treatments did not
+lead to defects in the structural integrity of the dentate gyrus, significant cell death, or
+changes of PV+ neuron properties in the adult dentate gyrus and no obvious behavioural
+differences were observed9 (and data not shown).
+
+For immunohistology, coronal brain sections (40 μm in thickness) were processed as
+previously described5. EdU labelling was processed using Click-iT® EdU Alexa Fluor
+imaging kit (Invitrogen). The following primary antibodies were used: Tbr2 (Abcam; rabbit;
+1:1000), DCX (Santa Cruz; Goat; 1:500), MCM2 (BD; mouse; 1:500), PV (Swant; mouse,
+rabbit or goat; 1:500), SST (Millipore; rat; 1:200), synapsin I (Molecular Probes; rabbit;
+1:500), GAD67 (Chemicon; mouse or rabbit; 1:500), Iba-1 (Millipore; rabbit; 1:500); NeuN
+(Millipore; mouse; 1:500), and NeuroD (Santa Cruz; goat; 1:250). Images were acquired on
+a Zeiss LSM 710 multiphoton confocal system (Carl Zeiss, Thornwood, NY, USA) using a
+multi-track configuration. Stereological quantification was assessed in the adult SGZ using a
+modified optical fractionator technique as previously described27. For dendritic analysis, 3D
+reconstruction of entire dendritic processes of each newborn neuron at 10 dpi was made
+from Z-series stacks of confocal images. The 2D projection images were traced with NIH
+ImageJ. All newborn dentate granule neurons with largely intact dendritic trees were
+analyzed for total dendritic length as described5, 28. The measurements did not include
+corrections for inclinations of dendritic process and therefore represented projected lengths.
+Sholl analysis for dendritic complexity was carried out by counting the number of dendrites
+that crossed a series of concentric circles at 10 µm intervals from the soma as previously
+described28. All quantifications were performed by investigators blind to experimental
+conditions.
+
+Electron microscopy analyses
+
+Adult PV-Cre mice were stereotaxically injected with DIO-GFP AAV and followed by
+injection of retroviruses expressing GFP four weeks later. Four days after retroviral
+injection, mouse brains were processed for immuno-EM as previously described29, 30.
+Briefly, mice were transcardially perfused with 4% PFA in 0.1 M phosphate buffer saline
+(PBS), pH 7.4, and maintained at 4°C. Brains were removed 15 hr after the perfusion and
+post-fixed for 72 hr in 4% PFA in 0.1 M PBS. Coronal sections (50 µm in thickness) were
+then sectioned using a vibratome and observed with an epifluorescence microscope.
+Sections containing clearly-labelled newborn progeny and PV+ terminals were cryoprotected
+in 2% glycerol and 20% DMSO (vol/vol) in 0.1 M PBS for 20 min and freeze-thawed four
+times in liquid nitrogen. After a treatment in 0.3% hydrogen peroxide in 0.1 M PBS (vol/vol,
+five times for 5 min) and three 10 min washes in 0.5% bovine serum albumin in 0.1 M PBS
+
+Nat Neurosci. Author manuscript; available in PMC 2014 July 15.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Song et al.
+
+Page 6
+
+(vol/vol, BSA-C, Aurion), sections were incubated overnight in the primary antibody (rabbit
+anti-GFP, Chemicon, 1:500 in 0.1% BSA-C in 0.1 M PBS, 40 hr at 4°C on a shaker). After
+washing in 0.1% BSA-C in 0.1 M PBS, the sections were incubated for 5 hr at 20 ± 5°C in
+biotinylated secondary antibody (goat anti-rabbit, Fab fragment, Jackson Laboratories,
+1:200, 0.1% BSA-C in 0.1 M PBS). Sections were incubated for 2 hr in avidin biotin
+peroxidase complex (ABC Elite, Vector Laboratories), followed by a reaction with 3,3-
+diaminobenzidine (Vector Laboratories Kit, 10–20 min). The sections were then post-fixed
+overnight in 2.5% glutaraldehyde in 0.1 M PB buffer (wt/vol), washed in 0.1 M PBS, post-
+fixed in osmium tetroxide for 1 hr, dehydrated in ascending concentrations of ethanol and
+then acetone, and embedded in Epoxy resin. Locations of clearly-labelled newborn progeny
+and PV+ terminals were identified at the light microscopic level (Supplementary Fig. 4a, m)
+and followed through to the electron microscopic level. Serial sections (60 nm in thickness)
+were collected on single-slot copper grids and contrasted by incubating for 35 min in 5%
+uranyl acetate solution in dH2O (wt/vol) and then 25 min in a Reynolds solution. Sections
+were then examined using a Philips CM10 transmission electron microscope and serial
+images of the labelled structures were captured using a digital camera (Morada SIS,
+Olympus). These images were then aligned and 3D structures were rendered using Fiji and
+3D Studio Max software (Figs. 1a, c, e and Supplementary Fig. 4f).
+
+Electrophysiology analysis
+
+Adult mice housed under standard conditions were processed at 3–7 dpi for slice preparation
+as previously described5, 9, 22. The brains were quickly removed into the ice-cold solution
+(in mM: 110 choline chloride, 2.5 KCl, 1.3 KH2PO4, 25.0 NaHCO3, 0.5 CaCl2, 7 MgSO4,
+20 dextrose, 1.3 sodium L-ascorbate, 0.6 sodium pyruvate, 5.0 kynurenic acid). Slices (275
+μm in thickness) were cut using a vibrotome (Leica VT1000S) and transferred to a chamber
+containing the external solution (in mM: 125.0 NaCl, 2.5 KCl, 1.3 KH2PO4, 1.3 MgSO4,
+25.0 NaHCO3, 2 or 5 CaCl2, 1.3 sodium L-ascorbate, 0.6 sodium pyruvate, 10 dextrose, pH
+7.4, 320 mOsm), bubbled with 95% O2/5% CO2. Electrophysiological recordings were
+obtained at 32–34°C. GFP+ or RFP+ cells within the SGZ were visualized by DIC and
+fluorescence microscopy. Mature granule cells in the outer granule cell layer in the same
+slices were recorded for comparison. The whole-cell patch-clamp configuration was
+employed in the voltage-clamp mode (Vm = −65 mV). Microelectrodes (4–6 MΩ) were
+pulled from borosilicate glass capillaries and filled with the internal solution containing (in
+mM): 135 CsCl gluconate, 15 KCl, 4 MgCl2, 0.1 EGTA, 10.0 HEPES, 4 ATP (magnesium
+salt), 0.3 GTP (sodium salt), 7 phosphocreatine (pH 7.4, 300 mOsm). Additional chemicals
+were used at the following final concentrations in the bath as indicated: bicuculline (50–100
+µM), CNQX (20 µM) and AP5 (50 µM). All chemicals were purchased from Sigma except
+bicuculline (Tocris). Data were collected using an Axon 200B amplifier and acquired with a
+DigiData 1322A (Axon Instruments) at 10 kHz. For measuring GABA-induced responses
+from GFP+ cells, focal pressure ejection of 10 µM GABA through a puffer pipette controlled
+by a Picospritzer (5 ms puff at 3–5 psi) was used to activate GABAARs. A bipolar electrode
+(World Precision Instruments) was used to stimulate (0.1 ms duration) the dentate granule
+cell layer. Low frequency (0.1 Hz) and theta bursts (5 Hz, 10 s duration) were delivered to
+stimulate the granule cell layer in the presence or absence of bicuculline (100 μM). The
+stimulus intensity (50 μA) was maintained for all experiments.
+
+Nat Neurosci. Author manuscript; available in PMC 2014 July 15.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Song et al.
+
+Page 7
+
+For experiments with light stimulation of PV+ or SST+ neurons, retroviruses expressing RFP
+were stereotaxically delivered to the adult dentate gyrus to label proliferating neural
+progenitors at 4 weeks after AAV injection. Electrophysiology recordings were performed 4
+days after retroviral injection. To stimulate ChR2 in PV+ or SST+ neurons, light flashes (0.1
+or 8 Hz) generated by a Lambda DG-4 plus high speed optical switch with a 300W Xenon
+lamp and a 472 nm filter set (Chroma) were delivered to coronal sections through a 40X
+objective (Carl Zeiss). To stimulate eNpHR or Arch in PV+ neurons, continuous yellow light
+generated by DG-4 plus system with a 593 nm filter set was delivered to coronal sections
+through a 40X objective as previously described9.
+
+Statistical analysis
+
+Statistical analysis was performed with one-way ANOVA (with Tukey post hoc test), two-
+tailed unpaired Student’s t-test, or two sample Kolmogorov–Smirnov test, as indicated in the
+text and figures. When a significant interaction was found upon performing two-way
+ANOVA, simple main effects were determined by a two-tailed unpaired Student’s t-test.
+Validation of normality and homogeneity of variance assumptions was performed for all
+compared data groups using Shapiro-Wilk and Levene’s tests, respectively. All statistical
+analyses were performed using Origin software (OriginLab) or Matlab (Mathworks).
+
+Supplementary Material
+
+Refer to Web version on PubMed Central for supplementary material.
+
+Acknowledgments
+
+We thank members of Song and Ming laboratories for discussion, L. Tsai and K. Deisseroth for initial help with
+optogenetics, and Q. Hussaini, Y. Cai and L. Liu for technical support. This work was supported by NIH
+(NS047344, ES021957) and NARSAD to H.S., NIH (NS048271, HD069184), Dr. Miriam and Sheldon G. Adelson
+Medical Research Foundation, NARSAD, and MSCRF to G.L.M., the Swiss National Science Foundation
+(PP00A-119026/1) to N.T., NARSAD and MSCRF to K.M.C., and by postdoctoral fellowships from MSCRF to
+J.S., Z.W., and C.Z., and from the Fondation Leenaards to J.M.
+
+REFERENCES
+
+1. Sierra A, et al. Cell Stem Cell. 2010; 7:483–495. [PubMed: 20887954]
+2. Snyder JS, et al. J Neurosci. 2009; 29:14484–14495. [PubMed: 19923282]
+3. Kronenberg G, et al. J Comp Neurol. 2003; 467:455–463. [PubMed: 14624480]
+4. Mandyam CD, Harburg GC, Eisch AJ. Neuroscience. 2007; 146:108–122. [PubMed: 17307295]
+5. Ge S, et al. Nature. 2006; 439:589–593. [PubMed: 16341203]
+6. Kaplan MS, Bell DH. J Neurosci. 1984; 4:1429–1441. [PubMed: 6726341]
+7. Tozuka Y, Fukuda S, Namba T, Seki T, Hisatsune T. Neuron. 2005; 47:803–815. [PubMed:
+
+16157276]
+
+8. Liu X, Wang Q, Haydar TF, Bordey A. Nat Neurosci. 2005; 8:1179–1187. [PubMed: 16116450]
+9. Song J, et al. Nature. 2012; 489:150–154. [PubMed: 22842902]
+10. Markwardt SJ, Dieni CV, Wadiche JI, Overstreet-Wadiche L. Nat Neurosci. 2011; 14:1407–1409.
+
+[PubMed: 21983681]
+
+11. Gao Z, et al. Nat Neurosci. 2009; 12:1090–1092. [PubMed: 19701197]
+12. Kuwabara T, et al. Nat Neurosci. 2009; 12:1097–1105. [PubMed: 19701198]
+13. Ming GL, Song H. Neuron. 2011; 70:687–702. [PubMed: 21609825]
+
+Nat Neurosci. Author manuscript; available in PMC 2014 July 15.
+
+Song et al.
+
+Page 8
+
+14. Mann EO, Paulsen O. Trends Neurosci. 2007; 30:343–349. [PubMed: 17532059]
+15. Deisseroth K, et al. Neuron. 2004; 42:535–552. [PubMed: 15157417]
+16. Chambers RA, Potenza MN, Hoffman RE, Miranker W. Neuropsychopharmacology. 2004;
+
+29:747–758. [PubMed: 14702022]
+
+17. Kim WR, et al. Eur J Neurosci. 2009; 29:1408–1421. [PubMed: 19519627]
+18. Sahay A, et al. Nature. 2011; 472:466–470. [PubMed: 21460835]
+19. Gu Y, et al. Nat Neurosci. 2013; 15:1700–1706. [PubMed: 23143513]
+20. Tashiro A, Sandler VM, Toni N, Zhao C, Gage FH. Nature. 2006; 442:929–933. [PubMed:
+
+16906136]
+
+21. van Praag H, et al. Nature. 2002; 415:1030–1034. [PubMed: 11875571]
+22. Ge S, Yang CH, Hsu KS, Ming GL, Song H. Neuron. 2007; 54:559–566. [PubMed: 17521569]
+23. Kempermann G, Kuhn HG, Gage FH. Nature. 1997; 386:493–495. [PubMed: 9087407]
+24. Atasoy D, Aponte Y, Su HH, Sternson SM. J Neurosci. 2008; 28:7025–7030. [PubMed: 18614669]
+25. Sohal VS, Zhang F, Yizhar O, Deisseroth K. Nature. 2009; 459:698–702. [PubMed: 19396159]
+26. Cardin JA, et al. Nature. 2009; 459:663–667. [PubMed: 19396156]
+27. Kim JY, et al. Neuron. 2009; 63:761–773. [PubMed: 19778506]
+28. Duan X, et al. Cell. 2007; 130:1146–1158. [PubMed: 17825401]
+29. Toni N, et al. Nat Neurosci. 2008; 11:901–907. [PubMed: 18622400]
+30. Toni N, et al. Nat Neurosci. 2007; 10:727–734. [PubMed: 17486101]
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Nat Neurosci. Author manuscript; available in PMC 2014 July 15.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Song et al.
+
+Page 9
+
+Figure 1.
+PV+ interneurons form immature synaptic inputs onto proliferating newborn progeny in the
+adult dentate gyrus. (a) Sample immuno-EM image of a symmetrical synaptic contact
+(arrows) with a dark labelled newborn progeny (NP; left; Scale bar: 0.2 µm) and the serial
+reconstruction (right; Scale bar: 0.8 µm). (b) Sample confocal images of immunostaining for
+PV, synapsin I, and GFP (left) with orthogonal views (right). Scale bars: 20 µm. See
+Supplementary Movie 1 for 3D reconstruction and Supplementary Fig. 3 for another
+example for a proliferating newborn progeny. (c-e) Sample images and serial
+
+Nat Neurosci. Author manuscript; available in PMC 2014 July 15.
+
+Song et al.
+
+Page 10
+
+reconstructions of symmetrical synaptic contacts (arrowheads) between vesicle-filled PV+
+axon terminals and newborn progeny (NP; c, d) or unlabelled mature neurons (MN; e).
+Please see Supplementary Fig. 4 for correlative light and EM analyses for the identification
+of labelled PV+ axonal terminals, labelled newborn progeny and unlabeled mature granule
+cell shown in (c, e). Scale bars: 1 µm. (f) Sample traces of whole-cell voltage-clamp
+recording of a RFP+ new progeny and a mature granule cell in the same preparation upon
+light stimulation (472 nm; 5 ms) of ChR2-expressing PV+ neurons. (g-i) Summaries of
+induction rate (g), mean amplitude (h), and distribution of rise times (i) of evoked PSC
+recorded from RFP+ newborn progeny at 4 dpi and from mature granule neurons upon 8 Hz
+light stimulation of ChR2-expressing PV+ or SST+ neurons. Values represent mean ± s.e.m.
+(n = 3–8 cells; n.s.: P > 0.1; Student’s t-test).
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Nat Neurosci. Author manuscript; available in PMC 2014 July 15.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Song et al.
+
+Page 11
+
+Figure 2.
+Activation of PV+, but not SST+, interneurons in the dentate gyrus promotes survival of
+proliferative newborn progeny during early phases of adult hippocampal neurogenesis. (a) A
+schematic diagram of the experimental design. (b-d) Shown are sample confocal images of
+staining of EdU, DCX and DAPI of the dentate gyrus after the sham no-light treatment or 8
+Hz light stimulation of ChR2+PV+ neurons (b). Scale bar: 50 µm. Also shown are
+summaries of stereological quantifications of total numbers of EdU+ newborn progeny (c)
+and EdU+DCX+ newborn neuronal progeny (d) in the SGZ at 1 dpi before treatment and at 4
+dpi after different treatments. Values represent mean ± s.e.m. (n = 3–5 animals; **: P <
+0.01; *: P < 0.05; n.s.: P > 0.1; one-way ANOVA). (e-g) Activation of PV+ neurons at 8 Hz
+reduces cell death of newborn progeny. Shown in (e) are sample confocal images of staining
+of Iba-1 (a microglia marker), EdU and DAPI. Note engulfing of EdU+ and EdU- pyknotic
+nuclei by Iba-1+ microglia. Scale bars: 10 µm. Also shown are percentages of EdU+ cells
+that were surrounded by Iba-1+ microglia (EdU+Iba-1#; f) and total number of EdU- cells
+that were surrounded by Iba-1+ microglia (EdU-Iba-1#; g) at 4 dpi. Values represent mean ±
+s.e.m. (n = 4 animals; **: P < 0.01; Student’s t-test).
+
+Nat Neurosci. Author manuscript; available in PMC 2014 July 15.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Song et al.
+
+Page 12
+
+Figure 3.
+Suppression of PV+, but not SST+, interneuron activity in the adult dentate gyrus decreases
+survival of newborn progeny in the normal and enriched environment. (a-d) The
+experimental paradigm is illustrated in Supplementary Fig. 7a and analyses were performed
+similarly as in Figs. 2c-d. Values represent mean ± s.e.m. (n = 3–5 animals; **: P < 0.01; *:
+P < 0.05; n.s.: P > 0.1; one-way ANOVA and Student’s t-test). (e) Stereological
+quantifications of total numbers of EdU+ cells that remained MCM+, indicative of active
+proliferation, at 1 and 4 dpi. Values represent mean ± s.e.m. (n = 3–5 animals; **: P < 0.01;
+two-way ANOVA). As illustrated in a schematic diagram, death of a proliferating progenitor
+leads to elimination of all its progeny, thus potentially having a bigger impact on the final
+cell number compared to cell death of individual post-mitotic neurons. (f) Suppression of
+PV+ neuron activity between 1 and 4 dpi leads to decreases in the final number of
+
+Nat Neurosci. Author manuscript; available in PMC 2014 July 15.
+
+Song et al.
+
+Page 13
+
+EdU+NeuN+ adult-born neurons at 30 dpi. Shown are sample confocal images of staining of
+EdU, NeuN and DAPI at 30 dpi. Scale bar: 10 µm. Also shown is a summary of
+stereological quantification of EdU+NeuN+ cells at 30 dpi. Values represent mean ± s.e.m.
+(n = 3–4 animals; **: P < 0.01; Student’s t-test). (g) Sample confocal images of staining of
+EdU, DCX, and DAPI in the adult dentate gyrus at 4 dpi with light stimulation or sham
+treatment, in normal or enriched environments between 1 and 4 dpi. Scale bar: 10 µm. (h)
+Summaries of stereological quantifications similar as in (a-b). The same data under the
+normal condition from (a-b) are re-plotted for comparison. Values represent mean ± s.e.m.
+(n = 3–5 animals; **: P < 0.01; two-way ANOVA and Student’s t-test).
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Nat Neurosci. Author manuscript; available in PMC 2014 July 15.
+
+

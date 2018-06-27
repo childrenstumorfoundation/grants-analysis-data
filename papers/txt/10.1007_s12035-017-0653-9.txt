@@ -1,0 +1,2271 @@
+Mol Neurobiol (2018) 55:4403–4416
+DOI 10.1007/s12035-017-0653-9
+
+CRMP2 Phosphorylation Drives Glioblastoma Cell Proliferation
+
+Aubin Moutal 1 & Lex Salas Villa 1 & Seul Ki Yeon 2 & Kyle T. Householder 3,4 &
+Ki Duk Park 2 & Rachael W. Sirianni 3,4 & Rajesh Khanna 1,5,6
+
+Received: 13 April 2017 /Accepted: 11 June 2017 /Published online: 28 June 2017
+# Springer Science+Business Media, LLC 2017
+
+Abstract Glioblastoma (GBM) is an aggressive primary
+brain tumor. The rapid growth and the privileged provenance
+of the tumor within the brain contribute to its aggressivity and
+poor therapeutic targeting. A poor prognostic factor in glio-
+blastoma is the deletion or mutation of the Nf1 gene. This gene
+codes for the protein neurofibromin, a tumor suppressor gene
+that is known to interact with the collapsin response mediator
+protein 2 (CRMP2). CRMP2 expression and elevated expres-
+sion of nuclear phosphorylated CRMP2 have recently been
+implicated in ca ncer pro gression. The CRMP2-
+neurofibromin interaction protects CRMP2 from its phosphor-
+ylation by cyclin-dependent kinase 5 (Cdk5), an event linked
+to cancer progression. In three human glioblastoma cell lines
+(GL15, A172, and U87), we observed an inverse correlation
+between neurofibromin expression and CRMP2 phosphoryla-
+tion levels. Glioblastoma cell proliferation was dependent on
+CRMP2 expression and phosphorylation by Cdk5 and
+
+* Rajesh Khanna
+
+rkhanna@email.arizona.edu
+
+1 Department of Pharmacology, College of Medicine, University of
+
+Arizona, 1501 North Campbell Drive, P.O. Box 245050,
+Tucson, AZ 85724, USA
+
+2 Center for Neuro-Medicine, Brain Science Institute, Korea Institute
+
+of Science and Technology, Seoul 136-791, Republic of Korea
+
+3 Barrow Brain Tumor Research Center, Barrow Neurological
+
+Institute, 350 W. Thomas Rd., Phoenix, AZ 85013, USA
+
+4
+
+School of Biological and Health Systems Engineering, Ira A. Fulton
+Schools of Engineering, Arizona State University, P.O. Box 879709,
+Tempe, AZ 85287, USA
+
+5 Department of Anesthesiology, College of Medicine, University of
+
+Arizona, Tucson, AZ, USA
+
+6 Neuroscience Graduate Interdisciplinary Program, College of
+
+Medicine, University of Arizona, Tucson, AZ, USA
+
+glycogen synthase kinase 3 beta (GSK3β). The CRMP2 phos-
+phorylation inhibitor (S)-lacosamide reduces, in a
+concentration-dependent manner, glioblastoma cell prolifera-
+tion and induced apoptosis in all three GBM cell lines tested.
+Since (S)-lacosamide is bioavailable in the brain, we tested its
+utility in an in vivo orthotopic model of GBM using GL261-
+LucNeo glioma cells. (S)-lacosamide decreased tumor size, as
+measured via in vivo bioluminescence imaging, by ~54%
+compared to vehicle control. Our results introduce CRMP2
+expression and phosphorylation as a novel player in GBM
+proliferation and survival, which is enhanced by loss of Nf1.
+
+Keywords CRMP2 . Phosphorylation . Neurofibromin .
+Glioblastoma . Proliferation . (S)-lacosamide
+
+Introduction
+
+Among central nervous system tumors, glioblastoma
+multiforme (GBM), a WHO grade IVastrocytoma, is the most
+aggressive form. Despite recent advances in treatment proto-
+cols [1] and advanced molecular studies [2, 3], the median
+survival for GBM patients remains approximately 14 months
+[2]. Poor patient survival is due to a multitude of factors,
+including late stage at diagnosis, treatment resistance, and a
+lack of drugs capable of reaching invasive cells that reside
+behind the blood-brain barrier [2, 4]. An important molecular
+signature in glioblastoma is the loss or mutation of the Nf1
+gene, which codes for the protein neurofibromin. Nf1 alter-
+ations are negatively linked to GBM patients’ survival [5–7]
+and are enriched in the mesenchymal subgroup of GBM [3].
+Recurrence of GBM after treatment involves a shift towards a
+mesenchymal subtype [8, 9]. Also, it was suggested that Nf1
+loss in GBM can happen over time even if the primary tumor
+did not initially show alteration of the Nf1 gene [10]. Thus,
+
+4404
+
+Mol Neurobiol (2018) 55:4403–4416
+
+Nf1 loss contributes to GBM recurrence and is linked to lower
+survival of patients. Neurofibromin is an anti-oncogene whose
+most established function is to inactivate the pro-oncogene
+Ras [11], an event that promotes gliomagenesis [12, 13].
+However, neurofibromin has other known protein partners
+that may facilitate pro-oncogenic mechanisms—one of these
+proteins is collapsin response mediator protein 2 (CRMP2).
+CRMP2 is an axonal growth and guidance protein [14–16]
+that binds to the C-terminus of neurofibromin [17]. This
+protein-protein interaction inhibits CRMP2 phosphorylation
+by cyclin-dependent kinase 5 (Cdk5), which, in turn, pro-
+motes neurite outgrowth [17]. Loss of neurofibromin results
+in increased CRMP2 phosphorylation by Cdk5 [17], an event
+linked to cancer progression [18, 19]. Gain of CRMP2 phos-
+phorylation at the Ser522 site by Cdk5 has been previously
+described in lymphoma [18], as well as in breast [18, 20] and
+lung [12, 21], cancers. Recently, loss of CRMP1 [22] and gain
+of CRMP5 [23]—two other members of the CRMP family—
+were reported to participate in glioblastoma oncogenic mech-
+anisms. Since Nf1 loss is a hallmark in glioblastoma [3, 5, 6]
+and is linked to lower survival [5, 6] and recurrence [8, 9], and
+neurofibromin inhibits CRMP2 phosphorylation by Cdk5
+[17], an event linked to cancer progression [18, 19], we hy-
+pothesized the CRMP2 phosphorylation is an important mo-
+lecular event driving glioblastoma cell proliferation and
+survival.
+
+Here, we demonstrate that neurofibromin protein levels are
+inversely correlated with CRMP2 phosphorylation levels.
+Equally importantly, we demonstrate that CRMP2 expression
+promotes GBM cell proliferation. This novel function is
+governed by CRMP2’s phosphorylation status since express-
+ing phosphorylation-deficient CRMP2 mutants prevented
+CRMP2-dependent GBM cell proliferation. (S)-lacosamide
+((S)-LCM), an inactive analog of the clinically approved small
+molecule anti-epileptic drug (R)-lacosamide (Vimpat®) [24],
+inhibited CRMP2 phosphorylation at S522 [25–27] in three
+human GBM cell lines. (S)-lacosamide decreased in cell pro-
+liferation in vitro, which was linked to induction of apoptosis.
+In the final series of experiments, we evaluated the ability of
+(S)-lacosamide to inhibit growth of orthotopic tumors in vivo,
+in a syngeneic model of murine GBM.
+
+Methods
+
+Materials Human cell lines GL15 [28], A172 (American Type
+Culture Collection [ATCC], Manassas, VA, USA; CRL_1620),
+and U87 (ATCC® HTB-14™) were authenticated as reported
+previously [23] using short tandem repeat DNA profiling and
+maintained in appropriate media. GL261-LucNeo glioma line
+was described earlier [29]. Antibodies used in this study are
+anti-CRMP2 polyclonal antibody (Cat# 2993, Sigma, St.
+Louis, MO), anti-neurofibromin N-terminal (Cat# sc-68,
+
+Santa Cruz Biotechnology, Dallas, TX), CRMP2 pSer522
+(Cat# CP2191, ECM Biosciences), and actin (Cat# A2066,
+Sigma). For RNA interference, short interfering RNA
+(siRNA) CRMP2 (5′-GTAAACTCCTTCCTCGTGT-3′)
+(specificity validated previously [30, 31]) and siRNA control
+(Cat# 12935300) were obtained from Thermo Fisher Scientific
+(Waltham, MA). A BLAST search of siRNA sequences against
+the human transcriptome did not reveal potential off-target ef-
+fects. (S)-N-benzyl 2-acetamido-3-methoxypropionamide ((S)-
+lacosamide; (S)-LCM) was synthesized as described previously
+[32]. Plasmids coding for Discosoma sp. red fluorescent protein
+(dsRed) fused to wild-type and phospho-deficient CRMP2
+were as reported earlier by Dustrude and colleagues [31].
+
+Nucleic Acid Transfection Indicated cell lines were plated to
+reach 50% confluency on the next day. Transfection was done
+using Lipofectamine 2000 according to the manufacturer’s
+instructions. For siRNA transfections, a final concentration
+of 200 nM was used. For plasmid transfection, a 2:1
+Lipofectamine 2000/DNA ratio was used. In all cases, trans-
+fection was prepared in OptiMEM and added dropwise onto
+the cells. The media was changed 24 h later, and the cells were
+used the next day (i.e., a total of 48 h after transfection).
+Plasmid transfection was verified by dsRed fluorescence,
+and knockdown was verified by Western blot.
+
+Immunocytofluorescence Indicated cells were grown on
+sterile glass coverslip 15 mm in 12-well plates. After 2 days
+in culture, cells were washed twice with phosphate-buffered
+saline (PBS) and fixed using ice-cold methanol for 5 min.
+After removal, cells were allowed to dry at room temperature
+and conserved in PBS at 4 °C until staining. Non-specific
+antibody binding sites were saturated with 3% [m/v] bovine
+serum albumin (BSA) in PBS for 1 h at room temperature, and
+then, the indicated primary antibodies were incubated for 1 h
+at room temperature in 3% BSA in PBS. Cells were washed
+three times for 5 min at room temperature with PBS; 3% BSA
+and secondary antibodies were added at 1/2000 dilution in
+PBS containing 3% BSA for 1-h incubation at room temper-
+ature. After three washing steps (5 min each) with PBS with
+3% BSA at room temperature followed by two washes with
+PBS, 4′,6-diamidino-2-phenylindole (DAPI; Cat# D1306,
+Thermo Fisher Scientific) was added on the cells at 50 ng/
+mL in PBS and incubated for 10 min at room temperature.
+Stained cells were washed three times in PBS for 5 min at
+room temperature and then mounted in Fluoro-Gel medium
+(Cat# 11985-11, Electron Microscopy Sciences, Hatfield, PA)
+and stored at 4 °C until analysis. Controls with secondary
+antibody alone without primary antibody did not show any
+non-specific fluorescent signal. Immunofluorescent micro-
+graphs were acquired on an Olympus BX51 microscope with
+a Hamamatsu C8484 digital camera using a 20× UplanSApo
+0.75 numerical aperture objective. The freeware image
+
+Mol Neurobiol (2018) 55:4403–4416
+
+4405
+
+analysis program ImageJ (http://rsb.info.nih.gov/ij/) was used
+to generate merged images.
+
+Western Blot Indicated samples were lysed in RIPA buffer
+(50 mM Tris-HCl, pH 7.4, 50 mM NaCl, 2 mM MgCl2, 1% [v/
+v] NP40, 0.5% [m/v] sodium deoxycholate, 0.1% [m/v] SDS)
+as described previously [31, 33, 34]. The RIPA buffer includ-
+ed freshly added protease inhibitors (Cat# B14002; Biotools,
+Houston, TX), phosphatase inhibitors (Cat# B15002,
+Biotools), and benzonase (Cat# 71206, Millipore, Billerica,
+MA). Protein concentrations were determined using the
+BCA protein assay (Cat# PI23225, Thermo Fisher Scientific,
+Waltham, MA), and samples were prepared at a 1 μg/μL con-
+centration in Laemmli buffer. Indicated samples were loaded
+on Novex™ WedgeWell™ 4–20% Tris-Glycine Mini Gels,
+15 wells (Cat# XP04205BOX, Thermo Fisher Scientific,
+Waltham, MA). Proteins were transferred for 1 h at 100 V
+using TGS (25 mM Tris pH = 8.5, 192 mM glycine, 0.1%
+(m/v) SDS), 20% (v/v) methanol as transfer buffer to
+polyvinylidene difluoride (PVDF) membranes 0.45 μm
+(Cat# IPVH00010, Millipore, Billerica, MA), preactivated in
+pure methanol. After transfer, the membranes were blocked at
+room temperature for 1 h with TBST (50 mM Tris-HCl, pH
+7.4, 150 mM NaCl, 0.1% Tween 20), 5% (m/v) non-fat dry
+milk, then incubated separately in indicated primary antibod-
+ies in TBST, 5% (m/v) BSA, overnight at 4 °C. Following
+incubation in horseradish peroxidase-conjugated secondary
+antibodies from Jackson Immunoresearch, blots were revealed
+by enhanced luminescence (WBKLS0500, Millipore,
+Billerica, MA) before exposure to photographic film. Films
+were scanned, digitized, and quantified using Un-Scan-It gel
+version 6.1 scanning software by Silk Scientific Inc.
+
+Cell Proliferation Assay Cell proliferation was analyzed
+using Click-IT 5-ethynyl-2′-deoxyuridine (EdU; a nucleoside
+analog of thymidine; Cat# A10044, Thermo Fisher) at 25 μg/
+mL added 4 h before fixation in culture medium. Cells were
+fixed with pure ice-cold methanol, 5 min, then dried and
+stored in PBS at 4 °C until use. Either Alexa Fluor 488-
+Azide (Cat# A10266, Thermo Fisher) or Alexa Fluor 594-
+Azide (Cat# A10270, Thermo Fisher) was used in 100 mM
+Tris, 1 mM CuSO4, and 100 mM ascorbic acid, pH = 8.0 for
+30 min at room temperature, protected from light, to reveal
+incorporated EdU. Nuclei were stained using DAPI.
+Immunofluorescent micrographs were acquired on an
+Olympus BX51 microscope with a Hamamatsu C8484 digital
+camera using a 20× UplanSApo 0.75 numerical aperture ob-
+jective. The freeware image analysis program ImageJ (http://
+rsb.info.nih.gov/ij/) was used to generate images. Analysis
+was performed by manual counting EdU-stained cells on mul-
+tiple representative fields to determine proliferation index ra-
+tio (EdU/DAPI) in each samples. Results are from three inde-
+pendent experiments.
+
+Annexin-V Apoptosis Assay Cell apoptosis was analyzed
+using annexin V (Cat# A13203, Thermo Fisher Scientific)
+e x t r a c e l l u l a r s t ai n i n g . T h i s s t a i n i de n t i f i e s t h e
+phosphatidylserine relocalized to the outer leaflet of the plas-
+ma membrane in apoptotic conditions. Indicated cells were
+washed with cold PBS and then incubated in annexin-
+binding buffer (10 mM HEPES, 140 mM NaCl, and 2.5 mM
+CaCl2, pH 7.4) for 15 at room temperature, according to the
+manufacturer’s instructions. The cells were washed in cold
+PBS and then imaged. Analysis was performed by manual
+counting (by an experimenter blinded to the condition) of
+highly stained cells from multiple representative fields to de-
+termine the percentage of apoptosis in each sample. Results
+are from three independent experiments.
+
+In Vivo Tumor Treatment Studies All procedures and ani-
+mal care practices were approved and performed in accor-
+dance with the Barrow Neurological Institute’s Institutional
+Animal Care and Use Committee.
+
+Tumor Induction GL261-LucNeo cells were grown in T25
+flasks in Dulbecco’s modified eagle medium (DMEM) con-
+taining glucose, L-glutamine, and 10% FBS and supplement-
+ed with the aminoglycoside antibiotic G-418 (Geneticin), as a
+LucNeo selection pressure, at 37 °C with 5% CO2 and main-
+tained under normal adherent culture conditions. Cells were
+collected with 0.25% trypsin-EDTA, and a Cellometer mini
+(Nexcelom Bioscience, Lawrence, MA, USA) was used to
+count cells. Orthotopic GL261-LucNeo tumors were induced
+in C57BL/6 albino mice (25–30 g, Charles River) as previ-
+ously reported [35–37]. Briefly, mice were anesthetized with
+an intraperitoneal (i.p.) injection of ketamine/xylazine (100/
+10 mg/kg) prior to being mounted in a stereotaxic frame (Kopf
+Instruments, Tujunga, CA, USA) on top of an infrared heating
+pad to maintain animal temperature. The animal’s head was
+shaved and sterilized with three alternating passes of each
+betadine and ethanol. A 1-cm incision was made over midline,
+and a burr hole was drilled 2 mm lateral, 0.1 mm posterior of
+bregma. A Hamilton syringe (29-gauge needle) containing
+75,000 GL261-LucNeo cells in 2 μL DMEM was inserted
+into the hole to a depth of 2.8 mm, and the cells were injected
+over 2 min. The needle was left in place for 1 min to reduce
+backflow before the wound was closed with staples. All ani-
+mals received a subcutaneous (SQ) injection of buprenorphine
+sustained-release formulation prior to surgery, and ibuprofen
+was provided in their water ad libitum for 1 week for pain.
+
+Immunohistofluorescence and Epifluorescence Imaging
+Mouse brains injected with GL261 cells (at day 17 post-
+injection) were perfused using 4% paraformaldehyde. They
+were next transferred into a 30% sucrose solution and left at
+4 °C until the sinking of the tissues could be observed
+(~3 days). Tissues were cut at 10-μm thickness using the
+
+4406
+
+Mol Neurobiol (2018) 55:4403–4416
+
+Bright OTF 5000 Microtome Cryostat (Hacker Instruments and
+Industries, Inc., Winnsboro, SC) and fixed onto gelatin-coated
+glass slides and kept at −20 °C until use. Brain slices were
+permeabilized and saturated using PBS containing 3% BSA
+and 0.1% Triton X-100 solution for 30 min at RT, and then,
+antibodies were added overnight. The antibodies used were
+CRMP2 (Cat# C2993, Sigma, St. Louis, MO or Cat# 11096,
+Immuno-Biological Laboratories, Minneapolis, USA) and
+CRMP2 pSer522 (Cat# CP2191, ECM Biosciences,
+Versailles, KY). The slices were then washed three times in
+PBS and incubated with PBS containing 3% BSA and 0.3%
+Triton X-100 containing secondary antibodies (Alexa 488 goat
+anti-rabbit secondary antibody (Life Technologies)) for at least
+3 h at RT. After three washes (PBS, 10 min, RT), either DAPI
+was used to stain the nuclei of cells. Slides were mounted and
+stored at 4 °C until analysis. Immunofluorescent micrographs
+were acquired on an Olympus BX51 microscope with a
+Hamamatsu C8484 digital camera using a 4× UplanFL N
+0.13 numerical aperture or a 20× UplanSApo 0.75 numerical
+aperture objective. The freeware image analysis program
+ImageJ (http://rsb.info.nih.gov/ij/) was used to generate
+merged images.
+
+Tumor Growth Bioluminescence was used to monitor and
+measure tumor growth as previously described [35, 37].
+Imaging was done on the Xenogen IVIS Spectrum in vivo
+imaging system every 3–4 days starting 6 days after tumor
+implantation. Luciferin (150 mg/kg) was administered SQ,
+and the mice were imaged 25 min later under 2% isoflurane.
+The Living Image software was used to draw an ROI around
+the tumor signal and measure the size of each tumor (total
+flux, photons/s).
+
+Tumor Treatment Mice were randomly assigned to a treat-
+ment group, saline or (S)-lacosamide (30 mg/kg, i.p.), after the
+first imaging session (day 6). Treatments were administered
+daily by i.p. injection for 10 days beginning on day 7 post-
+tumor induction. Therapeutic efficacy was evaluated by mea-
+suring tumor growth via bioluminescence. Mice were moni-
+tored daily for signs of neurological symptoms (lack of
+grooming, abnormal gait, hunched posture, etc.) or greater
+than 15% weight loss. Investigators were blinded to the treat-
+ment condition.
+
+Data Analysis All data columns are shown as mean ± SEM.
+In Western blots, n is presented as the number of separate
+experiments (minimum of 3). Western blots were quantified
+using Un-Scan-It gel version 6.1 (Silk Scientific Inc., Orem,
+UT). Statistical differences between control and experimental
+conditions were determined by using Mann-Whitney non-
+parametric test followed by Dunnett’s post hoc test or a
+Mann-Whitney non-parametric test when comparing only
+two conditions within R software (R-project). p values <0.05
+
+were judged to be statistically significant. Graphs were gener-
+ated using GraphPad Prism 7 software.
+
+Results
+
+Neurofibromin Expression Levels Correlate with CRMP2
+Phosphorylation Levels in Glioblastoma
+
+In glioblastoma, loss of neurofibromin, the protein product of
+the nf1 gene, is a marker of poor survival and resistance to
+treatments [5, 6]. This loss results in dysregulation of
+neurofibromin-interacting proteins including the oncogene
+Ras [11] and CRMP2 [17]. The interaction between CRMP2
+and neurofibromin results in inhibition of CRMP2 phosphor-
+ylation by Cdk5 [17]. Notably, CRMP2 phosphorylation, but
+not expression, levels have been positively linked to cancer
+progression [18, 19]. Thus, we investigated the correlation
+between CRMP2 expression and phosphorylation levels with
+neurofibromin expression in glioblastoma. We used three dif-
+ferent human GBM cell lines to account for the very high
+heterogeneity of the tumors [10]. By Western blot analysis,
+we first characterized neurofibromin expression in the three
+different GBM cell lines (Fig. 1a). Although all three cell lines
+had detectable neurofibromin levels, we found that the U87
+cells had the highest level of neurofibromin expression
+(253 ± 12.1% compared to GL15 cell level, p < 0.0001,
+Kruskal-Wallis test) and A172 cells had the lowest expression
+of neurofibromin (66 ± 5.5% compared to GL15 cell level,
+p < 0.041, Kruskal-Wallis test) (Fig. 1a, b). We next examined
+CRMP2 expression levels in the three GBM cell lines and
+found that CRMP2 expression was highest in U87
+(282.4 ± 7.1%, p < 0.0001, Kruskal-Wallis test) and lowest
+in A172 (58 ± 5.5%, p < 0.0109, Kruskal-Wallis test) cells
+compared to GL15 cells (Fig. 1a, b). Finally, we analyzed
+CRMP2 phosphorylation by Cdk5 levels using an antibody
+specific to the S522 phosphorylation site on CRMP2. The
+phosphorylated CRMP2 signal was normalized to CRMP2
+expression level for each cell line. We found that CRMP2
+phosphorylation at the S522 site was increased in A172 cells
+(142 ± 4.4%, p < 0.011, Kruskal-Wallis test) and decreased in
+U87 cells (64 ± 6.7%, p < 0.0333, Kruskal-Wallis test) com-
+pared to levels in GL15 cells (Fig. 1a, b). These results high-
+light the differential expression of neurofibromin, CRMP2,
+and phosphorylated CRMP2 in glioblastoma. Since
+CRMP2’s interaction with neurofibromin results in inhibition
+of CRMP2 phosphorylation, we asked if neurofibromin levels
+would be correlated with CRMP2 phosphorylation levels.
+Using a Pearson correlation analysis from our Western blot
+data (Fig. 1a, b), we found that more neurofibromin levels
+correlated inversely with phosphorylated CRMP2 (S522)
+levels in GBM cells (Fig. 1c) (r2 = 0.85, p < 0.0094). Thus,
+in the glioblastoma lines tested here, less neurofibromin, an
+
+Mol Neurobiol (2018) 55:4403–4416
+
+4407
+
+A
+
+Neurofibromin
+
+CRMP2
+
+CRMP2 p522
+
+Actin
+
+B
+
+5
+1
+L
+G
+
+2
+7
+1
+A
+
+7
+8
+U
+
+kDa
+320
+
+62
+62
+
+42
+
+GL15
+
+*
+
+A172
+
+U87
+
+*
+
+*
+CRMP2
+
+*
+CRMP2 p522
+
+*
+*
+Neurofibromin
+
+400
+
+300
+
+200
+
+100
+
+0
+
+300
+
+200
+
+100
+
+i
+
+n
+o
+s
+s
+e
+r
+p
+x
+e
+e
+v
+i
+t
+
+ 
+
+l
+
+a
+e
+R
+
+)
+5
+1
+L
+G
+o
+
+ 
+
+t
+ 
+
+d
+e
+r
+a
+p
+m
+o
+c
+(
+
+C
+
+l
+
+i
+
+e
+v
+e
+l
+ 
+n
+m
+o
+r
+b
+i
+f
+o
+r
+u
+e
+N
+
+)
+5
+1
+L
+G
+ 
+o
+t
+ 
+d
+e
+r
+a
+p
+m
+o
+c
+(
+
+0
+50
+
+100
+
+150
+
+CRMP2 p522 level
+(compared to GL15)
+
+Fig. 1 Neurofibromin expression correlates inversely with CRMP2
+phosphorylation level in GBM cell lines. a Representative immunoblots
+from lysates of human GL15, A172, and U87 cells probed for
+neurofibromin, total CRMP2, and Cdk5-phosphorylated CRMP2 (at
+serine 522; p522). Actin is used as a loading control. b Bar graph
+showing the relative expression level of neurofibromin, total CRMP2,
+and CRMP2 p522 in GL15, A172, and U87 cells. Neurofibromin and
+CRMP2 were more expressed in U87, and CRMP2 phosphorylation was
+higher in A172 cells. *p < 0.05 vs. GL15, Kruskal-Wallis test, n = 3
+independent experiments. c Graph showing the correlation between
+neurofibromin and CRMP2 phosphorylation levels in GL15, A172, and
+U87 cell lines. The dotted line shows an inverse correlation between
+neurofibromin and CRMP2 phosphorylation levels
+
+event linked to poor survival [5, 6], leads to more CRMP2
+phosphorylation.
+
+Phosphorylated CRMP2 Is Localized in the Nucleus
+of Glioblastoma Cells
+
+Previous studies have shown that subcellular localization of
+phosphorylated CRMP2 is altered in cancer cells [18, 21].
+
+Thus, we examined localization of CRMP2 and phosphory-
+lated CRMP2 in glioblastoma cells using fluorescent immu-
+nostaining. We detected total CRMP2 in both the cytoplasm
+and the nucleus of the three GBM cell lines (Fig. 2, top
+panels). In contrast, phosphorylated CRMP2 (S522) was only
+detected in the nucleus of the three GBM cell lines (Fig. 2,
+bottom panels). These results show that CRMP2 phos-
+phorylation (S522) is relocalized in the nucleus of GBM
+cells. Such nuclear localization for CRMP2 was de-
+scribed previously in lung cancer and was suggested
+to have a role in cell proliferation [21].
+
+CRMP2 Expression Participates in Glioblastoma Cell
+Proliferation
+
+CRMP2 expression in glioblastoma and its localization in the
+cytoplasm and in the nucleus suggest a role for this protein in
+this tumor. In glioblastoma, the fast-growing behavior of the
+tumors likely accounts for the lower survival of patients [23].
+To assess the contribution of CRMP2 to the proliferation of
+glioblastoma cell lines, we used a genetic knockdown strate-
+gy. Using siRNAs, we knocked down CRMP2 by ~50% in all
+cell lines (Fig. 3a, b). We then performed a 5-ethynyl-2′-
+deoxyuridine (EdU) incorporation assay to evaluate the con-
+tribution of CRMP2 expression to glioblastoma cell prolifer-
+ation (Fig. 3c). Following CRMP2 knockdown, the prolifera-
+tion ratio was decreased in all three cell lines: GL15
+(22.7 ± 1.55% compared to control, p < 0.0001, Mann-
+Whitney test), A172 (20 ± 4% compared to control,
+p < 0.0001, Mann-Whitney test), and U87 (39.4 ± 8.4% com-
+pared to control, p < 0.0001, Mann-Whitney test). These re-
+sults demonstrate an important role for CRMP2 in glioblasto-
+ma proliferation.
+
+CRMP2 Expression and Phosphorylation Control
+Glioblastoma Cell Proliferation
+
+Having demonstrated that CRMP2 levels contribute to GBM
+proliferation, we next asked if CRMP2 phosphorylation could
+be the event driving GBM proliferation. To answer this, we
+used phospho-deficient CRMP2 constructs mutated on either
+the phosphorylation site for Cdk5 (S522A) or the phosphory-
+lation sites for glycogen synthase kinase 3 beta (GSK3β)
+(T509A/T514A); GSK3β-mediated phosphorylation of
+CRMP2 occurs following the priming phosphorylation event
+by Cdk5 [38]. Since the plasmids used in this study allow
+expression of CRMP2 fused to a dsRed fluorescent tag to
+identify the transfected cells, we were able to quantify EdU
+incorporation signal in only the dsRed positive (i.e.,
+transfected) cells (Fig. 4a). We found a differential contribu-
+tion of CRMP2 and phospho-deficient CRMP2 to GBM cell
+proliferation in the three cell lines used. CRMP2 overexpres-
+sion increased the proliferation, compared to dsRed
+
+4408
+
+Fig. 2 Phosphorylated CRMP2
+is localized in the nucleus of
+glioblastoma cells.
+Representative
+immunofluorescence of GL15,
+A172, or U87 cells stained for
+either CRMP2 (top panels) or
+CRMP2 p522 (bottom panels).
+The scale is 20 μm for all panels.
+Micrographs show cytosolic and
+nuclear localization of total
+CRMP2, while Cdk5-
+phosphorylated CRMP2 (at serine
+522; p522) is found exclusively in
+the nucleus
+
+Mol Neurobiol (2018) 55:4403–4416
+
+GL15
+
+A172
+
+U87
+
+20 µm
+
+CRMP2
+
+CRMP2
+p522
+
+expression, of A172 (169.1 ± 23.3%, p < 0.01, Kruskal-Wallis
+test) and U87 (188.6 ± 10.1%, p < 0.001, Kruskal-Wallis test)
+but not of the GL15 cells (Fig. 4b). Expressing a CRMP2 that
+cannot be phosphorylated by Cdk5 (S522A) decreased the
+proliferation, compared to dsRed expression, of GL15
+(38 ± 4.9%, p < 0.05, Kruskal-Wallis test) and A172
+(55 ± 16%, p < 0.05, Kruskal-Wallis test) cells but not U87
+cells (Fig. 4b). Of note here, expressing CRMP2-S522A in
+U87 cells prevented the increase of proliferation observed
+
+when wild-type CRMP2 was expressed (Fig. 4b). Finally,
+when we expressed a CRMP2 that cannot be phosphorylated
+by GSK3β (T509A/T514A), the proliferation, compared to
+dsRed expression, was decreased only in A172 (42.6% ± 13,
+p < 0.05, Kruskal-Wallis test) cells (Fig. 4b). Again, in U87
+cells, expressing CRMP2 T509A/T514A prevented the in-
+crease of proliferation observed when wild-type CRMP2
+was expressed (Fig. 4b). No significant effect of CRMP2
+T509A/T514A expression was observed in GL15 cells.
+
+A
+
+l
+
+o
+r
+t
+n
+o
+c
+ 
+A
+N
+R
+s
+
+i
+
+2
+P
+M
+R
+C
+A
+N
+R
+s
+
+ 
+
+i
+
+l
+
+o
+r
+t
+n
+o
+c
+ 
+A
+N
+R
+s
+
+i
+
+2
+P
+M
+R
+C
+A
+N
+R
+s
+
+ 
+
+i
+
+l
+
+o
+r
+t
+n
+o
+c
+ 
+A
+N
+R
+s
+
+i
+
+2
+P
+M
+R
+C
+A
+N
+R
+s
+
+ 
+
+i
+
+CRMP2
+
+Actin
+
+C
+
+GL15
+
+A172
+
+U87
+
+kDa
+62
+
+42
+
+B
+
+l
+
+s
+e
+v
+e
+l
+ 
+2
+P
+M
+R
+C
+ 
+e
+v
+i
+t
+a
+e
+R
+
+l
+
+)
+l
+o
+r
+t
+n
+o
+c
+ 
+A
+N
+R
+s
+ 
+f
+o
+ 
+%
+
+i
+
+(
+ 
+
+D
+
+ 
+o
+i
+t
+a
+r
+ 
+I
+
+/
+
+P
+A
+D
+U
+d
+E
+e
+v
+i
+t
+
+ 
+
+l
+
+a
+e
+R
+
+)
+l
+o
+r
+t
+
+ 
+
+n
+o
+C
+A
+N
+R
+s
+ 
+f
+
+i
+
+ 
+
+o
+%
+
+(
+
+100
+
+50
+
+0
+
+*
+
+*
+
+*
+
+GL15
+
+A172
+
+U87
+
+siRNA control
+
+siRNA CRMP2
+
+100
+
+50
+
+0
+
+*
+
+*
+
+*
+
+GL15
+
+A172
+
+U87
+
+Fig. 3 Glioblastoma proliferation requires CRMP2 expression. a
+Representative immunoblots of GL15, A172, or U87 cell lysates after
+transfection with either a control siRNA or CRMP2 siRNA. The blots
+were probed with CRMP2 or actin as a loading control. b Bar graph
+showing the relative CRMP2 expression levels in GL15, A172, or U87
+cells after transfection with CRMP2 siRNA. CRMP2 expression was
+reduced by the CRMP2 siRNA transfection compared to control
+siRNA. *p < 0.05 vs. control siRNA, Mann-Whitney test, n = 3
+independent experiments. c Representative micrographs of GL15,
+
+A172, or U87 cells stained for EdU incorporation after transfection with
+either a control or CRMP2 siRNA. The scale bar is 10 μm. DAPI was
+used to stain the nucleus of all cells. d Bar graph showing the proliferation
+ratio (EdU/DAPI) of GL15, A172, or U87 cells after transfection with
+CRMP2 siRNA, normalized to control siRNA level. Knockdown of
+CRMP2 decreased the proliferation of GL15, A172, and U87 cells.
+*p < 0.05 vs. siRNA control, Mann-Whitney test, n = 10–12 coverslips
+per group from three independent experiments
+
+Mol Neurobiol (2018) 55:4403–4416
+
+4409
+
+phosphorylation by Cdk5 in both central nervous system
+(CNS) [27] and peripheral nervous system (PNS) [25, 26]
+neurons. Prior to using this compound for functional assays,
+we wanted to control its efficiency in inhibiting CRMP2 phos-
+phorylation in human GBM cell lines. The cells were seeded
+at 70% confluence and treated 24 h after seeding to capture
+their exponential growing phase. (S)-lacosamide was applied
+at 2, 20, or 200 μM overnight, and then, the cells were har-
+vested and processed for Western blotting. We probed the
+samples for total CRMP2 and CRMP2 phosphorylated by
+Cdk5 (pS522) (Fig. 5a). The pS522 signal was quantified
+and normalized to the total CRMP2 signal. We observed a
+concentration-dependent inhibition of CRMP2 phosphoryla-
+tion (S522) when the cells were treated with (S)-lacosamide.
+These results show the efficiency of (S)-lacosamide to inhibit
+CRMP2 phosphorylation (S522) in GBM cell lines. Thus, this
+compound can be used to interrogate the functional conse-
+quence of CRMP2 phosphorylation in glioblastoma cells.
+
+Inhibiting CRMP2 Phosphorylation with (S)-Lacosamide
+Decreases GBM Cell Proliferation
+
+So far, our results demonstrate that GBM cell proliferation is
+under the control of CRMP2 expression levels: knocking
+down CRMP2 decreased the proliferation of three GBM cell
+lines (Fig. 3), while overexpressing CRMP2 increased the
+proliferation of A172 and U87 GBM cell lines (Fig. 4).
+Also, expressing a phospho-deficient CRMP2 that cannot be
+phosphorylated resulted in decreased proliferation of GL15
+and A172 GBM cell lines and prevented the CRMP2-
+dependent increase of proliferation in U87 cells (Fig. 4).
+These results show that CRMP2 phosphorylation (S522) is a
+major determinant of GBM cell proliferation. To investigate
+the contribution of CRMP2 phosphorylation at S522 to cancer
+cell proliferation, we used the CRMP2 phosphorylation inhib-
+itor (S)-lacosamide. We seeded cells at 70% confluence and
+treated 24 h after seeding to capture their exponential growing
+phase. (S)-lacosamide was applied at 2, 20, or 200 μM over-
+night and EdU applied during 4 h before fixation. We quanti-
+fied the proliferation ratio (EdU/DAPI) of the cells treated as
+described (Fig. 6a). We found that inhibiting CRMP2 phos-
+phorylation with (S)-lacosamide decreased glioblastoma cell
+proliferation in all GBM cell lines (Fig. 6a, b). The maximum
+reduction of the proliferation ratio was achieved at a 200 μM
+concentration of (S)-lacosamide, compared to the control
+(0.04% DMSO) in GL15 (42.3 ± 2.47%, p < 0.001,
+Kruskal-Wallis test), A172 (40.8 ± 1.88%, p < 0.001,
+Kruskal-Wallis test), and U87 (22.1 ± 1.49%, p < 0.001,
+Kruskal-Wallis test) cells (Fig. 6b). Thus, inhibiting CRMP2
+phosphorylation using (S)-lacosamide results in a
+concentration-dependent decrease of GBM cell proliferation.
+In a previous study linking CRMP2 phosphorylation to
+cancer progression, expressing a phospho-deficient CRMP2
+
+Fig. 4 Glioblastoma proliferation is controlled by CRMP2 expression
+and phosphorylation. a Representative micrographs of GL15 cells
+transfected by either empty, wild-type CRMP2, CRMP2 S522A, or
+CRMP2 T509A/T514A expressing pdsRed-N2 plasmids. Transfected
+cells were identified by dsRed fluorescence; proliferating cells were
+stained for Edu incorporation, and cell nuclei were stained with DAPI
+(not shown here). Scale bar is 20 μm. b Bar graph showing the
+proliferation ratio (EdU/DAPI) of GL15, A172, or U87 cells after
+transfection with the indicated plasmids, normalized to empty plasmid
+level. CRMP2 wild-type expression increased proliferation for A172
+and U87 cells. CRMP2 S522A expression decreased the proliferation of
+GL15 and A172 cells. CRMP2 T509A/T514A expression decreased the
+proliferation of A172 cells. *p < 0.05 vs. dsRed, Kruskal-Wallis test,
+n = 10–12 coverslips per group from three independent experiments
+
+These results show that (i) CRMP2 expression can increase
+GBM cell proliferation and (ii) CRMP2 phosphorylation at
+S522 is an important phosphorylation event for CRMP2 that
+drives GBM cell proliferation.
+
+(S)-Lacosamide Inhibits CRMP2 Phosphorylation
+in GBM Cell Lines
+
+To explore further the role of CRMP2 phosphorylation at
+S522 in glioblastoma, we used the CRMP2 phosphorylation
+inhibitor (S)-lacosamide. (S)-lacosamide is a small molecule
+that we previously identified as a specific inhibitor of CRMP2
+
+4410
+
+Fig. 5 (S)-lacosamide inhibits
+CRMP2 phosphorylation in
+glioblastoma cell lines. a
+Representative immunoblots of
+GL15, A172, and U87 lysates
+after treatment overnight with the
+indicated (S)-lacosamide
+concentrations or 0.1% DMSO
+(vehicle). Lysates were probed
+with anti-CRMP2 (total) and anti-
+CRMP2 pSer522 antibodies. b
+Bar graph showing the relative
+CRMP2 phosphorylation level,
+normalized to CRMP2 expression
+level and to 0.1% DMSO for each
+cell line. CRMP2
+phosphorylation was reduced by
+(S)-lacosamide treatment in all
+cell lines. *p < 0.05 vs. DMSO,
+Kruskal-Wallis test, n = 3 per
+group independent experiments
+
+Mol Neurobiol (2018) 55:4403–4416
+
+O
+S
+M
+D
+%
+1
+
+ 
+
+.
+
+0
+
+[(S)-LCM]
+
+M
+µ
+2
+
+ 
+
+M
+µ
+0
+2
+
+ 
+
+ 
+
+M
+µ
+0
+0
+2
+
+O
+S
+M
+D
+%
+1
+
+ 
+
+.
+
+0
+
+[(S)-LCM]
+
+M
+µ
+2
+
+ 
+
+M
+µ
+0
+2
+
+ 
+
+ 
+
+M
+µ
+0
+0
+2
+
+O
+S
+M
+D
+%
+1
+
+ 
+
+.
+
+0
+
+[(S)-LCM]
+
+M
+µ
+2
+
+ 
+
+M
+µ
+0
+2
+
+ 
+
+ 
+
+M
+µ
+0
+0
+2
+
+pSer522
+
+Total
+
+A
+
+2
+P
+M
+R
+C
+
+B
+
+)
+2
+P
+M
+R
+C
+o
+
+ 
+
+t
+ 
+
+d
+e
+z
+
+ 
+
+2
+2
+5
+p
+2
+P
+M
+R
+C
+e
+v
+i
+t
+
+ 
+
+l
+
+a
+e
+R
+
+i
+l
+
+a
+m
+r
+o
+n
+(
+ 
+
+100
+
+50
+
+0
+
+*
+
+*
+
+*
+
+*
+
+*
+
+*
+
+*
+
+*
+
+GL15
+
+A172
+
+U87
+
+resulted in increased apoptosis of lung cancer cells [21]. Thus,
+to assess the contribution of CRMP2 phosphorylation in glio-
+blastoma cell survival, we used (S)-lacosamide to inhibit
+CRMP2 phosphorylation and assessed the apoptosis rate of
+the GBM cells using extracellular annexin-V staining.
+Annexin V is commonly used to detect apoptotic cells by its
+ability to bind to phosphatidylserine, a marker of apoptosis
+when it is on the outer leaflet of the plasma membrane. In
+GL15 cells, the apoptosis rate reached 100% when the cells
+were treated with 200 μM of (S)-lacosamide (Fig. 6c). The
+A172 cells showed a lower basal apoptosis rate (11.7 ± 3% in
+untreated cells), which increased to 80.1 ± 6.5% when the
+cells were treated with 200 μM of (S)-lacosamide (Fig. 6c).
+The U87 cells had the lowest increase of apoptosis between
+the control treatment (39.8 ± 6.6%) and the 200 μM (S)-
+lacosamide treatment (72.3 ± 7.6%) (Fig. 6c). Taken together,
+these results underscore the importance of CRMP2 phosphor-
+ylation at S522, as a major regulator of GBM cell proliferation
+and as a negative regulator of apoptosis.
+
+(S)-Lacosamide Inhibits Glioblastoma Growth In Vivo
+
+We have shown that CRMP2 expression and phosphorylation
+controls GBM cell proliferation in vitro. (S)-lacosamide, a
+CRMP2 phosphorylation inhibitor, inhibited the proliferation
+of three GBM cell lines and induced apoptosis in these cells.
+(S)-lacosamide is a relatively brain-permeable compound with
+a measured brain-to-plasma partition coefficient of 0.55 [39].
+Thus, we next asked if (S)-lacosamide could affect GBM
+growth in vivo. We used the murine GL261 in vivo GBM
+model that recapitulates key features found in human tumors,
+
+namely the invasive properties, high proliferation, active an-
+giogenesis, necrosis, hypoxic zones, and impairment of the
+blood-brain barrier [29, 40]. Tumors were induced in immu-
+nocompetent mice by stereotaxic injection of 75,000 GL261-
+LucNeo cells into the right striatum. In these cells, CRMP2 is
+expressed throughout the cytoplasm, while pS522-CRMP2 is
+largely restricted to the nucleus (Fig. 7a). Importantly, this cell
+model allows the tumor to grow within an appropriate brain
+microenvironment to better mimic human disease. Tumors
+elicit detectable bioluminescence signal soon after induction
+due to peroxidation of luciferin (administered 150 mg/kg, i.p.)
+by luciferase expressed by the GL261-LucNeo cells, which
+enables monitoring of tumor growth and response to treatment
+via bioluminescent imaging. At day 7, (S)-lacosamide
+(30 mg/kg) or saline (vehicle) was administered daily by i.p.
+injections, and the tumor growth was followed for 10 days
+(Fig. 7b). After 10 days of daily treatments with (S)-
+lacosamide, we observed a ~47% decrease in tumor size
+(0.79 × 107 ± 0.16 × 107) relative to vehicle-treated animals
+(1.7 × 107 ± 0.5 × 107); although the group sizes were rela-
+tively small, these differences in tumor growth were statisti-
+cally significant at day 17 (p < 0.02, Sidak’s correction for
+multiple comparisons applied to a two-way repeat measure
+ANOVA, n = 5 mice per group) (Fig. 7c). This suggests that
+the (S)-lacosamide treatment decreased GBM growth in vivo.
+To better assess the overall growth decrease resulting from
+(S)-lacosamide treatment, we calculated the area under the
+curve between day 10 (to allow time for (S)-lacosamide to
+start being effective) and day 17. We found a decreased area
+under the curve (~54%) when the animals were treated with
+(S)-lacosamide (1.7 × 107 ± 0.3 × 107) compared to vehicle-
+
+Mol Neurobiol (2018) 55:4403–4416
+A
+
+DMSO 0.04%
+
+2 µM (S)-LCM
+
+20 µm
+
+4411
+
+treated animals (3.8 × 107 ± 0.8 × 107), which was also a
+significant difference (p < 0.05, two-tailed Student’s t test)
+(Fig. 7d). These results provide evidence that the CRMP2
+phosphorylation inhibitor (S)-lacosamide affects the growth
+of GBM vivo.
+
+20 µM (S)-LCM
+
+200 µM (S)-LCM
+
+Discussion
+
+100
+
+50
+
+0
+
+*
+
+*
+
+*
+
+* *
+
+*
+
+*
+
+GL15
+
+A172
+
+U87
+
+DMSO
+
+2 µM
+
+20 µM
+
+[(S)-LCM]
+
+200 µM
+
+100
+
+* * *
+
+***
+
+*
+
+*
+
+*
+
+B
+
+ 
+
+o
+
+)
+
+O
+S
+M
+D
+ 
+o
+t
+ 
+d
+e
+z
+
+i
+l
+
+a
+m
+r
+o
+n
+(
+
+i
+t
+
+a
+r
+ 
+n
+o
+i
+t
+a
+r
+e
+f
+i
+l
+
+o
+r
+p
+ 
+e
+v
+i
+t
+a
+e
+R
+
+l
+
+C
+
+i
+
+s
+s
+o
+t
+p
+o
+p
+a
+ 
+%
+
+50
+
+0
+
+GL15
+
+A172
+
+U87
+
+Fig. 6 (S)-lacosamide inhibits proliferation and induces apoptosis in
+glioblastoma cell lines. a Representative micrographs of GL15 cells
+treated overnight with the indicated (S)-lacosamide concentration or
+0.04% DMSO (vehicle). Proliferating cells were stained for Edu
+incorporation (red); cell nuclei were stained with DAPI (blue). Scale
+bar is 20 μm. b Bar graph showing the relative proliferation ratio
+(EdU/DAPI), normalized to 0.1% DMSO for each cell line. GBM cell
+proliferation was reduced by (S)-lacosamide treatment in all cell lines.
+*p < 0.05 vs. DMSO, Kruskal-Wallis test, n = 10–12 coverslips per group
+from three independent experiments. c Bar graph showing the relative
+apoptosis rate (%) normalized to 0.04% DMSO for each cell line. GBM
+cell apoptosis rate was increased by (S)-lacosamide treatment in all cell
+lines. *p < 0.05 vs. DMSO, Kruskal-Wallis test, n = 10–12 coverslips per
+group from three independent experiments
+
+The discovery reported here is important from a fundamental
+scientific perspective because a knowledge gap in the pro-
+oncogenic mechanism of glioblastoma is filled. It is also im-
+portant from an applied perspective because glioblastoma re-
+mains a significant unmet clinical need. Our study identifies
+the contribution of CRMP2 expression and phosphorylation
+to glioblastoma proliferation in vitro and growth in vivo, thus
+introducing a novel protein contributing to glioblastoma on-
+cogenic mechanisms. We found a negative correlation be-
+tween CRMP2 phosphorylation and neurofibromin expres-
+sion in vitro across three human GBM cell lines. We demon-
+strated that GBM cell proliferation was dependent on CRMP2
+expression and phosphorylation at S522. We next used the
+small molecule (S)-lacosamide to inhibit CRMP2 phosphory-
+lation, inhibit proliferation, and induce apoptosis in three
+GBM cell lines. (S)-lacosamide was also able to decrease
+orthotopic GBM growth, thus showing the importance of
+CRMP2 phosphorylation for GBM proliferation in vivo.
+
+Glioblastoma tumors have been classified, based on their
+molecular signatures, into four different subtypes including
+proneural, neural, classical, and mesenchymal [3]. In this
+study, expression of CRMP2 transcripts was detected but not
+linked to a particular subtype or to patient’s survival [23].
+However, messenger RNA expression does not necessarily
+correlate with protein expression and does not account for
+CRMP2 post-translational modification status. A recent clus-
+tered regularly interspaced short palindromic repeat
+(CRISPR) screen identified several novel mediators of glio-
+blastoma survival outside of the commonly altered molecular
+networks [41]. In this high-throughput study, deleting CRMP2
+had a negative effect on the survival of the GBM cells tested
+[41], in agreement with our data showing the contribution of
+CRMP2 expression to GBM cell proliferation.
+
+We recently highlighted the role that different CRMP2
+post-translational modifications play in determining the cellu-
+lar functions served by CRMP2 [31]. CRMP2 phosphoryla-
+tion by Cdk5 was found to control CRMP2 subsequent phos-
+phorylation by GSK3β [42] and addition of small ubiquitin
+like modifier (SUMO) (SUMOylation) by the E2 ubiquitin-
+conjugating enzyme Ubc9 [31]. Cdk5 phosphorylation of
+CRMP2 is resistant to dephosphorylation [43] but can be re-
+moved by decreasing the stability of the protein [44]. This
+particular phosphorylation of CRMP2 has been reported to
+be associated with cancer progression [18, 19]. Here, we
+
+4412
+
+Mol Neurobiol (2018) 55:4403–4416
+
+extended these findings to GBM and distinctively demon-
+strate a rapidly observable functional requirement of
+CRMP2 phosphorylation for glioblastoma proliferation and
+survival. Expressing a CRMP2-deficient for GSK3β phos-
+phorylation, but not for Cdk5 phosphorylation, decreased
+GBM cell proliferation in two of the cell lines tested. Thus,
+we conclude that the GSK3β phosphorylation site in CRMP2
+is important for glioblastoma cell proliferation. Additionally,
+CRMP2 phosphorylation at S522 might serve as a hub, en-
+abling novel downstream signaling pathways to regulate
+CRMP2 and drive the protein into different cellular functions
+such as cancer cell proliferation or chronic pain [45]. GSK3β
+is a well-known mediator of glioblastoma growth [46] and
+resistance to treatments [47, 48]. Our data point to CRMP2
+as a possible molecular target downstream of GSK3β and thus
+likely to be associated with GBM recurrence. Although
+CRMP2 phosphorylation at S522 by Cdk5 has been previous-
+ly reported [18], we cannot rule out the possibility that an
+unknown kinase(s) may phosphorylate CRMP2 at this site
+within the GBM.
+
+The mechanism by which CRMP2 promotes cell prolifer-
+ation and survival is an open question. A previous study
+linked CRMP2 phosphorylation by Cdk5 to different phases
+of mitosis [21]. Overexpressing CRMP2 showed a trend to-
+wards a faster mitotic cycle. However, expressing a CRMP2
+deficient for Cdk5 phosphorylation prevented this effect. Cells
+expressing a phospho-deficient CRMP2 accumulated in the
+telophase phase of mitosis [21]. This event preceding cytoki-
+nesis relies on extensive microvesicle trafficking [49] and
+molecule interacting with CasL 1 (MICAL1) enzymatic activ-
+ity [50], two events linked to CRMP2 phosphorylation. A
+separate study demonstrated CRMP2 phosphorylation by
+Cdk5 to be an important mediator of ion channel trafficking
+[27, 31, 51]. Thus, CRMP2 phosphorylation by Cdk5 might
+be required during cytokinesis to mediate microvesicle traf-
+ficking. CRMP2 phosphorylation by Cdk5 and GSK3β is
+triggered by semaphorin 3A signaling [52]. However,
+MICAL1 autoinhibition is released by an interaction with
+CRMP proteins under semaphorin 3A stimulation [53].
+These studies triangulate to link the increased CRMP2 phos-
+phorylation in glioblastoma to facilitated cytokinesis through
+increased microvesicle trafficking and MICAL1 enzymatic
+activity. This is further supported by the finding that glioblas-
+toma displays an autocrine semaphorin 3A signaling [54]
+which can contribute to promoting sustained proliferation
+through induction of CRMP2 phosphorylation. Another as-
+pect of CRMP2 contribution to glioblastoma growth and sur-
+vival could be through forward trafficking of channels and/or
+receptors. We recently reported CRMP2-mediated internaliza-
+tion of a sodium channel via a clathrin-dependent endocytosis
+mechanism through interactions with the endocytic adaptor
+Numb [31]. Numb is a protein mediating the endocytosis of
+the epidermal growth factor receptor (EGFR) [55]. Activating
+
+
+
+Fig. 7 (S)-lacosamide decreases glioblastoma growth in vivo. a
+Micrographs of a 10-μm section of a brain slice injected with GL261
+cells immunostained with CRMP2 or p522-CRMP2. A merged image
+(CRMP2/p522-CRMP2 and DAPI (nuclear stain)) shows nuclear
+localization of phosphorylated CRMP2. Higher magnification (inset)
+shows the staining pattern of phosphorylated CRMP2 within the
+nucleus. b Representative pictures showing the bioluminescence
+intensity of the intracranial GBM tumor before (day 6) and during the
+course of the treatment with (S)-lacosamide (30 mg/kg, i.p. daily) or
+vehicle (saline). c Graph showing the tumor size, measured by number
+of photons per second, before (day 6) and during the course of the
+treatment by either (S)-lacosamide (30 mg/kg i.p. daily) or saline
+(vehicle). Tumor size was significantly smaller after 10 days of
+treatment with (S)-lacosamide compared to saline (n = 5 per group,
+Sidak’s correction for multiple comparisons applied to a two-way repeat
+measure ANOVA). d Bar graph showing the area under the curve (AUC)
+between day 10 and day 17. (S)-lacosamide treatment significantly
+decreased the AUC compared to saline treatment (n = 5 per group, two-
+tailed Student’s t test). Statistical significance denoted by *p < 0.05
+
+mutations (EGFR variant III) or copy number amplifications
+of EGFR gene are highly incident in human glioblastoma
+tumors (gene mutated in 57% of cases [2] and amplified in
+84% of cases [3]). When phosphorylated by Cdk5, CRMP2
+loses its interaction with Numb which results in ion channel
+clathrin-mediated endocytosis defects [31]. These findings
+lend support to the hypothesis that the increased CRMP2
+phosphorylation at S522 in glioblastoma could further amplify
+EGFR signaling leading to sustained tumor cell proliferation
+and resistance.
+
+We found CRMP2 phosphorylation levels to be inversely
+correlated with neurofibromin expression level across three
+GBM cell lines. Although the neurofibromin status of GL15
+cells is not known, A172 and U87 cells were reported to
+express neurofibromin [56]. Our results showed the role of
+CRMP2 phosphorylation in glioblastoma cell proliferation,
+but, interestingly, it was the neurofibromin expression level
+in each cell line that defined their response to loss of CRMP2
+phosphorylation. The only cell line where the expression of
+phospho-deficient CRMP2 did not result in a decrease of pro-
+liferation compared to the control was U87. This cell line had
+the highest expression of neurofibromin and the lowest level
+of CRMP2 phosphorylation. Similarly, the cell line that was
+the most impacted by our manipulations of CRMP2 expres-
+sion and phosphorylation was A172. This cell line had the
+lowest level of neurofibromin and the highest level of phos-
+phorylated CRMP2. These observations translated when we
+used (S)-lacosamide and U87 cells showed a decrease of pro-
+liferation only at the highest concentration of the compound.
+This was linked with a less pronounced increase in apoptosis
+compared to the two other cell lines. These observations show
+that under neurofibromin loss, phosphorylated CRMP2 be-
+comes an important determinant of glioblastoma proliferation
+and survival.
+
+CRMP2 phosphorylation by GSK3β appears to be an im-
+portant determinant of glioblastoma proliferation and survival.
+
+Mol Neurobiol (2018) 55:4403–4416
+
+4413
+
+A
+
+B
+
+CRMP2
+
+DAPI
+
+Merge
+
+10 µm
+
+CRMP2 p522
+
+DAPI
+
+Merge
+
+day 6
+
+day 10
+
+day 14
+
+day 17
+
+Vehicle
+(Saline)
+
+(S)-Lacosamide
+30 mg/kg i.p. daily
+
+C
+
+D
+
+)
+s
+/
+s
+n
+o
+
+t
+
+o
+h
+p
+
+ 
+,
+x
+u
+
+l
+f
+ 
+l
+
+i
+
+e
+z
+s
+ 
+r
+o
+m
+u
+T
+
+a
+
+t
+
+o
+
+t
+(
+
+C
+U
+A
+
+)
+7
+1
+ 
+y
+a
+d
+ 
+o
+t
+ 
+0
+1
+ 
+y
+a
+d
+(
+
+2.5x107
+
+2x107
+
+1x107
+
+5x106
+
+0
+
+5
+
+5x107
+
+4x107
+
+3x107
+
+2x107
+
+1x107
+
+0
+
+*
+
+10
+
+15
+Post tumor induction days
+
+*
+
+GSK3β inhibition using lithium chloride has been reported to
+be beneficial in inhibiting glioblastoma growth and inducing
+apoptosis [57]. A limitation of potential therapeutic inhibition
+of GSK3β is that such inhibiting GSK3β will, in turn, activate
+the Wnt signaling pathway by protecting β-catenin from
+
+degradation. The Wnt signaling pathway promotes the main-
+tenance of a cancer stem cell pool in glioblastoma, which will
+contribute to tumor recurrence after treatment, leading to fu-
+ture resistance [58]. In this regard, inhibiting the phosphory-
+lation of GSK3β’s downstream targets, instead of the kinase
+
+4414
+
+Mol Neurobiol (2018) 55:4403–4416
+
+itself, may be a viable alternative strategy. We used (S)-
+lacosamide to inhibit CRMP2 phosphorylation in three GBM
+cell lines. This resulted in an inhibition of cell proliferation and
+induced apoptosis in these cells. Subjects bearing orthotopic
+GBM and treated with (S)-lacosamide showed evidence for a
+slowing of tumor growth compared to saline-treated controls,
+thus implicating that CRMP2 phosphorylation is driving GBM
+growth. This result also showed that targeting CRMP2 phos-
+phorylation could be beneficial, in combination with other ther-
+apeutic approaches, to treat GBM; future studies will be needed
+to rigorously test this hypothesis. Because GL261 cells used in
+our tumor model have been reported to contain CD133+ (can-
+cer stem-like cells) and CD133− cells [59], a potential limita-
+tion of our study is that cellular heterogeneity is likely to impact
+the effect of (S)-LCM.
+
+Taken together, our data introduce CRMP2 expression and
+phosphorylation as important molecular events driving glio-
+blastoma proliferation and survival in vitro and in vivo. Our
+use of (S)-lacosamide illustrates repurposing of an inactive anti-
+epileptic molecule for probing of CRMP2 phosphorylation
+functions in brain tumors. (S)-LCM does not impair motor
+performance or elicit other observable side effects in rodents
+[60]. If this molecule exhibits appropriate drug-like qualities,
+like its R-isomer (Vimpat®), additional efficacy and safety
+evaluation could facilitate translation of (S)-lacosamide or other
+molecules targeting CRMP2 phosphorylation into new thera-
+peutic strategies to treat GBM in the clinic.
+
+Acknowledgements This work was supported by a Neurofibromatosis
+New Investigator Award from the Department of Defense
+Congressionally Directed Military Medical Research and Development
+Program (NF1000099) and a Children’s Tumor Foundation NF1 Synodos
+award to R.K. A.M. was supported by a Young Investigator’s Award from
+the Children’s Tumor Foundation. L.S.V. was supported by grants from a
+T35 HL07479-31A1 training grant from the NIH/NHLBI to Marlys H.
+Witte (Department of Surgery, University of Arizona) as well as a grant
+from the Undergraduate Biology Research Program (UBRP), University
+of Arizona and Western Alliance to Expand Student Opportunities
+(WAESO) Louis Stokes Alliance for Minority Participation (LSAMP)
+National Science Foundation (NSF) Cooperative Agreement No. HRD-
+1101728. Further support was provided by Arizona State University
+(K.T.H.) and the Barrow Neurological Foundation (K.T.H., R.W.S.)
+
+Compliance with Ethical Standards
+
+Conflict of Interest The authors declare that they have no conflict of
+interest.
+
+References
+
+1. Stupp R, Mason WP, van den Bent MJ, Weller M, Fisher B,
+European Organisation for R, Treatment of Cancer Brain T,
+Radiotherapy G, National Cancer Institute of Canada Clinical
+Trials G et al (2005) Radiotherapy plus concomitant and adjuvant
+temozolomide for glioblastoma. N Engl J Med 352(10):987–996.
+doi:10.1056/NEJMoa043330
+
+2. Brennan CW, Verhaak RG, McKenna A, Campos B, Noushmehr H,
+Salama SR, Zheng S, Chakravarty D et al (2013) The somatic
+genomic landscape of glioblastoma. Cell 155(2):462–477. doi:10.
+1016/j.cell.2013.09.034
+
+3. Verhaak RG, Hoadley KA, Purdom E, Wang V, Qi Y, Wilkerson
+MD, Miller CR, Ding L et al (2010) Integrated genomic analysis
+identifies clinically relevant subtypes of glioblastoma characterized
+by abnormalities in PDGFRA, IDH1, EGFR, and NF1. Cancer Cell
+17(1):98–110. doi:10.1016/j.ccr.2009.12.020
+
+4. Bianco J, Bastiancich C, Jankovski A, des Rieux A, Preat V,
+Danhier F (2017) On glioblastoma and the search for a cure: where
+do we stand? Cell Mol Life Sci. doi:10.1007/s00018-017-2483-3
+5. Parsons DW, Jones S, Zhang X, Lin JC, Leary RJ, Angenendt P,
+Mankoo P, Carter H et al (2008) An integrated genomic analysis of
+human glioblastoma multiforme. Science 321(5897):1807–1812.
+doi:10.1126/science.1164382
+
+6. Sintupisut N, Liu PL, Yeang CH (2013) An integrative characteri-
+zation of recurrent molecular aberrations in glioblastoma genomes.
+Nucleic Acids Res 41(19):8803–8821. doi:10.1093/nar/gkt656
+
+7. Plaisier CL, O’Brien S, Bernard B, Reynolds S, Simon Z, Toledo
+CM, Ding Y, Reiss DJ et al (2016) Causal mechanistic regulatory
+network for glioblastoma deciphered using systems genetics
+Network analysis. Cell Syst 3(2):172–186. doi:10.1016/j.cels.
+2016.06.006
+
+8. Wood MD, Reis GF, Reuss DE, Phillips JJ (2016) Protein analysis
+of glioblastoma primary and posttreatment pairs suggests a mesen-
+chymal shift at recurrence. J Neuropathol Exp Neurol 75(10):925–
+935. doi:10.1093/jnen/nlw068
+
+9. Lu KV, Chang JP, Parachoniak CA, Pandika MM, Aghi MK,
+Meyronet D, Isachenko N, Fouse SD et al (2012) VEGF inhibits
+tumor cell invasion and mesenchymal transition through a MET/
+VEGFR2 complex. Cancer Cell 22(1):21–35. doi:10.1016/j.ccr.
+2012.05.037
+
+10. Sottoriva A, Spiteri I, Piccirillo SG, Touloumis A, Collins VP,
+Marioni JC, Curtis C, Watts C et al (2013) Intratumor heterogeneity
+in human glioblastoma reflects cancer evolutionary dynamics. Proc
+Natl Acad Sci U S A 110(10):4009–4014. doi:10.1073/pnas.
+1219747110
+
+11. Ballester R, Marchuk D, Boguski M, Saulino A, Letcher R, Wigler
+M, Collins F (1990) The NF1 locus encodes a protein functionally
+related to mammalian GAP and yeast IRA proteins. Cell 63(4):851–
+859
+
+12. McGillicuddy LT, Fromm JA, Hollstein PE, Kubek S, Beroukhim
+R, De Raedt T, Johnson BW, Williams SM et al (2009) Proteasomal
+and genetic inactivation of the NF1 tumor suppressor in
+gliomagenesis. Cancer Cell 16(1):44–54. doi:10.1016/j.ccr.2009.
+05.009
+
+13. Zuckermann M, Hovestadt V, Knobbe-Thomsen CB, Zapatka M,
+Northcott PA, Schramm K, Belic J, Jones DT et al (2015) Somatic
+CRISPR/Cas9-mediated tumour suppressor disruption enables ver-
+satile brain tumour modelling. Nat Commun 6:7391. doi:10.1038/
+ncomms8391
+
+14. Goshima Y, Nakamura F, Strittmatter P, Strittmatter SM (1995)
+Collapsin-induced growth cone collapse mediated by an intracellu-
+lar protein related to UNC-33. Nature 376(6540):509–514. doi:10.
+1038/376509a0
+
+15. Fukata Y, Itoh TJ, Kimura T, Menager C, Nishimura T, Shiromizu
+T, Watanabe H, Inagaki N et al (2002) CRMP-2 binds to tubulin
+heterodimers to promote microtubule assembly. Nat Cell Biol 4(8):
+583–591. doi:10.1038/ncb825
+Ip JP, Fu AK, Ip NY (2014) CRMP2: functional roles in neural
+development and therapeutic potential in neurological diseases.
+Neuroscientist. doi:10.1177/1073858413514278
+
+16.
+
+17. Patrakitkomjorn S, Kobayashi D, Morikawa T, Wilson MM, Tsubota
+N, Irie A, Ozawa T, Aoki M et al (2008) Neurofibromatosis type 1
+(NF1) tumor suppressor, neurofibromin, regulates the neuronal
+
+Mol Neurobiol (2018) 55:4403–4416
+
+4415
+
+differentiation of PC12 cells via its associating protein, CRMP-2. J
+Biol Chem 283(14):9399–9413. doi:10.1074/jbc.M708206200
+
+18. Grant NJ, Coates PJ, Woods YL, Bray SE, Morrice NA, Hastie CJ,
+Lamont DJ, Carey FA et al (2015) Phosphorylation of a splice
+variant of collapsin response mediator protein 2 in the nucleus of
+tumour cells links cyclin dependent kinase-5 to oncogenesis. BMC
+Cancer 15:885. doi:10.1186/s12885-015-1691-1
+
+19. Tan F, Thiele CJ, Li Z (2014) Collapsin response mediator proteins:
+potential diagnostic and prognostic biomarkers in cancers (review).
+Oncol Lett 7(5):1333–1340. doi:10.3892/ol.2014.1909
+
+20. Shimada K, Ishikawa T, Nakamura F, Shimizu D, Chishima T,
+Ichikawa Y, Sasaki T, Endo I et al (2014) Collapsin response me-
+diator protein 2 is involved in regulating breast cancer progression.
+Breast Cancer 21(6):715–723. doi:10.1007/s12282-013-0447-5
+
+21. Oliemuller E, Pelaez R, Garasa S, Pajares MJ, Agorreta J, Pio R,
+Montuenga LM, Teijeira A et al (2013) Phosphorylated tubulin
+adaptor protein CRMP-2 as prognostic marker and candidate ther-
+apeutic target for NSCLC. Int J Cancer 132(9):1986–1995. doi:10.
+1002/ijc.27881
+
+22. Mukherjee J, DeSouza LV, Micallef J, Karim Z, Croul S, Siu KW,
+Guha A (2009) Loss of collapsin response mediator Protein1, as
+detected by iTRAQ analysis, promotes invasion of human gliomas
+expressing mutant EGFRvIII. Cancer Res 69(22):8545–8554. doi:
+10.1158/0008-5472.CAN-09-1778
+
+23. Moutal A, Honnorat J, Massoma P, Desormeaux P, Bertrand C,
+Malleval C, Watrin C, Chounlamountri N et al (2015) CRMP5
+controls glioblastoma cell proliferation and survival through
+notch-dependent signaling. Cancer Res 75(17):3519–3528. doi:
+10.1158/0008-5472.CAN-14-0631
+
+24. Wilson SM, Xiong W, Wang Y, Ping X, Head JD, Brittain JM,
+Gagare PD, Ramachandran PV et al (2012) Prevention of posttrau-
+matic axon sprouting by blocking collapsin response mediator pro-
+tein 2-mediated neurite outgrowth and tubulin polymerization.
+Neuroscience 210:451–466. doi:10.1016/j.neuroscience.2012.02.
+038
+
+25. Moutal A, Eyde N, Telemi E, Park KD, Xie JY, Dodick DW,
+Porreca F, Khanna R (2016) Efficacy of (S)-lacosamide in preclin-
+ical models of cephalic pain. Pain Rep 1(1). doi:10.1097/PR9.
+0000000000000565
+
+26. Moutal A, Chew LA, Yang X, Wang Y, Yeon SK, Telemi E,
+Meroueh S, Park KD et al (2016) (S)-lacosamide inhibition of
+CRMP2 phosphorylation reduces postoperative and neuropathic
+pain behaviors through distinct classes of sensory neurons identi-
+fied by constellation pharmacology. Pain 157(7):1448–1463. doi:
+10.1097/j.pain.0000000000000555
+
+27. Moutal A, Francois-Moutal L, Perez-Miller S, Cottier K, Chew LA,
+Yeon SK, Dai J, Park KD et al (2016) (S)-lacosamide binding to
+collapsin response mediator protein 2 (CRMP2) regulates CaV2.2
+activity by subverting its phosphorylation by Cdk5. Mol Neurobiol
+53(3):1959–1976. doi:10.1007/s12035-015-9141-2
+
+28. Bocchini V, Casalone R, Collini P, Rebel G, Lo Curto F (1991)
+Changes in glial fibrillary acidic protein and karyotype during cul-
+turing of two cell lines established from human glioblastoma
+multiforme. Cell Tissue Res 265(1):73–81
+
+29. Clark AJ, Safaee M, Oh T, Ivan ME, Parimi V, Hashizume R,
+Ozawa T, James CD et al (2014) Stable luciferase expression does
+not alter immunologic or in vivo growth properties of GL261 mu-
+rine glioma cells. J Transl Med 12:345. doi:10.1186/s12967-014-
+0345-4
+
+30. Brittain JM, Piekarz AD, Wang Y, Kondo T, Cummins TR, Khanna
+R (2009) An atypical role for collapsin response mediator protein 2
+(CRMP-2) in neurotransmitter release via interaction with presyn-
+aptic voltage-gated calcium channels. J Biol Chem 284(45):31375–
+31390. doi:10.1074/jbc.M109.009951
+
+31. Dustrude ET, Moutal A, Yang X, Wang Y, Khanna M, Khanna R
+(2016) Hierarchical CRMP2 posttranslational modifications control
+
+NaV1.7 function. Proc Natl Acad Sci U S A 113(52):E8443–
+E8452. doi:10.1073/pnas.1610531113
+
+32. Choi D, Stables JP, Kohn H (1996) Synthesis and anticonvulsant
+activities of N-benzyl-2-acetamidopropionamide derivatives. J Med
+Chem 39(9):1907–1916
+
+33. Francois-Moutal L, Wang Y, Moutal A, Cottier KE, Melemedjian
+OK, Yang X, Wang Y, Ju W et al (2015) A membrane-delimited N-
+myristoylated CRMP2 peptide aptamer inhibits CaV2.2 trafficking
+and reverses inflammatory and postoperative pain behaviors. Pain
+156(7):1247–1264. doi:10.1097/j.pain.0000000000000147
+
+34. Dustrude ET, Wilson SM, Ju W, Xiao Y, Khanna R (2013) CRMP2
+protein SUMOylation modulates NaV1.7 channel trafficking. J
+Biol Chem 288(34):24316–24331. doi:10.1074/jbc.M113.474924
+35. Cook RL, Householder KT, Chung EP, Prakapenka AV, DiPerna
+DM, Sirianni RW (2015) A critical evaluation of drug delivery from
+ligand modified nanoparticles: Confounding small molecule distri-
+bution and efficacy in the central nervous system. J Control Release
+220(Pt A):89–97. doi:10.1016/j.jconrel.2015.10.013
+
+36. Abdelwahab MG, Sankar T, Preul MC, Scheck AC (2011)
+Intracranial implantation with subsequent 3D in vivo biolumines-
+cent imaging of murine gliomas. J Vis Exp 57:e3403. doi:10.3791/
+3403
+
+37. Householder KT, DiPerna DM, Chung EP, Wohlleb GM, Dhruv
+HD, Berens ME, Sirianni RW (2015) Intravenous delivery of
+camptothecin-loaded PLGA nanoparticles for the treatment of in-
+tracranial glioma. Int J Pharm 479(2):374–380. doi:10.1016/j.
+ijpharm.2015.01.002
+
+38. Cole AR, Knebel A, Morrice NA, Robertson LA, Irving AJ,
+Connolly CN, Sutherland C (2004) GSK-3 phosphorylation of
+the Alzheimer epitope within collapsin response mediator proteins
+regulates axon elongation in primary neurons. J Biol Chem
+279(48):50176–50180. doi:10.1074/jbc.C400412200
+
+39. Koo TS, Kim SJ, Ha DJ, Baek M, Moon H (2011)
+Pharmacokinetics, brain distribution, and plasma protein binding
+of the antiepileptic drug lacosamide in rats. Arch Pharm Res
+34(12):2059–2064. doi:10.1007/s12272-011-1208-7
+
+40. Elizabeth W. Newcomb DZ (2009) The murine GL261 glioma
+experimental model to assess novel brain tumor treatments. In:
+Erwin G. Van Meir P (ed) Models, Markers, Prognostic Factors,
+Targets, and Therapeutic Approaches. Humana Press. 227-241. doi:
+10.1007/978-1-60327-553-8_12
+
+41. Toledo CM, Ding Y, Hoellerbauer P, Davis RJ, Basom R, Girard EJ,
+Lee E, Corrin P et al (2015) Genome-wide CRISPR-Cas9 screens
+reveal loss of redundancy between PKMYT1 and WEE1 in glio-
+blastoma stem-like cells. Cell Rep 13(11):2425–2439. doi:10.1016/
+j.celrep.2015.11.021
+
+42. Cole AR, Causeret F, Yadirgi G, Hastie CJ, McLauchlan H,
+McManus EJ, Hernandez F, Eickholt BJ et al (2006) Distinct prim-
+ing kinases contribute to differential regulation of collapsin re-
+sponse mediator proteins by glycogen synthase kinase-3 in vivo.
+J Biol Chem 281(24):16591–16598. doi:10.1074/jbc.M513344200
+43. Cole AR, Soutar MP, Rembutsu M, van Aalten L, Hastie CJ,
+McLauchlan H, Peggie M, Balastik M et al (2008) Relative resis-
+tance of Cdk5-phosphorylated CRMP2 to dephosphorylation. J
+Biol Chem 283(26):18227–18237. doi:10.1074/jbc.M801645200
+44. Balastik M, Zhou XZ, Alberich-Jorda M, Weissova R, Ziak J,
+Pazyra-Murphy MF, Cosker KE, Machonova O et al (2015)
+Prolyl isomerase Pin1 regulates axon guidance by stabilizing
+CRMP2A selectively in distal axons. Cell Rep 13(4):812–828.
+doi:10.1016/j.celrep.2015.09.026
+
+45. Kamiya Y, Saeki K, Takiguchi M, Funakoshi K (2013) CDK5,
+CRMP2 and NR2B in spinal dorsal horn and dorsal root ganglion
+have different role in pain signaling between neuropathic pain mod-
+el and inflammatory pain model. Eur J Anaesthesiol 30:214–214
+46. Korur S, Huber RM, Sivasankaran B, Petrich M, Morin P Jr,
+Hemmings BA, Merlo A, Lino MM (2009) GSK3beta regulates
+
+4416
+
+Mol Neurobiol (2018) 55:4403–4416
+
+differentiation and growth arrest in glioblastoma. PLoS One 4(10):
+e7443. doi:10.1371/journal.pone.0007443
+
+47. Domoto T, Pyko IV, Furuta T, Miyashita K, Uehara M, Shimasaki
+T, Nakada M, Minamoto T (2016) Glycogen synthase kinase-3beta
+is a pivotal mediator of cancer invasion and resistance to therapy.
+Cancer Sci 107(10):1363–1372. doi:10.1111/cas.13028
+
+48. Pyko IV, Nakada M, Sabit H, Teng L, Furuyama N, Hayashi Y,
+Kawakami K, Minamoto T et al (2013) Glycogen synthase kinase
+3beta inhibition sensitizes human glioblastoma cells to temozolo-
+mide by affecting O6-methylguanine DNA methyltransferase pro-
+moter methylation via c-Myc signaling. Carcinogenesis 34(10):
+2206–2217. doi:10.1093/carcin/bgt182
+
+49. Schiel JA, Park K, Morphew MK, Reid E, Hoenger A, Prekeris R
+(2011) Endocytic membrane fusion and buckling-induced microtu-
+bule severing mediate cell abscission. J Cell Sci 124(Pt 9):1411–
+1424. doi:10.1242/jcs.081448
+
+50. Fremont S, Romet-Lemonne G, Houdusse A, Echard A (2017)
+Emerging roles of MICAL family proteins—from actin oxidation
+to membrane trafficking during cytokinesis. J Cell Sci. doi:10.1242/
+jcs.202028
+
+51. Brittain JM, Wang Y, Eruvwetere O, Khanna R (2012) Cdk5-
+mediated phosphorylation of CRMP-2 enhances its interaction with
+CaV2.2. FEBS Lett 586(21):3813–3818. doi:10.1016/j.febslet.
+2012.09.022
+
+52. Uchida Y, Ohshima T, Sasaki Y, Suzuki H, Yanai S, Yamashita N,
+Nakamura F, Takei K et al (2005) Semaphorin3A signalling is me-
+diated via sequential Cdk5 and GSK3beta phosphorylation of
+CRMP2: implication of common phosphorylating mechanism un-
+derlying axon guidance and Alzheimer’s disease. Genes Cells
+10(2):165–179. doi:10.1111/j.1365-2443.2005.00827.x
+
+53. Schmidt EF, Shim SO, Strittmatter SM (2008) Release of MICAL
+autoinhibition by semaphorin-plexin signaling promotes interaction
+
+with collapsin response mediator protein. J Neurosci 28(9):2287–
+2297. doi:10.1523/JNEUROSCI.5646-07.2008
+
+54. Bagci T, Wu JK, Pfannl R,
+
+Ilag LL, Jay DG (2009)
+Autocrine semaphorin 3A signaling promotes glioblastoma
+dispersal. Oncogene 28(40):3537–3550. doi:10.1038/onc.
+2009.204
+
+55. Santolini E, Puri C, Salcini AE, Gagliani MC, Pelicci PG, Tacchetti
+C, Di Fiore PP (2000) Numb is an endocytic protein. J Cell Biol
+151(6):1345–1352
+
+56. See WL, Tan IL, Mukherjee J, Nicolaides T, Pieper RO (2012)
+Sensitivity of glioblastomas to clinically available MEK inhibitors
+is defined by neurofibromin 1 deficiency. Cancer Res 72(13):3350–
+3359. doi:10.1158/0008-5472.CAN-12-0334
+
+57. Han S, Meng L, Jiang Y, Cheng W, Tie X, Xia J, Wu A (2017)
+Lithium enhances the antitumour effect of temozolomide against
+TP53 wild-type glioblastoma cells via NFAT1/FasL signalling. Br
+J Cancer. doi:10.1038/bjc.2017.89
+
+58. Adamo A, Fiore D, De Martino F, Roscigno G, Affinito A,
+Donnarumma E, Puoti I, Ricci-Vitiani L et al (2017) RYK promotes
+the stemness of glioblastoma cells via the WNT/ beta-catenin path-
+way. Oncotarget. doi:10.18632/oncotarget.14564
+
+59. Wu A, Oh S, Wiesner SM, Ericson K, Chen L, Hall WA,
+Champoux PE, Low WC et al (2008) Persistence of CD133+ cells
+in human and mouse glioma cell lines: detailed characterization of
+GL261 glioma cells with cancer stem cell-like properties. Stem
+Cells Dev 17(1):173–184. doi:10.1089/scd.2007.0133
+
+60. Moutal A, Chew LA, Yang X, Wang Y, Yeon SK, Telemi E,
+Meroueh S, Park KD et al (2016) (S)-lacosamide inhibition of
+CRMP2 phosphorylation reduces postoperative and neuropathic
+pain behaviors through distinct classes of sensory neurons identi-
+fied by constellation pharmacology. Pain. doi:10.1097/j.pain.
+0000000000000555
+
+

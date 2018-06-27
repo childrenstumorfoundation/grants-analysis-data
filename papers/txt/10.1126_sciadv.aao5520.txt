@@ -1,0 +1,2394 @@
+S C I E N C E A D V A N C E S | R E S E A R C H A R T I C L E
+
+O P T I C S
+Deep tissue optical focusing and optogenetic
+modulation with time-reversed ultrasonically
+encoded light
+Haowen Ruan,1* Joshua Brake,1* J. Elliott Robinson,2 Yan Liu,1 Mooseok Jang,1† Cheng Xiao,2‡
+Chunyi Zhou,2‡ Viviana Gradinaru,2 Changhuei Yang1§
+
+Noninvasive light focusing deep inside living biological tissue has long been a goal in biomedical optics. However,
+the optical scattering of biological tissue prevents conventional optical systems from tightly focusing visible light
+beyond several hundred micrometers. The recently developed wavefront shaping technique time-reversed ultra-
+sonically encoded (TRUE) focusing enables noninvasive light delivery to targeted locations beyond the optical dif-
+fusion limit. However, until now, TRUE focusing has only been demonstrated inside nonliving tissue samples. We
+present the first example of TRUE focusing in 2-mm-thick living brain tissue and demonstrate its application for opto-
+genetic modulation of neural activity in 800-mm-thick acute mouse brain slices at a wavelength of 532 nm. We found
+that TRUE focusing enabled precise control of neuron firing and increased the spatial resolution of neuronal excitation
+fourfold when compared to conventional lens focusing. This work is an important step in the application of TRUE
+focusing for practical biomedical uses.
+
+Copyright © 2017
+The Authors, some
+rights reserved;
+exclusive licensee
+American Association
+for the Advancement
+of Science. No claim to
+original U.S. Government
+Works. Distributed
+under a Creative
+Commons Attribution
+NonCommercial
+License 4.0 (CC BY-NC).
+
+INTRODUCTION
+Optical methods are widely used across biomedical research, as well as
+for the diagnosis and treatment of disease, yet the ability to monitor
+and modulate biological processes at depth is conventionally limited
+by light scattering caused by the heterogeneous optical properties of
+biological samples. For example, a 532-nm photon experiences an av-
+erage of nearly 40 scattering events as it travels through 1 mm of mouse
+brain tissue (scattering mean free path l ≈ 26 mm) (1, 2), which exem-
+plifies why the formation of an optical focus in typical tissue samples is
+often limited to depths of a few hundred micrometers. To focus light
+deeper inside the tissue, wavefront shaping or wavefront engineering
+methods (3–10) have been developed that counteract the effects of
+optical scattering by modulating the incident light field so that the scat-
+tered light controllably interferes at locations of interest to form tight
+foci. This class of methods provides an advantage over techniques that
+discard scattered light as noise, such as confocal microscopy, because
+the probability of photons being unscattered (that is, ballistic in na-
+ture) decays exponentially with increasing depth. The incorporation
+of scattered photons enables light focusing beyond the optical diffu-
+sion limit where the propagation directions of the photons become
+random (11). Furthermore, because wavefront shaping techniques ac-
+tively control scattered light, they offer direct optical modulation, an ad-
+vantage over other optical imaging techniques such as photoacoustic
+tomography (11) and diffuse optical tomography (12), which enable
+deep tissue imaging, but cannot focus light to a particular location for
+improved light delivery.
+
+The ability to manipulate scattered photons to create a light focus
+at depth with wavefront shaping is due to the elastic, deterministic
+
+1Department of Electrical Engineering, California Institute of Technology, 1200 East
+California Boulevard, Pasadena, CA 91125, USA. 2Division of Biology and Biological
+Engineering, California Institute of Technology, Pasadena, CA 91125, USA.
+*These authors contributed equally to this work.
+†Present address: Department of Physics, Korea University, 145 Anam-ro, Seongbuk-gu,
+Seoul 02841, South Korea.
+‡Present address: School of Anesthesiology, Xuzhou Medical University, Xuzhou,
+Jiangsu 221004, China.
+§Corresponding author. Email: chyang@caltech.edu
+
+nature of optical scattering, which scrambles but does not eliminate
+the information contained within a light field (13). Thus, if one could
+discern the positions and scattering profile of the scatterers within the
+medium, it would be possible to tailor an incident wavefront to opti-
+mally couple light to any point in the tissue. This process can be sim-
+plified by mapping the optical phase and/or amplitude relationship
+between the input plane outside the sample and the targeted plane
+inside, which can be accomplished through feedback-based approaches
+(3, 8, 14, 15), transmission matrix measurement (9, 10, 16–19), or op-
+tical time reversal (optical phase conjugation) (13, 20–24). Among
+these, optical phase conjugation is well suited for optical focusing in
+living tissue applications because it allows for measurement of the
+phase relationship between the target focus and the wavefront solu-
+tion on the input plane in parallel, thus producing the fastest focusing
+speeds (25–30). This feature helps to overcome challenges posed by
+living tissue dynamics, which require that the wavefront shaping sys-
+tem obtain and playback the wavefront solution before the scatterers’
+configuration in the tissue changes (25–27, 30). When used with a guide-
+star (5), a method for tagging photons that traverse a desired location
+within the biological sample, the optical phase conjugation approach
+can create a phase conjugate wavefront that forms a focus at the guide-
+star location.
+
+Several guidestar mechanisms have been developed that enable the
+generation of appropriate input wavefronts. These include fluorescent
+(31, 32), nonlinear optical (22, 33–36), kinetic (37, 38), photoacoustic
+(39–42), ultrasonic (43–46), magnetic (47), and microbubble (48) en-
+coded mechanisms. Of these, ultrasound offers the advantage of being
+noninvasive, freely addressable within the volume of interest, and com-
+patible with optical phase conjugation because it generates coherent
+tagged light. Time-reversed ultrasonically encoded (TRUE) focusing is
+a wavefront shaping technique that combines optical phase conju-
+gation with the ultrasound guidestar to enable light focusing at depths
+beyond the optical diffusion limit with ultrasonic resolution (~30 mm)
+(44–46).
+
+The application of TRUE focusing to living systems would be ben-
+eficial to many fields of study, including neurobiological research, in
+which visible light is routinely used for both monitoring activity with
+
+Ruan et al., Sci. Adv. 2017; 3 : eaao5520
+
+8 December 2017
+
+1 of 9
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+
+:
+/
+/
+
+a
+d
+v
+a
+n
+c
+e
+s
+.
+s
+c
+e
+n
+c
+e
+m
+a
+g
+
+i
+
+.
+
+o
+r
+g
+
+/
+ 
+
+ 
+
+o
+n
+D
+e
+c
+e
+m
+b
+e
+r
+ 
+
+9
+
+,
+ 
+
+2
+0
+1
+7
+
+S C I E N C E A D V A N C E S | R E S E A R C H A R T I C L E
+
+genetically encoded neural activity indicators (49, 50 ) and controlling
+activity via optogenetic actuators (51). Although neurophotonic tech-
+niques that use multiphoton excitation (52–57) and adaptive optics
+(33, 34, 36) have extended the depths of optical access in vivo, focusing
+light noninvasively in the multiple scattering regime in living brain tis-
+sue remains largely unexplored. Because of the strongly scattering na-
+ture of brain tissue, light delivery during optogenetic manipulation still
+requires the use of invasive, implanted optical fibers to reach targets in
+deep brain regions (58). Because TRUE focusing allows for an optical focus
+to be formed noninvasively with the ability to freely move the focus within
+the tissue to target different regions of interest, it is particularly well
+suited for optogenetic modulation. Here, we describe the design and
+application of an integrated TRUE focusing and patch clamp electro-
+physiology system for simultaneous optogenetic stimulation and neural
+activity monitoring within living brain tissue ex vivo. We first demon-
+strate light focusing through up to 2-mm-thick living brain tissue using
+diffuse photons with a wavelength of 532 nm. Then, by performing
+patch clamp recordings in 800-mm-thick acute brain slices and using
+optogenetically evoked photocurrents as a readout, we demonstrate that
+TRUE focusing increases the spatial resolution of neuronal excitation
+by four times compared to that of conventional focusing at a wave-
+length of 532 nm. This result represents the first demonstration of TRUE
+focusing in living brain tissue and is an important step in the translation
+of wavefront shaping methods into practical optical tools for in vivo
+applications, including optogenetics.
+
+RESULTS
+System design and operating principles
+To achieve TRUE focusing in living brain tissue ex vivo, we designed
+and implemented a digital optical phase conjugation (DOPC) system
+(21, 22) for TRUE focusing (figs. S1 and S2) that included an integrated
+patch clamp electrophysiology head stage and amplifier for neuro-
+physiological measurements, as well as a removable differential in-
+terference contrast (DIC) microscope for neuron visualization while
+whole-cell recordings were being obtained (Fig. 1). A customized sam-
+ple chamber was designed that allowed acute brain slices to rest hori-
+zontally while constantly perfused with carbogenated artificial cerebral
+spinal fluid (aCSF). Because this setup limited the orientations of the
+TRUE focusing light path and the ultrasound transducer to oblique angles,
+we illuminated the slice at a 45° angle with the ultrasound transducer
+positioned orthogonal to the TRUE light beam to maximize the mod-
+ulation efficiency. To allow for the use of high numerical aperture (NA)
+lenses (for the DIC microscope objective, collection lens, and ultra-
+sound transducer) with relatively short working distances to be op-
+erated within the limited available space, the observation objective,
+collection lens with lens tube, and ultrasound transducer were placed
+on computer-controlled motorized stages so they could be precisely
+translated in and out of the bath. To prevent fluctuations of the per-
+fusion fluid surface from influencing the wavefront measurement, we
+attached a glass window to the lens tube and immersed it in the aCSF
+solution. This normally incident design also avoids unnecessary refrac-
+tion at the aCSF-air interface. Similarly, the bottom of the chamber
+was also designed with a 45° chamber-air interface, which minimizes
+the effects of refraction and helps with optical alignment.
+
+The creation of a TRUE focus involved sequential wavefront record-
+ing (Fig. 2A1) and playback (Fig. 2A2) steps. In the recording step, a
+high-frequency (50 MHz) ultrasound field was focused to the location
+of interest while a probe light beam generated by a pulsed 532-nm
+
+laser illuminated the sample. Because of the acousto-optic effect,
+the frequency of a portion of the light passing through the ultrasound
+focus was shifted by the ultrasound frequency. The field of the scat-
+tered, ultrasound-tagged light was measured by the camera of the
+DOPC system using interferometry (59). Then, in the playback step,
+the phase conjugate version of the phase map of the ultrasound-tagged
+light was displayed on the spatial light modulator (SLM) of the DOPC
+system and used to create the playback light field. Following the prin-
+ciple of time reversal, this playback beam scattered in a time-reversed
+fashion and formed an optical focus at the location of the ultrasound
+focus. Our TRUE focusing system described here relied on a digital
+wavefront recording and playback engine (21, 22), which, compared
+with analog TRUE focusing systems (44), allowed for measured wave-
+fronts to be played back at a light intensity far greater than that of the
+measured wave (45).
+
+The average intensity of the TRUE focus compared to the back-
+ground intensity for phase-only modulation of the wavefront is given
+by Eq. 1 (32)
+
+h
+
+phase‐only
+
+ ðN   1Þ
+
+M
+
+þ 1
+
+¼ p
+4
+
+ð1Þ
+
+where N is the number of optical modes controlled by the SLM and M
+is the number of optical modes (speckle grains) within the ultrasound
+
+A
+
+B
+
+C
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+
+:
+/
+/
+
+a
+d
+v
+a
+n
+c
+e
+s
+.
+s
+c
+e
+n
+c
+e
+m
+a
+g
+
+i
+
+.
+
+o
+r
+g
+
+/
+ 
+
+ 
+
+o
+n
+D
+e
+c
+e
+m
+b
+e
+r
+ 
+
+9
+
+,
+ 
+
+2
+0
+1
+7
+
+Fig. 1. Custom TRUE focusing and electrophysiological recording system. The
+custom TRUE focusing system combined a DOPC system with a patch clamp electro-
+physiology amplifier and headstage. Acute brain slices were held in a custom perfusion
+chamber that contained warmed, carbogenated aCSF. The TRUE light beam illumi-
+nated the tissue at an oblique 45° angle, and the borosilicate patch pipette electrode
+was used for neurophysiological measurements. (A) A DIC microscope was included for
+neuron visualization during patch clamping. (B) The TRUE focusing system allowed
+light to be sharply focused through the brain slice. (C) A close-up image of the TRUE
+focus on a patched neuron. Scale bars, 20 mm in (A) and 50 mm in (B).
+
+Ruan et al., Sci. Adv. 2017; 3 : eaao5520
+
+8 December 2017
+
+2 of 9
+
+S C I E N C E A D V A N C E S | R E S E A R C H A R T I C L E
+
+A1
+
+Light beam Ultrasound beam
+
+A2
+
+B
+
+Objective
+
+R
+
+e
+
+c
+
+o
+r
+din
+
+g
+
+C
+
+a
+
+m
+
+era
+
+Beam splitter
+
+DOPC
+
+SLM
+
+Pla
+y
+
+b
+
+a
+
+c
+
+k
+
+C
+
+a
+
+m
+
+era
+
+Beam splitter
+
+DOPC
+
+SLM
+
+500 µm
+
+800 µm
+
+1000 µm
+
+1500 µm
+
+2000 µm
+
+TRUE focusing
+
+C
+
+l
+
+a
+n
+o
+i
+t
+n
+e
+v
+n
+o
+C
+
+E
+U
+R
+T
+
+D
+
+)
+
+m
+µ
+
+(
+ 
+
+M
+H
+W
+F
+ 
+s
+u
+c
+o
+F
+
+1
+
+0
+1
+
+0
+
+Brain slice
+
+Lens
+
+Plane wave
+
+Conventional focusing
+
+Focus FWHM versus thickness
+
+104
+
+103
+
+102
+
+101
+
+ 
+
+Conventional
+TRUE
+
+0.5
+Tissue thickness (mm)
+
+1.5
+
+1
+
+2
+
+Fig. 2. A comparison of TRUE focusing and conventional focusing. (A) The recording (A1) and playback (A2) procedures used to focus light through the slice onto
+its top surface with TRUE focusing. (B) Diagram of the experimental setup for measuring the light intensity distribution of the focus on the top surface of the brain slice
+achieved using a conventional lens illuminating the brain slice from below. A tube lens and a camera used together with the objective are not shown. (C) Images of the
+conventional and TRUE focus profile through living brain tissue slices (500, 800, 1000, 1500, and 2000 mm thick). (D) Full width at half maximum (FWHM) focal spot sizes
+for the conventional and TRUE foci as a function of tissue thickness. Error bars represent the SD of five measurements taken at different locations. Scale bar, 100 mm.
+
+focus. The size of the TRUE focus along the ultrasound beam lateral
+direction is dictated by the diffraction-limited focused ultrasound beam
+diameter, and the size along the ultrasound beam axial direction is
+determined by the ultrasound and laser pulse widths. To enhance the
+spatial resolution and contrast of TRUE focusing, we used an iterative
+TRUE focusing scheme (60–62), where the intensity and resolution of
+the TRUE focus were iteratively enhanced by repeating the TRUE
+focusing procedure using a previously established TRUE focus. A random
+phase pattern was displayed on the SLM to initiate the iterative TRUE
+focusing process. Rather than using two DOPC systems as previously
+demonstrated (61), we designed and implemented the iterative TRUE
+focusing system in transmission mode using a single DOPC system (see
+Materials and Methods and figs. S1 and S2 for detailed descriptions).
+
+A comparison between TRUE and conventional focusing
+in living brain slices
+To test the performance of our system, we prepared acute brain slices
+(300 to 2000 mm) that contained the medial prefrontal cortex (mPFC)
+from C57Bl/6J mice using a vibrating microtome as previously de-
+scribed (63, 64). Then, we placed the slices in our optical setup and
+recorded the light intensity profile through the slices formed by our
+TRUE focusing system (Fig. 2, A1 and A2) and a conventional lens (Fig.
+2B). As predicted, the conventional focusing lens failed to form a tight
+optical focus and demonstrated a light profile that broadened as the
+brain slice thickness was increased due to the strong scattering nature
+of the tissue (Fig. 2C, top row). While a visible envelope of the intensity
+profile was observed when light was conventionally focused through a
+500-mm-thick slice, the lateral width of the focus profile was signif-
+
+icantly increased from the diffraction-limited focus size of ~1 mm (the
+NA of the focusing lens was 0.25). The size of the conventional focus
+continued to broaden as slice thickness was increased, and no discern-
+ible focus envelope was visible within the 580 × 580–mm2 field of view
+in the 1000-mm or thicker slices.
+
+In contrast, TRUE focusing was able to maintain a lateral resolution
+defined by the size of the ultrasound focus, decoupling the size of the
+focus from the focusing depth (Fig. 2C, bottom row). Our system used
+a high-frequency ultrasound transducer with a 50-MHz nominal cen-
+ter frequency, a 6.35-mm aperture, and a 12.7-mm focal length. The
+theoretical beam diameter (−6 dB) for this configuration was ~80 mm,
+and the calibrated waveform duration (−6 dB) was 37.4 ns, correspond-
+ing to a pulse length of 55.3 mm. The region of ultrasound-modulated
+light along the axial direction of the ultrasound beam was also deter-
+mined by the combination of the ultrasound pulse length and the laser
+pulse duration, which is 7 ns. Using the iterative TRUE focusing
+method enabled the TRUE focus to be tightened (60) to achieve a
+focus with an average FWHM spot size of 27.4 mm across tissue thick-
+nesses from 500 to 2000 mm (see method S1 for calculation). In con-
+trast, the FWHM of the conventional focus broadened from ~350 mm at
+a slice thickness of 500 mm to approximately 2100 mm at a thickness of
+2000 mm (Fig. 2D). It should be noted that the effective thicknesses in
+the TRUE focusing case are larger than the physical thicknesses of the
+slices due to the 45° incident angle of the TRUE focusing beam. These
+results demonstrate the ability of TRUE focusing to overcome optical
+scattering to create high-resolution optical foci in living brain slices up
+to 2000 mm thick, which, unlike those formed by conventional focusing,
+do not significantly broaden with increased sample thickness.
+
+Ruan et al., Sci. Adv. 2017; 3 : eaao5520
+
+8 December 2017
+
+3 of 9
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+
+:
+/
+/
+
+a
+d
+v
+a
+n
+c
+e
+s
+.
+s
+c
+e
+n
+c
+e
+m
+a
+g
+
+i
+
+.
+
+o
+r
+g
+
+/
+ 
+
+ 
+
+o
+n
+D
+e
+c
+e
+m
+b
+e
+r
+ 
+
+9
+
+,
+ 
+
+2
+0
+1
+7
+
+S C I E N C E A D V A N C E S | R E S E A R C H A R T I C L E
+
+Application of TRUE focusing for optogenetic manipulations
+After demonstrating the ability of TRUE focusing to overcome optical
+scattering and produce light foci in thick acute brain slices, we next
+sought to demonstrate the advantage of TRUE for optogenetic manipu-
+lation compared with conventional focusing using a neurophysiological
+readout. Optogenetics, in which engineered light-gated ion channels or
+pumps are used to manipulate cellular activity with high spatial and
+temporal precision using visible light, has become relatively ubiquitous
+in basic neurobiological research due to its ability to convert differences
+in light intensity into graded electrophysiological signals (51). Although
+a wide range of optogenetic actuators are available for neural excitation or
+inhibition with diverse excitation spectra spanning the visible spectrum,
+we used the excitatory, red-shifted opsin bReaChES for our experiments
+because its excitation peak was well matched with our laser source (532
+nm) (65). To prepare samples for testing, we performed stereotaxic in-
+jections of an adeno-associated viral vector carrying the bReaChES
+transgene (AAV-DJ-CaMKII-bReaChES-TS-YFP) into the mPFC of
+C57Bl/6J mice (Fig. 3A). After waiting 4 weeks for surgical recovery
+and transgene expression, we prepared acute brain slices for simulta-
+neous electrophysiological recording and optical testing. Animal hus-
+bandry and all experimental procedures involving animal subjects
+were approved by the Institutional Animal Care and Use Committee
+(IACUC) and by the Office of Laboratory Animal Resources at the
+California Institute of Technology under IACUC protocol 1650. We
+characterized the performance of bReaChES in cortical slices by mea-
+suring the photocurrent response to a wide range of 532-nm light
+intensities delivered through the DIC objective in voltage clamp
+mode. Similar to its parent opsin ReaChR (66), bReaChES displayed
+a nonlinear increase in photocurrent response that saturated at an in-
+tensity of approximately 10 mW/mm2 (Fig. 3B). During these experi-
+ments, the average maximum photocurrent across the 10 cells studied
+was 1047 pA.
+
+To demonstrate the capability of TRUE focusing for neural mod-
+ulation, whole-cell patch clamp recordings were obtained from layer
+II/III neurons just below the superficial surface of mPFC slices using
+borosilicate glass patch pipette electrodes visualized under DIC mi-
+croscopy (Fig. 1 and fig. S1C). Although TRUE focusing through slices
+up to 2 mm thick was achieved, maximum slice thickness during our
+optogenetic experiments was limited to 800 mm, because neurons in
+thicker slices were difficult to visualize with DIC microscopy and were
+generally less healthy, which negatively affects recording and data
+quality. Because target neurons were located close to the surface of
+the brain slice for visualization, the DOPC playback beam illuminated
+from the bottom of the slice traversed almost the entire sample thick-
+ness, which is much larger than the optical diffusion limit of the acute
+mouse brain slice (~200 mm at 532 nm) (2). Moreover, because the
+incident angle was 45° (Fig. 3C), the effective thickness for TRUE fo-
+cusing was even larger than the physical slice thickness. Once a whole-
+cell recording was successfully initiated, the DIC microscope objective
+was removed, and the lens tube and ultrasound transducer were
+lowered into the bath. To ensure colocalization of the ultrasound focus
+with the pipette tip, we used pulse-echo ultrasound to form an image of
+the glass pipette tip (fig. S3) and moved the ultrasound transducer to
+focus on the end of the tip where a target neuron was located. This
+approach allowed precise targeting of the TRUE focus to the recording
+neuron to maximize light delivery during optogenetic stimulation.
+
+Next, we measured the photocurrent response that was elicited by
+the TRUE focus; as a control, we created a “no wavefront shaping” con-
+dition by shifting the wavefront solution on the SLM by 100 pixels in
+
+each lateral direction, which generally approximated the laser back-
+ground intensity. In this case, the TRUE focus outperformed the no
+shaping condition, evoking a larger photocurrent due to enhanced
+light intensity at the focus (Fig. 3D, left). The photocurrent enhance-
+ment factor, defined as the ratio between the difference of the photo-
+current with and without TRUE focusing and the photocurrent without
+TRUE focusing, was on average 30% (n = 6) in 800-mm-thick brain
+slices, which was similar in magnitude to the enhancement observed
+in 300- and 500-mm slices (fig. S4). To verify the effect of the ultrasound
+guidestar, we turned off the ultrasound and repeated the same
+procedure. In this case, because there was no guidestar for the system
+to focus to, no TRUE focus was formed, resulting in a smaller evoked
+photocurrent and no observed firing events (fig. S5). Because the
+presence of the ultrasound field could potentially alter neural activity,
+we verified in several neurons that focused ultrasound alone in the
+absence of light failed to evoke any observable current in voltage
+clamp or alter neuronal excitability in current clamp mode.
+
+We next sought to evaluate the performance of our system by com-
+paring the experimentally observed enhancement factor with the ex-
+pected enhancement predicted by the technical specifications of our
+system and the observed TRUE focus size. The SLM used in the DOPC
+system had 2 × 106 pixels, which allows us to focus light through a
+highly scattering medium to a single optical mode with an experimen-
+tal peak focus intensity to background ratio h of ~1 × 104. This exper-
+imental performance means the DOPC system could effectively control
+N ~ 1 × 104 optical modes. On the basis of this performance, we were
+able to estimate the intensity enhancement at the ultrasound focus
+using Eq. 1. Because our system produced a TRUE focus with a FWHM
+
+A
+AAV-DJ-CaMKII-bReaChES-TS-YFP
+
+B
+
+mPFC
+
+532 nm
+
+t bReaChES photocurrent
+
+n
+e
+r
+r
+u
+c
+o
+t
+o
+h
+p
+d
+e
+z
+i
+l
+
+ 
+
+a
+m
+r
+o
+N
+
+n = 10
+
+1.0
+0.8
+0.6
+0.4
+0.2
+0
+102
+10
+Light intensity (mW/mm2)
+
+10 1 100
+
+101
+
+2
+
+C
+
+Electrode
+
+D
+
+Action potentials
+
+800 µm
+
+Neurons
+
+Beam splitter
+
+DOPC
+
+C
+
+a
+
+m
+
+era
+
+SLM
+
+Photocurrent
+
+Membrane voltage
+
+TRUE No shaping
+
+TRUE No shaping
+
+V
+m
+0
+2
+
+ 
+
+1 s
+
+ 
+
+A
+p
+0
+0
+1
+
+1 s
+
+Fig. 3. Experiment design, opsin characterization, and demonstration of photo-
+current and firing modulation via TRUE focusing. (A) An AAV vector was used to
+stereotaxically deliver the bReaChES transgene to the mPFC. (B) Characterization
+of normalized photocurrent response versus light intensity. The average maxi-
+mum photocurrent across the 10 cells studied was 1047 pA. (C) Diagram illustrat-
+ing the experimental scheme used to demonstrate the ability of TRUE focusing to
+elicit action potentials through 800-mm-thick living mouse brain tissue. (D) Repre-
+sentative traces demonstrating elicited photocurrent and membrane voltage changes
+achieved with and without TRUE focusing.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+
+:
+/
+/
+
+a
+d
+v
+a
+n
+c
+e
+s
+.
+s
+c
+e
+n
+c
+e
+m
+a
+g
+
+i
+
+.
+
+o
+r
+g
+
+/
+ 
+
+ 
+
+o
+n
+D
+e
+c
+e
+m
+b
+e
+r
+ 
+
+9
+
+,
+ 
+
+2
+0
+1
+7
+
+Ruan et al., Sci. Adv. 2017; 3 : eaao5520
+
+8 December 2017
+
+4 of 9
+
+S C I E N C E A D V A N C E S | R E S E A R C H A R T I C L E
+
+diameter of ~27 mm, the number of modes M inside the focus was
+~1 × 104, which corresponded to a predicted intensity enhancement
+factor at the ultrasound focus of approximately 2. Because the photo-
+current enhancement was not proportional to light intensity (Fig. 3B),
+we predicted that the photocurrent enhancement factor would be less
+than 1, which was consistent with our data. Despite the observed en-
+hancement, the laser power could be adjusted so that the TRUE focus
+elicited time-locked cell firing, whereas the no shaping condition could
+not elicit action potentials (Fig. 3D, right).
+
+Improved spatial resolution of optogenetic stimulation
+using TRUE focusing
+After demonstrating that TRUE-focused light could optogenetically
+stimulate neurons at depths beyond the optical diffusion limit, we com-
+pared the spatial resolution of TRUE focusing with that of conventional
+lens focusing for optogenetic modulation. The ability for TRUE focusing
+to noninvasively enhance the light intensity in a spatially restricted man-
+ner is an important benefit compared to other conventional methods for
+delivering light into the brain, such as optical fibers or light-emitting di-
+ode (LED) implants, which do not allow for the targeted volume to be
+freely moved within the brain after implantation. To quantify the spatial
+resolution of TRUE focusing and conventional focusing, we raster-
+scanned the focus of each case laterally around a patch-clamped neuron
+and recorded the photocurrent magnitude at each scanning position
+(Fig. 4, A and B). In both cases, we scanned over a square grid of 9 × 9
+points with a 50-mm step size in each dimension on the horizontal
+plane. For conventional focusing, the 780-nm wavelength DIC illumi-
+nation LED was replaced with the 532-nm wavelength laser source
+delivered via a single-mode optical fiber whose tip was imaged to the
+plane of the targeted neuron to form a focus (fig. S1D). The position
+of the focus was calibrated using the observation microscope before
+placing the brain slice in the chamber, and the focus was raster-scanned
+on the horizontal plane during whole-cell recordings (fig. S1, C and D).
+The normalized photocurrent enhancement was calculated at each
+scanning position and used to construct interpolated two-dimensional
+(2D) scan maps (Fig. 4, C and D). Fitting the conventional lens scan
+map with a 2D Gaussian function yielded respective FWHMs of 393
+and 536 mm in the x and y dimensions. In contrast, the FWHMs for the
+TRUE focusing scan were 99 and 71 mm in the x and y dimensions.
+Because of the scattering and diffusion of the conventional illumina-
+tion, the spatial extent of the evoked photocurrent enhancement with
+conventional illumination was nearly four times broader than that ob-
+tained with TRUE focusing, thus confirming the utility of TRUE
+focusing for precise spatial focusing at depth beyond the optical diffu-
+sion limit.
+
+DISCUSSION
+Overcoming optical scattering to noninvasively extend the depth at
+which light can be tightly focused inside living biological samples in
+clinical and research settings is of great interest to practitioners and re-
+searchers alike. Here, we developed a TRUE focusing system that allowed
+us to focus light at depth in ex vivo brain tissue with a spatial resolution
+that significantly outperformed conventional lens focusing. By integrat-
+ing a patch clamp electrophysiology headstage and amplifier into the
+TRUE focusing system, we were able to monitor neural activity during
+optogenetic stimulation with the TRUE focus. Using neurophysiological
+signals as a readout, we confirmed that TRUE focusing can be used to
+control neural activity in thick tissue samples in a spatially restricted
+
+manner. Because optogenetic manipulations currently require the surgi-
+cal implantation of invasive optical fibers for light delivery below the
+most superficial brain regions (58), we believe that our findings using
+TRUE focusing will inform future efforts to develop this technology
+for noninvasive optogenetic stimulation and/or fluorescent imaging in
+vivo with the spatial resolution required for precise targeting of individ-
+ual neurons or neuron ensembles.
+
+Multiphoton microscopy is capable of obtaining clear images at
+depths of 800 mm and is promising for neuromodulation at that depth.
+However, the fundamental working depth of this technique is limited by
+the number of unscattered or weakly scattered photons, which de-
+creases exponentially with depth. In contrast, the TRUE focusing tech-
+nique is able to focus light beyond the ballistic photon regime. The
+addressable depth of the TRUE focusing technique demonstrated in this
+set of optogenetic experiments was limited by the penetration depth of
+the DIC microscope illumination necessary to visualize neurons during
+the initiation of patch clamp recordings, as well as the viability of the
+neurons in thick tissue. Although fluorescent activity indicators, such as
+the GCaMP family of proteins (67), would provide a viable activity
+readout in thicker tissue samples, these tools were not practical for
+use here given that the excitation wavelength for calcium indicators is
+likely to simultaneously excite neurons with opsins that match the
+operating wavelength of the TRUE focusing system (532 nm). In the
+future, this problem could be solved by decoupling the wavelength
+for TRUE focusing and optogenetic excitation from that for calcium
+indicator excitation. It would also be valuable to explore the maximum
+penetration depth of TRUE focusing for optogenetics, even if it would
+require minimally invasive methods in vivo such as optical fiber in-
+sertion for signal readout.
+
+A
+
+Electrode
+
+Photocurrent
+
+B
+
+Ultrasound 
+scanning
+
+800 µm
+
+Brain slice
+
+Lens
+
+C
+
+Conventional
+
+x
+
+z
+
+x
+
+D
+
+ 
+
+y
+
+ 
+
+ 
+
+C
+
+a
+
+m
+
+era
+
+Beam splitter
+
+DOPC
+
+TRUE
+
+SLM
+
+ 
+
+1
+
+0.8
+
+0.6
+
+0.4
+
+0.2
+
+0
+
+ 
+
+d
+e
+z
+i
+l
+
+t
+n
+e
+m
+e
+c
+n
+a
+h
+n
+e
+ 
+t
+n
+e
+r
+r
+u
+c
+o
+t
+o
+h
+p
+
+a
+m
+r
+o
+N
+
+Fig. 4. Spatial resolution of optogenetic stimulation achieved by conventional
+versus TRUE focusing. Experimental configuration for photocurrent scan map
+generation using conventional focusing (A) and TRUE focusing (B). The normalized
+photocurrent enhancement as a function of lateral focal scanning position for
+conventional (C) and TRUE focusing (D). Scale bar, 100 mm.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+
+:
+/
+/
+
+a
+d
+v
+a
+n
+c
+e
+s
+.
+s
+c
+e
+n
+c
+e
+m
+a
+g
+
+i
+
+.
+
+o
+r
+g
+
+/
+ 
+
+ 
+
+o
+n
+D
+e
+c
+e
+m
+b
+e
+r
+ 
+
+9
+
+,
+ 
+
+2
+0
+1
+7
+
+Ruan et al., Sci. Adv. 2017; 3 : eaao5520
+
+8 December 2017
+
+5 of 9
+
+S C I E N C E A D V A N C E S | R E S E A R C H A R T I C L E
+
+Unlike in ex vivo tissue preparations where cell viability is a limiting
+factor for tissue thickness, the focusing depth during in vivo applica-
+tions is limited by the guidestar efficiency. As we focus deeper into
+tissue, fewer photons from the guidestar can be measured, not only be-
+cause the detected portion of light from the guidestar is reduced but also
+because of a decrease in the modulation efficiency due to ultrasound
+attenuation. Although the DOPC system works even when the mea-
+sured phase map has less than a photon per degree of freedom (that
+is, SLM or camera pixel) (68), the presence of shot noise due to the
+much higher unmodulated light intensity will fundamentally limit
+the penetration depth (24, 69). Additional guidestar aids, such as micro-
+bubbles, can help improve the tagging efficiency significantly (48 ) but
+sacrifice the freely addressable and noninvasive nature of the ultrasound
+guidestar. In the future, it will be important to optimize the intensity
+of the measured ultrasound-modulated light to extend the penetra-
+tion depth.
+
+Another goal for future developments of TRUE focusing for opto-
+genetic simulation is improved photocurrent enhancement. Using
+whole-cell recordings, we observed a photocurrent enhancement of ap-
+proximately 30% compared to the no shaping condition, which was
+consistent with predicted values but will require improvement before
+TRUE focusing is feasible for widespread use in optogenetic applica-
+tions. The avenues to improve the focusing contrast are based on the
+variables in Eq. 1. From this equation, we can see that to enhance the
+focusing contrast, we can either increase N, the number of controllable
+modes, or decrease M, the number of optical modes within the ultra-
+sound focus. One way to reduce M is by reducing the size of the ul-
+trasound focus by increasing the operating frequency and the NA of the
+ultrasound transducer. However, high-frequency ultrasound has a very
+limited penetration depth. Furthermore, because the goal is to enhance
+the light intensity delivered to the neuron soma, shrinking the size of the
+focus beyond the size of the cell will not necessarily lead to further im-
+provements in photocurrent enhancement, although this strategy may
+allow for finer resolution targeting of neuronal subcompartments, such
+as individual dendrites or synaptic inputs. Another strategy is to increase
+the size of the optical modes by shifting to longer wavelengths, although
+opsins sensitive to infrared or near-infrared wavelengths will need to
+be further refined before they are practical for single photon in vivo ap-
+plications (70, 71). A more feasible avenue to improve the TRUE focus
+contrast is to increase the number of controllable optical modes, N. This
+can be achieved by scaling up the number of SLM pixels, which will also
+benefit other general applications across the wavefront shaping field.
+For example, increasing the number of SLM pixels N by 10 times will
+result in a focus intensity–to–background ratio h ≈ 12, which is suf-
+ficient for many practical applications.
+
+To translate wavefront shaping into practical tools for in vivo ap-
+plications, we also need to address the challenge of the optical decor-
+relation of living tissue. The dynamic nature of living tissue causes
+decorrelation of the optical wavefronts, so to effectively focus light
+inside living tissue, the system response time must be shorter than
+the decorrelation time of the tissue. For acute brain slices less than
+2 mm in thickness, this decorrelation time is on the order of several
+seconds (72 ), which is longer than the current TRUE focusing speed
+(0.6 s; see fig. S2). However, the decorrelation time drops to the order
+of 1 ms for in vivo applications due to blood flow, cardiac motion,
+breathing, etc. (26, 73, 74). To increase the response speed of wavefront
+shaping systems, digital micromirror devices and ferroelectric liquid
+crystal–based SLMs have been used to achieve high-speed DOPC with-
+in 10 ms (25, 27), which is ultimately limited by the need to read out and
+
+transfer data to a computing device such as a personal computer or
+an embedded system to compute the appropriate wavefront solution.
+We expect that solving these problems will require an integrated
+wavefront shaping system that combines the wavefront sensing and
+modulation devices into a single device (75). This design will allow
+for control over an increased number of optical modes in a scalable
+way without sacrificing the operation speed, because wavefront cal-
+culations can be performed in parallel on a per pixel basis, minimiz-
+ing data transfer and computation time. The development of such an
+integrated wavefront sensing and modulation platform will increase
+the achievable enhancement factors. Simultaneously, it will remove
+many of the challenges that limit the widespread adoption of wavefront
+shaping techniques, such as the difficulty of designing and aligning the
+complex optical system (76), opening the door for more scientists to
+incorporate wavefront shaping into their optical technologies for bio-
+medicine and beyond.
+
+MATERIALS AND METHODS
+Acute brain slice preparation
+Stereotaxic injection of AAV-DJ-CaMKII-bReaChES-TS-YFP was
+used to deliver the opsin transgene into the mPFC in adult mice and
+allowed to express for 3 to 4 weeks before the experiments were con-
+ducted. On the day of each experiment, acute brain slices (300 to
+2000 mm) that contained the infralimbic and prelimbic cortices were
+prepared with a vibrating microtome after euthanasia and transcar-
+dial perfusion with ice-cold cutting solution, as previously described
+(63, 64). Slices were recovered in 32°C, carbogenated aCSF for 1 hour
+before the start of each recording. Recordings were performed using a
+potassium gluconate internal solution in the presence of carbogenated
+aCSF that contained 3 mM kynurenic acid to block excitatory post-
+synaptic currents. Methods S2 and S3 describe sample preparation
+and recording conditions in greater detail.
+
+TRUE focusing system design and integration of the patch
+clamp amplifier and head stage
+The DOPC system consisted of three major modules (fig. S1, A and
+B): a light beam preparation module, a DOPC module, and the patch
+clamp electrophysiology amplifier/head stage. The light beam prepa-
+ration module prepared three light beams for the DOPC system: a
+planar reference beam for wavefront recording (R), a sample or playback
+beam (S/PB) that illuminated the sample, and a quality assurance
+beam (QA) for daily system alignment. All three beams were spatially
+filtered, path-length–matched, and aligned to the horizontal polariza-
+tion direction. For the S/PB beam, we used two laser sources, a nano-
+second pulsed wave (PW) laser (532-nm wavelength, 7-ns pulse width,
+40-kHz repetition rate, and 7-mm coherence length; Navigator, Spectra-
+Physics) for TRUE focusing and a continuous wave (CW) laser (532-nm
+wavelength; Millennia eV, Spectra-Physics) for optogenetic stimula-
+tion, which was modulated by an optical chopper. These two laser
+beams were selected by a beam selecting shutter (BSS1) and coupled
+to a pinhole-based spatial filter through a beam splitter (BS2). A 4f sys-
+tem (L1 and L2) was used to match the beam diameter of the PW laser
+to that of the CW laser beam so that they achieved optimum coupling
+efficiency through the pinhole. The frequency of the reference beam and
+QA beam was modulated by two acousto-optic modulators (AOM;
+AFM-502-A1, IntraAction).
+
+The DOPC module used four beam splitters (BS4, BS5, BS8, and
+BS9) and two beam selecting shutters (BSS2 and BSS3) to route the
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+
+:
+/
+/
+
+a
+d
+v
+a
+n
+c
+e
+s
+.
+s
+c
+e
+n
+c
+e
+m
+a
+g
+
+i
+
+.
+
+o
+r
+g
+
+/
+ 
+
+ 
+
+o
+n
+D
+e
+c
+e
+m
+b
+e
+r
+ 
+
+9
+
+,
+ 
+
+2
+0
+1
+7
+
+Ruan et al., Sci. Adv. 2017; 3 : eaao5520
+
+8 December 2017
+
+6 of 9
+
+S C I E N C E A D V A N C E S | R E S E A R C H A R T I C L E
+
+S/PB beam into two separated optical loops (loop A and loop B),
+which were used sequentially during iterative TRUE focusing operation.
+To initialize the iterative process, the SLM (PLUTO, HOLOEYE) dis-
+played a random phase map to generate a disordered light field that
+mimicked the light inside the sample. The BSS2 and BSS3 were set
+to enable DOPC loop A, which directed the light to the sample from
+the top surface. The ultrasound-modulated light field was measured
+by the camera (Camera 1, pco.edge 5.5, PCO-TECH) of the DOPC sys-
+tem, and its conjugated phase map was displayed on the SLM. We
+then flipped BSS2 and BSS3 to enable DOPC loop B, which routed
+the shaped S/PB beam to the sample in the reversed direction (fig. S1B),
+resulting in an initial TRUE focus. The TRUE focus was modulated by
+the ultrasound again, and the ultrasound-modulated light was measured
+by the camera. Immediately, the SLM was updated and DOPC loop A
+was enabled again for the next iteration. By repeating the TRUE focusing
+process between these two DOPC loops nine times (nine SLM updates),
+we obtained an optimized wavefront solution for TRUE focusing. In
+this case, DOPC loop B is enabled and we switched the light source
+to the CW laser for neural modulation. An amplitude mask (ZB) was
+placed on the focal plane of lens L7 to block the zeroth order of the
+playback beam, which was not modulated by the SLM. The daily tuning
+procedure for the DOPC system can be found in method S4.
+
+The electrophysiological recording setup had two operating modes,
+a neuron patching mode and a neuron stimulation mode (fig. S1, C
+and D). In the neuron patching mode (fig. S1C), the collection lens
+(L10) and its lens tube and the transducer were translated out of the
+chamber, allowing the objective (40×, LUMPlanFL/IR, Olympus) of a
+custom-built DIC microscope to be immersed into the solution for
+neuron visualization. We used a 780-nm LED (M780D2, Thorlabs)
+as the light source (LS1) to maximize the penetration depth. Once a
+whole-cell recording was initiated, we switched to the neuron stim-
+ulation mode (fig. S1D) by lifting the objective out of the perfusion
+chamber and translating the ultrasonic transducer (PI50, Olympus)
+and collection lens L10 and its lens tube down to the chamber. In this
+mode, we performed iterative TRUE focusing while photocurrents or
+transmembrane potentials were measured via the patch pipette elec-
+trode (PP). In the case of conventional focusing, we replaced the LED
+source with the 532-nm CW laser source delivered by a single-mode
+fiber (SF3) whose tip was imaged to the top surface of the sample.
+We raster-scanned the focus by scanning the tip of the single mode fiber
+SF3 on the focal plane of lens L17 while recording the transmembrane
+current at each scanning position. The electrophysiological signals were
+recorded by a computer-controlled patch clamp amplifier (EPC10 USB,
+HEKA) and filtered at 10 kHz.
+
+Measurement of the phase map of the ultrasonically
+tagged light
+A detailed signal flow diagram is shown in fig. S2. We used four-step
+phase-shifting holography (59) to measure the phase of the ultra-
+sonically tagged light and shifted the phase of the reference beam by
+stepping the phase of the signal driving the AOM through 0, p/2, p,
+and 3p/2. Four intensity maps (I0, Ip/2, Ip, and I3p/2) corresponding to
+each phase of the reference beam were recorded, and the phase map of
+the ultrasonically tagged light was calculated as f = Arg[(Ip/2 − I3p/2) +
+i(I0 − Ip)], where Arg[·] computes the principal value of the argument
+of a complex number. Because we used laser pulses with a pulse width
+smaller than 20 ns as the light source to ensure fine axial resolution of
+the TRUE focus, we needed to carefully design the parameters to elim-
+inate the unwanted signal formed by the interference between the
+
+reference beam (R) and the unmodulated sample beam (U), as well
+as the unwanted signal formed by the interference between the ultra-
+sonically tagged light (T) and U, which would otherwise overwhelm
+the real signal formed by the interference between R and T. The for-
+mulation to design the timing for these three beams has been de-
+scribed previously (77), and a detailed signal diagram is illustrated
+in fig. S2.
+
+SUPPLEMENTARY MATERIALS
+Supplementary material for this article is available at http://advances.sciencemag.org/cgi/
+content/full/3/12/eaao5520/DC1
+method S1. Calculation of the focal spot size of TRUE and conventional focusing.
+method S2. Viral injection surgery.
+method S3. Electrophysiological recordings.
+method S4. Daily alignment procedure.
+fig. S1. Setup.
+fig. S2. Electrical signal flow diagram.
+fig. S3. Ultrasound pulse-echo image of the tip of the glass pipette electrode.
+fig. S4. Electrophysiological photocurrent traces from neurons in 500- and 300-mm-thick acute
+brain slices.
+fig. S5. Electrophysiological photocurrent and membrane voltage traces comparing ultrasound
+on and off conditions.
+
+REFERENCES AND NOTES
+1. S. Schott, J. Bertolotti, J.-F. Léger, L. Bourdieu, S. Gigan, Characterization of the angular
+
+memory effect of scattered light in biological tissues. Opt. Express 23, 13505–13516
+(2015).
+
+2. M. Mesradi, A. Genoux, V. Cuplov, D. Abi-Haidar, S. Jan, I. Buvat, F. Pain, Experimental and
+
+analytical comparative study of optical coefficient of fresh and frozen rat tissues.
+J. Biomed. Opt. 18, 117010 (2013).
+I. M. Vellekoop, A. P. Mosk, Focusing coherent light through opaque strongly scattering
+media. Opt. Lett. 32, 2309–2311 (2007).
+
+3.
+
+4. A. P. Mosk, A. Lagendijk, G. Lerosey, M. Fink, Controlling waves in space and time for
+
+imaging and focusing in complex media. Nat. Photonics 6, 283–292 (2012).
+
+5. R. Horstmeyer, H. Ruan, C. Yang, Guidestar-assisted wavefront-shaping methods for
+
+focusing light into biological tissue. Nat. Photonics 9, 563–571 (2015).
+
+6. H. Yu, J. Park, K. Lee, J. Yoon, K. Kim, S. Lee, Y. Park, Recent advances in wavefront shaping
+
+techniques for biomedical applications. Curr. Appl. Phys. 15, 632–641 (2015).
+
+7. S. Rotter, S. Gigan, Light fields in complex media: Mesoscopic scattering meets wave
+
+8.
+
+control. Rev. Mod. Phys. 89, 015005 (2017).
+I. M. Vellekoop, Feedback-based wavefront shaping. Opt. Express 23, 12189–12206
+(2015).
+
+9. S. M. Popoff, G. Lerosey, M. Fink, A. C. Boccara, S. Gigan, Controlling light through optical
+
+disordered media: Transmission matrix approach. New J. Phys. 13, 123021 (2011).
+
+10. M. Kim, W. Choi, Y. Choi, C. Yoon, W. Choi, Transmission matrix of a scattering medium
+
+and its applications in biophotonics. Opt. Express 23, 12648–12668 (2015).
+
+11. L. V. Wang, S. Hu, Photoacoustic tomography: In vivo imaging from organelles to organs.
+
+Science 335, 1458–1462 (2012).
+
+12. D. A. Boas, D. H. Brooks, E. L. Miller, C. A. DiMarzio, M. Kilmer, R. J. Gaudette, Q. Zhang,
+
+Imaging the body with diffuse optical tomography. IEEE Signal Process. Mag. 18 , 57–75
+(2001).
+
+13. Z. Yaqoob, D. Psaltis, M. S. Feld, C. Yang, Optical phase conjugation for turbidity
+
+suppression in biological samples. Nat. Photonics 2, 110–115 (2008).
+
+14. J. Yoon, M. Lee, K. R. Lee, N. Kim, J. M. Kim, J. Park, H. Yu, C. Choi, W. D. Heo, Y. K. Park,
+Optogenetic control of cell signaling pathway through scattering skull using wavefront
+shaping. Sci. Rep. 5, 13289 (2015).
+
+15. R. Sarma, A. G. Yamilov, S. Petrenko, Y. Bromberg, H. Cao, Control of energy density inside
+
+a disordered medium by coupling to open or closed channels. Phys. Rev. Lett. 117,
+086803 (2016).
+
+16. S. M. Popoff, G. Lerosey, R. Carminati, M. Fink, A. C. Boccara, S. Gigan, Measuring the
+
+transmission matrix in optics: An approach to the study and control of light propagation
+in disordered media. Phys. Rev. Lett. 104, 100601 (2010).
+
+17. Y. Choi, T. Daniel Yang, C. Fang-Yen, P. Kang, K. Jin Lee, R. R. Dasari, M. S. Feld, W. Choi,
+
+Overcoming the diffraction limit using multiple light scattering in a highly disordered
+medium. Phys. Rev. Lett. 107, 023902 (2011).
+
+18. H. Yu, T. R. Hillman, W. Choi, J. O. Lee, M. S. Feld, R. R. Dasari, Y. K. Park, Measuring large
+
+optical transmission matrices of disordered media. Phys. Rev. Lett. 111, 153902 (2013).
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+
+:
+/
+/
+
+a
+d
+v
+a
+n
+c
+e
+s
+.
+s
+c
+e
+n
+c
+e
+m
+a
+g
+
+i
+
+.
+
+o
+r
+g
+
+/
+ 
+
+ 
+
+o
+n
+D
+e
+c
+e
+m
+b
+e
+r
+ 
+
+9
+
+,
+ 
+
+2
+0
+1
+7
+
+Ruan et al., Sci. Adv. 2017; 3 : eaao5520
+
+8 December 2017
+
+7 of 9
+
+S C I E N C E A D V A N C E S | R E S E A R C H A R T I C L E
+
+19. D. B. Conkey, A. M. Caravaca-Aguirre, R. Piestun, High-speed scattering medium
+
+48. H. Ruan, M. Jang, C. Yang, Optical focusing inside scattering media with time-reversed
+
+characterization with application to focusing light through turbid media. Opt. Express 20,
+1733–1740 (2012).
+
+20. E. N. Leith, J. Upatnieks, Holographic imagery through diffusing media. J. Opt. Soc. Am.
+
+56, 523 (1966).
+
+ultrasound microbubble encoded light. Nat. Commun. 6, 8968 (2015).
+
+49. B. F. Fosque, Y. Sun, H. Dana, C.-T. Yang, T. Ohyama, M. R. Tadross, R. Patel, M. Zlatic,
+
+D. S. Kim, M. B. Ahrens, V. Jayaraman, L. L. Looger, E. R. Schreiter, Labeling of active neural
+circuits in vivo with designed calcium integrators. Science 347, 755–760 (2015).
+
+21. M. Cui, C. Yang, Implementation of a digital optical phase conjugation system and its
+
+50. H. H. Yang, F. St-Pierre, Genetically encoded voltage indicators: Opportunities and
+
+application to study the robustness of turbidity suppression by phase conjugation.
+Opt. Express 18, 3444–3455 (2010).
+
+22. C.-L. Hsieh, Y. Pu, R. Grange, D. Psaltis, Digital phase conjugation of second harmonic
+
+radiation emitted by nanoparticles in turbid media. Opt. Express 18, 12283–12290
+(2010).
+
+23. T. R. Hillman, T. Yamauchi, W. Choi, R. R. Dasari, M. S. Feld, Y. K. Park, Z. Yaqoob,
+
+Digital optical phase conjugation for delivering two-dimensional images through turbid
+media. Sci. Rep. 3, 1909 (2013).
+
+24. Y. Shen, Y. Liu, C. Ma, L. V. Wang, Focusing light through biological tissue and
+
+tissue-mimicking phantoms up to 9.6 cm in thickness with digital optical phase
+conjugation. J. Biomed. Opt. 21, 085001 (2016).
+
+25. D. Wang, E. Haojiang Zhou, J. Brake, H. Ruan, M. Jang, C. Yang, Focusing through dynamic
+
+tissue with millisecond digital optical phase conjugation. Optica 2, 728–735 (2015).
+
+26. Y. Liu, P. Lai, C. Ma, X. Xu, A. A. Grabar, L. V. Wang, Optical focusing deep inside dynamic
+
+scattering media with near-infrared time-reversed ultrasonically encoded (TRUE) light.
+Nat. Commun. 6, 5904 (2015).
+
+27. Y. Liu, C. Ma, Y. Shen, J. Shi, L. V. Wang, Focusing light inside dynamic scattering media
+
+with millisecond digital optical phase conjugation. Optica 4, 280–288 (2017).
+
+28. C. Ma, F. Zhou, Y. Liu, L. V. Wang, Single-exposure optical focusing inside scattering media
+
+using binarized time-reversed adapted perturbation. Optica 2, 869–876 (2015).
+
+29. Y. Liu, C. Ma, Y. Shen, L. V. Wang, Bit-efficient, sub-millisecond wavefront measurement
+
+using a lock-in camera for time-reversal based optical focusing inside scattering
+media. Opt. Lett. 41, 1321–1324 (2016).
+
+30. M. Jang, H. Ruan, I. M. Vellekoop, B. Judkewitz, E. Chung, C. Yang, Relation between
+
+speckle decorrelation and optical phase conjugation (OPC)-based turbidity suppression
+through dynamic scattering media: A study on in vivo mouse skin. Biomed. Opt. Express 6,
+72–85 (2015).
+I. M. Vellekoop, M. Cui, C. Yang, Digital optical phase conjugation of fluorescence in
+turbid tissue. Appl. Phys. Lett. 101, 081108 (2012).
+I. M. Vellekoop, E. G. van Putten, A. Lagendijk, A. P. Mosk, Demixing light paths inside
+disordered metamaterials. Opt. Express 16, 67–80 (2008).
+
+31.
+
+32.
+
+33. N. Ji, D. E. Milkie, E. Betzig, Adaptive optics via pupil segmentation for high-resolution
+
+imaging in biological tissues. Nat. Methods 7, 141–147 (2010).
+
+34. J. Tang, R. N. Germain, M. Cui, Superpenetration optical microscopy by iterative
+multiphoton adaptive compensation technique. Proc. Natl. Acad. Sci. U.S.A. 109,
+8434–8439 (2012).
+
+challenges. J. Neurosci. 36, 9977–9989 (2016).
+
+51. E. S. Boyden, F. Zhang, E. Bamberg, G. Nagel, K. Deisseroth, Millisecond-timescale,
+
+genetically targeted optical control of neural activity. Nat. Neurosci. 8, 1263–1268 (2005).
+
+52. D. G. Ouzounov, T. Wang, M. Wang, D. D. Feng, N. G. Horton, J. C. Cruz-Hernández,
+
+Y.-T. Cheng, J. Reimer, A. S. Tolias, N. Nishimura, C. Xu, In vivo three-photon imaging of
+activity of GCaMP6-labeled neurons deep in intact mouse brain. Nat. Methods 14,
+388–390 (2017).
+
+53. J. P. Rickgauer, D. W. Tank, Two-photon excitation of channelrhodopsin-2 at saturation.
+
+Proc. Natl. Acad. Sci. U.S.A. 106, 15025–15030 (2009).
+
+54. B. K. Andrasfalvy, B. V. Zemelman, J. Tang, A. Vaziri, Two-photon single-cell optogenetic
+
+control of neuronal activity by sculpted light. Proc. Natl. Acad. Sci. U.S.A. 107,
+11981–11986 (2010).
+
+55. E. Papagiakoumou, F. Anselmi, A. Bègue, V. de Sars, J. Glückstad, E. Y. Isacoff, V. Emiliani,
+
+Scanless two-photon excitation of channelrhodopsin-2. Nat. Methods 7, 848–854 (2010).
+
+56. R. Prakash, O. Yizhar, B. Grewe, C. Ramakrishnan, N. Wang, I. Goshen, A. M. Packer,
+
+D. S. Peterka, R. Yuste, M. J. Schnitzer, K. Deisseroth, Two-photon optogenetic toolbox for fast
+inhibition, excitation and bistable modulation. Nat. Methods 9, 1171–1179 (2012).
+
+57. A. M. Packer, D. S. Peterka, J. J. Hirtz, R. Prakash, K. Deisseroth, R. Yuste, Two-photon
+
+optogenetics of dendritic spines and neural circuits. Nat. Methods 9, 1202–1205 (2012).
+
+58. F. Zhang, V. Gradinaru, A. R. Adamantidis, R. Durand, R. D. Airan, L. de Lecea, K. Deisseroth,
+
+Optogenetic interrogation of neural circuits: Technology for probing mammalian brain
+structures. Nat. Protoc. 5, 439–456 (2010).
+I. Yamaguchi, T. Zhang, Phase-shifting digital holography. Opt. Lett. 22, 1268–1270 (1997).
+
+59.
+60. H. Ruan, M. Jang, B. Judkewitz, C. Yang, Iterative time-reversed ultrasonically encoded
+
+light focusing in backscattering mode. Sci. Rep. 4, 7156 (2014).
+
+61. K. Si, R. Fiolka, M. Cui, Breaking the spatial resolution barrier via iterative sound-light
+
+interaction in deep tissue microscopy. Sci. Rep. 2, 748 (2012).
+
+62. Y. Suzuki, J. W. Tay, Q. Yang, L. V. Wang, Continuous scanning of a time-reversed
+
+ultrasonically encoded optical focus by reflection-mode digital phase conjugation.
+Opt. Lett. 39, 3441–3444 (2014).
+
+63. C. Xiao, J. R. Cho, C. Zhou, J. B. Treweek, K. Chan, S. L. McKinney, B. Yang, V. Gradinaru,
+
+Cholinergic mesopontine signals govern locomotion and reward through dissociable
+midbrain pathways. Neuron 90, 333–347 (2016).
+
+64. J. Ryan Cho, J. B. Treweek, J. Elliott Robinson, C. Xiao, L. R. Bremner, A. Greenbaum,
+
+V. Gradinaru, Dorsal raphe dopamine neurons modulate arousal and promote
+wakefulness by salient stimuli. Neuron 94, 1205–1219.e8 (2017).
+
+35. O. Katz, E. Small, Y. Guan, Y. Silberberg, Noninvasive nonlinear focusing and imaging
+
+65. C. K. Kim, S. J. Yang, N. Pichamoorthy, N. P. Young, I. Kauvar, J. H. Jennings, T. N. Lerner,
+
+36.
+
+through strongly scattering turbid layers. Optica 1, 170–174 (2014).
+I. N. Papadopoulos, J.-S. Jouhanneau, J. F. A. Poulet, B. Judkewitz, Scattering
+compensation by focus scanning holographic aberration probing (F-SHARP).
+Nat. Photonics 11, 116–123 (2017).
+
+37. E. H. Zhou, H. Ruan, C. Yang, B. Judkewitz, Focusing on moving targets through scattering
+
+samples. Optica 1, 227–232 (2014).
+
+A. Berndt, S. Y. Lee, C. Ramakrishnan, T. J. Davidson, M. Inoue, H. Bito, K. Deisseroth,
+Simultaneous fast measurement of circuit dynamics at multiple sites across the
+mammalian brain. Nat. Methods 13, 325–328 (2016).
+
+66. J. Y. Lin, P. M. Knutsen, A. Muller, D. Kleinfeld, R. Y. Tsien, ReaChR: A red-shifted variant of
+
+channelrhodopsin enables deep transcranial optogenetic excitation. Nat. Neurosci. 16,
+1499–1508 (2013).
+
+38. C. Ma, X. Xu, Y. Liu, L. V. Wang, Time-reversed adapted-perturbation (TRAP) optical
+
+67. M. Z. Lin, M. J. Schnitzer, Genetically encoded indicators of neuronal activity. Nat. Neurosci.
+
+focusing onto dynamic objects inside scattering media. Nat. Photonics 8, 931–936 (2014).
+
+19, 1142–1153 (2016).
+
+39. F. Kong, R. H. Silverman, L. Liu, P. V. Chitnis, K. K. Lee, Y. C. Chen, Photoacoustic-guided
+
+68. M. Jang, C. Yang, I. M. Vellekoop, Optical phase conjugation with less than a photon per
+
+convergence of light through optically diffusive media. Opt. Lett. 36, 2053–2055 (2011).
+
+degree of freedom. Phys. Rev. Lett. 118, 093902 (2017).
+
+40. A. M. Caravaca-Aguirre, D. B. Conkey, J. D. Dove, H. Ju, T. W. Murray, R. Piestun, High
+
+contrast three-dimensional photoacoustic imaging through scattering media by localized
+optical fluence enhancement. Opt. Express 21, 26671–26676 (2013).
+
+69. M. Jang, H. Ruan, B. Judkewitz, C. Yang, Model for estimating the penetration depth limit
+of the time-reversed ultrasonically encoded optical focusing technique. Opt. Express 22,
+5787–5807 (2014).
+
+41. T. Chaigne, O. Katz, A. C. Boccara, M. Fink, E. Bossy, S. Gigan, Controlling light in scattering
+
+70. A. S. Chuong, M. L. Miri, V. Busskamp, G. A. C. Matthews, L. C. Acker, A. T. Sørensen,
+
+media non-invasively using the photoacoustic transmission matrix. Nat. Photonics 8,
+58–64 (2014).
+
+42. P. Lai, L. Wang, J. W. Tay, L. V. Wang, Photoacoustically guided wavefront shaping for
+
+enhanced optical focusing in scattering media. Nat. Photonics 9, 126–132 (2015).
+
+A. Young, N. C. Klapoetke, M. A. Henninger, S. B. Kodandaramaiah, M. Ogawa,
+S. B. Ramanlal, R. C. Bandler, B. D. Allen, C. R. Forest, B. Y. Chow, X. Han, Y. Lin, K. M. Tye,
+B. Roska, J. A. Cardin, E. S. Boyden, Noninvasive optical inhibition with a red-shifted
+microbial rhodopsin. Nat. Neurosci. 17, 1123–1129 (2014).
+
+43. J. W. Tay, P. Lai, Y. Suzuki, L. V. Wang, Ultrasonically encoded wavefront shaping for
+
+71. A. A. Kaberniuk, A. A. Shemetov, V. V. Verkhusha, A bacterial phytochrome-based
+
+focusing into random media. Sci. Rep. 4, 3918 (2014).
+
+44. X. Xu, H. Liu, L. V. Wang, Time-reversed ultrasonically encoded optical focusing into
+
+scattering media. Nat. Photonics 5, 154–157 (2011).
+
+optogenetic system controllable with near-infrared light. Nat. Methods 13, 591–597
+(2016).
+
+72. J. Brake, M. Jang, C. Yang, Analyzing the relationship between decorrelation time and
+
+45. Y. M. Wang, B. Judkewitz, C. A. DiMarzio, C. Yang, Deep-tissue focal fluorescence imaging
+
+with digitally time-reversed ultrasound-encoded light. Nat. Commun. 3, 928 (2012).
+
+tissue thickness in acute rat brain slices using multispeckle diffusing wave spectroscopy.
+J. Opt. Soc. Am. A 33, 270–275 (2016).
+
+46. K. Si, R. Fiolka, M. Cui, Fluorescence imaging beyond the ballistic regime by ultrasound-
+
+73. A. Lev, B. Sfez, In vivo demonstration of the ultrasound-modulated light technique.
+
+pulse-guided digital phase conjugation. Nat. Photonics 6, 657–661 (2012).
+
+J. Opt. Soc. Am. A 20, 2347–2354 (2003).
+
+47. H. Ruan, T. Haber, Y. Liu, J. Brake, J. Kim, J. M. Berlin, C. Yang, Focusing light inside
+
+74. M. M. Qureshi, J. Brake, H.-J. Jeon, H. Ruan, Y. Liu, A. M. Safi, T. J. Eom, C. Yang, E. Chung,
+
+scattering media with magnetic-particle-guided wavefront shaping. Optica 4, 1337–1343
+(2017).
+
+In vivo study of optical speckle decorrelation time across depths in the mouse brain.
+Biomed. Opt. Express 8, 4855–4864 (2017).
+
+Ruan et al., Sci. Adv. 2017; 3 : eaao5520
+
+8 December 2017
+
+8 of 9
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+
+:
+/
+/
+
+a
+d
+v
+a
+n
+c
+e
+s
+.
+s
+c
+e
+n
+c
+e
+m
+a
+g
+
+i
+
+.
+
+o
+r
+g
+
+/
+ 
+
+ 
+
+o
+n
+D
+e
+c
+e
+m
+b
+e
+r
+ 
+
+9
+
+,
+ 
+
+2
+0
+1
+7
+
+S C I E N C E A D V A N C E S | R E S E A R C H A R T I C L E
+
+75. T. Laforest, A. Verdant, A. Dupret, S. Gigan, F. Ramaz, G. Tessier, Co-integration of a smart
+CMOS image sensor and a spatial light modulator for real-time optical phase modulation.
+Proc. SPIE 9022, 90220N (2014).
+
+76. M. Jang, H. Ruan, H. Zhou, B. Judkewitz, C. Yang, Method for auto-alignment of digital
+
+optical phase conjugation systems based on digital propagation. Opt. Express 22,
+14054–14071 (2014).
+
+77. H. Ruan, M. L. Mather, S. P. Morgan, Pulsed ultrasound modulated optical tomography
+
+with harmonic lock-in holography detection. J. Opt. Soc. Am. A 30, 1409–1416
+(2013).
+
+the work. H.R. designed the experimental setup. H.R., J.B., M.J., and Y.L. conducted the optical
+experiments. J.E.R., C.X., and C.Z. prepared the biological samples. J.E.R., J.B., C.X., and C.Z.
+conducted the electrophysiological recordings. H.R., J.B., Y.L., and J.E.R. analyzed the experimental
+data. V.G. and C.Y. supervised the project. All authors contributed to the manuscript preparation.
+Competing interests: C.Y. is an author on a patent related to this work (publication no.
+US9313423 B2, filed on 27 March 2013). The authors declare that they have no other competing
+interests. Data and materials availability: All data needed to evaluate the conclusions in the
+paper are present in the paper and/or the Supplementary Materials. Additional data related to this
+paper may be requested from the authors.
+
+Acknowledgments: We would like to thank B. Yang, L. Bremner, A. Shibukawa, and H. Deng
+for their assistance and helpful discussions. Funding: We would like to acknowledge
+support from the NIH (DP2OD007307 to C.Y., U01NS090577 to C.Y. and V.G., and F31EB021153
+to J.B.), the Gwangju Institute of Science and Technology–California Institute of Technology
+(Caltech) Collaborative Research Program (CG2012 to C.Y.), the Children’s Tumor Foundation
+(2016-01-006 to J.E.R.), the Donna and Benjamin M. Rosen Bioengineering Center (to J.B.),
+the Heritage Medical Research Institute (to V.G.), and the Tianqiao and Chrissy Chen Institute for
+Neuroscience at Caltech (to V.G.). Author contributions: H.R. and J.B. contributed equally to
+
+Submitted 2 August 2017
+Accepted 8 November 2017
+Published 8 December 2017
+10.1126/sciadv.aao5520
+
+Citation: H. Ruan, J. Brake, J. E. Robinson, Y. Liu, M. Jang, C. Xiao, C. Zhou, V. Gradinaru, C. Yang,
+Deep tissue optical focusing and optogenetic modulation with time-reversed ultrasonically
+encoded light. Sci. Adv. 3, eaao5520 (2017).
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+
+:
+/
+/
+
+a
+d
+v
+a
+n
+c
+e
+s
+.
+s
+c
+e
+n
+c
+e
+m
+a
+g
+
+i
+
+.
+
+o
+r
+g
+
+/
+ 
+
+ 
+
+o
+n
+D
+e
+c
+e
+m
+b
+e
+r
+ 
+
+9
+
+,
+ 
+
+2
+0
+1
+7
+
+Ruan et al., Sci. Adv. 2017; 3 : eaao5520
+
+8 December 2017
+
+9 of 9
+
+Deep tissue optical focusing and optogenetic modulation with time-reversed ultrasonically
+encoded light
+Haowen Ruan, Joshua Brake, J. Elliott Robinson, Yan Liu, Mooseok Jang, Cheng Xiao, Chunyi Zhou, Viviana Gradinaru and
+Changhuei Yang
+
+Sci Adv 
+DOI: 10.1126/sciadv.aao5520
+
+ (12), eaao5520.
+
+3
+
+ARTICLE TOOLS
+
+http://advances.sciencemag.org/content/3/12/eaao5520
+
+SUPPLEMENTARY 
+MATERIALS
+
+http://advances.sciencemag.org/content/suppl/2017/12/04/3.12.eaao5520.DC1
+
+REFERENCES
+
+This article cites 77 articles, 6 of which you can access for free
+http://advances.sciencemag.org/content/3/12/eaao5520#BIBL
+
+PERMISSIONS
+
+http://www.sciencemag.org/help/reprints-and-permissions
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+
+:
+/
+/
+
+a
+d
+v
+a
+n
+c
+e
+s
+.
+s
+c
+e
+n
+c
+e
+m
+a
+g
+
+i
+
+.
+
+o
+r
+g
+
+/
+ 
+
+ 
+
+o
+n
+D
+e
+c
+e
+m
+b
+e
+r
+ 
+
+9
+
+,
+ 
+
+2
+0
+1
+7
+
+Use of this article is subject to the 
+
+Terms of Service
+
+(ISSN 2375-2548) is published by the American Association for the Advancement of Science, 1200 New
+
+Science Advances 
+York Avenue NW, Washington, DC 20005. 2017 © The Authors, some rights reserved; exclusive licensee American 
+Association for the Advancement of Science. No claim to original U.S. Government Works. The title 
+registered trademark of AAAS.
+
+Science Advances 
+
+is a
+
+

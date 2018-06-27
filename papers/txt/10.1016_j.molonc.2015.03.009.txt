@@ -1,0 +1,1242 @@
+M O L E C U L A R O N C O L O G Y X X X ( 2 0 1 5 ) 1 e1 2
+
+a v a i l a b l e a t w w w . s c i e n c e d i r e c t . c o m
+
+ScienceDirect
+
+w w w . e l s e v i e r . c o m / l o c a t e / m o l o n c
+
+Preclinical validation of anti-nuclear factor-kappa B therapy
+to inhibit human vestibular schwannoma growth
+
+Sonam Dilwalia,b, Martijn C. Bri€eta,d, Shyan-Yuan Kaoa, Takeshi Fujitaa,c,
+Lukas D. Landeggera,c, Michael P. Plattc,e, Konstantina M. Stankovica,b,c,*
+aEaton Peabody Laboratories, Department of Otolaryngology, 243 Charles Street, Massachusetts Eye and Ear
+Inﬁrmary, Boston, MA 02114, USA
+bHarvard-MIT Program in Speech and Hearing Bioscience and Technology, 77 Massachusetts Avenue, Cambridge,
+MA 02139, USA
+cDepartment of Otology and Laryngology, Harvard Medical School, 25 Shattuck Street, Boston, MA 02115, USA
+dDepartment of Otorhinolaryngology, Leiden University Medical Centre, Albinusdreef 2, 2333 ZA, Leiden,
+The Netherlands
+eDepartment of Otolaryngology-Head and Neck Surgery, Boston University, 72 E Concord Street, Boston,
+MA 02118, USA
+
+A R T I C L E
+
+I N F O
+
+A B S T R A C T
+
+Article history:
+Received 12 August 2014
+Received in revised form
+22 February 2015
+Accepted 23 March 2015
+Available online -
+
+Keywords:
+Vestibular schwannoma
+Network analysis
+NF-kB
+TNF
+BAY 11-7082
+Curcumin
+
+Vestibular schwannomas (VSs), the most common tumors of the cerebellopontine angle,
+arise from Schwann cells lining the vestibular nerve. Pharmacotherapies against VS are
+almost non-existent. Although the therapeutic inhibition of inﬂammatory modulators
+has been established for other neoplasms, it has not been explored in VS. A bioinformatic
+network analysis of all genes reported to be differentially expressed in human VS revealed
+a pro-inﬂammatory transcription factor nuclear factor-kappa B (NF-kB) as a central mole-
+cule in VS pathobiology. Assessed at the transcriptional and translational level, canonical
+NF-kB complex was aberrantly activated in human VS and derived VS cultures in compar-
+ison to control nerves and Schwann cells, respectively. Cultured primary VS cells and VS-
+derived human cell line HEI-193 were treated with speciﬁc NF-kB siRNAs, experimental NF-
+kB inhibitor BAY11-7082 (BAY11) and clinically relevant NF-kB inhibitor curcumin. Healthy
+human control Schwann cells from the great auricular nerve were also treated with BAY11
+and curcumin to assess toxicity. All three treatments signiﬁcantly reduced proliferation in
+primary VS cultures and HEI-193 cells, with siRNA, 5 mM BAY11 and 50 mM curcumin
+reducing average proliferation (standard error of mean)
+to 62.33%  10.59%,
+14.3  9.7%, and 23.0  20.9% of control primary VS cells, respectively. These treatments
+also induced substantial cell death. Curcumin, unlike BAY11, also affected primary
+Schwann cells. This work highlights NF-kB as a key modulator in VS cell proliferation
+and survival and demonstrates therapeutic efﬁcacy of directly targeting NF-kB in VS.
+ª 2015 Federation of European Biochemical Societies. Published by Elsevier B.V. All rights
+reserved.
+
+Abbreviations: BAY11, BAY 11-7082; GAN, great auricular nerve; IkBa, inhibitor of kappa B alpha; Ikk, inhibitor of kappa B alpha kinase;
+NF-kB, nuclear factor-kappa B; SC, Schwann cell; TNF, tumor necrosis factor; VS, vestibular schwannoma.
+* Corresponding author. 243 Charles St., Boston, MA 02114, USA. Tel.: þ1 617 573 3972; fax: þ1 617 720 4408.
+E-mail addresses: sdilwaliutsw@gmail.com (S. Dilwali), martijnbriet@gmail.com (M.C. Bri€et), Shyan-Yuan_Kao@meei.harvard.edu
+(S.-Y. Kao), takeshi_fujita@meei.harvard.edu (T. Fujita), Lukas_landegger@meei.harvard.edu (L.D. Landegger), Michael.Platt@bmc.org
+(M.P. Platt), konstantina_stankovic@meei.harvard.edu (K.M. Stankovic).
+http://dx.doi.org/10.1016/j.molonc.2015.03.009
+1574-7891/ª 2015 Federation of European Biochemical Societies. Published by Elsevier B.V. All rights reserved.
+
+Please cite this article in press as: Dilwali, S., et al., Preclinical validation of anti-nuclear factor-kappa B therapy to inhibit
+human vestibular schwannoma growth, Molecular Oncology (2015), http://dx.doi.org/10.1016/j.molonc.2015.03.009
+
+2
+
+M O L E C U L A R O N C O L O G Y X X X ( 2 0 1 5 ) 1 e1 2
+
+1.
+
+Introduction
+
+surgical
+
+resection and stereotactic
+
+Vestibular schwannomas (VSs) are the fourth most common
+intracranial tumors (Mahaley et al., 1990). Although histolog-
+ically non-malignant, they can cause multiple cranial neu-
+ropathies and even death due to their location in the
+cerebellopontine angle and potential for brainstem compres-
+sion. Currently, main treatment modalities for growing VSs
+are
+radiotherapy.
+Although interest
+in pharmacotherapies against VS is
+increasing (Plotkin et al., 2012), none are FDA approved.
+This is partially because drugs such as bevacizumab, which
+shrink some VSs, have substantial side effects, including
+renal
+failure, which may outweigh potential beneﬁts
+(Plotkin et al., 2012). Therefore, there is an unmet medical
+need to establish well-tolerated pharmacotherapies to pre-
+vent VS growth. Although much is known about the different
+pathways implicated in VS pathobiology, the interconnec-
+tedness among these pathways has not been studied
+extensively.
+
+To identify the major orchestrators of VS growth, we con-
+ducted the ﬁrst comprehensive network analysis of the pub-
+lished genes aberrantly expressed in sporadic VS. Nuclear
+factor-kappa B (NF-kB), a transcription factor known for medi-
+ating the physiological inﬂammatory response and pathologic
+inﬂammation in several diseases, including neoplastic growth
+(Hoesel and Schmid, 2013), was identiﬁed as a central factor in
+a top-ranking network. Although NF-kB has been connected to
+other molecules in VS, NF-kB activation and the accompa-
+nying inﬂammation have not been directly explored as thera-
+peutic targets against sporadic VS. However,
+level of
+inﬁltration of CD163þ tumor-associated macrophages, known
+to pathologically promote tumor growth and survival, corre-
+lates with human VS growth rate, motivating research to
+investigate the inﬂammatory pathways that may promote
+VS growth (de Vries et al., 2013).
+
+NF-kB can regulate the transcription of over 300 down-
+stream genes, resulting in differential
+inﬂuences on cell
+growth, proliferation and survival depending on the stimulus
+(Gilmore, 2014). NF-kB’s therapeutic inhibition has been inves-
+tigated in several cancers because of its role in pathological
+inﬂammation accompanying neoplastic growth (Hoesel and
+Schmid, 2013). NF-kB is especially relevant for VS since merlin,
+the protein encoded by the NF2 gene, acts as a negative regu-
+lator of the NF-kB pathway (Kim et al., 2002) and merlin is
+dysfunctional in majority of VSs (Lee et al., 2012a,b). Addition-
+ally, Axl, a member of the TAM family of receptor tyrosine ki-
+nases, regulates overexpression of survivin and cyclin D1
+through NF-kB,
+leading to enhanced survival, cell-matrix
+adhesion and proliferation of cultured VS cells (Ammoun
+et al., 2013). NF-kB also regulates p75-associated VS prolifera-
+tion and apoptosis (Ahmad et al., 2014).
+
+We investigated NF-kB’s aberrance in human VS and the
+therapeutic potential of NF-kB inhibition. Our results sug-
+gest that the NF-kB pathway is aberrantly activated in VS
+and VS-derived cultures compared to healthy nerves and
+SCs, respectively. NF-kB inhibition in primary VS cells and
+a VS-derived human cell line using NF-kB siRNA, an experi-
+mental NF-kB inhibitor BAY 11-7082 (BAY11) and a clinically
+
+relevant inhibitor curcumin decreased proliferation and
+survival of the tumor cells. Our work provides novel insight
+into NF-kB’s expression and role in VS pathobiology and
+demonstrates therapeutic efﬁcacy of directly targeting NF-
+kB in VS.
+
+2.
+
+Materials and methods
+
+2.1.
+
+Ingenuity Pathway Analysis
+
+assay,
+
+enzyme-linked
+
+immunosorbent
+
+A literature search was performed with PubMed using MeSH
+terms neuroma, acoustic, proteins, genes, gene expression,
+gene expression regulation, gene expression proﬁling, micorar-
+ray analysis, DNA mutational analysis, immunohistochem-
+istry,
+tumor
+suppressor proteins, DNA and RNA. Only human studies with
+relevant controls and explicit description of statistical criteria
+were selected. Differentially expressed molecules were
+analyzed on April 14th 2011 using Ingenuity Pathway Analysis
+(IPA, Ingenuity Systems, Inc.) version 9.0, while setting a cutoff
+value to 2. Molecules reported to be up- or down-regulated
+qualitatively were assigned a value 2 or  2, respectively. To
+avoid a bias toward molecules with extreme differential
+expression, the absolute maximal value for fold change was
+set to 100 for molecules with a greater change. The maximal
+number of molecules per network was 35. The most intercon-
+nected molecule in each network is known as the hub.
+
+2.2.
+
+Specimen collection
+
+Freshly harvested human specimens of sporadic VS and con-
+trol great auricular nerve (GAN) were collected from indicated
+surgeries, placed in saline and transported to the laboratory
+on ice. The study protocols were approved by Human Studies
+Committee of Massachusetts General Hospital and Massachu-
+setts Eye and Ear Inﬁrmary, and conducted in accordance with
+the Helsinki Declaration.
+
+2.3.
+
+Real time quantitative polymerase chain reaction
+
+Expression of genes in the NF-kB pathway was measured us-
+ing real time quantitative PCR (qPCR). Human VS or GAN tis-
+sue was placed in RNA Later (Qiagen) temporarily. RNA was
+extracted using RNeasy Mini-Kit
+(Qiagen) and reverse-
+transcribed to cDNA with Taqman Reverse Transcription Re-
+agent kit
+(Applied Biosystems), as previously described
+(Stankovic et al., 2009). qPCR was performed using Applied
+Biosystems 7700 Sequence Detection System with TaqMan
+Primers (Applied Biosystems) for NFKB1 (encoding p50 subunit
+of the NF-kB heterodimer, Hs01042010_m1), RELA (encoding
+p65 subunit of the NF-kB heterodimer required for activation,
+Hs01042010_m1), TNF (encoding tumor necrosis factor, an
+inducer for NF-kB, Hs01042010_m1), RANK (encoding receptor
+activator of nuclear factor-kappa B, Hs00187192_m1), NFKB2
+RELB
+(Hs01028901_g1),
+(Hs00232399_m1) and for downstream genes with kB sites,
+namely CCND1 (encoding cyclin D1, Hs00765553_m1), BCL2
+lymphoma 2, Hs00608023_m1), CSF2
+(encoding B-cell
+
+(Hs00968440_m1),
+
+and
+
+REL
+
+Please cite this article in press as: Dilwali, S., et al., Preclinical validation of anti-nuclear factor-kappa B therapy to inhibit
+human vestibular schwannoma growth, Molecular Oncology (2015), http://dx.doi.org/10.1016/j.molonc.2015.03.009
+
+M O L E C U L A R O N C O L O G Y X X X ( 2 0 1 5 ) 1 e1 2
+
+3
+
+(encoding
+
+(encoding colony stimulating factor 2, Hs00929873_m1), and
+XIAP
+apoptosis,
+Hs00745222_s1). The reference gene was ribosomal RNA 18S
+(Hs9999901_s1).
+
+inhibitor
+
+X-linked
+
+of
+
+2.4.
+
+Protein extraction and quantiﬁcation
+
+
+
+Translation and activation of the NF-kB pathway components
+were investigated through western blot analysis. Total protein
+was extracted on ice from freshly harvested specimens of VS
+and GAN in RIPA buffer supplemented with protease and
+phosphatase inhibitors (Roche Applied Sciences). The lysate
+was isolated by centrifugation and stored at  80
+C. Equal pro-
+tein was loaded per lane, separated on a 4e20% Tris-glycine
+gel (Invitrogen) and transferred onto a Polyvinylidene ﬂuoride
+membrane (Millipore). The membrane was blocked and
+probed with Cell Signaling Technology antibodies against
+NF-kB phosphorylated (P-) p65 (#3033), NF-kB p65 (#8242), in-
+hibitor of kappa B alpha (IkBa, #11930) or NF-kB p50 (Abcam,
+#ab7971), followed by secondary antibodies (Jackson-Immuno
+Research). Membranes were visualized with ChemiDoc XRSþ
+(Bio-Rad Laboratories). Band densities were quantiﬁed using
+ImageJ and normalized to GAPDH expression (Cell Signaling
+Technology, #5174).
+
+2.5.
+
+Immunohistochemistry
+
+Human VS and GAN specimens were ﬁxed in 4% PFA, trans-
+ferred to PBS, embedded in parafﬁn, sectioned, deparafﬁnized
+with xylene, washed in PBS, permeabilized with Triton-X 100
+(Integra) for 5 min, blocked in normal horse serum and incu-
+bated with primary antibodies against S100 (Dako, #Z0311)
+or p50 (Abcam, #ab7971) and corresponding ﬂuorescent sec-
+ondary antibodies (Jackson-Immuno Research). Nuclei were
+labeled with Hoechst stain (Invitrogen). The tissue was visual-
+ized and imaged using Carl Zeiss 2000 upright microscope.
+
+Primary human Schwann cell and vestibular
+
+2.6.
+schwannoma cell culture
+
+Using sterile technique, freshly harvested VS or GAN tissue
+was rinsed in PBS, dissected in culture medium consisting of
+Dulbecco’s Modiﬁed Eagle’s medium with Ham’s F12 mixture
+(DMEM/F12), 10% fetal bovine serum, 1% Penicillin/Strepto-
+mycin (Pen/Strep) and 1% GlutaMAX, dissociated in Hyaluron-
+idase and Collagenase (all from Life Technologies) overnight
+and cultured for 2e4 weeks, as previously described (Dilwali
+et al., 2014). Human VS cell line HEI-193, derived from a patient
+with neuroﬁbromatosis type 2 (NF2), was obtained from Dr.
+Giovanni at the House Ear Institute (Hung et al., 2002a,b).
+
+from Life Technologies). The vehicle used for siRNA delivery
+was RNAiMax (#13778030, Life Technologies). Some cultures
+were incubated with a ﬂuorescent red oligo (Life Technologies)
+with vehicle to assess transfection efﬁciency.
+
+For pharmacologic treatment, cultured primary VS cells,
+primary SCs and HEI-193 cells were treated for 48 h with NF-
+kB inhibitors BAY 11-7082 (BAY11, #sc-200615) or curcumin
+(#sc-200509A)
+(both purchased from Santa Cruz Biotech-
+nology) in media fortiﬁed with antibiotics and serum. BAY11
+or curcumin, diluted in 100% DMSO, were mixed to the accu-
+rate concentrations in media and applied to the cultures
+(with DMSO concentration in media being 1% maximum),
+alongside no treatment (NT) with DMSO alone.
+
+2.8.
+
+Quantiﬁcation of proliferation and apoptosis
+
+0
+
+
+
+After treatment, proliferation or apoptosis was assessed as
+previously detailed (Dilwali et al., 2014). Brieﬂy, cell prolifera-
+-Deoxyuridine
+tion was quantiﬁed by adding 5-Bromo-2
+(BrdU, Invitrogen) to the cultured cells 20 h prior to ﬁxation.
+Primary antibodies against BrdU (AbD Serotec, #OBT0030G),
+S100 (Dako, #Z031129), or p50 (Abcam, #ab7971) were used.
+For assessing apoptosis, terminal deoxynucleotidyl trans-
+ferase dUTP nick end labeling (TUNEL, Roche Applied Sci-
+C and 0.5 h at RT on the
+ences) was applied for 1 h at 37
+shaker after ﬁxation and permeabilization. Cells were counted
+by an investigator (S.D.) blinded to the treatment conditions.
+Cells were counted in 3 ﬁelds. Cell proliferation and
+apoptosis were reported as percent BrdU positive and TUNEL
+positive nuclei, respectively. As a validation for TUNEL stain-
+ing, apoptosis was also assessed using immunocytochemistry
+by the expression of cleaved caspase-3 in cells treated with
+siRNA or curcumin. Antibody against cleaved caspase-3 (Cell
+Signaling Technology, #9661) was utilized. The inhibitors
+were compared to the control group by normalizing the
+percent change in proliferation or percent of apoptosis in
+comparison to the non-treated cells.
+
+2.9.
+
+Electrophoretic mobility shift assay (gel shift assay)
+
+The gel shift assay was performed using the LightShift Chemi-
+luminescent EMSA Kit (Thermo Scientiﬁc, #20148) according
+to the manufacturer’s manual. The 6% DNA retardation gels
+and biotin labeled NF-kB binding site oligos (sense: 5
+-AGTT-
+0
+0
+-
+GAGGGGACTTTCCCAGGC-biotin-3
+0
+), and non-labeled
+TCAACTCCCCTGAAAGGGTCCG-biotin-3
+oligos were purchased from Invitrogen. The nuclear extract
+of VS tumors and control GAN tissues were puriﬁed using
+the Nuclear Extraction Kit (Abcam, #ab113474).
+
+anti-sense:
+
+and
+
+5
+
+0
+
+Pharmacologic treatment of VS cultures with BAY
+
+2.7.
+11-7082, curcumin and siRNA
+
+2.10.
+
+Statistical analyses
+
+For siRNA treatment, cultured primary VS cells or HEI-193
+cells were placed in antibiotic- and serum-free media over-
+night as instructed by manufacturer. The next day, the cells
+were incubated with siRNAs targeting NF-kB genes RELA
+(#s11915) and NFKB1 (#s9504), with control cells being treated
+with scrambled siRNA (#TR30015), for 5 days (all purchased
+
+Networks from IPA were statistically analyzed with the right-
+tailed Fisher’s exact test; p < 0.05 was considered signiﬁcant.
+For qPCR, western blot and treatment of cultured cells, two-
+tailed t-test was used to assess signiﬁcance with a p < 0.05
+considered signiﬁcant after a Benjamini-Hochberg correction
+for multiple hypotheses.
+
+Please cite this article in press as: Dilwali, S., et al., Preclinical validation of anti-nuclear factor-kappa B therapy to inhibit
+human vestibular schwannoma growth, Molecular Oncology (2015), http://dx.doi.org/10.1016/j.molonc.2015.03.009
+
+4
+
+M O L E C U L A R O N C O L O G Y X X X ( 2 0 1 5 ) 1 e1 2
+
+3.
+
+Results
+
+Network analysis reveals nuclear factor-kappa B
+
+3.1.
+(NF-kB) as a central modulator of VS growth
+
+Of the 622 articles identiﬁed, 19 met our inclusion criteria
+(Aarhus et al., 2010; Archibald et al., 2010; Bian et al., 2005;
+Caye-Thomasen et al., 2010; Ciofﬁ et al., 2010; Dayalan et al.,
+2006; Doherty et al., 2008; Kramer et al., 2010; Lassaletta
+et al., 2009; O’Reilly et al., 2004; Patel et al., 2008; Plotkin
+et al., 2009; Sawaya and Highsmith, 1988; Saydam et al.,
+2011; Seol et al., 2005; Stankovic et al., 2009; Szeremeta et al.,
+1995; Thomas et al., 2005; Welling et al., 2002), generating
+221 molecules eligible for network analysis: 162 overexpressed
+and 59 underexpressed molecules in sporadic VS. IPA gener-
+ated a total of 19 networks. Supplementary Table S1 shows
+the hubs of the top 14 networks. Here we focus on validation
+
+of the hub of the second most signiﬁcant network (p ¼ 10
+ 33,
+Figure 1). We focus on NF-kB because it is a key pro-
+inﬂammatory transcription factor that could be an important
+therapeutic target in VS (Ammoun et al., 2013), and TNFa, an
+inducer of NF-kB, was the hub of another top-ranking network
+(Supplementary Table S1).
+
+Vestibular schwannomas have aberrant expression
+
+3.2.
+and activation of the canonical NF-kB pathway
+
+The canonical and non-canonical NF-kB pathways were inves-
+tigated in VS compared to GAN using qPCR, western blot and
+immunohistochemistry. The qPCR data are expressed as the
+average with range of expression in parentheses and “n” indi-
+cating the number of different tumors or control nerves. In the
+canonical pathway, expression of genes NFKB1 (encoding the
+p50 subunit) and RELA (encoding the p65 subunit) tended to
+
+L33) that connects molecules reported to be upregulated (green) or downregulated (red) in VS with
+Figure 1 e A highly signiﬁcant network (p [ 10
+other molecules from IPA (white). The hub of this network is nuclear factor-kappa B (NF-kB) complex. Solid lines represent direct and dashed
+lines represent indirect interactions.
+
+Please cite this article in press as: Dilwali, S., et al., Preclinical validation of anti-nuclear factor-kappa B therapy to inhibit
+human vestibular schwannoma growth, Molecular Oncology (2015), http://dx.doi.org/10.1016/j.molonc.2015.03.009
+
+M O L E C U L A R O N C O L O G Y X X X ( 2 0 1 5 ) 1 e1 2
+
+5
+
+Figure 2 e NF-kB is aberrantly activated in VS. A. NF-kB pathway expression in human VSs (n ‡ 9 tumors) versus GANs (n ‡ 8 nerves) as
+measured through qPCR. Dashed lines separate genes by groups, being genes associated with canonical NF-kB pathway, non-canonical NF-kB
+pathway and downstream targets of NF-kB. Error bars represent range. B. NF-kB pathway expression in human VSs (n ‡ 4) versus GANs (n ‡ 4)
+as quantiﬁed through western blot analysis. P-means phosphorylated protein. Dashed line separates canonical and non-canonical proteins. Error
+bars represent SD. C. Representative images of p50 expression (red), as visualized through immunohistochemistry, in (a) VS and (b) GAN
+specimens. Schwann or schwannoma cells are labeled with S100 (green). D. Representative image of CD163 expression (red), schwannoma cells
+(S100, green). GAN and VS expression is shown in black and gray bars, respectively (A, B). *p < 0.05, **p < 0.01. Nuclei are labeled with Hoechst
+(blue) in (C, D). E. Gel shift results show interaction between nuclear extracts of GAN tissue (pooled from 6 different patients, lanes 2e3) or VS
+tissue (pooled from 4 different patients, lanes 5e6) with the NF-kB binding site. The interaction could be disrupted in VS nuclear extracts by
+adding excessive unlabeled NF-kB binding site (lane 6).
+
+be higher in VSs (n ¼ 10) compared to GANs (n ¼ 10), albeit not
+signiﬁcantly, with p ¼ 0.18 and 0.17, respectively (Figure 2A).
+Non-canonical components REL, RELB and NFKB2 exhibited
+different patterns of expression. REL was 3.1 (1.0e9.4) fold
+higher in VSs (n ¼ 13) than in GANs (n ¼ 10) (p ¼ 0.01,
+Figure 2A). NFKB2 had the same average expression in VSs
+
+as GANs (p ¼ 0.22, Figure 2A). Interestingly, RELB was 0.4
+(0.2e1.0) fold downregulated in VSs (n ¼ 13) compared to
+GANs (range 0.5e2.1, n ¼ 10) (p ¼ 0.02, Figure 2A).
+
+Exploring the downstream genes with kB binding sites by
+qPCR, two genes under canonical NF-kB control were signiﬁ-
+cantly upregulated in VSs (n ¼ 15) relative to GANs (n ¼ 15):
+
+Please cite this article in press as: Dilwali, S., et al., Preclinical validation of anti-nuclear factor-kappa B therapy to inhibit
+human vestibular schwannoma growth, Molecular Oncology (2015), http://dx.doi.org/10.1016/j.molonc.2015.03.009
+
+6
+
+M O L E C U L A R O N C O L O G Y X X X ( 2 0 1 5 ) 1 e1 2
+
+pro-proliferative CCND1 at 8.1 (5.7e11.5) fold (p ¼ 0.0007) and
+anti-apoptotic BCL2 at 4.9 (3.3e7.1) fold (p ¼ 0.02, Figure 2A).
+The ranges in GAN were 0.7e1.4 and 0.8e1.3 for CCND1 and
+BCL2, respectively. Anti-apoptotic XIAP was equally expressed
+in VSs (n ¼ 12) and GANs (n ¼ 7) (p ¼ 0.18, Figure 2A). Pro-
+proliferative CSF2 tended to be downregulated, albeit not
+signiﬁcantly (p ¼ 0.11, Figure 2A), in VSs (n ¼ 9) compared to
+GANs (n ¼ 7).
+
+Upstream regulator of the canonical NF-kB pathway, gene
+TNF encoding TNFa, was expressed at 11.7 (7.9e17.4) fold
+higher levels in VSs (n ¼ 10) than in GANs (range 0.7e1.5,
+n ¼ 10) (p ¼ 0.003, Figure 2A). Upstream regulator of the non-
+canonical NF-kB pathway, RANKL gene TNFS11 tended to be
+downregulated in VSs (n ¼ 10) than in GANs (n ¼ 10), although
+not signiﬁcantly (p ¼ 0.20, Figure 2A).
+
+Following qPCR, NF-kB translation and activation were
+assessed. Western blot analysis revealed that NF-kB canonical
+pathway was substantially activated in VSs compared to
+GANs. TNFa activates inhibitor of kappa B kinase (Ikk), which
+phosphorylates inhibitor of kappa B alpha (IkBa), enabling the
+heterodimer of NF-kB p65 and p50 to phosphorylate and relo-
+cate to the nucleus to promote transcription of genes impor-
+tant for survival and proliferation (Karin, 1999). Western blot
+data are summarized as average fold change  standard devi-
+ation, with “n” indicating the number of different tumors or
+nerves. The representative western blot results are shown in
+Supplementary Figure S1 and the statistical results are shown
+in Figure 2B. The internal control protein, GAPDH, was not
+signiﬁcantly different between VSs and GANs (p ¼ 0.36). NF-
+kB p65 (encoded by the RELA gene) and p105 (encoded by the
+NFKB1 gene) had an insigniﬁcant trend of being more abun-
+dant in VSs (n ¼ 7e10) than in GANs (n ¼ 7e9), with p ¼ 0.09
+and ¼ 0.14, respectively (Figure 2B). The phosphorylated
+form of p65 was 4.2  3.1 fold more expressed in VSs (n ¼ 9)
+compared to GANs (n ¼ 8, p ¼ 0.03, Figure 2B). p105’s derived
+subunit p50 likewise showed tendency for higher expression,
+albeit non-signiﬁcant, in VSs (n ¼ 15) compared to GANs
+(n ¼ 11, p ¼ 0.10, Figure 2B). NF-kB’s canonical inducer,
+TNFa, was 5.4  0.7 fold more abundant in VS (n ¼ 4) than in
+GAN (n ¼ 4, p ¼ 0.001, Figure 2B), demonstrating the same
+trend as seen through qPCR. The phosphorylated form of
+IkBa was also 2.8  0.8 fold higher in VSs (n ¼ 4) than in
+GANs (n ¼ 4, p ¼ 0.01, Figure 2B).
+
+The expression of NF-kB non-canonical proteins c-Rel
+(encoded by REL gene) and p100 (encoded by NFKB2 gene)
+mirrored the corresponding mRNA expression: c-Rel was
+3.6  0.8 fold more expressed in VSs (n ¼ 7) than in GANs
+(n ¼ 7, p ¼ 0.003, Figure 2B). p100 was not different in VSs
+(n ¼ 4) compared to GANs (n ¼ 4, p ¼ 0.42, Figure 2B). Interest-
+ingly, expression of Rel B protein (encoded by RELB) was
+signiﬁcantly, 3.3  1fold higher in VSs (n ¼ 7) than in GANs
+(n ¼ 7, p ¼ 0.006), demonstrating the opposite trend from the
+corresponding mRNA. Taken together, these results demon-
+strate presence and basal activation of NF-kB in GANs and
+VSs, and consistently higher activation of the canonical NF-
+kB pathway in VSs.
+
+Immunohistochemistry in 5 different VS and 4 different
+GAN samples veriﬁed that NF-kB was active in VS as the
+p50 subunit
+in VS specimens
+(Figure 2C (b)), thus corroborating the western blot results
+
+localized to the nuclei
+
+demonstrating a higher level of phosphorylation, and hence
+activation of NF-kB in VSs. GAN specimens showed minimal
+p50 nuclear localization although p50 was present in the cyto-
+plasm (Figure 2C (a)). S100, a marker for SCs, highlights
+schwannoma cells in VS specimens and SCs encasing the
+nerve ﬁbrils in GANs (Figure 2C (a)). Additionally, CD163-
+positive tumor-associated macrophages were present in the
+same VSs at substantially higher levels than in GANs
+(Figure 2D), indicating an aberrant inﬂammatory presence in
+VS as described previously (de Vries et al., 2013). Taken
+together, our results demonstrating activation of p50 and
+several other proteins associated with NF-kB in VS expand
+on the previous ﬁnding of p65 activation in VS cells
+(Ammoun et al., 2013).
+
+To further conﬁrm the activation of the NF-kB pathway in
+VS tissues, the gel shift assay was performed and the DNA
+binding activities in VS tissues and GAN tissues were
+compared. To provide enough nuclear extracts for the assay,
+VS tissues were pooled from 4 patients and GAN tissues
+were pooled from 6 patients. The binding of NF-kB p65-p50
+heterodimer to its binding site was avid in the VS nuclear
+extract and not detectable in the GAN nuclear extract
+(Figure 2E). The interaction in the VS nuclear extract could
+be blocked by adding the excess non-labeled oligos containing
+the NF-kB binding site (Figure 2E, lane 6). These results indi-
+cate that the NF-kB activity was speciﬁcally elevated in VS
+tissues.
+
+Speciﬁc NF-kB knockdown decreases proliferation
+
+3.3.
+and survival of VS cultured cells
+
+The NF-kB canonical pathway was also expressed and acti-
+vated at signiﬁcantly higher levels in primary VS cultures
+(n ¼ 6 different tumors) compared to SC cultures (n ¼ 6
+different nerves) (Figure 3A). NF-kB p65 and its phosphory-
+lated form had 1.9  0.4 fold (p ¼ 0.01) and 2.8  0.4 fold
+(p ¼ 0.02) higher expression in VS cells compared to SCs,
+respectively. NF-kB p105 and its derived subunit p50 were pre-
+sent in cultures, although not at signiﬁcantly higher levels
+than in SCs (p ¼ 1.0 and p ¼ 0.06, respectively, Figure 3A).
+
+Applying siRNAs targeting RELA and NFKB1 concurrently
+decreased proliferation, as measured by nuclear BrdU stain-
+ing, and cell survival, as measured by the TUNEL assay. Re-
+sults are summarized as average  standard error of mean
+(SEM), with “n” referring to the number of cultures from
+different specimens. Proliferation changes are normalized to
+each culture’s proliferation rate. Transfection efﬁciency of
+approximately 94  3% was achieved in primary VS cells
+(n ¼ 3), as assessed by transfection of a ﬂuorescent red-
+labeled oligo (Figure 3B). The siRNA-mediated knockdown of
+NFKB1 and RELA in VS cells was detected using western blot
+and the results are shown in Supplementary Figures S2A
+and S2B, respectively. Basal proliferation in VS cultures
+treated with scrambled siRNA was 6.5%  2.6% (n ¼ 4,
+Figure 3C (a), D). Proliferation signiﬁcantly decreased to
+62.33%  10.59% after siRNA treatment (n ¼ 4, p ¼ 0.025,
+Figure 3C (b), D). Percentage of VS cells treated with scrambled
+siRNA only exhibiting TUNEL staining was 8.59%  4.92%
+(n ¼ 3, Figure 3E (a), F). Apoptosis tended to increase, although
+insigniﬁcantly, to 27.54%  20.53% in VS cultures treated with
+
+Please cite this article in press as: Dilwali, S., et al., Preclinical validation of anti-nuclear factor-kappa B therapy to inhibit
+human vestibular schwannoma growth, Molecular Oncology (2015), http://dx.doi.org/10.1016/j.molonc.2015.03.009
+
+M O L E C U L A R O N C O L O G Y X X X ( 2 0 1 5 ) 1 e1 2
+
+7
+
+Figure 3 e NF-kB is aberrantly activated in primary VS cultures and its siRNA-mediated knockdown decreases proliferation. A. NF-kB expression
+in cultured human VSs (n ‡ 6 tumors) normalized to expression in SC cultures (n ‡ 6 nerves) as quantiﬁed through western blot analysis. P-means
+phosphorylated protein. Error bars represent SD. B. Representative image of effective transfection of a ﬂuorescently labeled oligonucleotide (oligo,
+red) in primary VS cells. C. Representative proliferation images are shown for (a) scrambled siRNA or (b) siRNA treated primary VS cells. BrdU in
+nuclei (red) marks proliferating cells. D. Quantiﬁcation of proliferation changes after siRNA treatment in primary VS cells normalized to
+proliferation in control scrambled siRNA treated (NT) cells (n [ 4 results were from 4 independent results from cultures of two different patients).
+E. Representative cell death images are shown for (a) scrambled siRNA and (b) siRNA treated primary VS cells. TUNEL (green) in nuclei marks
+dying cells. F. Quantiﬁcation of cell death rate after siRNA treatment of primary VS cells as measured by TUNEL staining (n [ 3 different
+cultures). Error bars represent SD for panels D and F. *p [ 0.025, re [ compared to. Nuclei are labeled with Hoechst (blue) in (C, E).
+
+NF-kB siRNA (n ¼ 3, p ¼ 0.53, Figure 3E (b), F). Similar results
+were also observed using anti-cleaved caspase-3 immunocy-
+tochemistry. NF-kB siRNA transfection in VS increased the
+percentage of cells that expressed cleaved caspase-3 from
+2.01%  1.24% to 7.44%  7.15%; however, the difference was
+not statistically signiﬁcant (n ¼ 3, p ¼ 0.13, Fig S3A).
+
+NF-kB small-molecule inhibitor BAY 11-7082
+
+3.4.
+decreases proliferation and survival selectively in primary
+VS and HEI-193 cells
+
+Primary VS cells, control SC cultures and the HEI-193 cell line
+were treated with BAY11. BAY11 treatment signiﬁcantly
+decreased the activity of the NF-kB pathway as shown by the
+decrease of phosphorylated p65 in western blot (Fig. S2C,
+left). Results are reported using the same format and meaning
+of “n” and “p” as for siRNA application. Treatment with 1 and
+5 mM BAY11 changed proliferation in VS cells to 54.7  22.8%
+(n ¼ 5, p ¼ 0.15, Figure 4A (b), B) and 14.3  9.7% (n ¼ 4,
+p ¼ 0.002, Figure 4A (c), B) of the non-treated cells (NT,
+Figure 4A (a)), respectively. The apoptotic rate changed from
+
+1.1  0.27% (Figure 4C (a), D) in the NT VS cells to 36  13%
+(n ¼ 7, p ¼ 0.06. Figure 4C (b), D) and 47  12% (n ¼ 8,
+p ¼ 0.02, Figure 4C(c), D) in cells treated with 1 mM and 5 mM
+BAY11, respectively.
+
+change
+
+signiﬁcantly, being
+
+In the control SC cultures, normalized proliferation rates
+100.0  34.7%,
+did not
+165.2  125.1% (p ¼ 0.70), 133.2  101.1% (p ¼ 0.69),
+130.2  65.6% (p ¼ 0.78) for NT cells, 1 mM, 5 mM and 1 mM
+BAY11, respectively (n ¼ 3, Figure 4B). SCs demonstrated
+higher apoptosis only at the highest, 1 mM BAY11 treatment.
+NT, 1 mM, 5 mM or 1 mM treated GAN cells exhibited apoptosis
+rates of 2.0  0.9%, 1.0  0.7% (p ¼ 0.53), 0.7  0.7% (p ¼ 0.47)
+and 36.5  26.5% (p ¼ 0.43), respectively (n ¼ 3, Figure 4D).
+These control experiments suggest that 5 mM BAY11 has the
+greatest therapeutic promise against VS without being toxic
+to SCs.
+
+BAY11 treatment also decreased HEI-193 cell survival in a
+dose-dependent manner. HEI-193 cells had very high basal
+proliferation rates of 84.9  11.7% (n ¼ 3). NT, 10 mM, 100 mM
+and 1 mM BAY11 treated HEI-193 cells exhibited normalized
+proliferation rates of 100.0  13.8%, 65.6  24.6% (n ¼ 5,
+
+Please cite this article in press as: Dilwali, S., et al., Preclinical validation of anti-nuclear factor-kappa B therapy to inhibit
+human vestibular schwannoma growth, Molecular Oncology (2015), http://dx.doi.org/10.1016/j.molonc.2015.03.009
+
+8
+
+M O L E C U L A R O N C O L O G Y X X X ( 2 0 1 5 ) 1 e1 2
+
+Figure 4 e NF-kB inhibitor BAY11-7082 leads to selective decrease in proliferation and survival of VS cells. A. Representative proliferation
+images for primary VS cultures treated with (a) no treatment (NT), (b) 1 mM and (c) 5 mM BAY11-7082 (BAY11). BrdU in nuclei (red) marks
+proliferating cells, S100 (green) marks schwannoma cells. B. Quantiﬁcation of proliferation changes after treatment with BAY11 at different
+concentrations (given in mM) in primary VS cells, primary SCs and HEI-193 NF2 VS cell line, all normalized to proliferation in control NT cells
+(n ‡ 3). C. Representative cell death images are shown for primary VS cultures treated with (a) NT, (b) 1 mM and (c) 5 mM BAY11-7082 (BAY11).
+TUNEL (green) in nuclei marks dying cells. D. Quantiﬁcation of cell death rate after treatment with BAY11 at different concentrations (given in
+mM) in primary VS cells, primary SCs and HEI-193 NF2 VS cell line (n ‡ 3). *p < 0.05, **p < 0.01, re [ compared to. Error bars represent SEM.
+Nuclei are labeled with Hoechst (blue) in (A, C).
+
+p ¼ 0.25), 9.1  4.9% (n ¼ 5, p ¼ 0.006) and 4.3  3.3% (n ¼ 5,
+p ¼ 0.003), respectively (Figure 4B). NT, 1, 5, 10, 100 mM and
+1 mM BAY11 treated HEI-193 cells exhibited apoptotic rates
+of 1.3  0.8%, 1.3  0.5% (n ¼ 6, p ¼ 0.22), 1.9  1.2% (n ¼ 6,
+p ¼ 0.26), 1.1  1.1% (n ¼ 5, p ¼ 0.63), 58.8  21.5% (n ¼ 5,
+p ¼ 0.04) and 55.3  16.9% (n ¼ 5, p ¼ 0.02), respectively
+(Figure 4D).
+
+Clinically-relevant NF-kB inhibitor curcumin
+
+3.5.
+decreases proliferation and survival in cultured primary VS
+cells, NF2 VS cell line and primary SCs
+
+Curcumin, a natural, well-tolerated NF-kB inhibitor that is
+currently used in many clinical trials for various neurological,
+inﬂammatory and neoplastic diseases, ranging from Alz-
+heimer’s disease to colon cancer (Hatcher et al., 2008), was
+
+tested in VS cells. Treatment of curcumin signiﬁcantly
+decreased the activity of the NF-kB pathway as shown by the
+decrease of phosphorylated p65 in western blot (Fig. S2, right).
+Results are reported using the same format and meaning of
+“n” and “p” as for siRNA application. Proliferation decreased
+in a dose-dependent manner in VS cultures, with VS cells
+receiving NT, 5, 20 and 50 mM curcumin (Figure 5A (aed,
+respectively)) exhibiting normalized proliferation rates of
+100.0%  30.5%, 141.8%  95.2% (p ¼ 0.57), 23.0  20.9%
+(p ¼ 0.03) and 9.8  5.3 (p ¼ 0.0005) (n ¼ 3, Figure 5B). Apoptosis
+also increased in a dose-dependent manner, with VS cells
+receiving NT, 5, 20 or 50 mM curcumin (Figure 5C (aed, respec-
+tively)) exhibiting apoptotic rates of 0.3  0.1, 11.6  6.3%
+(n ¼ 8, p ¼ 0.37), 1.8  1.0% (n ¼ 3, p ¼ 0.37) and 73.3  6.3%
+(n ¼ 7, p ¼ 0.0005)
+(Figure 5D). The effect of curcumin
+treatment on apoptosis in VS cells was also investigated by
+
+Please cite this article in press as: Dilwali, S., et al., Preclinical validation of anti-nuclear factor-kappa B therapy to inhibit
+human vestibular schwannoma growth, Molecular Oncology (2015), http://dx.doi.org/10.1016/j.molonc.2015.03.009
+
+M O L E C U L A R O N C O L O G Y X X X ( 2 0 1 5 ) 1 e1 2
+
+9
+
+Figure 5 e Clinically-relevant NF-kB inhibitor curcumin leads to selective decrease in proliferation and survival of VS cells. A. Representative
+proliferation images for primary VS cultures treated with (a) no treatment (NT), (b) 5, (c) 20, and (d) 50 mM curcumin. BrdU in nuclei (red) marks
+proliferating cells. B. Quantiﬁcation of proliferation changes after treatment with curcumin at 5, 20, and 50 mM in primary VS cells, primary
+Schwann cells and HEI-193 NF22 VS cell line, all normalized to proliferation in control NT cells (n ‡ 3); C. Representative cell death images are
+shown for primary VS cultures treated with (a) NT, (b) 5, (c) 20, and (d) 50 mM curcumin. TUNEL (green) marks dying cells. D. Quantiﬁcation of
+cell death rate after treatment with curcumin at 5, 20, and 50 mM in primary VS cells, primary Schwann cells and HEI-193 NF2 VS cell line (n ‡ 3).
+*p < 0.05, **p < 0.01, re [ compared to. Error bars represent SEM. Nuclei are labeled with Hoechst (blue) in (A, C).
+
+cleaved caspase-3 immunocytochemistry. The results demon-
+strate a statistically signiﬁcant apoptosis-inducing effect of
+50 mM curcumin in VS cells (n ¼ 3, p ¼ 0.02, Fig. S3B). Taken
+together, these results suggest that the decrease of NF-kB by
+curcumin may be the mechanism leading to apoptosis in VS
+cells.
+
+Surprisingly, in contrast to the seemingly well-tolerated
+proﬁle for curcumin in humans, curcumin decreased prolifer-
+ation and increased apoptosis in control SC cultures at con-
+centrations comparable to those efﬁcacious in VS cultures.
+Proliferation tended to decrease in a dose-dependent manner,
+with SCs receiving NT, 5, 20, 50 mM curcumin exhibiting
+100.0%  29.6%,
+normalized
+85.3  25.7% (n ¼ 4, p ¼ 0.33), 31.0  18.3% (n ¼ 4, p ¼ 0.13)
+and 3.14% (n ¼ 1, p ¼ 0.04) (Figure 5B); the trend became signif-
+icant only at the highest tested dose. Apoptosis had the same
+
+proliferation rates
+
+of
+
+trend with the highest dose leading to a signiﬁcant increase in
+cell death. NT, 5, 20 or 50 mM treated GAN cells exhibited
+apoptotic rates of 0.6  0.2, 1.3  0.3% (n ¼ 4, p ¼ 0.16),
+1.7  0.4% (n ¼ 4, p ¼ 0.31) and 52.2  14.9% (n ¼ 5, p ¼ 0.03)
+(Figure 5D). Nonetheless, the doses up to 20 mM seemed selec-
+tively cytostatic against primary VS cells.
+
+Intriguingly, the HEI-193 cells were more susceptible to
+curcumin than primary VS cells or healthy SCs. Proliferation
+decreased drastically with dose increases: HEI-193 cells
+receiving NT, 5, 20 or 50 mM curcumin exhibiting normalized
+proliferation rates of 100.0%  0.2%, 95.0  1.6% (p ¼ 0.12),
+0.4  0.4% (p ¼ 0.0001) and 2.3  2.3% (p ¼ 0.001) (n ¼ 3,
+Figure 5B). Apoptosis increased drastically at 20 mM,
+in
+contrast to the primary VS cells exhibiting apoptosis at
+50 mM. HEI-193 cells receiving NT, 5, 20 or 50 mM curcumin
+exhibited apoptotic rates of 0.5  0.4, 0.3  0.1% (n ¼ 5,
+
+Please cite this article in press as: Dilwali, S., et al., Preclinical validation of anti-nuclear factor-kappa B therapy to inhibit
+human vestibular schwannoma growth, Molecular Oncology (2015), http://dx.doi.org/10.1016/j.molonc.2015.03.009
+
+10
+
+M O L E C U L A R O N C O L O G Y X X X ( 2 0 1 5 ) 1 e1 2
+
+p ¼ 0.32), 77.3  8.4% (n ¼ 3, p ¼ 0.02) and 97.8  1.5% (n ¼ 4,
+p ¼ 0.00003) (Figure 5D).
+
+4.
+
+Discussion
+
+signiﬁcant networks
+
+Conducting the ﬁrst comprehensive network analysis of mol-
+ecules implicated in VS pathobiology, we identiﬁed and vali-
+dated NF-kB as a central regulator. We also found direct
+interactors of NF-kB such as PDGF (Olson et al., 2007), which
+have been implicated in VS progression, to be the hubs of
+other
+(Supplementary Table S1).
+Although others have suggested that NF-kB is activated in
+VS cells via upstream stimulation such as with p75 signaling
+(Ahmad et al., 2014), we ﬁnd that NF-kB is inherently highly
+active in human VS tissue and derived primary VS cells. The
+apparent disparity may be due to differences in detection
+methods or sample processing. As all prior experiments had
+been conducted on cultured cells and cell lines, we are the ﬁrst
+to show that the aberrant NF-kB activation occurs also in the
+freshly resected VS tissue and cannot be deemed an artifact
+of culturing.
+
+Our analysis of expression signatures of the downstream
+NF-kB genes in VS suggests a unique NF-kB target gene pro-
+gram in VS, as may be expected in pathologic inﬂammation
+(Hoesel and Schmid, 2013). Since NF-kB is highly expressed
+by immature SCs during development, progressively declining
+from pre-myelinating SCs to near absence in mature myeli-
+nating SCs (Nickols et al., 2003), our ﬁndings are also consis-
+tent with VSs exhibiting a gene expression proﬁle akin to
+immature SCs (Hung et al., 2002a,b). Pre-existing upregulation
+of NF-kB in VSs, along with a few deﬁning mutations in other
+genes,
+could enable neoplastic proliferation of non-
+myelinating SCs.
+
+Using a pre-clinical model of primary human VS cells, we
+demonstrate potential therapeutic efﬁcacy of directly targeting
+NF-kB via experimental and clinical inhibitors. Our work with
+freshly harvested VS samples from different patients captures
+the variability of NF-kB aberrance in different VSs. Our results
+suggest that therapeutic targeting of NF-kB may be generally
+effective against VSs, not only against a small subset of VSs.
+By utilizing three different modalities to inhibit NF-kB: (1)
+highly-speciﬁc siRNAs against the NF-kB p50 and p65, (2) a
+pharmacologic inhibitor BAY11 and (3) a clinically-relevant,
+natural inhibitor curcumin, we afﬁrm NF-kB’s role in VS prolif-
+eration and survival. We reinforce previous ﬁndings that siRNA
+mediated NF-kB knockdown in primary VS cells reduces prolif-
+eration and survival (Ammoun et al., 2013), and expand on
+them by using more clinically relevant inhibitors.
+
+A small molecule NF-kB inhibitor BAY11 showed a high
+level of efﬁcacy and speciﬁcity against VS cells. Although
+BAY11 has been characterized as an effective inhibitor of
+NF-kB by inhibiting IkK activation, recently BAY11 has been
+recognized to target many other pro-inﬂammatory molecules,
+including TNFa (Lee et al., 2012a,b). Future work is needed to
+determine whether the therapeutic efﬁcacy of BAY11 against
+VS cells is solely due to NF-kB inhibition. As BAY11 was not
+cytotoxic in primary SCs and has been well tolerated in vivo
+in murine tumor xenograft studies (Dewan et al., 2003), future
+
+exploration of BAY11 against VS in animal models in vivo is
+warranted.
+
+Curcumin, a clinically relevant NF-kB inhibitor that has
+been tested in many clinical trials (Hatcher et al., 2008),
+inhibited proliferation and promoted apoptosis of both pri-
+mary VS cells and HEI-193 VS cells. Curcumin’s greater effec-
+tiveness against HEI-193 VS cells at a lower dose than
+required for primary VS cells suggests a higher therapeutic ef-
+ﬁcacy against NF2-derived than sporadic VSs. The dosage
+curve of curcumin resembles a previously established dosage
+curve for HEI-193 cells in a study that focused on another mole-
+cule through which curcumin may be acting: Hsp70 (Angelo
+et al., 2011). A follow-up study by the same authors investi-
+gating curcumin’s direct binding partners did not reveal the
+NF-kB complex being a target in HEI-193 cells (Angelo et al.,
+2013), although the authors had previously reported inhibition
+of phosphorylation of Protein Kinase B (AKT), an upstream
+regulator of NF-kB activation (Angelo et al., 2011; Bai et al.,
+2009). This is in contrast to the large body of literature that
+shows curcumin’s role as an NF-kB inhibitor, via inhibition of
+TNFa-induced IkB degradation (Hatcher et al., 2008), and as a
+general inhibitor of inﬂammation (Hatcher et al., 2008; Marin
+et al., 2007). It is important to acknowledge that although cur-
+cumin was found to be efﬁcacious against colon cancer and
+Alzheimer’s disease in animal and human studies, therapeutic
+and toxicity proﬁles of curcumin have not been comprehen-
+sively elucidated (Burgos-Moron et al., 2010). Some clinical tri-
+als have noted nausea and diarrhea in patients taking
+curcumin (Burgos-Moron et al., 2010). Since the levels of curcu-
+min that led to primary VS and SC death were comparable,
+more research is required on curcumin’s toxicity proﬁle, best
+formulation and administration methods and its efﬁcacy in
+brain diseases. Importantly, however, curcumin has recently
+been shown to have otoprotective effect against aminoglyco-
+side toxicity and the associated hearing loss (HL)
+(Salehi
+et al., 2014). Since most VS patients present with HL, future
+studies are needed to explore whether curcumin could atten-
+uate both VS growth and the associated HL simultaneously.
+
+By establishing aberrance of several molecules involved in
+the NF-kB pathway and efﬁcacy of NF-kB inhibition selectively
+in VS cells via several inhibitors, we demonstrate NF-kB as a
+potential pharmacologic target against VS. However, possible
+future clinical targeting of NF-kB has to be considered care-
+fully given that NF-kB is an important signaling node that
+most cells rely on.
+
+Conﬂicts of interest
+
+All authors have no conﬂicts of interest.
+
+Funding
+
+The funding sources were National Institute of Deafness and
+Other Communication Disorders
+to
+K.M.S.; T32DC00038 to K.M.S., S.D.), Department of Defense
+(W81XWH-14-1-0091 to K.M.S.) and the Bertarelli Foundation
+(K.M.S.). The funding sources had no direct involvement in
+this work.
+
+(KO8DC010419-D1
+
+Please cite this article in press as: Dilwali, S., et al., Preclinical validation of anti-nuclear factor-kappa B therapy to inhibit
+human vestibular schwannoma growth, Molecular Oncology (2015), http://dx.doi.org/10.1016/j.molonc.2015.03.009
+
+M O L E C U L A R O N C O L O G Y X X X ( 2 0 1 5 ) 1 e1 2
+
+11
+
+Acknowledgments
+
+We are grateful to Drs. Emerick, McKenna, Barker and Martuza
+for assisting in specimen collection.
+
+Appendix A.
+Supplementary data
+
+Supplementary data related to this article can be found at
+http://dx.doi.org/10.1016/j.molonc.2015.03.009.
+
+R E F E R E N C E S
+
+Aarhus, M., Bruland, O., Sætran, H.A., Mork, S.J., Lund-
+
+Johansen, M., Knappskog, P.M., 2010. Global gene expression
+proﬁling and tissue microarray reveal novel candidate genes
+and down-regulation of the tumor suppressor gene CAV1 in
+sporadic vestibular schwannomas. Neurosurgery 67,
+998e1019.
+
+Ahmad, I., Yue, W.Y., Fernando, A., Clark, J.J., Woodson, E.A.,
+
+Hansen, M.R., 2014. p75NTR is highly expressed in vestibular
+schwannomas and promotes cell survival by activating
+nuclear transcription factor kappaB. Glia 62, 1699e1712.
+
+Ammoun, S., Provenzano, L., Zhou, L., Barczyk, M., Evans, K.,
+
+Hilton, D.A., Haﬁzi, S., Hanemann, C.O., 2013. Axl/Gas6/NFkB
+signaling in schwannoma pathological proliferation, adhesion
+and survival. Oncogene 33, 336e346.
+
+Angelo, L.S., Maxwell, D.S., Wu, J.Y., Sun, D., Hawke, D.H.,
+
+McCutcheon, I.E., Slopis, J.M., Peng, Z., Bornmann, W.G.,
+Kurzrock, R., 2013. Binding partners for curcumin in human
+schwannoma cells: biologic implications. Bioorg. Med. Chem.
+21, 932e939.
+
+Angelo, L.S., Wu, J.Y., Meng, F., Sun, M., Kopetz, S., McCutcheon, I.E.,
+
+Slopis, J.M., Kurzrock, R., 2011. Combining curcumin
+(diferuloylmethane) and heat shock protein inhibition for
+neuroﬁbromatosis 2 treatment: analysis of response and
+resistance pathways. Mol. Cancer Ther. 10, 2094e2103.
+
+Archibald, D.J., Neff, B.A., Voss, S.G., Splinter, P.L.,
+
+Driscoll, C.L.W., Link, M.J., Dong, H., Kwon, E.D., 2010. B7eH1
+expression in vestibular schwannomas. Otol. Neurotol. 31,
+991e997.
+
+Bai, D., Ueno, L., Vogt, P.K., 2009. Akt-mediated regulation of NF-
+kB and the essentialness of NF-kB for the oncogenicity of PI3K
+and Akt. Int. J. Cancer 125, 2863e2870.
+
+Dayalan, A.H.P.P., Jothi, M., Keshava, R., Thomas, R., Gope, M.L.,
+
+Doddaballapur, S.K., Gope, R., 2006. Age dependent
+phosphorylation and deregulation of p53 in human vestibular
+schwannomas. Mol. Carcinog. 45 (1), 38e46.
+
+Dewan, M.Z., Terashima, K., Taruishi, M., et al., 2003. Rapid tumor
+formation of human T-cell leukemia virus type 1-infected cell
+lines in novel NOD-SCID/^I3cnull mice: suppression by an
+inhibitor against NF-kB. J. Virol. 77, 5286e5294.
+
+Dilwali, S., Patel, P.B., Roberts, D.S., Basinsky, G.M., Harris, G.J.,
+
+Emerick, K., Stankovic, K.M., 2014. Primary culture of human
+Schwann and schwannoma cells: improved and simpliﬁed
+protocol. Hear. Res. 315, 25e33.
+
+Doherty, J.K., Ongkeko, W., Crawley, B., Andalibi, A., Ryan, A.F.,
+2008. ErbB and Nrg: potential molecular targets for vestibular
+schwannoma pharmacotherapy. Otol. Neurotol. 29, 50e57.
+
+Gilmore, T., 2014. NF-kB Transcription Factors. http://
+
+www.bu.edu/nf-kb/.
+
+Hatcher, H., Planalp, R., Cho, J., Torti, F.M., Torti, S.V., 2008.
+
+Curcumin: from ancient medicine to current clinical trials.
+Cell Mol. Life Sci. 65, 1631e1652.
+
+Hoesel, B., Schmid, J., 2013. The complexity of NF-kappaB
+
+signaling in inﬂammation and cancer. Mol. Cancer 12, 86.
+
+Hung, G., Li, X., Faudoa, R., Xeu, Z., Kluwe, L., Rhim, J.S.,
+
+Slattery, W., Lim, D., 2002. Establishment and characterization
+of a schwannoma cell line from a patient with
+neuroﬁbromatosis 2. Int. J. Oncol. 20, 475e482.
+
+Hung, G., Colton, J., Fisher, L., Oppenheimer, M., Faudoa, R.,
+Slattery, W., Linthicum, F., 2002. Immunohistochemistry
+study of human vestibular nerve schwannoma differentiation.
+Glia 38, 363e370.
+
+Karin, M., 1999. How NF-B is activated: the role of the IB kinase
+
+(IKK) complex. Oncogene 18, 6867e6874.
+
+Kim, J.Y., Kim, H., Jeun, S., Rha, S.J., Kim, Y.H., Ko, Y.J., Won, J.,
+
+Lee, K., Rha, H.K., Wang, Y., 2002. Inhibition of NF-kappaB
+activation by merlin. Biochem. Biophys. Res. Commun. 296,
+1295e1302.
+
+Kramer, F., St€over, T., Warnecke, A., Diensthuber, M., Lenarz, T.,
+
+Wissel, K., 2010. BDNF mRNA expression is signiﬁcantly
+upregulated in vestibular schwannomas and correlates with
+proliferative activity. J. Neurooncol. 98 (1), 31e39.
+
+Lassaletta, L., Martinez-Glez, V., Torres-Martın, M., Rey, J.A.,
+
+Gavilan, J., 2009. cDNA microarray expression proﬁle in
+vestibular schwannoma: correlation with clinical and
+radiological features. Cancer Genet. Cytogenet. 194, 125e127.
+Lee, J., Rhee, M.H., Kim, E., Cho, J.Y., 2012. BAY 11-7082 is a broad-
+
+spectrum inhibitor with anti-inﬂammatory activity against
+multiple targets. Mediators Inﬂamm.
+
+Lee, J.D., Kwon, T.J., Kim, U., Lee, W., 2012. Genetic and epigenetic
+
+alterations of the NF2 gene in sporadic vestibular
+schwannomas. PLoS One 7, e30418.
+
+Bian, L., Tirakotai, W., Sun, Q., Zhao, W., Shen, J., Luo, Q., 2005.
+
+Mahaley, M.S.J., Mettlin, C., Natarajan, N., Laws, E.R.J., Peace, B.B.,
+
+Molecular genetics alterations and tumor behavior of sporadic
+vestibular schwannoma from the People’s Republic of China.
+J. Neurooncol. 73, 253e260.
+
+Burgos-Moron, E., Calderon-Monta~no, J.M., Salvador, J., Robles, A.,
+
+Lopez-Lazaro, M., 2010. The dark side of curcumin. Int. J.
+Cancer 126, 1771e1775.
+
+Caye-Thomasen, P., Borup, R., Stangerup, S., Thomsen, J.,
+
+Nielsen, F.C., 2010. Deregulated genes in sporadic vestibular
+schwannomas. Otol. Neurotol. 31 (2), 256e266.
+
+Ciofﬁ, J.A., Yue, W.Y., Mendolia-Loffredo, S., Hansen, K.R.,
+
+Wackym, P.A., Hansen, M.R., 2010. MicroRNA-21
+overexpression contributes to vestibular schwannoma cell
+proliferation and survival. Otol. Neurotol. 31, 1455e1462.
+de Vries, M., Briaire-de Bruijn, I., Malessy, M.J.A., de Bru€ıne,
+Sica, F.T., van, d.M., Hogendoorn, P.C.W., 2013. Tumor-
+associated macrophages are related to volumetric growth of
+vestibular schwannomas. Otol. Neurotol. 34, 347e352.
+
+1990. Analysis of patterns of care of brain tumor patients in
+the United States: a study of the Brain Tumor Section of the
+AANS and the CNS and the Commission on Cancer of the ACS.
+Clin. Neurosurg. 36, 347e355.
+
+Marin, Y.E., Wall, B.A., Wang, S., et al., 2007. Curcumin
+
+downregulates the constitutive activity of NF-kB and induces
+apoptosis in novel mouse melanoma cells. Melanoma Res. 17,
+274e283.
+
+Nickols, J.C., Valentine, W., Kanwal, S., Carter, B.D., 2003.
+
+Activation of the transcription factor NF-kappaB in Schwann
+cells is required for peripheral myelin formation. Nat.
+Neurosci. 6, 161e167.
+
+Olson, C.M., Hedrick, M.N., Izadi, H., Bates, T.C., Olivera, E.R.,
+
+Anguita, J., 2007. p38 mitogen-activated protein kinase
+controls NF-kB transcriptional activation and tumor necrosis
+factor alpha production through RelA phosphorylation
+mediated by mitogen- and stress-activated protein kinase 1 in
+
+Please cite this article in press as: Dilwali, S., et al., Preclinical validation of anti-nuclear factor-kappa B therapy to inhibit
+human vestibular schwannoma growth, Molecular Oncology (2015), http://dx.doi.org/10.1016/j.molonc.2015.03.009
+
+12
+
+M O L E C U L A R O N C O L O G Y X X X ( 2 0 1 5 ) 1 e1 2
+
+response to Borrelia burgdorferi Antigens. Infect. Immun. 75,
+270e277.
+
+O’Reilly, B.F., Kishore, A., Crowther, J.A., Smith, C., 2004.
+
+Correlation of growth factor receptor expression with clinical
+growth in vestibular schwannomas. Otol. Neurotol. 25,
+791e796.
+
+Patel, A.K., Alexander, T.H., Andalibi, A., Ryan, A.F., Doherty, J.K.,
+2008. Vestibular schwannoma quantitative polymerase chain
+reaction expression of estrogen and progesterone receptors.
+Laryngoscope 118, 1458e1463.
+
+Plotkin, S.R., Merker, V.L., Halpin, C., Jennings, D., McKenna, M.J.,
+Harris, G.J., Barker II, F.G., 2012. Bevacizumab for progressive
+vestibular schwannoma in neuroﬁbromatosis type 2: a
+retrospective review of 31 patients. Otol. Neurotol. 33,
+1046e1052.
+
+Saydam, O., Senol, O., W€urdinger, T, Mizrak, A., Ozdener, G.B.,
+
+Stemmer-Rachamimov, A.O., Yi, M., Stephens, R.M.,
+Krichevsky, A.M., Saydam, N., Brenner, G.J., Breakeﬁeld, X.O.,
+2011. miRNA-7 attenuation in Schwannoma tumors
+stimulates growth by upregulating three oncogenic signaling
+pathways. Cancer Res. 71, 852e861.
+
+Seol, H.J., Jung, H.W., Park, S.H., Hwang, S.K., Kim, D.G., Paek, S.H.,
+
+Chung, Y.S., Sub Lee, C., 2005. Aggressive vestibular
+schwannomas showing postoperative rapid growth e their
+association with decreased p27 expression. J. Neurooncol. 75,
+203e207.
+
+Stankovic, K.M., Mrugala, M.M., Martuza, R.L., Silver, M.,
+
+Betensky, R.A., Nadol Jr., J.B., Stemmer-Rachamimov, A., 2009.
+Genetic determinants of hearing loss associated with
+vestibular schwannomas. Otol. Neurotol. 30, 661e667.
+
+Plotkin, S.R., Stemmer-Rachamimov, A., Barker, F.G., Halpin, C.,
+
+Szeremeta, W., Monsell, E.M., Rock, J.P., Caccamo, D.V., 1995.
+
+Padera, T.P., Tyrrell, A., Sorensen, A.G., Jain, R.K., di
+Tomaso, E., 2009. Hearing improvement after bevacizumab in
+patients with neuroﬁbromatosis type 2. N. Engl. J. Med. 361,
+358e367.
+
+Salehi, P., Akinpelu, O.V., Waissbluth, S., Peleva, E., Meehan, B.,
+Rak, J., Daniel, S.J., 2014. Attenuation of cisplatin ototoxicity by
+otoprotective effects of nanoencapsulated curcumin and
+dexamethasone in a guinea pig model. Otol. Neurotol. 35,
+1131e1139.
+
+Sawaya, R., Highsmith, R., 1988. Plasminogen activator activity
+
+and molecular weight patterns in human brain tumors.
+J. Neurosurg. 68, 73e79.
+
+Proliferation indicies of vestibular schwannomas by Ki-67 and
+proliferating cell nuclear antigen. Otol. Neurotol. 16, 616e619.
+Thomas, R., Prabhu, P.D.A., Mathivanan, J., Rohini, Sivakumar, D.,
+Jayakumar, P.N., Devi, B.I., Satish, S., Sastry, K.V.R., Gope, R.,
+2005. Altered structure and expression of RB1 gene and
+increased phosphorylation of pRb in human vestibular
+schwannomas. Mol. Cell. Biochem. 271, 113e121.
+
+Welling, D.B., Lasak, J.M., Akhmametyeva, E., Ghaheri, B.,
+
+Chang, L., 2002. cDNA microarray analysis of vestibular
+schwannomas. Otol. Neurotol. 23, 736e748.
+
+Please cite this article in press as: Dilwali, S., et al., Preclinical validation of anti-nuclear factor-kappa B therapy to inhibit
+human vestibular schwannoma growth, Molecular Oncology (2015), http://dx.doi.org/10.1016/j.molonc.2015.03.009
+
+

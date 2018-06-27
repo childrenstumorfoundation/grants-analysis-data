@@ -1,0 +1,785 @@
+The Journal of Clinical Investigation     
+
+Cotargeting MNK and MEK kinases induces the 
+regression of NF1-mutant cancers
+
+Rebecca Lock,1,2 Rachel Ingraham,1,2 Ophélia Maertens,1,2 Abigail L. Miller,1,2 Nelly Weledji,1,2 Eric Legius,3,4 Bruce M. Konicek,5 
+Sau-Chi B. Yan,5 Jeremy R. Graff,6 and Karen Cichowski1,2,7
+1Genetics Division, Department of Medicine, Brigham and Women’s Hospital, Boston, Massachusetts, USA. 2Harvard Medical School, Boston, Massachusetts, USA. 3Center for Human Genetics, University 
+Hospital Leuven, Leuven, Belgium. 4Department of Human Genetics, Catholic University Leuven, Leuven, Belgium. 5Eli Lilly and Co., Lilly Corporate Center, Indianapolis, Indiana, USA.  
+6Biothera Pharmaceuticals Inc., Eagan, Minnesota, USA. 7Ludwig Center at Dana-Farber/Harvard Cancer Center, Boston, Massachusetts, USA.
+
+Neurofibromin 1–mutant (NF1-mutant) cancers are driven by excessive Ras signaling; however, there are currently no 
+effective therapies for these or other Ras-dependent tumors. While combined MEK and mTORC1 suppression causes 
+regression of NF1-deficient malignancies in animal models, the potential toxicity of cotargeting these 2 major signaling 
+pathways in humans may necessitate the identification of more refined, cancer-specific signaling nodes. Here, we have 
+provided evidence that MAPK-interacting kinases (MNKs), which converge on the mTORC1 effector eIF4E, are therapeutic 
+targets in NF1-deficient malignancies. Specifically, we evaluated primary human NF1-deficient peripheral nervous system 
+tumors and found that MNKs are activated in the majority of tumors tested. Genetic and chemical suppression of MNKs 
+in NF1-deficient murine tumor models and human cell lines potently cooperated with MEK inhibitors to kill these cancers 
+through effects on eIF4E. We also demonstrated that MNK kinases are important and direct targets of cabozantinib. 
+Accordingly, coadministration of cabozantinib and MEK inhibitors triggered dramatic regression in an aggressive 
+genetically engineered tumor model. The cytotoxicity of this combination required the suppression of MNK-induced 
+eIF4E phosphorylation and was not recapitulated by suppressing other cabozantinib targets. Collectively, these studies 
+demonstrate that combined MNK and MEK suppression represents a promising therapeutic strategy for these incurable Ras-
+driven tumors and highlight the utility of developing selective MNK inhibitors for these and possibly other malignancies.
+
+Introduction
+Loss-of-function  mutations  in  the  tumor  suppressor  neurofi-
+bromin  1  (NF1)  underlie  the  common  familial  cancer  syndrome 
+neurofibromatosis type 1 and promote the development of a vari-
+ety  of  sporadic  cancers  including  glioblastoma,  melanoma,  and 
+non–small cell lung cancer (NSCLC) (1). The NF1 gene encodes 
+a  Ras  GTPase–activating  protein  (RasGAP)  (2,  3).  Accordingly, 
+excessive Ras signaling underlies the pathogenesis of NF1-mutant 
+tumors (4). However, despite this insight, there are currently no 
+effective treatments for any NF1-deficient or Ras-driven cancers.
+Because NF1-mutant tumors are driven by excessive Ras sig-
+naling, we and others have been evaluating Ras pathway inhibitors 
+in  a  variety  of  tumor  models  (5–7).  Fortunately,  MEK  inhibitors 
+exhibit  efficacy  in  mouse  models  of  clinically  important  benign 
+tumors associated with neurofibromatosis type 1, including ner-
+vous system lesions known as neurofibromas as well as juvenile 
+myelomonocytic leukemia (JMML) (6, 7), which has inspired the 
+development of several clinical trials (ClinicalTrials.gov). Howev-
+er, MEK inhibitors are ineffective the most common malignancy 
+associated  with  neurofibromatosis  type  1:  malignant  peripheral 
+nerve sheath tumors (MPNSTs) (8). Approximately 70% of MPNST 
+patients present with unresectable and/or metastatic disease, and 
+
+Conflict of interest: The authors have declared that no conflict of interest exists.
+Submitted: October 20, 2015; Accepted: March 22, 2016.
+Reference information: J Clin Invest. 2016;126(6):2181–2190. doi:10.1172/JCI85183.
+
+conventional chemotherapy and radiation do not improve overall 
+survival; therefore, developing a treatment for these tumors repre-
+sents a response to an urgent unmet clinical need (9).
+
+In MPNSTs, mTORC1 is the critical PI3K pathway effector, and 
+mTORC1 suppression alone exerts cytostatic effects in human cell 
+lines and animal models (5, 10). While effects are only cytostatic, 
+mTORC1 inhibitors are surprisingly more potent than MEK inhibi-
+tors, underscoring the importance of this pathway in this tumor type 
+(11).  Moreover,  when  combined  with  MEK  inhibitors,  mTORC1 
+inhibitors trigger cell death and dramatic tumor regression in vivo 
+(11). Nevertheless, because these 2 major pathways regulate so many 
+fundamental biological processes, it may be challenging to identify 
+an effective therapeutic window in humans using combined MEK/
+mTORC1  inhibitors.  Therefore,  we  have  been  working  to  iden-
+tify new therapeutic targets within these pathways that, when sup-
+pressed, may selectively affect cancer cells and spare normal tissue.
+In the course of the studies presented here, we found that 
+eIF4E,  the  limiting  component  of  the  eIF4F  translation  ini-
+tiation  complex,  is  a  critical  mTORC1  effector  in  MPNSTs. 
+mTORC1 regulates eIF4E by phosphorylating and dissociating 
+inhibitory  eIF4E-binding  proteins  (4EBPs);  however,  eIF4E 
+function  is  also  controlled  by  phosphorylation  at  serine  209, 
+which is exclusively mediated by the MAPK-interacting kinas-
+es (MNKs) 1 and 2 (12–14). MNK phosphorylation of eIF4E has 
+been shown to enhance the translation of several prooncogenic 
+mRNAs, and several mechanisms by which this may occur have 
+
+jci.org      Volume 126      Number 6      June 2016
+
+2 1 8 1
+
+ReseaRch aRticlebeen proposed (reviewed in ref. 13). Interestingly, studies have 
+shown that while MNK kinases and eIF4E phosphorylation are 
+dispensable  for  normal  development  and  function,  eIF4ES209 
+phosphorylation  is  uniquely  enhanced  in  several  cancers  and 
+contributes to the development of prostate cancer and lympho-
+ma  (15–18).  These  findings  demonstrate  that  the  MNK/eIF4E 
+signaling axis plays an important positive role in tumor develop-
+ment. Nevertheless, it is currently unknown whether the MNK 
+kinases are actually therapeutic targets and are required for the 
+survival  of  existing  tumors.  We  reasoned  that  MPNSTs  repre-
+sent a unique setting for evaluating the therapeutic potential of 
+MNK  inhibition,  as  the  MNK/eIF4E  signaling  axis  might  pro-
+vide an alternative targetable node in these tumors, obviating 
+the need for broad mTORC1 suppression.
+
+Using genetic and chemical approaches, we show that MNK 
+kinases  are  important  therapeutic  targets  in  MPNSTs  and  that 
+combined MNK and MEK suppression represents a promising new 
+therapeutic strategy for treating these currently incurable malig-
+nancies. Given that MNK kinases appear to be largely dispensable 
+for normal cellular processes, a therapeutic index might be more 
+readily achieved using combined MNK and MEK inhibitors. These 
+studies also suggest that MNK inhibitors may represent an alter-
+native to mTOR inhibitors in some settings.
+
+Results
+Combined  eIF4E  and  MEK  suppression  kills  MPNSTs.  We  previ-
+ously showed that mTORC1 is critical for the proliferative and 
+tumorigenic  properties  of NF1-mutant  MPNSTs  (5,  10).  More-
+over, when mTORC1 inhibitors are combined with MEK inhibi-
+tors,  human  MPNST  cells  die  and  tumors  regress  in  a  well-
+characterized  genetically  engineered  MPNST  model  (Figure 
+1A and ref. 11). Because eIF4E has been shown to be a critical 
+downstream effector of mTORC1, we investigated whether sup-
+pression  of  eIF4E  was  sufficient  to  recapitulate  the  effects  of 
+mTORC1 inhibition in this tumor type. Notably, RNAi-mediated 
+suppression of eIF4E alone exerted cytostatic effects and inhib-
+ited both proliferation and growth in soft agar in human (Figure 
+1, B–D) and mouse (Figure 1E) MPNST cell lines, thus mimick-
+ing the effects of mTOR inhibitors as single agents (Figure 1A 
+and ref. 11). However, when combined with the MEK inhibitor 
+PD-0325901  (PD901),  eIF4E  suppression  triggered  cell  death 
+(Figure 1, F and G). These results demonstrate that eIF4E is a 
+critical  effector  in  NF1-mutant  MPNSTs  and  that  eIF4E  sup-
+pression can cooperate with MEK inhibitors and substitute for 
+mTORC1 suppression in this therapeutic setting.
+
+The  MNK/eIF4E  signaling  axis  is  activated  in  human  and 
+mouse MPNSTs. While mTORC1 activates eIF4E by phosphory-
+lating  and  dissociating  inhibitory  4EBP  proteins,  eIF4E  func-
+tion is also enhanced by phosphorylation at serine 209, which 
+is exclusively regulated by MNK1 and MNK2 (reviewed in ref. 
+13). To determine whether MNK/eIF4E signaling was activated 
+in MPNSTs, we evaluated the phosphorylation status of eIF4E at 
+serine 209 in human and mouse MPNSTs. Immunoblots using 
+a phosphospecific antibody demonstrated that eIF4E is hyper-
+phosphorylated  at  serine  209  in  human  and  mouse  MPNST 
+cells  compared  with  normal  cells  (Figure  2A).  Analysis  of  pri-
+mary human and mouse tumor tissue further demonstrated that 
+
+2 1 8 2
+
+jci.org      Volume 126      Number 6      June 2016
+
+The Journal of Clinical Investigation   
+
+eIF4E was phosphorylated in 9 of 10 and 4 of 5 tumors, respec-
+tively (Figure 2, B and C). These observations suggest that the 
+MNK/eIF4E signaling axis is activated in a high percentage of 
+MPNSTs,  warranting  further  investigation  of  the  therapeutic 
+potential of targeting this pathway.
+
+Genetic suppression of MNK kinases cooperates with MEK inhibi-
+tors to promote MPNST cell death. To evaluate the potential thera-
+peutic effects of MNK inhibition, MNK2 and MNK1 were knocked 
+down  both  independently  and  in  combination.  Suppression  of 
+either MNK2 or MNK1 alone led to a substantial but incomplete 
+decrease in eIF4E phosphorylation that was completely lost when 
+MNK1 and MNK2 were concomitantly suppressed, indicating that 
+both highly related kinases contribute to eIF4E phosphorylation 
+in  these  tumors  (Figure  2D).  We  next  examined  the  biological 
+consequences of MNK suppression in the presence and absence 
+of  MEK  inhibitors.  Genetic  ablation  of  either  MNK1  or  MNK2 
+alone slightly inhibited proliferation, but killed cells when com-
+bined with PD901 (Figure 2E). Concomitant suppression of MNK1 
+and MNK2 further enhanced this cytotoxic response (Figure 2E). 
+These results demonstrate that the combined suppression of MNK 
+and MEK kinases potently kills MPNSTs, revealing potential ther-
+apeutic strategies for these incurable malignancies.
+
+Therapeutic  agents  that  suppress  MNK  kinases  cooperate 
+with  MEK  inhibitors.  To  determine  whether  chemical  inhibi-
+tion  of  MNK  kinases  could  recapitulate  the  effects  of  genetic 
+suppression,  we  first  utilized  the  MNK1  and  MNK2  inhibitor 
+CGP57380 (19). Similar to what occurs with genetic ablation of 
+MNK1 and MNK2, CGP57380 inhibited eIF4ES209 phosphoryla-
+tion in human MPNST cells (Figure 3A) and, on its own, partial-
+ly suppressed proliferation (Figure 3B). Moreover, cells treated 
+with a combination of CGP57380 and PD901 died (Figure 3B). 
+Cercosporamide,  a  natural  product  that  also  inhibits  MNK 
+kinases  (20),  also  suppressed  eIF4ES209  phosphorylation  (Fig-
+ure  3C)  and  killed  MPNST  cells  in  a  dose-dependent  fashion 
+when combined with PD901 (Figure 3D). Because CGP57380 
+and  cercosporamide  are  both  tool  compounds  that  are  not 
+being clinically developed, we investigated whether any other 
+existing  kinase  inhibitors  might  suppress  MNK  and  therefore 
+could be more readily evaluated in vivo. Interestingly, the mul-
+tikinase  inhibitor  merestinib/LY2801653,  originally  designed 
+to suppress the receptor tyrosine kinase MET, has been shown 
+to directly inhibit MNK1 and MNK2 kinases (21). Similarly, we 
+found  that  the  FDA-approved  compound  cabozantinib,  a  sec-
+ond MET/multikinase inhibitor, also directly bound MNK1 and 
+MNK2 with a Kd of 790 nM and 21 nM, respectively (Figure 3E), 
+and suppressed eIF4ES209 phosphorylation in MPNSTs at even 
+lower  concentrations  than  CGP57380  (Figure  3F).  Moreover, 
+cabozantinib  exerted  a  dose-dependent  effect  on  eIF4ES209 
+phosphorylation  and  MPNST  cell  death  when  combined  with 
+PD901 (Figure 3, G and H).
+
+The therapeutic effects of cabozantinib/PD901 require the sup-
+pression  of  MNK-induced  eIF4ES209  phosphorylation.  While  these 
+studies demonstrate that cabozantinib effectively inhibits MNK 
+kinases, it was originally developed as an MET kinase inhibitor 
+(22).  Therefore,  to  independently  examine  the  effects  of  MET 
+suppression  in  MPNSTs,  we  evaluated  the  effects  of  the  struc-
+turally unrelated selective MET kinase inhibitor PF-04217903, 
+
+ReseaRch aRticleThe Journal of Clinical Investigation     
+
+Figure 1. eIF4E is a critical mTORC1 effector in MPNSTs. (A) (Left) Immunoblots of p-ERK, 4EBP1, and p-S6 in S462 treated with 200 nM INK128 (an mTOR 
+kinase inhibitor) and 750 nM PD901 (a MEK inhibitor) for 24 hours. (Right) Change in cell number of S462 cells treated with above concentrations of INK128 or 
+PD901 alone or in combination. Graph represents the average log2 of fold change in cell number 72 hours after treatment relative to time 0 (mean ± SD, n = 3). 
+Note that –1 on the y axis corresponds to a 50% decrease in cell number. (B) Immunoblot of eIF4E (left) and fold change in cell number on days 2 and 3 relative 
+to day 0 (right) and of S462 cells stably expressing 2 unique shRNAs against EIF4E (shEIF4E_1 and shEIF4E_2) or shCNT (mean ± SD, n = 3). (C) Number of 
+colonies formed in soft agar by S462 cells expressing shCNT, shEIF4E_1, or shEIF4E_2 (mean ± SD, n = 4, 1-way ANOVA followed by Bonferroni’s multiple com-
+parisons test). (D) eIF4E levels (left) and fold change in cell number after 72 hours (right) of 90-8TL cells expressing shEIF4E_1, shEIF4E_2, or shCNT (mean ± 
+SD, n = 3, 1-way ANOVA followed by Bonferroni’s multiple comparisons test). (E) Number of soft agar colonies formed by CM173 cells (mouse MPNST) express-
+ing shCNT or 2 independent shRNAs against Eif4e (shEif4e_3 and shEif4e_4) (mean ± SD, n = 3, 1-way ANOVA followed by Bonferroni’s multiple comparisons 
+test). (F) Levels of eIF4E and p-ERK in S462 cells stably expressing shCNT, shEIF4E_1, or shEIF4E_2 treated with 750 nM PD901 for 24 hours. (G) Change in cell 
+number of S462 shCNT, shEIF4E_1, or shEIF4E_2 cells treated with 750 nM PD901 or a vehicle control. Graph represents the average log2 of fold change in cell 
+number 72 hours after treatment with PD901 relative to time 0 (mean ± SD, n = 3). Experiments were conducted at least 3 times for validation.
+
+jci.org      Volume 126      Number 6      June 2016
+
+2 1 8 3
+
+ReseaRch aRticleThe Journal of Clinical Investigation   
+
+Figure 2. MNK kinases are frequently activated in MPNSTs, and genetic ablation triggers cell death when combined with MEK inhibitors. (A) (Left) 
+Immunoblot using a phospho-specific (S209) eIF4E antibody of lysates from normal human fibroblasts (IMR90) and MPNST cells (S462) and (Right) 
+mouse MPNST cell lines (1A50 and 2629_C). (B) eIF4E phosphorylation levels in lysates from primary human MPNSTs. (C) Levels of eIF4E phosphoryla-
+tion in primary mouse MPNSTs. (D) (Left) MNK1 and p-eIF4E levels following expression of shMKNK2, transfection with siRNA against MKNK1 (siMKNK1), 
+or combined shMKNK2 expression and siMKNK1 transfection in S462 cells. (Right) Because existing MNK2 antibodies are not specific, mRNA levels of 
+MKNK2 in shMKNK2-expressing S462 cells are shown relative to nontargeting controls and normalized to GAPDH (mean ± SD, n = 3). (E) (Top) Change in 
+cell number of S462 expressing shCNT or shMKNK2 transfected with siMKNK1 or siCNT and treated with 750 nM PD901 or a vehicle control (DMSO). Graph 
+represents the average log2 of fold change in cell number 72 hours after treatment with PD901 relative to time 0 (mean ± SD, n = 3, 1-way ANOVA followed 
+by Bonferroni’s multiple comparisons test). (Bottom) Levels of p-ERK in the corresponding cell lines following 24 hours of treatment with 750 nM PD901. 
+Experiments repeated at least 3 times for validation.
+
+which  did  not  suppress  eIF4E  phosphorylation  (Figure  4A  and 
+ref. 23). PF-04217903 effectively suppressed MET phosphoryla-
+tion in MPNST cells, but did not significantly affect proliferation 
+(Figure 4, A and B). Moreover, combined PF-04217903/PD901 
+did  not  trigger  cell  death  or  promote  further  proliferative  sup-
+pression compared with PD901 alone (Figure 4B). Other major 
+targets of cabozantinib include VEGFR2, AXL, and c-KIT kinas-
+es. Immunoblot analysis revealed that c-KIT is not expressed in 
+these MPNST cells (data not shown). We therefore investigated 
+whether suppression of AXL or VEGFR2 might be mediating the 
+observed cytotoxicity. Unlike MNK suppression, which was suf-
+ficient to kill MPNST cells in the presence of PD901 (Figure 2E), 
+
+genetic ablation of AXL or VEGFR2 had no effect on the survival 
+or  proliferation  of  cells  alone  or  when  combined  with  PD901 
+(Figure 4, C and D). Importantly, as observed with MET suppres-
+sion, inhibition of these cabozantinib targets also had no effect 
+on eIF4E phosphorylation (Figure 4, A and C), indicating cabo-
+zantinib-mediated suppression of eIF4E phosphorylation occurs 
+solely through direct MNK inhibition as opposed to downregu-
+lation  of  upstream  kinases  that  might  converge  on  MNK1  and 
+MNK2. Collectively, these genetic and chemical studies demon-
+strate that (a) MNK suppression is sufficient to cooperate with 
+MEK inhibitors to kill NF1-mutant MPNSTs, (b) several structur-
+ally unrelated agents that directly suppress MNK kinase activity 
+
+2 1 8 4
+
+jci.org      Volume 126      Number 6      June 2016
+
+ReseaRch aRticleThe Journal of Clinical Investigation     
+
+Figure 3. Multiple therapeutic agents that suppress MNK kinases cooperate with MEK inhibitors. (A) p-eIF4E and p-ERK1/2 levels in S462 cells 
+treated with DMSO, 10 μM CGP57380, 750 nM PD901, or both inhibitors for 24 hours. (B) Change in cell number of S462 cells treated with 10 μM 
+CGP57380 (CGP) or 750 nM PD901 alone or in combination. Graph represents the average log2 of fold change in cell number 72 hours after treatment 
+relative to time 0 (mean ± SD, n = 3). (C) p-eIF4E and p-ERK1/2 levels in S462 cells treated with indicated concentrations of cercosporamide (Cerco.) 
+alone or in combination with 750 nM PD901 for 24 hours. (D) Change in cell number of S462 cells treated with 10 μM or 20 μM cercosporamide or 750 
+nM PD901 alone or in combination. Graph represents the average log2 of fold change in cell number 72 hours after treatment relative to time 0 (mean 
+± SD, n = 3). (E) Binding of tagged MNK1 and MNK2 to immobilized ligand was measured in the presence of increasing cabozantinib. Tagged MNK 
+kinases were quantified by real-time qPCR using previously described methods (26). Representative curves are shown. (F) Levels of p-eIF4E follow-
+ing 24 hours of treatment with increasing concentrations of cabozantinib or 10 μM CGP57380. (G) p-eIF4E and p-ERK1/2 levels in S462 cells treated 
+with 0.5 μM or 1 μM cabozantinib (Cabo) alone or in combination with 750 nM PD901 for 24 hours. (H) Change in cell number of S462 treated with the 
+indicated concentrations of cabozantinib or 750 nM PD901 alone or in combination. Graph represents the average log2 of fold change in cell number 72 
+hours after treatment relative to time 0 (mean ± SD, n = 3). Experiments repeated at least 3 times for validation.
+
+similarly cooperate with MEK inhibitors to kill these tumor cells, 
+and  (c)  MET,  AXL,  and  VEGFR2  suppression  are  not  required 
+nor sufficient to mediate the cytotoxic effects.
+
+We  initially  began  investigating  MNK  kinases  as  potential 
+therapeutic targets in MPNSTs because they uniquely phosphor-
+
+ylate eIF4E at S209 and because eIF4E is such a critical mTOR 
+effector in these tumor cells. To confirm that the inhibition of 
+eIF4ES209  phosphorylation  was  contributing  to  the  therapeutic 
+effects,  we  generated  a  previously  described  phosphomimetic 
+mutant in which the serine at position 209 is substituted by an 
+
+jci.org      Volume 126      Number 6      June 2016
+
+2 1 8 5
+
+ReseaRch aRticleThe Journal of Clinical Investigation   
+
+Figure 4. Cabozantinib cooperates with PD901 by suppressing MNK and eIF4E phosphorylation. (A) p-MET, p-eIF4E, and p-ERK1/2 levels in S462 cells 
+24 hours after treatment with 1 μM PF04217903 and 750 nM PD901. (B) Change in cell number after treatment with 1 μM PF04217903 (PF903) and/or 750 
+nM PD901. Graph represents the average log2 of fold change in cell number 72 hours after treatment relative to time 0 (mean ± SD, n = 3). (C) Axl, VEGFR-2, 
+p-eIF4E, and p-ERK1/2 levels in S462s following transfection with siAXL, siKDR, or control siRNA (siCNT). (D) Change in cell number following transfection 
+with siAXL, siKDR, or siCNT and treatment with 750 nM PD901. Graph represents the average log2 of fold change in cell number 72 hours after treatment 
+relative to time 0 (mean ± SD, n = 3). (E) eIF4E levels in parental S462 cells or cells expressing exogenous Flag-HA–tagged (FHA) eIF4E WT or eIF4ES209D 
+coexpressing shEIF4E_1 against endogenous eIF4E. (F) (Left) Change in cell number of FHA-WT eIF4E– and FHA-eIF4ES209D–expressing cells coexpressing 
+shEIF4E_1 treated with 750 nM PD901 alone or in combination with 0.5 μM cabozantinib. Graph represents the average log2 of fold change in cell number 
+72 hours after treatment relative to time 0 (mean ± SD, n = 3, t test). (Right) p-eIF4E and p-ERK1/2 levels in cells described above 24 hours after treat-
+ment. (G) (Left) Levels of p-eIF4E in 90-8TL human MPNST cells relative to S462 cells. (Right) p-MET, p-eIF4E, and p-ERK1/2 levels in 90-8TL cells treated 
+with 0.5 μM or 1 μM cabozantinib alone or combined with 1 μM PD901. (H) Change in cell number of 90-8TL cells treated with the indicated concentrations 
+of cabozantinib or 1 μM PD901 alone or in combination. Graph represents the average log2 of fold change in cell number 72 hours after treatment relative to 
+time 0 (mean ± SD, n = 3). Experiments repeated at least 3 times for validation.
+
+2 1 8 6
+
+jci.org      Volume 126      Number 6      June 2016
+
+ReseaRch aRticleThe Journal of Clinical Investigation     
+
+Figure 5. Combined cabozantinib and PD901 treatment induces tumor regression in vivo. (A) Levels of p-eIF4E and p-ERK1/2 in CM261 cells (mouse 
+MPNST line) treated with 5 μM cabozantinib and 2 μM PD901 alone or in combination. (B) Graph depicting the change in cell number of mouse (CM261, left, 
+and CM173, right) MPNST cells treated with 5 μM cabozantinib or 2 μM PD901 alone or in combination. Graph represents the average log2 of fold change in 
+cell number 96 hours after treatment relative to time 0 (mean ± SD, n = 3). Experiments repeated at least 3 times for validation. (C) Waterfall plot depict-
+ing change in tumor volume after 10 days of treatment with cabozantinib at 12.3 mg/kg/d (red bars) or in combination with PD901 at 1.5 mg/kg/d (orange 
+bars) (P = 0.0022, Mann-Whitney U test, cabozantinib vs. cabozantinib + PD901), as compared with vehicle (black), and 1.5 mg/kg/d PD901 alone (gray). 
+Vehicle and PD901 tumor responses are previously published historic controls adapted with permission from Cancer Discovery (11). (D) Waterfall plot of 
+the change in tumor volume of mice treated with 12.3 mg/kg/d cabozantinib in combination with 1.5 mg/kg/d PD901 for 21 days. For both C and D, each 
+bar represents an individual tumor-bearing mouse. The left y axis indicates the log2 of the fold change in volume over the indicated time relative to day 0 
+measurements. The right y axis indicates the equivalent percentage change in tumor volume.
+
+aspartic  acid  (eIF4ES209D)  (18).  Flag-HA–tagged  eIF4ES209D  and 
+WT eIF4E were further engineered with sequential silent muta-
+tions  to  prevent  targeting  by  shEIF4E_1  and  were  ectopically 
+expressed at physiological levels in MPNST cells together with 
+shEIF4E_1  to  suppress  endogenous  eIF4E  expression  (Figure 
+4E).  Notably,  the  cells  expressing  eIF4ES209D  were  significant-
+ly  less  sensitive  to  cabozantinib/PD901  compared  with  cells 
+expressing WT eIF4E (Figure 4, E and F). These observations 
+demonstrate  that  the  suppression  of  MNK-dependent  eIF4E 
+phosphorylation contributes to MPNST cell death triggered by 
+combined cabozantinib/MEK inhibitors. Interestingly, while 9 
+of 10 human and 4 of 5 mouse MPNSTs exhibited robust activa-
+tion of the MNK/eIF4E signaling axis (Figure 2, B and C), we 
+identified  a  human  MPNST  cell  line  that  exhibited  extremely 
+low  levels  of  eIF4E  S209  phosphorylation  (Figure  4G).  While 
+
+cabozantinib  effectively  suppressed  MET  phosphorylation  in 
+these  cells,  it  had  minimal  effects  on  proliferation  as  a  single 
+agent and did not trigger cell death when combined with PD901 
+(Figure 4, G and H), consistent with the importance of the MNK/
+eIF4E signaling axis in conferring sensitivity.
+
+Combined  cabozantinib/PD901  treatment  promotes  tumor 
+regression in vivo. Finally, to test the efficacy of combined MNK 
+and MEK inhibition in vivo, we evaluated the effects of cabo-
+zantinib and PD901 in a genetically engineered mouse MPNST 
+model  (24).  Like  human  MPNSTs,  tumors  from  these  animals 
+harbor  compound  mutations  in  Nf1  and  Trp53.  MPNSTs  that 
+develop in these animals are highly aggressive, and mice survive 
+for an average of 10.7 days after tumors are detected, recapitu-
+lating the aggressive nature of human tumors (24). As shown in 
+Figure 5A, eIF4E was phosphorylated on serine 209 in mouse 
+
+jci.org      Volume 126      Number 6      June 2016
+
+2 1 8 7
+
+ReseaRch aRticleMPNST cells and was potently inhibited in response to cabozan-
+tinib. Moreover, combined cabozantinib/PD901 treatment pro-
+moted cell death in mouse MPNST lines (Figure 5B). We there-
+fore  evaluated  the  therapeutic  effects  of  cabozantinib/PD901 
+in vivo. Genetically engineered mice harboring Nf1/p53 mutant 
+MPNSTs were treated with cabozantinib at 12.3 mg/kg/d alone 
+or  in  combination  with  1.5  mg/kg  PD901  daily.  (Figure  5C). 
+Similarly  to  in  vitro  observations,  cabozantinib  alone  exerted 
+cytostatic effects; however, when combined with PD901, every 
+tumor regressed, shrinking between 36% and 63% (Figure 5C). 
+We performed a second preclinical study, extending treatment 
+for  21  days,  and  found  that  the  tumor  regression  was  main-
+tained,  which  is  particularly  striking  given  that  these  tumors 
+grow on average 4- to 7-fold and kill control mice in half of this 
+time (Figure 5D). Together with the genetic analysis provided, 
+these  findings  suggest  that  combined  MEK/MNK  inhibition 
+represents  a  promising  therapeutic  strategy  for  treating  NF1-
+mutant  MPNSTs.  While,  cabozantinib  or  other  multikinase 
+inhibitors that suppress MNK kinases could be evaluated in this 
+therapeutic  context  in  clinical  trials,  more  importantly,  these 
+findings support the potential utility of selective MNK inhibitors 
+for these and likely other cancers.
+
+Discussion
+MPNSTs  are  highly  aggressive  malignancies  that  develop  in 
+neurofibromatosis  type  1  patients  or  can  arise  spontaneously 
+(8).  These  tumors  frequently  metastasize,  and  there  are  cur-
+rently  no  effective  treatments  for  unresectable  lesions,  which 
+are lethal in 70% of cases (9). Here, we identify what we believe 
+is a new therapeutic target in MPNSTs and provide a promising 
+therapeutic strategy for these deadly malignancies. Using a vari-
+ety of genetic and chemical approaches, we show that suppres-
+sion of MNK kinases effectively cooperates with MEK inhibitors 
+to kill human MPNST cells. Moreover, we find that the multiki-
+nase inhibitor cabozantinib directly inhibits MNK1 and MNK2 
+and cooperates with MEK inhibitors to induce dramatic MPNST 
+regression in vivo. Importantly, these therapeutic effects cannot 
+be recapitulated by suppressing other cabozantinib targets and 
+require  the  suppression  of  MNK-induced  eIF4E  phosphoryla-
+tion. Together, these studies highlight the potential therapeutic 
+utility of MNK kinase inhibitors in cancer and provide an impor-
+tant clinical setting in which they should be evaluated. Notably, 
+at least 2 phase I studies of more selective MNK inhibitors are 
+currently underway (ClinicalTrials.gov eFT508, BAY 1143269).
+Previous  studies  have  shown  that  MNK  is  important  for 
+the  development  of  PTEN-mutant  cancers  and  that  loss-of-
+function  mutations  delay  tumor  formation  in  mouse  models 
+(17). However, not all genes that contribute to tumor develop-
+ment  are  therapeutic  targets.  Here,  we  show  that  acute  sup-
+pression of MNK plays a causal role in mediating an effective 
+therapeutic  response  when  combined  with  MEK  inhibitors. 
+Moreover, we find that MNK is an unappreciated direct target 
+of  the  FDA-approved  drug  cabozantinib,  suggesting  that  tri-
+als evaluating the combined effects of cabozantinib and MEK 
+inhibitors should be considered. Notably, while we have found 
+that  a  relatively  low  preclinical  dose  of  cabozantinib  is  effec-
+tive in this model when combined with a dose of PD901 that 
+
+2 1 8 8
+
+jci.org      Volume 126      Number 6      June 2016
+
+The Journal of Clinical Investigation   
+
+is readily achieved in patients, the potential combined toxicity 
+of these agents in humans still needs to be taken into account. 
+However, the more important finding in this study is that selec-
+tive MNK kinase inhibitors should be effective in NF1-mutant 
+tumors,  which  would  circumvent  any  toxicity  associated  with 
+inhibiting other cabozantinib targets. Moreover, because MNK 
+appears  to  be  a  fairly  cancer-specific  target,  MNK  inhibitors 
+may  have  a  unique  therapeutic  window.  The  discovery  that 
+MNK  is  the  functional  therapeutic  target  of  cabozantinib  in 
+these tumors may be reminiscent of the finding that anaplastic 
+lymphoma receptor tyrosine kinase (ALK) is the key target of 
+the multikinase inhibitor crizotinib in lung cancer (25). Nota-
+bly, the initial ALK/crizotinib discovery led to the development 
+of more selective ALK inhibitors that appear to be more effec-
+tive than crizotinib and can overcome crizotinib resistance (25). 
+The recent emergence of more MNK-selective inhibitors may 
+provide a unique opportunity for beginning clinical studies with 
+these more specific agents from the onset. Finally, while these 
+studies validate MNK as an important new therapeutic target in 
+MPNSTs, this combination could also be examined in other Ras 
+and/or mTOR-dependent cancers.
+
+eIF4E is a known MNK target, and our phosphomimetic stud-
+ies  demonstrate  that  eIF4E  dephosphorylation  is  an  important 
+mediator  of  the  therapeutic  response.  However,  MNK  kinases 
+have additional known and likely unknown substrates (reviewed 
+in ref. 13). Some of these can be conceptually ruled out as contrib-
+utors to the therapeutic response, such as Sprouty2, which would 
+be expected to be destabilized by MNK inhibition (reviewed in ref. 
+13). While it will be interesting to elucidate the complete thera-
+peutic effects of MNK suppression, our studies suggest that eIF4E 
+phosphorylation at serine 209 can serve as a useful biomarker to 
+identify tumors in which MNK kinases are activated. Importantly, 
+we find that MNK kinases are activated in a high percentage of 
+primary human MPNSTs. A relatively homogenous activation of 
+this pathway might be expected in tumors from patients with a 
+familial cancer syndrome that overall exhibits less heterogeneity 
+than sporadic cancers. However, eIF4E phosphorylation can be 
+used to identify other tumor types or tumor subsets that might 
+benefit  from  this  therapeutic  approach.  Taken  together,  these 
+studies  demonstrate  that  combined  suppression  of  MNK  and 
+MEK potently kills MPNSTs and have established a therapeutic 
+paradigm for these untreatable malignancies.
+
+Methods
+Cell  lines  and  reagents.  S462s  and  IMR90s  were  purchased  from 
+ATCC. The 90-8TLs were provided by Eric Legius (Catholic Uni-
+versity  Leuven).  CM261,  CM173,  1A50,  and  2629_C  were  gener-
+ated  from  MPNSTs  isolated  from  NPcis  mice.  All  cell  lines  were 
+maintained  in  DMEM  supplemented  with  10%  FBS,  penicillin/
+streptomycin,  and  l-glutamine.  Antibodies  were  obtained  from 
+the following sources: Cell Signaling Technologies: eIF4E (catalog 
+9742),  MNK1  (C4C1)  (catalog  2195),  p-Met  (D26)  (catalog  077), 
+p-ERK1/2 (D13.14.4E) (catalog 4370), ERK1/2 (catalog 9102), pS6 
+(catalog 2215), S6 (5G10) (catalog 2217), GAPDH (14C10) (catalog 
+2118), 4E-BP1 (catalog 9452), and VEGFR2 (55B11) (catalog 2479); 
+Invitrogen/Life  Technologies:  p-eIF4E  (catalog  44528G);  Sigma-
+Aldrich:  α-tubulin  (B-5-1-2)  (catalog  T5168);  R&D  Systems:  Axl 
+
+ReseaRch aRticleThe Journal of Clinical Investigation     
+
+(catalog  AF154);  and  Covance:  HA.11  (MMS-101P).  INK128  was 
+purchased  from  Active  Biochem.  CGP57380  and  cercosporamide 
+were  purchased  from  Tocris  Bioscience.  PF04217903  was  pur-
+chased from Selleck Chemicals. Cabozantinib was purchased from 
+ChemieTek.  PD901  was  a  gift  from  Kevin  Shannon  (UCSF,  San 
+Francisco, California, USA).
+
+Human MPNST samples. All patients were diagnosed as having neu-
+
+rofibromatosis type 1.
+RNAi.  pLKO.1 
+
+lentiviral  expression  plasmids  containing  
+shRNAs  against  eIF4E  (human  and  mouse)  and  MNK2  were 
+obtained  from  the  Broad  RNAi  Consortium.  The  target  sequenc-
+es  for  hairpins  directed  against  human  eIF4E  were  as  follows: 
+shEIF4E_1 (TRCN0000062574): CCAAAGATAGTGATTGGTTAT; 
+and  shEIF4E_2  (TRCN0000299576):  CCGACTACAGAAGAG-
+GAGAAA. The target sequences for hairpins directed against mouse 
+eIF4E were as follows: shEIF4E_3 (TRCN0000077475): CCGAA-
+GATAGTGATTGGTTAT;  and  shEIF4E_4  (TRCN0000077477): 
+CGATTGATCTCTAAGTTTGAT. The target sequence for hairpins 
+directed  against  human  MNK2  is  shMNK2  (TRCN0000342285): 
+CGCCGTCAAGATCATTGAGAA.  Nontargeting,  siMNK1,  siAXL, 
+and siKDR pools were purchased from Dharmacon (D-001810-10, 
+L-004879-00,  L-003104-00,  and  L-003148-00,  respectively). 
+siRNAs  were  transfected  into  cells  using  RNAiMax  lipofectamine 
+reagent from Invitrogen.
+
+Soft  agar,  cellular  proliferation,  and  cell  death  studies.  For  soft 
+agar experiments, 50,000 S462 cells or 25,000 CM173 cells were 
+suspended in 0.35% agar in growth media on top of 0.5% agar in 
+growth media in 6-well plates. After 3 weeks, colonies were fixed 
+and stained with crystal violet; plates were scanned and the number 
+of colonies per well was determined using ImageJ software (NIH). 
+For  cellular  proliferation  and  cell  death  assays,  150,000  cells  per 
+well were seeded in 6-well plates, and approximately 24 hours after 
+plating, day 0 counts were taken. For inhibitor experiments, drug 
+treatments were started on day 0, and for siRNA experiments, cells 
+were  transfected  approximately  24  hours  before  plating.  All  S462 
+cell death assays were performed in DMEM with 2% FBS starting on 
+day 0. Final cell counts were taken at 72 or 96 hours where indicated 
+to determine changes in cell number from day 0. For Western blots 
+to determine drug efficacy or efficient knockdown, lysates were col-
+lected 24 hours following the addition of inhibitors.
+
+eIF4E  constructs.  pHA-eIF4E  was  a  gift  from  Dong-Er  Zhang 
+(UCSD, La Jolla, California, USA) (Addgene plasmid catalog 17343). 
+The  S209D  and  wobble  mutations  were  generated  via  site-directed 
+mutagenesis (QuikChange II XL Site-Directed Mutagenesis Kit, Strat-
+agene).  WT  and  mutant  cDNAs  were  subsequently  cloned  into  the 
+pHAGE-Flag-HA mammalian lentiviral expression vector.
+
+Binding  constant  measurements  and  calculations.  Binding  of  
+epitope-tagged MNK1 and MNK2 to immobilized ligand was measured 
+as a function of unlinked test compound concentration using meth-
+ods  described  previously  (26).  Cabozantinib  dose-response  curves 
+were  graphed  using  nonlinear  least-square  fit  with  the  Levenberg- 
+Marquardt  algorithm.  Determining  kd  based  on  the  dose  response 
+curves used the Hill equation with the Hill slope set to –1.
+
+qPCR. RNA was isolated using QIAGEN RNeasy kit. 50 ng of 
+total RNA was used for each reaction, and cDNA synthesis and PCR 
+amplification  were  performed  using  the  qScript  One-Step  SYBR 
+Green  Kit  for  iQ  (Quanta  Biosciences).  Quantitative  PCR  (qPCR) 
+
+reactions were run using a Bio-Rad iCycler iQ thermal cycler. Sam-
+ples were run in triplicate, and expression levels were determined 
+based on a standard curve run with each primer set; levels were nor-
+malized to an internal control, GAPDH. The following are the prim-
+er  sequences  used:  GAPDH;  for:  5′-CATGTTCGTCATGGGTGT-
+GAACCA-3′,  rev:  5′-ATGGCATGGACTGTGGTCATGAGT-3′  and 
+MKNK2;  for:  5′-AGCCGAACTTCAGGGTTTC-3′,  rev:  5′-AAGT-
+CAGAGTCTCCGTGGT-3′.
+
+In  vivo  drug  treatments  and  dosing  schedule.  C57BL/6-Trp53tm1Tyj  
+Nf1tm1Tyj  (NPcis)  mice  were  bred  and  maintained  as  previously 
+described  (24).  Mice  were  palpated  to  detect  tumors  starting  at  2 
+months  of  age,  and  treatment  commenced  when  tumors  reached 
+200 to 1,000 mm3. Mice were treated daily with cabozantinib by oral 
+gavage at 12.3 mg/kg. Cabozantinib was prepared in 65% D5W/30% 
+propylene  glycol/5%  Tween-80  and  was  briefly  vortexed  followed 
+by sonication for 2 minutes. PD901 was administered at 1.5 mg/kg 
+once  per  day  immediately  prior  to  cabozantinib  administration  by 
+oral gavage, and PD901 was prepared as previously described (27). 
+To track changes in tumor volume, tumor size was measured at day 
+0 and subsequently every 2 to 3 days by vernier calipers; volume was 
+calculated using the standard formula L × W2 × 0.52.
+
+Statistics.  For  quantitative  measurements,  graphs  represent 
+mean ± SD. Where indicated, data are presented as fold change or 
+log2 fold change over initial measurements. Changes in tumor vol-
+ume  are  presented  in  a  waterfall  plot  with  each  bar  representing 
+the  change  in  tumor  volume  of  an  individual  animal  in  the  study. 
+ANOVA followed by Bonferroni’s multiple comparison tests, 2-tailed 
+unpaired  t  tests,  and  Mann-Whitney  U  tests  was  used  to  compare 
+data  sets  where  indicated,  and  P  values  are  shown.  A  P  value  less 
+than or equal to 0.05 was considered significant. Data were graphed 
+and analyzed using GraphPad Prism v.6.
+
+Study approval. Animal procedures were approved by the Center 
+for Animal and Comparative Medicine at Harvard Medical School in 
+accordance with the NIH Guide for the Care and Use of Laboratory Ani-
+mals (National Academies Press. 2011.) and the Animal Welfare Act. 
+Consent was obtained for human tissue acquisition according to IRB-
+approved protocol (S52563) and local ethical committees.
+
+Author contributions
+RL,  RI,  OM,  ALM,  NW,  BMK,  SCBY,  and  JRG  performed  the 
+experiments. RL, BMK, JRG, and KC designed and interpreted the 
+experiments. EL contributed advice and provided human tumor 
+samples. RL, BMK, JRG, and KC wrote and edited the manuscript.
+
+Acknowledgments
+K. Cichowski, R. Lock, and this work were supported by a grant 
+from  the  Department  of  Defense  (W81XWH-13-1-0044),  the 
+Children’s  Tumor  Foundation  (CTF),  and  the  National  Cancer 
+Institute  (R01CA111754).  R.  Lock  was  supported  by  an  Ameri-
+can  Cancer  Society–New  England  Division–Ellison  Foundation 
+postdoctoral fellowship (PF-15-127-01-CDD) and by a CTF Young 
+Investigator Award (2012-01-023).
+
+Address  correspondence  to:  Karen  Cichowski,  Brigham  & 
+Women’s Hospital, 77 Avenue Louis Pasteur, NRB 0458C, Bos-
+ton,  Massachusetts  02115,  USA.  Phone:  617.525.4722;  E-mail: 
+kcichowski@rics.bwh.harvard.edu.
+
+jci.org      Volume 126      Number 6      June 2016
+
+2 1 8 9
+
+ReseaRch aRticleThe Journal of Clinical Investigation   
+
+  1. Maertens O, Cichowski K. An expanding role for 
+RAS GTPase activating proteins (RAS GAPs) in 
+cancer. Adv Biol Regul. 2014;55:1–14.
+
+  2. Martin GA, et al. The GAP-related domain of the 
+neurofibromatosis type 1 gene product interacts 
+with ras p21. Cell. 1990;63(4):843–849.
+
+  3. Ballester R, et al. The NF1 locus encodes a pro-
+
+tein functionally related to mammalian GAP and 
+yeast IRA proteins. Cell. 1990;63(4):851–859.
+
+  4. Bollag G, et al. Loss of NF1 results in activation 
+of the Ras signaling pathway and leads to aber-
+rant growth in haematopoietic cells. Nat Genet. 
+1996;12(2):144–148.
+
+  5. Johannessen CM, et al. TORC1 is essential 
+for NF1-associated malignancies. Curr Biol. 
+2008;18(1):56–62.
+
+  6. Chang T, et al. Sustained MEK inhibition abro-
+gates myeloproliferative disease in Nf1 mutant 
+mice. J Clin Invest. 2013;123(1):335–339.
+
+  7. Jessen WJ, et al. MEK inhibition exhibits efficacy 
+in human and mouse neurofibromatosis tumors. 
+J Clin Invest. 2013;123(1):340–347.
+
+  8. Riccardi VM. Neurofibromatosis: Phenotype, 
+
+Natural History, And Pathogenesis. Baltimore, 
+Maryland, USA: The Johns Hopkins University 
+Press; 1992.
+
+  9. Zehou O, et al. Chemotherapy for the treatment 
+
+of malignant peripheral nerve sheath tumors 
+in neurofibromatosis 1: a 10-year institutional 
+review. Orphanet J Rare Dis. 2013;8:127.
+
+ 10. Johannessen CM, Reczek EE, James MF, Brems 
+H, Legius E, Cichowski K. The NF1 tumor sup-
+pressor critically regulates TSC2 and mTOR. Proc 
+Natl Acad Sci U S A. 2005;102(24):8573–8578.
+
+  11. Malone CF, Fromm JA, Maertens O, DeRaedt T, 
+
+Ingraham R, Cichowski K. Defining key signaling 
+nodes and therapeutic biomarkers in NF1-mutant 
+cancers. Cancer Discov. 2014;4(9):1062–1073.
+
+  12. Pelletier J, Graff J, Ruggero D, Sonenberg N. Tar-
+geting the eIF4F translation initiation complex: 
+a critical nexus for cancer development. Cancer 
+Res. 2015;75(2):250–263.
+
+  13. Buxade M, Parra-Palau JL, Proud CG. The 
+
+Mnks: MAP kinase-interacting kinases (MAP 
+kinase signal-integrating kinases). Front Biosci. 
+2008;13:5359–5373.
+
+ 20. Konicek BW, et al. Therapeutic inhibition of MAP 
+
+kinase interacting kinase blocks eukaryotic ini-
+tiation factor 4E phosphorylation and suppresses 
+outgrowth of experimental lung metastases. 
+Cancer Res. 2011;71(5):1849–1857.
+
+  21. Yan SB, et al. LY2801653 is an orally bioavail-
+
+able multi-kinase inhibitor with potent activity 
+against MET, MST1R, and other oncopro-
+teins, and displays anti-tumor activities in 
+mouse xenograft models. Invest New Drugs. 
+2013;31(4):833–844.
+
+  14. Truitt ML, et al. Differential requirements for 
+
+ 22. Yakes FM, et al. Cabozantinib (XL184), a 
+
+eIF4E dose in normal development and cancer. 
+Cell. 2015;162(1):59–71.
+
+  15. Ueda T, Watanabe-Fukunaga R, Fukuyama H, 
+
+Nagata S, Fukunaga R. Mnk2 and Mnk1 are 
+essential for constitutive and inducible phos-
+phorylation of eukaryotic initiation factor 4E but 
+not for cell growth or development. Mol Cell Biol. 
+2004;24(15):6539–6549.
+
+  16. Furic L, et al. eIF4E phosphorylation promotes 
+tumorigenesis and is associated with prostate 
+cancer progression. Proc Natl Acad Sci U S A. 
+2010;107(32):14134–14139.
+
+  17. Ueda T, et al. Combined deficiency for MAP kinase-
+interacting kinase 1 and 2 (Mnk1 and Mnk2) delays 
+tumor development. Proc Natl Acad Sci U S A. 
+2010;107(32):13984–13990.
+
+  18. Wendel HG, et al. Dissecting eIF4E action in 
+
+tumorigenesis. Genes Dev. 2007; 
+21(24):3232–3237.
+
+  19. Knauf U, Tschopp C, Gram H. Negative regulation 
+of protein translation by mitogen-activated protein 
+kinase-interacting kinases 1 and 2. Mol Cell Biol. 
+2001;21(16):5500–5511.
+
+novel MET and VEGFR2 inhibitor, simulta-
+neously suppresses metastasis, angiogen-
+esis, and tumor growth. Mol Cancer Ther. 
+2011;10(12):2298–2308.
+
+  23. Zou HY, et al. Sensitivity of selected human 
+
+tumor models to PF-04217903, a novel selec-
+tive c-Met kinase inhibitor. Mol Cancer Ther. 
+2012;11(4):1036–1047.
+
+ 24. Cichowski K, et al. Mouse models of tumor devel-
+
+opment in neurofibromatosis type 1. Science. 
+1999;286(5447):2172–2176.
+
+  25. Awad MM, Shaw AT. ALK inhibitors in non-small 
+cell lung cancer: crizotinib and beyond. Clin Adv 
+Hematol Oncol. 2014;12(7):429–439.
+
+ 26. Fabian MA, et al. A small molecule-kinase inter-
+
+action map for clinical kinase inhibitors. Nat 
+Biotechnol. 2005;23(3):329–336.
+
+  27. Brown AP, Carlson TC, Loi CM, Graziano MJ. 
+Pharmacodynamic and toxicokinetic evalua-
+tion of the novel MEK inhibitor, PD0325901, 
+in the rat following oral and intravenous 
+administration. Cancer Chemother Pharmacol. 
+2007;59(5):671–679.
+
+2 1 9 0
+
+jci.org      Volume 126      Number 6      June 2016
+
+ReseaRch aRticle

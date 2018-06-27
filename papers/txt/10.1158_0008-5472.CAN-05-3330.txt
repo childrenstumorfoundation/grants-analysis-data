@@ -1,0 +1,1273 @@
+Research Article
+
+Large-Scale Molecular Comparison of Human Schwann Cells to
+Malignant Peripheral Nerve Sheath Tumor Cell Lines and Tissues
+
+Shyra J. Miller,1 Fatima Rangwala,1 Jon Williams,1 Peter Ackerman,1 Sue Kong,2 Anil G. Jegga,2
+Sergio Kaiser,2 Bruce J. Aronow,2 Silke Frahm,3 Lan Kluwe,3 Victor Mautner,3 Meena Upadhyaya,4
+David Muir,5 Margaret Wallace,6 Jussara Hagen,7 Dawn E. Quelle,7 Mark A. Watson,8 Arie Perry,8
+David H. Gutmann,8,9 and Nancy Ratner1
+
+Divisions of 1Experimental Hematology and 2Biomedical Informatics, Cincinnati Children’s Hospital Research Foundation, University
+of Cincinnati College of Medicine, Cincinnati, Ohio; 3Department of Neurosurgery, University Clinic Hamburg-Eppendorf, Hamburg,
+Germany; 4Institute of Medical Genetics, University of Wales College of Medicine, Heath Park, Cardiff, United Kingdom;
+Departments of 5Pediatric Neurology, Neuroscience, and 6Molecular Genetics and Microbiology, University of Florida,
+Gainesville, Florida; 7Department of Pharmacology, University of Iowa College of Medicine, Iowa City, Iowa; and
+Departments of 8Pathology and Immunology and 9Neurology, Washington University School of Medicine, St. Louis, Missouri
+
+Abstract
+Malignant peripheral nerve sheath tumors (MPNST) are highly
+invasive soft tissue sarcomas that arise within the peripheral
+nerve and frequently metastasize. To identify molecular events
+contributing to malignant transformation in peripheral nerve,
+we compared eight cell lines derived from MPNSTs and seven
+normal human Schwann cell samples. We found that MPNST
+lines are heterogeneous in their in vitro growth rates and
+exhibit diverse alterations in expression of pRb, p53, p14Arf,
+and p16INK4a proteins. All MPNST cell
+lines express the
+epidermal growth factor receptor and lack S100B protein.
+Global gene expression profiling using Affymetrix oligonucle-
+otide microarrays identified a 159-gene molecular signature
+distinguishing MPNST cell lines from normal Schwann cells,
+which was validated in Affymetrix microarray data generated
+from 45 primary MPNSTs. Expression of Schwann cell differ-
+entiation markers (SOX10, CNP, PMP22, and NGFR) was down-
+regulated in MPNSTs whereas neural crest stem cell markers,
+SOX9 and TWIST1, were overexpressed in MPNSTs. Previous
+studies have implicated TWIST1 in apoptosis inhibition,
+resistance to chemotherapy, and metastasis. Reducing TWIST1
+expression in MPNST cells using small interfering RNA did not
+affect apoptosis or chemoresistance but inhibited cell chemo-
+taxis. Our results highlight the use of gene expression profiling
+in identifying genes and molecular pathways that are potential
+biomarkers and/or therapeutic targets for treatment of MPNST
+and support the use of the MPNST cell lines as a primary
+analytic tool. (Cancer Res 2006; 66(5): 2584-91)
+
+Introduction
+
+Malignant peripheral nerve sheath tumors (MPNST) are
+aggressive soft tissue sarcomas with poor prognosis. Excision of
+the tumor does not always prevent local recurrence, and meta-
+stases to the lung, liver, and brain are common. Current therapeutic
+regimens have limited use because the tumors are generally
+resistant to standard chemotherapy and radiation (1). Half of all
+
+MPNSTs are sporadic in nature; half arise in individuals with
+neurofibromatosis type 1 (NF1), an autosomal dominant disorder
+affecting 1 in 2,500 to 3,500 individuals worldwide (2). MPNSTs
+represent a major cause of mortality in NF1 patients (3). Nearly
+all NF1 patients develop benign dermal neurofibromas and f30%
+of NF1 patients have benign plexiform neurofibromas (4) which,
+unlike dermal neurofibromas, can undergo malignant transfor-
+mation to MPNST (5). Greater than 50% of MPNSTs contain cells
+immunoreactive for S100h protein, suggesting that tumors arise
+from neoplastic Schwann cells or their precursors (6).
+
+Human tumor cell lines have historically served as experimental
+models for the study of tumor cell biology and drug development. A
+small number of cell lines, derived from NF1-associated MPNSTs
+(7–10) or sporadic MPNSTs (11, 12), have been reported in the
+literature but have never been directly compared with each other
+and primary tumors. These cell lines are a valuable resource as
+primary MPNSTs are difficult to permanently establish in culture.
+Here, we used MPNST cell lines to identify differences between
+MPNST cells and normal human Schwann cells (NHSC), the
+proposed cell of origin for MPNST.
+
+Molecular events contributing to peripheral nerve tumor devel-
+opment are unclear. In the context of NF1, loss of the NF1 protein
+product is believed to be the earliest event as patients inherit a
+mutated NF1 allele and lose the second copy in MPNST cells. Loss of
+NF1 has also been documented in sporadic cases of MPNST (13).
+Another early alteration in MPNST development is the expression of
+epidermal growth factor receptor (EGFR). Whereas EGFR is not
+expressed in NHSCs, the protein is detected in primary MPNSTs,
+MPNST cell lines, and subpopulations of neurofibroma Schwann
+cells (14). Additional genetic mutations targeting regulators of the
+retinoblastoma protein (pRb) and p53 tumor suppressor pathways
+seem to represent later events in malignant transformation of
+Schwann cells as they are not observed in neurofibromas (15–17).
+
+In this study, we identify a gene expression profile that
+distinguishes MPNST cell
+lines from NHSCs and validate this
+MPNST cell line gene signature in a large panel of primary MPNSTs.
+Furthermore, we provide evidence that one candidate gene over-
+expressed in all MPNST samples, TWIST1, is an attractive thera-
+peutic target for novel MPNST treatment strategies.
+
+Note: Supplementary data for this article are available at Cancer Research Online
+
+(http://cancerres.aacrjournals.org/).
+
+Requests for reprints: Nancy Ratner, Division of Experimental Hematology,
+Cincinnati Children’s Hospital Medical Center, 3333 Burnet Avenue, MLC 7013, Cincinnati,
+OH 45229. Phone: 513-636-9469; Fax: 513-636-3549; E-mail: Nancy.Ratner@cchmc.org.
+
+I2006 American Association for Cancer Research.
+doi:10.1158/0008-5472.CAN-05-3330
+
+Materials and Methods
+
+MPNST tumor acquisition and processing. Tumor specimens and
+corresponding clinical data were collected and used in accordance with
+Institutional Review Board–approved protocols. The diagnosis of NF1 was
+
+Cancer Res 2006; 66: (5). March 1, 2006
+
+2584
+
+www.aacrjournals.org
+
+Downloaded from 
+
+Research. 
+
+cancerres.aacrjournals.org 
+
+on June 12, 2018. © 2006 American Association for Cancer
+
+established according to published criteria (NIH Consensus Statement).
+Frozen, archived tumor specimen pathology was reviewed and RNA
+isolated and then analyzed on Affymetrix U95Av2 GeneChip microarrays
+as reported (18).
+
+Cell culture. T265p21, 90-8, ST88-14, 88-3, and STS26T cell lines were
+provided by Jeff DeClue (National Cancer Institute, Bethesda, MD). The YST-1
+cell line was provided by Yoji Nagashima (University School of Medicine,
+Yokohama,
+Japan). Human Narf cells that express isopropyl-L-thio-B-D-
+galactopyranoside (IPTG)–inducible human ADP ribosylation factor (ARF)
+were provided by Gordon Peters (Imperial Cancer Research Fund, London,
+United Kingdom). ST88-14, STS26T, S520, S462, and Narf lines were grown in
+DMEM (Fisher Scientific, Pittsburgh, PA) supplemented with 10% fetal bovine
+serum (FBS; Harlan, Indianapolis, IN). 88-3, 90-8, and T265p21 lines were
+grown in a RPMI 1640–based medium as described (7). The YST-1 line was
+grown in RPMI 1640 (Fisher Scientific) containing 10% FBS. NHSCs were
+generated as previously described (19). Analyses were done under standard
+culture conditions for each cell line. Several assays were not conducted on the
+88-3 cells due to difficulties in culturing this line.
+
+NF1 mutation analysis. DNA was isolated from frozen STS26T or YST1
+cell pellets. The NF1 gene was screened for mutations by denaturing high-
+performance liquid chromatography–based heteroduplex analysis using the
+WAVE analysis system (Transgenomic, Omaha, NE) as described. Several
+primer sequences were redesigned to reduce their homology to the NF1
+pseudogenes sequences (20).
+3-(4,5-Dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide
+assay. Cells (5  103) were plated in triplicate on a 24-well plate (day 0).
+The 3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide (MTT)
+assay was done on day 1 and day 4 by adding 50 AL of a 5 mg/mL MTT
+solution (Sigma-Aldrich, St. Louis, MO) to each well. Following incubation
+at 37jC for 2 hours, the formazan precipitate was extracted in isopropanol-
+HCl and absorbance measured at 540 nm. For Taxol sensitivity assays, the
+noted concentration of paclitaxel (Sigma-Aldrich) was added to the medium
+on day 1. Concentration of paclitaxel was based on previous studies (21).
+Viability assay. Cells were cultured on glass coverslips. Live versus dead
+cell numbers were determined using a LIVE/DEAD Viability/Cytotoxicity kit
+(Molecular Probes, Eugene, OR) according to the protocol of
+the
+manufacturer. The total number of live and dead cells was counted in
+five fields per sample and averaged. Assays were done in duplicate.
+Bromodeoxyuridine incorporation. Twenty-four hours post plating
+3  104 cells onto glass coverslips, cells were labeled for 1 hour with
+bromodeoxyuridine (BrdUrd) labeling reagent (1:1,000; Amersham Bio-
+sciences, Piscataway, NJ) to detect DNA synthesis. Cells were fixed with 3.7%
+formaldehyde (Fisher Scientific), permeabilized in 0.3% Triton X-100
+(Sigma-Aldrich), and incubated with anti-BrdUrd antibodies (1:200;
+Accurate Chemical & Scientific, Westbury, NY) in immunofluorescence
+buffer [20 mmol/L MgCl2, 50 units DNase I (Roche, Basel, Switzerland)]
+for 45 minutes at 37jC. Cell nuclei and BrdUrd localization were visualized
+by incubating in 5 Ag/mL bisbenzamide (Sigma-Aldrich) and rhodamine-
+conjugated donkey anti-Rat secondary antibodies (1:100;
+Jackson
+ImmunoResearch, West Grove, PA). Total number of cells and number of
+BrdUrd-positive cells were counted in five fields per sample and averaged.
+Assays were done in duplicate.
+
+Western blot analysis. Cells were lysed on ice in 50 mmol/L Tris (pH
+7.5), 120 mmol/L NaCl, 1 mmol/L EDTA, 0.5% NP40, 0.1 mmol/L sodium
+vanadate, 1 mmol/L sodium flouride, 5 Ag/mL leupeptin, and 30 Amol/L
+phenylmethylsulfonyl
+flouride. Lysates were sonicated and clarified by
+centrifugation. Equivalent amounts of protein (50-100 Ag) were separated
+by electrophoresis on SDS-polyacrylamide gradient gels (7-15% or 4-20%;
+ISC BioExpress, Kaysville, UT) and transferred to polyvinylidene difluoride
+membrane (Bio-Rad, Hercules, CA). Membranes were probed with anti-ARF
+(NB 200-111; Novus Biologicals, Littleton, CO), anti-RB (clone G3-245;
+BD Biosciences PharMingen, San Diego, CA), anti-p16 (Ab-1; Research
+Products, San Diego, CA), anti-p53 (D0-1; Santa Cruz Biotechnology, Santa
+Cruz, CA), anti-HDM2 (2A10 hybridoma supernatant provided by Gerry
+Zambetti, St. Jude Children’s Research Hospital, Memphis, TN, and Arnold
+Levine, Cancer Institute of New Jersey/UMDNJ, New Brunswick, NJ), or anti-
+TWIST1 antibodies (22). Blots were stripped and reprobed with antitubulin
+
+Molecular Comparison of MPNST
+
+(Sigma-Aldrich) or anti-h-actin (Cell Signaling Technology, Inc., Danvers,
+MA) as a loading control. Signals were detected using horseradish
+peroxidase–conjugated secondary antibodies (Bio-Rad, Hercules, CA) in
+combination with Enhanced Chemiluminescence (ECL) Plus developing
+system (Amersham Biosciences) according to the specifications of the
+manufacturer. For TWIST1 quantification, ImageJ 1.33u software (http://
+rsb.info.nih.gov/ij/) was used to obtain values from scanned autoradio-
+graphs representing protein levels. TWIST1 levels were normalized to
+h-actin levels for each sample.
+
+Immunohistochemistry. Cell suspensions were mounted in a HistoGel
+(Richard Allan-Scientific, Kalamazoo, MI)
+‘‘button’’ according to the
+protocol of the manufacturer and embedded in paraffin blocks. S100h
+and EGFR protein expression was determined by a semiautomated
+immunohistochemical
+technique as described (Ventana ES, Ventana
+Medical Systems, Tuscon, AZ; ref. 14).
+
+RNA isolation and microarray hybridization. Total RNA was isolated
+from cells using Trizol reagent (Invitrogen, San Diego, CA) followed by
+phenol/chloroform extraction and ethanol precipitation. RNA integrity
+was verified with an Agilent Bioanalyzer 2100 (with typical 28S/18S
+ratios = 2 F 0.1). To generate a biotinylated probe, cDNA was synthesized
+(Superscript cDNA synthesis kit, Invitrogen, San Diego, CA) from 10 Ag
+RNA using an oligo(dT) primer with a T7 RNA polymerase promoter at
+the 5Vend. The cDNA was made double stranded and used in an in vitro
+transcription reaction (Enzo Diagnostics) with T7 RNA polymerase to
+synthesize biotinylated product for hybridization to Affymetrix GeneChips
+HU133A and HU133B using the Affymetrix recommended protocol. The
+Affymetrix Gene Array scanner and Micro Array Suite version 5.0 were
+used to scan and quantify GeneChips using default settings.
+
+the pattern search program from GEMS Launcher
+
+Microarray data analysis. Microarray gene expression data (MAS *.cel
+files) were initially processed using Robust Microarray Analysis (RMA;
+ref. 23). RMA data were loaded into Genespring 6.1 computer software
+(Silicon Genetics, Redwood City, CA), transformed from a log 2 to linear
+scale, and normalized per gene to the mean value of its level of expression
+across seven NHSC samples. Welch t test/ANOVA with Benjamini multiple
+testing correction was used to identify statistically significant differences
+in gene expression between groups. Unsupervised hierarchical cluster
+analysis using Pearson correlation for a distance metric was used to
+arrange genes according to similar expression patterns. Statistical analysis
+of
+functional classification was used to identify altered molecular
+pathways (OntoExpress; http://vortex.cs.wayne.edu/ontoexpress/). For
+analysis of primary MPNSTs, raw data (*.cel) were RMA-processed,
+assigned a U133 identification number, and imported into GeneSpring 6.1
+for further analysis. To compare the primary MPNST data to the MPNST
+cell
+line and NHSC data, an additional per chip normalization to the
+median was conducted, followed by per gene normalization to the NHSC
+samples. To identify TWIST1 binding sites (24) in putative gene promoter
+regions,
+(http://
+www.genomatix.de) was used to scan sequences with the IUPAC pattern.
+Quantitative real-time reverse transcription-PCR. Total RNA was used
+as a template to synthesize double-stranded cDNA using an oligo(dT) primer
+with Superscript II reverse transcriptase (Invitrogen). Duplicate reactions
+omitting reverse transcriptase were conducted to control for genomic DNA
+contamination. Relative levels of RNA were measured by quantitative real-
+time PCR using the ABI 7500 Sequence Detection System default settings. For
+most genes, amplification was conducted in SYBR Green Master Mix (Applied
+Biosystems, Foster City, CA). See Supplementary Table S1 for primer
+sequences for individual genes. Cycle threshold values were obtained where
+fluorescence intensity was in the geometric phase of amplification and
+averaged for triplicate reactions. Values for individual genes of
+interest
+were normalized to values for b-actin and used to calculate fold change
+in gene expression using ABI software. SOX10 (ABI TaqMan Probe ID
+Hs00366918_m1) and 18S (ABI TaqMan Probe ID Hs99999901_s1) were
+amplified using ABI 2X Universal TaqMan Master Mix (Applied Biosystems).
+interfering RNA transfection. MPNST cells were plated in
+DMEM containing 10% FBS and no antibiotic for transfection the following
+day. Small interfering RNA (siRNA) molecules (siTWIST1 SMARTpool or
+siCONTROL Non-Targeting siRNA Pool; Dharmacon, Lafayette, CO) were
+
+Small
+
+www.aacrjournals.org
+
+2585
+
+Cancer Res 2006; 66: (5). March 1, 2006
+
+Downloaded from 
+
+Research. 
+
+cancerres.aacrjournals.org 
+
+on June 12, 2018. © 2006 American Association for Cancer
+
+Cancer Research
+
+diluted in serum-free DMEM and incubated with XtremeGENE siRNA
+transfection reagent (Roche) at room temperature for 20 minutes before
+dropping on cells at a final optimal concentration of 20 nmol/L. Cell
+medium was changed 24 hours posttransfection to minimize toxicity. Cells
+were incubated 1 to 5 days before analyses. Transfection efficiency was
+f90% as determined with a fluorescent siGLO control (Dharmacon).
+
+Migration assay. The migratory response of MPNST cells was measured
+using a modified Boyden chamber assay. Four days posttransfection with
+siRNA (Dharmacon):XtremeGENE (Roche) complexes or XtremeGENE
+reagent alone, 4  104 cells in serum-free DMEM were plated on the upper
+chamber of a transwell with 8-Am pores (Costar, Corning Inc., Corning, NY).
+The lower chamber contained 800 AL MPNST conditioned medium. Cells
+were incubated for 16 hours at 37jC in 10% CO2. Nonmigrating cells were
+removed from the upper surface of the membrane with cotton swabs.
+Membranes were stained with bisbenzimide and mounted onto glass slides.
+Migration was quantified by counting cells in four fields. Each condition
+was done in triplicate and the number of migrated cells was normalized to
+the total number of cells on an unscraped filter to validate the total number
+of cells plated. Data shown are representative of three independent
+experiments; values presented are the mean F SD. Statistical significance
+was determined by t test using Microsoft Excel software.
+
+Results
+
+A collection of MPNST cell lines. Eight MPNST cell
+
+lines
+were collected for analysis (Table 1). Six cell lines were derived from
+NF1 patients. Two cell lines were derived from sporadic MPNSTs.
+NHSCs were chosen as a control because Schwann cells or their
+precursors are the most likely cells of origin in MPNSTs. Patient
+information and histopathology of
+the primary tumors have
+previously been documented in the original articles cited in Table 1.
+We confirmed that the sporadic MPNST lines STS26T and YST-1
+were wild-type at the NF1 locus. All 60 exons of the NF1 gene were
+screened for mutations using denaturing high-performance liquid
+chromatography–based heteroduplex analysis. No mutations were
+detected in the coding region of the NF1 gene in either sporadic
+MPNST sample (data not shown). Loss of heterozygosity (LOH) at
+the NF1 locus has previously been confirmed in five of the six NF1-
+associated MPNST lines (8, 25, 26).
+
+Cell growth rate varies in MPNST cell lines. We compared
+growth properties of the MPNST cell lines by cell accumulation
+assays (Fig. 1). There was no correlation with NF1 status and growth
+rate. The fastest growing cell lines were STS26T, a sporadic MPNST
+line, and T265p21, an MPNST line derived from an NF1 patient
+(Fig. 1A). The more slowly proliferating cell lines, S520, 90-8, and
+
+Table 1. MPNST cell lines
+
+Cell line
+
+ST88-14
+90-8
+88-3
+T265p21
+S462
+S520
+STS26T
+YST-1
+
+NF1 Patient
+
+Reference
+
++ (LOH)
++ (LOH)*
++ (LOH)
++
++ (LOH)
++ (LOH)
+ 
+ 
+
+(7)
+(8)
+(8)
+(9)
+(10)
+(10)
+(11)
+(12)
+
+NOTE: +, documented history of NF1 disease;  , no documented
+history of NF1 disease.
+*Cell line with a known microdeletion of NF1 (26).
+
+Figure 1. Cell growth rates vary in MPNST cell lines. MPNST cells were
+seeded at equivalent cell numbers in their normal growth medium. The same
+number of NHSCs was plated in the absence (NHSC) or presence of glial growth
+factor (NHSC + GGF ). A, 5  103 cells were plated in triplicate on day 0.
+MTT assays were done on day 1 and day 4. Absorbances were normalized
+to a medium-only control. B, 3  104 cells were plated. Twenty-four hours later,
+cells were labeled with BrdUrd for 1 hour and then stained for BrdUrd
+incorporation. Percent of cells staining positively for BrdUrd incorporation.
+At least 300 cells were counted per cell type on duplicate coverslips. C, 3  104
+cells were plated. Twenty-four hours later, cells were stained with Calcein-AM
+and ethidium homodimer-1. Percent of cells staining positively for ethidium-1.
+Approximately 400 cells were counted per cell type on duplicate coverslips.
+Columns, mean of two independent experiments; bars, SD.
+
+YST-1, evidenced density-dependent growth. At higher plating
+densities, they showed more robust growth but the overall trend
+in relative rates of cell accumulation remained the same (data
+not shown). We determined whether different rates of cell cycle
+progression or cell death accounted for the large variation in cell
+proliferation among the MPNST cell lines. BrdUrd labeling of the
+MPNST cell lines showed that their rates of BrdUrd incorporation
+paralleled their relative rates of proliferation (Fig. 1B). In contrast,
+the rates of cell death were approximately constant in all of the lines
+(Fig. 1C). Thus, rates of cell proliferation vary among the MPNST cell
+lines and do not distinguish the NF1-associated MPNSTs from the
+sporadic MPNSTs.
+
+Cell cycle proteins and Schwann cell markers are altered
+in MPNST cell lines. Functional disruptions of the pRb tumor
+suppressor pathway are frequent events in primary MPNSTs
+
+Cancer Res 2006; 66: (5). March 1, 2006
+
+2586
+
+www.aacrjournals.org
+
+Downloaded from 
+
+Research. 
+
+cancerres.aacrjournals.org 
+
+on June 12, 2018. © 2006 American Association for Cancer
+
+(17, 27–29) due to inappropriate pRb phosphorylation via
+dysregulation of upstream regulators (p16INK4a mutation or cyclin
+overexpression) or loss of the pRB gene itself. pRb immunoreac-
+tivity was detected in all of the MPNST lines, suggesting that the RB
+gene itself is not lost in the tumor cells (Fig. 2A). In comparison
+with NHSCs, an increase in the inactive or phosphorylated form of
+pRb was detected in the 90-8, S520, ST88-14, STS26T, and YST-1 cell
+lines. Overexpression of cyclin-dependent kinase 4 (CDK4) or loss
+of the p16INK4a tumor suppressor can both result in enhanced pRb
+phosphorylation. CDK4 was not differentially expressed between
+the MPNST cell lines and NHSCs (data not shown). In contrast,
+p16INK4a was expressed only in cells that were wild-type for neu-
+rofibromin, NHSCs, and the two sporadic MPNST lines (Fig. 2A).
+These results suggest that p16INK4a is selectively inactivated in the
+NF1-associated MPNST cell lines.
+
+The p53 tumor suppressor gene is frequently deleted, mutated,
+and/or overexpressed in primary MPNSTs (15–17, 28). Therefore, we
+
+Figure 2. Cell cycle proteins are altered in MPNST cell lines. A and B, equal
+amounts (100 Ag/lane) of NF1-associated MPNST cell lysates (NF1 /  MPNST ),
+sporadic MPNST cell lysates (NF1 +/+ MPNST ), and NHSC (Hu Schwann )
+lysates were immunoblotted with the antibodies indicated. Blots were stripped
+and reprobed for tubulin as a loading control. Human Narf cells that express
+IPTG-inducible human ARF were used as a control for ARF expression and
+for pRb hypophosphorylation in the growth-arrested, IPTG-treated (+) cells.
+ARF was induced by treatment of cells with (+) or without ( ) 1 mmol/L IPTG
+for 48 hours. Positive staining is brown for S100h and blue for EGFR in (C-E ).
+C, immunohistochemical staining of NHSCs for S100h protein and EGFR.
+D, corresponding sample of NHSCs that omitted incubation with primary
+antibodies. E, immunohistochemical staining of the NF1-associated cell line
+ST88-14 for S100h protein and EGFR. Representative of all of the MPNST cell
+lines except YST-1. F, immunohistochemical staining of the sporadic MPNST
+cell line, YST-1, for S100h protein and EGFR.
+
+Molecular Comparison of MPNST
+
+assessed the integrity of the p14ARF-HDM2-p53 signaling pathway
+in the MPNST cell lines in comparison with NHSCs. p14ARF was
+only expressed in the sporadic MPNST cell line STS26T (Fig. 2A).
+In addition, all MPNST cell lines showed a significant increase in
+HDM2 expression, a negative regulator of p53, in comparison with
+NHSCs (Fig. 2B). Notably, p53 was highly overexpressed in two of the
+MPNST cell lines, S520 and S462, whereas a lower molecular weight
+species (likely a truncated form of p53) was overexpressed in the 90-
+8 line in comparison with NHSCs (Fig. 2B). The remaining MPNST
+lines, ST88-14 and T265p21, both showed levels of p53 expression
+that were modestly higher than that in NHSCs. One sporadic
+MPNST line, YST-1, also exhibited a slight overexpression of p53 in
+comparison with NHSCs whereas p53 expression was completely
+absent in the STS26T sporadic MPNST line.
+
+De novo EGFR expression has previously been implicated as an
+early event in Schwann cell transformation (14, 30). We stained
+NHSCs and the MPNST cell lines for EGFR and double labeled with
+the Schwann cell marker S100h protein. NHSCs are S100h positive
+and EGFR negative (Fig. 2C). All of the NF1-associated MPNST
+lines and one sporadic MPNST line, STS26T, were strongly
+immunoreactive for EGFR in 100% of the cells (Fig. 2E). The
+sporadic MPNST line YST-1 exhibited moderate EGFR expression
+in f50% to 60% of the cells (Fig. 2F). All of the MPNST cell lines
+currently lack S100h protein expression (Fig. 2E and F) although
+S100h immunoreactivity was originally reported for ST88-14,
+T265p21, and YST-1 (9, 12, 31). Thus, MPNST lines aberrantly
+express EGFR and lack expression of a Schwann cell marker,
+perhaps reflecting progressive anaplasia or loss of differentiation.
+Gene expression profile of MPNST cell lines is consistent in
+MPNST in vivo. To identify gene expression changes associated with
+malignant transformation of Schwann cells, we did global gene
+expression analysis of MPNST cell lines using microarray technology.
+We analyzed samples from six NF1-associated MPNST lines, two
+sporadic MPNST cell lines, and seven NHSC samples on Affymetrix
+GeneChips containing >45,000 probe sets (f39,000 transcripts and
+f33,000 annotated genes). To identify genes consistently expressed
+within the MPNST cell
+lines and relevant to Schwann cells, we
+compared average MPNST cell line gene expression to average NHSC
+gene expression and identified 941 probe sets differentially expressed
+by
+3-fold, 841 of which were statistically significant (P < 0.01, Welch
+t test with Benjamini correction). To minimize false positives, we
+eliminated genes differentially expressed 3-fold in at least one
+normal reference sample (NHSC), reducing the number of probe sets
+to 592 consistently expressed among NHSCs and differentially
+expressed in MPNST cell lines (Fig. 3A).
+
+z
+
+Statistical analysis of functional classifications of these genes
+emphasized cell growth and differentiation, cell adhesion/migra-
+tion, and immune response as key dysregulated cellular systems.
+Decreased expression of many Schwann cell markers, including
+S100B, PMP-22, NGFR, CNP, and SOX10, indicates aberrant differ-
+entiation in the MPNSTcells. However, GFAP and MBP are expressed
+at similar levels in NHSC and the MPNST cell lines. Alterations in the
+pRb and p53 pathways are supported by the up-regulation of nine
+E2F targets (32) and three p53 targets, GADD-45 (33), Sema3B (34),
+and DDA3 (35). Genes within the MPNST molecular profile do not
+overlap with a generalized tumor cell
+line list generated by
+microarray analysis of the NCI 60 cancer lines (36) or a list of 24
+genes up-regulated in synovial sarcomas and 4 MPNSTs (37).
+
+To validate the data and to assess the utility of MPNST cell lines
+as a model for MPNST in vivo, the microarray data generated from
+the MPNST cell lines and NHSC were compared with microarray
+
+www.aacrjournals.org
+
+2587
+
+Cancer Res 2006; 66: (5). March 1, 2006
+
+Downloaded from 
+
+Research. 
+
+cancerres.aacrjournals.org 
+
+on June 12, 2018. © 2006 American Association for Cancer
+
+Cancer Research
+
+Figure 3. Microarray gene expression
+profile of MPNST cell lines and primary
+MPNST. RNA samples from seven NHSC,
+two sporadic MPNST cell lines, and six
+NF1-associated cell lines were labeled and
+hybridized to Affymetrix U133 GeneChips.
+Gene expression data were analyzed
+with Genespring 6.1. Gene expression
+was normalized to NHSC (yellow );
+overexpression (red); underexpression
+(blue ). A, schematic of filtering process
+to obtain genes representing the MPNST
+molecular signature. 592 probe sets
+represented genes differentially expressed
+3-fold in MPNST cell lines compared with
+NHSC (P < 0.01, with Benjamini multiple
+testing correction). 209 of 592 probe sets
+were represented in primary MPNST data
+set (Affymetrix U95). 162 of 209 probe sets
+were consistently expressed among
+MPNST cell lines and primary MPNSTs.
+B, expression profile of 209 probe sets
+differentially expressed in MPNST cell lines
+and represented in the microarray data
+from 45 primary MPNSTs. Cluster analysis
+reveals three distinct clusters: I, genes
+up-regulated in MPNST cell lines but
+down-regulated in primary MPNSTs
+(SMC4L1, MAD2L1, RFC4, MKI67, BUB1 )
+promote cell cycle progression; II,
+genes up-regulated in all MPNSTs
+(putative oncogenes TM4SF1, RGS2,
+ETV1, TWIST1, ADA, BASP1, SOX9,
+HMGA2 ); III, genes down-regulated in
+all MPNSTs (Schwann cell markers
+SOX10, CNP, NGFR, PMP22 ). See
+Supplementary Table S2 for complete list.
+*, genes previously reported as aberrantly
+expressed in other tumor systems, putative
+oncogenes, or tumor suppressor genes.
+Bold italicized genes contain the
+TWIST1-specific E-box (24) in their
+upstream sequence, potential
+transcriptional targets of TWIST1.
+
+data generated from 45 primary MPNST samples hybridized to
+Affymetrix U95 chips, containing f12,000 probe sets representing
+f10,000 annotated genes (18). Nearly all of the genes represented
+on the U95 chip were also on the U133 chip, resulting in 9,433
+overlapping genes. Unsupervised hierarchical cluster analysis of the
+9,433 probe sets across all samples distinguished normal samples,
+NHSCs, from tumor samples, MPNST cells, and primary MPNSTs
+(data not shown). When we examined expression of the 592 probe
+sets differentially expressed in MPNST cell lines (described above)
+in the primary MPNST samples, approximately one third (209 of
+592) were represented on both the U133 and U95 chips (Fig. 3A).
+Therefore, the gene list we refer to as the MPNST molecular
+signature is not a complete profile of global gene expression.
+However, the majority (162 of 209) of probe sets that distinguished
+
+MPNST cells from NHSCs and were represented on both platforms
+predicted gene expression changes in solid tumors, validating the
+use of the MPNST cell lines as an in vitro tumor model system.
+Three genes were represented by duplicate probes, resulting in a
+159-gene signature for MPNST.
+
+Hierarchical cluster analysis of the 209 probe sets differentially
+expressed in MPNST cell
+lines and represented in the primary
+MPNST data set revealed three distinct clusters (see Supplemen-
+tary Table S2): (a) 10 genes up-regulated in MPNST cell lines but
+down-regulated in primary MPNSTs, (b) 13 genes up-regulated in
+all MPNST samples, and (c) 146 genes down-regulated in all
+MPNST samples (Fig. 3B). The 10 genes in cluster I are differentially
+expressed compared with NHSC but the levels of expression are not
+consistent between the MPNST cell lines and the primary MPNST
+
+Cancer Res 2006; 66: (5). March 1, 2006
+
+2588
+
+www.aacrjournals.org
+
+Downloaded from 
+
+Research. 
+
+cancerres.aacrjournals.org 
+
+on June 12, 2018. © 2006 American Association for Cancer
+
+samples. The protein products of most of these genes are involved
+in cell cycle progression. It is reasonable to believe that cell
+lines growing in tissue culture medium may be exposed to
+nonphysiologic growth-promoting conditions in vitro. Many genes
+in cluster II have been implicated in other tumor systems. Genes in
+cluster III include Schwann cell differentiation markers, validating
+the notion that MPNST cells do not exhibit properties of differen-
+tiated Schwann cells.
+
+TWIST1 overexpression is necessary for MPNST cell
+migration but not apoptosis or chemoresistance. TWIST1
+gene expression was up-regulated in all MPNST cell lines and
+all primary MPNSTs as compared with normal Schwann cells.
+Differential expression of TWIST1 was confirmed at the RNA level
+by quantitative real-time reverse transcription-PCR (Fig. 4A) and
+at the protein level by Western blotting (Fig. 4B). To study the
+functional significance of TWIST1 overexpression in MPNST
+cells, we inhibited TWIST1 expression using siRNA molecules.
+We reduced TWIST1 expression at both the RNA and protein levels
+to f10% to 20% compared with cells transfected with a
+nontargeting siRNA control (Fig. 4C). Putative TWIST1 transcrip-
+tional targets (n = 27) were identified by promoter analysis.
+Differential expression of 8 of 10 targets was validated by
+quantitative real-time PCR but the expression of none was altered
+by siRNA exposure for 5 days (data not shown). Furthermore,
+expression of known TWIST1 targets (38–40) was not significantly
+different in MPNST samples as compared with NHSCs.
+
+TWIST1 can cause tumor cell resistance to microtubule-
+stabilizing drugs such as Taxol (21), an interesting finding given
+the relative chemoresistance of MPNSTs. We ascertained Taxol
+resistance of MPNST cell lines. All of the MPNST cell lines follow the
+survival curve of the TWIST1-expressing positive control cell line,
+PC3, indicating that they are relatively resistant to Taxol-induced cell
+death (Fig. 5A). IC50 values for individual MPNST cell lines were
+statistically different from the LNCaP TWIST1 negative control (P <
+0.001; data not shown). However, reducing TWIST1 expression in
+MPNST cells by transient transfection with TWIST1 siRNA did not
+affect chemosensitivity (Fig. 5B). TWIST1 has also been shown to
+inhibit apoptosis (38). Neither cell growth nor apoptosis was altered
+in MPNST cells transfected with TWIST1 siRNA (data not shown).
+TWIST1 can promote tumor cell migration, invasion (41), and
+metastasis (39). To examine TWIST1 function in MPNST migration,
+we tested whether MPNST cells were migratory in an in vitro
+migration assay. Interestingly, the MPNST cells did not have a
+haptotactic phenotype; they did not migrate in the serum-free or
+serum-containing medium. Because EGFR is overexpressed in
+MPNST cells, we added EGF to the standard serum-containing
+medium but observed minimal migration. MPNST conditioned
+medium was required for significant chemotactic migration (data
+not shown), suggesting that MPNST cells may be secreting as yet
+unidentified chemoattractant(s). Migration was inhibited by 75%
+in STS26T MPNST cells transfected with TWIST1 siRNA (Fig. 5C).
+Thus, MPNST cell migration is dependent on TWIST1 expression
+itself or expression of TWIST1 transcriptional targets.
+
+Discussion
+
+We compared primary human Schwann cells to 8 MPNST cell
+lines and 45 solid MPNSTs. Rates of proliferation and gene
+expression profiles of the MPNST cell lines were variable, mirroring
+the heterogeneity of these tumors in vivo. Nevertheless, our
+microarray gene expression analyses of Schwann cells and MPNST
+
+Molecular Comparison of MPNST
+
+lines resulted in the identification of a specific 159-gene profile for
+MPNST that was validated in a large panel of primary MPNSTs. The
+genes in the MPNST signature, many of which have been
+implicated in other types of cancer, represent potential regulators
+of MPNST pathogenesis.
+
+Disruption of cell cycle regulation was apparent in the MPNST
+lines but consistent alterations in neither pRb-related nor
+cell
+p53-related proteins were observed. The p16INK4a protein was
+absent in five of five NF1-associated MPNST cell lines whereas
+both sporadic lines and NHSCs retained p16INK4a expression.
+Homozygous deletion of p16INK4a has been detected in both NF1-
+associated and sporadic MPNSTs, but not in benign neurofibromas,
+suggesting that its loss contributes to malignant transformation
+
+Figure 4. TWIST1 and potential TWIST1 targets are differentially expressed
+in MPNST compared with NHSC. A, confirmation of differential expression
+of TWIST1 and potential transcriptional targets of TWIST1 in MPNST cell
+lines compared with NHSC by quantitative real-time PCR. Columns, average
+expression value for MPNSTs relative to NHSC set at 1 (log10 scale); bars, SD.
+Differential expression in the same direction was confirmed for 8 of 10 potential
+TWIST1 transcriptional targets in all MPNST cell lines; ECM1 and SAP18
+differential expression was confirmed in some, but not all, MPNST cell lines
+(data not shown). B, confirmation of differential expression of TWIST1 protein by
+Western blotting. The protein blot was probed first with anti-TWIST1 antibodies,
+stripped, and reprobed with antiactin antibodies as a loading control. ImageJ
+1.33u software was used to quantify ECL signal representing amount of protein.
+TWIST1 levels were normalized to h-actin levels for each sample. TWIST1 levels
+were 2- to 10-fold higher in MPNSTs compared with NHSC. C, TWIST1 siRNA
+reduces expression of TWIST1 RNA and TWIST1 protein. STS26T MPNST cells
+were transfected with TWIST1 siRNA or a nontargeting control siRNA (SiNT )
+and assayed for TWIST1 expression 2 to 5 days posttransfection. Data are
+shown for day 5. Columns, levels of expression relative to the nontargeting
+control siRNA for either RNA or protein. RNA levels were measured using
+quantitative real-time PCR; protein levels were quantified using ImageJ software.
+Arrow, band detected by TWIST1 antibodies on a Western blot.
+
+www.aacrjournals.org
+
+2589
+
+Cancer Res 2006; 66: (5). March 1, 2006
+
+Downloaded from 
+
+Research. 
+
+cancerres.aacrjournals.org 
+
+on June 12, 2018. © 2006 American Association for Cancer
+
+Cancer Research
+
+Figure 5. Reducing TWIST1 expression does not affect MPNST chemoresistance
+but inhibits cell chemotaxis. A, MTT assay measuring MPNST cell accumulation
+in the presence of 0, 0.25, 0.5, 1.0, 2.0, or 4.0 ng/mL paclitaxel for 3 days.
+Cell survival is presented as percent of survival in DMSO carrier control. Each
+dose was conducted in triplicate. Points, mean of at least three independent
+experiments and for all MPNST cell lines; bars, SE. PC3 (pos), TWIST1 positive
+control; LNCaP (neg), TWIST1 negative control (21). B, MTT assay measuring
+STS26T MPNST cell accumulation as in (A ) 4 days posttransfection with
+TWIST1 siRNA or a nontargeting control siRNA. C, migration assay of STS26T
+MPNST cells 4 days posttransfection with TWIST1 siRNA or a nontargeting
+control siRNA. Points, percentage of cells migrating through a transwell filter
+relative to the nontargeting control siRNA; bars, SE. The number of migrating
+cells is significantly less in cells transfected with siTWIST1 (P < 0.001).
+Representative of three independent experiments.
+
+(27, 30, 42). Although loss of p16INK4a would be predicted to
+enhance pRb phosphorylation, we found no clear correlation
+between the expression level or phosphorylation status of pRb
+and the presence of p16INK4a in the MPNST cells. Comparative
+analysis of ARF revealed a lack of expression in all cells examined
+except the sporadic MPNST line STS26T. Detection of ARF in
+STS26T is consistent with the absence of p53 in those cells. The
+absence of ARF in primary NHSCs is not surprising because ARF is
+repressed by a variety of factors in normal cells. Others have shown
+that dual loss of p16INK4a and ARF pathways is required for trans-
+formation by Ras, EGFR, and other oncogenes (reviewed in ref. 43).
+The microarray data confirmed differential expression of some
+genes that have previously been implicated in NF1 tumor formation
+but solely in subsets of cell lines and tumors. Midkine is a secreted
+protein that promotes angiogenesis and is up-regulated in a variety
+of tumors (reviewed in ref. 44), including 5 of 8 of the MPNST cell
+lines and 22 of 45 of the primary MPNST samples. We observed CD44
+overexpression in 3 of 8 MPNST cell lines but no primary MPNSTs
+(45). Whereas HGF/c-Met signaling can promote MPNST invasion,
+there was no indication of dysregulated c-Met-related genes in our
+
+MPNST microarray data; secretion of HGF and signaling through
+c-Met may not be apparent at the transcriptional level (46). We
+confirmed that all MPNST cell lines, but not NHSCs, were positive for
+EGFR protein. Our previous analysis of the MPNST primary tumors
+revealed a statistically significant difference in expression profiles of
+EGFR-positive versus EGFR-negative MPNSTs (18). These observa-
+tions suggest that aberrant expression of these genes may not
+be necessary for Schwann cell transformation and/or MPNSTs
+expressing these genes may represent a distinct subclass. Alter-
+natively, these genes may be expressed in different populations of
+cells within each primary tumor.
+
+Genes that are down-regulated in the MPNST molecular profile
+include several markers of Schwann cell differentiation, suggesting
+that MPNST cells have dedifferentiated or represent a Schwann cell
+precursor that has acquired mutations leading to tumor formation.
+SOX10 expression is down-regulated in MPNSTs and normally
+regulates expression of genes promoting Schwann cell differenti-
+ation (47). A recent study by Levy et al. (48) reports reduced levels
+of SOX10 and other Schwann cell markers in 9 MPNST samples
+compared with 14 benign neurofibroma samples by quantitative
+real-time PCR. SOX9 (49) and TWIST1 (24) are expressed in neural
+crest stem cells, Schwann cell precursors, and are overexpressed in
+MPNSTs compared with NHSCs. Although Schwann cells are the
+proposed cell of origin in MPNSTs, comparisons to additional
+tumors and normal tissues may reveal other genes relevant to
+MPNST formation or progression. The idea that tumor cells
+resemble progenitor cells is supported in other tumor models (50).
+We identified TWIST1 as a previously unrecognized cancer-
+related gene in MPNST. TWIST1 gene expression is up-regulated in
+both MPNST cell
+lines and primary tumors. TWIST1 is also
+overexpressed in other tumors, including sarcomas (21, 38, 39).
+TWIST1 is normally expressed early in development and regulates
+cell type determination and differentiation of mesodermal tissues
+(reviewed in ref. 24). TWIST1 inhibits expression of ARF, as
+observed in seven of eight of the MPNST cell lines, which results
+in a bypass of p53-induced apoptosis (38). TWIST1 can inhibit
+apoptosis and promote cell transformation (38). However, we did
+not detect a significant change in apoptosis on reducing TWIST1
+expression in MPNST cells. In several human carcinoma cell lines,
+TWIST1 can prevent cell death in the presence of microtubule-
+stabilizing chemotherapeutic agents (21) and stable suppression
+of TWIST1 increases sensitiviy to Taxol-induced cell death (41).
+MPNSTs are poorly responsive to standard chemotherapeutic
+regimens and we showed that MPNST cell
+lines are resistant
+to Taxol. However, transiently reducing TWIST1 expression did not
+result in Taxol sensitivity in our MPNST cell accumulation assay.
+
+TWIST1 is necessary and sufficient for prostate cancer cell
+migration and invasion in vitro (41). Suppression of TWIST1 inhibits
+metastasis in a murine breast tumor model (39). MPNSTs are highly
+invasive tumors that commonly metastasize. Reducing TWIST1
+expression in MPNST cells inhibited chemotaxis, a key component of
+the metastatic process. Although many of the genes that are
+overexpressed in MPNST cells compared with NHSCs are implicated
+in cell adhesion, migration, or invasion, none are known chemo-
+attractants. It is possible that hypersecretion and not transcriptional
+overexpression of a chemoattractant may promote MPNST cell
+migration.
+
+We conclude that whereas MPNST cell lines are heterogeneous in
+cellular growth, a common gene expression profile in MPNST cell
+lines and primary MPNSTs distinguishes them from normal
+Schwann cells. The MPNST cell
+lines thus provide a valuable
+
+Cancer Res 2006; 66: (5). March 1, 2006
+
+2590
+
+www.aacrjournals.org
+
+Downloaded from 
+
+Research. 
+
+cancerres.aacrjournals.org 
+
+on June 12, 2018. © 2006 American Association for Cancer
+
+Molecular Comparison of MPNST
+
+resource for generating in vitro evidence to support preclinical and
+clinical trials. Overexpression of TWIST1 is constant across all tested
+MPNST cell lines and primary tumors and is necessary for cell
+migration. Further investigation into the functional roles of TWIST1
+and its transcriptional targets may help to uncover novel biomarkers
+or drug targets for improved diagnosis and treatment of MPNST.
+
+Acknowledgments
+
+Received 10/12/2005; revised 11/22/2005; accepted 1/5/2006.
+
+Grant support: NIH grant NS28840 and DOD grants DAMD-17-01-0704 and
+W81XWH-04-1-0273 (N. Ratner); National Neurofibromatosis Foundation Young
+Investigator Award and NINDS Translational Neuroscience Award K01-NS049191-
+01A1 (S.J. Miller); Deutsche Krebshilfe grant 70-2635, 70-2794 (V. Mautner) and NCI
+U01 CA 84291 (B.J. Aronow).
+
+The costs of publication of this article were defrayed in part by the payment of page
+charges. This article must therefore be hereby marked advertisement in accordance
+with 18 U.S.C. Section 1734 solely to indicate this fact.
+
+We thank Dr. Erik Knudsen (University of Cincinnati) for helpful discussions; Yoji
+Nagashima and Jeff DeClue for providing MPNST cell lines; Jennifer O’Malley for
+generating quantitative real-time PCR data; Sian Griffiths and Claudia Consoli for
+technical assistance with NF1 mutation analysis; the University of Miami organ
+procurement team (Les Olson, director) for procurement of normal human nerves;
+Dr. Patrick Wood of the Miami Project to Cure Paralysis; the Laboratory of Immu-
+nohistochemistry and Medical Pathology at the University of Cincinnati Medical
+Center (Dr. Sue Heffelfinger, Director) for the S100 h and EGFR immunohistoche-
+mistry; Cincinnati Children’s Hospital Affymetrix gene chip core (Dr. Steve Potter
+and Shawn Smith) for microarray hybridization; and Dr. Carlotta Glackin (Beckman
+Research Institute of the City of Hope, Duarte, CA) for providing anti-TWIST1
+antibody. We thank all the investigators who contributed MPNST cases including Tarik
+Tihan (University of California, San Francisco/formerly Johns Hopkins), Richard
+Prayson (Cleveland Clinic), Abjit Guha (University of Toronto), Julia Bridge (University
+of Nebraska) and Rosalie Ferner (King’s College, London).
+
+References
+
+1. Helman LJ, Meltzer P. Mechanisms of sarcoma deve-
+
+lopment. Nat Rev Cancer 2003;3:685–94.
+
+2. Huson SM, Compston DA, Clark P, Harper PS. A gene-
+tic study of von Recklinghausen neurofibromatosis in
+south east Wales. I. Prevalence, fitness, mutation rate,
+and effect of parental transmission on severity. J Med
+Genet 1989;26:704–11.
+
+3. Friedman JM, Gutmann DH, MacCollin M, Riccardi
+VM. Neurofibromatosis: phenotype, natural history, and
+pathogenesis. 3rd ed. Baltimore (MD): Johns Hopkins
+University Press; 1999.
+
+4. Huson SM, Harper PS, Compston DA. Von Reckling-
+hausen neurofibromatosis. A clinical and population
+study in south-east Wales. Brain 1988;111:1355–81.
+
+5. Ferner RE, Gutmann DH. International consensus
+statement on malignant peripheral nerve sheath tumors
+in neurofibromatosis. Cancer Res 2002;62:1573–7.
+
+6. Takeuchi A, Ushigome S. Diverse differentiation in
+malignant peripheral nerve sheath tumours associated
+with neurofibromatosis-1: an immunohistochemical and
+ultrastructural study. Histopathology 2001;39:298–309.
+
+7. Fletcher JA, Kozakewich HP, Hoffer FA, et al. Diagnostic
+relevance of clonal cytogenetic aberrations in malignant
+soft-tissue tumors. N Engl J Med 1991;324:436–42.
+
+8. Glover TW, Stein CK, Legius E, Andersen LB, Brereton
+A, Johnson S. Molecular and cytogenetic analysis of
+tumors in von Recklinghausen neurofibromatosis.
+Genes Chromosomes Cancer 1991;3:62–70.
+
+9. Badache A, De Vries GH. Neurofibrosarcoma-derived
+Schwann cells overexpress platelet-derived growth
+factor (PDGF) receptors and are induced to proliferate
+by PDGF BB. J Cell Physiol 1998;177:334–42.
+
+10. Frahm S, Mautner VF, Brems H, et al. Genetic and
+phenotypic characterization of tumor cells derived from
+malignant peripheral nerve sheath tumors of neurofi-
+bromatosis type 1 patients. Neurobiol Dis 2004;16:85–91.
+11. Dahlberg WK, Little JB, Fletcher JA, Suit HD, Okunieff
+P. Radiosensitivity in vitro of human soft tissue sarcoma
+cell lines and skin fibroblasts derived from the same
+patients. Int J Radiat Biol 1993;63:191–8.
+
+12. Nagashima Y, Ohaki Y, Tanaka Y, et al. Establishment
+of an epithelioid malignant schwannoma cell
+line
+(YST-1). Virchows Arch B Cell Pathol Incl Mol Pathol
+1990;59:321–7.
+
+13. Perry A, Roth KA, Banerjee R, Fuller CE, Gutmann DH.
+NF1 deletions in S-100 protein-positive and negative cells
+of sporadic and neurofibromatosis 1 (NF1)-associated
+plexiform neurofibromas and malignant peripheral nerve
+sheath tumors. Am J Pathol 2001;159:57–61.
+
+14. DeClue JE, Heffelfinger S, Benvenuto G, et al. Epi-
+dermal growth factor receptor expression in neurofi-
+bromatosis type 1-related tumors and NF1 animal
+models. J Clin Invest 2000;105:1233–41.
+
+15. Menon AG, Anderson KM, Riccardi VM, et al.
+Chromosome 17p deletions and p53 gene mutations
+associated with the formation of malignant neuro-
+fibrosarcomas in von Recklinhausen neurofibromatosis.
+Proc Natl Acad Sci U S A 1990;87:5435–9.
+
+16. Legius E, Dierick H, Wu R, et al. TP53 mutations are
+frequent in malignant NF1 tumors. Genes Chromo-
+somes Cancer 1994;10:250–5.
+
+17. Mawrin C, Kirches E, Boltze C, Dietzmann K, Roessner
+A, Schneider-Stock R. Immunohistochemical and molec-
+ular analysis of p53, RB, PTEN in malignant peripheral
+nerve sheath tumors. Virchows Arch 2002;440:610–5.
+
+18. Watson MA, Perry A, Tihan T, et al. Gene expression
+profiling reveals unique molecular subtypes of neurofi-
+bromatosis type 1-associated and sporadic peripheral
+nerve sheath tumors. Brain Pathol 2004;14:297–303.
+
+19. Rosenbaum T, Rosenbaum C, Winner U, Muller HW,
+Lenard HG, Hanemann CO. Long-term culture and
+characterization of human neurofibroma-derived
+Schwann cells. J Neurosci Res 2000;61:524–32.
+
+the somatic mutational spectrum of
+
+20. Upadhyaya M, Han S, Consoli C, et al. Characteriza-
+tion of
+the
+neurofibromatosis type 1 (NF1) gene in neurofibroma-
+tosis patients with benign and malignant tumors. Hum
+Mutat 2004;23:134–46.
+
+21. Wang X, Ling MT, Guan XY, et al. Identification of a
+in the
+novel
+development of acquired Taxol resistance in human
+cancer cells. Oncogene 2004;23:474–82.
+
+function of TWIST, a bHLH protein,
+
+22. Lee MS, Lowe GN, Strong DD, Wergedal JE, Glackin
+CA. TWIST, a basic helix-loop-helix transcription factor,
+can regulate the human osteogenic lineage.
+J Cell
+Biochem 1999;75:566–77.
+
+23. Irizarry RA, Bolstad BM, Collin F, Cope LM, Hobbs B,
+Speed TP. Summaries of Affymetrix GeneChip probe
+level data. Nucleic Acids Res 2003;31:e15.
+
+24. Castanon I, Baylies MK. A Twist in fate: evolutionary
+comparison of Twist structure and function. Gene
+2002;287:11–22.
+
+25. Reynolds JE, Fletcher JA, Lytle CH, Nie L, Morton CC,
+Diehl SR. Molecular characterization of a 17q11.2
+translocation in a malignant schwannoma cell
+line.
+Hum Genet 1992;90:450–6.
+
+26. Wu R, Lopez-Correa C, Rutkowski JL, Baumbach LL,
+Glover TW, Legius E. Germline mutations in NF1
+patients with malignancies. Genes Chromosomes
+Cancer 1999;26:376–80.
+
+27. Kourea HP, Orlow I, Scheithauer BW, Cordon-Cardo C,
+Woodruff JM. Deletions of the INK4A gene occur in
+malignant peripheral nerve sheath tumors but not in
+neurofibromas. Am J Pathol 1999;155:1855–60.
+
+28. Birindelli S, Perrone F, Oggionni M, et al. Rb and
+TP53 pathway alterations in sporadic and NF1-related
+malignant peripheral nerve sheath tumors. Lab Invest
+2001;81:833–44.
+
+29. Berner JM, Sorlie T, Mertens F, et al. Chromosome
+band 9p21 is frequently altered in malignant peripheral
+nerve sheath tumors: studies of CDKN2A and other
+genes of the pRB pathway. Genes Chromosomes Cancer
+1999;26:151–60.
+
+30. Perry A, Kunz SN, Fuller CE, et al. Differential NF1,
+p16, and EGFR patterns by interphase cytogenetics
+(FISH) in malignant peripheral nerve sheath tumor
+(MPNST) and morphologically similar spindle cell
+neoplasms. J Neuropathol Exp Neurol 2002;61:702–9.
+
+31. Ryan JJ, Klein KA, Neuberger TJ, et al. Role for the
+stem cell factor/KIT complex in Schwann cell neoplasia
+and mast cell proliferation associated with neurofibro-
+matosis. J Neurosci Res 1994;37:415–32.
+
+analysis of RB-mediated transcriptional repression
+identifies novel
+targets and distinctions from E2F
+action. Cancer Res 2002;62:6587–97.
+
+33. Kastan MB, Zhan Q, el-Deiry WS, et al. A mammalian
+cell cycle checkpoint pathway utilizing p53 and
+GADD45 is defective in ataxia-telangiectasia. Cell 1992;
+71:587–97.
+
+34. Ochi K, Mori T, Toyama Y, Nakamura Y, Arakawa H.
+Identification of semaphorin3B as a direct target of p53.
+Neoplasia 2002;4:82–7.
+
+35. Lo PK, Chen JY, Lo WC, et al. Identification of a novel
+mouse p53 target gene DDA3. Oncogene 1999;18:7765–74.
+36. Ross DT, Scherf U, Eisen MB, et al. Systematic varia-
+tion in gene expression patterns in human cancer cell
+lines. Nat Genet 2000;24:227–35.
+
+37. Nagayama S, Katagiri T, Tsunoda T, et al. Genome-
+wide analysis of gene expression in synovial sarcomas
+using a cDNA microarray. Cancer Res 2002;62:5859–66.
+38. Maestro R, Dei Tos AP, Hamamori Y, et al. Twist is a
+potential oncogene that inhibits apoptosis. Genes Dev
+1999;13:2207–17.
+
+39. Yang J, Mani SA, Donaher JL, et al. Twist, a master
+regulator of morphogenesis, plays an essential role in
+tumor metastasis. Cell 2004;117:927–39.
+
+40. Sosic D, Richardson JA, Yu K, Ornitz DM, Olson EN.
+Twist regulates cytokine gene expression through a
+negative feedback loop that represses NF-nB activity.
+Cell 2003;112:169–80.
+
+41. Kwok WK, Ling MT, Lee TW, et al. Up-regulation of
+TWIST in prostate cancer and its implication as a
+therapeutic target. Cancer Res 2005;65:5153–62.
+
+42. Nielsen GP, Stemmer-Rachamimov AO, Ino Y, Moller
+MB, Rosenberg AE, Louis DN. Malignant transformation
+of neurofibromas in neurofibromatosis 1 is associated
+with CDKN2A/p16 inactivation. Am J Pathol 1999;
+155:1879–84.
+
+43. Lowe SW, Sherr CJ. Tumor suppression by Ink4a-Arf:
+progress and puzzles. Curr Opin Genet Dev 2003;13:77–83.
+44. Kurtz A, Schulte AM, Wellstein A. Pleiotrophin and
+midkine in normal development and tumor biology. Crit
+Rev Oncog 1995;6:151–77.
+
+45. Su W, Sin M, Darrow A, Sherman LS. Malignant peri-
+pheral nerve sheath tumor cell invasion is facilitated by
+Src and aberrant CD44 expression. Glia 2003;42:350–8.
+
+46. Su W, Gutmann DH, Perry A, Abounader R, Laterra J,
+Sherman LS. CD44-independent hepatocyte growth
+factor/c-Met autocrine loop promotes malignant pe-
+ripheral nerve sheath tumor cell invasion in vitro . Glia
+2004;45:297–306.
+
+47. Peirano RI, Goerich DE, Riethmacher D, Wegner
+M. Protein zero gene expression is regulated by the
+glial transcription factor Sox10. Mol Cell Biol 2000;20:
+3198–209.
+
+48. Levy P, Vidaud D, Leroy K, et al. Molecular profiling
+of malignant peripheral nerve sheath tumors associated
+with neurofibromatosis type 1, based on large-scale real-
+time RT-PCR. Mol Cancer 2004;3:20.
+
+49. Cheung M, Briscoe J. Neural crest development is
+regulated by the transcription factor Sox9. Development
+2003;130:5681–93.
+
+50. Oliver TG, Wechsler-Reya RJ. Getting at the root and
+
+32. Markey MP, Angus SP, Strobeck MW, et al. Unbiased
+
+stem of brain tumors. Neuron 2004;42:885–8.
+
+www.aacrjournals.org
+
+2591
+
+Cancer Res 2006; 66: (5). March 1, 2006
+
+Downloaded from 
+
+Research. 
+
+cancerres.aacrjournals.org 
+
+on June 12, 2018. © 2006 American Association for Cancer
+
+Large-Scale Molecular Comparison of Human Schwann Cells
+to Malignant Peripheral Nerve Sheath Tumor Cell Lines and 
+Tissues
+  
+Shyra J. Miller, Fatima Rangwala, Jon Williams, et al. 
+  
+Cancer Res 
+
+2006;66:2584-2591. 
+
+  
+  
+  
+  
+
+  
+  
+
+Updated version
+  
+Supplementary
+Material
+  
+
+Access the most recent version of this article at:
+http://cancerres.aacrjournals.org/content/66/5/2584
+ 
+  
+Access the most recent supplemental material at:
+ 
+http://cancerres.aacrjournals.org/content/suppl/2006/03/07/66.5.2584.DC1
+  
+
+Cited articles
+  
+Citing articles
+  
+
+This article cites 49 articles, 9 of which you can access for free at:
+http://cancerres.aacrjournals.org/content/66/5/2584.full#ref-list-1
+ 
+  
+This article has been cited by 27 HighWire-hosted articles. Access the articles at:
+ 
+http://cancerres.aacrjournals.org/content/66/5/2584.full#related-urls
+  
+
+E-mail alerts
+  
+Reprints and 
+Subscriptions
+  
+Permissions
+  
+
+Sign up to receive free email-alerts
+
+ related to this article or journal.
+
+pubs@aacr.org
+.
+
+To order reprints of this article or to subscribe to the journal, contact the AACR Publications
+Department at
+  
+To request permission to re-use all or part of this article, use this link
+http://cancerres.aacrjournals.org/content/66/5/2584
+.
+Click on "Request Permissions" which will take you to the Copyright Clearance Center's
+(CCC)
+Rightslink site. 
+  
+
+Downloaded from 
+
+Research. 
+
+cancerres.aacrjournals.org 
+
+on June 12, 2018. © 2006 American Association for Cancer
+
+

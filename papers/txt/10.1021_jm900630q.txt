@@ -1,0 +1,857 @@
+Structure-Guided Design of Potent and Selective Pyrimidylpyrrole Inhibitors of Extracellular
+Signal-Regulated Kinase (ERK) Using Conformational Control†
+
+Alex M. Aronov,* Qing Tang, Gabriel Martinez-Botella, Guy W. Bemis, Jingrong Cao, Guanjing Chen, Nigel P. Ewing,
+Pamella J. Ford, Ursula A. Germann, Jeremy Green, Michael R. Hale, Marc Jacobs, James W. Janetka, Francois Maltais,
+William Markland, Mark N. Namchuk, Suganthini Nanthakumar, Srinivasu Poondru, Judy Straub, Ernst ter Haar, and
+Xiaoling Xie
+
+Vertex Pharmaceuticals Inc., 130 Waverly Street, Cambridge, Massachusetts 02139-4242
+
+Received May 13, 2009
+
+The Ras/Raf/MEK/ERK signal transduction, an oncogenic pathway implicated in a variety of human
+cancers, is a key target in anticancer drug design. A novel series of pyrimidylpyrrole ERK inhibitors has
+been identified. Discovery of a conformational change for lead compound 2, when bound to ERK2
+relative to antitarget GSK3, enabled structure-guided selectivity optimization, which led to the
+discovery of 11e, a potent, selective, and orally bioavailable inhibitor of ERK.
+
+Introduction
+
+Activation of the Ras/Raf/MEK/ERKa signal transduc-
+tion pathway has been observed in numerous tumor types.
+This pathway controls a number of fundamental cellular
+processes including cell survival, proliferation, motility, and
+differentiation, and its constitutive activation has been
+reported in lung, colon, pancreatic, renal, and ovarian
+cancers.1-5 Extracellular signal-regulated kinase (ERK) is a
+pivotal kinase in the pathway downstream of Ras, Raf, and
+MEK, acting as a central link between multiple signaling
+pathways. We have recently reported the discovery of pyra-
+zolylpyrroles as nanomolar selective ERK inhibitors.6 Herein
+we describe our efforts that combine X-ray crystallography,
+molecular modeling, and medicinal chemistry toward dis-
+covery and optimization of pyrimidylpyrroles, a novel series
+of potent, selective, and orally bioavailable ERK inhibitors.
+Despite the encouraging kinase selectivity profile of 1
+(Figure 1), the key shortcoming of the pyrazolylpyrrole series
+remained its insufficient cellular activity (IC50=0.54 μM for 1
+in the Colo205 cell proliferation assay).6 We chose to search
+for alternative hinge binding moieties to replace the pyra-
+zole of 1 and prepared a series of aminopyrimidine-based
+analogues. The aminopyrimidine library culminated in the
+discovery of 2, a potent pyrimidylpyrrole ERK inhibitor
+(KI < 2 nM) possessing improved cellular activity (IC50 =
+29 nM in the HT29 cell proliferation assay). Unfortunately, the
+increased cellular potency was accompanied by a significantly
+degraded selectivity profile. The three kinases affected the most
+were glycogen synthase kinase 3 (GSK3), cyclin-dependent
+
+†The atomic coordinates for ERK2 and GSK3 complexes have been
+deposited in the Protein Data Bank under accession numbers 3I5Z, 3I60,
+and 3I4B.
+
+*To whom correspondence should be addressed. Telephone: (617)
+
+444-6100. Fax: 617-444-7822. E-mail: alex_aronov@vrtx.com.
+
+a Abbreviations: CDK2, cyclin-dependent kinase 2; EDCI, N-ethyl-
+-(3-dimethylaminopropyl)carbodiimide; ERK, extracellular signal-
+
+0
+N
+regulated kinase; GSK3, glycogen synthase kinase 3.
+
+kinase 2 (CDK2), and AuroraA, with KI values in the 7-
+15 nM range (Table 1). This selectivity profile compared
+unfavorably with that of 1, which produced KI values of
+3.3 μM for GSK3 and >4 μM for both CDK2 and AuroraA.6
+We initiated crystallographic studies of 2 in order to further
+our structural understanding of the key binding elements
+responsible for its ERK inhibition relative to the previously
+described pyrazolylpyrrole series exemplified by 1.
+
+Results and Discussion
+
+The resulting X-ray structure (Figure 2) confirmed that the
+aminopyrimidine fragment of 2 was critical to its activity,
+making two hydrogen bonds to the hinge region of ERK.
+Importantly, while the pyrazole ring in 1 engaged the main
+chain carbonyl of Asp104 in addition to the amide NH of
+Met106, the aminopyrimidine of 2 formed the second hydro-
+gen bond to the main chain carbonyl of Met106. The former
+orientation is incompatible with 2, since it would result in a
+clash between the gatekeeper Gln103 side chain and the
+N-phenyl fragment of 2. However, the most surprising aspect
+of the X-ray structure was the location of the pyrrole linker in
+2 relative to 1. The pyrrole NH is no longer involved in a
+hydrogen bond with the amide oxygen of the gatekeeper
+residue Gln103, as observed for 1. In fact, the pyrrole of 2
+is flipped nearly 180° relative to 1, with the NH proton
+pointing toward solvent. The gatekeeper residue plays a
+well-established role in determining the selectivity of kinase
+inhibitors. The gatekeeper residue in GSK3 and AuroraA is
+Leu, while the corresponding residue in CDK2 is Phe. The
+activity of 2 increased by over 250-fold against these three
+targets compared to 1. We believe that the degraded selectivity
+observed for 2 is the result of the loss of gatekeeper recognition
+function. The amide portion of 2 is making interactions
+similar to those seen earlier for 1. The amide carbonyl of 2
+forms a hydrogen bond with the catalytic Lys52, and the
+phenylglycinol motif makes a hydrophobic interaction with
+the glycine-rich loop.
+
+pubs.acs.org/jmcPublishedonWeb09/22/2009r2009AmericanChemicalSociety6362J.Med.Chem.2009,52,6362–6368DOI:10.1021/jm900630qFigure 1. Structures of ERK2 pyrazolylpyrrole inhibitor 1 and lead
+compound 2.
+
+Table 1. Effect of the Ortho-Substitution on Selectivity of Pyrimidyl-
+pyrrolesa
+
+compd
+
+R
+
+ERK2
+KI, nM
+
+GSK3
+KI, nM
+
+CDK2
+KI, nM
+
+AURA
+KI, nM
+
+HT29
+
+IC50, nM
+
+H
+Cl
+Me
+Et
+F
+CF3
+OH
+
+2
+9a
+9b
+9c
+9d
+9e
+9f
+a ND: not determined.
+
+<2
+<2
+<2
+3
+<2
+4
+4
+
+7
+190
+330
+760
+45
+
+16
+240
+140
+210
+57
+2300 >4000
+<100
+
+<2
+
+15
+1550
+860
+1430
+160
+>800
+99
+
+29
+ND
+ND
+66
+26
+6300
+3000
+
+Figure 2. Comparison of ligand orientations of 1 and 2 bound to
+ERK2.
+
+Pyrimidylpyrroles were prepared as described in Scheme 1.
+Starting with commercially available trichloroacetylpyrrole,
+Friedel-Crafts acylation produced diketone 3. The activated
+trichloromethylketone was converted to the corresponding
+ester 4 using sodium methoxide. Pyrrole ring of ester 4 was
+protected with the tosyl protecting group. Treatment of 5 with
+dimethylformamide di-tert-butylacetal
+followed by cycli-
+zation with the appropriate arylguanidine 12 and subsequent
+hydrolysis afforded carboxylic acid 8. Amide coupling with
+0
+N-ethyl-N
+(EDCI)
+furnished the desired analogues 9-11.
+
+-(3-dimethylaminopropyl)carbodiimide
+
+To enable rational design of ERK selectivity for 2, we chose
+to study its binding conformation in GSK3. We have previously
+reported the X-ray structure of GSK3,7 and the available
+construct allowed for efficient ligand crystallization. The orien-
+tation of 2 bound to GSK3 is essentially identical to that seen in
+ERK (Figure 3A). The notable difference is the conformation of
+the phenylaminopyrimidine; the aniline is in the plane of the
+aminopyridine in GSK3, while in ERK the phenyl ring is twisted
+out of plane by 39°. This observation may be attributed to two
+
+factors: the size difference between the proximal hinge Tyr134
+residue in GSK3 and its Leu105 counterpart in ERK, and the
+conformation differences of the hinge backbones. The larger
+aromatic side chain of Tyr134 appears to impart coplanarity on
+the aniline portion of 2. Such preference was less pronounced
+when Tyr134 side chain was replaced with leucine. In addition,
+the tighter hinge turn seen in ERK results in the placement of the
+main chain carbonyl of Glu107 approximately 1 A˚ closer to the
+ligand relative to the corresponding Pro136 of GSK3, thus
+favoring a “twisted” conformation observed in ERK. Modeling
+predicted that introducing an ortho-substituent into the aniline
+ring would help stabilize the “twisted” conformation of 2 in
+ERK and destabilize the in-plane GSK-bound conformation.
+Small substituents (9a-d, Table 1) were effective at maintaining
+ERK inhibition and ablating antitarget activity. For instance,
+2-chloro substituent (9a) provided a 27-fold reduction in GSK3
+activity along with 15-fold drop in CDK2 and 100-fold decrease
+in AuroraA activity, two other kinases in which Leu105 is
+replaced by aromatic residues, Phe82 in CDK2 and Tyr212 in
+AuroraA. The smallest substituent, 2-fluoro (9d), was least
+effective because of a less pronounced effect on the aniline
+torsion angle. A larger 2-CF3 substituent (9e) essentially
+removed GSK3, CDK2, and AuroraA activity but lost cellular
+activity. 2-Hydroxy substituent (9f) tended to lose both cellular
+activity and selectivity except in the case of GSK3, in which the
+hydroxyl likely engages the side chain phenol of Tyr134. To
+confirm the stabilized out of plane conformation induced by the
+ortho-substituent, we obtained the X-ray structure of ERK-
+bound 9a. Indeed, the ortho-substitution is compatible with
+the ERK active site, as both KI and the bound conformation
+were unchanged upon going from 2 to 9a (Figure 3B). Addition
+of the o-chloro substituent in 9a is incompatible with the planar
+GSK3-bound structure of 2, as the chlorine would clash with the
+main chain carbonyl of hinge Val135. The twisted conformation
+of 9a as bound to ERK can be expected to position the chlorine
+within 2.6 A˚ of the Tyr134 side chain, and it is this detrimental
+interaction that likely accounts for a dramatic drop on potency
+against GSK3 and related kinases seen for 9a.
+
+Another potential selectivity opportunity was located in the
+phenylglycinol portion of the molecule. The (S)-stereochemi-
+stry was strongly preferred for phenylglycinol, as 10a (Table 2)
+lost over 300-fold in ERK affinity. Preparation of 3-substi-
+tuted (S)-phenylglycinols 10b-d was prompted by comparing
+the structures of 1 and 2 and led to a 10- to 100-fold separation
+between ERK and other kinases, likely exploiting the differ-
+ential flexibility of glycine-rich loop regions. Again, 3-fluoro
+(10b) was too small to effectively engage the ERK glycine-rich
+loop in a selective fashion.
+
+We proceeded to combine the substitutions to both the aniline
+and the phenylglycinol to capitalize on the anticipated additive
+effect of these changes. Indeed, while 2-substituted anilines were
+most efficient at removing AuroraA activity, the 3-substituted
+phenylglycinols were only modestly selective against AuroraA.
+The 3-chloro derivative 10c was chosen as the reference to study
+combined substitutions because of its selectivity against GSK3
+and CDK2, as well as potent cellular activity (HT29 IC50=100
+nM). As shown in Table 3, the selectivity against AuroraA was
+improved significantly for most compounds, while GSK3 and
+CDK2 selectivity margins were also acceptable. Surprisingly,
+11a showed strong inhibition of GSK3, in contrast to closely
+related 9b and 10c. Larger aniline substituents, e.g., 11i and 11l,
+were typically somewhat detrimental to ERK activity; however,
+most combinations produced selective ERK inhibitors with
+sub-100 nM cellular potency.
+
+ArticleJournalofMedicinalChemistry,2009,Vol.52,No.206363Scheme 1a
+
+a Reagents: (i) CH3CH2COCl, AlCl3, CH2Cl2; (ii) NaOMe, MeOH; (iii) TsCl, DMAP, CH2Cl2, rt, 2 h (iv) Me2NHC(OtBu)2, toluene; (v) 12, toluene,
+
+reflux 20 h; (vi) LiOH, H2O, THF; (vii) 13, EDCI, HOBt, NMP.
+
+Table 2. Effect of the (S)-Phenylglycinol Substitution on Selectivity of
+Pyrimidylpyrrolesa
+
+Figure 3. Structural characterization of the binding of pyrimidyl-
+pyrroles to kinases: (A) crystal structures of 2 bound to ERK2
+(orange) and GSK3 (green); (B) crystal structures of 2 (orange) and
+9a (blue) bound to ERK2.
+
+Compound 11e was chosen for further studies because of its
+superior potency and selectivity profile. The extensive coun-
+terscreening profile of 11e is shown in Table S1. It is over 200-
+fold selective against GSK3, CDK2, and AuroraA and >500-
+fold selective against other kinases tested. In addition, 11e is
+active in the HT29 cell proliferation assay (IC50=48 nM) and
+was found to be orally bioavailable in both rat (F=65%; t1/2=
+3 h) and mouse (F=67%; t1/2=4.4 h). A more complete PK
+profile for 11e can be found in Supporting Information.
+
+Conclusion
+
+We have designed a series of potent, selective, and orally
+bioavailable inhibitors of ERK2 kinase starting with a potent,
+
+R/
+
+compd
+
+stereo
+
+ERK2
+KI, nM
+
+GSK3
+KI, nM
+
+CDK2
+KI, nM
+
+AURA
+KI, nM
+
+HT29
+
+IC50, nM
+
+H/(S)
+H/(R)
+F/(S)
+Cl/(S)
+Me/(S)
+
+;2
+2
+670
+10a
+<2
+10b
+<2
+10c
+<2
+10d
+a ND: not determined.
+
+7
+540
+5
+140
+26
+
+16
+1100
+ND
+290
+69
+
+15
+270
+ND
+19
+45
+
+29
+ND
+ND
+100
+40
+
+but nonselective,
+lead compound 2, followed by several
+rounds of structure-guided optimization. In particular, the
+specificity for ERK was optimized following the discovery of a
+conformational change for 2 when bound to ERK2 relative to
+antitarget GSK3. Stabilizing the ERK-bound conformation
+of 2 by introducing additional functionality, we were able to
+design 11e, a selective subnanomolar ERK2 inhibitor with
+potent cellular activity.
+
+This study highlights the utility of rigorous crystallographic
+studies in multiple kinases to selectivity design. In our experience,
+
+6364JournalofMedicinalChemistry,2009,Vol.52,No.20Aronovetal.Table 3. Relationship between Structure and Kinase Selectivity of
+Substituted Pyrimidylpyrrolesa
+
+a ND: not determined.
+
+observations of seemingly small ligand conformational changes
+that occur upon binding to kinases have provided invaluable
+guidance for addressing the kinase selectivity problem.
+
+Experimental Section
+
+General Experimental Details. All commercial reagents and
+anhydrous solvents were obtained from commercial sources and
+were used without further purification, unless otherwise speci-
+fied. Mass samples were analyzed on a MicroMass ZQ, ZMD,
+
+Quattro LC, or Quatro II mass spectrometer operated in a single
+MS mode with electrospray ionization. Samples were intro-
+duced into the mass spectrometer using flow injection (FIA)
+or chromatography. The mobile phase for all mass analysis
+consisted of acetonitrile-water mixtures with either 0.2% for-
+mic acid or 5 mM ammonium formate (pH 7). High resolution
+mass spectra were measured using a 9.4 T APEX III FTMS
+Bruker Daltonics instrument. The following HPLC methods
+were used to obtain the reported retention times: (i) Method A:
+YMC Pro18 column, 50 mm  4.6 mm; linear gradient from
+10% to 90% CH3CN in H2O over 5 min; flow rate 0.8 mL/min.
+(ii) Method B: Waters Symmetry C18 column, 4.6 mm  50 mm;
+linear gradient from 10% to 90% CH3CN in H2O over 3 min
+(0.2% formic acid); flow rate 1.5 mL/min. (iii) Method C: Water
+symmetry C18 column, 4.6 mm  50 mm; linear gradient from
+2% to 90% CH3CN in H2O over 3 min (2% ammonium
+formate); flow rate 1.5 mL/min; detection diode array. 1H
+NMR spectra (δ, ppm) was recorded either using a Bruker
+DRX-500 (500 MHz) or Bruker Avance II-300 (300 MHz)
+instrument. Elemental analyses were performed by Quantitative
+Technologies Inc. Column chromatography was performed
+using Merck silica gel 60 (0.040-0.063 mm). Preparative reverse
+phase chromatography was carried out using an Agilent Zorbax
+SB-C18 column, 21.2 mm 100 mm, a linear gradient from 10%
+to 90% CH3CN in H2O over 10 min (0.1% trifluoroacetic acid),
+and a flow rate of 20 mL/min. The aryl guanidines 12a-r were
+synthesized according to published procedures.8 The substi-
+tuted phenylglycinols 13b-d were prepared following literature
+procedures.9
+
+The purity of final compounds was assessed on the basis of
+analytical HPLC, and the results were greater than 95% unless
+specified otherwise.
+
+Molecular Modeling. Constrained docking studies were per-
+formed with Glide, version 3.0,10 in standard docking mode and
+used X-ray structures of related ligands as docking templates.
+The structures were protonated at pH 7. Docked poses
+were reminimized in MMFF94s11 force field as implemented
+in MOE.12
+
+Experimental Procedures and Characterization Data for
+Analogues 2-11. 1-(5-(2,2,2-Trichloroacetyl)-1H-pyrrol-3-yl)pro-
+pan-1-one (3). To a mixture of trichloroacetylpyrrole (50 g,
+235 mmol) and AlCl3 (38 g, 289 mmol) in CH2Cl2 (20 mL) at
+-20 °C was added propionyl chloride (290 mmol). The reaction
+mixture was stirred for 2 h at room temperature and then poured
+into a mixture of ice and H2O. The mixture was extracted
+with diethyl ether. The organic extract was washed with brine,
+dried over Na2SO4, and concentrated under vacuum. The crude
+product was recrystallized from ethanol to afford an off-white
+solid (35 g, 60%). 1H NMR (300 MHz, CDCl3) δ 9.82 (s, 1H),
+7.75 (d, J=1.2 Hz, 2H), 2.86 (q, J=7.3 Hz, 2H), and 1.24 (t, J=7.3
+Hz, 3H) ppm.
+
+Methyl 4-Propionyl-1H-pyrrole-2-carboxylate (4). To a stir-
+red solution of 4-propionyl-2-(trichloroacetyl)pyrrole 3 (35.0 g,
+140 mmol) in methanol (250 mL) was added a solution of NaOH
+in methanol (4.37 M, 37 mL, 164.5 mmol) over 10 min. The
+mixture was stirred for 1 h at room temperature. The mixture
+was concentrated under reduced pressure. The residue was
+diluted with diethyl ether and H2O. The organic layer was
+separated, washed with H2O and brine, dried over Na2SO4,
+and concentrated in vacuo to afford the title compound as a
+white solid (34 g, 95%). 1H NMR (300 MHz, CDCl3) δ 9.45 (br,
+1H), 7.42 (d, J=1.5 Hz, 1H), 7.20 (d, J=1.5 Hz, 1H), 3.76 (s,
+3H), 2.68 (q, J=7.4 Hz, 2H) and 1.06 (t, J=7.3 Hz, 3H) ppm.
+Methyl 4-Propionyl-1-tosyl-1H-pyrrole-2-carboxylate (5). To
+a solution of the ketone 4 (18.1 g, 100 mmol) in CH2Cl2 (100 mL)
+was added DMAP (1.22 g, 10 mmol) and TsCl (19.1 g, 100
+mmol). The solution was stirred for 2 h at room temperature and
+determined to be complete by HPLC. The solution was diluted
+with CH2Cl2, washed with H2O and brine, dried over Na2SO4,
+and concentrated in vacuo. The title compound was recovered
+
+ArticleJournalofMedicinalChemistry,2009,Vol.52,No.206365as white solid (33.8 g, 95%). 1H NMR (300 MHz, CDCl3) δ 8.27
+(d, J=2.0 Hz, 1H), 7.94 (d, J=8.4 Hz, 2H), 7.41-7.36 (m, 3H),
+3.78 (s, 3H), 2.85 (d, J=7.3 Hz, 2H), 2.47 (s, 3H), and 1.23 (t, J=
+7.3 Hz, 3H) ppm.
+
+Methyl 4-(3-(Dimethylamino)-2-methylacryloyl)-1-tosyl-1H-
+pyrrole-2-carboxylate (6). To a stirred solution of the ketone 5
+(9.05 g, 27 mmol) in toluene (90 mL) was added dimethyl-
+formamide di-tert-butylacetal (9.4 mL, 41 mmol). The reaction
+mixture was heated for 24 h at 75 °C. The cooled reaction
+mixture was washed with H2O twice and concentrated under
+reduced pressure to provide a brown solid. The solid was
+triturated with methyl tert-butyl ether, and the resulting slurry
+was filtered, rinsed with methyl tert-butyl ether, and dried in a
+vacuum oven to afford the title compound (8.8 g, 83.5% yield) as
+an off-white solid. 1H NMR (300 MHz, CDCl3) δ 7.89 (t, J=
+8.5 Hz, 2H), 7.87 (s, 1H), 7.34 (d, J=8.1 Hz, 2H), 7.24-7.19 (m,
+2H), 3.76 (s, 3H), 3.14 (s, 6H), 2.45 (s, 3H), and 2.13 (s, 3H) ppm.
+Methyl 4-(2-(2,3-Dimethylphenylamino)-5-methylpyrimidin-
+4-yl)-1-tosyl-1H-pyrrole-2-carboxylate (7). To a stirred solution
+of enaminone 6 (2.0 g, 5.1 mmol) in toluene (20 mL) was added
+2,3-dimethylphenylguanidine HCl salt (1.75 g, 8.7 mmol) and
+N,N-diisopropylethylamine (1.7 mL, 9.2 mmol). The mixture
+was heated to reflux for 20 h using a Dean-Stark trap to collect
+water. The mixture was cooled slightly, and the solvent was
+removed under reduced pressure. The residue was dissolved in
+
+CH2Cl2 (10 mL) and MeOH (1 mL), washed with H2O (2),
+dried over Na2SO4, filtered, and concentrated under reduced
+pressure. The residue was purified by column chromatography
+with gradient 50-100% hexane in EtOAc to provide a mixture
+of the tosylated and detosylated product (1.6 g, 75% yield).
+
+4-(2-(2,3-Dimethylphenylamino)-5-methylpyrimidin-4-yl)-1-
+tosyl-1H-pyrrole-2-carboxylic Acid (8). To a suspension of ester
+7 (1.0 g, 2.2 mmol) in THF (10 mL) and H2O (10 mL) was added
+LiOH (230 mg, 5.5 mmol). The reaction mixture was heated at
+reflux for overnight. The solvent was removed under reduced
+pressure. The residue was diluted with 4 mL of H2O and
+acidified with concentrated HCl to pH 4.5. The resulting solid
+was collected by vacuum filtration. The filter cake was sus-
+pended in 5 mL of H2O and stirred for 30 min. The solid was
+collected by vacuum filtration and dried overnight in a vacuum
+oven at 60 °C to provide the product as an off-white solid
+(720 mg, 90%). 1H NMR (300 MHz, DMSO-d6) δ 8.93-8.88
+(br, 1H), 8.13 (s, 1H), 7.56 (s, 1H), 7.31 (d, J = 8.2 Hz, 2H),
+7.12-7.01 (m, 2H), 2.3 (d, J=9.7 Hz, 6H), 2.11 (s, 3H).
+
+General Procedure for Preparation of Products 2, 9a-f,
+10a-d, and 11a-m. To a mixture of the acid 8 (1.0 mmol),
+1-(3-dimethylaminopropyl)-3-ethylcarbodimide hydrochloride
+(380 mg, 2 mmol), 1-hydroxybenzotriazole (42.8 mg, 0.3 mmol),
+and 3-chlorophenylglycinol (270 mg, 1.3 mmol) in NMP (4 mL)
+was added TEA (0.18 mL, 1.3 mmol). The reaction mixture was
+stirred at room temperature for 90 min and then poured into 8
+mL of H2O. The mixture was stirred for 30 min and then filtered.
+The filter cake was dried in vacuo and then purified using
+column chromatography (gradient 0-5% MeOH/CH2Cl2) to
+yield the product.
+
+(S)-N-(2-Hydroxyl-1-phenylethyl)-4-{5-methyl-2-(phenylamino)-
+pyrimidin-4-yl}-1H-pyrrole-2-carboxamide (2). HPLC (method
+A) tR = 4.0 min (>95%). LC-MS (method B) tR= 2.3 min,
+m/z=414.5 [M þ H]; (method C) tR= 2.8 min, 414.3 [M þ H].
+HRMS calcd for C24H24N5O2 414.192 45, found 414.192 85. 1H
+NMR (300 MHz, DMSO-d6) δ 9.23 (s, 1H), 8.49 (d, J=8.2 Hz,
+1H), 8.25 (s, 1H), 7.82 (d, J=8.2 Hz, 2H), 7.60 (s, 1H), 7.55 (s,
+1H), 7.42-7.21 (m, 7H), 6.91 (t, J=7.3 Hz, 1H), 5.08 (t, J=7.3
+Hz, 1H), 4.92 (t, J=5.7 Hz, 1H), 3.70 (t, J=5.8 Hz, 2H), and 2.36
+(s, 3H) ppm.
+
+(S)-4-{2-(2-Chlorophenylamino)-5-methylpyrimidin-4-yl}-
+N-{1-phenyl-2-hydroxyethyl}-1H-pyrrole-2-carboxamide
+(9a).
+HPLC (method A) tR = 4.27 min (>95%). LC-MS (method
+B) tR = 2.86 min, 448.4 as [M þ H] peak; (method C) tR =
+2.45 min, m/z = 448.2 as [M þ H] peak. HRMS calcd for
+
+C24H23ClN5O2 448.153 48, found 448.153 56. 1H NMR (300
+MHz, DMSO-d6) δ 8.51 (d, J=8.1 Hz, 1H), 8.26-8.19 (m, 2H),
+7.60 (s, 1H), 7.51 (t, J=8.1 Hz, 2H), 7.37 (dd, J=7.6, 16.9 Hz,
+4H), 7.30 (s, 1H), 7.26-7.21 (m, 1H), 7.09 (t, J=7.6 Hz, 1H),
+5.13-5.02 (m, 1H), 3.70-3.64 (m, 2H), 2.50 (t, J = 1.7 Hz,
+3H) ppm.
+
+(S)-4-{2-(2-Methylphenylamino)-5-methylpyrimidin-4-yl}-
+N-{1-phenyl-2-hydroxyethyl}-1H-pyrrole-2-carboxamide (9b).
+HPLC (method A) tR = 4.0 min (>95%). LC-MS (method
+B) tR=2.11 min, m/z=428.5 as [M þ H] peak; (method C) tR=
+2.86 min, m/z = 428.32 as [M þ H] peak. HRMS calcd for
+C25H26N5O2 428.208 10, found 428.209 03.
+
+(S)-4-{2-(2-Ethylphenylamino)-5-methylpyrimidin-4-yl}-N-{1-
+phenyl-2-hydroxyethyl}-1H-pyrrole-2-carboxamide (9c). HPLC
+(method A) tR=4.16 min (>95%). LC-MS (method B) tR=
+2.2 min, m/z=442.5 as [M þ H] peak; (method C) tR=2.99 min,
+m/z=442.31 as [M þ H] peak. HRMS calcd for C24H23ClN5O2
+448.153 48, found 448.153 56. 1H NMR (300 MHz, DMSO-d6) δ
+8.73-8.68 (m, 1H), 8.59-8.53 (m, 1H), 8.13 (s, 1H), 7.58-7.52
+(m, 3H), 7.40-7.11 (m, 8H), 5.18-5.04 (m, 1H), 3.72-3.67
+(m, 2H), 2.73 (m, 2H), 2.20 (s, 3H), and 1.13 (t, J = 7.5 Hz,
+3H) ppm
+
+(S)-4-{2-(2-Fluorophenylamino)-5-methylpyrimidin-4-yl}-
+N-{1-phenyl-2-hydroxyethyl}-1H-pyrrole-2-carboxamide
+(9d).
+HPLC (method A) tR = 4.1 min (>95%). LC-MS (method
+B) tR=2.56 min, m/z=432.5 as [M þ H] peak; (method C) tR=
+2.91 min, m/z = 432.21 as [M þ H] peak. HRMS calcd for
+C24H23FN5O2 432.183 03, found 432.182 14. 1H NMR (300
+MHz, DMSO-d6) δ 8.61 (s, 1H), 8.48 (d, J=8.1 Hz, 1H), 8.23
+(s, 1H), 8.02 (t, J=8.0 Hz, 1H), 7.58 (s, 1H), 7.52 (s, 1H), 7.36
+(dd, J=7.6, 24.3 Hz, 4H), 7.26-7.15 (m, 3H), 7.07 (t, J=6.4 Hz,
+1H), 5.16-5.04 (m, 1H), 3.74-3.68 (m, 2H), and 2.37 (s,
+3H) ppm.
+
+(S)-4-{2-(2-Trifluoromethylphenylamino)-5-methylpyrimidin-
+4-yl}-N-{1-phenyl-2-hydroxyethyl}-1H-pyrrole-2-carboxamide
+(9e). HPLC (method A) tR = 4.35 min (>95%). LC-MS
+(method B) tR = 2.8 min, m/z = 482.5 as [M þ H] peak;
+(method C) tR = 3.12 min, m/z = 482.01 as [M þ H] peak.
+HRMS calcd for C25H23F3N5O2 482.179 84, found 482.179 99.
+1H NMR (300 MHz, DMSO-d6) δ 8.55 (d, J=8.5 Hz, 1H), 8.31
+(s, 1H), 8.19 (s, 1H), 7.97 (d, J=8.3 Hz, 1H), 7.71 (q, J=7.6 Hz,
+2H), 7.58 (s, 1H), 7.50 (s, 1H), 7.24-7.37 (m, 6H), 5.08 (d, J=7.0
+Hz, 1H), 3.68 (d, J=5.6 Hz, 2H), and 2.36 (s, 3H) ppm.
+
+(S)-4-{2-(2-Hydroxyphenylamino)-5-methylpyrimidin-4-yl}-
+N-{1-phenyl-2-hydroxyethyl}-1H-pyrrole-2-carboxamide
+(9f).
+HPLC (method A) tR = 3.75 min (>95%). LC-MS (method
+B) tR=2.1 min, m/z=430.5 as [Mþ H] peak; (method C) tR=2.1
+min, m/z = 430.47 as [M þ H] peak. HRMS calcd for
+C24H24N5O3 430.187 37, found 430.186 37.
+
+(R)-N-(2-Hydroxyl-1-phenylethyl)-4-{5-methyl-2-(phenylamino)-
+pyrimidin-4-yl}-1H-pyrrole-2-carboxamide
+(10a). HPLC
+(method A) tR=4.0 min (>95%). LC-MS (method B) tR=
+2.3 min, m/z = 414.5 as [M þ H] peak; (method C) tR = 2.8
+min, m/z = 414.3 as [M þ H] peak. HRMS calcd for
+C24H24N5O2 414.192 45, found 414.192 05.
+
+(S)-N-{1-(3-Fluorophenyl)-2-hydroxyethyl}-4-{5-methyl-2-
+(phenylamino)pyrimidin-4-yl}-1H-pyrrole-2-carboxamide (10b).
+HPLC (method A) tR = 4.16 min (>95%). LC-MS (method
+B) tR=2.4 min, m/z=432.5 as [M þ H] peak; (method C) tR=
+2.51 min, m/z = 432.33 as [M þ H] peak. HRMS calcd for
+C24H23FN5O2 432.183 03, found 432.183 44.
+
+(S)-N-{1-(3-Chlorophenyl)-2-hydroxyethyl}-4-{5-methyl-2-
+(phenylamino)pyrimidin-4-yl}-1H-pyrrole-2-carboxamide (10c).
+HPLC (method A) tR = 4.31 min (>95%). LC-MS (method
+B) tR=2.52 min, m/z=448.5 as [M þ H] peak; (method C) tR=
+2.7 min, m/z = 448.2 as [M þ H] peak. HRMS calcd for
+C24H23ClN5O2 448.153 48, found 448.154 77.
+
+(S)-N-{1-(3-Methylphenyl)-2-hydroxyethyl}-4-{5-methyl-2-
+(phenylamino)pyrimidin-4-yl}-1H-pyrrole-2-carboxamide (10d).
+HPLC (method A) tR = 4.25 min (>95%). LC-MS (method
+
+6366JournalofMedicinalChemistry,2009,Vol.52,No.20Aronovetal.B) tR = 2.5 min, m/z = 428.6 as [M þ H] peak; (method C)
+tR=2.95 min, m/z=428.02 as [M þ H] peak. HRMS calcd for
+C25H26N5O2 428.208 10, found 428.208 22.
+(S)-4-{2-(2-Methylphenylamino)-5-methylpyrimidin-4-yl}-N-{1-
+(3-chlorophenyl)-2-hydroxyethyl}-1H-pyrrole-2-carboxamide
+(11a). HPLC (method A) tR = 4.29 min (>95%). LC-MS
+(method B) tR=2.3 min, m/z=462.5 [M þ H], 460.4 [M - H];
+(method C) tR=3.0 min, m/z=462.23 [M þ H]. HRMS calcd for
+C25H25ClN5O2 462.169 13, found 462.169 78. 1H NMR (300
+MHz, DMSO-d6) δ 8.72 (s, 1H), 8.58 (d, J=8.2 Hz, 1H), 8.16 (s,
+1H), 7.65-7.58 (m, 2H), 7.53 (s, 1H), 7.46 (s, 1H), 7.38-7.19 (m,
+4H), 7.07 (t, J=7.3 Hz, 1H), 5.10-5.03 (m, 1H), 3.68 (d, J=6.1
+Hz, 2H), 2.36 (s, 3H), and 2.25 (s, 3H) ppm.
+
+(S)-4-{2-(2,3-Dimethylphenylamino)-5-methylpyrimidin-4-yl}-
+N-{1-(3-chlorophenyl)-2-hydroxyethyl}-1H-pyrrole-2-carbox-
+amide (11b). HPLC (method A) tR=4.42 min (>95%). LC-MS
+(method B) tR=2.3 min, m/z=476.5 [M þ H], m/z=474.4 [M -
+H]; (method C) tR=2.3 min, m/z=476.21 [M þ H]. HRMS calcd
+for C26H27ClN5O2 476.184 78, found 476.185 07.
+(S)-4-{2-(3-Fluoro-2-methylphenylamino)-5-methylpyrimidin-
+4-yl}-N-{1-(3-chlorophenyl)-2-hydroxyethyl}-1H-pyrrole-2-car-
+boxamide (11c). HPLC (method A) tR = 4.4 min (>95%).
+LC-MS (method B) tR=2.6 min, m/z=480.4 [M þ H], m/z=
+478.4 [M - H]; (method C) tR=2.69 min, m/z=480.29 [M þ H].
+HRMS calcd for C25H24ClFN5O2 480.159 71, found 480.160 35.
+1H NMR (300 MHz, DMSO-d6) δ 8.74 (s, 1H), 8.56 (d, J=8.3
+Hz, 1H), 8.19 (s, 1H), 7.57-7.46 (m, 3H), 7.40-7.30 (m, 2H),
+7.21 (dd, J=8.1, 15.1 Hz, 3H), 6.93 (t, J=9.0 Hz, 1H), 5.07 (dd,
+J=6.6, 14.4 Hz, 1H), 3.73-3.67 (m, 2H), 2.42 (s, 3H), and 2.07
+(s, 3H) ppm.
+
+(S)-4-{2-(4-Chloro-2-methylphenylamino)-5-methylpyrimidin-
+4-yl}-N-{1-(3-chlorophenyl)-2-hydroxyethyl}-1H-pyrrole-2-car-
+boxamide (11d). HPLC (method A) tR = 4.59 min (>95%).
+LC-MS (method B) tR=2.81 min, m/z=496.4 [M þ H], m/z=
+494.4 [M-H]; (method C) tR=2.99 min, m/z=496.31 [M þ H].
+HRMS calcd for C25H24Cl2N5O2 496.130 16, found 496.130 18.
+1H NMR (300 MHz, DMSO-d6) δ 8.64 (d, J=8.8 Hz, 1H), 8.57
+(d, J=8.1 Hz, 1H), 8.18 (s, 1H), 7.71 (d, J=8.9 Hz, 1H), 7.56 (s,
+1H), 7.52 (s, 1H), 7.44 (d, J=11.8 Hz, 1H), 7.24-7.35 (m, 5H),
+5.07 (d, J=6.6 Hz, 1H), 3.68 (d, J=6.2 Hz, 2H), 2.36 (s, 3H), and
+2.25 (s, 3H) ppm.
+
+4-[2-(2-Chloro-4-fluorophenylamino)-5-methylpyrimidin-4-yl]-
+1-toluene-4-sulfonyl)pyrrole-2-carboxylic Acid
+[1-(3-Chloro-
+phenyl)-2-hydroxyethyl]amide (11e). HPLC (method A) tR =
+4.43 min (>95%). LC-MS (method B) tR = 3.26 min, m/z =
+500.34 as [M þ H] peak. HRMS calcd for C24H21Cl2FN5O2
+500.105 08, found 500.105 86. 1H NMR (300 MHz, DMSO-d6)
+δ 8.52 (d, J=8.4 Hz, 1H), 8.23 (d, J=11.0 Hz, 2H), 8.03 (dd, J=
+5.9, 9.0 Hz, 1H), 7.57 (s, 1H), 7.48 (dd, J = 2.7, 8.6 Hz, 2H),
+7.37-7.20 (m, 5H), 5.09-4.96 (m, 2H), 3.72 (s, 2H), and 2.35 (s,
+3H) ppm.
+
+(S)-4-{2-(4-Chloro-2-fluorophenylamino)-5-methylpyrimidin-
+4-yl}-N-{1-(3-chlorophenyl)-2-hydroxyethyl}-1H-pyrrole-2-car-
+boxamide (11f). HPLC (method A) tR = 4.89 min (>95%).
+LC-MS (method B) tR=3.25 min, m/z=500.4 [M þ H], m/z=
+498.4 [M - H]; (method C) tR=2.81 min, m/z=500.33 [M þ H].
+HRMS calcd for C24H21Cl2FN5O2
+found
+500.106 51. 1H NMR (300 MHz, DMSO-d6) δ 8.81 (s, 1H),
+8.56 (d, J=8.3 Hz, 1H), 8.25 (s, 1H), 8.07 (t, J=8.8 Hz, 1H), 7.61
+(d, J=11.6 Hz, 1H), 7.53 (s, 1H), 7.45 (dd, J=2.4, 11.2 Hz, 1H),
+7.36-7.25 (m, 5H), 5.11-5.04 (m, 1H), 3.68 (d, J=5.6 Hz, 2H),
+and 2.37 (s, 3H) ppm.
+
+500.105 08,
+
+(S)-4-{2-(2-Ethylphenylamino)-5-methylpyrimidin-4-yl}-N-
+{1-(3-chlorophenyl)-2-hydroxyethyl}-1H-pyrrole-2-carboxa-
+mide (11g). HPLC (method A) tR=4.44 min (>95%). LC-MS
+(method B) tR=2.4 min, m/z=476.5 [M þ H], m/z=474.4 [M -
+H]; (method C) tR=2.47 min, m/z= 476.26 [M þ H]. HRMS
+calcd for C26H27ClN5O2 476.184 78, found 476.185 17. 1H
+NMR (300 MHz, DMSO-d6) δ 8.83 (s, 1H), 8.60 (d, J = 8.1
+Hz, 1H), 8.13 (s, 1H), 7.57 (d, J = 9.3 Hz, 1H), 7.46 (s, 1H),
+
+7.40-7.13
+(d,
+J=6.1 Hz, 2H), 2.64 (q, J=7.5 Hz, 2H), 2.36 (s, 3H), 1.13 (t,
+J=7.5 Hz, 3H) ppm.
+
+5.08-5.04
+
+8H),
+
+1H),
+
+3.68
+
+(m,
+
+(m,
+
+(S)-N-{1-(3-Chlorophenyl)-2-hydroxyethyl}-4-{-2-(2,3-dihy-
+dro-1H-inden-4-ylamino)-5-methylpyrimidin-4-yl}-1H-pyrrole-
+2-carboxamide (11h). HPLC (method A) tR=4.59 min (>95%).
+LC-MS (method B) tR=2.65 min, m/z=488.5 [M þ H], m/z=
+486.4 [M - H]; (method C) tR=2.73 min, m/z=488.26 [M þ H].
+HRMS calcd for C27H27ClN5O2 488.184 78, found 488.184 89.
+1H NMR (300 MHz, DMSO-d6) d 8.64 (s, 1H), 8.54 (d, J=8.6
+Hz, 1H), 8.20 (s, 1H), 7.64-7.56 (m, 2H), 7.46 (s, 1H), 7.34 (t, J=
+4.3 Hz, 3H), 7.12 (q, J=7.7 Hz, 2H), 6.98 (d, J=7.0 Hz, 1H), 5.08
+(t, J = 7.2 Hz, 1H), 3.69 (d, J = 6.3 Hz, 2H), 2.94-2.78 (m,
+4H), 2.35 (d, J=12.4 Hz, 3H), and 2.01 (dd, J=7.6, 14.8 Hz,
+2H) ppm.
+
+found 502.201 10.
+
+(S)-N-{1-(3-Chlorophenyl)-2-hydroxyethyl}-4-{5-methyl-2(5,
+6,7,8-tetrhydronaphthalen-1-ylamino)pyrimidin-4-yl}-1H-pyr-
+role-2-carboxamide (11i). HPLC (method A) tR = 4.66 min
+(>95%). LC-MS (method B) tR = 2.56 min, m/z = 502.5 [M
+þ H], m/z = 500.4 [M - H]; (method C) tR = 3.38 min, m/z =
+502.34 [M þ H]. HRMS calcd for C28H29ClN5O2 502.200 43,
+(S)-4-{2-(Benzo[d]1,3-dioxolylamino)-5-methylpyrimidin-4-yl}-
+N-{1-(3-chlorophenyl)-2-hydroxyethyl}-1H-pyrrole-2-carboxa-
+mide (11j). HPLC (method A) tR=4.27 min (>95%). LC-MS
+(method B) tR=2.37 min, m/z=492.5 [Mþ H], m/z=490.4 [M -
+H]; (method C) tR=2.39 min, m/z=492.24 [M þ H]. HRMS
+calcd for C25H23ClN5O4 492.143 31, found 492.143 94.
+(S)-N-{1-(3-Chlorophenyl)-2-hydroxyethyl}-4-{-2-(2,2-difluo-
+robenzo[d][1,3]dioxol-4-ylamino)-5-methylpyrimidin-4-yl}-1H-
+pyrrole-2-carboxamide (11k). HPLC (method A) tR=4.84 min
+(>95%). LC-MS (method B) tR=3.1 min, m/z=528.5 [M þ
+H], m/z = 526.4 [M - H]; (method C) t R = 3.17 min, m/z =
+528.17 [M þ H]. HRMS calcd for C25H21ClF2N5O4
+(S)-N-{1-(3-Chlorophenyl)-2-hydroxyethyl}-4-{-2-(2,3-dihy-
+drobenzo[b][1,4]dioxin-5-ylamino)-5-methylpyrimidin-4-yl}-1H-
+pyrrole-2-carboxamide (11l). HPLC (method A) tR=4.31 min
+(>95%). LC-MS (method B) tR=2.34 min, m/z=506.5 [M þ
+H], m/z=504.4 [M - H]; (method C) tR=2.91 min, m/z=506.15
+[M þ H]. HRMS calcd for C26H25ClN5O4 506.158 96, found
+(S)-4-{2-(2,3-Dimethylphenylamino)-5-methylpyrimidin-4-yl}-
+N-{1-(3-chlorophenyl)-2-hydroxyethyl}-1H-pyrrole-2-carboxa-
+mide (11m). HPLC (method A) tR=4.38 min (>95%). LC-MS
+(method B) tR=2.7 min, m/z=508.5 [M þ H], m/z=506.4 [M -
+H] (method C) tR = 3.08 min, m/z = 508.22 [M þ H]. HRMS
+calcd for C26H27ClN5O4 508.174 61, found 508.173 66.
+
+528.124 46, found 528.125 83.
+
+506.159 65.
+
+Supporting Information Available: Biochemical and biologi-
+cal procedures, crystallization conditions, and data collection
+statistics. This material is available free of charge via the Internet
+at http://pubs.acs.org.
+
+References
+
+(1) Sebolt-Leopold, J. S.; Herrera, R. Targeting the mitogen-activated
+protein kinase cascade to treat cancer. Nat. Rev. Cancer 2004, 4,
+937–947.
+
+(2) Smalley, K. S. A pivotal role for ERK in the oncogenic behaviour
+
+of malignant melanoma? Int. J. Cancer 2003, 104, 527–532.
+
+(3) Kohno, M.; Pouyssegur, J. Pharmacological inhibitors of the ERK
+signaling pathway: application as anticancer drugs. Prog. Cell
+Cycle Res. 2003, 5, 219–224.
+
+(4) Chang, F.; Steelman, L. S.; Shelton, J. G.; Lee, J. T.; Navolanic,
+P. M.; Blalock, W. L.; Franklin, R.; McCubrey, J. A. Regulation of
+cell cycle progression and apoptosis by the Ras/Raf/MEK/ERK
+pathway (review). Int. J. Oncol. 2003, 22, 469–480.
+
+(5) Hilger, R. A.; Scheulen, M. E.; Strumberg, D. The Ras-Raf-MEK-
+ERK pathway in the treatment of cancer. Onkologie 2002, 25, 511–
+518.
+
+(6) Aronov, A. M.; Baker, C.; Bemis, G. W.; Cao, J.; Chen, G.; Ford,
+P. J.; Germann, U. A.; Green, J.; Hale, M. R.; Jacobs, M.; Janetka,
+
+ArticleJournalofMedicinalChemistry,2009,Vol.52,No.206367J. W.; Maltais, F.; Martinez-Botella, G.; Namchuk, M. N.; Straub,
+J.; Tang, Q.; Xie, X. Flipped out: structure-guided design of
+selective pyrazolylpyrrole ERK inhibitors. J. Med. Chem. 2007,
+50, 1280–1287.
+
+(7) ter Haar, E.; Coll, J. T.; Austen, D. A.; Hsiao, H. M.; Swenson, L.;
+Jain, J. Structure of GSK3beta reveals a primed phosphorylation
+mechanism. Nat. Struct. Biol. 2001, 8, 593–596.
+
+(8) Moon, Y.-C.; Green, J.; Davis, R.; Choquette, D.; Pierce, A.;
+
+Ledeboer, M. US2004/9996, 2004.
+
+(9) Barrow, J. C.; Ngo, P. L.; Pellicore, J. M.; Selnick, H. G.;
+Nantermet, P. G. A facile three-step synthesis of 1,2-amino
+tert-butylsulfinamide.
+alcohols using the Ellman homochiral
+Tetrahedron Lett. 2001, 42, 2051–2054.
+
+(10) (a) Friesner, R. A.; Banks, J. L.; Murphy, R. B.; Halgren, T. A.;
+Klicic, J. J.; Mainz, D. T.; Repasky, M. P.; Knoll, E. H.; Shelley,
+M.; Perry, J. K.; Shaw, D. E.; Francis, P.; Shenkin, P. S. Glide: a
+new approach for rapid, accurate docking and scoring. 1. Method
+and assessment of docking accuracy. J. Med. Chem. 2004, 47, 1739–
+1749. (b) Halgren, T. A.; Murphy, R. B.; Friesner, R. A.; Beard, H. S.;
+Frye, L. L.; Pollard, W. T.; Banks, J. L. Glide: a new approach for rapid,
+accurate docking and scoring. 2. Enrichment factors in database screen-
+ing. J. Med. Chem. 2004, 47, 1750–1759.
+
+(11) Halgren, T. A. MMFFVI: MMFF94s option for energy minimiza-
+
+Montreal, Canada, 2005.
+
+tion studies. J. Comput. Chem. 1999, 20, 720–729.
+
+(12) Molecular Operating Environment; Chemical Computing Group Inc.:
+
+6368JournalofMedicinalChemistry,2009,Vol.52,No.20Aronovetal.

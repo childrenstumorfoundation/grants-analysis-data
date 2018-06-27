@@ -1,0 +1,1763 @@
+Clinical Chemistry 55:4
+659–669 (2009)
+
+Reviews
+
+Microarray-Based Genomic DNA Profiling Technologies in
+
+Clinical Molecular Diagnostics
+
+Yiping Shen1,2,3 and Bai-Lin Wu1,3,4*
+
+BACKGROUND: Microarray-based genomic DNA profil-
+ing (MGDP) technologies are rapidly moving from
+translational research to clinical diagnostics and have
+revolutionized medical practices. Such technologies
+have shown great advantages in detecting genomic im-
+balances associated with genomic disorders and single-
+gene diseases.
+
+CONTENT: We discuss the development and applica-
+tions of the major array platforms that are being used in
+both academic and commercial laboratories. Although
+no standardized platform is expected to emerge
+soon, comprehensive oligonucleotide microarray
+platforms— both comparative genomic hybridization
+arrays and genotyping hybrid arrays—are rapidly be-
+coming the methods of choice for their demonstrated
+analytical validity in detecting genomic imbalances, for
+their flexibility in incorporating customized designs
+and updates, and for the advantage of being easily man-
+ufactured. Copy number variants (CNVs), the form of
+genomic deletions/duplications detected through
+MGDP, are a common etiology for a variety of clinical
+phenotypes. The widespread distribution of CNVs
+poses great challenges in interpretation. A broad survey
+of CNVs in the healthy population, combined with the
+data accumulated from the patient population in clin-
+ical laboratories, will provide a better understanding of
+the nature of CNVs and enhance the power of identi-
+fying genetic risk factors for medical conditions.
+
+SUMMARY: MGDP technologies for molecular diagnos-
+tics are still at an early stage but are rapidly evolving.
+We are in the process of extensive clinical validation
+and utility evaluation of different array designs and
+
+1 Children’s Hospital Boston, Boston, MA; 2 Massachusetts General Hospital,
+Boston, MA; 3 Harvard Medical School, Boston, MA; 4 Fudan University, Shang-
+hai, China.
+
+* Address correspondence to this author at: Departments of Lab Medicine and
+Pathology, Children’s Hospital and Harvard Medical School, 300 Longwood
+Ave., Boston, MA 02115. Fax 617 730 0338; e-mail bai-lin.wu@childrens.
+harvard.edu.
+
+Received October 24, 2008; accepted January 26, 2009.
+Previously published online at DOI: 10.1373/clinchem.2008.112821
+
+technical platforms. CNVs of currently unknown im-
+portance will be a rich source of novel discoveries.
+© 2009 American Association for Clinical Chemistry
+
+Human DNA mutations range from single-nucleotide
+changes to whole-chromosome alterations. At the
+small-size end of the mutation spectrum, de novo
+changes in single base pairs occur at the rate of about
+1.7 ⫻ 10⫺8 per base pair per generation (1 ). It is esti-
+mated that there are 2 nonsilent point mutations in
+each newborn (2 ). At the large-size end of the mutation
+spectrum, alterations in chromosome number causing
+aneuploidy affect about 0.3% of live births (3 ). In be-
+tween are microscopic and submicroscopic genomic
+rearrangements involving different segments of chro-
+mosomes that may affect many genes or exons of a
+gene. The de novo rate of mutation of copy number
+variants (CNVs)5 in each newborn has been estimated
+as 1 in 8 for deletion and 1 in 50 for duplication (2 ),
+which are between the rates for de novo point muta-
+tions and chromosomal aneuploidy. Recent studies
+have shown that the human genome contains many
+CNVs (4 –7 ), which are the result of a distant (inher-
+ited) or current (de novo) loss or gain of genomic
+sequences.
+
+A portion of these alterations will produce a
+change in the human phenotype and in extreme cases
+will cause abnormal development and medical condi-
+tions. The purpose of clinical genetic diagnostics is to
+detect such mutations effectively and to correlate these
+changes with corresponding medical conditions. Vari-
+ous methods have different resolutions that reveal dif-
+ferent sizes of genomic imbalance (Fig. 1).
+
+Point mutations can be detected effectively with
+the Sanger sequencing method after specific amplifica-
+tion of target regions by the PCR. The detection of
+chromosomal aneuploidy and large rearrangements
+are within the repertoire of traditional cytogenetics.
+
+5 Nonstandard abbreviations: CNV, copy number variant; FISH, fluorescence in
+situ hybridization; MLPA, multiplex ligation-dependent probe amplification;
+MGDP, microarray-based genomic DNA profiling; CGH, comparative genomic
+hybridization; SNP, single-nucleotide polymorphism; BAC, bacterial artificial
+chromosome; UPD, uniparental disomy; ASD, autism spectrum disorder; pCNV,
+pathogenic CNV; bCNV, benign CNV; uCNV, CNV of unknown importance.
+
+659
+
+Reviews
+
+Oligo microarrays
+
+BAC array CGH
+
+Karyotyping
+
+FISH
+
+MLPA
+RT-PCR
+
+Sanger sequencing
+
+Fig. 1. Various methods with different resolutions detect different sizes of genomic changes.
+Point mutations (changes in single or multiple base pairs up to kilobase pairs) can be detected with Sanger DNA sequencing.
+Karyotyping can detect large chromosomal rearrangements with low resolution (down to 5 Mb). FISH provides much higher
+resolution (down to 100 kb) for detecting submicroscopic genomic imbalances, but it interrogates only selected loci at one time.
+MLPA and real-time PCR (RT-PCR) complement FISH and DNA sequencing, but all of these methods suffer from a low
+information content, limited throughput, and the requirement of choosing candidate targets before the test. Microarrays [BAC
+and oligonucleotide (oligo)] are capable of detecting both microscopic and submicroscopic copy number changes for the whole
+genome in a single assay. The high-resolution microarrays (oligo CGH arrays and SNP hybrid arrays) provide the most efficient
+means to identify genomic imbalance widely (down to kilobase pairs and approaching base pair resolution).
+
+Fluorescence in situ hybridization (FISH) represents a
+merging of cytogenetic techniques with molecular
+technology. Such a merger and its applications in the
+clinical setting were necessitated by the discovery of a
+set of submicroscopic genomic imbalances associated
+with specific clinical manifestations
+(collectively
+known as microdeletion and microduplication syn-
+dromes), but this method interrogates only selected
+loci at a time. Other techniques designed to detect copy
+number changes, such as multiplex ligation-dependent
+probe amplification (MLPA) and real-time PCR, are
+complementary to those of FISH and DNA sequencing,
+but all of these methods suffer from low information
+content, limited throughput, and the requirement of
+choosing candidate targets before the test.
+
+Microarray-based genomic DNA profiling (MGDP)
+technologies are capable of detecting both microscopic
+and submicroscopic copy number changes for the whole
+genome in a single assay. They provide unprecedented
+sensitivity and cost-effectiveness for a large group of mu-
+tations that have evaded conventional approaches, and
+they are changing clinical practices. MGDP may be used
+as a first-tier tool in clinical genetics for many conditions
+previously evaluated via conventional cytogenetic ap-
+proaches. We review the current status and some consid-
+
+660 Clinical Chemistry 55:4 (2009)
+
+erations regarding the clinical applications of MGDP
+technologies.
+
+Development of Genomic DNA
+Profiling Microarrays
+
+Microarrays have been widely used for gene expression
+analysis in the past decade; however, it is worth men-
+tioning that DNA microarrays were initially designed
+for interrogating vast amounts of genomic sequence
+polymorphisms and variants. The intention to use mi-
+croarrays for diagnostic purposes was deeply rooted
+from the very beginning. There are 2 major microarray
+platforms for genomic DNA profiling— comparative
+genomic hybridization (CGH) arrays and genotyping
+arrays—which were developed in parallel yet interac-
+tively. Regardless of the technical differences in chip
+manufacturing and probe types used with these plat-
+forms, they share the same principle and rely on the
+specific hybridization of target and probe sequences.
+CGH arrays use a 2-color scheme. The method infers
+the copy number changes in a test sample by compar-
+ing it with a reference sample. Genotyping arrays, on
+the other hand, do not use a control sample; rather,
+they use the intensity of the hybridization signal to in-
+
+Microarrays in Clinical Molecular Diagnostics
+
+Reviews
+
+dicate the relative DNA copy number. In addition,
+genotyping arrays provide information on single-
+nucleotide polymorphism (SNP) genotypes.
+
+TRANSFORMATION OF CGH MICROARRAYS FROM LOW-
+
+RESOLUTION TARGETED BAC ARRAYS TOWARD WHOLE-GENOME
+
+HIGH-DENSITY OLIGONUCLEOTIDE ARRAYS
+CGH was first reported by Kallioniemi et al. in 1992 to
+interrogate cancer genomic DNA with metaphase
+chromosomes as probes (8 ). The basic strategy of the
+technique is to differentially label the DNA from cancer
+cells and the DNA from healthy reference cells with
+different fluorochromes and to cohybridize the labeled
+samples to a metaphase spread from a healthy reference
+cell. The ratio of the intensities of the 2 fluorochromes
+reflects the copy number differences between cancer
+cells and healthy cells. Because this technique uses
+metaphase chromosomes as probes for hybridization,
+it is now also called “chromosome CGH.” In essence,
+chromosome CGH is similar to FISH painting, which
+uses labeled DNA from the entire genome as the probe
+set. This technology permits a genome-wide survey and
+identifies the genomic imbalance at different regions of
+specific chromosomes. Although chromosome CGH
+has demonstrated its effectiveness in detecting larger
+genomic imbalances in the cancer genome, the detec-
+tion power has ultimately been limited by the resolu-
+tion of a metaphase chromosome.
+
+The major breakthrough in CGH came from
+microarray technology about a decade ago. Instead of
+hybridizing labeled genomic targets to metaphase
+chromosomes, the new scheme uses cloned genomic
+DNA as probes in a microarray format. Because these
+probes contain sequence information that permits
+their specific localization in the human genome, the
+regions with a genomic imbalance can be delineated
+by data-visualization software that denotes all of
+the probes along the genome. The resolution of
+microarray-based CGH, which is determined by the
+density and size of the probe, is a substantial improve-
+ment over chromosome CGH.
+
+The first CGH microarray, termed matrix CGH,
+was developed in 1997 by Solinas-Toldo et al. with cos-
+mid and plasmid artificial chromosome clones as
+probes (9 ). Subsequently, bacterial artificial chromo-
+some (BAC) clones (10 ) and cDNA clones (11 ) were
+used to construct CGH microarrays. Subsequent im-
+provements were focused on increasing the probe
+density and array coverage, as well as improving the
+signal-to-noise ratio.
+
+The most recent advancement in CGH microar-
+rays has been the use of oligonucleotide sequences as
+probes (12 ). Compared with BAC arrays, oligonucleo-
+tide arrays have several advantages, including:
+
+1. Reproducibility. As opposed to BAC arrays, in which
+the content of the probe (i.e., PCR product of a BAC
+clone) varies from batch to batch, the probe sequences
+in oligonucleotide arrays are uniformly defined and de-
+void of highly repetitive sequences. Consequently, oligo-
+nucleotide arrays are more reproducible.
+2. Sensitivity and specificity. The smaller interprobe
+spacing of oligonucleotide arrays offers a much higher
+probe density for better detection of smaller genomic
+imbalances and more accurate breakpoint mapping,
+therefore providing much improved sensitivity over
+BAC arrays. The fact that oligonucleotide probes are
+selected from the reference human genome sequence
+allows all users to use any sequence of interest as a po-
+tential target, providing a specificity that is impossible
+with BAC arrays, in which clones can be selected only
+from existing libraries and need to be validated for their
+physical location.
+3. Customization. Oligonucleotide probes are syn-
+thesized in situ on the arrays, allowing for easy cus-
+tomization of content. In addition, many commercial
+manufacturers offer a large number of preselected ar-
+ray CGH oligonucleotide probes and computer inter-
+faces, making custom design and updating of CGH
+arrays quite feasible and fast for clinical laboratories,
+whereas BAC arrays are cumbersome to update and
+time-consuming for printing.
+4. Robustness and reliability. The substantially in-
+creased capacity of oligonucleotide arrays enables
+multiprobe confirmation for a single event (the detec-
+tion sensitivity and specificity are a function of consec-
+utive probes), as well as increased robustness because
+the higher signal-to-noise ratios provide higher confi-
+dence in CNV diagnosis (13–15 ).
+
+IMPROVEMENT OF GENOTYPING ARRAYS FROM LOW-
+
+RESOLUTION SNP ARRAYS TO HIGH-RESOLUTION HYBRID
+
+ARRAYS THAT INTEGRATE SNP AND CNV PROBES
+Whereas CGH arrays successfully combine microarray
+technology with CGH, genotyping arrays for CNVs
+arose from SNP arrays that were originally designed for
+sequencing (16 ), genotyping (17 ), and gene expression
+(18 ). These SNP arrays with short oligonucleotides
+were developed by Affymetrix with their proprietary
+photolithographic technology (19 ). Since then, the
+density of SNP arrays has been growing constantly. The
+DNA chips designed to genotype 10 ⫻ 103, 50 ⫻ 103,
+100 ⫻ 103, 500 ⫻ 103, and even more SNPs have al-
+lowed improved detection resolution.
+
+At about the same time that Agilent Technologies
+developed long oligonucleotide– based whole-genome
+CGH arrays with their ink-jet technology (20 ), Af-
+fymetrix SNP arrays demonstrated their ability to
+detect changes in genomic copy number in addition
+to genotyping (21–23 ). Similarly, Illumina used a
+
+Clinical Chemistry 55:4 (2009) 661
+
+Reviews
+
+Table 1. Major commercial oligonucleotide array platforms and their current products.
+
+Company
+
+Array platform
+
+Resolution (median
+
+probe spacing)
+
+Probe number
+
+Oligonucleotide
+
+probe type
+
+Detection
+
+Agilent Technologies,
+
+Santa Clara, CA
+
+4x44K CGH array
+
+43 kb
+
+43 000⫹
+
+60-mer
+
+CNV
+
+8x60K CGH array
+2x105K CGH array
+4x180K CGH array
+244K CGH array
+2x400K CGH array
+1 Million CGH array
+Genome-Wide Human
+
+SNP Array 6.0
+
+Affymetrix, Santa Clara,
+
+CA
+
+Illumina, San Diego, CA HumanCNV370-Quad
+
+DNA analysis
+BeadChip
+
+Human610-Quad DNA
+
+analysis BeadChip
+
+Human1M-Duo
+
+BeadChip
+
+HG18 CGH 4x72K
+WG Tiling v2.0
+385K WG Tiling,
+
+single array
+
+385K WG Tiling, 4-set
+
+array
+
+385K WG Tiling, 8-set
+
+array
+
+NimbleGen, Madison,
+
+WI
+
+a LOH, loss of heterozygosity.
+
+41.4 kb
+21.7 kb
+13 kb
+8.9 kb
+5.3 kb
+2.1 kb
+0.7 kb
+
+4.9 kb
+
+2.7 kb
+
+1.5 kb
+
+40 kb
+
+55 000⫹
+99 000⫹
+170 000⫹
+236 000⫹
+411 000⫹
+963 000⫹
+906 600 SNP probes and
+
+946 000 CNV probes
+
+320 000 SNP probes and
+
+60 000 non-SNP
+probes for CNVs
+
+550 000 SNP probes and
+
+60 000 non-SNP
+probes for CNVs
+
+1.1 ⫻ 106 SNP and CNV
+
+probes targeting
+exons
+72 000
+
+6.27 kb
+
+385 000/array
+
+1.57 kb
+
+713 bp
+
+25-mer
+
+50-mer
+
+CNV, genotype,
+
+and LOHa
+
+CNV, genotype,
+
+and LOH
+
+50- to 75-mer
+
+CNV
+
+different manufacturing approach in commercializing
+BeadChips for genotyping and copy number analysis
+(24 ).
+
+Table 1 lists the currently available oligonucleotide-
+array platforms for genomic DNA profiling. Reduced
+manufacturing costs, unprecedented detection power,
+and the feasibility of custom design/updates have made
+these arrays attractive in basic and translational research.
+The major advance in genotyping arrays for
+genomic profiling is the development of hybrid geno-
+typing arrays, i.e., the Affymetrix Genome-Wide Hu-
+man SNP Array 5.0 and the latest 6.0 version, which
+combines SNP probes for genotyping with CNV
+probes for detecting changes in copy number (25 ). The
+SNP Array 5.0, which is the prototype of the hybrid
+array, contains 500 000 SNP probes for genotyping and
+420 000 nonpolymorphic probes for CNV analysis.
+Among the nonpolymorphic probes, 320 000 probes
+were chosen to provide even spacing across the ge-
+nome, concentrating on areas not represented by
+
+662 Clinical Chemistry 55:4 (2009)
+
+SNPs, and the remaining 100 000 probes covered 2000
+known CNVs (50 probes per CNV). The SNP Array 6.0
+has 906 600 SNP probes, 744 000 copy number probes
+evenly spaced along the genome, and another 202 000
+probes that target 5700 previously reported CNV re-
+gions. Thus, a single 6.0 array offers a total of 1.8 mil-
+lion probes for simultaneous SNP genotyping, CNV
+analysis, and loss-of-heterozygosity detection.
+
+Although the Affymetrix SNP Array 6.0 (hybrid
+arrays) is mainly a research tool at the moment, many
+diagnostics laboratories are actively validating this
+platform for clinical applications. Although long-
+oligonucleotide CGH arrays do not have as many
+probes as short-oligonucleotide genotyping arrays, the
+signal-to-background dynamic range is generally bet-
+ter with long-oligonucleotide CGH arrays; however,
+the rich genotyping information, in addition to the
+CNV data offered by the hybrid arrays, provides addi-
+tional value to the platform. For instance, the genotyp-
+ing data simultaneously provide information regarding
+
+Microarrays in Clinical Molecular Diagnostics
+
+Reviews
+
+the parent of origin for the detected de novo CNV if
+parental samples have also been examined. The most
+important advantage of the hybrid arrays is their ca-
+pability of detecting copy number–neutral genomic
+rearrangements, namely uniparental disomy (UPD),
+through loss-of-heterozygosity analysis. In the long
+run, the genotyping information can be used for SNP-
+association analysis.
+
+Translational Research and Applications of MGDP
+Technologies for Patient Samples
+
+MGDP technologies have been used extensively in clin-
+ical and translational research for interrogating patient
+samples. These studies provided crucial information
+about clinical utility before their diagnostic applica-
+tions. A recent review by Stankiewicz and Beaudet (26 )
+summarized the applications of microarrays for CGH,
+primarily dealing with low-resolution or targeted BAC
+arrays in the evaluation of patients with dysmorphic
+features, developmental delay, and/or idiopathic men-
+tal retardation. The published data produced with dif-
+ferent array platforms and patient cohorts indicate an
+overall detection rate for pathogenic genomic imbal-
+ance of patients with multiple congenital anomalies
+and/or developmental delay/mental retardation of
+12%–18%. Only 3%–5% of such patients can be de-
+tected by G-banded karyotyping, and an additional
+9%–13% can be detected by microarray-based tests
+(26 ). As expected, the detection rate is higher with
+whole-genome tiling arrays than with targeted arrays.
+A series of such studies overwhelmingly verified the
+superior sensitivity and detection power of array CGH
+compared with karyotyping and FISH analysis. As
+mentioned above, the most important advance in array
+CGH is replacing BACs with oligonucleotides. Simi-
+larly, short-oligonucleotide arrays have also been vali-
+dated against and found superior to BAC arrays.
+
+INTERROGATING SAMPLES FROM PATIENTS AND HEALTHY
+
+INDIVIDUALS WITH OLIGONUCLEOTIDE ARRAYS
+Oligonucleotide CGH arrays became commercially
+available in 2004 and now include platforms from Agi-
+lent Technologies (20 ), NimbleGen (27 ), Affymetrix
+(28 ), and Illumina (24 ) (Table 1). In-house spotted-
+oligonucleotide arrays (29 ) and custom-designed oli-
+gonucleotide CGH arrays (13, 14, 30 –32 ) have also
+demonstrated high sensitivity and reproducible detec-
+tion of genomic imbalance in testing with samples
+from patients and healthy individuals. Consequently,
+many laboratories have shifted from BAC arrays to oli-
+gonucleotide arrays (15 ). Some diagnostic laboratories
+that provide large-scale services are now using oligonu-
+cleotide arrays for clinical diagnostics.
+
+The initial
+
+implementation of oligonucleotide
+CGH arrays for clinical applications focused on tar-
+geted pathogenic genomic regions. Shen et al. devel-
+oped targeted oligonucleotide arrays that used Agilent
+custom arrays to interrogate 179 clinically relevant
+genomic loci (14 ). The multiplex arrays demonstrated
+results that were 100% concordant with the findings
+from BAC arrays, showing very high sensitivity. In ad-
+dition, smaller genomic imbalances that were not de-
+tectable by BAC arrays were reliably detected with this
+oligonucleotide-array system (14 ). Similarly, Ou et al.
+emulated BAC arrays with oligonucleotide probes and
+created an array of 44 000 oligonucleotides that veri-
+fied an enhanced ability for detecting copy number
+changes compared with BAC arrays (13 ). In addition
+to showing the superior analytical sensitivity of oligo-
+nucleotide arrays compared with BAC arrays, these
+studies
+convenience of
+oligonucleotide-array design and manufacturing.
+Aradhya and Cherry used samples from 20 patients
+with dysmorphic features, developmental delay, or
+mental retardation to directly compare the perfor-
+mance of whole-genome BAC arrays of 1-Mb resolu-
+tion (Spectral Chip 2600; PerkinElmer) with that of
+Agilent whole-genome oligonucleotide CGH arrays
+of 35-kb resolution (33 ). All of these patients had a
+typical karyotype. Ten clinically important genomic-
+imbalance events were detected with the oligonucleo-
+tide arrays, whereas only 6 were detected with the BAC
+arrays. The study clearly demonstrated the superior ef-
+fectiveness of the oligonucleotide arrays. Because of the
+large size of the BAC clones and the widespread nature
+of CNVs, BAC arrays provide very low specificity for
+detecting CNVs. Conversely, oligonucleotide arrays
+avoid repeat sequences via the selection of probes that
+avoid nonspecific regions.
+
+also demonstrated the
+
+With the intention of improving the capture of
+frequent subtelomeric imbalances associated with
+developmental delay/mental
+retardation, custom-
+designed oligonucleotide CGH arrays were developed
+with improved coverage in subtelomeric regions. Ex-
+ploiting the design concept used earlier in BAC arrays
+(34 ), Toruner et al. (32 ) randomly removed one third
+of the probes from an off-the-shelf Agilent whole-
+genome CGH array of 44 000 probes and replaced
+them with 14 000 subtelomeric probes. The resulting
+arrays provided 5-kb resolution in subtelomeres and
+125-kb resolution in the remaining genome. The oligo-
+nucleotide CGH array– based molecular ruler (31 ), an-
+other design that emerged at nearly the same time, pro-
+vided 50-kb resolution for subtelomeric regions and
+75-kb resolution for the rest of the genome. This array
+detected a subtelomeric genomic imbalance of 10.9%
+and a pathologic imbalance of 4.7% genome wide in
+clinical samples (30 ). These custom designs provide
+
+Clinical Chemistry 55:4 (2009) 663
+
+Reviews
+
+Table 2. Exon-level DNA-profiling arrays.
+
+Reference
+
+CGH array platform
+
+Target gene(s)a
+
+Specific probe no.
+
+Resolution
+
+Rouleau et al. (39)
+del Gaudio et al.
+
+(40)
+
+Agilent 11K array
+Agilent 44K array
+
+BRCA1
+DMD
+
+Staaf et al. (41)
+
+Agilent 4x44K array
+
+Saillour et al. (42)
+
+NimbleGen tiling array
+
+BRCA1, BRCA2, MSH2, MLH1,
+
+PTEN, and CDKN2A
+
+CFTR, SGCA, SGCB, SGCD,
+SGCE, SGCZ, and DMD
+
+Hegde et al. (43)
+
+NimbleGen tiling array
+
+DMD
+
+Wong et al. (44)
+
+Agilent 44K array
+
+130 Nuclear genes involved in
+metabolic and mitochondrial
+disorders
+
+1679
+8769
+
+9612
+
+72 500
+
+385 747 (mean spacing,
+
+5 bp)
+
+⬵44 000 (mean spacing,
+
+250–300 bp)
+
+NAb
+NA
+
+⬍500 bp, partial exon
+
+Single exon and
+
+mosaic
+
+Single exon and
+
+mosaic
+
+Single exon and
+
+mosaic
+
+a BRCA1, breast cancer 1, early onset; BRCA2, breast cancer 2, early onset; MSH2, mutS homolog 2, colon cancer, nonpolyposis type 1 (E. coli); MLH1, mutL homolog
+1, colon cancer, nonpolyposis type 2 (E. coli); PTEN, phosphatase and tensin homolog; CDKN2A, cyclin-dependent kinase inhibitor 2A (melanoma, p16, inhibits
+CDK4); CFTR, cystic fibrosis transmembrane conductance regulator (ATP-binding cassette sub-family C, member 7); SGCA, sarcoglycan, alpha (50kDa dystrophin-
+associated glycoprotein); SGCB, sarcoglycan, beta (43kDa dystrophin-associated glycoprotein); SGCD, sarcoglycan, delta (35kDa dystrophin-associated glycopro-
+tein); SGCE, sarcoglycan, epsilon; SGCZ, sarcoglycan zeta.
+b Data not available.
+
+enhanced coverage for clinically relevant regions, as
+well as decent coverage for the rest of genome for better
+measurement of the sizes of imbalance events.
+
+Compared with oligonucleotide CGH arrays,
+fewer clinical applications have been studied on geno-
+typing arrays. Friedman et al. used the Affymetrix 100K
+SNP arrays to investigate genomic imbalance (28 ).
+Eight control trios that included the unaffected parents
+and an affected child with a previously recognized
+chromosomal abnormality or UPD were studied. The
+Affymetrix array detected the known abnormalities in
+all control cases, including 4 cases of UPD. The array
+also detected de novo deletions as small as 178 kb
+among 100 idiopathic mental-retardation patients
+with a typical karyotype. In addition, Ming et al. used
+the 50K Xba chip from the Affymetrix 100K array set
+for a similar study of patients with multiple congenital
+anomalies (35 ). Although both studies illustrated the
+sensitivity and detection power of Affymetrix arrays for
+investigating genomic imbalance, the analytical sensi-
+tivity and cutoff for detecting copy number–neutral
+UPD have yet to be firmly established.
+
+Flexible probe selection permits easy design of oli-
+gonucleotide arrays that can detect deletions and du-
+plications at the exon level of specific genes (Table 2).
+Although PCR products for NF16 (neurofibromin 1)
+(36 ), NF2 [neurofibromin 2 (merlin)] (37 ), and other
+large, clinically important genes (38 ) have been used to
+
+6 Human genes: NF1, neurofibromin 1; NF2, neurofibromin 2 (merlin); PARK2,
+Parkinson disease (autosomal recessive, juvenile) 2, parkin; DMD, dystrophin.
+
+664 Clinical Chemistry 55:4 (2009)
+
+develop exon-level microarrays, the current manufac-
+turing technology for oligonucleotide arrays has sim-
+plified the process so that it is more accessible to ordi-
+nary laboratories. These custom-designed,
+target
+gene–specific arrays detect duplication as effectively as
+deletion at the single-exon level, with more precise
+breakpoint mapping (39 – 44 ). Targeting panels of
+genes associated with one disease at the exon level is
+attractive for molecular diagnostics.
+
+GENOMIC IMBALANCES IN AUTISM SPECTRUM DISORDERS
+Autism spectrum disorders (ASDs) are complex, per-
+vasive developmental-delay disorders characterized by
+impairments in communication, social interaction,
+and behavior. Studies of twins have suggested a strong
+genetic component to ASD. Thus far, few contributory
+genes have been identified, but cytogenetic changes
+have been one of the most consistent identifiable causes
+of autism. Changes detectable by high-resolution
+G-banding have been reported in 3%–5% of autism
+patients (45 ), involving the chromosomal regions at
+2q37, 5p15, 11q25, 16q22.3, 17p11.2, 18q21.1, 18q23,
+22q11.2, 22q13.3, and Xp22.2p22.3 (46 ). MGDP is a
+powerful new venue for exploring the complex nature
+of ASD genetics. Jacquemont et al. (47 ) used whole-
+genome 1-Mb BAC CGH arrays to interrogate 29 syn-
+dromic autism patients with typical karyotypes and
+found that more than a quarter of the patients showed
+spontaneous pathogenic copy number changes. The
+size of the imbalances ranged from 2 Mb to 17.3 Mb.
+This study highlighted the immense effectiveness of ar-
+ray CGH in genetic analysis of patients with autism. It
+
+Microarrays in Clinical Molecular Diagnostics
+
+Reviews
+
+Table 3. Detection rate of clinically relevant CNVs in ASDs by array technologies.
+
+Reference
+
+Array platforms
+
+Jacquemont et al. (47)
+Sebat et al. (48)
+
+BAC CGH array
+Oligonucleotide CGH array
+
+Szatmari et al. (49)
+Weiss et al. (50)
+Christian et al. (51)
+Marshall et al. (52)
+
+Affymetrix 10K SNP array
+Affymetrix 5.0 array
+BAC CGH array
+Affymetrix 500K SNP array
+
+Morrow et al. (56)
+
+Affymetrix 500K SNP array
+and targeted BAC CGH
+array
+
+Actual
+
+resolution
+
+1 Mb
+35 kb
+
+476 kb
+30 kb
+
+Tiling 19K set
+
+75 kb
+
+75 kb
+
+Patient cohort
+
+De novo CNV detection rate
+
+29 Syndromic autism
+118 Sporadic autism
+77 Multiplexa familial
+
+autism
+
+173 Families, simplex
+751 AGRE families
+397 AGRE samples
+427 ASD families
+
+27.5% (8 of 29)
+10.2% (12 of 118)
+3% (2 of 77)
+
+5.8% (10 of 173)
+6.7% (50 of 751)
+2.3% (9 of 397)
+6.3% mean (27 of 427); 7.1% (4
+of 56) in simplex families; 2%
+(1 of 49) in multiplex families
+
+42 Consanguineous
+
+samples, multiplex
+
+0
+
+52 Consanguineous
+samples, simplex
+
+1.9% (1 of 52)
+
+a Multiplex, family with ⱖ2 ASD patients; simplex, family with 1 ASD patient; AGRE, Autism Genetic Resource Exchange.
+
+also demonstrated that extensive genomic imbalances
+are an important underlying cause of syndromic ASD.
+In another study that used oligonucleotide arrays
+with much higher resolution, Sebat et al. (48 ) revealed
+the importance of de novo CNVs as genetic risk factors
+for sporadic ASD. Subsequent studies have provided
+further evidence to support the notion that copy num-
+ber changes are strongly associated with idiopathic
+ASD (49 –55 ). Array technology has detected patho-
+genic CNVs in 5.8%–10.2% of sporadic ASD patients
+(Table 3), whereas the rate is consistently low in famil-
+ial ASD patients (2%–3%). This finding suggests that
+there are 2 different ASD genetic mechanisms: sporadic
+ASDs are more likely to be caused by de novo deletions
+or duplications, whereas familial ASDs are more likely
+to be due to other types of inherited mutations. Array
+studies with consanguineous families further demon-
+strated the existence of recessive gene mutations that
+are largely not genomic deletions or duplications (56 ).
+Collectively, these studies clearly demonstrate the
+clinical value of genomic profiling in the evaluation of
+autism. It is strongly evident that the detection yield of
+MGDP is much more consistent and higher than tra-
+ditional cytogenetic techniques (57 ).
+
+Clinical Validation and Diagnostic Applications of
+MGDP Technologies
+
+CLINICAL VALIDATION—SENSITIVITY AND SPECIFICITY
+As for any new technology, systematic validation is re-
+quired before MGDP can be used for routine clinical
+
+applications (14, 58, 59). The validation process should
+test all aspects of a new technology, but most impor-
+tantly the sensitivity and specificity. Sensitivity and
+specificity are often tested by means of a positively test-
+ing cohort with known mutations that have been iden-
+tified with a well-accepted technology. In the case of
+MGDP, results from karyotyping and FISH studies are
+often used. Typically, sensitivity testing examines the
+false-negative rate, and specificity testing inspects the
+false-positive rate; however, several aspects of MGDP
+validation are unique.
+
+Microarray technology is analog in nature. The
+change in genomic copy number is reflected by a
+change in signal intensity or a color shift (red vs green)
+of the microarray features (probe spots). The first crit-
+ical step is to define the analytical resolution, i.e., the
+size of CNV that can be detected reliably. Assuming
+that the feature-analysis software is well established for
+each array platform (not necessarily the case), CNV
+calling depends on the algorithm used. Owing to the
+different array platforms and probe densities, the ana-
+lytical resolution of each array needs to be specifically
+defined. It is important to note that sensitivity and
+specificity vary, depending on the number of consecu-
+tive probes examined. Higher sensitivity and specificity
+can be achieved when more consecutive probes are
+used. In addition, the signal-to-background ratio for a
+deletion or duplication changes with the array plat-
+form, the labeling chemistry, and the hybridization
+protocol. Thus, it is necessary to define an appropriate
+threshold for each clinical-array design. For example,
+
+Clinical Chemistry 55:4 (2009) 665
+
+Reviews
+
+Table 4. Clinical utility of diagnostic genomic-profiling microarrays.
+
+Sample
+size, n
+
+GIa/CNV size
+
+8789 ⱖ200 kb
+
+775 ⱖ1 BAC clone
+
+1738 ⱖ1 BAC clone
+
+1176 ⱖ1 BAC clone
+
+pCNV
+
+6.90%
+
+7.60%
+
+8.90%
+
+9.86%
+
+669 ⱖ2 BAC clones
+
+10.8%
+
+bCNV
+
+1.20%
+
+10%
+
+8.1%
+
+uCNV
+
+3.90%
+
+0.60%
+
+1.70%
+
+3.99%
+
+NA
+
+Reference
+
+Array platform
+
+Shaffer et al. (65) Signature Genomic targeted
+
+BAC CGH array
+
+Baylor CMA V4 targeted
+
+BAC CGH array
+
+Baylor CMA V5 targeted
+
+BAC CGH array
+
+Spectral Genomics Spectral
+
+Chip 2600 and
+Constitutional Chip
+
+Spectral Genomics Spectral
+
+Chip 2600 and
+Constitutional Chip
+Targeted plus whole-
+
+genome oligo CGH array
+
+Lu et al. (66)
+
+Pickering et al.
+
+(67)
+
+Aston et al. (68)
+
+Baldwin et al.
+
+(30)
+
+Shen et al. (14)
+
+Fan et al. (69)
+
+Xiang et al. (70)
+
+211 ⬎500 kb
+
+Agilent 2x11K focused oligo
+
+CGH array
+
+Agilent 44K whole-genome
+
+oligo CGH array
+
+Agilent 44K whole-genome
+
+oligo CGH array
+
+211 ⱖ3 Consecutive probes,
+
+smallest 23 kb
+
+100 ⱖ3 Consecutive probes,
+
+smallest 17 kb
+
+50 ⬎500 kb
+
+15.64% (10.90%,
+
+targeted; 4.74%,
+backbone)
+11.9%
+
+15%
+
+6.00%
+
+8.53% (6.16%,
+
+complex; 2.36%
+familial)
+
+1.90%
+
+4.26%
+
+0.72/case
+
+12.00%
+
+a GI, genomic imbalance; CMA, chromosomal microarray analysis; NA, data not available; oligo, oligonucleotide.
+
+chromosomal mosaicism is not so rare in patients with
+birth defects and mental retardation. BAC arrays have
+found 8% of abnormal findings to be mosaic muta-
+tions; however, different array platforms have different
+sensitivities for detecting mosaicism (60 – 62 ).
+
+Because microarray technology has much higher
+resolution than karyotyping and FISH, its analytical
+resolution cannot be assessed by karyotyping or
+FISH. In many cases, additional CNVs not detectable
+by karyotyping or FISH were identified with array
+technologies. Therefore, other technologies covering
+smaller-scale mutations, such as MLPA, real-time PCR,
+or even PCR/sequencing, should be used for validation
+purposes (14 ).
+
+CLINICAL VALIDATION—PLATFORM PITFALLS
+It is also necessary to check for missing spots on the
+array that may be clinically important. For example,
+some commercial arrays do not cover the pseudochro-
+mosomal regions of chromosomes X and Y. On the
+other hand, poor-performing probes (mismapped or
+poorly hybridizing probes) should be taken out of the
+array (59 ). The latter action is particularly necessary in
+BAC arrays because one mismapped or poorly hybrid-
+izing clone will appreciably affect detection sensitivity
+and specificity. Most of these poorly hybridizing BAC
+
+666 Clinical Chemistry 55:4 (2009)
+
+clones may contain low-copy repeats. Thus, the pres-
+ence of low-copy repeats is more of a problem in the
+BAC probe than the oligonucleotide probe, whereas
+oligonucleotide probes that do not perform well may
+contain secondary structure. Identifying such bad
+probes and removing them will improve array perfor-
+mance considerably (14 ). Although such probes can-
+not be removed from commercial chips, posthybrid-
+ization data analysis (data filtering) can provide an
+alternative solution for amending this problem.
+
+It has been suggested that a minimum of 30 ab-
+normal samples be used for clinical validation (58 );
+however, the region and size of the genomic im-
+balance that the abnormal cases cover are more im-
+portant than the actual number. Ideally, every probe
+should be evaluated with abnormal samples. For this
+purpose, aneuploidy cell lines, as well as samples
+with well-defined genomic imbalances of different
+sizes, are very valuable.
+
+UNDERSTANDING CNVs
+The most important issue for array interpretation in clin-
+ical genetic testing is to define the nature of the identified
+CNVs (63). In general, CNVs can be categorized into 3
+major groups: CNVs with established pathogenicity
+(pCNVs), i.e., deletions/duplications that overlap with re-
+
+Microarrays in Clinical Molecular Diagnostics
+
+Reviews
+
+gions associated with defined genomic disorders or dis-
+rupt known disease genes; CNVs of a benign nature
+(bCNVs), i.e., deletions/duplications repeatedly observed
+in nonpathologic individuals and with no evidence of an
+association with any particular clinical phenotype; and
+CNVs with unknown importance (uCNVs), i.e., dele-
+tions/duplications without an established association
+with any genomic disorder and involving genes of unclear
+clinical importance [(14, 30, 65–70), Table 4]. Even when
+bCNVs and uCNVs are intentionally avoided during ar-
+ray design, a large percentage of the identified imbalances
+often belong to bCNVs or uCNVs, because a substantial
+number of novel CNVs are still being discovered
+(Table 4).
+
+We anticipate that many of CNVs of currently un-
+known importance (uCNVs) will eventually be con-
+firmed as bCNVs as more precise knowledge about
+their locations, distributions, and frequencies
+in
+healthy populations becomes available. Meanwhile, the
+accumulating evidence from clinical (phenotyping),
+genetic (inheritance and segregation), and functional
+(gene content and expression) studies may reveal a
+portion of these uCNVs to be pathogenic. We believe
+that uCNVs are a rich source for identifying novel ge-
+netic risk factors for a variety of medical conditions.
+
+Our understanding of CNVs will certainly im-
+prove with systematic CNV-discovery efforts (64 ).
+At the same time, continued studies of genotype–
+phenotype association are also essential. Public data-
+bases such as DECIPHER (https://decipher.sanger.
+ac.uk/) represent such an effort. In the meantime,
+many novel CNVs are being discovered in clinical sam-
+ples with the help of high-resolution whole-genome
+arrays. Databases derived from clinical samples are also
+a rich source for evaluating genotype–phenotype cor-
+relations. Eventually, this knowledge will make it pos-
+sible to minimize the detection of bCNVs and maxi-
+mize the detection of clinically important regions.
+
+CLINICAL-DIAGNOSTIC UTILITY
+The first-generation arrays designed for clinical use
+were targeted BAC CGH arrays developed in house at
+the Baylor College of Medicine (34 ) and Signature
+Genomic Laboratories (71 ). Both arrays were designed
+to cover regions of known genomic disorders, as well as
+all subtelomeric regions. Array-CGH and FISH results
+showed 100% concordance. In addition, array CGH
+detected changes missed by prior karyotyping or FISH.
+A similar design was also available commercially, the
+Constitutional Chip by Spectral Genomics (72 ). The
+Constitutional Chip also included backbone clones to
+cover the rest of the genome with an interval of about
+1 Mb. Since that time, more BAC clones (from 589 to
+⬎4600) have been selected to cover additional clini-
+cally relevant regions (approximately 40 –150 recog-
+
+nized genomic disorders/syndromes), improving de-
+tection rates from 5.6% in the first-generation BAC
+arrays to 10.8% in later arrays (68, 73 ).
+
+The clinical utility of oligonucleotide arrays has
+not yet been evaluated in large clinical studies; how-
+ever, the current data indicate that the detection rate is
+higher than for BAC arrays (Table 4). High-resolution
+whole-genome oligonucleotide arrays have identified
+small novel microdeletions and microduplications in
+16p11.2 that are associated with mental retardation/
+autism (50, 53 ), have helped to circumscribe critical
+regions such as 17q21.31 (74 ), and have identified in-
+tragenic deletions/duplications in large genes, such as
+PARK2 [Parkinson disease (autosomal recessive, juve-
+nile) 2, parkin] and DMD (dystrophin) (Y. Shen et al.,
+unpublished data).
+
+Common clinical indications for MGDP-based di-
+agnostics testing include developmental delay, multi-
+ple congenital anomalies, dysmorphic features, unex-
+plained mental retardation, seizure disorders, ASDs,
+and other neurologic/psychiatric disorders such as
+schizophrenia, as well as prenatal diagnosis, including
+spontaneous abortion or fetal demise.
+
+Conclusion and Future Development
+
+Microarray-based clinical molecular diagnostics technol-
+ogies such as MGDP have gone beyond the stage of “co-
+ordinated and concurrent FISH analysis” (75) and ex-
+tended into loss-of-heterozygosity testing and possibly
+methylation profiling. Current MGDP technologies are
+capable of detecting genomic imbalances of any size but
+do not reveal positional or orientational information.
+FISH analysis has largely been responsible for providing
+positional information. FISH is also instrumental in test-
+ing for translocations in parental samples for de novo
+CNVs that have been identified in probands. MGDP has
+much better resolution than FISH, however. The field
+would benefit immensely from a tool with the localization
+capability of FISH and the resolution of whole-genome
+oligonucleotide arrays. Advanced next-generation se-
+quencing platforms may eventually provide digital profil-
+ing for detecting copy numbers and positional alterations
+simultaneously. Therefore, DNA-diagnostics profiling
+may soon extend beyond microarray-based technology,
+from analog analysis to digital analysis.
+
+Author Contributions: All authors confirmed they have contributed to
+the intellectual content of this paper and have met the following 3 re-
+quirements: (a) significant contributions to the conception and design,
+acquisition of data, or analysis and interpretation of data; (b) drafting
+
+Clinical Chemistry 55:4 (2009) 667
+
+Reviews
+
+or revising the article for intellectual content; and (c) final approval of
+the published article.
+
+Authors’ Disclosures of Potential Conflicts of Interest: Upon
+manuscript submission, all authors completed the Disclosures of Poten-
+tial Conflict of Interest form. Potential conflicts of interest:
+
+Employment or Leadership: None declared.
+Consultant or Advisory Role: None declared.
+Stock Ownership: None declared.
+Honoraria: None declared.
+Research Funding: Y. Shen is the recipient of a Young Investigator
+Award from the Children’s Tumor Foundation, and B.-L. Wu is the
+
+recipient of an NIH-CDC CETT Program grant and a Fudan Scholar
+Research Award.
+Expert Testimony: None declared.
+
+Role of Sponsor: The funding organizations played a direct role,
+in part, in the design of the study, the interpretation of the data,
+and the preparation of the manuscript.
+
+Acknowledgments: We thank Orah S. Platt of Children’s Hos-
+pital Boston, James F. Gusella of Massachusetts General Hos-
+pital, and Li-Jun Ma of the Broad Institute of MIT & Harvard
+for their critical reading of the manuscript and for thoughtful
+discussion.
+
+1. Kondrashov AS. Direct estimates of human per
+nucleotide mutation rates at 20 loci causing Men-
+delian diseases. Hum Mutat 2003;21:12–27.
+
+2. van Ommen GJ. Frequency of new copy number
+variation in humans. Nat Genet 2005;37:333– 4.
+3. Hassold T, Hunt P. To err (meiotically) is human:
+the genesis of human aneuploidy. Nat Rev Genet
+2001;2:280 –91.
+
+4. Feuk L, Carson AR, Scherer SW. Structural varia-
+tion in the human genome. Nat Rev Genet 2006;
+7:85–97.
+
+5. Iafrate AJ, Feuk L, Rivera MN, Listewnik ML,
+Donahoe PK, Qi Y, et al. Detection of large-scale
+variation in the human genome. Nat Genet 2004;
+36:949 –51.
+
+6. Redon R, Ishikawa S, Fitch KR, Feuk L, Perry GH,
+Andrews TD, et al. Global variation in copy num-
+ber in the human genome. Nature 2006;444:
+444 –54.
+
+7. Sebat J, Lakshmi B, Troge J, Alexander J, Young J,
+Lundin P, et al. Large-scale copy number poly-
+morphism in the human genome. Science 2004;
+305:525– 8.
+
+8. Kallioniemi A, Kallioniemi OP, Sudar D, Rutovitz
+D, Gray JW, Waldman F, Pinkel D. Comparative
+genomic hybridization for molecular cytogenetic
+analysis of solid tumors. Science 1992;258:
+818 –21.
+
+9. Solinas-Toldo S, Lampel S, Stilgenbauer S, Nicko-
+lenko J, Benner A, Dohner H, et al. Matrix-based
+comparative genomic hybridization: biochips to
+screen for genomic imbalances. Genes Chromo-
+somes Cancer 1997;20:399 – 407.
+
+10. Pinkel D, Segraves R, Sudar D, Clark S, Poole I,
+Kowbel D, et al. High resolution analysis of DNA
+copy
+comparative
+genomic hybridization to microarrays. Nat Genet
+1998;20:207–11.
+
+variation
+
+number
+
+using
+
+11. Pollack JR, Perou CM, Alizadeh AA, Eisen MB,
+Pergamenschikov A, Williams CF, et al. Genome-
+wide analysis of DNA copy-number changes using
+cDNA microarrays. Nat Genet 1999;23:41– 6.
+
+12. Lucito R, Healy J, Alexander J, Reiner A, Esposito
+D, Chi M, et al. Representational oligonucleotide
+microarray analysis: a high-resolution method to
+detect genome copy number variation. Genome
+Res 2003;13:2291–305.
+
+13. Ou Z, Kang SH, Shaw CA, Carmack CE, White LD,
+Patel A, et al. Bacterial artificial chromosome-
+emulation oligonucleotide arrays for
+targeted
+clinical array-comparative genomic hybridization
+analyses. Genet Med 2008;10:278 – 89.
+
+14. Shen Y, Irons M, Miller DT, Cheung SW, Lip V,
+Sheng X, et al. Development of a focused
+
+668 Clinical Chemistry 55:4 (2009)
+
+References
+
+oligonucleotide-array comparative genomic hy-
+bridization chip for clinical diagnosis of genomic
+imbalance. Clin Chem 2007;53:2051–9.
+
+15. Ylstra B, van den Ijssel P, Carvalho B, Brakenhoff
+future! or
+RH, Meijer GA. BAC to the
+oligonucleotides: a perspective for micro array
+comparative genomic hybridization (array CGH).
+Nucleic Acids Res 2006;34:445–50.
+
+16. Pease AC, Solas D, Sullivan EJ, Cronin MT,
+Holmes CP, Fodor SP. Light-generated oligonucle-
+otide arrays for rapid DNA sequence analysis.
+Proc Natl Acad Sci U S A 1994;91:5022– 6.
+
+17. Lipshutz RJ, Morris D, Chee M, Hubbell E, Kozal
+MJ, Shah N, et al. Using oligonucleotide probe
+arrays to access genetic diversity. Biotechniques
+1995;19:442–7.
+
+18. Lockhart DJ, Dong H, Byrne MC, Follettie MT,
+Gallo MV, Chee MS, et al. Expression monitoring
+by hybridization to high-density oligonucleotide
+arrays. Nat Biotechnol 1996;14:1675– 80.
+
+19. Fodor SP, Read JL, Pirrung MC, Stryer L, Lu AT,
+Solas D. Light-directed, spatially addressable par-
+allel chemical synthesis. Science 1991;251:
+767–73.
+
+20. Barrett MT, Scheffer A, Ben-Dor A, Sampas N,
+Lipson D, Kincaid R, et al. Comparative genomic
+hybridization using oligonucleotide microarrays
+and total genomic DNA. Proc Natl Acad Sci U S A
+2004;101:17765–70.
+
+21. Bignell GR, Huang J, Greshock J, Watt S, Butler A,
+West S, et al. High-resolution analysis of DNA
+copy number using oligonucleotide microarrays.
+Genome Res 2004;14:287–95.
+
+22. Huang J, Wei W, Zhang J, Liu G, Bignell GR,
+Stratton MR, et al. Whole genome DNA copy
+number changes identified by high density oli-
+gonucleotide arrays. Hum Genomics 2004;1:
+287–99.
+
+23. Zhao X, Li C, Paez JG, Chin K, Janne PA, Chen TH,
+et al. An integrated view of copy number and
+allelic alterations in the cancer genome using
+single nucleotide polymorphism arrays. Cancer
+Res 2004;64:3060 –71.
+
+24. Peiffer DA, Le JM, Steemers FJ, Chang W, Jenni-
+ges T, Garcia F, et al. High-resolution genomic
+profiling of chromosomal aberrations using In-
+finium whole-genome genotyping. Genome Res
+2006;16:1136 – 48.
+
+25. McCarroll SA, Kuruvilla FG, Korn JM, Cawley S,
+Nemesh J, Wysoker A, et al. Integrated detection
+and population-genetic analysis of SNPs and copy
+number variation. Nat Genet 2008;40:1166 –74.
+26. Stankiewicz P, Beaudet AL. Use of array CGH in
+the evaluation of dysmorphology, malformations,
+
+developmental delay, and idiopathic mental re-
+tardation. Curr Opin Genet Dev 2007;17:182–92.
+27. Selzer RR, Richmond TA, Pofahl NJ, Green RD, Eis
+PS, Nair P, et al. Analysis of chromosome break-
+points in neuroblastoma at sub-kilobase resolu-
+tion using fine-tiling oligonucleotide array CGH.
+Genes Chromosomes Cancer 2005;44:305–19.
+
+28. Friedman JM, Baross A, Delaney AD, Ally A,
+Arbour L, Armstrong L, et al. Oligonucleotide
+microarray analysis of genomic imbalance in chil-
+dren with mental retardation. Am J Hum Genet
+2006;79:500 –13.
+
+29. Carvalho B, Ouwerkerk E, Meijer GA, Ylstra B.
+High resolution microarray comparative genomic
+hybridisation analysis using spotted oligonucleo-
+tides. J Clin Pathol 2004;57:644 – 6.
+
+30. Baldwin EL, Lee JY, Blake DM, Bunke BP, Alex-
+ander CR, Kogan AL, et al. Enhanced detection of
+clinically relevant genomic imbalances using a
+targeted plus whole genome oligonucleotide mi-
+croarray. Genet Med 2008;10:415–29.
+
+31. Martin CL, Nawaz Z, Baldwin EL, Wallace EJ,
+Justice AN, Ledbetter DH. The evolution of mo-
+lecular ruler analysis for characterizing telomere
+imbalances: from fluorescence in situ hybridiza-
+tion to array comparative genomic hybridization.
+Genet Med 2007;9:566 –73.
+
+32. Toruner GA, Streck DL, Schwalb MN, Dermody JJ.
+An oligonucleotide based array-CGH system for
+detection of genome wide copy number changes
+including subtelomeric regions for genetic evalu-
+ation of mental retardation. Am J Med Genet A
+2007;143A:824 –9.
+
+33. Aradhya S, Cherry AM. Array-based comparative
+genomic hybridization: clinical contexts for tar-
+geted and whole-genome designs. Genet Med
+2007;9:553–9.
+
+34. Cheung SW, Shaw CA, Yu W, Li J, Ou Z, Patel A,
+et al. Development and validation of a CGH mi-
+croarray for clinical cytogenetic diagnosis. Genet
+Med 2005;7:422–32.
+
+35. Ming JE, Geiger E, James AC, Ciprero KL, Nim-
+makayalu M, Zhang Y, et al. Rapid detection of
+submicroscopic chromosomal rearrangements in
+children with multiple congenital anomalies using
+high density oligonucleotide arrays. Hum Mutat
+2006;27:467–73.
+
+36. Mantripragada KK, Thuresson AC, Piotrowski A,
+Diaz de Stahl T, Menzel U, Grigelionis G, et al.
+Identification of novel deletion breakpoints bor-
+dered by segmental duplications in the NF1 locus
+using high resolution array-CGH. J Med Genet
+2006;43:28 –38.
+
+37. Mantripragada KK, Buckley PG, Jarbo C, Menzel
+
+Microarrays in Clinical Molecular Diagnostics
+
+Reviews
+
+U, Dumanski JP. Development of NF2 gene spe-
+cific, strictly sequence defined diagnostic microar-
+ray for deletion detection. J Mol Med 2003;81:
+443–51.
+
+38. Dhami P, Coffey AJ, Abbs S, Vermeesch JR, Du-
+manski JP, Woodward KJ, et al. Exon array CGH:
+detection of copy-number changes at the resolu-
+tion of individual exons in the human genome.
+Am J Hum Genet 2005;76:750 – 62.
+
+39. Rouleau E, Lefol C, Tozlu S, Andrieu C, Guy C,
+Copigny F, et al. High-resolution oligonucleotide
+array-CGH applied to the detection and charac-
+terization of large rearrangements in the heredi-
+tary breast cancer gene BRCA1. Clin Genet 2007;
+72:199 –207.
+
+40. del Gaudio D, Yang Y, Boggs BA, Schmitt ES, Lee
+JA, Sahoo T, et al. Molecular diagnosis of Duch-
+enne/Becker muscular dystrophy: enhanced de-
+tection of dystrophin gene rearrangements by
+oligonucleotide array-comparative genomic hy-
+bridization. Hum Mutat 2008;29:1100 –7.
+
+41. Staaf J, Torngren T, Rambech E, Johansson U,
+Persson C, Sellberg G, et al. Detection and precise
+mapping of germline rearrangements in BRCA1,
+BRCA2, MSH2, and MLH1 using zoom-in array
+comparative genomic hybridization (aCGH). Hum
+Mutat 2008;29:555– 64.
+
+42. Saillour Y, Cossee M, Leturcq F, Vasson A,
+Beugnet C, Poirier K, et al. Detection of exonic
+copy-number changes using a highly efficient
+oligonucleotide-based comparative genomic
+hybridization-array method. Hum Mutat 2008;
+29:1083–90.
+
+43. Hegde MR, Chin EL, Mulle JG, Okou DT, Warren
+ST, Zwick ME. Microarray-based mutation detec-
+tion in the dystrophin gene. Hum Mutat 2008;29:
+1091–9.
+
+44. Wong LJ, Dimmock D, Geraghty MT, Quan R,
+Lichter-Konecki U, Wang J, et al. Utility of oligo-
+nucleotide array-based comparative genomic hy-
+bridization for detection of target gene deletions.
+Clin Chem 2008;54:1141– 8.
+
+45. Reddy
+
+KS. Cytogenetic
+
+and
+fragile-X syndrome in autism spectrum disorder.
+BMC Med Genet 2005;6:3.
+
+abnormalities
+
+46. Vorstman JA, Staal WG, van Daalen E, van Enge-
+land H, Hochstenbach PF, Franke L. Identification
+of novel autism candidate regions through anal-
+ysis of reported cytogenetic abnormalities asso-
+ciated with autism. Mol Psychiatry 2006;11:1,
+18 –28.
+
+47. Jacquemont ML, Sanlaville D, Redon R, Raoul O,
+Cormier-Daire V, Lyonnet S, et al. Array-based
+comparative genomic hybridisation identifies
+high frequency of cryptic chromosomal rearrange-
+ments in patients with syndromic autism spec-
+trum disorders. J Med Genet 2006;43:843–9.
+
+48. Sebat J, Lakshmi B, Malhotra D, Troge J, Lese-
+Martin C, Walsh T, et al. Strong association of de
+novo copy number mutations with autism. Sci-
+ence 2007;316:445–9.
+
+49. Szatmari P, Paterson AD, Zwaigenbaum L, Rob-
+erts W, Brian J, Liu XQ, et al. Mapping autism risk
+loci using genetic linkage and chromosomal re-
+arrangements. Nat Genet 2007;39:319 –28.
+
+50. Weiss LA, Shen Y, Korn JM, Arking DE, Miller DT,
+Fossdal R, et al. Association between microdele-
+tion and microduplication at 16p11.2 and autism.
+N Engl J Med 2008;358:667–75.
+
+51. Christian SL, Brune CW, Sudi J, Kumar RA, Liu S,
+Karamohamed S, et al. Novel submicroscopic
+chromosomal abnormalities detected in autism
+spectrum disorder. Biol Psychiatry 2008;63:
+1111–7.
+
+52. Marshall CR, Noor A, Vincent JB, Lionel AC, Feuk
+L, Skaug J, et al. Structural variation of chromo-
+somes in autism spectrum disorder. Am J Hum
+Genet 2008;82:477– 88.
+
+53. Kumar RA, KaraMohamed S, Sudi J, Conrad DF,
+Brune C, Badner JA, et al. Recurrent 16p11.2
+microdeletions in autism. Hum Mol Genet 2008;
+17:628 –38.
+
+54. Miller DT, Shen Y, Weiss LA, Korn J, Anselm I,
+Bridgemohan C, et al. Microdeletion/duplication
+at 15q13.2q13.3 among individuals with features
+of autism and other neuropsychiatric disorders.
+J Med Genet [Epub ahead of print 2008 Nov 26].
+55. Mefford HC, Sharp AJ, Baker C, Itsara A, Jiang Z,
+Buysse K, et al. Recurrent rearrangements of
+chromosome 1q21.1 and variable pediatric phe-
+notypes. N Engl J Med 2008;359:1685–99.
+
+56. Morrow EM, Yoo SY, Flavell SW, Kim TK, Lin Y,
+Hill RS, et al. Identifying autism loci and genes by
+tracing recent shared ancestry. Science 2008;321:
+218 –23.
+
+57. Schaefer GB, Mendelsohn NJ. Genetics evalua-
+tion for the etiologic diagnosis of autism spec-
+trum disorders. Genet Med 2008;10:4 –12.
+
+58. Shaffer LG, Beaudet AL, Brothman AR, Hirsch B,
+Levy B, Martin CL, et al. Microarray analysis for
+constitutional cytogenetic abnormalities. Genet
+Med 2007;9:654 – 62.
+
+59. Thorland EC, Gonzales PR, Gliem TJ, Wiktor AE,
+Ketterling RP. Comprehensive validation of ar-
+ray
+hybridization
+platforms: How much is enough? Genet Med
+2007;9:632– 41.
+
+comparative
+
+genomic
+
+60. Ballif BC, Rorem EA, Sundin K, Lincicum M,
+Gaskin S, Coppinger J, et al. Detection of low-
+level mosaicism by array CGH in routine diagnos-
+tic specimens. Am J Med Genet A 2006;140:
+2757– 67.
+
+61. Cheung SW, Shaw CA, Scott DA, Patel A, Sahoo
+T, Bacino CA, et al. Microarray-based CGH de-
+tects chromosomal mosaicism not revealed by
+conventional cytogenetics. Am J Med Genet A
+2007;143A:1679 – 86.
+
+62. Cross J, Peters G, Wu Z, Brohede J, Hannan GN.
+Resolution of
+trisomic mosaicism in prenatal
+diagnosis: estimated performance of a 50K SNP
+microarray. Prenat Diagn 2007;27:1197–204.
+
+63. Lee C, Iafrate AJ, Brothman AR. Copy number vari-
+
+ations and clinical cytogenetic diagnosis of consti-
+tutional disorders. Nat Genet 2007;39:S48–54.
+
+64. Itsara A, Cooper GM, Baker C, Girirajan S, Li J,
+Absher D, et al. Population analysis of large copy
+number variants and hotspots of human genetic
+disease. Am J Hum Genet 2009;84:148 – 61.
+
+65. Shaffer LG, Bejjani BA, Torchia B, Kirkpatrick S,
+Coppinger J, Ballif BC. The identification of mi-
+crodeletion syndromes and other chromosome
+abnormalities: cytogenetic methods of the past,
+new technologies for the future. Am J Med Genet
+C Semin Med Genet 2007;145C:335– 45.
+
+66. Lu X, Shaw CA, Patel A, Li J, Cooper ML, Wells
+WR, et al. Clinical
+implementation of chromo-
+somal microarray analysis: summary of 2513
+postnatal cases. PLoS ONE 2007;2:e327.
+
+67. Pickering DL, Eudy JD, Olney AH, Dave BJ, Golden
+D, Stevens J, Sanger WG. Array-based compara-
+tive genomic hybridization analysis of 1176 con-
+secutive clinical genetics investigations. Genet
+Med 2008;10:262– 6.
+
+68. Aston E, Whitby H, Maxwell T, Glaus N, Cowley
+B, Lowry D, et al. Comparison of targeted and
+whole genome analysis of postnatal specimens
+using a commercially available array based com-
+parative genomic hybridisation (aCGH) microar-
+ray platform. J Med Genet 2008;45:268 –74.
+
+69. Fan YS, Jayakar P, Zhu H, Barbouth D, Sacharow
+S, Morales A, et al. Detection of pathogenic gene
+copy number variations in patients with mental
+retardation by genomewide oligonucleotide array
+comparative genomic hybridization. Hum Mutat
+2007;28:1124 –32.
+
+70. Xiang B, Li A, Valentin D, Nowak NJ, Zhao H, Li
+P. Analytical and clinical validity of whole-
+genome
+comparative
+genomic hybridization for pediatric patients with
+mental
+retardation and developmental delay.
+Am J Med Genet A 2008;146A:1942–54.
+
+oligonucleotide
+
+array
+
+71. Bejjani BA, Saleki R, Ballif BC, Rorem EA, Sundin
+K, Theisen A, et al. Use of targeted array-based
+CGH for the clinical diagnosis of chromosomal
+imbalance:
+Is less more? Am J Med Genet A
+2005;134:259 – 67.
+
+72. Shearer BM, Thorland EC, Gonzales PR, Ketterling
+RP. Evaluation of a commercially available fo-
+cused aCGH platform for the detection of consti-
+tutional chromosome anomalies. Am J Med
+Genet A 2007;143A:2357–70.
+
+73. Shaffer LG, Kashork CD, Saleki R, Rorem E,
+Sundin K, Ballif BC, Bejjani BA. Targeted genomic
+microarray analysis for identification of chromo-
+some abnormalities in 1500 consecutive clinical
+cases. J Pediatr 2006;149:98 –102.
+
+74. Koolen DA, Sharp AJ, Hurst JA, Firth HV, Knight
+SJ, Goldenberg A, et al. Clinical and molecular
+delineation of the 17q21.31 microdeletion syn-
+drome. J Med Genet 2008;45:710 –20.
+
+75. Bejjani BA, Shaffer LG. Application of array-based
+comparative genomic hybridization to clinical di-
+agnostics. J Mol Diagn 2006;8:528 –33.
+
+Clinical Chemistry 55:4 (2009) 669
+
+

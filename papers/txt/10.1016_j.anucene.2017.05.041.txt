@@ -1,0 +1,1296 @@
+Annals of Nuclear Energy 109 (2017) 327–336
+
+Contents lists available at ScienceDirect
+
+Annals of Nuclear Energy
+
+j o u r n a l h o m e p a g e : w w w . e l s e v i e r . c o m / l o c a t e / a n u c e n e
+
+Coupled neutronics/thermal-hydraulics analysis of a full PWR core using
+RMC and CTF
+
+Juanjuan Guo, Shichang Liu, Xiaotong Shang, Shanfang Huang
+
+Department of Engineering Physics, Tsinghua University, Beijing 100084, China
+
+a r t i c l e
+
+i n f o
+
+a b s t r a c t
+
+⇑
+, Kan Wang
+
+Article history:
+Received 1 December 2016
+Received in revised form 18 March 2017
+Accepted 21 May 2017
+Available online 31 May 2017
+
+Keywords:
+RMC
+CTF
+Hybrid coupling
+Domain decomposition
+BEAVRS
+
+A hybrid coupled strategy was proposed for a coupled neutronics and thermal-hydraulics analysis of a
+full PWR core, using the continuous-energy Reactor Monte Carlo code (RMC) and the sub-channel code
+COBRA-TF (CTF). In the code system with hybrid coupling, CTF was invoked and controlled by RMC inter-
+nally, without external interface. The On-The-Fly cross sections treatment of RMC was used to reduce the
+complexity of the coupled code as well as to reduce the memory requirement. The domain decomposition
+parallel technique was developed in CTF to improve the efﬁciency of full core sub-channel calculations,
+and the PWR preprocessor of CTF can reduce the complexity of full core modeling establishment. The
+coupled codes were applied to steady-state simulations of the Benchmark for Evaluation And
+Validation of Reactor Simulations (BEAVRS) in the hot, full power condition at the full-core level to reveal
+the effects of the coupling on the full-core power distribution in both axial and radial directions. The
+inﬂuences of other important parameters including the neutron population and the boron concentration
+were also investigated. The results proved the effectiveness and high ﬁdelity of the coupled system. More
+systematic and detailed analyses can be performed based on realistic operating conditions of PWR full
+core with the coupled codes system.
+
+Ó 2017 Elsevier Ltd. All rights reserved.
+
+1. Introduction
+
+Reactor physics numerical calculations have been used for reac-
+tor design analyses, core power analyses and burn-up calculations,
+with both deterministic methods and the Monte Carlo method
+used in these calculations. The Monte Carlo method has the advan-
+tages of being a ﬁrst-principle method and providing high ﬁdelity
+calculations. The Monte Carlo method can provide high ﬁdelity
+neutronics analyses of different nuclear reactor designs owing to
+its ﬂexible geometric modeling and the use of continuous-energy
+nuclear cross sections. Massively parallel algorithms signiﬁcantly
+reduce the computational costs of Monte Carlo codes.
+
+Many factors need to be considered in reactor analyses, such as
+the fuel pin temperature, coolant temperature and density, and void
+friction. These thermal parameters that can be predicted by reactor
+thermal hydraulics codes strongly inﬂuence the reactor operations
+and safety. The single channel method and sub-channel method
+are two traditional approaches for analyzing the coolant ﬂow and
+heat transfer in the reactor core with many codes using such models
+to accurately model the thermal hydraulics process, such as RELAP5
+⇑ Corresponding author at: LIUQING Building Room 902, Tsinghua University,
+
+Beijing 100084, China.
+
+E-mail address: sfhuang@mail.tsinghua.edu.cn (S. Huang).
+
+http://dx.doi.org/10.1016/j.anucene.2017.05.041
+0306-4549/Ó 2017 Elsevier Ltd. All rights reserved.
+
+(SCIENTECH Inc., 1998), COBRA-EN (Basile et al., 1999), and CTF
+(CASL, 2015). Unlike single channel codes, sub-channel codes pro-
+vide more accurate modeling of the full reactor core or a single
+assembly taking the mixing ﬂow into account. Detailed pin-by-pin
+sub-channel modeling of a full core also needs to be run in parallel
+to reduce the huge computational costs.
+
+The model accuracy requirement for design and safety analyses
+of current and future nuclear reactors is continuously increasing,
+so high ﬁdelity numerical reactor simulations are needed that
+include all the important reactor physics. The interplay between
+the neutronics and the thermal-hydraulic effects in a nuclear
+reactor core plays an important role in the reactor design, safety
+analyses and long term efﬁciency. To achieve the high ﬁdelity solu-
+tion with neutronics and thermal-hydraulics (N-TH), the neutron-
+ics code can be deterministic code or Monte Carlo code. Compared
+with the deterministic code, the Monte Carlo code has the greater
+advantages of accurate geometry and neutron energy treatment,
+which provides the most important foundation for full-core pin
+by pin level resolution through one-step direct transport calcula-
+tions. While traditional deterministic codes based on three-step
+or two-steps homogenization methods have difﬁculties to predict
+the pin level power distributions precisely.
+
+The sub-channel code and the computational ﬂuid dynamics
+(CFD) code are two kinds of commonly used thermal-hydraulics
+
+328
+
+J. Guo et al. / Annals of Nuclear Energy 109 (2017) 327–336
+
+codes. The CFD code can provide high accuracy calculation results
+but costs too much time especially for full core problems, while the
+highly efﬁcient sub-channel code can accomplish the pin by pin
+level sub-channel resolution for full core problem.
+
+There have been many previous studies of N-TH coupling using
+various combinations of different kinds of coupling codes men-
+tioned above. For example,
+the deterministic code MPACT
+(Kochunas et al., 2013) and sub-channel code CTF has been coupled
+by CASL (Kochunas et al., 2014) in VERA-CS (Clarno et al., 2014).
+The Karlsruhe Institute of Technology (KIT)
+in Germany
+(Hoogenboom et al., 2011) has well achieved the coupling between
+MCNP (Briesmeister, 2000)/TRIPOLI4 (Brun et al., 2011) Monte
+Carlo codes and FLICA4 (Aniel et al., 2005)/SubChanFlow
+(Sanchez et al., 2010) thermal-hydraulics codes. It should be men-
+tioned that the Monte Carlo code RMC (Wang et al., 2015) devel-
+oped by REAL group of Tsinghua University in China, has been
+coupled with CFD code CFX (Marchisio et al., 2003) by Li et al.
+(2012), and Liu et al. (2015) has coupled RMC with the sub-
+channel code COBRA-EN. Besides, there are still many coupling
+work between Monte Carlo codes and thermal hydraulics codes
+being done by different research groups of many countries, which
+indicates that the N-TH coupling based on Monte Carlo code is an
+important research trend.
+
+Furthermore, the full-core pin by pin sub-channel resolution is
+also a great challenge for the traditional thermal-hydraulics codes,
+but the new generation sub-channel code CTF can well solve the
+problem by the developed advanced techniques of domain decom-
+position for parallel computing and preprocessor for simplifying
+the geometry and power input for users.
+
+Thus, with the great support of the super computer, the Monte
+Carlo code and sub-channel code CTF can match well for the cou-
+pling of full-core pin by pin resolution simulation, and can obtain
+the high ﬁdelity results with the precise modeling of the full core.
+This paper describes a coupled code using the continuous-
+energy Monte Carlo code RMC, and the sub-channel code CTF.
+The coupling codes are used to simulate the steady-state BEAVRS
+benchmark at the hot, full power condition. The temperature
+dependence of the cross sections in the Monte Carlo code were
+modeled using the on-the-ﬂy cross section treatment in RMC,
+which will also be used for the coupled neutronics and thermal-
+hydraulics analyses in this work.
+
+The simulation results show the necessity of the coupling as
+well as the signiﬁcance of key coupled factors, including the neu-
+tron population and the boron concentration. The results also show
+the high efﬁciency and accuracy of the code. This coupling code
+provides a powerful tool for coupled steady-state and transient
+analyses.
+
+This paper is organized as follows: in Section 2, two coupled
+computer codes are introduced in brief, including the Monte Carlo
+code RMC and sub-channel code CTF. Section 3 presents the cou-
+pling scheme in detail including the proposed hybrid coupling
+method, the approach to solve the temperature dependence, the
+principle of mesh mapping and the setting up of convergence cri-
+teria. Section 4 describes the modeling details of BEAVRS bench-
+mark and the following coupling results and further discussion
+about the inﬂuence parameters on coupling. Finally, the conclu-
+sions and future work are presented in Section 5.
+
+2. Computer codes
+
+2.1. Monte Carlo code RMC
+
+The Monte Carlo transport code, RMC, developed by the
+Department of Engineering Physics at Tsinghua University, is a
+continuous-energy Reactor Monte Carlo neutron and photon
+
+transport code (Wang et al., 2015). This new generation Monte
+Carlo code solves reactor analysis problems in complex geometries
+using continuous energy point-wise cross sections for various
+materials and temperatures. RMC can now do criticality calcula-
+tions and burnup calculations with parallel processing using on-
+the-ﬂy calculations of cross-sections as functions of temperatures
+with the source convergence acceleration for full-core hybrid cal-
+culations (Liu et al., 2017). RMC also has advanced methods to
+accelerate calculations (Liu et al., 2011; She et al., 2011, 2012).
+
+RMC is being used for full core analyses with accurate, efﬁcient
+results using advanced algorithms together with high performance
+computing techniques.
+
+2.2. Thermal-hydraulics code CTF
+
+CTF, a thermal–hydraulic simulation code designed for light
+water reactor (LWR) vessel analysis, is the shortened name given
+to the version of COBRA-TF (Coolant Boiling in Rod Arrays-Two
+Fluid) being developed by the Consortium for Advanced Simulation
+of Light Water Reactors (CASL) and the Reactor Dynamics and Fuel
+Management Group (RDFMG) at Pennsylvania State University
+(PSU) (CASL, 2015). CTF uses a two-ﬂuid, three-ﬁeld modeling
+approach and can solve detailed full-core models in parallel using
+the domain decomposition method (Salko et al., 2015). CTF has
+both sub-channel and 3D Cartesian forms of the 9 conservation
+equations for LWR modeling.
+
+CTF stems from the original COBRA code, which was developed
+by Paciﬁc Northwest Laboratory in 1980 and has been used and
+modiﬁed by several institutions, resulting in a series of COBRA
+codes, such as COBRA-EN and COBRA-IV. In the last decade, CTF
+has been improved and validated for both pressurized water reac-
+tor (PWR) and boiling water reactor (BWR) analyses. Improve-
+ments
+include additional models, enhanced computational
+efﬁciency, a PWR preprocessor to simplify the geometry input,
+and the ability to generate code documentation. CTF has been
+extensively used throughout the nuclear industry due to its power-
+ful functions and rapid development.
+
+3. Coupling scheme
+
+For the full core pin-by-pin sub-channel calculations coupled
+with Monte Carlo code, many important aspects and details in
+the coupling process should be considered. Firstly, the most impor-
+tant aspect is the coupling method, which deals with how the data
+were transferred in coupling process. The second part introduced
+how the coupling process takes the advantages of some advanced
+feathers of CTF, including the domain decomposition and PWR pre-
+processor. The third part is about the temperature dependence
+treatment of cross sections developed in RMC. Besides, the mesh
+mapping strategy and the convergence criteria will also be
+explained in this section.
+
+3.1. Hybrid coupling method
+
+Traditional neutronics and thermal-hydraulics coupling meth-
+ods include external or internal coupling. External coupling simply
+transforms the data in external ﬁles produced by the two coupled
+codes, while internal coupling transforms the data in memory
+between the two codes. External coupling is easily achieved but
+is not as versatile and slows the computations. Internal coupling
+is more versatile but is more complex and needs extensive code
+changes. Thus, a hybrid coupling method is used here.
+
+The hybrid coupling was introduced in this paper, which trans-
+forms the data in the external ﬁles of the thermal hydraulics code
+while managing all the useful data in memory by the neutronics
+
+J. Guo et al. / Annals of Nuclear Energy 109 (2017) 327–336
+
+329
+
+code (Guo et al., 2016), as shown in Fig. 1. The data of thermal
+hydraulics code are transferred through external input and output
+ﬁles, while the neutronics code RMC does not need to change and
+print its input and outputs ﬁles. Therefore, the hybrid coupling
+scheme is a kind of partial external coupling. Therefore, the hybrid
+coupling is the combination of the external and the internal cou-
+pling that has the advantages of good versatility and easy achieve-
+ment because there is less change work of the neutronics code and
+the input ﬁle. It is worth emphasizing that the CTF PWR preproces-
+sor greatly simpliﬁes the geometry information and power distri-
+bution for thermal-hydraulics user input and makes the hybrid
+coupling more achievable.
+
+In the hybrid coupling of this paper, the neutronics code RMC
+was used to control the coupling, transfer and store the data inter-
+nally. Two C++ source codes ‘‘read_TH.cpp” and ‘‘writepower.cpp”
+were added to RMC to transfer data.
+‘‘writepower.cpp” obtains
+the calculated power distributions from the RMC memory ﬁrstly,
+and then transforms and writes them into the CTF power input ﬁle
+‘‘power.inp”. In addition, ‘‘read_TH.cpp” reads thermal-hydraulics
+data from the CTF output ﬁles and assigns them to the RMC mem-
+ory after the CTF calculation.
+
+In RMC, the power distributions were tallied for all the possible
+ﬁssion reactions of all the nuclides which have ﬁssion cross sec-
+tions. Therefore, power tallies in some non-fuel positions such as
+control rods and burnable poison rods may probably not be zero.
+However, the CTF code only runs normally if the power source
+terms in non-fuel rod locations are all zero. Therefore, before trans-
+ferring the power data from RMC to CTF, the power source terms in
+non-fuel rod locations must be set to zero, which is also done by
+‘‘Writepower.cpp”. After processing the power data and generating
+the ‘‘power.inp”, CTF then runs in parallel. Once the CTF calculation
+is ﬁnished, ‘‘Read_TH.cpp” reads fuel pin temperatures and coolant
+temperatures and densities from CTF output ﬁles. These data is
+stored in RMC as three different three-dimensional matrixes,
+which will be used as the updated temperatures and densities
+for new RMC calculations.
+
+Therefore, these two scripts ‘‘Writepower.cpp” and ‘‘Read_TH.
+cpp” in RMC act as the data transmission interface in the coupling
+process. Different from the external coupling, the hybrid coupling
+uses the neutronics code RMC to transfer data and invoke the
+sub-channel code CTF.
+
+The algorithm ﬂow diagram is given in Fig. 2 to illustrate the
+
+coupling process between RMC and CTF.
+
+Fig. 1. Schematic diagram of the hybrid coupling.
+
+Fig. 2. RMC and CTF coupling algorithm ﬂow chart.
+
+As shown in Fig. 2, after initializing the RMC and CTF codes,
+RMC calculates the power distribution for the full-core BEAVRS
+benchmark. After completing the Monte Carlo calculation, RMC
+transfers the power distribution to CTF. In this process, the power
+distribution adopts the 1/8 symmetrical treatment, because the
+RMC statistical deviation can lead to considerable asymmetry after
+several iterations. CTF then solves the thermal-hydraulics equa-
+tions and transfers fuel pin temperatures, coolant temperatures
+and densities to RMC, in which temperatures and densities have
+no treatment because CTF calculation results have no statistical
+deviation. After that, RMC runs again. This cycle executes until
+the convergence criteria are satisﬁed. The convergence criteria will
+be described in Sections 3.4 and 4.4.
+
+3.2. Domain decomposition and PWR preprocessor
+
+For the full-core pin level sub-channel resolution problem, the
+thermal-hydraulics calculation will cost much time if
+the
+thermal-hydraulics code runs in serial mode. Moreover, the
+detailed modeling of geometry relationships and power distribu-
+tions for a full PWR core is very difﬁcult as the input information
+is too much. Thus, CTF has developed the domain decomposition
+parallel approach to promote the calculation speed and the PWR
+preprocessor to simplify the user input. The details of these two
+optimization techniques have been illustrated in Ref. Salko et al.,
+2015. The following part will illustrate how these techniques were
+used in the coupling process, taking the BEAVRS full core problem
+as example.
+
+The domain decomposition technique in CTF means dividing
+the single model into multiple domains. For the reactor full core
+problem, a feasible domain decomposition strategy is to divide
+the full reactor core into a collection of all single assemblies. For
+example, the BEAVRS full core has 193 assemblies with each
+assembly of 17  17 conﬁguration, thus it can be decomposed into
+193 domains that can run in parallel.
+
+330
+
+J. Guo et al. / Annals of Nuclear Energy 109 (2017) 327–336
+
+The PWR preprocessor plays an important role in the parallel
+domain decomposition technique of CTF. The PWR preprocessor
+of CTF is developed to simplify the user input of reactor geometry
+and power information. Take the BEAVRS full core problem in
+serial mode as example, users only need to write four 300-lines
+input ﬁles that consist of all the parameters needed in the
+thermal-hydraulics calculation, and the PWR preprocessor exe-
+cutes these four input ﬁles to generate the CTF input ﬁle that has
+more than 200,000 lines. On the other hand, in the parallel case,
+the preprocessor will generate 193 6000-lines domain input ﬁles
+and one 56,000-lines master input ﬁle of CTF. It is obvious that
+the preprocessor has great impact on the input simpliﬁcation.
+Compared to serial case, input ﬁles of preprocessor for parallel case
+remain unchanged except for one optional parallel ﬂag, which
+enable the preprocessor to generate the parallel input ﬁles of CTF.
+Above all, these two techniques play an important role in the
+coupling process. The parallel domain decomposition technique
+enables the code CTF to run in parallel using the number of proces-
+sors equal to the number of assemblies, which can highly improve
+the CTF operating efﬁciency. The PWR preprocessor is developed
+and optimized to simplify the user input as well as enable the par-
+allel domain decomposition technique. With these techniques
+developed in CTF, the hybrid coupling between RMC and CTF
+becomes more ﬂexible and efﬁcient.
+
+3.3. Temperature dependence
+
+Traditionally, the neutron transport for a speciﬁc steady state
+case is calculated using the Monte Carlo method with ﬁxed nuclide
+temperatures and coolant temperatures and densities. However,
+these values are distributed in a realistic reactor due to the heat
+transfer in the core. Generally, the cross sections (especially
+absorption) and thermal scattering cross sections depend on the
+fuel pin temperature and the coolant temperature and density. Par-
+ticularly, resonance absorption changes dramatically with temper-
+atures for the reaction of the target nuclide with the neutrons in
+speciﬁc energy regions. As the nuclide temperatures vary, the cross
+sections of the resonance absorption change, namely the Doppler-
+broadening effect, which has negative feedback on reactivity. Thus,
+the fuel pin temperature strongly inﬂuences the reactivity as well
+as the power distribution. Moreover, the fuel pin temperature also
+has obvious distribution in the radial direction, and the center tem-
+perature is signiﬁcantly different from the surface temperature. In
+this coupling, CTF calculates both fuel center and surface tempera-
+ture. To simplify the distribution situation and save memory, the
+temperature is considered linearly from the rod center to surface.
+Besides, the rod temperature is averaged before being transferred,
+and the treating process is shown as Fig. 3:
+
+As shown in Fig. 3, the radius of the fuel rod is denoted as R. The
+average fuel rod temperature is calculated by the equation below.
+
+¼ 1
+3
+
+Tcen þ 2
+3
+
+Tsur
+
+ð1Þ
+
+
+R R
+0 Tcen þ ðTsur TcenÞr
+
+R
+
+
+2prdr
+
+pR2
+
+Tfuel ¼
+
+Fig. 3. Fuel rod schematic diagram.
+
+where Tfuel represents the averaging fuel rod temperature, Tcen
+and Tsur
+the rod center and surface temperature,
+respectively. The temperature is averaged by the area of the
+rod cross section.
+
+represent
+
+The coolant temperature has two opposing inﬂuences on the
+reactivity. As the temperature increases, the coolant density and
+the boron solubility in the coolant decrease, which increases the
+reactivity due to less absorption. On the other hand, the reduced
+coolant density reduces the neutron moderation in the coolant
+and hardens the neutron energy spectrum, which can reduce the
+reactivity. The boron concentration is normally less
+than
+1400 ppm when the reactor is working normally. In this condition,
+the ﬁrst effect has less impact on the reactivity than the second
+effect. Thus, the coolant temperature has a negative feedback effect
+with
+coolant
+temperature.
+
+decreasing with
+
+increasing
+
+reactivity
+
+the
+
+Other parameters, such as the cladding temperature, have little
+impact on the neutron absorption; thus, only three parameters, the
+fuel temperature and the coolant temperature and density are
+taken into consideration in the neutronics and thermal-
+hydraulics feedback.
+
+Traditional methods create new cross sections ﬁles at various
+temperatures in two ways. One is to create cross sections ﬁles
+for every temperature needed in the simulation, while another is
+to create cross section ﬁles at temperature increments and then
+interpolate these cross sections to get the correct temperature
+dependence. Since the coupling may produce any temperature
+during the calculation, the ﬁrst method is not practical. The second
+method usually has cross section ﬁles for every 50 K or 100 K,
+which requires a large number of cross section ﬁles that consume
+much time and take up additional memory.
+
+In RMC, the on-the-ﬂy cross section temperature treatment was
+developed for both Doppler-broadening effect in resolver reso-
+nance region and thermal energy region. For the resolver reso-
+nance region, the target motion sampling (TMS) (Liu et al.,
+2016a) is applied to calculate cross sections for any temperature
+from 0 K continuous-energy cross sections by taking the thermal
+motion of the target nuclei into account. For thermal energy
+regions, the on-the-ﬂy interpolation was used for thermal scatter-
+ing cross sections (Liu et al., 2016b). Those two methods can accu-
+rately predict the absorption cross sections and the thermal
+scattering cross sections.
+
+3.4. Mesh mapping
+
+The coupling codes were used to model the full core of the
+BEAVRS benchmark. The BEAVRS benchmark is based on a 1960s
+PWR design. The benchmark is described in detail in Section 4.1.
+The RMC geometry differs from that of CTF, and Fig. 4 shows the
+relationship between fuel pins and ﬂow channels. RMC uses the
+rod-centered geometry while CTF uses the channel-centered
+geometry. In Fig. 4, the circles represent fuel pins while spaces
+between fuel pins are the coolant channels. RMC models the fuel
+pin in the interior square surrounding by channels A, B, C and D
+to predict the power produced in the fuel pin. The fuel pin temper-
+ature and the coolant temperature and density are then calculated
+in CTF using channels A, B, C, and D which adjoin surfaces 1, 2, 3,
+and 4 in RMC model. Thus, the data input to RMC is the averages
+of data from the CTF calculation. The data mapping averages the
+data from the four channels and surfaces as:
+
+Tw ¼ 1
+4
+Tf ¼ 1
+4
+
+ðTchaA þ TchaB þ TchaC þ TchaDÞw
+
+ðTsurf 1 þ Tsurf 2 þ Tsurf 3 þ Tsurf 4Þf
+
+ð2Þ
+
+ð3Þ
+
+J. Guo et al. / Annals of Nuclear Energy 109 (2017) 327–336
+
+331
+
+4. Results and analysis
+
+4.1. BEAVRS benchmark modeling
+
+BEAVRS is a new benchmark that was based on a 1960s com-
+mercial PWR reactor design in the United States with detailed core
+parameters and operating data developed for use as a reactor anal-
+ysis veriﬁcation tool, which was released by the Computational
+Reactor Physics Group of MIT (Horelik and Herman, 2012). This
+benchmark is based on a PWR with 193 fuel assemblies, with each
+assembly having a 17  17 conﬁguration including 264 fuel rods
+with three different 235U enrichments of 3.1%, 2.4% and 1.6%. As
+shown in Fig. 5, the 3.1% enriched fuel rods are along the edges
+of the core with the 2.4% and 1.6% enriched rods conﬁgured in a
+checkerboard pattern in the middle of the reactor core. The cou-
+pled simulations also included the eight spacer grids seen in
+Fig. 6 in the BEAVRS core to include the impact of the additional
+mixing on the coolant ﬂow which inﬂuences the heat transfer
+between the coolant and cladding and, hence, the power distribu-
+tion predicted by the RMC calculation.
+
+The full BEAVRS core was modeled in RMC and CTF with the
+active core divided into 10 axial segments and 255  255 radial
+meshes. The meshes in the radial direction in the CTF thermal-
+hydraulics model resolved the geometry to the pin level with each
+polygon between four rods as a channel. The BEAVRS benchmark
+geometry then had a total of 56,288 channels over the full core.
+The data used in the coupled calculations is listed in Tables 1–3.
+
+4.2. Coupled results
+
+4.2.1. Coupled convergence results
+
+The full core CTF model included eight spacer grids and two
+nozzles in the BEAVRS benchmark. Each RMC transport calculation
+used 200 inactive cycles and 200 active cycles in the ﬁrst iteration
+and 500 active cycles in the following iterations. Each cycle
+included one million neutrons and a boron concentration of
+599 ppm. Since dn
+ave deﬁned
+in Eq. (7) was used as the convergence criterion. The average rela-
+tive statistical error in the power in each fuel pin in RMC for all the
+meshes was 0.0415, so the convergence criterion was set at 0.0412.
+The coupled simulation used 720 parallel cores in the Tianhe-2
+super computer for the RMC calculation and 193 cores for the CTF
+calculation. The variation of the convergence criterion was shown
+in Fig. 7.
+
+max given in Eq. (6) was not stable, dn
+
+Fig. 4. Mesh mapping of RMC and CTF.
+
+w ¼ 1
+q
+4
+
+ðq
+
+chaA þ q
+
+chaB þ q
+
+chaC þ q
+
+chaDÞw
+
+ð4Þ
+
+where 1, 2, 3, and 4 represent fuel pin surfaces, A, B, C, and D rep-
+resent ﬂow channels between fuel pins, Tw represents the average
+coolant water temperature in four channels that were modeled in
+CTF, ðTchaÞw is the water temperature in each of the channels, Tf is
+the average fuel pin surface temperature in the region indicated
+by the subscript, q
+cha is the average water density in the channels,
+subscript f indicates the fuel pin, and w indicates the water.
+
+Thus, all of the conditions used in RMC are the average values
+
+calculated from the CTF results.
+
+3.5. Convergence criteria
+
+The Monte Carlo calculations have random variations in the cal-
+culations, so the powers calculated by RMC have statistical errors
+which can be reduced by increasing the number of neutrons and
+the number of active cycles. In the initial stage of the coupled cal-
+culation, the statistical errors in the fuel pin scale at the reactor
+periphery are larger. The convergence was evaluated based on
+the relative change in the power levels in each mesh at each iter-
+ation given by:
+
+
+
+dn
+
+m ¼ Pn
+Pn 1
+
+m
+
+m
+
+
+
+  1
+
+where Pn
+
+m is the power in the mth mesh in the nth iteration.
+
+The maximum change was then found as:
+
+1
+
+; dn
+2
+
+Ng
+; . . . ; dn
+
+ð6Þ
+max ¼ maxfdn
+dn
+This maximum changed signiﬁcantly each time and did not
+tend to converge even though the power distribution in the whole
+reactor changed very little. Thus, the convergence was based on the
+average change in the power given by:
+
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+s
+2Þ2 þ . . . þ ðdn
+ðdn
+1Þ2 þ ðdn
+NÞ2
+
+N
+
+ave ¼
+dn
+
+ð5Þ
+
+ð7Þ
+
+This criterion was more reasonable and useful. The threshold of
+criterion can be depended on the statistical errors in the power tal-
+lies of Monte Carlo codes.
+
+Fig. 5. Radial cross section of the BEAVRS core. The 3.1% enriched assemblies are
+around the edge with the 2.4% and 1.6% enriched assemblies in the middle.
+
+332
+
+J. Guo et al. / Annals of Nuclear Energy 109 (2017) 327–336
+
+Fig. 6. Axial cross section of the BEAVRS core.
+
+Table 1
+Nominal values of the thermal hydraulics conditions.
+
+Item
+
+Total power
+Initial mass ﬂow rate
+Reference pressure
+Inlet water temperature
+Outlet water temperature
+
+Value
+
+3411
+17083
+15.517
+292.78
+310
+
+Units
+
+MW
+kg/s
+MPa
+°C
+°C
+
+Table 2
+Assembly geometry.
+
+Item
+
+Number of fuel rods
+Number of guide tube rods
+Active length (mm)
+Bundle pitch (mm)
+Fuel rod diameter (mm)
+Cladding inner diameter (mm)
+Cladding outer diameter (mm)
+Pin pitch (mm)
+Guide tube inner diameter (mm)
+Guide tube outer diameter (mm)
+
+Size
+
+264
+25
+3657.6
+215.04
+7.84
+8.00
+9.14
+12.60
+11.22
+12.04
+
+Table 3
+CTF convergence criteria.
+
+Item
+
+Outer Iteration Convergence Criterion
+Maximum Number of Outer Iterations
+Maximum Number of Inner Iterations
+Global Energy Balance
+Global Mass Balance
+Fluid Energy Storage
+Solid Energy Storage
+Mass Storage
+
+Value
+
+0.001
+5
+40
+0.01%
+0.01%
+0.01%
+0.01%
+0.01%
+
+Fig. 7 shows the change in dn
+
+ave as the calculation proceeded
+
+with dn
+
+ave smaller than 0.0412 after 8 iterations for 4 hours.
+
+Keff in the coupling process is almost constant after one iteration
+(Fig. 8). Compared with Keff of the ﬁrst iteration, the Keff of the
+other iterations is smaller because of the negative reactivity feed-
+back effect.
+
+Fig. 9 shows the axial power distribution in the vertical direc-
+tion along the active length during the iterations. After the ﬁrst
+three iterations, the power proﬁles almost overlap, especially after
+six iterations, which means that the axial power distribution is
+approaching the convergence criterion.
+
+In this coupling, the calculation time of every part in one itera-
+
+tion is counted accurately, and it is presented in Table 4.
+
+Fig. 7. Convergence of dn
+
+ave.
+
+J. Guo et al. / Annals of Nuclear Energy 109 (2017) 327–336
+
+333
+
+Table 4
+BEAVRS benchmark calculation time of the ﬁrst iteration.
+
+Neutronics
+calculation
+
+14.20
+
+Write
+power
+
+1.28
+
+Read
+TH
+
+0.42
+
+CTF
+runtime
+
+One
+iteration
+
+11.90
+
+27.80
+
+Calculation
+
+time (min)
+
+process write power data to ‘‘power.inp” and read thermal data
+from CTF output ﬁles, respectively. Moreover, ‘‘CTF runtime” is just
+the CTF calculation time, and ‘‘one iteration” is the total calculation
+time of the ﬁrst iteration. ‘‘Neutronics calculation” and ‘‘CTF run-
+time” account for 94% of the total one iteration time. In contrast,
+the data transfer processes ‘‘Write power” and ‘‘Read TH” are only
+4% of one iteration time. Therefore, it is the RMC and CTF calcula-
+tions mainly inﬂuence the total runtime.
+
+For the complex BEAVRS full core pin level problem, RMC runs
+fast with the support of high speed supercomputer Tianhe 2. In
+addition, CTF is also high-efﬁcient due to the advanced PWR pre-
+processor and domain decomposition parallel strategy. This cou-
+pling code system is efﬁcient consequently.
+
+4.2.2. Coupled effects on the power distribution
+
+The radial power distributions with and without coupling are
+shown in Fig. 10 with the corresponding radial power peak factors
+with and without coupling listed in Table 5. The values in Fig. 10
+are the sums of all the power generation rates in the vertical loca-
+tion at each radial location.
+
+From the Table 5 and Fig. 10, the neutronics and thermal-
+hydraulics coupling inﬂuences the power distribution and the
+power peak factor in the radial direction. The temperature feed-
+back given by the coupling makes the axially added radial power
+distribution more uniform and reduces the radial power peak
+factor.
+
+The axial power distributions with and without coupling are
+shown in Fig. 11, where the power at each height is sum of all
+the power generation rates in the radial direction over the full core.
+The coupling increases the power at the bottom of the core and
+reduces the peak power level (Fig. 11). In the coupled case, the
+water density decreases with height as the higher water density
+near the bottom provides better moderation which increases the
+power in the lower part of the core.
+
+Some of the fuel assemblies in the core had a different tendency,
+
+such as for the central assembly as shown in Fig. 12.
+
+Fig. 8. Variation of Keff during the iterations.
+
+Fig. 9. Full core axial power distribution during the iterations.
+
+The calculation time above belongs to the ﬁrst iteration, but
+that of different iterations is almost the same. Therefore, the data
+in Table 4 can represent the calculation situation for all iterations.
+‘‘Neutronics calculation” is the neutron transport process by RMC.
+Besides, ‘‘Write power” and ‘‘Read TH” represent the data transfer
+
+Fig. 10. Radial power distribution in the core.
+
+334
+
+J. Guo et al. / Annals of Nuclear Energy 109 (2017) 327–336
+
+Table 5
+Power peak factors with and without coupling.
+
+Power peak factor
+
+1.49099
+
+1.39556
+
+Without coupling
+
+With coupling
+
+Fig. 13. Convergence with different numbers of neutrons.
+
+Fig. 11. Axial power distribution.
+
+Fig. 12. Axial power distribution in the central fuel assembly.
+
+Unlike the average for the entire core, the power in the central
+assembly with coupling is always higher than that without cou-
+pling (Fig. 12). This is because the power in the central fuel assem-
+bly is relatively small, the negative temperature feedback will
+increase the total power of this assembly to make power distribu-
+tion more uniform, keeping the total reactor power constant.
+
+Therefore, the coupling has different inﬂuence on the radial and
+axial power distribution as well as the temperature and density
+distribution. This proves the effectiveness of the neutronics and
+thermal-hydraulics coupling between RMC and CTF.
+
+4.3. Parameters which inﬂuence the coupling effects
+
+4.3.1. Number of neutrons
+
+The inﬂuence of the number of neutrons used per cycle on the
+coupled results was analyzed by running cases with 5x105 and
+2x105 neutrons while keeping the other conditions the same. The
+convergence of dn
+ave for the different numbers of neutrons is shown
+in Fig. 13.
+
+Fig. 14. Convergence with different boron concentrations.
+
+Fig. 13 show that as the number of neutrons decreases, the rel-
+ative change in the power predicted by the Monte Carlo calcula-
+tion, dn
+ave, increases. Thus, the convergence is better with a larger
+number of neutrons by increasing a few from 5  105 to 1  106
+neutrons.
+
+4.3.2. Boron concentration
+
+The inﬂuence of the boron concentration on the coupled results
+was investigated for a boron concentration of 975 ppm with the
+other conditions the same. The convergence of dn
+ave for the two
+cases with different boron concentrations is shown in Fig. 14.
+The power peak factors and the Keff for the two boron concentra-
+tions with and without coupling are listed in Table 6.
+
+Fig. 14 shows that the 975 ppm curve converges faster than the
+599 ppm curve because the boron number density in the water
+decreases as the water temperature increases, so there is less neu-
+tron absorption which gives a positive feedback. Therefore, the
+increased boron concentration somewhat compensates for the
+negative temperature reactivity feedback, so the power peak factor
+is larger than with the lower boron concentration and converges
+faster.
+
+Moreover, the data in Table 6 says that the increased boron con-
+centration reduces Keff, and the reductions of Keff from without
+coupling to with coupling is also smaller for 975 ppm than
+599 ppm.
+
+J. Guo et al. / Annals of Nuclear Energy 109 (2017) 327–336
+
+335
+
+Table 6
+Power peak factor and Keff with different boron concentrations.
+
+Boron concentration (ppm)
+
+599
+975
+
+Power peak factor
+
+Without coupling
+
+1.49099
+1.59336
+
+Keff
+
+With coupling
+
+Without coupling
+
+With coupling
+
+1.39556
+1.44235
+
+1.047987
+0.998544
+
+1.023839
+0.977435
+
+Fig. 15. Convergence of the original criteria (dn
+
+max and dn
+
+ave) for the full reactor core.
+
+4.4. Different convergence criteria
+
+Fig. 16. Convergence of AO for the full reactor core.
+
+The effect of the convergence criterion on the result was inves-
+tigated by deﬁning different convergence criteria. The previous
+results showed that the coupling changes the power distributions
+in the radial and axial directions in the core, so the effect of the
+power partitioning between the upper and lower parts of the core
+was monitored by deﬁning:
+
+AO ¼ Pupper þ Pbottom
+Pupper   Pbottom
+
+All the convergence criteria except for dn
+
+max became almost
+stable after the eighth iteration with the curves of dn
+r;ave
+agreeing well with each other. AO had small, stable oscillations
+after the eighth iteration that also indicate convergence; thus,
+the coupled calculations were converged after eight iterations.
+
+ave and dn
+
+ð8Þ
+
+Thus, AO and dn
+
+r;ave can also be used as convergence criteria
+
+together with dn
+
+ave for these coupled calculations.
+
+where Pupper and Pbottom represent the total power produced in the
+upper and lower halves of the core. The average relative changes
+in the power produced by deﬁning dn
+r;ave to represent
+the maximum and average changes in the power produced in each
+meshes relative to the average relative power variation in the
+meshes:
+
+r;max and dn
+
+
+
+
+
+r ¼
+dm;n
+
+  1
+Pn
+m
+Pn 1
+m
+rn
+m
+
+r;max ¼ maxfd1;n
+dn
+
+r ; d2;n
+
+r g
+r ; . . . ; dm;n
+
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+s
+rNÞ2
+r2Þ2 þ  þ ðdn
+ðdn
+r1Þ2 þ ðdn
+
+r;ave ¼
+dn
+
+N
+
+ð9Þ
+
+ð10Þ
+
+ð11Þ
+
+5. Conclusions and future work
+
+This paper presents a coupled RMC/CTF code that uses a hybrid
+coupling technique which combines the advantages of external
+and internal couplings. The hybrid coupling method both simpli-
+ﬁes the modeling and enhances the versatility of the code system
+through using the neutronics code memory. The TMS cross sections
+method developed by RMC, which uses temperature dependent
+cross sections that are calculated on-the-ﬂy, is used to simplify
+the cross section calculations as well as to reduce the memory
+requirement.
+
+This coupled code system is then used for steady-state, full core
+simulations of the BEAVRS benchmark in the hot full power condi-
+tion. The results show the effects of the coupling on the full-core
+power distribution in both the radial and axial directions. The cou-
+pling caused Doppler-broadening effect of the target nucleus cross
+sections reduces the power peak factor in the radial direction, so
+the coupling homogenizes the radial power distribution. In the
+axial direction, the power peak is reduced by the negative reactiv-
+ity feedback with the power in the lower part increasing as the
+coolant density increases in the lower part of the reactor core.
+The coupled software package was also used to study the effects
+of key parameters on the convergence including the neutron
+population and the boron concentration. The results show that lar-
+ger numbers of neutrons and higher boron concentrations improve
+the convergence because the higher boron concentration compen-
+
+m is the power in the mth mesh in the nth iteration and rn
+
+where Pn
+m is
+the statistic relative power variation in the mth mesh in the nth iter-
+ation which was obtained directly from the tally ﬁle produced by
+RMC.
+
+AO, dn
+
+r;max and dn
+
+r;ave were then used in new calculations with
+1.5  106 neutrons, a total of 700 cycles with 200 inactive cycles
+and a boron concentration of 599 ppm. These coupled simulations
+used 480 parallel cores in the Tianhe-2 super computer for the
+RMC calculation and 193 cores for the CTF calculation. Conver-
+gence data for 15 iterations which took about 15 h with the con-
+vergence data presented in Figs. 15–17.
+
+336
+
+J. Guo et al. / Annals of Nuclear Energy 109 (2017) 327–336
+
+Fig. 17. Convergence of dn
+
+r;max and dn
+
+r;ave for the full reactor core.
+
+sates for the negative temperature reactivity coefﬁcient. Various
+convergence criteria were also evaluated with AO deﬁned by Eq.
+(8), which reﬂects the vertical power difference in the core, and
+dn
+r;ave deﬁned by Eq. (11), which reﬂects the statistical variations
+in the power produced in each mesh, vary in the same trend as
+the power variations described by dn
+ave, so these two criteria can
+be also used as convergence criteria.
+
+The coupled neutronics/thermal-hydraulics code is effective
+and high-ﬁdelity, which veriﬁes the feasibility and capability of
+this hybrid coupled codes system. This codes system provides ver-
+satile and ﬂexible coupling of the RMC and CTF codes.
+
+There are many possible extensions of the coupled RMC and CTF
+code for future studies. One possible extension is to develop a more
+versatile coupled system through the HDF5 ﬁle. HDF5 uses a hier-
+archical data storage structure in which the data can be obtained
+from the HDF5 ﬁle straight-forwardly by a C++ script. Compared
+with the traditional text ﬁle, HDF5 ﬁle provides easier way to han-
+dle the data when coupling, which can reduce the limitations and
+complexity of the multi-physics coupling.
+
+Acknowledgments
+
+The work in this paper is partially supported by Science and
+Technology on Reactor System Design Technology Laboratory in
+China, Tianhe-2 (Milkyway-2) high performance computer plat-
+form and ‘‘Explorer 100” cluster system of Tsinghua National Lab-
+oratory for Information Science and Technology. The authors also
+thank Professor Kostadin N. Ivanov of North Carolina State Univer-
+sity in the United States for supplying the CTF source codes and
+giving much necessary helps.
+
+References
+
+Aniel, S., Bergeron, A., Fillion, P., Gallo, D., Gaudier, F., Grégoire, O., et al. 2005.
+FLICA4: status of numerical and physical models and overview of applications.
+NURETH.
+
+Basile, D. et al., 1999. COBRA-EN: An Upgraded Version of the COBRA-3C/MIT Code
+for Thermal-Hydraulic Transient Analysis of Light Water Reactor Fuel
+Assemblies and Cores. Report 1010/1, ENELCRTN, Milano.
+
+Briesmeister, J.F., 2000. MCNP – A General Monte Carlo N-Particle Transport Code,
+
+Version 4C, LA-13709-M. Los Alamos National Laboratory, USA.
+
+Brun, E., Dumonteil, E., Hugot, F.X., Huot, N., Jouanne, C., Lee, Y.K., et al., 2011.
+Overview of TRIPOLI-4 version 7, continuous-energy Monte Carlo Transport
+Code. Icapp.
+
+CASL, 2015. COBRA-TF Subchannel Thermal-Hydraulics Code (CTF) Theory Manual
+
+[R]. USA: Pennsylvania State University. [2015-3-10]. http://www.casl.gov/.
+
+Clarno, K.T., Palmtag, S., Davidson, G.G., Salko, R.K., Evans, T.M., Turner, J.A., et al.,
+2014. Coupled Neutronics Thermal-Hydraulic Solution of a Full-Core PWR Using
+VERA-CS. PHYSOR 2014, Kyoto, Japan, 2014.
+
+Guo,
+
+J.J., Liu, S.C., Shang X.T., Wang, K., 2016. Neutronics/Thermal-hydraulics
+coupling with RMC and CTF for BEAVRS benchmark calculation. American
+Nuclear Society, Vol. 115, Las Vegas, NV, November 6–10, 2016.
+
+Hoogenboom, J.E., Ivanov, A., Sanchez, V., Diop, C., 2011. A ﬂexible coupling scheme
+for Monte Carlo and thermal-hydraulics codes. International Conference on
+Mathematics and Computational Methods Applied to Nuclear Science and
+Engineering, Rio de Janeiro, RJ, Brazil, May 8–12.
+
+Horelik, N., Herman, B., 2012. Benchmark for Evaluation and Validation of Reactor
+Simulations. MIT Computational Reactor Physics Group. URL http://crpg.mit.
+edu/pub/beavrs.
+
+Kochunas, B., Collins, B., Jabaay, D., Downar, T.J., Martin, W.R., 2013. Overview of
+development and design of mpact: michigan parallel characteristics transport
+code. 2013 International Conference on Mathematics and Computational
+Methods Applied to Nuclear Science and Engineering, Sun Valley, ID (United
+States), 5–9 May 2013 (M&C 2013).
+
+Kochunas, B., Jabaay, D., Collins, B., Downar, T.J., 2014. Coupled thermal-hydraulics
+and neutronics calculations with COBRA-TF and MPACT. American Nuclear
+Society 2014 Annual Meeting, Reno, Nevada, USA, 15–19 June, 2014.
+
+Li, L.S., Yuan, H.M., Wang, K., 2012. Coupling of RMC and CFX for analysis of pebble
+
+bed-advanced high temperature reactor core. Nucl. Eng. Des. 250, 385–391.
+
+Liu, S.C., Yu, J.K. Liang, J.G., Wang, K., 2015. Study of Neutronics and Thermal-
+hydraulics Coupling with RMC COBRA-EN System. 7th International Conference
+on Modelling and Simulation in Nuclear Science and Engineering (7ICMSNSE),
+Ottawa, Ontario, Canada, October 18–21, 2015.
+
+Liu, S.C., Yuan, Y., Yu, J.K., Wang, K., 2016a. Development of on-the-ﬂy temperature-
+dependent cross-sections treatment in RMC code. Ann. Nucl. Energy 94, 144–
+149.
+
+Liu, S.C., Yuan, Y., Yu, J.K., Wang, K., 2016b. Reaction rate tally and depletion
+calculation with on-the-ﬂy temperature treatment. Ann. Nucl. Energy 92, 277–
+283.
+
+Liu, S.C., Liang, J.G., Wu, Q., Guo, J.J., Huang, S.F., Tang, X., et al., 2017. BEAVRS full
+core burnup calculation in hot full power condition by RMC code. Ann. Nucl.
+Energy 101, 434–446.
+
+Liu, Y., She, D., Wang, K., Yu, G., 2011. Optimization treatment of point-wise nuclear
+data in Monte Carlo criticality and burnup calculations. Ann. Nucl. Energy 38
+(7), 1489–1495.
+
+Marchisio, D.L., Vigil, R.D., Fox, R.O., 2003. Implementation of the quadrature
+method of moments in cfd codes for aggregation–breakage problems. Chem.
+Eng. Sci. 58 (15), 3337–3351.
+
+Salko, R., Schmidt, R., Avramova, M., 2015. Optimization and parallelization of the
+thermal–hydraulic subchannel code CTF for high-ﬁdelity multi-physics
+applications. Ann. Nucl. Energy 84, 122–130.
+
+Sanchez, V., Imke, U., Ivanov, A., Gomez, R., 2010. SUBCHANFLOW: A Thermal-
+Hydraulic Sub-Channel Program to Analyse Fuel Rod Bundles and Reactor Cores,
+Proceedings of the 17th Paciﬁc Basin Nuclear Conference, Cancún, Q.R., México,
+October 24–30, 2010.
+
+SCIENTECH Inc., 1998. RELAP5/Mod3 Code Manual, Volume IV: Models and
+
+Correlations, Idaho, March, NUREG/CR-5535.
+
+She, D., Li, Z., Xu, Q., Wang, K., Yu, G., 2011. Probability-neighbor method of
+accelerating geometry treatment
+in reactor Monte Carlo code RMC.
+International Conference on Mathematics and Computational Methods
+Applied to Nuclear Science and Engineering (M&C 2011), Rio de Janeiro, RJ,
+Brazil, May 8–12, 2011.
+
+She, D., Wang, K., Yu, G., 2012. Asymptotic Wielandt method and superhistory
+method for source convergence in Monte Carlo criticality calculation. Nucl. Sci.
+Eng. 172 (2), 127–137.
+
+Wang, K., Li, Z., She, D., Liang, J., Xu, Q., 2015. RMC – A Monte Carlo code for reactor
+
+core analysis. Ann. Nucl. Energy 82, 121–129.
+
+

@@ -1,0 +1,2114 @@
+LETTER
+PRC2 loss amplifies Ras-driven transcription and
+confers sensitivity to BRD4-based therapies
+
+doi:10.1038/nature13561
+
+Thomas De Raedt1,2,3, Eline Beert4*{, Eric Pasmant5,6*, Armelle Luscan5,6, Hilde Brems4, Nicolas Ortonne5,6, Kristian Helin7,8,9,
+Jason L. Hornick10, Victor Mautner11, Hildegard Kehrer-Sawatzki12, Wade Clapp13, James Bradner2,14, Michel Vidaud5,6,
+Meena Upadhyaya15, Eric Legius4,16 & Karen Cichowski1,2,3
+
+The polycomb repressive complex 2 (PRC2) exerts oncogenic effects in
+many tumour types1. However, loss-of-function mutations in PRC2
+components occur in a subset of haematopoietic malignancies, sug-
+gesting that this complex plays a dichotomous and poorly understood
+role in cancer2,3. Here we provide genomic, cellular, and mouse mod-
+elling data demonstrating that the polycomb group gene SUZ12func-
+tions as tumour suppressor in PNS tumours, high-grade gliomas and
+melanomas by cooperating with mutations in NF1. NF1 encodes a
+Ras GTPase-activating protein (RasGAP) and its loss drives cancer by
+activating Ras4. We show thatSUZ12loss potentiates the effects ofNF1
+mutations by amplifying Ras-driven transcription through effects on
+chromatin. Importantly, however,SUZ12inactivation also triggers an
+epigenetic switch that sensitizes these cancers to bromodomain inhib-
+itors. Collectively, these studies not only reveal an unexpected con-
+nection between the PRC2 complex,NF1and Ras, but also identify a
+promising epigenetic-based therapeutic strategy that may be exploited
+for a variety of cancers.
+
+The Ras pathway is commonly deregulated in cancer5. Oncogenic RAS
+mutations occur in approximately 30% of tumours; however, mutations
+in upstream regulators and downstream effectors are also prevalent5.
+Irrespective of aetiology, the oncogenic Ras signal is frequently poten-
+tiated as cancers progress, in some instances through amplification of
+mutant RAS genes or suppression of negative feedback pathways6–9. It
+is likely that many unknown mechanisms contribute to this emerging
+aspect of tumour evolution.
+
+Mutations in RasGAP genes promote Ras activation in many cancers4,10,11.
+Defects in the NF1 RasGAP underlie a familial cancer syndrome (NF1),
+sporadic glioblastomas (GBMs), neuroblastomas and lung cancer4. In-
+terestingly, some severely affected patients with NF1 (NF1 microdele-
+tion patients) carrygermlinedeletionsof NF1and13surrounding genes12,13.
+These individuals develop thousands of benign tumours and can exhibit
+a fourfold increased risk of malignancies14,15, suggesting that a cooperat-
+ing tumour suppressor lies within this region. If true, this gene might
+affect the development of tumours in patients with NF1 and in sporadic
+cancers, which frequently possess large 17q deletions16. Therefore, we
+analysed 51 malignant peripheral nerve sheath tumours (MPNSTs), the
+most common NF1-associated malignancy, from patients with and with-
+out an NF1 microdeletion. Array comparative genomic hybridization
+revealed heterozygous and homozygous deletions of SUZ12, a gene with-
+in the microdeletion, which encodes a component of the PRC2 (Fig. 1a,
+Extended Data Fig. 1a and Extended Data Table 1). Deletions in EED,
+another PRC2 component, were also prevalent in both populations.
+
+Moreover, inactivating mutations in SUZ12 and EED were frequently
+present (Fig. 1a, Extended Data Fig. 1b, c and Supplementary Informa-
+tion). Together, 79% of microdeletion and 34% of non-microdeletion
+tumours exhibited homozygous loss of SUZ12 or EED; however, 53%
+of non-microdeletion MPNSTs harboured one or more PRC2 muta-
+tions/deletions (Fig. 1b). These observations suggest that PRC2 inac-
+tivation may play a critical role in MPNST development.
+
+SUZ12 and H3K27me3 were undetectable in primary MPNSTs har-
+bouring SUZ12 mutations and in four NF1-deficient human MPNST
+cell lines (Extended Data Fig. 1d, e and Fig. 1c). SUZ12 reconstitution
+restored H3K27me3, reduced proliferation and triggered cell death in
+low serum (Fig. 1c, d and Extended Data 1f). The SUZ12 lentivirus did
+not affect SUZ12 wild-type cells (Extended Data Fig. 1g). Conversely,
+SUZ12 ablation enhanced colony growth of NF1-deficient (U251 (ref. 17))
+but not NF1 wild-type GBM cells (Fig. 1e and Extended Data Fig. 1h).
+Partly effective short hairpin RNAs (shRNAs) exerted a disproportion-
+ate suppressive effect on H3K27Me3 and promoted colony growth of
+U251 cells, albeit less efficiently (Fig. 1e). These results suggest that re-
+duced PRC2 dosage might also contribute to tumour development,
+which could be relevant in the setting of heterozygous SUZ12/EED
+mutations (Fig. 1b). Finally, SUZ12 ablation enhanced colony growth
+of NF1-deficient but not NF1 wild-type melanoma cells (Fig. 1f and
+Extended Data Fig. 1i).
+
+To assess the cooperativity of these genes further, Nf11/2; Suz121/2
+‘cis’ mice, carrying mutations on the same chromosome, were generated
+to recapitulate the genetics of microdeletion patients and spontaneous
+tumours. Tumours in Nf1 mouse models are driven by spontaneous loss
+of wild-type chromosome 11 (ref. 18), resulting in Nf1 and Suz12 loss
+(Extended Data Fig. 2a). Nf11/2; Suz121/2 mice were highly tumour
+prone and exhibited decreased survival (Fig. 2a). Notably, mice developed
+lesions associated with both germline and spontaneous NF1 mutations in
+humans, including neurofibromas, MPNSTs, schwannomas, melanocy-
+tic nevi and intestinal adenomas (Fig. 2b and Extended Data Fig. 2b)4.
+Genomic human tumour data demonstrate that at least one allele of NF1
+and SUZ12 are co-deleted/mutated in 24% of melanomas (Fig. 2c).
+Moreover, EED deletions/mutations are present in 44% of NF1-mutant
+tumours, most of which also lack one SUZ12 allele.
+
+To investigate SUZ12 in MPNST development further, mice harbour-
+ing cis mutations in Nf1, p53 and Suz12 were also generated, as combined
+NF1/p53 mutations drive MPNST formation18–20 (Supplementary Infor-
+mation). These Nf1/p53/Suz12 mice exhibited decreased survival and
+developed MPNSTs on average 2.3 months earlier than Nf1/p53 mutant
+
+1Genetics Division, Department of Medicine, Brigham and Women’s Hospital, Boston, Massachusetts 02115, USA. 2Harvard Medical School, Boston, Massachusetts 02115, USA. 3Ludwig Center at Dana-
+Farber/Harvard Cancer Center, Boston, Massachusetts 02115, USA. 4Department of Human Genetics, Catholic University Leuven, 3000 Leuven, Belgium. 5INSERM UMR_S745 et EA7331, Universite´ Paris
+Descartes, Sorbonne Paris Cite´, Faculte´ des Sciences Pharmaceutiques et Biologiques, 75006 Paris, France. 6Service de Biochimie et Ge´ne´tique Mole´culaire, Hoˆpital Cochin, Assistance Publique-Hoˆpitaux
+de Paris, 75014 Paris, France. 7Biotech Research and Innovation Centre (BRIC), University of Copenhagen, 2200 Copenhagen, Denmark. 8Center for Epigenetics, University of Copenhagen, 2200
+Copenhagen, Denmark. 9The Danish Stem Cell Center (Danstem), University of Copenhagen, 2200 Copenhagen, Denmark. 10Department of Pathology, Brigham and Women’s Hospital, Boston,
+Massachusetts 02115, USA. 11Department of Maxillofacial Surgery, University Medical Centre, Hamburg-Eppendorf, 20246 Hamburg, Germany. 12Institute of Human Genetics, University of Ulm, 89081
+Ulm, Germany. 13Herman Wells Center for Pediatric Research, Department of Pediatrics, Indiana University School of Medicine, 46202 Indianapolis, Indiana, USA. 14Department of Medical Oncology, Dana-
+Farber Cancer Institute, Massachusetts 02115, USA. 15Institute of Medical Genetics, Cardiff University, Heath Park, Cardiff CF14 4XN, UK. 16Center for Human Genetics, University Hospital Leuven, 3000
+Leuven Belgium. {Present address: Laboratory of Aquatic Biology, Interdisciplinary Research Facility Life Sciences, Katholieke Universiteit, Leuven Afdeling Kortrijk, 8500 Kortrijk, Belgium.
+*These authors contributed equally to this work.
+
+©2014
+
+Macmillan Publishers Limited. All rights reserved
+
+9 O C T O B E R 2 0 1 4 | V O L 5 1 4 | N A T U R E | 2 4 7
+
+RESEARCH LETTER
+
+a 
+
+NF1
+
+microdeletions 
+
+Non-
+
+microdeletions 
+
+SUZ12 
+EED 
+
+SUZ12 
+EED 
+
+c 
+
+90-8TL 
+C 
+S 
+
+SUZ12 
+H3K27Me3 
+Actin 
+
+SUZ12 
+H3K27Me3 
+Actin 
+
+88-14
+C 
+
+S 
+
+NF1
+
+microdeletions 
+
+Non-
+
+microdeletions 
+
+Gene 
+SUZ12 
+EED 
+
+SUZ12 
+EED 
+
+Homozygous Heterozygous  PRC2 null 
+
+26% 
+21% 
+
+22% 
+16% 
+
+74% 
+11% 
+
+19% 
+16% 
+
+e 
+
+79% 
+
+34% 
+
+f 
+
+Normal growth conditions 
+
+120 
+
+88-14 
+
+120 
+
+90-8TL 
+
+U251 
+
+MeWo
+
+b 
+
+d 
+
+ 
+)
+
+%
+
+(
+ 
+r
+e
+b
+m
+u
+n
+
+ 
+e
+v
+i
+t
+a
+e
+R
+
+l
+
+ 
+)
+r
+e
+b
+m
+u
+n
+
+ 
+l
+l
+
+e
+c
+ 
+d
+o
+f
+(
+
+l
+
+2
+g
+o
+L
+
+80 
+
+40 
+
+0 
+
+2 
+
+1 
+
+0 
+
+–1 
+
+–2 
+
+80 
+
+40 
+
+0 
+
+C  S 
+
+C  S 
+
+Limiting growth factors  
+
+i
+
+l
+
+ 
+s
+e
+n
+o
+o
+c
+ 
+f
+o
+ 
+r
+e
+b
+m
+u
+N
+
+100 
+
+50 
+
+10 
+
+5 
+
+1 
+
+88-14 
+
+90-8TL  shRNA:  S1 
+
+S2  S3  C 
+
+200 
+
+150 
+
+100 
+
+50 
+
+i
+
+l
+
+ 
+s
+e
+n
+o
+o
+c
+ 
+f
+o
+ 
+r
+e
+b
+m
+u
+N
+
+0 
+shRNA:
+
+C 
+
+S1 
+
+SUZ12 
+
+SUZ12 
+
+0 31 63 100 %
+
+H3K27Me3 
+
+H3K27Me3 
+
+Actin 
+
+Actin 
+
+0.80 
+
+0 
+
+–0.80 
+
+C 
+
+S 
+
+C 
+
+S 
+
+mice (Fig. 2d, e). All MPNSTs arose in less than 3.5 months, whereas
+MPNSTs in Nf1/p53 mice required up to 9 months. Nevertheless, fewer
+Nf1/p53/Suz12 animals developed MPNSTs, most probably because of the
+increase in other tumour types (Fig. 2f). Strikingly, 54% of Nf1/p53/Suz12
+
+Figure 1 | PRC2 components are deleted or mutated in human MPNSTs
+and exert tumour-suppressive activity. a, Schematic visualization of distinct
+genomic alterations in SUZ12 and EED in NF1-deficient human MPNSTs
+from patients with and without an NF1 microdeletion (asterisk, mutation;
+open blue rectangle, hemizygous deletion; filled blue rectangle, homozygous
+deletion; grey rectangle, no copy number loss). b, Table indicating the
+percentage of human MPNSTs with homozygous or heterozygous loss of
+SUZ12, EED and PRC2. c, Immunoblots of lysates from human MPNST cells
+reconstituted with SUZ12 (C, LacZ control; S, SUZ12). Restoration of
+H3K27me3 shows that the functionality of the PRC2 complex is restored upon
+SUZ12 reconstitution. d, Human MPNST cell lines with reconstituted SUZ12
+exhibit reduced proliferation under normal growth conditions (10% serum,
+3 days). SUZ12 reconstitution (S) causes cell death when cells are cultured
+under limiting growth factors (2% serum, 6 days). Proliferation curves are
+shown in Extended Data Fig. 1f. e, Top, graph depicting colony growth in soft
+agar using the NF1-deficient human GBM line (U251), expressing a control
+shRNA construct (C, short hairpin green fluorescent protein (shGFP)) or
+three distinct SUZ12 shRNA constructs against SUZ12 (S1–S3). Bottom,
+immunoblots depicting knockdown of SUZ12 to varying levels (S1–S3)
+compared with control (shGFP). The percentage of SUZ12 remaining is
+quantified. f, Effects of shSUZ12 (S1) on SUZ12 expression and colony
+formation in MEWO melanoma cells, which are NF1 null. Error bars, s.d.
+(n 5 3, biological replicates).
+
+mice developed high-grade gliomas and did so on average in approx-
+imately 3 months, a latency shorter than most models (Fig. 2e, f and
+Extended Data Fig. 2d). NF1 and SUZ12 were co-deleted/mutated in
+14% of human GBMs (Fig. 2g). EED deletions were also detected in 26%
+of NF1-mutant tumours, which all lacked a copy of SUZ12, highlighting
+the co-occurrence of defects in NF1 and PRC2.
+
+SUZ12 ablation causes a loss of H3K27me3 and in some settings
+promotes a consequential increase in H3K27Ac21: a transcriptional activ-
+ating signal that recruits bromodomain proteins and associated transcrip-
+tion factors22. As such, we reasoned that SUZ12-mutant MPNSTs might
+be sensitive to bromodomain inhibitors such as JQ123. Importantly, SUZ12
+reconstitution increased H3K27me3 and decreased H3K27Ac in MPNST
+
+a 
+
+1.0 
+
+ 
+
+n
+o
+i
+t
+c
+n
+u
+f
+ 
+r
+o
+v
+v
+r
+u
+S
+
+i
+
+0.8 
+
+0.6 
+
+0.4 
+
+0.2 
+
+0 
+
+0 
+
+d 
+
+1.0 
+
+ 
+
+n
+o
+i
+t
+c
+n
+u
+f
+ 
+r
+o
+v
+v
+r
+u
+S
+
+i
+
+0.8 
+
+0.6 
+
+0.4 
+
+0.2 
+
+0 
+
+0 
+
+b 
+
+e 
+
+MPNST 
+
+High-grade glioma 
+
+Suz12+/–
+Nf1+/– 
+Nf1+/–; Suz12+/–
+
+100 
+
+200 
+
+300 
+
+400 
+
+Time (days)
+
+Suz12+/–
+Nf1+/–
+Nf1/p53 
+Nf1/p53/Suz12 
+
+100 
+
+200 
+
+300 
+
+400 
+
+Time (days)
+
+c 
+NF1 
+SUZ12 
+EED 
+
+100 μm 
+
+50 μm 
+
+20 μm 
+
+50 μm 
+
+Human melanoma 
+
+0 
+
+f 
+
+100 
+200 
+Time (days)
+
+Tumour type 
+
+Histiocytic sarcoma
+
+MPNST 
+
+High-grade glioma 
+
+Lymphoma 
+
+Angiosarcoma
+
+Neuroblastoma
+
+g 
+
+34% 
+24% 
+40% 
+
+NF1 
+SUZ12 
+EED 
+
+Nf1/p53
+
+Nf1/p53/Suz12
+
+300 
+
+0 
+
+Nf1/p53  Nf1/p53/Suz12 
+
+10% 
+
+67% 
+
+15% 
+
+3% 
+
+0% 
+
+8% 
+
+62% 
+
+38% 
+
+54% 
+
+12% 
+
+4% 
+
+0% 
+
+100 
+200 
+Time (days)
+P value 
+6 × 10–5
+0.06 
+8 × 10–3
+
+0.32
+
+—
+
+—
+
+Glioblastoma multiforme
+
+300 
+
+19% 
+14% 
+15% 
+
+Figure 2 | Suz12and Nf1mutations cooperate to promote widespread
+tumour development in mice. a, Kaplan–Meier curve comparing survival of
+Suz121/2 (n 5 15), Nf11/2 (n 5 15) and Nf11/2; Suz121/2 (n 5 30) mice in
+cis (NS1/2). Nf11/2; Suz121/2 mice have a significantly reduced survival
+(Nf11/2; Suz121/2 versus Suz121/2, P 5 1.99 3 1024; Nf11/2; Suz121/2
+versus Nf11/2, P 5 2.87 3 1028; Mantel–Cox test). b, Haematoxylin and eosin
+staining of an MPNST (top left), neurofibroma (top right), melanocytic nevus
+(bottom left) and intestinal adenoma (bottom right) in Nf11/2; Suz121/2
+mice. c, Oncoprint output of the melanoma TCGA data (cBioPortal) (green
+square, mutation; light blue rectangle, hemizygous deletion; dark blue
+rectangle, homozygous deletion; grey rectangle, unaltered). d, Kaplan–Meier
+curve comparing survival of Suz121/2, Nf11/2, Nf11/2/p531/2 mice (n 5 30)
+in cis (NP1/2) and Nf11/2 p531/2 Suz121/2 mice in cis (NPS1/2). Nf1/p53/
+Suz12 mice have a significantly lower survival (P 5 1.2 3 1029, Mantel–Cox
+
+test). e, Left, box plot comparing the age at onset for MPNSTs in Nf1/p53 and
+Nf1/p53/Suz12 mice. MPNSTs from Nf1/p53/Suz12 mice have a significantly
+shorter latency (on average 2.3 months; P 5 2.8 3 1024, Mann–Whitney
+U-test). Right, box plot comparing the age at onset for high-grade glioma in
+Nf1/p53 and Nf1/p53/Suz12 mice. High-grade gliomas in Nf1/p53/Suz12 mice
+develop on average around 3 months and have a significantly shorter latency
+(P 5 0.0003, Mann–Whitney U-test). f, Table comparing the percentages of
+Nf1/p53 and Nf1/p53/Suz12 mice that develop specific tumours. P values
+indicate significance by Fisher’s exact test. g, Oncoprint output of the
+glioblastoma TCGA data (cBioPortal) (green square, mutation; light blue
+rectangle, hemizygous deletion; dark blue rectangle, homozygous deletion;
+black dot, second hit mutation). Co-occurrence of defects in NF1 and the PRC2
+complex (NF1–SUZ12, odds ratio .10, P , 1024; NF1–EED, odds ratio 2–10,
+P 5 2.2 3 1024).
+
+2 4 8 | N A T U R E | V O L 5 1 4 | 9 O C T O B E R 2 0 1 4
+©2014
+
+Macmillan Publishers Limited. All rights reserved
+
+cells, whereas SUZ12 ablation decreased H3K27me3 and increased
+H3K27Ac (Fig. 3a). Moreover, SUZ12-deficient MPNSTs were more sen-
+sitive to JQ1 than PRC2 wild-type cells (Fig. 3b).
+
+Transcriptional profiling analysis was conducted in MPNSTs, in
+the presence/absence of SUZ12 or JQ1. Gene set enrichment analysis
+(GSEA) and single-sample (ss)GSEA demonstrated that the gene set
+suppressed by SUZ12 was also suppressed by JQ1 (Supplementary
+Table 1 and Fig. 3c). Using the Molecular Signatures Database we found
+that PRC2-regulated genes were suppressed both in SUZ12-reconstituted
+and JQ1-treated cells, suggesting that JQ1 counteracts SUZ12 loss, in part,
+by repressing PRC2 targets (Extended data Fig. 3a, b). Unlike other tumours,
+neither JQ1 nor SUZ12 suppressed MYC genes (Extended Data Fig. 3c).
+However, MYC genes are not upregulated and do not drive MPNST de-
+velopment. Surprisingly, SUZ12 and JQ1 also suppressed genes associated
+with oncogenic Ras transcriptional signatures (Fig. 3d and Extended Data
+Fig. 3a). Conversely, Ras signatures were enhanced when SUZ12 was ablated
+in NF1-mutant GBM cells (Fig. 3d). Phospho-ERK was unaffected by SUZ12
+loss, reconstitution, or JQ1 treatment (Extended Data Fig. 3d), suggesting
+that SUZ12 loss amplifies Ras transcriptional output via direct effects on
+chromatin, and that JQ1 may counteract effects by suppressing Ras sig-
+nature genes.
+
+There are no effective therapies for MPNSTs24. While SUZ12-mutant
+MPNSTs were sensitive to JQ1, in contrast to c-Myc driven tumours, the
+effects were cytostatic25,26. Given the importance of Ras in MPNSTs, we
+investigated whether JQ1 might cooperate with Ras pathway inhibitors.
+
+a 
+
+90-8TL
+
+reconstitution
+
+C 
+
+S 
+
+U251
+shRNA
+C 
+
+S1 
+
+b 
+
+Cell line Mutation
+
+SUZ12
+
+88-14
+
+90-8TL
+
+702T
+
+H460
+
+H1792
+
+NF1
+
+NF1
+
+Nf1
+
+KRAS
+
+KRAS
+
+null
+
+null
+
+null
+
+wt
+
+wt
+
+JQ1 
+IC50
+67 nM
+
+65 nM
+
+88 nM
+8.2 μM
+1.2 μM
+
+95% CI 
+
+47–94 
+
+47–90 
+
+58–133 
+
+2.9–23 
+
+1.5–3.4 
+
+SUZ12 
+
+H3K27Me3 
+
+H3K27Ac 
+
+Actin 
+
+SUZ12 gene list 
+
+c 
+
+d 
+
+ 
+e
+r
+o
+c
+s
+ 
+t
+n
+e
+m
+h
+c
+i
+r
+n
+E
+
+NES = 1.78 
+Q = 0.0064 
+P = 0.0089 
+
+Control
+
+JQ1 
+
+SUZ12 
+Gene list 
+
+Control 
+
+JQ1 
+
+KRAS_300_UP 
+
+BILD_HRAS
+
+NES = 1.48 
+Q = 0.15 
+P = 0.010 
+
+ 
+e
+r
+o
+c
+s
+ 
+t
+n
+e
+m
+h
+c
+i
+r
+n
+E
+
+NES = 1.52 
+Q = 0.12 
+P = 0 
+
+90-8TL
+SUZ12  
+
+Control 
+
+SUZ12 
+
+Control 
+
+SUZ12 
+
+NES = 1.53 
+Q = 0.09 
+P = 0.0045 
+
+ 
+e
+r
+o
+c
+s
+ 
+t
+n
+e
+m
+h
+c
+i
+r
+n
+E
+
+NES = 1.68 
+Q = 0.04 
+P = 0 
+
+90-8TL
+JQ1 
+
+Control 
+
+JQ1 
+
+Control 
+
+JQ1 
+
+NES = –1.57 
+Q = 0.075 
+P = 0 
+
+ 
+e
+r
+o
+c
+s
+ 
+t
+n
+e
+m
+h
+c
+i
+r
+n
+E
+
+NES = –1.56 
+Q = 0.081 
+P = 0.0022 
+
+U251
+
+shSUZ12 
+
+Control 
+
+shSUZ12 
+
+Control 
+
+shSUZ12 
+
+90-8TL 
+
+C 
+
+S 
+
+JQ1 
+
+U251 
+
+C 
+
+S1 
+
+BILD_HRas
+
+KRAS_300_UP 
+
+ 
+e
+r
+o
+c
+s
+ 
+t
+n
+e
+m
+h
+c
+i
+r
+n
+E
+
+ 
+e
+r
+o
+c
+s
+ 
+t
+n
+e
+m
+h
+c
+i
+r
+n
+E
+
+ 
+e
+r
+o
+c
+s
+ 
+t
+n
+e
+m
+h
+c
+i
+r
+n
+E
+
+LETTER RESEARCH
+
+JQ1 was evaluated in combination with an mTOR inhibitor (rapamy-
+cin), or a MEK inhibitor (PD-901) as both effectors function in NF1-
+deficient tumours27–30. Only PD-901/JQ1 treatment killed MPNSTs
+(Fig. 4a). Genetic ablation of BRD4 similarly cooperated with PD-901
+(Extended Data Fig. 4a, b). SUZ12 suppression conferred sensitivity to
+PD-901/JQ1 in other NF1-deficient tumour cells, including GBM and
+colon cancer, whereas SUZ12 suppression did not affect NF1 wild-type
+cells (Extended Data Fig. 4c and Supplementary Information).
+
+To elucidate the cooperativity between BRD4 and MEK inhibitors,
+transcriptional profiling and chromatin immunoprecipitation followed
+by sequencing (ChIP-seq) experiments were performed. We compiled a
+list of publicly available upregulated Ras signature genes significantly
+repressed by JQ1, PD-901 or JQ1/PD901 in MPNSTs (Supplementary
+Table 2 and Supplementary Information). PD-901 suppressed a high
+percentage (58%) of these Ras signature genes (Fig. 4b, blue boxes) and
+JQ1 suppressed 29% (yellow boxes). However, JQ1/PD-901 cooperated
+to suppress this Ras signature in several ways. Not only did JQ1 suppress
+genes unaffected by PD-901, but the JQ1/PD-901 combination enhanced
+or uniquely suppressed 26% of these genes (green boxes). ssGSEA of our
+Ras signature gene set confirmed the cooperative effects of PD901 and
+JQ1 (Fig. 4c). H3K27Ac and BRD4 were significantly enriched at pro-
+moters of JQ1/PD-901 suppressed targets (Fig. 4b, red boxes) and BRD4
+was displaced at 53% of sites (red boxes with dots), as shown in Fig. 4d.
+Transcription factors including ETS1, a known master regulator of Ras-
+driven transcription, were suppressed by JQ1/PD-901.
+
+Finally, PD-901 and JQ1 were evaluated in Nf1/p53/Suz12 mice (Fig. 4e).
+PD-901 did not affect MPNSTs, whereas JQ1 exerted modest, cyto-
+static effects. However, combined JQ1/PD-901 triggered significant
+tumour regression. On average, tumours shrank 67%; however, half
+of them shrank by at least 75%. On the basis of their mechanism of de-
+velopment, tumours from Nf1/p53 mice are SUZ12 heterozygous, reca-
+pitulating an additional subset of human tumours (Fig. 1b). Consistent
+with shRNA studies (Fig. 1e), tissue from Suz121/2 mice revealed a
+disproportionate loss of H3K27me3 (Fig. 4f), potentially conferring
+sensitivity to PD-901/JQ1. Indeed, Nf12/2;p532/2;Suz121/2 tumours
+shrank up to 68% (Fig. 4g), albeit overall less than tumours in Nf1/p53/
+Suz12 mice. Notably, H3K27me3 antibodies faithfully detected PRC2
+defects in primary human tumours (Fig. 4h, Extended Data Fig. 4d and
+
+Figure 3 | SUZ12 and JQ1 regulate PRC2 targets and the Ras transcriptional
+signature. a, Left, immunoblots showing the epigenetic switch from H3K27Ac
+to H3K27Me3 upon SUZ12 reconstitution in human 90-8TL MPNST cells (C,
+LacZ; S, SUZ12 reconstitution; H3K27Me3 expression included here with
+immunoblots is also shown in Fig. 1c). Right, epigenetic switch from
+H3K27Me3 to H3K27Ac upon SUZ12 knockdown in NF1-deficient GBMs
+(U251) (C, scramble shRNA; S1, SUZ12 shRNA). b, Half-maximum inhibitory
+concentration (IC50) values of JQ1 in cell lines null and wild type (WT) for
+SUZ12 and NF1 as indicated. 702T cells are Nf1/p53/suz12 null MPNSTs
+derived from our mouse tumours. KRAS mutant/SUZ12 WT H460 and H1792
+lung cancer lines were used as a comparison. 95% CI, 95% confidence interval.
+c, Top, signature enrichment plot comparing the SUZ12 signature (genes
+downregulated in response to SUZ12 reconstitution; Supplementary Table 1) in
+MPNST cells treated with vehicle versus JQ1 (100 nM, 24 h, triplicate samples).
+Plot indicates that SUZ12-regulated genes are more highly expressed in control
+than JQ1-treated samples (red, upregulation; blue, downregulation). NES,
+normalized enrichment score. Bottom, heat map of the enrichment scores of
+SUZ12 downregulated genes in vehicle (control) and JQ1 (three replicates)
+(red, upregulation; blue, downregulation). d, Top, Ras signature enrichment
+plots (using KRAS_300_UP.V1_UP and BILD_HRAS signature data sets
+obtained from the Molecular Signatures Database) in MPNSTs (90-8TL)
+reconstituted with SUZ12 versus control vector or treatment with JQ1 versus
+vehicle control (100 nM, 24 h, triplicate samples) and in the human GBM line
+U251 after knockdown of SUZ12 (shSUZ12 S1). Plots indicate a significant
+downregulation of RAS signatures after SUZ12 reconstitution and JQ1
+treatment, and a significant upregulation of RAS signatures in SUZ12-depleted
+cells. Bottom, heat map of the enrichment scores of Ras signatures in control (C,
+LacZ), SUZ12-reconstituted (S) and JQ1-treated MPNST cells (three
+replicates), and in control (C, shScamble) and SUZ12-ablated (S1, shSUZ12)
+U251 cells (three replicates) (red, upregulation; blue, downregulation).
+
+9 O C T O B E R 2 0 1 4 | V O L 5 1 4 | N A T U R E | 2 4 9
+
+©2014
+
+Macmillan Publishers Limited. All rights reserved
+
+RESEARCH LETTER
+
+c 
+
+DMSO 
+Rap 100 nM 
+PD901 1 μM 
+
+3 
+
+2 
+
+1 
+
+0 
+
+a 
+
+ 
+)
+
+h
+t
+w
+o
+r
+g
+d
+o
+f
+(
+
+ 
+
+l
+
+2
+g
+o
+L
+
+ 
+e
+r
+o
+c
+s
+ 
+e
+v
+i
+t
+a
+e
+R
+
+l
+
+4,000
+
+2,000
+
+0
+
+D M S O 
+
+JQ1 
+
+PD 
+
+PDJQ 
+
+–1 
+
+–2 
+
+D M S O
+
+JQ1
+
+100 nM 
+
+SOX9 
+
+d 
+
+s
+r
+i
+a
+p
+ 
+e
+s
+a
+b
+n
+o
+
+ 
+
+i
+l
+l
+i
+
+m
+
+ 
+r
+e
+p
+ 
+s
+d
+a
+e
+R
+
+20 
+
+D H3K27Ac 
+
+30 
+
+D BRD4 
+
+30 
+
+PDJQ BRD4 
+
+SOX9
+
+b 
+
+ 
+
+O
+S
+M
+D
+
+Sign at P < 0.001 
+
+ 
+
+ 
+
+Q
+J
+D
+P
+
+ 
+y
+g
+r
+e
+n
+y
+S
+
+ 
+
+1
+0
+9
+D
+P
+
+ 
+
+1
+Q
+J
+
+ 
+
+1
+Q
+J
+/
+1
+0
+9
+D
+P
+
+d
+n
+u
+o
+b
+4
+D
+R
+B
+
+ 
+
+ 
+
+1
+0
+9
+D
+P
+
+ 
+
+1
+Q
+J
+
+*
+
+NME5
+BIRC3
+ST6GALNAC5
+IL24
+INHBA
+GULP1
+ANK3
+TNFAIP3
+EVI2A
+LIMCH1
+KRT34
+HOXD11
+HDAC9
+ADAMTS6
+PDCD1LG2
+ETS1
+LPL
+ZEB1
+UGT8
+PRDM1
+VEGFC
+PRRX1
+IL1B
+HAS2
+TFPI
+ARHGAP24
+ITGBL1
+IGFBP3
+MMP10
+PLAU
+NRP1
+NAV3
+KIF24
+C11orf41
+NTM
+RELN
+EMP1
+STC1
+SLC6A15
+CYB5R2
+LPXN
+GYPC
+ETV4
+CXCL1
+HSD17B2
+SIGLEC15
+IL8
+SPP1
+EFNA5
+PLAUR
+ADAM19
+SCG5
+MGLL
+TGM2
+ANO1
+TNFSF15
+PTGS2
+HIST1H2BO
+RTN1
+PEG3
+SYT1
+PCDH9
+LIF
+CXCR4
+GLRX
+HIST1H2AI
+TRIB2
+CCL20
+STX1A
+IL1RAPL1
+SEMA3A
+TLR4
+SPRY2
+ST3GAL6
+TMEM156
+DUSP4
+ESM1
+MMD
+ETV5
+ETV1
+MMP1
+ITGA2
+DUSP6
+PTX3
+HTR7
+FOXG1
+TBX3
+SOX9
+HS3ST3B1
+AKAP12
+NRCAM
+DOCK4
+FMNL2
+DCBLD2
+ARL4C
+KIT
+GLDC
+ANPEP
+DNMBP
+SLIT2
+
+e 
+
+ 
+)
+
+h
+t
+w
+o
+r
+g
+d
+o
+f
+(
+
+ 
+
+l
+
+2
+g
+o
+L
+
+4
+
+2
+
+0
+
+–2
+
+–4
+
+1,600% 
+
+NPS 
+
+400% 
+
+100% 
+
+–75% 
+
+–95% 
+
+Vehicle 
+
+PD-901 
+
+JQ1 
+
+PD-901/JQ1 
+
+f 
+
+Nf1 
+P53 
+Suz12 
+
++/+ 
++/+ 
++/+ 
+
+Normal tissue 
++/+ 
++/+ 
++/–
+
++/–
++/–
++/+ 
+
++/–
++/–
++/–
+
+H3K27Me3 
+
+Actin 
+
+g 
+
+ 
+)
+
+h
+t
+w
+o
+r
+g
+d
+o
+f
+(
+
+ 
+
+l
+
+2
+g
+o
+L
+
+h 
+
+4
+
+2
+
+0
+
+–2
+
+–4
+
+1,600% 
+
+NP 
+
+400% 
+
+100% 
+
+–75% 
+
+Vehicle  PD-901/JQ1 
+
+–95% 
+
+PRC2 WT 
+
+SUZ12 null 
+
+Extended Data Table 1). Together, these studies reveal a promising
+therapeutic strategy for MPNSTs, and suggest that PRC2 genetic alterations
+or H3K27me3/H3K27Ac levels could be used as biomarkers for selec-
+tion of patients.
+
+While the PRC2 complex is oncogenic in many cancers, these stud-
+ies reveal an important tumour-suppressive function for two PRC2
+components in NF1-deficient solid tumours. Moreover, this complex
+appears to function as a rheostat for Ras-dependent transcription. It is
+becoming apparent that the oncogenic Ras signal is amplified as can-
+cers progress. Because NF1-mutant tumours are driven by a relatively
+weak oncogenic signal and lack an amplifiable mutant RAS allele, SUZ12
+loss may be a particularly important mechanism of signal potentiation.
+PRC2 inactivation may also enhance Ras-driven transcription in RAS-
+mutant cancers. However, further studies will be required to assess this
+possibility.
+
+Additionally, these studies demonstrate that SUZ12 loss promotes
+an epigenetic switch from H3K37Me3 to H3K27Ac, conferring sensitiv-
+ity to BRD4 inhibitor-based combination therapies. Our data suggest that
+
+Figure 4 | JQ1 and MEK inhibitors cooperate to promote cell death,
+suppress Ras transcriptional output and promote tumour regression.
+a, Log2 of fold change in MPNST cell number (90-8TL). Only cells treated with
+PD-901 and JQ1 die. Error bars, s.d. (n 5 3, biological replicate). b, Heat map
+of microarray expression data evaluating the effects of the indicated drugs in
+SUZ12/NF1 null cell line 90-8TL (Ras signature gene set: see Supplementary
+Table 2). Genes significantly (P , 0.001) downregulated are indicated (JQ1,
+yellow; PD901, blue; PD901/JQ1, black). Genes uniquely or more potently
+suppressed by PD901/JQ1 are indicated in green. BRD4-bound genes are
+indicated in red. H3K27Ac and BRD4 were significantly enriched at the
+promoters of downregulated genes (compared with overall genes bound;
+72% versus 46%, Fisher’s exact test, P 5 7.9 3 1023). A red box with black
+square denotes a minimum fourfold displacement of BRD4 in response to
+PD901/JQ1. H3K27Ac and BRD4 binding overlaps at 69/71 promoters.
+c, Box plot of ssGSEA comparing the enrichment of our Ras signature gene set
+after treatments. The output shows cooperativity of JQ1 and PD901 in
+suppressing this Ras signature (n 5 3, biological replicate). d, Gene tracks of
+H3K27Ac and BRD4 ChIP-seq occupancy at SOX9 after DMSO or PD901/JQ1
+treatment (y axis, reads per million base pairs). e, Waterfall plot of MPNSTs
+from Nf1/p53/Suz12 mice treated with vehicle control, PD-0325901, JQ1 or
+a combination of PD-0325901 and JQ1 (10 days). f, Immunoblots of
+H3K27me3 in lung tissue of WT, Nf1/p53, SUZ121/2 and Nf1/p53/Suz12 mice.
+H3K27Me3 levels are disproportionately low in all animals carrying one
+mutant SUZ12 allele. g, Waterfall plot of MPNSTs from Nf1/p53 mice
+comparing vehicle with combination of PD-0325901 and JQ1 (P 5 5.4 3 1024,
+t-test). h, Immunohistochemistry comparing H3K27me3 expression in a
+human MPNST that is WT for PRC2 genes (P6) and a SUZ12 null tumour (P7).
+Arrow depicts positive staining of blood vessel. An additional tumour set is
+shown in Extended Data Fig. 4d, and results from all primary MPNSTs that
+were evaluated are shown in Extended Data Table 1.
+
+BRD4 inhibitors alone may not be effective in these tumours, but should
+be evaluated in combination with MEK inhibitors. However, this work
+may also have other important clinical implications. EZH2 inhibitors
+have therapeutic potential in cancers with mutated or overexpressed
+EZH2. Given the prevalence of SUZ12 and EED alterations, it may be
+prudent to screen for these events in broader clinical trials, as EZH2
+inhibitors could exacerbate potential pro-tumorigenic effects of hetero-
+zygous alterations. Regardless, these studies reveal a mechanistic link
+between Ras and PRC2, and provide a scientific rationale for developing
+a new therapeutic combination for tumours that are currently untreatable.
+
+Online Content Methods, along with any additional Extended Data display items
+and Source Data, are available in the online version of the paper; references unique
+to these sections appear only in the online paper.
+
+Received 4 December 2013; accepted 6 June 2014.
+Published online 13 August 2014.
+
+1.
+
+2.
+
+3.
+
+Sauvageau, M. & Sauvageau, G. Polycomb group proteins: multi-faceted
+regulators of somatic stem cells and cancer. Cell Stem Cell 7, 299–313 (2010).
+Ernst, T. et al. Inactivating mutations of the histone methyltransferase gene EZH2
+in myeloid disorders. Nature Genet. 42, 722–726 (2010).
+Zhang, J. et al. The genetic basis of early T-cell precursor acute lymphoblastic
+leukaemia. Nature 481, 157–163 (2012).
+
+4. Maertens, O. & Cichowski, K. An expanding role for RAS GTPase activating proteins
+
+(RAS GAPs) in cancer. Adv. Biol. Regul. 55, 1–14 (2014).
+
+5. Downward, J. Targeting RAS signalling pathways in cancer therapy. Nature Rev.
+
+6.
+
+7.
+
+8.
+
+9.
+
+Cancer 3, 11–22 (2003).
+Shaw, A. T. et al. Sprouty-2 regulates oncogenic K-ras in lung development and
+tumorigenesis. Genes Dev. 21, 694–707 (2007).
+Feldser, D. M. et al. Stage-specific sensitivity to p53 restoration during lung cancer
+progression. Nature 468, 572–575 (2010).
+Junttila, M. R. et al. Selective activation of p53-mediated tumour suppression in
+high-grade tumours. Nature 468, 567–571 (2010).
+Xu, J. et al. Dominant role of oncogene dosage and absence of tumor suppressor
+activity in Nras-driven hematopoietic transformation. Cancer Discov. 3, 993–1001
+(2013).
+
+10. McLaughlin, S. K. et al. The RasGAP gene, RASAL2, is a tumor and metastasis
+
+suppressor. Cancer Cell 24, 365–378 (2013).
+
+11. Min, J. et al. An oncogene-tumor suppressor cascade drives metastatic prostate cancer
+by coordinately activating Ras and nuclear factor-kB. Nature Med. 16, 286–294 (2010).
+12. De Raedt, T. et al. Genomic organization and evolution of the NF1 microdeletion
+
+region. Genomics 84, 346–360 (2004).
+
+13. Lopez-Correa, C. et al. Recombination hotspot in NF1 microdeletion patients. Hum.
+
+Mol. Genet. 10, 1387–1392 (2001).
+
+2 5 0 | N A T U R E | V O L 5 1 4 | 9 O C T O B E R 2 0 1 4
+©2014
+
+Macmillan Publishers Limited. All rights reserved
+
+14. De Raedt, T. et al. Elevated risk for MPNST in NF1 microdeletion patients. Am. J.
+
+Hum. Genet. 72, 1288–1292 (2003).
+
+15. Mautner, V. F. et al. Clinical characterisation of 29 neurofibromatosis type-1
+
+patients with molecularly ascertained 1.4 Mb type-1 NF1 deletions. J. Med. Genet.
+47, 623–630 (2010).
+
+16. Beroukhim, R. et al. Assessing the significance of chromosomal aberrations in
+cancer: methodology and application to glioma. Proc Natl Acad Sci USA 104,
+20007–20012 (2007).
+
+17. McGillicuddy, L. T. et al. Proteasomal and genetic inactivation of the NF1 tumor
+
+suppressor in gliomagenesis. Cancer Cell 16, 44–54 (2009).
+
+18. Cichowski, K. et al. Mouse models of tumor development in neurofibromatosis
+
+type 1. Science 286, 2172–2176 (1999).
+
+19. Legius, E. et al. TP53 mutations are frequent in malignant NF1 tumors. Genes
+
+Chromosom. Cancer 10, 250–255 (1994).
+
+20. Beert, E. et al. Atypical neurofibromas in neurofibromatosis type 1 are
+
+premalignant tumors. Genes Chromosom. Cancer 50, 1021–1032 (2011).
+
+21. Pasini, D. et al. Characterization of an antagonistic switch between histone H3
+
+lysine 27 methylation and acetylation in the transcriptional regulation of
+Polycomb group target genes. Nucleic Acids Res. 38, 4958–4969 (2010).
+
+22. Filippakopoulos, P. et al. Histone recognition and large-scale structural analysis of
+
+the human bromodomain family. Cell 149, 214–231 (2012).
+
+23. Filippakopoulos, P. et al. Selective inhibition of BET bromodomains. Nature 468,
+
+1067–1073 (2010).
+
+24. Widemann, B. C. Current status of sporadic and neurofibromatosis type
+
+1-associated malignant peripheral nerve sheath tumors. Curr. Oncol. Rep. 11,
+322–328 (2009).
+
+25. Delmore, J. E. et al. BET bromodomain inhibition as a therapeutic strategy to target
+
+c-Myc. Cell 146, 904–917 (2011).
+
+26. Puissant, A. et al. Targeting MYCN in neuroblastoma by BET bromodomain
+
+inhibition. Cancer Discov. 3, 308–323 (2013).
+
+27. Johannessen, C. M. et al. TORC1 is essential for NF1-associated malignancies. Curr.
+
+Biol. 18, 56–62 (2008).
+
+28. De Raedt, T. et al. Exploiting cancer cell vulnerabilities to develop a combination
+
+therapy for ras-driven tumors. Cancer Cell 20, 400–413 (2011).
+
+LETTER RESEARCH
+
+29. Chang, T. et al. Sustained MEK inhibition abrogates myeloproliferative disease in
+
+Nf1 mutant mice. J. Clin. Invest. 123, 335–339 (2013).
+
+30. Jessen, W. J. et al. MEK inhibition exhibits efficacy in human and mouse
+
+neurofibromatosis tumors. J. Clin. Invest. 123, 340–347 (2013).
+
+Supplementary Information is available in the online version of the paper.
+
+Acknowledgements This work was supported by the following organizations: The US
+Department of Defense (W81XWH-11-1-0138), the Ludwig Center at DF/HCC and the
+Children’s Tumor Foundation (K.C.); T.D. was a recipient of the Young Investigator
+Award of the Children’s Tumor Foundation; FWO-Flanders G.0784.10N (E.L.). E.B. was
+a recipient of an Emmanuel Vanderschueren Fellowship from the Vlaamse Liga tegen
+Kanker. Association Neurofibromatoses et Recklinghausen, Ligue Française Contre les
+Neurofibromatoses, Association pour la Recherche sur le Cancer, Comite´ de Paris de la
+Ligue Contre le Cancer, the French Clinical Research program (PHRC 2002,
+P. Wolkenstein) and INSERM (Nf1GeneModif project) (M.V. and E.P.). We thank the
+Platform of Biological Resources, Assistance Publique Hoˆpitaux de Paris, Hoˆpital Henri
+Mondor, Cre´teil, France, for providing tissue samples.
+
+Author Contributions T.D. and K.C. conceived and designed the functional studies and
+mouse experiments. E.L. E.B., M.V., E.P. and A.L. conceived, designed and performed the
+genomic studies. T.D. performed the cellular, mouse, microarray and ChiP-seq
+experiements. H.B. coordinated human sample acquisition and analysis. E.L., M.U.,
+V.M., H.K. and M.V. provided human MPNST samples. N.O. performed
+immunohistological staining. K.H. provided the SUZ12 mice and advice. J.L.H.
+performed pathological analysis. W.C. assisted in evaluating mouse neurofibromas. J.B.
+provided compounds and advice. T.D. and K.C. wrote the manuscript. All authors
+discussed the results and commented on the manuscript.
+
+Author Information All microarray data have been deposited in the Gene Expression
+Omnibus database under accession number GSE52777. Reprints and permissions
+information is available at www.nature.com/reprints. The authors declare no
+competing financial interests. Readers are welcome to comment on the online version
+of the paper. Correspondence and requests for materials should be addressed to K.C.
+(kcichowski@rics.bwh.harvard.edu) or E.L. (Eric.Legius@uzleuven.be).
+
+©2014
+
+Macmillan Publishers Limited. All rights reserved
+
+9 O C T O B E R 2 0 1 4 | V O L 5 1 4 | N A T U R E | 2 5 1
+
+RESEARCH LETTER
+
+METHODS
+Human MPNST samples. All patients were diagnosed as having neurofibroma-
+tosis type I. Consent was obtained for tissue acquisition according to Institutional
+review board approved protocol and local ethical committees.
+Cell lines and reagents. ST88-14 (J. Fletcher), 90-8TL (E. Legius), S462 (E. Legius),
+SNF96.2 (ATCC), U251 (ATCC), A172 (ATCC), T98G (ATCC), MEWO (ATCC),
+WM3526, Colo-741, RKO (ATCC), H460 (ATCC) and H1355 (ATCC) are human
+MPNST, GBM, melanoma, colon and lung cancer cell lines. 702T is a mouse Nf1/
+p53/Suz12-deficient MPNST cell line. All cell lines were tested and negative for myco-
+plasma. Antibodies were obtained from the following sources: H3K27Me3 (9733),
+H3K27Ac (4353), pERK (XP, 4370) and Vinculin (4670) (Cell Signaling Technologies);
+SUZ12 (sc-46264) (Santa Cruz Biotechnology); actin (A2066) (Sigma). For ChIP-
+seq, the following antibodies were used: BRD4 (Bethyl, A301-085A) and H3K27Ac
+(Abcam ab4729).
+Cell counting, IC50 and proliferation curves. All counting experiments were
+done by haemocytometer. Cells were plated in triplicate for each condition (treatment
+or genetic alteration). The following day the exact number of cells plated was deter-
+mined (day 0 value) and cells were treated with conditioned media. The number of
+cells was determined after 3 (normal growth conditions) or 6 (limiting growth factors)
+days or precisely after three population doublings to determine values of IC50. Fold
+growth or log2 of fold of the number of cells was determined versus day 0. When cell
+death was induced (compared with the number of cells plated on day 0), data were
+plotted as log2 of fold cell number (negative values indicate cell death). IC50 values and
+95% confidence intervals were determined using GraphPad Prism 5 software.
+Array comparative genomic hybridization. Array comparative genomic hybrid-
+ization experiments (Agilent 244K and 400K) were performed as previously described20.
+Array comparative genomic hybridization data (Agilent 244K) from 21 independ-
+ent, high-grade MPNSTs (HM1, 2, 3, 5–8, 10, 12, 13, 15, 17, 19, 20, 22–26, 28, and 30)
+were used as published previously20. Digestion, labelling and hybridization of tumour-
+and patient- or gender-matched blood DNA were performed according to the man-
+ufacturer’s instructions (Agilent).
+Sequencing. The coding sequences of 14 H3K27me3-related genes were analysed
+(AEBP2, EED, EZH2, EZH1, HDAC2, JARID2, PCL1, PCL2, PCL3, RBBP4, RBBP7,
+SIRT1, SUZ12 and UTX) using a targeted next generation sequencing (NGS) ap-
+proach. Experiments were performed on the NGS platform of the Cochin Hos-
+pital, Paris (Assistance Publique, Hoˆpitaux de Paris, France). Briefly, the custom
+primers panel targeting the 14 genes (coding exons and IVS boundaries) was
+designed using the AmpliSeq Designer (Life Technologies). NGS library prepara-
+tion used the Ion AmpliSeq Library Kit 2.0 according to the manufacturer’s instruc-
+tions (Ion AmpliSeq Library Preparation, publication part number MAN0006735,
+revision 5.0, July 2013, Life Technologies). Amplified libraries were purified using
+Agencourt AMPure XP beads (Beckman Coulter). Prior to library pooling and se-
+quencing sample preparation, amplified libraries were validated and quantified using
+the 2100 Bioanalyzer microfluidic platform (Agilent Technologies). Emulsion PCR
+used the Ion OneTouch Instrument. Enrichment of the template-positive Ion
+OneTouch 200 ion sphere particle PCR used the Ion OneTouch ES (Life Tech-
+nologies). The template-positive ion sphere particles were loaded on Ion 318 chips
+and sequenced with an Ion PGM sequencer (Life Technologies). Sequence align-
+ment and extraction of single nucleotide polymorphisms and short insertions/
+deletions were performed using the Variant Caller plugin on the Ion Torrent
+Browser, and DNA sequences visualized using the Integrated Genomics Viewer
+(version 2.3) from the Broad Institute. NextGENe software (version 2.3.3, Soft-
+genetics), was also used for sequence alignment, extraction of single nucleotide poly-
+morphisms and short indels, and their visualization.
+Real-time PCR. Cell were scraped and dissolved in Trizol reagent (Invitrogen).
+RNA was treated with DNaseI (Roche) and reverse transcribed using the qScript
+Reverse transcriptase kit (Quanta). Real-time PCR analysis used the PerfeCTa
+SYBR Green kit (Quanta) for BRD4 (59-CATGGACATGAGCACAATCA-39 59-
+TCATGGTCAGGAGGGTTGTA-39).
+RNA interference and complementary DNA expression. Non-targeting short
+interfering RNAs (siRNAs) (D-001810-10: 59-UGGUUUACAUGUCGACUAA-39;
+59-UGGUUUACAUGUUGUGUGA-39; 59-UGGUUUACAUGUUUUCUGA-39;
+59-UGGUUUACAUGUUUUCCUA-39) and siRNAs against BRD4 (ON-TARGET
+smartpool siRNA L-004937-00: 59-UGGUUUACAUGUCGACUAA-39; 59-UGGU
+UUACAUGUUGUGUGA-39; 59-UGGUUUACAUGUUUUCUGA-39; 59-UGGU
+UUACAUGUUUUCCUA-39) were purchased from Dharmacon. siRNAs were tran-
+sfected with lipofectamine RNAiMAX from Invitrogen. Lentiviral pLKO vectors were
+obtained from the RNAi consortium of the Broad Institute. shSUZ12 S1 (NM_
+015355.1-2076s1c1, target sequence 59- GCTGACAATCAAATGAATCAT-39), shSUZ12
+S2 (NM_015355.1-668s1c1, target sequence 59GCTTACGTTTACTGGTTTCTT-39) and
+shSUZ12 S3 (NM_015355.1-501s1c1, target sequence 59-CGGAATCTCATAGC
+ACCAATA-39) were used to target SUZ12. Human SUZ12 (Open Biosystems) was
+
+cloned into a pLenti CMV/TO Puro vector. Lentiviral infections were performed as
+previously described28.
+Expression micro-array and gene set enrichment analysis. The MPNST cell line
+90-8TL was infected with LACZ control or SUZ12 and cultured for 14 days. The LACZ
+expressing 90-8TL cell line was also treated with 100 nM JQ1, PD0325901 2 mM, a
+combination of PD0325901 (2 mM) and JQ1 (100 nM) or vehicle (DMSO) for
+24 h. Additionally SUZ12 was knocked down in the U251 cell line by shRNA. All
+experiments were performed in triplicate. RNA was extracted using Trizol reagent
+(Invitrogen) and purified using Qiagen RNeasy extraction kit (according to the
+manufacturer’s instructions) and hybridized to the Affymetrix Human Gene 1.0
+ST array by the Partners HealthCare Center for Personalized Genetic Medicine core.
+Analyses used BRB-ArrayTools developed by R. Simon and the BRB-ArrayTools
+development team. Thresholds were set at P , 0.001. Supplementary Table 3 lists
+all the genes significantly changed (P , 0.001) compared with control. We first made
+a SUZ12 gene list of genes that were downregulated at least twofold (P , 0.001) in
+SUZ12 reconstituted cells (Supplementary Table 1). GSEA31 and ssGSEA used the
+Broad Institute interface (www.broadinstitute.com/gsea/index.jsp). Several gene lists
+upregulated by Ras activation were significantly enriched in our experiments (BILD_
+HRAS_ONCOGENIC_SIGNATURE, KRAS.300_UP.V1_UP, KRAS.600_UP.V1_UP,
+KRAS.600.LUNG.BREAST_UP.V1_UP, KRAS.BREAST_UP.V1_UP). To identify more
+specifically a subset of direct suppressive effects on the Ras pathway, we first compiled
+these five significant gene lists and selected those genes that were significantly repressed
+by JQ1, PD-901 or combined JQ1/PD901 in MPNSTs (Supplementary Table 2) (class
+comparison of all treatments at P , 0.001).
+ChIP-seq analysis. BRD4, H3K27Me3 and H3K27Ac were ChIPed following the
+Agilent Mammalian ChIP-on-chip protocol. 90-8TL cells were grown and treated
+under the same conditions as performed for microarray studies. Cells were cross-
+linked for 15 min at room temperature by the addition of one-tenth of the volume
+of 11% formaldehyde solution to the growth media. Pull down was performed with
+the indicated antibodies and DNA was submitted for sequencing to the CCCB core
+of the Dana-Farber Cancer Institute.
+
+Alignment used the BWA package. Mapped tags were analysed using a statist-
+ical method that fitted a Poisson distribution to the data and calculated a global
+false discovery rate for peak detection. Peak calling used the HOMER software package
+with the false discovery rate set to 0.001. Peak calling in this setting is differential be-
+cause the algorithm requires that the number of tags mapped to an identified peak
+region is fourfold higher in the test sample than the input sample. A background filter
+was applied by analysing a 10 kilobase region surrounding each peak. Peaks were
+removed unless tag density within each peak was at least fourfold higher than in the
+surrounding region. Peaks were only called in regions of the genome that were not
+masked by standard repeat element filters. Although repeat areas were removed,
+some regions of the genome still had low mapability due to undetected repeats or
+genome duplications. Accordingly, a final filter removed peaks in such poorly map-
+pable regions. Differential peaks (comparing binding in different treatment groups)
+were also determined by the HOMER package.
+Mouse models and pathology. Animal procedures were approved by the Center
+for Animal and Comparative Medicine in Harvard Medical School in accordance
+with the National Institutes of Health Guide for the Care and Use of Laboratory
+Animals and the Animal Welfare Act. c57bl/6 Nf11/2 (ref. 32) and Suz121/2 (ref. 33)
+were crossed to generate double heterozygous mice. These mice were intercrossed
+further to generate Nf11/2; Suz121/2 mice with both genes in a cis configuration.
+Similarly Nf11/2; Suz121/2 mice were crossed to p531/2 mice to generate NPS mice
+having Nf1, Suz12 and p53 mutations in cis on chromosome 11. For our survival
+studies we used 15 animals in control groups and 30 animals in test groups. Relevant
+tumour types were evaluated by a human pathologist (J.H.). The pathologist was
+blinded to the group allocation.
+
+Malignant peripheral nerve sheath tumour. The tumours are composed of fasci-
+cles of spindle cells with elongated, wavy nuclei, coarse chromatin and pale, eosino-
+philic cytoplasm. Scattered tumour cells show marked pleomorphism, including
+multinucleated forms. There are frequent mitotic figures.
+
+High-grade glioma. The brain is infiltrated by a markedly hypercellular tumour
+composed of rounded cells with hyperchromatic to vesicular nuclei and variably
+prominent nucleoli, including occasional large and multinucleated cells.
+
+Olfactory neuroblastoma. Tumours are composed of primitive polygonal cells
+with vesicular chromatin, prominent, often multiple nucleoli, amphophilic cyto-
+plasm and frequent mitotic figures. The tumour cells are arranged in sheets and
+form numerous rosettes, and there is multifocal necrosis.
+
+Melanocytic nevus. Heavily black-pigmented lesion (consistent with melanin).
+The lesional cells are uniform with small nuclei and no nuclear atypia or mitotic
+activity. The lesion is well circumscribed and does not infiltrate into adjacent tissues.
+Intestinal adenoma. These dysplastic polyps (adenomas) show a tubular architec-
+ture and are composed of columnar cells with enlarged and elongated, hyperchromatic
+nuclei with prominent nucleoli and increased mitotic activity.
+
+©2014
+
+Macmillan Publishers Limited. All rights reserved
+
+LETTER RESEARCH
+
+Drug treatment, dosing schedule and tumour volume measurements. Only
+mice that developed an MPNST that was readily measurable by Vernier callipers
+were included in the study. As these tumours develop spontaneously over time, and
+to ensure adequate randomization, mice were sequentially enrolled per treatment
+arm, starting with the combination treatment arm. The investigator was not blinded.
+To have sufficient power (80%) to detect a minimum of 50% tumour shrinkage versus
+day 0 (P 5 0.05), we enrolled six animals per treatment group. Mice were enrolled
+in the study when tumour size reached 300–700 mm3. Tumour size was measured
+every 2–3 days by Vernier callipers. Tumour volume was calculated using the stand-
+ard formula L 3 W2 3 52. Tumour volume and log2 of fold growth versus day 0 were
+calculated and plotted on a graph. JQ1 (45 mg/kg) was administered intraperitoneally
+daily in a 10% (2-hydroxypropyl)-b-cyclodextrin solution (C0926, Sigma). PD-
+0325901 was administered by oral gavage daily at 1.5 mg/kg (vehicle (0.5% (w/v)
+methylcellulose solution with 0.2% (v/v) polysorbate 80 (Tween 80)). Compounds
+given in combination were administered sequentially.
+
+Statistics. Unless otherwise stated, all statistical analysis used SYSTAT 12 soft-
+ware. For each data set, basic statistical values (mean and s.d.) were calculated and
+normality determined (Shapiro–Wilk normality test); all data sets were normally
+distributed. All fold change tumour volumes for the different drug combinations
+were compared by Student’s t-test (unequal variance). Survival analysis used the
+Mantel–Cox test. The statistical tests used are mentioned throughout the text.
+
+31.
+
+32.
+
+33.
+
+Subramanian, A. et al. Gene set enrichment analysis: a knowledge-based
+approach for interpreting genome-wide expression profiles. Proc. Natl Acad. Sci.
+USA 102, 15545–15550 (2005).
+Jacks, T. et al. Tumour predisposition in mice heterozygous for a targeted
+mutation in Nf1. Nature Genet. 7, 353–361 (1994).
+Pasini, D., Bracken, A. P., Jensen, M. R., Lazzerini Denchi, E. & Helin, K. Suz12 is
+essential for mouse development and for EZH2 histone methyltransferase
+activity. EMBO J. 23, 4061–4071 (2004).
+
+©2014
+
+Macmillan Publishers Limited. All rights reserved
+
+RESEARCH LETTER
+
+Extended Data Figure 1 | Mutational data in human MPNSTs and further
+biological analysis of SUZ12 loss. a, Schematic overview of the deletions in the
+NF1, SUZ12 and EED regions observed in human MPNSTs (green, germline
+deletion; red, somatic deletion; yellow, duplication). b, List of the amino-acid
+changes or deletions found in SUZ12 and EED in human MPNSTs. c, Schematic
+representation of the location of SUZ12 and EED mutations (red, truncating
+mutation; green, missense mutation with amino-acid change noted).
+d, Immunoblots of lysates from primary human MPNSTs. Tumours with
+homozygous inactivating mutations in one of the PRC2 components (SUZ12 or
+EED) show complete loss of H3K27Me3. *Homozygous inactivation of EED.
+e, Immunoblots comparing NF1, SUZ12 and H3K27me3 expression of four
+human MPNST cell lines. *Cell line derived from an MPNST of a patient with an
+NF1 microdeletion. The human GBM cell lines A172 and U251 were used as a
+
+control. Corresponding NF1 mutations are reported in Extended Data Table 1
+(S462, L2; 90-8TL, L3) and elsewhere in these NF1-deficient lines. p53 mutations,
+when known, are denoted and reported elsewhere20. f, Proliferation curves used to
+derive bar graphs shown in Fig. 1d (red, LacZ control; green, SUZ12
+reconstituted). g, Relative proliferation of several SUZ12 WT cell lines: colon
+(RKO, colo741, HCT-116) or GBM (T98G), after introduction of a control or
+SUZ12 lentivirus. None of these cell lines exhibited a significant decrease in
+proliferation under normal growth conditions or cell death in limiting growth
+factors, in contrast to SUZ12-deficient cells shown in Fig. 1d. h, Effects of
+shSUZ12 (S1) on colony formation (top) and SUZ12 expression (bottom) in
+A172 GBM cells, which are NF1 WT (see Extended Data Fig. 1e). i, Effects of
+shSUZ12 (S1) on SUZ12 expression and colony formation in WM3526
+melanoma cells, which are NF1 WT. Error bars, s.d. (n 5 3, biological replicates).
+
+©2014
+
+Macmillan Publishers Limited. All rights reserved
+
+LETTER RESEARCH
+
+Extended Data Figure 2 | Suz12and Nf1mutations cooperate to promote
+widespread tumour development in mice. a, Semi-quantitative PCR showing
+loss of the WT Suz12 and Nf1 allele in Nf1/Suz12 mouse tumours. b, Table
+listing the tumours observed in Nf11/2; Suz121/2 and Suz121/2 mice.
+Tumour types denoted with a red asterisk occur in patients with NF1 and an
+increased frequency in patients with NF1 microdeletions. Tumour types
+
+denoted with a blue asterisk represent spontaneous tumour types/lesions that
+have been shown to harbour NF1 mutations humans. c, Semi-quantitative
+PCR showing loss of the WT Suz12, Nf1 and p53 allele in Nf1/p53/Suz12
+mouse MPNST. d, Haematoxylin and eosin staining of a GBM from an
+Nf1/p53/Suz12 mouse.
+
+©2014
+
+Macmillan Publishers Limited. All rights reserved
+
+RESEARCH LETTER
+
+Extended Data Figure 3 | Microarray data analysis (GSEA) and pERK levels
+in response to SUZ12modulation and JQ1 treatment. a, Table showing that
+PRC2 (EZH2) and Ras signatures were suppressed in MPNST cells
+reconstituted with SUZ12 or treated with JQ1. Also shown are normalized
+enrichment score, P value and false discovery rate. b, EZH2 signature
+enrichment plots (using the KONDO_EZH2 data set obtained from the
+Molecular Signatures Database) in MPNSTs reconstituted with SUZ12, versus
+vector control, or treated with JQ1, versus vehicle control (100 nM, 24 h,
+
+triplicate samples). Plots show a significant downregulation of the EZH2
+signature after SUZ12 reconstitution and JQ1 treatment. c, Microarray
+expression analysis in human MPNST cells shows that expression of MYC and
+MYCN is unaltered after SUZ12 reconstitution or treatment with JQ1. Error
+bars, s.d. (n 5 3, biological replicates). d, Phospho-ERK levels did not
+appreciably change in response to SUZ12 loss (U251), reconstitution (90-8TL)
+or JQ1 treatment (90-8TL).
+
+©2014
+
+Macmillan Publishers Limited. All rights reserved
+
+LETTER RESEARCH
+
+Extended Data Figure 4 | Consequences of SUZ12 loss on drug sensitivity
+and H3K27me3 levels. a, Graph depicting log2 fold change in MPNST cell
+number (90-8TL) after 3 days in response to drugs and siRNA sequences
+indicated. PD-0325901 also cooperates with genetic BRD4 ablation to kill cells.
+b, Relative expression of BRD4 as determined by real-time PCR after exposure
+to BRD4-specific siRNAs (90-8TL). c, SUZ12 ablation using shSUZ12 S1
+conferred increased sensitivity to combined PD-901/JQ1 in NF1-deficient but
+not NF1 WT colon cancer and GBM cell lines. Log2 fold change in cell number
+was determined. RKO, DLD1 and Caco cell lines were treated with 1 mM JQ1
+
+and 1 mM PD901 each time alone or in combination. The Lovo cell line was
+treated with 500 nM JQ1 and 250 M PD901; SW480 was treated with 250 nM
+PD901 and 1 mM JQ1; LN229 and A172 cell lines were treated with 500 nM
+JQ1 and 1 mM PD901. d, Immunohistochemistry comparing H3K27me3
+expression in an additional human MPNST that was WT for SUZ12 and other
+PRC2 genes, and one that was null for SUZ12. Arrow depicts positive staining
+of blood vessel. Staining of additional tumours is shown in Extended Data
+Table 1. Error bars, s.d. (n 5 3, biological replicates).
+
+©2014
+
+Macmillan Publishers Limited. All rights reserved
+
+RESEARCH LETTER
+
+Extended Data Table 1 | Combined deletion and mutational data for tumours listed in Fig. 1
+
+Mutations and resulting amino-acid changes in NF1, SUZ12 and EED are shown. H3K27me3 staining results, when performed, are indicated and tumours are classified as strongly positive, negative (loss) or partial
+loss (ploss). The majority of MPNSTs harbour defects in the p53 pathway.
+
+©2014
+
+Macmillan Publishers Limited. All rights reserved
+
+Copyright of Nature is the property of Nature Publishing Group and its content may not be
+copied or emailed to multiple sites or posted to a listserv without the copyright holder's
+express written permission. However, users may print, download, or email articles for
+individual use.
+
+

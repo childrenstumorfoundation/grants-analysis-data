@@ -1,0 +1,1321 @@
+Structure
+
+Article
+
+Structural Basis for Autoactivation
+of Human Mst2 Kinase
+and Its Regulation by RASSF5
+
+Lisheng Ni,1 Sheng Li,1,4 Jianzhong Yu,3 Jungki Min,1,5 Chad A. Brautigam,2 Diana R. Tomchick,2 Duojia Pan,3
+and Xuelian Luo1,*
+1Department of Pharmacology
+2Department of Biophysics
+The University of Texas Southwestern Medical Center, 6001 Forest Park Road, Dallas, TX 75390, USA
+3Department of Molecular Biology and Genetics, Howard Hughes Medical Institute, Johns Hopkins University School of Medicine, Baltimore,
+MD 21205, USA
+4Present address: Biologics Department, Shanghai ChemPartner Co. Ltd., Shanghai 201203, China
+5Present address: Department of Biochemistry, Duke University School of Medicine, Durham, NC 27710, USA
+*Correspondence: xuelian.luo@utsouthwestern.edu
+http://dx.doi.org/10.1016/j.str.2013.07.008
+
+SUMMARY
+
+The tumor-suppressive Hippo pathway controls
+tissue homeostasis through balancing cell prolifera-
+tion and apoptosis. Activation of the kinases Mst1
+and Mst2 (Mst1/2) is a key upstream event in this
+pathway and remains poorly understood. Mst1/2
+and their critical
+regulators RASSFs contain
+Salvador/RASSF1A/Hippo (SARAH) domains that
+can homo- and heterodimerize. Here, we report the
+crystal structures of human Mst2 alone and bound
+to RASSF5. Mst2 undergoes activation through
+transautophosphorylation at
+its activation loop,
+which requires SARAH-mediated homodimerization.
+RASSF5 disrupts Mst2 homodimer and blocks Mst2
+autoactivation. Binding of RASSF5 to already acti-
+vated Mst2, however, does not inhibit its kinase
+activity. Thus, RASSF5 can act as an inhibitor or a
+potential positive regulator of Mst2, depending on
+whether it binds to Mst2 before or after activation-
+loop phosphorylation. We propose that these tempo-
+rally sensitive functions of RASSFs enable the Hippo
+pathway to respond to and integrate diverse cellular
+signals.
+
+INTRODUCTION
+
+The Hippo pathway controls organ size and tissue homeostasis
+through coordinately regulating cell growth, proliferation, and
+death. This tumor-suppressive pathway was ﬁrst characterized
+in Drosophila through genetic screens for mutations that caused
+tissue overgrowth and was later shown to be conserved in mam-
+mals (Badouel et al., 2009; Edgar, 2006; Halder and Johnson,
+2011; Harvey and Tapon, 2007; Harvey et al., 2013; Pan, 2010;
+Staley and Irvine, 2012; Zhao et al., 2010a). The core compo-
+nents of the mammalian Hippo pathway include the Ste20 family
+kinases Mst1 and Mst2 (Mst1/2), the scaffolding protein Salva-
+
+dor (Sav1), the NDR family kinases Lats1 and Lats2 (Lats1/2),
+and the adaptor protein Mob1. They form a central kinase
+cascade to transduce signals from cell-surface receptors
+(Avruch et al., 2012; Hergovich, 2012).
+
+In the canonical Hippo kinase cascade, Mst1/2, in complex
+with Sav1, phosphorylate and activate the Lats1/2-Mob1 com-
+plexes, which then phosphorylate the transcriptional coactivator
+Yes-associated protein (YAP), a major downstream target of the
+Hippo pathway (Dong et al., 2007; Hao et al., 2008; Hong and
+Guan, 2012; Huang et al., 2005; Zhao et al., 2007). Lats1/2-
+mediated phosphorylation inhibits YAP in two ways. Phosphory-
+lation of YAP at S127 by Lats1/2 creates a docking site for 14-3-3
+proteins. Binding of 14-3-3 causes the cytoplasmic sequestra-
+tion and inactivation of YAP (Dong et al., 2007; Hao et al.,
+2008; Zhao et al., 2007). Phosphorylation of YAP at S381 by
+Lats1/2 promotes its ubiquitination and degradation (Zhao
+et al., 2010b).
+
+When the Hippo pathway is turned off, YAP is dephosphory-
+lated and translocates into the nucleus. Although YAP does
+not contain a DNA-binding domain, it binds to the TEAD family
+of transcription factors (which contains a sequence-speciﬁc
+DNA-binding domain) to form a functional hybrid transcription
+factor (Luo, 2010; Sudol et al., 2012; Zhao et al., 2008). The
+YAP-TEAD hybrid then activates the transcription of Hippo-
+responsive genes that promote cell growth and proliferation
+and inhibit apoptosis.
+
+Tremendous progress has been made toward the dissection
+of the molecular circuitry of the Hippo pathway and toward the
+understanding of the pathophysiology of this pathway in multiple
+organisms. By contrast, mechanistic and structural studies in
+this area have lagged behind. In particular, the activation mech-
+anisms of the core Mst1/2-Lats1/2 kinase cascade remain
+elusive. The upstream kinases Mst1/2 contain an N-terminal
+kinase domain and a C-terminal SARAH (Salvador/RASSF1A/
+Hippo) domain (Figure 1A). Mst1 and Mst2 can each form a
+constitutive homodimer through the SARAH domain, and kinase
+activation requires autophosphorylation of the activation loop
+(T183 for Mst1 and T180 for Mst2) (Avruch et al., 2012; Creasy
+et al., 1996). The Mst1/2 regulators, the Sav1 and RASSF
+proteins, also contain SARAH domains (Figure 1A). The Mst1/2
+
+Structure 21, 1757–1768, October 8, 2013 ª2013 Elsevier Ltd All rights reserved 1757
+
+Crystal Structures of Mst2 Kinase and Mst2-RASSF5
+
+Structure
+
+Figure 1. Structural Basis for Mst2 Autoacti-
+vation
+(A) Domain organization of human Mst2 and
+RASSF5. RA, Ras-association domain. Residue
+numbers for
+the boundaries of corresponding
+domains are labeled.
+(B) Structure superposition of the kinase-active
+Mst1 kinase domain (PDB code: 3COM) and the
+kinase-inactive Mst2 kinase domain (this study).
+Mst1 is indicated in gray, and Mst2 is indicated in
+green. The activation loop from Mst1 is indicated in
+orange with residues phospho-T177 and phospho-
+T183 shown in sticks. The activation loop from
+Mst2 is indicated in magenta.
+(C) Close-up view of the activation loops from Mst1
+and Mst2. The color scheme is the same as in (B).
+R148 and phospho-T183 of Mst1 are shown as
+sticks. T180 in Mst2 is shown as sticks and labeled
+in italics. All structural ﬁgures were generated with
+PyMOL (http://www.pymol.org).
+(D) SARAH-mediated homodimerization is critical
+for Mst2 auto-activation at T180. The kinetic pro-
+ﬁles of T180 autophosphorylation of full-length
+Mst2 (0.5 mM) and Mst2 kinase domain (KD)
+(0.5 mM) were shown. The relative a-Mst2 P-T180
+intensities were normalized against Mst2 reaction
+at 60 min (100%).
+(E) Mst2 kinase domain alone is inefﬁcient in T180
+autophosphorylation. The kinetic proﬁles of T180
+autophosphorylation of Mst2 kinase domain (KD)
+at two different concentrations (2 mM and 0.5 mM)
+are shown. The relative a-Mst2 P-T180 intensities
+were normalized against Mst2KD without l phos-
+phatase treatment (100%). Data are representative
+of at least two independent experiments.
+See also Figure S1.
+
+SARAH domain can form a heterodimer with RASSF SARAH
+(Hwang et al., 2007) and a heterotetramer with Sav1 SARAH
+(data not shown). RASSF binding and Sav1 binding to Mst1/2
+are mutually exclusive. How RASSFs and Sav1 regulate
+Mst1/2 activation by forming different SARAH-domain-depen-
+dent complexes is not understood.
+
+RASSFs are important tumor suppressors (Avruch et al., 2009;
+Richter et al., 2009). Their expression is frequently silenced in
+human cancers through promoter methylation, and reintroduced
+expression of RASSF1A or RASSF5 inhibits human tumor cell
+growth (Aoyama et al., 2004). In addition, RASSF1A knockout
+mice have increased spontaneous and chemical-induced tumor
+susceptibility (Tommasi et al., 2005). The roles of RASSFs in the
+tumor-suppressive Hippo pathway are far from clear, however.
+In Drosophila, the only RASSF protein (dRASSF) forms a hetero-
+dimer with Hippo through SARAH heterodimerization and pre-
+vents Salvador from binding to Hippo, thereby inhibiting the
+Hippo pathway (Polesello et al., 2006). Paradoxically, dRASSF
+also antagonizes Ras signaling and,
+in this capacity, has
+tumor-suppressive function. In mammals, RASSF1, RASSF5,
+and RASSF6 block Mst1/2 autophosphorylation and activation,
+
+possibly through SARAH heterodimeriza-
+tion (Ikeda et al., 2009; Khokhlatchev
+et al., 2002; Praskova et al., 2004). On
+the other hand, RASSFs can positively
+regulate Mst1/2 (Guo et al., 2007; Oh et al., 2006). For example,
+coexpression of RASSFs with Ras enhances the Mst1 kinase
+activity. RASSF1A disrupts the interaction between proto-onco-
+gene Raf1 and Mst2 and enhances the Mst2-Lats1 interaction to
+promote apoptosis through the Hippo pathway (Matallanas
+et al., 2007). RASSF2 associates with Mst1/2 through its SARAH
+domain to stabilize and activate Mst1/2 (Cooper et al., 2009;
+Song et al., 2010). Thus, in both Drosophila and mammals,
+RASSFs appear to have both negative and positive regulatory
+functions in the Hippo pathway.
+
+Here, we report the crystal structures of the human Mst2
+kinase domain and Mst2 in complex with the SARAH domain
+of RASSF5. SARAH-mediated homodimerization of Mst2 is
+critical for its transautophosphorylation and activation. RASSF5
+disrupts this dimer interface and blocks Mst2 autoactivation.
+It is interesting that binding of RASSF5 to Mst2 that has
+already undergone autoactivation does not inhibit the kinase
+activity of Mst2 toward the downstream substrate Mob1.
+This lack of inhibition of active Mst2 might permit RASSF5 to
+have a positive regulatory role in the Hippo signaling. Thus, the
+order of RASSF5 binding and activation-loop phosphorylation
+
+1758 Structure 21, 1757–1768, October 8, 2013 ª2013 Elsevier Ltd All rights reserved
+
+Structure
+
+Crystal Structures of Mst2 Kinase and Mst2-RASSF5
+
+Table 1. X-Ray Crystallography Data Collection and Reﬁnement Statistics for Mst2KD and Mst2-RASSF5
+
+Statistics
+
+Data Collection
+
+Space group
+
+Energy (eV)
+Resolution range (A˚ )
+
+Unique reﬂections
+
+Multiplicity
+
+Data completeness (%)
+Rmerge (%)a
+I/s(I)
+Wilson B value (A˚ 2)
+
+Crystal
+Mst2KD
+
+C2
+
+12,683.7
+
+Mst2-RASSF5
+
+Mst2-RASSF5 SeMet
+
+C2
+
+12,683.7
+
+C2
+
+12,683.7
+
+46.0–2.42 (2.46–2.42)
+
+47.1–3.05 (3.10–3.05)
+
+45.6–3.55 (3.61–3.55)
+
+83,949 (3,787)
+
+65,746 (2,170)
+
+31,896 (1,617)
+
+4.5 (3.5)
+
+99.5 (91.2)
+
+5.2 (53.7)
+
+27.4 (1.7)
+
+56.4
+
+4.1 (3.8)
+
+99.1 (90.7)
+
+10.9 (76.2)
+
+14.4 (1.6)
+
+80.2
+
+4.5 (4.4)
+
+99.9 (100.0)
+
+14.9 (76.5)
+
+11.7 (1.7)
+
+82.7
+
+Mst2KD
+
+Mst2-RASSF5
+
+Reﬁnement Statistics
+Resolution range (A˚ )
+
+Number of reﬂections Rwork/Rfree
+
+Data completeness (%)
+
+29.8–2.42 (2.48–2.42)
+
+83,826/1,997 (5,491/134)
+
+99.5 (94.0)
+
+Atoms (non-H protein/nucleotide/solvent/)
+
+13,179/NA/279
+
+Rwork (%)
+
+Rfree (%)
+rmsd bond length (A˚ )
+
+
+rmsd bond angle (
+Mean B value (A˚ 2) (protein/nucleotide/solvent)
+
+)
+
+Ramachandran plot (%) (favored/additional/
+disallowed)b
+
+19.3 (26.4)
+
+23.1 (32.4)
+
+0.002
+
+0.64
+
+79.7/NA/60.0
+
+96.4/3.4/0.2
+
+29.6–3.05 (3.11–3.05)
+
+50,374/2,524 (2,308/124)
+
+98.6 (88.9)
+
+12,609/124/NA
+
+19.9 (29.9)
+
+24.4 (36.9)
+
+0.006
+
+0.61
+
+135.8/142.9/NA
+
+95.4/4.3/0.3
+
+Maximum likelihood coordinate error
+
+0.30
+
+0.29
+
+Missing residues, by chain
+
+A: 16–17, 36–37, 309–313; B: 16–18,
+36–38, 165–170, 306–313; C: 16–17,
+308–313; D: 16–25, 48–51, 58–68,
+92–95, 165–182, 309–313; E: 16–17,
+35–38, 59–63, 174–179, 303–313;
+F: 16–17, 166–182, 309–313
+
+A: 9–15, 428–436, 489–491; B: 9, 428–442,
+489–491; C: 9–11, 33–39, 428–436, 491;
+D: 9–10, 428–454, 490–491; E: 366; F: 366–369,
+399–413; H: 406–413
+
+Data for the outermost shell are given in parentheses. NA, not applicable; SeMet, selenomethionine.
+
+aRmerge = 100 ShSijIh, i   hIhij/ShSiIh, i, where the outer sum (h) is over the unique reﬂections and the inner sum (i) is over the set of independent obser-
+
+vations of each unique reﬂection.
+bAs deﬁned by the validation suite MolProbity.
+
+determines whether RASSF5 acts as an inhibitor of Mst2. We
+speculate that the temporal regulation of the binding between
+Mst1/2 and RASSFs might enable RASSFs to perform dual func-
+tions in the Hippo pathway.
+
+RESULTS AND DISCUSSION
+
+Structure of the Mst2 Kinase Domain in Its Inactive State
+The crystal structure of the activated Mst1 kinase domain
+(Mst1KD), with two residues (T177 and T183) of its activation
+loop phosphorylated, has recently been determined in a struc-
+tural genomics effort. The structure of the Mst1/2 kinase domain
+in its inactive, unphosphorylated state is unknown, however. We
+thus created a catalytically inactive mutant of the human Mst2
+kinase domain (Mst2KD/D146N), with its catalytic residue D146
+mutated to an asparagine and determined its crystal structure
+(Figure 1B). The structure was solved by molecular replacement
+
+(MR) with the Mst1KD structure (Protein Data Bank [PDB] code
+3COM) as the search model (Table 1). The kinase domain of
+Mst2 in our structure adopts a canonical kinase fold, without
+Mg2+-ATP bound to the active site located at the interface of
+the N and C lobes. The salt bridge between K56 of strand b3
+and E70 of helix aC (which is critical for ATP binding) is not pre-
+sent in our unphosphorylated Mst2 structure. The overall struc-
+tures of the Mst1 and Mst2 kinase domains are very similar,
+with a root-mean-square deviation (rmsd) of 1.0 A˚ excluding
+the activation loop, as expected from their 90% amino acid iden-
+tity (Figure 1B). Comparison of the inactive and active states of
+Mst1/2, however, reveals phosphorylation-dependent confor-
+mational changes in its activation loop. The phosphorylated acti-
+vation loop in the active Mst1 adopts an extended conformation
+suitable for substrate binding (Figure 1C). As in other kinases that
+require activation-loop phosphorylation for activation, the phos-
+phoresidue in the activation loop (T183 in Mst1) makes favorable
+
+Structure 21, 1757–1768, October 8, 2013 ª2013 Elsevier Ltd All rights reserved 1759
+
+Crystal Structures of Mst2 Kinase and Mst2-RASSF5
+
+Structure
+
+Figure 2. The Conventional Model for Mst2
+Transautophosphorylation
+(A) T180 phosphorylation is critical for the Mst2
+kinase activity. In vitro kinase assay of Mst2 kinase
+domain (KD) and its mutants using Mob1 as sub-
+strate and in the presence of g-32P-ATP. The re-
+action mixtures were separated on SDS-PAGE
+and analyzed by a phosphorimager (top) and
+Coomassie blue staining (bottom). Each reaction
+was done in duplicate.
+(B) The phosphorylation-defective mutant T180A
+of Mst2 kinase domain (KD) phosphorylates
+kinase-inactive Mst2KD/D146N more efﬁciently than
+it phosphorylates Mob1. The kinetic proﬁles of
+Mst2KD/D146N and Mob1 phosphorylation by either
+Mst2KD or Mst2KD/T180A were shown on the left. An
+enlarged view of the boxed region on the left graph
+is shown on the right. The 32P intensities were
+normalized against Mst2KD WT reactions at 60 min
+(100%) with substrates Mst2KD/D146N and Mob1,
+respectively. Data are representative of at least
+two independent experiments.
+See also Figure S2.
+
+electrostatic interactions with the arginine (R148 in Mst1) in the
+catalytic loop. By contrast, the unphosphorylated activation
+loop in the inactive Mst2 structure folds into an a helix that blocks
+the active site of the kinase. Phosphorylation-mediated confor-
+mational rearrangement of its activation loop thus underlies
+Mst1/2 activation.
+
+Mst2 Undergoes Activation through
+Transautophosphorylation of T180
+The full-length Mst1/2 or their kinase domains puriﬁed from bac-
+teria are phosphorylated at their respective activation loops,
+indicating that Mst1/2 can undergo autophosphorylation-depen-
+dent activation and does not require upstream kinases for activa-
+tion. To monitor the kinetics of Mst2 activation in vitro, we treated
+puriﬁed, active Mst2 with l phosphatase to remove its activa-
+tion-loop phosphorylation,
+incubated the dephosphorylated
+Mst2 with cold ATP for 1 hr, and blotted Mst2 with an antibody
+against phospho-T180 Mst2 (a-Mst2 pT180). The full-length
+Mst2 indeed underwent efﬁcient autophosphorylation at T180
+in vitro (Figure 1D). By contrast, the Mst2 kinase domain alone
+was inefﬁcient in T180 autophosphorylation, even at a higher
+concentration (Figure 1E). Consistent with previous ﬁndings,
+the full-length Mst2 eluted as a dimer during gel ﬁltration,
+whereas the kinase domain of Mst2 migrated predominantly as
+a monomer (Figure S1 available online). Our results suggest
+that the C-terminal SARAH domain of Mst2 is critical for the
+homodimerization of Mst2 and for T180 autophosphorylation
+and Mst2 activation.
+
+In the conventional model of the initial activation of kinases
+that undergo activation-loop transautophosphorylation,
+the
+activation loop of an unphosphorylated kinase molecule tran-
+siently adopts an active conformation and phosphorylates the
+activation loop of a neighboring kinase molecule to fully activate
+
+it (Pirruccello et al., 2006). We tested
+whether Mst2 used a similar transauto-
+phosphorylation mechanism. Mst2 un-
+dergoes autophosphorylation on two residues: T174 and T180
+in its activation loop. The T174A mutant of the Mst2 kinase
+domain (Mst2KD/T174A) is fully active, whereas the T180A mutant
+is largely inactive toward a key downstream substrate Mob1
+(Figure 2A). Thus, T180 phosphorylation, but not T174 phosphor-
+ylation, is critical for Mst2 activation. Mst2KD phosphorylated the
+catalytically inactive Mst2KD/D146N, indicating that Mst2 could
+undergo transautophosphorylation (Figures 2B and S2). It is
+interesting that, despite not being able to permanently reach
+the phosphorylated active state, the phosphorylation-deﬁcient
+Mst2KD/T180A mutant phosphorylated Mst2KD/D146N to some
+extent and,
+in fact, more efﬁciently than it phosphorylated
+Mob1 (Figure 2B). Thus, the unphosphorylated activation loop
+of Mst2 might transiently adopt a conformation that is more
+amenable for transautophosphorylation than for phosphoryla-
+tion of a bona ﬁde substrate. Our results support the conven-
+tional model for Mst2 transautoactivation.
+
+Distinct Residues Mediate Mst2 Autophosphorylation
+and Phosphorylation of Its Downstream Substrates
+Despite being predominantly a monomer on gel ﬁltration col-
+umns (Figure S1B), the Mst2 kinase domain exists as a homo-
+dimer in the crystal (Figure 3A). The Mst2 kinase domain in
+isolation indeed formed a weak dimer in solution, with a dissoci-
+ation constant, KD, of 36 mM as measured by analytical ultracen-
+trifugation (Figures 3B and S3; Table S1). To test whether the
+weak dimerization of the Mst2 kinase domain involved the inter-
+face observed in the crystal, we introduced mutations at this
+interface and measured the dimerization afﬁnity. Unexpectedly,
+none of the mutations appreciably altered the dimerization of
+the Mst2 kinase domain in its active or inactive states (Table
+S1). Therefore, this interface might not mediate the dimerization
+seen in solution.
+
+1760 Structure 21, 1757–1768, October 8, 2013 ª2013 Elsevier Ltd All rights reserved
+
+Structure
+
+Crystal Structures of Mst2 Kinase and Mst2-RASSF5
+
+Figure 3. Identiﬁcation of Key Residues Required for Mst2 Autophosphorylation
+(A) Ribbon drawing of the Mst2 crystallographic dimer. Monomer A is colored green, and the activation loop is colored magenta. Monomer B is colored cyan, and
+the activation loop is colored wheat. I193 is shown in sticks.
+(B) Sedimentation velocity analytical ultracentrifugation analysis of Mst2KD/D146N. Three c(s) size distributions are shown, normalized by the total amount of signal
+in each. The distributions represent three separate sedimentation velocity experiments performed at differing concentrations. Populations of monomer (2.9 S) and
+dimer (4.1 S) change as a function of concentration, a hallmark of a monomer-dimer equilibrium. This part was made using GUSSI (http://biophysics.swmed.edu/
+MBR/software.html). S, sedimentation coefﬁcient.
+(C) In vitro kinase assay of the interface mutants of Mst2 kinase domain based on the structure shown in (A). Mst2KD/D146N was used as the substrate. The
+autoradiography of 32P incorporation is shown at the top. The 32P intensities of each mutant normalized against WT Mst2KD (100%) were quantiﬁed and are
+indicated below the autoradiography. The western blot of phospho-T180 Mst2 is shown in the middle. The Coomassie blue staining of Mst2KD/D146N is shown at
+the bottom.
+(D) In vitro kinase assay of the interface mutants of Mst2 kinase domain using Mob1 as the substrate. The autoradiography of 32P incorporation is shown at the
+top. The 32P intensities of each mutant normalized against WT Mst2KD (100%) were quantiﬁed and are indicated below the autoradiography. The Coomassie blue
+staining of Mob1 was shown in the lower panel.
+See also Figure S3 and Table S1.
+
+Because our mutations targeted residues close to the active
+site, we tested the ability of these mutants to phosphorylate
+the kinase-inactive Mst2KD/D146N or its downstream substrate
+Mob1. Based on both 32P incorporation and anti-Mst2 pT180
+blot, two mutations, I193A and F231A, severely inhibited Mst2
+autophosphorylation at T180 (Figure 3C). Whereas the F231A
+mutant was also defective in Mob1 phosphorylation, the I193A
+mutant was fully functional in Mob1 phosphorylation (Figure 3D).
+On the other hand, the M227A/I230A mutant was capable of un-
+dergoing autophosphorylation at T180 but was inactive toward
+Mob1. Therefore, Mst2 appears to use overlapping but distinct
+surfaces to perform transautophosphorylation or phosphoryla-
+tion of other substrates. I193 is speciﬁcally involved in autophos-
+phorylation. We note that the I193A mutant puriﬁed from bacteria
+still underwent autophosphorylation at T180, indicating that this
+residue is not absolutely required for Mst2 autoactivation.
+
+Of note,
+
+the I193A mutation inhibited Mst2 autophos-
+phorylation at T180, even in the context of the full-length Mst2
+(Figure 4A). Furthermore, ectopic expression of Flag-Mst2
+wild-type (WT), but not the I193A and F231A mutants, enhanced
+
+the phosphorylation of HA-YAP and Myc-Lats1/2 in human cells
+(Figures 4B and 4C), indicating that I193 was required for Mst2
+activity and function in vivo.
+
+The underlying reason for why Mst2 I193A undergoes auto-
+phosphorylation in bacteria, but not in human cells, is unclear
+at present, but this difference could be due to the presence of
+phosphatases in human cells. A similar mutation in the Hippo
+kinase domain has been shown to impair Hippo autophosphor-
+ylation and activation in Drosophila, suggesting that the activa-
+tion mechanism of Mst1/2 is conserved (Jin et al., 2012). Finally,
+our results indicate that SARAH-mediated dimerization of Mst2
+is critical for Mst2 autophosphorylation and activation. Even
+though the Mst2 kinase domain in isolation forms a weak dimer,
+there is no evidence supporting the importance of this dimeriza-
+tion in Mst2 activation.
+
+Structure of the Mst2-RASSF5 Complex
+We failed to obtain crystals of full-length Mst1/2. We thus
+analyzed the overall structural architecture of Mst2 by nuclear
+magnetic resonance (NMR) spectroscopy. Due to the large
+
+Structure 21, 1757–1768, October 8, 2013 ª2013 Elsevier Ltd All rights reserved 1761
+
+Crystal Structures of Mst2 Kinase and Mst2-RASSF5
+
+Structure
+
+Figure 4. Mst2 Autoactivation Is Required
+for Lats1/2 and YAP Phosphorylation in
+Human Cells
+I193A inhibits Mst2 autophosphorylation at
+(A)
+T180, even in the context of
+the full-length
+Mst2. The kinetics proﬁles of T180 autophos-
+phorylation of full-length Mst2 (at 0.5 mM), full-
+length point mutant Mst2I193A (at 0.5 mM), and
+Mst2KD/I193A (at 2 mM and 0.5 mM) are shown on
+the left. An enlarged view of the boxed region in
+the left graph is shown on the right. The full-
+length Mst2I193A was slightly more efﬁcient
+than Mst2KD/I193A in autophosphorylation. Data
+are representative of at least two independent
+experiments.
+(B) Overexpression of Flag-Mst2 WT, but not
+the I193A and F231A mutants, enhanced the
+phosphorylation of HA-YAP. Anti-HA immuno-
+precipitation (IP) from HEK293 cells expressing
+the indicated constructs was probed with
+a-phospho-YAP and a-YAP (HA). A fraction of
+the cell lysate was probed with a-Mst2 (Flag) to
+evaluate protein expression levels.
+(C) Overexpression of Flag-Mst2 WT, but not
+the I193A and F231A mutants, enhanced the
+phosphorylation of Myc-Lats1 (left) and Myc-Lats2 (right). Myc-IP from HEK293 cells expressing the indicated constructs was probed with a-phospho-
+Wts and a-Myc. A fraction of the cell lysate was probed with a-Mst2 (Flag) to evaluate protein expression levels.
+See also Figure S4.
+
+molecular weight of Mst2, the transverse relaxation optimized
+spectroscopy (TROSY) version of heteronuclear single-quantum
+correlation (HSQC) experiments was performed (Pervushin,
+2000). The 1H/15N TROSY-HSQC spectrum of Mst2 contained
+many sharp peaks between 7.5 and 8.5 parts per million (ppm)
+in the 1H dimension, indicating that many residues of Mst2
+were disordered (Figure S4A). By contrast, the 1H/15N TROSY-
+HSQC spectrum of the Mst2 mutant with its linker between the
+kinase and SARAH domains deleted (Mst2DL) had few sharp
+peaks, indicating that the Mst2 linker was natively unfolded (Fig-
+ure S4B). Therefore, Mst2 existed as a homodimer with two
+juxtaposed kinase-domain heads and a SARAH coiled-coil
+domain connected by ﬂexible linkers (Figure S4C). Mst2DL was
+fully functional and capable of autophosphorylation (Figure S4D).
+Similar to Mst2WT, Mst2DL formed a 1:1 heterodimer with
+RASSF5 on a gel ﬁltration column (Figures S5A and S5B). We
+thus used Mst2DL in subsequent structural studies.
+
+We determined the structure of kinase-dead Mst2DL/D146N
+bound to AMP-PNP and the SARAH domain of RASSF5, which
+we refer to as Mst2-RASSF5 hereinafter for simplicity. Mst2-
+RASSF5 again formed a dimer in crystal through the Mst2 kinase
+domain (Figure 5A). It is intriguing that, although the dimer inter-
+face of the Mst2 kinase domains also mainly involves aG, the
+relative orientation of the two kinase domains and their speciﬁc
+contacts are different from those observed in the active Mst1KD
+(Figure S5C) or inactive Mst2KD structures, suggesting that the
+dimer interfaces of Mst1/2 kinase heads in crystals might not
+be speciﬁc.
+
+The active site of Mst2-RASSF5 is well deﬁned, as the Mg2+
+ion and AMP-PNP are clearly visible in the electron density
+map. The kinase domain in Mst2-RASSF5 is very similar to the
+Mst2 kinase alone, except
+the activation-loop helix
+observed in the Mst2 kinase structure has partially melted in
+
+that
+
+the Mst2-RASSF5 structure (Figure S5D). The K56–E70 salt
+bridge between strand b3 and helix aC is also not formed in
+the Mst2-RASSF5 structure. The residual
+linker between the
+kinase domain and SARAH domain is invisible and, pre-
+sumably, disordered. The SARAH domains of Mst2 and
+RASSF5 form a long antiparallel coiled coil. Because the SARAH
+domains of Mst1 and Mst2 share 70% sequence identity (Fig-
+ure 5B), they most likely share the same fold. The solution
+structure of the Mst1 SARAH homodimer has been previously
+determined (Figure 5C) (Hwang et al., 2007). The surfaces of
+Mst1/2 SARAH for binding to RASSF5 SARAH (heterodimeriza-
+tion) or
+to another Mst1/2 SARAH (homodimerization) are
+virtually identical (Figures 5C and 5D), readily explaining the
+disruption of SARAH-mediated Mst2 homodimerization by
+RASSF5 binding (Figure 5E).
+
+Structural Determinants of Mst2 SARAH
+Homodimerization and Mst2-RASSF5 SARAH
+Heterodimerization
+Addition of puriﬁed RASSF5 to the full-length Mst2 abolished its
+autophosphorylation and activation in vitro (Figure 6A). To test
+whether RASSF5 blocked Mst2 activation through disrupting
+Mst2 homodimerization, we sought to obtain Mst2 mutants
+that retained homodimerization but lost their ability to heterodi-
+merize with RASSF5. Based on the Mst1 SARAH homodimer
+structure, we designed the point mutations of all conserved
+interface residues in the Mst2 SARAH domain (Figures 5B–5D).
+We systematically mutated these interface residues in the
+context of the full-length Mst2 and tested their dimerization in
+an in vitro binding assay (Figures 6B and 6C). Brieﬂy, we cotrans-
+lated HA- or Myc-Mst2 in rabbit reticulocyte lysate in the pres-
+ence of 35S-methionine and performed immunoprecipitation
+with anti-HA beads. The WT HA-Mst2 efﬁciently pulled down
+
+1762 Structure 21, 1757–1768, October 8, 2013 ª2013 Elsevier Ltd All rights reserved
+
+Structure
+
+Crystal Structures of Mst2 Kinase and Mst2-RASSF5
+
+Figure 5. Structure of the Mst2-RASSF5 Complex
+(A) Ribbon diagram of the crystallographic dimer of the Mst2-RASSF5 complex. In monomer A, Mst2 is colored green, RASSF5 is colored orange, and the
+activation loop is colored magenta. In monomer B, Mst2 is colored gray, RASSF5 is colored sand, and the activation loop is colored wheat. AMP-PNP is shown in
+sticks, and Mg2+ is shown as a gray sphere.
+(B) Sequence alignment of SARAH domains from Mst1/2 and RASSF proteins. The sequence alignment of Mst1 and Mst2 SARAH domains is shown at the top,
+with identical residues colored red and the conserved interface residues marked by asterisks. The secondary structure elements are shown above the sequences
+and colored green. The sequence alignment of RASSF SARAH domains is shown at the bottom. h, Homo sapiens; m, mouse; d, Drosophila; x, Xenopus;
+c, C. elegans. The conserved residues are shaded in yellow. W369 and F372 in the H1 helix are marked by asterisks. The secondary structure elements are shown
+above the sequences and colored orange.
+(C) The solution structure of Mst1 SARAH homodimer. Protomer A is colored green, and the conserved Mst1 interface residues are shown in sticks and labeled.
+Protomer B is colored light green.
+(D) The crystal structure of Mst2-RASSF5 SARAH heterodimer. The same color scheme as in (A) was used. The conserved interface residues are shown in sticks,
+and residues from Mst2 are labeled. The homodimerization-defective mutants are labeled in magenta, and K473 is indicated in red.
+(E) A schematic drawing of the SARAH domain exchange between the Mst2 homodimer and Mst2-RASSF5 heterodimer.
+See also Figure S5.
+
+Myc-Mst2, conﬁrming that Mst2 indeed formed dimers. Among
+the 14 mutants, Mst2 L448A, L452A, L455A, E462A, I463A,
+Y470A, and L478A displayed minimal dimerization (Figure 6C),
+indicating that the SARAH domain of Mst2 was the major dimer-
+ization interface. The weak dimerization of the Mst2 kinase
+domain was not detectable by this assay.
+
+Compared to the WT Mst2, HA-Mst2 L445A, D456A, L466A,
+R467A, R469A, K473A, and R474A still retained at least 30%
+binding to their Myc-tagged counterparts, (Figures 6B and 6C).
+We thus tested the binding of these 35S-labeled Mst2 mutants
+to glutathione S-transferase (GST)-RASSF5 SARAH. As ex-
+pected, Mst2 WT bound speciﬁcally to GST-RASSF5-SARAH
+but not to GST (Figures 6D and 6E). Six of the seven Mst2
+mutants had stronger binding to RASSF5, presumably because
+these mutations disrupted the Mst2 homodimerization more
+severely than they disrupted Mst2-RASSF5 heterodimerization.
+Only Mst2 K473A exhibited reduced RASSF5 binding, as
+
+compared to Mst2 WT. Mst2 K473A still underwent efﬁcient
+autophosphorylation and activation, which were not effectively
+blocked by RASSF5 (Figure 6A). This result conﬁrms that
+RASSF5 blocks Mst2 activation through disrupting SARAH-
+mediated Mst2 homodimerization.
+
+Functions of RASSFs in Mst1/2 Regulation
+If RASSF5 simply prevents Mst2 autophosphorylation and
+activation, then binding of RASSF5 to the already fully acti-
+vated Mst2 kinase should have no effect on the kinase
+activity.
+in the presence of RASSF5, the activated
+Mst2 phosphorylated either Mob1 or myelin basic protein
+(MBP) in a manner similar to that of Mst2 alone (Figures 7A
+and 7B). Therefore, RASSF5 does not inhibit the already acti-
+vated Mst2 kinase.
+
+Indeed,
+
+Collectively, our results support the following model for Mst1/2
+regulation by RASSFs (Figure 7C). When the Hippo pathway is
+
+Structure 21, 1757–1768, October 8, 2013 ª2013 Elsevier Ltd All rights reserved 1763
+
+Crystal Structures of Mst2 Kinase and Mst2-RASSF5
+
+Structure
+
+Figure 6. RASSF5 Blocks Mst2 Autoactivation through Heterodimerization
+(A) The kinetic proﬁles of T180 autophosphorylation of full-length Mst2, the full-length Mst2 and RASSF5-SARAH complex, the full-length point mutant Mst2K473A,
+and the full-length point mutant Mst2K473A and RASSF5-SARAH complex are shown. The relative a-Mst2 P-T180 intensities were normalized against Mst2
+reaction at 60 min (100%). Data are representative of at least two independent experiments.
+(B) In vitro dimerization assay of Mst2 mutants. HA- and Myc-tagged Mst2 proteins were cotranslated in vitro in the presence of 35S-methionine. The
+input (top) and anti-HA IP (bottom) were separated by SDS-PAGE and analyzed with a phosphor imager. Mutants that retain the dimerization ability were
+colored blue.
+(C) Quantiﬁcation of the homodimerization of Mst2 mutants in (B).
+(D) Binding between GST-RASSF5-SARAH and in-vitro-translated Mst2 proteins. Mst2K473A has a weakened interaction with GST-RASSF5 and is labeled in red.
+(E) Quantiﬁcation of GST-RASSF5 binding of Mst2 mutants in (D).
+
+off, RASSFs form heterodimers with Mst1/2 through heterotypic
+SARAH interactions, thus blocking the homodimerization and
+transautophosphorylation of Mst1/2. In this context, RASSFs
+act as inhibitors of apoptosis. When the Hippo pathway is
+on, Mst1/2 undergoes homodimerization and autoactivation,
+possibly through Sav1-dependent displacement of RASSFs.
+RASSFs can then bind to already activated Mst1/2. This binding
+does not inhibit the kinase activity of Mst1/2 but may instead
+promote the function of Mst1/2 through unknown mechanisms.
+In this capacity, RASSFs act as activators of apoptosis and
+tumor suppressors. Thus, RASSFs are double-edged swords
+in the Hippo pathway. Depending on the timing of their binding
+to Mst1/2 relative to Mst1/2 autophosphorylation, RASSFs can
+either function as inhibitors or activators of Mst1/2 and the Hippo
+pathway.
+
+Conclusions
+The Hippo pathway is a major regulatory pathway of cell prolifer-
+ation and survival. Dysregulation of the Hippo pathway is inti-
+mately linked to cancer. Our study provides key structural and
+mechanistic insights into the activation of Mst1/2, the upstream
+kinases in this pathway. In particular, we have revealed impor-
+tant roles of RASSFs in regulating Mst1/2 in vitro. Binding of
+RASSFs to unphosphorylated,
+inactive Mst1/2 blocks their
+autoactivation. Binding of RASSFs to the already activated
+Mst1/2 does not
+their kinase activities but may
+simulate Mst1/2 function through other mechanisms. Our study
+provides a potential explanation for the perplexing dual func-
+tions of RASSFs in vivo. By virtue of their ability to interact
+with both Mst1/2 and Ras proteins, RASSFs are at the intersec-
+tion of the Hippo and Ras pathways. Temporal regulation of the
+
+inhibit
+
+1764 Structure 21, 1757–1768, October 8, 2013 ª2013 Elsevier Ltd All rights reserved
+
+Structure
+
+Crystal Structures of Mst2 Kinase and Mst2-RASSF5
+
+Inhibit
+
+Figure 7. RASSF5 Does Not
+the
+Kinase Activity of Mst2 that Has Already
+Undergone Autoactivation
+(A) The kinetic proﬁles of Mob1 phosphorylation by
+the full-length Mst2 and the Mst2-RASSF5 com-
+plex containing already activated Mst2, as moni-
+tored by 32P incorporation.
+(B) The kinetic proﬁles of MBP phosphorylation by
+activated full-length Mst2, and by the Mst2-
+RASSF5 complex, as monitored by 32P incorpo-
+ration. Data are representative of four independent
+experiments.
+(C) Model for the dual modes of Mst2 regulation by
+RASSF5.
+
+
+
+Crystallization, Data Collection, and
+Structure Determination
+Mst2KD/D146N was crystallized at 4
+C using the
+hanging-drop vapor diffusion method with a reser-
+voir solution containing 0.2 M sodium citrate, 15%
+(w/v) polyethylene glycol (PEG) 3350, and 0.1 M
+HEPES (pH 7.7). The crystals were cryo-protected
+with the reservoir solution supplemented with 25%
+(v/v) glycerol and then ﬂash cooled in liquid nitro-
+gen. Crystals diffracted to a minimum Bragg
+spacing (dmin) of 2.42 A˚ and exhibited the symme-
+try of space group C2, with cell dimensions of a =
+and contained six Mst2KD/D146N
+
+227.2 A˚ , b = 69.8 A˚ , c = 148.1 A˚ , and b = 108.6
+molecules per asymmetric unit.
+
+
+
+
+
+binding between Mst1/2 and RASSFs affords an opportunity for
+the Hippo pathway to respond to and integrate diverse cellular
+signals.
+
+EXPERIMENTAL PROCEDURES
+
+Plasmids, Protein Expression, and Puriﬁcation
+The kinase domain of human Mst2 (Mst2KD, residues 16–313) was cloned into
+a modiﬁed pET28 vector (EMD Millipore) that included a tobacco etch virus
+(TEV) cleavage site at the N terminus. The full-length Mst2 (Mst2FL, residues
+9–491) and linker-deletion Mst2 (Mst2DL, residues 9–313 and 428–491) were
+cloned into a modiﬁed pET29 vector (EMD Millipore) that included an N-termi-
+nal His6 tag without a protease cleavage site. The C-terminal domain of Mst2
+(Mst2CTD, residues 314–491) and the SARAH domain of human RASSF5
+(RASSF5SARAH, residues 366–413) were cloned into a modiﬁed pGEX-6P vec-
+tor (GE Healthcare) that included a TEV cleavage site at their N termini. The
+Mst2 mutants were generated with the QuikChange mutagenesis kit (Strata-
+gene). All constructs were veriﬁed by DNA sequencing.
+
+When expressed alone in bacteria, the yield of Mst2 was extremely low.
+To obtain large quantities of soluble Mst2 proteins, we cotransformed the
+pET28-Mst2KD, pET29-Mst2FL, or pET29-Mst2DL plasmid into BL21(DE3)
+with pGEX-6p-Mst2CTD to produce N-terminal His6-tagged Mst2 proteins.
+Mst2KD was puriﬁed with Ni2+-NTA agarose resin (QIAGEN) and cleaved with
+TEV to remove the His6 tag. His6-Mst2FL and His6-Mst2DL were puriﬁed with
+Ni2+-NTA agarose resin. These proteins were further puriﬁed by a Resource
+Q anion exchange column and followed by a Superdex 200 gel ﬁltration col-
+umn (GE Healthcare). Puriﬁed Mst2 proteins were concentrated to 20 mg/ml
+in a buffer containing 20 mM Tris (pH 7.7), 100 mM NaCl, 2 mM MgCl2, and
+5 mM TCEP.
+
+The Mst2DL/D146N-RASSF5SARAH complex was obtained by coexpression
+of pET29-Mst2DL/D146N and pGEX-6p-RASSF5SARAH in the E. coli strain
+BL21(DE3). Mst2DL/D146N-RASSF5SARAH was puriﬁed with Glutathione Sephar-
+ose 4B beads (GE Healthcare) and cleaved with TEV to remove the GST
+moiety. Mst2DL/D146N-RASSF5SARAH was further puriﬁed by a Superdex
+200 gel ﬁltration column and then concentrated to 10 mg/ml in a buffer contain-
+ing 20 mM Tris (pH 7.7), 100 mM NaCl, 2 mM MgCl2 and 5 mM TCEP. The
+selenomethionine-labeled Mst2DL/D146N-RASSF5SARAH was produced using
+the methionine biosynthesis inhibition method (Van Duyne et al., 1993).
+
+Mst2DL/D146N-RASSF5SARAH was crystallized at 20
+
+C using the hanging-
+drop vapor diffusion method with a reservoir solution containing 0.1 M Bis-
+Tris propane (pH 8.5), 200 mM Na2SO4, and 20% (w/v) PEG 3350. The crystals
+were cryo-protected with the reservoir solution supplemented with 25%
+glycerol and then ﬂash cooled in liquid nitrogen. Native crystals diffracted to
+a minimum Bragg spacing (dmin) of 3.05 A˚ and exhibited the symmetry of space
+group C2, with cell dimensions of a = 123.4 A˚ , b = 237.1 A˚ , c = 95.9 A˚ , and
+
+b = 100.7
+and contained four Mst2-RASSF5 heterodimers per asymmetric
+unit. The selenomethionine-derivatized Mst2DL/D146N-RASSF5SARAH crystals
+were obtained in the same way and had similar cell parameters. The selenome-
+thionine-derivatized crystals only diffracted to a minimum Bragg spacing of
+3.55 A˚ . All crystals showed signiﬁcant anisotropic diffraction. Single-
+wavelength anomalous dispersion (SAD) data on the selenomethionine
+Mst2DL/D146N-RASSF5SARAH crystals were collected at 3.55 A˚ , with weak
+anomalous signal present to about 5 A˚ .
+
+All diffraction data were collected at beamline 19-ID (SBC-CAT) at the
+Advanced Photon Source (Argonne National Laboratory, Argonne, IL, USA)
+and processed with HKL3000 (Otwinowski and Minor, 1997). Phases for
+Mst2KD/D146N were obtained by MR with Phaser using the crystal structure of
+human Mst1 kinase domain (PDB code: 3COM) as the search model (McCoy
+et al., 2007). Iterative model building and reﬁnement were performed with
+COOT and Phenix, respectively (Adams et al., 2010; Emsley and Cowtan,
+2004). The ﬁnal model for Mst2KD/D146N (Rwork = 19.3%, Rfree = 23.1%) con-
+tained 1,646 residues in six monomers, 279 water molecules, and four glyc-
+erols. Two residues, L33 and D164, are outliers in the Ramachandran plot as
+deﬁned in the program MolProbity (Davis et al., 2007). Both are located in sur-
+face loops with poor electron density.
+
+Phases for Mst2DL/D146N-RASSF5SARAH were ﬁrst obtained by MR with
+Phaser using Mst2KD/D146N structure as the search model. Phenix was used
+to build and reﬁne a partial model only containing the Mst2 kinase domain.
+The resulting electron density map clearly showed several helices from the
+SARAH domains, yet the primary sequence for these helices was impossible
+to assign due to poor side chain density, and the density for the RASSF5SARAH
+helices was weak and disconnected. The MR-SAD module of Phaser was used
+to calculate initial phases to 3.6 A˚
+from the MR solution and the known 36
+selenium sites in the Mst2DL/D146N kinase domains from a selenium-SAD
+experiment, and to locate the remaining 16 selenium sites in the SARAH
+
+Structure 21, 1757–1768, October 8, 2013 ª2013 Elsevier Ltd All rights reserved 1765
+
+domains of Mst2DL/D146N. Iterative cycles of solvent ﬂattening and 4-fold
+averaging in Parrot, automatic model building in Buccaneer, and phase calcu-
+lation and reﬁnement in the MR-SAD module of Phaser resulted in a model
+with 1,483 residues (89%) built and assigned (Winn et al., 2011). The side
+chain assignment of RASSF5SARAH was further conﬁrmed by packing interac-
+tions with the Mst2DL/D146N SARAH domain. Completion of the model and
+ﬁnal reﬁnement was performed using the native data to 3.05 A˚ . The ﬁnal model
+for Mst2DL/D146N-RASSF5SARAH (Rwork = 19.9%, Rfree = 24.4%) contained
+1,551 residues in four monomers, four molecules of Mg2+-AMP-PNP, three
+sodium ions, and nine sulfate ions. Three residues, E31, T174, and E311, are
+outliers in the Ramachandran plot, as deﬁned in the program MolProbity,
+and are located in surface loops with weak electron density. Data collection
+and structure reﬁnement statistics are summarized in Table 1.
+
+
+
+Analytical Ultracentrifugation
+All sedimentation velocity analytical ultracentrifugation experiments were per-
+C using a Beckman-Coulter Optima XL-I
+formed in an An-50Ti rotor at 20
+analytical ultracentrifuge. Protein samples (400 ml) in the gel ﬁltration buffer
+(20 mM Tris, pH 7.7, 100 mM NaCl, 2 mM MgCl2, 1 mM TCEP) at three different
+concentrations in the range of 2–100 mM were placed in one sector of centri-
+fugation cells that housed dual-sector charcoal-ﬁlled Epon centerpieces.
+The same volumes of the gel ﬁltration buffer were placed in the other sector
+of centerpieces as reference. The sealed centrifugation cells and the rotor
+were incubated at the experimental temperature under vacuum for at least
+2 hr prior to centrifugation. Samples were centrifuged at 50,000 rpm until the
+boundary region reached the bottom of cells. Concentration proﬁles of the pro-
+teins were monitored using the on-board absorption optical system tuned to
+280 nm and, where appropriate, the Rayleigh interferometer. The partial spe-
+ciﬁc volume (0.7421 ml/g) based on the amino acid sequence, the solution
+density (1.00309 g/ml), and the viscosity (0.010177 P) of the buffer was calcu-
+lated using SEDNTERP (Laue et al., 1992). Data were directly ﬁtted and
+optimized to the monomer-dimer self-association model with the Marquardt-
+Levenberg methods using the Lamm equation with explicit reaction kinetics
+in SEDPHAT
+(Brautigam,
+2011; Schuck, 2003). A global analysis was performed for data sets obtained
+at different protein concentrations to calculate the dissociation constant for
+each protein sample.
+
+(http://www.analyticalultracentrifugation.com)
+
+
+
+NMR Spectroscopy
+C on a Varian INOVA 600 MHz four-
+All NMR spectra were acquired at 30
+channel spectrometer equipped with a pulsed-ﬁeld gradient triple resonance
+probe using H2O/D2O 95:5 (v/v) as the solvent. Samples typically contained
+0.1 mM 15N-labeled protein in the NMR buffer consisting of 20 mM sodium
+phosphate (pH 6.8), 100 mM KCl, 2 mM MgCl2, and 1 mM dithiothreitol
+(DTT). The data were processed and analyzed with NMRPipe and NMRView
+(Delaglio et al., 1995; Johnson and Blevins, 1994).
+
+In Vitro Kinase Assays and Autophosphorylation
+For in vitro kinase assays, 0.025–0.4 mM Mst2 kinase or its mutants, either
+alone or in complex with RASSF5, was incubated in the kinase buffer contain-
+ing 50 mM Tris (pH 7.5), 150 mM NaCl, 10 mM MgCl2, 1 mM ATP, 1 mM DTT,
+and 0.1 mCi/ml g-32P-ATP with 40 mM substrate (Mob1, or Mst2KD/D146N, or
+MBP) for 30 min at room temperature. The reaction was terminated by
+adding 53 SDS sample buffer and followed by boiling for 5 min in 100
+C
+water bath. The mixture was separated by SDS-PAGE and analyzed by
+autoradiography.
+
+
+
+
+
+For autophosphorylation experiments, the WT Mst2 protein puriﬁed from
+E. coli was treated with lambda (l) protein phosphatase (New England Biolabs)
+C for 40 min to remove the phosphorylation at T180. The reaction was
+at 30
+stopped by adding phosphatase inhibitor Na3VO4 to a ﬁnal concentration of
+3 mM. The treated Mst2 was then incubated at room temperature in the kinase
+buffer containing 50 mM Tris (pH 7.5), 150 mM NaCl, 10 mM MgCl2, 1 mM ATP,
+1 mM DTT, and 1 mM Na3VO4. At the indicated time intervals, aliquots were
+removed and mixed with 53 SDS sample buffer. The autophosphorylation
+product was detected by western blot using a speciﬁc antibody against
+phospho-T180 of Mst2 (Cell Signaling) and quantiﬁed with the Odyssey LI-
+COR imaging system.
+
+Crystal Structures of Mst2 Kinase and Mst2-RASSF5
+
+Structure
+
+Cell Culture and Transfection
+HEK293 cells were grown in Dulbecco’s modiﬁed Eagle’s medium (Invitrogen)
+supplemented with 10% fetal bovine serum. Plasmid transfections were per-
+formed with the Effectene reagent (QIAGEN) according to manufacturer’s
+instructions. HA-YAP, Flag-Mst2, Myc-Lats1, and Myc-Lats2 have been
+described elsewhere (Dong et al., 2007). Flag-Mst2I193A and Flag-Mst2F231A
+were made using the QuikChange mutagenesis kit (Stratagene). All clones
+were veriﬁed by DNA sequencing. Immunoprecipitation was performed as
+described elsewhere (Yu et al., 2010). The western blots were developed using
+the Amersham ECL chemi-luminescence system (GE Healthcare).
+
+In Vitro Binding Assays
+To assay Mst2 homodimerization, same amounts of plasmids encoding Myc-
+or HA-tagged Mst2 WT or point mutants were translated in reticulocyte lysate
+in the presence of 35S-methionine. Afﬁ-Prep protein A beads (Bio-Rad) cova-
+lently coupled to a-HA monoclonal antibodies (Roche) were incubated with
+35S-labeled Mst2 and washed three times with Tris-buffered saline (TBS) con-
+taining 0.05% Tween. The bound proteins were separated by SDS-PAGE and
+analyzed with a phosphor imager (Fujiﬁlm).
+
+To assay the binding between human Mst2 and RASSF5 proteins, the full-
+length WT or point mutants of Mst2 were translated in reticulocyte lysate in
+the presence of 35S-methionine. Puriﬁed GST-RASSF5SARAH was bound to
+incubated with 35S-labeled
+glutathione-agarose beads (GE Healthcare),
+Mst2 proteins, and washed three times with TBS containing 0.05% Tween.
+The proteins retained on the beads were analyzed by SDS-PAGE followed
+by autoradiography. Glutathione-agarose beads bound to GST were used
+as controls.
+
+ACCESSION NUMBERS
+
+The atomic coordinates and structure factors for human Mst2 kinase domain
+and Mst2-RASSF5 have been deposited in the PDB with the ID codes 4LG4
+and 4LGD, respectively.
+
+SUPPLEMENTAL INFORMATION
+
+Supplemental Information includes ﬁve ﬁgures and one table and can be found
+with this article online at http://dx.doi.org/10.1016/j.str.2013.07.008.
+
+ACKNOWLEDGMENTS
+
+We thank Hongtao Yu for discussion and critical reading of the manuscript. We
+also thank Boning Gao for providing the RASSF5 plasmid. Results shown in
+this study are derived from work performed at Argonne National Laboratory,
+Structural Biology Center at the Advanced Photon Source. The Argonne Na-
+tional Laboratory is operated by the University of Chicago Argonne, LLC, for
+the U.S. Department of Energy, Ofﬁce of Biological and Environmental
+Research, under contract DE-AC02-06CH11357. This work was supported
+in part by grants from the National Institutes of Health (GM085004 to X.L.
+and EY015708 to D.P.). J.Y. is a recipient of a Young Investigator Award
+from the Children’s Tumor Foundation. D.P. is an investigator of the Howard
+Hughes Medical Institute.
+
+Received: June 4, 2013
+Revised: July 12, 2013
+Accepted: July 16, 2013
+Published: August 22, 2013
+
+REFERENCES
+
+Adams, P.D., Afonine, P.V., Bunko´ czi, G., Chen, V.B., Davis, I.W., Echols, N.,
+Headd, J.J., Hung, L.W., Kapral, G.J., Grosse-Kunstleve, R.W., et al. (2010).
+PHENIX: a comprehensive Python-based system for macromolecular struc-
+ture solution. Acta Crystallogr. D Biol. Crystallogr. 66, 213–221.
+
+Aoyama, Y., Avruch, J., and Zhang, X.F. (2004). Nore1 inhibits tumor cell
+growth independent of Ras or the MST1/2 kinases. Oncogene 23, 3426–3433.
+
+1766 Structure 21, 1757–1768, October 8, 2013 ª2013 Elsevier Ltd All rights reserved
+
+Structure
+
+Crystal Structures of Mst2 Kinase and Mst2-RASSF5
+
+Avruch, J., Xavier, R., Bardeesy, N., Zhang, X.F., Praskova, M., Zhou, D., and
+Xia, F. (2009). Rassf family of tumor suppressor polypeptides. J. Biol. Chem.
+284, 11001–11005.
+
+Jin, Y., Dong, L., Lu, Y., Wu, W., Hao, Q., Zhou, Z., Jiang, J., Zhao, Y., and
+Zhang, L. (2012). Dimerization and cytoplasmic localization regulate Hippo
+kinase signaling activity in organ size control. J. Biol. Chem. 287, 5784–5796.
+
+Avruch, J., Zhou, D., Fitamant, J., Bardeesy, N., Mou, F., and Barrufet, L.R.
+(2012). Protein kinases of the Hippo pathway: regulation and substrates.
+Semin. Cell Dev. Biol. 23, 770–784.
+
+Badouel, C., Garg, A., and McNeill, H. (2009). Herding Hippos: regulating
+growth in ﬂies and man. Curr. Opin. Cell Biol. 21, 837–843.
+
+Johnson, B.A., and Blevins, R.A. (1994). NMR View: A computer program for
+the visualization and analysis of NMR data. J. Biomol. NMR 4, 603–614.
+
+Khokhlatchev, A., Rabizadeh, S., Xavier, R., Nedwidek, M., Chen, T., Zhang,
+X.F., Seed, B., and Avruch, J. (2002). Identiﬁcation of a novel Ras-regulated
+proapoptotic pathway. Curr. Biol. 12, 253–265.
+
+Brautigam, C.A. (2011). Using Lamm-Equation modeling of sedimentation
+velocity data to determine the kinetic and thermodynamic properties of macro-
+molecular interactions. Methods 54, 4–15.
+
+Laue, T.M., Shah, B., Ridgeway, R., and Pelletier, S.L. (1992). Computer-aided
+interpretation of analytical sedimentation data for proteins (Cambridge, UK:
+The Royal Society of Chemistry).
+
+Cooper, W.N., Hesson, L.B., Matallanas, D., Dallol, A., von Kriegsheim, A.,
+Ward, R., Kolch, W., and Latif, F. (2009). RASSF2 associates with and stabi-
+lizes the proapoptotic kinase MST2. Oncogene 28, 2988–2998.
+
+Creasy, C.L., Ambrose, D.M., and Chernoff, J. (1996). The Ste20-like protein
+kinase, Mst1, dimerizes and contains an inhibitory domain. J. Biol. Chem.
+271, 21049–21053.
+
+Davis, I.W., Leaver-Fay, A., Chen, V.B., Block, J.N., Kapral, G.J., Wang, X.,
+Murray, L.W., Arendall, W.B., 3rd, Snoeyink, J., Richardson, J.S., and
+Richardson, D.C. (2007). MolProbity: all-atom contacts and structure valida-
+tion for proteins and nucleic acids. Nucleic Acids Res. 35(Web Server issue),
+W375–W383.
+
+Delaglio, F., Grzesiek, S., Vuister, G.W., Zhu, G., Pfeifer, J., and Bax, A. (1995).
+NMRPipe: a multidimensional spectral processing system based on UNIX
+pipes. J. Biomol. NMR 6, 277–293.
+
+Dong, J., Feldmann, G., Huang, J., Wu, S., Zhang, N., Comerford, S.A.,
+Gayyed, M.F., Anders, R.A., Maitra, A., and Pan, D. (2007). Elucidation of a
+universal size-control mechanism in Drosophila and mammals. Cell 130,
+1120–1133.
+
+Edgar, B.A. (2006). From cell structure to transcription: Hippo forges a new
+path. Cell 124, 267–273.
+
+Emsley, P., and Cowtan, K. (2004). Coot: model-building tools for molecular
+graphics. Acta Crystallogr. D Biol. Crystallogr. 60, 2126–2132.
+
+Guo, C., Tommasi, S., Liu, L., Yee, J.K., Dammann, R., and Pfeifer, G.P. (2007).
+RASSF1A is part of a complex similar to the Drosophila Hippo/Salvador/Lats
+tumor-suppressor network. Curr. Biol. 17, 700–705.
+
+Halder, G., and Johnson, R.L. (2011). Hippo signaling: growth control and
+beyond. Development 138, 9–22.
+
+Hao, Y., Chun, A., Cheung, K., Rashidi, B., and Yang, X. (2008). Tumor sup-
+pressor LATS1 is a negative regulator of oncogene YAP. J. Biol. Chem. 283,
+5496–5509.
+
+Harvey, K., and Tapon, N. (2007). The Salvador-Warts-Hippo pathway—an
+emerging tumour-suppressor network. Nat. Rev. Cancer 7, 182–191.
+
+Luo, X. (2010). Snapshots of a hybrid transcription factor in the Hippo pathway.
+Protein Cell 1, 811–819.
+
+Matallanas, D., Romano, D., Yee, K., Meissl, K., Kucerova, L., Piazzolla, D.,
+Baccarini, M., Vass, J.K., Kolch, W., and O’neill, E. (2007). RASSF1A elicits
+apoptosis through an MST2 pathway directing proapoptotic transcription by
+the p73 tumor suppressor protein. Mol. Cell 27, 962–975.
+
+McCoy, A.J., Grosse-Kunstleve, R.W., Adams, P.D., Winn, M.D., Storoni, L.C.,
+and Read, R.J. (2007). Phaser crystallographic software. J. Appl. Crystallogr.
+40, 658–674.
+
+Oh, H.J., Lee, K.K., Song, S.J., Jin, M.S., Song, M.S., Lee, J.H., Im, C.R., Lee,
+J.O., Yonehara, S., and Lim, D.S. (2006). Role of the tumor suppressor
+RASSF1A in Mst1-mediated apoptosis. Cancer Res. 66, 2562–2569.
+
+Otwinowski, Z., and Minor, W.
+collected in oscillation mode. Methods Enzymol. 276, 307–326.
+
+(1997). Processing X-ray diffraction data
+
+Pan, D. (2010). The hippo signaling pathway in development and cancer. Dev.
+Cell 19, 491–505.
+
+Pervushin, K. (2000). Impact of transverse relaxation optimized spectroscopy
+(TROSY) on NMR as a technique in structural biology. Q. Rev. Biophys. 33,
+161–197.
+
+Pirruccello, M., Sondermann, H., Pelton, J.G., Pellicena, P., Hoelz, A.,
+Chernoff, J., Wemmer, D.E., and Kuriyan, J. (2006). A dimeric kinase assembly
+underlying autophosphorylation in the p21 activated kinases. J. Mol. Biol. 361,
+312–326.
+
+Polesello, C., Huelsmann, S., Brown, N.H., and Tapon, N.
+(2006). The
+Drosophila RASSF homolog antagonizes the hippo pathway. Curr. Biol. 16,
+2459–2465.
+
+(2004).
+Praskova, M., Khoklatchev, A., Ortiz-Vega, S., and Avruch, J.
+Regulation of
+the MST1 kinase by autophosphorylation, by the growth
+inhibitory proteins, RASSF1 and NORE1, and by Ras. Biochem. J. 381,
+453–462.
+
+Richter, A.M., Pfeifer, G.P., and Dammann, R.H. (2009). The RASSF proteins in
+cancer; from epigenetic silencing to functional characterization. Biochim.
+Biophys. Acta 1796, 114–128.
+
+Harvey, K.F., Zhang, X., and Thomas, D.M. (2013). The Hippo pathway and
+human cancer. Nat. Rev. Cancer 13, 246–257.
+
+Schuck, P. (2003). On the analysis of protein self-association by sedimentation
+velocity analytical ultracentrifugation. Anal. Biochem. 320, 104–124.
+
+Hergovich, A. (2012). Mammalian Hippo signalling: a kinase network regulated
+by protein-protein interactions. Biochem. Soc. Trans. 40, 124–128.
+
+Hong, W., and Guan, K.L. (2012). The YAP and TAZ transcription co-activators:
+key downstream effectors of the mammalian Hippo pathway. Semin. Cell Dev.
+Biol. 23, 785–793.
+
+Song, H., Oh, S., Oh, H.J., and Lim, D.S. (2010). Role of the tumor suppressor
+RASSF2 in regulation of MST1 kinase activity. Biochem. Biophys. Res.
+Commun. 391, 969–973.
+
+Staley, B.K., and Irvine, K.D. (2012). Hippo signaling in Drosophila: recent ad-
+vances and insights. Dev. Dyn. 241, 3–15.
+
+Huang, J., Wu, S., Barrera, J., Matthews, K., and Pan, D. (2005). The Hippo
+signaling pathway coordinately regulates cell proliferation and apoptosis by
+inactivating Yorkie, the Drosophila Homolog of YAP. Cell 122, 421–434.
+
+Sudol, M., Shields, D.C., and Farooq, A. (2012). Structures of YAP protein
+domains reveal promising targets for development of new cancer drugs.
+Semin. Cell Dev. Biol. 23, 827–833.
+
+Hwang, E., Ryu, K.S., Pa¨ a¨ kko¨ nen, K., Gu¨ ntert, P., Cheong, H.K., Lim, D.S.,
+Lee, J.O., Jeon, Y.H., and Cheong, C. (2007). Structural insight into dimeric
+interaction of the SARAH domains from Mst1 and RASSF family proteins in
+the apoptosis pathway. Proc. Natl. Acad. Sci. USA 104, 9236–9241.
+
+Ikeda, M., Kawata, A., Nishikawa, M., Tateishi, Y., Yamaguchi, M.,
+Nakagawa, K., Hirabayashi, S., Bao, Y., Hidaka, S., Hirata, Y., and Hata,
+Y. (2009). Hippo pathway-dependent and -independent roles of RASSF6.
+Sci. Signal. 2, ra59.
+
+Tommasi, S., Dammann, R., Zhang, Z., Wang, Y., Liu, L., Tsark, W.M.,
+Wilczynski, S.P., Li, J., You, M., and Pfeifer, G.P. (2005). Tumor susceptibility
+of Rassf1a knockout mice. Cancer Res. 65, 92–98.
+
+Van Duyne, G.D., Standaert, R.F., Karplus, P.A., Schreiber, S.L., and Clardy, J.
+(1993). Atomic structures of the human immunophilin FKBP-12 complexes
+with FK506 and rapamycin. J. Mol. Biol. 229, 105–124.
+
+Winn, M.D., Ballard, C.C., Cowtan, K.D., Dodson, E.J., Emsley, P., Evans,
+P.R., Keegan, R.M., Krissinel, E.B., Leslie, A.G., McCoy, A., et al. (2011).
+
+Structure 21, 1757–1768, October 8, 2013 ª2013 Elsevier Ltd All rights reserved 1767
+
+Crystal Structures of Mst2 Kinase and Mst2-RASSF5
+
+Structure
+
+Overview of the CCP4 suite and current developments. Acta Crystallogr. D
+Biol. Crystallogr. 67, 235–242.
+
+Yu, J., Zheng, Y., Dong, J., Klusza, S., Deng, W.M., and Pan, D. (2010). Kibra
+functions as a tumor suppressor protein that regulates Hippo signaling in
+conjunction with Merlin and Expanded. Dev. Cell 18, 288–299.
+
+Zhao, B., Wei, X., Li, W., Udan, R.S., Yang, Q., Kim, J., Xie, J., Ikenoue, T., Yu,
+J., Li, L., et al. (2007). Inactivation of YAP oncoprotein by the Hippo pathway is
+involved in cell contact inhibition and tissue growth control. Genes Dev. 21,
+2747–2761.
+
+Zhao, B., Ye, X., Yu, J., Li, L., Li, W., Li, S., Yu, J., Lin, J.D., Wang, C.Y.,
+Chinnaiyan, A.M., et al. (2008). TEAD mediates YAP-dependent gene induction
+and growth control. Genes Dev. 22, 1962–1971.
+
+Zhao, B., Li, L., Lei, Q., and Guan, K.L. (2010a). The Hippo-YAP pathway in
+organ size control and tumorigenesis: an updated version. Genes Dev. 24,
+862–874.
+
+Zhao, B., Li, L., Tumaneng, K., Wang, C.Y., and Guan, K.L. (2010b). A coordi-
+nated phosphorylation by Lats and CK1 regulates YAP stability through
+SCF(beta-TRCP). Genes Dev. 24, 72–85.
+
+1768 Structure 21, 1757–1768, October 8, 2013 ª2013 Elsevier Ltd All rights reserved
+
+

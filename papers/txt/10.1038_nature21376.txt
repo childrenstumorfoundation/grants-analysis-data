@@ -1,0 +1,3256 @@
+LETTEr
+
+doi:10.1038/nature21376
+
+Prefrontal cortex output circuits guide reward 
+seeking through divergent cue encoding
+
+James m. Otis1*, Vijay m. K. Namboodiri1,2*, ana m. matan1, Elisa S. Voets1, Emily P. mohorn1, Oksana Kosyk1, 
+Jenna a. mchenry1, J. Elliott robinson1,3, Shanna L. resendez1, mark a. rossi1 & Garret D. Stuber1,2,3,4
+
+The prefrontal cortex is a critical neuroanatomical hub for 
+controlling motivated behaviours across mammalian species1–3. In 
+addition to intra-cortical connectivity, prefrontal projection neurons 
+innervate subcortical structures that contribute to reward-seeking 
+behaviours, such as the ventral striatum and midline thalamus4. 
+While connectivity among these structures contributes to appetitive 
+behaviours5–13, how projection-specific prefrontal neurons encode 
+reward-relevant information to guide reward seeking is unknown. 
+Here we use in vivo two-photon calcium imaging to monitor the 
+activity of dorsomedial prefrontal neurons in mice during an 
+appetitive Pavlovian conditioning task. At the population level, these 
+neurons display diverse activity patterns during the presentation 
+of reward-predictive cues. However, recordings from prefrontal 
+neurons with resolved projection targets reveal that individual 
+corticostriatal neurons show response tuning to reward-predictive 
+cues, such that excitatory cue responses are amplified across 
+learning. By contrast, corticothalamic neurons gradually develop 
+new, primarily inhibitory responses to reward-predictive cues across 
+learning. Furthermore, bidirectional optogenetic manipulation of 
+these neurons reveals that stimulation of corticostriatal neurons 
+promotes conditioned reward-seeking behaviour after learning, 
+while activity in corticothalamic neurons suppresses both the 
+acquisition and expression of conditioned reward seeking. These 
+data show how prefrontal circuitry can dynamically control reward-
+seeking behaviour through the opposing activities of projection-
+specific cell populations.
+
+Neurons in the prefrontal cortex (PFC) respond diversely to 
+reward-predictive cues14–17, although how this cue encoding fits into 
+a broader circuitry to guide reward seeking is unknown. To address 
+this, we designed a Pavlovian conditioning task that allows two-photon  
+imaging of deep cortical tissue during behaviour. Head-fixed mice 
+were trained to associate one conditioned stimulus (CS+), but not 
+another (CS−), with sucrose (Fig. 1a, b). Following multiple train-
+ing sessions, mice behaviourally discriminated between the cues by 
+displaying anticipatory licks to the CS+ but not CS− (Fig. 1c), con-
+firming that the cue-reward contingencies had been established by the 
+later sessions (Fig. 1d, e; Extended Data Fig. 1). To monitor neural 
+activity during this task, we injected a virus into dorsomedial PFC 
+for delivery of a calcium indicator18 under the control of the calcium/
+calmodulin-dependent protein kinase II alpha (Camk2a) promoter 
+(AAVdj-CaMK2a-GCaMP6s; Fig. 1f), which putatively targets cortical  
+excitatory neurons19. Ex vivo brain slice recordings revealed 
+that fluorescent deflections of GCaMP6s-expressing PFC neu-
+rons reliably tracked elevations and reductions in action potential  
+frequency, whereas hyperpolarization from rest alone did not influence 
+GCaMP6s-mediated fluorescence (Extended Data Fig. 2). Next, we 
+implanted optical cannulae approximately 2.2 mm beneath the surface 
+of the brain, allowing chronic optical access to hundreds of dorsomedial 
+
+PFC neurons in each awake, behaving mouse (Fig. 1g–i; Supplementary 
+Video 1). Collectively, we recorded from GCaMP6s-expressing PFC 
+neurons before learning (n =  1,473) and after learning (n =  1,569), and 
+found that while many of these neurons displayed increased activity 
+in response to reward-predictive cues, other neurons exhibited inhib-
+itory cue responses (Fig. 1j, k, n, o). These responses were most prev-
+alent during presentation of the CS+, but not the CS−, after learning  
+(Fig. 1l, m, p, q; Extended Data Figs 3a, b and 4a–c). Thus, the responses 
+of many individual PFC neurons could be used to decode whether the 
+CS+ or CS− was presented on any given trial after learning (Extended 
+Data Fig. 4d).
+
+We found that many dorsomedial PFC neurons encoded cues after 
+learning; however, both inhibitory and excitatory responses were com-
+mon. Considering this, it is possible that distinct populations of neurons 
+in the PFC have opposing cue-encoding properties. Two major projec-
+tion targets of the PFC are the nucleus accumbens (PFC–NAc) and 
+paraventricular nucleus of the thalamus (PFC–PVT)4,20. Furthermore, 
+studies examining reward seeking in rodent addiction models have 
+found that PFC–NAc neurons express immediate early genes following 
+cue-induced relapse21,22, and inhibition of these cells can prevent drug 
+seeking6–8,12. Additionally, reward-predictive cues may influence the 
+activity of PVT neurons23, and such activity is thought to modulate cue 
+salience24 and conditioned behaviours25,26. Thus, we hypothesized that 
+PFC–NAc and PFC–PVT neurons encode reward-predictive stimuli to 
+orchestrate appetitive learning. To test this hypothesis, we first deter-
+mined whether PFC–NAc and PFC–PVT neurons are distinct or over-
+lapping populations of neurons. We injected retrograde cholera toxins 
+conjugated to different fluorophores into NAc and PVT of the same 
+mice. Electrophysiological recordings and histological analysis revealed 
+that PFC–NAc and PFC–PVT neurons are physiologically distinct 
+and anatomically segregated within dorsomedial PFC (Extended Data  
+Fig. 5), such that PFC–NAc neurons are in layers II/III and V (46% 
+layer II/III, 51% layer V, 4% layer VI) whereas PFC–PVT neurons are 
+predominantly in layer VI (0% layer II/III, 20% layer V, 79% layer VI). 
+These data are consistent with anatomical studies, as corticostriatal 
+projection neurons reside in layers II/III and V in rats, whereas layer 
+VI is specific for corticothalamic neurons27,28. Furthermore, using a 
+retrograde rabies tracing strategy to sparsely label PFC–NAc or PFC–
+PVT neurons as well as their afferent inputs, we found that these cell 
+populations have both shared and unshared afferent connectivity 
+(Extended Data Fig. 6). Finally, PFC–NAc and PFC–PVT neurons 
+express CaMK2a (Extended Data Fig. 7a–d), collectively revealing 
+that these neurons make up two non-overlapping subpopulations of 
+CaMK2a-expressing projection neurons.
+
+We next targeted PFC–NAc and PFC–PVT neurons for in vivo 
+two-photon calcium imaging. Cre-inducible GCaMP6s (AAVdj-DIO-
+GCaMP6s) was injected into dorsomedial PFC, and in the same surgery  
+a retrogradely transported virus, canine adenovirus 2 encoding 
+
+1Department of Psychiatry, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27599, USA. 2Neuroscience Center, University of North Carolina at Chapel Hill, Chapel Hill, North 
+Carolina 27599, USA. 3Neuroscience Curriculum, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27599, USA. 4Department of Cell Biology and Physiology, University of 
+North Carolina at Chapel Hill, Chapel Hill, North Carolina 27599, USA.
+* These authors contributed equally to this work.
+
+2   m a r c h   2 0 1 7   |   V O L   5 4 3   |   N a T U r E   |   1 0 3
+
+© 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.a
+
+Head-(cid:141)xed setup
+
+b
+
+Reward conditioning
+
+Tone cues
+
+CS+ (2 s)
+
+Anticipatory licks
+
+Sucrose reward
+
+Consummatory licks
+
+CS– (2 s)
+
+TI (1 s)
+
+Late CS–
+
+c
+
+l
+
+a
+i
+r
+T
+
+50
+
+25
+
+Late CS+
+
+50
+
+25
+
+0
+
+0
+
+5
+
+0
+
+10
+0
+Time (s)
+
+5
+
+10
+
+AAVdj-CaMK2a-GCaMP6s
+
+g
+
+Two-photon
+microscopy 
+
+20×
+
+h
+
+PFC
+
+PFC
+
+In vivo imaging: GCaMP6s „uorescence
+
+50 m
+
+100 m 
+
+150 m
+
+Mouse 1, FOV 1 Mouse 1, FOV 2 Mouse 1, FOV 3
+
+l
+
+Early (1,473 neurons)
+
+f
+
+j
+
+0
+
+ 
+
+f
+/
+f
+Ɗ
+%
+0
+5
+
+n
+
+Cue-excited cell
+
+CS+
+CS–
+
+5 s
+
+CS+
+
+CS–
+
+k
+
+0
+
+ 
+
+f
+/
+f
+Ɗ
+%
+0
+5
+
+o
+
+Cue-inhibited cell
+CS+
+CS–
+
+5 s
+
+CS+
+
+CS–
+
+l
+
+s
+a
+i
+r
+t
+ 
+
+0
+2
+
+5 s
+
+l
+
+s
+a
+i
+r
+t
+ 
+
+0
+2
+
+5 s
+
+Ɗ
+f
+/
+f
+
+0
+
+–50%
+
+150%
+
+Ɗ
+f
+/
+f
+
+0
+
+–50%
+
+s
+n
+o
+r
+u
+e
+n
+
+ 
+
+0
+0
+
+d
+
+n
+
+i
+ 
+e
+g
+n
+a
+h
+C
+
+)
+z
+H
+
+(
+ 
+e
+t
+a
+r
+ 
+k
+c
+
+i
+l
+
+i
+
+CS+ 
+
+4
+
+2
+
+e
+
+n
+o
+i
+t
+a
+n
+m
+
+i
+
+0.4
+
+0.2
+
+CS–
+
+i
+r
+c
+s
+D
+
+i
+
+0
+
+Early
+
+Late
+
+0
+
+Early
+
+Late
+
+Single-cell calcium dynamics
+
+0
+
+ 
+
+f
+/
+f
+Ɗ
+%
+0
+30 s1
+0
+m
+
+Late (1,569 neurons)
+
+34%
+
+–30%
+
+–15%
+Ɗ
+f
+/
+f
+
+0
+
+0%
+
+15%
+
+s
+n
+o
+r
+u
+e
+n
+ 
+0
+0
+
+CS–
+
+4%
+1%
+
+CS+
+
+2%
+1%
+
+CS–
+
+3%
+0%
+
+CS+
+
+3%
+
+95%
+
+p
+
+150%
+
+97%
+Late CS–
+
+64%
+Late CS+
+
+96%
+
+q
+
+Figure 1 | PFC neurons show heterogeneous responses to reward-
+predictive cues. a, Head fixation allowed two-photon microscopy in 
+awake, behaving mice. b, Schematic of the Pavlovian conditioning 
+paradigm. TI, trace interval. c, Example data showing anticipatory licking 
+in response to the CS+ but not CS− after learning. d, Average change in 
+lick rate during each cue for early and late conditioning sessions.  
+e, Behavioural discrimination (licking during CS+ versus CS−; area 
+under receiver operating characteristic (auROC) −  0.5) during early and 
+late conditioning sessions wherein separate fields of view (FOVs) were 
+examined (early, n =  30; late, n =  30; t58 =  17.6, P <  0.001). The auROC 
+score compares the probability that licking during the CS+ and CS− is 
+equivalent (discrimination score ≈  0) or higher for the CS+ versus CS− 
+(discrimination score >  0, wherein 0.5 indicates more licking during 
+every CS+ trial as compared to every CS− trail). f, g, Injections of AAVdj-
+CaMK2a-GCaMP6s into PFC (f) and optical cannula implantation (g) 
+allowed two-photon imaging of PFC neurons throughout conditioning 
+
+5 s4
+
+5 s4
+(early, n =  1,473 neurons; late, n =  1,569 neurons; n =  8 mice). 
+h, i, GCaMP6s expression across multiple FOVs (50 μ m, 100 μ m, and 150 μ m 
+beneath the cannula coverslip) in dorsomedial PFC (h; scale bars, 100 μ m.) 
+allowed recordings from hundreds of prefrontal neurons within individual 
+mice (i). j, k, Peri-event data showing example excitatory (j) or inhibitory (k) 
+responses from example neurons during cue delivery after learning.  
+l, Population data of all neurons showing few excitatory (red) or inhibitory 
+(blue) cue responses (P <  0.05 after correction; see Methods) to the CS+ 
+and CS− during early sessions (CS+ versus CS−: χ2
+(2) =  9.06, P =  0.01).  
+m, Population data of all neurons show many excitatory (red) or inhibitory 
+(blue) cue responses to the CS+, but not CS−, during late sessions (CS+ 
+versus CS−: χ2
+(2) =  523.15, P <  0.001). n, o, Heat plots from individual 
+example neurons that showed excitatory (n) or inhibitory (o) responses 
+during cue delivery. p, q, Population heat plots from all mice showing 
+averaged cue responses after learning. Bar and line graphs represent the 
+mean ±  s.e.m. Vertical dotted lines refer to timing of sucrose delivery.
+
+Cre-recombinase (Cav2-Cre), was injected into either the NAc or PVT 
+(Fig. 2a, g). This resulted in projection-specific GCaMP6s expression in 
+PFC–NAc and PFC–PVT neurons (Fig. 2b, h; Extended Data Fig. 7e–j).  
+Next, mice underwent Pavlovian conditioning with simultaneous 
+head-fixed two-photon calcium imaging. Data revealed that after learn-
+ing, but not before learning, PFC–NAc neurons primarily displayed 
+excitation to the CS+, whereas fewer neurons responded to the CS−  
+(Fig. 2c–e; Extended Data Fig. 3c, d). By contrast, PFC–PVT neurons 
+primarily displayed inhibition to the CS+ after learning, whereas fewer 
+neurons responded to the CS− (Fig. 2i–k; Extended Data Fig. 3e, f). 
+Finally, we found that activity in either PFC–NAc neurons (Fig. 2f) or 
+PFC–PVT neurons (Fig. 2l) could be used to decode whether the CS+ 
+or CS− was presented on any given trial after learning.
+
+We found that PFC–NAc neurons and PFC–PVT neurons show 
+distinct cue-encoding profiles after learning, but how these response 
+properties emerge across learning was unclear. To examine this, we 
+identified individual PFC–NAc and PFC–PVT neurons whose activity 
+could reliably be monitored throughout training (Fig. 3a, d). We found 
+that many PFC–NAc neurons initially displayed low amplitude, phasic 
+calcium transients to both the CS− and CS+, such that there was little 
+cue discrimination (Fig. 3b). However, across learning the responses 
+of individual PFC–NAc neurons became selective, such that responses 
+to the CS+ were amplified and responses to the CS− were diminished  
+(Fig. 3b, c). In contrast to this response tuning in PFC–NAc neurons, 
+PFC–PVT neurons showed little response to either the CS+ or CS− 
+before learning, but instead many neurons acquired new inhibitory 
+
+responses after learning (Fig. 3e, f). Thus, the responses of PFC–NAc, 
+but not PFC–PVT, neurons after learning could be predicted on the 
+basis of responses before learning (Fig. 3c, f, correlations). Collectively, 
+corticostriatal and corticothalamic neurons showed distinct functional 
+plasticity across appetitive learning, such that PFC–NAc neurons 
+adjusted their activity to allow cue discrimination, whereas PFC–PVT 
+neurons gradually acquired responses for cue discrimination.
+
+Our data reveal that projection-specific PFC neurons show distinct 
+cue encoding properties across appetitive learning. However, whether 
+this activity controls the acquisition of conditioned reward seeking is 
+unclear. To test this, we targeted PFC–NAc or PFC–PVT neurons for 
+optogenetic manipulation by injecting Cav2-Cre into the NAc or PVT, 
+and Cre-inducible channelrhodopsin-2 (AAV5-DIO-ChR2-eYFP), 
+halorhodopsin (AAV5-DIO-eNpHR3.0-eYFP), or control (AAV5-
+DIO-eYFP) into dorsomedial PFC (Fig. 4a–c, j–l). Next, we optogeneti-
+cally manipulated these cells during cue delivery throughout Pavlovian 
+conditioning (sessions 1–8; Fig. 4d–f, m–o), and tested the effects on 
+acquisition of this task during a subsequent test without laser. Data 
+reveal that activation (in PFC–NAc::ChR2 mice) or inactivation (in 
+PFC–NAc::eNpHR3.0 mice) of PFC–NAc neurons did not influence 
+CS+-evoked anticipatory licking during the no-laser test (Fig. 4g–i), 
+implying that these cells do not control the acquisition of anticipatory 
+licking. By contrast, optogenetic activation of PFC–PVT neurons (in 
+PFC–PVT::ChR2 mice) reduced CS+-evoked anticipatory licking dur-
+ing the no-laser test, whereas optogenetic inactivation of PFC–PVT 
+neurons (in PFC–PVT::eNpHR3.0 mice) increased anticipatory licking 
+
+1 0 4   |   N a T U r E   |   V O L   5 4 3   |   2   m a r c h   2 0 1 7
+
+letterreSeArCH© 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.a
+
+g
+
+20×
+
+Cav2-Cre
+
+b
+
+In vivo imaging
+
+c
+
+Late CS–
+
+AAVdj-DIO-
+GCaMP6s
+
+PFC
+
+NAc
+
+PFC–NAc GCaMP6s
+
+Cav2-Cre
+
+h
+
+In vivo imaging
+
+PVT
+
+20×
+
+PFC
+
+AAVdj-DIO-
+GCaMP6s
+
+PFC–PVT GCaMP6s
+
+Late CS–
+
+s
+n
+o
+r
+u
+e
+n
+ 
+0
+5
+
+i
+
+s
+n
+o
+r
+u
+e
+n
+ 
+0
+5
+
+5 s
+
+5 s
+
+Figure 2 | PFC projection neurons have opposing responses to reward-
+predictive cues. a, b, Viral strategy (a) allowed recordings of PFC–
+NAc::GCaMP6s neurons (early, n =  84 neurons; late, n =  101 neurons; 
+n =  4 mice) in vivo (b). c, d, Population heat plots showing responses for 
+all PFC–NAc::GCaMP6s neurons averaged across CS− trials (c) and CS+ 
+trials (d) after learning. e, Population data of all PFC–NAc::GCaMP6s 
+neurons showing no difference in CS+ versus CS− responses during  
+early sessions (top; χ2
+different during late sessions (bottom; χ2
+f, Cumulative distribution frequency (CDF) plots showing that the 
+dynamics of individual PFC–NAc::GCaMP6s neurons could be used 
+to accurately decode whether the CS+ or CS− was presented in late 
+conditioning sessions (compared to late shuffled: Welch’s t178.66 =  5.63, 
+P <  0.001), but not in the early conditioning sessions (compared to early 
+shuffled: Welch’s t165.47 =  1.13, P >  0.2). g, h, Viral strategy (g) allowed 
+
+(2) =  0.88, P >  0.6); however, these responses were 
+
+(2) =  41.06, P <  0.001).  
+
+d
+
+s
+n
+o
+r
+u
+e
+n
+ 
+0
+5
+
+j
+
+Late CS+
+
+5 s
+
+Late CS+
+
+s
+n
+o
+r
+u
+e
+n
+ 
+0
+5
+
+5 s
+
+e
+
+y
+l
+r
+a
+E
+
+e
+t
+a
+L
+
+k
+
+y
+l
+r
+a
+E
+
+e
+t
+a
+L
+
+–30%
+
+Ɗ
+f
+/
+f
+
+0
+
+15%
+
+–30%
+
+Ɗ
+f
+/
+f
+
+0
+
+15%
+
+CS–
+
+5%
+1%
+
+CS+
+
+8%
+1%
+
+CS–
+
+2%
+2%
+
+CS+
+
+32%
+
+10%
+
+CS–
+
+0%
+0%
+
+CS+
+
+1%
+1%
+
+CS–
+
+7%
+4%
+
+CS+
+
+15%
+
+33%
+
+f
+
+100
+
+l
+
+e
+v
+i
+t
+a
+u
+m
+u
+C
+
+e
+
+l
+i
+t
+n
+e
+c
+r
+e
+p
+
+50
+
+0
+0.4
+
+l
+
+100
+
+l
+
+e
+v
+i
+t
+a
+u
+m
+u
+C
+
+e
+
+l
+i
+t
+n
+e
+c
+r
+e
+p
+
+50
+
+0
+0.4
+
+Early
+EarlySh
+Late
+LateSh
+
+0.6
+
+0.8
+
+Cue decoding
+
+accuracy
+
+Early
+EarlySh
+Late 
+LateSh
+0.8
+
+0.6
+
+Cue decoding
+
+accuracy
+recordings of PFC–PVT::GCaMP6s neurons (early, n =  92 neurons; 
+late, n =  123 neurons; n =  3 mice) in vivo (h). i, j, Population heat plots 
+showing responses for all PFC–PVT::GCaMP6s neurons averaged across 
+CS− trials (i) and CS+ trials (j) after learning. k, Population data of all 
+PFC–PVT::GCaMP6s neurons showing no difference in CS+ versus 
+CS− responses during early sessions (top; χ2
+these responses were different during late sessions (bottom; χ2
+P <  0.001). l, CDF plots showing that the dynamics of individual PFC–
+PVT::GCaMP6s neurons could be used to accurately decode whether the 
+CS+ or CS− was presented during late conditioning sessions (compared 
+to late shuffled: Welch’s t212.01 =  6.03, P <  0.001) but not during the early 
+conditioning sessions (compared to early shuffled: Welch’s t180.89 =  − 0.56, 
+P >  0.5). Vertical dotted lines refer to timing of sucrose delivery. Scale 
+bars, 100 μ m; EarlySh, early shuffled; LateSh, late shuffled.
+
+(2) =  2.02, P >  0.35); however, 
+(2) =  43.86, 
+
+during the no-laser test (Fig. 4p–r). Thus, inhibitory cue encoding in 
+PFC–PVT neurons, but not PFC–NAc neurons, contributes to the 
+acquisition of conditioned reward seeking.
+
+Although activity in PFC–NAc neurons did not control the acqui-
+sition of conditioned reward seeking, differences in licking behaviour 
+
+were apparent between groups during the laser conditioning sessions 
+(sessions 1–8; see Fig. 4g, h). Thus, one possibility is that PFC–NAc 
+neurons control the expression of conditioned reward seeking, rather 
+than acquisition. To test this directly, we next performed the opto-
+genetic manipulations after conditioning in separate groups of mice. 
+
+Increase
+Decrease
+
+**
+
+21
+
+9
+
+16
+CS+
+
+28
+CS–
+CS+, r = 0.73
+CS–, r = 0.70
+
+0
+
+0.5
+
+Early auROC – 0.5
+
+Increase
+Decrease
+
+**
+
+17
+
+31
+
+44
+CS+
+
+30
+CS–
+CS+, r = 0.08
+CS–, r = 0.24
+
+–0.5
+
+–0.5
+
+ 
+–
+ 
+C
+O
+R
+u
+a
+ 
+e
+t
+a
+L
+
+ 
+–
+ 
+C
+O
+R
+u
+a
+ 
+e
+t
+a
+L
+
+0
+
+0
+
+–0.5
+
+Early
+
+Late
+
+f
+
+5
+
+.
+
+0
+
+0.5
+
+PFC–NAc::GCaMP6s
+
+b
+
+Early
+
+Late
+
+c
+
+5
+
+.
+
+0
+
+0.5
+
+a
+
+d
+
+0
+
+ 
+
+f
+/
+f
+Ɗ
+%
+0
+5
+
+Day 1 (early)
+
+Day 12 (late)
+
+PFC–PVT::GCaMP6s
+
+Day 1 (early)
+
+Day 11 (late)
+
+e
+
+0
+
+ 
+
+f
+/
+f
+Ɗ
+%
+0
+5
+
+5 s
+
+5 s
+
+CS+
+CS–
+
+CS+
+CS–
+
+Figure 3 | PFC projection neurons show distinct functional plasticity 
+across learning. a, Representative images show the same PFC–
+NAc::GCaMP6s neurons tracked from early (left) to late (right) sessions 
+(n =  37 neurons; n =  4 mice). b, Traces from individual example neurons 
+averaged across trials during early (left) and late (right) sessions. c, Cue 
+responses of PFC–NAc::GCaMP6s neurons during early conditioning 
+sessions could be used to predict responses during late conditioning 
+sessions (CS+, r =  0.73, P <  0.001; CS−, r =  0.70, P <  0.001). auROC is the 
+area under receiver operating characteristic, and auROC −  0.5 is a statistic 
+that compares the probability that GCaMP6s fluorescence dynamics are 
+the same during the CS+ versus CS− (auROC =  0), higher for the CS+ 
+versus CS− (auROC >  0), or less for the CS+ versus CS− (auROC <  0). 
+Inset, bar graphs showing that most PFC-NAc::GCaMP6s neurons 
+showed elevated (grey) GCaMP6s fluorescence in response to the CS+  
+across learning, and reduced (white) GCaMP6s fluorescence in response 
+
+0
+
+–0.5
+
+0.5
+Early auROC – 0.5
+to the CS− across learning (χ2
+(1) =  8.07; * * P <  0.005). d, Representative 
+images show the same PFC-PVT::GCaMP6s neurons tracked from early 
+(left) to late (right) sessions (n =  61 neurons; n =  3 mice). e, Traces from 
+individual example neurons averaged across trials during early (left) 
+and late (right) sessions. f, Cue responses of all PFC–PVT::GCaMP6s 
+neurons during early Pavlovian conditioning sessions could not be used 
+to predict subsequent responses during late conditioning sessions (CS+, 
+r =  0.08, P >  0.05; CS−, r =  0.24, P >  0.05). Inset, bar graphs showing 
+that most PFC–PVT::GCaMP6s neurons showed reduced (white) 
+GCaMP6s fluorescence in response to the CS+ across learning, whereas 
+equivalent numbers of neurons showed elevated (grey) and reduced 
+(white) GCaMP6s fluorescence in response to the CS− across learning 
+(χ2
+delivery. Scale bars, 25 μ m.
+
+(1) =  6.73, * * P <  0.01). Vertical dotted lines refer to timing of sucrose 
+
+2   m a r c h   2 0 1 7   |   V O L   5 4 3   |   N a T U r E   |   1 0 5
+
+letterreSeArCH© 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.a
+
+473 or 532 nm
+
+b
+
+PFC–NAc eYFP
+
+c
+
+Layer II/III eYFP
+
+j
+
+DIO-ChR2
+
+DIO-eNpHR3.0
+
+DIO-eYFP
+
+Cav2-Cre
+
+ACC
+
+PLc
+
+PFC
+
+NAc
+
+Wild-type mouse
+
+cc
+
+250 m
+
+ILc
+
+25 m
+
+DIO-ChR2
+
+DIO-eNpHR3.0
+
+DIO-eYFP
+
+Cav2-Cre
+
+473 or 
+532 nm
+
+PVT
+
+PFC
+
+Wild-type mouse
+
+k
+
+PFC–PVT eYFP
+
+l
+
+Layer VI eYFP
+
+ACC
+
+PLc
+
+cc
+
+250 m
+
+ILc
+
+25 m
+
+d
+
+PFC–NAc ChR2
+
+e
+
+PFC–NAc eNpHR
+
+f
+
+PFC–NAc eYFP
+
+m
+
+PFC–PVT ChR2
+
+n
+
+PFC–PVT eNpHR
+
+o
+
+PFC–PVT eYFP
+
+Laser
+
+Laser
+
+Laser
+
+Laser
+
+i
+
+n
+o
+s
+s
+e
+s
+ 
+g
+n
+n
+a
+r
+T
+
+i
+
+i
+
+ 
+
+D1
+
+D4
+
+D8
+
+NL
+
+s
+k
+c
+
+i
+l
+ 
+
+4
+
+s
+ 
+r
+e
+p
+
+1 s
+
+p
+
+n
+
+i
+ 
+e
+g
+n
+a
+h
+c
+ 
+:
++
+S
+C
+
+)
+z
+H
+
+(
+ 
+e
+t
+a
+r
+ 
+k
+c
+
+i
+l
+
+6.0
+
+3.0
+
+0
+
+1
+
+i
+
+n
+o
+s
+s
+e
+s
+ 
+g
+n
+n
+a
+r
+T
+
+i
+
+i
+
+ 
+
+D1
+
+D4
+
+D8
+
+NL
+
+i
+
+n
+o
+s
+s
+e
+s
+ 
+g
+n
+n
+a
+r
+T
+
+i
+
+i
+
+ 
+
+D1
+
+D4
+
+D8
+
+NL
+
+s
+k
+c
+
+i
+l
+ 
+
+4
+
+s
+ 
+r
+e
+p
+
+1 s
+
+s
+k
+c
+
+i
+l
+ 
+
+4
+
+s
+ 
+r
+e
+p
+
+1 s
+
+Laser
+
+All sessions
+eNpHR
+eYFP
+ChR2
+
+q
+
+F
+D
+C
+
+1.0
+
+3
+
+57 N
+
+L
+
+Session
+
+Laser sessions (1–8)
+
+ChR2
+eYFP
+eNpHR
+
+2
+
+4
+
+6
+
+0
+ChR2
+eYFP
+eNpHR
+0
+
+No-laser session (9)
+
+1.0
+
+r
+
+F
+D
+C
+
+*
+
+0
+ChR2
+eYFP
+eNpHR
+0
+
+*
+
+2
+
+46
+
+ChR2
+eYFP
+eNpHR
+
+i
+
+n
+o
+s
+s
+e
+s
+ 
+g
+n
+n
+a
+r
+T
+
+i
+
+i
+
+ 
+
+D1
+
+D4
+
+D8
+
+NL
+
+i
+
+n
+o
+s
+s
+e
+s
+ 
+g
+n
+n
+a
+r
+T
+
+i
+
+i
+
+ 
+
+D1
+
+D4
+
+D8
+
+NL
+
+i
+
+n
+o
+s
+s
+e
+s
+ 
+g
+n
+n
+a
+r
+T
+
+i
+
+i
+
+ 
+
+D1
+
+D4
+
+D8
+
+NL
+
+s
+k
+c
+
+i
+l
+ 
+
+4
+
+s
+ 
+r
+e
+p
+
+1 s
+
+g
+
+6.0
+
+3.0
+
+n
+
+i
+ 
+e
+g
+n
+a
+h
+c
+ 
+ 
+:
++
+S
+C
+
+)
+z
+H
+
+(
+ 
+e
+t
+a
+r
+ 
+k
+c
+
+i
+l
+
+0
+
+1
+
+3
+
+5
+
+7 NL
+
+Session
+
+s
+k
+c
+
+i
+l
+ 
+
+4
+
+s
+ 
+r
+e
+p
+
+1 s
+
+s
+k
+c
+
+i
+l
+ 
+
+4
+
+s
+ 
+r
+e
+p
+
+1 s
+
+Laser
+
+All sessions
+
+ChR2
+eYFP
+eNpHR
+
+h
+
+F
+D
+C
+
+1.0
+
+Laser sessions (1–8)
+
+No-laser session (9)
+
+1.0
+
+ChR2
+eYFP
+eNpHR
+
+2
+
+4
+
+6
+
+0
+ChR2
+eYFP
+eNpHR
+0
+
+i
+
+F
+D
+C
+
+0
+ChR2
+eYFP
+eNpHR
+0
+
+ChR2
+eYFP
+eNpHR
+
+2
+
+4
+
+6
+
+Change in lick rate (Hz)
+
+Change in lick rate (Hz)
+
+Change in lick rate (Hz)
+
+Change in lick rate (Hz)
+
+Figure 4 | Activity in corticothalamic neurons controls acquisition 
+of conditioned reward seeking. a–c, Viral strategy (a) for PFC–NAc 
+optogenetics experiments resulted in eYFP expression in PFC–NAc 
+neurons (b, c). d–f, Example peri-event rasters (top) and histograms 
+(bottom; red lines refer to laser sessions (day (D) 1, day 4 and day 8) and 
+black line refers to no-laser test) from PFC–NAc::ChR2 (n =  5), PFC–
+NAc::eNpHR3.0 (n =  6), and PFC–NAc::eYFP mice (n =  10). g, Line graph 
+showing CS+ lick rate during conditioning (with laser) and test (no laser). 
+h, i, CDF plots and bar graphs showing CS+ lick rate during conditioning 
+(h) and test (i). No differences were observed between PFC–NAc groups 
+during the no-laser test (ChR2 versus eYFP: auROC  =  0.43; P =  0.48; 
+eNpHR3.0 versus eYFP: auROC =  0.51, P =  0.48). auROC is a statistical 
+test that compares the likelihood that lick rates from the two groups 
+represent the same population (auROC ≈  0.5) or different populations 
+(auROC =  0 or auROC =  1 suggests that lick rates were higher for one 
+
+cue on 100% of the trials as compared to the other cue). j–l, Viral strategy 
+(j) for PFC–PVT optogenetic experiments resulted in eYFP expression 
+in PFC–PVT neurons (k, l). m–o, Example peri-event rasters (top) and 
+histograms (bottom; blue lines refer to laser sessions (day 1, day 4 and day 8)  
+and black line refers to no-laser test) from PFC–PVT::ChR2 (n =  6), 
+PFC–PVT::eNpHR3.0 (n =  5), and PFC–PVT::eYFP mice (n =  10). p, Line 
+graph showing average CS+ lick rate during all conditioning sessions (with 
+laser) and test (no laser). q, r, CDF plots and bar graphs showing CS+ 
+lick rate during all laser sessions (q) and during the no-laser test (r). CS+ 
+lick rate was reduced in PFC–PVT::ChR2 mice (versus PFC–PVT::eYFP 
+mice: auROC =  0.09, * P =  0.01) and enhanced in PFC–PVT::eNpHR3.0 
+mice (versus PFC–PVT::eYFP mice: auROC =  0.84, * P =  0.02). Line and 
+bar graphs represent the mean ±  s.e.m. ACC, anterior cingulate cortex; cc, 
+corpus callosum; ILc, infralimbic cortex; NL, no-laser test; PLc, prelimbic 
+cortex.
+
+We found that optogenetic activation of PFC–NAc neurons during the 
+CS+ increased anticipatory licking (Fig. 5a, c, d, f), whereas inactivation 
+of PFC–NAc neurons reduced anticipatory licking (Fig. 5b, c, e, f). 
+By contrast, optogenetic activation of PFC–PVT neurons during the 
+CS+ reduced anticipatory licking (Fig. 5g, i, j, l) whereas inactivation 
+of PFC–PVT neurons had no effect (Fig. 5h, i, k, l). The lack of effect 
+for PFC–PVT inactivation is probably due to CS+-evoked inhibition 
+of these cells (see Figs 2 and 3), as neuronal hyperpolarization from 
+sub-threshold potentials should not result in further adjustment of neu-
+ronal output. Collectively, activation of PFC–NAc neurons and inhi-
+bition of PFC–PVT neurons supports the expression of conditioned 
+reward seeking.
+
+In addition to encoding the reward-predictive stimulus after learn-
+ing, some PFC–NAc and PFC–PVT neurons displayed CS− encoding 
+(see Fig. 2). Considering this, we also evaluated how projection- 
+specific cells influenced licking during the CS−. We found that opto-
+genetic perturbations of PFC–NAc and PFC–PVT neurons during 
+the CS− did not influence the acquisition of CS− licking (Extended 
+Data Fig. 8a–f). By contrast, inactivation but not activation of PFC–
+NAc neurons reduced the expression of CS− licking, whereas opto-
+genetic manipulations of PFC–PVT neurons had no effect on the 
+expression of CS− licking (Extended Data Fig. 8g–l). Moreover, 
+optogenetic manipulation of PFC–NAc or PFC–PVT neurons 
+
+during random time epochs outside of cue delivery had no effect on 
+licking (Extended Data Fig. 9), nor did optogenetic manipulations 
+produce a real-time place preference or aversion (Extended Data  
+Fig. 10). These results suggest that activity in PFC–NAc and PFC–
+PVT neurons specifically during the cue period is critical for condi-
+tioned reward seeking.
+
+Here we found that the opposing population dynamics of prefrontal 
+output circuits orchestrates conditioned reward seeking. In addition to 
+divergent population encoding, subsets of cells in both corticostriatal 
+and corticothalamic circuits have response profiles that are opposite to 
+the overall population (that is, some PFC–NAc neurons have inhibi-
+tory CS+ responses, whereas some PFC–PVT cells have excitatory CS+ 
+responses). Although the cause and function of such heterogeneity is 
+unclear, it is possible that subpopulations of cells within each group 
+may have distinct cell-type-specific targets, afferent inputs, and spatial 
+locations. Thus, while it remains unclear how all cells in PFC func-
+tion to orchestrate reward seeking, our data suggest that projection- 
+specific and anatomically segregated prefrontal neurons can have 
+opposing activity dynamics, plasticity profiles, and functional control 
+of conditioned reward seeking.
+Online Content Methods, along with any additional Extended Data display items and 
+Source Data, are available in the online version of the paper; references unique to 
+these sections appear only in the online paper.
+
+1 0 6   |   N a T U r E   |   V O L   5 4 3   |   2   m a r c h   2 0 1 7
+
+letterreSeArCH© 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.PFC–NAc::ChR2
+
+b
+
+l
+
+s
+a
+i
+r
+T
+
+a
+
+l
+
+s
+a
+i
+r
+T
+
+r
+e
+s
+a
+l
+ 
+
+o
+N
+
+r
+e
+s
+a
+L
+
+PFC–NAc::eNpHR3.0
+
+r
+e
+s
+a
+l
+ 
+
+o
+N
+
+r
+e
+s
+a
+L
+
+PFC–NAc::eYFP
+
+c
+
+l
+
+s
+a
+i
+r
+T
+
+r
+e
+s
+a
+l
+ 
+
+o
+N
+
+r
+e
+s
+a
+L
+
+g
+
+l
+
+s
+a
+i
+r
+T
+
+r
+e
+s
+a
+l
+ 
+
+o
+N
+
+r
+e
+s
+a
+L
+
+PFC–PVT::ChR2
+
+h
+
+l
+
+s
+a
+i
+r
+T
+
+r
+e
+s
+a
+l
+ 
+
+o
+N
+
+r
+e
+s
+a
+L
+
+PFC–PVT::eNpHR3.0
+
+i
+
+PFC–PVT::eYFP
+
+l
+
+s
+a
+i
+r
+T
+
+r
+e
+s
+a
+l
+ 
+
+o
+N
+
+r
+e
+s
+a
+L
+
+s
+k
+c
+
+i
+l
+ 
+
+4
+
+s
+ 
+r
+e
+p
+
+1 s
+
+s
+k
+c
+
+i
+l
+ 
+
+4
+
+s
+ 
+r
+e
+p
+
+1 s
+
+s
+k
+c
+
+i
+l
+ 
+
+4
+
+s
+ 
+r
+e
+p
+
+1 s
+
+s
+k
+c
+
+i
+l
+ 
+
+4
+
+s
+ 
+r
+e
+p
+
+1 s
+
+s
+k
+c
+
+i
+l
+ 
+
+4
+
+s
+ 
+r
+e
+p
+
+1 s
+
+s
+k
+c
+
+i
+l
+ 
+
+4
+
+s
+ 
+r
+e
+p
+
+1 s
+
+Laser
+
+PFC–NAc::ChR2
+
+Laser
+No laser
+
+*
+*
+
+d
+
+F
+D
+C
+
+l
+
+a
+i
+r
+T
+
+1.0
+
+0
+NL
+L
+
+e
+
+F
+D
+C
+
+l
+
+a
+i
+r
+T
+
+Laser
+
+PFC–NAc::eNpHR3.0
+
+1.0
+
+0
+NL
+L
+
+Laser
+No laser
+
+*
+*
+*
+
+Laser
+
+PFC–NAc::eYFP
+
+Laser
+No laser
+
+f
+
+F
+D
+C
+
+l
+
+a
+i
+r
+T
+
+1.0
+
+0
+NL
+L
+
+0
+
+2
+
+46
+
+Change in lick rate (Hz)
+
+0
+
+2
+
+46
+
+Change in lick rate (Hz)
+
+0
+
+2
+
+4
+
+6
+
+Change in lick rate (Hz)
+
+Figure 5 | Activity in corticostriatal and corticothalamic neurons 
+controls expression of conditioned reward seeking. a–c, Example 
+peri-event rasters (top) and histograms (bottom) from PFC–NAc::ChR2 
+(n =  5), PFC–NAc::eNpHR3.0 (n =  5), and PFC–NAc::eYFP mice (n =  8). 
+d–f, CDF plots and bar graphs showing that the laser increased CS+ 
+licking for PFC–NAc::ChR2 mice (* * P =  0.006; versus PFC–NAc::eYFP, 
+auROC =  0.74) and reduced CS+ licking for PFC–NAc::eNpHR3.0 mice 
+(* * * P <  0.001; versus PFC–NAc::eYFP, auROC =  0.18). g–i, Example 
+
+received 10 June 2016; accepted 10 January 2017. 
+Published online 22 February 2017.
+
+1.  Langworthy, O. R. Increased spontaneous activity produced by frontal lobe 
+
+lesion in cats. Am. J. Physiol. 126, 158–161 (1939).
+
+2.  Matsumoto, K., Suzuki, W. & Tanaka, K. Neuronal correlates of goal-based 
+
+motor selection in the prefrontal cortex. Science 301, 229–232 (2003). 
+
+3.  Warden, M. R. et al. A prefrontal cortex–brainstem neuronal projection that 
+controls response to behavioural challenge. Nature 492, 428–432 (2012).
+
+4.  Vertes, R. P. Differential projections of the infralimbic and prelimbic cortex in 
+
+the rat. Synapse 51, 32–58 (2004).
+
+5.  Britt, J. P. et al. Synaptic and behavioral profile of multiple glutamatergic inputs 
+
+to the nucleus accumbens. Neuron 76, 790–803 (2012).
+
+6.  Ma, Y. Y. et al. Bidirectional modulation of incubation of cocaine craving by 
+
+silent synapse-based remodeling of prefrontal cortex to accumbens 
+projections. Neuron 83, 1453–1467 (2014).
+
+7.  McFarland, K. & Kalivas, P. W. The circuitry mediating cocaine-induced 
+
+reinstatement of drug-seeking behavior. J. Neurosci. 21, 8655–8663 (2001).
+8.  McFarland, K., Lapish, C. C. & Kalivas, P. W. Prefrontal glutamate release into 
+the core of the nucleus accumbens mediates cocaine-induced reinstatement 
+of drug-seeking behavior. J. Neurosci. 23, 3531–3537 (2003).
+
+9.  Neumann, P. A. et al. Cocaine-induced synaptic alterations in thalamus to 
+
+nucleus accumbens projection. Neuropsychopharmacology 41, 2399–2410 
+(2016).
+
+10.  Pascoli, V. et al. Contrasting forms of cocaine-evoked plasticity control 
+
+components of relapse. Nature 509, 459–464 (2014).
+
+11.  Peters, J., LaLumiere, R. T. & Kalivas, P. W. Infralimbic prefrontal cortex is 
+
+responsible for inhibiting cocaine seeking in extinguished rats. J. Neurosci. 28, 
+6046–6053 (2008).
+
+12.  Stefanik, M. T. et al. Optogenetic inhibition of cocaine seeking in rats. Addict. 
+
+Biol. 18, 50–53 (2013).
+
+13.  Ye, L. et al. Wiring and molecular features of prefrontal ensembles representing 
+
+distinct experiences. Cell 165, 1776–1788 (2016).
+
+14.  Bouret, S. & Sara, S. J. Reward expectation, orientation of attention and locus 
+coeruleus-medial frontal cortex interplay during learning. Eur. J. Neurosci. 20, 
+791–802 (2004).
+
+15.  Kim, H., Ährlund-Richter, S., Wang, X., Deisseroth, K. & Carlén, M. Prefrontal 
+
+parvalbumin neurons in control of attention. Cell 164, 208–218 (2016).
+
+16.  Kobayashi, S. et al. Influences of rewarding and aversive outcomes on activity 
+
+in macaque lateral prefrontal cortex. Neuron 51, 861–870 (2006).
+
+17.  Moorman, D. E. & Aston-Jones, G. Prefrontal neurons encode context-based 
+
+response execution and inhibition in reward seeking and extinction. Proc. Natl 
+Acad. Sci. USA 112, 9472–9477 (2015).
+
+18.  Chen, T. W. et al. Ultrasensitive fluorescent proteins for imaging neuronal 
+
+activity. Nature 499, 295–300 (2013).
+
+19.  Dittgen, T. et al. Lentivirus-based genetic manipulations of cortical neurons and 
+
+their optical and electrophysiological monitoring in vivo. Proc. Natl Acad. Sci. 
+USA 101, 18206–18211 (2004).
+
+j
+
+F
+D
+C
+
+l
+
+a
+i
+r
+T
+
+1.0
+
+0
+NL
+L
+
+Laser
+
+PFC–PVT::ChR2
+
+Laser
+No laser
+
+*
+
+k
+
+F
+D
+C
+
+l
+
+a
+i
+r
+T
+
+1.0
+
+0
+NL
+L
+
+Laser
+
+PFC–PVT::eNpHR3.0
+
+Laser
+No laser
+
+l
+
+F
+D
+C
+
+l
+
+a
+i
+r
+T
+
+1.0
+
+0
+NL
+L
+
+Laser
+
+PFC–PVT::eYFP
+
+Laser
+No laser
+
+0
+
+2
+
+4
+
+6
+
+0
+
+2
+
+4
+
+6
+
+0
+
+2
+
+4
+
+6
+
+Change in lick rate (Hz)
+
+Change in lick rate (Hz)
+
+Change in lick rate (Hz)
+peri-event rasters (top) and histograms (bottom) from PFC–PVT::ChR2 
+(n =  5), PFC–PVT::eNpHR3.0 (n =  5), and PFC–PVT::eYFP mice (n =  6). 
+j–l, CDF plots and bar graphs showing that the laser decreased CS+ licking 
+for PFC–PVT::ChR2 mice (versus PFC–PVT::eYFP: auROC =  0.26,  
+* P =  0.02), whereas no effect was observed for PFC–PVT::eNpHR3.0 mice 
+(versus PFC–PVT::eYFP: auROC =  0.37, P =  0.11). Bar graphs represent 
+the mean ±  s.e.m.
+
+20.  Sesack, S. R., Deutch, A. Y., Roth, R. H. & Bunney, B. S. Topographical 
+
+organization of the efferent projections of the medial prefrontal cortex in the 
+rat: an anterograde tract-tracing study with Phaseolus vulgaris leucoagglutinin. 
+J. Comp. Neurol. 290, 213–242 (1989).
+
+21.  Bossert, J. M. et al. Role of projections from ventral medial prefrontal cortex to 
+nucleus accumbens shell in context-induced reinstatement of heroin seeking. 
+J. Neurosci. 32, 4982–4991 (2012).
+
+22.  McGlinchey, E. M., James, M. H., Mahler, S. V., Pantazis, C. & Aston-Jones, G. 
+
+Prelimbic to accumbens core pathway is recruited in a dopamine-dependent 
+manner to drive cued reinstatement of cocaine seeking. J. Neurosci. 36, 
+8700–8711 (2016).
+
+23.  Igelstrom, K. M., Herbison, A. E. & Hyland, B. I. Enhanced c-Fos expression in 
+superior colliculus, paraventricular thalamus and septum during learning of 
+cue-reward association. Neuroscience 168, 706–714 (2010).
+
+24.  Haight, J. L. & Flagel, S. B. A potential role for the paraventricular nucleus of 
+
+the thalamus in mediating individual variation in Pavlovian conditioned 
+responses. Front. Behav. Neurosci. 8, 79 (2014).
+
+25.  Do-Monte, F. H., Quiñones-Laracuente, K. & Quirk, G. J. A temporal shift in the 
+
+circuits mediating retrieval of fear memory. Nature 519, 460–463 (2015).
+
+26.  Penzo, M. A. et al. The paraventricular thalamus controls a central amygdala 
+
+fear circuit. Nature 519, 455–459 (2015).
+
+27.  Harris, K. D. & Mrsic-Flogel, T. D. Cortical connectivity and sensory coding. 
+
+Nature 503, 51–58 (2013).
+
+28.  Pinto, A. & Sesack, S. R. Limited collateralization of neurons in the rat 
+
+prefrontal cortex that project to the nucleus accumbens. Neuroscience 97, 
+635–642 (2000).
+
+Supplementary Information is available in the online version of the paper.
+
+Acknowledgements We thank S. Smith and J. Stirman for helpful discussions. 
+This study was funded by grants from the National Institutes of Health (NIDA: 
+F32-DA041184, J.M.O.; R01-DA032750, G.D.S.; R01-DA038168, G.D.S.; NICHD: 
+T32-HD079124, S.L.R.; NIMH: T32-MH093315, J.A.M.), the Brain and Behavior 
+Research Foundation (G.D.S.), the Children’s Tumor Foundation (016-01-006, 
+J.E.R.), the Foundation of Hope (G.D.S.), the UNC Neuroscience Center (Helen 
+Lyng White Fellowship, V.M.K.N.), the UNC Neuroscience Center Microscopy Core  
+(P30 NS045892), and the UNC Department of Psychiatry (G.D.S.).
+
+Author Contributions V.M.K.N. wrote codes for analyses. V.M.K.N., A.M.M., E.S.V.,  
+E.P.M., O.K., J.A.M., J.E.R., S.L.R. and M.A.R. provided technical assistance for 
+in vivo optogenetics, histology and immunohistochemistry. J.M.O. performed 
+experiments and surgeries. J.M.O., V.M.K.N. and G.D.S. designed the 
+experiments, analysed and interpreted the data, and wrote the manuscript.
+
+Author Information Reprints and permissions information is available at  
+www.nature.com/reprints. The authors declare no competing financial  
+interests. Readers are welcome to comment on the online version of the  
+paper. Correspondence and requests for materials should be addressed to 
+G.D.S. (gstuber@med.unc.edu).
+
+2   m a r c h   2 0 1 7   |   V O L   5 4 3   |   N a T U r E   |   1 0 7
+
+letterreSeArCH© 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.MethOdS
+Subjects and surgery. Adult male C57BL/6J mice (Jackson Laboratories) or Ai9 
+reporter mice (Cg-Gt(ROSA)26Sortm9(CAG-tdTomato)HzeIJ; Jackson Laboratories) 
+were group housed (25–35 g; 6–8 weeks old) with littermates until surgery. For 
+all experiments, mice underwent surgery during which they were anaesthetized 
+with 0.8–1.5% isoflurane vaporized in pure oxygen (1 l min−1) and placed within 
+a stereotactic frame (David Kopf Instruments). Ophthalmic ointment (Akorn) 
+and a topical anaesthetic (2% lidocaine; Akorn) were applied during surgeries, 
+and subcutaneous injections of sterile saline (0.9% NaCl in water) were adminis-
+tered to prevent dehydration. During surgeries, virus injections were administered 
+unilaterally (for two-photon microscopy experiments) or bilaterally (for optoge-
+netics or anatomical experiments) targeting dorsal medial PFC (specifically pre-
+limbic cortex; 500 nl per side; relative to bregma: AP, + 1.85 mm; ML, ± 0.60 mm; 
+DV, − 2.50 mm), bilaterally targeting NAc (500 nl per side; relative to bregma: AP,  
++ 1.42 mm; ML ± 0.73 mm; DV, − 4.80 mm), and/or on the midline targeting PVT 
+(300 nl; relative to bregma: AP, − 1.46 mm; ML, − 1.13 mm; DV, − 3.30 mm; 20° 
+angle). The UNC Vector Core packaged all viruses except canine adenovirus  
+2 encoding Cre (Cav2-Cre; Institut de Génétique Moléculaire de Montpellier). For 
+two-photon imaging experiments, an optical cannula (Inscopix) was implanted 
+above the PFC injection site (relative to bregma: AP, + 1.85 mm; ML, − 0.8 mm; 
+DV, − 2.2 mm; see ref. 29 for details of using similar surgical protocols for imaging 
+experiments). For optogenetic experiments, custom-made optical fibres30 were 
+implanted bilaterally approximately 0.5 mm above the PFC injection sites (relative 
+to bregma: AP, + 1.85 mm; ML, ± 0.83 mm; DV, − 1.93 mm; 10° angle). For experi-
+ments involving head-fixed behaviour, a custom-made ring (stainless steel; 5 mm 
+ID, 11 mm OD) was attached to the skull during surgery to allow head fixation 
+(see Fig. 1a). Following surgeries, mice received acetaminophen in their drinking 
+water for two days, and were allowed to recover with access to food and water  
+ad libitum for at least 21 days. After recovery, mice were water restricted (water 
+bottles taken out of the cage), and 0.6 ml of water was delivered every day to a dish 
+placed within each home cage. Behavioural experiments began when mice weighed 
+less than 90% of free drinking weight (around 10 days for all experiments). To 
+ensure good health and weight maintenance, mice were weighed and handled daily. 
+This protocol resulted in weight stabilization between 85–90% of free-drinking 
+weight during each experiment. No mouse was given more or less than 0.6 ml 
+of water for weight concerns during water restriction procedures, nor did any 
+health problems related to dehydration arise at any point from these protocols. 
+All experimental procedures were performed in accordance with the Guide for 
+the Care and Use of Laboratory Animals (National Institutes of Health), and were 
+approved by the Institutional Animal Care and Use Committee at the University 
+of North Carolina prior to experiments commencing.
+Head-fixed behaviour. Following recovery from surgery, mice were habituated to 
+head fixation for 3 days, during which unpredictable drops of sucrose (10% sucrose 
+in water; 2.0–2.5 μ l) were delivered intermittently for one hour (approximately  
+60 drops per hour) through a gravity-driven, solenoid-controlled lick tube. Once 
+the mice displayed sufficient licking (> 1,000 licks per session), they underwent 
+Pavlovian conditioning. During each conditioning session, two cues (3 kHz pulsing 
+or 12 kHz constant tones, 2 s, 70 dB) were randomly presented 50 times before the 
+delivery of sucrose (CS+, 10% sucrose in water; 2.0–2.5 μ l) or no sucrose (CS−), 
+such that there was a one second trace interval between delivery of the CS+ and 
+sucrose (see Fig. 1b). The cue contingencies were counterbalanced across cohorts 
+of mice to ensure that mice acquired conditioned licking in response to either 
+tone when paired with sucrose. The inter-trial interval between the previous 
+reward delivery (CS+) or withholding time (CS−) and the next cue was chosen 
+as a random sample from a uniform distribution bounded by 40 s and 80 s. Cue 
+discrimination was quantified using the area under a receiver operating charac-
+teristic (auROC) formed by the number of baseline-subtracted licks during the 
+CS+ versus CS− trace intervals. For both two-photon and optogenetic behavioural 
+experiments, we classified sessions as ‘early’ or ‘late’ in learning, defined by both 
+behavioural performance (early, auROC <  0.65; late, auROC >  0.66) and session 
+number (early, sessions 1–5; late, sessions 7 or later). These criteria were used as 
+post hoc analysis revealed that an auROC >  0.66 approximates high performance in 
+a phase space formed by behavioural performance across sessions. Finally, behavi-
+oural data are displayed and analysed throughout the manuscript as the change in 
+lick rate between each 3-s cue period and 1-s baseline period (baseline period is 
+immediately before each cue). In addition, we show raw lick rates during both the 
+cue and baseline periods for all imaging experiments (see Extended Data Fig. 1). 
+Baseline lick rates remained relatively low across all experiments, and therefore for 
+optogenetic studies only the change in lick rate is shown and analysed (see Figs 4, 
+5 and Extended Data Figs 8 and 9).
+Two-photon microscopy. Experimental design. Two-photon microscopy was 
+used to visualize activity dynamics of PFC neurons in vivo. A virus encoding the  
+
+calcium indicator GCaMP6s18 (AAVdj-CaMK2a -GCaMP6s; 5.3 ×  1012 infec-
+tious units per ml) was injected into PFC (see Subjects and surgery). For imaging  
+projection-specific neurons, a virus encoding the Cre-dependent calcium indi-
+cator GCaMP6s (AAVdj-ef1α -DIO-GCaMP6s; 3.1 ×  1012 infectious units per ml; 
+from Karl Deisseroth) was injected into PFC, and the retrogradely transported 
+canine adenovirus encoding Cre-recombinase31,32 was injected into either NAc or 
+PVT (Cav2-Cre; 4.2 ×  1012 infectious units per ml). After a minimum of 8 weeks 
+to allow virus transport and infection, mice underwent Pavlovian conditioning, 
+during which GCaMP6s-expressing neurons were visualized using two-photon 
+microscopy.
+Data acquisition, signal extraction, and analysis. A two-photon microscope 
+(FVMPE-RS) was equipped with the following to allow imaging of PFC in vivo: a 
+hybrid scanning core set with galvanometers and fast resonant scanners (allows 
+up to 30 Hz frame-rate acquisition; set to 2.5 Hz), multi-alkali PMT and GaAsP-
+PMT photo detectors with adjustable voltage, gain, and offset features, a single 
+green/red NDD filter cube, a long working distance 20×  air objective designed 
+for optical transmission at infrared wavelengths (Olympus, LCPLN20XIR,  
+0.45 NA, 8.3 mm WD), a software-controlled modular xy stage loaded on a manual 
+z-deck, and a tunable Mai-Tai Deep See laser system (Spectra Physics, laser set to 
+955 nm, ~ 100 fs pulse width) with automated four-axis alignment. Before each 
+conditioning session, a particular field of view (FOV) was selected by adjusting the 
+imaging plane (z-axis), and each FOV was spaced at least 50 μ m from one another 
+to prevent visualization of the same cells across multiple FOVs. During each con-
+ditioning session, two-photon scanning was triggered for each trial 7 s before cue 
+delivery, and a 20 s video was then collected for each trial. Data were both acquired 
+and processed using a computer equipped with FluoView (Olympus, FV1200) and 
+cellSens (Olympus) software packages. Following data acquisition, videos were 
+motion corrected using a planar hidden Markov model (SIMA v1.3)33 and regions 
+of interest (ROIs) were hand drawn around each cell using the standard deviation 
+projection of the motion-corrected video using ImageJ. Next, calcium transient 
+time series data were extracted with SIMA and analysed using custom Python 
+data analysis pipelines written in the laboratory (by V.M.K.N.). For analysis,  
+data were split into two groups (early and late) that were defined based on behav-
+ioural performance and the day of conditioning (see Head-fixed behaviour). Next, 
+each recorded neuron was defined as having an excitatory response, inhibitory 
+response, or no response. Significant responses represent significant two-tailed 
+auROC comparing average fluorescence (Δ f/f) of the trace interval (1 s after CS 
+offset) versus baseline (1 s before CS onset) where P <  0.05 after Benjamini–
+Hochberg false discovery rate correction. Each P value for auROC was defined 
+by calculating the P values for the corresponding Mann–Whitney U statistic. χ2 
+tests were then used to compare the number of CS+ responders to CS− respond-
+ers for each group. For additional decoding analysis (for example, Fig. 2f, l), we 
+tested whether the identity of the cue on any given trial could be decoded from 
+the mean trace interval response on that trial using support vector machines. 
+To this end, we used the Python module, scikitlearn, with GridSearchCV and a 
+support vector classification (SVC) estimator with a radial basis function kernel, 
+optimizing across the following parameters: γ : {10−2, 10−1, 100, 101, 102}, C: {10−2, 
+10−1, 100, 101, 102}. Quantification of performance was done using tenfold valida-
+tion34. For each neuron, the highest accuracy score across these parameters was 
+used as the metric of accuracy. In order to determine whether the population of 
+accuracy scores across all neurons was significantly different from that expected 
+by chance, we performed a single shuffle per neuron by randomizing the cue 
+identity on every trial. The population of shuffled accuracy scores across one 
+shuffle was then compared to the population of unshuffled accuracy scores using 
+a two-tailed Welch’s t-test. Note that since the metric of accuracy was optimized 
+across parameters, the mean accuracy score expected by chance is not 0.5, but is 
+instead closer to 0.55 (Fig. 2f, l and Extended Data Fig. 4d). We also further tested 
+whether the mean activity during the trace interval on a given trial for one neuron 
+could be used to decode the number of licks in the trace interval. This was per-
+formed using support vector regression (SVR) in scikitlearn with GridSearchCV 
+with a radial basis function kernel, optimizing across the following parameters: 
+C: 5 logarithmically equidistant points between 10−3 and 103 {10−3, 3.16 ×  10−2, 
+100, 3.16 ×  102, 103}, ε : 5 logarithmically equidistant points between 10−3 and 103 
+{10−3, 3.16 ×  10−2, 100, 3.16 ×  102, 103}, γ : 10 logarithmically equidistant points 
+between 10−6 and 106 {10−6, 2.15 ×  10−5, 4.64 ×  10−4, 10−2, 2.15 ×  10−1, 4.64, 
+102, 2.15 ×  103, 4.64 ×  104, 106}. Quantification of performance was done using 
+tenfold validation of the R2 metric (note that this metric can be infinitely negative, 
+indicating arbitrarily poor performance, but is bounded on the positive end at 1, 
+indicating perfect decoding). We found that as a population, the number of antic-
+ipatory licks during the trace interval could not be decoded in the late sessions  
+in CaMK2a-expressing neurons (mean R2 =  − 1.21), PFC–NAc neurons (mean  
+R2 =  − 0.92) or PFC–PVT neurons (mean R2 =  − 0.39). These negative numbers 
+
+letterreSeArCH© 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.reflect the absence of a relationship between licking and calcium activity in each 
+cell population.
+Optogenetics. Behavioural optogenetics were performed as described in detail 
+previously30. In brief, during surgery a virus encoding Cre-inducible channel-
+rhodopsin-2 (AAV5-ef1α -DIO-hChR2(H134R)-eYFP; 5.0 ×  1012 infectious 
+units per ml), halorhodopsin (AAV5-ef1α -eNpHR3.0-eYFP; 8.0 ×  1012 infec-
+tious units per ml), or control (AAV5-ef1α -eYFP; 6.0 ×  1012 infectious units 
+per ml) was injected into PFC; and Cav2-Cre (refs 31, 32) (4.2 ×  1012 infectious 
+units per ml) was injected into either NAc or PVT. After a minimum of 8 weeks 
+to allow sufficient virus transport and infection, mice underwent Pavlovian 
+conditioning.
+
+For acquisition experiments (for example, Fig. 4), mice underwent eight daily 
+conditioning sessions with laser followed by a test session (no laser). For photo-
+activation manipulations in ChR2 or control mice, the laser (473 nm; 8–10 mW) 
+was turned on for 5-ms pulses (20 Hz) during 80% of the cue trials, starting at 
+the cue onset and ending at the reward delivery. For photoinhibition manipula-
+tions in eNpHR3.0 or control mice, the laser (532 nm; 8–10 mW) did not pulse. 
+Because the laser had no effect in the control mice, these data were collapsed 
+across PFC–NAc and PFC–PVT groups. For expression experiments (for exam-
+ple, Fig. 5), after mice reached high performance criterion (late, auROC >  0.66),  
+they underwent six daily conditioning sessions. Furthermore, every other  
+session was selected for optogenetic manipulations, during which the laser was 
+presented for 3 s during either the cue and trace interval or at random time 
+epochs outside of cue or reward delivery. Because there was no effect of laser in 
+the ChR2 or eNpHR3.0 control mice, these data were collapsed for PFC–NAc 
+groups and PFC–PVT groups. In addition, for expression experiments subsets 
+of control mice were used twice, once as ChR2 controls (blue light), and again 
+as eNpHR3.0 controls (green light). Following experiments, histological verifi-
+cation of fluorescence and optical fibre placements were performed as described  
+previously35.
+
+Behavioural data (change in lick rate, see above) was analysed based on a priori 
+comparisons of interest (effect of laser on ChR2/eNpHR3.0 animals versus effect 
+of laser in eYFP animals). For acquisition experiments (Fig. 4; Extended Data  
+Fig. 8a–f), we analysed data from the no-laser test day only, and specifically com-
+pared the change in lick rate between the ChR2 or eNpHR3.0 groups versus the 
+eYFP group. To correct for the double comparison (ChR2 or eNpHR3.0 versus 
+eYFP), we performed a Benjamini–Hochberg multiple comparisons correction. 
+For expression experiments (Fig. 5; Extended Data Figs 8 g–l and 9), in each pair 
+of sessions (no laser, laser) we calculated the difference in mean lick rate between 
+the two in order to obtain a statistical measure of the ‘effect of laser’ per session 
+pair. Next, we compared the effects of laser from the ChR2 or eNpHR3.0 groups 
+versus the corresponding effect of laser in the eYFP group. To correct for the double 
+comparison (ChR2 or eNpHR3.0 versus eYFP), we again performed a Benjamini–
+Hochberg multiple comparisons correction. Considering this, for optogenetic 
+experiments all P values (which are two-tailed throughout the manuscript) have 
+been corrected for multiple comparisons.
+Retrograde tracing. The anatomy and electrophysiological properties of PFC–NAc 
+and PFC–PVT neurons were evaluated through retrograde tracing36. Specifically, 
+during surgeries the retrograde tracer cholera toxin subunit B conjugated to Alexa 
+Fluor (CtB-488, CtB-594; Molecular Probes) was injected bilaterally into NAc 
+(500 nl per side) and on the midline in PVT (300 nl; colour counterbalanced across 
+mice). Ten days following surgery, animals were killed for histology (n =  3 mice) 
+or slice electrophysiology (n =  3 mice). For anatomical experiments, a student 
+blind to all experiments (E.P.M.) and conditions counted the number of CtB-488 
+positive, CtB-594 positive, and double-positive neurons in prelimbic medial pre-
+frontal cortex (a subregion of dorsal medial PFC). The distance of each cell from 
+the midline and the layer specificity of each cell were then measured using ImageJ. 
+For electrophysiological experiments, mice were euthanized ten days following 
+surgery for patch-clamp recordings ex vivo (see below for details).
+Rabies tracing. The monosynaptic afferents to PFC–NAc and PFC–PVT neurons  
+were identified using a glycoprotein-deleted rabies strategy37 in combination with 
+Cav2-Cre targeting of projection-specific neuron populations. Specifically, during 
+the first surgery a cocktail containing the Cre-dependent starter viruses encod-
+ing the G-protein and TVA were injected into PFC (3:1 of AAV5-FLEX-RG and 
+AAV5-FLEX-TVA-mCherry; 300 nl per side), and Cav2-Cre was injected into 
+either NAc (500 nl per side) or PVT (300 nl). Five weeks later, mice were given 
+a second surgery in which the G-deleted rabies virus was injected into PFC (1:5 
+diluted EnvA-rabies-GFP). Finally, 8 days after the rabies injection each mouse  
+(n =  3 per group) was euthanized for histology and cell quantification. Our rabies 
+protocol led to sparse labelling of PFC-projection neurons, allowing quantification 
+of individual cells in each brain section (40 μ m thick). Each ROI was selected 
+based on previous PFC tracing experiments38, as well as the fluorescence intensity 
+
+observed in our experiments. Next, out of all tissue collected for each ROI in each 
+mouse, we selected the three sections containing the most cells per region, and 
+used confocal microscopy to get cellular-resolution images of all cells in each 
+of those sections. For each section, we quantified all individual input neurons 
+(GFP+) and starter cells (both GFP+ and mCherry+). Considering that the ante-
+rior cingulate cortex (ACC) was close to the PFC injection site, some sections 
+containing ACC also had starter cell labelling. Thus, because we were interested 
+in long-range inputs from ACC only, only sections that did not have mCherry 
+labelling were used for ACC input quantification. Finally, rabies-tracing data were 
+analysed by comparing the number of cells in each section across groups (raw 
+neuron count), and by comparing the percentage of input neurons per starter cell 
+for each particular mouse.
+Patch-clamp electrophysiology. Mice were anaesthetized with pentobarbital 
+(50 mg kg−1) before transcardial perfusion with ice-cold sucrose cutting solu-
+tion containing the following (in mM): 225 sucrose, 119 NaCl, 1.0 NaH2PO4,  
+4.9 MgCl2, 0.1 CaCl2, 26.2 NaHCO3, 1.25 glucose, 305 mOsm. Brains were then 
+rapidly removed, and coronal sections 300 μ m thick were made using a vibra-
+tome (Leica, VT 1200). Sections were then incubated in aCSF (32 °C) containing 
+the following (in mM): 119 NaCl, 2.5 KCl, 1.0 NaH2PO4, 1.3 MgCl, 2.5 CaCl2, 
+26.2 NaHCO3, 15 glucose, approximately 306 mOsm. After an hour of recovery, 
+slices were constantly perfused with aCSF (32 °C) and visualized using differential 
+interference contrast through a 40×  water-immersion objective mounted on an 
+upright microscope (Olympus BX51WI). Whole-cell recordings were obtained 
+using borosilicate pipettes (3–5 M Ω ) back-filled with internal solution containing 
+the following (in mM): 130 K gluconate, 10 KCl, 10 HEPES, 10 EGTA, 2 MgCl2,  
+2 ATP, 0.2 GTP (pH 7.35, 270–285 mOsm).
+
+Current-clamp recordings were obtained from GCaMP6s-expressing neurons 
+to identify how action potential frequency correlated with GCaMP6s fluorescence. 
+Specifically, to determine how elevations in action potential frequency influence 
+GCaMP6s fluorescence, a 1 s train of depolarizing pulses (2 nA, 2 ms) was applied 
+at a frequency of 1, 2, 5, 10 or 20 Hz. To determine how attenuations in action 
+potential frequency influence GCaMP6s fluorescence, a 3 s pause was applied 
+after a 10 s baseline train of depolarizing pulses (2 nA, 2 ms; 1, 2, 5, 10 or 20 Hz). 
+Finally, to determine if hyperpolarization influences GCaMP6s fluorescence in 
+the absence of action potential frequency modulation, a 3 s hyperpolarizing step 
+(150 pA) was applied in neurons that were held either below or above resting 
+membrane potential. During electrophysiological recordings, GCaMP6s fluores-
+cence dynamics were visualized using a mercury lamp (Olympus, U-RFL-T) and 
+microscope-mounted camera (QImaging, optiMOS). Imaging data were acquired 
+using Micro-Manager, and extracted through hand-drawn ROIs for each recorded 
+neuron using ImageJ.
+
+Current-clamp recordings were also obtained to identify the intrinsic proper-
+ties of PFC–NAc and PFC–PVT neurons in retrograde tracing experiments, as 
+previously described39. First, action potential firing was examined by applying a 
+series of long depolarizing sweeps (800 ms) at + 25 pA steps (0–450 pA). Next, 
+rheobase (the minimum amount of current required for an action potential to 
+fire) was measured by applying a series of short depolarizing sweeps (50 ms) at  
++ 10 pA steps (starting at 0 pA) until the recorded neuron fired an action potential. 
+For all patch-clamp experiments, data acquisition occurred at 1 kHz sampling 
+rate through a MultiClamp 700B amplifier connected to a Digidata 1440A dig-
+itizer (Molecular Devices). Data were analysed using Clampfit 10.3 (Molecular 
+Devices).
+Data collection. The nature of all imaging and behavioural experiments yields 
+high-power datasets, as we can test responses to reward-predictive cues hundreds 
+of times within a single session. Thus, although the experiments themselves require 
+rigorous experimentation, the number of mice that are required for each exper-
+iment is generally 3–6 per group, depending on the effect size (which was not 
+predetermined for these experiments). Mice were randomly picked for each group 
+in each experiment, by alternating the surgery for each mouse in a cage. During 
+data collection, investigators were only blind to the conditions for rabies tracing 
+cell counting and CtB cell counting. The only mice excluded from final analysis 
+were those that died before or during the experiments (n =  3). For optogenetic 
+experiments, mice were excluded if histology confirmed ectopic virus expression 
+outside of PFC (n =  1), or if optical-fibre placements were not in dorsomedial 
+PFC (n =  0). For data analysis, equal variance was not assumed for behavioural 
+optogenetics or imaging datasets. Equal variance was assumed for cell counting 
+experiments and electrophysiological experiments.
+Code and data availability. We used Python (codes written by V.M.K.N.) to analyse  
+imaging and optogenetic datasets included in this manuscript (see Figs 1–5). That 
+data, as well as the codes used for analysis, are openly available online (https://
+github.com/stuberlab). All other data are available upon request from the corre-
+sponding author.
+
+letterreSeArCH© 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.29.  Resendez, S. L. et al. Visualization of cortical, subcortical and deep brain neural 
+circuit dynamics during naturalistic mammalian behavior with head-mounted 
+microscopes and chronically implanted lenses. Nat. Protocols 11, 566–597 
+(2016).
+
+30.  Sparta, D. R. et al. Construction of implantable optical fibers for long-term 
+
+optogenetic manipulation of neural circuits. Nat. Protocols 7, 12–23  
+(2011).
+
+31.  Soudais, C., Laplace-Builhe, C., Kissa, K. & Kremer, E. J. Preferential 
+
+transduction of neurons by canine adenovirus vectors and their efficient 
+retrograde transport in vivo. FASEB J. 15, 2283–2285 (2001).
+
+32.  Hnasko, T. S. et al. Cre recombinase-mediated restoration of nigrostriatal 
+
+dopamine in dopamine-deficient mice reverses hypophagia and bradykinesia. 
+Proc. Natl Acad. Sci. USA 103, 8858–8863 (2006).
+
+33.  Kaifosh, P., Zaremba, J. D., Danielson, N. B. & Losonczy, A. SIMA: Python 
+
+software for analysis of dynamic fluorescence imaging data. Front. Neuroinform. 
+8, 80 (2014).
+
+3rd edn (Academic Press, 2007).
+
+34.  Kohavi, R. A study of cross-validation and bootstrap for accuracy estimation 
+
+and model selection. IJCAI (U. S.) 95, 1137–1143 (1995).
+
+35.  Stuber, G. D. et al. Excitatory transmission from the amygdala to nucleus 
+
+accumbens facilitates reward seeking. Nature 475, 377–380 (2011).
+
+36.  Conte, W. L., Kamishina, H. & Reep, R. L. Multiple neuroanatomical tract-tracing 
+
+using fluorescent Alexa Fluor conjugates of cholera toxin subunit B in rats.  
+Nat. Protocols 4, 1157–1166 (2009).
+
+37.  Callaway, E. M. Transneuronal circuit tracing with neurotropic viruses.  
+
+Curr. Opin. Neurobiol. 18, 617–623 (2008).
+
+38.  Hoover, W. B. & Vertes, R. P. Anatomical analysis of afferent projections to the 
+medial prefrontal cortex in the rat. Brain Struct. Funct. 212, 149–179 (2007).
+
+39.  Otis, J. M., Dashew, K. B. & Mueller, D. Neurobiological dissociation of retrieval 
+
+and reconsolidation of cocaine-associated memory. J. Neurosci. 33, 
+1271–1281 (2013).
+
+40.  Paxinos, G. & Franklin, K. B. J. The Mouse Brain in Stereotactic Coordinates  
+
+letterreSeArCH© 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.Extended Data Figure 1 | Mice used for imaging experiments acquired 
+cue-specific anticipatory licking across conditioning. a, Average lick 
+rate during the 1-s baseline period (immediately before each cue delivery) 
+for all imaging experiments (early, n =  30 sessions; late n =  30 sessions). 
+b, Average lick rate during each cue (rather than the change in lick rate 
+presented in the main figures) for all imaging experiments (early, n =  30 
+sessions; late n =  30 sessions). c, Individual behavioural discrimination 
+(licking during CS+ versus CS−; auROC − 0.5) scores during early and 
+late conditioning sessions for all imaging sessions used in this manuscript 
+(early, n =  30 sessions; late, n =  30 sessions; t58 =  17.6, P <  0.001). 
+Line graphs represent the mean ±  s.e.m. These data are presented in a 
+summarized form in Fig. 1d, e.
+
+letterreSeArCH© 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.Extended Data Figure 2 | Elevations and reductions in GCaMP6s 
+fluorescence track action potential frequency but not voltage per se. 
+a, Virus injections of AAVdj-CaMK2a-GCaMP6s into dorsomedial PFC 
+allowed subsequent whole-cell patch-clamp slice recordings of GCaMP6s-
+expressing neurons. Coronal cartoon redrawn based on ref. 40.  
+b, c, Example traces showing GCaMP6s fluorescence (b) during  
+current-clamp recordings (c) in the absence (left) and presence (right)  
+of action potentials (n =  8 neurons; n =  2 mice). d, Grouped data  
+revealing that hyperpolarization resulted in negative GCaMP6s 
+fluorescence deflections in the presence of baseline action potentials, but 
+not in the absence of baseline action potentials (interaction: F1,14 =  20.0;  
+* * * P <  0.001; post hoc tests: baseline action potentials, P >  0.4; no 
+baseline action potentials, P <  0.001). e, Example traces showing a series 
+
+of depolarizing pulses (1–20 Hz) applied in current-clamp mode to drive 
+trains of action potentials (bottom), during which GCaMP6s fluorescence 
+was tracked in recorded neurons (top; n =  12 neurons; n =  2 mice).  
+f, Action potential generation resulted in linear elevations in GCaMP6s 
+fluorescence (r =  0.776, * * * P <  0.001), such that a single action potential 
+was detectable (red waveform; peak =  12.6 ±  4.0% Δ f/f0). g, A series of 
+baseline depolarizing pulses (1–20Hz) was applied before and after a  
+3 s pause (n =  7 neurons; n =  2 mice). h, The pause in action potentials 
+resulted in linear reductions in GCaMP6s fluorescence (r =  − 0.656,  
+* * * P <  0.001), such that a 1 Hz reduction in firing frequency was 
+detectable (red waveform; peak =  − 8.4 ±  2.0% Δ f/f0). Line graphs 
+represent the mean ±  s.e.m. AP, action potential; ILc, infralimbic cortex; 
+PLc, prelimbic cortex.
+
+letterreSeArCH© 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.PFC CaMK2a
+Early CS- Trials
+
+a
+
+PFC CaMK2a
+Early CS+ Trials
+
+b
+
+s
+n
+o
+r
+u
+e
+n
+
+ 
+
+0
+0
+
+5 s 4
+
+s
+n
+o
+r
+u
+e
+n
+
+ 
+
+0
+0
+
+5 s4
+
+PFC-NAc
+
+Early CS- Trials
+
+c
+
+PFC-NAc
+
+Early CS+ Trials
+
+d
+
+s
+n
+o
+r
+u
+e
+n
+
+ 
+
+0
+
+5 s2
+
+s
+n
+o
+r
+u
+e
+n
+
+ 
+
+0
+
+5 s2
+
+PFC-PVT
+
+Early CS- Trials
+
+e
+
+PFC-PVT
+
+Early CS+ Trials
+
+f
+
+s
+n
+o
+r
+u
+e
+n
+
+ 
+
+0
+
+5 s2
+
+s
+n
+o
+r
+u
+e
+n
+
+ 
+
+0
+
+5 s2
+
+-30%
+
+-15%
+Δ
+
+f
+/
+f
+
+0
+
+0%
+
+15%
+
+-30%
+
+-15%
+Δ
+
+f
+/
+f
+
+0
+
+0%
+
+15%
+
+-30%
+
+-15%
+Δ
+
+f
+/
+f
+
+0
+
+0%
+
+15%
+
+Extended Data Figure 3 | Cue responses in PFC CaMK2a-expressing 
+neurons, PFC–NAc neurons, and PFC–PVT neurons before appetitive 
+learning. a, b, Population heat plots showing average responses for all 
+individual PFC CaMK2a-expressing neurons (n =  1,473 neurons; n =  8 
+mice) across all CS− trials before learning (a) and all CS+ trials before 
+learning (b). c, d, Population heat plots showing average responses for all 
+individual PFC–NAc neurons (n =  84 neurons; n =  4 mice) across all  
+CS− trials before learning (c) and all CS+ trials before learning (d).  
+e, f, Population heat plots showing average responses for all individual 
+PFC–PVT neurons (n =  92 neurons; n =  3 mice) across all CS− trials 
+before learning (e) and all CS+ trials before learning (f). Data shown here 
+are from neurons presented in Figs 1 and 2. Vertical dotted lines refer to 
+the time of sucrose delivery in CS+ trials or the equivalent time for  
+CS− trials.
+
+letterreSeArCH© 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.Extended Data Figure 4 | Cue discrimination in PFC CaMK2a-
+expressing neurons before and after appetitive learning.  
+a–c, Histograms for all recorded CaMK2a-expressing PFC neurons (early, 
+n =  1,473 neurons; late, n =  1,569 neurons; n =  8 mice), showing CS+ 
+responses (a), CS− responses (b), and CS+/CS− discrimination (c) during 
+both early and late Pavlovian conditioning sessions. d, CDF plot showing 
+
+that the dynamics of individual CaMK2a-expressing neurons could be 
+used to accurately decode whether the CS+ or CS− was presented in early 
+conditioning sessions (compared to early shuffled: Welch’s t2,925.61 =  7.30, 
+P <  0.001), as well as in late conditioning sessions (compared to late 
+shuffled: Welch’s t2,727.06 =  24.84, P <  0.001). Data shown here are from 
+neurons presented in Fig. 1. EarlySh, early shuffled; LateSh, late shuffled.
+
+letterreSeArCH© 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.Extended Data Figure 5 | See next page for caption.
+
+letterreSeArCH© 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.Extended Data Figure 5 | Corticostriatal and corticothalamic 
+projection neurons are anatomically and electrophysiologically 
+distinct. a, b, CtB-488 and CtB-594 were injected (n =  3 mice) into either 
+NAc or PVT (scale bars, 250 μ m) (a), resulting in retrograde labelling of 
+NAc-projecting and PVT-projecting neurons in dorsomedial PFC (scale 
+bars, 50 μ m) (b). c–e, Coronal sections of anterior (c), middle (d), and 
+posterior (e) dorsomedial PFC revealing spatial separation of PFC–NAc 
+and PFC–PVT neurons (scale bars, 250 μ m). f–h, Population histograms 
+from all mice (n =  3) showing cell counts from anterior (f), middle (g), and 
+posterior (h) dorsomedial PFC reveal that NAc-projecting neurons (red) 
+are in more superficial layers as compared to PVT-projecting neurons 
+(blue). Black refers to overlap (medial–lateral axis) between red and blue 
+bars, and purple refers to double-labelled neurons (that is, both NAc- and 
+PVT-projection neurons). i, Current-clamp recordings from dorsomedial 
+PFC CtB-labelled neurons projecting to either NAc (top; n =  9 neurons; 
+n =  3 mice; scale bars =  25 μ m) or PVT (bottom; n =  10 neurons; n =  3 
+
+mice; scale bars =  25 μ m). j, k, Representative waveforms (j) and averaged 
+data (k) showing that PFC–NAc neurons fired fewer action potentials 
+(spikes) as compared to PFC–PVT neurons during somatic depolarization 
+(interaction: F16,272 =  16.6, * * * P <  0.001). l, m, Representative waveforms (l) 
+and averaged data (m) revealing no differences in rheobase (the minimum 
+current required to evoke an action potential) between PFC–NAc and 
+PFC–PVT neurons (t17 =  1.22, P >  0.2 (n.s., not significant)).  
+n, o, Representative waveforms (n) and averaged data (o) showing that 
+PFC–NAc neurons had larger peak afterhyperpolarizations (AHPs) 
+as compared to PFC–PVT neurons (t17 =  4.67, * * * P <  0.001). p, The 
+maximum number of action potentials (spikes) in each neuron was 
+correlated with the peak afterhyperpolarization (r =  0.80, P <  0.0001). 
+Line and bar graphs represent the mean ±  s.e.m. cc, corpus callosum; ILc, 
+infralimbic cortex; MO, medial orbitofrontal cortex; PLc, prelimbic cortex; 
+VO ventral orbitofrontal cortex.
+
+letterreSeArCH© 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.Extended Data Figure 6 | Corticostriatal and corticothalamic projection  
+neurons have distinct monosynaptic inputs. a–d, Viral strategy for rabies  
+tracing experiments in which the monosynaptic inputs to PFC–PVT (a, b)  
+and PFC–NAc (c, d) neurons were evaluated (n =  3 mice per group).  
+e–g, Example images showing mCherry+ cells (TVA expression) (e), 
+RV-GFP+ (rabies virus encoding GFP) cells (f), and overlap revealing 
+mCherry+/RV-GFP+ cells (starter cells; mCherry−/RV-GFP+ cells 
+are considered local inputs) (g). h, The number of local input neurons 
+(nonstarter; only RV-GFP+ cells per section) to each projection 
+population, as quantified by raw neuron count and by the per cent of 
+starter cells for each mouse, was equivalent for PFC–NAc and PFC–
+PVT neurons (raw neuron count: t16 =  0.59, P =  0.56; per cent starter 
+cells: t16 =  0.13, P =  0.90). i, Representative image showing RV-GFP 
+but not mCherry expression in the anterior cingulate cortex (ACC). 
+j, The number of input neurons from ACC was higher for PFC–PVT 
+neurons as compared to PFC–NAc neurons (raw neuron count: 
+
+t16 =  3.51; **P =  0.003; per cent starter cells: t16 =  3.31, ** P =  0.004). 
+k, Representative image showing RV-GFP but not mCherry expression 
+in the lateral pre-optic area (LPO). l, The number of input neurons from 
+the LPO was equivalent for PFC–NAc and PFC–PVT cells (raw neuron 
+count: t16 =  1.77; P =  0.10; per cent starter cells: t16 =  0.20, P =  0.84). 
+m, Representative image showing RV-GFP but not mCherry expression in 
+the ventral hippocampus (vHipp). n, The number of input neurons from 
+the ventral hippocampus was higher for PFC–NAc neurons as compared 
+with PFC–PVT neurons (raw neuron count: t16 =  4.44; * * * P <  0.001; per 
+cent starter cells: t16 =  4.00, * * P =  0.001). o, Representative image showing 
+RV-GFP but not mCherry expression in the ventral tegmental area (VTA). 
+p, The number of input neurons from the VTA was equivalent for PFC–
+NAc and PFC–PVT cells (raw neuron count: t16 =  0.56; P =  0.59; per cent 
+starter cells: t16 =  0.09, P =  0.93). Bar graphs represent the mean ±  s.e.m. 
+Note that no RV-GFP+ neurons were detected in any nucleus of the 
+amygdala for either projection group.
+
+letterreSeArCH© 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.Extended Data Figure 7 | Corticostriatal and corticothalamic 
+projection neurons express CaMK2a and have distinct basal activity 
+dynamics. a–d, Injections of AAV5-CaMK2a-eYFP into dorsomedial 
+PFC and the retrograde tracer CtB-594 into NAc (a) or PVT (c) resulted 
+in expression of eYFP in CtB-labelled PFC–NAc neurons (b) and PFC–
+PVT neurons (d). These data reveal that PFC–NAc and PFC–PVT are 
+subpopulations of CaMK2a-expressing neurons (n =  2 mice per group).  
+e, f, In ai9 reporter mice, (e) AAVdj-DIO-GCaMP6s injections in 
+dorsomedial PFC and Cav2-Cre injections into PVT (f) result in 
+expression of GCaMP6s and tdTomato (marker for Cre-recombinase), 
+which have spatial overlap in PFC (n =  2 mice). These data reveal that 
+
+GCaMP6s expression is specific to the projection cells of interest. 
+g, Example traces revealing spontaneous calcium dynamics from in vivo 
+two-photon imaging in GCaMP6s-expressing PFC–NAc neurons (top; 
+n =  69 neurons; n =  4 mice) and PFC–PVT neurons (bottom; n =  63; 
+n =  3 mice) in awake, head-fixed mice. Red and blue dots refer to detected 
+events. h–j, Averaged data reveal no differences in event amplitude (h) or 
+event duration (i); however, PFC–NAc neurons had significantly shorter 
+inter-event intervals (j) as compared to PFC–PVT neurons (amplitude: 
+t130 =  1.10, P >  0.2; duration: t130 =  0.68, P >  0.4; interval: t130 =  2.30,  
+* P <  0.05). Bar graphs represent the mean ±  s.e.m.
+
+letterreSeArCH© 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.Extended Data Figure 8 | Effects of corticostriatal and corticothalamic 
+optogenetic manipulations on acquisition and expression of CS− 
+licking. a, Line graph showing average CS− lick rate during conditioning 
+(with laser) and test (no laser) from PFC–NAc::ChR2 (n =  5), PFC–
+NAc::eNpHR3.0 (n =  6), and PFC–NAc::eYFP mice (n =  10). b, c, CDF 
+plots and bar graphs showing CS− lick rate during conditioning (b) and 
+test (c). No differences were observed between PFC–NAc groups during 
+the no-laser test (ChR2 versus eYFP: auROC =  0.47, Benjamini–Hochberg 
+corrected P =  0.45; eNpHR3.0 versus eYFP: auROC =  0.47, P =  0.45). 
+d, Line graph showing average CS− lick rate during conditioning (with 
+laser) and test (no laser) from PFC–PVT::ChR2 (n =  6), PFC–NAc::PVT 
+(n =  5), and PFC–PVT::eYFP mice (n =  10). e, f, CDF plots and bar 
+graphs showing CS− lick rate during conditioning (e) and test (f). No 
+differences were observed between PFC–PVT groups during the no-laser 
+
+test (ChR2 versus eYFP: auROC =  0.53, Benjamini–Hochberg corrected 
+P =  0.44; eNpHR3.0 versus eYFP: auROC =  0.35, P =  0.36). g–i, CDF 
+plots and bar graphs showing CS− lick rates for PFC–NAc::ChR2 (n =  5), 
+PFC–NAc::eNpHR3.0 (n =  5), and PFC–NAc::eYFP mice (n =  6). There 
+were no significant differences in CS− lick rate for PFC–NAc::ChR2 mice 
+(versus PFC–NAc::eYFP: auROC =  0.43, P =  0.26), although there was an 
+effect of laser for PFC–NAc::eNpHR3.0 mice (versus PFC–NAc::eYFP: 
+auROC =  0.23, * P =  0.006). j–l, CDF plots and bar graphs showing CS− 
+lick rates for PFC–PVT::ChR2 (n =  5), PFC–PVT::eNpHR3.0 (n =  5), 
+and PFC–PVT::eYFP mice (n =  8). There were no significant differences 
+in CS− lick rate for PFC–PVT::ChR2 mice (versus PFC–PVT::eYFP: 
+auROC =  0.35, P =  0.15) or PFC–PVT::eNpHR3.0 mice (versus PFC–
+PVT::eYFP: auROC =  0.55, P =  0.31). Line and bar graphs represent the 
+mean ±  s.e.m. NL, no-laser test.
+
+letterreSeArCH© 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.Extended Data Figure 9 | Effects of corticostriatal and corticothalamic 
+optogenetic manipulations are timing dependent. a–c, CDF plots 
+(top) and bar graphs (bottom) show anticipatory licking rates for 
+PFC–NAc::ChR2 (n =  5) or PFC–NAc::eNpHR3.0 (n =  5) versus PFC–
+NAc::eYFP mice (n =  6) during sessions in which the laser was randomly 
+presented outside of cue delivery. There were no significant differences in 
+anticipatory lick rate for PFC–NAc::ChR2 mice (versus PFC–NAc::eYFP: 
+auROC =  0.56, Benjamini–Hochberg corrected P =  0.30) or PFC–
+NAc::eNpHR3.0 mice (versus PFC–NAc::eYFP: auROC =  0.63, P =  0.23). 
+d–f, CDF plots (top) and bar graphs (bottom) show anticipatory licking 
+rates for PFC–PVT::ChR2 (n =  5) or PFC–PVT::eNpHR3.0 (n =  5) versus 
+PFC–PVT::eYFP (n =  8) mice during sessions in which the laser was 
+randomly presented outside of cue delivery. There were no significant 
+differences in anticipatory lick rate for PFC–PVT::ChR2 mice (versus 
+PFC–PVT::eYFP: auROC =  0.42, P =  0.21) or PFC–PVT::eNpHR3.0 mice 
+
+(versus PFC–PVT::eYFP: auROC =  0.36, P =  0.14). g–i, CDF plots (top) 
+and bar graphs (bottom) show CS− lick rates for PFC–NAc::ChR2 (n =  5) 
+or PFC–NAc::eNpHR3.0 (n =  5) versus PFC–NAc::eYFP mice (n =  6) 
+during sessions in which the laser was randomly presented outside of 
+cue delivery. There were no significant differences in CS− lick rate for 
+PFC–NAc::ChR2 mice (versus PFC–NAc::eYFP: auROC =  0.41, P =  0.19) 
+or PFC–NAc::eNpHR3.0 mice (versus PFC–NAc::eYFP: auROC =  0.40, 
+P =  0.19). j–l, CDF plots (top) and bar graphs (bottom) show CS− lick 
+rates for PFC–PVT::ChR2 (n =  5) or PFC–PVT::eNpHR3.0 (n =  5) versus 
+PFC–PVT::eYFP (n =  8) mice during sessions in which the laser was 
+randomly presented outside of cue delivery. There were no significant 
+differences in CS− lick rate for PFC–PVT::ChR2 mice (versus PFC–
+PVT::eYFP: auROC =  0.39, P =  0.12) or PFC–PVT::eNpHR3.0 mice 
+(versus PFC–PVT::eYFP: auROC =  0.36, P =  0.12). Bar graphs represent 
+the mean ±  s.e.m.
+
+letterreSeArCH© 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.Extended Data Figure 10 | Optogenetic manipulations of corticostriatal 
+and corticothalamic neurons are not appetitive, aversive, and do 
+not affect movement. Mice underwent a freely moving real-time place 
+preference assay for 20 minutes to assess the rewarding or aversive value 
+of PFC–NAc or PFC–PVT stimulation or inhibition (laser and group 
+parameters are identical to head-fixed optogenetics experiments; see 
+Methods). a, Tracking data from single example mice showing that PFC–
+NAc::ChR2 (left; n = 5) and PFC–NAc::eNpHR3.0 (right; n =  5) mice spent 
+equivalent time in chambers that were paired with laser (PFC–NAc::eYFP 
+mice, n =  8). b, Grouped data show that laser stimulation in PFC–NAc 
+mice did not lead to a real-time place preference (interaction: F2,30 =  2.15, 
+P >  0.13). c, Grouped data show that optogenetic manipulations in 
+PFC–NAc mice did not influence velocity of movement (interaction: 
+
+F2,30 =  0.12, P >  0.88). d, Tracking data from single example mice during 
+real-time place preference experiments showing that PFC–PVT::ChR2 
+(left; n =  5) and PFC–PVT::eNpHR3.0 (right; n =  5) mice spent equivalent 
+time in chambers that were paired with laser (PFC–PVT::eYFP mice, 
+n =  5). e, Grouped data show that laser stimulation in PFC–PVT mice did 
+not lead to a real-time place preference (interaction: F2,24 =  0.15, P >  0.86). 
+f, Grouped data show that optogenetic stimulation in PFC–PVT did not 
+influence velocity of movement (interaction: F2,24 =  0.10, P >  0.90).  
+g, h, Coronal plates (redrawn from ref. 40) located 1.98, 1.78, and 
+1.54 mm anterior to bregma illustrate the placements of optical fibre tips 
+in PFC–NAc mice (g) and PFC–PVT mice (h). Bar graphs represent the 
+mean ±  s.e.m. NoStim, no laser stimulation; Stim, laser stimulation.
+
+letterreSeArCH© 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.

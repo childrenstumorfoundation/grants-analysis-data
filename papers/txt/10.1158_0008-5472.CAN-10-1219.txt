@@ -1,0 +1,2339 @@
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+NIH Public Access
+Author Manuscript
+Cancer Res. Author manuscript; available in PMC 2012 February 1.
+Published in final edited form as:
+Cancer Res. 2011 February 1; 71(3): 852–861. doi:10.1158/0008-5472.CAN-10-1219.
+
+miRNA-7 attenuation in schwannoma tumors stimulates growth
+by upregulating three oncogenic signaling pathways
+
+Okay Saydam1,*, Ozlem Senol1, Thomas Würdinger1,**, Arda Mizrak1, Gokhan Baris
+Ozdener1, Anat O. Stemmer-Rachamimov2, Ming Yi3, Robert M. Stephens3, Anna M.
+Krichevsky4, Nurten Saydam5, Gary J. Brenner6, and Xandra O. Breakefield1
+1Departments of Neurology and Radiology, Massachusetts General Hospital, and Neuroscience
+Program, Harvard Medical School, Boston, Massachusetts, 02129 USA
+2Molecular Neuro-oncology Laboratory and Department of Pathology, Massachusetts General
+Hospital, Harvard Medical School, Boston, Massachusetts, 02129 USA
+3Advanced Biomedical Computing Center, National Cancer Institute, Bethesda, Maryland, 21702
+USA
+4Department of Neurology, Brigham and Women's Hospital, Harvard Medical School, Boston,
+MA, 02115 USA
+5Department of Pediatrics, Medical University of Vienna, 1090 Austria
+6Department of Anesthesia and Critical Care, Massachusetts General Hospital, Harvard Medical
+School, Boston, MA
+
+Abstract
+
+MicroRNAs (miRNAs) negatively regulate protein-coding genes at the post-transcriptional level
+and are critical in tumorigenesis. Schwannomas develop from proliferation of dedifferentiated
+Schwann cells, which normally wrap nerve fibers to help support and insulate nerves. In this
+study, we carried out high-throughput miRNA expression profiling of human vestibular
+schwannomas using an array representing 407 known miRNAs in order to explore the role of
+miRNAs in tumor growth. Twelve miRNAs were found to be significantly deregulated in tumor
+samples as compared with control nerve tissue, defining a schwannoma-typical signature. Among
+these miRNAs, we focused on miR-7 which was one of the most downregulated in these tumors
+and has several known oncogene targets, including mRNAs for epidermal growth factor receptor
+(EGFR) and p21-activated kinase 1 (Pak1). We found that overexpression of miR-7 inhibited
+schwannoma cell growth both in culture and in xenograft tumor models in vivo, which correlated
+with downregulation of these signaling pathways. Furthermore, we identified a novel direct target
+of miR-7, the mRNA for associated cdc42 kinase 1 (Ack1), with the expression levels of miR-7
+and Ack1 being inversely correlated in human schwannoma samples. These results represent the
+first miRNA profiling of schwannomas and the first report of a tumor suppressor function for
+miR-7 in these tumors that is mediated by targeting the EGFR, Pak1 and Ack1 oncogenes. Our
+findings suggest miR-7 as a potential therapeutic molecule for schwannoma treatment, and they
+prompt clinical evaluation of drugs that can inhibit the EGFR, Pak1, and Ack1 signaling pathways
+to treat this tumor type.
+
+Copyright © 2010 American Association for Cancer Research
+*Corresponding author and requests for reprints: Okay Saydam, Ph.D., Department of Pediatrics, Medical University of Vienna, 1090
+Austria. Phone: 43-1-404003232 8, okay.saydam@meduniwien.ac.at.
+*Current address for O. Saydam: Department of Pediatrics, Medical University of Vienna, 1090 Austria
+**Current address for T. Würdinger: Neuro-oncology Research Group, Department of Neurosurgery, VU University Medical Center,
+Amsterdam 1007 MB, The Netherlands
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Saydam et al.
+
+Keywords
+
+miRNAs; schwannomas; Ack1; EGFR; Pak1
+
+INTRODUCTION
+
+Page 2
+
+Schwannomas arise from Schwann cells, the myelinating cells of the peripheral nervous
+system and they typically result from loss of the neurofibromatosis 2 (NF2) tumor
+suppressor gene (1), but can also arise through other genetic mechanisms, such as
+inactivating mutations in PRKAR1A (2) or loss of heterozygosity (LOH) of SMARCB1 (3)
+genes. A major feature of NF2 is the development of schwannomas around the vestibular
+branches of cranial nerve VIII, the auditory nerve, leading to deafness (4). Loss/
+downregulation of NF2 has also been found in malignant tumors, including mesotheliomas
+(5), gliomas (6), peripheral nerve sheath tumors (7), and prostate cancer (8).
+
+miRNAs are a class of small non-coding RNAs that regulate gene expression post-
+transcriptionally (9). miRNAs have been recently implicated as drivers in several
+carcinogenic processes, where they can act either as oncogenes or as tumor suppressors (10).
+Decreased levels of the let-7 family of tumor suppressor miRNAs is associated with
+increased Ras oncogene expression and reduced survival in patients with non-small cell lung
+cancer (NSCLC) (11,12). Our recent studies revealed a novel potential tumor suppressor
+miRNA, miR-200a, which directly targets the β-catenin and ZEP1/SIP1 mRNAs, with
+reduced levels of miR-200a found in meningiomas (also caused in some cases by loss of
+merlin function) resulting in increases in Wnt signaling and expression of E-cadherin (13).
+
+Previously known targets for miR-7 include messages for signaling proteins, Pak1 (14) and
+epidermal growth factor receptor (EGFR) (15), known to be activated in many forms of
+cancer. Paks play an essential role in a variety of cellular functions including cell division,
+survival, angiogenesis, growth factor signaling and cell migration (16–18). A new target for
+miR-7, found in this study, associated cdc42 kinase 1 (Ack1) is a non-receptor protein
+tyrosine kinase (19), and the gene encoding Ack1 has been recently shown to be amplified
+in breast, esophageal, lung, ovarian, pancreatic, and prostate cancer (20).
+
+To identify miRNAs signature of schwannomas, we analyzed the expression levels of 407
+human miRNAs in human vestibular schwannoma tumor samples compared to normal
+control nerve tissue. Several previously described potential tumor suppressor miRNAs
+(let-7, miR-451, miR-23 and miR-29) that are downregulated in malignant tumors (reviewed
+in 21,22) were found to be upregulated in benign schwannomas, suggesting that changes in
+levels of tumor suppressor miRNAs may play a transition role from benign to malignant
+tumors. miR-7 was found to be one of the most downregulated miRNAs (~9-fold) in
+schwannomas compared to control nerves. To explore the role of miR-7 in schwannomas,
+we performed gain-of-function studies and found that upregulation of miR-7 inhibited
+schwannoma cell growth both in culture and in xenograft tumors model in vivo. Moreover,
+overexpression of miR-7 directly targeted and inhibited expression of Ack1, Pak1, and
+EGFR in schwannoma cells.
+
+MATERIALS AND METHODS
+Tumor and normal tissue samples
+
+Human vestibular schwannoma tumor samples were obtained from discarded tumor tissue at
+the time of surgery and normal peripheral nerve tissue samples were obtained from fresh
+autopsy cases within 5–7 h of death. All human tissues were collected and de-identified by
+
+Cancer Res. Author manuscript; available in PMC 2012 February 1.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Saydam et al.
+
+Cells
+
+Growth rate
+
+Apoptosis
+
+miRNAs
+
+the Neuro-oncology Tumor Repository, snap-frozen and stored at −80°C under IRB
+protocols approved by Massachusetts General Hospital Committee on Human Research.
+
+Page 3
+
+Human schwannoma cell line HEI-193 was established from a benign schwannoma tumor
+from an NF2 patient and immortalized using a retrovirus vector encoding HPV E6–E7
+(obtained from the House Ear Institute in 2006; 1). Before we initiated this study, we
+confirmed a G to A conversion at the −1 position of the intron 14/exon 15 border of the NF2
+gene in HEI-193 cells (data not shown), which eliminates a splice donor site and generates a
+non-functional NF2 protein (23). These cells were transduced with lentivirus vector
+expressing firefly luciferase (Fluc) and mCherry genes, termed HEI-193-Fluc-mC cells, as
+described (13) and were cultured, as described (1) and used in in vivo studies. Human
+primary schwannoma cell cultures were prepared in our laboratory from fresh tumor tissue
+from a schwannoma patient, as described (23) during the revision of this manuscript in
+2010. The NF2S-1 mouse schwannoma cell line was generated and characterized by our
+laboratory in 2006, as described (24) and used at early passages (passage number P6 was
+used in our studies). These cells were tested for mouse chromosomes by karyotyping:
+NF2S-1 cells were harvested and metaphase spreads were stained by Giemsa-Trypsin-
+Giemsa banding and evaluated by the Dana Farber/Harvard Cancer Center Cytogenetics
+Core Laboratory (Boston, USA) in 2006. All cell lines showed strong immunocytochemical
+staining for the Schwann cell marker, S100. All cells tested negative for mycoplasma using
+a mycoplasma detection kit (MycoAlert® Mycoplasma Detection Assay: Lonza, Rockland,
+ME) before and after use in these experiments.
+
+HEI-193 cells (1 × 105) were seeded in each well of a 24-well plate and the following day
+transfected with precursor miRNAs or control miRNAs or pre-control 1, or left non-
+transfected. Five h later, cells were transferred to each well of a 6-well plate. Cells/well were
+counted on day 1, 2, 3, and 4 using a hemocytometer in triplicate.
+
+Apoptotic cell death was determined using the Caspase-Glo 3/7 assay kit (Promega,
+Madison, WI) and CytoGLO Annexin V-FITC Apoptosis Detection kit (Imgenex, San
+Diego, CA), according to the manufacturer's instructions.
+
+Precursor miRNAs were as follows: precursor-miR-7 (Ambion, Foster City, CA,
+AM17100), precursor-miR-321 (Ambion, AM17153), Cy3 dye-labeled pre-miR negative
+control 1 (Ambion, AM17120), and pre-miR negative control 1.
+
+Plasmids/vectors
+
+3'UTR reporter plasmids p3’UTR-EGFR and p3'UTR-IRS-2 containing the full site
+complementary to miR-7 were kindly provided by Dr. Benjamin Purow (University of
+Virginia) (15). The following vectors were packaged at the MGH Vector Core facility:
+Ack1-pWZL Neo Myr Flag TNK2 (Addgene, Cambridge, MA), EGFR-WT Retroviral
+11011: (Addgene), and Pak1- EX-T9352-Lv105 (GeneCopoeia, Rockville, MD).
+
+miRNA arrays
+
+miRNA screening was performed as described previously (13) in duplicate for 10 tumor and
+2 control samples. A two-tailed, two-sample t test was used with differences of 2-fold or
+
+Cancer Res. Author manuscript; available in PMC 2012 February 1.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Saydam et al.
+
+Page 4
+
+greater between samples (p<0.05) regarded as significant. This microarray data set has been
+deposited in the NCBI Gene Expression Omnibus with the accession no. GSE24390 (25).
+
+Tumor implantation and bioluminescence imaging
+
+Five after transfection of HEI-193-Fluc-mC cells, the cells were trypsinized, rinsed, and
+subcutaneously implanted (2 × 105 cells in 100 µl Matrigel) per flank of athymic mice (nu/
+nu, 5-week-old females; NCI). Sciatic nerve schwannoma tumor model were developed as
+described previously (26).
+
+Quantitative RT-PCR
+
+qRT-PCR was performed as described (13). U6 RNA was used as an internal control in all
+RT-PCR reactions for miRNA.
+
+Luciferase miRNA target reporter assay
+
+Total cDNA from HEI-193 cells was used to isolate the 3'UTR (453–840 nt) of Ack1 by
+PCR and then it was cloned into the pMir-reporter plasmid (see suppl. Materials and
+Methods for the cloning strategies for pMir-reporter plasmids). HEK 293T cells were co-
+transfected either with the p3’UTR-EGFR or p3'UTR-IRS-2 vectors or pAck1 3’UTR
+plasmids and pre-miR-7 or pre-control 1. Two days later, the cells were lysed and luciferase
+activity was measured using a luminometer. An expression cassette for Renilla luciferase
+(pRenilla, Promega) was co-transfected and used to normalize the Fluc values expressed
+from the 3’UTR report constructs.
+
+See suppl. Materials and Methods for primers and antibodies and Pearson correlation
+coefficients.
+
+Immunoblots
+
+Western blots were performed, as described (13). Briefly, cells were transfected with
+miRNA precursors and after 3 days, cells were harvested and total protein was separated on
+a SDS–8% polyacrylamide gel and blotted onto nitrocellulose.
+
+Statistical analysis
+
+All measurements including cell counting, luciferase measurement, and qRT-PCR, were
+performed in triplicate and the values are expressed as the mean ± S.D.; p values were
+calculated by using the Student’s t-test and values of p<0.05 were regarded as significant.
+
+RESULTS
+miRNA expression profile of schwannomas
+
+To explore the possible role(s) of miRNAs in schwannoma pathogenesis, we first performed
+a microarray-based miRNA screen containing 407 different human miRNA-binding probes
+comparing 10 human vestibular schwannoma tumor samples (WHO Grade I) to two
+peripheral nerve controls (obtained from fresh autopsies). Nineteen miRNAs were found
+which had 3-fold or more differences in levels in most (7 or more) schwannoma tumor
+samples as compared to control nerves (Supplementary Table 1). To validate the microarray
+results, selected miRNAs differentially expressed in schwannomas were analyzed by qRT-
+PCR. Twelve of these deregulated miRNAs were confirmed to be either up (8 miRNAs) or
+downregulated (4 miRNAs) by 5-fold or more in three independent assays (Fig. 1) using
+four control samples and 10 randomly selected-schwannoma samples out of 15. Let-7d,
+miR-451, and miR-23b were the most upregulated miRNAs as compared to control tissues
+(15–20-fold). Other upregulated miRNAs in the qRT-PCR assay were miR-29, miR-30a,
+
+Cancer Res. Author manuscript; available in PMC 2012 February 1.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Saydam et al.
+
+Page 5
+
+miR-221, miR-21 and miR-138 (5–10-fold). Four downregulated miRNAs were miR-321
+(12-fold), miR-7 (9-fold), miR-373* (6-fold) and miR-638 (6-fold). Our data thus revealed a
+set of miRNAs which are deregulated in a consistent pattern in most vestibular schwannoma
+tumor samples providing a schwannoma-specific miRNA signature.
+
+The effect of dysregulated miRNAs on schwannoma cell growth
+
+Among several interesting miRNAs, we focused on the two most downregulated miRNAs,
+miR-321 and miR-7, as these have been implicated as potential tumor suppressors (10). Due
+to difficulty in culturing primary Schwann cells, we compared downregulated miRNA levels
+in the human schwannoma line, HEI-193 (23) to those in the control nerves used in our
+microarray screening and qRT-PCRs studies. HEI-193 cells have 6- and 5-fold lower levels
+of miR-7 and miR-321, respectively, compared to control nerves (Fig. 2A). Transfection of
+these cells with precursor miRNA - 10 nM pre-miR-321 or 15 nM pre-miR-7 yielded 13-
+and 15-fold increases in miR-321 and miR-7 levels, respectively, after 5 h (Fig. 2B). These
+concentrations and time were used in further studies. HEI-193 cells were transfected with
+pre-miR-321, pre-miR-7 or pre-control 1 and five h after transfection these cells were re-
+plated and cell counts determined 1, 2, 3 and 4 days later. The growth of HEI-193 cells was
+significantly reduced by about 70% on day 4 after transfection with pre-miR-7 as compared
+to control transfected cells (Fig. 2C), while miR-321 had no effect on the growth of these
+cells. With these small oligonucleotides, the transfection efficiency of HEI-193 cells was
+99% as determined by transfection of pre-control 1-Cy3 (Ambion) and fluorescence
+microscopy (data not shown). The effect of transfection with pre-miR-7 was also tested in a
+mouse schwannoma cell, NF2S-1, and we observed a pronounced inhibition of cell growth
+by elevated miR-7 in this cell line (data not shown). Taken together our data demonstrate
+that increased levels of miR-7 can inhibit the growth of schwannoma cells in culture,
+consistent with the hypothesis that decreased levels of miR-7 support schwannoma tumor
+growth.
+
+We next investigated whether the reduced cell numbers in the presence of elevated miR-7
+expression were due to arrest of cell division or cell death (15). Activities of caspases-3 and
+-7 were measured in transfected and non-transfected cell two days after transfection. Pre-
+miR-7 transfected cells showed a significant increase in caspase3/7 activity as compared to
+controls and pre-miR-321-transfected cells (Fig. 2D), indicating that elevated miR-7
+promotes apoptosis in schwannoma cells. We also found 4- and 7-fold increases in the
+apoptosis marker, Annexin V in HEI-193 and human primary schwannoma cells,
+respectively, at two days after transfection with pre-miR-7 compared to control transfected
+cells (Supplementary Fig. 1).
+
+miR-7 inhibits schwannoma tumor growth in vivo
+
+We further evaluated whether increased levels of miR-7 could inhibit schwannoma tumor
+growth in vivo. HEI-193-Fluc schwannoma cells were transfected either with pre-miR-7 or
+pre-control 1, and 5 h later implanted subcutaneously into flanks of nude mice (2 × 105 cells
+per injection site; 7 mice per group). Two independent in vivo studies were performed.
+Tumor growth was monitored by in vivo bioluminescence imaging on day 1, 5 and 10 after
+implantation. Schwannoma cells transfected with control precursor, pre-control 1 formed
+tumors 10 days after implantation, while schwannoma cells transfected with pre-miR-7
+failed to grow, with a marked reduction in size at day 10 post-implantation.
+Bioluminescence images of tumors in these mice in two independent experiments are shown
+in Figure 3A, with quantification of average of photon counts in Figure 3B. In control
+groups, in vivo imaging was terminated two weeks after implantation due to excessive size
+of tumors. In the pre-miR-7 treated group, in vivo imaging was performed for an additional 6
+
+Cancer Res. Author manuscript; available in PMC 2012 February 1.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Saydam et al.
+
+Page 6
+
+weeks and none of the mice developed tumors. These data indicate that elevated miR-7
+levels in schwannoma cells markedly reduce their ability to form tumors.
+
+We have recently developed a novel imaging-compatible sciatic nerve schwannoma model
+in which the immortalized human schwannoma cell line, HEI-193, has been stably
+transduced with fluorescent protein and luciferase reporters and implanted within the sciatic
+nerve of nude mice (25). We used this model to test whether elevated miR-7 can also inhibit
+schwannoma tumor growth in an orthotopic tumor model, under parallel experimental
+conditions to those described above, and found also a significant reduction in photon counts
+for tumors in pre-miR-7 group as compared to the control group (Supplementary Figure 2).
+The HEI-193 cell line was immortalized with a retrovirus encoding the human papilloma
+virus immortalizing proteins, E6–E7 (23). These viral proteins are known to inhibit tumor
+suppressor activity of p53 and RB proteins (27). It seems probable that dysfunctional RB,
+which is among the predicted targets of miR-7 (26), might make schwannoma cells more
+sensitive to the tumor suppressive effect of miR-7. In fact, loss of heterozygosity at the RB
+locus is seen in a substantial number of vestibular schwannoma samples, implicating loss of
+RB function in these tumors (28).
+
+Multiple oncogenic targets of miR-7: ACK1 emerges as a novel target for miR-7
+
+In light of previous observations that miR-7 targets the EGFR and Pak1, and IRS-2 mRNAs
+(14,15,29), we first tested whether miR-7 targeted messages for EGFR, IRS-2, and Pak1 in
+schwannomas. Due to their higher transfection efficiency with plasmid DNA, HEK 293T
+cells were co-transfected with the pEGFR-3’UTR-Reporter or the pIRS-2-3’UTR-Reporter
+and pre-miR-7 or pre-control 1. These reporter plasmids contain an expression cassette for
+the Fluc gene fused to the full site complementary 3’UTR of EGFR or IRS-2 mRNAs (15).
+pRenilla was used to normalized the transfection efficiency in all experiments. Two days
+after transfection, Fluc activity was measured in cell lysates and normalized to Renilla
+luciferase (Rluc) activity. We observed a significant reduction in the Fluc activity of both
+pEGFR-3’UTR- and pIRS-2-3’UTR-Reporter transfected cells with pre-miR-7 as compared
+with pre-control 1 (Supplementary Fig. 3A), confirming that miR-7 targets EGFR and IRS2
+mRNAs. In a parallel experiment, we monitored transcript levels of EGFR and IRS-2 by
+qRT-PCR reactions normalized to levels of GAPDH mRNA (Supplementary Fig. 3B) and
+found a significant decrease of both EGFR and IRS-2 mRNA levels resulting from increased
+expression of miR-7.
+
+We also tested whether elevated miR-7 could reduce levels of EGFR and Pak1 in
+schwannoma cells. We used HEI-193 and human primary schwannoma cells and found that
+upregulation of miR-7 markedly reduced levels of both EGFR and Pak1 as normalized to
+actin (Supplementary Fig. 3C).
+
+Based on previous findings describing the intermolecular interactions between Ack1, EGFR
+and Pak1 (30–32), we investigated whether miR-7 also targets mRNA for Ack1. We
+analyzed the 3’UTR of Ack1 mRNA for potential binding sites for miR-7 and found three
+top level computationally predicted target sequences in the 3’UTR of the Ack1 mRNA
+(26;Fig. 4A). To investigate the interaction between miR-7 and its predicted Ack1 mRNA
+3’UTR target sites, we generated a series of reporter vectors containing sequences
+homologous to the three potential seed sequences for miR in the 3’UTR downstream of a
+luciferase expression construct (Fig. 4B). These included a sequence with perfect
+complementarity to all 3 seed miR-7 sequences (pAck1 3’UTR 453–840 nt), and the three
+isolated wt Ack1 3’UTR sequences, pAck1 A, pAck1 B, and pAck1 C, as well as the same
+three Ack1 sequences with three point mutations to disrupt miR-7 binding in each of the
+seed match regions (Fig. 4C, lower case). Co-transfection of the pAck1 3’UTR-wt construct
+(453–840 nt) and pre-miR-7 resulted in significantly decreased luciferase activity compared
+
+Cancer Res. Author manuscript; available in PMC 2012 February 1.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Saydam et al.
+
+Page 7
+
+to transfection with pre-control 1 (Fig. 4D). We next investigated the relative contribution of
+each putative miR-7 target site in the Ack1 3’UTR. miR-7 reduced the expression of all
+three reporters carrying the different putative target sites A and B, and C, but not of the
+corresponding mutant (mt) reporters (Fig. 4E). The most significant reduction in luciferase
+activity was observed for target site C which is the most conserved miR-7 binding site in the
+3’UTR of the Ack1 mRNA (26) (Fig. 4E). Target sites A and B resulted in less reduction
+than site C, but still showed significant reduction. Together, these data indicate that the
+Ack1 3’UTR is a specific target of miR-7 and that all three predicted miR-7-binding sites in
+the Ack1 mRNA 3’UTR are likely to be specific and direct targets of miR-7 with a marked
+total effect on expression. We next examined the effect of miR-7 on the endogenous mRNA
+and protein levels of Ack1. Human primary schwannoma cells and HEI-193 cells were
+transfected with either pre-miR-7 or pre-control 1 and two days later, we performed qRT-
+PCR for mRNA and western blots for the protein expression. We found that miR-7
+transfection decreased both mRNA (data not shown) and protein levels (Fig. 4F) of Ack1
+compared to GAPDH mRNA and actin in both cell types. Elevated miR-7 levels in a mouse
+schwannoma cell line, NF2S-1, also produced a marked reduction in the protein levels of
+Ack1, Pak1, and EGFR (Supplementary Fig. 4).
+
+In order to investigate which target(s) of miR-7 are involved in miR-7 mediated growth
+inhibition of schwannoma cells, HEI-193 cells were first infected with viral vectors
+expressing either Ack1 or Pak1 or EGFR protein and then 24 h later transfected with pre-
+miR-7. Cells were counted at daily intervals thereafter. As shown in Figure 5, we observed
+that overexpression of Ack1 and Pak1 significantly rescued the cell growth by approximated
+40 and 60%, respectively. However, overexpression of EGFR slightly, but not significantly
+increased the growth of schwannoma cells transfected with pre-miR-7. Western blots in
+these experimental conditions showed a markedly increase in the protein levels of Ack1,
+Pak1, and EGFR after infection of HEI-193 cells (data not shown). Taken together our data
+suggest that Ack1 and Pak1 are especially important targets of miR-7 in schwannoma cell
+growth.
+
+The expression profiles of Ack1, Pak1 and EGFR in schwannoma tissues
+
+We next examined the levels of Ack1, EGFR and Pak1 messages in human vestibular
+schwannoma tumor samples. We performed qRT-PCR for the messages in 10 tumor samples
+used in our miRNA screening experiments as compared to the average for control nerves.
+Levels of miR-7 in these tumor samples were determined by qRT-PCR and normalized to
+U6 RNA (Fig. 6A). Interestingly, Ack1 mRNA was found to be significantly upregulated in
+9 of 10 tumor samples (Fig. 6B), and a significant increase in Pak1 mRNA (Fig. 6C) was
+found in all tumor tissues. In contrast, EGFR mRNA was only significantly upregulated in 5
+out of 10 schwannoma tumor samples compared to the controls (Fig. 6D). A significant
+inverse correlation was found between levels of miR-7 and that of Ack1 and Pak1 mRNAs
+in schwannoma tissue samples (Supplementary Fig. 5). No significant correlation was found
+between miR-7 downregulation and EGFR mRNA upregulation (Supplementary Fig. 5)
+suggesting that in schwannoma samples not all miRNA-mRNA interactions result in
+degradation of mRNA. These results demonstrate that miR-7 is a major regulator in
+schwannoma growth, by regulation of Ack1 and Pak1 expression.
+
+DISCUSSION
+
+In the present study, we define a schwannoma-typical miRNA signature by miRNA
+microarray expression profiling of human vestibular schwannomas as compared to control
+nerves. This signature includes 12 miRNAs that are deregulated in most schwannoma tumor
+samples. Out of these 12 miRNAs, 8 were confirmed to be significantly upregulated in
+schwannomas (5–20-fold); and 4 miRNAs downregulated (5–12-fold). In this study, we
+
+Cancer Res. Author manuscript; available in PMC 2012 February 1.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Saydam et al.
+
+Page 8
+
+focused on one of the most downregulated miRNA, miR-7, and found that overexpression of
+miR-7 inhibited schwannoma cell growth both in culture and in xenograft and orthotopic
+schwannoma tumor models in vivo. Our studies describe a novel target of miR-7, which
+directly targeted the sequences in the 3’UTR of the Ack1 mRNA with upregulation of
+miR-7 decreasing levels of Ack1 mRNA and protein in schwannoma cells. A significant
+inverse correlation was also found between miR-7 downregulation and Ack1 and Pak1
+upregulation in human schwannoma tumor samples compared to control nerve tissue.
+
+The overexpression or genomic amplification of Ack1 has been recently shown for breast,
+esophageal, lung, ovarian, pancreatic and prostate cancer (20). In prostate cancer, Ack1
+stimulates tumorigenesis in part by negatively regulating the proapoptotic tumor suppressor,
+the WW domain containing oxidoreductase (Wwox) (33). Ack1 interacts with Wwox and
+triggers its ubiquitination and degradation. The same study also elucidated an oncogenic role
+of Ack1 in vivo, with Ack1 overexpression promoting anchorage-independent growth and
+tumor formation in vivo (33). It remains to be investigated how upregulation of Ack1 by
+decreased miR-7 contributes to schwannoma tumorigenesis.
+
+Based on the relative fold increase as assessed by qRT-PCR assays, the most upregulated
+miRNAs in schwannomas were let-7d (about 22-fold), miR-451 (about 17-fold), and
+miR-23b (about 15-fold). The let-7 family has been the most studied of the potential “tumor
+suppressor” miRNAs and contains 11 family members (reviewed in 21). This family acts as
+tumor suppressors to control several oncogenic pathways, including the Ras pathway (12),
+as well as oncogenes, such as c-Myc (34). The second most upregulated miRNA in
+schwannomas, miR-451 was also recently shown to function as a potential tumor suppressor
+in human gastric and colon cancer cells, with its overexpression decreasing proliferation and
+increasing response to ionizing radiation in culture (22). In human malignant prostate
+cancers, miR-23a and miR-23b were shown to be downregulated compared to normal
+prostate tissues (35). In summary, several previously known downregulated “tumor
+suppressor miRNAs” in malignant tumors, such as let-7d, miR-451, miR-23a, and miR-29
+were found to be upregulated in schwannomas. Based on these observations and given the
+fact that let-7d, let-7b, and let-7g tumor suppressor miRNAs are also upregulated in benign
+meningiomas (13), it seems likely that these miRNAs may function as a pivotal point in
+tumor progression between benign and malignant states by regulating certain oncogenic
+pathways.
+
+In conclusion, growth inhibitory/apoptotic effects of elevated miR-7 levels were found in
+human primary and immortalized schwannoma cells, as well as in a non-immortalized
+mouse schwannoma cell line. miRNA expression profiling and functional studies of miR-7
+in schwannoma tumor tissue and cells in culture suggest that miR-7 acts as a potential tumor
+suppressor in schwannomas, at least in part through direct targeting of IRS-2 (15), Ack1,
+Pak1, and EGFR. Studies supporting a role for Pak1 (36,37), EGFR (38), and Ack1 (this
+study) activation/overexpression in schwannoma growth, suggests alternative strategies and
+rationale for the development of new therapies for these tumors based on overexpression of
+miR-7 or inhibition of Ack1, Pak1, and EGFR pathways. Given the fact that schwannomas,
+as many other cancers, are not always responsive to anti-EGFR treatment (39), our study
+suggests that Pak1 and/or Ack1 may prove critical therapeutic targets for schwannomas.
+
+Supplementary Material
+
+Refer to Web version on PubMed Central for supplementary material.
+
+Cancer Res. Author manuscript; available in PMC 2012 February 1.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Saydam et al.
+
+Acknowledgments
+
+Page 9
+
+We thank Dr. Benjamin Purow for p3’UTR-EGFR and p3'UTR-IRS-2 plasmids and Dr. Bakhos A. Tannous for the
+lentivirus Fluc vector. We also thank Suzanne McDavitt for skilled editorial assistance and MGH Neuroscience
+Center vector core (NIH/NINDS P30NS045776) for packaging the lentivirus vectors.
+
+Grant support: NIH/NINDS P01 NS24279 (XOB/OS), DOD W81XWH-09-1-0476 (XOB/OS), Children's Tumor
+Foundation 2007-01-043 (OS)
+
+References
+
+1. Martuza RL, Eldridge R. Neurofibromatosis 2 (bilateral acoustic neurofibromatosis). N Engl J Med.
+
+1988; 318:684–688. [PubMed: 3125435]
+
+2. Jones GN, Tep C, Towns WH, et al. Tissue-specific ablation of Prkar1a causes schwannomas by
+
+suppressing neurofibromatosis protein production. Neoplasia. 2008; 10:1213–1221. [PubMed:
+18953430]
+
+3. Boyd C, Smith MJ, Kluwe L, Balogh A, Maccollin M, Plotkin SR. Alterations in the SMARCB1
+
+(INI1) tumor suppressor gene in familial schwannomatosis. Clin Genet. 2008; 74:358–366.
+[PubMed: 18647326]
+
+4. Evans DG. Neurofibromatosis type 2 (NF2): a clinical and molecular review. Orphanet J Rare Dis.
+
+2009; 4:16. Review. [PubMed: 19545378]
+
+5. Sekido Y. Genomic abnormalities and signal transduction dysregulation in malignant mesothelioma
+
+cells. Cancer Sci. 2010; 101:1–6. [PubMed: 19793348]
+
+6. Lau YK, Murray LB, Houshmandi SS, Xu Y, Gutmann DH, Yu Q. Merlin is a potent inhibitor of
+
+glioma growth. Cancer Res. 2008; 68:5733–5742. [PubMed: 18632626]
+
+7. Scheithauer BW, Erdogan S, Rodriguez FJ, et al. Malignant peripheral nerve sheath tumors of
+
+cranial nerves and intracranial contents: a clinicopathologic study of 17 cases. Am J Surg Pathol.
+2009; 33:325–338. [PubMed: 19065105]
+
+8. Horiguchi A, Zheng R, Shen R, Nanus DM. Inactivation of the NF2 tumor suppressor protein merlin
+
+in DU145 prostate cancer cells. Prostate. 2008; 68:975–984. [PubMed: 18361411]
+
+9. Ambros V. The functions of animal microRNAs. Nature. 2004; 431:350–355. [PubMed: 15372042]
+10. Esquela-Kerscher A, Slack FJ. Oncomirs - microRNAs with a role in cancer. Nat Rev Cancer.
+
+2006; 6:259–269. [PubMed: 16557279]
+
+11. Johnson SM, Grosshans H, Shingara J, et al. RAS is regulated by the let-7 microRNA family. Cell.
+
+2005; 120:635–647. [PubMed: 15766527]
+
+12. Takamizawa J, Konishi H, Yanagisawa K, et al. Reduced expression of the let-7 microRNAs in
+
+human lung cancers in association with shortened postoperative survival. Cancer Res. 2004;
+64:3753–3756. [PubMed: 15172979]
+
+13. Saydam O, Shen Y, Wurdinger T, et al. Downregulated microRNA-200a in meningiomas promotes
+
+tumor growth by reducing E-cadherin and activating the Wnt/{beta}-catenin signaling pathway.
+Mol Cell Biol. 2009; 29:5923–5940. [PubMed: 19703993]
+
+14. Reddy SD, Ohshiro K, Rayala SK, Kumar R. MicroRNA-7, a homeobox D10 target, inhibits p21-
+
+activated kinase 1 and regulates its functions. Cancer Res. 2008; 68:8195–8200. [PubMed:
+18922890]
+
+15. Kefas B, Godlewski J, Comeau L, et al. microRNA-7 inhibits the epidermal growth factor receptor
+
+and the Akt pathway and is down-regulated in glioblastoma. Cancer Res. 2008; 68:3566–3572.
+[PubMed: 18483236]
+
+16. Dummler B, Ohshiro K, Kumar R, Field J. Pak protein kinases and their role in cancer. Cancer
+
+Metastasis Rev. 2009; 28:51–63. [PubMed: 19165420]
+
+17. Bokoch GM. Biology of the p21-activated kinases. Annu Rev Biochem. 2003; 72:743–781.
+
+Review. [PubMed: 12676796]
+
+18. Vadlamudi RK, Kumar R. P21-activated kinases in human cancer. Cancer Metastasis Rev. 2003;
+
+22:385–393. [PubMed: 12884913]
+
+19. Mott HR, Owen D, Nietlispach D, et al. Structure of the small G protein Cdc42 bound to the
+
+GTPase-binding domain of ACK. Nature. 1999; 399:384–388. [PubMed: 10360579]
+
+Cancer Res. Author manuscript; available in PMC 2012 February 1.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Saydam et al.
+
+Page 10
+
+20. van der Horst EH, Degenhardt YY, Strelow A, et al. Metastatic properties and genomic
+
+amplification of the tyrosine kinase gene ACK1. Proc Natl Acad Sci U S A. 2005; 102:15901–
+15906. [PubMed: 16247015]
+
+21. Roush S, Slack FJ. The let-7 family of microRNAs. Trends Cell Biol. 2008; 18:505–506.
+
+[PubMed: 18774294]
+
+22. Bandres E, Bitarte N, Arias F, et al. microRNA-451 regulates macrophage migration inhibitory
+
+factor production and proliferation of gastrointestinal cancer cells. Clin Cancer Res. 2009;
+15:2281–2290. [PubMed: 19318487]
+
+23. Hung G, Li X, Faudoa R, et al. Establishment and characterization of a schwannoma cell line from
+
+a patient with neurofibromatosis 2. Int J Oncol. 2002; 20:475–482. [PubMed: 11836557]
+
+24. Prabhakar S, Messerli SM, Stemmer-Rachamimov AO, et al. Treatment of implantable NF2
+
+schwannoma tumor models with oncolytic herpes simplex virus G47Delta. Cancer Gene Ther.
+2007; 14:460–467. [PubMed: 17304235]
+
+25. Saydam O, Senol O, Mizrak A, et al. A novel imaging-compatible sciatic nerve schwannoma
+
+model. J Neuroscience Methods. provisionally accepted.
+
+26. PicTar [homepage on the Internet]. Berlin: PicTar is an algorithm for the identification of
+
+microRNA targets. Available from: http://pictar.mdc-berlin.de/cgibin/PicTar_vertebrate.cgi
+27. Goodwin EC, DiMaio D. Repression of human papillomavirus oncogenes in HeLa cervical
+
+carcinoma cells causes the orderly reactivation of dormant tumor suppressor pathways. Proc Natl
+Acad Sci U S A. 2000; 97:12513–12518. [PubMed: 11070078]
+
+28. Thomas R, Prabhu PD, Mathivanan J, et al. Altered structure and expression of RB1 gene and
+
+increased phosphorylation of pRb in human vestibular schwannomas. Mol Cell Biochem. 2005;
+271:113–121. [PubMed: 15881662]
+
+29. Webster RJ, Giles KM, Price KJ, Zhang PM, Mattick JS, Leedman PJ. Regulation of epidermal
+
+growth factor receptor signaling in human cancer cells by microRNA-7. J Biol Chem. 2009;
+284:5731–5741. [PubMed: 19073608]
+
+30. Galisteo ML, Yang Y, Ureña J, Schlessinger J. Activation of the nonreceptor protein tyrosine
+
+kinase Ack by multiple extracellular stimuli. Proc Natl Acad Sci U S A. 2006; 103:9796–9801.
+[PubMed: 16777958]
+
+31. Howlin J, Rosenkvist J, Andersson T. TNK2 preserves epidermal growth factor receptor
+
+expression on the cell surface and enhances migration and invasion of human breast cancer cells.
+Breast Cancer Res. 2008; 10:R36. [PubMed: 18435854]
+
+32. Kato-Stankiewicz J, Ueda S, Kataoka T, Kaziro Y, Satoh T. Epidermal growth factor stimulation
+
+of the ACK1/Dbl pathway in a Cdc42 and Grb2-dependent manner. Biochem Biophys Res
+Commun. 2001; 284:4470–4477.
+
+33. Mahajan NP, Whang YE, Mohler JL, Earp HS. Activated tyrosine kinase Ack1 promotes prostate
+tumorigenesis: role of Ack1 in polyubiquitination of tumor suppressor Wwox. Cancer Res. 2005;
+65:10514–10523. [PubMed: 16288044]
+
+34. Sampson VB, Rong NH, Han J, et al. MicroRNA let-7a down-regulates MYC and reverts MYC-
+
+induced growth in Burkitt lymphoma cells. Cancer Res. 2007; 15:9762–9770. [PubMed:
+17942906]
+
+35. Porkka KP, Pfeiffer MJ, Waltering KK, Vessella RL, Tammela TL, Visakorpi T. MicroRNA
+
+expression profiling in prostate cancer. Cancer Res. 2007; 67:6130–6135. [PubMed: 17616669]
+
+36. Yi C, Wilker EW, Yaffe MB, Stemmer-Rachamimov A, Kissil JL. Validation of the p21-activated
+
+kinases as targets for inhibition in neurofibromatosis type 2. Cancer Res. 2008; 68:7932–7937.
+[PubMed: 18829550]
+
+37. Kissil JL, Wilker EW, Johnson KC, Eckman MS, Yaffe MB, Jacks T. Merlin, the product of the
+
+Nf2 tumor suppressor gene, is an inhibitor of the p21-activated kinase, Pak1. Mol Cell. 2003;
+12:841–849. [PubMed: 14580336]
+
+38. Clark JJ, Provenzano M, Diggelmann HR, Xu N, Hansen SS, Hansen MR. The ErbB inhibitors
+trastuzumab and erlotinib inhibit growth of vestibular schwannoma xenografts in nude mice: a
+preliminary study. Otol Neurotol. 2008; 29:846–853. [PubMed: 18636037]
+
+Cancer Res. Author manuscript; available in PMC 2012 February 1.
+
+Saydam et al.
+
+Page 11
+
+39. Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after
+
+bevacizumab in patients with neurofibromatosis type 2. N Engl J Med. 2009; 361:358–367.
+[PubMed: 19587327]
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Cancer Res. Author manuscript; available in PMC 2012 February 1.
+
+Saydam et al.
+
+Page 12
+
+Figure 1. miRNA signature of schwannomas
+miRNA expression profiles of human vestibular schwannomas were compared with
+peripheral nerve tissue controls. miRNA screening was performed in duplicate for 10 tumor
+and 2 control samples by microarray analysis. (Supplementary Table 1). To validate the
+deregulated miRNAs, we also performed multiplex RT-PCR using 4 control and 10
+randomly selected tumor samples. The data were normalized to the level of U6 RNA in each
+sample. Twelve validated up and downregulated miRNAs values are shown as the mean ±
+S.D. relative to the control mean (***p<0.0001, Student’s t-test).
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Cancer Res. Author manuscript; available in PMC 2012 February 1.
+
+Saydam et al.
+
+Page 13
+
+Figure 2. Gain-of-function studies of downregulated miRNAs on schwannoma cell growth
+(A): qRT-PCRs for miR-321, miR-7, and U6 were performed in low MW fraction of RNA
+isolated from HEI-193 schwannoma cells and normalized to the level of U6 RNAs in each
+sample. (B): Two days after transfection of HEI-193 cells with pre-miR-321 or pre-miR-7,
+RNA was isolated and qRT-PCR reactions were performed for miR-321 and miR-7
+normalized to U6. (C): HEI-193 cells were either transfected with pre-miR-321, pre-miR-7
+or pre-control 1, or non-transfected and seeded in each well of a 6-well plate 5 h after
+transfection. Cells were counted at 1, 2, 3, and 4 days after transfection. (D): To determine
+the apoptosis rate in experiment shown in panel C, Caspase-Glo 3/7 (Promega) assay was
+carried out on cell lysates 2 days after transfection and expressed as RLU. These
+experiments were performed in triplicate and the values are expressed as mean ± S.D.
+(*p<0.02 ***p<0.0001 Student’s t-test).
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Cancer Res. Author manuscript; available in PMC 2012 February 1.
+
+Saydam et al.
+
+Page 14
+
+Figure 3. miR-7 inhibits schwannoma tumor growth in vivo
+HEI-193-Fluc-mC cells were transfected with either pre-miR-7 or pre-control 1 and
+implanted subcutaneously into the flanks of 5-week-old female athymic mice (nu/nu) five h
+later (7 mice per group). Tumor growth was monitored by in vivo bioluminescence imaging
+using a CCD camera. (A): This experiment was performed twice and bioluminescent images
+are shown with a pseudocolor bar to indicate degree of bioluminescence at 1, 5 and 10 days
+after tumor cell implantation. (B): Relative luciferase activity is shown as the mean ± S.D.
+(***p<0.0001; pre-miR-7 versus pre-control 1, Student’s t-test.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Cancer Res. Author manuscript; available in PMC 2012 February 1.
+
+Saydam et al.
+
+Page 15
+
+Figure 4. Identification of miR-7 binding sites in the 3’UTR of the Ack1 mRNA
+(A): Schematic representation of the Ack1 mRNA with three 3′UTR miR-7 binding sites (A,
+B, and C), as predicted by Pictar. (B): Schematic representation of Fluc reporter vectors for
+miR-7 target sites, partial wt pAck1 3′UTR containing all three putative binding sites (453–
+840 nt), and partial Ack1 3′UTRs containing sites pAck1 A, pAck1 B or pAck1 C. (C): The
+mature miR-7 sequence with its binding sites and wt and mt (mt, lower case) forms of the
+Ack1 mRNA 3′UTR miR-7 target sites are shown. (D): The pMiR-Report vector containing
+all three binding sites in the 3’UTR of the Ack1 mRNA with pre-miR-7 or pre-control 1, and
+an expression cassette for Rluc, were co-transfected into HEK 293T cells. Two days later,
+Fluc activity in the cells was measured and normalized to Rluc activity. (E): In a similar
+experiment, pMIR vectors containing pAck1 3’UTR sites A, B or C and their mutated
+counterparts were co-transfected into HEK 293T cells and luciferase activities were
+measured, as above. These experiments were performed in triplicate and results are shown
+as the mean ± S.D. (*p<0.01, ***p<0.001, Student’s t-test). (F): HEI-193 cells were
+transfected either with pre-control 1 or pre-miR-7 and three days after transfection, western
+blots were performed for Ack1 and actin (one of two similar blots is shown).
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Cancer Res. Author manuscript; available in PMC 2012 February 1.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Saydam et al.
+
+Page 16
+
+Figure 5. Ack1 and Pak1 are important targets of miR-7 in schwannoma cell growth
+HEI-193 cells were first infected with viral vectors expressing Ack1 or Pak1 or EGFR and
+then 24 h later transfected with pre-miR-7. Cells were counted at daily intervals thereafter.
+These experiments were performed in triplicate and results are shown as the mean ± S.D.
+(**p<0.01, Student’s t-test).
+
+Cancer Res. Author manuscript; available in PMC 2012 February 1.
+
+Saydam et al.
+
+Page 17
+
+Figure 6. miR-7 levels correlate with expression of Ack1 and Pak1 mRNAs
+qRT-PCR reactions were performed in 10 schwannoma tumor and 2 control samples for
+miR-7 and U6 (A), Ack1 mRNA (B), Pak1 mRNA (C) and EGFR mRNA (D), and
+normalized to GAPDH mRNA. These experiments were performed in triplicate and results
+are shown as the mean ± S.D. (***p<0.001, **p<0.01, Student’s t-test).
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Cancer Res. Author manuscript; available in PMC 2012 February 1.
+
+

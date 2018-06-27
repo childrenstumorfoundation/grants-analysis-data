@@ -1,0 +1,808 @@
+Chemistry & Biology
+
+Brief Communication
+
+Identiﬁcation of Serum-Derived
+Sphingosine-1-Phosphate
+as a Small Molecule Regulator of YAP
+
+Eric Miller,1,4 Jiayi Yang,1,4 Michael DeRan,2 Chunlei Wu,3 Andrew I. Su,3 Ghislain M.C. Bonamy,1 Jun Liu,1 Eric C. Peters,1
+and Xu Wu2,*
+1Genomics Institute of the Novartis Research Foundation, San Diego, CA 92121, USA
+2Cutaneous Biology Research Center, Massachusetts General Hospital, Harvard Medical School, Charlestown, MA 02129, USA
+3Department of Molecular and Experimental Medicine, The Scripps Research Institute, La Jolla, CA 92037, USA
+4These authors contributed equally to this work
+*Correspondence: xwu@cbrc2.mgh.harvard.edu
+http://dx.doi.org/10.1016/j.chembiol.2012.07.005
+
+SUMMARY
+
+Hippo signaling represents a tumor suppressor path-
+way that regulates organ size and tumorigenesis
+through phosphorylation and inhibition of the tran-
+scription coactivator YAP. Here, we show that serum
+deprivation dramatically induces YAP Ser127 phos-
+phorylation and cytoplasmic retention, independent
+of cell-cell contact. Through chemical isolation and
+activity proﬁling, we identiﬁed serum-derived sphin-
+gosine-1-phosphate (S1P) and lysophosphatidic
+acid (LPA) as small molecule activators of YAP. S1P
+induces YAP nuclear localization through S1P2 re-
+ceptor, Rho GTPase activation, and F-actin polymer-
+ization,
+independent of the core Hippo pathway
+kinases. Bioinformatics studies also showed that
+S1P stimulation induces YAP target gene expression
+in mouse liver and human embryonic stem cells.
+These results revealed potent small molecule regula-
+tors of YAP and suggest that S1P and LPA might
+modulate cell proliferation and tumorigenesis
+through YAP activation.
+
+INTRODUCTION
+
+Organ size regulation is a highly orchestrated process involving
+multiple signaling networks that respond to physiological cues.
+Initially discovered in Drosophila, Hippo signaling is an emerging
+tumor suppressor pathway that plays key roles in normal physi-
+ology and tumorigenesis through the regulation of cellular prolif-
+eration and survival (Harvey et al., 2003; Jia et al., 2003; Panta-
+lacci et al., 2003; Tapon et al., 2002; Udan et al., 2003; Wu
+et al., 2003). The core components of Hippo signaling are well
+conserved in Drosophila and vertebrate, including Ste20-like
+kinases MST1/2 (Hippo/Hpo in Drosophila), adaptor protein
+SAV1 (Salvador/sav in Drosophila), NDR family kinases Lats1/2
+(Warts/Wts in Drosophila), and transcription coactivators YAP
+and TAZ (Yorkie/Yki in Drosophila) (Harvey and Tapon, 2007).
+The signal transduction involves a core kinase cascade, in which
+SAV1 facilitates MST1/2 kinases to phosphorylate and activate
+
+Lats1/2. Subsequently, Lats1/2 phosphorylate YAP and TAZ at
+the consensus HXRXXS motifs, including Ser127 of YAP and
+Ser89 of TAZ (Zhao et al., 2007). These phosphorylation events
+are inhibitory to the transcription coactivator function of YAP
+and TAZ. Phosphorylated YAP and TAZ are sequestered in the
+cytoplasm by binding to 14-3-3 protein (Pan, 2010). Inactivation
+of the upstream kinases leads to the accumulation of YAP and
+TAZ in the nuclei and promotes their binding to other transcrip-
+tion factors, including TEA domain transcription factors (TEAD)
+to regulate target genes expression (Chan et al., 2009; Goulev
+et al., 2008; Ota and Sasaki, 2008; Wu et al., 2008; Zhang
+et al., 2008, 2009; Zhao et al., 2008).
+
+Previous work has shown that cell-cell contact can activate
+mammalian Hippo signaling, leading to MST1/2 and Lats1/2
+kinases-mediated inhibition of YAP and TAZ. Extracellular matrix
+(ECM) stiffness can modulate YAP and TAZ through Rho GTPase
+and cytoskeletal rearrangement, independent of the core Hippo
+kinases (Dupont et al., 2011; Zhao et al., 2011b). Enhanced
+F-actin polymerization induces organ overgrowth in Drosophila
+through activation of Yorkie (Ferna´ ndez et al., 2011; Sansores-
+Garcia et al., 2011; Wada et al., 2011). Cellular tight junction
+(TJ) protein angiomotin and adherences junction (AJ) protein
+a-catenin can directly bind to YAP and modulate its localization
+and Ser127 phosphorylation (Chan et al., 2011; Schlegelmilch
+et al., 2011; Zhao et al., 2011a). In addition, Fat and Dachsous
+have been identiﬁed as receptor and ligand regulating
+Drosophila Hippo signaling (Bennett and Harvey, 2006; Cho
+et al., 2006; Rogulja et al., 2008; Silva et al., 2006; Tyler and
+Baker, 2007; Willecke et al., 2006, 2008). However, upstream
+signals that affect YAP in mammals require further investigation.
+
+RESULTS
+
+Serum Deprivation Induces YAP Cytoplasmic Retention
+To identify regulators of YAP, we utilized an imaging-based YAP
+nuclear localization assay that recapitulated cell-cell contact-
+mediated YAP regulation: culturing HEK293A cells (an adherent
+subclone of HEK293 cells) at low density (50% conﬂuency)
+showed predominant YAP nuclear localization, whereas cul-
+turing cells at high density (100% conﬂuency) led to Hippo
+pathway activation and predominant YAP cytoplasmic localiza-
+tion (Zhao et al., 2007)
+(Figusre S1 available online). The
+
+Chemistry & Biology 19, 955–962, August 24, 2012 ª2012 Elsevier Ltd All rights reserved 955
+
+Chemistry & Biology
+
+Serum-Derived Lipids Activates YAP
+
+Figure 1. Serum Factor Induces YAP Nuclear Localization
+(A) Serum deprivation induces YAP cytoplasmic localization. Normal culture media (with 10% FBS) in low-density HEK293A cells was replenished with serum-free
+media (SFM) or fresh media containing 10% FBS for 2 hr. Cells are ﬁxed and immunostained for YAP (green) and nuclei are stained with Hoechst (blue).
+(B) Serum deprivation induces YAP Ser127 phosphorylation. Cells were treated with media containing 10% FBS, 2% FBS, 1% FBS, or serum-free medium for
+12 hr (SFM O/N), or serum-free media for 2 hr (SFM 2 hr). The total YAP protein level inversely correlates with p-YAP (S127) level, consistent with the previous
+reports that YAP phosphorylation primes its degradation.
+(C) HEK293A cells cultured at high density (100% conﬂuency) in normal media (DMEM + 10% FBS) exhibit high YAP cytoplasmic localization. After replacing the
+media with serum-free DMEM (SFM) for 2 hr, YAP remains predominantly in the cytoplasm. After replacing the media with fresh DMEM + 10% FBS for 2 hr, high
+levels of nuclear YAP are observed, indicating that serum factors can override contact-dependent YAP regulation.
+(D) Western blot analysis of p-YAP (Ser127) in HEK293A cells cultured at high density. Culture media were replaced with DMEM supplemented with different
+concentrations of FBS (lanes 2 to 6). Additional FBS was added directly in cells without media change in lanes 7 and 8 (data are represented as mean ± SEM, n = 3).
+See also Figures S1, S2, S3, and S4.
+
+Pearson’s correlation coefﬁcient between YAP-positive area and
+cell nuclei was used to quantify YAP nuclear localization (see the
+Supplemental Experimental Procedures). During assay optimi-
+zation, we serendipitously observed that YAP cytoplasmic reten-
+tion and Ser127 phosphorylation could be dramatically induced
+by decreasing the concentration of fetal bovine serum (FBS) in
+culture medium. This effect was independent of cell-cell contact
+and could be induced within 2 hr upon serum deprivation
+(Figures 1A and 1B; Figures S2A and S2B). Furthermore, adding
+fresh serum to conﬂuent HEK293A cells could induce YAP
+Ser127 dephosphorylation and nuclear localization, overriding
+cell-cell contact-mediated YAP inhibition (Figures 1C and 1D).
+We observed a similar effect in additional cell
+lines (HaCaT,
+NIH 3T3, OVCAR-8, and RT-4) although less dramatic as
+HEK293A cells and with sera from multiple species (goat, rabbit,
+horse, and human), suggesting that such an effect could be
+a conserved signaling event (Figures S2C and S3). Therefore,
+we hypothesized that some unknown factor(s) in serum might
+be novel
+ligand(s) regulating YAP. In addition, we found that
+MST1/2 and Lats1/2 kinases are dispensable for YAP Ser127
+phosphorylation induced by serum deprivation, as siRNA-medi-
+
+ated silencing of these upstream regulators does not block the
+effects (Figure S4). The total YAP levels inversely correlate with
+p-YAP levels, consistent with the previous report that phosphor-
+ylation of YAP promotes its degradation (Zhao et al., 2010).
+
+Chemical Isolation, Puriﬁcation, and Activity-Guided
+Proﬁling of Serum Factors
+Serum is a complex mixture of growth factors, nutrients, lipids,
+and metabolites. To identify the active serum factor(s), we
+utilized an activity-guided isolation methodology employing
+the imaging-based YAP translocation assay. Speciﬁcally, we re-
+placed the cell culture media (10% FBS) of
+low-density
+HEK293A cells with serum-free media (SFM) that had been sup-
+plemented with various serum-derived fractions. After 2 hr of
+incubation, we examined the YAP subcellular localization status
+to test whether any serum-derived sample could restore YAP
+nuclear localization.
+
+We initially observed that the serum-derived activity survived
+heat inactivation (60
+C, 30 min), treatment that usually inacti-
+vates complement
+to reﬁne
+factors (Figure S5).
+the serum, we utilized methanol precipitation followed by
+
+In order
+
+
+
+956 Chemistry & Biology 19, 955–962, August 24, 2012 ª2012 Elsevier Ltd All rights reserved
+
+Chemistry & Biology
+
+Serum-Derived Lipids Activates YAP
+
+partitioning of the resulting supernatant against hexanes, to
+localize the majority of the activity to an enriched aqueous frac-
+tion (Want et al., 2006) (Figure S5). Separation of the active serum
+extract by reversed phase high-performance liquid chromatog-
+raphy (HPLC) (C18) and subsequent activity proﬁling led to the
+identiﬁcation of two active regions within the 40% and 60%
+CH3CN in H2O steps of the elution gradient (Figure S6). To reveal
+the components of these fractions, we ﬁrst conducted protein
+mass spectrometry on the two most active fractions (F029 and
+F037) and an inactive fraction (F021) to determine if any proteins
+were selectively present in the active fractions. Our analyses re-
+vealed the presence of multiple proteins, including apolipopro-
+tein (Apo) A1, A2, and E. Interestingly, the number of identiﬁable
+spectra corresponding to ApoA2 was greatest in the active frac-
+tions and lowest in the inactive fraction (Table S1).
+
+Lipids Associated with Lipoproteins Are the Active
+Components
+We tested puriﬁed, lipid-stripped human and bovine ApoA2 and
+found that the protein itself was inactive. We then tested puriﬁed
+lipid-bound human HDL and low-density lipoprotein (LDL), which
+contain apolipoproteins (Schonfeld et al., 1978), and found that
+both induced YAP nuclear translocation (Figure S7A). Consis-
+C, 30 min) of FBS, which
+tently, we also observed that boiling (95
+usually denatures serum protein factors, did not affect the
+activity to induce YAP nuclear localization (Figure S5). In addi-
+tion, charcoal/Dextran-treated, delipidated FBS lost the activity,
+suggesting that serum lipids might be the active component(s)
+(Figures S2A and 3B). Taken together, we hypothesized that
+the overall serum activity was likely lipid based and the speciﬁc
+activity observed in F029 and F037 might be derived from free
+lipids that coeluted with ApoA2, or residual lipid-bound ApoA2,
+resulted from incomplete delipidation during the puriﬁcation
+process.
+
+
+
+To conﬁrm the lipid activity, we then extracted fraction F037
+and human HDL with butanol and tested the resulting organic
+and aqueous partitions. In each of the extractions, the YAP
+nuclear translocation activity was present in the organic (lipid
+containing) partition, whereas the aqueous partitions (protein)
+were inactive (Figure S7). However, attempts to further purify
+and proﬁle the lipids in these fractions were not successful
+because of the limited amount of active fraction available.
+
+Previous reports have also shown that S1P indeed induces the
+expression of Cyr61 and CTGF, both direct target genes of YAP
+(Chowdhury and Chaqour, 2004; Li et al., 2008; Young et al.,
+2009), suggesting that S1P might activate YAP transcriptional
+activity. S1P is a well-described signaling lipid bound to HDL,
+known to modulate diverse cellular functions,
+including cell
+proliferation, migration, and differentiation (Argraves and Ar-
+graves, 2007; Pyne and Pyne, 2010; Spiegel and Milstien,
+2003). The serum concentration of S1P ranges from 200 nM
+up to low micromolar, with 65% bound to lipoproteins (Murata
+et al., 2000). In addition, it is also known that S1P can activate
+Rho GTPase, a possible regulator of YAP as described recently
+(Dupont et al., 2011). Taken together, we hypothesized that S1P
+might be one of many serum factors present in the active frac-
+tions that regulate YAP.
+
+We then compared of the extracts to the synthetic D-erythro-
+S1P by high-resolution liquid chromatography/mass spectrom-
+etry (LC/MS) and conﬁrmed that S1P was present in the active
+samples (partition b) and absent in the inactive samples (Figures
+2C and 2D). The fragmentation pattern of S1P from F37b also
+matched with the synthetic standard (Figure S8).
+
+S1P, Dihydro-S1P, and Lysophosphatidic Acid
+Activates YAP
+To conﬁrm that S1P dose-dependently induces YAP nuclear
+localization, we tested a puriﬁed and synthetic D-erythro form
+of S1P, dihydro-S1P (dhS1P), and lysophosphatidic acid (LPA),
+lipids that activate related receptors (Choi et al., 2010; Rosen
+and Goetzl, 2005). As shown in Figure 3A and Figures S9 and
+S10, all three compounds induced YAP nuclear localization
+with S1P being the most potent ligand (S1P: EC50 = 17 nM;
+dhS1P: EC50 = 146 nM; LPA: EC50 = 316 nM). Another related
+lipid, ceramide-1-phosphate (C1P)
+is inactive (Figure S9).
+Sphingosine-1-phosphate also potently induces YAP Ser127
+dephosphorylation and activates YAP transcriptional activity as
+assessed by qRT-PCR of YAP direct target gene expression
+(CTGF and Cyr61) (Figures 3B and 3C). Taken together, these
+data indicate that serum-derived S1P and related lipids (dhS1P
+and LPA) are endogenous lipid compounds that induce YAP
+dephosphorylation, nuclear localization, and activation. We
+focused our further studies on S1P as it is the most potent
+compound identiﬁed.
+
+Sphingosine-1-Phosphate Is Located in the Active
+Fractions
+We attempted to crudely separate different lipids contained
+within HDL, F029, and F037, utilizing a modiﬁed Bligh and Dyer
+extraction system described previously that yielded three parti-
+tions (Kimura et al., 2001): (1) fatty acids, neutral lipids, and phos-
+pholipids; (2) charged lipids soluble in aqueous solution under
+alkaline conditions (such as sphingosine-1-phosphate, S1P);
+and (3) substances soluble in an aqueous solution (e.g.,
+proteins). In each case, the majority of the activity present in
+the parent sample was located in partition b (Figure 2A). Partition
+b of the most active fraction (F037) displayed dose-responsive
+activity with an approximate EC50 of 1.66 mg/ml (Figure 2B).
+These results indicate that lipids soluble under alkaline condi-
+tions, such as S1P and sphingolipids, might be the active
+factor(s).
+
+S1P Induces YAP Target Gene Expression
+Previously, a panel of 70 genes were identiﬁed as YAP target
+genes and have been successfully used as molecular signatures
+to predict YAP activation status (Cordenonsi et al., 2011; Dupont
+et al., 2011). To probe whether S1P stimulation can activate YAP
+signature gene expression, we carried out a bioinformatics anal-
+ysis of published microarray proﬁling data deposited in the Gene
+Expression Omnibus (GEO). We found that the YAP signature
+gene panel is signiﬁcantly (p < 0.0001) activated in mouse liver
+samples
+isolated from S1P lyase (SPL)-deﬁcient mice
+(GSE18745), which have marked accumulation of S1P in plasma
+and liver (Bektas et al., 2010). The YAP target genes are also
+signiﬁcantly (p < 0.0002) induced in human embryonic stem cells
+(ESCs) treated with S1P (GSE7896) (Avery et al., 2008), suggest-
+ing that S1P indeed activates YAP transcriptional activity (Fig-
+ure S11). YAP has been shown to regulate hepatocyte
+
+Chemistry & Biology 19, 955–962, August 24, 2012 ª2012 Elsevier Ltd All rights reserved 957
+
+Chemistry & Biology
+
+Serum-Derived Lipids Activates YAP
+
+Figure 2. Chemical Isolation and Activity Proﬁling Lead to the Identiﬁcation of Serum-Derived Factors that Regulate YAP
+(A) Human HDL, Fraction 029, and Fraction 037 (F029 and F037) from FBS puriﬁcation were further puriﬁed by extraction and lipid partitioning methods to give
+three partitions (partitions a, b, and c). The YAP nuclear localization restoring activity is evaluated in low-density, serum-deprived HEK293A cells at a sample
+concentration of 50 mg/ml (bar graph). The mean number of cells per ﬁeld in the imaging analysis for those samples is shown in red squares. (Data are represented
+as mean ± SEM, n = 3).
+(B) Dose-response curves for partitions a (gray), b (blue), and c (green) of Fraction 037 (intact F037, red). Curves with circles represent the YAP nuclear localization
+(YNL) activity, and the squares represent the mean cell number per ﬁeld (MCPF) (data are represented as mean ± SEM, n = 3).
+(C) Positive mode electrospray ionization (ESI) spectrum of synthetic D-erythro-S1P and proposed structures for the observed ions.
+(D) Representative extracted ion chromatograms for the most abundant S1P-derived ion (m/z: 264.26–264.27) for synthetic D-erythro-S1P (top panel, gray) and in
+descending order: partitions a (HDLa, red) and b (HDLb, dark green) of human HDL; partitions a (F029a, pink) and b (F029b, purple) of Fraction 029 from FBS; and
+partitions a (F037a, green) and b (F037b, blue) of Fraction 037 from FBS.
+See also Figures S5, S6, S7, and S8 and Table S1.
+
+proliferation and embryonic stem cell self-renewal (Lian et al.,
+2010; Zhou et al., 2009). It would be interesting to further study
+whether YAP contributes to the effects of S1P in these systems.
+
+S1P Induces YAP Nuclear Localization through S1P2
+Receptor
+S1P signals through a family of GPCRs, including S1P1–5 (Rosen
+and Goetzl, 2005). To probe which receptor(s) mediates YAP
+regulation, we carried out qRT-PCR mRNA expression proﬁling
+of the S1P receptors in HEK293A and HaCaT cells, two cell types
+that respond to S1P stimulation. We found that S1P2 is the most
+abundant receptor expressed in both cell lines (Figure S12). S1P2
+antagonist JTE-013 has also been shown to block CTGF and
+Cyr61 expression, whereas S1P1 antagonist VPC4416 does not
+(Kim et al., 2011; Li et al., 2008). Similarly, siRNA-mediated
+silencing of S1P2, but not S1P3, blocks S1P-mediated YAP target
+
+gene expression, suggesting that S1P2 is the receptor respon-
+sible for the effects (Figure S13). S1P2 is known to couple to
+the G12/13-family of G proteins, leading to the activation of Rho
+GTPases, stress ﬁber formation, and cytoskeletal reorganization
+(Rosen and Goetzl, 2005). We found that Rho GTPase inhibitor
+(C3, 3 mg/ml) and ROCK inhibitor (Y-227632, 10 mM) can both
+block YAP nuclear localization induced by S1P (Figure S14A),
+suggesting that Rho GTPase-mediated pathway is required for
+the regulation of YAP. Rho GTPase activation induces F-actin
+polymerization and stress ﬁber formation. Consistent with this
+notion, we found that serum deprivation disrupted F-actin stress
+ﬁber
+in cells, accompanied by YAP cytoplasmic retention
+(Figures 4A and 4B). S1P (300 nM) restored YAP nuclear localiza-
+tion and F-actin polymerization (Figure 4C). Furthermore, F-actin
+inhibitor (latrunculin A, 100 nM) can block S1P and LPA-induced
+YAP nuclear localization (Figures 4D and 4E), suggesting that
+
+958 Chemistry & Biology 19, 955–962, August 24, 2012 ª2012 Elsevier Ltd All rights reserved
+
+Chemistry & Biology
+
+Serum-Derived Lipids Activates YAP
+
+A 
+
+B 
+
+C 
+
+S1P and LPA regulate YAP through F-actin polymerization-
+mediated process. Previously, extracellular matrix (ECM) and
+mechanical force have also been shown to regulate YAP through
+Rho GTPase (Dupont et al., 2011). F-actin has also been
+shown to regulate Hippo-YAP signaling. For example, induction
+of extra F-actin formation by loss of Capping proteins induces
+Drosophila imaginal discs overgrowth through activation of
+Yorkie (Ferna´ ndez et al., 2011; Sansores-Garcia et al., 2011).
+These reports and our results suggest that F-actin polymeriza-
+tion is a conserved signaling node that integrates signaling
+inputs, including mechanical forces, cytoskeletal reorganization,
+and serum/plasma lipids signaling, to regulate YAP activity.
+
+DISCUSSION
+
+Hippo signaling is an emerging pathway involved in tissue
+homeostasis and tumorigenesis through regulation of YAP, an
+important factor regulating stem and progenitor cell fate, cell
+proliferation, survival, and transformation. In the last decade,
+genetic studies have revealed components and the signaling
+
+Figure 3. Sphingosine-1-Phosphate Is a
+Small Molecule Ligand Regulating YAP
+(A) Synthetic S1P induces YAP nuclear localization.
+Curve with circles (red) represents the YAP nuclear
+localization (YNL) activity, and the open squares
+represent the mean cell number per ﬁeld (MCPF).
+(Data are represented as mean ± SEM, n = 3).
+(B) S1P induces YAP Ser127 dephosphorylation
+independent of cell-cell contact. HEK293A cells
+were cultured at low density (50% conﬂuency, left)
+and high density (100% conﬂuency, right). Culture
+medium was replaced with media containing
+10% of charcoal/Dextran-treated FBS (DC-FBS),
+CD293 synthetic media, or serum-free media
+(SFM). Cells were treated with 300 nM of S1P (+) or
+vehicle control ( ) for 2 hr.
+(C) S1P induces YAP target genes (CTGF and
+Cyr61) expression. qRT-PCR analysis of CTGF
+(green) and Cyr61 (blue) in HEK293A cells with
+normal culture medium (no medium change),
+or
+replenished with serum-free media (SFM)
+supplemented with vehicle control, or S1P at
+various doses). (Data are represented as mean ±
+SEM, n = 3).
+See also Figures S9, S10, and S11.
+
+mechanisms of Hippo pathway in multiple
+species and suggested that deregulation
+of Hippo pathway is involved in many
+diseases. Therefore, chemical probes
+might provide additional tools to study
+this important signaling in development
+and diseases and to further explore
+the therapeutic applications of modu-
+lating Hippo signaling. To date, several
+synthetic chemical compounds have
+been identiﬁed to modulate YAP translo-
+cation or YAP-TEAD binding through
+high-throughput screens; however, their
+potency and speciﬁcity of modulating
+YAP need further improvement (Bao et al., 2011; Liu-Chittenden
+et al., 2012). In this report, we have identiﬁed S1P and related
+serum lipids as chemical factors regulating YAP nuclear localiza-
+tion and activation. To our knowledge, the results establish a new
+signaling mechanism by which serum lipid factors activate YAP
+through GPCRs and Rho GTPases. S1P and LPA are known to
+induce proliferation, migration, and metastasis of certain cancer
+cells, and their levels are elevated in patients with several types of
+cancers (Pyne and Pyne, 2010; Xu et al., 1998). The S1P biosyn-
+thetic enzyme, sphingosine kinase 1 is also known as an onco-
+gene (Pchejetski et al., 2011; Pyne and Pyne, 2010). Our results
+suggest that YAP could be a downstream factor mediating
+such biological activity and that small molecule ligands, such
+as S1P, LPA, or S1P/LPA receptor modulators, could be useful
+chemical tools to dissect Hippo signaling.
+
+SIGNIFICANCE
+
+Despite efforts to identify upstream signals that regulate
+YAP nuclear localization and activity, the endogenous small
+
+Chemistry & Biology 19, 955–962, August 24, 2012 ª2012 Elsevier Ltd All rights reserved 959
+
+Chemistry & Biology
+
+Serum-Derived Lipids Activates YAP
+
+A
+
+B
+
+C
+
+D
+
+E
+
+Figure 4. Phospholipids Induce YAP Nuclear Localization through F-actin Polymerization
+S1P restores the stress ﬁber and F-actin polymerization together with YAP nuclear translocation in SFM. HEK293A cells are cultured at low density in normal
+medium (A), SFM with vehicle control (B), and SFM with S1P (C). Immunoﬂuorescent staining of F-actin stress ﬁbers (red), YAP (green), and nuclei (blue) were
+shown. F-actin inhibitor Latrunculin A (LA, 100 nM) blocks S1P-induced (D) and LPA-induced (E) YAP nuclear localization (n = 3, mean ± SEM).
+See also Figures S12, S13, and S14.
+
+molecules that regulate YAP are still elusive in mammals.
+Here, we report the discovery of serum lipids as potent
+activators of YAP, providing insights to the regulation of
+Hippo signaling and chemical tools to perturb YAP activity.
+We also demonstrated that chemical
+isolation, activity-
+guided proﬁling, and high-throughput screen are powerful
+tools to identify biologically active endogenous ligands
+that regulate cell signaling. Further studies on the S1P and
+LPA-regulated YAP activation might reveal novel physiolog-
+ical and pathological roles of these bioactive lipids.
+
+EXPERIMENTAL PROCEDURES
+
+Activity Proﬁling of Serum Fractions and Synthetic Lipids
+For all experiments, cells were cultured and plated in Dulbecco’s modiﬁed
+Eagle’s medium (DMEM) + 10% FBS in 384-well plates and allowed to attach
+overnight. Plating density was either 5 3 104 cells/ml for low density (50%
+conﬂuency) or 2 3 105 cells/ml for high density (100% conﬂuency). Attached
+cells were washed ﬁve times with serum-free DMEM (SFM) at volumes
+equivalent to the initial plating volume. Serum, serum-derived fractions, or
+puriﬁed lipids were then added back and incubated for 2 hr. Untreated serum
+was diluted in DMEM; lyophilized fractions were dissolved in DMEM + 3%
+DMSO; and lipid extracts were ﬁrst dissolved in methanol and dried under
+
+N2 (g) to create a thin ﬁlm, dissolved in 4 mg/ml fatty acid-free (FAF) BSA,
+and diluted into DMEM. All puriﬁed lipids were initially dissolved in solvents
+in accordance with the manufacturer’s instructions, dried to make thin ﬁlms,
+dissolved in 4 mg/ml FAF BSA, and diluted in DMEM.
+
+Immunoﬂuorescence Staining
+Cells were ﬁxed in 4% paraformaldehyde at room temperature for 15 min, prior
+to permeabilization with 0.1% Triton X-100. Blocking and primary antibody
+(anti-YAP, mouse monoclonal antibody [M01] from Abgent, San Diego, CA,
+USA) incubation was combined in one step by adding antibody prepared in
+5% bovine serum albumin (BSA) solution (Sigma-Aldrich). After 2 hr incuba-
+tion, cells were then washed with PBS and incubated in Alexa Fluor 488
+donkey anti-mouse IgG and Hoechst 33342 nucleus dye (Invitrogen, Carlsbad,
+CA, USA) for 1 hr, followed by image acquisition by high-throughput confocal
+microscopy (Opera High Content Screening System, Waltham, MA, USA).
+Nine images/well were captured using a 10 3 PlanApo/0.3 NA objective at
+a resolution of 0.65 mm/pixels.
+
+Additional methods are described in the Supplemental Experimental
+
+Procedures.
+
+SUPPLEMENTAL INFORMATION
+
+Supplemental Information includes fourteen ﬁgures, one table, and Supple-
+mental Experimental Procedures and can be found with this article online at
+http://dx.doi.org/10.1016/j.chembiol.2012.07.005.
+
+960 Chemistry & Biology 19, 955–962, August 24, 2012 ª2012 Elsevier Ltd All rights reserved
+
+Chemistry & Biology
+
+Serum-Derived Lipids Activates YAP
+
+ACKNOWLEDGMENTS
+
+This work is supported by the Genomics Institute of the Novartis Research
+Foundation postdoctoral program (E.M. and J.Y.), Massachusetts General
+Hospital institutional fund, Harvard Stem Cell Institute, and Children’s Tumor
+Foundation (X.W.). We thank Drs. Charles Cho, Kun-Liang Guan, and Nabeel
+Bardeesy for discussions and reagents; Daniel Mason for assistance with
+mass spectrometry; and Richard Brusch III for assistance with imaging
+analyses and confocal microscopy. J.Y., E.M., and X.W. conceived the
+concepts and designed the experiments; E.M. performed isolation and
+analytical experiments; J.Y., M.D., and E.M. performed the cell biology and
+biochemistry experiments; C.W. performed bioinformatics analysis and G.B.
+performed imaging analysis; all authors analyzed the data; and E.M. and
+X.W. wrote the manuscript. E.M., J.Y., G.B., J.L. and E.P. are employees of
+Novartis. Part of this work was supported by the Novartis Research Founda-
+tion postdoctoral program (E.M. and J.Y.).
+
+Received: May 30, 2012
+Revised: July 2, 2012
+Accepted: July 3, 2012
+Published online: August 9, 2012
+
+REFERENCES
+
+Argraves, K.M., and Argraves, W.S. (2007). HDL serves as a S1P signaling
+platform mediating a multitude of cardiovascular effects. J. Lipid Res. 48,
+2325–2333.
+
+Avery, K., Avery, S., Shepherd, J., Heath, P.R., and Moore, H.
+(2008).
+Sphingosine-1-phosphate mediates transcriptional regulation of key targets
+associated with survival, proliferation, and pluripotency in human embryonic
+stem cells. Stem Cells Dev. 17, 1195–1205.
+
+Bao, Y., Nakagawa, K., Yang, Z., Ikeda, M., Withanage, K., Ishigami-Yuasa,
+M., Okuno, Y., Hata, S., Nishina, H., and Hata, Y. (2011). A cell-based assay
+to screen stimulators of the Hippo pathway reveals the inhibitory effect of do-
+butamine on the YAP-dependent gene transcription. J. Biochem. 150,
+199–208.
+
+Bektas, M., Allende, M.L., Lee, B.G., Chen, W., Amar, M.J., Remaley, A.T.,
+Saba, J.D., and Proia, R.L. (2010). Sphingosine 1-phosphate lyase deﬁciency
+disrupts lipid homeostasis in liver. J. Biol. Chem. 285, 10880–10889.
+
+Bennett, F.C., and Harvey, K.F. (2006). Fat cadherin modulates organ size in
+Drosophila via the Salvador/Warts/Hippo signaling pathway. Curr. Biol. 16,
+2101–2110.
+
+Chan, S.W., Lim, C.J., Loo, L.S., Chong, Y.F., Huang, C., and Hong, W. (2009).
+TEADs mediate nuclear retention of TAZ to promote oncogenic transforma-
+tion. J. Biol. Chem. 284, 14347–14358.
+
+Chan, S.W., Lim, C.J., Chong, Y.F., Pobbati, A.V., Huang, C., and Hong, W.
+(2011). Hippo pathway-independent restriction of TAZ and YAP by angiomotin.
+J. Biol. Chem. 286, 7018–7026.
+
+Cho, E., Feng, Y., Rauskolb, C., Maitra, S., Fehon, R., and Irvine, K.D. (2006).
+Delineation of a fat tumor suppressor pathway. Nat. Genet. 38, 1142–1150.
+
+Choi, J.W., Herr, D.R., Noguchi, K., Yung, Y.C., Lee, C.W., Mutoh, T., Lin, M.E.,
+Teo, S.T., Park, K.E., Mosley, A.N., and Chun, J. (2010). LPA receptors:
+subtypes and biological actions. Annu. Rev. Pharmacol. Toxicol. 50, 157–186.
+
+Chowdhury, I., and Chaqour, B. (2004). Regulation of connective tissue growth
+factor (CTGF/CCN2) gene transcription and mRNA stability in smooth muscle
+cells. Involvement of RhoA GTPase and p38 MAP kinase and sensitivity to
+actin dynamics. Eur. J. Biochem. 271, 4436–4450.
+
+Cordenonsi, M., Zanconato, F., Azzolin, L., Forcato, M., Rosato, A., Frasson,
+C., Inui, M., Montagner, M., Parenti, A.R., Poletti, A., et al. (2011). The Hippo
+transducer TAZ confers cancer stem cell-related traits on breast cancer cells.
+Cell 147, 759–772.
+
+Dupont, S., Morsut, L., Aragona, M., Enzo, E., Giulitti, S., Cordenonsi, M.,
+Zanconato, F., Le Digabel, J., Forcato, M., Bicciato, S., et al. (2011). Role of
+YAP/TAZ in mechanotransduction. Nature 474, 179–183.
+
+Ferna´ ndez, B.G., Gaspar, P., Bra´ s-Pereira, C., Jezowska, B., Rebelo, S.R.,
+and Janody, F. (2011). Actin-Capping Protein and the Hippo pathway regulate
+F-actin and tissue growth in Drosophila. Development 138, 2337–2346.
+
+Goulev, Y., Fauny, J.D., Gonzalez-Marti, B., Flagiello, D., Silber, J., and Zider,
+A. (2008). SCALLOPED interacts with YORKIE, the nuclear effector of the
+hippo tumor-suppressor pathway in Drosophila. Curr. Biol. 18, 435–441.
+
+Harvey, K., and Tapon, N. (2007). The Salvador-Warts-Hippo pathway - an
+emerging tumour-suppressor network. Nat. Rev. Cancer 7, 182–191.
+
+Harvey, K.F., Pﬂeger, C.M., and Hariharan, I.K. (2003). The Drosophila Mst or-
+tholog, hippo, restricts growth and cell proliferation and promotes apoptosis.
+Cell 114, 457–467.
+
+Jia, J., Zhang, W., Wang, B., Trinko, R., and Jiang, J. (2003). The Drosophila
+Ste20 family kinase dMST functions as a tumor suppressor by restricting
+cell proliferation and promoting apoptosis. Genes Dev. 17, 2514–2519.
+
+Kim, Y.M., Lim, S.C., Han, C.Y., Kay, H.Y., Cho, I.J., Ki, S.H., Lee, M.Y., Kwon,
+H.M., Lee, C.H., and Kim, S.G. (2011). G(alpha)12/13 induction of CYR61 in
+association with arteriosclerotic intimal hyperplasia: effect of sphingosine-1-
+phosphate. Arterioscler. Thromb. Vasc. Biol. 31, 861–869.
+
+Kimura, T., Sato, K., Kuwabara, A., Tomura, H., Ishiwara, M., Kobayashi, I.,
+Ui, M., and Okajima, F. (2001). Sphingosine 1-phosphate may be a major
+component of plasma lipoproteins responsible for the cytoprotective actions
+in human umbilical vein endothelial cells. J. Biol. Chem. 276, 31780–31785.
+
+Li, M.H., Sanchez, T., Pappalardo, A., Lynch, K.R., Hla, T., and Ferrer, F.
+(2008). Induction of antiproliferative connective tissue growth factor expres-
+sion in Wilms’ tumor cells by sphingosine-1-phosphate receptor 2. Mol.
+Cancer Res. 6, 1649–1656.
+
+Lian, I., Kim, J., Okazawa, H., Zhao, J., Zhao, B., Yu, J., Chinnaiyan, A., Israel,
+M.A., Goldstein, L.S., Abujarour, R., et al. (2010). The role of YAP transcription
+coactivator in regulating stem cell self-renewal and differentiation. Genes Dev.
+24, 1106–1118.
+
+Liu-Chittenden, Y., Huang, B., Shim, J.S., Chen, Q., Lee, S.J., Anders, R.A.,
+Liu, J.O., and Pan, D. (2012). Genetic and pharmacological disruption of the
+TEAD-YAP complex suppresses the oncogenic activity of YAP. Genes Dev.
+26, 1300–1305.
+
+Murata, N., Sato, K., Kon, J., Tomura, H., Yanagita, M., Kuwabara, A., Ui, M.,
+and Okajima, F. (2000). Interaction of sphingosine 1-phosphate with plasma
+components, including lipoproteins, regulates the lipid receptor-mediated
+actions. Biochem. J. 352, 809–815.
+
+Ota, M., and Sasaki, H. (2008). Mammalian Tead proteins regulate cell prolif-
+eration and contact inhibition as transcriptional mediators of Hippo signaling.
+Development 135, 4059–4069.
+
+Pan, D. (2010). The hippo signaling pathway in development and cancer. Dev.
+Cell 19, 491–505.
+
+Pantalacci, S., Tapon, N., and Le´ opold, P. (2003). The Salvador partner Hippo
+promotes apoptosis and cell-cycle exit in Drosophila. Nat. Cell Biol. 5,
+921–927.
+
+Pchejetski, D., Bo¨ hler, T., Stebbing, J., and Waxman, J. (2011). Therapeutic
+potential of targeting sphingosine kinase 1 in prostate cancer. Nat. Rev.
+Urol. 8, 569–678.
+
+Pyne, N.J., and Pyne, S. (2010). Sphingosine 1-phosphate and cancer. Nat.
+Rev. Cancer 10, 489–503.
+
+Rogulja, D., Rauskolb, C., and Irvine, K.D. (2008). Morphogen control of wing
+growth through the Fat signaling pathway. Dev. Cell 15, 309–321.
+
+Rosen, H., and Goetzl, E.J. (2005). Sphingosine 1-phosphate and its recep-
+tors: an autocrine and paracrine network. Nat. Rev. Immunol. 5, 560–570.
+
+Sansores-Garcia, L., Bossuyt, W., Wada, K., Yonemura, S., Tao, C., Sasaki,
+H., and Halder, G. (2011). Modulating F-actin organization induces organ
+growth by affecting the Hippo pathway. EMBO J. 30, 2325–2335.
+
+Schlegelmilch, K., Mohseni, M., Kirak, O., Pruszak, J., Rodriguez, J.R.,
+Zhou, D., Kreger, B.T., Vasioukhin, V., Avruch, J., Brummelkamp, T.R., and
+(2011). Yap1 acts downstream of a-catenin to control
+Camargo, F.D.
+epidermal proliferation. Cell 144, 782–795.
+
+Schonfeld, G., Bailey, A., and Steelman, R. (1978). Plasma, apolipoprotein, A-I
+and A-II levels in hyperlipidemia. Lipids 13, 951–959.
+
+Chemistry & Biology 19, 955–962, August 24, 2012 ª2012 Elsevier Ltd All rights reserved 961
+
+Chemistry & Biology
+
+Serum-Derived Lipids Activates YAP
+
+Silva, E., Tsatskis, Y., Gardano, L., Tapon, N., and McNeill, H. (2006). The
+tumor-suppressor gene fat controls tissue growth upstream of expanded in
+the hippo signaling pathway. Curr. Biol. 16, 2081–2089.
+
+Spiegel, S., and Milstien, S. (2003). Sphingosine-1-phosphate: an enigmatic
+signalling lipid. Nat. Rev. Mol. Cell Biol. 4, 397–407.
+
+Tapon, N., Harvey, K.F., Bell, D.W., Wahrer, D.C., Schiripo, T.A., Haber, D.A.,
+and Hariharan,
+(2002). salvador Promotes both cell cycle exit and
+apoptosis in Drosophila and is mutated in human cancer cell lines. Cell 110,
+467–478.
+
+I.K.
+
+Tyler, D.M., and Baker, N.E. (2007). Expanded and fat regulate growth and
+differentiation in the Drosophila eye through multiple signaling pathways.
+Dev. Biol. 305, 187–201.
+
+Udan, R.S., Kango-Singh, M., Nolo, R., Tao, C., and Halder, G. (2003). Hippo
+promotes proliferation arrest and apoptosis in the Salvador/Warts pathway.
+Nat. Cell Biol. 5, 914–920.
+
+Wada, K., Itoga, K., Okano, T., Yonemura, S., and Sasaki, H. (2011). Hippo
+pathway regulation by cell morphology and stress ﬁbers. Development 138,
+3907–3914.
+
+Want, E.J., O’Maille, G., Smith, C.A., Brandon, T.R., Uritboonthai, W., Qin, C.,
+Trauger, S.A., and Siuzdak, G. (2006). Solvent-dependent metabolite distribu-
+tion, clustering, and protein extraction for serum proﬁling with mass spectrom-
+etry. Anal. Chem. 78, 743–752.
+
+Willecke, M., Hamaratoglu, F., Kango-Singh, M., Udan, R., Chen, C.L., Tao, C.,
+Zhang, X., and Halder, G. (2006). The fat cadherin acts through the hippo
+tumor-suppressor pathway to regulate tissue size. Curr. Biol. 16, 2090–2100.
+
+Willecke, M., Hamaratoglu, F., Sansores-Garcia, L., Tao, C., and Halder, G.
+(2008). Boundaries of Dachsous Cadherin activity modulate the Hippo
+signaling pathway to induce cell proliferation. Proc. Natl. Acad. Sci. USA
+105, 14897–14902.
+
+Wu, S., Huang, J., Dong, J., and Pan, D. (2003). hippo encodes a Ste-20 family
+protein kinase that restricts cell proliferation and promotes apoptosis in
+conjunction with salvador and warts. Cell 114, 445–456.
+
+Wu, S., Liu, Y., Zheng, Y., Dong, J., and Pan, D. (2008). The TEAD/TEF family
+protein Scalloped mediates transcriptional output of the Hippo growth-regula-
+tory pathway. Dev. Cell 14, 388–398.
+
+Xu, Y., Shen, Z., Wiper, D.W., Wu, M., Morton, R.E., Elson, P., Kennedy, A.W.,
+Belinson, J., Markman, M., and Casey, G. (1998). Lysophosphatidic acid as
+a potential biomarker for ovarian and other gynecologic cancers. JAMA 280,
+719–723.
+
+Young, N., Pearl, D.K., and Van Brocklyn, J.R. (2009). Sphingosine-1-phos-
+phate regulates glioblastoma cell invasiveness through the urokinase plasmin-
+ogen activator system and CCN1/Cyr61. Mol. Cancer Res. 7, 23–32.
+
+Zhang, L., Ren, F., Zhang, Q., Chen, Y., Wang, B., and Jiang, J. (2008). The
+TEAD/TEF family of transcription factor Scalloped mediates Hippo signaling
+in organ size control. Dev. Cell 14, 377–387.
+
+Zhang, H., Liu, C.Y., Zha, Z.Y., Zhao, B., Yao, J., Zhao, S., Xiong, Y., Lei, Q.Y.,
+and Guan, K.L. (2009). TEAD transcription factors mediate the function of TAZ
+in cell growth and epithelial-mesenchymal transition. J. Biol. Chem. 284,
+13355–13362.
+
+Zhao, B., Wei, X., Li, W., Udan, R.S., Yang, Q., Kim, J., Xie, J., Ikenoue, T., Yu,
+J., Li, L., et al. (2007). Inactivation of YAP oncoprotein by the Hippo pathway is
+involved in cell contact inhibition and tissue growth control. Genes Dev. 21,
+2747–2761.
+
+Zhao, B., Ye, X., Yu, J., Li, L., Li, W., Li, S., Yu, J., Lin, J.D., Wang, C.Y.,
+Chinnaiyan, A.M., et al. (2008). TEAD mediates YAP-dependent gene induction
+and growth control. Genes Dev. 22, 1962–1971.
+
+Zhao, B., Li, L., Tumaneng, K., Wang, C.Y., and Guan, K.L. (2010). A coordi-
+nated phosphorylation by Lats and CK1 regulates YAP stability through
+SCF(beta-TRCP). Genes Dev. 24, 72–85.
+
+Zhao, B., Tumaneng, K., and Guan, K.L. (2011a). The Hippo pathway in organ
+size control, tissue regeneration and stem cell self-renewal. Nat. Cell Biol. 13,
+877–883.
+
+Zhao, B., Li, L., Lu, Q., Wang, L.H., Liu, C.Y., Lei, Q., and Guan, K.L. (2011b).
+Angiomotin is a novel Hippo pathway component that inhibits YAP oncopro-
+tein. Genes Dev. 25, 51–63.
+
+Zhou, D., Conrad, C., Xia, F., Park, J.S., Payer, B., Yin, Y., Lauwers, G.Y.,
+Thasler, W., Lee, J.T., Avruch, J., and Bardeesy, N. (2009). Mst1 and Mst2
+maintain hepatocyte quiescence and suppress hepatocellular carcinoma
+development through inactivation of the Yap1 oncogene. Cancer Cell 16,
+425–438.
+
+962 Chemistry & Biology 19, 955–962, August 24, 2012 ª2012 Elsevier Ltd All rights reserved
+
+

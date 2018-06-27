@@ -1,0 +1,2712 @@
+MOLECULAR AND CELLULAR BIOLOGY, May 2010, p. 2264–2279
+0270-7306/10/$12.00 doi:10.1128/MCB.01450-08
+Copyright © 2010, American Society for Microbiology. All Rights Reserved.
+
+Vol. 30, No. 9
+
+The RasGAP Proteins Ira2 and Neuroﬁbromin Are Negatively
+
+Regulated by Gpb1 in Yeast and ETEA in Humans䌤
+Vernon T. Phan,1† Vivianne W. Ding,1 Fenglei Li,2 Robert J. Chalkley,2
+
+Alma Burlingame,2 and Frank McCormick1*
+
+UCSF Helen Diller Family Comprehensive Cancer Center, 2340 Sutter Street, San Francisco, California 94115,1
+
+and Department of Pharmaceutical Chemistry and Mass Spectrometry Facility, University of
+
+California, San Francisco, San Francisco, California 941432
+
+Received 15 September 2008/Returned for modiﬁcation 12 November 2008/Accepted 9 February 2010
+
+The neuroﬁbromatosis type 1 (NF1) gene encodes the GTPase-activating protein (GAP) neuroﬁbromin,
+which negatively regulates Ras activity. The yeast Saccharomyces cerevisiae has two neuroﬁbromin homologs,
+Ira1 and Ira2. To understand how these proteins are regulated, we utilized an unbiased proteomics approach
+to identify Ira2 and neuroﬁbromin binding partners. We demonstrate that the Gpb1/Krh2 protein binds and
+negatively regulates Ira2 by promoting its ubiquitin-dependent proteolysis. We extended our ﬁndings to show
+that in mammalian cells, the ETEA/UBXD8 protein directly interacts with and negatively regulates neuroﬁ-
+bromin. ETEA contains both UBA and UBX domains. Overexpression of ETEA downregulates neuroﬁbromin
+in human cells. Puriﬁed ETEA, but not a mutant of ETEA that lacks the UBX domain, ubiquitinates the
+neuroﬁbromin GAP-related domain in vitro. Silencing of ETEA expression increases neuroﬁbromin levels and
+downregulates Ras activity. These ﬁndings provide evidence for conserved ubiquitination pathways regulating
+the RasGAP proteins Ira2 (in yeast) and neuroﬁbromin (in humans).
+
+Neuroﬁbromatosis type 1 (NF1) is an autosomal dominant
+genetic disease that affects 1 in 3,500 individuals worldwide.
+Individuals with NF1 are predisposed to develop multiple be-
+nign and malignant neuroﬁbromas as well as gliomas, pheo-
+chromocytomas, and myeloid leukemias (2, 32). Neuroﬁbro-
+min, the NF1 gene product, negatively regulates Ras activity by
+facilitating the hydrolysis of active RasGTP to inactive Ras-
+GDP through its GTPase-activating protein (GAP) domain (3,
+25). Loss of neuroﬁbromin results in hyperactive Ras signaling
+and activation of downstream effectors, including the Raf–
+MEK–extracellular signal-regulated kinase (ERK) and phos-
+phatidylinositol 3-kinase (PI3K)–AKT pathways (35, 45).
+
+Regulation of neuroﬁbromin itself is still poorly understood.
+Phosphorylation by protein kinase C (PKC) increases in the
+RasGAP activity in response to epidermal growth factor
+(EGF) signaling (24). Furthermore, neuroﬁbromin can be
+phosphorylated on serine residues when IgM is cross-linked,
+although the kinase that is responsible for the regulation is
+unknown (5). Neuroﬁbromin can be degraded by the protea-
+some when cells are stimulated with growth factors that acti-
+vate both G-protein-coupled receptors and receptor tyrosine
+kinases (7). Although neuroﬁbromin is ubiquitinated and de-
+graded, the ubiquitin-related enzyme responsible remains to
+be identiﬁed. Taken together, these ﬁndings suggest that neu-
+roﬁbromin is controlled by both protein kinases and ubiquitin-
+related enzymes and that identifying new protein candidates
+
+* Corresponding author. Mailing address: UCSF Helen Diller Fam-
+ily, Comprehensive Cancer Center, 2340 Sutter Street, San Francisco,
+CA 94115. Phone: (415) 502-1710. Fax: (415) 502-1712. E-mail:
+address: mccormick@cc.ucsf.edu.
+
+† Present address: Genentech, Inc., 1 DNA Way, South San Fran-
+
+cisco, CA 94080.
+
+䌤 Published ahead of print on 12 February 2010.
+
+that regulate neuroﬁbromin is crucial to advancing the under-
+standing of NF1.
+
+In the yeast Saccharomyces cerevisiae, there are two NF1-like
+genes, IRA1 and IRA2, which encode Ira1 and Ira2 proteins,
+respectively. Ira proteins are negative regulators of Ras1 and
+Ras2 and were ﬁrst identiﬁed as components of the adenylyl
+cyclase-cyclic AMP (cAMP)-protein kinase A (PKA) pathway
+(40). Deletion of Ras1 and Ras2 in yeast cells causes a G0
+arrest due to lack of adenylyl cyclase activity. However, hyper-
+activation of Ras, either by IRA gene deletion or by expression
+of activated RAS alleles, activates the adenylyl cyclase-cAMP-
+PKA pathway. Constitutive Ras activation causes yeast cells to
+die at high temperature. The Ras-induced heat shock sensitiv-
+ity is reversed when the GAP domain of human neuroﬁbromin
+is expressed in the ira-deleted yeast strains (3, 43). In yeast,
+addition of glucose can trigger activation of adenylyl cyclase
+activity via the Gpr1/Gpa2 pathway (10, 11). Recently, re-
+ported studies showed that glucose stimulation increases Ras-
+GTP levels in yeast (11, 34). Similarly, deletion of GPR1 or
+GPA2 causes Ras activation, suggesting that the Gpr1/Gpa2
+pathway might regulate Ras activity (11). Gpr1 binds to the G␣
+subunit Gpa2 and its G␤-like subunits Gpb1/Krh2 and Gpb2/
+Krh1 to control adenylyl cyclase activity (16). Gpb1/Krh2 and
+Gpb2/Krh1 both possess C-terminal Kelch repeat domains but
+have unique N-terminal domains (13, 16). The Kelch repeat
+domain is predicted to have a protein folding similar to that of
+the WD40 repeat domain that is commonly found in GPCR
+G␤ subunits, TAFII transcription factors, and E3 ubiquitin
+ligases (19, 30). A role for Gpb1/Krh2 and Gpb2/Krh1 in the
+positive regulation of Ira proteins has been proposed, but the
+molecular mechanism responsible for this regulation remains
+unknown (15).
+
+To better understand Ira/neuroﬁbromin function, we initi-
+ated an unbiased proteomic puriﬁcation approach to identify
+
+2264
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+
+:
+/
+/
+
+m
+c
+b
+
+.
+
+a
+s
+m
+o
+r
+g
+
+.
+
+/
+ 
+
+o
+n
+
+ 
+J
+u
+n
+e
+
+ 
+
+1
+2
+
+,
+ 
+
+2
+0
+1
+8
+
+ 
+
+b
+y
+ 
+
+g
+u
+e
+s
+t
+
+VOL. 30, 2010
+
+NEGATIVE REGULATIONS OF Ira2 AND NEUROFIBROMIN
+
+2265
+
+Strain
+
+W303 background
+
+VPD1
+VPD2
+VPD1.2
+
+S288c background
+
+IRA2HA
+G1TAP
+IRA2TAP
+VP2.3F
+VP2.3FDG1.7
+VP2.3FDG1.10
+VPG1TP2F
+VPG1TPD2
+VP2TPG1F
+VP2TPD2
+VPCT13F
+VPG1V5
+
+TABLE 1. Yeast strains used in this studya
+
+Genotype
+
+Source or reference
+
+ade2 his3 leu2 trp1 ura3 can1 ira1::LEU2
+ade2 his3 leu2 trp1 ura3 can1 ira2::KanMx
+ade2 his3 leu2 trp1 ura3 can1 ira1::LEU2 ira2::KanMx
+
+his3 leu2 met15 ura3 GPB1-TAP::HIS3
+his3 leu2 met15 ura3 IRA2-TAP::HIS3
+ade2 his3 leu2 trp1 ura3 can1 IRA2-3FLAG::KanMx
+ade2 his3 leu2 trp1 ura3 can1 IRA2-3FLAG::KanMx gpb1-TAP::LEU2
+ade2 his3 leu2 trp1 ura3 can1 IRA2-3FLAG::KanMx gpb1-TAP::LEU2
+his3 leu2 met15 ura3 GPB1-TAP::HIS3 IRA2-3FLAG::KanMx
+his3 leu2 met15 ura3 GPB1-TAP::HIS3 ira2::KanMx
+his3 leu2 met15 ura3 IRA2-TAP:HIS3 GPB1-3FLAG::KanMx
+his3 leu2 met15 ura3 IRA2-TAP:HIS3 ira2::KanMx
+his3 leu2 met15 ura3 CCT1-3FLAG::KanMx
+his3 leu2 met15 ura3 GPB1-V5::HIS3
+
+This study
+This study
+This study
+
+Open Biosystems
+14
+14
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+
+a Yeast strains were derived from W303a, except the IRA2-HA-tagged strain and the TAP-tagged strains, which were purchased from the TAP tag library (Open
+
+Biosystems) (14).
+
+novel Ira/neuroﬁbromin binding proteins. We identiﬁed that
+proteins containing ubiquitin-associated domains can nega-
+tively regulate Ira2 and neuroﬁbromin. In yeast, we found that
+Gpb1/Krh2 negatively regulates and promotes Ira2 degrada-
+tion (we will refer to Gpb1/Krh2 as Gpb1). Similarly, we iden-
+tiﬁed ETEA as a human ubiquitin-associated protein that neg-
+atively regulates neuroﬁbromin levels. RNA interference
+(RNAi) targeting of ETEA expression caused an upregulation
+of neuroﬁbromin, reduced Ras activities, and downregulated
+both the ERK and the AKT pathways. Therefore, these data
+reveal critical conserved ubiquitination pathways that regulate
+the RasGAP proteins Ira2 (in yeast) and neuroﬁbromin (in
+humans).
+
+MATERIALS AND METHODS
+
+Strains and plasmids. All of the yeast strains described in this article are listed
+in Table 1. The double-epitope-tagged strains described in this article were
+generated from the TAP-tagged parental strains, and the second gene was
+epitope tagged using PCR-based FLAG tagging techniques previously described
+(22). All plasmid constructs used in this article were generated by standard PCR
+targeting techniques and cloned into Gateway entry and destination vectors
+(Invitrogen).
+
+Tandem afﬁnity puriﬁcation and mass spectrometry. Yeast cells endogenously
+expressing either IRA2-TAP or GPB1-TAP or 293T cells expressing TAP-NF1
+fragments were used for the tandem afﬁnity puriﬁcation (TAP) experiments. The
+puriﬁcation scheme was adapted from references 14 and 33. Brieﬂy, either yeast
+cell extracts from 6 to 10 litters of cells grown to log phase and expressing
+Ira2-TAP or Gpb1-TAP or lysates from 293T stably expressed NF1-TAP frag-
+ments were incubated at 4°C with 500 ␮l of packed IgG-conjugated glutathione
+resin (Amersham). Resin beads were washed, and protein complexes were then
+eluted from the IgG resin in calmodulin binding buffer supplemented with 50
+units of tobacco etch virus (TEV) protease (Invitrogen). The second round of
+afﬁnity puriﬁcation was performed using 400 ␮l of calmodulin resin (Amersham).
+The protein complexes were then eluted with 2 200-␮l volumes of elution buffer,
+precipitated, and separated by precast PAGE. Separated protein bands were
+excised and digested with trypsin and analyzed for matched protein sequences
+against the protein database. The experimental methods for protein band se-
+quencing analysis were described previously (33).
+
+Immunoprecipitation and immunoblotting. Total cell lysates were prepared in
+cell lysis buffer containing 20 mM Tris-HCl, pH 7.5, 500 mM NaCl, 0.1% NP-40,
+50 mM NaF, 1 mM dithiothreitol (DTT), 1 mM Na3VO4, and a protease inhib-
+itor cocktail (this buffer is hereinafter referred to as “lysis buffer”). After nor-
+malization of protein concentrations, approximately 300 to 500 ␮g of total pro-
+
+tein samples was immunoprecipitated with the indicated antibodies. Sample
+mixtures were rotated at 4°C for 2 h. After three washes with the lysis buffer, the
+proteins bound to beads were released by boiling in 40 ␮l of 1⫻ SDS-PAGE
+sample buffer for 10 min. All the immunoprecipitation experiments performed
+were done with normalized protein concentrations. The samples were then
+resolved by precast PAGE, followed by immunoblotting using the indicated
+antibodies. Densitometry of the resulting bands was done by using Bio-Rad
+Quantity One software (Hercules, CA), and protein amounts were corrected
+based on actin values. The ﬁnal values presented are averages of results from
+three independent densitometry experiments.
+
+In vitro translation. The TNT quick coupled transcription/translation system
+(Promega) was used to detect in vitro protein-protein interactions. All experi-
+ments described were performed according to the manufacturer’s instructions. In
+vitro reactions involving [35S]methionine labeling were terminated by adding 500
+␮l lysis buffer. Antibodies and conjugated beads were added to the radioactive
+protein mixture, and immunoprecipitation was performed. The beads were
+washed four times with 1 ml of lysis buffer. The proteins bound to beads were
+released by boiling in 50 ␮l of 1⫻ SDS-PAGE sample buffer for 10 min. The
+samples were then resolved by precast PAGE, followed by visualization with a
+Storm 860 PhosphorImager (Molecular Dynamics).
+
+In vitro ubiquitination of Ira2 and the neuroﬁbromin GRD. Gpb1-TAP com-
+plexes were puriﬁed as described previously except that the ﬁnal calmodulin
+binding step was omitted from the Gpb1 complex preparation. The reactions
+were carried out at 30°C for 1.5 h in 50 ␮l reaction buffer (40 mM Tris-HCl, pH
+7.5, 2 mM DTT, 5 mM MgCl2) containing 2 or 4 ␮g of ubiquitin (U-100; Boston
+Biochem) or 4 ␮g of mutant ubiquitin (ubiØ), 5 mM ATP, a complex consisting
+of 1.5 ␮g/ml activated E1 and 20 ␮g/ml UbcH5, and a complex consisting of
+puriﬁed Flag-Ira2 and 200 ␮g of TAP-cleaved puriﬁed Gpb1 protein as E3
+sources. The reactions were terminated by adding 500 ␮l lysis buffer. After
+addition of 20 ␮l of M2 Flag agarose-conjugated beads, the samples were rotated
+at 4°C for 2 h. The beads were washed four times with 1 ml of pulldown buffer,
+followed by three washes with 1⫻ phosphate-buffered saline (PBS). The proteins
+bound to Flag beads were released by boiling in 50 ␮l of 1⫻ SDS-PAGE sample
+buffer. The samples were then resolved by precast PAGE, followed by immuno-
+blotting using anti-His or anti-Flag antibodies.
+
+For the ubiquitin assay of the neuroﬁbromin GAP-related domain (GRD), an
+in vitro-[35S]methionine-labeled neuroﬁbromin GRD was immunoprecipitated
+with glutathione-conjugated Sepharose beads and used as substrates. The reactions
+were carried out at 30°C for 1.5 h in 50 ␮l reaction buffer (same as above) con-
+taining 10 ␮g of ubiquitin (U-100; Boston Biochem), 5 mM ATP, a complex
+consisting of 1.5 ␮g/ml activated E1 and 20 ␮g/ml UbcH5, and a complex
+consisting of 100 ␮g of puriﬁed green ﬂuorescent protein (GFP)-glutathione
+S-transferase (GST), ETEA-GFP, or ETEA ⌬UBX protein. The reactions were
+terminated by adding 500 ␮l lysis buffer. Samples were immunoprecipitated at
+4°C for 2 h. The beads were washed four times with 1 ml of lysis buffer and then
+three times with 1⫻ PBS. The [35S]methionine-labeled neuroﬁbromin GRD
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+
+:
+/
+/
+
+m
+c
+b
+
+.
+
+a
+s
+m
+o
+r
+g
+
+.
+
+/
+ 
+
+o
+n
+
+ 
+J
+u
+n
+e
+
+ 
+
+1
+2
+
+,
+ 
+
+2
+0
+1
+8
+
+ 
+
+b
+y
+ 
+
+g
+u
+e
+s
+t
+
+2266
+
+PHAN ET AL.
+
+MOL. CELL. BIOL.
+
+complexes were released by boiling in 50 ␮l of 1⫻ SDS-PAGE sample buffer for
+10 min. The samples were then resolved by NuPAGE, followed by visualization
+with a Storm 860 PhosphorImager.
+
+Cycloheximide chase experiments. To examine the effect of Gpb1 on Ira2
+stability, exponentially growing wild-type (WT) or gpb1⌬ yeast strains were
+treated with cycloheximide at a ﬁnal concentration of 50 mg/ml to inhibit de novo
+protein synthesis. Cells were collected and washed at the time points indicated.
+Total cell extracts were prepared, and the protein concentrations were deter-
+mined. Samples were analyzed by immunoblotting for Ira2 and Gpb1 with anti-
+Flag or anti-TAP antibodies. To examine the effect of ETEA or ETEA UBX⌬ on
+neuroﬁbromin stability, 293T cells were treated with cycloheximide at a ﬁnal
+concentration of 150 ␮g/ml. Samples were terminated at the 0-, 4-, 8-, 12-, and
+15-h time points as indicated. The protein concentrations were normalized, and
+10 ␮g of total protein from each sample was immunoblotted with antineuroﬁ-
+bromin, anti-GFP, anti-V5, and antiactin antibodies. Densitometry of the result-
+ing bands was done by using Bio-Rad Quantity One software (Hercules, CA),
+and protein amounts were corrected based on actin values. The ﬁnal values
+presented are averages of results from three independent densitometry experi-
+ments.
+
+shRNAmir plasmids
+
+shRNA stable cell lines. 293T or BT459 cells were seeded in 6-well dishes 24 h
+prior to transient transfection with 4 ␮g of total short hairpin RNA (shRNA)
+DNA plasmids using 10 ␮l of Lipofectamine reagent (Invitrogen). The three
+human pSM2 retroviral
+targeting ETEA (clones
+V2HS_80576, V2HS_80578, and V2HS_80580) were purchased from Open Bio-
+systems. In order to generate stable cell lines expressing the shRNA plasmids, 48
+to 72 h after transfections, cells were replated in Dulbecco’s modiﬁed Eagle’s
+medium (DMEM) (supplemented with 10% fetal bovine serum [FBS]) plus 1
+␮g/ml puromycin for more than 10 days. Densitometry of the resulting bands was
+done by using Bio-Rad Quantity One software (Hercules, CA), and protein
+amounts were corrected based on actin values. The ﬁnal values presented were
+averages of results from three independent densitometry experiments.
+
+RasGTP detection. Total cellular extracts were prepared and used for immu-
+noprecipitation with the GST-fused Ras binding domain-conjugated glutathione
+resin. The experimental procedures were previously described (33). For yeast
+RasGTP pulldown experiments, membranes were immunoblotted with anti-Ras2
+antibody. For RasGTP pulldown experiments in 293T cells, the panRAS anti-
+body was used to determine RasGTP levels.
+
+RNA extraction and quantiﬁcation. Total RNA was isolated using a RiboPure
+yeast kit from Ambion (catalog no. AM1024). Quantitative reverse transcription-
+PCRs (qRT-PCRs) were run in triplicate using the ABI Prism 7500 sequence
+detector system by using SYBR green qPCR master mix (Applied Biosystems,
+Foster City, CA). The level of each transcript was quantiﬁed by the ⌬⌬CT
+method, and expression of ACT1 was used as an internal control for all of the
+samples. The levels of HSP12, CTT1, and GPB1 expression are indicated as
+n-fold increases relative to the levels for HSP12, CTT1, and GPB1 expression in
+WT cells and cells receiving control plasmids grown under the same conditions.
+The average values for WT cells and cells receiving control plasmids were
+normalized to 1. The experiments were performed and repeated with two sets of
+primers per gene to exclude nonspeciﬁc activity.
+
+Reagents and antibodies. MG132 was from Calbiochem. Anti-Flag M2 (un-
+conjugated) and anti-Flag M2 conjugated beads were from Sigma. Anti-Ydj1
+(sc-23749), anti-NF1 (sc-67), anti-GFP (sc-8334), antihemagglutinin (anti-HA)
+(sc-805), anti-p120GAP, and anti-RAS2 were from Santa Cruz Biotechnology.
+Antiubiquitin antibodies were from Zymed and Abcam. Anti-V5 was from Ab-
+cam. Anti-Ras (panRas) was from BD Biosciences. Antiactin was from Sigma.
+Recombinant ubiquitin proteins were from Boston Biochem.
+
+RESULTS
+
+Analysis of Ira2-TAP fusion protein and puriﬁcation of Ira2
+binding partners. To identify protein complexes that bind to
+Ira2, we utilized a yeast strain with endogenous Ira2 fused at
+the C terminus with the TAP tag. We characterized the IRA2-
+TAP yeast strain to determine whether the TAP-tagged fusion
+protein interfered with Ira2 activity. Western blotting showed
+that the IRA2-TAP yeast strain endogenously expressed the
+Ira2-TAP fusion protein (Fig. 1A). Loss of Ira2 activates Ras
+and results in heat sensitivity (37, 38). Therefore, we examined
+whether loss of the Ira2-TAP protein would result in heat
+shock sensitivity. We generated an ira2 mutant strain (ira2-
+
+TAP⌬) and compared its heat sensitivity to that of the IRA2-
+TAP and wild-type strains. Figure 1B (rows 2 and 4) shows that
+the IRA2-TAP yeast strain has a heat shock phenotype similar
+to that observed in wild-type cells but that the ira2-TAP⌬ yeast
+strain has a heat-sensitive phenotype (row 1). We conclude
+that the IRA2-TAP strain is functional compared to the non-
+fusion IRA2 wild-type strain and that the TAP-tagged fusion
+protein does not impair Ira2 activity.
+
+Next, we performed a tandem afﬁnity puriﬁcation of Ira2-
+TAP protein. Cell extracts from the IRA2-TAP cells were iso-
+lated as described previously (14), and after two rounds of
+afﬁnity puriﬁcation, protein complexes bound to the Ira2-TAP
+protein were separated by gel electrophoresis, digested with
+trypsin, and analyzed by liquid chromatography-tandem mass
+spectrometry (Fig. 1C and Table 2). The data revealed both
+previously known and novel binding partners of Ira2. We
+found both Ira1 and Ira2 in the mass spectrometry analysis as
+well as the chaperone MSI3, which had previously been re-
+ported to bind to Ira2. Rim15, a component of the Ras-cAMP
+pathway, was also bound to Ira2 (36, 39). Proteins involved
+with glycolysis and the production of ATP, including pyruvate
+kinase, phosphoglycerate kinase, the ATP synthase beta sub-
+unit, and ADP/ATP carrier protein 2, were found in the Ira2-
+bound complex. Interestingly, we found that Ira2 binds to
+prohibitin, an evolutionarily conserved protein required for
+Ras-induced c-Raf activation in mammalian cells (31). Fur-
+thermore, Asc1, a yeast homolog of human RACK1 which
+contains WD40 repeats, also binds to Ira2. PKC has been
+shown to regulate neuroﬁbromin and Ras signaling in mam-
+malian systems (24). Interestingly, Asc1 has recently been
+shown to function as a G␤ subunit for Gpa2 (44). Of interest
+is the G␤ mimic Kelch repeat protein 1 (Gpb1), which we
+found to be abundantly bound to Ira2.
+
+Recently, Gpb1 and Gpb2 were identiﬁed as components of
+the Ras signaling pathway in yeast on the basis of their inter-
+action with Ira1 and Ira2. It was reported that deletions of the
+GPB1 and GPB2 genes resulted in Ira protein instability and a
+marked increase in RasGTP levels, and therefore, it was pro-
+posed that Gpb1/2 positively regulate Ira1 and Ira2 activity
+(15). Ras activation is usually associated with high cAMP levels
+in yeast cells (40). However, when using yeast strains deﬁcient
+in both GPB1 and GPB2, another group could not detect any
+increase in cAMP levels (29). Since we found association be-
+tween the Gpb1 and Ira2 proteins in the proteomic analysis, we
+focused exclusively on the relationship between Gpb1 and Ira2.
+We generated yeast strains that endogenously expressed both
+Gpb1-TAP and Ira2-FLAG (IRA2-3FLAG/GPB1-TAP) and
+veriﬁed protein expression by immunoblotting (Fig. 1D). We
+conﬁrmed interactions between Ira2 and Gpb1 by performing
+immunoprecipitation and immunoblotting experiments (Fig.
+1E). Association between Ira2 and Gpb1 was further investi-
+gated by in vitro translation and immunoprecipitation experi-
+ments. GFP-tagged Gpb1 and V5-tagged Ira2 were in vitro
+translated and immunoprecipitated with anti-V5 monoclonal
+antibody. We found that Ira2 efﬁciently interacts with Gpb1 in
+the in vitro translation and binding experiments (Fig. 1F).
+Taken together, the results conﬁrm that Ira2 interacts with
+Gpb1 both in vitro and in vivo.
+
+Gpb1 negatively regulates Ira2. A previous study showed
+that Gpb1 and Gpb2 positively regulate Ira1 and Ira2 (15);
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+
+:
+/
+/
+
+m
+c
+b
+
+.
+
+a
+s
+m
+o
+r
+g
+
+.
+
+/
+ 
+
+o
+n
+
+ 
+J
+u
+n
+e
+
+ 
+
+1
+2
+
+,
+ 
+
+2
+0
+1
+8
+
+ 
+
+b
+y
+ 
+
+g
+u
+e
+s
+t
+
+VOL. 30, 2010
+
+NEGATIVE REGULATIONS OF Ira2 AND NEUROFIBROMIN
+
+2267
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+
+:
+/
+/
+
+m
+c
+b
+
+.
+
+a
+s
+m
+o
+r
+g
+
+.
+
+/
+ 
+
+o
+n
+
+ 
+J
+u
+n
+e
+
+ 
+
+1
+2
+
+,
+ 
+
+2
+0
+1
+8
+
+ 
+
+b
+y
+ 
+
+g
+u
+e
+s
+t
+
+FIG. 1. Characterization of the IRA2-TAP yeast strain and identiﬁcation of the Kelch repeat protein Gpb1 as a negative regulator of Ira2.
+(A) Soluble extracts from cells expressing the indicated Ira2-HA or Ira2-TAP fusion proteins (replicate samples) were mixed with SDS-PAGE
+sample buffer and resolved by NuPAGE (Invitrogen) and immunoblotted for the TAP fusion protein. An asterisk represents the different isoforms
+of the Ira2-TAP protein with the predicted molecular masses. (B) Heat shock experiments were performed on yeast strains as indicated. Cells were
+grown in a 30°C chamber for 3 days, replica plated, and either unexposed or exposed to a 55°C heat chamber. Photographs were taken 3 days after
+heat exposure. The Ira2-TAP fusion protein is expressed under its endogenous promoter in a strain with IRA2 deleted by genetic homologous
+recombination (row 1), a wild-type strain expressing the Ira2-TAP fusion protein (row 2), a wild-type strain expressing the Ira2-HA fusion protein
+(row 3), and a wild-type strain that is not tagged (row 4) (strains VP2TPD2, IRA2TAP, IRA2HA, and S288c, respectively). (C) Ira2-TAP fusion
+protein was copuriﬁed from the IRA2TAP yeast strain, and protein complexes were resolved by gel electrophoresis and identiﬁed by mass
+spectrometry (Table 2). The control sample was from a wild-type yeast strain that was not tagged. (D) Yeast strains doubly expressed endogenous
+Ira2-Flag and Gpb1-TAP fusion proteins. Western blots showed either the control yeast strain expressing Cct1-Flag or two different strains
+expressing Gpb1-TAP/Ira2-Flag. The GPB1-TAP yeast strain was used to create the double-epitope-tagged GPB1-TAP/IRA2-3FLAG yeast strains
+49 and 50 (strains VPG1TP2F, 49, and 50). The CCT1-3FLAG yeast strain was used as a control (VPCT13F). Genetic integration experiments were
+performed using plasmids from a previously described publication (22). (E) Endogenous Gpb1 and Ira2 interaction. Yeast cells (strain VPG1TP2F)
+expressing Gpb1-TAP and Ira2-Flag fusion proteins were immunoprecipitated (IP), followed by Western blotting (WB) with anti-TAP (␣-TAP)
+and anti-Flag antibodies as indicated. (F) Ira2 and Gpb1 interaction in vitro. Ira2-V5 and Gpb1-GFP were translated in vitro, subjected to
+immunoprecipitation (IP) with anti-V5 antibody, and visualized with a Storm 860 PhosphorImager.
+
+however, in our experimental system, we found that deletion of
+GPB1-TAP in the IRA2-3FLAG/GPB1-TAP yeast strain re-
+sulted in a 3-fold increase in Ira2 compared to the level for the
+wild-type strain (Fig. 2A). Since our results were contrary to
+
+previously reported data (15), we repeated our genetic dele-
+tions of the GPB1-TAP open reading frame (ORF) and ob-
+tained two independent yeast strains that have deletions in the
+GPB1 allele. Again, we found that gpb1⌬ mutants possessed
+
+2268
+
+PHAN ET AL.
+
+MOL. CELL. BIOL.
+
+TABLE 2. Report for mass spectrometry data for Ira2 protein
+
+binding complexes
+
+S. cerevisiae protein identiﬁeda
+
+% Sequence
+
+coverage
+
+Heat shock protein YG100.............................................................48
+Phosphoglyerate kinase ...................................................................36
+RIM15 ...............................................................................................36
+Inhibitor regulatory protein IRA2.................................................32
+GPB1 .................................................................................................28
+Pyruvate kinase 1 .............................................................................28
+Mannose-1-phosphate guanyltransferase ......................................25
+Prion protein RNQ1........................................................................23
+Prohibitin ..........................................................................................21
+Enolase..............................................................................................20
+RACK1..............................................................................................19
+Fructose-bisphosphate aldolase......................................................18
+ATP synthase beta chain.................................................................17
+ADP, ATP carrier protein 2...........................................................16
+Chaperone protein MSI3 ................................................................14
+GRP78...............................................................................................13
+Glycyl-tRNA synthetase ..................................................................12
+V-ATPase A subunit .......................................................................10
+URA1 ................................................................................................ 9
+Inhibitor regulatory protein IRA1................................................. 8
+
+a Proteins were identiﬁed from two independent mass spectrometry experi-
+ments using the Ira2-TAP fusion protein to pull down the protein complexes.
+
+higher Ira2 protein levels than wild-type cells (Fig. 2A, lanes
+marked 7 and 10). To test whether the GPB1-TAP strain might
+contain suppressor genes or the Gpb1-TAP fusion protein that
+could directly modulate Ira2 level and activity in the wild-type
+strain (GPB1-TAP) might not be functional, we performed
+qRT-PCR to detect the transcriptional activities of two stress
+genes (CTT1 and HSP12) that had been described to be the
+direct targets of Ras activation (4, 29). We found that the
+transcription activities of CTT1 and HSP12 in a nontagged WT
+strain and the GPB1-TAP strain are comparable, suggesting
+that the GPB1-TAP strain behaves like a wild-type strain.
+Importantly, we found that the CTT1 and HSP12 transcrip-
+tional levels in the Ira2-deleted strain (GPB1-TAP ⌬ira2) are
+greatly reduced (Fig. 2B). Therefore, we concluded that the
+Gpb1-TAP fusion protein is functional and that the GPB1-
+TAP strain does not contain suppressor genes that regulate
+Ira2 stability. To further investigate the biological activity of
+Gpb1 in the Ira2/Ras signaling pathway, we cloned GPB1 un-
+der the GAL1 promoter. We reasoned that if Gpb1 is a neg-
+ative regulator of Ira2 then overexpression of Gpb1 would
+downregulate Ira2 and activate Ras. The pGAL1-GPB1-V5
+construct was expressed in the IRA2-3FLAG/gpb1⌬ strain. Af-
+ter 3 h ofgalactose induction, we found that overexpression of
+Gpb1-V5 extensively reduced Ira2 protein levels. Furthermore,
+overexpression of Gpb1-V5 resulted in an increase in RasGTP
+levels (Fig. 2C).
+
+To further examine Gpb1 activity in vivo, we constructed
+mutant yeast strains in which IRA1, IRA2 , orIRA1/IRA2 is
+deleted. We overexpressed Gpb1 in these mutant strains and
+examined their sensitivity to high temperature. We found that
+expression of GPB1-V5 increased heat sensitivity in the ira1⌬/
+IRA2 yeast strain compared to the level for a control plasmid
+(Fig. 2D, ⴱ). We could not determine the level of heat sensi-
+tivity in the ira2⌬/IRA1 mutant strain in the presence of Gpb1,
+because of the higher degree of heat shock sensitivity in this
+
+strain than in the ira1⌬/IRA2 strain in the same experiment
+(Fig. 2D). One concern is whether the V5 peptide fused to
+Gpb1 (pGAL-GPB1-V5) could interfere with the Gpb1 Kelch
+domain and acts as dominant negative, thereby causing the
+phenotypes that we observed. Therefore, we cloned the GPB1
+open reading frame, including the stop codon encoding amino
+acid (aa) 897 of Gpb1, into the pGAL plasmid, thereby pre-
+venting the V5 protein fragment from fusing into Gpb1. When
+the nontagged pGAL-GPB1 plasmid is overexpressed in a wild-
+type yeast strain, we observed a heat shock sensitivity pheno-
+type similar to that observed for a control plasmid (Fig. 2E).
+This result is consistent with the heat shock phenotype that we
+obtained when expressing the pGAL-GPB1-V5 plasmid (Fig.
+2D and 3B). Furthermore, overexpression of the nontagged
+GPB1 construct greatly repressed CTT1 and HSP12 transcrip-
+tion activities, indicative of Ras activation (Fig. 2F). To further
+demonstrate that the Gpb1-V5 or Gpb1-TAP fusion proteins
+functioned normally and that the C-terminally tagged fusion
+proteins did not interfere with Gpb1 functions, we performed
+genetic complementary experiments in the IRA2-3FLAG/
+gpb1⌬ yeast strain to determine whether the GPB1-V5 and
+GPB1-TAP constructs could restore Ira2 protein levels similar
+to that of the nontagged GPB1 wild-type construct. Figure 2G
+shows that expression of either wild-type GPB1, GPB1-V5 , or
+GPB1-TAP under the GPB1 endogenous promoter fully re-
+stored Ira2 protein levels in the mutant IRA2-3FLAG/gpb1⌬
+yeast strain. Given these results, we believe that C-terminal
+tagged V5 or TAP fusion proteins do not interfere with normal
+Gpb1 functions and that the pGAL-GPB1-V5 construct is func-
+tionally similar to the wild-type construct.
+
+To further address the idea that overexpression of Gpb1
+could induce heat shock sensitivity and activate Ras signaling
+in yeast, we generated a mutant construct that lacks the N-
+terminal domain, Gpb1 N⌬. We found that overexpression of
+Gpb1 N⌬ failed to induce the heat shock phenotype usually
+associated with Ras activation (Fig. 3B). Further, overexpres-
+sion of Gpb1 N⌬ caused an increase in HSP12 transcriptional
+activity compared to the level for a control plasmid, suggesting
+that deletion of the Gpb1 N-terminal domain hinders Gpb1
+activity (Fig. 3C). Taken together, our results demonstrate that
+Gpb1 is a negative regulator of Ira2.
+
+Gpb1 and Gpb2 have opposite functions. Previous reports
+suggested that Gpb1 and Gpb2 positively regulate Ira proteins
+in yeast (15, 16). However, we observed that Gpb1 negatively
+regulates endogenous Ira2 protein levels when overexpressed
+in cells (Fig. 2C) and that Ira2 is upregulated in gpb1⌬ cells
+(Fig. 2A). Gpb1 and Gpb2 possess similar Kelch repeat do-
+mains at their C termini (35% homology) but contain unique
+N-terminal domains. To determine whether Gpb2 possesses
+functions similar to those of Gpb1 in regulating Ira2 activity,
+we overexpressed pGAL1-GPB1-V5 and pGAL1-GPB2-V5 in
+the IRA2-3FLAG/gpb⌬ yeast strain (VP2.3FDG1) and per-
+formed immunoblotting experiments to determine the Ira2
+protein levels. We found that Gpb2 overexpression modestly
+increases Ira2 levels but that overexpression of Gpb1 down-
+regulates Ira2 (Fig. 4A). To further investigate the differences
+between Gpb1 and Gpb2 in vivo, we overexpressed a control,
+pGAL1-GPB1-V5 , or pGAL1-GPB2-V5 plasmid in the wild-
+type, ira2⌬/IRA1, ira1⌬/IRA2 , orira1⌬ ira2⌬ strain (W303,
+VPD1, VPD2, or VPD1.2, respectively) and assessed the heat
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+
+:
+/
+/
+
+m
+c
+b
+
+.
+
+a
+s
+m
+o
+r
+g
+
+.
+
+/
+ 
+
+o
+n
+
+ 
+J
+u
+n
+e
+
+ 
+
+1
+2
+
+,
+ 
+
+2
+0
+1
+8
+
+ 
+
+b
+y
+ 
+
+g
+u
+e
+s
+t
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+
+:
+/
+/
+
+m
+c
+b
+
+.
+
+a
+s
+m
+o
+r
+g
+
+.
+
+/
+ 
+
+o
+n
+
+ 
+J
+u
+n
+e
+
+ 
+
+1
+2
+
+,
+ 
+
+2
+0
+1
+8
+
+ 
+
+b
+y
+ 
+
+g
+u
+e
+s
+t
+
+FIG. 2. Gpb1 negatively regulates Ira2 in yeast. (A) Gpb1 deletion increases Ira2 levels. Lysates from either wild-type (WT) or gpb1⌬ (lanes
+marked 7 and 10) cells were normalized and subjected to Western blotting with anti-Flag or anti-TAP antibodies (S288c, VP2.3FDG1.7, or
+VP2.3FDG1.10, respectively). The membrane was blotted with anti-Ras2 antibody to control for equal protein loading. Ira2 protein levels were
+quantiﬁed from three independent experiments with either the wild-type (WT) strain or gpb1⌬ mutants and are expressed as means ⫾ standard
+errors of the means. (B) Gpb1-TAP fusion protein is functionally normal and does not activate Ras-targeted genes. The expression levels of CTT1,
+HSP12, GPB1, and ACT1 (as an internal standard) were measured by quantitative RT-PCR. The wild-type parental strain S288c (ATCC 201388;
+MATa his2⌬1 leu2⌬0 met15⌬ ura3⌬0) or theGPB1-TAP or GPB1-TAP ira2⌬ (VPG1TPD2) strain was grown, and RNA was extracted as described
+in Materials and Methods. (C) Gpb1 overexpression decreases Ira2 stability and activates Ras signaling. The pGAL-GPB1-V5 plasmid was
+transformed into the IRA2-3FLAG/gpb1⌬ yeast cells (VP2.3FDG1.7) endogenously expressing Ira2-Flag. Cells were induced with galactose for 3 h
+and subjected to immunoblotting with anti-Flag and anti-V5 antibodies to determine protein levels. The lower panel shows Ras2GTP levels in cells
+overexpressing Gpb1-V5. Pulled-down RasGTP samples from total lysates were subjected to immunoblotting with anti-Ras2 antibody. Total Ras2
+levels were subjected to Western blotting for comparison. Ras2GTP levels in wild-type (WT) cells and wild-type cells with Gpb1 overexpression
+(WT⫹Gpb1) were quantiﬁed from three independent experiments and are expressed as means ⫾ standard errors of the means. (D) Overexpres-
+sion of Gpb1-V5 in the ira1⌬/IRA2 mutant yeast strain causes heat sensitivity. Galactose induced expression of Gpb1 in either ira2⌬/IRA1,
+ira1⌬/IRA2, ira1⌬/ira2⌬, or wild-type yeast cells (VPD1, VPD2, VPD1.2, or W303, respectively). To assay for heat shock sensitivity, cells were
+replica plated onto GAL-Ura3 plates and exposed to a high-temperature chamber (55°C) for 60 min or unexposed to a heat chamber (30°C). Plates
+were then cooled at room temperature for 30 min and incubated at 30°C for 3 to 7 days before pictures were taken. (E, F) Overexpression of
+full-length nontagged GPB1 in the W303 wild-type strain causes heat sensitivity and suppresses Ras-targeted genes. Galactose-induced expression
+of Gpb1 causes heat sensitivity in WT cells compared to the level for cells that received an empty plasmid. The ira1⌬/ira2⌬ mutant strain (VPD1.2)
+is included as a control. To assay for heat shock sensitivity, cells were replica plated onto GAL-Ura3 plates and exposed to a high-temperature
+chamber (55°C) for 60 min or unexposed to a heat chamber (30°C). Plates were then cooled at room temperature for 30 min and incubated at 30°C
+for 3 to 7 days before pictures were taken. For quantitative qRT-PCR, W303 wild-type (WT) cells that had received nontagged GPB1 or control
+plasmids were grown overnight and galactose induced for 3 h todetermine the expression of CTT1, HSP12, GPB1, and ACT1 (as an internal
+standard). (G) Expression of Gpb1, Gpb1-V5, or Gpb1-TAP under the GPB1 endogenous promoter in the IRA2-3FLAG/gpb1⌬ yeast strain
+restored Ira2 protein levels (strain VP2.3FDG1). The IRA2-3FLAG/gpb1⌬ was transformed with a control plasmid or plasmids expressing
+endogenous GPB1, GPB1-V5 , orGPB1-TAP. The three constructs were expressed under the control of the endogenous GPB1 promoter. Total cell
+lysates with equal protein concentrations were subjected to immunoblotting (WB) with anti-Flag, anti-TAP, or anti-V5 antibodies. The membrane
+was blotted using anti-Ydj1 antibodies to control for equal protein loading.
+
+2269
+
+2270
+
+PHAN ET AL.
+
+MOL. CELL. BIOL.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+
+:
+/
+/
+
+m
+c
+b
+
+.
+
+a
+s
+m
+o
+r
+g
+
+.
+
+/
+ 
+
+o
+n
+
+ 
+J
+u
+n
+e
+
+ 
+
+1
+2
+
+,
+ 
+
+2
+0
+1
+8
+
+ 
+
+b
+y
+ 
+
+g
+u
+e
+s
+t
+
+FIG. 4. Gpb1 and Gpb2 have opposite functions. (A) Overexpres-
+sion of Gpb2 positively regulates Ira2 activity. pGAL-Gpb2-V5 (2nd
+lane) or pGAL-Gpb1-V5 (4th lane) was overexpressed in the IRA2-
+FLAG yeast strain, and cell lysates were subjected to immunoblotting
+(WB) with anti-Flag or anti-V5 antibodies to detect Ira2, Gpb2, or
+Gpb1 protein levels. The membrane was blotted using anti-Ydj1 anti-
+bodies to control for equal protein loading. (B) Overexpression of
+Gpb2-V5 in the ira2⌬ IRA1 mutant yeast strain causes heat shock
+resistance. The heat shock sensitivities of the indicated yeast strains,
+expressing galactose-inducible GPB1 or GPB2 and a control plasmid,
+were compared. Controls cells were either from the ira1⌬ ira2⌬ double
+mutant or from wild-type cells. To assay for heat shock sensitivity, cells
+were replica plated onto GAL-Ura3 plates and exposed to a high-
+temperature chamber (55°C) for 60 min or unexposed to a heat cham-
+ber (30°C). Plates were then cooled at room temperature for 30 min
+and incubated at 30°C for 3 to 7 days before pictures were taken.
+
+functions and that Gpb1 is a negative regulator of Ira2. Since
+we identiﬁed Gpb1 complexes with Ira2 in our proteomic anal-
+ysis, we further characterize Gpb1 functions in association with
+Ira2.
+
+Gpb1 controls Ira2 stability during glucose stimulation. In
+yeast, glucose stimulation activates the G-protein-coupled re-
+ceptor Gpr1, which induces adenylyl cyclase activity (11). Glu-
+cose-induced activation of Gpr1 stimulates pathways that are
+critical for cell metabolism and growth (21). Glucose can also
+induce RasGTP loading in yeast (11, 34). Since Ira2 negatively
+regulates Ras activity, we hypothesized that in the event of
+rapid Ras activation induced by stimulation by a nutrient such
+as glucose, Ira2 protein levels would be tightly regulated. As
+demonstrated by Cichowski and coworkers, neuroﬁbromin is
+rapidly degraded upon growth factor stimulation via the ubiq-
+uitin-proteasome pathway in mammalian cells (7).
+
+We therefore investigated whether Ira2 is downregulated by
+glucose stimulation. We treated IRA2-3FLAG/GPB1-TAP cells
+with 5% glucose, and Ira2 levels were assessed by immunoblot
+analysis. Glucose stimulation triggered Ira2 downregulation
+within 10 minutes, and a further decrease was observed at 15
+min. Interestingly, glucose-induced downregulation of Ira2 was
+
+FIG. 3. Expression of Gpb1-V5 fusion protein activates Ras-tar-
+geted genes and induces heat sensitivity in yeast. (A) Diagrams show
+full-length Gpb1 and N-terminally truncated Gpb1. Protein levels of
+Gpb1-V5 WT and Gpb1 N⌬-V5 were determined by immunoblotting
+with anti-V5 antibody. (B) Galactose-induced expression of pGAL-
+GPB1-V5 results in heat sensitivity in W303 wild-type yeast cells com-
+pared to the level for cells that received an empty control or pGAL-
+GPB1 N⌬-V5 plasmid. To assay for heat shock sensitivity, cells were
+replica plated onto GAL-Ura3 plates and exposed to a high-temper-
+ature chamber (55°C) for 60 min or unexposed to a heat chamber
+(30°C). Plates were then cooled at room temperature for 30 min and
+incubated at 30°C for 3 to 7 days before pictures were taken. (C) Tran-
+scription activity of HSP12 in the W303 wild-type yeast strain ex-
+pressed pGAL-GPB1-V5 and pGAL-Gpb1 N⌬. The transcription ac-
+tivity of HSP12 and ACT1 (as an internal standard) were measured by
+quantitative RT-PCR. Cells were grown and galactose induced for 3 h
+before RNA extraction for quantitative RT-PCR analysis.
+
+sensitivity of these. As expected, we found that overexpression
+of Gpb1 increases heat sensitivity but that overexpression of
+Gpb2 causes heat resistance in ira2⌬/IRA1 cells (Fig. 4B). This
+ﬁnding suggests that Gpb1 and Gpb2 might have opposite
+
+VOL. 30, 2010
+
+NEGATIVE REGULATIONS OF Ira2 AND NEUROFIBROMIN
+
+2271
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+
+:
+/
+/
+
+m
+c
+b
+
+.
+
+a
+s
+m
+o
+r
+g
+
+.
+
+/
+ 
+
+o
+n
+
+ 
+J
+u
+n
+e
+
+ 
+
+1
+2
+
+,
+ 
+
+2
+0
+1
+8
+
+ 
+
+b
+y
+ 
+
+g
+u
+e
+s
+t
+
+FIG. 5. Gpb1 targets Ira2 for proteasomal degradation in response to glucose. (A) Ira2 is downregulated in response to glucose stimulation.
+IRA2-3FLAG/GPB1-TAP cells (strain VPG1TP2F) were grown to log phase in rich medium overnight and switched to glucose-free medium for
+4 to 6 h before 5% glucose stimulation. Ira2 and Gpb1 protein levels were detected by immunoblotting using anti-Flag and anti-TAP antibodies.
+The membrane was blotted with anti-Ydj1 antibody to control for equal protein loading. (B) Ubiquitination of endogenous Ira2-Flag in vivo.
+IRA2-3FLAG/GPB1-TAP cells (strain VPG1TP2F) were either untreated (dimethyl sulfoxide [DMSO]) or treated with the proteasome inhibitor
+MG132 (10 ␮M). Cell lysates were immunoprecipitated with an anti-Flag antibody and immunoblotted (WB) with either antiubiquitin or anti-Flag
+antibodies. (C) Cycloheximide chase assay of Ira2 in wild-type (WT) and gpb1⌬ (VPG1TP2F and VP2.3FDG1.7, respectively) yeast strains. Ira2
+and Gpb1 protein levels were detected by immunoblotting using anti-Flag and anti-TAP antibodies. The membrane was immunoblotted with
+anti-Ras2 antibody to control for equal protein loading. Protein levels of Ira2 were quantiﬁed and are shown for the indicated time points.
+
+accompanied by a gradual elevation of Gpb1 protein levels
+(Fig. 5A).
+
+Because glucose stimulation or overexpression of Gpb1
+downregulated endogenous Ira2, we hypothesized that Gpb1
+might be responsible for Ira2 stability and that Ira2 might be
+ubiquitin modiﬁed and degraded to permit rapid Ras activa-
+tion. To investigate whether Ira2 is a target of the ubiquitina-
+tion machinery, we treated IRA2-3FLAG/GPB1-TAP cells
+with the proteasome inhibitor MG132, immunoprecipitated
+Ira2, and immunoblotted with an antiubiquitin antibody. We
+detected Ira2 ubiquitination after 4 h of MG132 treatment
+(Fig. 5B).
+
+To test the role of Gpb1 in Ira2 stability, we examined the
+degradation rate of Ira2 levels in wild-type and gpb1⌬ mutant
+
+cells. Endogenous Ira2 was rapidly downregulated in cyclohex-
+imide-treated wild-type cells, while Ira2 was stabilized in gpb1⌬
+mutant cells (Fig. 5C). These results suggest that glucose stim-
+ulation induced downregulation of Ira2, possibly by triggering
+Gpb1-mediated Ira2 ubiquitination and degradation, and con-
+ﬁrmed our hypothesis that Gpb1 controls Ira2 stability.
+
+Gpb1 is required for Ira2 ubiquitination and degradation.
+Gpb1 has a unique N-terminal domain (amino acids 1 to 220)
+that is not conserved in Gpb2 (16) and a seven ␤-propeller
+Kelch repeat domain at its C terminus (amino acids 292 to
+816). Previous reports suggest that proteins containing the
+ubiquitin-like (UBL) and UBA domains can bind to and de-
+liver ubiquitinated proteins to the proteasome for protein deg-
+radation. In addition, the Kelch repeat domain has a structure
+
+2272
+
+PHAN ET AL.
+
+MOL. CELL. BIOL.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+
+:
+/
+/
+
+m
+c
+b
+
+.
+
+a
+s
+m
+o
+r
+g
+
+.
+
+/
+ 
+
+o
+n
+
+ 
+J
+u
+n
+e
+
+ 
+
+1
+2
+
+,
+ 
+
+2
+0
+1
+8
+
+ 
+
+b
+y
+ 
+
+g
+u
+e
+s
+t
+
+FIG. 6. Full-length Gpb1 targets Ira2 for protein degradation. (A) Diagrams showed the different Gpb1 fragments that were constructed to
+determine binding to Ira2. Expression levels of full-length Gpb1 and truncated Gpb1 fragments binding to Ira2 are shown. All of the constructed
+full-length (WT) and truncated Gpb1 fragments were expressed in the IRA2-3FLAG/gpb1⌬ yeast strain (VP2.3FDG1) and galactose induced for
+3 h to determine Gpb1 expressions and interactions with Ira2. In particular, the Gpb1 Kelch⌬ fragment is expressed, as seen in row 4, compared
+to the level for cells receiving control plasmid (CT). Lysates were collected and immunoblotted with anti-V5 antibody or were subjected to
+immunoprecipitation (IP) with anti-Flag and immunoblotted (WB) with anti-Flag and anti-V5 antibodies. (B) Gpb1 targets Ira2 for ubiquitination.
+Overexpression of the Gpb1-V5 wild-type (left), Kelch⌬ (middle), or N⌬ (right) protein was induced in the IRA2-3FLAG/gpb1⌬ yeast strain
+(VP2.3FDG1.7) by treating cells with galactose at the indicated time points (0 to 3 h). Lysates were collected, subjected to immunoprecipitation
+(IP) with anti-Flag antibody, and immunoblotted (WB) with antiubiquitin, anti-Flag, and anti-V5 antibodies. (C) In vitro ubiquitination of Ira2.
+The Ira2-Flag and Gpb1-TAP complexes were puriﬁed from the IRA2-3FLAG/gpb1⌬ (VP2.3FDG1.7) and GPB1-TAP/ira2⌬ (VPG1TPD2F) yeast
+strains, respectively, and subjected to an in vitro ubiquitination assay. Gpb1 ubiquitination activity was observed in reaction mixtures containing
+recombinant wild-type His-ubiquitin (His-Ubi) but not in those without the Gpb1 complex, those that received His-ubiquitin with all the lysine
+amino acids mutated (KØ), or those without E1 and E2. Reaction mixtures were incubated for 1 h, immunoprecipitated (IP) with anti-Flag
+antibody, and immunoblotted (WB) with anti-His or anti-Flag antibodies.
+
+VOL. 30, 2010
+
+NEGATIVE REGULATIONS OF Ira2 AND NEUROFIBROMIN
+
+2273
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+
+:
+/
+/
+
+m
+c
+b
+
+.
+
+a
+s
+m
+o
+r
+g
+
+.
+
+/
+ 
+
+o
+n
+
+ 
+J
+u
+n
+e
+
+ 
+
+1
+2
+
+,
+ 
+
+2
+0
+1
+8
+
+ 
+
+b
+y
+ 
+
+g
+u
+e
+s
+t
+
+FIG. 7. Identiﬁcation of ETEA as a UBA-UBX protein that binds to neuroﬁbromin. (A) N-terminal domain alignment of Gpb1 and ETEA.
+Sequence alignment of the N termini of ETEA and Gpb1, where amino acids shown in red boxes are identical and amino acids shown in blue boxes
+are similar. The sequence alignment was performed by utilizing the software available at http://www.ebi.ac.uk/ (EMBOSS Align). (B) ETEA binds
+to endogenous neuroﬁbromin. Flag-GFP or Flag-ETEA was expressed in 293T cells, and equal protein concentrations were subjected to
+immunoprecipitation (IP) followed by immunoblotting (WB) with anti-Flag and antineuroﬁbromin antibodies. Total lysates were immunoblotted
+for neuroﬁbromin and p120GAP for control loadings. (C) Direct interactions of neuroﬁbromin with ETEA were determined by immunoprecipi-
+tation (IP) with endogenous neuroﬁbromin and immunoblot analysis (WB) with anti-Flag antibody. Neuroﬁbromin interacts with Flag-ETEA but
+not Flag-GFP. (D, E) Neuroﬁbromin domains bind to ETEA. Flag-tagged NF1 fragments (D) and TAP-tagged ETEA were coexpressed in 293T
+cells. Total lysates were immunoprecipitated (IP) with anti-TAP antibody and immunoblotted (WB) with anti-Flag or anti-TAP antibodies as
+indicated to the right. IgG is shown in the lower panel as a loading control. (F) Expression of Flag-tagged neuroﬁbromin fragments. Total lysates
+were immunoprecipitated (IP) with anti-Flag antibody and immunoblotted (WB) with anti-Flag antibody as indicated on the right.
+
+2274
+
+PHAN ET AL.
+
+MOL. CELL. BIOL.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+
+:
+/
+/
+
+m
+c
+b
+
+.
+
+a
+s
+m
+o
+r
+g
+
+.
+
+/
+ 
+
+o
+n
+
+ 
+J
+u
+n
+e
+
+ 
+
+1
+2
+
+,
+ 
+
+2
+0
+1
+8
+
+ 
+
+b
+y
+ 
+
+g
+u
+e
+s
+t
+
+VOL. 30, 2010
+
+NEGATIVE REGULATIONS OF Ira2 AND NEUROFIBROMIN
+
+2275
+
+similar to that of the WD40 repeat domain, which is involved
+in substrate recognition for ubiquitin ligase complexes (17, 41).
+A recent ﬁnding also showed that the Kelch protein KLHL12
+binds to the Cullin-3 ubiquitin ligase to negatively regulate the
+Wnt–␤-catenin pathway (1). We generated galactose-inducible
+plasmids encoding full-length (WT), Kelch-deleted (Kelch⌬),
+C-terminal domain-deleted (C⌬), and N-terminal domain-de-
+leted (N⌬) Gpb1 and expressed these plasmids in the IRA2-
+3FLAG/gpb1⌬ yeast strain. We conﬁrmed that the Gpb1 full-
+length and truncated forms are expressed and interacted with
+Ira2 by performing immunoblotting and immunoprecipitation
+experiments (Fig. 6A). To examine the role of Gpb1 in the
+ubiquitination of Ira2 in vivo, we overexpressed Gpb1 WT,
+Gpb1 Kelch⌬, and Gpb1 N⌬ in the IRA2-3FLAG/gpb1⌬ yeast
+strain at different time points after galactose induction and
+collected cell lysates for immunoprecipitation and immuno-
+blotting assays. Figure 6B shows that galactose-induced expres-
+sion of full-length Gpb1 in the IRA2-3FLAG/gpb1⌬ yeast strain
+caused an increase in Ira2 ubiquitination in a Gpb1 dose-
+dependent manner (Fig. 6B, WT). Surprisingly, neither the
+Gpb1 Kelch⌬ nor the Gpb1 N⌬ fragment promoted Ira2 ubiq-
+uitination (Fig. 6B, Kelch⌬ or N⌬), even though the wild-type,
+Gpb1 Kelch⌬, and Gpb1 N⌬ fragments efﬁciently bind to Ira2.
+These results suggest that the Kelch and the N domains of
+Gpb1 are required for Ira2 ubiquitination.
+
+To determine whether Gpb1 can efﬁciently conjugate ubiq-
+uitin to Ira2 in vitro, we puriﬁed Ira2-Flag and Gpb1-TAP
+fusion protein complexes from the IRA2-3FLAG/gpb1⌬ and
+ira2⌬/GPB1-TAP mutant strains, respectively, and performed
+in vitro ubiquitin conjugation experiments. We used extensively
+washed, immunopuriﬁed Ira2-Flag as the substrate and puri-
+ﬁed, TEV-cleaved Gpb1 as the ubiquitin-conjugating enzyme
+complex. After incubation with either recombinant His-ubiq-
+uitin or a recombinant His-ubiquitin mutant (KØ) that has all
+the lysine residues mutated, Ira2-Flag was immunoprecipitated
+and immunoblotted with an anti-His antibody to detect Ira2-
+conjugated His-ubiquitin chains. We found that puriﬁed Gpb1
+complex can readily promote Ira2 polyubiquitination in vitro
+(Fig. 6C). Given these results, we conclude that the Gpb1
+complex ubiquitinates Ira2 in vivo and in vitro.
+
+ETEA binds and negatively regulates neuroﬁbromin. Neu-
+roﬁbromin can be targeted for proteasome-mediated degrada-
+tion upon growth factor stimulation (7). We show here that
+Ira2, the yeast homolog of neuroﬁbromin, is targeted for ubiq-
+uitination and proteasomal degradation by Gpb1. Therefore,
+we hypothesize that there is a functional equivalent to Gpb1 in
+
+human cells that is responsible for neuroﬁbromin ubiquitina-
+tion and degradation. To identify the human homologue of
+Gpb1, we cloned neuroﬁbromin into eight different fragments
+(Fig. 7D). With the exception of the GRD and SEC domains,
+all the fragments were randomly designed and cloned. We
+chose the GRD (fragment 4) and the SEC (fragment 5) do-
+mains to perform the pulldown experiments to identify what
+proteins interact with these two fragments (6, 12, 42). We then
+analyzed the pulldown candidates by use of mass spectrometry.
+Of the neuroﬁbromin binding partners in our analysis, we
+found ETEA (UBXD8), which contains a UBA domain at its
+N terminus and a UBX domain at its C terminus.
+
+ETEA was ﬁrst cloned from CD3-positive blood cells of
+patients with atopic dermatitis, an inﬂammatory skin condition
+characterized by an elevation of eosinophils due to an inap-
+propriate immune response (18). We compared amino acid
+sequences between ETEA and Gpb1 and found that ETEA
+and Gpb1 shared some similar amino acid sequences at the
+N-terminal domains (aa 1 through 31); however, ETEA does
+not contain a Kelch repeat domain that is present in Gpb1
+(Fig. 7A).
+
+To investigate whether ETEA can directly bind to neuroﬁ-
+bromin, we expressed Flag-tagged ETEA in 293T cells and
+performed immunoprecipitation and immunoblotting experi-
+ments. We found that ETEA directly binds to endogenous
+neuroﬁbromin (Fig. 7B and C). To determine which domain of
+neuroﬁbromin interacts with ETEA, we cotransfected Flag-
+tagged neuroﬁbromin fragments (fragments 1 through 8) and
+TAP-ETEA in 293T cells and performed immunoprecipitation
+assays. Figure 7F shows the protein expression levels of the
+different neuroﬁbromin Flag-tagged fragments. We found that
+ETEA directly interacts with three neuroﬁbromin fragments
+spanning amino acids 372 to 1552. The strongest interaction
+was with fragment 4 (amino acids 1176 to 1552), which con-
+tains the GAP-related domain. Although fragment 4 is highly
+expressed, it seems that fragments 2, 3, and 4 speciﬁcally bind
+to neuroﬁbromin (Fig. 7E). We also noticed that some of the
+fragments were not expressed well when transfected into 239T
+cells (Fig. 7F). This ﬁnding is consistent with the previous
+observations in which neuroﬁbromin fragments containing the
+neuroﬁbromin GRD were targeted for degradation by the pro-
+teasome machinery (7). To investigate whether ETEA can
+directly bind to the neuroﬁbromin GRD in vitro, we utilized a
+rabbit reticulocyte-based coupled transcription/translation sys-
+tem and performed immunoprecipitation experiments. We
+found that the neuroﬁbromin GRD directly binds to ETEA
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+
+:
+/
+/
+
+m
+c
+b
+
+.
+
+a
+s
+m
+o
+r
+g
+
+.
+
+/
+ 
+
+o
+n
+
+ 
+J
+u
+n
+e
+
+ 
+
+1
+2
+
+,
+ 
+
+2
+0
+1
+8
+
+ 
+
+b
+y
+ 
+
+g
+u
+e
+s
+t
+
+FIG. 8. shRNA targeting ETEA expression upregulates neuroﬁbromin protein levels and activity. (A) RNAi targeting ETEA transcription
+increases neuroﬁbromin levels. 293T cells (NP, no plasmid) or 293T stable cell lines expressing a control plasmid (CP) or three different shRNA
+plasmids (Sh576, Sh578, and Sh580) targeting transcript sequences of ETEA were generated. Total lysates were immunoblotted with the antibodies
+indicated in the right panel. For loading controls, membranes were blotted with anti-p120RasGAP or antiactin antibodies. Quantitative analysis
+data for neuroﬁbromin levels are expressed as means ⫾ standard errors of the means in the right panel (see Materials and Methods). (B) RNAi
+targeting ETEA transcription inhibits Ras and ERK activities. 293T stable cell lines expressing control (CT) or Sh578 (Sh) plasmids were used to
+determine Ras and ERK activation at different serum concentrations (0%, 1%, 5%, and 10%). Normalized protein levels were subjected to
+immunoblotting with the indicated antibodies (left panel). Quantitative analysis data for RasGTP levels and ERK phosphorylation are shown in
+the right panel (see Materials and Methods). (C) RNAi targeting ETEA transcription downregulates AKT phosphorylation in 293T and BT549
+cell lines. 293T and BT549 stable cell lines expressing control plasmid (CT) or Sh576 and Sh578 targeting ETEA expression were used to determine
+neuroﬁbromin levels and AKT phosphorylation at a 1% serum concentration. Normalized protein concentrations were subjected to Western
+blotting with the antibodies indicated (left panel).
+
+2276
+
+PHAN ET AL.
+
+MOL. CELL. BIOL.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+
+:
+/
+/
+
+m
+c
+b
+
+.
+
+a
+s
+m
+o
+r
+g
+
+.
+
+/
+ 
+
+o
+n
+
+ 
+J
+u
+n
+e
+
+ 
+
+1
+2
+
+,
+ 
+
+2
+0
+1
+8
+
+ 
+
+b
+y
+ 
+
+g
+u
+e
+s
+t
+
+FIG. 9. Functional analysis of ETEA UBX domain. (A, B) Overexpression of full-length ETEA, but not ETEA UBX⌬, reduces neuroﬁbromin
+levels. 293T cell lysates expressing an empty control (CT), ETEA-V5 (WT), or ETEA UBX⌬-V5 (UBX⌬) plasmid were subjected to immunoblotting
+(WB) with the indicated antibodies. For a loading control, membranes were immunoblotted with antiactin antibody. (C) The neuroﬁbromin GRD
+binds to both full-length ETEA and ETEA UBX⌬ in vitro . [35S]methionine-labeled GST-GRD, ETEA-V5, and ETEA UBX⌬-V5 were subjected
+to coupled transcription/translation with rabbit reticulocyte lysates, coimmunoprecipitated (IP) with Sepharose-conjugated glutathione beads, and
+visualized with a Storm 860 PhosphorImager. (D) The UBX domain of ETEA controls neuroﬁbromin stability. 293T cells were transfected with
+
+VOL. 30, 2010
+
+NEGATIVE REGULATIONS OF Ira2 AND NEUROFIBROMIN
+
+2277
+
+(see Fig. 9C). Therefore, the interaction between ETEA and
+neuroﬁbromin is direct, and ETEA interacts with neuroﬁbro-
+min within regions that were previously identiﬁed as critical for
+neuroﬁbromin degradation (7).
+
+Silencing of ETEA stabilizes neuroﬁbromin and downregu-
+lates Ras activity. We next utilized short hairpin interfering
+RNAs (shRNAs) to examine whether reducing the expression
+of ETEA would stabilize neuroﬁbromin. We generated stable
+cell lines expressing three different shRNA plasmids targeting
+the human ETEA transcription sequences (Sh576, Sh578, and
+Sh580; Open Biosystems). Compared to the level for control
+cells, reduced ETEA expression by shRNA knockdown re-
+sulted in an increase in neuroﬁbromin levels (Fig. 8A). Fur-
+thermore, reduced ETEA transcription activity from three in-
+dependent
+in
+neuroﬁbromin protein levels, conﬁrming that the results are
+consistent and not due to nonspeciﬁc targets.
+
+shRNA constructs
+
+causes
+
+an increase
+
+We next investigated whether reduction of ETEA expression
+could downregulate Ras signaling. As shown in Fig. 8B, under
+nonmitogenic growth conditions (serum concentrations of 0%
+and 1%), reducing ETEA expression markedly downregulated
+Ras signaling and reduced ERK phosphorylation (Fig. 8B,
+lanes 1 and 3 versus lanes 2 and 4). At serum concentrations of
+5% and 10%, decreased ETEA expression in Sh578-expressing
+cells modestly reduced basal ERK activity compared to the
+level for control samples (Fig. 8B, lanes 5 and 7 versus lanes 6
+and 8). However, RasGTP levels were greatly reduced at 5%
+and 10% serum concentrations when ETEA was repressed in
+Sh578-expressing cells (Fig. 8B, lanes 5 to 8). Reducing ETEA
+expression in cells plated at a high serum concentration is more
+effective in reducing Ras activity than in reducing ERK phos-
+phorylation, possibly because Ras is a direct target of neuro-
+ﬁbromin whereas ERK is further downstream and can be tar-
+geted by multiple receptors that are unrelated to the NF1
+pathway. Neuroﬁbromin loss of function leads to Ras activa-
+tion and deregulation of both the ERK and the AKT pathways
+(20). We next examined whether targeting ETEA expression
+could reduce AKT phosphorylation in 293T and BT549 cell
+lines. Both of these cell lines normally have high basal AKT
+phosphorylation. We generated 293T and BT549 stable cell
+lines expressing shRNA that targeted ETEA expression and
+performed immunoblot analyses to examine AKT phosphory-
+lation levels. As expected, reducing ETEA in both 293T and
+BT549 cells resulted in upregulation of neuroﬁbromin and a
+decrease in AKT phosphorylation (Fig. 8C). Taken together,
+these results demonstrate that neuroﬁbromin stability is con-
+trolled by ETEA and that reducing ETEA activity lowers Ras
+activity and downregulates the ERK and AKT pathways. Fur-
+thermore, the data also demonstrate that in cells that have
+
+deregulation of AKT, reduced ETEA expression results in
+downregulation of AKT activity.
+
+The UBX domain of ETEA controls neuroﬁbromin down-
+regulation. Since ETEA directly interacts with neuroﬁbromin
+at amino acid sites that were previously identiﬁed as respon-
+sible for neuroﬁbromin stability (7), we hypothesized that
+ETEA targets neuroﬁbromin for ubiquitination and degrada-
+tion. To investigate this possibility, we expressed ETEA-V5
+(WT) in 293T and examined neuroﬁbromin levels. Overexpres-
+sion of ETEA caused a decrease in endogenous neuroﬁbromin
+protein levels (Fig. 9B). ETEA contains both UBA and UBX
+domains, and while the UBA domain has been shown to bind
+ubiquitinated substrates and deliver them to the proteasome
+for protein degradation, the UBX domain has not been fully
+characterized. Recently, ETEA was found to be an important
+component of a degradation protein complex and seems to
+play a role in the recruitment of the AAA ATPase p97. Fur-
+thermore, the UBX domain of ETEA might be important for
+interaction with the AAA ATPase p97 (26). To investigate the
+mechanism by which ETEA regulates neuroﬁbromin, we gen-
+erated full-length ETEA and a mutant of ETEA in which the
+UBX domain is deleted. We overexpressed these constructs in
+293T cells and assessed neuroﬁbromin protein levels. Overex-
+pression of the ETEA mutant lacking the UBX domain
+(ETEA UBX⌬) was less effective in reducing neuroﬁbromin
+levels than overexpression of full-length ETEA (Fig. 9B). We
+examined whether the UBX deletion construct could bind to
+neuroﬁbromin. We expressed the neuroﬁbromin GRD frag-
+ment in either wild-type or UBX-deleted ETEA in rabbit re-
+ticulocyte lysates and then immunoprecipitated NF1-GRD to
+assess coimmunoprecipitation of ETEA by immunoblotting.
+Figure 9C shows that the neuroﬁbromin GRD binds efﬁciently
+to both wild-type ETEA and ETEA UBX⌬.
+
+We next investigated the neuroﬁbromin degradation rate by
+expressing control, ETEA WT, or ETEA UBX⌬ plasmids in
+293T cells. Cells were treated with cycloheximide to inhibit de
+novo protein translation, and neuroﬁbromin levels were de-
+tected by immunoblotting at the indicated times after treat-
+ment. We found that the neuroﬁbromin half-life levels were
+unchanged in control samples under cycloheximide treatments
+from 1 to 15 h, suggesting that neuroﬁbromin is highly stable.
+However, overexpression of wild-type ETEA reduced the neu-
+roﬁbromin half-life to 8 h. Surprisingly, neuroﬁbromin levels
+were fairly stable between 12 and 15 h. In contrast to wild-type
+ETEA, ETEA UBX⌬ did not induce degradation of neuroﬁ-
+bromin at the 4-h and 8-h time points (Fig. 9D), supporting our
+previous observations that ETEA UBX⌬ failed to downregu-
+late neuroﬁbromin (Fig. 9B). To examine whether ETEA in-
+duced neuroﬁbromin ubiquitination, we puriﬁed GFP control,
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+
+:
+/
+/
+
+m
+c
+b
+
+.
+
+a
+s
+m
+o
+r
+g
+
+.
+
+/
+ 
+
+o
+n
+
+ 
+J
+u
+n
+e
+
+ 
+
+1
+2
+
+,
+ 
+
+2
+0
+1
+8
+
+ 
+
+b
+y
+ 
+
+g
+u
+e
+s
+t
+
+GST-GFP (CT), ETEA-V5 (WT), or ETEA UBX⌬-V5 (UBX⌬). Twenty-four hours after transfection, cells were treated with cycloheximide (CHX)
+at the time points indicated, and the neuroﬁbromin levels were analyzed by immunoblotting. (E) Wild-type ETEA but not ETEA UBX⌬
+ubiquitinates neuroﬁbromin in vitro. A ubiquitination assay of [35S]methionine-labeled GST-GRD was conducted in vitro in the absence or
+presence of GST-GFP control, ETEA-GFP, or ETEA UBX⌬-GFP protein complexes that were puriﬁed from 293T cells. Reactions were
+performed at 30°C for 90 min. GST-GRD was coimmunoprecipitated (IP) with Sepharose-conjugated glutathione beads, separated by NuPAGE,
+and visualized with a Storm 860 PhosphorImager. (F) Working model for controlling Ira2 and neuroﬁbromin stabilization by Gpb1 in yeast and
+ETEA in human cells. (Yeast) Gpb1 negatively regulates Ira2 by inducing Ira2 ubiquitination. During glucose stimulation, Gpb1 ubiquitinates and
+downregulates Ira2. (Human) ETEA negatively regulates neuroﬁbromin by directly binding and promoting the ubiquitination of neuroﬁbromin.
+
+2278
+
+PHAN ET AL.
+
+MOL. CELL. BIOL.
+
+ETEA-GFP, or ETEA UBX⌬-GFP complexes from 293T cells
+and performed in vitro ubiquitination assays with rabbit reticu-
+locyte lysates expressing 35S-labeled neuroﬁbromin GRD. The
+wild-type ETEA complex could readily ubiquitinate neuroﬁ-
+bromin in vitro (Fig. 9E, lane 4), whereas both the GFP and the
+ETEA UBX⌬-GFP complexes failed to ubiquitinate the neu-
+roﬁbromin GRD (Fig. 9E, lanes 3 and 5). Given these results,
+we conclude that the ETEA complex ubiquitinates and targets
+neuroﬁbromin for degradation and that the UBX domain of
+ETEA is critical for mediating the ubiquitination of neuroﬁ-
+bromin.
+
+DISCUSSION
+
+In this study, we utilized an unbiased proteomic approach to
+identify proteins that interact with and regulate Ira2 and neu-
+roﬁbromin in an effort to identify the novel mechanisms by
+which these important proteins are regulated. We identiﬁed
+Gpb1 as a protein that binds to Ira2. We found that overex-
+pression of Gpb1 resulted in downregulation of Ira2 but that
+overexpression of Gpb2 increased Ira2 levels. These observa-
+tions are in contrast to a reported study which showed that
+overexpression of both Gpb1 and Gpb2 positively regulates
+Ira1 and Ira2 and that deletions of ⌬gpb1 and ⌬gpb2 increase
+RasGTP levels. (15). Other studies have reported inconsistent
+ﬁndings in regard to Gpb1 and Gpb2 functions (27, 29). For
+example, Ras activation results in downregulation in HSP12
+transcription and causes an increase in cAMP levels. However,
+at day 1 after cells were grown in yeast extract-peptone-dex-
+trose (YPD), deletion of both gpb1 and gpb2 (⌬gpb1/⌬gpb2
+yeast strain) did not cause a decrease in HSP12 transcription or
+an increase in cAMP production (29). Since Gpb1 and Gpb2
+possess similar Kelch repeats at the C-terminal domains but
+have distinct N-terminal domains, we focused on the N-termi-
+nal regions of Gpb1 and Gpb2 to identify differences in the
+biological functions of the two proteins. Interestingly, we found
+that the N-terminal domain of Gpb1 has some similarity to
+ETEA amino acid sequences. Importantly, the N termini of
+Gpb1 and Gpb2 do not have amino acid sequence similarity to
+each other compared to the amino acid sequence similarity
+between Gpb1 and ETEA.
+
+Further, we demonstrated that overexpression of wild-type
+Gpb1 is critical and sufﬁcient for Ira2 downregulation and Ras
+activation by promoting ubiquitination of Ira2. Importantly, we
+found that Ira2 downregulation as well as Ras activation is
+dependent on the N-terminal domain of Gpb1. In contrast to
+Gpb1, we found that Gpb2 positively regulates Ira2. Overex-
+pression of Gpb2 modestly increased Ira2 levels, whereas over-
+expression of Gpb1 had a negative effect on Ira2. Genetic
+analysis showed that Gpb2 inhibited the heat shock phenotype
+caused by loss of Ira2 in a heterozygous yeast strain, possibly by
+causing an increase in Ira1 activity to downregulate active Ras.
+Importantly, we also found that that overexpression of Gpb1
+activates Ras and directly suppressed the expression of several
+Ras-targeted genes, including CTT1 and HSP12. We addressed
+the concerns that the Gpb1-TAP or the Gpb1-V5 fusion pro-
+tein might act as dominant negative by monitoring Ras activity
+in either the GPB1-TAP strain or W303 wild-type cells that
+received galactose-induced Gpb1. We found that CTT1 and
+HSP12 transcription levels were comparable between the non-
+
+tagged wild-type and GPB1-TAP strains. Furthermore, galac-
+tose-induced expression of a nontagged Gpb1 protein induced
+a heat shock phenotype in the W303 wild-type strain as well as
+depression of CTT1 and HSP12, indicative of Ras activation.
+Taken together, these data demonstrate that Gpb1 negatively
+regulates Ira2 and that Gpb1 and Gpb2 possess different bio-
+logical functions.
+
+There are several possible explanations for the differences in
+Gpb1 and Gpb2 functions. One is that Gpb1 and Gpb2 might
+have two completely different functions but share similar Kelch
+repeat domains. Many proteins which share similar domain
+structures but also have different functions have been identi-
+ﬁed, including the small GTPase family of proteins (8). The
+yeast S. cerevisiae has two RasGAP proteins, Ira1 and Ira2. In
+addition to regulating Ras, previous reports have pointed out
+that Ira1 and Ira2 can independently regulate different biolog-
+ical pathways (23, 28). Gpb1 might target Ira2, whereas Gpb2
+might target Ira1. Furthermore, proteomic experiments have
+shown that Gpb1 and Gpb2 bind to different intracellular pro-
+tein partners, suggesting that these proteins mediate indepen-
+dent signaling pathways (9). Future experiments are needed to
+address the differences between Gpb1 and Gpb2 functions.
+
+Our working model is supported by previous observations
+that neuroﬁbromin is negatively regulated by the ubiquitin
+machinery when cells are stimulated with various growth fac-
+tors (7). It was postulated that an E3 ligase is responsible for
+targeting neuroﬁbromin degradation, resulting in rapid activa-
+tion of Ras. Although the E3 ligase targeting neuroﬁbromin
+for protein degradation was not identiﬁed, amino acid se-
+quences adjacent to the GAP-related domain (GRD) of neu-
+roﬁbromin have been identiﬁed and demonstrated to be criti-
+cal sites for neuroﬁbromin degradation (7). We show here for
+the ﬁrst time the identiﬁcation and functional analysis of a
+previously unknown UBA-UBX protein that targets neuroﬁ-
+bromin for protein degradation. Interestingly, ETEA appears
+to share some amino acid sequences with the N-terminal do-
+main of Gpb1 but not Gpb2. Loss-of-function analysis revealed
+that ETEA function is critical for neuroﬁbromin stability. Al-
+though more studies are needed to fully address the role of
+ETEA in neuroﬁbromin regulation, our ﬁndings suggest that
+interfering with ETEA function can increase neuroﬁbromin
+levels and activity. Remarkably, reducing ETEA activity is ef-
+fective in lowering active Ras and downregulating the Ras
+downstream effectors, ERK and AKT. These results suggest
+that inhibition of ETEA might present a novel opportunity for
+therapeutic intervention.
+
+ACKNOWLEDGMENTS
+
+We thank Cynthia Mysinger, Amy Young, and Erika Woodbury for
+critical reading of the manuscript. We thank all of the members of the
+McCormick laboratory for thoughtful discussion and comments.
+
+The UCSF Mass Spectrometry Facility (A. L. Burlingame, Director)
+was supported by the Biomedical Research Technology Program of the
+National Center for Research Resources, NIH NCRR RR015804,
+NIH NCRR RR001614, and NIH NCRR RR012961. Frank McCor-
+mick was supported, in part, by ONYX Pharmaceuticals and UC Dis-
+covery grant bio-02-17 10242. Vernon T. Phan is the recipient of the
+Young Investigator Award from the Children’s Tumor Foundation.
+
+1. Angers, S., C. J. Thorpe, T. L. Biechele, S. J. Goldenberg, N. Zheng, M. J.
+MacCoss, and R. T. Moon. 2006. The KLHL12-Cullin-3 ubiquitin ligase
+
+REFERENCES
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+
+:
+/
+/
+
+m
+c
+b
+
+.
+
+a
+s
+m
+o
+r
+g
+
+.
+
+/
+ 
+
+o
+n
+
+ 
+J
+u
+n
+e
+
+ 
+
+1
+2
+
+,
+ 
+
+2
+0
+1
+8
+
+ 
+
+b
+y
+ 
+
+g
+u
+e
+s
+t
+
+VOL. 30, 2010
+
+NEGATIVE REGULATIONS OF Ira2 AND NEUROFIBROMIN
+
+2279
+
+negatively regulates the Wnt-beta-catenin pathway by targeting Dishevelled
+for degradation. Nat. Cell Biol. 8:348–357.
+
+2. Bader, J. L. 1986. Neuroﬁbromatosis and cancer. Ann. N. Y. Acad. Sci.
+
+24. Mangoura, D., Y. Sun, C. Li, D. Singh, D. H. Gutmann, A. Flores, M. Ahmed,
+and G. Vallianatos. 2006. Phosphorylation of neuroﬁbromin by PKC is a
+possible molecular switch in EGF receptor signaling in neural cells. Onco-
+gene 25:735–745.
+
+25. Martin, G. A., D. Viskochil, G. Bollag, P. C. McCabe, W. J. Crosier, H.
+Haubruck, L. Conroy, R. Clark, P. O’Connell, R. M. Cawthon, et al. 1990.
+The GAP-related domain of the neuroﬁbromatosis type 1 gene product
+interacts with ras p21. Cell 63:843–849.
+
+26. Mueller, B., E. J. Klemm, E. Spooner, J. H. Claessen, and H. L. Ploegh. 2008.
+SEL1L nucleates a protein complex required for dislocation of misfolded
+glycoproteins. Proc. Natl. Acad. Sci. U. S. A. 105:12325–12330.
+
+27. Niranjan, T., X. Guo, J. Victor, A. Lu, and J. P. Hirsch. 2007. Kelch repeat
+protein interacts with the yeast Galpha subunit Gpa2p at a site that couples
+receptor binding to guanine nucleotide exchange. J. Biol. Chem. 282:24231–
+24238.
+
+28. Park, J. I., C. M. Grant, and I. W. Dawes. 2005. The high-afﬁnity cAMP
+phosphodiesterase of Saccharomyces cerevisiae is the major determinant of
+cAMP levels in stationary phase: involvement of different branches of the
+Ras-cyclic AMP pathway in stress responses. Biochem. Biophys. Res. Com-
+mun. 327:311–319.
+
+29. Peeters, T., W. Louwet, R. Gelade, D. Nauwelaers, J. M. Thevelein, and M.
+Versele. 2006. Kelch-repeat proteins interacting with the Galpha protein
+Gpa2 bypass adenylate cyclase for direct regulation of protein kinase A in
+yeast. Proc. Natl. Acad. Sci. U. S. A. 103:13034–13039.
+
+30. Petroski, M. D., and R. J. Deshaies. 2005. Function and regulation of cullin-
+
+RING ubiquitin ligases. Nat. Rev. Mol. Cell Biol. 6:9–20.
+
+31. Rajalingam, K., C. Wunder, V. Brinkmann, Y. Churin, M. Hekman, C.
+Sievers, U. R. Rapp, and T. Rudel. 2005. Prohibitin is required for Ras-
+induced Raf-MEK-ERK activation and epithelial cell migration. Nat. Cell
+Biol. 7:837–843.
+
+32. Riccardi, V. M. 1992. Type 1 neuroﬁbromatosis and the pediatric patient.
+
+Curr. Probl. Pediatr. 22:66–107.
+
+33. Rodriguez-Viciana, P., J. Oses-Prieto, A. Burlingame, M. Fried, and F.
+McCormick. 2006. A phosphatase holoenzyme comprised of Shoc2/Sur8 and
+the catalytic subunit of PP1 functions as an M-Ras effector to modulate Raf
+activity. Mol. Cell 22:217–230.
+
+34. Rudoni, S., S. Colombo, P. Coccetti, and E. Martegani. 2001. Role of gua-
+nine nucleotides in the regulation of the Ras/cAMP pathway in Saccharo-
+myces cerevisiae. Biochim. Biophys. Acta 1538:181–189.
+
+35. Schubbert, S., K. Shannon, and G. Bollag. 2007. Hyperactive Ras in devel-
+
+opmental disorders and cancer. Nat. Rev. Cancer 7:295–308.
+
+36. Shirayama, M., K. Kawakami, Y. Matsui, K. Tanaka, and A. Toh-e. 1993.
+MSI3, a multicopy suppressor of mutants hyperactivated in the RAS-cAMP
+pathway, encodes a novel HSP70 protein of Saccharomyces cerevisiae. Mol.
+Gen. Genet. 240:323–332.
+
+37. Tanaka, K., M. Nakafuku, T. Satoh, M. S. Marshall, J. B. Gibbs, K. Ma-
+tsumoto, Y. Kaziro, and A. Toh-e. 1990. S. cerevisiae genes IRA1 and IRA2
+encode proteins that may be functionally equivalent to mammalian ras
+GTPase activating protein. Cell 60:803–807.
+
+38. Tanaka, K., M. Nakafuku, F. Tamanoi, Y. Kaziro, K. Matsumoto, and A.
+Toh-e. 1990. IRA2, a second gene of Saccharomyces cerevisiae that encodes
+a protein with a domain homologous to mammalian ras GTPase-activating
+protein. Mol. Cell. Biol. 10:4303–4313.
+
+39. Thevelein, J. M., and J. H. de Winde. 1999. Novel sensing mechanisms and
+targets for the cAMP-protein kinase A pathway in the yeast Saccharomyces
+cerevisiae. Mol. Microbiol. 33:904–918.
+
+40. Toda, T., I. Uno, T. Ishikawa, S. Powers, T. Kataoka, D. Broek, S. Cameron,
+J. Broach, K. Matsumoto, and M. Wigler. 1985. In yeast, RAS proteins are
+controlling elements of adenylate cyclase. Cell 40:27–36.
+
+41. Welcker, M., and B. E. Clurman. 2008. FBW7 ubiquitin ligase: a tumour
+suppressor at the crossroads of cell division, growth and differentiation. Nat.
+Rev. Cancer 8:83–93.
+
+42. Welti, S., S. Fraterman, I. D’Angelo, M. Wilm, and K. Scheffzek. 2007. The
+sec14 homology module of neuroﬁbromin binds cellular glycerophospholip-
+ids: mass spectrometry and structure of a lipid complex. J. Mol. Biol. 366:
+551–562.
+
+43. Xu, G. F., B. Lin, K. Tanaka, D. Dunn, D. Wood, R. Gesteland, R. White, R.
+Weiss, and F. Tamanoi. 1990. The catalytic domain of the neuroﬁbromatosis
+type 1 gene product stimulates ras GTPase and complements ira mutants of
+S. cerevisiae. Cell 63:835–841.
+
+44. Zeller, C. E., S. C. Parnell, and H. G. Dohlman. 2007. The RACK1 ortholog
+Asc1 functions as a G-protein beta subunit coupled to glucose responsive-
+ness in yeast. J. Biol. Chem. 282:25168–25176.
+
+45. Zhu, Y., and L. F. Parada. 2001. Neuroﬁbromin, a tumor suppressor in the
+
+nervous system. Exp. Cell Res. 264:19–28.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+
+:
+/
+/
+
+m
+c
+b
+
+.
+
+a
+s
+m
+o
+r
+g
+
+.
+
+/
+ 
+
+o
+n
+
+ 
+J
+u
+n
+e
+
+ 
+
+1
+2
+
+,
+ 
+
+2
+0
+1
+8
+
+ 
+
+b
+y
+ 
+
+g
+u
+e
+s
+t
+
+486:57–65.
+
+3. Ballester, R., D. Marchuk, M. Boguski, A. Saulino, R. Letcher, M. Wigler,
+and F. Collins. 1990. The NF1 locus encodes a protein functionally related
+to mammalian GAP and yeast IRA proteins. Cell 63:851–859.
+
+4. Bissinger, P. H., R. Wieser, B. Hamilton, and H. Ruis. 1989. Control of
+Saccharomyces cerevisiae catalase T gene (CTT1) expression by nutrient
+supply via the RAS-cyclic AMP pathway. Mol. Cell. Biol. 9:1309–1315.
+
+5. Boyer, M. J., D. H. Gutmann, F. S. Collins, and D. Bar-Sagi. 1994. Crosslink-
+ing of the surface immunoglobulin receptor in B lymphocytes induces a
+redistribution of neuroﬁbromin but not p120-GAP. Oncogene 9:349–357.
+
+6. Cichowski, K., and T. Jacks. 2001. NF1 tumor suppressor gene function:
+
+narrowing the GAP. Cell 104:593–604.
+
+7. Cichowski, K., S. Santiago, M. Jardim, B. W. Johnson, and T. Jacks. 2003.
+Dynamic regulation of the Ras pathway via proteolysis of the NF1 tumor
+suppressor. Genes Dev. 17:449–454.
+
+8. Colicelli, J. 2004. Human RAS superfamily proteins and related GTPases.
+
+Sci. STKE 2004:RE13.
+
+9. Collins, S. R., K. M. Miller, N. L. Maas, A. Roguev, J. Fillingham, C. S. Chu,
+M. Schuldiner, M. Gebbia, J. Recht, M. Shales, H. Ding, H. Xu, J. Han, K.
+Ingvarsdottir, B. Cheng, B. Andrews, C. Boone, S. L. Berger, P. Hieter, Z.
+Zhang, G. W. Brown, C. J. Ingles, A. Emili, C. D. Allis, D. P. Toczyski, J. S.
+Weissman, J. F. Greenblatt, and N. J. Krogan. 2007. Functional dissection of
+protein complexes involved in yeast chromosome biology using a genetic
+interaction map. Nature 446:806–810.
+
+10. Colombo, S., P. Ma, L. Cauwenberg, J. Winderickx, M. Crauwels, A. Teunis-
+sen, D. Nauwelaers, J. H. de Winde, M. F. Gorwa, D. Colavizza, and J. M.
+Thevelein. 1998. Involvement of distinct G-proteins, Gpa2 and Ras, in glu-
+cose- and intracellular acidiﬁcation-induced cAMP signalling in the yeast
+Saccharomyces cerevisiae. EMBO J. 17:3326–3341.
+
+11. Colombo, S., D. Ronchetti, J. M. Thevelein, J. Winderickx, and E. Marte-
+gani. 2004. Activation state of the Ras2 protein and glucose-induced signal-
+ing in Saccharomyces cerevisiae. J. Biol. Chem. 279:46715–46722.
+
+12. D’Angelo, I., S. Welti, F. Bonneau, and K. Scheffzek. 2006. A novel
+bipartite phospholipid-binding module in the neuroﬁbromatosis type 1
+protein. EMBO Rep. 7:174–179.
+
+13. Gettemans, J., K. Meerschaert, J. Vandekerckhove, and V. De Corte. 2003.
+A kelch beta propeller featuring as a G beta structural mimic: reinventing
+the wheel? Sci. STKE 2003:PE27.
+
+14. Ghaemmaghami, S., W. K. Huh, K. Bower, R. W. Howson, A. Belle, N.
+Dephoure, E. K. O’Shea, and J. S. Weissman. 2003. Global analysis of
+protein expression in yeast. Nature 425:737–741.
+
+15. Harashima, T., S. Anderson, J. R. Yates III, and J. Heitman. 2006. The kelch
+proteins Gpb1 and Gpb2 inhibit Ras activity via association with the yeast
+RasGAP neuroﬁbromin homologs Ira1 and Ira2. Mol. Cell 22:819–830.
+
+16. Harashima, T., and J. Heitman. 2002. The Galpha protein Gpa2 controls
+yeast differentiation by interacting with kelch repeat proteins that mimic
+Gbeta subunits. Mol. Cell 10:163–173.
+
+17. He, Y. J., C. M. McCall, J. Hu, Y. Zeng, and Y. Xiong. 2006. DDB1 functions
+as a linker to recruit receptor WD40 proteins to CUL4-ROC1 ubiquitin
+ligases. Genes Dev. 20:2949–2954.
+
+18. Imai, Y., A. Nakada, R. Hashida, Y. Sugita, T. Tanaka, G. Tsujimoto, K.
+Matsumoto, A. Akasawa, H. Saito, and T. Oshida. 2002. Cloning and char-
+acterization of the highly expressed ETEA gene from blood cells of atopic
+dermatitis patients. Biochem. Biophys. Res. Commun. 297:1282–1290.
+
+19. Jin, J., E. E. Arias, J. Chen, J. W. Harper, and J. C. Walter. 2006. A family
+of diverse Cul4-Ddb1-interacting proteins includes Cdt2, which is required
+for S phase destruction of the replication factor Cdt1. Mol. Cell 23:709–721.
+20. Johannessen, C. M., E. E. Reczek, M. F. James, H. Brems, E. Legius, and K.
+Cichowski. 2005. The NF1 tumor suppressor critically regulates TSC2 and
+mTOR. Proc. Natl. Acad. Sci. U. S. A. 102:8573–8578.
+
+21. Kraakman, L., K. Lemaire, P. Ma, A. W. Teunissen, M. C. Donaton, P. Van
+Dijck, J. Winderickx, J. H. de Winde, and J. M. Thevelein. 1999. A Saccha-
+romyces cerevisiae G-protein coupled receptor, Gpr1, is speciﬁcally required
+for glucose activation of the cAMP pathway during the transition to growth
+on glucose. Mol. Microbiol. 32:1002–1012.
+
+22. Longtine, M. S., A. McKenzie III, D. J. Demarini, N. G. Shah, A. Wach, A.
+Brachat, P. Philippsen, and J. R. Pringle. 1998. Additional modules for
+versatile and economical PCR-based gene deletion and modiﬁcation in Sac-
+charomyces cerevisiae. Yeast 14:953–961.
+
+23. Magherini, F., S. Busti, T. Gamberi, E. Sacco, G. Raugei, G. Manao, G.
+Ramponi, A. Modesti, and M. Vanoni. 2006. In Saccharomyces cerevisiae an
+unbalanced level of tyrosine phosphorylation down-regulates the Ras/PKA
+pathway. Int. J. Biochem. Cell Biol. 38:444–460.
+
+

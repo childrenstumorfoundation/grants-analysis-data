@@ -1,0 +1,2547 @@
+Nuclear Engineering and Design 321 (2017) 26–37
+
+Contents lists available at ScienceDirect
+
+Nuclear Engineering and Design
+
+j o u r n a l h o m e p a g e : w w w . e l s e v i e r . c o m / l o c a t e / n u c e n g d e s
+
+Best-estimate simulation of a VVER MSLB core transient using the
+NURESIM platform codes
+I. Spasov a, S. Mitkov a, N.P. Kolev a,⇑
+J. Jimenez c, V.H. Sanchez c, L. Vyskocil d
+a Institute for Nuclear Research and Nuclear Energy, Bulgaria
+b Universidad Politecnica de Madrid, Spain
+c Karlsruhe Institute of Technology, Germany
+d Ustav Jaderneho Vyzkumu Rez, Czech Republic
+
+, S. Sanchez-Cervera b, N. Garcia-Herranz b, A. Sabater b, D. Cuervo b,
+
+a r t i c l e
+
+i n f o
+
+a b s t r a c t
+
+Article history:
+Received 11 July 2016
+Received in revised form 23 March 2017
+Accepted 24 March 2017
+Available online 17 April 2017
+
+Keywords:
+VVER MSLB
+Core boundary condition problem
+Nodal methods
+Best-estimate simulation
+
+1. Introduction
+
+This paper summarizes the nodal level results from the VVER MSLB core simulation in the NURESAFE EU
+project. The main objective is to implement and verify new developments in the models and couplings of
+3D core simulators for cores with hexagonal fuel assemblies. Recent versions of the COBAYA and DYN3D
+core physics codes, and the FLICA4 and CTF thermal-hydraulic codes were tested standalone and coupled
+through standardized coupling functions in the Salome platform. The MSLB core transient was analyzed
+in coupled code simulation of a core boundary condition problem derived from the OECD VVER MSLB
+benchmark. The impact of node sub-division and different core mixing models, as well as the effects of
+CFD computed core inlet thermal-hydraulic boundary conditions on the core dynamics were explored.
+Ó 2017 Elsevier B.V. All rights reserved.
+
+The analysis of main steam line break (MSLB) reactivity tran-
+sients is a challenging task because of the strongly pronounced
+local 3D effects in the core and the reactor pressure vessel (RPV)
+and correspondingly the need for detailed modeling of both the
+neutronics and the coolant mixing. The VVER-1000 MSLB simula-
+tion has been subject of the OECD VVER-1000 Coolant Transient
+Benchmark – V1000CT-2 (Kolev et al., 2006). The analysis of the
+benchmark results indicated the potential for improving the qual-
+ity of simulation through the use of enhanced models of the ﬂow
+mixing and the 3D core dynamics.
+
+This article presents the full-core nodal-level simulation results
+from the VVER MSLB work package in the NURESAFE EU project. As
+stated in the NURESAFE description of work (Chanaron, 2012;
+Chanaron et al., 2015) the main objective of the work on the VVER
+MSLB situation target was to develop and execute simulation
+schemes towards higher-resolution. Speciﬁc objectives were to test
+new developments in the nodal and pin-by-pin models and
+couplings for VVER applications, as well as CFD and CFD/system
+code simulation of the RPV with enhanced prediction capability.
+This paper concentrates on the nodal core models which can be
+
+⇑ Corresponding author.
+
+E-mail address: npkolev@inrne.bas.bg (N.P. Kolev).
+
+http://dx.doi.org/10.1016/j.nucengdes.2017.03.032
+0029-5493/Ó 2017 Elsevier B.V. All rights reserved.
+
+supplemented by pin-power reconstruction (PPR) and application
+of CFD computed core boundary conditions. The results from pin/
+pin models, sub-channel thermal-hydraulic analysis and coupled
+COBAYA4/CTF pin-cell simulation of VVER core subsets will be sub-
+ject of separate publications.
+
+For the purposes of this study a core boundary condition prob-
+lem with pre-calculated boundary conditions was derived from the
+OECD VVER MSLB benchmark. Validated COBAYA and DYN3D core-
+physics models with homogenized nodes were coupled to full-core
+FLICA4 or CTF thermal-hydraulic models. The core transient sce-
+nario was analyzed in coupled COBAYA3/FLICA4, COBAYA4/CTF
+and DYN3D/CTF simulations.
+
+Special attention was paid to the effects of different ﬂow mixing
+models in the RPV and the core. Time-dependent MSLB core
+boundary conditions (BC) were obtained in two variants: from
+CATHARE coarse-mesh RPV simulation (Spasov et al., 2010), and
+from CFD calculations for the down-comer and the lower plenum
+(Vyskocil, 2015). The corresponding vessel mixing models were
+qualiﬁed against Kozloduy-6 data from a vessel mixing experiment
+conducted during the plant commissioning phase (Topalov et al.,
+2004; Kolev et al., 2007). The impact of CFD computed core
+boundary conditions on the 3D core dynamics was explored in
+comparative MSLB core calculations.
+
+For multi-physics
+
+core simulation a wide-range multi-
+parameter VVER MSLB cross-section library for homogenized
+
+I. Spasov et al. / Nuclear Engineering and Design 321 (2017) 26–37
+
+27
+
+nodes was generated (Petrov et al., 2015) using the APOLLO2 code
+(Sanchez, 2010; Santandrea et al., 2008). This library is supple-
+mented by a multi-parameter library of APOLLO2 computed pin-
+by-pin form functions for each node which allows DYN3D pin
+power reconstruction.
+
+In the sections below a brief description of the codes and mod-
+
+els used is given and the simulation results are discussed.
+
+2. Codes and models description
+
+For coupled core neutronic-thermal hydraulic (N/TH) simula-
+tion, recent versions of COBAYA, DYN3D, FLICA4 and CTF were
+used. The considered code couplings are COBAYA3/FLICA4,
+COBAYA4/CTF and DYN3D/CTF in Salome (http://www.salome-
+platform.org/). CATHARE2 (Geffraye et al., 2011) and FLUENT
+(ANSYS-Fluent, 2015) codes were used to solve the MSLB RPV
+boundary condition problem and to compute time-dependent
+MSLB core BC, as discussed in paragraphs 4.2 and 5.3 below.
+
+These codes and couplings, except for FLUENT, make part of the
+European NURESIM software platform (Chauliac et al., 2011 and
+Chanaron et al., 2015) which is a set of state of the art software
+devoted to the simulation of normal operation and design basis
+accidents of light water reactors: BWR, PWR, VVER. This platform
+currently includes 12 codes covering different physics: neutronics,
+thermal-hydraulics, fuel thermo-mechanics and relevant scales:
+local (sub-channel or pin), fuel assembly, core and reactor system.
+Given their complementary features, the selected codes offer solu-
+tions suitable for various situations.
+
+2.1. COBAYA code
+
+COBAYA is a multi-scale 3D core simulator code developed by
+the Universidad Politecnica de Madrid (Cobaya team, 2015;
+Ahnert, 2015). It uses transport-corrected multi-group (MG) diffu-
+sion approximation and performs steady-state and transient calcu-
+lations of light water reactors (LWR) for both Cartesian rectangular
+and hexagonal geometries. At the nodal level, the ﬂux solver, called
+ANDES (Analytic Nodal Diffusion Equation Solver) (Lozano et al.,
+2008) uses the ACMFD (Analytic Coarse-Mesh Finite-Difference)
+method (Aragones et al., 2007; Garcia-Herranz et al., 2002). ANDES
+can be used stand-alone to perform nodal full-core calculations, or
+as an accelerating module for the pin-by-pin solver. It has been
+numerically validated for a number of numerical benchmarks
+(Lozano et al., 2010). In hexagonal geometry, the code is capable
+of node sub-division to 6 or 24 triangles per hexagon. In the pre-
+sent study, 6 triangles per hexagon (6 N) and 30 axial nodes in
+the heated core were assumed. At the pin level, the multi-group
+diffusion equation is solved using a FMFD (ﬁne-mesh ﬁnite-
+difference) method (Herrero et al., 2009).
+
+The COBAYA nodal core physics solver has been extensively
+benchmarked in the frame of EU projects. Recently a new version
+of the code, COBAYA4 has been released (Ahnert, 2015) which fea-
+tures a fully renovated code architecture and improved capability
+of parallelization on multi-core systems and graphical processing
+units (GPU). The code has been coupled with core thermal-
+hydraulic codes in the Salome platform (see the paragraph on cou-
+pling below).
+
+2.2. DYN3D code
+
+ver for hexagonal geometry and a multi-group SP3 pin-by-pin sol-
+ver for square lattices have been added. The code has been coupled
+with core TH codes in the Salome platform (see the paragraph on
+coupling below). In this study at the nodal level the VVER model
+assumes one node per hexagon and 30 axial nodes in the heated
+part of the core.
+
+DYN3D is capable of nodal calculations with pin power recon-
+struction in hexagonal geometry (Hádek et al., 2009; Hádek,
+2012; Gomez et al., 2014). In the frame of NURESAFE a recent ver-
+sion of the nodal/PPR calculation scheme using an APOLLO2 gener-
+ated multi-parameter library of pin-by-pin node power shapes
+(form-functions) has been numerically validated vs. transport ref-
+erence solutions for VVER mini-cores (Hádek, 2016).
+
+2.3. Full-core FLICA4 model
+
+FLICA4 (Toumi et al., 2000; Fillion et al., 2011a,b) is a 3D core
+thermal-hydraulic code of CEA with sub-channel capabilities. It is
+based on a fully 3D, four-equation mixture model with a correla-
+tion for the interphase slip.
+
+The FLICA4 full-core coarse-mesh VVER model used in the pre-
+sent study and its validation are described in (Spasov and Kolev,
+2013). The core model assumes one channel per fuel assembly
+and 30 axial nodes in the heated core. The fuel heat conduction
+model used 9 radial meshes in the fuel pellet, 1 for the gas gap
+and 1 for the cladding, and ﬁtted nonlinear approximations of
+the fuel thermal properties from the speciﬁcations.
+
+2.4. Full-core CTF model
+
+COBRA-TF thermal-hydraulic code with sub-channel capabili-
+ties was originally developed by the Paciﬁc Northwest Laboratory
+in 1980 and since then has been modiﬁed by several institutions.
+COBRA-TF also found use at the Pennsylvania State University
+(PSU) and subsequently at the North Carolina State University
+(NCSU) where it has been improved, updated, and subsequently
+re-branded as CTF (Avramova et al., 2006; Avramova, 2007;
+Avramova and Cuervo, 2013). The CTF code uses a nine-equation
+three-ﬁeld ﬂow model (Avramova, 2007). The user can opt
+between 3D TH model and multi-channel with cross ﬂow.
+
+The CTF coarse-mesh core model for VVER used in this simula-
+tion is described in (Jimenez and Sanchez, 2013). The TH model
+assumes one channel per fuel assembly and 30 axial nodes in the
+heated core. The fuel heat conduction model used 9 radial meshes
+in the fuel pellet, 1 for the gas gap and 1 in the cladding.
+
+For the discussion and comparison of results, it is important to
+mention the modeling options that are common with the FLICA4
+model and those that are code-speciﬁc. The coarse-mesh spatial
+discretization of the core is the same in both thermal-hydraulic
+models. The fuel pin discretization in the heat conduction models
+is also uniﬁed and the gas gap conductance coefﬁcient for burnt
+fuel is assumed to be a given constant. The CTF model differs from
+that of FLICA4 by the basic ﬂow equations, the ﬂow mixing model-
+ing and the heat transfer models. For details see the references and
+the discussion of results in the sequel. There is also a small differ-
+ence in the approximations of the fuel thermal properties as a
+function of temperature. In this simulation CTF used linear interpo-
+lation in a table while the FLICA4 model used ﬁtted non-linear
+functional approximations based on the same table.
+
+2.5. Code couplings
+
+DYN3D is a 3D core simulator developed by the Helmholtz-
+Zentrum Dresden-Rossendorf. It solves the 2G diffusion equation
+with a nodal expansion method and performs steady-state and
+transient core calculations of LWR with hexagonal and square fuel
+assemblies (Rohde et al., 2016). Recently a multi-group nodal sol-
+
+The DYN3D/CTF coupling at the nodal level is based on previous
+neutron kinetics – thermal-hydraulic coupling implementations
+within the NURESIM platform (Jimenez et al., 2015). Both codes
+have an Application Programing Interface (API) which was used
+
+28
+
+I. Spasov et al. / Nuclear Engineering and Design 321 (2017) 26–37
+
+to access the different methods in a modular way. Each code
+method is in charge of performing a speciﬁc task such as initializa-
+tion, advancing a time step, checking for convergence or comput-
+ing a steady state among others. In the practice, the API is used
+inside python scripts which master the coupled execution in
+steady state and transient mode. The data exchange between codes
+takes proﬁt of the MED Coupling library provided in the Salome 6
+platform. In this work, the coupling algorithm for steady states and
+transients was veriﬁed to work properly also in hexagonal
+geometries.
+
+The COBAYA4/CTF coupling (García-Herranz et al., 2017) is
+based on the use of each code API as described above and data
+exchange through the MED Coupling library in Salome 6. The
+Python script which governs the coupled calculation includes a
+damping scheme (Merino et al., 1993) to smooth the power proﬁle
+and accelerate the convergence to achieve initial steady state in the
+performed transients. In this scheme the power at the current
+time-step (n) is expressed as 0.4 * P(tn 1) + 0.6 * P(tn). A sensitivity
+study was carried out to establish the optimum damping value for
+this initial steady state. The geometrical coupling algorithm had to
+be adapted for hexagonal geometries. At the pin-cell level, there is
+a COBAYA4/CTF coupling in Salome 6 for a hexagonal assembly
+(Cuervo et al., 2015). The results from this coupling (Kolev et al.,
+2016) will be subject of a future publication.
+
+The COBAYA3/FLICA4 coarse-mesh coupling (Jimenez, 2009) for
+hexagonal geometries is based on the coupling functions in Salome
+5 and supplemented by FLICA4 routines. Regarding the time
+domain, an explicit marching scheme has been used between
+COBAYA3-FLICA4 which limits the time steps to achieve acceptable
+accuracy. The time step is set by the neutronics code and it needs
+to be small enough to fulﬁll the Courant limit in the TH solution.
+
+3. Cross-section libraries
+
+For the simulation of reactivity accidents, a multi-parameter
+cross-section library for transport-corrected diffusion calculations
+with homogenized nodes was generated (Petrov et al., 2015) with
+the APOLLO2 code (Sanchez, 2010; Santandrea et al., 2008). The
+library is characterized by the following features:
+ Two-level 281 g/42 g cross-section calculation scheme with the
+Linear Surface Method of Characteristics (LS MOC) in APOLLO2
+ JEFF3.1.1 nuclear data
+ Table interpolation format
+ Two energy groups
+ Optimized parameter grid of 5 fuel Doppler temperature points
+(470, 852.5, 1235, 1617.5, 2000 K), 3 moderator temperature
+points (470, 545, 620 K) and 13 moderator density points (50,
+76, 102, 128, 154, 207, 259, 311, 363, 467.5, 572, 676, 885 kg/
+m3). The grid optimization (Sánchez Cervera et al., 2014)
+ensures uncertainty of dk  120 pcm in case of linear interpola-
+tion in cross-section tables
+ Generated for a real reference core of Kozloduy-6 Cycle 8 with
+once, twice and three times burnt fuel assemblies
+ 840 fuel compositions in 1/6 core (28 assemblies  30 axial
+nodes) with given target exposure
+ Uniform radial, top and bottom reﬂector compositions
+ Explicit or implicit interface discontinuity factors for the fuel
+nodes
+ No transport corrections for the reﬂector nodes
+ A supplementary library of APOLLO2 calculated full-core multi-
+parameter pin-by-pin form-functions is provided (Petrov et al.,
+2015), to be used for nodal calculations with pin power recon-
+struction (PPR).
+
+The cross-section library is available in two formats:
+ Compact: with scattering cross-sections corrected for up-
+scattering; with hexagon-averaged interface discontinuity fac-
+tors (IDF) implicitly included in the cross-sections and node
+speciﬁc composition-dependent kinetic parameters
+ General multi-group format (for MG solvers): with full matrix of
+scattering cross-sections, explicit side-dependent IDF and nodal
+kinetic parameters dependent on the composition and TH
+feedback.
+
+The two library formats have been tested in steady-state and
+transient nodal core simulations and shown to give results which
+are close to each other (Sanchez-Cervera and Garcia-Herranz,
+2015; Kolev et al., 2016). The differences in the results are more
+pronounced in case of transients and steep ﬂux gradients, see Sec-
+tion 5.2. The library of pin-by-pin form-functions for PPR has been
+tested beyond the scope of this paper in NURESAFE nodal/PPR cal-
+culations with DYN3D for VVER mini-cores (Hadek, 2015) vs.
+transport reference solutions.
+
+The cross-section library was validated in 2D COBAYA nodal dif-
+fusion calculations vs. transport reference solutions at HZP (Ivanov,
+2014) obtained with the TRIPOLI4 Ò Monte Carlo code (Trama,
+2011; Brun et al., 2015) and in 3D steady-state core calculations
+at hot power vs. plant data.
+
+Fig. 1 shows a comparison of COBAYA/FLICA4 computed assem-
+bly powers in steady state at 91% hot power vs. plant data recorded
+by the Kozloduy-6 Core Monitoring System (CMS) for Cycle 8,
+270.4 EFPD. The results show that the max absolute deviation in
+the computed assembly powers is within the 5% CMS uncertainty
+range. The computed k-eff is 0.99491 which differs from 1 by –
+509 pcm. The main part of the deviations can be attributed to:
+ Uncertainties in the given target burn-ups for each node (core
+design code computed). The APOLLO2 predicted atomic number
+densities for these target burn-ups inevitably differ from the
+actual ones
+ Radial reﬂector modeling with one average reﬂector node, with-
+out transport corrections
+
+Fig. 1. COBAYA/FLICA4 computed assembly powers vs. Kozloduy-6 CMS plant data
+at 91% hot power. 1 - assembly no. in 1/6 core numeration, 0.804 - computed
+relative assembly power, 3.1 - relative difference, %.
+
+I. Spasov et al. / Nuclear Engineering and Design 321 (2017) 26–37
+
+29
+
+ The approximately estimated EOL gas gap heat conductance in
+the fuel heat-conduction model
+ Local errors in the CMS reconstructed assembly-wise powers
+
+4. Test problems
+
+The MSLB test cases have been derived from the OECD VVER-
+1000 MSLB benchmark (Kolev et al., 2006). The reference core is
+Kozloduy-6 Cycle 8 at 270.4 EFPD. It contains once, twice and three
+times burnt fuel assemblies and is surrounded by a row of radial
+reﬂector assemblies and axial reﬂectors of the same width as the
+fuel assembly pitch.
+
+The MSLB transient is initiated at HFP by a large break of steam
+line #4 upstream of the steam intercept valve, outside the contain-
+ment. Following the break and the scram signal, two of the most
+reactive peripheral control assemblies remain stuck out of the core,
+close to the location of maximum overcooling. Two MSLB scenarios
+have been speciﬁed. Scenario 1 is realistic, close to that used in the
+current licensing practice but not the same. It has an additional
+aggravating assumption of two stuck CR clusters instead of one.
+Scenario 2 is pessimistic, derived from Scenario 1 by assuming that
+the main coolant pump (MCP) of the faulted loop fails to trip on
+MSLB signal and all MCP remain in operation during the transient.
+The scram worth in Scenario 2 is assumed to be artiﬁcially reduced
+to less than 50% of the real one by adjusting the absorption cross-
+sections in UOX-CR assemblies and using this modiﬁed library.
+This allows for a signiﬁcant return to power after scram in the
+3D core N/TH calculations, which is a good test for the coupling
+schemes. For transient simulation Scenario 2 is considered only.
+
+The test problems include:
+ MSLB steady-state calculations at HZP
+ MSLB core boundary condition problem
+
+For the discussion to follow, they are brieﬂy summarized below.
+
+4.1. MSLB steady-state problems at HZP
+
+HZP states are used to compare standalone code solutions. The
+considered states, listed in Table 1 allow all standard tests of nodal
+core physics codes in steady state. Detailed speciﬁcations are given
+in (Kolev et al., 2014). In Table 1, Scenario 1 means that the steady
+state calculation is to be performed with the realistic cross-section
+library for UOX-CR assemblies. In Scenario 2 the modiﬁed library
+with reduced absorption cross-sections for controlled assemblies
+is to be used.
+
+Table 1
+Deﬁnition of the steady states.
+
+Number
+
+T-H conditions
+
+Control rod positions
+
+Scenario
+version
+
+0
+1a
+
+1b
+2
+
+3
+
+4
+
+5
+
+HZP
+HZP (near
+critical)
+HZP
+HFP
+
+HZP
+
+HZP
+
+HZP
+
+Groups 1–10 ARO*
+Groups 1–5 up, 6–81% wd, 7–10
+down
+Groups 1–10 ARI
+Groups 1–9 ARO
+Group 10 is 80% wd
+Groups 1–10 ARI
+#90 is 100% wd
+Groups 1–10 ARI
+#140 100% wd
+Groups 1–10 ARI
+#140 and #117 100% wd
+
+1
+1
+
+1
+2
+
+1
+
+2
+
+2
+
+* ARO – all rods out, ARI – all rods in.
+
+4.2. VVER MSLB core boundary condition problem
+
+The MSLB core N/TH problem was derived from the OECD
+VVER-1000 MSLB benchmark (Kolev et al., 2006) using pre-
+calculated MSLB core boundary conditions and the corresponding
+event sequence. The core thermal-hydraulic BC were computed
+in two options: using a CATHARE2 24-sector multi-1D vessel
+model with cross ﬂow (Spasov et al., 2010) or a CFD simulation
+of the lower reactor vessel (Vyskocil, 2015). The validation of the
+CATHARE input model and the mapping scheme used to convert
+the coarse-mesh data to 163 assembly inlet data are reported in
+(Spasov et al., 2010, 2013). The CATHARE2 computed MSLB core
+BC are speciﬁed in a NURESAFE report (Kolev et al., 2014) and
+shown here in Figs. 2–4. The CFD computed time-dependent core
+inlet boundary conditions were obtained from a FLUENT calcula-
+tion with realizable k-e turbulence model validated against the
+Kozloduy-6 vessel mixing experiment. They were used in para-
+graph 5.3 to compare core MSLB simulation with CFD vs. CATHARE
+computed BC.
+
+In the MSLB core boundary value problem the transient is initi-
+ated through the pre-calculated core thermal hydraulic BC. Scram
+is assumed to occur at 0.36 s of the MSLB transient. The time for
+full insertion of the control rods is 4 s. Two peripheral control rods
+remain stuck out of the core after scram. In order to analyze the
+impact of vessel mixing models on the core transient, two different
+locations of the stuck rods were simulated – one in fuel assemblies
+#117 and #140, well within the overcooled sector, and another in
+fuel assemblies #63 and #90 across the lateral boundary of the
+overcooled core sector.
+
+5. Results of the VVER MSLB simulation
+
+5.1. Steady-state calculations at HZP
+
+The recent versions of the 3D core physics codes were tested
+standalone on the hot zero power (HZP) calculations at the nodal
+level.
+to
+Power = 3000 W, Pin = 15.84 MPa, Pout = 15.7 MPa, Tin = 552.15 K,
+Density, mod = 766.5 kg/m3 and Cb = 53 ppm.
+
+VVER-1000 HZP
+
+The
+
+conditions
+
+correspond
+
+Tables 2 and 3 show the computed k-eff and core peaking fac-
+tors in three of the considered HZP states, including such with
+big ﬂux deformations. Note that the local differences are expressed
+as 100 * (DYN-C4)/C4%. More solutions and details can be found in
+(Kolev et al., 2016). It can be seen that the solutions of DYN3D-2G
+vs. COBAYA4-2G agree well. The DYN3D-MG and COBAYA4-MG
+results for the power distributions obtained with the extended
+
+300
+
+290
+
+280
+
+270
+
+260
+
+250
+
+240
+
+230
+
+220
+
+210
+
+200
+
+C
+
+ 
+,
+
+e
+r
+u
+
+t
+
+a
+r
+e
+p
+m
+e
+T
+
+0
+
+100
+
+200
+
+Time, s
+
+300
+
+400
+
+500
+
+Fig. 2. CATHARE computed time history of
+temperatures.
+
+the assembly-wise core inlet
+
+30
+
+I. Spasov et al. / Nuclear Engineering and Design 321 (2017) 26–37
+
+s
+/
+g
+k
+ 
+,
+
+t
+
+e
+a
+r
+w
+o
+F
+
+l
+
+115.0
+
+112.5
+
+110.0
+
+107.5
+
+105.0
+
+0
+
+100
+
+200
+
+Time, s
+
+300
+
+400
+
+500
+
+Fig. 3. CATHARE computed time history of the assembly-wise core inlet mass ﬂow
+rates.
+
+a
+P
+M
+
+ 
+,
+
+e
+r
+u
+s
+s
+e
+r
+P
+
+16.0
+
+15.5
+
+15.0
+
+14.5
+
+14.0
+
+13.5
+
+13.0
+
+12.5
+
+12.0
+
+0
+
+100
+
+200
+
+Time, s
+
+300
+
+400
+
+500
+
+Fig. 4. CATHARE computed time history of the assembly-wise core outlet pressures.
+
+cross-section library in MG format are closer to each other as com-
+pared to those with the compact library. This is attributed to the
+rigorous MG models and uniﬁed solution algorithms in both codes.
+Table 4 shows the COBAYA4 24N solutions used to test the spa-
+tial convergence. The comparison of DYN3D and COBAYA4 6N solu-
+tions vs. 24N solutions shows that both ﬂux solvers produce
+solutions which are well converged in space. The results are consis-
+tent with those reported in (Kolev et al., 2011) for earlier code
+versions.
+
+Figs. 5–8 show the DYN3D vs. COBAYA4 computed core axial
+and radial power distributions in State 1a, respectively State 3
+using the compact cross-section library. In Fig. 6 coloured assem-
+blies mark the location of the inserted control rods. In Fig. 8 the
+location of the stuck rod (#90) and the inserted rods in State 3
+are marked in colour. The code-to-code comparison shows gener-
+ally good agreement, with a small radial tilt of systematic nature
+and somewhat larger differences in the assembly powers in regions
+of steep ﬂux gradients. The max relative difference in the assembly
+powers is 2.7%, in State 3 at the location of the stuck rod. The tilt
+and the discrepancies in local power are attributed mainly to the
+model differences and node sub-division in COBAYA4 (see also
+Table 4).
+
+5.2. MSLB core transient results
+
+The location of the stuck rods was assumed to be in the periph-
+eral assemblies #117 and #140, well within the overcooled core
+sector. Coupled code results obtained with COBAYA3/FLICA4,
+COBAYA4/CTF and DYN3D/CTF were compared code-to-code. For
+a meaningful comparison of the results, some modeling assump-
+tions such as the spatial discretization in the neutron kinetics, ther-
+mal hydraulics and the fuel heat conduction model, as well as the
+local loss coefﬁcients in vertical direction were uniﬁed to the
+extent possible. In the core TH models there are differences in
+the basic ﬂow equations, the ﬂow mixing and heat transfer models,
+and the approximations of the fuel thermal properties (linear inter-
+polation in tables in the CTF model vs. non-linear ﬁtted approxima-
+tions used in the FLICA4 model) which can cause certain
+differences. The diversity of simulation results allows for the sepa-
+
+Table 2
+DYN3D-2G vs. COBAYA-2G 6N results at HZP using the Compact library. Local differences in %.
+
+Code
+
+DYN3D
+COBAYA4
+D, pcm; %
+DYN3D
+COBAYA4
+D, pcm; %
+DYN3D
+COBAYA4
+D, pcm; %
+
+State
+
+XS lib
+
+0
+0
+0
+1a
+1a
+1a
+5
+5
+5
+
+Sc1
+Sc1
+Sc1
+Sc1
+Sc1
+Sc1
+Sc2
+Sc2
+Sc2
+
+Keff
+
+1.02509
+1.02534
+ 25
+0.98758
+0.98804
+ 46
+0.99866
+0.99891
+ 25
+
+Table 3
+DYN3D-MG vs. COBAYA-MG 6N results at HZP using the General MG format library. Local differences in %.
+
+Code
+
+DYN3D
+COBAYA4
+D, pcm; %
+DYN3D
+COBAYA4
+D, pcm; %
+DYN3D
+COBAYA4
+D, pcm; %
+
+State
+
+XS lib
+
+0
+0
+0
+1a
+1a
+1a
+5
+5
+5
+
+Sc1
+Sc1
+Sc1
+Sc1
+Sc1
+Sc1
+Sc2
+Sc2
+Sc2
+
+Keff
+
+1.02503
+1.02541
+ 38
+0.98748
+0.98757
+ 9
+0.99886
+0.99923
+ 37
+
+Fxy
+
+1.343
+1.341
+0.1
+1.390
+1.406
+ 1.0
+2.452
+2.504
+ 0.9
+
+Fxy
+
+1.351
+1.344
+0.5
+1.432
+1.431
+ 0.1
+2.431
+2.446
+ 0.6
+
+Fz
+
+2.960
+2.983
+ 1.0
+1.938
+2.001
+ 1.5
+2.787
+2.801
+ 0.5
+
+Fz
+
+3.013
+3.010
+0.1
+2.015
+1.997
+0.9
+2.853
+2.853
+0
+
+Table 4
+DYN3D vs. COBAYA4 6N vs. COBAYA4 24N results at HZP using the Compact library.
+
+I. Spasov et al. / Nuclear Engineering and Design 321 (2017) 26–37
+
+31
+
+Code
+
+DYN3D
+COBAYA 6N
+COBAYA 24N
+DYN3D
+COBAYA 6N
+COBAYA 24N
+DYN3D
+COBAYA 6N
+COBAYA 24N
+
+]
+-
+[
+ 
+r
+e
+w
+o
+p
+
+ 
+l
+
+a
+
+i
+
+ 
+
+x
+a
+d
+e
+z
+i
+l
+
+a
+m
+r
+o
+n
+
+2.5
+
+2.0
+
+1.5
+
+1.0
+
+0.5
+
+0.0
+
+0
+
+State
+
+XS lib
+
+0
+0
+0
+1a
+1a
+1a
+5
+5
+5
+
+Sc1
+Sc1
+Sc1
+Sc1
+Sc1
+Sc1
+Sc2
+Sc2
+Sc2
+
+COBAYA4
+DYN3D
+
+5
+
+10
+
+15
+
+axial layer
+
+20
+
+25
+
+30
+
+Fig. 5. HZP state 1a: DYN3D-2G vs. COBAYA-2G 6N computed radially averaged
+core power (dk =  46 pcm).
+
+3.0
+
+2.5
+
+2.0
+
+1.5
+
+1.0
+
+0.5
+
+0.0
+
+0
+
+]
+-
+[
+ 
+r
+e
+w
+o
+p
+
+ 
+l
+
+a
+
+i
+
+ 
+
+x
+a
+d
+e
+z
+i
+l
+
+a
+m
+r
+o
+n
+
+Fxy
+
+1.343
+1.341
+1.342
+1.390
+1.406
+1.438
+2.452
+2.504
+2.491
+
+Fz
+
+2.960
+2.983
+2.985
+1.938
+2.001
+2.004
+2.787
+2.801
+2.807
+
+Keff
+
+1.02509
+1.02534
+1.02529
+0.98758
+0.98804
+0.98794
+0.99866
+0.99891
+0.99886
+
+COBAYA4
+DYN3D
+
+5
+
+10
+
+15
+
+axial layer
+
+20
+
+25
+
+30
+
+Fig. 7. HZP state 3: DYN3D-2G vs. COBAYA-2G 6N computed radially averaged core
+power (dk =  83 pcm).
+
+28
+0,880
+0,905
+
+24
+1,310
+1,325
+
+16
+0,850
+0,852
+
+27
+1,070
+1,087
+
+21
+0,770
+0,765
+
+11
+0,670
+0,667
+
+26
+1,390
+1,409
+
+20
+0,890
+0,886
+
+10
+0,880
+0,878
+
+25
+0,960
+0,972
+
+17
+1,310
+1,317
+
+22
+0,960
+0,970
+
+12
+1,390
+1,406
+
+18
+1,080
+1,086
+
+13
+0,900
+0,905
+
+19
+0,890
+0,883
+
+23
+0,680
+0,684
+
+15
+0,760
+0,751
+
+14
+0,910
+0,896
+
+8
+
+9
+
+1,030
+1,010
+
+3
+
+0,910
+0,896
+
+4
+
+2
+
+1
+
+0,920
+0,891
+
+0,930
+0,908
+
+1,100
+1,071
+
+0,750
+0,737
+
+0,970
+0,965
+
+0,910
+0,918
+
+1,290
+1,312
+
+5
+
+6
+
+7
+
+Fig. 6. HZP state 1a: DYN3D-2G vs. COBAYA-2G 6N computed axially averaged
+assembly powers. 1 - assembly no. in 1/6 core numeration, 0.920 - DYN3D relative
+assembly power, 0.891 - COBAYA4 relative assembly power.
+
+ration of the effects of core physics and thermal hydraulics model-
+ing assumptions.
+
+In order to study the impact of vessel mixing modeling on the
+MSLB core dynamics, separate core simulations with CATHARE
+and CFD computed MSLB core BC have been performed. This sec-
+tion presents the results obtained with core BC from a CATHARE2
+24-sector RPV calculation. Core simulation results with CFD com-
+puted MSLB core BC will be discussed in Section 5.3. Note that
+all results throughout this paper are obtained using the compact
+cross-section library, unless explicitly stated otherwise.
+
+139
+2,440
+2,471
+
+117
+2,900
+2,947
+
+91
+3,080
+3,135
+
+149
+1,350
+1,367
+
+129
+3,180
+3,220
+
+105
+2,080
+2,112
+
+78
+3,270
+3,316
+
+140
+1,560
+1,567
+
+118
+1,300
+1,309
+
+92
+2,520
+2,550
+
+128
+3,530
+3,596
+
+104
+7,110
+7,298
+
+77
+3,850
+3,938
+
+150
+1,360
+1,370
+
+130
+1,060
+1,064
+
+106
+1,140
+1,141
+
+79
+1,770
+1,774
+
+141
+0,990
+0,988
+
+119
+1,380
+1,375
+
+93
+1,720
+1,717
+
+131
+1,270
+1,258
+
+107
+1,350
+1,340
+
+80
+1,650
+1,635
+
+116
+5,280
+5,417
+
+90
+8,100
+8,353
+
+103
+6,810
+7,025
+
+76
+6,030
+6,232
+
+89
+5,460
+5,701
+
+120
+0,970
+0,954
+
+94
+1,020
+1,003
+
+108
+1,180
+1,159
+
+81
+0,930
+0,912
+
+95
+0,800
+0,781
+
+82
+0,460
+0,441
+
+Fig. 8. HZP state 3: DYN3D-2G vs. COBAYA-2G 6N computed axially averaged
+assembly powers. 76 - assembly no. in full-core numeration, 6.030 - DYN3D relative
+assembly power, 6.232 - COBAYA4 relative assembly power.
+
+Fig. 9 shows the predicted time history of total core power. A
+signiﬁcant return to power can be seen, with a maximum of 66–
+68% of the nominal rated power. Table 5 summarizes the results
+for the total power and nodal core peaking factors at time of max-
+imum return to power as computed by the considered codes.
+Table 6 illustrates the time history of the core reactivity as com-
+puted by the 3D models. In Tables 5 and 6 superscript 1 denotes
+solutions with the compact cross-section library and superscript
+
+32
+
+I. Spasov et al. / Nuclear Engineering and Design 321 (2017) 26–37
+
+properties: CTF uses linear interpolation in tables while FLICA4
+employs nonlinear ﬁtted approximations based on the same tables.
+Fig. 10 illustrates a comparison of the radial core power distri-
+butions at time of max return to power (69 s) as computed by
+COBAYA4/CTF using the cross-section library in compact vs. gen-
+eral MG format (see the discussion of the impact of this reﬁnement
+at the end of paragraph 5.2).
+
+The hot assembly parameters at time of max overcooling (69 s
+of the transient) are shown in Figs. 11–13, as computed at the
+nodal level. The results show that despite the high amount of
+energy release in the hot assembly, no bulk boiling occurs except
+for a little sub-cooled boiling at the walls predicted by FLICA4. This
+is mainly due to the deep overcooling and low inlet temperature.
+The values of the hot assembly safety parameters, such as fuel cen-
+ter temperature and cladding temperature remain within the
+acceptable limits for burnt fuel.
+
+Fig. 9. Time history of the total core power with stuck rods in #117 and #140.
+
+2 denotes solutions with the general MG format library. DYN3D/
+CTF and COBAYA3/FLICA4 predict a slight return to criticality of a
+few pcm while the core reactivity in the COBAYA4/CTF solution
+is close to criticality but remains slightly negative. The behavior
+of the core is determined by the dynamics of a small number of
+assemblies in the overcooled sector around the stuck rod locations,
+and the core power is released mainly in these assemblies. Hot
+assembly is #129,
+located between the assemblies #117 and
+#140 with the stuck rods.
+
+The results in Fig. 9 and Table 5 show a good overall agreement.
+The COBAYA4/CTF and DYN3D/CTF computed total power curves
+are nearly parallel with a shift which indicates somewhat different
+tripped rod worth. This difference is attributed mainly to the neu-
+tron kinetics models. On the other hand, the comparison of
+COBAYA3/FLICA4 vs. COBAYA4/CTF results shows the impact of
+fuel heat conduction and core mixing modeling. It should be noted
+that the core physics models in COBAYA3 and COBAYA4 are essen-
+tially the same. Fig. 9 shows that the results with these couplings
+are close to each other until app. 130 s of the transient, and after
+that some decline of the COBAYA3/FLICA4 solution from that of
+COBAYA4/CTF can be seen. The analysis, involving simulation with
+an independent coupling of COBAYA3 shows that this is mainly
+due to the use of different approximations of the fuel thermal
+
+158
+1,646
+1,628
+
+141
+2,003
+1,984
+
+119
+2,135
+2,121
+
+151
+2,217
+2,202
+
+131
+2,335
+2,316
+
+107
+1,818
+1,812
+
+150
+2,620
+2,586
+
+130
+1,977
+1,962
+
+106
+1,500
+1,497
+
+139
+2,719
+2,677
+
+117
+3,005
+2,966
+
+149
+2,052
+2,022
+
+129
+3,568
+3,517
+
+105
+1,851
+1,841
+
+140
+3,294
+3,248
+
+118
+1,895
+1,883
+
+128
+2,790
+2,747
+
+104
+3,189
+3,148
+
+116
+2,644
+2,606
+
+103
+2,292
+2,263
+
+142
+1,617
+1,611
+
+120
+1,868
+1,864
+
+132
+1,807
+1,799
+
+108
+1,809
+1,806
+
+121
+1,502
+1,500
+
+109
+1,125
+1,130
+
+89
+
+90
+
+91
+
+92
+
+93
+
+94
+
+95
+
+96
+
+1,572
+1,556
+
+2,215
+2,200
+
+1,696
+1,690
+
+1,936
+1,926
+
+1,726
+1,722
+
+1,451
+1,455
+
+1,128
+1,132
+
+81
+
+80
+
+79
+
+78
+
+77
+
+76
+
+82
+
+0,816
+0,822
+
+83
+
+1,912
+1,897
+
+1,504
+1,497
+
+1,905
+1,895
+
+1,596
+1,596
+
+1,609
+1,609
+
+1,050
+1,054
+
+67
+
+66
+
+65
+
+64
+
+63
+
+62
+
+68
+
+0,641
+0,648
+
+69
+
+0,642
+0,649
+
+70
+
+1,085
+1,078
+
+1,459
+1,457
+
+1,091
+1,091
+
+1,326
+1,324
+
+1,177
+1,178
+
+0,935
+0,942
+
+0,738
+0,744
+
+0,616
+0,623
+
+0,575
+0,586
+
+Fig. 10. COBAYA4/CTF computed radial power distribution at 69 s using compact
+vs. general format XS library. 62 - assembly no. in full-core numeration, 1.085 -
+relative power with the compact XS lib, 1.078 - relative power with the general
+format XS lib.
+
+Table 5
+Total power and peaking factors at time of max return to power. Stuck rods in assemblies #117 and #140.
+
+Core BC by
+
+Cathare2
+Cathare2
+Cathare2
+Cathare2
+
+1 Compact XS lib.
+2 General format XS lib.
+
+Codes
+
+DYN3D/CTF
+Cobaya4/CTF1
+Cobaya4/CTF2
+Cobaya3/FLICA4
+
+Time, s
+
+P tot, MW
+
+68
+69
+69
+68
+
+1979
+2047
+2098
+2043
+
+Fxy
+
+3.132
+3.568
+3.517
+3.712
+
+Fz
+
+1.404
+1.572
+1.586
+1.599
+
+Table 6
+Reactivity computed by the 3D models. Stuck rods in assemblies #117 and #140.
+
+Codes
+
+Reactivity, $/Time
+
+DYN3D/CTF
+Cobaya4/CTF1
+Cobaya4/CTF2
+Cobaya3/FLICA4
+
+1 Compact XS lib.
+2 General format XS lib.
+
+0 s
+ 0.002
+ 0.005
+ 0.005
+0.000
+
+4.4 s
+ 3.197
+ 3.334
+ 2.883
+ 3.774
+
+69 s
+
+0.004
+ 0.040
+ 0.034
+0.001
+
+Fq
+
+4.32
+4.26
+4.22
+
+200 s
+ 0.126
+ 0.176
+ 0.175
+ 0.164
+
+I. Spasov et al. / Nuclear Engineering and Design 321 (2017) 26–37
+
+33
+
+per hexagon (6N, 24N) in COBAYA were compared using the same
+convergence criteria. In the 24N solution the maximum return to
+power is lower by 29 MW (which is app. 1% of the nominal rated
+power) and the hexagonal node peaking factors are only slightly
+different. The COBAYA 6N transient solution is well converged in
+space.
+
+The coupled COBAYA/CTF core model has the potential for fur-
+ther improvements through the use of simultaneous COBAYA 6N
+and thermal-hydraulic node sub-division to 6 channels (6C) per
+hexagon. This requires some veriﬁcation runs using the corre-
+sponding functions in the CTF code API for hexagonal/triangular
+geometry. A preliminary test of the TH mesh sub-division was car-
+ried out in MSLB simulation (Kolev et al., 2016) with an indepen-
+dent coupling of COBAYA3-6N/COBRA3c-6C. The effect was app.
+1% higher maximum total power and 1.8% lower Fxy peaking factor
+due to the reﬁned mesh of the feedback action.
+
+Numerical experiments (not illustrated here) show that a
+reﬁnement of the radial CTF fuel model mesh from 7 to 10 equidis-
+tant radial points in the pellet gives 1 MW higher total power and
+practically the same volumetric peaking factor. The heat conduc-
+tion solution is well converged in space.
+
+The impact of different core mixing models in CTF was studied
+in comparative calculations with given turbulent mixing coefﬁ-
+cient Beta = Transfer mass ﬂux/Axial mass ﬂux = 0.001 vs. single-
+phase mixing
+Rogers-Rosehart
+(Avramova, 2007). The results at time of maximal return to power
+(69 s) are practically the same: Ptot = 2047.13 MW, Fq = 4.265
+when
+while
+Ptot = 2046.86 MW, Fq = 4.263 with mixing coefﬁcient equal to
+0.001. The Rogers-Rosehart model was adopted as basic in this
+study.
+
+Rogers-Rosehart
+
+mixing
+
+model
+
+coefﬁcient
+
+according
+
+to
+
+using
+
+Comparative simulations with COBAYA4/CTF using the compact
+vs. the general MG format cross-section library show that in the
+considered MSLB transient the effect of using the full matrix of
+scattering cross sections and explicit IDF, as well as thermo-
+hydraulic feedback-dependent kinetic parameters is relatively
+small but not negligible (see Fig. 10 and Tables 5, 6). The max total
+power at 69 s is 2098 MW (gen. format lib) vs. 2047 MW (compact
+lib), while the volumetric peaking factor is lower by app. 1% due to
+the different 3D ﬂux redistribution.
+
+DYN3D nodal/PPR calculations have been tested for mini-cores
+in the NURESAFE project beyond the scope of this article (Hádek,
+2016; Kolev et al., 2016). The full-core nodal cross-section library
+for MSLB analysis (Petrov et al., 2015) has a provision for PPR with
+a supplementary library of APOLLO2 computed pin-by-pin nodal
+power shapes (form-functions). The full-core nodal model of
+DYN3D is ready to use with PPR for the hot assembly (available
+model, cross-section library and full-core multi-parameter pin-
+by-pin form function library for PPR).
+
+Fig. 11. Hot assembly (#129) axial power distribution at time of max power (69 s).
+
+2300
+
+2100
+
+1900
+
+1700
+
+1500
+
+1300
+
+1100
+
+900
+
+700
+
+500
+
+C
+
+ 
+,
+
+e
+r
+u
+
+t
+
+a
+r
+e
+p
+m
+e
+T
+
+COBAYA3/FLICA4
+
+COBAYA4/CTF
+
+0
+
+0.5
+
+1
+
+1.5
+
+2
+Elevation, m
+
+2.5
+
+3
+
+3.5
+
+Fig. 12. Hot assembly axial distribution of the fuel center temperature (node
+averaged for radial mesh 1) at 69 s.
+
+320
+
+300
+
+280
+
+260
+
+240
+
+220
+
+C
+
+ 
+,
+
+e
+r
+u
+
+t
+
+a
+r
+e
+p
+m
+e
+T
+
+COBAYA4/CTF
+
+COBAYA3/FLICA4
+
+200
+
+0
+
+0.5
+
+1
+
+1.5
+
+2
+Elevation, m
+
+2.5
+
+3
+
+3.5
+
+5.3. MSLB core simulation with CFD computed boundary conditions
+
+Fig. 13. Hot assembly axial proﬁle of the fuel cladding surface temperature at 69 s.
+
+It is worth noting that a sub-channel CTF thermal-hydraulic
+model of a VVER assembly was developed in the frame of NURE-
+SAFE (Spasov et al., 2014) and tested on a hot assembly TH bound-
+ary condition problem in comparison with a FLICA4 sub-channel
+model. The results of this analysis (Kolev et al., 2016) will be pre-
+sented in a future publication.
+
+In order to assess the spatial convergence of the nodal solutions
+and the effects of model reﬁnements, numerical experiments were
+carried out as summarized below.
+
+Table 7 illustrates the impact of the neutronic mesh reﬁnement.
+Transient solutions with node sub-division to 6 and 24 triangles
+
+For improved resolution of the MSLB core-vessel simulation, the
+use of CFD computed core BC was explored. The objective was to
+analyze the advantages and limitations of such reﬁnements for
+the simulation of reactivity transients with sector formation. A
+computationally efﬁcient FLUENT model of the down-comer and
+the lower plenum with realizable k-e (rke) turbulence model was
+created and tested (Vyskocˇil, 2013) against the Kozloduy-6 vessel
+mixing experiment (Kolev et al., 2007). Time-dependent MSLB core
+boundary conditions were calculated with this model by solving
+the MSLB RPV boundary condition problem of the OECD VVER-
+1000 MSLB benchmark (Kolev et al., 2006). In this calculation an
+unstructured spatial mesh of 1.5 million cells and second-order
+upwind advection scheme were used.
+
+34
+
+I. Spasov et al. / Nuclear Engineering and Design 321 (2017) 26–37
+
+Table 7
+COBAYA4 6N/CTF vs. COBAYA4 24N/CTF transient solution at 69 s. Stuck rods in assemblies #117, #140.
+
+Core BC by
+
+Cathare2
+Cathare2
+
+Comp. model
+
+Cobaya4/CTF 6N
+Cobaya4/CTF 24N
+
+Time, s
+
+69
+69
+
+P tot, MW
+
+2047
+2018
+
+Fxy
+
+3.562
+3.556
+
+Fz
+
+1.572
+1.586
+
+Fq
+
+4.26
+4.29
+
+Fig. 14. Map of the FLUENT rke computed assembly inlet temperatures (C) at 70 s.
+
+Fig. 15. FLUENT rke vs. CATHARE2 computed core inlet temperatures (C) at 70 s. 62
+- assembly no. in full-core numeration, 250.6 - FLUENT rke computed Tin (C), 233.5
+- CATHARE2 computed Tin (C).
+
+This section summarizes the comparison of core simulation
+results obtained using CFD vs. CATHARE computed core BC. Figs. 14
+and 15 illustrate the predicted disturbed sector formation by snap-
+
+Fig. 16. Time history of assembly #90 inlet temperature.
+
+shot maps of the assembly inlet coolant temperatures at 70 s from
+the onset of the MSLB transient. This is near the time of max over-
+cooling (69 s). Figs. 15–17 show that in this particular comparison
+the CFD (Vyskocil, 2015) and CATHARE 24-sector (Spasov et al.,
+2010) computed BCs are close to each other in the interior of the
+disturbed sector and may be substantially different around the lat-
+eral boundary of the disturbed sector, because of differences in the
+predicted loop ﬂow rotation and mixing. We explore the impact of
+the use of CFD computed BCs on the local and global core dynamics
+when the stuck rod perturbations are imposed well within the dis-
+turbed sector, and at the lateral sector boundaries.
+
+I. Spasov et al. / Nuclear Engineering and Design 321 (2017) 26–37
+
+35
+
+)
+
+W
+M
+
+(
+ 
+r
+e
+w
+o
+P
+
+3000
+
+2500
+
+2000
+
+1500
+
+1000
+
+500
+
+0
+
+0
+
+COBAYA4/CTF CATHARE2 BC
+COBAYA4/CTF FLUENT realizable k-e BC
+
+50
+
+100
+Time (s)
+
+150
+
+200
+
+Fig. 17. Time history of assembly #63 inlet temperature.
+
+Fig. 18. Time history of total power with stuck rods in #63 and #90 FLUENT rke
+core BC vs. CATHARE2 core BC.
+
+The results with the stuck rods in the interior of this sector
+(#117, #140) show that the corresponding total core powers and
+peaking factors are close to each other, see Table 8. The effect of
+using CFD computed core BC is small and mainly at the periphery
+of the disturbed sector. The maximum total power is lower by
+19 MW due to the CFD predicted stronger mixing at the lateral sec-
+tor boundaries.
+
+However, this may not be the case when the stuck rods are
+located around the lateral boundary of the disturbed sector. In
+order to explore this possibility, the location of the two stuck rods
+was assumed to be in fuel assemblies #63 and #90 at the lateral
+boundary of the overcooled core sector (see Fig. 19). These control
+rods are from the same rod groups and at the same radial positions
+as in the preceding case. Figs. 16 and 17 show that in this case the
+FLUENT rke and CATHARE computed time-dependent inlet BC for
+assembly #63 are different because of the higher CFD resolution
+around the lateral boundaries of the disturbed sector. In this case
+the impact of the CFD computed BC on the core dynamics is a little
+more pronounced in terms of local parameters. See Fig. 18 for the
+corresponding differences in the total core power, and Fig. 19 for
+the radial power distributions at 70 s (app. the time of maximum
+return to power). The total power and the peaking factors are sum-
+marized in Table 9. FLUENT rke predicts more coolant mixing
+around the stuck rods and the maximum return to power with
+CFD BC is lower by 40 MW. The peaking factors obtained with
+CATHARE computed BC are only slightly different (see Table 9)
+since the hot assembly #104 is located well within the overcooled
+sector.
+
+The results show that the main differences in the CFD vs. CATH-
+ARE computed assembly inlet temperatures (and correspondingly
+in the local assembly powers) are around the lateral boundaries
+of the disturbed sector due to the higher CFD resolution. This
+suggests that the CFD computed core BC may be important in the
+analysis of hypothetical scenarios of asymmetric VVER coolant
+transients with multiple rod perturbations of the core.
+
+In conclusion, we have presented a sample comparison of MSLB
+results using core BC computed with two particular models: CATH-
+
+Fig. 19. COBAYA4/CTF computed assembly powers at 70 s with stuck rods in #63
+and #90. 62 - assembly no. in full-core numeration, 1.319 - relative power with
+FLUENT rke computed BC, 1.512 - relative power with CATHARE2 computed BC.
+
+ARE 24-sector coarse-mesh and FLUENT with a limited number of
+cells and rke turbulence model. Based on the comparison of CFD
+solutions in the OECD VVER-1000 vessel mixing benchmark report
+(Kolev et al., 2010) and in related publications such as (Bieder et al.,
+2007; Hoehne, 2009) (Böttcher and Krüßmann, 2010) one can
+expect some scatter in the parameters of the core transient when
+using transient core boundary conditions obtained with different
+computationally efﬁcient CFD models. Additional testing is neces-
+sary for accuracy-cost optimization.
+
+Table 8
+Total power and peaking factors at time of max return to power. Stuck rods in assemblies #117 and #140, hot assembly is #129.
+
+Core BC computed by
+
+Cathare2
+Fluent rke
+
+Core N/TH codes
+
+Cobaya4/CTF
+Cobaya4/CTF
+
+P tot, MW
+
+2047
+2028
+
+Fxy
+
+3.562
+3.581
+
+Fz
+
+1.572
+1.604
+
+Fq
+
+4.260
+4.313
+
+36
+
+I. Spasov et al. / Nuclear Engineering and Design 321 (2017) 26–37
+
+Table 9
+Total power and peaking factors at time of max return to power. Stuck rods in assemblies #63 and #90, hot assembly is #104.
+
+Core BC computed by
+
+Cathare2
+Fluent rke
+
+Core N/TH codes
+
+Cobaya4/CTF
+Cobaya4/CTF
+
+P tot, MW
+
+2036.5
+1996.9
+
+Fxy
+
+3.264
+3.195
+
+Fz
+
+1.590
+1.634
+
+Fq
+
+4.020
+4.067
+
+6. Summary and conclusions
+
+References
+
+Recent developments in the NURESIM platform nodal calcula-
+tion schemes for core analysis were implemented and tested in
+VVER MSLB core simulation.
+
+The testing of the core physics models shows that the neutron
+ﬂux solutions are well converged in space. Node subdivision to
+24 triangles per hexagon in COBAYA4 does not substantially
+improve the results.
+
+The hexagonal geometry versions of COBAYA4 and DYN3D at
+the nodal level and their couplings with full-core CTF and FLICA4
+thermal-hydraulic models
+industrial
+applications.
+
+reach maturity
+
+for
+
+The DYN3D code is capable of nodal/PPR calculations for VVER
+RIA analysis, which have been tested for mini-cores in the NURE-
+SAFE project beyond the scope of this paper. It is ready to use for
+VVER mini-cores and full-core simulation with PPR for the hot
+assembly.
+
+for
+
+further
+
+improvement
+
+The coupled COBAYA4/CTF models for VVER applications have
+the potential
+through the use of
+thermal-hydraulic node sub-division to six triangles per hexagon.
+This requires the activation and veriﬁcation of the corresponding
+functions in the CTF code API for hexagonal/triangular geometry.
+The results with coarse-mesh and CFD computed core boundary
+conditions show that the validated system code models of the RPV
+are applicable to MSLB analysis but have some limitations in reso-
+lution for the local effects.
+
+Validated CFD calculations of the down-comer and the lower
+plenum conditions are found to improve the resolution in the 3D
+core simulation of asymmetric coolant transients with sector for-
+mation. In the considered cases the impact of this reﬁnement is
+mild and is more pronounced around the periphery of the dis-
+turbed sector. It may be stronger in hypothetic scenarios of asym-
+metric VVER coolant transients with multiple rod perturbations of
+the core.
+
+We have presented a sample comparison of MSLB results mak-
+ing use of transient core boundary conditions computed with two
+particular models: CATHARE 24-sector coarse-mesh and FLUENT
+with a limited number of cells and rke turbulence model. Based
+on the lessons from the OECD VVER-1000 vessel mixing bench-
+mark and the studies in related publications one can expect some
+scatter in the parameters of the core transient when using different
+computationally efﬁcient CFD models. Additional testing is neces-
+sary for accuracy-cost optimization.
+
+Acknowledgements
+
+This work was partially funded by the EC in the frame of the
+NURESAFE EU project, contract no. 323263 and by the Ministry
+of science and education in Bulgaria under contract D01-191-
+2014. Part of the results in this work has been obtained with the
+use of CATHARE2, developed by CEA, EDF, AREVA NP and IRSN.
+The authors gratefully acknowledge the collaboration of Yann
+Perin from GRS with the development of the CTF coupling interface
+in Salome.
+
+Ahnert, C., Capacities and achievements of the COBAYA4 code after the NURESAFE
+
+project, NURESAFE Open General Seminar, Brussels, November 4–5, 2015.
+
+ANSYS-Fluent site: http://www.ansys.com/Products/Fluids/ANSYS-Fluent.
+Aragones, J.M., Ahnert, C., Garcia-Herranz, N., 2007. The analytic coarse-mesh ﬁnite
+difference method for multigroup and multidimensional diffusion calculations.
+Nucl. Sci. Eng. 157, 1–15.
+
+Avramova, M., 2007. CTF Theory Manual. Pennsylvania State University.
+Avramova, M., D. Cuervo, K. Ivanov, et al., Improvements and applications of
+COBRA-TF for stand-alone and coupled LWR safety analyses. In: Proceedings of
+the American Nuclear Society’s Topical Meeting on Reactor Physics (PHYSOR
+’06), Vancouver, Canada, September 2006.
+
+Avramova, M., Cuervo, D., 2013. Assessment of CTF boiling transition and critical
+heat ﬂux modeling capabilities using the OECD/NRC BFBT and PSBT benchmark
+databases. Sc. Technol. Nucl.
+Installations 2013, (2013), 12. https://www.
+hindawi.com/journals/stni/2013/508485/ 508485.
+
+Bieder, U., Fauchet, G., Betin, S., Kolev, N., Popov, D., 2007. Simulation of mixing
+
+effects in a VVER-1000 reactor. Nucl. Eng. Des. 237, 1718–1728. Elsevier.
+
+Böttcher, M., Krüßmann, R., 2010. Primary loop study of a VVER-1000 reactor with
+special focus on coolant mixing. Nucl. Eng. Des. 240 (9), 2244–2253. Elsevier.
+Brun, E., Damian, F., Diop, C.M., Dumonteil, E., Hugot, F.X., Jouanne, C., Lee, Y.K.,
+Malvagi, F., Mazzolo, A., Petit, O., Trama, J.C., Visonneau, T., Zoia, A. (2015)
+TRIPOLI-4Ò, CEA, EDF and AREVA reference Monte Carlo code. In: Proc. Joint
+International Conference on Supercomputing in Nuclear Applications and
+Monte Carlo Paris, Nov 2013, SNA + MC 2013, Ann. Nucl. Energy, Vol. 82,
+August 2015, Pages 151–160.
+
+Chanaron, B., Ahnert, C., Crouzet, N., Sanchez, V., Kolev, N., et al., 2015. Advanced
+multi-physics simulation for reactor safety in the framework of the NURESAFE
+project. Ann. Nucl.
+166–177. http://dx.doi.org/10.1016/j.
+anucene.2014.12.013.
+
+Energy
+
+84,
+
+Chanaron, B., 2012, NURESAFE, Nuclear Reactor Safety Simulation Platform –
+
+Description of Work, EU-FP7 project, Grant agreement: 323263.
+
+Chauliac, C., Aragonés, J.-M., Bestion, D., Cacuci, D.G., Crouzet, N., Weiss, F.-P.,
+Zimmermann, M.A., 2011. NURESIM – A European simulation platform for
+nuclear reactor safety: Multi-scale and multi-physics calculations, sensitivity
+and uncertainty analysis. Nucl. Eng. Des. 241 (9), 3416–3426.
+COBAYA team, 2015, COBAYA4 user’s guide, UPM Report, Madrid.
+Cuervo, D., Rucabado, G., Sabater, A., Garcia-Herranz, N., 2015. COBAYA4-CTF Pin-
+Cell Coupling Script for a VVER-1000 Assembly: NURESAFE Technical note.
+UPM.
+
+Fillion, P., Chanoine, A., Dellacherie, S., Kumbaro, A., 2011. FLICA-OVAP: a new
+platform for core thermal-hydraulic studies. Nucl. Eng. Des. 241 (11), 4348–
+4358.
+
+Fillion, Ph., Bergeron, A., Gallo, D., Gregoire, O., Richebois, E., Royer, E., Zimmer, S.,
+
+2011. FLICA4 Users Guide. CEA Saclay.
+
+Garcia-Herranz N., Cabellos, O., Aragones, J.M., Ahnert, C., 2002, Performance of the
+analytic coarse-mesh ﬁnite difference method with heterogeneous nodes. In:
+PHYSOR 2002, Seoul, Korea, October 7–10.
+
+García-Herranz, N, Cuervo, D., Sabater, A., Rucabado, G., Sánchez-Cervera, S., Castro,
+E., 2017. Multi-scale neutronics/thermal-hydraulics coupling with COBAYA4
+code for pin-by-pin PWR transient analysis. Nucl. Eng. Des. 321, 38–47.
+
+Geffraye, G. et al., 2011. CATHARE2 v2.5_2: a single version for various applications.
+
+Nucl. Eng. Des. 241 (11), 2011.
+
+Gomez, A., Sanchez Espinosa, V.H., Kliem, S., Gommlich, A., 2014. Implementation of
+a fast running full core pin power reconstruction method in DYN3D. Nucl. Eng.
+Des. 274, 86–97.
+
+Hádek,
+
+J., Mittag, S., Validation of DYN3D Pin-power Calculations against
+Experimental VVER-Full-Core Benchmark.
+Int. Conf. on
+Mathematics, Computational Methods and Reactor Physics (M&C 2009), May
+3–7, Saratoga Springs, NY.
+
+In: Proc. of
+
+Hádek, J., Validation of DYN3D Pin-power Calculation against Experimental Results
+from the LR-0 Reactor. In: 22nd AER Symposium on VVER Reactor Physics and
+Reactor Safety, Pruhonice, Czech Republic, October 1–5, 2012.
+
+Hádek, J., Testing of DYN3D nodal and pin-power reconstruction simulation of a
+VVER-1000 mini-core. In: Proc. 26th Symposium of AER on VVER Reactor
+Physics and Reactor Safety, October 10–14, 2016, Helsinky, Finland.
+
+Herrero J.J., Jiménez J., Aragonés J. M., Ahnert C., 2009. Performance of whole core
+pin-by-pin calculations by domain decomposition through alternate dissections
+in steady state and transient calculations. In: Proc. of Int. Conf. on Mathematics,
+Computational Methods and Reactor Physics (M&C 2009), May 3–7, Saratoga
+Springs, NY.
+
+I. Spasov et al. / Nuclear Engineering and Design 321 (2017) 26–37
+
+37
+
+Hoehne, T., 2009. CFD simulation of thermal-hydraulic benchmark V1000CT-2 using
+ANSYS CFX Hindawi Sci. Technol. Nucl. Installations 2009,, 7. http://dx.doi.org/
+10.1155/2009/835162 835162.
+
+Ivanov, P., 2014. Testing of 2D COBAYA3 nodal solutions for a VVER mini-core in 2, 4
+and 8-group diffusion approximation vs. TRIPOLI4 ref solution: Technical note.
+INRNE.
+
+Jimenez, J., 2009. COBAYA/FLICA4 coupling in Salome 5: NURISP Technical note.
+
+UPM.
+
+and Supercomputing in Nuclear Applications, Vol. 1. ANS-KfK, Karlsruhe, pp.
+646–657.
+
+Petrov N., Spasov, I., Kolev, N., Sanchez-Cervera, S., Garcia-Herranz, N., Jan 2015.
+Nodal level XS library v2 for VVER parameterized for MSLB, NURESAFE D14.25-
+Rev2 report.
+
+Rohde, U. et al., 2016. The reactor dynamics code DYN3D – models, validation and
+
+applications. Progr. Nucl. Energy 89, 170–190.
+
+Sanchez, R., APOLLO2 Year 2010, Nuclear Engineering and Technology, Vol. 42, no. 5,
+
+Jimenez, J., Sanchez, V., June 2013, Full-core COBRA-TF input model for VVER MSLB
+
+October (2010).
+
+analysis, NURESAFE D14.22b Report.
+
+Jimenez, G., Herrero, J.J., Gommlich, A., Kliem, S., Cuervo, D., Jimenez, J., 2015. Boron
+dilution transient simulation analyses in a PWR with neutronics/thermal
+hydraulics coupled codes in the NURISP project. Ann. Nucl. Energy 84, 86–97.
+Kolev, N.P. et al., 2010. VVER-1000 Coolant transient benchmark Phase II (V1000CT-
+2), Vol. 2, Final Speciﬁcations of the VVER-1000 MSLB problem, NEA/NSC/DOC
+2006(6) Ó OECD.
+
+Kolev N.P., Aniel, S., Royer, E., Bieder, U., Popov, D., Topalov, Ts., 2010. VVER-1000
+Coolant transient benchmark Phase II (V1000CT-2), Vol. 1, Final speciﬁcations of
+the VVER-1000 vessel mixing problem, NEA/NSC/DOC (2007) 22, Ó OECD.
+
+Kolev, N.P., Spasov, I., Royer, E., 2010. VVER Coolant Transient Benchmark: Phase 2
+(V1000CT-2), Volume 3: Summary Results of Exercise 1 on Vessel Mixing
+Simulation, NEA/NSC/DOC (2010) 10, Paris Ó OECD.
+
+Kolev, N.P., Spasov, I., Tzanov, Tz., Royer, E., 2011. VVER-1000 Coolant Transient
+Benchmark: Phase 2 (V1000CT-2) Volume 4: Summary results of coupled 3D
+kinetics/core-vessel thermal hydraulics and core-plant MSLB simulation. NEA/
+NSC/DOC (2011) 3, Paris Ó OECD.
+
+Kolev N.P., Spasov, I., Todorova, G., 2014. VVER MSLB Speciﬁcation-Vessel mixing
+
+tests and N/TH simulation at the nodal level, NURESAFE D14.11.1 report.
+
+Kolev, N.P., Spasov, I., Zheleva, N., Todorova, G., Petrov, N., Ivanov, P., Mitkov, S.,
+Kamenscic, O., Hadek, J., Vyskocil, L., Jimenez, J., Sanchez, V., Sanchez-Cervera,
+S., Garcia-Herranz, N., Sabater, A., Cuervo, D., February 2016. Higher-resolution
+VVER MSLB simulation - Final report, NURESAFE D14.41.
+
+Lozano, J.-A., Garcia-Herranz, N., Ahnert, C., Aragones, J.M., 2008. The analytic nodal
+for 3D rectangular geometry:
+
+diffusion solver ANDES in multigroups
+development and performance analysis. Ann. Nucl. Energy 35, 2365–2374.
+
+Lozano, J.A., Jiménez, J., García-Herranz, N., Aragonés, J.M., 2010. Extension of the
+analytic nodal diffusion solver ANDES to triangular-Z geometry and coupling
+with COBRA-IIIc for hexagonal core analysis. Ann. Nucl. Energy 37, 380–388.
+
+Merino, F., Ahnert, C., Aragonés, J.M., 1993. Development and validation of the 3D
+PWR core dynamics SIMTRAN code. In: Kusters, H. (Ed.), Mathematical Methods
+
+Cervera Sánchez, S., Herranz García, N., Herrero, J.J., Cabellos, O., 2014. Optimization
+of multidimensional cross section tables for few group core calculations. Ann.
+Nucl. Energy 69, 226–237.
+
+Sanchez-Cervera, S., Garcia-Herranz, N., 2015. On the up-scattering correction in the
+
+VVER MSLB compact cross-section library: NURESAFE Technical note. UPM.
+
+Santandrea, S., Sanchez, R., Mosca, P., 2008. A linear surface characteristic
+
+approximation for neutron transport in unstructured meshes. NSE 160 (1).
+
+Spasov, I., Kolev, N.P., Donov, J., Sabotinov, L., 2010. CATHARE multi-1D Modeling of
+coolant mixing in VVER-1000 for RIA analysis. Sci. Technol. Nucl. Installations
+(open access) 2010,. http://dx.doi.org/10.1155/2010/457094. Hindawi, New
+York 457094.
+
+Spasov, I., Kolev, N., March 2013. Full core FLICA4 input model for VVER MSLB
+
+analysis, NURESAFE D14.22a report.
+
+Spasov, I., Kolev, N.P., Mitkov, S., 2013. CATHARE input model for VVER MSLB
+
+simulation, NURESAFE D14.21 report.
+
+Spasov, I., Mitkov, S., Kolev, N., 2014. Sub-channel FLICA4 and COBRA-TF input
+
+models qualiﬁed for VVER, NURESAFE D14.23 Report.
+
+Topalov Ts., Popov, D., 2004. Plant data from the Kozloduy-6 SG isolation
+
+experiments, Technical note, NPP Kozloduy.
+
+Trama, J.C., Overview of TRIPOLI4 v. 7 Continuous Energy Monte Carlo Code. In:
+Proc. of International Congress on Advances in Nuclear Power Plants, Nice,
+France, May 2–6, 2011, SFEN Publ, p. 1584.
+
+Toumi,
+
+I., Bergeron, A., Gallo, D., Royer, E., Caruge, D., 2000. FLICA-4: a
+threedimensional two-phase ﬂow computer code with advanced numerical
+methods for nuclear applications. Nucl. Eng. Des. 2000, 139–155.
+
+Vyskocˇil L., Simulace míšení v reaktoru VVER-1000 JE Kozloduj pomocí CFD
+programu Fluent Internal report of ÚJV Rˇezˇ, a.s. (In Czech language). ÚJV Z 3820
+T, 08/2013.
+
+Vyskocil, L., 2015. FLUENT rke computed time-dependent core BC for the VVER-
+
+1000 MSLB benchmark: NURESAFE Technical note. UJV.
+
+

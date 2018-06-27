@@ -1,0 +1,763 @@
+An Improved Ras Sensor for Highly Sensitive and
+Quantitative FRET-FLIM Imaging
+
+Ana F. Oliveira1,2, Ryohei Yasuda1,3,4*
+
+1 Department of Neurobiology, Duke University Medical Center, Durham, North Carolina, United States of America, 2 Doctoral Program in Biomedicine and Experimental
+Biology, Center for Neuroscience and Cell Biology, University of Coimbra, Coimbra, Portugal, 3 Howard Hughes Medical Institute, Duke University Medical Center, Durham,
+North Carolina, United States of America, 4 Max-Planck Florida Institute, Jupiter, Florida, United States of America
+
+Abstract
+
+Ras is a signaling protein involved in a variety of cellular processes. Hence, studying Ras signaling with high spatiotemporal
+resolution is crucial to understanding the roles of Ras in many important cellular functions. Previously, fluorescence lifetime
+imaging (FLIM) of fluorescent resonance energy transfer (FRET)-based Ras activity sensors, FRas and FRas-F, have been
+demonstrated to be useful for measuring the spatiotemporal dynamics of Ras signaling in subcellular micro-compartments.
+However the predominantly nuclear localization of the sensors’ acceptor has limited its sensitivity. Here, we have overcome
+this limitation and developed two variants of the existing FRas sensor with different affinities: FRas2-F (Kd,1.7 mM) and
+FRas2-M (Kd,0.5 mM). We demonstrate that, under 2-photon fluorescence lifetime imaging microscopy, FRas2 sensors
+provide higher sensitivity compared to previous sensors in 293T cells and neurons.
+
+Citation: Oliveira AF, Yasuda R (2013) An Improved Ras Sensor for Highly Sensitive and Quantitative FRET-FLIM Imaging. PLoS ONE 8(1): e52874. doi:10.1371/
+journal.pone.0052874
+
+Editor: David Holowka, Cornell University, United States of America
+
+Received August 28, 2012; Accepted November 22, 2012; Published January 14, 2013
+Copyright: ß 2013 Oliveira, Yasuda. This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits
+unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+
+Funding: The study is funded by National Institute of Health (R01MH080047, R01NS068410), the Pre-Doctoral Fellowship from the Portuguese Foundation for
+Science and Technology (SFRH/BD/15226/2004) and Young Investigator Award, Children’s Tumor Foundation (YIA # 2009-01-014). and the Howard Hughes
+Medical Institute. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+
+Competing Interests: The authors have declared that no competing interests exist.
+
+* E-mail: Ryohei.Yasuda@mpfi.org
+
+Introduction
+
+from membrane receptors
+
+Ras is a member of a large family of small GTPase proteins that
+bind to and hydrolyze guanosine triphosphate (GTP)
+into
+guanosine diphosphate (GDP) [1]. Major subtypes include H-,
+N- and K-Ras, and all of these subtypes express ubiquitously [1].
+Ras is important in transducing a wide range of extracellular
+signaling
+signals
+to intracellular
+cascades [2,3] that regulate many cellular processes,
+including
+cell cycle progression, differentiation and survival [3,4]. When
+bound to GTP, Ras is active and able to bind and activate
+downstream effectors; whereas when bound to GDP, it is inactive
+[5]. In neurons, Ras plays critical roles in synaptic plasticity,
+neuronal morphogenesis, and learning and memory [1,6–8]. Tight
+spatiotemporal
+to the
+activation of specific signaling pathways in order to achieve
+appropriate biological outcomes [2,9]. Therefore, it is crucial to
+measure the spatiotemporal dynamics of Ras
+signaling to
+understand how it regulates its diverse downstream targets.
+
+regulation of Ras activity is central
+
+In order to image intracellular signaling activity, many sensors
+based on FRET have been developed [10]. Because FRET
+strongly depends on the distance between the donor and acceptor,
+FRET can be used as a readout of protein-protein interactions for
+proteins fused to fluorophores [11]. A FRET based sensor called
+‘‘Ras and interacting protein chimeric unit’’ (Raichu) enabled the
+measurement of the spatiotemporal dynamics of Ras activity in
+live cells [12]. Raichu consists of a fusion of enhanced yellow
+fluorescent protein (EYFP), HRas without the CAAX membrane
+targeting sequence, Ras binding domain of Raf1 (RBD), enhanced
+cyan fluorescent protein (ECFP), and KRas CAAX in a single
+
+polypeptide [12]. In the inactive GDP-bound form, ECFP and
+EYFP are located away from each other, thereby resulting in low
+FRET. Following Ras activation, RBD associates with active Ras.
+This brings ECFP and EYFP into close proximity,
+thereby
+increasing FRET [12].
+
+two components: HRas
+
+Recently, a more sensitive imaging method based on FLIM in
+combination with a FRET-based Ras sensor optimized for FLIM,
+FRas, has been developed [13]. With this sensor, signaling activity
+in small subcellular compartments was quantified [13]. FRas is
+made of
+tagged with monomeric
+enhanced green fluorescent protein (mEGFP-HRas) and RBD
+tagged on each end with monomeric red fluorescent proteins
+(mRFP-RBD-mRFP) (Figure 1A). When mEGFP-Ras is activated,
+increasing FRET
+mRFP-RBD-mRFP binds to mEGFP-HRas,
+[13]. While FRas provided high sensitivity,
+the high affinity
+between HRas and RBD slowed Ras inactivation by inhibiting its
+interaction with GTPase-activating proteins (GAPs) [13]. To
+address this problem, a mutation (R59A) was introduced in RBD
+to decrease the affinity between Ras and RBD to create FRas-F,
+the Ras sensor with fast inactivation kinetics [13,14].
+
+While it has been demonstrated that the sensitivity of FRas-F is
+sufficiently high for imaging Ras signaling in small subcellular
+compartments such as dendritic spines of pyramidal neurons [13],
+we found that the acceptor of the sensor (mRFP-RBDR59A-mRFP)
+accumulates in the nucleus,
+limiting the sensitivity of the Ras
+sensor. In this paper, we identify the sequence in RBD that causes
+nuclear localization and introduce a point mutation to generate a
+new sensor, FRas2-F, which overcomes this problem. In addition,
+we develop a FRas2 variant, FRas2-M, with slightly increased
+
+PLOS ONE | www.plosone.org
+
+1
+
+January 2013 | Volume 8 |
+
+Issue 1 | e52874
+
+An Improved Ras Sensor for FLIM
+
+Materials and Methods
+
+DNA Constructs
+
+The constructs pCI-mEGFP-HRas, pCI-mRFP-RBD-mRFP
+and pCI-mRFP-RBDR59A-mRFP were previously described [13].
+Point mutations were introduced in the original pCI-mRFP-
+RBDR59A-mRFP or pCI-mRFP-RBD-mRFP to produce pCI-
+mRFP-RBDR59A,K108A-mRFP and pCI-mRFP-RBDK65E,K108A-
+mRFP, respectively.
+
+Protein Purification
+
+Polyhistidine (His6)-superfolder GFP (sfGFP)-HRas without the
+C-terminal CAAX membrane targeting sequence [15] and His6-
+mRFP–RBD mutants were cloned into the pET bacterial
+expression vector. Proteins were overexpressed in Escherichia coli
++
+(BL21(DE3)pLysS), purified with Ni
+(NTA)
+-nitrilotriacetate
+column (HisTrap, GE Healthcare) and desalted on a desalting
+column (PD10, GE Healthcare) equilibrated with 50 mM Tris-
+HCl (pH 8), 100 mM NaCl, 3 mM MgCl2 and 1 mM dithiothre-
+the purified protein was
+itol
+(DTT). The concentration of
+(sfGFP,
+measured by the absorbance of
+the
+A489 nm = 83,000 cm21 M21
+mRFP,
+A584 nm = 50,000 cm21 M21 [17]).
+
+fluorophore
+
+[16];
+
+Measurements of the Affinity Between HRas and RBD
+
+Purified sfGFP-HRas (without the CAAX membrane targeting
+sequence) was loaded with 25-fold molar excess of 29,39-O-N-
+methyl anthraniloyl–GppNHp (Gpp(NH)p) and GDP by incubat-
+ing in the presence of 15 mM ethylenediaminetetraacetic acid
+(EDTA) for 30 min at 37uC. Then, 10 mM MgCl2 was added to
+the reaction [18]. The excess amount of Gpp(NH)p and GDP was
+removed with a desalting column (GE Healthcare). SfGFP-HRas
+and mRFP-RBD (or its mutants) were mixed and incubated at
+room temperature for 30 min. FRET between sfGFP and mRFP
+was quantified with fluorescence lifetime measurement. To obtain
+the fluorescence lifetime of
+its fluorescence
+lifetime decay was fit with a single exponential function convolved
+with the Gaussian pulse response function:
+
+free sfGFP-HRas,
+
+where F0 is the constant, and
+
+F (t)~F0H(t,t0,tD,tG)
+
+
+
+
+
+H(t,t0,tD,tG)~
+
+1
+2
+
+exp
+
+t2
+G
+2tD
+
+{
+
+t{t0
+tD
+
+t2
+G
+
+erf
+
+ﬃﬃﬃ
+
+{tD(t{t0)
+p
+
+tDtG
+2
+
+
+
+ð1Þ
+
+ð2Þ
+
+in which tD is the fluorescence lifetime of the free donor, tG is the
+width of the Guassian pulse response function, F0 is the peak
+fluorescence before convolution, t0 is the time offset, and erf is the
+error function. To measure the fraction of donor bound to
+acceptor, the fluorescence lifetime decay was fit with a double
+exponential function convolved with the Gaussian pulse response
+function:
+
+F (t)~F0 PDH(t,t0,tD,tG)zPADH(t,t0,tAD,tG)
+
+½
+
+
+
+ð3Þ
+
+where tAD is the fluorescence lifetime of donor bound with
+acceptor and PD and PAD are the fraction of free donor and donor
+bound with acceptor, respectively. We fixed tD to the fluorescence
+lifetime obtained from free sfGFP-HRas.
+
+The dissociation constant
+
+(Kd ) was obtained by fitting the
+relationship between the binding fraction (BF ) and the concen-
+tration of mRFP–RBD with the following equation:
+
+Figure 1. Design of Ras FRET sensors. (A) Schematics of Ras FRET
+sensors. mEGFP was tagged to the N terminus of HRas, and mRFP was
+attached to both termini of Ras binding domain of Raf1 (RBD), which
+binds selectively to active Ras. When HRas is activated, it binds to RBD,
+increasing FRET between mEGFP and mRFP. (B) Abbreviated amino acid
+sequence of RBD (WT), RBDR59A, RBDR59A,K108A and RBDK65E,K108A,
+highlighting the mutations introduced in the RBD sequence to produce
+different Ras sensor acceptors. (C) Distribution of donor and acceptor
+for FRas-F, FRas2-F, and FRas2-M expressed in 293T cells.
+(D)
+Measurements of the affinity between sfGFP-tagged HRas and mRFP-
+tagged RBD. The binding fraction was measured with 2pFLIM as a
+function of the RBD concentration (average of 3–5 independent
+experiments). The dissociation constants between HRas and RBD
+mutations are summarized in Table 1.
+doi:10.1371/journal.pone.0052874.g001
+
+RBD affinity. The new sensors
+show significantly improved
+sensitivity over previous sensors in both 293T cells and neurons.
+
+PLOS ONE | www.plosone.org
+
+2
+
+January 2013 | Volume 8 |
+
+Issue 1 | e52874
+
+q
+(½Rasz½RBDzKd ){
+
+BF~
+
+Vmax
+
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+(½Rasz½RBDzKd )2{4½Ras½RBD
+
+ð4Þ
+
+2
+
+Cell Culture and Transfection
+
+293T cells (ATCC #: CRL-11268) were cultured in Dubelco’s
+modified eagle medium (DMEM) supplemented with 10% fetal
+bovine serum (FBS) at 37uC in 5% CO2, and transfected with
+plasmids using Lipofectamine 2000 (Invitrogen). Approximately
+16–18 hours after transfection, the medium was replaced with
+DMEM with low FBS (0.5%)
+for 8 hours, and subjected to
+imaging in a solution containing 30 mM HEPES (pH 7.3),
+130 mM NaCl, 2.5 mM KCl, 1 mM CaCl2, 1 mM MgCl2,
+2 mM NaHCO3, 1.25 mM NaH2PO4, and 25 mM glucose [19].
+The cells were stimulated by applying 100 ng/ml epidermal
+growth factor (EGF).
+
+Cortical neurons were prepared from newborn Sprague Dawley
+rats at postnatal day 0 as described previously [20,21] and cultured
+in basal medium eagle (BME) supplemented with 10% heat-
+inactivated bovine calf serum (HyClone, Logan, UT), 35 mM
+glucose, 1 mM L-glutamine, 100 U/ml penicillin, and 0.1 mg/ml
+streptomycin. Cytosine arabinoside (2.5 mM) was added to the
+cultures at days in vitro (DIV) 2 to inhibit the proliferation of non-
+neuronal cells. Cells were transfected at DIV 3 using Lipofecta-
+mine 2000 (Invitrogen) as described previously [22]. The cells
+were imaged at DIV 5–6 in the culture medium, and stimulated
+with 100 ng/ml brain-derived neurotrophic factor (BDNF).
+
+2-Photon Fluorescence Lifetime Imaging Microscopy
+
+A custom-built 2-photon microscope equipped with a Ti:sap-
+phire pulsed laser (MaiTai; Spectra-Physics, Fremont, CA) tuned
+at 920 nm and a mode-locked Ytterbium-doped laser (1030 nm;
+Amplitude Syste`mes, Bordeaux, France) were used for imaging
+mEGFP and mRFP distribution, respectively, in 293T cells. The
+intensity of each laser beam was independently controlled with
+electro-optical modulators (350-80 LA; Conoptics, Danbury, CT).
+The two laser beams were combined using a beam-splitting cube
+and passed through the same set of galvano-scanning mirrors and
+objective (606, 0.9 NA; Olympus, Melville, NY). Imaging of
+dissociated cultures of cortical neurons were performed on a
+different custom-built two-photon microscope with a Ti:sapphire
+pulsed laser (MaiTai; Spectra-Physics, Fremont, CA) tuned to
+920 nm for imaging of mEGFP- and mRFP-tagged constructs.
+Fluorescence was divided with a dichroic mirror
+(565 nm;
+Chroma) and detected by photomultiplier tubes (PMTs; H7422-
+40 (Hamamatsu)
+for red) after
+wavelength filters (HQ510/70-2p for green and HQ620/90-2p for
+red; Chroma Techonology, Brattleboro, VT) [23]. Fluorescence
+signal was acquired by ScanImage [24] using a data acquisition
+board (PCI-6110, National Instruments). Fluorescence lifetime
+images were acquired using a time-correlated single photon
+counting board (SPC-150; Becker-Hickl) controlled with a custom
+software integrated into ScanImage [13,25].
+
+for green, R3896 (Hamamtsu)
+
+Fluorescence Lifetime Image Analysis
+
+To generate the fluorescence lifetime image, we calculated the
+
+mean photon arrival time, StT, in each pixel as:
+
+An Improved Ras Sensor for FLIM
+
+Ð
+Ð
+
+StT~
+
+dt:tF (t)
+dt:F (t)
+
+ð5Þ
+
+the mean photon arrival
+
+then,
+time is related to the mean
+fluorescence lifetime, StT, by an offset arrival time, t0, which is
+obtained by fitting the whole image with Eq. 3:
+
+StT~StT{t0
+
+ð6Þ
+
+To quantify Ras activation, the fraction of mEGFP-Ras bound
+to mRFP-RBD-mRFP was calculated by fitting the fluorescence
+decay curve summed over the whole image with Eq. 3 [13].
+
+Results
+
+localized at
+
+When 293T cells were transfected with FRas-F (Figure 1C), we
+observed that mEGFP-HRas was
+the plasma
+membrane and internal membranes (Figure 1C), similarly to
+endogenous HRas [26]. However, we consistently found that the
+(mRFP-RBDR59A-mRFP) was concentrated in the
+acceptor
+nucleus, with relatively low expression in the cytosol (Figure 1C).
+This localization likely limits the sensitivity of the FRas-F sensor by
+effectively reducing the concentration of RBD in the cytosol.
+Therefore, we searched for the reason behind the nuclear
+accumulation of RBD. Upon analysis of the RBD sequence, we
+detected a nuclear localization sequence (NLS) in RBD (Figure 1B,
+gray box). To disrupt the NLS, we introduced a K108A mutation
+in the RBD sequence (Figure 1B, in red). As expected, RBDs with
+the K108A mutation (RBDR59A,K108A) show cytosolic localization
+(Figure 1C). We named this FRas-F variant FRas2-F. In addition,
+based on a previous study reporting the affinity of several different
+RBD mutants [14], we developed another FRas2 variant with an
+intermediate affinity to HRas (lower than FRas and higher than
+FRas-F), FRas2-M, by replacing the ‘‘F’’ mutation R59A with
+K65E (RBDK65E,K108A) (Figure 1B).
+
+To further characterize the effect of the K108A mutation on the
+affinity between Ras and RBD, we measured the affinity between
+purified sfGFP-HRas without the CAAX membrane targeting
+sequence and mRFP-RBD or its mutations in the presence of
+either non-hydrolyzable GTP analog (Gpp(NH)p) or GDP using
+fluorescence lifetime measurements in a cuvette (Figure 1D;
+Table 1). We found that the effect of K108A on the affinity of
+(RBDR59A: 2.0 mM;
+RBD for HRas was
+RBDR59A,R108A:
+FRas2-M
+(RBDK65E,R108A) was ,0.5 mM,
+(RBDWT;
+,0.2 mM) and FRas-F, as expected [14].
+
+in between FRas
+
+relatively minor
+
+1.7 mM).
+
+The
+
+affinity
+
+of
+
+Table 1. Dissociation constants between HRas and RBD or
+several RBD mutations.
+
+Sensor Mutations in RBD
+
+HRas-Gpp(NH)p Kd
+(mM)
+
+HRas-GDP Kd
+(mM)
+
+FRas
+
+FRas-F
+
+None
+
+R59A
+
+FRas2-F
+
+R59A,K108A
+
+FRas2-M K65E,K108A
+
+,0.2
+
+2.0
+
+1.7
+
+0.5
+
+16
+
+31
+
+25
+
+28
+
+Dissociation constants (Kd) were measured as in Figure 1D (averages of 3–5
+independent experiments).
+doi:10.1371/journal.pone.0052874.t001
+
+PLOS ONE | www.plosone.org
+
+3
+
+January 2013 | Volume 8 |
+
+Issue 1 | e52874
+
+To test the sensitivity of FRas2 variants (FRas2-F and FRas2-M)
+compared to that of FRas and FRas-F, we transfected these Ras
+FRET sensors in 293T cells, and imaged them with 2-photon
+fluorescence lifetime imaging microscopy (2pFLIM) (Figure 2). To
+activate Ras in 293T cells, we measured Ras activation in response
+to bath application of EGF [13,27]. As reported [13], application
+of EGF (100 ng/ml) increased the binding between mRFP-RBD-
+mRFP and mEGFP-HRas,
+is activated
+(Figure 2A–B). FRas2-F shows higher binding fraction than
+FRas-F both before and after EGF stimulation, presumably due to
+higher acceptor concentration in the cytosol
+(Figure 2A–B).
+Further, FRas2-M showed a greater increase in binding fraction
+after EGF application compared to other sensors (Figure 2A–B).
+Thus, these results indicate that the new FRas2-M sensor has
+improved sensitivity.
+
+indicating that Ras
+
+Since Ras signaling is important for many forms of neuronal
+plasticity and development [1,6–8], we tested the sensitivity of
+FRas-F, FRas2-F and FRas2-M in neurons. We transfected
+primary cultures of cortical neurons with these sensors and
+imaged them with 2pFLIM [13]. The acceptor of FRas-F (mRFP-
+RBDR59A-mRFP) was
+strongly accumulated in the nucleus
+(Figure 3A). In contrast, the acceptors of both FRas2-F and
+FRas2-M were localized to the cytosol and neurites (Figures 3B–
+C). We observed that Ras activity rapidly peaked after BDNF
+(100 ng/ml) application, remaining elevated for at least 15 min-
+utes (Figure 3D). Remarkably, FRas2-M showed approximately
+three fold higher signal compared to the other sensors (Figure 3B–
+C). These data indicate that FRas2-M has higher sensitivity for
+reporting Ras activation in neurons compared to FRas2-F and
+FRas-F.
+
+The sensitivity of
+
+related to the cytosolic
+concentration of RBD as well as the binding affinity between
+Ras and RBD [13]. Thus, we measured the cytosolic concentra-
+
+the sensor
+
+is
+
+Figure 2. Characterization of FRET sensors for Ras activation in
+293T cells. (A) Representative fluorescence lifetime images in 293T
+cells transfected with Ras sensors, before and after the application of
+EGF (100 ng/ml). Warmer colors indicate shorter lifetimes and higher
+levels of Ras activity. (B) Fraction of donor (mEGFP-HRas) bound to
+(mRFP-RBD-mRFP) calculated by fitting the fluorescence
+acceptor
+lifetime curve to a double exponential
+function, before and after
+application of EGF. Error bars indicate s.e.m. over 26–34 fields from 3
+preparations.
+doi:10.1371/journal.pone.0052874.g002
+
+An Improved Ras Sensor for FLIM
+
+Figure 3. Distribution and characterization of FRET sensors for
+Ras activation in cortical neurons. (A–C) Representative 2-photon
+fluorescence images of donor (mEGFP-Ras: top panel) and acceptor
+(mRFP-RBD-mRFP: middle panel) and fluorescence lifetime images
+(bottom panel) of FRas-F (A), FRas2-F (B) and FRas2-M (C) in cortical
+neurons. mRFP images are dim because of the non-optimal excitation
+wavelength for mRFP (920 nm). (D) Change in the fraction of donor
+(mEGFP-Ras) bound to acceptor (mRFP-RBD-mRFP)
+in response to
+application of BDNF (100 ng/ml). Error bars indicate s.e.m. over 4–11
+cells from 3 preparations.
+doi:10.1371/journal.pone.0052874.g003
+
+tion of RBD by comparing its fluorescence intensity in the cytosol
+(mRFP-RBD-mRFP or its mutations) with that of purified mRFP
+[28]. The concentration was estimated to be 1263 mM (N = 10)
+for FRas-F, 3065 mM (N = 9) for FRas2-F and 2466 mM (N = 13)
+for FRas2-M. Since these concentrations are much higher than the
+dissociation constants of RBDs (Table 1), the simple biochemical
+scheme does not explain the improvement in sensitivity. It is
+possible that the effective dissociation constant in cells is much
+lower than that in solution due to interactions with endogenous
+proteins. Nonetheless, our results indicate that FRas2-M has much
+higher sensitivity than other FRas variants.
+
+Discussion
+
+In this paper, we improved the cytosolic localization of the FRas
+acceptor by introducing a point mutation to remove the NLS in
+RBD (Figure 1). Furthermore, we have developed a variant with
+slightly higher affinity (FRas2-M). The new FRas2-M sensor shows
+much higher sensitivity in 293T cells and neurons than other FRas
+variants (Figure 2, 3).
+
+PLOS ONE | www.plosone.org
+
+4
+
+January 2013 | Volume 8 |
+
+Issue 1 | e52874
+
+Previously, it has been reported that the inactivation of FRas-F
+is much faster than FRas due to its lower affinity [13]. Because the
+affinity of FRas2-M is higher than that of FRas-F, we expect that
+FRas2-M decays more slowly and thus shows a greater degree of
+spatial spreading compared to FRas-F (or FRas2-F) [13,25]. Thus,
+as with Ca2+
+indicators, one can use Ras sensors with two different
+characteristics: a slow sensor with high affinity and high sensitivity
+(FRas2-M); and fast sensor with low affinity and lower sensitivity
+(FRas2-F). To quantify the spatiotemporal dynamics of Ras using
+these sensors, one must measure the dependency of sensor kinetics
+on RBD concentration and extrapolate to zero expression level
+[25,28].
+
+FRas-F has been shown to be useful for imaging Ras activity in
+single dendritic spines undergoing synaptic plasticity [25]. The
+improved sensitivity of these FRas2 sensors will provide more
+
+References
+
+1. Ye X, Carew TJ (2010) Small G protein signaling in neuronal plasticity and
+memory formation: the specific role of ras family proteins. Neuron 68: 340–361.
+2. Hancock JF (2003) Ras proteins: different signals from different locations. Nat
+
+Rev Mol Cell Biol 4: 373–384.
+
+3. Raaijmakers JH, Bos JL (2009) Specificity in Ras and Rap signaling. J Biol Chem
+
+284: 10995–10999.
+
+4. Vigil D, Cherfils J, Rossman KL, Der CJ (2010) Ras superfamily GEFs and
+GAPs: validated and tractable targets for cancer therapy? Nat Rev Cancer 10:
+842–857.
+
+5. Milburn MV, Tong L, deVos AM, Bru¨nger A, Yamaizumi Z, et al. (1990)
+Molecular switch for signal transduction: structural differences between active
+and inactive forms of protooncogenic ras proteins. Science 247: 939–945.
+
+6. Zhu JJ, Qin Y, Zhao M, Van Aelst L, Malinow R (2002) Ras and Rap control
+
+AMPA receptor trafficking during synaptic plasticity. Cell 110: 443–455.
+
+7. Stornetta RL, Zhu JJ (2011) Ras and Rap signaling in synaptic plasticity and
+
+mental disorders. Neuroscientist 17: 54–78.
+
+8. Thomas GM, Huganir RL (2004) MAPK cascade signalling and synaptic
+
+plasticity. Nat Rev Neurosci 5: 173–183.
+
+9. Wimmer R, Baccarini M (2010) Partner exchange: protein-protein interactions
+
+in the Raf pathway. Trends Biochem Sci 35: 660–668.
+
+10. Miyawaki A (2003) Visualization of the spatial and temporal dynamics of
+
+intracellular signaling. Dev Cell 4: 295–305.
+
+11. Lacowicz JR (2006) Principles of Fluorescence Spectroscopy: Springer. 954 p.
+12. Mochizuki N, Yamashita S, Kurokawa K, Ohba Y, Nagai T, et al. (2001)
+Spatio-temporal images of growth-factor-induced activation of Ras and Rap1.
+Nature 411: 1065–1068.
+
+13. Yasuda R, Harvey CD, Zhong H, Sobczyk A, van Aelst L, et al.
+
+(2006)
+Supersensitive Ras activation in dendrites and spines revealed by two-photon
+fluorescence lifetime imaging. Nat Neurosci 9: 283–291.
+Jaitner BK, Becker J, Linnemann T, Herrmann C, Wittinghofer A, et al. (1997)
+Discrimination of amino acids mediating Ras binding from noninteracting
+residues affecting raf activation by double mutant analysis. J Biol Chem 272:
+29927–29933.
+
+14.
+
+15. Michaelson D, Silletti J, Murphy G, D’Eustachio P, Rush M, et al. (2001)
+Differential localization of Rho GTPases in live cells: regulation by hypervari-
+able regions and RhoGDI binding. J Cell Biol 152: 111–126.
+
+An Improved Ras Sensor for FLIM
+
+detailed information about the spatiotemporal dynamics of Ras in
+neurons and other cells.
+
+Acknowledgments
+
+We would like to thank Dr. Hideji Murakoshi, Dr. Jun Nishiyama and Ms.
+Shenyu Zhai for helpful discussions during this project, Dr. Lesley Colgan
+and Mr. Eugene Park for critical reading and Dr. Erzsebet Szatmari for the
+preparation of dissociated cultures of cortical neurons.
+
+Author Contributions
+
+Conceived and designed the experiments: AFO RY. Performed the
+experiments: AFO. Analyzed the data: AFO RY. Contributed reagents/
+materials/analysis tools: AFO RY. Wrote the paper: AFO RY.
+
+16. Pedelacq JD, Cabantous S, Tran T, Terwilliger TC, Waldo GS (2006)
+Engineering and characterization of a superfolder green fluorescent protein. Nat
+Biotechnol 24: 79–88.
+
+17. Shaner NC, Campbell RE, Steinbach PA, Giepmans BN, Palmer AE, et al.
+(2004) Improved monomeric red, orange and yellow fluorescent proteins derived
+from Discosoma sp. red fluorescent protein. Nat Biotechnol 22: 1567–1572.
+
+18. Zhao J, Wang WN, Tan YC, Zheng Y, Wang ZX (2002) Effect of Mg(2+) on the
+kinetics of guanine nucleotide binding and hydrolysis by Cdc42. Biochem
+Biophys Res Commun 297: 653–658.
+
+19. Murakoshi H, Lee SJ, Yasuda R (2008) Highly sensitive and quantitative FRET-
+FLIM imaging in single dendritic spines using improved non-radiative YFP.
+Brain Cell Biol 36: 31–42.
+
+20. Habas A, Kharebava G, Szatmari E, Hetman M (2006) NMDA neuroprotection
+against a phosphatidylinositol-3 kinase inhibitor, LY294002 by NR2B-mediated
+suppression of glycogen synthase kinase-3beta-induced apoptosis. J Neurochem
+96: 335–348.
+
+21. Szatmari E, Kalita KB, Kharebava G, Hetman M (2007) Role of kinase
+suppressor of Ras-1 in neuronal survival signaling by extracellular signal-
+regulated kinase 1/2. J Neurosci 27: 11389–11400.
+
+22. Hetman M, Hsuan SL, Habas A, Higgins MJ, Xia Z (2002) ERK1/2
+in cortical
+
+antagonizes glycogen synthase kinase-3beta-induced apoptosis
+neurons. J Biol Chem 277: 49577–49584.
+
+23. Mainen ZF, Maletic-Savatic M, Shi SH, Hayashi Y, Malinow R, et al. (1999)
+
+Two-photon imaging in living brain slices. Methods 18: 231–239, 181.
+
+24. Pologruto TA, Sabatini BL, Svoboda K (2003) ScanImage: flexible software for
+
+operating laser scanning microscopes. Biomed Eng Online 2.
+
+25. Harvey CD, Yasuda R, Zhong H, Svoboda K (2008) The spread of Ras activity
+
+triggered by activation of a single dendritic spine. Science 321: 136–140.
+
+26. Choy E, Chiu V, Silletti J, Feoktistov M, Morimoto T, et al.
+
+(1999)
+Endomembrane Trafficking of RasThe CAAX Motif Targets Proteins to the
+ER and Golgi. Cell 98: 69–80.
+
+27. Medema RH, de Vries-Smits AM, van der Zon GC, Maassen JA, Bos JL (1993)
+Ras activation by insulin and epidermal growth factor through enhanced
+exchange of guanine nucleotides on p21ras. Mol Cell Biol 13: 155–162.
+
+28. Murakoshi H, Wang H, Yasuda R (2011) Local, persistent activation of Rho
+
+GTPases during plasticity of single dendritic spines. Nature 472: 100–104.
+
+PLOS ONE | www.plosone.org
+
+5
+
+January 2013 | Volume 8 |
+
+Issue 1 | e52874
+
+

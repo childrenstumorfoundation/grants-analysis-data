@@ -1,0 +1,3872 @@
+Hierarchical CRMP2 posttranslational modifications
+control NaV1.7 function
+
+Erik T. Dustrudea,1, Aubin Moutala,1, Xiaofang Yanga, Yuying Wanga, May Khannaa, and Rajesh Khannaa,b,2
+
+aDepartment of Pharmacology, College of Medicine, University of Arizona, Tucson, AZ 85742; and bNeuroscience Graduate Interdisciplinary Program,
+College of Medicine, University of Arizona, Tucson, AZ 85742
+
+Edited by William A. Catterall, University of Washington School of Medicine, Seattle, WA, and approved November 7, 2016 (received for review June 28, 2016)
+NaV1.7 trafficking and localization. Here, we (i) demonstrate a path-
+way of NaV1.7 regulation dependent upon CRMP2 SUMOylation
+and phosphorylation states, (ii) identify interactions between
+CRMP2 and NaV1.7, and (iii) map molecular determinants of
+NaV1.7 endocytosis that result from altered CRMP2 interactions.
+We also report that the CRMP2-NaV1.7 signaling is conserved
+between rodent and human sensory neurons, supporting the excit-
+ing possibility that this pathway could be the target of future ther-
+apeutic agents aimed at controlling NaV1.7 in patients with
+neuropathic pain.
+
+Voltage-gated sodium channels are crucial determinants of neu-
+ronal excitability and signaling. Trafficking of the voltage-gated
+sodium channel NaV1.7 is dysregulated in neuropathic pain. We
+identify a trafficking program for NaV1.7 driven by hierarchical
+interactions with posttranslationally modified versions of the bind-
+ing partner collapsin response mediator protein 2 (CRMP2). The
+binding described between CRMP2 and NaV1.7 was enhanced by
+conjugation of CRMP2 with small ubiquitin-like modifier (SUMO)
+and further controlled by the phosphorylation status of CRMP2.
+We determined that CRMP2 SUMOylation is enhanced by prior phos-
+phorylation by cyclin-dependent kinase 5 and antagonized by Fyn
+phosphorylation. As a consequence of CRMP2 loss of SUMOylation
+and binding to NaV1.7, the channel displays decreased membrane
+localization and current density, and reduces neuronal excitability.
+Preventing CRMP2 SUMOylation with a SUMO-impaired CRMP2-
+K374A mutant triggered NaV1.7 internalization in a clathrin-
+dependent manner involving the E3 ubiquitin ligase Nedd4-2
+(neural precursor cell expressed developmentally down-regulated
+protein 4) and endocytosis adaptor proteins Numb and epidermal
+growth factor receptor pathway substrate 15. Collectively, our
+work shows that diverse modifications of CRMP2 cross-talk to con-
+trol NaV1.7 activity and illustrate a general principle for regulation
+of NaV1.7.
+NaV1.7 sodium channel | trafficking | CRMP2 | SUMOylation |
+phosphorylation
+
+The tetrodotoxin-sensitive (TTX-S) voltage-gated sodium chan-
+
+nel NaV1.7 generates thresholds for action potential firing in
+sensory neurons. Genetic and functional studies have established
+NaV1.7 as a major contributor to pain signaling in humans and have
+demonstrated that mutations in SCN9A, the gene encoding NaV1.7,
+produce distinct human pain syndromes (1–4). Pain also results
+from up-regulated NaV1.7 expression (5–7); however, dysregulation
+of NaV1.7 is poorly understood.
+
+In search of NaV1.7 trafficking/regulatory events, we reported
+that surface expression and current density of NaV1.7 was con-
+trolled by SUMOylation of the cytosolic axonal collapsin response
+mediator protein 2 (CRMP2) (8). CRMP2 regulates multiple pro-
+cesses in neurons and was initially discovered to regulate mecha-
+nisms of neuronal polarity (9, 10). CRMP2 phosphorylation by
+cyclin-dependent kinase 5 (Cdk5) (11), glycogen synthase kinase
+3β (10), Rho-associated protein kinase (12), or the Src-family
+kinases Fyn (13) and Yes (14) drives its diverse cellular functions,
+including neurite outgrowth, endocytosis, and ion-channel traf-
+ficking (8, 15–17). Studies of CRMP2 trafficking functions have
+revealed that CRMP2 facilitates endocytosis of L1-cell adhesion
+molecule by interacting with the endocytic protein Numb (18) that
+recruits epidermal growth factor receptor pathway substrate 15
+(Eps15), an initiator of clathrin-mediated endocytosis (19).
+
+In neuropathic pain, NaV1.7 surface localization is augmented
+by loss of Nedd4-2 (neural precursor cell expressed developmen-
+tally down-regulated protein 4), an E3 ubiquitin ligase that labels
+NaV1.7 for endocytosis (6). Inspired by these observations, we
+tested the hypothesis that a cross-talk between distinct CRMP2
+posttranslational modifications is a key factor in determining
+
+S
+U
+L
+P
+
+S
+A
+N
+P
+
+E
+C
+N
+E
+I
+C
+S
+O
+R
+U
+E
+N
+
+Results
+CRMP2 Is Necessary for Maintaining TTX-S Sodium Currents in Sensory
+Neurons. If CRMP2 loss of SUMOylation inhibits NaV1.7 activ-
+ity, a similar reduction in NaV1.7 currents should be seen if
+CRMP2 expression is reduced, particularly if CRMP2 is neces-
+sary for maintaining NaV1.7 currents. NaV1.7 currents can be
+analyzed by whole-cell patch-clamp electrophysiology of mouse
+catecholamine A differentiated (CAD) cells, a central nervous
+system-derived catecholaminergic cell line that expresses high
+levels of NaV1.7 (20) and isolated dorsal root ganglia (DRG)
+sensory neurons responsible for transmission of noxious stimuli
+from glabrous skin through the sciatic nerve and to the spinal
+cord. A decrease in CRMP2 expression (Fig. S1A) caused a re-
+duction in TTX-S sodium currents in rat DRG neurons (Fig. 1A, B)
+and in NaV1.7 currents in CAD cells without altering biophysical
+properties of the channels (Fig. S1 B–E and Table S1). Notably,
+
+Significance
+
+The voltage-gated sodium channel NaV1.7 is important for elec-
+trogenesis in sensory neurons. Insertion within the membrane is
+required for function of NaV1.7. However, the mechanisms de-
+termining how NaV1.7 is trafficked to neuronal cell membranes
+are poorly understood. Here, we elucidate a signaling program
+involving a complex and intriguing posttranslational modification
+regime of collapsin response mediator protein 2 (CRMP2), an
+NaV1.7-binding protein. NaV1.7 surface localization and currents
+are controlled by CRMP2 modifications. Activity of NaV1.7 is
+thought to modulate neuronal excitability that codes for several
+sensory modalities, including chronic pain, as inferred from hu-
+man pain disorders caused by mutations in NaV1.7 channels.
+Understanding the role of cross-talk between CRMP2 modifica-
+tions in modulation of NaV1.7 activity opens routes to exploit this
+system for pain.
+
+Author contributions: E.T.D., A.M., M.K., and R.K. designed research; E.T.D., A.M., X.Y.,
+and Y.W. performed research; A.M. and R.K. contributed new reagents/analytic tools;
+E.T.D., A.M., X.Y., Y.W., and R.K. analyzed data; and E.T.D., A.M., M.K., and R.K. wrote
+the paper.
+
+The authors declare no conflict of interest.
+
+This article is a PNAS Direct Submission.
+1E.T.D. and A.M. contributed equally to this work.
+2To whom correspondence should be addressed. Email: rkhanna@email.arizona.edu.
+
+This article contains supporting information online at www.pnas.org/lookup/suppl/doi:10.
+1073/pnas.1610531113/-/DCSupplemental.
+
+www.pnas.org/cgi/doi/10.1073/pnas.1610531113
+
+PNAS | Published online December 8, 2016 | E8443–E8452
+
+A
+
+kdresCRMP2
+
+DRG TTX-S
+siRNA-CRMP2 siRNA-CRMP2 +
+
+kdresCRMP2
+
+C
+
+kdresCRMP2
+
+DRG TTX-R
+siRNA-CRMP2 siRNA-CRMP2 +
+
+kdresCRMP2
+
+3 nA
+
+2 ms
+
+*
+
+2.0
+
+1.5
+
+1.0
+
+0.5
+
+B
+
+s
+t
+
+n
+e
+r
+r
+u
+c
+ 
+k
+a
+e
+p
+d
+e
+z
+
+ 
+
+i
+l
+
+a
+m
+r
+o
+N
+
+0.0
+
+kdresCR MP2
+
+siRNA-CR MP2
+
+siRNA-CR MP2
+  + kdresCR MP2
+
+#
+
+D
+
+s
+t
+
+n
+e
+r
+r
+u
+c
+ 
+k
+a
+e
+p
+d
+e
+z
+
+ 
+
+i
+l
+
+a
+m
+r
+o
+N
+
+3 nA
+
+2 ms
+
+2.0
+
+1.5
+
+1.0
+
+0.5
+
+0.0
+
+kdresCR MP2
+
+siRNA-CR MP2
+
+siRNA-CR MP2
+  + kdresCR MP2
+
+Fig. 1. CRMP2 is necessary for maintaining TTX-S sodium currents in sensory
+neurons. Sodium current traces representing TTX-S (A) and TTX-R (C) currents.
+Quantitative analysis of TTX-S (B) and TTX-R (D) DRG peak sodium current
+densities (picoamps/picofarad; pA/pF). DRG currents were 13.8 ± 4.2 nA
+and recorded from cells with conductances of 28.9 ± 9.1 pF. Unless other-
+wise indicated, for this and subsequent figures, all data represent mean ±
+SEM. Individual data points and n values are indicated by diamonds over-
+laid on the bar graphs [n = 5–7; *P < 0.05 vs. knockdown-resistant (kdres)
+CRMP2; #P < 0.05, Kruskal–Wallis test with Dunnett’s post hoc compari-
+sons]. Voltage protocols and post hoc subtraction used to investigate DRG
+cell peak TTX-R and TTX-S currents are described in SI Materials and
+Methods.
+
+sodium currents were normalized by “add-back” of a CRMP2 re-
+fractory to knockdown (Figs. 1 A and B and S1 A–C), confirming
+that CRMP2 is necessary for selectively maintaining TTX-S sodium
+currents.
+
+Interplay Between CRMP2 Modifications Selectively Alter NaV1.7
+Trafficking. A loss of CRMP2 expression via knockdown (Fig. 1)
+or loss of CRMP2 SUMOylation via expression of SUMO-impaired
+mutant reduces sodium currents (8), but whether CRMP2 phos-
+phorylation events also modulate sodium currents is unknown. To
+examine possible priming by CRMP2 modifications in modulation
+of NaV1.7 and to identify the relationships between CRMP2
+modifications and their effects on NaV1.7, CRMP2 mutants with
+SUMO-site impaired, phospho-null sites, or both (Fig. 2A) were
+engineered. Consistent with previous findings (8), loss of CRMP2
+SUMOylation reduced NaV1.7 surface fraction and currents
+(Fig. 2 B, C, and E). NaV1.7 surface localization and current
+density were reduced by mutations in CRMP2 at the site phos-
+phorylated by Cdk5 (i.e., S522A) but not sites phosphorylated by
+other kinases [Fyn (Y32F), Yes (Y479F), GSK-3β (T509A/A514A),
+RhoK (T555A)]; Fig. 2 B, C, and E). Expression of WT CRMP2
+or SUMO-impaired (i.e., K374A), or phospho-deficient mutants
+did not alter NaV1.7 protein expression (Fig. 2D). Concomitant
+elimination of CRMP2 SUMOylation and phosphorylation (Cdk5
+site) did not further decrease NaV1.7 surface fraction or current
+compared with that observed with either mutation alone (Fig. 2
+B, C, and E), suggesting a convergent mechanism of modula-
+tion. Concomitant elimination of CRMP2 SUMOylation and Fyn
+phosphorylation had no effect on NaV1.7 surface fraction or
+currents (Fig. 2 B, C, and E), suggesting that Fyn phosphorylation
+of CRMP2 is obligatory for eliciting the negative regulation
+induced by loss of CRMP2 SUMOylation. These results illus-
+trate that at least three different posttranslational modifications of
+
+CRMP2, namely SUMOylation, Cdk5 phosphorylation, and Fyn
+phosphorylation, collaborate to control NaV1.7 trafficking and
+currents.
+
+The reduction in DRG sodium currents imposed by loss of
+CRMP2 SUMOylation and loss of Cdk5 phosphorylation was
+limited to NaV1.7, as no changes were observed in TTX-resistant
+(TTX-R) currents (predominantly NaV1.8; Fig. 3A) or in non-
+NaV1.7 TTX-S (predominantly NaV1.1 and NaV1.6) currents
+upon their isolation with electrophysiological and pharmaco-
+logical protocols (Fig. 3A). Additionally, hNaV1.1, rNaV1.3, or
+the cardiac hNaV1.5 expressed in heterologous cells were also
+unaffected by loss of CRMP2 SUMOylation (8) or phosphory-
+lation (Table S1).
+
+CRMP2 Modifications Control Excitability of DRG Neurons. NaV1.7
+contributes to DRG excitability as evident in human gain-of-
+function mutations that increase action potential firing (21), a
+phenomenon directly correlated to and underlying transmission
+of painful stimuli. Consequently, we tested excitability properties
+of DRGs expressing SUMO-impaired or Cdk5 phospho-null
+CRMP2. Loss of these CRMP2 modifications reduced evoked
+action potential frequency by half (Fig. 3B). Rheobase, the
+current required to initiate an action potential, was increased in
+cells expressing the Cdk5 phospho-null CRMP2; however, in-
+terpretation of this result as dependent on CRMP2 SUMOyla-
+tion status or NaV1.7 trafficking is made difficult by previously
+described relationships between CRMP2 phosphorylation by
+Cdk5 and modulation of N-type voltage-gated calcium (CaV2.2)
+channels that may also modulate rheobase (22) (Fig. 3C). The
+resting membrane potential, action potential spike height, and
+action potential half width were equivalent among all conditions
+(Fig. 3 D–F). These findings strengthen the hypothesis that
+CRMP2 modifications are linked to NaV1.7 activity.
+
+Biochemical Mapping of CRMP2 Modifications and Binding to NaV1.7.
+Next, we asked if CRMP2 modifications influence each other
+to choreograph CRMP2’s activity toward NaV1.7. Eliminating
+CRMP2 SUMOylation did not affect CRMP2 phosphorylation
+(Fig. 4 A and B). In contrast, elimination of the CRMP2 Cdk5
+phosphorylation site prevented CRMP2 SUMOylation in CAD
+cells (Fig. 4 C and D). Additionally, Cdk5, together with its co-
+factor p25, facilitated in vitro SUMOylation of recombinant
+CRMP2 (Fig. 4E). Finally, loss of CRMP2 SUMOylation alone
+or together with loss of Cdk5 phosphorylation of CRMP2 reduced
+NaV1.7–CRMP2 binding (Fig. 4 F and G). Together, these ob-
+servations place Cdk5-mediated phosphorylation of CRMP2 up-
+stream of SUMOylation to control NaV1.7 surface expression,
+current density, and DRG neuron excitability.
+
+Interfering with SUMOylation and Cdk5-Mediated Phosphorylation of
+CRMP2 Promotes Clathrin-Mediated Endocytosis of NaV1.7. CRMP2
+SUMOylation controls surface, but not total, NaV1.7 expression
+(Fig. 2 B–D), suggesting that CRMP2 can relocalize the channel
+away from the membrane to produce reduced current densities.
+Because CRMP2 interacts with the endocytic adaptor Numb (18)
+to regulate L1-cell adhesion molecule internalization via clathrin
+mediated endocytosis (19), we asked if loss of CRMP2 SUMOyla-
+tion prevents NaV1.7 membrane localization by inducing its en-
+docytosis. Pitstop2, a clathrin assembly inhibitor (23), prevented
+current density reductions imposed by loss of CRMP2 SUMOyla-
+tion or Cdk5 phosphorylation (Fig. 5A), arguing for an involvement
+of clathrin-mediated endocytosis in NaV1.7 regulation by CRMP2.
+The internalized NaV1.7 relocalized to early (Fig. 5 B and C) and
+recycling (Fig. S2 A and B) endosomal compartments when these
+CRMP2 modifications were lost. The proteasome inhibitor Lacta-
+cystin did not rescue the reduction in NaV1.7 current imposed by
+loss of CRMP2 modifications (Fig. S2C), thus ruling out a degra-
+dation of the channel. These results identify a trafficking route
+
+E8444 | www.pnas.org/cgi/doi/10.1073/pnas.1610531113
+
+Dustrude et al.
+
+A
+
+B
+
+7
+
+.
+
+1
+V
+a
+N
+
+Surface
+
+Total
+CRMP2
+
+C
+
+1.2
+
+0.8
+
+0.4
+
+7
+
+i
+
+n
+o
+s
+s
+e
+r
+p
+x
+e
+
+ 
+
+.
+
+1
+V
+a
+N
+d
+e
+z
+
+ 
+
+i
+l
+
+a
+m
+r
+o
+N
+
+e
+c
+a
+
+f
+r
+u
+s
+
+0.0
+
+K374A:
+
+D
+
+7
+
+.
+
+1.2
+
+0.8
+
+0.4
+
+i
+
+n
+o
+s
+s
+e
+r
+p
+x
+e
+
+ 
+
+1
+V
+a
+N
+d
+e
+z
+
+ 
+
+i
+l
+
+a
+m
+r
+o
+N
+
+0.0
+
+K374A:
+
+Fyn
+
+SUMO
+
+Yes
+
+GSK3β
+
+Cdk5 RhoK
+
+FYAD…GKMDEN…VYKR...VTPKTVTPASSAKTSP...TTQR
+
+31
+
+373
+
+478
+
+508
+
+554
+
+CRMP2
+
+K374A/T509A/T514A
+K374A/S522A
+K374A/Y479F
+T509A/T514A
+K374AT/555A
+Y32F/K374A
+S522A
+Y479F
+T555A
+
+Wildtype
+K374A
+Y32F
+
+dsRed
+
+kDa
+225 
+
+225 
+89
+
+#
+
+*
+
+#
+
+*
+
+* *
+
+#
+
+*
+
+- +
+
+- + - + - + - + - +
+
+- + - + - + - + - + - +
+
+i
+
+d
+m
+s
+a
+p
+ 
+y
+t
+
+l
+
+ 
+
+p
+m
+e
+d
+e
+R
+s
+d
+
+i
+
+d
+m
+s
+a
+p
+ 
+y
+t
+
+l
+
+ 
+
+p
+m
+e
+d
+e
+R
+s
+d
+
+E
+
+1.6
+
+1.2
+
+0.8
+
+0.4
+
+t
+
+n
+e
+r
+r
+u
+c
+ 
+k
+a
+e
+p
+ 
+d
+e
+z
+
+i
+l
+
+a
+m
+r
+o
+N
+
+0.0
+K374A:
+
+#
+
+*
+
+#
+
+#
+
+* *
+
+*
+
+*
+
+#
+
+*
+
+- + - + - + - + - + - +
+
+Fig. 2. Expression of SUMOylation- and phosphorylation-deficient CRMP2
+plasmids regulates NaV1.7 surface expression and current density in mouse
+CAD cells. (A) Amino acid sequence of CRMP2 highlighting sites of phos-
+phorylation and SUMOylation. Numbers refer to amino acids of rat CRMP2.
+(B) Representative immunoblots of streptavidin-enriched surface fraction
+probed with a NaV1.7 antibody (Top) and total fraction probed with a pan-
+NaV antibody (Middle). (Bottom) Blot of lysates probed with CRMP2 anti-
+body to verify expression of exogenous ∼89-kDa CRMP2 (n = 5). (C) Bar
+graphs summarizing mean surface NaV1.7 in CAD cells transfected with the
+indicated plasmids. Data are normalized to total NaV1.7 protein and then
+to the CRMP2 in each lane and plotted as ratio of the WT CRMP2 condition.
+(D) Bar graphs summarizing mean total NaV1.7 in CAD cells transfected with
+the indicated plasmids. Data are normalized to total NaV1.7 protein and
+then to β-tubulin in each lane and plotted as ratio of the WT CRMP2 con-
+
+S
+U
+L
+P
+
+S
+A
+N
+P
+
+E
+C
+N
+E
+I
+C
+S
+O
+R
+U
+E
+N
+
+followed by NaV1.7 under control of CRMP2 modifications and
+demonstrate that CRMP2’s activity toward NaV1.7 involves
+clathrin-mediated endocytosis.
+
+CRMP2 Recruits an Endocytic Complex to Down-Regulate NaV1.7.
+Having demonstrated that CRMP2 regulates endocytosis of
+NaV1.7, we next investigated the molecular mechanism involved.
+CRMP2 reportedly controls trafficking of membrane proteins
+and vesicles (8, 15, 18). As NaV1.7 endocytosis requires mono-
+ubiquitination by the ubiquitin ligase Nedd4-2 (24) and Numb—a
+CRMP2 protein partner acts as a scaffold between Nedd4 (25)
+and the endocytic machinery (19)—we hypothesized that re-
+cruitment of these proteins by CRMP2 may promote NaV1.7
+internalization. Additionally, Numb can recruit Eps15 (19, 26, 27).
+Together, these proteins compose the machinery required to mark
+a protein for endocytosis (28) and initiate clathrin-mediated en-
+docytosis by enabling interactions between Eps15 and a mono-
+ubiquitinated cargo. To test this hypothesis, we examined CRMP2
+interactions with endocytic proteins Numb and Eps15 and Numb-
+interacting E3 ubiquitin ligases Nedd4-2 and Itch (29). Loss of
+CRMP2 SUMOylation, but not Cdk5-mediated phosphorylation or
+simultaneous loss of both modifications, increased CRMP2’s asso-
+ciation with each of these proteins (Fig. 5 D and E). If these
+CRMP2-interacting proteins participate in NaV1.7 internalization,
+eliminating their expression should prevent CRMP2-mediated re-
+ductions of current density. Indeed, following specific reduction of
+these CRMP2-interacting proteins (Fig. S3 A and B), the inhibition
+in NaV1.7 currents forced by loss of CRMP2 modifications was
+rescued (Fig. 5F). Taken together, our data support the conclusion
+that CRMP2 association with proteins Numb, Eps15, and Nedd4-2
+triggers endocytosis of NaV1.7 (Fig. 5G).
+
+Hierarchical
+Interactions Between CRMP2 Modifications Modulate
+NaV1.7 Endocytosis. To further investigate the underlying mech-
+anism by which CRMP2 Cdk5 phosphorylation and SUMOylation
+control NaV1.7 endocytosis and current density, Cdk5 phosphory-
+lation levels were enhanced with a Cdk5 site phospho-mimetic
+CRMP2 (i.e., pseudophosphorylated) mutant or overexpression of
+Cdk5 itself. CRMP2 SUMOylation was unaffected by mimicking
+constitutive phosphorylation by Cdk5 (Figs. 6 A and B and S4 A and
+B). Whereas CRMP2 loss of SUMOylation decreased NaV1.7–
+CRMP2 interaction (Fig. 4 F and G), mimicking constitutive
+phosphorylation by Cdk5 prevented this effect (Figs. 6 A and B and
+S4 A and B). Supporting these results, mimicking constitutive Cdk5
+phosphorylation in CAD cells and in DRG neurons prevented loss
+of NaV1.7 currents imposed by non-SUMOylated CRMP2 (Figs. 6
+C and D and S4C). Finally, inhibition of NaV1.7 currents by a Cdk5
+phosphorylation-deficient CRMP2 mutant (CRMP2-S522A;
+Figs. 2E and 3A) was refractory to rescue by simultaneous Cdk5
+overexpression (Fig. S4C). These outcomes demonstrate domi-
+nance of CRMP2 Cdk5 phosphorylation over SUMOylation in
+control of NaV1.7 currents.
+
+Cdk5 phosphorylation of CRMP2 could regulate NaV1.7
+trafficking by preventing assembly of a CRMP2-endocytic com-
+plex. To test this hypothesis, interactions between CRMP2 and
+Numb, Eps15, or Nedd4-2 were examined. Mimicking constitu-
+tive phosphorylation of CRMP2 by Cdk5 (Fig. 6 E and F) and
+overexpression of Cdk5 inhibited the CRMP2–Numb interaction
+(Fig. S4 D and E). Furthermore, enhanced interactions between
+non-SUMOylated CRMP2 and Numb, Eps15, or Nedd4-2 (Fig. 5
+D and E) were prevented by constitutive phosphorylation of
+
+dition. (E) Quantitative analysis of CAD cell peak current density following
+expression of indicated CRMP2 plasmids (n = 5–7). CAD cell currents throughout
+this study averaged 1.3 ± 0.1 nA and were recorded from cells with conductances
+of 21.2 ± 1.7 pF.
+
+Dustrude et al.
+
+PNAS | Published online December 8, 2016 | E8445
+
+A
+DRG
+
+S-XTT
+
+pmalC egatloV
+
+TTX-S
+
+Protox II-R
+
+R-XTT
+
+B
+
+2.5
+
+2.0
+
+1.5
+
+1.0
+
+0.5
+
+t
+
+n
+e
+r
+r
+u
+c
+ 
+k
+a
+e
+p
+d
+e
+z
+
+ 
+
+i
+l
+
+a
+m
+r
+o
+N
+
+* * *
+
+5 nA
+
+5 ms
+
+5 mV
+
+200 ms
+
+14
+
+12
+
+)
+z
+H
+
+(
+ 
+y
+c
+n
+e
+u
+q
+e
+r
+f
+ 
+
+P
+A
+
+8
+
+4
+
+0
+
+* *
+
+pmalC tnerruC
+
+C
+1000
+
+)
+
+A
+p
+(
+ 
+e
+s
+a
+b
+o
+e
+h
+R
+
+800
+
+600
+
+400
+
+200
+
+0
+
+E
+150
+
+)
+
+V
+m
+
+(
+ 
+t
+
+i
+
+ 
+
+h
+g
+e
+h
+e
+k
+p
+s
+ 
+P
+A
+
+i
+
+100
+
+50
+
+0
+
+*
+
+D
+-30
+
+)
+
+V
+m
+
+(
+ 
+
+P
+M
+R
+
+-50
+
+-70
+F
+
+20
+
+)
+s
+m
+
+t
+
+(
+ 
+h
+d
+w
+
+i
+
+ 
+f
+l
+
+ 
+
+a
+h
+P
+A
+
+10
+
+0
+
+0.0
+
+K374A:
+
+-
+
++
+
+-
+
++
+
+-
+
++
+
+-
+
+-
+
++
+
+-
+
++
+
+CRMP2
+
+CRMP2-K374A
+
+CRMP2-S522A
+
+CRMP2-K374A/S522A
+
+Fig. 3. CRMP2 modifications control NaV1.7 currents and excitability (A). Normalized peak sodium current density (picoamps/picofarad; pA/pF) from DRG
+neurons transfected with WT (CRMP2), SUMO-impaired (CRMP2-K374A), phospho-null (CRMP2-S522A), or dual SUMO-impaired/phospho-null (CRMP2-K374A/S522A)
+CRMP2 (n = 7–11). Representative traces are displayed above the bar graphs. Total sodium current was separated electrically and pharmacologically into TTX-S
+(NaV1.1, NaV1.6, NaV1.7), TTX-S/Protox-II–resistant (NaV1.1, NaV1.6; 5 nM Protox-II), and TTX-R (NaV1.8; 500 nM TTX). DRG currents were 13.9 ± 2.7 nA and recorded
+from cells with conductances of 33.3 ± 6.6 pF (n = 7–11). Summary of current-clamp properties: action potentials (AP) and representative traces (B), rheobase (C),
+resting membrane potential (RMP) (D), action potential spike height (E), and action potential half width (F) (n = 7–10 per condition; *P < 0.05 vs. WT CRMP2; Kruskal–
+Wallis test with Dunnett’s post hoc comparisons).
+
+CRMP2 by Cdk5 (Fig. 6 E and F and Fig. S4 D and E). These
+findings identify that a non-SUMOylated, nonphosphorylated
+(by Cdk5) CRMP2 recruits Numb to trigger NaV1.7 endocytosis
+(Fig. 6G) and illustrate that CRMP2’s activity on NaV1.7 is nega-
+tively regulated by Cdk5 phosphorylation of CRMP2.
+
+Antagonism Between CRMP2 Fyn Phosphorylation and SUMOylation
+Contributes to NaV1.7 Endocytosis. Simultaneous loss of Fyn phos-
+phorylation and SUMOylation of CRMP2 overcame the NaV1.7
+current reduction imposed by loss of SUMOylation alone (Figs. 2E
+
+and 7A). Although loss of Fyn phosphorylation did not change
+CRMP2’s SUMOylation state (Fig. S5A), it prevented the loss of
+binding to NaV1.7 imposed by loss of SUMOylation (Fig. S5B).
+Concomitant loss of Fyn phosphorylation and SUMOylation of
+CRMP2 suppressed the internalization of NaV1.7 imposed by loss
+of SUMOylation alone (Fig. 2 B and C). Loss of Fyn phosphory-
+lation prevented the increased binding to Numb, Eps15, and Nedd4-2
+imposed by loss of CRMP2 SUMOylation (Fig. S5 C and D).
+Thus,
+loss of Fyn phosphorylation is dominant over CRMP2
+SUMOylation in the control of NaV1.7 internalization.
+
+A
+
+2
+P
+M
+R
+C
+
+B
+
+dsRed
+
+CRMP2-K374A
+CRMP2 
+
+kDa
+89 
+89 
+89 
+89 
+89 
+42 
+
+Total
+pY32
+ pY479
+pT509/T514
+ pS522
+Actin
+
+CRMP2 phosphorylation
+(% of CRMP2 control)
+
+100
+
+K374A: +
+pY32
+
++
+
++
+
+pT509/T514
+pY479
+
+0
+
++
+
+pS522
+
+C
+
+No Ab
+
+IP SUMO1
+
+Wildtype
+
+K374A
+
+S522A
+
+CRMP2
+plasmid:
+
+CRMP2
+
+K374A/S522A
+
+kDa
+130 
+100 
+
+100 
+
+Lysate
+
+dsRed-CRMP2
+D
+
+1.0
+
+ 
+
+d
+n
+u
+o
+b
+-
+O
+M
+U
+S
+
+ 
+
+2
+P
+M
+R
+C
+
+)
+l
+o
+r
+t
+
+n
+o
+c
+ 
+f
+
+ 
+
+o
+%
+
+(
+
+0.5
+
+0.0
+
+*
+
+*
+
+*
+
+F
+
+CRMP2
+plasmid:
+
+7.1VaN
+
+dsRed-
+CRMP2
+G
+
+1.0
+
+E
+
+CRMP2
+
+His-Ubc9
+
+CRMP2
+
+pSUMO1 lysate
+
+2
+P
+M
+R
+C
+o
+N
+
+ 
+
++ Cdk5/p25
++ His-
+CRMP2
+
+Overexposed
+
+kDa
+
+~74
+
+63
+58
+19
+
+~74
+
+63
+58
+
+ 
+
+7
+
+.
+
+1
+V
+a
+N
+e
+v
+i
+t
+
+ 
+
+l
+
+a
+e
+R
+
+2
+P
+M
+R
+C
+o
+
+ 
+
+t
+ 
+
+i
+
+g
+n
+d
+n
+b
+
+i
+
+*
+
+0.5
+
+0.0
+
+No Ab
+
+IP CRMP2
+
+IP CRMP2
+
+Wildtype
+
+S522A
+
+K374A/S522A
+
+Wildtype
+
+K374A
+
+kDa
+522
+
+89
+
+*
+
+1.0
+
+0.5
+
+0.0
+
+i
+
+b
+n
+d
+n
+g
+
+i
+
+ 
+t
+
+ 
+
+o
+C
+R
+M
+P
+2
+
+R
+e
+a
+
+l
+
+ 
+
+t
+i
+v
+e
+N
+a
+V
+1
+
+.
+
+7
+
+ 
+
+CRMP2
+
+Fig. 4. CRMP2 SUMOylation status is affected by its phosphorylation, and both modifications contribute to NaV1.7 binding. (A) Representative Western blot
+of CRMP2 and CRMP2-K374A expressing CAD cells indicating CRMP2 phosphorylation levels at indicated kinase target sites (n = 3). No signal was detected
+with a CRMP2 antibody against pThreonine-555 (n = 3). (B) Quantitative analysis of CRMP2-K374A phosphorylation compared with total CRMP2. Repre-
+sentative immunoblot (C) and summary (D) to detect SUMOylated CRMP2 from CAD cells transfected with indicated plasmids (n = 3). (E) Representative
+immunoblot of in vitro SUMOylation of CRMP2. A SUMOylated CRMP2 band (∼74 kDa) was detected only when Cdk5 and its cofactor p25 were added to the
+reaction. The E2 SUMO-conjugating enzyme Ubc9, the key component of protein SUMOylation, is unchanged by the kinase. The overexposed blot shows no
+SUMOylated CRMP2 when the Cdk5/p25 complex is not present. Representative immunoblot (F) and summary (G) of immunoprecipitation (IP) with CRMP2 to
+detect NaV1.7 from CAD cells transfected with indicated plasmids (n = 6). Asterisks indicate statistically significant differences compared with WT CRMP2-
+expressing control cells (P < 0.05, one-way ANOVA with Tukey’s post hoc test; n = 3).
+
+E8446 | www.pnas.org/cgi/doi/10.1073/pnas.1610531113
+
+Dustrude et al.
+
+20 μM Pitstop2
+
+*
+
+*
+
+2.5
+
+2.0
+
+1.5
+
+1.0
+
+s
+t
+
+-
+
+n
+e
+r
+r
+u
+c
+ 
+S
+X
+T
+T
+ 
+k
+a
+e
+p
+d
+e
+z
+
+ 
+
+i
+l
+
+0.5
+
+a
+m
+r
+o
+0.0
+N
+:2PMRC
+
+Wildtype
+
+K374A
+C
+
+Merged
+
+Nav1.7
+
+Rab5
+
+10 μm
+
+A
+2 nA
+
+2 ms
+
+e
+p
+y
+t
+
+l
+i
+
+d
+W
+A
+4
+7
+3
+K
+
+A
+2
+2
+5
+S
+
+B
+
+2
+P
+M
+R
+C
+
+A
+4
+7
+3
+K
+-
+2
+P
+M
+R
+C
+
+A
+2
+2
+5
+S
+-
+2
+P
+M
+R
+C
+
+F
+
+s
+t
+n
+e
+r
+r
+u
+c
+ 
+k
+a
+e
+p
+ 
+d
+e
+z
+
+i
+l
+
+a
+m
+r
+o
+N
+
+3.0
+
+2.5
+
+2.0
+
+1.5
+
+1.0
+
+0.5
+
+0.0
+siRNA:
+
+IP CRMP2
+
+No Ab
+
+IP CRMP2
+
+Wildtype
+
+S522A
+
+K374A/S522A
+
+Wildtype
+
+D
+
+No Ab
+
+CRMP2
+Numb
+
+Eps15
+
+Nedd4-2
+
+Itch
+
+K374A
+
+kDa
+
+70 
+
+98 
+
+116 
+
+99 
+
+89 
+
+A225S
+
+dsRed-CRMP2
+
+0.4
+
+0.3
+
+0.2
+
+0.1
+
+n
+o
+
+i
+t
+
+a
+z
+
+i
+l
+
+l
+
+a
+c
+o
+o
+c
+ 
+n
+o
+s
+r
+a
+e
+P
+7
+
+ 
+
+.
+
+1
+V
+a
+N
+
+5
+b
+a
+R
+h
+
+ 
+
+t
+i
+
+w
+
+ 
+t
+
+i
+
+n
+e
+c
+i
+f
+f
+
+e
+o
+c
+
+0.0
+CRMP2:
+
+E
+
+* *
+
+ 
+
+o
+
+t
+ 
+
+i
+
+i
+
+g
+n
+d
+n
+b
+ 
+2
+P
+M
+R
+C
+ 
+e
+v
+i
+t
+a
+e
+R
+
+l
+
+s
+e
+s
+a
+g
+
+i
+
+ 
+
+i
+l
+ 
+r
+o
+n
+e
+t
+o
+r
+p
+ 
+c
+i
+t
+y
+c
+o
+d
+n
+e
+
+)
+2
+P
+M
+R
+C
+
+ 
+f
+o
+ 
+%
+
+(
+
+Numb
+
+*
+
+Eps15
+*
+
+Nedd4-2
+
+*
+
+Itch
+*
+
+2.0
+
+1.0
+
+0.0
+
+A
+4
+7
+3
+K
+
+e
+p
+y
+t
+
+l
+i
+
+d
+W
+
+A
+2
+2
+5
+S
+
+CRMP2
+CRMP2-K374A
+CRMP2-S522A
+CRMP2-K374A/S522A
+
++ -
+-
++
+-
+-
+-
+-
+
+-
+-
++
+-
+
+-
+-
+-
++
+
++ -
+-
++
+-
+-
+-
+-
+
+-
+-
++
+-
+
+-
+-
+-
++
+
++ -
+-
++
+-
+-
+-
+-
+
+-
+-
++
+-
+
+-
+-
+-
++
+
++ -
+-
++
+-
+-
+-
+-
+
+-
+-
++
+-
+
+-
+-
+-
++
+
+S
+U
+L
+P
+
+S
+A
+N
+P
+
+E
+C
+N
+E
+I
+C
+S
+O
+R
+U
+E
+N
+
+CRMP2
+
+CRMP2-K374A
+
+CRMP2-S522A
+
+G
+
+NaV1.7
+
+*
+
+*
+
+Ub
+
+Nedd4-2
+
+CRMP2
+
+Numb
+
+*
+
+*
+
+l
+
+o
+r
+t
+n
+o
+C
+
+b
+m
+u
+N
+
+5
+1
+s
+p
+E
+
+2
+-
+4
+d
+d
+e
+N
+
+h
+c
+t
+I
+
+l
+
+o
+r
+t
+n
+o
+C
+
+b
+m
+u
+N
+
+5
+1
+s
+p
+E
+
+h
+c
+t
+I
+
+2
+-
+4
+d
+d
+e
+N
+
+l
+
+o
+r
+t
+n
+o
+C
+
+b
+m
+u
+N
+
+5
+1
+s
+p
+E
+
+2
+-
+4
+d
+d
+e
+N
+
+h
+c
+t
+I
+
+CRMP2
+
+Numb
+
+Ub
+Eps15
+
+Clathrin
+
+Fig. 5. CRMP2 modifications control its interactions with endocytosis-related proteins, NaV1.7 trafficking, and endocytosis via clathrin-mediated endocytosis.
+(A) Normalized peak TTX-S sodium current density (picoamps/picofarad; pA/pF) from DRG neurons transfected with CRMP2, CRMP2-K374A, or CRMP2-S522A
+before and 30 min after application of 20 μM of Pitstop2, a clathrin-mediated endocytosis inhibitor. Representative traces are displayed adjacent to the bar
+graphs (n = 7–17). (B) Representative confocal images of DRG neurons costained for NaV1.7 and the endosome marker Rab5. (Scale bar, 10 μm.) (C) Summary
+of Pearson correlation coefficient of NaV1.7 and Rab5 costaining (n = 8). Representative immunoblots (D) and summary (E) of CRMP2 IP from CAD cells
+transfected with the indicated plasmids and probed with antibodies for endocytosis proteins Numb and Eps15 and E3 ubiquitin ligases Nedd4-2 and Itch (n = 3).
+(F) Normalized peak TTX-S sodium current density (pA/pF) from DRG neurons transfected with indicated plasmids and siRNAs to knock down Numb, Eps15, Nedd4-2,
+or Itch. DRG currents were 11.3 ± 0.8 nA and recorded from cells 36.0 ± 2.6 pF (n = 6–12; *P < 0.05 vs. CRMP2 control, Kruskal–Wallis test with Dunnett’s post hoc
+comparisons). (G) Schematic of proposed mechanism of CRMP2-mediated endocytosis of NaV1.7. Non-SUMOylated CRMP2 binds to the endocytic protein Numb to
+recruit the E3 ligase Nedd4-2, which monoubiquitinates NaV1.7 (Left). Recruitment of Eps15 to this complex elicits clathrin-mediated endocytosis of NaV1.7 (Right).
+
+To further resolve the hierarchy of CRMP2 posttranslational
+modifications in control of NaV1.7, we asked if loss of Fyn phosphory-
+lation could be dominant over loss of Cdk5 phosphorylation of
+CRMP2. NaV1.7 current reductions induced by (i) SUMO-impaired
+
+CRMP2 mutant; (ii) SUMO proteases SENP1/2, which remove
+SUMO from conjugated proteins; or (iii) loss of Cdk5-mediated
+phosphorylation were prevented when Fyn phosphorylation was
+also eliminated (Fig. S5E). Additionally, a dominant-negative Fyn
+
+Dustrude et al.
+
+PNAS | Published online December 8, 2016 | E8447
+
+No Ab
+
+IP CRMP2
+K374A
+
+kDa
+130 
+100 
+100 
+
+CRMP2: Wildtype S522D
+NaV1.7
+dsRed-
+CRMP2
+
+E
+
+No Ab
+
+IP CRMP2
+
+K374A
+
+S522D
+
+kDa
+225 
+
+89
+
+Wildtype
+
+CRMP2:
+Numb
+Eps15
+
+kDa
+70
+98 
+116
+89
+
+Numb
+
+Eps15 Nedd4-2
+
+* *
+
++ -
+-
++
+- -
+
+-
+-
++
+
++ -
+-
++
+- -
+
+-
+-
++
+
++ -
+-
++
+- -
+
+-
+-
++
+
+Nedd4-2
+dsRed-
+CRMP2
+F
+
+i
+
+g
+n
+d
+n
+b
+
+i
+
+ 
+
+2
+P
+M
+R
+C
+e
+v
+i
+t
+
+ 
+
+l
+
+a
+e
+R
+
+)
+2
+P
+M
+R
+C
+
+ 
+f
+
+ 
+
+o
+%
+
+(
+
+1.0
+
+0.5
+
+0.0
+
+1 nA
+
+10 ms
+
+CRMP2
+CRMP2-S522D
+CRMP2-K374A/S522D
+
+G
+
+NaV1.7
+
+No Ab
+
+IP SUMO1
+K374A
+
+Wildtype S522D
+
+Lysate
+
+*
+
+A
+CRMP2:
+CRMP2
+dsRed-
+CRMP2
+B
+
+ 
+
+2
+P
+M
+R
+C
+d
+n
+u
+o
+b
+-
+O
+M
+U
+S
+
+ 
+
+)
+l
+o
+r
+t
+
+n
+o
+c
+ 
+f
+
+ 
+
+o
+%
+
+(
+
+1.0
+
+0.5
+
+0.0
+
+C
+
+s
+t
+
+n
+e
+r
+r
+u
+c
+ 
+k
+a
+e
+p
+d
+e
+z
+
+ 
+
+i
+l
+
+a
+m
+r
+o
+N
+
+2.0
+
+1.0
+
+0.0
+
+ 
+
+7
+
+.
+
+1
+V
+a
+N
+e
+v
+i
+t
+
+ 
+
+l
+
+a
+e
+R
+
+2
+P
+M
+R
+C
+o
+
+ 
+
+t
+ 
+
+i
+
+g
+n
+d
+n
+b
+
+i
+
+1.0
+
+0.5
+
+0.0
+D
+
+500 pA
+
+10 ms
+
+2.0
+
+ 
+
+-
+
+S
+X
+T
+T
+d
+e
+z
+
+ 
+
+i
+l
+
+a
+m
+r
+o
+N
+
+s
+t
+
+n
+e
+r
+r
+u
+c
+ 
+k
+a
+e
+p
+
+1.0
+
+CRMP2-
+S522A
+
++
+-
+-
+-
+
+-
++
+-
+-
+
+-
+-
++
+-
+
+-
++
+-
++
+
+0.0
+
+CRMP2
+
+CRMP2-S522D
+
+CRMP2-K374A/S522D
+
+SENP1 + SENP2
+
++
+-
+-
+
+-
++
+-
+
+-
+-
++
+
+CRMP2
+
+P SUMO
+
+pS522
+
+CRMP2
+
+CRMP2
+
+Numb
+
+Fig. 6. Constitutive Cdk5 phosphorylation of CRMP2 overrides CRMP2 deSUMOylation-mediated loss of NaV1.7 current density via changes in interactions
+with endocytic machinery. Representative immunoblots (A) and summary (B) of IP with SUMO1 or CRMP2 antibodies from CAD cells transfected with
+the indicated plasmids and probed with antibodies against CRMP2 (Left) or NaV1.7 (Right; n = 3). (C ) Representative traces and normalized peak
+sodium current density (picoamps/picofarad; pA/pF) from CAD cells (n = 5–8) or TTX-S current density from DRGs (n = 10–11) (D) transfected with the
+indicated plasmids. DRG currents were 9.9 ± 1.8 nA in amplitude and recorded from cells with average conductances of 30.0 ± 5.3 pF. For comparison,
+the red dashed line, representing data from Fig. 2E, is illustrated in C. Representative immunoblots (E ) and summary (F ) of IP with CRMP2 antibody
+from CAD cells transfected with the indicated plasmids and probed with antibodies against Numb, Eps15, Nedd4-2, and CRMP2 (n = 3; *P < 0.05 vs.
+CRMP2 WT, Kruskal–Wallis test with Dunnett’s post hoc comparisons). (G) Model proposing that elimination of Cdk5-mediated CRMP2 phosphory-
+lation promotes CRMP2’s interaction with Numb.
+
+kinase (DNFyn-K299M) (30) normalized the current density re-
+ductions observed with loss of CRMP2 SUMOylation or phos-
+phorylation (Cdk5 site; Figs. 7B and S5F). Therefore, loss of Fyn
+phosphorylation of CRMP2 dominates all CRMP2-dependent
+posttranslational modifications that reduce NaV1.7 currents.
+
+To determine the mechanism by which Fyn phosphorylation of
+CRMP2 regulates NaV1.7, we next
+investigated CRMP2
+SUMOylation and CRMP2’s interactions with NaV1.7 and en-
+docytosis proteins. Overexpression of a competent Fyn kinase in-
+creased CRMP2 phosphorylation (at Y32), decreased CRMP2
+SUMOylation (Fig. 7C), decreased CRMP2’s interaction with
+NaV1.7 (Fig. 7D), and increased CRMP2’s interaction with the
+endocytic scaffolding protein Eps15 (Fig. 7 E and F). Because loss of
+CRMP2 SUMOylation translates into a reduction in NaV1.7 cur-
+rent density (Fig. 2E), likely as a result of a decrease in binding to
+NaV1.7 (Fig. 4 F and G), we hypothesized that Fyn-phosphorylated
+CRMP2 would lead to a suppression of NaV1.7 currents in CAD
+cells and in DRG neurons. As expected, forcing Fyn phosphory-
+lation of CRMP2 led to a specific reduction in NaV1.7 currents
+compared with cells expressing WT CRMP2 (Fig. 7 G and H).
+Forcing Fyn phosphorylation of a SUMO-incompetent CRMP2
+did not result in any additional reduction in NaV1.7 currents
+(Fig. 7G). Conversely, coexpression of competent Fyn kinase and
+a Fyn phosphorylation-incompetent CRMP2 rescued baseline
+NaV1.7 current densities (Fig. 7G), directly implicating Fyn phos-
+phorylation of CRMP2 in control of NaV1.7 activity.
+
+Next, we manipulated Cdk5 phosphorylation of CRMP2 to
+further dissect the interplay between CRMP2 posttranslational
+modifications in control of NaV1.7. Loss of Cdk5 phosphoryla-
+tion of CRMP2 together with forcing Fyn phosphorylation did
+
+not result in a further decrease of NaV1.7 currents, even when
+the SUMOylation site was deleted (Fig. 7G). On the contrary,
+gain of Cdk5 phosphorylation of CRMP2 was dominant over the
+gain of Fyn phosphorylation of CRMP2 (Fig. 7G), and this effect
+occurred regardless of CRMP2’s SUMOylation status. Loss of
+NaV1.7 currents imposed by forcing Fyn phosphorylation of WT
+CRMP2 in DRG neurons was normalized by inhibition of clathrin
+mediated endocytosis with Pitstop2 (Fig. 7H). Under no condi-
+tions were the biophysical properties of NaV1.7 channels changed
+(Table S1). Thus, CRMP2-dependent internalization of NaV1.7
+requires the simultaneous gain of Fyn phosphorylation coupled
+with loss of Cdk5 phosphorylation of CRMP2, which result in
+reduced SUMOylation of CRMP2 (Fig. 7I) and NaV1.7 endocy-
+tosis (Fig. 7J). These three posttranslational modifications co-
+ordinate CRMP2’s activity toward NaV1.7.
+
+CRMP2 Modulation of NaV1.7 Currents Is Maintained in Human DRGs.
+The relationship between CRMP2 posttranslational modifications
+and NaV1.7 currents in human DRGs has not been defined. Vali-
+dating the relationships between CRMP2 posttranslational modifi-
+cations and NaV1.7 trafficking in humans is critical to understanding
+the mechanistic underpinnings of channel dysregulation in human
+disease and the eventual translation of cell signaling studies to pre-
+clinical models. Therefore, human DRGs were obtained and trans-
+fected with SUMO-impaired or phospho-null CRMP2 mutants
+(Fig. 8A), and sodium currents were recorded. Appropriately com-
+pensated recordings did not reveal any differences in biophysical
+channel properties (Fig. S6 A–C), and use-dependence was un-
+affected (Fig. S6 D and E). Importantly, both the total (Fig. 8 B and
+C) and the TTX-S fraction (Fig. 8 D and E) of sodium currents were
+
+E8448 | www.pnas.org/cgi/doi/10.1073/pnas.1610531113
+
+Dustrude et al.
+
+S
+U
+L
+P
+
+S
+A
+N
+P
+
+E
+C
+N
+E
+I
+C
+S
+O
+R
+U
+E
+N
+
+A
+
+ 
+
+-
+
+S
+X
+T
+T
+d
+e
+z
+
+ 
+
+i
+l
+
+a
+m
+r
+o
+N
+
+s
+t
+
+n
+e
+r
+r
+u
+c
+ 
+k
+a
+e
+p
+
+2.0
+
+1.0
+
+B
+
+ 
+
+-
+
+S
+X
+T
+T
+d
+e
+z
+
+ 
+
+i
+l
+
+a
+m
+r
+o
+N
+
+s
+t
+
+n
+e
+r
+r
+u
+c
+ 
+k
+a
+e
+p
+
+2.0
+
+1.0
+
+0.0
+
+CRMP2
+CRMP2-Y32F/K374A
+
++
+-
+
+-
++
+
+0.0
+DNFyn
+CRMP2
+CRMP2-K374A
+CRMP2-S522A
+
+-
++
+-
+-
+
++
++
+-
+-
+
++
+-
++
+-
+
++
+-
+-
++
+
+D
+
+No Ab
+
+IP CRMP2
++ Fyn
+
+Wildtype
+
+C
+
+No Ab
+
+IP SUMO1
++ Fyn
+
+Wildtype
+
+CRMP2
+
+dsRed-CRMP2
+dsRed-CRMP2
+pY32
+
+Lysate
+
+ 
+
+d
+n
+u
+o
+b
+-
+O
+M
+U
+S
+
+ 
+
+)
+l
+o
+r
+t
+
+n
+o
+C
+
+ 
+f
+
+ 
+
+o
+%
+
+(
+ 
+2
+P
+M
+R
+C
+
+kDa
+130
+100
+
+100
+
+100
+
+E
+
+No Ab
+
+IP CRMP2
++ Fyn
+
+Wildtype
+
++ Fyn
+Wildtype
+
+*
+
+1.0
+
+0.5
+
+0.0
+
+*
+
+F
+
+i
+
+i
+
+ 
+
+g
+n
+d
+n
+b
+2
+P
+M
+R
+C
+ 
+e
+v
+i
+t
+a
+e
+R
+
+l
+
+)
+2
+P
+M
+R
+C
+
+ 
+f
+o
+ 
+%
+
+(
+
+kDa
+70 
+
+98
+
+116
+
+89
+
+1.0
+
+0.0
+
+- +
++
++
+
+- +
++
++
+
+- +
++
++
+
+Fyn
+CRMP2
+
+CRMP2
+NaV1.7
+dsRed-
+CRMP2
+
+G
+
+s
+t
+
+n
+e
+r
+r
+u
+c
+ 
+k
+a
+e
+p
+d
+e
+z
+
+ 
+
+i
+l
+
+a
+m
+r
+o
+N
+
+2.0
+
+1.0
+
+0.0
+
+Fyn
+
+Wildtype
+
+*
+
+1.0
+
+0.5
+
+0.0
+
+7
+
+.
+
+1
+v
+a
+N
+e
+v
+i
+t
+
+ 
+
+l
+
+a
+e
+R
+
+2
+P
+M
+R
+C
+o
+
+ 
+
+t
+ 
+
+i
+
+g
+n
+d
+n
+b
+
+i
+
+kDa
+225 
+
+89 
+
+CRMP2:
+Numb
+
+Eps15
+
+Nedd4-2
+dsRed-
+CRMP2
+5 nM Protox II
+TTX-S currents
+
+20 μM Pitstop2
+TTX-R currents
+
+I
+
+NaV1.7
+
+*
+
+*
+
+CRMP2
+
+P
+Fyn
+
+SUMO
+
+-
++
+
++
++
+
++
++
+
++
++
+
++
++
+
++
++
+
+-
++
+
++
++
+
+J
+
+NaV1.7
+
+H
+
+s
+t
+
+n
+e
+r
+r
+u
+c
+ 
+k
+a
+e
+p
+d
+e
+z
+
+ 
+
+i
+l
+
+a
+m
+r
+o
+N
+
+2.0
+
+1.0
+
+0.0
+
+Fyn
+
+CRMP2
+
+CRMP2-K374A
+CRMP2-Y32F
+CRMP2-S522A
+
+CRMP2-K374A/S522A
+
+CRMP2-S522D
+
+CRMP2-K374A/S522D
+
+CRMP2
+P
+Fyn
+
+Eps15
+
+* * *
+
+* *
+
+-
++
+-
+-
+-
+-
+-
+-
+
+-
+-
++
+-
+-
+-
+-
+-
+
++
++
+-
+-
+-
+-
+-
+-
+
++
+-
++
+-
+-
+-
+-
+-
+
++
+-
+-
++
+-
+-
+-
+-
+
++
+-
+-
+-
++
+-
+-
+-
+
++
+-
+-
+-
+-
++
+-
+-
+
++
+-
+-
+-
+-
+-
++
+-
+
++
+-
+-
+-
+-
+-
+-
++
+
+Fig. 7. Gain of CRMP2 phosphorylation by Fyn overrides the reduction in NaV1.7 current density imposed by loss of CRMP2 SUMOylation or CRMP2 phos-
+phorylation by Cdk5. Normalized peak TTX-S current density (picoamps/picofarad; pA/pF) (A and B) from DRGs transfected with WT or the double Fyn-null/SUMO-
+impaired (CRMP2-Y32F/K374A) CRMP2 (n = 12–13) (A) or the inactive dominant-negative Fyn kinase (n = 8–12) in addition to the indicated CRMP2 plasmids (B).
+(C) Representative immunoblots (Left) and summary (Right) of denaturing IP with SUMO1 antibody from CAD cells transfected with the indicated plasmids and
+probed with CRMP2 antibody. Lysates were also probed for expression of dsRed-CRMP2 (Middle) and pY32 CRMP2 (Bottom; n = 3). (D) Representative immu-
+noblots (Left) and summary (Right) of IP with CRMP2 antibody from CAD cells transfected with the indicated plasmids and probed with a NaV1.7 antibody (n = 3).
+Representative immunoblots (E) and summary (F) of IP with CRMP2 antibody from CAD cells transfected with the indicated plasmids and probed with antibodies
+for Numb, Eps15, Nedd4-2, and CRMP2 (n = 3). Normalized peak sodium current density (pA/pF) from transfected CAD cells (n = 8–12) (G) or TTX-S, non–NaV1.7-
+TTX-S-fraction, TTX-S fraction following Pitstop2 application (20 μM, 30 min), or TTX-R sodium current density from DRGs (n = 9–17) (H). DRG currents were 10.3 ±
+1.5 nA in amplitude and recorded from cells with average conductances of 34.6 ± 5.6 pF (*P < 0.05 vs. CRMP2 WT, Kruskal–Wallis test with Dunnett’s post hoc
+comparisons). (I) Model proposing that Fyn-mediated CRMP2 phosphorylation impairs CRMP2 SUMOylation, but enhances its interaction with Eps15 (J).
+
+decreased by loss of these CRMP2 modifications in human DRGs.
+The congruence between CRMP2 modulation of sodium currents in
+rat and human DRGs validates the CRMP2-NaV1.7 signaling model
+
+(Fig. 9 A and B) and provides a strong mechanistic understanding
+from which future studies can target CRMP2-NaV1.7 interactions in
+preclinical animal models of human pain syndromes.
+
+Dustrude et al.
+
+PNAS | Published online December 8, 2016 | E8449
+
+50 μm
+
+B
+
+C
+
+A
+
+2
+P
+M
+R
+C
+
+A
+4
+7
+3
+K
+-
+2
+P
+M
+R
+C
+
+A
+2
+2
+5
+S
+-
+2
+P
+M
+R
+C
+
+D
+
+5 nA
+
+5 ms
+
+5 nA
+
+5 ms
+
+CRMP2
+CRMP2-K374A
+CRMP2-S522A
+
+E
+
+*
+
+*
+
+k
+a
+e
+p
+d
+e
+z
+
+ 
+
+i
+l
+
+a
+m
+r
+o
+N
+
+t
+
+n
+e
+r
+r
+u
+c
+ 
+S
+X
+T
+T
+
+-
+
+ 
+
+2.0
+
+1.0
+
+0.0
+
+*
+
+*
+
+t
+
+n
+e
+r
+r
+u
+c
+ 
+k
+a
+e
+p
+d
+e
+z
+
+ 
+
+i
+l
+
+a
+m
+r
+o
+N
+
+2.0
+
+1.0
+
+0.0
+
+Fig. 8. CRMP2 modifications control NaV1.7 currents in human DRGs. (A) Representative differential interference contrast (Left) and fluorescence (dsRed;
+Right) images showing transfection of human DRGs (yellow arrowheads). Representative families of total sodium current traces (B) or TTX-S sodium current
+traces (D) from human DRGs expressing WT, SUMO-impaired (CRMP2-K374A), or phospho-null (CRMP2-S522A) CRMP2. Normalized peak total sodium current
+density (n = 7–8) (C) or TTX-S sodium current density [picoamps/picofarad (pA/pF); n = 7–15] (E) from human DRGs expressing the indicated plasmids. Human
+DRG currents were 23.1 ± 4.0 nA and recorded from cells with average conductances of 84.3 ± 16.5 pF (*P < 0.05 vs. CRMP2 WT, Kruskal–Wallis test with
+Dunnett’s post hoc comparisons).
+
+Discussion
+The present findings make a compelling case for targeting
+CRMP2 posttranslational modifications, loss of which selectively
+attenuates NaV1.7 currents and dampens nociceptor excitability, as
+a pathway for development of therapeutic agents for the treatment
+of neuropathic pain. Although CRMP2 posttranslational modifi-
+cations serve to direct protein activity to a variety of functional
+cellular processes, CRMP2 SUMOylation does not feed back onto
+CRMP2 phosphorylation as evident by unchanged CRMP2 phos-
+phorylation between WT and K374A mutant CRMP2 (Fig. 4 A and
+B). Therefore, although posttranslational modifications codify
+
+a molecular language that instruct CRMP2 to positively or
+negatively influence NaV1.7 surface expression, a direct interven-
+tion of CRMP2 SUMOylation has potential to attenuate pain states
+without modifying CRMP2 phosphorylation or other functions of
+CRMP2. It may also be possible that the CRMP2-NaV1.7 traf-
+ficking pathway dissected in our work (Fig. 9), which is congruent
+between rodent and human DRGs, is dysfunctional within human
+disease pain states and contributes to nociceptor excitability. Future
+studies will aim to dissect if subtle tuning of the CRMP2 modifi-
+cations that alter NaV1.7 currents can result in significant reduction
+of pain in animal models.
+
+A
+
+NaV1.7
+
+CRMP2
+
+SUMO
+
+P
+
+pS522
+
+B
+
+5
+
+1
+
+CRMP2
+
+CRMP2
+
+Numb
+
+2
+
+Fyn
+pY32
+
+CRMP2
+CRMP2
+
+Numb
+
+P
+P
+3
+
+Nedd4-2
+
+CRMP2
+
+P
+
+4
+
+SUMO
+
+Ub
+
+Nedd4-2
+
+CRMP2
+
+Numb
+
+P
+
+6
+NaV1.7 endocytosis
+
+CRMP2
+
+Numb
+
+P
+
+Ub
+Eps15
+
+Clathrin
+
+Fig. 9.
+Schematic of CRMP2 modifications and their contribution to the regulation of NaV1.7 trafficking. (A) CRMP2 SUMOylation (1) is prevented when
+CRMP2 phosphorylation by Cdk5 at S522 is also prevented. Consequently, nonSUMOylated CRMP2 has an enhanced interaction with Numb (2). The enhanced
+interaction with Numb and subsequent phosphorylation of CRMP2 by Fyn kinase (3) can facilitate further recruitment of the E3 ubiquitin ligase Nedd4-2.
+Furthermore, when phosphorylated by Fyn, CRMP2 SUMOylation is prevented (4). (B) Within the CRMP2/NaV1.7/endocytic machinery complex, Nedd4-2
+monoubiquitinates NaV1.7 (5), which, in turn, permits Eps15/clathrin-mediated endocytosis of the channel (6).
+
+E8450 | www.pnas.org/cgi/doi/10.1073/pnas.1610531113
+
+Dustrude et al.
+
+From a mechanistic perspective, the NaV1.7 trafficking pathway
+identified here greatly extends the findings of Laedermann et al.,
+who reported that the Nedd4-2 ubiquitin ligase monoubiquitinates
+NaV1.7 to signal the channel’s endocytosis (6). Our results suggest
+that induction of membrane curvature by Eps15 (26, 27) to trigger
+clathrin-mediated endocytosis is required for CRMP2-mediated
+endocytosis of NaV1.7 via the formation of a CRMP2/Numb/Eps15/
+Nedd4-2 complex. If CRMP2 is not SUMOylated, these interactions
+are strengthened, culminating in accumulation of the channel into
+early and recycling endosomes. This study also extends our own
+previous work that demonstrated a link between NaV1.7 function
+and CRMP2 SUMOylation (8) to now illustrate that the trafficking
+program of NaV1.7 is dependent on multiple modifications of
+CRMP2 and details the mechanism of endocytosis of NaV1.7.
+
+Akin to the relationship described here between CRMP2 and
+NaV1.7, several studies have been successful in identifying links
+between protein SUMOylation and trafficking of an accessory
+protein. For instance, the immediate early gene Activity-regu-
+lated cytoskeleton-associated protein/Activity-regulated gene 3.1
+(Arc), which couples changes in neuronal activity to synaptic
+plasticity events (31), is SUMOylated (32). Arc SUMOylation
+impacts the trafficking of AMPARs, which are heterotetrameric
+glutamate-gated ion channels that underpin the vast majority of
+fast excitatory glutamate neurotransmission in the central ner-
+vous system (33). Preventing Arc SUMOylation may control
+AMPARs. Rab3-Interacting Molecule 1α (RIM1α) is a presynaptic
+protein implicated in the docking/priming of synaptic vesicles and in
+the development of short- and long-term synaptic plasticity (34, 35).
+RIM1α SUMOylation is required for presynaptic targeting and
+clustering of Cav2.1 calcium channels (36). Our study adds to the
+growing evidence that protein SUMOylation is critical for traffick-
+ing processes in neurons.
+
+A salient finding of our work is the selectivity in CRMP2 modu-
+lation of NaV1.7, but not other channels. How CRMP2 regulates
+NaV1.7 specifically is a critical question. One possibility may be
+differential recruitment of the endocytic machinery or CRMP2 itself.
+Nedd4 proteins regulate trafficking of multiple sodium channels (6,
+37) whereas Numb and Eps15 proteins are general players in cla-
+thrin-mediated endocytosis (18, 19, 27), so specificity is unlikely
+endowed by these proteins. Likely, the specificity is conferred by
+CRMP2, as its expression and modifications causally influence
+NaV1.7. CRMP2 may have differential binding affinities for NaV1.x
+channels with the highest affinity for NaV1.7. Although this binding
+has not been mapped for each of the channels, a hypothesis to ex-
+plain selective regulation of NaV1.7 may be differential binding of
+CRMP2 to intracellular loops of sodium channels, especially those
+that are not conserved between NaV1.x isoforms (e.g., the N ter-
+minus and loop 2 connecting the second and third transmembrane
+domain modules). Because CRMPs are heterotetrameric, we can-
+not rule out contributions to channel specificity by other CRMP
+isoforms. For instance, CRMP4 expression increases following sci-
+atic nerve axotomy (38), and a CRMP2–CRMP4 tetramer may
+permit binding to NaV1.7, but not other NaV1.x channels. CRMP4-
+KO mice exhibit impaired olfactory ability (39), and loss-of-function
+mutations in NaV1.7 cause anosmia (40), thus providing further
+evidence of a possible link between CRMP4 and NaV1.7. However,
+another possibility is that there may be a still unknown protein that
+is required for the CRMP2-NaV1.7 specificity.
+
+Many proteins bear multiple, distinct modifications, and the
+ability of one modification to antagonize or synergize the addi-
+
+S
+U
+L
+P
+
+S
+A
+N
+P
+
+E
+C
+N
+E
+I
+C
+S
+O
+R
+U
+E
+N
+
+tion of another can have significant biological consequences. Of
+the multiple kinases that target CRMP2, it is interesting that
+phosphorylation by Cdk5 and Fyn confers regulatory checkpoints
+upon CRMP2 SUMOylation that steer CRMP2/NaV1.7 signal-
+ing in opposing directions (Fig. 9). Notably, both kinases have
+been linked to pain. Increased Cdk5 activity has been reported in
+inflammatory (41) and neuropathic (42) pain models, and roscovi-
+tine, a Cdk5-inhibiting compound, blunted neuropathic pain after
+chronic compression injury of DRGs (42). Constitutive action of
+Fyn produced mechanical allodynia and thermal hyperalgesia via
+enhanced expression of ionotropic glutamate receptors (43). De-
+spite the breadth of pain research and continuous identification of
+novel targets of protein SUMOylation, no previous reports have
+linked this modification to pain as far as we are aware. A weak link
+can be surmised from data demonstrating an enhanced suscepti-
+bility to symptomatic knee osteoarthritis and multiple regional pain
+in patients who show expression of the NaV1.7 R1150W mutation
+(44) and an increase in global SUMOylation rate in rheumatoid
+arthritis (45).
+
+NaV1.7 is a high-value target for development of new pain
+therapeutic agents. Tarantula peptide toxins are selective for
+NaV1.7 in vitro but fail to provide analgesia in pain models (46),
+likely because of a lack of penetration past the perineural barrier
+(47). A NaV1.7-selective centipede-venom peptide elicited anti-
+nociception in acute pain models but has not yet been tested in
+more complex rodent pain models (48). A monoclonal antibody
+against the voltage sensor of NaV channels exhibited selectivity
+for NaV1.7, with partial effects on NaV1.6 (49), and several
+small-molecule blockers of human NaV1.7 have been described
+(50). Thus, strategies targeting NaV1.7 channels are ongoing and
+show promise in pain therapy. Disrupting CRMP2 SUMOylation is
+an approach to controlling NaV1.7 channels that overcomes the
+selectivity hurdle of targeting NaV1.7 directly. When posttransla-
+tionally modified, CRMP2 reduces NaV1.7 currents and excitability.
+Thus, modification of CRMP2 by SUMOylation is a mechanism to
+selectively regulate NaV1.7, and interacting with this pathway to
+curb NaV1.7 activity could normalize nociceptor excitability. From
+a translational perspective, the concordance in NaV1.7 regulation
+by CRMP2 in rodent and human sensory neurons will likely mean
+better success when this strategy is pursued in future clinical trials.
+
+Materials and Methods
+Detailed descriptions of methods used and any associated references are
+available in SI Materials and Methods. Briefly, all electrophysiology and
+biochemistry experiments were performed according to established proto-
+cols (8, 15). All animal protocols were approved by the institutional animal
+care and use committee of the College of Medicine at the University of
+Arizona and conducted in accordance with the Guide for Care and Use of
+Laboratory Animals published by the National Institutes of Health.
+
+ACKNOWLEDGMENTS. We thank Dr. Yoshio Goshima (Yokohama City Uni-
+versity Graduate School of Medicine, Yokohama, Japan) for providing
+CRMP2-pY32 antibody and Dr. Pascale Giraudon (Lyon Neuroscience Re-
+search Center, Lyon, France) for providing CRMP2-pY479 antibody; members
+of the R. Khanna laboratory for technical assistance regarding this project,
+and Isabel N. Angeles for assistance with plasmid cloning. This work was
+supported by a Career Development Award from the Arizona Health Science
+Center (to M.K.), National Scientist Development Grant SDG5280023 from
+the American Heart Association (to R.K.), Neurofibromatosis New Investiga-
+tor Award NF1000099 from the Department of Defense Congressionally Di-
+rected Military Medical Research and Development Program (to R.K.), and a
+Young Investigator Award from the Children’s Tumor Foundation (to A.M.).
+
+1. Dib-Hajj SD, Yang Y, Waxman SG (2008) Genetics and molecular pathophysiology of
+
+4. Bennett DL, Woods CG (2014) Painful and painless channelopathies. Lancet Neurol
+
+Na(v)1.7-related pain syndromes. Adv Genet 63:85–110.
+
+13(6):587–599.
+
+2. Jarecki BW, Sheets PL, Jackson JO, 2nd, Cummins TR (2008) Paroxysmal extreme pain
+disorder mutations within the D3/S4-S5 linker of Nav1.7 cause moderate destabilization of
+fast inactivation. J Physiol 586(17):4137–4153.
+
+5. Hong S, Morrow TJ, Paulson PE, Isom LL, Wiley JW (2004) Early painful diabetic neuropathy
+is associated with differential changes in tetrodotoxin-sensitive and -resistant sodium
+channels in dorsal root ganglion neurons in the rat. J Biol Chem 279(28):29341–29350.
+
+3. Waxman SG (2007) Nav1.7,
+
+its mutations, and the syndromes that they cause.
+
+6. Laedermann CJ, et al. (2013) Dysregulation of voltage-gated sodium channels by
+
+Neurology 69(6):505–507.
+
+ubiquitin ligase NEDD4-2 in neuropathic pain. J Clin Invest 123(7):3002–3013.
+
+Dustrude et al.
+
+PNAS | Published online December 8, 2016 | E8451
+
+7. Zhang H, Dougherty PM (2014) Enhanced excitability of primary sensory neurons and
+altered gene expression of neuronal ion channels in dorsal root ganglion in paclitaxel-
+induced peripheral neuropathy. Anesthesiology 120(6):1463–1475.
+
+8. Dustrude ET, Wilson SM, Ju W, Xiao Y, Khanna R (2013) CRMP2 protein SUMOylation
+
+modulates NaV1.7 channel trafficking. J Biol Chem 288(34):24316–24331.
+
+9. Fukata Y, et al. (2002) CRMP-2 binds to tubulin heterodimers to promote microtubule
+
+assembly. Nat Cell Biol 4(8):583–591.
+
+10. Yoshimura T, et al. (2005) GSK-3beta regulates phosphorylation of CRMP-2 and
+
+neuronal polarity. Cell 120(1):137–149.
+
+11. Cole AR, et al. (2006) Distinct priming kinases contribute to differential regulation of
+collapsin response mediator proteins by glycogen synthase kinase-3 in vivo. J Biol
+Chem 281(24):16591–16598.
+
+12. Arimura N, et al. (2000) Phosphorylation of collapsin response mediator protein-2 by
+Rho-kinase. Evidence for two separate signaling pathways for growth cone collapse.
+J Biol Chem 275(31):23973–23980.
+
+13. Uchida Y, et al. (2009) Semaphorin3A signaling mediated by Fyn-dependent tyrosine
+phosphorylation of collapsin response mediator protein 2 at tyrosine 32. J Biol Chem
+284(40):27393–27401.
+
+14. Varrin-Doyer M, et al. (2009) Phosphorylation of collapsin response mediator protein
+2 on Tyr-479 regulates CXCL12-induced T lymphocyte migration. J Biol Chem 284(19):
+13265–13276.
+
+15. Brittain JM, et al. (2011) Suppression of inflammatory and neuropathic pain by un-
+coupling CRMP-2 from the presynaptic Ca2+ channel complex. Nat Med 17(7):
+822–829.
+
+16. Moutal A, François-Moutal L, Brittain JM, Khanna M, Khanna R (2015) Differential
+neuroprotective potential of CRMP2 peptide aptamers conjugated to cationic, hy-
+drophobic, and amphipathic cell penetrating peptides. Front Cell Neurosci 8:471.
+
+17. Brustovetsky T, Pellman JJ, Yang XF, Khanna R, Brustovetsky N (2014) Collapsin re-
+sponse mediator protein 2 (CRMP2) interacts with N-methyl-D-aspartate (NMDA)
+receptor and Na+/Ca2+ exchanger and regulates their functional activity. J Biol Chem
+289(11):7470–7482.
+
+18. Nishimura T, et al. (2003) CRMP-2 regulates polarized Numb-mediated endocytosis for
+
+axon growth. Nat Cell Biol 5(9):819–826.
+
+19. Santolini E, et al. (2000) Numb is an endocytic protein. J Cell Biol 151(6):1345–1352.
+20. Wang Y, et al. (2011) Development and characterization of novel derivatives of the
+antiepileptic drug lacosamide that exhibit far greater enhancement in slow in-
+activation of voltage-gated sodium channels. ACS Chem Neurosci 2(2):90–106.
+
+21. Dib-Hajj SD, Yang Y, Black JA, Waxman SG (2013) The Na(V)1.7 sodium channel: from
+
+molecule to man. Nat Rev Neurosci 14(1):49–62.
+
+22. Brittain JM, Wang Y, Eruvwetere O, Khanna R (2012) Cdk5-mediated phosphorylation
+
+of CRMP-2 enhances its interaction with CaV2.2. FEBS Lett 586(21):3813–3818.
+
+23. von Kleist L, et al. (2011) Role of the clathrin terminal domain in regulating coated pit
+
+dynamics revealed by small molecule inhibition. Cell 146(3):471–484.
+
+24. Laedermann CJ, Decosterd I, Abriel H (2014) Ubiquitylation of voltage-gated sodium
+
+channels. Handb Exp Pharmacol 221:231–250.
+
+25. Kawahashi K, Sakata T, Hayashi S (2007) Modulation of Notch signal transduction by
+endocytotic regulators Numb and the Nedd4 family of ubiquitin ligases. A Dros Res
+Conf 48:444C.
+
+26. Woelk T, et al. (2006) Molecular mechanisms of coupled monoubiquitination. Nat Cell
+
+Biol 8(11):1246–1254.
+
+27. Horvath CA, Vanden Broeck D, Boulet GA, Bogers J, De Wolf MJ (2007) Epsin: inducing
+
+membrane curvature. Int J Biochem Cell Biol 39(10):1765–1770.
+
+28. Polo S, et al. (2002) A single motif responsible for ubiquitin recognition and mono-
+
+ubiquitination in endocytic proteins. Nature 416(6879):451–455.
+
+29. Di Marcotullio L, et al. (2006) Numb is a suppressor of Hedgehog signalling and tar-
+
+gets Gli1 for Itch-dependent ubiquitination. Nat Cell Biol 8(12):1415–1423.
+
+30. Osterhout DJ, Wolven A, Wolf RM, Resh MD, Chao MV (1999) Morphological differ-
+entiation of oligodendrocytes requires activation of Fyn tyrosine kinase. J Cell Biol
+145(6):1209–1218.
+
+31. Bramham CR, et al. (2010) The Arc of synaptic memory. Exp Brain Res 200(2):125–140.
+32. Craig TJ, et al. (2012) Homeostatic synaptic scaling is regulated by protein SUMOy-
+
+lation. J Biol Chem 287(27):22781–22788.
+
+33. Chowdhury S, et al. (2006) Arc/Arg3.1 interacts with the endocytic machinery to
+
+regulate AMPA receptor trafficking. Neuron 52(3):445–459.
+
+34. Dulubova I, et al. (2005) A Munc13/RIM/Rab3 tripartite complex: from priming to
+
+plasticity? EMBO J 24(16):2839–2850.
+
+35. Castillo PE, Schoch S, Schmitz F, Südhof TC, Malenka RC (2002) RIM1alpha is required
+
+for presynaptic long-term potentiation. Nature 415(6869):327–330.
+
+36. Girach F, Craig TJ, Rocca DL, Henley JM (2013) RIM1α SUMOylation is required for fast
+
+synaptic vesicle exocytosis. Cell Reports 5(5):1294–1301.
+
+37. Fotia AB, et al. (2004) Regulation of neuronal voltage-gated sodium channels by the
+
+ubiquitin-protein ligases Nedd4 and Nedd4-2. J Biol Chem 279(28):28930–28935.
+
+38. Jang SY, et al. (2010) Injury-induced CRMP4 expression in adult sensory neurons; A
+
+possible target gene for ciliary neurotrophic factor. Neurosci Lett 485(1):37–42.
+
+39. Tsutiya A, Nishihara M, Goshima Y, Ohtani-Kaneko R (2015) Mouse pups lacking
+collapsin response mediator protein 4 manifest impaired olfactory function and hy-
+peractivity in the olfactory bulb. Eur J Neurosci 42(6):2335–2345.
+
+40. Weiss J, et al. (2011) Loss-of-function mutations in sodium channel Nav1.7 cause
+
+anosmia. Nature 472(7342):186–190.
+
+41. Yang YR, et al. (2007) Activation of cyclin-dependent kinase 5 (Cdk5) in primary
+sensory and dorsal horn neurons by peripheral inflammation contributes to heat
+hyperalgesia. Pain 127(1-2):109–120.
+
+42. Yang L, Gu X, Zhang W, Zhang J, Ma Z (2014) Cdk5 inhibitor roscovitine alleviates
+neuropathic pain in the dorsal root ganglia by downregulating N-methyl-D-aspartate
+receptor subunit 2A. Neurol Sci 35(9):1365–1371.
+
+43. Liu YN, Yang X, Suo ZW, Xu YM, Hu XD (2014) Fyn kinase-regulated NMDA receptor-
+and AMPA receptor-dependent pain sensitization in spinal dorsal horn of mice. Eur J
+Pain 18(8):1120–1128.
+
+44. Valdes AM, et al. (2011) Role of the Nav1.7 R1150W amino acid change in suscepti-
+bility to symptomatic knee osteoarthritis and multiple regional pain. Arthritis Care
+Res (Hoboken) 63(3):440–444.
+
+45. Meinecke I, et al. (2007) Modification of nuclear PML protein by SUMO-1 regulates
+Fas-induced apoptosis in rheumatoid arthritis synovial fibroblasts. Proc Natl Acad Sci
+USA 104(12):5073–5078.
+
+46. Theile JW, Cummins TR (2011) Recent developments regarding voltage-gated sodium
+channel blockers for the treatment of inherited and acquired neuropathic pain syn-
+dromes. Front Pharmacol 2:54.
+
+47. Schmalhofer WA, et al. (2008) ProTx-II, a selective inhibitor of NaV1.7 sodium chan-
+nels, blocks action potential propagation in nociceptors. Mol Pharmacol 74(5):
+1476–1484.
+
+48. Yang S, et al. (2013) Discovery of a selective NaV1.7 inhibitor from centipede venom
+with analgesic efficacy exceeding morphine in rodent pain models. Proc Natl Acad Sci
+USA 110(43):17534–17539.
+
+49. Lee JH, et al. (2014) A monoclonal antibody that targets a NaV1.7 channel voltage
+
+sensor for pain and itch relief. Cell 157(6):1393–1404.
+
+50. Clare JJ (2010) Targeting voltage-gated sodium channels for pain therapy. Expert
+
+Opin Investig Drugs 19(1):45–62.
+
+51. Wang Y, et al. (2011) Merging structural motifs of functionalized amino acids and
+α-aminoamides results in novel anticonvulsant compounds with significant effects on
+slow and fast inactivation of voltage-gated sodium channels and in the treatment of
+neuropathic pain. ACS Chem Neurosci 2(6):317–322.
+
+52. Zhou L, et al. (2010) First evidence of overlaps between HIV-Associated Dementia
+(HAD) and non-viral neurodegenerative diseases: Proteomic analysis of the frontal
+cortex from HIV+ patients with and without dementia. Mol Neurodegener 5:27.
+
+53. Wilson SM, et al. (2012) Inhibition of transmitter release and attenuation of anti-
+retroviral-associated and tibial nerve injury-related painful peripheral neuropathy by
+novel synthetic Ca2+ channel peptides. J Biol Chem 287(42):35065–35077.
+
+54. Fenteany G, et al. (1995) Inhibition of proteasome activities and subunit-specific
+
+amino-terminal threonine modification by lactacystin. Science 268(5211):726–731.
+
+55. Maruyama H, et al. (2004) Electrophysiological characterization of the tetrodotoxin-
+resistant Na+ channel, Na(v)1.9, in mouse dorsal root ganglion neurons. Pflugers Arch
+449(1):76–87.
+
+56. Davidson S, et al. (2014) Human sensory neurons: Membrane properties and sensiti-
+
+zation by inflammatory mediators. Pain 155(9):1861–1870.
+
+57. Joiner WJ, Khanna R, Schlichter LC, Kaczmarek LK (2001) Calmodulin regulates as-
+sembly and trafficking of SK4/IK1 Ca2+-activated K+ channels. J Biol Chem 276(41):
+37980–37985.
+
+58. Brittain JM, et al. (2011) Neuroprotection against traumatic brain injury by a peptide
+derived from the collapsin response mediator protein 2 (CRMP2). J Biol Chem 286(43):
+37778–37792.
+
+59. Chi XX, et al. (2009) Regulation of N-type voltage-gated calcium channels (Cav2.2)
+and transmitter release by collapsin response mediator protein-2 (CRMP-2) in sensory
+neurons. J Cell Sci 122(pt 23):4351–4362.
+
+60. Weber AR, Schuermann D, Schär P (2014) Versatile recombinant SUMOylation system
+
+for the production of SUMO-modified protein. PLoS One 9(7):e102157.
+
+61. Moutal A, et al. (2016) (S)-Lacosamide binding to Collapsin Response Mediator Pro-
+tein 2 (CRMP2) regulates CaV2.2 activity by subverting its phosphorylation by Cdk5.
+Mol Neurobiol 53(3):1959–1976.
+
+E8452 | www.pnas.org/cgi/doi/10.1073/pnas.1610531113
+
+Dustrude et al.
+
+

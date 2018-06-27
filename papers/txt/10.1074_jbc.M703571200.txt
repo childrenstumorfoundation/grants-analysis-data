@@ -1,0 +1,1625 @@
+Mechanisms of Signal Transduction:
+Specificity and Mechanism of Action of
+EHT 1864, a Novel Small Molecule 
+Inhibitor of Rac Family Small GTPases
+  
+Adam Shutes, Cercina Onesto, Virginie
+Picard, Bertrand Leblond, Fabien 
+Schweighoffer and Channing J. Der
+J. Biol. Chem. 
+2007, 282:35666-35678.
+doi: 10.1074/jbc.M703571200 originally published online October 11, 2007
+
+10.1074/jbc.M703571200
+ 
+
+Access the most updated version of this article at doi: 
+  
+Find articles, minireviews, Reflections and Classics on similar topics on the 
+  
+Alerts: 
+•  
+•  
+  
+
+ 
+When this article is cited
+When a correction for this article is posted
+ 
+
+JBC Affinity Sites
+
+.
+
+Click here
+
+ to choose from all of JBC's e-mail alerts
+
+This article cites 61 references, 22 of which can be accessed free at
+http://www.jbc.org/content/282/49/35666.full.html#ref-list-1
+ 
+  
+
+Downloaded from 
+
+http://www.jbc.org/
+
+ by guest on July 25, 2013
+
+ 
+THE JOURNAL OF BIOLOGICAL CHEMISTRY VOL. 282, NO. 49, pp. 35666 –35678, December 7, 2007
+© 2007 by The American Society for Biochemistry and Molecular Biology, Inc. Printed in the U.S.A.
+
+Specificity and Mechanism of Action of EHT 1864, a Novel
+Small Molecule Inhibitor of Rac Family Small GTPases*
+
+Received for publication, April 30, 2007, and in revised form, September 26, 2007 Published, JBC Papers in Press, October 11, 2007, DOI 10.1074/jbc.M703571200
+Adam Shutes‡1,2, Cercina Onesto‡1, Virginie Picard§, Bertrand Leblond§, Fabien Schweighoffer§,
+and Channing J. Der‡3
+From the ‡Lineberger Comprehensive Cancer Center, University of North Carolina, Chapel Hill, North Carolina 27599
+and §ExonHit Therapeutics, 65 Boulevard Masse´na, Paris 75013, France
+
+There is now considerable experimental evidence that aber-
+rant activation of Rho family small GTPases promotes the
+uncontrolled proliferation, invasion, and metastatic properties
+of human cancer cells. Therefore, there is considerable interest
+in the development of small molecule inhibitors of Rho GTPase
+function. However, to date, most efforts have focused on inhib-
+itors that indirectly block Rho GTPase function, by targeting
+either enzymes involved in post-translational processing or
+downstream protein kinase effectors. We recently determined
+that the EHT 1864 small molecule can inhibit Rac function in
+vivo. In this study, we evaluated the biological and biochemical
+specificities and biochemical mechanism of action of EHT 1864.
+We determined that EHT 1864 specifically inhibited Rac1-de-
+pendent platelet-derived growth factor-induced lamellipodia
+formation. Furthermore, our biochemical analyses with recom-
+binant Rac proteins found that EHT 1864 possesses high affinity
+binding to Rac1, as well as the related Rac1b, Rac2, and Rac3
+isoforms,andthisassociationpromotedthelossofboundnucle-
+otide,inhibitingbothguaninenucleotideassociationandTiam1
+Rac guanine nucleotide exchange factor-stimulated exchange
+factor activity in vitro. EHT 1864 therefore places Rac in an inert
+and inactive state, preventing its engagement with downstream
+effectors. Finally, we evaluated the ability of EHT 1864 to block
+Rac-dependent growth transformation, and we determined that
+EHT 1864 potently blocked transformation caused by constitu-
+tively activated Rac1, as well as Rac-dependent transformation
+caused by Tiam1 or Ras. Taken together, our results suggest that
+EHT 1864 selectively inhibits Rac downstream signaling and
+transformation by a novel mechanism involving guanine nucle-
+otide displacement.
+
+Rho family proteins (20 human members) comprise a major
+branch of the Ras superfamily of small GTPases (1, 2). Like Ras,
+Rho GTPases function as GDP/GTP-regulated binary on-off
+switches. In resting, quiescent cells, Rho GTPases exist pre-
+
+dominately in their inactive, GDP-bound state. Upon growth
+factor stimulation, Rho-specific guanine nucleotide exchange
+factors (RhoGEFs)4 are activated, and they stimulate the intrin-
+sic guanine nucleotide exchange activity to promote formation
+of the active GTP-bound protein. Rho-GTP binds preferen-
+tially to downstream effector proteins. Rho-specific GTPase-
+activating proteins then stimulate the intrinsic GTP hydrolysis
+activity of Rho GTPases, returning the protein to its inactive
+state and terminating effector interaction.
+
+RhoA, Rac1, and Cdc42 are the best studied and understood
+members of the Rho GTPase family (1, 2). Rho GTPases are
+regulators of a diverse variety of cellular processes that include
+regulation of cell proliferation, actin cytoskeleton reorganiza-
+tion, and gene expression (3). Like Ras and other members of
+the Ras superfamily (4, 5), the aberrant activity of Rho GTPases
+has been implicated in cancer and other human diseases
+(6–10). In particular, the Rac subfamily has also been linked to
+cellular transformation. Rac is essential for transformation
+caused by Ras and other oncogenes (11–16). The Rac1b splice
+variant of Rac1 is constitutively active and transforming and
+found overexpressed in breast and colon cancers (17–19).
+Mutation and overexpression of Rac3 was seen in human brain
+tumors, and RNA interference demonstrated a role for Rac1
+and Rac3 in human glioblastoma invasion (20, 21). Finally, the
+Vav RacGEF is found hyperactivated in pancreatic cancers, and
+suppression of Vav1 expression impairs pancreatic tumor cell
+growth (22).
+
+Due to their central nature in many transforming events, Rho
+GTPases are therefore attractive and validated targets for anti-
+cancer therapies. One approach has involved small molecule
+inhibitors of the prenyltransferases (23, 24). Farnesyltrans-
+ferase and geranylgeranyltransferase I catalyze the covalent
+modification of Rho GTPases by isoprenoid lipids, which then
+promote the membrane association required for Rho GTPase
+interaction with effectors and biological activity. However,
+because these prenyltransferases are involved in the modifica-
+tion of a multitude of other proteins important in cell prolifer-
+
+* This work was supported in part by National Institutes of Health Grants
+CA67771, CA92240, and CA063071 (to C. J. D.). The costs of publication of
+this article were defrayed in part by the payment of page charges. This
+article must therefore be hereby marked “advertisement” in accordance
+with 18 U.S.C. Section 1734 solely to indicate this fact.
+
+1 Both authors contributed equally to this work.
+2 Supported by a fellowship from the Susan G. Komen Breast Cancer
+
+Foundation.
+
+3 To whom correspondence should be addressed: Lineberger Comprehen-
+sive Cancer Center, 450 West Drive, CB #7295, Chapel Hill, NC 27599-7295.
+Tel.: 919-962-1057; Fax: 919-966-0162; E-mail: cjder@med.unc.edu.
+
+4 The abbreviations used are: RhoGEF, Rho-specific guanine nucleotide
+exchange factor; RBD, Rho GTPase binding domain; GST, glutathione
+S-transferase; PDGF, platelet-derived growth factor; LPA, lysophosphatidic
+acid; PBS, phosphate-buffered saline; siRNA, small interference RNA; mant,
+N-methylanthraniloyl; GTP␥S, guanosine 5⬘-3-O-(thio)triphosphate; HA,
+hemagglutinin; FRET, fluorescence resonance energy transfer; DH/PH, tan-
+dem Dbl and pleckstrin homology; GDI, guanine nucleotide dissociation
+inhibitor; WT, wild type; MTT, 3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltet-
+razolium bromide; PAK, p21-activated serine/threonine kinase; GMPPNP,
+5⬘-guanylyl imidodiphosphate.
+
+35666 JOURNAL OF BIOLOGICAL CHEMISTRY
+
+Downloaded from 
+
+http://www.jbc.org/
+
+ by guest on July 25, 2013
+
+VOLUME 282 • NUMBER 49 • DECEMBER 7, 2007
+
+ation and survival (25), inhibitors of prenyltransferases are
+likely to possess significant off-target activities and may lack
+sufficient specificity to selectively block Rho GTPase function.
+Another approach has involved inhibitors of the protein kinase
+effectors of Rho GTPases, for example, the Y-27632 small mol-
+ecule inhibitor of the Rho-associated serine/threonine protein
+kinase (ROCK), a key effector of RhoA. However, because Rho
+GTPasesutilizeamultitudeofotherdownstreameffectors,ROCK
+inhibitors will impair only a subset of RhoA functions (26).
+
+Inhibitors that directly interact with Rho GTPases would be
+preferable and exhibit greater specificity. However, to date,
+there has been limited success in the identification of inhibitors
+that specifically interact with small GTPases. One example is
+the NSC23766 small molecule, which was identified as a cell-
+permeable compound that can bind directly to Rac1 and pre-
+vent its activation by Rac-specific RhoGEFs (27). However, this
+inhibitor did not block Rac activation by some GEFs (Vav1),
+and Rac activation by other mechanisms will also be insensitive
+to NSC23766. Recently, we identified EHT 1864 as a small mol-
+ecule that inhibited Rac-dependent amyloid precursor protein
+processing by ␥-secretase and decreased A␤production in vitro
+and in vivo (28). Our preliminary characterization found that
+EHT 1864 inhibited a variety of downstream signaling activities
+activated by ectopic expression of constitutively-activated
+Rac1(G12V) and decreased Rac1 association with the isolated
+Rho GTPase binding domain (RBD) of the p21-activated ser-
+ine/threonine kinase effector PAK1 in vivo. However, the Rho
+GTPase specificity and mechanism of action of EHT 1864 was
+not determined. We report here on the further investigation of
+EHT 1864. We show that EHT 1864 selectively blocks platelet
+growth factor-stimulated activation of Rac1-dependent lamel-
+lipodia formation and not ligand activation of RhoA- or Cdc42-
+mediated actin reorganization. Our biochemical analyses
+determined that EHT 1864 also interacts with other Rac iso-
+forms, associates with Rac1 tightly, and causes the release of
+bound nucleotide, thus preventing effector interaction, both in
+vitro and in vivo. Finally, we determined that EHT 1864
+potently inhibited other Rac-dependent transformation pro-
+cesses, Tiam1- and Ras-mediated growth transformation. Our
+work suggests that EHT 1864 may form the basis for a novel
+class of specific GTPase inhibitors that function by impairing
+downstream effector engagement and activation.
+
+EXPERIMENTAL PROCEDURES
+
+Rho-GTP Formation Pulldown Analyses—For analysis of the
+effect of EHT 1864 on the formation of the GTP-bound form of
+RhoA, Rac1, and Cdc42 in vivo, pulldown analyses were done as
+we have described previously (28). Briefly, U87-MG cells were
+grown to 80% confluence. The cells were then treated with EHT
+1864 or with vehicle, lysed in a buffer containing 0.5% Triton
+X-100, and clarified, and the protein concentrations were normal-
+ized.TheGTP-boundRhoGTPaselevelsinthelysatesweremeas-
+ured using a glutathione S-transferase (GST) fusion protein con-
+taining the isolated RBD derived from the Rac and Cdc42 effector,
+the PAK1 serine/threonine kinase (GST-PAK-RBD, Cytoskeleton
+Inc., Denver, CO) for Rac1-GTP or Cdc42-GTP detection, or the
+RhoA effector, Rhotekin (GST-Rhotekin-RBD, provided by A.
+Hall, University College, London, UK). Antibodies specific for
+
+EHT 1864, a Novel Rac-specific Inhibitor
+
+Rac1,Cdc42,andRhoA(Tebu,LePerrayenYvelines,France)were
+then used for immunoblot analyses for GTP-bound Rho GTPase
+and for total cell lysate protein levels.
+
+Actin Reorganization Analyses—NIH 3T3 cells were cultured
+in Dulbecco’s modified Eagle’s medium supplemented with
+10% calf serum (designated complete growth medium). For
+analysis of the effect of EHT 1864 treatment on extracellular
+signal-induced changes in actin organization, we treated NIH
+3T3 cells with platelet-derived growth factor (PDGF), lyso-
+phosphatidic acid (LPA), or bradykinin (Sigma-Aldrich), to
+activate endogenous Rac1, RhoA, or Cdc42, respectively. NIH
+3T3 cells were plated on glass coverslips at a density of 2 ⫻ 104
+cells per well in 12-well plates. 24 h after cell seeding, cells
+were maintained in Dulbecco’s modified Eagle’s medium
+supplemented with 0.5% calf serum for 16 h in the presence
+or absence of 5 ␮M EHT 1864 or EHT 8560 for the last 4 h.
+Cells were stimulated for 15 min with 5 ng/ml PDGF, 40 ng/ml
+LPA, or 100 ng/ml bradykinin, then fixed for confocal immu-
+nofluorescence analysis. Cells on coverslips treated as de-
+scribed above were rinsed in phosphate-buffered saline (PBS)
+before being fixed for 15 min at room temperature with 4%
+paraformaldehyde in PBS and permeabilized with 0.2% Triton
+X-100 in PBS for 5 min. Glass coverslips were rinsed three times
+in PBS and incubated with Alexa Fluor 568 conjugated-phalloi-
+din (Invitrogen) for 30 min. After two final washes in PBS and
+one in water, coverslips were mounted on slides using Fluor-
+Save Reagent (Calbiochem). The mounting medium was
+allowed to dry overnight away from light, before analysis.
+
+To verify that PDGF-induced lamellipodia formation was
+dependent on Rac1 function, we transiently transfected the cul-
+tures twice at a 24-h interval, with a final concentration of 50 nM
+short interfering RNA (siRNA) against Rac1 or with an irrelevant
+siRNA (siCONTROL Non-Targeting siRNA from Dharmacon),
+using the calcium phosphate method. 12 h following the second
+transfection, cells were serum-starved and then PDGF-stimulated
+asdescribedabove.TheRac1siRNAsequencehasbeenpreviously
+described (29). Western blot analyses with mouse anti-Rac1
+monoclonal antibody (clone 23A8, Upstate) were done to deter-
+mine the degree of Rac1 silencing and with mouse anti-␤-actin
+monoclonal antibody (clone AC-15, Sigma-Aldrich) to verify
+equivalent loading of total protein.
+
+Recombinant Protein Expression and Purification—The
+pGEX-Rac1, pGEX-Rac1(15A), pGEX-Rac1b, pPRO-EXHTb-
+Rac2, pGEX-Rac3, pGEX-Cdc42, pGEX-Cdc42(15A), and
+pPRO-EXHTb-Tiam1 DH/PH bacterial expression plasmids
+have all been described previously (19, 30–34). Rac proteins
+were prepared similarly as described elsewhere (30, 35, 36).
+Briefly, BL21(DE3) cells expressing Rac1, Rac1b, Rac2, and
+Cdc42, respectively, were incubated at 37 °C, before induction
+with 1 mM isopropyl 1-thio-␤-D-galactopyranoside fo r 4 h at
+37 °C (Rac3 required overnight induction at room tempera-
+ture). GST proteins were either purified using a batch method
+(30-min incubation of bacterial cell lysate with 150 ␮l of gluta-
+thione-Sepharose, followed by three washes in lysis buffer (20
+mM Tris䡠HCl (pH 7.5), 50 mM NaCl, 1 mM MgCl2, supple-
+mented with 10 ␮M GDP only for GST-Rac1(15A) and GST-
+Cdc42(15A) purification), or by fast-protein liquid chromatog-
+raphy using a 1-ml GSTrap FF column (Amersham
+
+DECEMBER 7, 2007 • VOLUME 282 • NUMBER 49
+
+Downloaded from 
+
+http://www.jbc.org/
+
+ by guest on July 25, 2013
+
+JOURNAL OF BIOLOGICAL CHEMISTRY 35667
+
+EHT 1864, a Novel Rac-specific Inhibitor
+
+Biosciences), and subsequent concentration using centrifugal
+concentrators (Vivascience). His6-Rac2, Rac1-⌬insert-His6
+(37), and His6-Tiam1 DH/PH were purified by fast-protein liq-
+uid chromatography using a 5-ml HiTrap Ni column (Amer-
+sham Biosciences), before dialysis into 20 mM Tris䡠HCl (pH
+7.5), 50 mM NaCl, 1 mM MgCl2, and subsequent concentration
+of protein.
+
+Recombinant Protein Nucleotide Loading—To load GST-
+Sepharose-bound small GTPases, the bead-bound GTPases
+were incubated in exchange buffer (20 mM Tris䡠HCl, 50 mM
+NaCl, 500 ␮M fluorescent N-methylanthraniloyl (mant) deriv-
+atives of guanine nucleotides (mant-GDP and mant-GMPPNP,
+Roche Applied Science), 20 mM (NH4)2SO4), for 1 min at 37 °C,
+before three washes in cold equilibration buffer (20 mM
+Tris䡠HCl, 50 mM NaCl, 1 mM MgCl2). Nucleotide-loaded pro-
+tein was then eluted from the beads using elution buffer (20 mM
+Tris䡠HCl, 50 mM NaCl, 1 mM MgCl2, 0.1 mM glutathione) for 10
+min on ice. To load His6-tagged proteins, the relevant protein
+was incubated in exchange buffer for 1 min at 37 °C, before
+being separated from excess nucleotide in a Zeba Desalting
+Spin Column (Pierce Biotechnology), prepared as per manufac-
+turer’s protocol.
+
+Fluorescent
+
+Intensity Measurements—Off-rate measure-
+ments were performed in a SPEX Fluorolog-3 Research fluo-
+rometer, in a 1-ml quartz cuvette (with constant stirring), with
+a total of 300 ␮l of 20 mM Tris䡠HCl (pH 7.5), 50 mM NaCl, 1 mM
+MgCl2, and 2 ␮M small GTPase䡠mant-GDP at 25 °C. Exchange
+was initiated by addition of inhibitor to a final concentration of
+50 ␮M or EDTA to a final concentration of 10 mM. Changes in
+fluorescence was monitored at ␭ex ⫽ 290 nm and ␭em ⫽ 440
+nm, and data were recorded by the supplied software. On-rate
+measurements were performed in a Gemini Spectromax
+96-well plate reader, in a 96-well plate (BD Falcon microtest
+plate) with a total of 100 ␮l of 20 mM Tris䡠HCl (pH 7.5), 50 mM
+NaCl, 1 mM MgCl2, 2 ␮M mant-GDP, 2 ␮M small GTPase at
+25 °C, and 50 ␮M of inhibitor. Exchange was initiated by addi-
+tion of EDTA to a final concentration of 8 mM. Changes in
+fluorescence were monitored 4 min after inhibitor addition, at
+␭ex ⫽ 290 nm and ␭em ⫽ 440 nm. Data were recorded by the
+supplied SOFTMax Pro software. Measurements of excitation
+and emission spectra were performed in the SPEX Fluorolog-3
+Research fluorometer, in 300 ␮l of 20 mM Tris䡠HCl (pH 7.5), 50
+mM NaCl, 1 mM MgCl2, and 1 ␮M inhibitor at 25 °C, in the
+presence or absence of 10 ␮M Rac.
+
+Fluorescent Anisotropy Measurements—Fluorescent anisot-
+ropy measurements were performed in the SPEX Fluorolog-3
+Research fluorometer, set up in the polarized T format, in a
+1-ml quartz cuvette (with constant stirring), with a total of 300
+␮l of 20 mM Tris䡠HCl (pH 7.5), 50 mM NaCl, 1 mM MgCl2 or
+PAK-RBD:GTPase association analyses, GST-PAK-RBD was
+titrated into 2 ␮M small GTPase䡠mant-GMPPNP in the pres-
+ence or absence of 50 ␮M inhibitor (␭ex ⫽ 360 nm, ␭em ⫽ 440
+nm). For inhibitor:GTPase binding analyses, aliquots of small
+GTPase solution (containing 1 ␮M inhibitor) were titrated into
+a solution of 1 ␮M inhibitor in the cuvette. Changes in fluores-
+cence anisotropy were monitored at ␭ex ⫽ 360 nm, ␭em ⫽ 440
+nm, 30 s after each addition. All data analysis and curve fitting
+
+were performed using Microsoft Excel and QuantumSoft’s
+ProFit for Mac OS X.
+
+Affinity Precipitation of the RacGEF Tiam1—50% confluent
+10-cm dish of 293T cells were transfected by using Lipofectami-
+neTM 2000 (Invitrogen) with 10 ␮g of pcDNA 3.1 expression
+plasmid alone (vector) or encoding Myc epitope-tagged
+Tiam1(C1199), an N-terminal truncated and constitutively
+activated mutant of human Tiam1 (a gift from G. Bollag, Plexx-
+ikon Inc.), which has been characterized previously (38). 48 h
+after transfection, the cells were lysed with 50 mM Tris, pH 7.5,
+10 mM MgCl2, 150 mM NaCl, 1% Nonidet P-40, 10% glycerol,
+0.25% sodium deoxycholate, and a protease inhibitor mixture
+tablet (Invitrogen). The lysates were cleared by centrifugation
+at 12,000 rpm for 10 min at 4 °C, and 400 ␮g of total protein
+extracts was used per condition. Five micrograms of either bac-
+terially expressed GST, GST-Rac1(15A), or GST-Cdc42(15A),
+immobilized on glutathione-SepharoseTM 4B beads (Amer-
+sham Biosciences) and pre-treated with different doses of EHT
+1864 for 30 min at 4 °C, was added to each condition. EHT 1864
+was still present during the incubation with the lysates. The
+samples were rotated at 4 °C for 1 h, and then the beads were
+washed once with lysis buffer and twice with cold wash buffer
+(50 mM Tris, pH 7.5, 10 mM MgCl2, 150 mM NaCl). Affinity-
+precipitated proteins were eluted in protein sample buffer and
+analyzed by SDS-PAGE and Western blotting with a mono-
+clonal anti-Myc antibody 1/1000 (clone 9E10, Sigma-Aldrich).
+In Vitro Binding of RhoGDIs to Rac1—A 50% confluent
+10-cm dish of 293T cells was transfected by using Lipofectami-
+neTM 2000 (Invitrogen) with 5 ␮g of pcDNA 3.1 expression
+plasmid alone (vector) or encoding RhoGDI1 (GDI␣/RhoGDI)
+or RhoGDI2 (GDI␤/Ly/D4GDI) proteins (Guthrie cDNA
+Resource Center). 48 h after transfection, the cells were lysed
+with 50 mM Tris, pH 7.5, 150 mM NaCl, 1 mM dithiothreitol, 5
+mM MgCl2, 0.5% Triton X-100, and a protease inhibitor mix-
+ture tablet (Invitrogen). The lysates were cleared by centrifuga-
+tion at 12,000 rpm for 10 min at 4 °C, and 350 ␮g of total protein
+extracts was used per condition. 10 ␮g of either bacterially
+expressed GST or GST-Rac1(WT), immobilized on glutathi-
+one-SepharoseTM 4B beads (Amersham Biosciences), was then
+used per condition. GST-Rac1 was first loaded with nucleotide
+for 10 min at 37 °C in a loading buffer containing 20 mM Tris,
+pH 7.5, 5 mM EDTA, 2 mM dithiothreitol, 5 mg/ml bovine
+serum albumin, and 2 mM GTP␥S or GDP (150 ␮l of loading
+buffer per 10 ␮g of recombinant protein). The loading reaction
+was stopped by addition of MgCl2 to 15 mM on ice. GDP- or
+GTP␥S-loaded GST-Rac1 was treated first with different doses
+of EHT 1864 for 30 min at 4 °C and then added to the lysates,
+and the samples were rotated at 4 °C fo r 1 h in thepresence or
+absence of EHT 1864. The beads were washed three times with
+lysis buffer, and the affinity-precipitated proteins were eluted in
+protein sample buffer and analyzed by SDS-PAGE and Western
+blotting with a rabbit polyclonal anti-RhoGDI1 antibody
+1/5000 (A-20, Santa Cruz Biotechnology, Santa Cruz, CA) or a
+goat polyclonal anti-RhoGDI2 antibody 1/5000 (C-20, Santa
+Cruz Biotechnology), respectively.
+
+Transformation Analyses—For primary focus formation
+assays, NIH 3T3 fibroblasts were plated at a density of 105 cells/
+well of a 6-well plate. One day after seeding, cells were tran-
+
+35668 JOURNAL OF BIOLOGICAL CHEMISTRY
+
+Downloaded from 
+
+http://www.jbc.org/
+
+ by guest on July 25, 2013
+
+VOLUME 282 • NUMBER 49 • DECEMBER 7, 2007
+
+siently transfected with 50 ng of the pCGN-hygro expression
+plasmid alone (vector) or encoding H-Ras(61L). Cells were
+allowed to reach confluency and were maintained on complete
+growth medium supplemented with 5 ␮M EHT 1864 or vehicle
+until focus formation occurred. The appearance of H-Ras(61L)-
+induced foci of transformed cells was quantitated after 14 days.
+For establishment of NIH 3T3 fibroblasts stably transfected
+and expressing H-Ras(61L), Rac1 WT, Rac1(61L), or
+Tiam1(C1199), cells were plated at a density of 6 ⫻ 105 cells
+per 10-cm dish 1 day before transfection. 4 ␮g of the pCGN-
+hygro empty vector (used as a control) or encoding HA-
+tagged H-Ras(61L), Rac1 WT or Rac1(61L) (39) were trans-
+fected into cells using LipofectamineTM 2000 (Roche
+Applied Science) according to the manufacturer’s instruc-
+tions. The same procedure was used with the pcDNA3.1-neo
+empty vector (control) or encoding Myc-tagged constitu-
+tively activated Tiam1(C1199). Two days after transfection,
+the transfected cells were replated in growth medium supple-
+mented with either 200 ␮g/ml hygromycin B (Roche Applied
+Science) or 400 ␮g/ml G418 (Amersham Biosciences), respec-
+tively. After 10 days of selection, several hundred drug resist-
+ance colonies were then pooled together to establish mass pop-
+ulations of stably transfected cells.
+
+NIH 3T3 cells stably expressing Rac1 WT, Rac1(61L), or
+Tiam1(C1199) proteins were used for secondary focus forma-
+tion assays. Cells stably transfected with the empty pCGN-hy-
+gro or pcDNA3.1-neo plasmids were used as controls. For each
+stable cell line, 5 ⫻ 105 fibroblasts were plated into each well of
+6-well plates. Each condition was performed in duplicate. The
+cultures were fed every other day with fresh complete growth
+medium alone or supplemented with 5 ␮M of the compound
+EHT 1864. Activated Rac1- or Tiam1-induced transformed foci
+were visible after 3–4 weeks and were subsequently quantified
+under an inverted phase-contrast microscope at 4⫻ magnifica-
+tion. Cells were then fixed in 10% acetic acid, 10% methanol and
+stained with 0.4% crystal violet dye.
+
+To determine the effects of EHT 1864 treatment on the rate
+of cell proliferation, NIH 3T3 cells stably expressing oncogenic
+Ras were plated in 96-well plates at an initial density of 2 ⫻ 103
+cells/well. The cells were cultured for up to 4 days in complete
+growth medium, either alone, or supplemented with 5 ␮M EHT
+1864. Cell growth was then assessed using the conversion of
+3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide
+(MTT, Sigma-Aldrich) to a formazan product (40). Briefly, the
+MTT reagent (from a 5 mg/ml solution diluted in PBS) was
+added to the wells at a final concentration of 0.5 mg/ml, and the
+cells were further incubated fo r 4 h at 37 °C. Themedium was
+then removed, and the reaction was terminated by adding 100
+␮l/well Me2SO. The absorbance was read at 570 nm using a
+microplate reader.
+
+RESULTS
+
+EHT 1864 Specifically Inhibits PDGF-induced Lamellipodia
+Formation—Our previous pulldown analyses showed that EHT
+1864 reduced the association of endogenous Rac1 but not RhoA
+with the isolated GTP-dependent RBDs of PAK1 or Rhotekin,
+respectively (28). Rac1 and Cdc42 share overlapping down-
+stream effectors that include PAK1. Because EHT 1864 impairs
+
+EHT 1864, a Novel Rac-specific Inhibitor
+
+FIGURE 1. Structure and activity of EHT compounds. A, structures of EHT
+compounds used in this study: EHT 1864 and EHT 8560. EHT 8560 did not
+reduce the levels of RhoA-GTP, Rac1-GTP, or Cdc42-GTP when evaluated in
+pulldown assays with GST-Rhotekin-RBD or GST-PAK-RBD (data not shown)
+and was included as a negative control. B, EHT 1864 selectively reduces detec-
+tion of Rac1-GTP. U87-MG cells were treated for 5 min with various doses of
+EHT 1864. Cell lysates with equivalent total protein were then used for pull-
+down analyses with GST-PAK-RBD (Rac1 and Cdc42) or GST-Rhotekin-RBD
+(RhoA), resolved by SDS-PAGE, followed by Western blot analyses with anti-
+body specific for each Rho GTPase. Data shown are representative of seven
+(Rac1), nine (Cdc42), or three (RhoA) independent experiments.
+
+Rac1 interaction with PAK-RBD, whether EHT 1864 could also
+inhibit PAK-RBD association with the related Cdc42 small
+GTPase remained a possibility. We therefore determined if
+EHT 1864 could also impair Cdc42 effector interaction. The
+structure of EHT 1864 and its related negative control com-
+pound (EHT 8560) used in this study are shown in Fig. 1A. As
+shown in Fig. 1B, EHT 1864 treatment dose-dependently inhib-
+ited association of endogenous Rac1 with PAK-RBD but did not
+reduce endogenous Cdc42 interaction with PAK-RBD, demon-
+strating the specificity of the compound toward Rac1 activity. It
+is noteworthy that loss of Rac1 association with PAK-RBD was
+not due simply to preferential loss of Rac1 expression, because
+EHT 1864 did not reduce the steady-state levels of endogenous
+Rac1.
+
+To further delineate the specificity of EHT 1864 within cells
+and to evaluate the ability of EHT 1864 to inhibit Rac1-medi-
+ated cellular activities, we examined the effect of EHT 1864 on
+
+DECEMBER 7, 2007 • VOLUME 282 • NUMBER 49
+
+Downloaded from 
+
+http://www.jbc.org/
+
+ by guest on July 25, 2013
+
+JOURNAL OF BIOLOGICAL CHEMISTRY 35669
+
+EHT 1864, a Novel Rac-specific Inhibitor
+
+FIGURE 2. EHT 1864 selectively inhibits Rac-induced lamellipodia formation. A, EHT 1864 blocks PDGF- and
+not LPA- or bradykinin-induced actin reorganization. NIH 3T3 cells were incubated for 16 h in serum-free
+growth medium, either alone, or supplemented with 5 ␮M EHT 1864 or EHT 8560 for the last 4 h. The cultures
+were then stimulated for 15 min with PDGF, LPA, or bradykinin and then fixed, and actin filaments were
+visualized with Alexa-phalloidin. Scale bar, 20 ␮m. Results shown are representative of three independent
+experiments. B, quantitation of data shown in panel A: graphic representation of the percentage of PDGF-
+stimulated cells with lamellipodia, in the presence or absence of EHT1864 or 8560, quantified on 100 cells for
+each condition. Results shown are the mean of three independent experiments. Error bars indicate the ⫾S.E.
+C, PDGF-induced lamellipodia formation is Rac1-dependent. NIH 3T3 cells were transiently transfected twice
+with a Rac1 siRNA or an irrelevant siRNA used as a negative control. 12 h after the second transfection, cells
+were serum-starved for 16 h, then stimulated with PDGF for 15 min. Total protein extracts (20 ␮g) from treated
+cells were resolved by SDS-PAGE and analyzed by Western blotting using anti-Rac1 monoclonal antibody and
+anti-␤-actin antibody to verify equivalent total cell lysate protein loading. D, actin filament staining, performed
+as described above. Results shown are representative of two independent experiments.
+
+(Fig. 2, A and B). These data demon-
+strate that EHT 1864 is a potent and
+specific inhibitor of PDGF-induced
+lamellipodia formation.
+
+Finally, to eliminate possible cell
+context differences in signaling, we
+wanted to verify that PDGF-in-
+duced lamellipodia in our strain of
+NIH 3T3 cells was dependent on
+Rac function. Although PGGF stim-
+ulation of
+lamellipodia has been
+shown to be Rac-dependent in Swiss
+3T3 and other cell types, in light of
+our previous observations of signif-
+icant NIH 3T3 strain variation in
+cellular responses to Rho GTPase
+activity (44), we felt it was important
+to perform this control experiment.
+We efficiently suppressed endoge-
+nous Rac1 expression by interfering
+RNA in NIH 3T3 cells (Fig. 2C) and
+stimulated cells with PDGF. We
+found that silencing Rac1 expres-
+sion strongly impaired lamellipodia
+formation induced by PDGF (Fig.
+2D), hence mimicking the lamelli-
+podia-inhibitory effect of EHT 1864
+observed in control cells expressing
+Rac1. Taken together, these data
+demonstrate that EHT 1864 specif-
+ically blocks extracellular stimulus
+induction of Rac1-mediated lamel-
+lipodia formation.
+
+Rac1-dependent cytoskeleton rearrangements and compared it
+to RhoA- and Cdc42-induced changes in actin cytoskeleton
+reorganization. It is known that PDGF activates Rac1 and
+induces Rac-mediated membrane lamellipodia formation in
+Swiss 3T3 fibroblasts (41), whereas LPA is responsible for RhoA
+activation, leading to RhoA-mediated formation of actin stress
+fibers and focal adhesion assembly (42), and bradykinin acti-
+vates Cdc42, which in turn induces actin microspike and filop-
+odia formation (43). To evaluate whether EHT 1864 could spe-
+cifically block PDGF-induced lamellipodia formation, we
+treated serum-starved NIH 3T3 mouse fibroblasts with EHT
+1864 and then stimulated the cells for 15 min with PDGF, LPA,
+or bradykinin. As shown in Fig. 2A, PDGF, LPA, and bradykinin
+efficiently induce membrane ruffling and lamellipodia forma-
+tion, actin stress fibers, and filopodia, respectively. However, in
+the presence of EHT 1864, while LPA and bradykinin still
+induced their respective changes in actin cytoskeletal organiza-
+tion, PDGF-induced lamellipodia formation was blocked com-
+pletely. We observed that EHT 1864-treated cells showed an
+⬃80% reduction in PDGF stimulation of lamellipodia (Fig. 2B).
+In contrast, the structurally related, but inactive (for inhibition
+of Rac1 association with PAK-RBD) compound EHT 8560 did
+not affect lamellipodia formation in PDGF-stimulated cells
+
+EHT 1864 Inhibits Rac䡠PAK Com-
+plex Formation—Our analyses in
+vivo suggested that EHT 1864 decreased Rac1 interaction with
+PAK-RBD. To further evaluate the mechanism of action of EHT
+1864, we examined the ability of EHT 1864 to regulate this
+interaction with purified recombinant proteins in vitro. For
+these analyses, we evaluated the effect of EHT 1864 on the for-
+mation of a Rac1䡠PAK-RBD or Cdc42䡠PAK-RBD complex, as
+measured by fluorescence anisotropy. We titrated GST-PAK-
+RBD into a solution containing 1 ␮M Rac䡠mant-GMPPNP or 1
+␮M Cdc42䡠mant-GMPPNP, in the presence or absence of EHT
+1864. We found that in the absence of EHT 1864, for both Rac
+and Cdc42, fluorescence anisotropy increased (Fig. 3, A and B).
+This increase reflects an increase in overall complex size and
+provides a measure of the formation of a complex between the
+GTPase and PAK-RBD. In the presence of 50 ␮M EHT 1864, a
+concentration that causes essentially a 100% loss of Rac-PAK-
+RBD interaction (Fig. 1B) (28), we observed that the complex
+formation between Cdc42 and PAK-RBD was unaffected (Fig.
+3A), whereas the complex formation between Rac1 and PAK-
+RBD was completely inhibited (Fig. 3B). The lower relative val-
+ues of anisotropy also suggest that nucleotide was lost from the
+Rac1 protein, into solution. These data suggest that EHT 1864
+inhibited complex formation between Rac1 and PAK-RBD and
+
+35670 JOURNAL OF BIOLOGICAL CHEMISTRY
+
+Downloaded from 
+
+http://www.jbc.org/
+
+ by guest on July 25, 2013
+
+VOLUME 282 • NUMBER 49 • DECEMBER 7, 2007
+
+EHT 1864, a Novel Rac-specific Inhibitor
+
+EHT compounds, using increases in fluorescence anisotropy of
+the EHT fluorophore. We titrated Rac䡠GDP against 1 ␮M EHT
+1864 or EHT 8560 and monitored the increases in fluorescence
+anisotropy (␭ex ⫽ 360 nm, ␭em ⫽ 410 nm). The increases in
+anisotropy were then fitted to a hyperbolic binding curve (Fig.
+4C). We observed that EHT 1864 bound tightly to Rac1, with a
+KD ⫽ 40 nM. In contrast, as expected from its inability to block
+Rac1 association with the PAK-RBD, we observed no increases
+in anisotropy with Rac1 and EHT 8560. These results suggest
+that EHT 1864 shows high affinity binding to Rac1.
+
+EHT 1864 Interferes with the Process of Nucleotide Exchange—
+The observed decrease in the fluorescence anisotropy value on
+addition of EHT 1864 to Rac1䡠mant-GMPPNP (Fig. 3B) sug-
+gested that this compound caused a release of Rac1-bound
+nucleotide into solution. To examine the effect of EHT 1864 on
+the state of bound nucleotide, we preloaded Rac1 with mant-
+GDP, and rapidly added EHT 1864 (50 ␮M), EHT 8560 (50 ␮M),
+or the Mg2⫹-chelating agent EDTA (10 mM). EDTA treatment
+stimulates release of the bound nucleotide by Mg2⫹ chelation.
+We monitored the changes in fluorescence resonance energy
+transfer (FRET) between the mant group of the mant-GDP and
+the conserved tryptophan 56 of Rac1 (␭ex ⫽ 290 nm, ␭em ⫽ 440
+nm). These changes reflect the bound state of the nucleotide.
+On addition of EHT 1864 or EDTA, we observed a rapid and
+large decrease in fluorescence, reflecting the loss of FRET
+between the Trp and mant group (Fig. 5A). These data were
+fitted to a single exponential, with kobs ⫽ 0.038 s⫺1 and 0.14 s⫺1,
+respectively. This decrease suggested that, like EDTA treat-
+ment, EHT 1864 stimulated the rapid release of mant-GDP into
+solution. In contrast, upon the addition of EHT 8560 we saw
+very little change in the levels of FRET, which is consistent with
+the lack of EHT 8560 binding to Rac and, therefore, its lack of
+activity toward the protein.
+
+Because EHT 1864 induced nucleotide release, we asked
+whether Rac-bound EHT 1864 would be able to inhibit the re-
+association of nucleotide with Rac1, when induced by either
+EDTA or by a Rac-specific GEF, such as Tiam1. We incubated
+Rac1 in the presence of EHT 1864 and the fluorescent nucleo-
+tide analogue mant-GDP, and then initiated the exchange reac-
+tion with either EDTA or the Tiam1 catalytic fragment (span-
+ning the tandem Dbl and pleckstrin homology (DH/PH)
+domains required for RhoGEF catalytic activity (33)). We
+observed that EHT 1864 caused a concentration-dependent
+inhibition of the association of mant-GDP with Rac1 that was
+stimulated by treatment with EDTA (Fig. 5B) or stimulation
+with Tiam1 (Fig. 5C). These data, together with the nucleotide
+release observed with EHT 1864, demonstrate that EHT 1864
+interferes with the process of nucleotide exchange on Rac1.
+
+EHT 1864 Does Not Affect RacGEF or RhoGDI Binding to
+Rac1 in Vitro—Our results showed that EHT 1864 dose-de-
+pendently inhibited the association of nucleotide with Rac1
+stimulated by Tiam1. Because GEFs show preferential binding
+to the nucleotide-free state of their target GTPases (45), we
+analyzed whether EHT 1864 could modulate Rac1-Tiam1
+interaction. For these in vitro analyses, we used a mutant ver-
+sion of Rac1 that harbors a mutation analogous to the 15A
+mutation that renders Ras deficient in GDP and GTP binding
+(46) and binds specifically to RhoGEFs that activate Rac1 (34).
+
+FIGURE 3. EHT 1864 inhibits Rac1 but not Cdc42 complex formation with
+PAK-RBD in vitro. Fluorescence anisotropy analyses were done to determine
+the ability of EHT 1864 to affect the binding of PAK-RBD to (A) Cdc42 or (B)
+Rac1. Each recombinant GTPase was preloaded with the non-hydrolysable
+and fluorescent mant-GMPPNP (final concentration, 2 ␮M). The changes in
+⫽ 440 nm) were measured upon
+fluorescence anisotropy (␭
+ex
+titration of the PAK-RBD domain in the presence or absence of EHT 1864. The
+data were fitted to a hyperbolic binding curve, where appropriate. Data
+shown are representative of two independent experiments.
+
+⫽ 360 nm ␭
+
+em
+
+that EHT 1864 causes the release of nucleotide from Rac1, but
+not Cdc42.
+
+EHT 1864 Associates Tightly with Rac1—The highly conju-
+gated structure of the EHT 1864 and the inactive EHT 8560
+(Fig. 1A) compounds suggests that they may be fluorescent. We
+observed that both EHT 1864 and EHT 8560 fluoresced
+strongly at the optimal excitation and emission wavelengths of
+␭ex ⫽ 360 nm and ␭em ⫽ 410 nm (Fig. 4A). Upon addition of 10
+␮M Rac1 to 1 ␮M EHT 1864, there was a 33% increase in fluo-
+rescent intensity (Fig. 4B). This change in fluorescence allowed
+us to measure the strength of association between Rac1 and the
+
+DECEMBER 7, 2007 • VOLUME 282 • NUMBER 49
+
+Downloaded from 
+
+http://www.jbc.org/
+
+ by guest on July 25, 2013
+
+JOURNAL OF BIOLOGICAL CHEMISTRY 35671
+
+EHT 1864, a Novel Rac-specific Inhibitor
+
+)
+x
+E
+
+(
+ 
+y
+t
+i
+s
+n
+e
+t
+n
+I
+ 
+.
+l
+e
+R
+
+FIGURE 4. EHT 1864 binds tightly to Rac1. A, EHT 1864 is fluorescent. EHT 1864, at a final concentration of 1
+␮M, was incubated in 20 mM Tris HCl (pH 7.5), 50 mM NaCl, and 1 mM MgCl2, and an excitation spectrum
+(emission collected at 410 nm) and emission spectrum (excited at 360 nm) were recorded. B, Rac1 alteration of
+EHT 1864 fluorescence. 1 ␮M EHT 1864 was incubated in 20 mM Tris䡠HCl (pH 7.5), 50 mM NaCl, and 1 mM MgCl2.
+⫽
+Rac䡠GDP was added to a final concentration of 10 ␮M, and the change in fluorescent emission spectra (␭
+ex
+360 nm) was recorded. C, EHT 1864 but not EHT 8560 binds to Rac1. Rac䡠GDP was titrated into a 1 ␮M solution
+of either EHT 1864 or EHT 8560 in 20 mM Tris䡠HCl (pH 7.5), 50 mM NaCl, 1 mM MgCl2. The changes in fluorescence
+⫽ 410). The data for EHT 1864 were fitted to a
+anisotropy were measured at each addition (␭
+ex
+hyperbolic binding curve.
+
+⫽ 360, ␭
+
+em
+
+1864 (Fig. 7, A and B). We observed
+the same results when the analyses
+were done in NIH 3T3 cells (data
+not shown).
+
+EHT 1864 Shows Specificity for
+Rac Subfamily Members—Our pull-
+down and actin reorganization anal-
+yses in vivo suggest that EHT 1864
+specifically interacted with Rac1
+and not Cdc42 or RhoA. The Rac
+branch of the Rho family is com-
+posed of three closely related pro-
+teins, Rac1, Rac2, and Rac3, that
+share significant sequence (85%)
+and biochemical identity (51). Addi-
+tionally, an alternative splice variant
+of Rac1, Rac1b, has been found to be
+expressed in human cancer cells (17,
+18). Rac1b contains a 19-residue
+insert sequence upstream of the
+switch 2 region of Rac1, which per-
+turbs
+interaction with regulator
+proteins and effectors and displays
+biological properties of a constitu-
+tively activated, transforming pro-
+tein (19). Therefore, we determined
+whether EHT 1864 could also act on
+Rac1b, Rac2, and Rac3.
+
+GST fusion protein of the Rac1(15A) mutant was then tested
+for its ability to interact with Tiam1 in the presence or absence
+of EHT 1864. A constitutively activated mutant of Tiam1,
+Tiam1(C1199), was transiently overexpressed in 293T cells
+(Fig. 6A) and tested for its ability to bind to and be affinity-
+precipitated by the nucleotide-free Rac1(15A) mutant protein
+immobilized on glutathione-Sepharose beads. As shown in Fig.
+6B, Tiam1(C1199) specifically interacts with Rac1(15A), and
+treatment with EHT 1864 did not affect this interaction. The
+same results were also observed in NIH 3T3 cells (data not
+shown). These data clearly demonstrate that EHT 1864 does
+not interfere with RacGEF association with Rac1.
+
+In parallel, we investigated whether EHT 1864 could impair
+guanine nucleotide dissociation inhibitor (RhoGDI) binding to
+Rac1. Both RhoGDI1 (also called RhoGDI␣/RhoGDI) and
+RhoGDI2 (RhoGDI␤/Ly/D4GDI) associate with Rac1 (47, 48),
+and RhoGDIs have been described to interact preferentially
+with the GDP-bound form of Rac1 and to a lesser extent with
+the GTP-bound state (49, 50). RhoGDI1 and RhoGDI2 proteins
+were then transiently expressed in 293T cells and evaluated, in
+the presence or absence of EHT1864, for their ability to bind to
+and be affinity-precipitated by a GST-Rac1 WT recombinant
+protein immobilized on glutathione-Sepharose beads and pre-
+loaded with either GDP or GTP. Our results showed that both
+RhoGDI1 and RhoGDI2 interacted specifically with GST-Rac1
+fusion protein, with a higher affinity for the GDP-bound state of
+the GTPase, and this in vitro association was not altered by EHT
+
+Using the changes in fluorescence
+anisotropy of the inhibitor as a
+measure of its binding to Rac family
+proteins, we titrated recombinant Rac䡠GDP family proteins
+into a 1 ␮M solution of inhibitor and measured the increases in
+anisotropy (␭ex ⫽ 360 nm, ␭em ⫽ 410 nm) (Fig. 8A). We
+observed that EHT 1864 bound to Rac1b and Rac2 with very
+similar affinities as we saw with Rac1 (50 nM and 60 nM, respec-
+tively). Rac3 bound with a lower affinity of ⬃250 nM. Fig. 8A
+also confirmed that EHT 1864 does not bind to Cdc42. We next
+examined the ability of EHT 1864 to stimulate nucleotide
+release from Rac2 and Rac3 proteins. We pre-loaded the Rac
+proteins with mant-GDP and observed the loss of FRET
+between the conserved tryptophan group in Rac2 or Rac3, and
+the mant group attached to the nucleotide, which reflects the
+release of the mant nucleotide into solution. We observed that
+EHT 1864 did induce nucleotide loss from Rac2 and Rac3 (Fig.
+8B) with kobs of 0.023 s⫺1 and 0.0011 s⫺1, rates slower than that
+of Rac1 (kobs ⫽ 0.038 s⫺1). These data suggest that EHT 1864 is
+most active on Rac1, both in its binding affinity and stimulation
+of nucleotide release. EHT 1864 also has significant activity on
+Rac2, but much less on Rac3.
+
+EHT 1864 Blocks Cell Transformation Induced by Constitu-
+tively Activated Rac1 and by the Rac-dependent Tiam1 and Ras
+Transforming Proteins—Our analyses above indicate that EHT
+1864 directly antagonizes Rac function. Therefore, unlike
+NSC23766, which did not block the activity of constitutively
+activated Rac1(61L) (27), we anticipated that EHT 1864 would
+effectively block Rac1(61L) function. It has been established
+previously that Rac1(61L) can promote cellular transformation
+
+35672 JOURNAL OF BIOLOGICAL CHEMISTRY
+
+VOLUME 282 • NUMBER 49 • DECEMBER 7, 2007
+
+Downloaded from 
+
+http://www.jbc.org/
+
+ by guest on July 25, 2013
+
+EHT 1864, a Novel Rac-specific Inhibitor
+
+FIGURE 6. EHT 1864 does not impair Tiam1 binding to Rac1 in vitro.
+A, ectopic expression of Tiam1. 293T cells were transiently transfected with 10
+␮g of pcDNA3.1 expression plasmid alone (vector) or encoding a Myc-tagged,
+N-terminally truncated and constitutively activated mutant of Tiam1,
+Tiam1(C1199). 48 h later, transfected cells were lysed, and the expression of
+Myc-tagged Tiam1(C1199) was detected by blot analysis using a monoclonal
+anti-Myc antibody. Blot analysis for ␤-actin was also done to verify equivalent
+total protein loading. B, EHT 1864 does not impair Tiam1 association with
+nucleotide-free Rac1. Control (Vector) or Myc-Tiam1-expressing lysates were
+incubated with GST-Rac1(15A) immobilized on glutathione-Sepharose beads
+in the presence of different doses of EHT 1864. Following washing, bound
+Tiam1(C1199) was detected by Western blotting with anti-Myc antibody
+(upper panel). GST and GST-Cdc42(15A) proteins served as negative controls.
+Amido Black staining (lower panel) was done to verify equivalent amounts of
+recombinant proteins used in the assay. Results shown are representative of
+three independent experiments.
+when expressed in NIH 3T3 fibroblasts and other cell types,
+causing for example loss of density-dependent inhibition of
+growth (12, 39, 52). We performed secondary focus formation
+assays using wild-type NIH 3T3 cells and cells stably expressing
+either wild-type Rac1 or the constitutive active mutant
+Rac1(61L) (Fig. 9A). As shown in Fig. 9B, activated Rac1(61L),
+but not WT, caused focus-forming activity, and treatment of
+cells with EHT 1864 significantly abolished cellular transforma-
+tion induced by Rac1(61L). EHT 1864 caused an 80% inhibition
+of focus-forming activity when compared with untreated cells
+expressing Rac1(61L) (Fig. 9C), indicating that EHT 1864 acts
+as a specific inhibitory reagent to reverse cell transformation
+attributed to Rac1 activation. Because Rac1(61L) is activated by
+a loss of Rho-specific GTPase-activating protein responsive-
+ness, rather than RhoGEF activation, and because this mutant
+fails to bind RhoGDI (53), these results are also consistent with
+
+em
+
+4 min. Exchange was then initiated by addition of EDTA to a final concen-
+tration of 5 mM. Increases in FRET between tryptophan 56 and the mant
+⫽
+group were monitored by observing the changes in fluorescence (␭
+⫽ 440 nm). C, EHT 1864 alters Tiam1-induced nucleotide asso-
+290 nm, ␭
+ciation with Rac1. 2 ␮M Rac䡠GDP was incubated in a solution of 20 mM Tris䡠HCl
+(pH 7.5), 50 mM NaCl, 1 mM MgCl2, 2 ␮M mant-GDP and either 50 ␮M or 25 ␮M
+EHT 1864 for 4 min. Exchange was then initiated by addition of recombinant
+His6-Tiam1 DH/PH (32), a Rac-specific RhoGEF, to a final concentration of
+0.5 ␮M. Increases in FRET between tryptophan 56 and the mant group
+⫽ 290 nm,
+were monitored by observing the changes in fluorescence (␭
+␭
+em
+
+⫽ 440 nm).
+
+ex
+
+ex
+
+FIGURE 5. EHT 1864 interferes with the process of nucleotide exchange
+on Rac1. A, EHT 1864 stimulates release of prebound nucleotide. 2 ␮M
+Rac䡠mant-GDP was incubated in a solution of 20 mM Tris䡠HCl (pH 7.5), 50 mM
+NaCl, 1 mM MgCl2. After 140 s, EHT 1864 was rapidly added to a final concen-
+tration of 50 ␮M. Changes in FRET, between tryptophan 56 of Rac1 and the
+⫽
+mant group of the nucleotide analogue, were observed (␭
+ex
+440 nm). B, EHT 1864 impairs EDTA-induced nucleotide exchange with Rac1.
+2 ␮M Rac䡠GDP was incubated in a solution of 20 mM Tris䡠HCl (pH 7.5), 50 mM
+NaCl, 1 mM MgCl2, 2 ␮M mant-GDP and either 50 ␮M or 25 ␮M EHT 1864 for
+
+⫽ 290 nm, ␭
+
+em
+
+DECEMBER 7, 2007 • VOLUME 282 • NUMBER 49
+
+Downloaded from 
+
+http://www.jbc.org/
+
+ by guest on July 25, 2013
+
+JOURNAL OF BIOLOGICAL CHEMISTRY 35673
+
+EHT 1864, a Novel Rac-specific Inhibitor
+
+FIGURE 7. EHT 1864 does not affect RhoGDIs binding to Rac1 in vitro. EHT 1864 does not reduce Rac1
+association with RhoGDI1 (A) or RhoGDI2 (B) in vitro. 293T cells were transiently transfected with 5 ␮g of
+pcDNA3.1 expression plasmid alone (Vector) or encoding RhoGDI1 or RhoGDI2 proteins. 48 h later, transfected
+cells were lysed, and the expression of RhoGDI1 and RhoGDI2 was detected by blot analysis using a rabbit
+polyclonal anti-RhoGDI1 antibody or a goat polyclonal anti-RhoGDI2 antibody, respectively (left panels). Blot
+analysis for ␤-actin was also done to verify equivalent total protein loading. Lysates were incubated in the
+presence of different doses of EHT 1864 with GST-Rac1 immobilized on glutathione-Sepharose beads and
+loaded with either GDP or GTP. Following washing, bound RhoGDI1 and RhoGDI2 were detected by Western
+blotting with anti-RhoGDI1 and anti-RhoGDI2 antibodies, respectively (right panels). GST protein served as a
+negative control. Amido Black staining was done to verify equivalent loading for the recombinant proteins
+used in the assay. Results shown are representative of three independent experiments.
+
+cells
+
+stably
+
+causes
+
+presence or absence of EHT 1864.
+As shown in Fig. 10 (A and B), EHT
+1864 treatment causes complete
+inhibition of activated H-Ras(61L)-
+induced focus formation. Similar
+results were observed in a secondary
+focus formation assay using NIH
+3T3
+expressing
+H-Ras(61L) (data not shown). We
+also evaluated the effect of EHT
+1864 on the growth rate of NIH 3T3
+cells stably expressing H-Ras(61L)
+protein (Fig. 10C). Whereas expres-
+sion of H-Ras(61L)
+an
+enhanced rate of cell growth com-
+pared with control cells, treatment
+of cells with EHT 1864 strongly
+impaired oncogenic Ras-induced
+cell proliferation to a level similar
+to that of untransformed NIH 3T3
+cells (Fig. 10D). In contrast, there
+was only modest reduction in the
+growth rate of untransformed
+cells. Taken together, these data
+demonstrate that the compound
+EHT 1864 strongly impacts on
+Ras-induced cellular transforma-
+tion and suggest that inhibition of
+Rac effector interaction is also an
+effective strategy for blocking Ras-
+mediated transformation.
+
+DISCUSSION
+
+our data above that EHT 1864 inhibitory activity does not
+involve inhibition of RhoGEF or RhoGDI interaction. EHT
+1864 also blocked the focus-forming activity of activated
+Tiam1(C1199) (Fig. 9, B and C), which causes Rac-dependent
+transformation of NIH 3T3 cells (52). Because we found that
+EHT 1864 did not block Tiam1 interaction with Rac1, this inhi-
+bition is presumably at the level of activated Rac1.
+
+Previous studies found that Ras causes Rac activation, and
+inhibition of Rac activation by the Rac1(17N) dominant nega-
+tive blocked Ras-mediated growth transformation on NIH 3T3
+cells (11, 12). Rac1(17N) forms non-productive complexes with
+RacGEFs and prevents Rac activation. Recently, NSC23766 was
+identified as a small molecule inhibitor of RacGEF-mediated
+activation of Rac and of Ras-mediated growth transformation
+(27). Thus, inhibition of RacGEF activation of Rac is an effective
+approach for blocking Ras-transforming activity. Based on our
+observations that EHT 1864 impaired cellular transformation
+induced by constitutively activated mutants of Tiam1 and Rac1,
+we determined whether EHT 1864 could also block Ras trans-
+formation. We performed primary focus formation assays
+using NIH 3T3 fibroblasts transiently transfected with a consti-
+tutively active Ras mutant, H-Ras(61L), and cultured in the
+
+Rho family small GTPases are
+critically involved in many signal-
+ing pathways within cells, control-
+ling a variety of different cellular responses (3). Their aber-
+rant regulation or expression is found in a variety of disease
+states, such as cancers and neurological disorders, and there-
+fore Rho GTPases are validated targets for novel therapeutic
+approaches (6–9, 10). However, to date, the development of
+effective small molecule inhibitors that directly target Rho
+family GTPases has been very limited. Currently, most pro-
+gress has been made utilizing inhibitors that impair prenyl-
+transferases that catalyze the lipid modifications critical for
+GTPase function or block protein kinases that function
+downstream of small GTPases (23, 24). We previously
+reported the identification and characterization of EHT
+1864, and we found that this compound blocked activated
+Rac-mediated signaling, Rac association with PAK-RBD, and
+blocked the Rac-dependent processing of the amyloid pre-
+cursor protein (28). In the present study, we further evalu-
+ated the specificity of EHT 1864 for endogenous Rac1 func-
+tion, characterized its ability to interact with Rac isoforms,
+the biochemical mechanism by which it blocks Rac1 func-
+tion, and assessed the ability of this inhibitor to block
+another Rac-dependent biological function, Ras-mediated
+growth transformation. Our results suggest that EHT 1864 is
+
+35674 JOURNAL OF BIOLOGICAL CHEMISTRY
+
+VOLUME 282 • NUMBER 49 • DECEMBER 7, 2007
+
+Downloaded from 
+
+http://www.jbc.org/
+
+ by guest on July 25, 2013
+
+EHT 1864, a Novel Rac-specific Inhibitor
+
+Rac1(G12V) to stimulate transcription from Jun- and NF-␬B-
+responsive promoters, signaling pathways that utilize distinct
+effectors (39).
+
+One possible mechanism for EHT 1864 inhibition of Rac
+association with effectors may involve binding to the switch I
+(residues 30–38) and/or switch II (60–76) sequences that are
+involved in Rac effector binding. Missense mutations in the
+switch regions impair effector binding. Alternatively, EHT 1864
+may cause a reduction in the GTP-bound state that shows
+higher affinity for effector binding due to its interference in the
+nucleotide exchange process and therefore the GTP-bound:
+GDP-bound equilibrium within the cell. Our analyses with
+recombinant Rac1 protein in vitro determined that EHT 1864
+binds tightly to Rac1 (with nanomolar affinity), reducing its
+affinity for nucleotide, through induction of nucleotide
+release and inhibition of nucleotide binding, thus preventing
+effector binding both in vitro and in vivo to Rac. Because all
+Rac1 effector interactions are GTP-dependent, EHT 1864 is
+expected to block Rac1 interaction with all effectors. Thus,
+EHT 1864 will be expected to be more effective in blocking
+Rac1 functions, when compared with inhibitors of a specific
+subset of Rac1 effectors (e.g. inhibitors of PAK kinases).
+Additionally, we also show that EHT 1864 binds closely
+related Rac isoforms, Rac2 and Rac1b, and with a lower affin-
+ity, Rac3. The activity against Rac1b is important in light of
+the fact that this splice variant is constitutively activated and
+transforming and preferentially expressed in breast and
+colon cancers (17–19).
+
+We observed that EHT 1864 caused a loss of nucleotide from
+Rac1 in vitro. However, the mechanism for this activity is not
+resolved, and structural determination of a co-complex of EHT
+1864 with Rac1 will provide critical clues for this mechanism.
+The absence of impact of EHT 1864 on the binding of the Rac-
+specific RhoGEF, Tiam1, to Rac1, together with the ability of
+EHT 1864 to inhibit cellular transformation induced by consti-
+tutive activated Rac1(61L) mutant, which is GEF-independent,
+argue that EHT 1864, unlike NSC23766, acts neither on
+RacGEF interaction nor on GEF-induced Rac1 activation, and
+instead, acts directly on the small GTPase itself. Loss of bound
+nucleotide may result from direct displacement of the nucleo-
+tide by EHT 1864 (by lowering the overall affinity (KD) of the
+nucleotide for the GTPase?), direct displacement of Mg2⫹ or
+loss of its coordination (36) by EHT 1864, or potentially
+through an allosteric mechanism caused by EHT 1864 binding
+at another site on the small GTPase. Our preliminary observa-
+tions5 indicate that nucleotide release is more rapid when Rac is
+associated with the triphosphate nucleotide, suggesting the
+involvement of Mg2⫹ as a key step in the release mechanism
+(36). Further biochemical analyses, such as the use of NMR to
+identify Rac1 residues whose coordinates are altered by EHT
+1864 binding, crystallization of the inhibitor in complex with
+Rac1 for a full structural determination, and direct measure-
+ment of inhibitor affinity in the presence or absence of nucleo-
+tide or Mg2⫹ via SPR (such as Biacore), will be required to
+completely elucidate this mechanism.
+
+5 A. Shutes, unpublished observations.
+
+0
+
+FIGURE 8. EHT 1864 demonstrates activity on other Rac isoforms. Fluores-
+cence anisotropy analyses shows EHT 1864 association with Rac1, Rac1b,
+Rac2, and Rac 3 but not Cdc42. A, recombinant Rac䡠GDP proteins were titrated
+into a solution of 1 ␮M EHT 1864, 20 mM Tris䡠HCl, 50 mM NaCl, 1 mM MgCl2, and
+⫽
+the changes in fluorescence anisotropy were measured (␭
+ex
+440 nm) after 2-min equilibration. The data were fitted to a hyperbolic bind-
+ing curve. B, 2 ␮M Rac2䡠mant-GDP, Rac3䡠mant-GDP, or Rac1䡠mant-GDP were
+incubated in 20 mM Tris䡠HCl (pH 7.5), 50 mM NaCl, 1 mM MgCl2, and after 140 s,
+EHT 1864 was rapidly added to a final concentration of 50 ␮M. The changes in
+FRET between the tryptophan 56 and the mant group were observed, by
+⫽ 440 nm). The
+measuring the changes in fluorescence (␭
+ex
+data were best fitted to a single exponential.
+
+⫽ 290 nm, ␭
+
+⫽ 360 nm, ␭
+
+em
+
+em
+
+selective for Rac isoforms, binds to Rac with a high affinity,
+disrupts guanine nucleotide association, causing a loss of
+interaction with its effectors, and can effectively block Ras-
+mediated transformation. Thus, EHT 1864 may define a
+novel small molecule inhibitor scaffold that may be further
+developed for directly antagonizing the function of Ras
+superfamily small GTPases.
+
+Our previous observations suggested that EHT 1864 pre-
+vented Rac1 but not RhoA interaction with downstream effec-
+tors. To further delineate the Rho GTPase specificity of EHT
+1864, we determined that EHT 1864 selectively blocked extra-
+cellular stimuli-induced activation of endogenous Rac1 and not
+of RhoA or Cdc42. This inhibition was associated with a
+decreased ability of PAK-RBD to pulldown-activated Rac-GTP
+but not Cdc42-GTP from cells. Because Cdc42-GTP also binds
+to PAK-RBD, these results argue that EHT 1864 interacts with
+Rac itself, rather than with PAK-RBD. This conclusion is also
+consistent with our previous observation that EHT 1864
+expressed activated
+blocked the
+
+ectopically
+
+ability of
+
+DECEMBER 7, 2007 • VOLUME 282 • NUMBER 49
+
+JOURNAL OF BIOLOGICAL CHEMISTRY 35675
+
+Downloaded from 
+
+http://www.jbc.org/
+
+ by guest on July 25, 2013
+
+EHT 1864, a Novel Rac-specific Inhibitor
+
+switch II region (residues 60–76) of
+Rac1. This has been shown to be suf-
+ficient to disrupt effector interac-
+tion itself (19, 30, 57, 58). That EHT
+1864 is able to associate tightly with
+Rac1b suggests that the extra 19
+amino acids do not significantly
+interfere with its binding site. Of the
+three Rac proteins (1, 2, and 3), Rac1
+and Rac2 are the most divergent, yet
+it is to these two that EHT 1864
+associates most tightly. There are
+only five positions in their amino
+acid sequences where Rac1 and
+Rac2 are similar to each other, yet
+different to Rac3: Ile-111, Lys-128,
+Lys-147, Arg-187, and Lys-186. Of
+these, only Ile-111, in the Rho insert
+region, is located on a side of the
+protein facing the nucleotide bind-
+ing pocket. Yet RhoA, which is
+unable to associate with EHT 1864,
+also has an Ile at the equivalent posi-
+tion. This may suggest further com-
+plex residue-drug interaction, or
+potentially an allosteric mechanism
+of drug action. Due to the intricate
+nature of protein/drug interfaces,
+the binding site of EHT 1864 may
+ultimately be best understood by a
+complete structural elucidation.
+
+Previous studies demonstrated
+that Ras causes activation of Rac and
+that Rac function is critical for Ras-
+mediated growth transformation. In
+these studies, Rac function was
+blocked by use of a dominant nega-
+tive Rac1(17N) mutant (11, 12),
+which blocks RacGEF activation of
+Rac (59), or by NSC23766, a cell-
+permeable small molecule that can
+bind directly to Rac1 and prevent its
+activation by Rac-specific RhoGEFs
+(27). In contrast to these approaches
+for blocking Rac function, our stud-
+ies suggest that EHT 1864 disrupts
+formation of activated Rac1-GTP,
+thereby disrupting Rac1 interaction
+with its downstream effectors. As
+anticipated from this mode of action, we also found that EHT
+1864 treatment can effectively block the ability of mutationally
+activated Ras to cause growth transformation. Thus, EHT 1864
+may define a novel approach for the development of anti-Ras
+inhibitors for cancer treatment. The 20-fold greater potency
+seen with EHT 1864, when compared with the 100 ␮M concen-
+tration required for NSC23766 to block Rac activity in vivo, will
+facilitate our ability to evaluate the activity of EHT 1864 in
+mouse tumor models.
+
+FIGURE 9. EHT 1864 specifically reverses cell transformation induced by constitutively activated
+mutants of Rac1 and Tiam1. A, NIH 3T3 fibroblasts were stably transfected with vectors encoding Rac1 WT or
+the constitutive active mutants Rac1(61L) or Tiam1(C1199). Transfection with the empty expression plasmid
+alone (Vector) served as a negative control. The expression levels of HA epitope-tagged Rac1 WT and Rac1(61L)
+proteins were detected by Western blotting using an anti-HA antibody. Myc-tagged Tiam1(C1199) protein
+expression level was detected using an anti-Myc antibody. The amounts of ␤-actin are shown as a loading
+control. B, EHT 1864 reverses focus formation induced by Rac1(61L) and Tiam1(C1199). NIH 3T3 cells stably
+expressing the proteins indicated were plated and allowed to reach confluency. Cells were cultured in com-
+plete growth medium, either alone or supplemented with 5 ␮M EHT 1864. The appearance of foci of cells was
+observed by bright field 3– 4 weeks after plating. Cells were then fixed and stained with crystal violet.
+C, quantitation of data shown in panel B. The number of foci of transformed cells was analyzed by phase-
+contrast microscopy. Data shown are representative of two independent experiments, each performed in
+duplicate.
+
+Binding of EHT 1864 to Rac1 is tight, with a KD ⫽ 40 nM. This
+compares to the KD of GTP association with small GTPases of
+⬃20–30 nM in the presence of Mg2⫹ (54–56). This tight asso-
+ciation may explain the potency of ETH 1864 as observed pre-
+viously (28). The KD of the interaction between EHT 1864 and
+Rac1b and Rac2 was also comparable to that of Rac1 (50 nM and
+60 nM, respectively), yet the KD of interaction with Rac3 is
+5-fold higher (230 nM). Rac1b, an alternative splice variant of
+Rac1, contains a 19-amino acid insert immediately behind the
+
+35676 JOURNAL OF BIOLOGICAL CHEMISTRY
+
+Downloaded from 
+
+http://www.jbc.org/
+
+ by guest on July 25, 2013
+
+VOLUME 282 • NUMBER 49 • DECEMBER 7, 2007
+
+EHT 1864, a Novel Rac-specific Inhibitor
+
+transformation by the GAP-deficient, constitutively activated
+Rac1(61L) mutant (our study and Ref. 27). Hence, EHT 1864,
+and not NSC23766, is expected to be effective in blocking Rac
+activation by RhoGEF-independent mechanisms. For example,
+we found that EHT 1864 can bind the constitutively activated
+and transforming Rac1b variant overexpressed in breast and
+colon cancers. Thus, EHT 1864, and not NSC23766, is antici-
+pated to be effective against tumor cells that express this Rac1
+splice variant. Additionally, Rho GTPases may become acti-
+vated in cancers (e.g. DLC-1) or in mental retardation (e.g. oli-
+gophrenin) by the loss of Rho-specific GTPase-activating pro-
+tein function, and EHT 1864, but not NSC23766, will be
+effective against Rac activation by the loss of Rho-specific
+GTPase-activating protein activity (61). Finally, because Ras is
+mutationally activated in human cancers, the mechanism of
+action of EHT 1864, and not NSC23766, may identify an
+approach to develop related inhibitors specific for constitu-
+tively activated Ras. In summary, EHT 1864 is not simply
+another version of NSC23766 and identifies a novel pharmaco-
+logic approach for Rac inhibition.
+
+In summary, we have determined that EHT 1864 is a Rac-
+specific inhibitor that directly binds and impairs the ability of
+this small GTPase to engage critical downstream effectors
+required for growth transformation. Despite the considerable
+body of evidence implicating the aberrant function of Ras and
+Rho family small GTPases in cancer and other human diseases,
+there has been a striking lack of success in the pharmacologic
+development of inhibitors that directly target small GTPases.
+The identification of ATP-competitive inhibitors has been a
+highly successful approach for the development of clinically
+important protein kinase inhibitors. However, the considerably
+higher affinity of binding of guanine nucleotides to small
+GTPases has made GTP-competitive inhibitors an unrealistic
+approach for the development of inhibitors of small GTPases.
+The specificity and activity of EHT 1864 against the Rac pro-
+teins represents a significant step forward in the development
+of such drugs, and EHT 1864 may provide a template from
+which other small GTPase drugs may be rationally designed.
+
+Acknowledgments—We thank Wendy Salmon and Michael Chua in
+the University of North Carolina (UNC) Michael Hooker Microscopy
+Facility, Ashutosh Tripathy in the UNC Macromolecular Interaction
+Facility, Natalia Mitin for her help in confocal imaging, and Misha
+Rand for assistance in figure and manuscript preparation.
+
+REFERENCES
+1. Wennerberg, K., and Der, C. J. (2004) J. Cell Sci. 117, 1301–1312
+2. Ridley, A. J. (2006) Trends Cell Biol. 16, 522–529
+3. Jaffe, A. B., and Hall, A. (2005) Annu. Rev. Cell Dev. Biol. 21, 247–269
+4. Malumbres, M., and Barbacid, M. (2003) Nat. Rev. Cancer 3, 459–465
+5. Bar-Sagi, D., and Hall, A. (2000) Cell 103, 227–238
+6. Boettner, B., and Van Aelst, L. (2002) Gene (Amst.) 286, 155–174
+7. Goodison, S., Yuan, J., Sloan, D., Kim, R., Li, C., Popescu, N. C., and
+
+Urquidi, V. (2005) Cancer Res. 65, 6042–6053
+
+8. Kleer, C. G., Griffith, K. A., Sabel, M. S., Gallagher, G., van Golen, K. L.,
+Wu, Z. F., and Merajver, S. D. (2005) Breast Cancer Res. Treat. 93,
+101–110
+
+9. Sahai, E., and Marshall, C. J. (2002) Nat. Rev. Cancer 2, 133–142
+10. Ridley, A. J. (2004) Breast Cancer Res. Treat. 84, 13–19
+
+ β-
+
+FIGURE 10. EHT 1864 inhibits oncogenic Ras-mediated growth transfor-
+mation. A, focus formation induced by oncogenic Ras is blocked by treat-
+ment with EHT 1864. NIH 3T3 fibroblasts were transfected with 50 ng of
+pCGN-hygro expression plasmid alone (Vector) or encoding the constitutive
+active H-Ras(61L) mutant and were allowed to reach confluency. Cells were
+cultured in complete growth medium, either alone, or supplemented with 5
+␮M EHT 1864. The appearance of H-Ras(61L) foci of transformed cells was
+assessed 14 days after plating by using a bright field. B, quantitation of data
+shown in panel A. The number of foci was analyzed by phase-contrast micros-
+copy. Data shown are representative of two independent experiments, with
+each performed in duplicate. C, EHT 1864 inhibits Ras-induced cell growth of
+NIH 3T3 fibroblasts. NIH 3T3 fibroblasts were stably transfected with pCGN-
+hygro expression plasmid alone (Vector) or encoding constitutively activated
+H-Ras(61L). The expression level of the HA epitope-tagged H-Ras(61L) protein
+was determined by Western blotting using an anti-HA antibody. The amounts
+of ␤-actin are shown as a loading control. D, NIH 3T3 cells, stably transfected
+as described above, were plated in 96-well plates at an initial density of 2 ⫻
+103 cells/well. The cells were cultured for the indicated number of days in
+complete growth medium, either alone, or supplemented with 5 ␮M EHT
+1864, and cell proliferation was then assessed by an MTT assay. Each condi-
+tion was performed in eight replicates, and the data shown are representative
+of two independent experiments.
+
+The small molecule NSC23766 is the only Rac activation
+inhibitor described to date (27). When compared with this
+compound, the different mode of action of EHT 1864 displays
+crucial advantages. First, NSC23766 was effective against Rac1
+activation by some, but not other, RhoGEFs that activate Rac1.
+NSC23766 blocked Rac activation by the Rac-specific GEFs
+Tiam1 and TrioN but was inactive against Vav1, a more pro-
+miscuous GEF that activates Rac1, and additionally RhoA and
+Cdc42 (27). EHT 1864 should be active against Rac activated by
+all RacGEFs. The importance of this property is emphasized by
+a recent study that found that Vav1 overexpression caused Rac-
+specific and -dependent growth transformation of pancreatic
+carcinoma cells (60). Hence, EHT 1864, and not NSC23766, is
+expected to be an effective inhibitor of Vav1-driven pancreatic
+cancers, and our future studies will evaluate this possibility.
+Second, EHT 1864, and not NSC23766, is effective in blocking
+
+DECEMBER 7, 2007 • VOLUME 282 • NUMBER 49
+
+Downloaded from 
+
+http://www.jbc.org/
+
+ by guest on July 25, 2013
+
+JOURNAL OF BIOLOGICAL CHEMISTRY 35677
+
+11. Qiu, R. G., Chen, J., Kirn, D., McCormick, F., and Symons, M. (1995)
+
+37. Thapar, R., Karnoub, A. E., and Campbell, S. L. (2002) Biochemistry 41,
+
+EHT 1864, a Novel Rac-specific Inhibitor
+
+Nature 374, 457–459
+
+12. Khosravi-Far, R., Solski, P. A., Clark, G. J., Kinch, M. S., and Der, C. J.
+
+(1995) Mol. Cell. Biol. 15, 6443–6453
+
+13. Renshaw, M. W., Lea-Chou, E., and Wang, J. Y. (1996) Curr. Biol. 6, 76–83
+14. Zohn, I. E., Symons, M., Chrzanowska-Wodnicka, M., Westwick, J. K., and
+
+Der, C. J. (1998) Mol. Cell. Biol. 18, 1225–1235
+
+15. Ferraro, D., Corso, S., Fasano, E., Panieri, E., Santangelo, R., Borrello, S.,
+Giordano, S., Pani, G., and Galeotti, T. (2006) Oncogene 25, 3689–3698
+16. Michiels, F., Habets, G. G., Stam, J. C., van der Kammen, R. A., and Collard,
+
+J. G. (1995) Nature 375, 338–340
+
+17. Schnelzer, A., Prechtel, D., Knaus, U., Dehne, K., Gerhard, M., Graeff, H.,
+Harbeck, N., Schmitt, M., and Lengyel, E. (2000) Oncogene 19, 3013–3020
+18. Jordan, P., Brazao, R., Boavida, M. G., Gespach, C., and Chastre, E. (1999)
+
+Oncogene 18, 6835–6839
+
+19. Singh, A., Karnoub, A. E., Palmby, T. R., Lengyel, E., Sondek, J., and Der,
+
+C. J. (2004) Oncogene 23, 9369–9380
+
+20. Hwang, S. L., Chang, J. H., Cheng, T. S., Sy, W. D., Lieu, A. S., Lin, C. L., Lee,
+K. S., Howng, S. L., and Hong, Y. R. (2005) J. Clin. Neurosci. 12, 571–574
+21. Chan, A. Y., Coniglio, S. J., Chuang, Y. Y., Michaelson, D., Knaus, U. G.,
+
+Philips, M. R., and Symons, M. (2005) Oncogene 24, 7821–7829
+
+22. Denicola, G., and Tuveson, D. A. (2005) Cancer Biol. Ther. 4, 509–511
+23. Sebti, S. M., and Hamilton, A. D. (2000) Oncogene 19, 6584–6593
+24. Basso, A. D., Kirschmeier, P., and Bishop, W. R. (2006) J. Lipid Res. 47,
+
+15–31
+
+417–433
+
+25. Reid, T. S., Terry, K. L., Casey, P. J., and Beese, L. S. (2004) J. Mol. Biol. 343,
+
+26. Bishop, A. L., and Hall, A. (2000) Biochem. J. 348, 241–255
+27. Gao, Y., Dickerson, J. B., Guo, F., Zheng, J., and Zheng, Y. (2004) Proc. Natl.
+
+Acad. Sci. U. S. A. 101, 7618–7623
+
+28. Desire, L., Bourdin, J., Loiseau, N., Peillon, H., Picard, V., De Oliveira, C.,
+Bachelot, F., Leblond, B., Taverne, T., Beausoleil, E., Lacombe, S., Drouin,
+D., and Schweighoffer, F. (2005) J. Biol. Chem. 280, 37516–37525
+
+29. Deroanne, C., Vouret-Craviari, V., Wang, B., and Pouyssegur, J. (2003)
+
+J. Cell Sci. 116, 1367–1376
+
+30. Haeusler, L. C., Hemsath, L., Fiegen, D., Blumenstein, L., Herbrand, U.,
+Stege, P., Dvorsky, R., and Ahmadian, M. R. (2006) Methods Enzymol. 406,
+1–11
+
+31. Joyce, P. L., and Cox, A. D. (2003) Cancer Res. 63, 7959–7967
+32. Karnoub, A. E., Worthylake, D. K., Rossman, K. L., Pruitt, W. M.,
+Campbell, S. L., Sondek, J., and Der, C. J. (2001) Nat. Struct. Biol. 8,
+1037–1041
+
+33. Worthylake, D. K., Rossman, K. L., and Sondek, J. (2000) Nature 408,
+
+34. Wennerberg, K., Ellerbroek, S. M., Liu, R. Y., Karnoub, A. E., Burridge, K.,
+
+and Der, C. J. (2002) J. Biol. Chem. 277, 47810–47817
+
+35. Phillips, R. A., Hunter, J. L., Eccleston, J. F., and Webb, M. R. (2003) Bio-
+
+36. Shutes, A., Phillips, R. A., Corrie, J. E., and Webb, M. R. (2002) Biochem-
+
+chemistry 42, 3956–3965
+
+istry 41, 3828–3835
+
+682–688
+
+3875–3883
+
+38. Lambert, J. M., Lambert, Q. T., Reuther, G. W., Malliri, A., Siderovski, D. P.,
+
+Sondek, J., Collard, J. G., and Der, C. J. (2002) Nat. Cell Biol. 4, 621–625
+
+39. Westwick, J. K., Lambert, Q. T., Clark, G. J., Symons, M., Van Aelst, L.,
+
+Pestell, R. G., and Der, C. J. (1997) Mol. Cell. Biol. 17, 1324–1335
+
+40. Hansen, M. B., Nielsen, S. E., and Berg, K. (1989) J. Immunol. Methods 119,
+
+203–210
+
+(1992) Cell 70, 401–410
+
+41. Ridley, A. J., Paterson, H. F., Johnston, C. L., Diekmann, D., and Hall, A.
+
+42. Ridley, A. J., and Hall, A. (1992) Cell 70, 389–399
+43. Kozma, R., Ahmed, S., Best, A., and Lim, L. (1995) Mol. Cell. Biol. 15,
+
+1942–1952
+
+44. Khosravi-Far, R., White, M. A., Westwick, J. K., Solski, P. A., Chrza-
+nowska-Wodnicka, M., Van Aelst, L., Wigler, M. H., and Der, C. J. (1996)
+Mol. Cell. Biol. 16, 3923–3933
+
+45. Hart, M., and Powers, S. (1995) Methods Enzymol. 255, 129–135
+46. Chen, S. Y., Huff, S. Y., Lai, C. C., Der, C. J., and Powers, S. (1994) Oncogene
+
+9, 2691–2698
+
+47. Ando, S., Kaibuchi, K., Sasaki, T., Hiraoka, K., Nishiyama, T., Mizuno, T.,
+Asada, M., Nunoi, H., Matsuda, I., and Matsuura, Y. (1992) J. Biol. Chem.
+267, 25709–25713
+
+48. Hiraoka, K., Kaibuchi, K., Ando, S., Musha, T., Takaishi, K., Mizuno, T.,
+Asada, M., Menard, L., Tomhave, E., and Didsbury, J. (1992) Biochem.
+Biophys. Res. Commun. 182, 921–930
+
+49. Sasaki, T., Kato, M., and Takai, Y. (1993) J. Biol. Chem. 268, 23959–23963
+50. Chuang, T. H., Xu, X., Knaus, U. G., Hart, M. J., and Bokoch, G. M. (1993)
+
+J. Biol. Chem. 268, 775–778
+
+51. Wennerberg, K., Rossman, K. L., and Der, C. J. (2005) J. Cell Sci. 118,
+
+843–846
+
+52. van Leeuwen, F. N., van der Kammen, R. A., Habets, G. G., and Collard,
+
+J. G. (1995) Oncogene 11, 2215–2221
+
+53. Michaelson, D., Silletti, J., Murphy, G., D’Eustachio, P., Rush, M., and
+
+Philips, M. R. (2001) J. Cell Biol. 152, 111–126
+
+54. Manne, V., Yamazaki, S., and Kung, H. F. (1984) Proc. Natl. Acad. Sci.
+
+U. S. A. 81, 6953–6957
+
+55. Onozawa, T., Danjoh, I., and Fujiyama, A. (1995) Yeast 11, 801–808
+56. Yamashita, T., Yamamoto, K., Kikuchi, A., Kawata, M., Kondo, J., Hishida,
+T., Teranishi, Y., Shiku, H., and Takai, Y. (1988) J. Biol. Chem. 263,
+17181–17188
+
+57. Matos, P., Collard, J. G., and Jordan, P. (2003) J. Biol. Chem. 278,
+
+50442–50448
+
+58. Fiegen, D., Haeusler, L. C., Blumenstein, L., Herbrand, U., Dvorsky, R.,
+Vetter, I. R., and Ahmadian, M. R. (2004) J. Biol. Chem. 279, 4743–4749
+
+59. Feig, L. A. (1999) Nat. Cell Biol. 1, E25–E27
+60. Fernandez-Zapico, M. E., Gonzalez-Paz, N. C., Weiss, E., Savoy, D. N.,
+Molina, J. R., Fonseca, R., Smyrk, T. C., Chari, S. T., Urrutia, R., and Bil-
+ladeau, D. D. (2005) Cancer Cell 7, 39–49
+
+61. Bernards, A., and Settleman, J. (2004) Trends Cell Biol. 14, 377–385
+
+35678 JOURNAL OF BIOLOGICAL CHEMISTRY
+
+Downloaded from 
+
+http://www.jbc.org/
+
+ by guest on July 25, 2013
+
+VOLUME 282 • NUMBER 49 • DECEMBER 7, 2007
+
+

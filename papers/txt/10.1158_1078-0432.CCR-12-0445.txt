@@ -1,0 +1,2235 @@
+Published OnlineFirst April 10, 2012; DOI: 10.1158/1078-0432.CCR-12-0445 
+
+Bridging the Gap between Preclinical and Clinical Studies Using
+Pharmacokinetic
+Pharmacodynamic Modeling: An Analysis of
+GDC-0973, a MEK Inhibitor
+  
+Harvey Wong, Laurent Vernillet, Amy Peterson, et al. 
+  
+Clin Cancer Res 
+
+2012;18:3090-3099. Published OnlineFirst April 10, 2012.
+
+Updated version
+  
+Supplementary
+Material
+  
+
+10.1158/1078-0432.CCR-12-0445
+ 
+
+Access the most recent version of this article at:
+doi:
+  
+Access the most recent supplemental material at:
+ 
+http://clincancerres.aacrjournals.org/content/suppl/2012/04/10/1078-0432.CCR-12-0445.DC1.html
+  
+
+Cited Articles
+  
+Citing articles
+  
+
+This article cites by 33 articles, 18 of which you can access for free at:
+http://clincancerres.aacrjournals.org/content/18/11/3090.full.html#ref-list-1
+ 
+  
+This article has been cited by 2 HighWire-hosted articles. Access the articles at:
+http://clincancerres.aacrjournals.org/content/18/11/3090.full.html#related-urls
+ 
+  
+
+  
+  
+
+  
+  
+
+E-mail alerts
+  
+Reprints and 
+Subscriptions
+  
+Permissions
+  
+
+Sign up to receive free email-alerts
+
+ related to this article or journal.
+
+To order reprints of this article or to subscribe to the journal, contact the AACR Publications Department at
+pubs@aacr.org
+.
+  
+To request permission to re-use all or part of this article, contact the AACR Publications Department at
+.
+permissions@aacr.org
+  
+
+Downloaded from 
+
+clincancerres.aacrjournals.org 
+
+on July 1, 2013. © 2012 American Association for Cancer Research. 
+
+-
+Published OnlineFirst April 10, 2012; DOI: 10.1158/1078-0432.CCR-12-0445 
+
+Cancer Therapy: Preclinical
+
+Clinical
+Cancer
+Research
+
+Bridging the Gap between Preclinical and Clinical Studies
+Using Pharmacokinetic–Pharmacodynamic Modeling:
+An Analysis of GDC-0973, a MEK Inhibitor
+
+Harvey Wong1, Laurent Vernillet2, Amy Peterson3, Joseph A. Ware2, Lillian Lee5, Jean-Francois Martini5,
+Peiwen Yu5, Congfen Li5, Geoffrey Del Rosario5, Edna F. Choo1, Klaus P. Hoeﬂich4, Yongchang Shi5,
+Blake T. Aftab5, Ron Aoyama5, Sanh Tan Lam5, Marcia Belvin4, and John Prescott3
+
+Abstract
+
+Purpose: GDC-0973 is a potent and selective mitogen-activated protein (MAP)/extracellular signal–
+regulated kinase (ERK) kinase (MEK) inhibitor. Pharmacokinetic–pharmacodynamic (PK–PD) model-
+ing was used to relate GDC-0973 plasma and tumor concentrations, tumor pharmacodynamics and
+antitumor efﬁcacy to establish pharmacokinetic endpoints and predict active doses in the clinic.
+
+Experimental Design: A PK–PD model was used to characterize GDC-0973 tumor disposition and in vivo
+potency in WM-266-4 xenograft mice. Simulations were conducted using the PK–PD model along with
+human pharmacokinetics to identify a target plasma concentration and predict active doses. In vivo potency
+and antitumor efﬁcacy were characterized in A375 melanoma xenograft mice, and a population-based
+integrated PK–PD-efﬁcacy model was used to relate tumor pharmacodynamics (%pERK decrease) to
+antitumor activity.
+
+Results: GDC-0973 showed a sustained tumor pharmacodynamic response due to longer residence in
+tumor than in plasma. Following single doses of GDC-0973, estimated in vivo IC50 values of %pERK
+decrease based on tumor concentrations in xenograft mice were 0.78 (WM-266-4) and 0.52 mmol/L
+(A375). Following multiple doses of GDC-0973, the estimated in vivo IC50 value in WM-266-4 increased
+(3.89 mmol/L). Human simulations predicted a minimum target plasma concentration of 83 nmol/L
+and an active dose range of 28 to 112 mg. The steep relationship between tumor pharmacodynamics
+(%pERK decrease) and antitumor efﬁcacy suggests a pathway modulation threshold beyond which
+antitumor efﬁcacy switches on.
+
+Conclusions: Clinical observations of %pERK decrease and antitumor activity were consistent
+with model predictions. This article illustrates how PK–PD modeling can improve the translation
+of preclinical data to humans by providing a means to integrate preclinical and early clinical data.
+Clin Cancer Res; 18(11); 3090–9. Ó2012 AACR.
+
+Introduction
+
+The RAF/MEK/ERK signaling pathway is highly conserved
+and plays an important role in cell proliferation, survival,
+migration, cell-cycle regulation, and angiogenesis (1–4).
+Activating mutations in B-RAF have been frequently
+
+Authors' Afﬁliations: Departments of 1Drug Metabolism and Pharmaco-
+kinetics, 2Clinical Pharmacology, 3Exploratory Clinical Development, and
+4Cell Signaling Pathways, Genentech Inc.; and 5Exelixis, South San Fran-
+cisco, California
+
+Note: Supplementary data for this article are available at Clinical Cancer
+Research Online (http://clincancerres.aacrjournals.org/).
+
+Corresponding Author: Harvey Wong, Drug Metabolism and Pharmaco-
+kinetics, Genentech, Inc., 1 DNA Way, MS 412a, South San Francisco,
+CA 94080. Phone: 650-225-5739; Fax: 650-467-3487; E-mail:
+wong.harvey@gene.com
+
+doi: 10.1158/1078-0432.CCR-12-0445
+Ó2012 American Association for Cancer Research.
+
+observed in several tumor types, including 50% to 70% of
+malignant melanomas, 30% of papillary thyroid cancer,
+and 10% to 15% of colorectal and ovarian cancers, among
+others (1, 5–7). The majority of these mutations are in exon
+15, which results in a Val600 Glu (V600E) amino acid
+substitution, leading to constitutive kinase activation (8).
+Cancer cells harboring the V600E B-RAF mutation have
+been shown to be particularly sensitive to inhibition of
+mitogen–activated protein (MAP)/extracellular
+signal–
+regulated kinase (ERK) kinase (MEK; ref. 9), making MEK
+an attractive target for small molecule inhibitors.
+
+More than 10 MEK inhibitors have been evaluated in the
+clinic (4). Despite the activity around this target and signs of
+clinical efﬁcacy (10, 11), none have yet been approved for
+clinical use. However, the recently approved B-RAF inhib-
+itor, vemurafenib (PLX4032), has been reported to be very
+effective in patients with melanoma with mutated B-RAF
+causing robust complete or partial tumor regression (12).
+
+3090
+
+Clin Cancer Res; 18(11) June 1, 2012
+
+Downloaded from 
+
+clincancerres.aacrjournals.org 
+
+on July 1, 2013. © 2012 American Association for Cancer Research. 
+
+Published OnlineFirst April 10, 2012; DOI: 10.1158/1078-0432.CCR-12-0445 
+
+Translational Relevance
+
+The current work applies pharmacokinetic–pharma-
+codynamic (PK–PD) modeling to characterize tumor
+disposition and pharmacodynamics of a mitogen-
+activated protein (MAP)/extracellular signal–regulated
+kinase (ERK) kinase (MEK) inhibitor, GDC-0973, in
+preclinical tumor models. PK–PD modeling was used
+to translate preclinical tumor accumulation characteris-
+tics and identify a minimum target plasma concentration
+in patients. Predictions of active doses were based upon
+80% suppression of the RAF/MEK/ERK pathway and
+compared well with reported clinical responses. Using
+an integrated PK–PD efﬁcacy model, the relationship
+between pathway modulation and efﬁcacy was deﬁned.
+Our analysis suggests a pathway suppression threshold
+beyond which antitumor activity switches on. Our
+observations are consistent with clinical data reported
+for PD-0325901, another MEK inhibitor, and vemura-
+fenib, a B-RAF inhibitor, both of which target the RAF/
+MEK/ERK pathway. This work illustrates how PK–PD
+modeling can be used to improve the predictive value of
+preclinical data in the phase I setting.
+
+The vemurafenib study highlights the importance of the
+RAF/MEK/ERK signaling pathway in cancers with B-RAF
+mutations. Therefore, it can be expected that there will
+be continued interest in MEK inhibitors as an alternative
+means of targeting the RAF/MEK/ERK pathway. Finally,
+MEK inhibitors given in combination with B-RAF inhibi-
+tors can provide a means to prevent the emergence of
+acquired drug resistance in tumors (13, 14).
+
+GDC-0973 (also known as XL518), (S)-[3,4-diﬂuoro-2-
+(2-ﬂuoro-4-iodophenylamino)phenyl][3-hydroxy-3-(pipe-
+ridin-2-yl)azetidin-1-yl]methanone (Supplementary Fig.
+S1), is a novel potent, selective MEK1 inhibitor with an
+IC50 estimate of 4.2 nmol/L in an in vitro biochemical assay
+against puriﬁed MEK1 enzyme (15). GDC-0973 showed
+more than 100-fold selectively for MEK1 over MEK2 and
+showed no signiﬁcant inhibition when tested against a
+panel of more than 100 of serine-threonine and tyrosine
+kinases. Preliminary studies conducted in xenograft mice
+suggested that the duration of tumor phosphorylated ERK1/
+2 (pERK) inhibition, the predominant downstream mea-
+sure of MEK inhibition, outlasted the presence of GDC-
+0973 in plasma, and was consistent with the residence time
+of GDC-0973 in tumors (data not shown). This observed
+disconnect between GDC-0973 plasma concentrations and
+tumor pharmacodynamic (PD) response suggested that
+additional investigation into the pharmacokinetic–phar-
+macodynamic (PK–PD) relationship of GDC-0973 in
+tumor was warranted.
+
+Preclinical PK–PD modeling can play an important role
+in the drug discovery and development process by provid-
+ing an integrated understanding of relationships between
+compound plasma concentrations, PD marker response,
+
+PK–PD Analysis of a MEK Inhibitor
+
+and efﬁcacy. In addition, PK–PD modeling is a useful tool
+that can facilitate the translation of preclinical data to
+humans. The objectives of the current studies were (i) to
+characterize the tumor disposition and in vivo potency of
+GDC-0973 in xenograft mice, (ii) to estimate the minimum
+target GDC-0973 plasma concentrations in humans, and
+(iii) to characterize the relationship between RAF/MEK/ERK
+signaling pathway inhibition and antitumor efﬁcacy. Our
+studies with GDC-0973 illustrate how the incorporation
+of early phase I clinical data into existing preclinical
+PK–PD models can serve not only to improve our under-
+standing of the behavior of GDC-0973 in humans but also
+to help prospectively predict responses in the clinic.
+
+Materials and Methods
+
+GDC-0973 (also known as XL518; Supplementary Fig.
+S1) was provided by Exelixis. All studies were conducted
+using the dihydrochloride salt of GDC-0973. Solvents used
+for analysis were of analytic or high-performance liquid
+chromatography (HPLC) grade (Fisher Scientiﬁc). WM-
+266-4 and A375 human melanoma cells were purchased
+from American Type Culture Collection. All other reagents
+or material used in this study were purchased from Sigma-
+Aldrich unless otherwise stated. In vivo studies were con-
+ducted at Exelixis and the Exelixis Institutional Animal Care
+and Use Committee approved all procedures in animals.
+
+In vivo PK–PD study in WM-266-4 xenografts
+
+Brieﬂy, 5 million WM-266-4 melanoma cells were resus-
+pended in Hank balanced salt solution and implanted
+intradermally into the hind ﬂank of female NCR nude mice
+(Taconic). On days 11 or 13 after the implantation, xeno-
+graft mice with tumor volumes of approximately 100 to 120
+mm3 were randomly assigned to 8 groups (n ¼ 27 per
+group), 4 single dose groups and 4 multiple dose groups.
+One day after randomization and group assignment, mice
+in the single dose groups were given a single oral dose of
+vehicle (water for injection USP), 1, 3, or 10 mg/kg of GDC-
+0973 (expressed as free base equivalents). Mice in the
+multiple dose groups were given daily oral doses of vehicle
+(water for injection USP), 1, 3, or 10 mg/kg of GDC-0973
+for 14 days. Plasma and tumor samples (n ¼ 3 per time
+point) were collected from euthanized mice predose and at
+2, 4, 8, 16, 24, 72, 120, and 168 hours postdose on day 1
+(single dose groups) or day 14 (multiple dose groups).
+Samples were stored at  80
+C until analysis. GDC-0973
+concentrations in plasma and tumor lysates were deter-
+mined using liquid chromatography/tandem mass spec-
+trometry (LC/MS-MS). The dynamic range of the assay was
+0.004 to 35 mmol/L. ERK1/2 phosphorylation was deter-
+mined by Western blot analysis.
+
+
+
+In vivo target modulation in A375 xenografts
+
+A375 xenograft–bearing mice were established as
+described above for WM-266-4 xenograft–bearing mice.
+A375 xenograft–bearing mice were given a single oral dose
+of 0.3, 1, 3, 10, or 30 mg/kg of GDC-0973 (expressed as free
+
+www.aacrjournals.org
+
+Clin Cancer Res; 18(11) June 1, 2012
+
+3091
+
+Downloaded from 
+
+clincancerres.aacrjournals.org 
+
+on July 1, 2013. © 2012 American Association for Cancer Research. 
+
+Published OnlineFirst April 10, 2012; DOI: 10.1158/1078-0432.CCR-12-0445 
+
+Wong et al.
+
+base equivalents). Plasma and tumor GDC-0973 concen-
+trations and tumor pERK inhibition were assessed at 24 (all
+doses), 48 (10 and 30 mg/kg only), and 72 (10 and 30 mg/
+kg only) hours postdose (n ¼ 5 animals per assessment).
+Quantitation of GDC-0973 concentrations in plasma and
+tumor and tumor %pERK decrease was conducted as
+described for the WM-266-4 studies.
+
+Equation (D) was ﬁt to GDC-0973 tumor concentrations
+and tumor %pERK decrease data from A375 xenografts
+using GraphPad Prism V4.02 (GraphPad Software Inc.).
+The Hill coefﬁcient (h) was ﬁxed to 1 for this analysis. The
+use of this model [Equation (D)] is explained in more detail
+in the PK–PD modeling section later.
+
+In vivo efﬁcacy study with A375 xenografts
+
+The GDC-0973 in vivo efﬁcacy study was conducted
+with A375 xenograft–bearing mice. Tumor volumes were
+measured in 2 dimensions (length and width) using
+Ultra Cal-IV calipers (Model 54-10-111, Fred V. Fowler
+Company, Inc.). The following formula was used with
+Excel v11.2 (Microsoft Corporation) to calculate tumor
+volume (TV): TV (mm3) ¼ (length  width2)  0.5.
+Tumors were monitored until they reached a mean vol-
+ume of approximately 100 to 120 mm3 at which time the
+mice were assigned to each dosing group (n ¼ 10 animals
+per group) such that mean tumor volume was similar
+for each group. Mice in each group received oral doses of
+either vehicle (water for injection USP) once daily,
+0.3 mg/kg once daily, 1 mg/kg once daily, 3 mg/kg once
+daily, 10 mg/kg once daily, 30 mg/kg every second day,
+or 30 mg/kg every third day of GDC-0973 free base
+equivalents for 14 days. Tumor sizes and body weights
+
+were recorded twice weekly, and the mice were regularly
+observed over the course of the study. Mice were eutha-
+nized if their tumor volume exceeded 2,000 mm3 or if
+their body weight dropped by more than 20% of the
+starting weight.
+
+PK–PD modeling
+
+WM-266-4 xenograft PK–PD model. PK–PD modeling
+for the WM-266-4 xenograft studies was conducted using
+SAAM II (Saam Institute, University of Washington, Seat-
+tle, WA). Brieﬂy, Equations (A) to (C) and Fig. 1A describe
+the PK model that was simultaneously ﬁt to mean plasma
+and tumor GDC-0973 concentrations from single and
+multiple dose WM-266-4 xenograft mice studies. Equa-
+tions (A) to (C) are described as follows:
+
+dX0
+dt
+
+dCp
+dt
+
+dCt
+dt
+
+¼  kaX0
+
+¼ kaX0 þ CltpCt   ClptCp   ClCp
+
+¼ ClptCp   CltpCt;
+
+ðAÞ
+
+ðBÞ
+
+ðCÞ
+
+X0 (mmol/L) is the amount of GDC-0973 in the oral
+ 1) is the absorption
+compartment, t (day) is time, ka (day
+rate constant, Cp (mmol/L) is the plasma GDC-0973 con-
+centration, Ct (mmol/L) is the tumor GDC-0973 concen-
+tration, Cl (L/d/kg) is the plasma clearance, Clpt (L/d/kg) is
+the intercompartmental clearance from the plasma to the
+tumor compartment, and Cltp (L/d/kg) is the intercompart-
+mental clearance from tumor to plasma compartment.
+
+Oral
+X0
+
+ka
+
+Plasma
+
+Cp
+
+Cl
+
+A.  PK model
+
+Clpt
+
+Cltp
+
+Tumor
+
+Ct
+
+B.  PK–PD model
+
+I
+max
+h
+IC50
+
+h
+
+h
+
+× Ct
++ Ct
+
+= % pERKdecrease
+
+k
+
+ng
+
+K
+
+Tumor
+
+TV
+
+C.  Integrated
+PK–PD-efficacy
+model
+
+Figure 1. Models used in the
+analyses conducted in this article.
+A, the PK model describing tumor
+disposition of GDC-0973. B, the
+PK–PD model linking %pERK
+decrease in tumor to GDC-0973
+tumor concentrations. C, an
+integrated PK–PD-efﬁcacy model
+where the antitumor efﬁcacy is
+driven by %pERK decrease in
+tumor.
+
+3092
+
+Clin Cancer Res; 18(11) June 1, 2012
+
+Clinical Cancer Research
+
+Downloaded from 
+
+clincancerres.aacrjournals.org 
+
+on July 1, 2013. © 2012 American Association for Cancer Research. 
+
+Published OnlineFirst April 10, 2012; DOI: 10.1158/1078-0432.CCR-12-0445 
+
+The PD effect (%pERK decrease) was related to GDC-
+0973 tumor concentrations using the following equation:
+
+ðDÞ
+
+%pERKdecrease
+
+¼ Imax  Ch
+ Ch
+
+h
+IC
+50
+
+t
+
+t
+
+Where %pERKdecrease (%) is the percentage decrease of
+pERK, Imax (%) is the maximum percentage decrease of
+pERK, h is the Hill coefﬁcient, and IC50 (mmol/L) is the
+tumor concentration at which the %pERKdecrease is half of
+Imax. Parameter estimates from the PK model described
+by Equations (A) to (C) were ﬁxed before estimating
+the PD parameters shown in Equation (D). The PK–PD
+model [Equations (A)–(D) and Fig. 1B] was ﬁt to %pERK
+decrease data from single and multiple dose studies sepa-
+rately as there were apparent changes in the tumor %pERK
+response to GDC-0973 following multiple days of dosing.
+PK and PD parameters estimates are presented as the
+estimate followed by the %SE in parentheses. Finally, the
+rationale for using the PK–PD model described by Equa-
+tions (A) to (D) and Fig. 1B stemmed from observations
+from preliminary studies that the duration of tumor %pERK
+decrease was substantially longer than the presence of
+GDC-0973 in plasma and was consistent with the longer
+residence time of GDC-0973 in tumors.
+
+Human simulations. Patients in the phase I clinical trial
+were given daily oral doses of GDC-0973 continuously for
+21 days over a 28-day cycle (16). Mean GDC-0973 concen-
+tration–time data were obtained from 3 patients from
+cohort 1 who were given 0.05 mg/kg daily oral doses of
+GDC-0973 (16). In these 3 patients, plasma samples for PK
+evaluation were collected on days 1 and 21 at predose, 0.5,
+1, 2, 4, 8, 24, 48 (day 21 only), and 192 (day 21 only) hours
+postdose. The WM-266-4 PK model accounting for tumor
+disposition described by Equations (A) to (C) and Fig. 1A
+was ﬁt to mean human GDC-0973 concentration–time data
+to estimate Cl, ka, and V/F (apparent volume of distribution
+in L/kg). Tumor disposition was assumed to be similar
+between humans and WM-266-4 xenografts, thus Cltp and
+Clpt were ﬁxed during the PK model ﬁtting process. Human
+PK parameters are presented as the estimate followed by the
+%SE in parentheses. Human PK parameter estimates along
+with PD parameters (Imax, IC50, and h) from the single and
+multiple dose WM-266-4 xenografts studies were used in
+the PK–PD model (Fig. 1B) to conduct human simulations
+to provide a range of response.
+
+Integrated PK–PD-efﬁcacy modeling. To relate pathway
+modulation (expressed as tumor %pERK decrease) to anti-
+tumor effect, an integrated population-based PK-PD-efﬁca-
+cy model (Fig. 1C) was used to ﬁt individual longitudinal
+tumor data from A375 melanoma xenograft efﬁcacy studies.
+The following equations describe the model used.
+
+dðTVÞ
+dt
+
+¼ kngðTVÞ   KðTVÞ
+
+ðEÞ
+
+Þn
+where K ¼ Kmax  ð%pERKdecrease
+þ ð%pERKdecrease
+Þn
+
+Kð%IÞn
+
+50
+
+PK–PD Analysis of a MEK Inhibitor
+
+ 1) is the
+TV (mm3) is deﬁned as the tumor volume, kng (day
+ 1) is the rate constant
+net growth rate constant, K (day
+ 1)
+describing the antitumor effect of GDC-0973, Kmax (day
+is the apparent maximum value of K, K(%I)50 is deﬁned as
+the %pERK decrease where K is 50% of Kmax, and n is the
+Hill coefﬁcient.
+
+Brieﬂy, %pERK decrease in tumor was simulated for all
+dose levels and schedules of the A375 xenograft efﬁcacy
+study during ﬁtting process using the WM-266-4 xeno-
+graft PK–PD model and estimated PD parameters from
+the in vivo target modulation studies with A375 xenografts
+(see Fig. 4A). The S-ADAPT program, an augmented
+version of ADAPT II with population analysis capabilities
+(17, 18), was used to ﬁt individual tumor volumes from
+all dose levels of the A375 xenograft efﬁcacy study simul-
+taneously. Intersubject variability was assumed to be log-
+normally distributed and ﬁtted using an exponential
+variance model. Residual variability error was modeled
+using a proportional-additive error model. In cases where
+intersubject variance was small and could not be estimat-
+ed reliably, the intersubject variance was ﬁxed to 0.00001.
+Population PD parameter estimates are presented as the
+estimate followed by the %SE in parentheses.
+
+Results
+Studies in WM-266-4 xenografts
+
+PK–PD model adequately characterizes GDC-0973 tumor
+accumulation and tumor PD response in WM-266-4 xenograft
+mice. The objective of this study was to characterize the
+concentration of GDC-0973 in plasma and tumor tissue,
+the PD response in tumor tissue, and the associated
+PK–PD relationships over time. WM-266-4 melanoma
+cells are PTEN-deﬁcient and harbor a V600D B-RAF muta-
+tion conferring activation of the RAF/MEK/ERK pathway
+that is functionally similar to the V600E B-RAF mutation
+(5). WM-266-4 xenografts were chosen for this study
+because they are moderately responsive to MEK inhibition
+allowing for enough tumor tissue to remain after 14 days
+of dosing to evaluate both GDC-0973 concentrations and
+PD response in tumor. Little or no tumor tissue remains
+following 14 days of dosing in xenograft mice bearing
+more sensitive melanoma tumors such as A375. The
+plasma and tumor concentration–time proﬁles and tumor
+%pERK decrease for the WM-266-4 xenografts given a
+single or multiple daily oral doses of 1, 3, and 10 mg/kg
+of GDC-0973 are presented in Fig. 2A and B, respectively.
+Following single oral doses, GDC-0973 concentrations
+and PD response is dose-dependent (Fig. 2A; Supplemen-
+tary Fig. S2). GDC-0973 concentrations in tumor tissue
+are both higher and more sustained than in plasma. PD
+response mirrored tumor concentrations with %pERK
+decrease in tumor observed well beyond the time frame
+that GDC-0973 was observed in plasma. Overall, a similar
+situation was observed following 14 days of daily GDC-
+0973 dosing. However, despite higher GDC-0973 concen-
+trations in plasma and tumor due to drug accumulation
+than in the single dose study, the magnitude of tumor
+%pERK decrease was less at later time points (Fig. 2B).
+
+www.aacrjournals.org
+
+Clin Cancer Res; 18(11) June 1, 2012
+
+3093
+
+Downloaded from 
+
+clincancerres.aacrjournals.org 
+
+on July 1, 2013. © 2012 American Association for Cancer Research. 
+
+Published OnlineFirst April 10, 2012; DOI: 10.1158/1078-0432.CCR-12-0445 
+
+Wong et al.
+
+A
+
+B
+
+10,000
+1,000
+100
+10
+0
+0.1
+0.01
+0.001
+
+)
+L
+
+/
+l
+
+o
+m
+µ
+(
+ 
+
+3
+7
+9
+0
+-
+C
+D
+G
+
+100
+
+10
+
+1
+
+0.1
+
+ 
+
+ 
+
+%
+p
+E
+R
+K
+d
+e
+c
+r
+e
+a
+s
+e
+
+10
+
+32
+
+4
+
+5
+Time (d)
+
+0.01
+
+76
+
+8
+
+Plasma 1 mpk
+Plasma 3 mpk
+Plasma 10 mpk
+Tumor 1 mpk
+Tumor 3 mpk
+Tumor 10 mpk
+%pERK 1 mpk
+%pERK 3 mpk
+%pERK 10 mpk
+
+o
+m
+µ
+(
+ 
+
+/
+l
+
+)
+L
+
+10,000
+1,000
+100
+10
+0
+0.1
+0.01
+0.001G
+
+3
+7
+9
+0
+-
+C
+D
+
+10
+
+32
+
+4
+
+5
+Time (d)
+
+76
+
+8
+
+100
+
+10
+
+1
+
+0.1
+
+ 
+
+ 
+
+%
+p
+E
+R
+K
+d
+e
+c
+r
+e
+a
+s
+e
+
+0.01
+
+C
+
+L
+
+/
+l
+
+o
+m
+µ
+d
+e
+
+ 
+
+i
+
+t
+c
+d
+e
+r
+P
+
+E
+
+0.6
+
+0.4
+
+0.2
+
+0
+
+0
+
+3
+7
+9
+0
+-
+C
+D
+G
+a
+m
+s
+a
+p
+
+ 
+
+l
+
+y = 0.94x
+r 2 = 0.91
+
+0.2
+
+0.4
+
+Observed µmol/L
+plasma GDC-0973
+
+D
+
+L
+
+/
+l
+
+o
+m
+µ
+d
+e
+
+ 
+
+0.6
+
+i
+
+t
+c
+d
+e
+r
+P
+
+F
+
+e
+s
+a
+e
+r
+c
+e
+d
+ 
+K
+R
+E
+p
+ 
+%
+
+100
+80
+60
+40
+20
+0
+
+IC50 = 0.78 µmol/L
+
+1 mpk
+3 mpk
+10 mpk
+
+15
+
+10
+
+5
+
+0
+
+3
+7
+9
+0
+-
+C
+D
+G
+
+ 
+r
+o
+m
+u
+
+t
+
+0
+
+e
+s
+a
+e
+r
+c
+e
+d
+ 
+K
+R
+E
+p
+ 
+%
+
+100
+80
+60
+40
+20
+0
+
+y = 0.95x
+r 2 = 0.97
+
+5
+
+10
+
+Observed µmol/L
+tumor GDC-0973
+
+IC50 = 3.89 µmol/L
+
+1 mpk
+3 mpk
+10 mpk
+
+Plasma 1 mpk
+Plasma 3 mpk
+Plasma 10 mpk
+Tumor 1 mpk
+Tumor 3 mpk
+Tumor 10 mpk
+%pERK 1 mpk
+%pERK 3 mpk
+%pERK 10 mpk
+
+15
+
+Figure 2. GDC-0973 plasma and
+tumor concentration and tumor
+%pERK decrease proﬁles in WM-
+266-4 xenografts following oral
+administration of a single (A) or
+multiple (B) oral doses of GDC-
+0973 at 1, 3, and 10 mg/kg (mpk).
+For A, the time on the x-axis refers
+to time after the ﬁrst dose and for B,
+the time on the x-axis refers to the
+time after the last (14th) dose. Each
+point in A and B represents the
+mean of 3 animals. Plots of the
+observed versus predicted GDC-
+0973 plasma (C) and tumor (D)
+concentrations following ﬁtting of
+WM-266-4 xenograft data to the
+PK model presented in Fig. 1A. In C
+and D, the dashed line is the line of
+identity and the solid line is a
+regression line. Plots of the
+relationship between GDC-0973
+tumor concentration and tumor
+%pERK decrease from single (E) or
+multiple dose (F) studies of GDC-
+0973 in WM-266-4 xenograft mice.
+In E and F, the solid line is predicted
+tumor %pERK decrease from the
+PK–PD model shown in Fig. 1B.
+
+2
+
+0
+10
+Tumor GDC-0973 (µmol/L)
+
+4
+
+6
+
+8
+
+0 2 4 6 8 10 12 14 16
+Tumor GDC-0973 (µmol/L)
+
+Figure 2C and D shows plots of observed versus predicted
+plasma and tumor GDC-0973 concentrations, respectively,
+following simultaneous ﬁtting of the PK model (Fig. 1A) to
+single and multiple dose PK data from WM-266-4 xeno-
+grafts. Estimated PK parameters are presented in Table 1.
+
+Table 1. Summary of PK and PD parameters
+estimated from WM-266-4 xenograft studies
+
+PK parameter
+
+Estimate (%SE)a
+
+ 1
+
+ka, h
+Cl, L/h/kg
+Clpt, L/h/kg
+Cltp, L/h/kg
+V/F, L/kg
+
+PD parameter
+for %pERK
+decrease
+
+IC50, mmol/L
+Imax (%)
+h
+
+1.08 (5.6)
+3.13 (2.1)
+1.74 (4.5)
+0.040 (5.8)
+40.5 (1.5)
+
+Single dose
+estimate
+(%SE)a
+
+0.78 (26.4)
+97 (10.4)
+1 (ﬁxed)
+
+Multiple dose
+estimate
+(%SE)a
+
+3.89 (7.7)
+100 (ﬁxed)
+1.85 (13.8)
+
+aFitted parameters are expressed as estimate followed by
+the %SE in parentheses.
+
+The higher and sustained tumor concentrations observed
+in WM-266-4 xenografts was reﬂected in the estimate of
+intercompartmental clearance from the plasma to tumor
+compartment (Clpt) being approximately 40-fold higher
+than the intercompartmental clearance from the tumor to
+plasma compartment (Cltp). PD parameters describing
+pERK reduction were also estimated separately for single
+and multiple dose experiments using the PK–PD model
+(Fig. 1B). Plots showing observed and model-predicted
+%pERK decrease in tumor are presented in Fig. 2E and F
+for single and multiple dose studies, respectively. No
+evidence of hysteresis indicative of time delays in onset
+of PD response was observed in these plots. Associated
+PD parameter estimates for single and multiple dose
+studies are presented in Table 1. On the basis of the PD
+parameters presented in Table 1, there appeared to be a
+in the in vivo potency of GDC-0973 following
+shift
+multiple days of dosing with the %pERK decrease IC50
+estimate increasing from 0.78 to 3.89 mmol/L. PK and PD
+parameters were estimated with good precision with %SE
+for all parameters shown in Table 1 being less than 30%.
+Overall, the proposed PK–PD model adequately charac-
+terized the plasma and tumor concentrations and tumor
+pERK inhibition in WM-266-4 xenografts.
+
+Human simulations identify minimum GDC-0973 target
+plasma concentrations and predict tumor PD response and
+active doses. One of the primary objectives of the WM-
+266-4 xenograft studies was to characterize the relationship
+
+3094
+
+Clin Cancer Res; 18(11) June 1, 2012
+
+Clinical Cancer Research
+
+Downloaded from 
+
+clincancerres.aacrjournals.org 
+
+on July 1, 2013. © 2012 American Association for Cancer Research. 
+
+Published OnlineFirst April 10, 2012; DOI: 10.1158/1078-0432.CCR-12-0445 
+
+between plasma concentrations and tumor PD modu-
+lation to identify a minimum target plasma concentration
+required in patients. Early reports of the phase I trial for
+the MEK inhibitor PD-0325901 suggested a trend toward
+progression-free survival at %pERK decreases of more than
+60% (19). In addition, signs of activity were observed in
+the phase I clinical trial for CI-1040, a ﬁrst-generation
+MEK1/2 inhibitor, at doses associated with a median tumor
+%pERK decrease of 73% (20). On the basis of these data, we
+set 80% pERK decrease at steady state as our target for
+tumor PD modulation.
+
+The PK model used to characterize tumor disposition in
+WM-266-4 xenograft mice (Fig. 1A) was ﬁt to mean GDC-
+0973 plasma concentration–time data from the ﬁrst cohort
+of patients on the GDC-0973 phase I clinical trial (16). An
+assumption was made that tumor disposition is similar in
+humans and xenograft-bearing mice; therefore, Cltp and
+Clpt were ﬁxed to estimates from WM-266-4 xenograft
+mice during the ﬁtting process. The estimated human PK
+parameters are presented in Supplementary Table S1, and
+the plot of observed versus predicted GDC-0973 plasma
+concentrations following the model ﬁtting is shown in
+Supplementary Fig. S3. Simulations were conducted using
+the human PK and PD parameters from the WM-266-4
+single dose study. The PD parameters from the single dose
+WM-266-4 study were chosen for this simulation because
+we wanted to identify the minimum target plasma concen-
+tration, and the in vivo IC50 following multiple doses of
+GDC-0973 was approximately 5-fold higher (see Table 1).
+In addition, the in vivo IC50 estimate from the single dose
+WM-266-4 study was comparable with the in vivo IC50
+estimate from V600E B-RAF mutant A375 melanoma xeno-
+graft mice (see below). On the basis of the human simu-
+lation shown in Fig. 3A, the minimum GDC-0973 plasma
+
+PK–PD Analysis of a MEK Inhibitor
+
+concentration at trough (24 hours postdose) required
+for 80% tumor pERK decrease at steady state is 83
+nmol/L. No adjustments were made to account for potential
+differences in free drug concentrations because there is
+no evidence of GDC-0973 protein–binding differences in
+mouse and human plasma (both 95% bound, data not
+shown).
+To assess the cohort at which the target of 80% tumor
+pERK decrease could be achieved, we conducted prospective
+human simulations of the phase I clinical trial. Figure 3B
+and C shows prospective human trial simulations mimick-
+ing the planned doses in the phase I clinical trial. Because we
+would not know the B-RAF mutation status in patients
+during the dose-escalation portion of the phase I clinical
+trial, we conducted these prospective human simulations
+using PD parameters from both the single and multiple dose
+GDC-0973 studies in WM-266-4 xenograft mice to provide
+a range of doses where we might see antitumor activity.
+On the basis of our simulations, the goal of reducing
+pERK by 80% could be achieved at a daily oral dose of
+28 (0.4 mg/kg; shown in Fig. 3B) to 112 mg (1.6 mg/kg;
+shown in Fig. 3C) of GDC-0973 in cohorts 4 to 6 of the
+clinical trial.
+
+During the course of the phase I clinical trial, tumor
+biopsies were collected for biomarker assessments. To test
+the performance of our PK–PD model, we conducted a
+retrospective simulation to compare the modeled decrease
+in tumor pERK with the observed immunohistochemistry-
+assessed decrease in one patient from the 0.2-mg/kg dose
+cohort for whom we had evaluable pre- and postdosing
+matched tumor biopsies. Two tumor biopsies were collect-
+ed from this patient at 4 hours postdose on day 20 of dosing.
+Human simulations at the same dose (0.2 mg/kg) using PD
+parameters from both single and multiple dose WM-266-4
+
+Figure 3. Human simulation of
+GDC-0973 plasma and tumor
+concentrations and tumor %pERK
+decrease at a dose (0.33 mg/kg)
+where tumor %pERK decrease is
+80% at steady state (A). B and C,
+human simulations of tumor %pERK
+decrease for escalating daily doses
+of GDC-0973 using single (B) or
+multiple dose (C) PD parameters
+from WM-266-4 xenograft studies.
+The horizontal black dashed line in A
+to C serves as a reference line for
+80% pERK decrease in tumor.
+
+A
+
+)
+L
+
+/
+l
+
+o
+m
+µ
+(
+ 
+
+3
+7
+9
+0
+-
+C
+D
+G
+
+100
+
+10
+
+1
+
+0.1
+
+0.01
+
+0.001
+
+0
+
+10
+
+20
+Time (d)
+
+30
+
+C
+
+100
+
+80
+
+60
+
+40
+
+20
+
+0
+
+ 
+
+ 
+
+%
+p
+E
+R
+K
+d
+e
+c
+r
+e
+a
+s
+e
+
+Plasma
+Tumor
+%pERK
+
+B
+
+100
+
+e
+s
+a
+e
+r
+c
+e
+d
+ 
+K
+R
+E
+p
+ 
+%
+
+0.05 mpk
+0.10 mpk
+0.20 mpk
+0.4 mpk
+0.8 mpk
+1.6 mpk
+
+80
+
+60
+
+40
+
+20
+
+0
+
+0
+
+10
+
+20
+
+30
+
+Time (d)
+
+100
+
+e
+s
+a
+e
+r
+c
+e
+d
+ 
+K
+R
+E
+p
+ 
+%
+
+0.05 mpk
+0.10 mpk
+0.20 mpk
+0.4 mpk
+0.8 mpk
+1.6 mpk
+
+80
+
+60
+
+40
+
+20
+
+0
+
+0
+
+10
+
+20
+
+30
+
+Time (d)
+
+www.aacrjournals.org
+
+Clin Cancer Res; 18(11) June 1, 2012
+
+3095
+
+Downloaded from 
+
+clincancerres.aacrjournals.org 
+
+on July 1, 2013. © 2012 American Association for Cancer Research. 
+
+Published OnlineFirst April 10, 2012; DOI: 10.1158/1078-0432.CCR-12-0445 
+
+Wong et al.
+
+studies resulted in a mean tumor pERK decrease of 51%
+(29% using multiple dose PD parameters and 73% using
+single dose PD parameters) comparable with the observed
+mean decrease of 41% (29% and 52% in independent
+metastatic lesions; Genentech, unpublished data).
+
+Studies in A375 xenografts
+
+Relationship between tumor %pERK decrease and GDC-
+0973 tumor concentrations in A375 xenograft mice. To
+understand the relationship between GDC-0973 concen-
+tration and PD response in an additional B-RAF mutant
+xenograft tumor, Equation (D) was ﬁt to GDC-0973 tumor
+concentration and tumor pERK data from A375 xenograft–
+bearing mice. A375 melanoma cells harbor the B-RAF
+
+V600E mutation conferring activation of the RAF/MEK/ERK
+pathway (5, 21). This V600E mutant melanoma cell line
+is relevant for understanding the effect of MEK inhibition
+on human patients with melanoma with this common
+B-RAF mutation. The in vivo IC50 estimated in A375 xeno-
+graft mice (0.52 mmol/L; see Fig. 4A) was comparable with
+the in vivo IC50 estimated from the single dose WM-266-4
+xenograft study (i.e., 0.78 mmol/L; see Table 1 and Fig. 2E).
+GDC-0973 shows dose-dependent antitumor efﬁcacy in
+A375 xenograft mice. The objective of the A375 xenograft
+efﬁcacy study was to characterize the antitumor activity of
+GDC-0973 in xenograft mice bearing melanoma tumors
+with the V600E B-RAF mutation. GDC-0973 showed dose-
+dependent inhibition of tumor growth following oral
+
+e
+s
+a
+e
+r
+c
+e
+d
+K
+R
+E
+p
+%
+
+ 
+
+ 
+
+100
+
+75
+
+50
+
+25
+
+0
+
+n
+o
+
+i
+t
+
+a
+r
+t
+n
+e
+c
+n
+o
+C
+
+A
+
+C
+
+D
+
+2,500
+
+2,000
+
+1,500
+
+1,000
+
+500
+
+0
+
+)
+3
+
+m
+m
+
+(
+ 
+
+V
+T
+d
+e
+
+ 
+
+i
+
+t
+c
+d
+e
+r
+p
+
+ 
+l
+a
+u
+d
+v
+d
+n
+
+i
+
+i
+
+I
+
+I
+max = 112%
+IC50 = 0.52 µmol/L
+
+1
+
+4
+0
+Tumor GDC-0973 (µmol/L)
+
+3
+
+2
+
+e
+s
+a
+e
+r
+c
+e
+d
+K
+R
+E
+p
+%
+
+ 
+
+ 
+
+Plasma
+Tumor
+
+Time
+
+y = 0.96x
+r 2 = 0.95
+
+0
+
+500 1,000 1,500 2,000 2,500
+
+Individual observed TV (mm3)
+
+B
+
+1,200
+
+1,000
+
+)
+3
+
+m
+m
+
+(
+ 
+
+l
+
+e
+m
+u
+o
+v
+ 
+r
+o
+m
+u
+T
+
+800
+
+600
+
+400
+
+200
+
+0
+
+Vehicle
+0.3 mpk QD
+1 mpk QD
+3 mpk QD
+10 mpk QD
+30 mpk Q2D
+30 mpk Q3D
+
+0 2 4 6 8 10 12 14 16
+
+Time (d)
+
+l
+
+e
+m
+u
+o
+v
+ 
+r
+o
+m
+u
+T
+
+Tumor concentration
+E
+
+Time
+
+)
+1
+–
+d
+(
+ 
+
+K
+
+0.20
+
+0.15
+
+0.10
+
+0.05
+
+0.00
+
+0
+
+40
+
+20
+80
+% pERK decrease
+
+60
+
+100
+
+Figure 4. A plot of the relationship between GDC-0973 tumor concentration and tumor %pERK decrease following oral administration of a single dose of
+GDC-0973 to A375 xenografts (A). The solid line in A is the model predicted %pERK decrease, and model estimates of Imax and IC50 are presented. In vivo
+efﬁcacy of GDC-0973 in A375 xenografts is presented in B. In B, QD represents once daily, Q2D represents once every 2 days, and Q3D represents once every
+3 days. C, the integrated PK–PD-efﬁcacy analysis used to relate pathway modulation to antitumor efﬁcacy. The analysis involves ﬁrst linking plasma to tumor
+concentrations and then tumor concentrations to tumor %pERK decrease in A375 xenograft mice using the model described in Fig. 1B such that tumor
+%pERK decrease can be simulated for all dosing regimens in the xenograft efﬁcacy study. The ﬁnal step of the analysis involves understanding the
+relationship between tumor %pERK decrease and antitumor efﬁcacy using the full integrated PK–PD-efﬁcacy model shown in Fig. 1C where tumor %pERK
+decrease drives antitumor effect. D, a plot of individual observed versus individual predicted tumor volumes from the A375 xenograft efﬁcacy study following
+ﬁtting the integrated PK–PD-efﬁcacy model to tumor volume data. E, a plot showing the relationship between % pERK decrease in tumor and rate
+constant (K) describing the antitumor effect of GDC-0973 in A375 xenograft mice. Parameters used to simulate (E) are as follows: Kmax¼ 0.201 day
+ 1, K (%I)50
+¼ 50.2% pERK decrease, and n ¼ 11.5.
+
+3096
+
+Clin Cancer Res; 18(11) June 1, 2012
+
+Clinical Cancer Research
+
+Downloaded from 
+
+clincancerres.aacrjournals.org 
+
+on July 1, 2013. © 2012 American Association for Cancer Research. 
+
+Published OnlineFirst April 10, 2012; DOI: 10.1158/1078-0432.CCR-12-0445 
+
+administration over a broad dose range (0.3–30 mg/kg) and
+using varying schedules (once daily, every 2 days, and every
+3 days; see Fig. 4B). All 3 schedules provided signiﬁcant
+antitumor activity in this model, consistent with published
+reports for GDC-0973 (15).
+
+Integrated PK–PD-efﬁcacy analysis in A375 xenografts.
+
+An integrated PK–PD-efﬁcacy analysis was conducted on the
+A375 xenograft efﬁcacy study to understand the relation-
+ship between modulation of the RAF/MEK/ERK signaling
+pathway and antitumor efﬁcacy in a B-RAF V600E melano-
+ma tumor model. All 70 xenograft mice (10 per dose group)
+were included in the analysis. The process is described in Fig.
+4C and uses the integrated PK–PD-efﬁcacy model shown
+in Fig. 1C. In brief, a PK–PD model (Fig. 1B) built using the
+PK parameters from WM-266-4 xenografts (Table 1) and PD
+parameters from A375 xenografts (Fig. 4A) was used to
+simulate tumor %pERK decreases for all dosing regimens
+in the A375 xenograft efﬁcacy study. Individual longitudinal
+tumor volume data from all A375 xenograft–bearing mice
+were ﬁt simultaneously to an integrated PK–PD-efﬁcacy
+model (Fig. 1C) which involved the addition of an indirect
+response model [Equation (E)], where tumor growth inhi-
+bition is driven by tumor %pERK decrease, to the PK–PD
+model described. Figure 4D is a plot of the individual
+observed versus individual predicted tumor volumes of the
+resulting population model ﬁt, suggesting that the model
+adequately captured the growth characteristics of the tumor
+data from the efﬁcacy study. Estimated PD parameters
+from this integrated PK–PD-efﬁcacy analysis are presented
+in Table 2. PD parameters along with the inter- and intrain-
+dividual variability were estimated with acceptable preci-
+sion with %SE of all estimates being 38%. The maximum
+antitumor effect (Kmax) was approximately 2-fold larger
+than the estimated net growth rate constant (kng) consistent
+
+Table 2. A375 melanoma xenograft PD
+parameter estimates from integrated population
+PK–PD-efﬁcacy model
+
+Population
+
+Interindividual
+
+mean
+(%SE)
+
+0.0828 (10.7)
+0.201 (0.4)
+50.2 (0.7)
+
+variance
+(%SE)
+
+0.426 (26.9)
+
+Fixed
+Fixed
+
+11.5 (0.4)
+117 (3.1)
+
+Fixed
+
+0.024 (37.6)
+
+0.113 (19.3)
+
+15.2 (14.8)
+
+—
+
+—
+
+Parameter
+ 1
+kng, d
+ 1
+Kmax, d
+K (%I)50
+
+(%pERK
+decrease)
+
+n
+Initial tumor
+
+volume, mm3
+
+Residual variability
+
+Proportional
+
+error sprop (%)
+
+Additive error
+sadd (mm3)
+
+PK–PD Analysis of a MEK Inhibitor
+
+with regression of A375 xenograft tumors in response to
+GDC-0973 treatment.
+
+Using the estimated PD parameters, a plot of the rela-
+tionship between RAF/MEK/ERK pathway knockdown (i.e.,
+%pERK decrease) and efﬁcacy (i.e., K is the rate constant
+describing the antitumor effect of GDC-0973) was gener-
+ated and is shown in Fig. 4E. The steep relationship between
+pathway inhibition and efﬁcacy is characterized by a Hill
+slope (n) of approximately 11 (Fig. 4E, Table 2) and suggests
+that there is a pathway suppression threshold beyond which
+antitumor activity "switches on." In addition, the plot
+shown in Fig. 4E suggests that for maximal antitumor
+activity, more than 60% to 70% %pERK decrease is required
+in A375 xenografts.
+
+Discussion
+
+GDC-0973 is a potent and selective MEK1 inhibitor that is
+currently in phase I clinical trials as a potential antitumor
+agent. The current study shows that GDC-0973 causes
+potent inhibition of pERK in 2 preclinical models of B-RAF
+mutant melanoma, WM-266-4 and A375 xenograft mice.
+A375 xenografts bear melanoma tumors that harbor a
+V600E B-RAF mutation that is sensitive to MEK inhibition
+and represents a common mutation in human patients with
+melanoma (5, 21). In contrast, WM-266-4 (V600D B-RAF
+mutation and PTEN-deﬁcient) xenografts are only moder-
+ately responsive to MEK inhibition but allow for sufﬁcient
+tumor tissue after multiple days of GDC-0973 dosing
+required to characterize GDC-0973 tumor disposition. Our
+studies with WM-266-4 xenografts show that GDC-0973 is
+not only present at higher concentrations in tumor relative
+to plasma but also resides in the tumor for a longer dura-
+tion. In vivo IC50 values based on GDC-0973 concentrations
+in tumor tissue (A375 and WM-266-4 xenografts) ranged
+from 0.52 to 3.89 mmol/L, and the PD response was shown
+to be directly correlated with tumor concentrations in both
+xenograft models examined. These data are consistent with
+our observations from preliminary studies in other xeno-
+graft mice (data not shown).
+
+Mechanistic PK–PD modeling serves as an important tool
+to bridge the gap between preclinical and clinical data (22–
+24). Our studies used WM-266-4 xenograft–bearing mice as
+an experimental system to characterize the GDC-0973 con-
+centration in tumor tissue over time. The incorporation of
+human PK into the PK–PD model built using WM-266-4
+xenograft mice studies allows for normalization of known
+species differences in PK (25). We chose a sustained pERK
+reduction target of 80% at steady state as the PD endpoint
+for these simulations based on early published reports on
+MEK inhibitors in the clinic (19, 20). Our simulations using
+this "human PK–PD model" identiﬁed a minimum plasma
+concentration of 83 nmol/L where we anticipated that
+80% pERK decrease would be maintained at steady state
+in tumor tissues. Prospective simulations of a human dose
+escalation mimicking the phase I trial design predicted that
+doses of 28 to 112 mg once daily would be sufﬁcient to meet
+this target. Antitumor activity in patients with melanoma
+
+www.aacrjournals.org
+
+Clin Cancer Res; 18(11) June 1, 2012
+
+3097
+
+Downloaded from 
+
+clincancerres.aacrjournals.org 
+
+on July 1, 2013. © 2012 American Association for Cancer Research. 
+
+Published OnlineFirst April 10, 2012; DOI: 10.1158/1078-0432.CCR-12-0445 
+
+Wong et al.
+
+with B-RAF mutations has now been reported at daily doses
+of 60 and 100 mg in the clinic (16), consistent with pre-
+dictions based on the described PK–PD model.
+
+One interesting observation was that the tumor GDC-
+0973 concentration required to reduce pERK in WM-266-4
+tumor tissue increased during the 2-week dosing period.
+The reasons for this shift in sensitivity over time are not
+known but could be explained by subpopulations of less
+sensitive tumor cells escaping MEK inhibition or the emer-
+gence of resistant cells in response to continuous MEK
+inhibition. Both mechanisms of resistance have been
+reported for B-RAF and MEK inhibitors (26–28)
+
+As a ﬁnal part of our analysis, we wanted to quantify
+the relationship between RAF/MEK/ERK pathway modula-
+tion (%pERK decrease) and tumor growth inhibition
+through the use of an integrated PK–PD-efﬁcacy model
+(Fig. 1C). A "pathway modulation–response curve" show-
+ing the relationship between %pERK decrease and K (a
+measure of antitumor effect of GDC-0973) was sigmoidal
+and described by a Hill coefﬁcient of approximately 11
+(Fig. 4E). This steep relationship between pathway modu-
+lation and antitumor effect is suggestive of a threshold of
+pERK inhibition beyond which antitumor activity "turns
+on." The observed "switch-like" behavior is consistent with
+reports of ultrasensitive stimulus–response curves observed
+for MAPK cascades (29). "Switch-like" behavior has also
+been recently reported in similar analyses conducted with
+other kinase inhibitors such as GDC-0879, a B-RAF kinase
+inhibitor (30), and GDC-0834, a Bruton’s tyrosine kinase
+inhibitor (31), and the hedgehog signaling pathway inhib-
+itor, vismodegib (32).
+
+Robust clinical activity has been reported for vemurafenib
+(PLX4032) in patients with B-RAF mutant melanoma
+(12, 33). Interestingly, no clinical responses were reported
+in patients with melanoma with cytoplasmic reductions of
+pERK in tumor of less than approximately 60%, whereas
+pERK reductions were typically more than 80% in patients
+who responded to vemurafenib (33). Similarly, phase I data
+for PD-0325901, an MEK inhibitor, showed signs of clinical
+activity in patients with B-RAF V600E melanoma at pERK
+decreases of 76% or greater (10). On the basis of human
+simulations presented in the manuscript,
+the %pERK
+decrease in tumor tissue is anticipated to be more than
+80% at clinical doses of 28 to 112 mg/d GDC-0973, con-
+sistent with the observed clinical activity in patients with B-
+RAF mutant melanoma at daily doses of 60 and 100 mg (16).
+Taken together, available clinical data suggest that a high
+degree of suppression of the RAF/MEK/ERK pathway, above
+a certain threshold, is required for robust antitumor activity.
+Preclinical PK–PD modeling of anticancer therapeutics is
+associated with certain assumptions and caveats. Xenograft
+
+References
+1. Sebolt-Leopold JS, Herrera R. Targeting the mitogen-activated protein
+
+kinase cascade to treat cancer. Nat Rev Cancer 2004;4:937–47.
+
+2. McCubrey JA, Steelman LS, Chappell WH, Abrams SL, Wong EW,
+Chang F, et al. Roles of the Raf/MEK/ERK pathway in cell growth,
+
+mouse models are the most common preclinical in vivo
+efﬁcacy models used to evaluate and select new anticancer
+therapies for clinical development (34, 35). An important
+assumption when translating xenograft data to humans is
+that drug concentrations required for PD modulation and
+antitumor activity are the same in xenograft-bearing mice
+and human patients with cancer. This assumes that drug
+distribution is similar, despite reported differences in tumor
+vasculature and transport
+in xenograft versus human
+tumors (36). Also, differences in growth rate of human and
+xenograft tumors complicate the interpretation of xenograft
+data. Finally, the selection of relevant tumor types that are
+reﬂective of the disease that is being targeted is challenging.
+Despite these challenges, the present GDC-0973 study
+illustrates how PK–PD modeling can be used to improve
+clinical translation of preclinical data to humans through
+integration of all available information. Through our PK–
+PD analysis using combined preclinical and limited early
+clinical data, we characterized the relationship between
+GDC-0973 plasma and tumor concentrations, tumor PD
+response and antitumor activity. Using this knowledge, we
+were able to successfully prospectively predict active doses
+of GDC-0973 in patients with V600E melanoma and rough-
+ly identify the number of dose escalations in the phase I
+clinical trial required to reach active doses.
+
+Disclosure of Potential Conﬂicts of Interest
+
+B.T. Aftab has ownership interest (including patents) in Exelixis. No
+
+potential conﬂicts of interest were disclosed by the other authors.
+
+Authors' Contributions
+Conception and design: H. Wong, L. Vernillet, A. Peterson, J.-F. Martini,
+E.F. Choo, R. Aoyama, J. Prescott
+Development of methodology: H. Wong, L. Vernillet, P. Yu, C. Li, Y. Shi,
+S. Lam
+Acquisition of data (provided animals, acquired and managed patients,
+provided facilities, etc.): L. Vernillet, J.A. Ware, L. Lee, J.-F. Martini, P. Yu, G.
+Del Rosario, K.P. Hoeﬂich, B.T. Aftab, R. Aoyama, S. Lam
+Analysis and interpretation of data (e.g., statistical analysis, biosta-
+tistics, computational analysis): H. Wong, L. Vernillet, A. Peterson, J.A.
+Ware, J.-F. Martini, P. Yu, K.P. Hoeﬂich, B.T. Aftab, R. Aoyama, S. Lam
+Writing, review, and/or revision of the manuscript: H. Wong, L. Vernil-
+let, A. Peterson, J.-F. Martini, P. Yu, E.F. Choo, K.P. Hoeﬂich, M. Belvin,
+J. Prescott
+Administrative, technical, or material support (i.e., reporting or orga-
+nizing data, constructing databases): P. Yu, G. Del Rosario, B.T. Aftab
+Study supervision: A. Peterson,
+R. Aoyama, J. Prescott
+
+J.-F. Martini, P. Yu, K.P. Hoeﬂich,
+
+Acknowledgments
+
+The authors thank colleagues at Exelixis and Genentech for their con-
+tributions in generating data for this study. The authors also thank Drs.
+Stephen E. Gould, Mark Merchant, O. Helen Chan, Lichuan Liu, and Cornelis
+Hop for their helpful comments and discussion.
+
+Received February 8, 2012; revised March 21, 2012; accepted March 30,
+
+2012; published OnlineFirst April 10, 2012.
+
+malignant transformation and drug resistance. Biochim Biophys Acta
+2007;1773:1263–84.
+Friday BB, Adjei AA. Advances in targeting the Ras/Raf/
+MEK/Erk mitogen-activated protein kinase cascade with MEK
+
+3.
+
+3098
+
+Clin Cancer Res; 18(11) June 1, 2012
+
+Clinical Cancer Research
+
+Downloaded from 
+
+clincancerres.aacrjournals.org 
+
+on July 1, 2013. © 2012 American Association for Cancer Research. 
+
+Published OnlineFirst April 10, 2012; DOI: 10.1158/1078-0432.CCR-12-0445 
+
+inhibitors for cancer
+342–6.
+
+therapy. Clin Cancer Res 2008;14:
+
+4. Chapman MS, Miner JN. Novel mitogen-activated protein kinase
+
+kinase inhibitors. Expert Opin Investig Drugs 2011;20:209–20
+
+5. Davies H, Bignell GR, Cox C, Stephens P, Edkins S, Clegg S, et al.
+Mutations of the BRAF gene in human cancer. Nature 2002;417:
+949–54.
+
+6. Yuen ST, Davies H, Chan TL, Ho JW, Bignell GR, Cox C, et al. Similarity
+of the phenotypic patterns associated with BRAF and KRAS mutations
+in colorectal neoplasia. Cancer Res 2002;62:6451–5
+Li N, Batt D, Warmuth M. B-Raf kinase inhibitors for cancer treatment.
+Curr Opin Investig Drugs 2007;8:452–6.
+
+7.
+
+8. Mercer KE, Pritchard CA. Raf proteins and cancer: B-Raf is identiﬁed
+
+as a mutational target. Biochim Biophys Acta 2003;1653:25–40.
+
+9. Solit DB, Garraway LA, Pratilas CA, Sawai A, Getz G, Basso A, et al.
+BRAF mutation predicts sensitivity to MEK inhibition. Nature 2006;439:
+358–62
+
+10. LoRusso PM, Krishnamurthi SS, Rinehart JJ, Nabell LM, Malburg L,
+Chapman PB, et al. Phase I pharmacokinetic and pharmacodynamic
+study of the oral MAPK/ERK kinase inhibitor PD-0325901 in patients
+with advanced cancers. Clin Cancer Res 2010;16:1924–37.
+
+11. Banerji U, Camidge DR, Verheul HM, Agarwal R, Sarker D, Kaye SB,
+et al. The ﬁrst-in-human study of the hydrogen sulfate (Hyd-sulfate)
+capsule of the MEK1/2 inhibitor AZD6244 (ARRY-142886): a phase I
+open-label multicenter trial
+in patients with advanced cancer. Clin
+Cancer Res 2010;16:1613–1623.
+
+12. Flaherty KT, Puzanov I, Kim KB, Ribas A, McArthur GA, Sosman JA,
+et al. Inhibition of mutated, activated BRAF in metastatic melanoma. N
+Engl J Med 2010;363:809–19
+
+13. Corcoran RB, Settleman J, Engelman JA. Potential therapeutic strat-
+egies to overcome acquired resistance to BRAF or MEK inhibitors in
+BRAF mutant cancers. Oncotarget 2011;2:336–46
+
+14. Poulikakos PI, Solit DB. Resistance to MEK inhibitors: should we target
+
+upstream? Sci Signal 2011;4:pe16.
+
+15. Hoeﬂich KP, Merchant M, Orr C, Chan J, Den Otter D, Berry L, et al.
+Intermittent administration of MEK inhibitor GDC-0973 plus PI3K
+inhibitor GDC-0941 triggers robust apoptosis and tumor growth inhi-
+bition. Cancer Res 2012;72:210–9.
+
+16. Rosen L, LoRusso P, Ma WW, Goldman J, Weise A, Colevas A, et al. A
+ﬁrst-in-human phase 1 study to evaluate the MEK1/2 inhibitor GDC-
+0973 administered daily in patients with advanced solid tumors
+[abstract]. In: Proceedings of the 102nd Annual Meeting of the Amer-
+ican Association for Cancer Research; 2011 Apr 2–6; Orlando, FL.
+Philadelphia (PA): AACR; 2011.Abstract nr 4716.
+
+17. Bauer RJ, Guzy S. Monte Carlo parametric expectation maximization
+(MC-PEM) method for analyzing population pharmacokinetic/pharma-
+codynamic (PK/PD) data. In:D'Argenio DZ, editor. Advanced methods
+of pharmacokinetic and pharmacodynamic system analysis. Boston,
+MA: Kluwer; 2004. p. 135–63.
+
+18. D'Argenio DZ, Schumitzky A. ADAPT II user's guide: pharmacokinetic/
+pharmacodynamic systems analysis software. Los Angeles, CA: Bio-
+medical Simulations Resource; 1997.
+
+19. Tan W, DePrimo SE, Krishnamurthi SS, Rinehart JJ, Nabell LM, Nick-
+ens D, et al. Pharmacokinetic (PK) and pharmacodynamic (PD) results
+of a phase I study of PD-0325901, a second generation oral MEK
+inhibitor, in patients with advanced cancer. Mol Cancer Ther 2007;
+6:3648s. Abstract nr B109.
+
+20. LoRusso PM, Adjei AA, Varterasian M, Gadgeel S, Reid J, Mitchell DY,
+et al. Phase I and pharmacodynamic study of the oral MEK inhibitor CI-
+
+PK–PD Analysis of a MEK Inhibitor
+
+1040 in patients with advanced malignancies. J Clin Oncol
+2005;23:5281–93.
+
+21. Wan PT, Garnett MJ, Roe SM, Lee S, Niculescu-Duvaz D, Good VM,
+et al. Mechanism of activation of the RAF-ERK signaling pathway by
+oncogenic mutations of B-RAF. Cell 2004;116:855–67.
+
+22. Mager DE, Wyska E, Jusko WJ. Diversity of mechanism-based phar-
+
+macodynamic models. Drug Metab Dispos 2003;31:510–8.
+
+23. Yamazaki S, Skaptason J, Romero D, Lee JH, Zou HY, Christensen JG,
+et al. Pharmacokinetic-pharmacodynamic modeling of biomarker
+response and tumor growth inhibition to an orally available cMet kinase
+inhibitor in human tumor xenograft mouse models. Drug Metab Dispos
+2008;36:1267–74
+
+24. Tanaka C, O'Reilly T, Kovarik JM, Shand N, Hazell K, Judson I, et al.
+Identifying optimal biologic doses of everolimus (RAD001) in pati-
+ents with cancer based on the modeling of preclinical and clinical
+pharmacokinetic and pharmacodynamic data. J Clin Oncol 2008;26:
+1596–602.
+
+25. Lin JH. Species similarities and differences in pharmacokinetics. Drug
+
+Metab Dispos 1995;23:1008–21
+
+26. Emery CM, Vijayendran KG, Zipser MC, Sawyer AM, Niu L, Kim JJ, et al.
+MEK1 mutations confer resistance to MEK and B-RAF inhibition. Proc
+Natl Acad Sci U S A 2009;106:20411–6.
+
+27. Corcoran RB, Dias-Santagata D, Bergethon K, Iafrate AJ, Settleman J,
+Engelman JA. BRAF gene ampliﬁcation can promote acquired resis-
+tance to MEK inhibitors in cancer cells harboring the BRAF V600E
+mutation. Sci Signal 2010;3:ra84.
+
+28. Paraiso KH, Fedorenko IV, Cantini LP, Munko AC, Hall M, Sondak
+VK, et al. Recovery of phospho-ERK activity allows melanoma
+cells to escape from BRAF inhibitor therapy. Br J Cancer 2010;
+102:1724–30.
+
+29. Huang CY, Ferrell JE Jr. Ultrasensitivity in the mitogen-activated
+protein kinase cascade. Proc Natl Acad Sci U S A 1996;93:10078–83.
+30. Wong H, Belvin M, Herter S, Hoeﬂich KP, Murray LJ, Wong L, et al.
+Pharmacodynamics of 2-{4-[(1E)-1-(hydroxyimino)-2,3-dihydro-1H-
+inden-5-yl]-3-(pyridine-4-yl)-1H-pyrazol-1-yl}ethan-1-ol (GDC-0879),
+a potent and selective B-Raf kinase inhibitor: relationships between
+systemic concentrations, pMEK1 inhibition, and efﬁcacy. J Pharmacol
+Exp Ther 2009;329:360–7.
+
+31. Liu L, Di Paolo J, Barbosa J, Rong H, Reif K, Wong H. Anti-arthritis
+effect of a novel Bruton's tyrosine kinase inhibitor in rat collagen-
+induced arthritis and mechanism-based pharmacokinetic/pharma-
+codynamic modeling:
+relationships between inhibition of BTK
+phosphorylation and efﬁcacy. J Pharmacol and Exp Ther 2011;338:
+154–63.
+
+32. Wong H, Alicke B, West K, Pacheco P, La H, Januario T, et al.
+Relationship between hedgehog pathway modulation and anti-tumor
+effect in preclinical models of mutational and ligand-driven tumors: a
+pharmacokinetic-pharmacodynamic analysis using vismodegib. Clin
+Canc Res 2011;17:4682–92.
+
+33. Bollag G, Hirth P, Tsai J, Zhang J, Ibrahim PN, Cho H, et al. Clinical
+efﬁcacy of a RAF inhibitor needs broad target blockade in BRAF-
+mutant melanoma. Nature 2010;467:596–9.
+
+34. Kelland LR. Of mice and men: values and liabilities of the athymic nude
+in anticancer drug development. Eur J Cancer
+
+mouse model
+2004;40:827–36.
+
+35. Teicher BA. Tumor models for efﬁcacy determination. Mol Cancer Ther
+
+2006;5:2435–43.
+
+36. Jang SH, Wientjes MG, Lu D, Au JL. Drug delivery and transport to solid
+
+tumors. Pharm Res 2003;20:1337–50.
+
+www.aacrjournals.org
+
+Clin Cancer Res; 18(11) June 1, 2012
+
+3099
+
+Downloaded from 
+
+clincancerres.aacrjournals.org 
+
+on July 1, 2013. © 2012 American Association for Cancer Research. 
+
+

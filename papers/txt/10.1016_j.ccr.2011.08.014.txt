@@ -1,0 +1,1221 @@
+Cancer Cell
+
+Article
+
+Exploiting Cancer Cell Vulnerabilities
+to Develop a Combination Therapy
+for Ras-Driven Tumors
+
+Thomas De Raedt,1,2,3 Zandra Walton,2,4 Jessica L. Yecies,2,5 Danan Li,2,4 Yimei Chen,6 Clare F. Malone,1,2
+Ophe´ lia Maertens,1,2 Seung Min Jeong,7 Roderick T. Bronson,2 Valerie Lebleu,2,8 Raghu Kalluri,2,8 Emmanuel Normant,9
+Marcia C. Haigis,7 Brendan D. Manning,2,5 Kwok-Kin Wong,1,2,3 Kay F. Macleod,6 and Karen Cichowski1,2,3,*
+1Genetics Division, Department of Medicine, Brigham and Women’s Hospital, Boston, MA, 02115, USA
+2Harvard Medical School, Boston, MA, 02115, USA
+3Ludwig Center at Dana-Farber/Harvard Cancer Center, Boston, MA 02115
+4Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA 02115
+5Department of Genetics and Complex Diseases, Harvard School of Public Health, Boston, MA 02115
+6The Ben May Institute for Cancer Research, The University of Chicago, Chicago, IL 60637
+7Department of Pathology, Harvard Medical School, Boston, MA 02115
+8Division of Matrix Biology, Beth Israel Deaconess Medical Center, Boston, MA 02115
+9Inﬁnity Pharmaceuticals, 780 Memorial Drive, Cambridge, MA 02139
+*Correspondence: kcichowski@rics.bwh.harvard.edu
+DOI 10.1016/j.ccr.2011.08.014
+
+SUMMARY
+
+Ras-driven tumors are often refractory to conventional therapies. Here we identify a promising targeted ther-
+apeutic strategy for two Ras-driven cancers: Nf1-deﬁcient malignancies and Kras/p53 mutant lung cancer.
+We show that agents that enhance proteotoxic stress, including the HSP90 inhibitor IPI-504, induce tumor
+regression in aggressive mouse models, but only when combined with rapamycin. These agents synergize
+by promoting irresolvable ER stress, resulting in catastrophic ER and mitochondrial damage. This process
+is fueled by oxidative stress, which is caused by IPI-504-dependent production of reactive oxygen species,
+and the rapamycin-dependent suppression of glutathione, an important endogenous antioxidant. Notably,
+the mechanism by which these agents cooperate reveals a therapeutic paradigm that can be expanded to
+develop additional combinations.
+
+INTRODUCTION
+
+Although signiﬁcant advances have been made in developing
+targeted therapies, identifying treatments for tumors driven by
+mutations that do not affect a targetable protein represents
+a major challenge in cancer research. Ras-driven cancers are
+a classic example of this challenge and despite the fact that
+Ras signaling has been studied for over 25 years, there are still
+no effective targeted therapies (Young et al., 2009). Small-mole-
+cule inhibitors that target Ras effectors are being evaluated;
+however, studies suggest that the therapeutic efﬁcacy of single
+targeted agents may be limited, underscoring the need to
+
+identify additional targets and/or more effective drug combina-
+tions (Engelman et al., 2008; Young et al., 2009).
+
+To develop new therapies, we initially focused on a distinct
+subset of Ras-driven tumors: those that possess mutations in
+the NF1 tumor suppressor. NF1 encodes a Ras GTPase-acti-
+vating protein (RasGAP), which negatively regulates Ras by
+catalyzing the hydrolysis of Ras-GTP (Martin et al., 1990;
+Cawthon et al., 1990). Accordingly, NF1-deﬁcient tumors are
+driven by aberrant Ras activation (DeClue et al., 1992; Johannes-
+sen et al., 2005). NF1 mutations underlie neuroﬁbromatosis
+type 1 (NF1) (Martin et al., 1990; Cawthon et al., 1990) and NF1
+is mutated or suppressed in sporadic glioblastoma (TCGA
+
+Signiﬁcance
+
+Ras-driven tumors are often refractory to conventional therapies and a clinically effective targeted therapy has not yet been
+developed. Moreover, in some cancers KRAS mutations are used to exclude patients from being treated with speciﬁc tar-
+geted agents. As such, developing an effective targeted therapy for Ras-driven tumors is an important endeavor. We have
+identiﬁed a promising therapy for two distinct Ras-driven cancers: Nf1-deﬁcient nervous system malignancies and Kras/p53
+mutant non-small cell lung cancer (NSCLC). Importantly, these studies have deﬁned a speciﬁc drug combination that can
+now be assessed in patients with these largely untreatable cancers. Moreover, these studies establish a therapeutic para-
+digm that can be expanded to develop additional drug combinations.
+
+400 Cancer Cell 20, 400–413, September 13, 2011 ª2011 Elsevier Inc.
+
+Cancer Cell
+
+A Therapeutic Strategy for Ras-Driven Cancers
+
+Consortium, 2008; Parsons et al., 2008; McGillicuddy et al.,
+2009), NSCLC (Ding et al., 2008), and neuroblastoma (Ho¨ lzel
+et al., 2010), demonstrating a broader role for NF1-loss in cancer.
+The most common malignancy associated with NF1 is malignant
+peripheral nerve sheath tumors (MPNSTs), which are highly
+aggressive and frequently metastasize. Despite radiation, and
+in some cases chemotherapy, inoperable tumors rapidly prog-
+ress and can become lethal within months. As such, identifying
+an effective treatment for these tumors is critical.
+
+We and others have reported that mTOR is hyperactivated
+in NF1-deﬁcient tumors as a consequence of aberrant Ras
+signaling (Johannessen et al., 2005, Dasgupta et al., 2005).
+Using an Nf1/p53-mutant MPNST model, we further demon-
+strated that the mTOR inhibitor rapamycin suppressed tumor
+growth (Johannessen et al., 2008). However, although the
+response to rapamycin was potent, effects were cytostatic.
+Therefore, we have been using this model to develop more effec-
+tive mTOR-inhibitor-based combination therapies, with the
+expectation that successful combinations might also be effec-
+tive in other Ras and/or mTOR-driven tumors.
+
+To identify additional therapeutic agents, we considered drugs
+that might exploit speciﬁc cellular vulnerabilities of cancer cells.
+In addition to the pro-tumorigenic hallmarks of cancer (Hanahan
+and Weinberg, 2000), tumor cells often exhibit speciﬁc stress-
+related phenotypes caused by insults such as excessive DNA
+damage, as well as replicative, metabolic, and proteotoxic stress
+(Luo et al., 2009). Accordingly, it has been suggested that agents
+that further enhance or sensitize cancer cells to these stresses
+could be developed as potential therapies (Luo et al., 2009;
+Taipale et al., 2010.). In this study we investigated agents that
+augment proteotoxic or ER (endoplasmic reticulum) stress. ER
+stress is induced when unfolded proteins accumulate in the ER
+(Ron and Walter, 2007). Cancer cells frequently exhibit high
+levels of ER stress caused by factors such as high mutational
+load, copy number variation, oxidative stress, hypoxia, and
+nutrient deprivation (Luo et al., 2009; Taipale et al., 2010). Aneu-
+ploidy in particular has recently been shown to induce proteo-
+toxic stress in both normal and cancer cells (Tang et al., 2011).
+Oncogenic RAS also causes ER stress (Denoyelle et al., 2006).
+Once triggered, ER stress activates a signal
+transduction
+pathway known as the unfolded protein response (UPR) (Ron
+and Walter, 2007). The UPR is initially engaged as a protective
+mechanism to reduce protein accumulation; however, when
+ER stress levels become insurmountable, cell death ensues
+(Ron and Walter, 2007). This observation has led to the specula-
+tion that agents that further enhance ER stress in vulnerable
+cancer cells could be developed as anti-cancer therapies
+(Luo et al., 2009; Tang et al., 2011). In this study we evaluated
+the therapeutic effects of compounds that augment proteotoxic
+stress in cancer cells, alone and in combination with mTOR
+inhibitors, in two Ras-driven mouse tumor models.
+
+RESULTS
+
+MPNSTs Are Sensitive to Agents that Enhance ER Stress
+To determine whether MPNSTs might be sensitive to agents that
+induce ER stress, we ﬁrst evaluated basal stress levels. MPNSTs
+are highly aneuploid and are driven by constitutive activation of
+Ras and therefore might be subject to substantial ER stress.
+
+Indeed, ER stress levels were much higher in tumors compared
+with normal peripheral nerve, as conﬁrmed by three independent
+markers of UPR activation: BiP upregulation, phosphorylation of
+eukaryotic translational initiation factor 2a (eIF2a), and accumu-
+lation of the spliced active form of XBP-1 (sXBP-1) (Figure 1A)
+(Ron and Walter, 2007). Next, we assessed the sensitivity of
+human and mouse MPNSTs to classic ER stress-inducing
+agents: thapsigargin (an ER calcium ATPase inhibitor) and tuni-
+camycin (a glycosylation inhibitor). Both agents enhanced ER
+stress (Figure 1B) and triggered cell death at concentrations
+that did not affect the viability of normal cells (Figure 1C,D), indi-
+cating that MPNSTs are hypersensitive to these ER stress-
+inducing agents.
+
+ER Stress-Inducing Agents Promote Tumor Regression
+In Vivo but Only When Combined with Rapamycin
+Based on the hypersensitivity of MPNST cells to these agents
+in vitro, we hypothesized that they might promote tumor regres-
+sion. In the Nf1/p53 tumor model, animals develop MPNSTs in
+5 months (Cichowski et al., 1999) and survive an average of
+10.7 days after tumor detection (Johannessen et al., 2008).
+Tumor-bearing animals were treated with vehicle, thapsigargin,
+or rapamycin (Figure 1E). Thapsigargin exhibited minimal efﬁ-
+cacy (red bars) and was less potent than rapamycin (yellow
+bars). This ﬁnding was unexpected given the cytotoxic versus
+cytostatic effects of
+thapsigargin and rapamycin observed
+in vitro (Figure 1D) (Johannessen et al., 2008). However, com-
+bined rapamycin/thapsigargin treatment triggered rapid tumor
+regression (green bars; p = 0.013). On average tumors shrank
+45%; however, some tumors regressed >75% (Figure 1F) and
+remaining masses were largely comprised of hemorrhage and
+cellular debris (Figure 1G). Maximal effects were observed within
+10 days, although signiﬁcant tumor regression was detected
+in 3 days (Figure 1F,G). Extensive long-term survival studies
+were not performed because mice often scratched or bit these
+rapidly shrinking lesions, resulting in ulceration that necessitated
+euthanasia. Nevertheless, when animals were successfully
+treated for a longer duration, tumors did not re-grow (Figure 1F).
+One animal survived 107 days after tumor development with no
+evidence of relapse, surviving more than 10 times as long as
+control animals (Figure 1F,G). Tunicamycin also induced tumor
+regression when co-administered with rapamycin, consistent
+with the conclusion that excessive ER stress was a critical driver
+of this response (Figure S1).
+
+The HSP90 Inhibitor IPI-504 Cooperates with
+Rapamycin to Promote Tumor Regression
+Although these observations were striking, thapsigargin and
+tunicamycin do not represent clinically viable agents. HSP90
+inhibitors are another class of drugs known to induce ER
+stress and are currently being investigated in the clinic (www.
+clinicaltrials.gov). HSP90 maintains protein homeostasis by
+folding newly synthesized and misfolded proteins, assembling
+and dissembling protein complexes, and resolving protein
+aggregates (Whitesell and Lindquist, 2005). HSP90 also directly
+stabilizes two key stress-sensing components of the UPR:
+IRE1 and pPERK/PERK (Marcu et al., 2002). Therefore, HSP90
+inhibitors would be expected to promote ER stress in can-
+cer cells via two cooperating mechanisms: ﬁrst, by directly
+
+Cancer Cell 20, 400–413, September 13, 2011 ª2011 Elsevier Inc. 401
+
+A Therapeutic Strategy for Ras-Driven Cancers
+
+Cancer Cell
+
+Figure 1. Therapeutic effects of rapamycin and ER stress-inducing agents on MPNSTs
+(A) Immunoblots of tumor tissue derived from Nf1/p53 mutant murine MPNSTs and normal peripheral nerve (NN). BIP, phospho-EIF2a (pEIF2a), and the spliced
+form of XBP-1 (sXBP-1) indicate UPR activation.
+(B) Immunoblots of pEIF2a and sXBP-1 in MPNST cells after 4 hr of 100 nM thapsigargin (TG) or 0.5 mg/ml tunicamycin (TN). Actin is a loading control.
+
+402 Cancer Cell 20, 400–413, September 13, 2011 ª2011 Elsevier Inc.
+
+Cancer Cell
+
+A Therapeutic Strategy for Ras-Driven Cancers
+
+impairing global protein folding in these already compromised
+tumor cells, and second, by inactivating subsequent adaptive
+responses provided by two arms of the UPR. Accordingly, we
+assessed the therapeutic effects of IPI-504, a hydroquinone
+hydrochloride salt of
+the geldanamycin-derivative 17-AAG
+(Sydor et al., 2006).
+
+As predicted, IPI-504 rapidly induced ER stress and activated
+the UPR, demonstrated by the upregulation of BiP, pEIF2a,
+sXBP-1, IRE1, and phosphorylated PERK within 2–4 hr (Fig-
+ure 2A) (Healy et al., 2009). However, prolonged exposure to
+IPI-504 resulted in a destabilization of IRE1 and pPERK/PERK
+(Figure 2A). Consequently, downstream UPR signals including
+sXBP-1 and pEIF2a were inactivated by 8 hr, as expected
+(Marcu et al., 2002) (Figure 2A). Notably, BiP levels, which are
+not dependent on IRE1 and PERK, were elevated further by
+16 hr, demonstrating that ER stress was enhanced in two phases
+in response to IPI-504 (Figure 2A) (Marcu et al., 2002). Similar to
+thapsigargin and tunicamycin, MPNST cells were sensitive to
+low doses of IPI-504 in vitro (Figure 2B,C).
+
+Using a previously established dosing schedule of IPI-504
+(Douglas et al., 2009), we assessed the effects of this agent alone
+and in combination with rapamycin in vivo. Like thapsigargin, IPI-
+504 was unable to promote tumor regression as a single agent
+but did so when combined with rapamycin (Figure 2D) (p =
+0.001). On average, tumors shrank 49% (Figure 2D, green
+bars). Tumor regression was visually apparent (Figure 2E) and
+histological analysis revealed massive cell death and accumu-
+lating debris (Figure 2F).
+
+The pharmacodynamic response to IPI-504 in clinical trials is
+assessed by measuring HSP70 levels, which increase when
+HSP90 is effectively inhibited (Ramanathan et al., 2007). Target
+inhibition was conﬁrmed in vivo using this readout (Figure 2G).
+Rapamycin also effectively suppressed the mTOR pathway
+(Figure 2G). Maximal tumor regression in response to rapamy-
+cin/IPI-504 treatment occurred within 3–5 days and no toxicity
+was observed in the course of this study as determined by
+weight, grooming, or body score (Figure S2). TUNEL staining
+was apparent within 16 hr, which was not observed in tumors
+from animals exposed to rapamycin or IPI-504 alone (Figure 2H).
+To mimic the dose of IPI-504 used in clinical trials, IPI-504 was
+administered once rather than twice per week at 100 mg/kg.
+This treatment schedule also promoted tumor shrinkage and
+ 5).
+signiﬁcantly prolonged survival (Figure 2I) (p = 8.9 3 10
+This Kaplan-Meier curve likely underestimates survival, because
+most animals were euthanized because of self-inﬂicted damage
+at the site of residual lesions (denoted by Xs) (Figure 2I). No long-
+term toxicity was observed as determined after 50 days of
+treatment.
+
+IPI-504 Mediates its Therapeutic Effects by Suppressing
+HSP90 and Promoting ER Stress
+HSP90 is encoded by more than one gene, is extremely abun-
+dant, and interacts with more than 20 co-chaperones (Taipale
+et al., 2010). Therefore, it is not possible to completely inactivate
+HSP90 activity by genetically suppressing a single gene.
+However, two additional structurally distinct HSP90 inhibitors,
+BEP800 and AUY-922 (Massey et al., 2010), as well as 17-AAG
+itself, killed MPNSTs, induced ER stress, and impacted the
+UPR with the same kinetics as IPI-504 (Figure 3A, B, C and Fig-
+ure S3A), conﬁrming that these agents all function by suppress-
+ing HSP90.
+
+tunicamycin)
+
+The observation that HSP90 inhibitors enhance ER stress, and
+that three distinct ER stress-inducing agents (IPI-504, thapsigar-
+gin,
+induce the same therapeutic response,
+supports the hypothesis that IPI-504 mediates its effects by trig-
+gering excessive ER stress. To formally address this possibility,
+we assessed whether ectopic expression of sXBP1, a down-
+stream UPR component that can reduce ER stress (Ozcan
+et al., 2008), might attenuate the therapeutic effects of IPI-504.
+Notably, sXBP1 expression reduced and delayed cell death in
+response to IPI-504 (Figure 3D). Conversely, siRNAs that recog-
+nize PERK and IRE1 sensitized MPNSTs to sub-threshold doses
+of IPI-504 (Figure 3E). Together these data indicate that exces-
+sive ER stress plays a causal role in driving the therapeutic
+response.
+
+Rapamycin sensitized MPNSTs to IPI-504 in vitro as it does
+in vivo (Figure 3F) and genetic ablation of raptor, a critical
+component of TORC1, did so as well (Figure 3F). Rapamycin
+also enhanced the suppressive effects of PERK and IRE1
+siRNAs (Figure 3G). However, this combination was not as
+potent as rapamycin and IPI-504, consistent with the notion
+that PERK and IRE1 destabilization contribute to the therapeutic
+response but do not entirely mediate the effects of HSP90
+suppression, which has a more global effect on protein homeo-
+stasis in these impaired cancer cells. Thus, both genetic and
+chemical studies demonstrate that IPI-504 and rapamycin func-
+tion through their intended targets (HSP90 and TORC1) and that
+ER stress is an important mediator of the therapeutic response.
+Interestingly, although the proteasome inhibitor bortezomib can
+induce proteotoxic stress in professional secretory cells (e.g.,
+multiple myeloma cells), bortezomib did not substantially induce
+ER stress in MPNSTs and did not promote tumor regression
+when combined with rapamycin (Figure S3B), further underscor-
+ing the importance of the ER stress response in mediating the
+observed therapeutic effects.
+
+The limited clinical efﬁcacy of mTOR inhibitors has been
+proposed to result from AKT activation that can occur via the
+
+(C) LD50 values in response to TG or TN (48 hr) in normal cells (IMR90), human MPNST cell lines (S462, SNF96.2), and mouse MPNST cell lines (185-3, 1A50).
+(D) Growth curves comparing the effects of different doses of thapsigargin and tunicamycin in S462 human MPNSTs and IMR90s.
+(E) Waterfall plot depicting tumor growth after 10 days of treatment with vehicle (blue), thapsigargin (red), rapamycin (yellow) and rapamycin/thapsigargin (green).
+The left y axis indicates the log2 of tumor fold growth versus day 0 and the right y axis shows the change in fold volume. The table shown reports mean and
+standard deviation for each treatment arm (n = 8) and mean tumor shrinkage.
+(F) Graph depicting the change in tumor size over time. Three animals on the rapamycin/thapsigargin combination are shown (green). For simplicity, the yellow line
+is an average volume of rapamycin-treated tumors (n = 8). Blue and red lines represent vehicle- and thapsigargin-treated animals, respectively.
+(G) H&E-stained tumor remnants from animals treated with rapamycin/thapsigargin. Sections from tumors after (a) 107 days of treatment, (b) 35 days (c), 21 days,
+and (d) 4 days, showing pyknotic nuclei throughout the tumor. All images were taken using 10x objective, except (d), which has been magniﬁed to 40x. (See also
+Figure S1.)
+
+Cancer Cell 20, 400–413, September 13, 2011 ª2011 Elsevier Inc. 403
+
+A Therapeutic Strategy for Ras-Driven Cancers
+
+Cancer Cell
+
+Figure 2. Rapamycin and IPI-504 promote MPNST regression
+(A) Immunoblots of BIP, pEIF2a, sXBP-1, IRE1a, and PERK in human MPNSTs treated with IPI-504 over time (hours). Note that the activation of pEIF2a, sXBP1,
+IRE1, and PERK (*denotes activated phosphorylated PERK) and initial upregulation of BIP occurs within 2–4 hr. A second wave of BIP upregulation occurs
+between 8 and 16 hr, as pEIF2a, sXBP-1, IRE1a, and PERK become suppressed. Actin serves as a loading control.
+(B) LD50 values in response to IPI-504 (72 hr) for normal cells (IMR90), human MPNST cell lines (S462, SNF96.2), and mouse MPNST cell lines (185-3, 1A50).
+(C) Growth curves of the S462 cell line treated with different concentrations of IPI-504.
+
+404 Cancer Cell 20, 400–413, September 13, 2011 ª2011 Elsevier Inc.
+
+Cancer Cell
+
+A Therapeutic Strategy for Ras-Driven Cancers
+
+suppression of negative feedback pathways (Dancey et al.,
+2009). However, as we have previously reported, rapamycin
+did not induce AKT activation in MPNSTs in vivo (Figure 3H)
+(Johannessen et al., 2008). Moreover, combined rapamycin/
+IPI-504 treatment did not suppress AKT phosphorylation or
+expression levels, indicating that this combination is not more
+effective because it inhibits AKT (Figure 3H). However, it is
+still possible that an mTOR kinase inhibitor or dual PI3K/mTOR
+inhibitor may synergize even more potently with HSP90 inhibi-
+tors, by concomitantly suppressing this well-established survival
+pathway.
+
+Rapamycin and IPI-504 Trigger a Catastrophic
+Destruction of the ER and Mitochondria in MPNSTs
+In Vivo
+To elucidate the biological consequences of combined rapa-
+mycin/IPI-504 treatment, we performed transmission electron
+microscopy on MPNSTs in vivo. Within 7 hr, rapamycin/IPI-504
+induced a massive accumulation of double-membraned vesicles
+(Figure 4A) (n = 5). These structures exhibited cellular hallmarks
+of autophagosomes and contained visible cargo (Figure 4B)
+(Klionsky et al., 2008). The ER and mitochondria can both act
+as a source of membranes for autophagosomes (Hayashi-
+Nishino et al., 2009; Yla¨ -Anttila et al., 2009; Hailey et al. 2010).
+We detected autophagosomes emerging from both organelles
+in response to rapamycin/IPI-504, the signiﬁcance of which is
+discussed below (Figure 4C). The appearance of autophagic
+vesicles can be caused by autophagy induction or can occur
+when productive autophagy is blocked (Klionsky et al., 2008).
+However rapamycin/IPI-504 induced the degradation of p62/
+SQSTM1 in these tumors, which is degraded as a consequence
+of productive autophagy (Figure 4D) (Klionsky et al., 2008). In
+addition, rapamycin/IPI-504 triggered a rapid increase in LC3-
+expressing punctae in MPNSTs, which fused with lysozomes
+shortly thereafter,
+indicating that autophagy was induced
+rather than blocked (Figure 4E, F) (N’Diaye et al., 2009; Pankiv
+et al., 2007). Notably, excessive ER stress actively triggers
+autophagy, which is engaged as a protective mechanism to
+degrade unfolded protein aggregates (Hotamisligil, 2010). How-
+ever, although IPI-504 and rapamycin can both induce signals
+that promote autophagy, individually each agent was unable to
+elicit a potent autophagic response in vivo (Figure 4A), suggest-
+ing that these agents were somehow synergizing.
+
+To investigate this synergy we examined ER and mitochondria
+in MPNSTs. Notably, there is a complex interdependent relation-
+ship between the ER and mitochondria in response to ER
+stress (Malhotra and Kaufman, 2007) (Figure 4G). ER stress
+triggers intraluminal calcium release, which promotes mitochon-
+drial membrane depolarization and ROS production (Malhotra
+
+and Kaufman, 2007;Kim et al., 2008). ROS further promotes
+protein misfolding, thereby enhancing ER stress. In response
+to low levels of ER stress, adaptive responses are engaged;
+however, when ER stress levels become insurmountable, a
+vicious cycle ensues, resulting in catastrophic damage to the
+ER and mitochondria, and in cell death (Malhotra and Kaufman,
+2007). Consistent with the notion that rapamycin and IPI-504
+synergize to induce irresolvable ER stress, we observed severe
+ER swelling within 7 hr (Figure 4H). In addition, we detected a
+dramatic accumulation of polyubiquitinated protein aggregates,
+which occur when unfolded proteins accumulate (Figure S4).
+Interestingly, after 16 hr ER membranes were nearly undetect-
+able in rapamycin/IPI-504-treated tumors (Figure 4I), suggesting
+that ER membranes may have been depleted by excessive
+and continuous autophagy emanating from these membranes.
+Finally, because excessive ER stress ultimately triggers severe
+mitochondrial damage, after 16 hr mitochondria became
+swollen and highly vesicularized, and were engulfed by auto-
+phagosomes (mitophagy) (Figure 4J). The dramatic effects of
+combined rapamycin/IPI-504 treatment on autophagy, ER
+swelling and destruction, and mitochondrial damage were
+observed in all tumors examined (R5/5 for each condition)
+and were not detected in tumors from animals exposed to single
+agents.
+
+that
+
+Oxidative Stress Plays a Critical Role in Mediating the
+Therapeutic Response to Rapamycin and IPI-504
+These observations suggest
+rapamycin and IPI-504
+promote tumor regression by inducing irresolvable ER stress,
+continuous autophagy, and progressive damage to ER and mito-
+chondria (Figure 4G). Because ROS are thought to play a critical
+role in fueling this vicious cycle, we assessed the requirement
+for ROS in the therapeutic response in vitro and in vivo. Impor-
+tantly, IPI-504 triggered ROS production (Figure 5A) and the
+antioxidant vitamin C suppressed MPNST cell death by 73%
+(Figure 5B). More strikingly, when mice were pre-treated with
+vitamin C, rapamycin/IPI-504 was no longer capable of inducing
+tumor regression (Figure 5C). Because geldanamycin derivatives
+may induce ROS via mechanisms in addition to effects on HSP90
+(Sreedhar et al., 2003), we evaluated a structurally unrelated
+HSP90 inhibitor. Notably, BEP800 also induced an increase in
+ROS production (Figure S5A). Vitamin C also suppressed the
+therapeutic effects of this agent by 78% (Figure 5D), providing
+additional evidence that ROS is a general mediator of cell death
+in response to this class of drugs.
+
+Given the demonstrated importance of ROS, we investigated
+whether IPI-504 and rapamycin might be synergizing in these
+tumors by enhancing oxidative stress. PML has been proposed
+to be an in vivo sensor of oxidative stress, because it becomes
+
+(D) Waterfall plot depicting tumor growth after 10 days of treatment with vehicle (blue), IPI-504 (red), rapamycin (yellow), and rapamycin/IPI-504(green). The left
+y axis indicates the log2 of tumor fold growth versus day 0, and the right y axis shows the change in fold volume. The table reports mean and standard deviation
+for each treatment arm (n = 8) and mean tumor shrinkage. The Shapiro-Wilk test shows that all datasets have a normal distribution.
+(E) A photograph of an MPNST is shown at day 0 and after 10 days of treatment with rapamycin/IPI-504.
+(F) H&E-stained tumors from animals treated with rapamycin/IPI-504.
+(G) Pharmacodynamic analysis of lung tissue after 16 hr of treatment as shown by an Hsp70 and phosphoS6 immunoblots. p120 serves as a loading control.
+(H) TUNEL staining of tumors treated for 16 hr.
+(I) Kaplan-Meier curve of tumor-bearing Nf1/p53 mutant mice treated with vehicle (black) or rapamycin (blue) as described. Xs indicate an animal that was
+euthanized because of skin ulceration. All error bars show ± SD. (See also Figure S2.)
+
+Cancer Cell 20, 400–413, September 13, 2011 ª2011 Elsevier Inc. 405
+
+A Therapeutic Strategy for Ras-Driven Cancers
+
+Cancer Cell
+
+Figure 3. Cell death induced by IPI-504 is caused by inhibition of HSP90 and subsequent effects on the UPR and ER stress
+(A) Growth curves of the MPNST cell line S462 treated with two different HSP90 inhibitors (500nM IPI-504 and 500nM BEP800).
+(B) S462 cells were treated with the HSP90 inhibitor AUY-922 (100 nM) for 72 hr. The left y axis indicates the log2 of tumor fold change versus day 0 and the right
+y axis shows the relative change in cell number compared with day 0.
+(C) Immunoblots showing the effects of AUY-922 on BIP, pEIF2a, sXBP-1, IRE1a, and PERK in human MPNST cells over time (hr). Actin serves as a loading
+control.
+(D) Relative level of cell death in the presence of 1 mM IPI-504 with and without overexpression of sXBP1 (the activated spliced form of XBP1). The right hand panel
+conﬁrms expression of sXBP1.
+(E) Growth curves in response to low doses of IPI-504 in cells where IRE1a and/or PERK are knocked down by siRNA. The immunoblot conﬁrms knock down.
+(F) S462 cells were treated with 100nM IPI-504 for 72 hr, with and without rapamycin pretreatment (100 nM) (left) or Raptor shRNA (right). The left y axis indicates
+the log2 of tumor fold change versus day 0 and the right y axis shows the relative change in cell number compared with day 0.
+(G) Relative number of S462 cells after combined knock down of IRE1a and PERK with or without rapamycin (100 nM) compared with rapamycin plus IPI-504
+(300nM).
+(H) pAKT/AKT immunoblots of tumor tissue from animals treated for 16 hr in mice exposed to vehicle (Veh), IPI-504 (IP), rapamycin (R), and rapamycin/IPI-504
+(RIP). All error bars show ± SD. (See also Figure S3.)
+
+associated with nuclear bodies in a ROS-dependent manner
+(Jeanne et al., 2010). Interestingly, only rapamycin/IPI-504 treat-
+ment induced the formation of PML-containing nuclear bodies in
+MPNSTs (Figure 5E), suggesting that rapamycin and IPI-504
+together were required to achieve maximal levels of oxidative
+stress. These results were conﬁrmed by measuring ROS levels
+in tumor tissue using dihydroethidium (DHE), where ROS was
+elevated within 7 hr of treatment (Figure 5E). Moreover, vitamin
+C suppressed the accumulation of polyubiquitin aggregates
+
+(Figure S5B), the formation of nuclear PML bodies (Figure S5C),
+the robust and sustained autophagic response (Figure S5D), ER
+swelling and destruction, and mitochondrial damage (Fig-
+ure S5E). Collectively, these results demonstrate that oxidative
+stress is required for the therapeutic response in vivo. The ﬁnding
+that ER swelling, protein aggregation, and ROS production all
+occur within 7 hr of treatment (see Figures 4H, 5E, and 5F; Fig-
+ure S4) and precede ATP depletion and mitochondrial destruc-
+tion (Figures 5G and 4J), demonstrates that these effects are
+
+406 Cancer Cell 20, 400–413, September 13, 2011 ª2011 Elsevier Inc.
+
+Cancer Cell
+
+A Therapeutic Strategy for Ras-Driven Cancers
+
+triggered by ER stress and are not a secondary consequence of
+a mitochondrial metabolic collapse. This conclusion is further
+supported by the observation that sXBP1 expression sup-
+presses cell death (Figure 3D).
+
+Rapamycin and IPI-504 Promote Excessive Oxidative
+Stress by Inducing ROS and Simultaneously
+Suppressing the G6PD/Glutathione Antioxidant
+Pathway
+Oxidative stress is caused by an imbalance between ROS
+production and ROS clearance pathways. Given that IPI-504
+stimulates ROS production, we investigated whether rapamycin
+might be enhancing the effects of IPI-504 by suppressing endog-
+enous antioxidants. Because of
+its high concentration and
+central role in maintaining redox state, the reduced form of gluta-
+thione (GSH) is one of the most important endogenous cellular
+antioxidants (Meister and Anderson, 1983). Glutathione reduc-
+tion is dependent on NADPH, which is primarily produced by
+the pentose phosphate pathway (PPP). The ﬁrst and rate-limiting
+enzyme of the PPP is Glucose 6-phosphate dehydrogenase
+(G6PD). Accordingly, G6PD plays a well-established role in pro-
+tecting cells from oxidative stress via its effects on GSH produc-
+tion (Pandolﬁ et al., 1995; Xu et al., 2010; Efferth et al., 2006). The
+importance of G6PD in this pathway is highlighted by the obser-
+vation that hypomorphic mutations in G6PD underlie favism,
+which causes acute hemolytic anemia in affected individuals
+exposed to fava beans and other oxidative stressors (Belsey,
+1973). Interestingly, a direct connection between G6PD and
+the mTOR pathway has recently been established. Speciﬁcally,
+G6PD expression can be suppressed by mTOR inhibitors
+in vitro, through inhibitory effects on the transcription factor
+SREBP1 (Du¨ vel et al., 2010). Therefore, we examined the
+components of this pathway (SREBP1, G6PD, GSH) in MPNSTs.
+Consistent with cellular studies showing that SREBP1 is regu-
+lated by mTOR (Du¨ vel et al., 2010; Porstmann et al., 2008), rapa-
+mycin signiﬁcantly decreased the expression of known SREBP
+targets including SREBP1 itself, ACC, and FASN in vivo within
+7 hr (Figure 5H,I). IPI-504 exerted a slightly suppressive effect
+on SREBP1, but together both agents reduced SREBP1 expres-
+sion by 92% and effectively suppressed ACC and FASN (Fig-
+ure 5H,I). Rapamycin also potently suppressed G6PD mRNA
+levels in MPNST tumor tissue (Figure 5J). However, rapamycin
+alone had inconsistent effects on G6PD protein levels (Figure 5I),
+perhaps reﬂecting a slower turnover of G6PD protein within this
+short time frame. Nevertheless, rapamycin and IPI-504 together
+dramatically suppressed both G6PD mRNA and protein expres-
+sion in MPNSTs in vivo (Figure 5I, J). Accordingly, rapamycin/IPI-
+504 caused a 34% decrease in reduced glutathione levels in
+these tumors (Figure 5K, p = 0.003). The magnitude of this
+decrease in GSH is particularly signiﬁcant given that individuals
+affected by favism similarly exhibit a 34% mean reduction of
+GSH in red blood cells, which sensitizes these cells to oxidative
+stressors, resulting in severe protein misfolding and protein
+aggregate formation (Szeinberg et al., 1958). Finally, to geneti-
+cally conﬁrm that G6PD can play a functional role in protecting
+tumor cells from IPI-504-induced oxidative stress, we ectopi-
+cally expressed G6PD in MPNSTs. Importantly, G6PD sup-
+pressed IPI-504-induced MPNST cell death by 50% (Figure 5L).
+Taken together, these data suggest that rapamycin and IPI-504
+
+synergize by promoting excessive oxidative stress, which is
+a consequence of both IPI-504-induced ROS production and
+rapamycin-dependent suppression of G6PD and GSH.
+
+Rapamycin/IPI-504 Promotes Tumor Regression
+in a Model of Kras/p53 Mutant NSCLC
+To determine whether the efﬁcacy of this combination might
+extend to KRAS mutant tumors, we performed a similar study
+in a mouse model of NSCLC (Jackson et al., 2005). Notably,
+NSCLCs are also highly aneuploid, illustrating an additional
+similarity between these two tumor types. In this model, lung
+adenocarcinomas are induced by intranasal administration of
+adenoviral Cre, which causes the concomitant expression of
+a single KrasG12D allele and loss of p53 (termed LSL-KrasG12D/+;
+p53ﬂ/ﬂ). 8.5–9 weeks after infection, tumor burden was assessed
+by MRI. Animals were re-imaged 1 week later to assess the rate
+of tumor growth, and treatment commenced thereafter. In this
+mixed genetic background, 50%–80% of the tumors were
+conﬁrmed to be adenocarcinomas within 10 weeks after Cre
+exposure (DuPage et al., 2009)(Figure S6). Neither rapamycin
+nor IPI-504 induced tumor regression alone; however, combined
+rapamycin/IPI-504 treatment resulted in dramatic tumor shrink-
+age (Figure 6A). 6/8 mice exhibited this potent response and
+individual responding masses shrunk up to 82% as determined
+by MRI analysis (Figure 6B). The overall reduction in total
+tumor volume, which is the sum of numerous independent
+tumors per mouse, is shown for each animal (Figure 6C). Histo-
+logical analysis of tumors two weeks after treatment conﬁrmed
+substantial tumor regression (Figure 6D). However, although
+tumor regression in response to rapamycin/IPI-504 was robust,
+three types of tumor remnants were detected. Minimal tumor
+remnants comprised of a few cells surrounding alveolar space
+were observed (Figure 6E, a,b). Slightly larger remnants sur-
+rounding alveoli were also detected (Figure 6E, c,d). Finally
+some lesions, albeit vastly smaller than vehicle, rapamycin, or
+IPI-504-treated tumors, were found (Figure 6E, e,f). However,
+even in these cases, signiﬁcant gaps between tumor cells were
+observed, resulting in increased alveolar space (Figure 6E, f) in
+contrast to the dense, high-grade lesions observed in control
+animals. Moreover, there was a rapid and qualitatively obvious
+improvement in breathing in rapamycin/IPI-504-treated animals.
+The observation that not all tumors exhibit the identical thera-
+peutic response is consistent with the fact that each individual
+lung tumor in this model represents an independent genetic
+event. Notably, although combined MEK and PI3K inhibitors
+have been shown to promote tumor regression in murine
+NSCLCs harboring the KrasG12D mutation alone (Engelman
+et al., 2008), no targeted therapy has been shown to promote
+the regression of the more aggressive KrasG12D, p53-deﬁcient
+tumors, underscoring the signiﬁcance of this ﬁnding and its
+potential impact on therapeutic development in KRAS mutant
+NSCLC.
+
+DISCUSSION
+
+Currently, there are no effective targeted therapies for Ras-
+driven cancers. Moreover, in some cancers KRAS mutations
+are used to exclude patients from being treated with speciﬁc
+targeted agents (Karapetis et al., 2008). As such, identifying
+
+Cancer Cell 20, 400–413, September 13, 2011 ª2011 Elsevier Inc. 407
+
+A Therapeutic Strategy for Ras-Driven Cancers
+
+Cancer Cell
+
+Figure 4. IPI-504 and rapamycin trigger a catastrophic destruction of the ER and mitochondria in MPNSTs
+(A) Transmission electron microscopy (TEM) images (5900 3 1.4x) of tumors after 7 hr of treatment with vehicle, IPI-504, rapamycin, or rapamycin/IPI-504.
+(B) TEM images (15,000 3 1.4x) of tumors treated for 7 hr with rapamycin/IPI-504. Black arrows indicate double-membraned autophagosomes with cargo.
+(C) TEM images of a tumor treated for 7 hr with rapamycin/IPI-504. The black arrows show autophagosomes emanating from a mitochondrion (left panel) and ER
+(right panel).
+(D) (Top) Immunoblot for p62 (SQSTM1) from MPNST tissue in animals treated with vehicle (V), IPI-504 (I), rapamycin (R), or rapamycin and IPI-504 (RIP). (Bottom)
+A second immunoblot demonstrating a decrease in p62 levels in additional RIP-treated tumors.
+
+408 Cancer Cell 20, 400–413, September 13, 2011 ª2011 Elsevier Inc.
+
+Cancer Cell
+
+A Therapeutic Strategy for Ras-Driven Cancers
+
+a targeted therapy for Ras-driven tumors is an important
+endeavor.
+In this study we took an orthogonal therapeutic
+approach: combining an agent that targets an important down-
+stream oncogenic pathway (mTOR) with agents that capitalize
+on a cancer-associated cellular vulnerability, speciﬁcally the
+enhanced sensitivity to proteotoxic stress (Luo et al., 2009).
+Importantly, we found that several agents that induce ER stress,
+including the HSP90 inhibitor IPI-504, cooperated with rapa-
+mycin to promote dramatic tumor regression in two distinct
+Ras driven-cancers. To date, no targeted agents have been
+shown to be capable of causing tumor regression in either of
+these highly aggressive genetically engineered models or,
+more importantly, in cognate human tumors. Given that these
+human cancers are generally refractory to standard therapies
+there is an urgent need to develop improved treatments. Thus,
+these studies have identiﬁed a promising therapeutic strategy
+for these two aggressive malignancies.
+
+However, although we found that this combination was effec-
+tive in two speciﬁc Ras-driven cancers, it will be important to
+determine whether its efﬁcacy will extend to other Ras-driven
+tumors, other mTOR-driven tumors, and/or other tumors that
+exhibit high levels of ER stress. Our data suggest that a combina-
+tion of these factors will be involved and that responsive tumors
+will require some dependence on mTOR and will also exhibit
+high levels of ER stress. On a molecular level, mutations in
+RAS, NF1, and possibly other genes that affect the mTOR
+pathway, may promote sensitivity to these combined agents.
+However, other variables, such as the extent of aneuploidy or
+copy number variation will likely impact the therapeutic response
+due to direct effects on basal ER stress levels. The recent obser-
+vation that aneuploidy confers sensitivity to proteotoxic agents
+in normal cells, and cancer cells in some settings, supports
+this hypothesis (Tang et al., 2011).
+
+Finally, although these studies provide compelling data to
+support the clinical
+investigation of rapamycin and IPI-504,
+they also serve as a foundation for developing combinations
+using other related agents. For example, mTOR kinase or dual
+mTOR/PI3K inhibitors may enhance the efﬁcacy of this combina-
+tion. Similarly, there are several structurally unrelated HSP90
+inhibitors in clinical development, which should provide an array
+of compounds that may differ in efﬁcacy and/or toxicity. More-
+over, the mechanism by which IPI-504 and rapamycin cooperate
+reveals an even broader range of drug options. For example,
+other agents that enhance proteotoxic stress and/or alter the
+heat shock response could be combined with agents that either
+suppress antioxidant pathways or further stimulate ROS produc-
+tion. In this respect it is noteworthy that ROS production is
+thought to play a functional role in mediating the cytoxic effects
+
+of many conventional chemotherapies. However,
+targeted
+agents may prove to be more effective if they are better tolerated
+and consequently confer a greater therapeutic index. Regard-
+less, the potential utility of these agents may be overlooked if
+they are assessed exclusively as monotherapies in genetically
+heterogeneous tumors, where individually they may exhibit
+minimal activity. Indeed, none of the single agents investigated
+in this study exerted a cytotoxic response when administered
+individually. Moreover, our studies suggest that potential drug
+combinations need to be tested empirically in rigorous models
+in vivo. For example, although the proteasome inhibitor bortezo-
+mib can induce proteotoxic stress in professional secretory cells
+(e.g., multiple myeloma cells), bortezomib did not substantially
+induce ER stress in MPNSTs and therefore did not promote
+tumor regression when combined with rapamycin. These obser-
+vations highlight the challenge of developing effective combina-
+tion therapies and underscore the utility of using robust animal to
+rapidly identify the most effective drug combinations among
+numerous possibilities.
+
+EXPERIMENTAL PROCEDURES
+
+Cell Lines and Reagents
+S462, SNF96.2, and IMR90s (ATCC). 1A50 and 237-1 are mouse Nf1/p53-deﬁ-
+cient MPNST cell lines (Johannessen et al., 2008). Antibodies were obtained
+from the following sources: Cell Signaling Technologies: pAKT (4060), AKT
+(9272), pEIF2a (3557), pS6 (2211), total S6 (2317), BIP (3183), FASN (3180),
+ACC (3676) and IREa (3294), PERK (3192); Anti-p120 (G12920) (Trans. Labs);
+Hsp70 (Sc24) and p62 (sc-10117) (Santa Cruz Biotechnology); actin (A2066)
+(Biolegend); poly-Ub (FK1)(Biolegend Int); PML
+(Sigma); XBP-1 (619502)
+(05-718)(Millipore); G6PD (A300-404A)(Bethyl Labs).
+IPI-504 and IPI-504
+vehicle were supplied by Inﬁnity Pharmaceuticals; Thapsigargin, tunicamycin
+17-AAG and ascorbic acid (Vitamin C) (Sigma); BEP800 (Selleck Chemicals);
+AUY922 (Chemietek); Rapamycin (LC Labs).
+
+Real-Time PCR
+Tissues were crushed using an in-liquid-nitrogen-cooled Bessman Tissue
+Pulverizer and dissolved in Trizol reagent (Invitrogen). RNA was treated with
+DNaseI (Roche) and reverse-transcribed using the qScript Reverse transcrip-
+tase kit (Quanta). Real-time PCR analysis was performed using the PerfeCTa
+SYBR Green kit (Quanta) for the following genes: mouse G6PDx (5
+-cctacc
+-aagaacgtgaa
+atctggtggctgtt-3
+0
+-gatcaaagagga
+gctccctga-3
+0
+-tgcattttctgacac
+gccagtgc-3
+gcttc-3
+
+); human G6PD (5
+0
+); mouse SREBP1 (5
+0
+); human SREBP1 (5
+
+-aatataggggatgggcttgg-3
+0
+-tagatggtggctgctgagtg-3
+
+- ccaagctgtacaggctctcc-3
+
+-tggctttaaagaagggctca-3
+
+5
+0
+5
+
+0
+
+5
+
+).
+
+0
+
+0
+
+0
+
+5
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+RNAi
+Non-targeting siRNAs and siRNAs against PERK were purchased from
+Dharmacon (D-001810-10-05 and L-004883-00 respectively); siRNA targeting
+IREa (QIAGEN, S100605248). siRNAs were transfected using lipofectamine
+RNAiMAX from Invitrogen. A lentiviral pLKO vector containing the following
+shRNA (5
+
+-CGACTACTACATCTCCGTGTA-3
+
+) was used to target Raptor.
+
+0
+
+0
+
+(E) S462 cells were infected with mCherry-EGFP-LC3B and treated for 2 and 8 hr with 100nM rapamycin and 4 mM IPI-504. Yellow/green spots punctae represent
+autophagosomes. Red spots represent autophagolysosomes.
+(F) Bar graph representing the average number of autophagosomes (yellow bar) and autophagolysosomes (red bar) after 0, 2, and 8 hr of treatment of rapamycin
+and IPI-504.
+(G) Model illustrating cross-talk between ER stress, mitochondria, and ROS production.
+(H) TEM depicting the relative size of the ER in tumors exposed to vehicle, IPI-504, rapamycin, or rapamycin/IPI-504.
+(I) TEM showing numerous ER membranes in rapamycin-treated tumors (blue dots) in contrast to tumors exposed to rapamycin/IPI-504 for 16 hr, where they are
+not visible. Black arrows show a few autophagosomes in rapamycin-treated tumors and many in rapamycin/IPI-504-treated tumors.
+(J) TEM showing normal mitochondria in vehicle-treated tumors (blue arrows, left) versus swollen vesicularized mitochondria in tumors treated with rapamycin/
+IPI-504 for 16 hr (blue arrows, right). The mitochondria on the left in this panel are being engulfed by an autophagosome. (See also Figure S4.)
+
+Cancer Cell 20, 400–413, September 13, 2011 ª2011 Elsevier Inc. 409
+
+A Therapeutic Strategy for Ras-Driven Cancers
+
+Cancer Cell
+
+Figure 5. Oxidative stress plays a critical role in mediating the therapeutic response to IPI-504 and rapamycin
+(A) Levels of ROS induced by IPI-504 in MPNST cell lines in vitro. The red line depicts the shift in ﬂuorescence intensity, reﬂecting ROS production.
+(B) Relative levels of cell death in the presence of 500nM IPI-504 ± 100 uM vitamin C.
+(C) Waterfall plot depicting tumor growth after 10 days of treatment with rapamycin/IPI-504 as shown in Figure 2 (green) versus rapamycin/IPI-504 and vitamin C
+(black). The left y axis indicates the log2 of tumor fold growth versus day 0.
+(D) Relative levels of cell death in response to 500nM BEP800 ± 100 uM vitamin C.
+
+410 Cancer Cell 20, 400–413, September 13, 2011 ª2011 Elsevier Inc.
+
+Cancer Cell
+
+A Therapeutic Strategy for Ras-Driven Cancers
+
+Figure 6. Rapamycin/IPI-504 promotes regression of KrasG12D, p53-deﬁcient NSCLC
+(A) MRI images of animals pre- and post-treatment as speciﬁed. The red circles highlight tumor masses.
+(B) Table listing the volumetric change of individual tumor masses as determined by MRI.
+(C) Waterfall plot depicting the reduction of total tumor volume in individual animals treated with rapamycin and IPI-504.
+(D) H&E stain of histological sections of the lung after 14 days of treatment (2x).
+(E) H&E stain of lesions from animals treated with vehicle, rapamycin, IPI-504, or rapamycin/IPI-504 for 2 weeks. Images b, d, and f are enlargements of images
+a, c, and e, respectively. (See also Figure S6.)
+
+Immunoﬂuorescence
+Tissues were ﬁxed in formalin and embedded in parafﬁn. A standard immuno-
+ﬂuorescence protocol was followed. Antigen unmasking was performed by
+boiling the slides in 10mM citrate (pH 6) for 10 min followed by 30 min cooling.
+Blocking and hybridization were performed in 1x PBS with 5% serum and
+0.3% Triton X-100. Antibodies were diluted 1:250.
+
+TUNEL Staining, ROS detection, GSH assay, and ADP/ATP Ratio
+TUNEL staining was performed with the ApopTag Fluorescein In Situ
+Apoptosis Detection Kit (Millipore). Reactive oxygen species were evaluated
+by MitoSOX Red (M36008) in vitro and by dihydroethidium staining in snap-
+frozen tumor sections (D11347) (both Invitrogen). GSH was measured using
+the GSH-glo Glutathione Assay Kit (Promega, V6911. The ADP/ATP ratio
+
+was determined using the ApoSENSOR ADP/ATP Ratio Assay Kit (K255-
+200) (Biovision).
+
+Constructs
+Human G6PD (Open Biosystems) and mouse sXBP-1 were cloned into a pLenti
+CMV/TO Puro vector. The pBabe-puro mCherry-EGFP-LC3B construct was
+obtained from Addgene. Lentiviral and retroviral infections were performed
+as previously described (Johannessen et al., 2005).
+
+Drug Treatment and Dosing Schedule
+Animal procedures were approved by the Center for Animal and Comparative
+Medicine in Harvard Medical School in accordance with the NIH Guild for the
+Care and Use of Laboratory Animals and the Animal Welfare Act. IPI-504
+
+(E) (Top 4 panels) Immunocytochemistry using a PML antibody (green) on tumors treated for 7 hr as indicated. (Bottom 2 panels) Dihydroethidium staining (red)
+of frozen MPNST tumor tissue depicting an increase in ROS levels in response to Rap/IPI-504 after 7 hr of treatment.
+(F) Kinetics of ROS induction in S462 cells in response to IPI-504/Rap.
+(G) Kinetics of the ratio of ADP/ATP in S462 cells in response to IPI-504/Rap. Note that ROS production precedes the increase in ADP/ATP levels (decrease
+in ATP).
+(H) SREBP1 mRNA levels in tumors from animals that were treated for 7 hr as indicated.
+(I) Immunoblots showing expression of FASN, ACC, and G6PD in tumors from animals treated for 7 hr as indicated. Actin serves as a loading control.
+(J) G6PD mRNA levels in individual tumors treated as described in (I).
+(K) Relative levels of reduced glutathione (GSH) in tumors treated with vehicle or rapamycin/IPI-504 (n-6).
+(L) Relative levels of cell death caused by IPI-504 in cells ectopically expressing G6PD or a GFP control plasmid. Immunoblot demonstrating G6PD protein levels
+in MPNSTs used in the left panel. (See also Figure S5.)
+
+Cancer Cell 20, 400–413, September 13, 2011 ª2011 Elsevier Inc. 411
+
+A Therapeutic Strategy for Ras-Driven Cancers
+
+Cancer Cell
+
+(100 mg/kg) was administered once or twice weekly. Thapsigargin (0.2 mg/kg)
+and tunicamycin (0.2 mg/kg) were administered twice a week. Rapamycin
+was administered daily at 5 mg/kg (Johannessen et al., 2008). Compounds
+given in combination were administered sequentially. Mice were treated daily
+with 40 mg/kg vitamin C by oral gavage before IP injections of rapamycin and
+IPI-504.
+
+Tumor Volume Measurements
+MPNST Model:
+Mice were enrolled in the study when tumor size reached 300–700mm3. Tumor
+size was measured every 2–3 days by Vernier calipers. Tumor volume was
+calculated using the standard formula L 3 W2 3 52. Tumor volume and log2
+of fold growth versus day 0 were calculated and graphed.
+Lung Cancer Model:
+Mice were infected with Adenoviral Cre (University of Iowa) by nasal instillation
+(Jackson et al., 2005). Tumor burden was determined by MRI 8 weeks after
+inhalation and again 1 week later (Engelman et al., 2008). Nine weeks after
+inhalation, tumor-bearing mice were divided into cohorts and were treated
+with single or double agents for 2 weeks. Lung tissues were harvested for
+histopathology after the last MRI. Fixed lung tissues were stained by H&E;
+tumor burden was subsequently analyzed using the ImageJ software (NIH).
+
+EM
+Tumor tissues were ﬁxed for EM after 7 and 16 hr of a single dose and further
+processed for standard EM techniques (Barth et al., 2010).
+
+Statistics
+All statistical analysis was performed using SYSTAT 12 software. For each da-
+taset, basic statistical values (mean and standard deviation) were calculated
+and normality determined (Shapiro-Wilk normality test); all datasets were
+normally distributed. Thapsigargin and IPI-504 were compared with vehicle-
+treated tumors; rapamycin/thapsigargin and rapamycin/IPI-504 were com-
+pared with rapamycin-only-treated tumors all by Student’s t test. Survival
+analysis was analyzed using the Mandel method. For the comparison of lung
+tumor burden in the lung cancer model we performed an ANOVA test, followed
+by Student’s t test.
+
+SUPPLEMENTAL INFORMATION
+
+Supplemental Information includes six ﬁgures and can be found with this
+article online at doi:10.1016/j.ccr.2011.08.014.
+
+ACKNOWLEDGMENTS
+
+(CA129814) and the Ludwig Center at DF/HCC; KWW:
+
+We thank Wade Harper, Steve Elledge, Nathanael Gray, Heather Harding, and
+Hugues de The´ for helpful discussions. This work was supported by the NCI
+KC:
+(CA122794,
+CA140594). TD is a recipient of the Young Investigator Award of the Children’s
+Tumor Foundation. OM is a Postdoctoral Fellow of the Research Foundation
+Flanders (FWO).
+
+Received: December 7, 2010
+Revised: May 27, 2011
+Accepted: August 12, 2011
+Published: September 12, 2011
+
+REFERENCES
+
+TCGA Consortium; Cancer Genome Atlas Research Network.
+(2008).
+Comprehensive genomic characterization deﬁnes human glioblastoma genes
+and core pathways. Nature 455, 1061–1068.
+
+Barth, S., Glick, D., and Macleod, K.F. (2010). Autophagy: assays and artifacts.
+J. Pathol. 221, 117–124.
+Belsey, M.A. (1973). The epidemiology of favism. Bull. World Health Organ. 48,
+1–13.
+
+Cawthon, R.M., Weiss, R., Xu, G.F., Viskochil, D., Culver, M., Stevens, J.,
+Robertson, M., Dunn, D., Gesteland, R., O’Connell, P., et al. (1990). A major
+
+segment of the neuroﬁbromatosis type 1 gene: cDNA sequence, genomic
+structure, and point mutations. Cell 62, 193–201.
+
+Cichowski, K., Shih, T.S., Schmitt, E., Santiago, S., Reilly, K., McLaughlin,
+M.E., Bronson, R.T., and Jacks, T. (1999). Mouse models of tumor develop-
+ment in neuroﬁbromatosis type 1. Science 286, 2172–2176.
+
+Dancey, J.E., Curiel, R., and Purvis, J. (2009). Evaluating temsirolimus activity
+in multiple tumors: a review of clinical trials. Semin. Oncol. 36 (Suppl 3 ), S46–
+S58.
+
+Dasgupta, B., Yi, Y., Chen, D.Y., Weber, J.D., and Gutmann, D.H. (2005).
+Proteomic analysis reveals hyperactivation of the mammalian target of rapa-
+mycin pathway in neuroﬁbromatosis 1-associated human and mouse brain
+tumors. Cancer Res. 65, 2755–2760.
+
+DeClue, J.E., Papageorge, A.G., Fletcher, J.A., Diehl, S.R., Ratner, N., Vass,
+W.C., and Lowy, D.R. (1992). Abnormal regulation of mammalian p21ras
+contributes to malignant tumor growth in von Recklinghausen (type 1) neuro-
+ﬁbromatosis. Cell 69, 265–273.
+
+Denoyelle, C., Abou-Rjaily, G., Bezrookove, V., Verhaegen, M., Johnson, T.M.,
+Fullen, D.R., Pointer, J.N., Gruber, S.B., Su, L.D., Nikiforov, M.A., et al. (2006).
+Anti-oncogenic role of the endoplasmic reticulum differentially activated by
+mutations in the MAPK pathway. Nat. Cell Biol. 8, 1053–1063.
+
+Ding, L., Getz, G., Wheeler, D.A., Mardis, E.R., McLellan, M.D., Cibulskis, K.,
+Sougnez, C., Greulich, H., Muzny, D.M., Morgan, M.B., et al. (2008). Somatic
+mutations affect key pathways in lung adenocarcinoma. Nature 455, 1069–
+1075.
+
+Douglas, M., Lim, A.R., Porter, J.R., West, K., Pink, M.M., Ge, J., Wylie, A.A.,
+Tibbits, T.T., Biggs, K., Curtis, M., et al. (2009). The antiproliferative activity
+of
+IPI-504 is not dependent on
+NAD(P)H:quinone oxidoreductase 1 activity in vivo. Mol. Cancer Ther. 8,
+3369–3378.
+
+the heat shock protein 90 inhibitor
+
+DuPage, M., Dooley, A.L., and Jacks, T. (2009). Conditional mouse lung cancer
+models using adenoviral or lentiviral delivery of Cre recombinase. Nat. Protoc.
+4, 1064–1072.
+
+Du¨ vel, K., Yecies, J.L., Menon, S., Raman, P., Lipovsky, A.I., Souza, A.L.,
+Triantafellow, E., Ma, Q., Gorski, R., Cleaver, S., et al. (2010). Activation of
+a metabolic gene regulatory network downstream of mTOR complex 1. Mol.
+Cell 39, 171–183.
+
+Efferth, T., Schwarzl, S.M., Smith, J., and Osieka, R. (2006). Role of glucose-6-
+phosphate dehydrogenase for oxidative stress and apoptosis. Cell Death
+Differ. 13, 527–528, author reply 529–530.
+
+Engelman, J.A., Chen, L., Tan, X., Crosby, K., Guimaraes, A.R., Upadhyay, R.,
+Maira, M., McNamara, K., Perera, S.A., Song, Y., et al. (2008). Effective use of
+PI3K and MEK inhibitors to treat mutant Kras G12D and PIK3CA H1047R
+murine lung cancers. Nat. Med. 14, 1351–1356.
+
+Hailey, D.W., Rambold, A.S., Satpute-Krishnan, P., Mitra, K., Sougrat, R., Kim,
+P.K., and Lippincott-Schwartz, J. (2010). Mitochondria supply membranes for
+autophagosome biogenesis during starvation. Cell 141, 656–667.
+Hanahan, D., and Weinberg, R.A. (2000). The hallmarks of cancer. Cell 100,
+57–70.
+
+Hayashi-Nishino, M., Fujita, N., Noda, T., Yamaguchi, A., Yoshimori, T., and
+Yamamoto, A. (2009). A subdomain of the endoplasmic reticulum forms
+a cradle for autophagosome formation. Nat. Cell Biol. 11, 1433–1437.
+
+Healy, S.J., Gorman, A.M., Mousavi-Shafaei, P., Gupta, S., and Samali, A.
+(2009). Targeting the endoplasmic reticulum-stress response as an anticancer
+strategy. Eur. J. Pharmacol. 625, 234–246.
+
+Ho¨ lzel, M., Huang, S., Koster, J., Ora, I., Lakeman, A., Caron, H., Nijkamp, W.,
+Xie, J., Callens, T., Asgharzadeh, S., et al. (2010). NF1 is a tumor suppressor in
+neuroblastoma that determines retinoic acid response and disease outcome.
+Cell 142, 218–229.
+
+Hotamisligil, G.S. (2010). Endoplasmic reticulum stress and the inﬂammatory
+basis of metabolic disease. Cell 140, 900–917.
+
+Jackson, E.L., Olive, K.P., Tuveson, D.A., Bronson, R., Crowley, D., Brown, M.,
+and Jacks, T. (2005). The differential effects of mutant p53 alleles on advanced
+murine lung cancer. Cancer Res. 65, 10280–10288.
+
+412 Cancer Cell 20, 400–413, September 13, 2011 ª2011 Elsevier Inc.
+
+Cancer Cell
+
+A Therapeutic Strategy for Ras-Driven Cancers
+
+Jeanne, M., Lallemand-Breitenbach, V., Ferhi, O., Koken, M., Le Bras, M.,
+Duffort, S., Peres, L., Berthier, C., Soilihi, H., Raught, B., and de The´ , H.
+(2010). PML/RARA oxidation and arsenic binding initiate the antileukemia
+response of As2O3. Cancer Cell 18, 88–98.
+
+Johannessen, C.M., Johnson, B.W., Williams, S.M., Chan, A.W., Reczek, E.E.,
+Lynch, R.C., Rioth, M.J., McClatchey, A., Ryeom, S., and Cichowski, K. (2008).
+TORC1 is essential for NF1-associated malignancies. Curr. Biol. 18, 56–62.
+
+Johannessen, C.M., Reczek, E.E., James, M.F., Brems, H., Legius, E., and
+Cichowski, K. (2005). The NF1 tumor suppressor critically regulates TSC2
+and mTOR. Proc. Natl. Acad. Sci. USA 102, 8573–8578, Epub 2005 Jun 8573.
+
+Karapetis, C.S., Khambata-Ford, S., Jonker, D.J., O’Callaghan, C.J., Tu, D.,
+Tebbutt, N.C., Simes, R.J., Chalchal, H., Shapiro, J.D., Robitaille, S., et al.
+(2008). K-ras mutations and beneﬁt from cetuximab in advanced colorectal
+cancer. N. Engl. J. Med. 359, 1757–1765.
+
+Kim, I., Xu, W., and Reed, J.C. (2008). Cell death and endoplasmic reticulum
+stress: disease relevance and therapeutic opportunities. Nat. Rev. Drug
+Discov. 7, 1013–1030.
+
+Klionsky, D.J., Abeliovich, H., Agostinis, P., Agrawal, D.K., Aliev, G., Askew,
+D.S., Baba, M., Baehrecke, E.H., Bahr, B.A., Ballabio, A., et al. (2008).
+Guidelines for the use and interpretation of assays for monitoring autophagy
+in higher eukaryotes. Autophagy 4, 151–175.
+
+Luo, J., Solimini, N.L., and Elledge, S.J. (2009). Principles of cancer therapy:
+oncogene and non-oncogene addiction. Cell 136, 823–837.
+
+Malhotra, J.D., and Kaufman, R.J. (2007). Endoplasmic reticulum stress and
+oxidative stress: a vicious cycle or a double-edged sword? Antioxid. Redox
+Signal. 9, 2277–2293.
+
+Marcu, M.G., Doyle, M., Bertolotti, A., Ron, D., Hendershot, L., and Neckers, L.
+(2002). Heat shock protein 90 modulates the unfolded protein response by
+stabilizing IRE1alpha. Mol. Cell. Biol. 22, 8506–8513.
+
+Martin, G.A., Viskochil, D., Bollag, G., McCabe, P.C., Crosier, W.J., Haubruck,
+H., Conroy, L., Clark, R., O’Connell, P., Cawthon, R.M., et al. (1990). The GAP-
+related domain of the neuroﬁbromatosis type 1 gene product interacts with ras
+p21. Cell 63, 843–849.
+
+Massey, A.J., Schoepfer, J., Brough, P.A., Brueggen, J., Che` ne, P., Drysdale,
+M.J., Pfaar, U., Radimerski, T., Ruetz, S., Schweitzer, A., et al.
+(2010).
+Preclinical antitumor activity of the orally available heat shock protein 90 inhib-
+itor NVP-BEP800. Mol. Cancer Ther. 9, 906–919.
+
+(2009). Proteasomal and genetic inactivation of
+
+McGillicuddy, L.T., Fromm, J.A., Hollstein, P.E., Kubek, S., Beroukhim, R.,
+De Raedt, T., Johnson, B.W., Williams, S.M., Nghiemphu, P., Liau, L.M.,
+et al.
+the NF1 tumor
+suppressor in gliomagenesis. Cancer Cell 16, 44–54.
+Meister, A., and Anderson, M.E. (1983). Glutathione. Annu. Rev. Biochem. 52,
+711–760.
+
+N’Diaye, E.N., Kajihara, K.K., Hsieh, I., Morisaki, H., Debnath, J., and Brown,
+E.J. (2009). PLIC proteins or ubiquilins regulate autophagy-dependent cell
+survival during nutrient starvation. EMBO Rep. 10, 173–179.
+
+Ozcan, U., Ozcan, L., Yilmaz, E., Du¨ vel, K., Sahin, M., Manning, B.D., and
+Hotamisligil, G.S.
+(2008). Loss of the tuberous sclerosis complex tumor
+suppressors triggers the unfolded protein response to regulate insulin
+signaling and apoptosis. Mol. Cell 29, 541–551.
+
+6-phosphate dehydrogenase (G6PD): G6PD is dispensable for pentose
+synthesis but essential for defense against oxidative stress. EMBO J. 14,
+5209–5215.
+
+Pankiv, S., Clausen, T.H., Lamark, T., Brech, A., Bruun, J.A., Outzen, H.,
+Øvervatn, A., Bjørkøy, G., and Johansen, T. (2007). p62/SQSTM1 binds
+directly to Atg8/LC3 to facilitate degradation of ubiquitinated protein aggre-
+gates by autophagy. J. Biol. Chem. 282, 24131–24145.
+
+Parsons, D.W., Jones, S., Zhang, X., Lin, J.C., Leary, R.J., Angenendt, P.,
+Mankoo, P., Carter, H., Siu, I.M., Gallia, G.L., et al. (2008). An integrated
+genomic analysis of human glioblastoma multiforme. Science 321, 1807–
+1812.
+
+Porstmann, T., Santos, C.R., Grifﬁths, B., Cully, M., Wu, M., Leevers, S.,
+Grifﬁths, J.R., Chung, Y.L., and Schulze, A. (2008). SREBP activity is regulated
+by mTORC1 and contributes to Akt-dependent cell growth. Cell Metab. 8,
+224–236.
+
+Ramanathan, R.K., Egorin, M.J., Eiseman, J.L., Ramalingam, S., Friedland, D.,
+Agarwala, S.S., Ivy, S.P., Potter, D.M., Chatta, G., Zuhowski, E.G., et al. (2007).
+Phase I and pharmacodynamic study of 17-(allylamino)-17-demethoxygelda-
+namycin in adult patients with refractory advanced cancers. Clin. Cancer
+Res. 13, 1769–1774.
+
+Ron, D., and Walter, P. (2007). Signal integration in the endoplasmic reticulum
+unfolded protein response. Nat. Rev. Mol. Cell Biol. 8, 519–529.
+
+Sreedhar, A.S., Miha´ ly, K., Pato´ , B., Schnaider, T., Steta´ k, A., Kis-Petik, K.,
+Fidy, J., Simonics, T., Maraz, A., and Csermely, P. (2003). Hsp90 inhibition
+accelerates cell lysis. Anti-Hsp90 ribozyme reveals a complex mechanism of
+Hsp90 inhibitors involving both superoxide- and Hsp90-dependent events.
+J. Biol. Chem. 278, 35231–35240.
+
+Sydor, J.R., Normant, E., Pien, C.S., Porter, J.R., Ge, J., Grenier, L., Pak, R.H.,
+Ali, J.A., Dembski, M.S., Hudak, J., et al. (2006). Development of 17-allyla-
+mino-17-demethoxygeldanamycin hydroquinone hydrochloride (IPI-504), an
+anti-cancer agent directed against Hsp90. Proc. Natl. Acad. Sci. USA 103,
+17408–17413.
+
+Szeinberg, A., Asher, Y., and Sheba, C. (1958). Studies on glutathione stability
+in erythrocytes of cases with past history of favism or sulfa-drug-induced
+hemolysis. Blood 13, 348–358.
+
+Taipale, M., Jarosz, D.F., and Lindquist, S. (2010). HSP90 at the hub of protein
+homeostasis: emerging mechanistic insights. Nat. Rev. Mol. Cell Biol. 11,
+515–528.
+
+Tang, Y.C., Williams, B.R., Siegel, J.J., and Amon, A. (2011). Identiﬁcation of
+aneuploidy-selective antiproliferation compounds. Cell 144, 499–512.
+
+Whitesell, L., and Lindquist, S.L. (2005). HSP90 and the chaperoning of cancer.
+Nat. Rev. Cancer 5, 761–772.
+
+Xu, Y., Zhang, Z., Hu, J., Stillman, I.E., Leopold, J.A., Handy, D.E., Loscalzo, J.,
+and Stanton, R.C.
+(2010). Glucose-6-phosphate dehydrogenase-deﬁcient
+mice have increased renal oxidative stress and increased albuminuria.
+FASEB J. 24, 609–616.
+
+Yla¨ -Anttila, P., Vihinen, H., Jokitalo, E., and Eskelinen, E.L.
+(2009). 3D
+tomography reveals connections between the phagophore and endoplasmic
+reticulum. Autophagy 5, 1180–1185.
+
+Pandolﬁ, P.P., Sonati, F., Rivi, R., Mason, P., Grosveld, F., and Luzzatto, L.
+(1995). Targeted disruption of the housekeeping gene encoding glucose
+
+Young, A., Lyons, J., Miller, A.L., Phan, V.T., Alarco´ n, I.R., and McCormick, F.
+(2009). Ras signaling and therapies. Adv. Cancer Res. 102, 1–17.
+
+Cancer Cell 20, 400–413, September 13, 2011 ª2011 Elsevier Inc. 413
+
+

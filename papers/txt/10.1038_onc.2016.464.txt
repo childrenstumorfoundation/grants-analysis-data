@@ -1,0 +1,3153 @@
+Oncogene (2017) 36, 3168–3177
+© 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved 0950-9232/17
+www.nature.com/onc
+
+ORIGINAL ARTICLE
+The primacy of NF1 loss as the driver of tumorigenesis in
+neuroﬁbromatosis type 1-associated plexiform neuroﬁbromas
+A Pemov1, H Li2, R Patidar3, NF Hansen4, S Sindiri3, SW Hartley5, JS Wei3, A Elkahloun4, SC Chandrasekharappa4, NISC Comparative
+Sequencing Program6, JF Boland7, S Bass7, NCI DCEG Cancer Genomics Research Laboratory7, JC Mullikin4,6, J Khan3, BC Widemann8,
+MR Wallace2 and DR Stewart1
+
+Neuroﬁbromatosis type 1 (NF1) is a common tumor-predisposition disorder due to germline mutations in the tumor suppressor
+gene NF1. A virtually pathognomonic ﬁnding of NF1 is the plexiform neuroﬁbroma (PN), a benign, likely congenital tumor that
+arises from bi-allelic inactivation of NF1. PN can undergo transformation to a malignant peripheral nerve sheath tumor, an
+aggressive soft-tissue sarcoma. To better understand the non-NF1 genetic contributions to PN pathogenesis, we performed whole-
+exome sequencing, RNASeq proﬁling and genome-wide copy-number determination for 23 low-passage Schwann cell cultures
+established from surgical PN material with matching germline DNA. All resected tumors were derived from routine debulking
+surgeries. None of the tumors were considered at risk for malignant transformation at the time; for example, there was no pain or
+rapid growth. Deep (~500X) NF1 exon sequencing was also conducted on tumor DNA. Non-NF1 somatic mutation veriﬁcation was
+performed using the Ampliseq/IonTorrent platform. We identiﬁed 100% of the germline NF1 mutations and found somatic NF1
+inactivation in 74% of the PN. One individual with three PNs had different NF1 somatic mutations in each tumor. The median
+number of somatic mutations per sample, including NF1, was one (range 0–8). NF1 was the only gene that was recurrently
+somatically inactivated in multiple tumors. Gene Set Enrichment Analysis of transcriptome-wide tumor RNA sequencing identiﬁed
+ﬁve signiﬁcant (FDRo0.01) and seven trending (0.01 ⩽ FDRo0.02) gene sets related to DNA replication, telomere maintenance
+and elongation, cell cycle progression, signal transduction and cell proliferation. We found no recurrent non-NF1 locus copy-
+number variation in PN. This is the ﬁrst multi-sample whole-exome and whole-transcriptome sequencing study of NF1-associated
+PN. Taken together with concurrent copy-number data, our comprehensive genetic analysis reveals the primacy of NF1 loss as the
+driver of PN tumorigenesis.
+
+Oncogene (2017) 36, 3168–3177; doi:10.1038/onc.2016.464; published online 9 January 2017
+
+INTRODUCTION
+Neuroﬁbromatosis type 1 (NF1) is a common (1/3,000), autosomal
+dominant, fully penetrant neurocutaneous tumor-predisposition
+disorder that is caused by mutations in the tumor suppressor
+gene NF1, located on chromosome 17q11.2.1 It is diagnosed using
+well-established clinical criteria2 that emphasize speciﬁc hallmark
+features including café-au-lait macules,
+intertriginous freckling,
+neuroﬁbromas, optic pathway gliomas, and speciﬁc bone dyspla-
+sias. A virtually pathognomonic ﬁnding of NF1 is the plexiform
+neuroﬁbroma (PN), an often-congenital neuroﬁbroma that affects
+30% (when deﬁned clinically3)
+to 56% (when identiﬁed by
+imaging4) of people with the disorder. Malignant peripheral nerve
+sheath tumors (MPNSTs) are aggressive soft-tissue sarcomas with
+limited therapeutic options that frequently arise from PN. People
+with NF1 have a lifetime risk of about 15% to develop MPNST.5,6
+PNs arise from within spinal, cranial and peripheral nerves and
+typically involve multiple nerve roots or the length of a single
+nerve and may occur anywhere, although there is a predilection
+for neck and trunk, at least in those patients enrolling in treatment
+
+trials.7 The growth of PN tends to track with that of the individual,
+tapering off in late adolescence, although in some patients the
+growth rate is unpredictable and can be very disﬁguring,
+especially early in childhood.8 Some PNs may not be diagnosed
+until adulthood, and thus the timing of the origin is unknown.
+Prognostication of PN growth for a speciﬁc patient is difﬁcult, and
+no therapies, other than surgery, are effective, despite a number
+of trials testing novel agents.9,10 Clinically,
+in addition to their
+contribution to MPNST pathogenesis, PNs are a signiﬁcant cause
+of morbidity due to their propensity for local
+invasion, bone
+erosion, organ compression, chronic pain and untoward esthetics.
+Histologically, PN are similar to solitary neuroﬁbromas and are
+composed of myxoid stroma and a cellular component. The
+cellular element is heterogeneous and complex and consists
+primarily of S-100-positive Schwann cells (60–80%)11 but also
+ﬁbroblasts, endothelial cells, perineurial cells, smooth muscle cells,
+mast cells,
+In
+neuroﬁbromas, the Schwann cell
+is the primary neoplastic cell
+and is the only cell to harbor a ‘second hit’ in the NF1 gene.13,14
+
+interspersed axons and pericytes.12
+
+residual
+
+1Clinical Genetics Branch, Division of Cancer Epidemiology and Genetics, National Cancer Institute, Rockville, MD, USA; 2Department of Molecular Genetics and Microbiology, UF
+Genetics Institute, UF Health Cancer Center, University of Florida, Gainesville, FL, USA; 3Genetics Branch, Center for Cancer Research, National Cancer Institute, Bethesda, MD, USA;
+4Cancer Genetics and Comparative Genomics Branch, National Human Genome Research Institute, Rockville, MD, USA; 5Human Genetics Program, Division of Cancer
+Epidemiology and Genetics, National Cancer Institute, Rockville, MD, USA; 6NIH Intramural Sequencing Center, National Human Genome Research Institute, Rockville, MD, USA;
+7Cancer Genomics Research Laboratory, Division of Cancer Epidemiology and Genetics, National Cancer Institute, Rockville, MD, USA and 8Pediatric Oncology Branch, Center for
+Cancer Research, National Cancer Institute, Bethesda, MD, USA. Correspondence: Dr DR Stewart, Division of Cancer Epidemiology and Genetics, National Cancer Institute, 9609
+Medical Center Drive Rm 6E450, Bethesda, MD 20892, USA.
+E-mail: drstewart@mail.nih.gov
+Received 23 October 2015; revised 2 November 2016; accepted 5 November 2016; published online 9 January 2017
+
+Exome and transcriptome sequencing of plexiform neuroﬁbromas
+A Pemov et al
+
+3169
+
+Although it is clear that NF1 nullizygosity in a subset of Schwann
+cells is critical for PN development, we have limited or conﬂicting
+understanding of the other genetic factors that contribute to PN
+tumorigenesis. From family studies, we know that PN burden is
+heritable15 and not associated with the type of germline NF1
+mutation16 or wildtype NF1 allele.15 The noncoding RNA ANRIL has
+been proposed as a modiﬁer of PN burden.17 MPNSTs, unlike PNs,
+are complex, genetically rearranged tumors that harbor somatic
+mutations or copy-number changes in TP53, CDKN2A/B, EGFR,
+mTOR, ERBB2, KIT, HGF, MET, SUZ12 and PDGFRA.18–21 One
+microarray study found the only recurrent somatic alteration in
+PN were deletions of the CDKN2A/B-ANRIL locus at 9p21.3 in 6/22
+tumors.17 Activation of the WNT signaling pathway may also be a
+feature of PN and MPNST tumorigenesis.19 We are aware of only
+one publication that exome-sequenced a single PN as part of its
+malignant transformation to a MPNST.22
+
+To better understand the non-NF1 genetic contributions to PN
+pathogenesis, we performed whole-exome sequencing, RNASeq
+proﬁling and copy-number determination for 23 low-passage
+Schwann cell cultures established from surgical PN material.
+
+RESULTS
+Whole exome-sequencing (WES) of 23 NF1-associated PNs with
+matching germline DNA resulted in high conﬁdence genotypes
+(most probable genotype quality score410) in ~ 90% of target
+nucleotides. The average depth of coverage was 55X and 63X for
+germline and tumor DNA, respectively (Supplementary Table S1).
+
+Identiﬁcation of germline and somatic mutations in NF1
+In addition to WES, we performed deep sequencing (~500X) of the
+coding part of NF1 in all PNs on the IonTorrent platform. We
+identiﬁed germline NF1 mutations in 100% of the 23 samples
+
+(Figure 1, Supplementary Table S2A). Note that two of the samples
+were tumors from monozygous twins (PN23 and PN24) and three
+samples were independent
+tumors from the same patient
+obtained at different times (PN25, PN26 and PN28), for a total of
+21 independent NF1 germline mutations. Germline mutation type
+in decreasing order of frequency were: frame-shifting indels (38%),
+nonsense (33%), splice-site (14%), missense (10%) and a single
+total gene deletion (5%; Table 1). All mutations except two were
+truncating, affected splice-sites and/or were reported in HGMD as
+pathogenic. Of the two exceptions, the missense mutation in
+PN11 (exon21, c.2542G4T, G848W) results in substitution of
+glycine, the smallest aliphatic amino acid, by tryptophan, a bulky
+aromatic compound, likely leading to signiﬁcant modiﬁcation or
+inactivation of the protein function. It is also not observed in the
+ExAC reference of 61,000 exomes. The second exception was a
+silent substitution in PN19 (exon31, c.4269G4A, p.K1423K). This
+synonymous missense mutation is not observed in ExAC and
+results in a cryptic splice site that results in an in-frame loss of
+27 bp of coding sequence. Therefore we consider
+the two
+‘exceptions’ to also be pathogenic germline mutations.
+
+We identiﬁed somatic NF1 mutations in 74% of the 23 tumors
+(Table 1 and Supplementary Table S2B). There were 7 (30%) large
+deletions, 6 (26%) nonsense and 2 (9%) frame-shifting variants. We
+found two somatic NF1 missense mutations (R997K in PN9, and
+G2481E in PN11) that appear pathogenic because they affect
+conserved residues and are de novo hits in the NF1 gene with no
+other apparent pathogenic somatic mutation. Both variants have
+CADD scores 420 and thus are predicted to be in the top 1% of
+deleteriousness.23 Neither of these somatic missense mutations
+were previously reported in HGMD, COSMIC or ExAC. R997K in PN9
+was detected by both WES and IonTorrent sequencing and
+appears to be present in the majority of tumor cells, while G2481E
+in PN11 was identiﬁed by IonTorrent only and is present only in a
+small number of cells. Two tumors (PN21 and PN26) showed two
+
+Figure 1. Distribution of germline (upper panel) and somatic (lower panel) NF1 mutations among 23 plexiform neuroﬁbromas. Black and
+green dots represent truncating (nonsense, frame-shifting indels and splice-site substitutions) and missense mutations, respectively. Green
+and red rectangles represent the RAS-GAP and CRAL/TRIO (SEC14-like) domains, respectively. Note that germline substitutions K583R and
+K1423K result in splicing defects and therefore depicted with black dots. The germline nonsense mutation R816X was found in two unrelated
+individuals, and the germline frame-shifting mutation L2112fs was found in monozygotic twins and was counted for both individuals. Large
+deletions are not shown on the diagram (for details see Supplementary Tables S2A and B).
+
+© 2017 Macmillan Publishers Limited, part of Springer Nature.
+
+Oncogene (2017) 3168 – 3177
+
+Exome and transcriptome sequencing of plexiform neuroﬁbromas
+A Pemov et al
+
+3170
+
+somatic mutations each (a missense variant accompanied by
+either a nonsense (PN21) or frameshifting (PN26) variant), that
+were identiﬁed by IonTorrent deep sequencing but not WES.
+
+All frame-shifting small
+
+indels detected in germline and tumor
+DNA were novel, whereas the majority of nonsense, and splice-site
+point substitutions had been previously reported. Germline and
+somatic missense mutations were both previously reported and
+novel. Importantly, in the patient with the three different PN (PN25,
+PN26, PN28), three different second hits in NF1 occurred, suggesting
+a stochastic random deactivation of the normal copy of the gene, as
+ﬁrst proposed by Colman et al.24
+
+NF1 expression in PN and normal schwann cells
+Compared with normal Schwann cells (100%), median NF1 expres-
+sion in PN was 53% (range: 16–107%; Figure 2). Samples with lower
+expression values of NF1 (lower half of samples in Figure 2a) had a
+higher number of total/partial gene deletions (6 vs 1), as well as
+frame-shifting indels (8 vs 5) and nonsense mutations (7 vs 5)
+compared with the samples with higher expression values of the
+gene. This observation is consistent with the previous ﬁndings that
+nonsense and frame-shifting mutations may trigger some degree of
+nonsense mediated decay of RNA molecules with multiple stop
+codons. Interestingly, samples without second hits were found in the
+upper half of the expression value distribution (Figure 2).
+
+NF1 as the sole driver in pathogenesis of plexiform neuroﬁbromas
+Besides NF1, we identiﬁed 26 high-conﬁdence somatic mutations;
+19 (73%) were non-synonymous and 15 (58%) were potentially
+damaging (Table 2; Supplementary Table S3). Three of the 15
+
+potentially damaging variants were in recognized cancer genes
+(BRCA1, FGFR1 and RNF43). Three variants (FGFR1, RNF43 and
+ELMOD3) have been observed a total of four times in The Cancer
+Genome Atlas. None of the 26 non-NF1 somatic mutations have
+been reported in other NF1-associated tumors, including lower-
+grade glioma,25 soft-tissue sarcoma26 or glioblastoma27,28 sequen-
+cing projects. NF1 was the only gene that was somatically mutated
+in multiple samples. The lack of recurrent, deleterious mutations in
+biologically plausible genes suggests that
+these variants are
+‘passengers’ and not primary drivers of plexiform neuroﬁbroma-
+genesis. The distribution of these 15 non-NF1 putatively-damaging
+somatic mutations among the 23 PN tumors is shown in Table 3;
+only ﬁve tumors (22%) had potentially damaging somatic
+mutations outside of the NF1 locus. The median number of
+somatic mutations per sample (including mutations in NF1) was
+one (range 0–8). Interestingly, only six out of these 15 genes were
+expressed in the tumors or normal Schwann cells as determined
+by RNAseq analysis, suggesting that only a minor proportion of
+mutations could potentially play a role in tumor phenotype.
+
+RNA sequencing-based PN transcriptome analysis reveals
+perturbed expression of DNA replication, cell cycle and telomere
+maintenance pathways
+We analyzed expression of 11293 genes in PNs and cultured
+normal (wild-type) Schwann cells with the Molecular Signature
+Database and identiﬁed ﬁve signiﬁcantly-altered gene sets
+(FDRo 0.01) and seven trending (0.01 ⩽ FDRo 0.02) sets in
+the ‘Curated’,
+‘Gene Ontology’ and ‘Oncogenic
+Signatures’ collections (Supplementary Table S4; Figure 3).
+
+‘Hallmark’,
+
+Table 1.
+
+Types and number (percentage) of germline and somatic NF1 mutations in 21 germline and 23 PN samples
+
+Nonsense
+
+Frameshifting
+
+In-frame Missense
+
+Splice
+
+Total or partial NF1 deletion or copy-neutral LOH
+
+Not detected
+
+Total
+
+Germline
+Somatic
+
+7 (33)
+6 (26)
+
+8 (38)
+2 (9)
+
+0 (0)
+0 (0)
+
+2 (10)
+2 (9)
+
+3 (14)
+0 (0)
+
+1 (5)
+7 (30)
+
+0 (0)
+6 (26)
+
+21 (100)
+23 (100)
+
+Sample_Cell ID
+
+Normal Schwann cells
+
+Germline/Somatic NF1 
+
+mutation
+NA/NA
+
+PN12_pNF00.8
+PN13_pNF01.1
+PN29_pNF99.5
+PN14_pNF04.5
+PN19_pNF03.3
+PN11_pNF06.2A
+PN26_pNF05.10
+PN24_pNF05.4
+PN22_pNF04.8
+PN9_pNF01.2B
+PN21_pNF04.6
+PN16_pNF00.6
+PN27_pNF08.1
+PN17_pNF01.3
+PN23_pNF05.3
+PN8_pNF04.4
+PN28_pNF09.3
+PN15_pNF05.8
+PN7_pNF03.4
+PN10_pNF95.6
+PN25_pNF05.5
+PN5_pNF95.11b
+PN6_pNF00.13
+
+Stop/Not detected
+Splicing/Frameshift
+
+Missense/Not detected
+
+Stop/PGD
+
+Splicing/Not detected
+Missense/Missense
+Frameshift/Frameshift
+Frameshift/Not detected
+Frameshift/Not detected
+
+Frameshift/Stop
+Splicing/Stop
+
+Stop/Stop
+
+Frameshift/TGD
+Frameshift/TGD
+Frameshift/TGD
+
+Stop/Missense
+
+Stop/Stop
+
+TGD/Not detected
+Frameshift/CN-LOH
+
+Stop/TGD
+
+Frameshift/Stop
+
+Stop/PGD
+
+Frameshift/Frameshift
+
+Normalized 
+expression (%)
+
+100
+
+107
+105
+94
+89
+87
+73
+63
+62
+60
+56
+54
+53
+51
+49
+44
+39
+38
+38
+26
+26
+22
+19
+16
+
+120
+
+100
+
+80
+
+60
+
+40
+
+20
+
+)
+
+%
+
+(
+ 
+n
+o
+i
+s
+s
+e
+r
+p
+x
+E
+d
+e
+z
+i
+l
+a
+m
+r
+o
+N
+
+ 
+
+0
+
+NA/NA 
+
+Stop/Not detected 
+Stop/Stop 
+Frameshift/Stop 
+Frameshift/Stop 
+TGD/Not detected 
+Frameshift/TGD 
+Stop/Missense 
+Stop/PGD 
+Stop/Stop 
+Frameshift/TGD 
+Frameshift/TGD 
+Splicing/Stop 
+Stop/TGD 
+Frameshift/CN-LOH 
+Frameshift/Frameshift 
+Frameshift/Not detected 
+Frameshift/Frameshift 
+Stop/PGD 
+Frameshift/Not detected 
+Missense/Missense 
+Missense/Not detected 
+Splicing/Not detected 
+Splicing/Frameshift 
+
+Figure 2. NF1 expression in PN and normal Schwann cells. (a) Table shows sample or cell identiﬁcation, type of the germline and somatic
+mutations in NF1 and expression values compared with that in normal Schwann cells (%). The PN sample with the median expression value
+(53%) is highlighted with red font. CN-LOH: Copy Neutral Loss Of Heterozygosity; PGD: Partial Gene Deletion; TGD: Total Gene Deletion. (b) Bar
+graph of the values shown in (a). Sample with the median expression value (53%) is shown in red. NA, not applicable.
+
+Oncogene (2017) 3168 – 3177
+
+© 2017 Macmillan Publishers Limited, part of Springer Nature.
+
+Exome and transcriptome sequencing of plexiform neuroﬁbromas
+A Pemov et al
+
+3171
+
+Table 2. Non-NF1 mutations identiﬁed by WES and veriﬁed by AmpliSeq/IonTorrent
+
+Gene ID
+
+Chr
+
+Position
+
+Ref
+
+Alt Mutation type
+
+ExAC frequency Mutation deleteriousness Gene expression
+
+Sample ID Cell ID
+
+TNFRSF11B
+SLC25A5
+KIF2B
+PLEKHG4
+TENM1
+LRIG3
+PADI1
+FREM1
+OR4S1
+IL7R
+OTX2
+USP18
+FGFR1
+BRCA1
+WDHD1
+LAMA5
+ADAM11
+ABHD15
+ELMOD3
+DNAH17
+TGM4
+RNF43
+UNC5D
+CNTN2
+GREB1
+POU4F2
+
+8
+X
+17
+16
+X
+12
+1
+9
+11
+5
+14
+22
+8
+17
+14
+20
+17
+17
+2
+17
+3
+17
+8
+1
+2
+4
+
+119 936 782 A
+118 605 018 A
+C
+51 900 433
+67 322 137
+G
+123 654 614 G
+59 284 551 G
+A
+17 531 755
+G
+14 857 623
+48 328 256
+C
+35 873 605 G
+G
+57 268 991
+18 652 695
+C
+38 271 301 G
+41 244 982 A
+55 408 293
+T
+C
+60 899 525
+C
+42 851 945
+C
+27 889 968
+G
+85 598 245
+G
+76 455 168
+44 948 656
+C
+56 435 552 G
+35 579 857
+A
+205 031 633 G
+11 767 136
+C
+147 561 811 G
+
+Synonymous
+Synonymous
+Synonymous
+Synonymous
+Synonymous
+
+G Missense
+C
+G
+T
+T
+T
+G Missense
+Synonymous
+A
+Missense
+T
+Synonymous
+A
+Missense
+A
+T
+Missense
+A Missense
+G Missense
+A
+Missense
+Missense
+T
+Missense
+T
+Missense
+T
+Missense
+A
+Missense
+A
+T
+Missense
+A Missense
+Missense
+T
+Missense
+A
+Missense
+T
+T
+Stop_gained
+
+0
+
+4.47E-04
+5.53E-04
+
+0
+0
+
+0.029
+1.55E-04
+
+0
+
+2.28E-04
+0.012
+
+0
+
+3.02E-04
+3.83E-03
+1.51E-03
+
+0
+
+4.91E-05
+3.90E-04
+6.51E-05
+5.77E-04
+1.38E-03
+9.76E-05
+2.42E-03
+
+0
+0
+
+1.55E-04
+
+0
+
+Tolerated
+Tolerated
+Tolerated
+Tolerated
+Tolerated
+Tolerated
+Tolerated
+Tolerated
+Tolerated
+Tolerated
+Tolerated
+Damaging
+Damaging
+Damaging
+Damaging
+Damaging
+Damaging
+Damaging
+Damaging
+Damaging
+Damaging
+Damaging
+Damaging
+Damaging
+Damaging
+Damaging
+
+Not expressed
+Expressed
+Not expressed
+Expressed
+Not expressed
+Expressed
+Not expressed
+Not expressed
+Not expressed
+Expressed
+Not expressed
+Expressed
+Expressed
+Expressed
+Expressed
+Not expressed
+Not expressed
+Expressed
+Expressed
+Not expressed
+Not expressed
+Not expressed
+Not expressed
+Not expressed
+Not expressed
+Not expressed
+
+PN6
+PN9
+PN27
+PN26
+PN22
+PN9
+PN9
+PN9
+PN26
+PN9
+PN28
+PN9
+PN9
+PN27
+PN26
+PN9
+PN27
+PN6
+PN9
+PN27
+PN9
+PN9
+PN9
+PN26
+PN26
+PN13
+
+pNF00.13
+pNF01.2B
+pNF08.1
+pNF05.10
+pNF04.8
+pNF01.2B
+pNF01.2B
+pNF01.2B
+pNF05.10
+pNF01.2B
+pNF09.3
+pNF01.2B
+pNF01.2B
+pNF08.1
+pNF05.10
+pNF01.2B
+pNF08.1
+pNF00.13
+pNF01.2B
+pNF08.1
+pNF01.2B
+pNF01.2B
+pNF01.2B
+pNF05.10
+pNF05.10
+pNF01.1
+
+Gene name, chromosomal location (hg19), reference and alternative alleles, type of mutation, frequency of variant allele in ExAC db, mutation deleteriousness
+as predicted by PolyPhen, SIFT and CADD (mutation was considered damaging if it was classiﬁed as probably or possibly damaging by PolyPhen, OR
+deleterious by SIFT, OR its CADD score was above 20), the status of the gene expression in PNs and normal Schwann cells as measured by total transcriptome
+sequencing and sample and cell IDs are shown. Known cancer genes are shown in bold font.
+
+Eight gene sets were up-regulated and four gene-sets were
+down-regulated in PN compared with normal Schwann cells.
+There were 300 genes in the 12 sets that contributed to the
+enrichment score (the leading-edge genes), and 60 genes
+were found in at least two different gene sets (Supplementary
+Table S4). Plotting expression of these genes in tumors vs
+normal Schwann cells revealed that 52 of
+them found in
+up-regulated sets were moderately overexpressed and eight
+genes found in down-regulated sets were under-expressed in
+tumors (Figure 4).
+
+Copy-number analysis identiﬁes no recurrent non-NF1 copy
+number variations
+Remarkably, we did not identify a single signiﬁcant recurrent copy
+number variation (CNV) outside of the NF1 locus by Nexus analysis.
+We found copy-neutral loss of heterozygosity (LOH) affecting the
+entire q-arm of chromosome 17 in a single tumor (PN27) by both
+ASCAT and Nexus consistent with mitotic recombination; six
+additional smaller partial or total NF1 deletions were identiﬁed with
+the Nexus algorithm only (Supplementary Table S5). The size of the
+deletions ranged from 66 kb (ten exons in the middle of the NF1
+gene) to over 24 Mb (the entire 17q-arm). None of the somatic
+deletions extended into the 17p arm, where TP53 resides, however,
+in four tumors the deletion also comprised entire SUZ12, which is
+frequently inactivated in MPNSTs.
+
+DISCUSSION
+This study is the ﬁrst multi-sample whole-exome and whole
+transcriptome sequencing analysis of NF1-associated PN. Previous
+work in PN has focused on their cell of origin and micro-
+environment,29
+of
+
+pathways,19
+
+dysregulated
+
+and
+
+timing
+
+development.30 One study of WES of PN, MPNST and associated
+metastases samples collected from a single patient over 14 years
+found a very limited number of mutations in the PN samples, none
+of which overlapped with our ﬁndings. No copy-number changes
+were detected in three PN samples from the single patient.22
+Cytogenetic abnormalities have been identiﬁed more frequently
+in cells derived from PN than from dermal neuroﬁbromas,
+however no consistent chromosomal
+regions with abnormal
+karyotypes have been identiﬁed in PN.31 From this work, we
+establish that the overall exome mutation rate in PN is very low
+and comparable with pediatric malignancies. The somatic variants
+(other than NF1) that were conﬁrmed on a second platform
+appeared in one sample only and most were not predicted to be
+signiﬁcantly pathogenic. Furthermore, the majority were found in
+genes that were not expressed in the tumors or normal Schwann
+cells. We found no recurrent copy-number variation in PN outside
+the NF1 locus. Despite the low number of somatic mutations and
+CNVs in PN, we observed that expression of 300 genes in several
+key cellular processes, such as DNA replication initiation and
+strand elongation, cell cycle progression and telomere main-
+tenance and extension, was perturbed. Taken together, our
+comprehensive genetic analysis reveals the primacy of NF1 loss
+as the driver of plexiform neuroﬁbroma tumorigenesis.
+
+We identiﬁed germline NF1 mutations in 100% of the samples
+and a somatic NF1 ‘second hit’
+in 74% of PN, a rate that is
+comparable with previous studies.32 We deep-sequenced (500X)
+all NF1 exons and intron-exon boundaries in the PN and therefore
+it is unlikely that we missed any mutations or short indels in those
+regions. We also carefully examined NF1 RNA transcripts from PN
+for evidence of aberrantly spliced species, which may have
+suggested the presence of deep intronic mutations, but did not
+ﬁnd any (data not shown). We acknowledge that the SNP arrays
+we used have limited resolution and would likely fail to detect
+
+© 2017 Macmillan Publishers Limited, part of Springer Nature.
+
+Oncogene (2017) 3168 – 3177
+
+Exome and transcriptome sequencing of plexiform neuroﬁbromas
+A Pemov et al
+
+3172
+
+8
+1
+P
+S
+U
+
+1
+R
+F
+G
+F
+
+1
+A
+C
+R
+B
+
+1
+D
+H
+D
+W
+
+5
+A
+M
+A
+L
+
+5
+1
+D
+H
+B
+A
+
+1
+1
+M
+A
+D
+A
+
+3
+D
+O
+M
+L
+E
+
+7
+1
+H
+A
+N
+D
+
+4
+M
+G
+T
+
+3
+4
+F
+N
+R
+
+D
+5
+C
+N
+U
+
+2
+N
+T
+N
+C
+
+1
+B
+E
+R
+G
+
+2
+F
+4
+U
+O
+P
+
+c
+i
+t
+a
+m
+o
+s
+-
+1
+F
+N
+
+e
+n
+
+i
+l
+
+m
+r
+e
+g
+-
+1
+F
+N
+
+y
+r
+e
+g
+r
+u
+s
+
+t
+a
+
+e
+g
+A
+
+D
+
+I
+
+l
+
+e
+p
+m
+a
+S
+
+N
+P
+
+3
+2
+
+g
+n
+o
+m
+a
+
+1
+F
+N
+
+n
+
+i
+
+s
+t
+i
+h
+
+c
+i
+t
+a
+m
+o
+s
+
+d
+n
+a
+
+e
+n
+
+i
+l
+
+m
+r
+e
+g
+
+s
+a
+
+l
+l
+
+e
+w
+s
+a
+
+s
+n
+o
+i
+t
+a
+t
+u
+m
+g
+n
+g
+a
+m
+a
+d
+
+i
+
+y
+
+l
+l
+
+a
+i
+t
+n
+e
+t
+o
+p
+
+1
+F
+N
+-
+n
+o
+n
+
+5
+1
+
+f
+o
+
+n
+o
+i
+t
+u
+b
+i
+r
+t
+s
+i
+D
+
+.
+3
+
+e
+l
+b
+a
+T
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+d
+n
+u
+o
+F
+
+2
+4
+
+1
+3
+
+6
+1
+
+5
+1
+
+4
+3
+
+6
+3
+
+0
+2
+
+2
+2
+
+5
+3
+
+3
+
+9
+6
+
+9
+3
+
+3
+4
+
+8
+5
+
+9
+
+1
+2
+
+1
+3
+
+4
+2
+
+3
+2
+
+5
+
+7
+2
+
+1
+2
+
+5
+
+6
+2
+N
+P
+
+7
+2
+N
+P
+
+6
+N
+P
+
+3
+1
+N
+P
+
+8
+2
+N
+P
+
+9
+N
+P
+
+5
+N
+P
+
+7
+N
+P
+
+8
+N
+P
+
+0
+1
+N
+P
+
+1
+1
+N
+P
+
+4
+1
+N
+P
+
+5
+1
+N
+P
+
+7
+1
+N
+P
+
+1
+2
+N
+P
+
+3
+2
+N
+P
+
+5
+2
+N
+P
+
+2
+1
+N
+P
+
+6
+1
+N
+P
+
+9
+1
+N
+P
+
+2
+2
+N
+P
+
+4
+2
+N
+P
+
+9
+2
+N
+P
+
+h
+t
+i
+
+w
+d
+e
+t
+a
+c
+i
+d
+n
+
+i
+
+s
+i
+
+s
+e
+n
+e
+g
+
+n
+
+i
+
+s
+n
+o
+i
+t
+a
+t
+u
+m
+
+f
+o
+
+e
+c
+n
+e
+s
+e
+r
+p
+e
+h
+T
+
+.
+t
+n
+o
+f
+d
+e
+r
+
+n
+
+i
+
+n
+w
+o
+h
+s
+
+e
+r
+a
+
+s
+e
+n
+e
+g
+
+r
+e
+c
+n
+a
+c
+
+n
+w
+o
+n
+K
+
+.
+l
+l
+
+ﬁ
+
+y
+a
+r
+g
+
+h
+t
+i
+
+w
+d
+e
+t
+a
+c
+i
+d
+n
+
+i
+
+e
+r
+a
+
+s
+l
+l
+
+e
+c
+
+n
+n
+a
+w
+h
+c
+S
+
+l
+
+a
+m
+r
+o
+n
+d
+n
+a
+
+s
+r
+o
+m
+u
+t
+
+e
+h
+t
+
+n
+
+i
+
+d
+e
+s
+s
+e
+r
+p
+x
+e
+
+t
+o
+n
+
+e
+r
+e
+w
+
+t
+a
+h
+t
+
+s
+e
+n
+e
+g
+f
+o
+
+s
+e
+m
+a
+N
+
+.
+l
+l
+
+ﬁ
+
+n
+e
+e
+r
+g
+
+Oncogene (2017) 3168 – 3177
+
+© 2017 Macmillan Publishers Limited, part of Springer Nature.
+
+Reactome DNA Strand Elongation 
+
+NES 2.28, FDR 4.7E-3
+
+KEGG DNA Replication 
+NES 2.26, FDR 4.1E-3
+
+Reactome Telomere Maintenance 
+
+NES 2.26, FDR 2.9E-3
+
+Reactome Extension of Telomeres 
+
+NES 2.14, FDR 1.5E-2
+
+Exome and transcriptome sequencing of plexiform neuroﬁbromas
+A Pemov et al
+
+3173
+
+Hallmark MYC Targets V1 
+
+NES1.78, FDR 7.9E-3
+
+Hallmark E2F Targets 
+NES 1.79, FDR 1.5E-2
+
+GO Regulation of 
+
+Megakaryocyte Differentiation 
+
+NES 2.26, FDR 9.8E-3
+
+GO DNA Replication Initiation 
+
+NES 2.20, FDR 1.3E-2
+
+Oncogenic Signatures 
+
+KRAS 600
+
+LUNG BREAST UP.V1 Down
+
+NES -1.83, FDR 1.0E-2
+
+Oncogenic Signatures 
+KRAS 600 UP.V1 Down
+NES -1.80, FDR 1.0E-2
+
+Oncogenic Signatures 
+BCAT BILD ET AL UP
+NES -1.75, FDR 1.7E-2
+
+Oncogenic Signatures 
+
+CAHOY Neuronal
+
+NES -1.75, FDR 1.5E-2
+
+Figure 3. Gene Set Enrichment Analysis of genome-wide expression in PN. Enrichment plots of ﬁve signiﬁcant and seven trending sets of
+genes involved in DNA replication initiation and strand elongation, telomere maintenance and extension, cell proliferation and differentiation,
+as well as gene sets comprising targets of MYC and E2F, and down-regulated by activated KRAS. FDR, false discovery rate; NES, normalized
+enrichment score.
+
+medium-sized (100–1000 bp) deletions; however, such deletions
+are also difﬁcult to identify by NGS approaches. Furthermore,
+samples with undetected second hits had relatively high levels of
+NF1 expression, suggesting that these samples contain a relatively
+smaller ratio of tumor cells. We posit that the samples with
+undetected second hits harbor deep intronic and/or medium-
+sized deletions and occur in PNs with a relatively low proportion
+of NF1− / − Schwann cells. The spectrum and distribution of NF1
+LOH events and discrete mutations in PN from our study was also
+comparable with previous work.32 Independent somatic mutations
+in NF1 have been reported in individuals with two PN.33 We found
+non-NF1 somatic mutations at a very low frequency (Tables 2 and 3),
+as predicted for a congenital tumor such as a PN. Given the low
+mutation rate, we cast a broad net to identify somatic variants but
+applied a rigorous ﬁltering (overlap) scheme to reduce the
+number of false positives. We acknowledge that our ﬁltering
+strategy might increase the false-negative rate and we acknowl-
+edge that the modest number of samples limits the power.
+
+in a fraction of
+
+the reads, suggesting that
+
+The non-NF1 somatic mutations identiﬁed (Tables 2 and 3)
+appear
+the cell
+harboring the mutation is a clonal derivative. Most of these
+variants are not pathogenic, as predicted by a variety of
+bioinformatics methods, and do not reside in known cancer
+pathways. None of the non-synonymous somatic variants in
+BRCA1, FGFR1 and RNF43 (known cancer genes) from two tumors
+(Table 2 and Supplementary Table S3) were present in the COSMIC
+database. The rs80356892 missense variant
+in BRCA1 was
+heterozygous in the germline that became homozygous in the
+PN due to a large deletion on chromosome 17, which also affected
+the NF1 locus. BRCA1 was modestly expressed in the tumor
+(Supplementary Table S3). The variant was originally identiﬁed in a
+Japanese patient who developed a breast cancer at age of 54
+years,34 however subsequent multi-center ClinVar review has
+deemed it benign (ClinVar variant ID # 54604). The NF1 patient
+harboring this variant has not developed any tumors other than a
+PN, however she is only in her mid-20s; the histopathology of her
+
+© 2017 Macmillan Publishers Limited, part of Springer Nature.
+
+Oncogene (2017) 3168 – 3177
+
+Exome and transcriptome sequencing of plexiform neuroﬁbromas
+A Pemov et al
+
+3174
+
+)
+
+ 
+
+M
+K
+P
+F
+2
+g
+o
+l
+(
+ 
+n
+o
+s
+s
+e
+r
+p
+x
+e
+e
+v
+i
+t
+a
+
+ 
+
+i
+
+l
+
+e
+R
+
+10
+
+8
+
+6
+
+4
+
+2
+
+0
+
+-2
+
+Normal SC 
+Plexiform NF 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+2
+A
+L
+O
+P
+
+2
+D
+L
+O
+P
+
+2
+M
+R
+P
+
+I
+
+1
+G
+L
+
+I
+
+2
+M
+C
+M
+
+4
+M
+C
+M
+
+5
+M
+C
+M
+
+6
+M
+C
+M
+
+7
+M
+C
+M
+
+1
+A
+L
+O
+P
+
+1
+D
+L
+O
+P
+
+3
+D
+L
+O
+P
+
+E
+L
+O
+P
+
+1
+M
+R
+P
+
+I
+
+2
+C
+F
+R
+
+4
+C
+F
+R
+
+2
+A
+P
+R
+
+3
+A
+P
+R
+
+2
+A
+N
+D
+
+1
+N
+E
+F
+
+3
+M
+C
+M
+
+2
+E
+L
+O
+P
+
+5
+4
+C
+D
+C
+
+4
+S
+N
+G
+
+2
+C
+R
+O
+
+I
+
+T
+U
+D
+
+1
+S
+N
+G
+
+2
+S
+N
+G
+
+I
+
+I
+
+2
+L
+B
+V
+U
+R
+
+ 
+I
+
+A
+4
+H
+1
+T
+S
+H
+
+B
+4
+H
+1
+T
+S
+H
+
+C
+4
+H
+1
+T
+S
+H
+
+D
+4
+H
+1
+T
+S
+H
+
+F
+4
+H
+1
+T
+S
+H
+
+H
+4
+H
+1
+T
+S
+H
+
+I
+
+I
+
+I
+
+I
+
+I
+
+I
+
+4
+H
+1
+T
+S
+H
+
+I
+
+J
+4
+H
+1
+T
+S
+H
+
+K
+4
+H
+1
+T
+S
+H
+
+L
+4
+H
+1
+T
+S
+H
+
+I
+
+I
+
+I
+
+D
+P
+N
+R
+N
+H
+
+1
+L
+2
+D
+A
+M
+
+6
+5
+P
+O
+N
+
+3
+E
+L
+O
+P
+
+1
+F
+S
+R
+S
+
+1
+L
+B
+V
+U
+R
+
+I
+
+P
+R
+C
+N
+Y
+S
+
+1
+P
+S
+U
+
+B
+2
+A
+R
+T
+
+6
+C
+C
+R
+X
+
+3
+5
+P
+A
+R
+W
+
+1
+P
+B
+N
+A
+R
+
+A
+2
+H
+E
+S
+A
+N
+R
+
+2
+X
+T
+D
+
+9
+L
+Y
+M
+
+7
+R
+C
+X
+C
+
+1
+P
+B
+G
+
+6
+1
+T
+R
+K
+
+4
+P
+T
+R
+
+B
+8
+M
+E
+M
+T
+
+A
+2
+L
+M
+F
+L
+O
+
+Figure 4.
+Expression of 60 Gene Set Enrichment Analysis leading-edge genes in PN and normal Schwann cells. Expression values of genes that
+were found in at least two signiﬁcant sets are shown. Blue bars represent normal Schwann cells, and red bars represent PN. Fifty-two genes
+(POLA2 through XRCC6) are up-regulated and eight genes (DTX2 through TMEM8B) are down-regulated in PN compared with normal Schwann
+cells (SC). Note that raw median expression value of KRT16 in PN is 0.51, which results in negative value of − 0.97, when log2 transformed.
+
+PN was unremarkable. The missense variant in RNF43 in tumor
+PN9 was predicted to be deleterious, however the gene was not
+expressed in PNs and the variant likely had no effect on the tumor
+phenotype. The missense FGFR1 variant in tumor PN9 (P772S) was
+present in parity with its reference allele (Supplementary Table
+S3), suggesting that it was acquired by the cell soon after the
+somatic NF1 hit (Ref/Alt counts = 1039/956, Supplementary Table
+S2B). The gene was modestly expressed in the tumor and the
+mutant allele was expressed at the same rate as the reference one
+(Supplementary Table S3). FGFR1 is a tyrosine-protein kinase that
+plays an essential role in the regulation of embryonic develop-
+ment, cell proliferation, differentiation and migration. It mediates
+activation of RAS, MAPK1/ERK2, MAPK3/ERK1 and the MAP-kinase
+signaling pathway, as well as the AKT1 signaling pathway.
+Although FGFR1 P772S was reported to be associated with
+Kallmann syndrome in an earlier paper,35 its high prevalence in
+the ExAC database argues (3.83 × 10− 3) against pathogenicity. The
+PN9 tumor had a relatively loose extra cellular matrix, but was
+otherwise unremarkable.
+
+Much of the literature on gene expression proﬁling in NF1
+investigates the transition of PN to MPNST.36,37 There are few
+investigations comparing PN expression with normal Schwann
+In the most comprehensive to date study, Miller et al.38
+cells.
+compared primary tissue and primary cell cultures of PN, dermal
+neuroﬁbroma, and MPNSTs with wild-type Schwann cells using
+gene expression arrays. They found 2827 distinct
+transcripts
+in 1952 unique genes differentially expressed among these
+groups of samples; dermal neuroﬁbroma and PN did not differ
+signiﬁcantly from each other. Unlike previous studies that
+utilized a microarray approach, we used whole-transcriptome
+RNA-sequencing data to determine differential expression in PN vs
+normal Schwann cells. In addition, we used Gene Set Enrichment
+Analysis, an established analytical method that derives its power
+by focusing on sets of genes, grouped by their function and
+biology, rather than employing a single-gene approach, known for
+
+having a number of limitations. We found ﬁve highly statistically
+signiﬁcant (FDRo0.01) and seven trending (0.01 ⩽ FDRo0.02)
+gene sets with known roles in DNA replication, cell proliferation,
+cell cycle control and telomere maintenance. One of the best-
+studied consequences of NF1 inactivation is RAS-mediated hyper-
+activation of the Ras-MAPK and AKT1-PI3K pathways, which play
+key roles in cell proliferation and differentiation.39 The functional
+connection between NF1 inactivation and telomere maintenance
+and elongation and is less studied, however it may provide
+insights
+immortalization and genomic
+instability in the tumors. Comparison of the leading-edge set of
+300 genes with the set of 1952 differentially expressed genes from
+Miller et al.38 revealed an overlap of 36 genes with a p-value
+of 0.021.
+
+into mechanisms of
+
+The majority of published investigations on CNV differences in
+NF1-associated tumors (with paired germline DNA) have been
+performed on MPNSTs. The few studies that have investigated PNs
+found a paucity of such changes and a lack of speciﬁc recurrent
+CNVs. Upadhyaya et al.
+is a typical example and studied CNVs
+using the Affymetrix Array 6.0 chip and found 996 copy
+differences in 15 MPNSTs and 26 copy differences in 5 PNs (both
+paired analyses); 17 of these changes were in a single sample.40
+The ratio of gains to losses was 24/2. Except for one overlap on
+chromosome 4 in two patients, there were no recurring or
+overlapping CNVs.40 In our study, we did not ﬁnd any recurrent
+CNVs outside the NF1 locus. We noticed that
+the majority
+of large somatic deletions on 17q comprising the NF1 locus
+also contained the entire SUZ12 gene. Currently it’s unclear
+if hemizygous deletion of SUZ12 confers any advantage in
+PN-MPNST transformation.
+
+The limited clinical information available on the PNs is included
+in the Supplementary Clinical Information ﬁle. We emphasize that
+all tumors in this study were asymptomatic and procured from
+routine debulking surgeries. They were classiﬁed as neuroﬁbromas
+and were not suspected as pre-malignant or malignant lesions; for
+
+Oncogene (2017) 3168 – 3177
+
+© 2017 Macmillan Publishers Limited, part of Springer Nature.
+
+example, the tumors were not associated with pain or increased
+growth. Atypical neuroﬁbroma (ANF) and MPNST often arise
+within pre-existing PNs18 and it is difﬁcult to detect these tumors
+clinically in the early stages. In rare instances, a PN tissue could be
+intermixed with ANF or MPNST, and when cultured pre-malignant
+or malignant cells could potentially outgrow the benign ones,
+however we expect that such scenarios would be relatively
+infrequent and therefore the effect of such tissue heterogeneity
+on the results would be limited.
+
+In summary, our data show that initiation of NF1-associated PN,
+a benign, slowly growing tumor, is driven by somatic inactivation
+of NF1. We observed three independent somatic NF1 mutations in
+three PN from the same individual, consistent with a clonal origin.
+Plexiform neuroﬁbromas harbor a near-zero mutation burden
+outside of the NF1 locus, and the genomic architecture of the
+tumors closely resembles that of a normal diploid cell. It appears
+that inactivation of NF1 is sufﬁcient for PN initiation. A series of
+additional mutations is likely required for subsequent malignant
+transformation.
+
+MATERIALS AND METHODS
+Samples were collected under the IRB-approved protocol (‘Genetic Studies
+of Neuroﬁbromatosis 1’ 41–1992) and reviewed by the NIH Ofﬁce of
+Human Subjects Research. Twenty-three fresh surgical specimens (2–10 g)
+were obtained from 21 independent subjects (including one set of
+identical twins) undergoing PN debulking for cosmetic or functional
+reasons and not for concern about pain or rapid growth. All non-tumor-
+appearing tissue was trimmed away; the remaining tissue was fresh frozen
+and processed using standard methods for
+formalin ﬁxing/parafﬁn
+embedding, DNA extraction, total RNA extraction (Trizol, Invitrogen), and
+dissociation into single cell suspension for Schwann-enriched culture.
+Germline DNA was obtained from EDTA-blood samples, buccal swabs, or
+from ﬁbroblast cultures derived from the tumor cultures.
+
+Culture of schwann cells
+Enriching and culturing of NF1 − / − Schwann cells from NF1-associated PN
+and normal human Schwan cells was done as described previously.41
+Cultures always contain at least some ﬁbroblasts, and the Schwann cell
+component usually senesces by P8-P10, thus passages P4-P6 were used for
+most studies. Three cultures of normal human Schwann cells purchased
+from ScienCell Research Laboratories (Carlsbad, CA) were cultured the
+same way. One sample, PN9, required whole-genome ampliﬁcation of both
+somatic and germline DNA.
+
+Whole exome sequencing of matching pairs of tumor and normal
+DNA
+Exome capture of genomic DNA and library preparation for next
+generation sequencing was done by using Illumina TruSeq V1:32 and
+TruSeq V2:30 kits (62 Mb), per the manufacturer’s instructions on 1 μg of
+tumor and matching normal genomic DNA. The sequencing was done on
+the Illumina HiSeq 2,500 system (Illumina, San Diego, CA, USA). Of 44
+exomes, the average breadth of coverage was 89% (range 84–92%); the
+average depth of coverage was 59X (range 34–108X).
+
+RNA extraction, Illumina whole transcriptome sequencing and
+Gene Set Enrichment Analysis (GSEA)
+RNA extraction and Illumina RNA sequencing was done as described
+previously.42 RNA-Seq libraries were constructed from 1 μg total RNA after
+rRNA depletion using Ribo-Zero GOLD (Illumina). The Illumina TruSeq RNA
+Sample Prep V2 Kit was used according to manufacturer’s instructions
+except where noted. The data were processed using RTA v. 1.18.64 and
+CASAVA v. 1.8.2. The data for 23 PN and two normal adult Schwann cells
+samples were further processed using standard Tuxedo pipeline.43 The
+resulting gene expression from transcriptome datasets were then log2
+transformed and standardized (z-scored). Genes with the median log2
+FPKM score below 0.5 in both groups (PN and normal Schwann cells) were
+considered unexpressed and removed from the analysis. The resulting
+expression set of 11 293 genes was analyzed with GSEA as described.44 We
+used 5000 permutations and shufﬂed the expression dataset by gene-sets
+
+Exome and transcriptome sequencing of plexiform neuroﬁbromas
+A Pemov et al
+
+rather than by sample labels. Gene-sets with FDRo0.01 were considered
+statistically signiﬁcant and with 0.01 ⩽ FDRo0.02 as trending.
+
+3175
+
+Copy number variation and loss of heterozygosity
+CNV and LOH analyses were performed as described previously.45 SNP
+genotyping was performed using HumanOmni2.5–8 BeadChip kits
+(Illumina) as per the manufacturer’s instructions.
+
+Non-NF1 somatic mutation veriﬁcation and deep NF1 mutation
+detection by Ampliseq/IonTorrent
+Multiplex PCR primers for somatic mutation veriﬁcation were designed
+using the Ion Ampliseq Designer tool (v.3.0.1, Life Technologies, Grand
+Island, NY, USA). Multiplex PCR ampliﬁcation,
+library preparation and
+sequencing on the Ion Proton sequencer
+(Life Technologies) were
+performed as per the manufacturer’s instructions. Reads from the Ion
+Torrent Proton sequencer were ﬁltered, and adapter- and quality-trimmed.
+The resulting sequences were aligned to human reference genome hg19
+using TMAP (Life Technologies). Resulting BAM ﬁles were further aligned
+using The Genome Analysis Toolkit (GATK, http://www.nature.com/ng/
+journal/v43/n5/full/ng.806.html ). For missense and nonsense mutations,
+NF1 cDNA was examined by reverse-transcription PCR (Superscript II,
+Invitrogen) using primers ﬂanking the affected exon, followed by Sanger
+sequencing (ABI Big Dye 3) to screen for splicing errors.
+
+Whole exome sequencing analysis
+The data were processed with two pipelines (‘NISC’ and ‘Broad’)
+(Supplementary Figure S1A) and somatic mutations were identiﬁed by
+subtracting germline variants. Alternatively, somatic variants were called
+by MuTect46 (Broad pipeline; Supplementary Figure S1B). Potential
+causative genes were analyzed with driver-passenger software.47 Select
+somatic mutations were veriﬁed by using AmpliSeq and IonTorrent
+sequencing of targeted PCR products. IonTorrent sequencing data were
+compared with WES data; mutations identiﬁed by both technologies in the
+same tumor samples were deemed ‘high-conﬁdence’ variants. Given the
+importance of NF1 in the tumors, we included the entire coding part of the
+gene into the AmpliSeq/IonTorrent validation effort. The NISC pipeline
+included the following components: Novoalign, v.2.08.02 (Novocraft.com,
+Selangor, Malaysia) for read alignment to hg19; duplicate removal with
+samtools;48 bam2mpg for genotype calling and calculation of the quality
+score most probable genotype49 and ANNOVAR for functional annotation
+of genetic variants50 (http://www.openbioinformatics.org/annovar/). The
+resulting data were formatted in VarSifter51 format (http://research.nhgri.
+nih.gov/software/VarSifter/) for further ﬁltering. The ﬁltering was done as
+follows. First, all non-coding variants and the nucleotides whose genotypes
+were identical
+in both tumor and corresponding normal DNA were
+removed. Second,
+from the remaining coding somatic variants all
+sequence variants that had a quality score (most probable genotype)
+o10 either in tumor or normal DNA were removed.
+
+for
+
+The Broad pipeline included the following components: Burrows-
+Wheeler Aligner v. 0.6.2-r12652 for mapping fastq ﬁles to hg19; Picard
+(https://broadinstitute.github.io/picard/)
+removing duplicates; The
+Genome Analysis Toolkit (GATK) v.2.4–953 for local realignment and base
+quality recalibration; and GATK UniﬁedGenotyper (https://software.broad
+institute.org/gatk/) for calling point mutations and insertions-deletions.
+ANNOVAR was used for
+functional annotation of genetic variants.
+Additional ﬁltering used custom Perl scripts to remove all non-coding,
+low quality (scoreo200) and common variants (1,000 Genomes and NHLBI
+Exome Sequencing Project variant frequency40.01) as well as variants
+with alternative allele frequency below 0.3. In addition, MuTect46 was used
+to compare tumor with matched normal DNA and identify somatic point
+mutations.
+
+In both pipelines, variants of interest were referenced against the Human
+Gene Mutation Database (HGMD: www.hgmd.cf.ac.uk), Exome Aggregation
+Consortium (ExAC: http://exac.broadinstitute.org/), and the Catalog of
+Somatic Mutations in Cancer, (COSMIC: http://cancer.sanger.ac.uk/cosmic).
+
+Passenger/driver analysis
+We used the Youn and Simon (‘NCI_DPS’) software developed at NCI47
+or MutSigCV (http://www.broadinstitute.org/cancer/cga/mutsig). The NCI
+software was used with both the NISC and Broad pipelines whereas MutSig
+was used only with the Broad pipeline. To prepare data for MutSigCV,
+predicted somatic mutations from the 23 PN were ﬁrst converted to MAF
+
+© 2017 Macmillan Publishers Limited, part of Springer Nature.
+
+Oncogene (2017) 3168 – 3177
+
+Exome and transcriptome sequencing of plexiform neuroﬁbromas
+A Pemov et al
+
+3176
+
+format using the UCSC ‘known gene’ annotations,54 assigning an effect
+value of ‘nonsilent’ if a mutation altered the protein sequence for any of
+the annotated transcripts of a gene, ‘silent’ if the mutation resided within
+the coding sequence of a gene, and ‘ﬂank’ if otherwise. Gene coverage,
+broken down by effect value, was evaluated similarly, making the
+assumption that a genomic position was ‘covered’ if both the tumor and
+the normal sample had adequate sequencing depth to genotype both
+samples with an most probable genotype score of 10 or greater.49 For
+gene mutability covariate values, we used expression, replication time, and
+reported previously.55 Coverage, MAF, and
+chromatin state values
+covariate ﬁles were then used as input to MutSigCV version 1.3.0156 via
+the Broad Institute's GenePattern server.57
+
+Allele-speciﬁc copy number and LOH analysis of PN
+Paired CNV and LOH analysis of tumor and matching normal DNA was
+performed by using Nexus v.6.1 software (BioDiscovery Inc., Hawthorne,
+CA, USA) as described previously.45 The analysis settings were selected
+based on the developer’s suggestions for the analysis of tumor samples.
+‘Allele-Speciﬁc Copy number Analysis of Tumors’ (ASCAT v.2.1) analysis was
+performed as previously described.58
+
+The content of this publication does not necessarily reﬂect the views or
+policies of the Department of Health and Human Services, nor does
+mention of trade names, commercial products or organizations imply
+endorsement by the US Government.
+
+CONFLICT OF INTEREST
+The authors declare no conﬂict of interest.
+
+ACKNOWLEDGEMENTS
+Funding provided by the Intramural Research Programs of the National Human Genome
+Research Institute, the Center for Cancer Research of the National Cancer Institute and the
+Division of Cancer Epidemiology and Genetics of the National Cancer Institute. We thank
+the members of the NISC Comparative Sequencing Program: Betty Barnabas, PhD, Robert
+Blakesley, PhD, Gerry Bouffard, PhD, Shelise Brooks, BS, Holly Coleman, MSc, Mila Dekhtyar,
+MSc, Michael Gregory, MSc, Xiaobin Guan, PhD, Jyoti Gupta, MSc, Joel Han, BS, Shi-ling Ho,
+BS, Richelle Legaspi, MSc, Quino Maduro, BS, Cathy Masiello, MSc, Baishali Maskeri, PhD,
+Jenny McDowell, PhD, Casandra Montemayor, MSc, Morgan Park, PhD, Nancy Riebow, BS,
+Karen Schandler, MSc, Brian Schmidt, BS, Christina Sison, BS, Mal Stantripop, BS, James
+Thomas, PhD, Pam Thomas, PhD, Meg Vemulapalli, MSc, Alice Young, BA. We also thank
+the members of the NCI DCEG Cancer Genomics Research Laboratory: Michael Beerman,
+Aaron J Bouk, Seth Brodie, Laurie Burdett, Salma Chowdhury, Charles Chung, Nathan Cole,
+Michael Cullen, Casey Dagnall, Danielle Debacker, Sadie Frary, Chris Hautman, Belynda
+Hicks, Herb Higson, Keisha Hines-Harris, Amy Hutchinson, Kristie Jones, Eric Karlins, Sally
+Larson, Kerrie Lashley, Hyo Jung Lee, Shengchao Li, Tong Li, Wen Luo, Mike Malasky,
+Michelle Manning, Charles McCoy, Jason Mitchell, Adri O’Neil, Padma Ramya Packirisamy,
+Timothy Pelc, David Roberson, Aaron Rodriguez, Marianne Siler, Shalabh Suman, Kedest
+Teshome, Julio Tun, Sue Turner, Bill Utermahlen, Aurelie Vogt, Sarah Wagner, Mingyi
+Wang, Zhaoming Wang, Kathleen Wyatt, Qi Yang, Meredith Yeager, Sherry Yu, Xijun
+Zhang, Weiyin Zhou, Bin Zhu. MRW acknowledges funding from the Department of
+Defense (DAMD17-98-1-8609, DAMD17-00-1-0549), the National Institutes of Health (R29
+NS31550), and the Children's Tumor Foundation supporting the development of the PN
+cultures over a 17-year span. Finally, we thank the patients who enlisted the help of their
+physicians to contribute tissues to research.
+
+REFERENCES
+1 Jett K, Friedman JM. Clinical and genetic aspects of neuroﬁbromatosis 1. Genet
+
+Med 2010; 12: 1–11.
+
+2 Neuroﬁbromatosis. Conference statement. National Institutes of Health Consensus
+
+Development Conference. Arch Neurol 1988; 45: 575–578.
+
+3 Huson SM, Harper PS, Compston DA. Von Recklinghausen neuroﬁbromatosis.
+A clinical and population study in south-east Wales. Brain 1988; 111(Pt 6):
+1355–1381.
+
+4 Mautner VF, Asuagbor FA, Dombi E, Funsterer C, Kluwe L, Wenzel R et al.
+Assessment of benign tumor burden by whole-body MRI in patients with neu-
+roﬁbromatosis 1. Neuro Oncol 2008; 10: 593–598.
+
+5 Evans DG, Baser ME, McGaughran J, Sharif S, Howard E, Moran A. Malignant
+peripheral nerve sheath tumours in neuroﬁbromatosis 1. J Med Genet 2002; 39:
+311–314.
+
+6 Uusitalo E, Rantanen M, Kallionpaa RA, Poyhonen M, Leppavirta J, Yla-Outinen H
+et al. Distinctive cancer associations in patients with neuroﬁbromatosis type 1.
+J Clin Oncol 2016; 34: 1978–1986.
+
+7 Kim A, Gillespie A, Dombi E, Goodwin A, Goodspeed W, Fox E et al. Characteristics
+of children enrolled in treatment trials for NF1-related plexiform neuroﬁbromas.
+Neurology 2009; 73: 1273–1279.
+
+8 Babovic-Vuksanovic D, Widemann BC, Dombi E, Gillespie A, Wolters PL, Toledo-
+Tamula MA et al. Phase I trial of pirfenidone in children with neuroﬁbromatosis
+1 and plexiform neuroﬁbromas. Pediatr Neurol 2007; 36: 293–300.
+
+9 Widemann BC, Babovic-Vuksanovic D, Dombi E, Wolters PL, Goldman S, Martin S
+et al. Phase II trial of pirfenidone in children and young adults with neuroﬁ-
+bromatosis type 1 and progressive plexiform neuroﬁbromas. Pediatr Blood Cancer
+2014; 61: 1598–1602.
+
+10 Weiss B, Widemann BC, Wolters P, Dombi E, Vinks AA, Cantor A et al. Sirolimus for
+non-progressive NF1-associated plexiform neuroﬁbromas: an NF clinical trials
+consortium phase II study. Pediatr Blood Cancer 2014; 61: 982–986.
+
+11 Peltonen J, Jaakkola S, Lebwohl M, Renvall S, Risteli L, Virtanen I et al. Cellular
+differentiation and expression of matrix genes in type 1 neuroﬁbromatosis. Lab
+Invest 1988; 59: 760–771.
+
+12 Stemmer-Rachamimov A, Nielsen GP. Pathologic and molecular diagnostic fea-
+tures of peripheral nerve sheath tumors in NF1. In: Upadhyaya M, Cooper DN
+(eds). Neuroﬁbromatosis Type 1: Molecular and Cellular Biology. Springer: Heidlberg,
+2012. pp 429–443.
+
+13 Serra E, Rosenbaum T, Winner U, Aledo R, Ars E, Estivill X et al. Schwann cells
+harbor the somatic NF1 mutation in neuroﬁbromas: evidence of two different
+Schwann cell subpopulations. Hum Mol Genet 2000; 9: 3055–3064.
+
+14 Maertens O, Brems H, Vandesompele J, De Raedt T, Heyns I, Rosenbaum T et al.
+Comprehensive NF1 screening on cultured Schwann cells from neuroﬁbromas.
+Hum Mutat 2006; 27: 1030–1040.
+
+15 Sabbagh A, Pasmant E, Laurendeau I, Parfait B, Barbarot S, Guillot B et al. Unra-
+velling the genetic basis of variable clinical expression in neuroﬁbromatosis 1.
+Hum Mol Genet 2009; 18: 2768–2778.
+
+16 Castle B, Baser ME, Huson SM, Cooper DN, Upadhyaya M. Evaluation of
+genotype-phenotype correlations in neuroﬁbromatosis type 1. J Med Genet 2003;
+40: e109.
+
+17 Pasmant E, Sabbagh A, Masliah-Planchon J, Ortonne N, Laurendeau I, Melin L et al.
+Role of noncoding RNA ANRIL in genesis of plexiform neuroﬁbromas in
+neuroﬁbromatosis type 1. J Natl Cancer Inst 2011; 103: 1713–1722.
+
+18 Beert E, Brems H, Daniels B, De Wever I, Van Calenbergh F, Schoenaers J et al.
+Atypical neuroﬁbromas in neuroﬁbromatosis type 1 are premalignant tumors.
+Genes Chrom Cancer 2011; 50: 1021–1032.
+
+19 Luscan A, Shackleford G, Masliah-Planchon J, Laurendeau I, Ortonne N, Varin J
+et al. The activation of the WNT signaling pathway is a Hallmark in neuroﬁ-
+bromatosis type 1 tumorigenesis. Clin Cancer Res 2014; 20: 358–371.
+
+20 Zhang M, Wang Y, Jones S, Sausen M, McMahon K, Sharma R et al. Somatic
+mutations of SUZ12 in malignant peripheral nerve sheath tumors. Nat Genet 2014;
+46: 1170–1172.
+
+21 Lee W, Teckie S, Wiesner T, Ran L, Prieto Granada CN, Lin M et al. PRC2 is
+recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve
+sheath tumors. Nat Genet 2014; 46: 1227–1232.
+
+22 Hirbe AC, Dahiya S, Miller CA, Li T, Fulton RS, Zhang X et al. Whole exome
+sequencing reveals the order of genetic changes during malignant transforma-
+tion and metastasis in a single patient with NF1-plexiform neuroﬁbroma. Clin
+Cancer Res 2015; 21: 4201–4211.
+
+23 Kircher M, Witten DM, Jain P, O'Roak BJ, Cooper GM, Shendure J. A general
+framework for estimating the relative pathogenicity of human genetic variants.
+Nat Genet 2014; 46: 310–315.
+
+24 Colman SD, Williams CA, Wallace MR. Benign neuroﬁbromas in type 1 neuroﬁ-
+bromatosis (NF1) show somatic deletions of the NF1 gene. Nat Genet 1995; 11:
+90–92.
+
+25 Kannan K, Inagaki A, Silber J, Gorovets D, Zhang J, Kastenhuber ER et al. Whole-
+exome sequencing identiﬁes ATRX mutation as a key molecular determinant in
+lower-grade glioma. Oncotarget 2012; 3: 1194–1203.
+
+26 Barretina J, Taylor BS, Banerji S, Ramos AH, Lagos-Quintana M, Decarolis PL et al.
+Subtype-speciﬁc genomic alterations deﬁne new targets for soft-tissue sarcoma
+therapy. Nat Genet 2010; 42: 715–721.
+
+27 Parsons DW, Jones S, Zhang X, Lin JC, Leary RJ, Angenendt P et al. An integrated
+genomic analysis of human glioblastoma multiforme. Science 2008; 321: 1807–1812.
+28 Wu G, Broniscer A, McEachron TA, Lu C, Paugh BS, Becksfort J et al. Somatic
+histone H3 alterations in pediatric diffuse intrinsic pontine gliomas and non-
+brainstem glioblastomas. Nat Genet 2012; 44: 251–253.
+
+29 Le LQ, Liu C, Shipman T, Chen Z, Suter U, Parada LF. Susceptible stages in
+Schwann cells for NF1-associated plexiform neuroﬁbroma development. Cancer
+Res 2011; 71: 4686–4695.
+
+Oncogene (2017) 3168 – 3177
+
+© 2017 Macmillan Publishers Limited, part of Springer Nature.
+
+Exome and transcriptome sequencing of plexiform neuroﬁbromas
+A Pemov et al
+
+3177
+
+30 Buchstaller J, Clapp DW, Parada LF, Zhu Y. Cell of Origin and the Contribution of
+Microenvironment
+In:
+Upadhyaya M, Cooper DN (eds). Neuroﬁbromatosis Type 1: Molecular and Cellular
+Biology. Springer: Heidelberg, 2012.
+
+in NF1 Tumorigenesis and Therapeutic Implications.
+
+31 Wallace MR, Rasmussen SA, Lim IT, Gray BA, Zori RT, Muir D. Culture of cyto-
+genetically abnormal schwann cells from benign and malignant NF1 tumors.
+Genes Chromosomes Cancer 2000; 27: 117–123.
+
+32 Laycock-van Spyk S, Thomas N, Cooper DN, Upadhyaya M. Neuroﬁbromatosis
+type 1-associated tumours: their somatic mutational spectrum and pathogenesis.
+Hum Genomics 2011; 5: 623–690.
+
+33 Upadhyaya M, Spurlock G, Monem B, Thomas N, Friedrich RE, Kluwe L et al.
+Germline and somatic NF1 gene mutations in plexiform neuroﬁbromas. Hum
+Mutat 2008; 29: E103–E111.
+
+34 Emi M, Matsushima M, Katagiri T, Yoshimoto M, Kasumi F, Yokota T et al. Multiplex
+mutation screening of the BRCA1 gene in 1000 Japanese breast cancers. Jpn J
+Cancer Res 1998; 89: 12–16.
+
+35 Dode C, Levilliers J, Dupont JM, De Paepe A, Le Du N, Soussi-Yanicostas N et al.
+Loss-of-function mutations in FGFR1 cause autosomal dominant Kallmann syn-
+drome. Nat Genet 2003; 33: 463–465.
+
+36 Levy P, Ripoche H, Laurendeau I, Lazar V, Ortonne N, Parfait B et al. Microarray-
+based identiﬁcation of tenascin C and tenascin XB, genes possibly involved in
+tumorigenesis associated with neuroﬁbromatosis type 1. Clin Cancer Res 2007; 13:
+398–407.
+
+37 Pasmant E, Ortonne N, Rittie L, Laurendeau I, Levy P, Lazar V et al. Differential
+expression of CCN1/CYR61, CCN3/NOV, CCN4/WISP1, and CCN5/WISP2 in neu-
+roﬁbromatosis type 1 tumorigenesis. J Neuropathol Exp Neurol 2010; 69: 60–69.
+Integrative
+genomic analyses of neuroﬁbromatosis tumours identify SOX9 as a biomarker
+and survival gene. EMBO Mol Med 2009; 1: 236–248.
+
+38 Miller SJ, Jessen WJ, Mehta T, Hardiman A, Sites E, Kaiser S et al.
+
+39 Smithson LJ, Anastasaki C, Chen R, Toonen JA, Williams SB, Gutmann DH. Con-
+
+textual signaling in cancer. Semin Cell Dev Biol 2016; 58: 118–126.
+
+40 Upadhyaya M, Spurlock G, Thomas L, Thomas NS, Richards M, Mautner VF et al.
+Microarray-based copy number analysis of neuroﬁbromatosis type-1 (NF1)-asso-
+ciated malignant peripheral nerve sheath tumors reveals a role for Rho-GTPase
+pathway genes in NF1 tumorigenesis. Hum Mutat 2012; 33: 763–776.
+
+41 Muir D, Neubauer D, Lim IT, Yachnis AT, Wallace MR. Tumorigenic properties of
+neuroﬁbromin-deﬁcient neuroﬁbroma Schwann cells. Am J Pathol 2001; 158:
+501–513.
+
+42 Pemov A, Sung H, Hyland PL, Sloan JL, Ruppert SL, Baldwin AM et al. Genetic
+modiﬁers of neuroﬁbromatosis Type 1-Associated Cafe-au-Lait macule count
+identiﬁed using multi-platform analysis. PLOS Genet 2014; 10: e1004575.
+
+43 Trapnell C, Roberts A, Goff L, Pertea G, Kim D, Kelley DR et al. Differential gene and
+transcript expression analysis of RNA-seq experiments with TopHat and Cufﬂinks.
+Nat Protoc 2012; 7: 562–578.
+
+44 Subramanian A, Tamayo P, Mootha VK, Mukherjee S, Ebert BL, Gillette MA
+et al. Gene set enrichment analysis: a knowledge-based approach for inter-
+preting genome-wide expression proﬁles. Proc Natl Acad Sci USA 2005; 102:
+15545–15550.
+
+45 Dewan R, Pemov A, Kim HJ, Butman JA, Morgan K, Vasquez RA et al. Evidence of
+tumor initiation events in neuroﬁbromatosis type 2-
+
+multiple independent
+associated vestibular schwannomas. Neuro Oncol 2014; 17: 566–573.
+
+46 Cibulskis K, Lawrence MS, Carter SL, Sivachenko A, Jaffe D, Sougnez C et al.
+Sensitive detection of somatic point mutations in impure and heterogeneous
+cancer samples. Nat Biotechnol 2013; 31: 213–219.
+
+47 Youn A, Simon R. Identifying cancer driver genes in tumor genome sequencing
+
+studies. Bioinformatics 2011; 27: 175–181.
+
+48 Li H, Handsaker B, Wysoker A, Fennell T, Ruan J, Homer N et al. The Sequence
+
+Alignment/Map format and SAMtools. Bioinformatics 2009; 25: 2078–2079.
+
+49 Teer JK, Bonnycastle LL, Chines PS, Hansen NF, Aoyama N, Swift AJ et al. Sys-
+tematic comparison of three genomic enrichment methods for massively parallel
+DNA sequencing. Genome Res 2010; 20: 1420–1431.
+
+50 Wang K, Li M, Hakonarson H. ANNOVAR: functional annotation of genetic
+variants from high-throughput sequencing data. Nucleic Acids Res 2010;
+38: e164.
+
+51 Teer JK, Green ED, Mullikin JC, Biesecker LG. VarSifter: visualizing and analyzing
+exome-scale sequence variation data on a desktop computer. Bioinformatics 2012;
+28: 599–600.
+
+52 Li H, Durbin R. Fast and accurate short read alignment with Burrows-Wheeler
+
+transform. Bioinformatics 2009; 25: 1754–1760.
+
+53 DePristo MA, Banks E, Poplin R, Garimella KV, Maguire JR, Hartl C et al. A frame-
+work for variation discovery and genotyping using next-generation DNA
+sequencing data. Nat Genet 2011; 43: 491–498.
+
+54 Hsu F, Kent WJ, Clawson H, Kuhn RM, Diekhans M, Haussler D. The UCSC
+
+known genes. Bioinformatics 2006; 22: 1036–1046.
+
+55 Cancer Genome Atlas Research N, Comprehensive genomic characterization of
+
+squamous cell lung cancers. Nature 2012; 489: 519–525.
+
+56 Lawrence MS, Stojanov P, Polak P, Kryukov GV, Cibulskis K, Sivachenko A et al.
+in cancer and the search for new cancer-
+
+Mutational heterogeneity
+associated genes. Nature 2013; 499: 214–218.
+
+57 Reich M, Liefeld T, Gould J, Lerner J, Tamayo P, Mesirov JP. GenePattern 2.0. Nat
+
+Genet 2006; 38: 500–501.
+
+58 Van Loo P, Nilsen G, Nordgard SH, Vollan HK, Borresen-Dale AL, Kristensen VN
+et al. Analyzing cancer samples with SNP arrays. Methods Mol Biol 2012; 802:
+57–72.
+
+Supplementary Information accompanies this paper on the Oncogene website (http://www.nature.com/onc)
+
+© 2017 Macmillan Publishers Limited, part of Springer Nature.
+
+Oncogene (2017) 3168 – 3177
+
+

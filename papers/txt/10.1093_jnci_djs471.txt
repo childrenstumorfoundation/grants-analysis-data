@@ -1,0 +1,1280 @@
+DOI:10.1093/jnci/djs471
+ 
+
+Article
+
+effect of SMUrF2 targeting on Susceptibility to MeK inhibitors 
+in Melanoma
+Michael P. Smith, Jennifer Ferguson, Imanol Arozarena, Robert Hayward, Richard Marais, Anna Chapman, Adam Hurlstone,  
+Claudia Wellbrock
+
+Manuscript received April 5, 2012; revised September 27, 2012; accepted September 30, 2012.
+
+Correspondence to: Claudia Wellbrock, PhD, Molecular Cancer Studies, Wellcome Trust Centre for Cell Matrix Research, University of Manchester, Michael Smith 
+Bldg, Oxford Rd, Manchester, M13 9PT, UK (e-mail: Claudia.Wellbrock@manchester.ac.uk).
+
+ Background 
+
+  Methods 
+
+ 
+
+Results 
+
+The mitogen-activated protein–kinase pathway consisting of the kinases RAF, MEK, and ERK is central to cell pro-
+liferation and survival and is deregulated in more than 90% of melanomas. MEK inhibitors are currently trialled 
+in the clinic, but despite efficient target inhibition, cytostatic rather than cytotoxic activity limits their efficacy.
+
+We assessed the cytotoxicity to MEK inhibitors (PD184352 and selumetinib) in melanoma cells by toluidine-blue 
+staining, caspase 3 cleavage, and melanoma-sphere growth. Western blotting and quantitative real-time poly-
+merase chain reaction were applied to determine SMAD-specific E3 ubiquitin protein ligase 2 (SMURF2), PAX3, 
+and MITF expression. Human melanoma samples (n = 77) from various stages were analyzed for SMURF2 and 
+PAX3 expression. RNA interference was performed to target SMURF2 during MEK inhibition in vivo in melanoma 
+xenografts in mice and zebrafish. All statistical tests were two-sided.
+
+Activation of transforming growth factor β (TGF-β) signalling sensitized melanoma cells to the cytotoxic effects 
+of MEK inhibition. Melanoma cells resistant to the cytotoxic effects of MEK inhibitors counteracted TGF-β sig-
+nalling through overexpression of the E3 ubiquitin ligase SMURF2, which resulted in increased expression of 
+the transcription factors PAX3 and MITF. High MITF expression protected melanoma cells against MEK inhibitor 
+cytotoxicity. Depleting SMURF2 reduced MITF expression and substantially lowered the threshold for MEK inhibi-
+tor–induced apoptosis. Moreover, SMURF2 depletion sensitized melanoma cells to the cytotoxic effects of selu-
+metinib, leading to cell death at concentrations approximately 100-fold lower than the concentration required to 
+induce cell death in SMURF2-expressing cells. Mice treated with selumetinib alone at a dosage of 10 mg/kg body 
+weight once daily produced no response, but in combination with SMURF2 depletion, selumetinib suppressed 
+tumor growth by 97.9% (95% confidence interval = 38.65% to 155.50%, P = .005).
+
+ Conclusions 
+
+Targeting SMURF2 may be a novel therapeutic approach for increasing the antitumor efficacy of MEK inhibitors.
+
+ 
+
+ 
+
+J Natl Cancer Inst 2013;105:33–46
+
+The  mitogen-activated  protein  (MAP)–kinase  pathway,  consist-
+ing of the kinases RAF, MEK, and ERK, is hyperactivated in more 
+than 90% of melanomas, and this is mainly triggered by a mutated 
+BRAF-kinase, which constitutively activates MEK (1,2). Currently, 
+inhibitors of MEK are being evaluated in the clinic, but although 
+they  show  some  single-agent  activity,  the  overall  responses  are 
+much lower than expected (3,4). Importantly, the doses of MEK 
+inhibitor used in reported trials effectively produce target inhibi-
+tion  and  suppress  proliferation  (4,5). These  observations  suggest 
+that  cytostatic  effects  may  not  be  sufficient  to  produce  a  major 
+response in patients and that the majority of tumors are intrinsi-
+cally refractory to cytotoxic effects of MEK inhibition.
+
+Indeed,  from  studies  in  melanoma  cell  lines,  it  is  clear  that 
+cytotoxic  effects  of  MEK  inhibitors  in  melanoma  cells  generally 
+occur  either  at  concentrations  considerably  higher  than  the 
+concentrations  needed  to  produce  an  antimitotic  effect  or  after 
+
+continuous long-term exposure to the drug (6–8). However, dose-
+limiting toxicity or a short half-life of the inhibitor prevents these 
+conditions  being  satisfied  in  vivo  (3,5).  Moreover,  frequently 
+BRAF-mutant  cells  display  high  resistance  to  MEK  inhibitor–
+induced apoptosis despite efficient target inhibition (9,10), which 
+points to the activation of additional pathways in these cells that 
+enable them to survive even at very low levels of ERK activation. 
+Thus,  in  addition  to  recently  discovered  mechanisms  reinstating 
+MAP-kinase pathway activation in the presence of inhibitor (11–
+14), abrogation of the cytotoxic effects of MEK inhibitors brought 
+about  by  parallel  pathways  must  be  considered  as  a  possible 
+resistance  mechanism.  Phosphatidylinositol-3-kinase  or 
+its 
+upstream regulators activate such a pathway (10,15,16), and trials 
+using phosphatidylinositol-3-kinase pathway inhibitors combined 
+with  MEK  inhibitors  are  currently  underway.  However,  like  the 
+MAP-kinase  pathway,  phosphatidylinositol-3-kinase  signalling  is 
+
+jnci.oxfordjournals.org
+
+JNCI 
+
+|  Articles  33
+
+© The Author 2012. Published by Oxford University Press.This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (http://creativecommons.org/licenses/bync/3.0/uk/) which permits unrestricted noncommercial use, distribution, and reproduction in any medium, provided the original work is properly cited.central to all nontumor cells, and the toxicity of these inhibitors is 
+a limiting factor (17,18).
+
+We,  therefore,  aimed  to  identify  melanoma  specific  proteins 
+that  counteract  MEK  inhibitor–induced  cytotoxic  effects.  Such 
+proteins may be useful predictive markers for the sensitivity of mel-
+anoma cells to MEK inhibitors. Moreover, targeting such proteins 
+may 1) improve the initial response to MEK inhibitors by enhanc-
+ing their cytotoxic effects, thus overcoming primary resistance, and 
+2)  prevent  secondary  acquired  resistance  that  develops  from  the 
+selection for primary resistant cells during drug treatment.
+
+Materials and Methods
+Cell Culture, Reagents, and Transfections
+Human melanoma cell lines, derived from patients with either pri-
+mary (888mel) or metastatic (A375, WM266-4, SK-Mel2, 501mel, 
+and WM164) melanoma lesions, were grown in Dulbecco’s modi-
+fied Eagle medium containing 10% fetal calf serum (PAA, Yeovil, 
+UK).  A375,  WM266-4,  WM164,  and  SK-Mel2  cells  were  from 
+American Type Culture Collection (LGC, Middlesex, UK), 501mel 
+and 888mel were a gift from Steven Rosenberg (National Cancer 
+Institute, Bethesda, MD). All cell lines are positive for the mela-
+noma marker MITF: SK-Mel2 cells harbor an NRAS mutation, and 
+the other melanoma cell lines were confirmed to harbor a BRAF 
+mutation. Human dermal fibroblasts were a gift from Guillaume 
+Jacquement  (University  of  Manchester,  Manchester,  UK)  and 
+grown  in  Dulbecco’s  modified  Eagle  medium  containing  10% 
+fetal calf serum. Normal human melanocytes (Cascade Biologics, 
+Invitrogen, Carlsbad, CA) were cultured in medium 154 with human 
+melanocyte growth supplement 2 (Cascade Biologics). PD184352 
+was  from  Axon  Medchem  (Groningen,  The  Netherlands),  and 
+selumetinib (AZD6244) was from Selleck Chemicals (Newmarket, 
+UK).  Transforming  growth  factor  β  (TGF-β)  was  from  Sigma 
+(St Louis, MO). Cells were transfected with plasmid DNA using 
+Attractene  transfection  reagent  (Qiagen, Valencia,  CA)  and  with 
+small  interfering  RNAs  (siRNAs)  using  INTERFERin  siRNA-
+transfection  reagent  (Polyplus,  Illkirch,  France)  according  to  the 
+manufacturer’s instructions. For the generation of A375 cells stably 
+transfected  with  either  the  control  vector  pLKO  or  with  differ-
+ent SMAD-specific E3 ubiquitin protein ligase 2 (SMURF2)–spe-
+cific small hairpin RNAs (shRNAs), cells were transfected with the 
+respective circular plasmids (set of 5 shRNAs, #RHS4533; Open 
+Biosystems,  Huntsville,  AL)  and  selected  for  puromycin  (1µg/
+ml) resistance. Clones S2-C4 and S2-C14 were isolated from cell 
+populations transfected with different shRNA sequences. For the 
+MEK inhibitor resistance colony formation assay, A375, WM266-
+4, and SK-Mel28 cells were transfected with circular pEF-MITF 
+or empty vector plasmids. Cells were plated in 10-cm dishes and 
+incubated with 1µM PD184352 for 3 weeks before being formalin 
+fixed, stained with crystal violet, and photographed. Quantification 
+was achieved by spectrophotometrical analysis measuring the opti-
+cal density at 555 nm (OD 555) of the solubilized dye.
+
+Immunoblotting
+Melanoma cells (3 × 105) were lysed in 150-µL sodium dodecyl sul-
+fate sample buffer (62.5 mM Tris-hydrochloride [pH 6.8 at 25°C], 
+2% weight/volume sodium dodecyl sulfate, 10% glycerol, 50 mM 
+
+dithiothreitol,  0.01%  weight/volume  bromophenol  blue)  or  lysis 
+buffer [50 mm 4-(2-hydroxyethyl)-1-piperazineethanesulfonic acid, 
+pH  7.5,  150 mM  sodium  chloride,  1.5 mM  magnesium  chloride, 
+1 mM  ethylene  glycol  tetraacetic  acid,  10%  glycerol,  1%  Triton 
+X-100,  1 mM  phenylmethanesulfonyl  fluoride,  0.2 mM  sodium 
+orthovanadate,  10 mg/mL  leupeptin,  10 mg/ml  aprotinin)  for  20 
+minutes  at  4ºC  and  analyzed  by  standard  immunoblotting  pro-
+tocols. The same amount of protein was loaded in each lane, and 
+primary  antibodies  were  detected  by  luminescence  using  peroxi-
+dase-coupled secondary antibodies (Jackson, Stratech, Newmarket, 
+UK).  The  primary  antibodies  used  were:  phospho-ERK  (mouse 
+monoclonal MAPK-YT, 1:10,000 dilution; Sigma); ERK2 (rabbit 
+polyclonal C-14, 1:10,000 dilution), PAX3 (goat-polyclonal N-19, 
+1:1000  dilution),  and  SMURF2  (rabbit  polyclonal  H-50,  1:1000 
+dilution) from Santa Cruz Biotechnolgy (Santa Cruz, CA); MITF 
+(mouse monoclonal, C5, 1:500 dilution; Neomarkers, Lab Vision, 
+Runcorn, UK); PARP (mouse monoclonal C2-10, #556362, 1:3000 
+dilution;  BD  Biosciences,  Oxford,  UK);  and  cleaved  caspase  3, 
+SMAD2, and phospho-SMAD2, SMAD3, and SMAD4 (all rabbit 
+polyclonal, 1:1000 dilution) from Cell Signaling (Boston, MA).
+
+Detection of Cell Death
+The  cellular  sub-G1  fraction  was  determined  by  fluorescence-
+activated cell sorting using propidium iodide staining and stand-
+ard protocols. Quantification of live cells was performed by crystal 
+violet or toluidine blue staining of formalin-fixed cells, and subse-
+quent spectrophotometrical analysis was performed by measuring 
+the OD 555 of the solubilized dye.
+
+RNA Isolation and Quantitative Real-Time Polymerase 
+Chain Reaction (qPCR) Analysis
+RNA  was  isolated  with  TRIZOL  reagent  (Invitrogen),  and 
+selected  genes  were  amplified  by  qPCR  using  SYBR  green 
+(Qiagen) incorporation during the amplification reaction. Primer 
+sequences  (forward;  reverse)  were  as  follows:  PAX3  (AGGAT-
+GCGGCTGATGGAACTCACTG; CCAGGATGATGCGGC-
+CGGGCCC GGG); MITF (CCGTCTCTCACTGGATTGGT; 
+TACTTGGTGGGGTTTTCGAG);  SMURF2  (GCAACAA-
+GGCCAGGTGTATT;  ACCACTTGCTGTTGCTGTTG); 
+GAPDH (CAATGACCCC TTCATTGACC; GACAAGCTTC-
+CCGTTCTCAG); and β-actin (GCAAGCAGGAGT ATGAC-
+GAG; CAAATAAAGCCATGCCAATC).
+
+siRNAs and shRNAs
+All 
+from  Thermo  Scientific  Dharmacon 
+siRNAs  were 
+(Loughborough,  UK).  The  sequences  of  the  individual  siRNAs 
+were  as  follows:  SMURF2#1  (GAUGAGAACACUCCAAUUA), 
+(GACCAUACCUUCUGUGUUG),  SMURF2#3 
+SMURF2#2 
+(CAAAGUGGAAUCAGCAUUA), 
+(GAACAAC 
+(GAACGAAGAAGAAGAUUU 
+ACAAUUUACAGA),  MITF#1 
+AUU),  MITF#2  (AAAGCAGUACCUUUCUACCAC),  MITF#3  
+(GACCUAACCUGUACAACAAUU),  PAX3#1 
+(GAAACACCG 
+UGCCGUCAGUUU),  PAX3#2 
+(GAGACUGGCUCCAUAC 
+GUCUU) and scrambled (nontargeting) control sequence (AAUAUAA 
+UCACUAUCAGGUGC);  S2-p  was  a  ready-to-use  SMURF2 
+SMARTpool.  The  circular  plasmids  containing  SMURF2-specific 
+shRNAs were from Open Biosystems (Thermo Fisher, Loughborough, 
+
+SMURF2#4 
+
+34  Articles 
+
+|  JNCI
+
+Vol. 105, Issue 1  |  January 2, 2012
+
+UK). S2-sh#1 corresponds to clone TRCN0000003475, and S2-sh#2 
+corresponds to clone TRCN0000003477.
+
+Melanoma Three-Dimensional Spheroid Growth
+A375  melanoma  cells  and  the  corresponding  SMURF2  shRNA 
+derivatives stably expressing green fluorescent protein were resus-
+pended  in  Dulbecco’s  modified  Eagle  medium  containing  5% 
+fetal calf serum and 1.5% methylcellulose (Sigma). The cell sus-
+pension was transferred into a 96-well plate (1000 cells per well), 
+and spheres were allowed to form over a period of 48 to 72 hours. 
+Spheres were then transferred into 0.5-mL fibrillar bovine dermal 
+collagen  (2.3 mg/mL;  Nucaton,  Leimuiden,  The  Netherlands) 
+with one sphere per well of a 24-well plate. Once the collagen was 
+set, Dulbecco’s modified Eagle medium containing 10% fetal calf 
+serum  was  added,  and  after  approximately  16  hours,  drugs  were 
+added to the medium at indicated concentrations. Dead cells were 
+identified  by  staining  of  nonfixed  cells  with  ethidium  bromide 
+(100 µg/mL; Sigma) for 10 minutes, followed by three washes with 
+phosphate-buffered  saline.  Green  fluorescent  protein–express-
+ing spheres were monitored, and ethidium bromide intensity was 
+assessed  using  a  Leica  DM  IL  HC  inverted  microscope  and  a 
+FC340 Cooled Monocrome camera (Leica Microsysytems).
+
+Melanoma cDNA Tissue Array
+Two  melanoma  TissueScan  cDNA  arrays,  MERT101  and 
+MERT102  (Origene,  Rockville,  MD),  were  analyzed  for  the 
+expression of SMURF2 and PAX3. The arrays consisted of cDNA 
+derived from stage III (n = 36) and stage IV (n = 41) melanomas, 
+staged  according  to  the  revised  TNM  classification  with  mini-
+mum  stage  grouping  (19),  and  from  normal  skin  (n  =  6),  which 
+was  supplemented  with  additional  cDNA  derived  from  human 
+fibroblasts,  keratinocytesm,  and  melanocytes.  The  expression  in 
+melanocytes was set to one. The cDNA samples were preampli-
+fied  using  the  TaqMan  PreAmp  Master  Mix  Kit  (PN4384267, 
+Applied Biosystems, Carlsbad, CA) according to the manufacturer’s 
+instructions. qPCR was carried out with TaqMan Gene Expression 
+Master Mix (PN4369016, Applied Biosystems). β-Actin expression 
+was  used  to  normalize  relative  SMURF2  and  PAX3  expression. 
+Experiments  were  performed  as  multiplex  PCR  reactions  using 
+TaqMan probes (Applied Biosystems) for SMURF2 (Hs00224203, 
+FAM labelled) or PAX3 (Hs00240950, FAM labelled) with a differ-
+entially labelled β-actin probe (Hs99999903, VIC labelled).
+
+Melanoma Xenografts
+All  procedures  involving  animals  were  approved  by  the  Animal 
+Ethics Committees of the Institute of Cancer Research in accord-
+ance  with  National  Home  Office  regulations  under  the Animals 
+(Scientific Procedures) Act 1986 and according to the guidelines 
+of the Committee of the National Cancer Research Institute (20).
+
+Xenografts  in  Zebrafish.  Zebrafish  (Danio  rerio)  were  raised 
+and  maintained  at  the  University  of  Manchester  Biological 
+Services  Unit.  Zebrafish  xenografts  were  generated  by  injection 
+of approximately 1000 melanoma cells into the pericardiac space 
+surrounding the heart of embryos that were 48 hours postfertiliza-
+tion.  Subsequently,  groups  of  six  larvae  per  condition,  randomly 
+assigned were treated with either 20 nM or 100 nM PD184352 or 
+
+the vehicle dimethyl sulfoxide (DMSO). The drug was added to the 
+fish medium, and larvae were grown at 34°C ambient temperature 
+in chorion water. Before drug addition (day 1) and 3 days after drug 
+addition, anesthetized larvae (MS222, Sigma) were imaged using a 
+Leica SP5 confocal microscope (Leica Microsystems). Images were 
+processed using Volocity software (Perkin Elmer, Cambridge, UK.)
+
+Xenografts in Mice. 
+ For xenografts, 4 × 106 A375pLKO or A375 
+S2-C14 cells in 0.1 mL phosphate-buffered saline were inoculated 
+subcutaneously  into  one  flank  each  of  female  CD1  nude  mice 
+(Charles  River,  Margate,  Kent,  UK).  When  mice  had  developed 
+melanoma nodules of approximately 100 mm3, mice were randomly 
+assigned to five per group, and drug administration was initiated (day 
+0). Treatment was by oral gavage once daily with vehicle (5% DMSO, 
+95% water), or 3 mg or 10 mg/kg body weight selumetinib in vehicle. 
+Tumor size was determined at days 7, 12, 19, 26, and 29 by calliper 
+measurements of tumor length, width, and depth, and volume was 
+calculated as volume = 0.5236 × length × width × depth (mm).
+
+Statistical Analysis
+All experiments were performed a minimum of three times. Data 
+represent the results for assays performed in triplicate or more, and 
+error bars represent 95% confidence intervals (CIs). All statistics 
+were based on continuous variables. Comparisons between more 
+than two treatment groups were made using predominately one-
+way analysis of variance with Tukeys’s, Dunnett’s or Bonferroni’s 
+post hoc test for multiple comparisons. For comparisons between 
+two groups, the Student’s t test was applied. Drug dose–response 
+curves were analyzed with a nonlinear regression curve fit model. 
+A ranking linear regression fit with Wald–Wolfowitz runs test was 
+used  to  compare  SMURF2  and  PAX3  expression  from  cDNA 
+array  data.  P  values  of  less  than.05  were  considered  statistically 
+significant. All statistical tests were two-sided. All statistical analysis 
+and  calculations  were  performed  using  GraphPad  Prism  version 
+4.00 for Mac OS (GraphPad Software Inc, San Diego, CA).
+
+results
+MITF Expression and Resistance to MEK Inhibitor–
+Induced Apoptosis in Melanoma Cells
+To  identify  melanoma  specific  proteins  allowing  survival  in  the 
+presence of MEK inhibitor, we exposed BRAF-mutant A375 mela-
+noma cells to cytotoxic concentrations of PD184352 for 4 days and 
+isolated  individual  clones  that  were  able  to  grow  in  the  presence 
+of drug (Figure 1, A). Immunoblot analysis of individual clones for 
+expression  of  the  central  regulator  of  melanoma  cell  fate,  MITF 
+(21–24), identified increased expression compared with the parental 
+cell line A375 (Figure 1, B). Further analysis confirmed that in con-
+trast with parental A375 cells, A375-R1 and A375-R4 cells were able 
+to survive in the presence of MEK inhibitor, which was indicated 
+by the absence of an increased subG1 fraction after MEK inhibi-
+tor exposure (Figure 1, C). However, the two resistant clones still 
+responded to the MEK inhibitor with reduced ERK phosphoryla-
+tion (Figure 1, D) and reduced progression into S-phase when com-
+pared with the parental cells (cells in S-phase: R1: 25.6% vs 7.12%, 
+difference = 18.48%, 95% CI = 13.53 to 23.42, P = .002; R4: 27.87% 
+
+jnci.oxfordjournals.org
+
+JNCI 
+
+|  Articles  35
+
+Figure 1.  MITF and resistance to MEK inhibitor–induced apoptosis. A) 
+Schematic of the protocol used for the selection of MEK inhibitor resist-
+ant clones. A375 melanoma cells were exposed to 1 µM PD184352 (PD) 
+for 4 days, which resulted in greater than 98% cell death. Surviving cells 
+were expanded at 0.5 µM PD184352 for an additional 3 weeks. Individual 
+clones  that  had  grown  in  the  presence  of  0.5  µM  drug  were  isolated. 
+B) Western blot of sensitive (S) parental A375 cells and MEK inhibitor–
+resistant clones for MITF and ERK2 (loading control). C) Quantification 
+of  cells  in  the  subG1  fraction  of  a  fluorescence-activated  cell  sorting 
+(FACS) analysis of parental A375 cells and MEK inhibitor–resistant clones 
+treated with dimethyl sulfoxide (DMSO) (D) or 1µM PD184352 (PD) for 
+72 hours. Bars represent means from three independent experiments; 
+error bars refer to 95% confidence intervals; ***P < .001; NS = P > .05. 
+A two-sided Student’s t test was used. D) Western blot for phosphoERK 
+
+(pERK) and ERK2 (loading control) of parental A375 cells (A) and MEK 
+inhibitor resistant clones (R1, R4) treated with either DMSO or the indi-
+cated concentrations of PD184352 (PD). E) Quantification of cells in the 
+S-phase  fraction  of  a  FACS  analysis  of  parental  A375  cells  and  MEK 
+inhibitor–resistant clones treated with DMSO (D) or 1µM PD184352 (PD) 
+for  72  hours.  Bars  represent  means  from  three  independent  experi-
+ments; error bars refer to 95% confidence intervals; ***P < .001. A two-
+sided Student’s t test was used. F) Parental A375 and resistant clones 
+R1 and R4 were cultured in the absence (DMSO) or presence of 0.5 µM 
+PD184352 for 12 days. Cells were fixed, photographed, and stained with 
+crystal violet. The intensity of staining reflects the number of cells that 
+had  grown  under  the  various  conditions.  Individual  photographs  of 
+cells grown in the presence of PD148352 are shown. Scale bar = 50 µm.
+
+vs 7.7%, difference 20.17%, 95% CI = 14.93 to 25.40,  P < .001) 
+(Figure 1, E). As a consequence, when cultured in the presence of 
+drug, the resistant cells displayed slow but continuous growth, as 
+was seen in a long-term growth experiment. When, after 12 days 
+of treatment, the number of cells in a culture dish was assessed by 
+staining with crystal violet, the staining intensity of plates contain-
+ing  A375-R1  or  A375-R4  cells  was  considerably  higher  than  in 
+plates containing A375 cells. The difference in cell number was also 
+visible when cells were photographed (Figure 1, F).
+
+MITF depletion from the resistant A375-R1 and A375-R4 cells by 
+RNA interference (RNAi) sensitized the cells to PD184352-induced 
+caspase 3 cleavage (Figure 2, A). Furthermore, ectopic overexpression 
+of MITF in three different sensitive cell lines increased the number 
+of colonies growing after 3 weeks in the presence of MEK inhibitor 
+when  compared  with  cell  lines  that  had  been  transfected  with 
+an  empty  vector  (OD  555  of  stained  cells: A375:  0.046  vs  0.300, 
+
+difference = −0.25, 95% CI = −0.30 to −0.21, P < .001; SKMEL28: 
+OD 555 = 0.105 vs 0.335, difference = −0.23, 95% CI = −0.28 to −0.18, 
+P < .001; WM2664: OD 555 = 0.033 vs 0.155, difference = 0.12, 95% 
+CI = −0.15 to −0.10, P < .001) (Figure 2, B). These initial findings 
+indicated  that  MITF  both  is  required  and  sufficient  to  produce 
+resistance to MEK inhibitor–induced cell death.
+
+Effect of SMURF2 on MITF Expression and MEK Inhibitor 
+Resistance
+To identify the mechanism leading to increased MITF expression in 
+the acquired resistant A375-R1 and R4 cells, we analyzed the cells for 
+the expression of the MITF upstream regulators BRN2 and MITF 
+and detected increased expression of only PAX3 (Figure 3, A). PAX3 
+is a positive transcriptional regulator of MITF (25) and its RNAi-
+mediated depletion in A375 and WM266-4 melanoma cells resulted 
+in reduced MITF levels (Supplementary Figure 1, A, available online).
+
+36  Articles 
+
+|  JNCI
+
+Vol. 105, Issue 1  |  January 2, 2012
+
+Figure  2.  Effect  of  MITF  on  MEK  inhibitor  resistance.  A) Western  blot 
+for MITF, cleaved caspase 3, and pERK of the resistant clones A375-R1 
+and A375-R4  treated  with  a  scrambled  control  or  MITF-specific  small 
+interfering RNAs (siRNAs) (MI #1, MI #2, MI #3) for 48 hours, followed 
+by  24-hour  exposure  to  1  µM  PD184352  (PD)  or  dimethyl  sufloxide 
+(DMSO  [D]).  β-Actin  was  used  as  loading  control.  B) A375,  SK-Mel28, 
+and WM266-4  cells  were  transfected  with  an  MITF  expression  vector 
+or an empty vector (Vec). The Western blot (upper right panels) shows 
+
+MITF expression 24 hours after the transfection. Note that the chosen 
+short-film  exposure  does  not  detect  endogenous  MITF  expression  in 
+WM266-4 and A375 cells. The cells were cultured for 3 weeks in the pres-
+ence of PD184352, and resistant colonies were stained with crystal vio-
+let. A representative stained cell image is shown to the left of the graph, 
+which plots the mean number of crystal violet–positive cells from three 
+independent assays; error bars refer to 95% confidence intervals; ***P 
+< .001. A two-sided Student’s t test was used.
+
+PAX3  and  MITF  regulation  have  been  placed  downstream  of 
+TGF-β  in  melanocytes,  where  a  SMAD4/SMAD2-containing 
+complex  directly  suppresses  PAX3  expression  (26). We  found  this 
+described  mechanism  was  conserved  in  melanoma  cells,  where 
+treatment  of  the  melanoma  cells  with  TGF-β  suppressed  PAX3 
+and MITF RNA expression when compared with nontreated mela-
+noma cells (normal human melanocytes: relative PAX3 expression in 
+untreated cells = 1 vs 0.43, in TGF-β-treated cells, difference = 0.57, 
+95%  CI  =  0.21  to  0.92,  P  <  .001;  relative  MITF  expression  in 
+untreated cells = 1 vs 0.17, in TGF-β-treated cells, difference = 0.83, 
+95% CI = 0.48 to 1.19, P < .001; A375: relative PAX3 expression in 
+untreated cells = 1 vs 0.28 in TGF-β-treated cells, difference = 0.72, 
+95%  CI  =  0.36  to  1.07,  P  <  .001;  relative  MITF  expression  in 
+untreated cells = 1 vs 0.64 in TGF-β-treated cells, difference = 0.36, 
+95% CI = 0.05 to 0.72, P = 0.02) (Figure 3, B). Treatment of A375-R1 
+and R4 cells with TGF-β and PD184352 induced caspase 3 cleav-
+age (Figure 3, C). Moreover, the treatment of melanoma cells with 
+TGF-β and PD184352 reduced cell survival in the acquired resistant 
+melanoma cells, with approximately 80% reduction in cell numbers 
+(R1: 78.5%, 95% CI = 75.74% to 83.16%, P < .001; R4: 81.5%, 95% 
+CI = 79.75% to 83.07%, P < .001) (Figure 3, D).
+
+Because  activating  TGF-β  signalling  suppressed  MITF 
+expression and sensitized melanoma cells to MEK inhibitor–induced 
+
+cell  death,  we  hypothesized  that  counteracting TGF-β  signalling 
+could  provide  a  mechanism  for  MITF-mediated  MEK  inhibitor 
+resistance.  Indeed,  we  detected  statistically  significantly  (R1:  P 
+<  .001;  R4:  P  <  .001)  increased  RNA  expression  of  SMURF2 
+(Figure 3, E), an E3 ubiquitin ligase that regulates the degradation 
+and  activity  of  SMAD  proteins  (27,28)  in  the  MEK  inhibitor–
+resistant cell lines compared with the parental A375 cells. We found 
+that SMURF2 suppresses the amount of SMAD2 in melanoma cells 
+(Figure 3, E; Supplementary Figure 2, A, available online), and that 
+high SMURF2 levels paralleled high PAX3 expression in A375-R1 
+and  A375-R4  cells  (Figure  3,  F).  This  high  PAX3  expression  is 
+dependent  on  SMURF2  because  SMURF2  depletion  using  four 
+individual siRNAs completely abolished increased PAX3 expression 
+(Figure  3,  F).  Accordingly,  MITF  expression  was  also  severely 
+reduced (Supplementary Figure 2, C and D, available online).
+
+Depletion  of  SMURF2  from  A375-R1  or  A375-R4  cells  did 
+not impact their viability, but additional treatment with PD184352 
+induced  cell  death  (Supplementary  Figure,  2,  B  and  E,  available 
+online).  A  dose–response  analysis  showed  that  SMURF2  deple-
+tion via RNAi overcomes MEK inhibitor resistance, and the GI50 
+(concentration of MEK inhibitor required to reduce the cell num-
+ber  by  50%  compared  with  DMSO  control)  for  PD184352  in 
+A375-R1 and A375-R4 cells was reduced 3- to 10-fold compared 
+
+jnci.oxfordjournals.org
+
+JNCI 
+
+|  Articles  37
+
+Figure 3.  Effects of transforming growth factor β (TGF-β) and SMURF2 
+on melanoma cell sensitivity to MEK inhibition. A) Western blot of sen-
+sitive (S) parental A375 cells and MEK inhibitor resistant clones R3, R6, 
+R1, and R4 for MITF, PAX3, and ERK2 (loading control). B) Quantitative 
+real-time polymerase chain reaction (PCR) analysis of PAX3 and MITF 
+expression in normal human melanocytes (NHM) and A375 cells either 
+unstimulated (–) or stimulated (transforming growth factor β [TGF-β]) 
+for 24 hours with 5 ng/ml TGF-β. Bars represent means from three inde-
+pendent  experiments;  error  bars  refer  to  95%  confidence  intervals; 
+***P  <  .001;  *P  =  .02. A  two-sided  Student’s t  was  used.  C) Western 
+blot  of A375-R1  and A375-R4  cells  for  cleaved  caspase  3,  pERK,and 
+ERK2 (loading control). The cells were either unstimulated (–) or stimu-
+lated (TGF-β) for 24 hours with 5 ng/ml TGF-β in the presence of dime-
+thyl sulfoxide (DMSO [D]) or 2 µM PD184352 (PD). D) Quantification of 
+cell survival. A375-R1 and A375-R4 cells were treated with TGF-β for 48 
+hours, followed by 24-hour exposure to 2 µM PD184352 (PD) or DMSO 
+(D), before the cell number was assessed by toluidine staining. DMSO-
+treated  cells  were  set  100%.  Bars  represent  means  from  three  inde-
+pendent  experiments;  error  bars  refer  to  95%  confidence  intervals; 
+***P < .001. Two-sided analysis of variance (ANOVA) with Bonferroni 
+post hoc test was used. E) Quantitative real-time PCR and Western blot 
+analysis of SMURF2 expression in parental A375 cells and the resistant 
+clones R1 and R4. SMURF2 expression in A375 cells was set to 1. Bars 
+represent means from three independent experiments; error bars refer 
+to 95% confidence intervals; ***P < .001. A two-sided Student’s t test 
+
+was used. F) Quantitative real-time PCR analysis of PAX3 expression 
+in parental A375 cells and the resistant clones R1 and R4 transfected 
+with  either  a  scrambled  control  or  four  individual  SMURF2-specific 
+small  interfering  RNAs  (siRNAs)  (#1–#4).  A375  cells  treated  with  a 
+scrambled  control  siRNA  were  set  to  1.  Bars  represent  means  from 
+three  independent  experiments;  error  bars  refer  to  95%  confidence 
+intervals. ***P < .001. Two-sided ANOVA with Dunnett’s post hoc test 
+was used. G) Dose–response curve of cell survival in the presence of 
+PD184352. A375 cells and the resistant clones R1 and R4 were treated 
+with a scrambled control or a SMURF2-specific siRNA (siS2#1) for 48 
+hours,  followed  by  the  indicated  concentrations  of  PD184352  for  24 
+hours before they were fixed, stained with toluidine blue, and quanti-
+fied  measuring  the  optical  density  at  555 nm  (OD  555)  of  solubilized 
+dye.  For  each  cell  line,  DMSO-treated  cells  were  set  to  100%,  and 
+percentage of cell survival at defined drug concentrations was deter-
+mined.  Drug  dose–response  curves  were  analyzed  with  a  nonlinear 
+regression curve fit model. H) A375-pLKO or small hairpin SMURF2-
+expressing  A375  cells  (clone  S2–C14;  see  Supplementary  Figure  3, 
+available online) were cultured for 3 weeks in the presence of 0.5 µM 
+PD184352, and resistant colonies were stained with crystal violet, and 
+the OD 555 was quantified. Values represent the results of five inde-
+pendent  experiments.  ***P  <  .001. A  two-sided  Student’s  t  test  was 
+used.  Black  circles  represent  cells  stably  transfected  with  the  empty 
+pLKO vector, black triangles represent cells stably transfected with a 
+SMURF2–small hairpin RNA–expressing vector.
+
+38  Articles 
+
+|  JNCI
+
+Vol. 105, Issue 1  |  January 2, 2012
+
+Figure 4.  MITF and primary resistance to MEK inhibition. A) DNA content 
+fluorescence-activated cell sorting (FACS) analysis (assessing fractions of 
+cells in G1, S, G2/M, or subG1 phase) of the indicated cell lines treated 
+with  1µM  PD184352  (PD)  or  dimethyl  sulfoxide  (DMSO)  for  72  hours. 
+Western  blots  of  ERK  phosphorylation  (pERK)  at  concentrations  of  0.2 
+and 1 µM PD184352. ERK2 serves as loading control. B) Quantification of 
+cells in the subG1 fraction of a FACS analysis of the indicated melanoma 
+cell lines (R = resistant, S = sensitive) treated with 1µM PD184352 for 72 
+hours. Bars represent means from three independent experiments; error 
+bars refer to 95% confidence intervals. NS = P > .05; ***P < .001. Two-
+sided analysis of variance (ANOVA) with Tukey’s post hoc test was used. 
+C) Quantification of toluidine staining of live cells of the indicated mela-
+noma cell lines treated with 3 µM PD184352 for 24 hours or DMSO only. 
+DMSO-treated cells were set to 100%. Bars represent means from three 
+independent experiments; error bars refer to 95% confidence intervals. 
+
+NS = P > .05; ***P < .001. Two-sided ANOVA with Tukey’s post hoc test was 
+used. A Western blot showing MITF expression and ERK2 as loading con-
+trol is shown. D) Western blot of MITF, cleaved caspase 3, and phospho-
+ERK (pERK) for 888mel and 501mel cells treated with a scrambled control 
+or MITF-specific small interfering RNAs (siRNAs) (MI#1–#3) for 48 hours, 
+followed by 24-hour exposure to 1 µM PD184352 (PD) or DMSO (D). ERK2 
+was  used  as  loading  control.  E)  Quantification  of  cell  survival.  501mel 
+cells were treated with a scrambled control or MITF-specific siRNAs (MI#2 
+and #3) for 48 hours, followed by 24-hour exposure to 0.5 µM PD184352 
+(PD) or DMSO (D). They were then fixed and stained with toluidine blue, 
+and  the  optical  density  at  555 nm  was  quantified.  DMSO-treated  cells 
+were set to 100%, and treatment with 5 µM PD184352 was used as posi-
+tive control. Bars represent means from three independent experiments; 
+error bars refer to 95% confidence intervals; NS = P > .05; ***P < .001. 
+Two-sided ANOVA with Tukey’s post hoc test was used.
+
+with A375 cells (A375: 95% CI [GI50] = 1.47 to 2.66 µM; R1/siS2: 
+95% CI [GI50] = 0.53 to 0.72 µM; R4/siS2: 95% CI [GI50] = 0.11 
+to 0.18 µM) (Figure 3, G). Most important, stable expression of a 
+SMURF2-specific shRNA in A375 cells (Supplementary Figure 3, 
+available  online)  suppressed  the  development  of  acquired  MEK 
+inhibitor resistance, and the number of PD184352-resistant colo-
+nies derived from small hairpin SMURF2 (shSMURF2) cells after 
+3  weeks  of  drug  exposure  was  severely  reduced  when  compared 
+with empty vector pLKO cells treated with MEK inhibitor (OD 
+
+555 of stained cells, pLKO vs shSMURF: 0.3872 vs 0.1030, differ-
+ence = 0.28, 95% CI = 0.21 to 0.36, P < .001) (Figure 3, H).
+
+MITF Expression and Primary Resistance to MEK 
+Inhibitor–Induced Cytotoxicity
+We  next  extended  our  study  to  primary  (innate)  resistance  to 
+MEK  inhibition  in  BRAF-mutant  melanoma  cells.  High-MITF-
+expressing  cells  (WM164,  888mel,  501mel),  which  are  repre-
+sentative  of  certain  cohorts  of  melanomas  (29),  responded  to 
+
+jnci.oxfordjournals.org
+
+JNCI 
+
+|  Articles  39
+
+PD184352  with  MEK  inhibition  even  at  low  doses  of  inhibitor 
+(0.2 µM), detectable by reduced ERK phosphorylation (Figure 4, 
+A).  However,  whereas  PD184352  induced  a  cytostatic  effect  in 
+high-MITF-expressing cells, it produced cell death in low-MITF-
+expressing cell lines (WM266-4, A375, SKMel-2), which was seen 
+in  an  increased  subG1  fraction  and  decreased  cell  numbers  in 
+SKMel-2, A375 and WM266-4 cells (Figure 4, A–C).
+
+As  seen  with  the  acquired  resistant  cells,  depletion  of  MITF 
+from high-MITF- expressing primary resistant cell lines (888mel 
+and 501mel cells) resulted in sensitization to PD184352, which led 
+to the activation of an apoptotic program through caspase 3 cleav-
+age (Figure 4, D) and reduced cell numbers at low concentrations 
+of drug (Figure 4, E).
+
+SMURF2 Depletion and MEK Inhibitor–Induced 
+Cytotoxicity
+When  we  analyzed  primary  MEK  inhibitor–resistant  melanoma 
+cells  for  PAX3,  we  found  increased  expression  in  the  resistant 
+cell lines, which paralleled increased MITF expression (Figure 5, 
+A).  Furthermore,  in  line  with  PAX3  acting  upstream  of  MITF, 
+PAX3  depletion  from  A375  cells  enhanced  the  proapoptotic 
+effect  of  PD184352  detectable  by  increased  caspase  3  cleavage 
+(Supplementary Figure 1, B, available online). In addition, PAX3 
+depletion further reduced the number of living cells in the presence 
+of PD184352 (A375 control siRNA transfected, PD184352 treated 
+vs A375 PAX3 siRNA transfected, PD184352 treated: 75.12% vs 
+44.93%, difference = 30.19%, 95% CI = 27.50% to 41.80%, P < 
+.001)  (Figure  5,  B).  However,  ectopic  expression  of  MITF  res-
+cued A375 cells in which PAX3 was targeted by RNAi and MEK 
+by PD184352 (A375 PAX3 siRNA transfected, PD184352 treated 
+vs MITF-A375 PAX3 siRNA transfected and PD184352 treated: 
+44.93%  vs  85.07%,  difference  =  40.15%,  95%  CI  =  45.69%  to 
+34.60%, P < .001) (Figure 5, B). On the other hand, when MITF 
+was depleted by RNAi in ectopic MITF-expressing A375 cells, they 
+became responsive to PD184352, and the cell number was reduced 
+(Figure 5, B).
+
+TGF-β induced caspase 3 cleavage in response to the presence 
+of  PD184352  (Figure  5,  C).  Importantly,  this  caspase  3  cleavage 
+in response to TGF-β was seen not only in MEK inhibitor–sensi-
+tive WM266-4 cells but also in MEK inhibitor–resistant 501mel 
+cells (Figure 5, C). The action of TGF-β and PD184352 was also 
+reflected in effects on cell survival, most notably in MEK inhibi-
+tor–resistant melanoma cells (Figure 5, D).
+
+When we analyzed our panel of melanoma cells, we found sta-
+tistically significantly (P = .001) increased SMURF2 expression in 
+the primary MEK inhibitor–resistant cell lines compared with the 
+MEK inhibitor–sensitive cell lines. (Figure 5, E). When SMURF2 
+was  depleted  by  RNAi  in  melanoma  cell  lines,  this  resulted  in 
+reduced  PAX3  and  MITF  expression  (Supplementary  Figures  2 
+and  3,  available  online),  and  because  reduced  PAX3  and  MITF 
+expression sensitizes melanoma cells to MEK inhibition (Figure 1, 
+Figure 2, A, Figure 5, B), SMURF2 depletion strongly increased 
+cell  death  in  melanoma  cells  in  the  presence  of  PD184352 
+(A375,scrambled  control  siRNA  transfected,  PD184352  treated 
+vs  A375,  S2  siRNA  transfected  PD184352  treated:  79.58%  vs 
+13.47%, difference = 66.11%, 95% CI = 57.27% to 74.94%, P < 
+.001) (Figure 5, F). However, ectopic expression of MITF, which 
+
+is  not  affected  by  SMURF2  depletion  (Supplementary  Figure  1, 
+C,  available  online),  rescued  the  MEK  inhibitor  effect  on  the 
+cell  number  (A375,  S2  siRNA  transfected  PD184352  treated  vs 
+MITF-A375, S2 siRNA transfected PD184352 treated: 13.47% vs 
+81.18%, difference = 67.71%, 95% CI = 73.95% to 61.47%, P < 
+.001) (Figure 5, F). This suggests that reduced MITF expression 
+is responsible for the cell death induced by SMURF2 depletion in 
+PD184352-treated cells.
+
+SMURF2 Expression in Melanoma and Effect of Its 
+Depletion in Melanoma Cells
+In our panel of melanoma cell lines, SMURF2 depletion had no 
+major  effect  on  cell  viability  (Figure  6,  A).  However,  compared 
+with single treatments, combined targeting of SMURF2 and MEK 
+produced statistically significant (P < .001) cell death, most nota-
+bly in the primary resistant cell lines (Figure 6, A). On the other 
+hand, SMURF2 depletion had no noticeable effect on melanocytes 
+(Figure  6,  B).  We  also  did  not  observe  any  major  effect  on  cell 
+survival when SMURF2 was depleted and MEK inhibited in non-
+MITF-expressing but BRAF-mutant colon cancer cells (Figure 6, 
+C),  supporting  a  melanoma-specific  role  for  SMURF2.  When 
+melanoma cells were grown as spheres in three-dimensional colla-
+gen, SMURF2 depletion enhanced PD184352-induced cell death, 
+visible  by  ethidium  bromide  uptake  (Figure  6,  D).  Furthermore, 
+targeting SMURF2 in fibroblasts did not stimulate tumor-promot-
+ing effects otherwise produced by TGF-β (30), such as increased 
+expression of VEGF and SPARC (Figure 6, E), which reveals an 
+important  difference  between  SMURF2  function  and  TGF-β 
+stimulated signalling.
+
+In  advanced  stage  III  and  IV  melanomas,  SMURF2  RNA 
+expression was statistically significantly increased compared with 
+normal skin (mean of different skin samples and primary skin cells 
+[normal melanocytes = 1] 1.05-fold vs stage III 15.40-fold, differ-
+ence = 14.35, 95% CI = 21.91-fold to 6.80-fold, P < .001; normal 
+1.05-fold vs stage IV 8.01-fold, difference = 6.96, 95% CI = 10.69-
+fold to 3.25-fold, P < .001) (Figure 6, F). There was a correlation 
+(r2 = 0.788) between SMURF2 and PAX3 expression (Figure 6, G), 
+suggesting that the regulatory link between these two proteins is 
+preserved in the tumors.
+
+injected 
+
+Effect of SMURF2 Depletion on MEK Inhibition In Vivo
+In  an  approach  that  allows  rapid  assessment  of  cytotoxic  effects 
+in  an  in  vivo  setting,  MEK  inhibitor–resistant  501mel  or  MEK 
+inhibitor–sensitive  A375  cells  were 
+into  zebrafish 
+embryos (Figure 7, A; Supplementary Figure 4, available online). 
+Both,  pLKO-control  and  SMURF2-depleted  cells  (ie,  cells  sta-
+bly  expressing  SMURF2-specific  shRNAs;  see  also  Figure  3,  H) 
+grew with no statistically significant difference (P > .05) in size over 
+3 days (Figure 7, A; Supplementary Figure 4, B, available online). 
+Xenografts formed by sensitive A375 cells showed no statistically 
+significant tumor growth over a period of 3 days (day 1 to day 4) at 
+20nM PD184352 (P > .05) (Supplementary Figure 4, B, available 
+online).  Resistant  501mel  xenografts  grew  even  in  the  presence 
+of 100 nM drug (Figure 7, A), but additional SMURF2 depletion 
+reduced  the  xenograft  volume  to  less  than  0.5-fold  of  the  initial 
+size measured at day 1 (DMSO: pLKO 3.26-fold vs shSMURF2 
+2.78-fold  size  increase  compared  with  day  1,  difference  =  −0.48, 
+
+40  Articles 
+
+|  JNCI
+
+Vol. 105, Issue 1  |  January 2, 2012
+
+Figure 5.  SMURF2 confers resistance to MEK inhibition in melanoma 
+cells.  A) Western  blot  of  the  indicated  cell  lines  for  MITF,  PAX3,  and 
+ERK2 (loading control). R = resistant, S = sensitive. B) Quantification of 
+cell survival. A375 and MITF-A375 cells (stably expressing MITF from 
+an  ectopic  promoter)  were  treated  with  a  scrambled  control,  PAX3- 
+(PAX3#1)  or  MITF  (MI#1)-specific  small  interfering  RNAs  (siRNAs), 
+for 48 hours, followed by 24-hour treatment with 1 µM PD184352 or 
+dimethyl  sulfoxide  (DMSO). They  were  then  stained  with  toluidine 
+blue, and the optical density at 555 nm was quantified. DMSO-treated 
+cells  were  set  to  100%.  Bars  represent  means  from  three  independ-
+ent experiments; error bars refer to 95% confidence intervals; ***P < 
+.001. Two-sided analysis of variance (ANOVA) with Tukey’s post hoc test 
+was  used. C) Western  blot  of WM266-4  and  501mel  cells  for  cleaved 
+caspase  3,  pERK,  and  ERK2  (loading  control). The  cells  were  either 
+unstimulated  (–)  or  stimulated  (transforming  growth  factor  β  [TGF–
+β])  for  24  hours  with  5 ng/ml TGF-β  in  the  presence  of  DMSO  (D)  or 
+1 µM PD184352 (PD). D) Quantification of cell survival. The indicated 
+cell  lines  were  treated  with TGF-β  for  48  hours,  followed  by  24-hour 
+exposure to 1 µM PD184352 (PD) or DMSO (D). They were then stained 
+
+with toluidine blue, and the optical density at 555 nm was quantified. 
+DMSO-treated  cells  were  set  to  100%.  Bars  represent  means  from 
+three  independent  experiments;  error  bars  refer  to  95%  confidence 
+intervals; ***P < .001. Two-sided ANOVA with Tukey’s post hoc test was 
+used. E) Quantitative real-time polymerase chain reaction and Western 
+blot  analysis  of  SMURF2  expression  in  melanoma  cell  lines.  The 
+expression  of  SMURF2  is  shown  as  fold  expression  compared  with 
+normal human melanocytes (NHM), in which SMURF2 expression was 
+set to 1. Bars represent means from three independent experiments; 
+error  bars  refer  to  95%  confidence  intervals;  ***P  <  .001. Two-sided 
+ANOVA  with  Dunnett’s  post  hoc  test  was  used.  F)  Quantification  of 
+cell survival. A375 and MITF-A375 cells were treated with a scrambled 
+control (SC) or SMURF2 pooled siRNAs (S2-p) for 48 hours, followed 
+by 24-hour exposure to 1 µM PD184352 or DMSO, and quantified using 
+toluidine blue. DMSO-treated cells were set to 100%. Bars represent 
+means from three independent experiments; error bars refer to 95% 
+confidence intervals; NS = P > .05; ***P < .001. A two-sided Student’s 
+t test was used.
+
+95%  CI  =  −0.22  to  1.19,  P  >  0.05;  PD184352:  PLKO  1.90-fold 
+vs shSMURF2 0.57-fold size increase compared with day 1, dif-
+ference = −1.33, 95% CI = −0.64 to −2.05, P < .001) (Figure 7, A). 
+A similar effect was observed for A375 xenografts (Supplementary 
+Figure 4, B, available online).
+
+SMURF2 depletion led to an approximately 100-fold enhanced 
+sensitivity  of  melanoma  cells  to  selumetinib,  a  MEK  inhibitor 
+that produces limited responses in melanoma patients (3) (A375: 
+(GI50) = 2.2 µM, 95% CI = 2.114 to 2.286; pLKO: (GI50) = 1.69 µM, 
+
+95%  CI  =  1.60  to  1.81  µM;  S2C4:  (GI50)  =  26.62 nM,  95% 
+CI = 20.42 to 36.73 nM; S2C14 (GI50): 23.3 nM, 95% CI = 17.24 
+to  31.60)  (Figure  7,  B).  In  mice,  selumetinib  reduces  xenograft 
+growth  at  doses  of  25  to  30 mg/kg  twice  daily  (9,31).  However 
+pharmacokinetic  analyses  revealed  that  a  dose  of  10 mg/kg  once 
+per day produces drug exposures in mice similar to those achieved 
+in  clinical  use  (32).  Therefore,  we  used  doses  of  3  and  10 mg/
+kg once daily, which did not have a statistically significant effect 
+(P > .05) on the growth of parental A375-pLKO tumors (Figure 7, 
+
+jnci.oxfordjournals.org
+
+JNCI 
+
+|  Articles  41
+
+Figure 6.  SMURF2 overexpression and specificity in targeting SMURF2 in 
+melanoma cells. A) Quantification of cell survival. The indicated cell lines 
+were treated with scrambled control or SMURF2-specific small interfering 
+RNAs (siRNAs) (siSMURF2#1) for 48 hours, followed by 24-hour exposure 
+to  dimethyl  sulfoxide  (DMSO)  or  1  µM  PD184352. They  were  then  they 
+were stained with toluidine blue, and the optical density at 555 nm was 
+quantified. DMSO-treated cells were set to 100%. Bars represent means 
+from three independent experiments; error bars refer to 95% confidence 
+intervals; ***P < .001. Two-sided analysis of variance (ANOVA) with Tukey’s 
+post hoc test was used. B) Quantification of cell survival. Normal melano-
+cytes  (NHM)  were  treated  with  a  scrambled  control  or  a  SMURF2  pool 
+of 4 (S2-p) siRNAs for 48 hours, followed by 24-hour exposure to 1 µM 
+PD184352 (PD) or DMSO (D). They were then then fixed and stained with 
+toluidine blue and quantified. DMSO-treated cells were set to 100%. Bars 
+represent  means  from  three  independent  experiments;  error  bars  refer 
+to  95%  confidence  intervals;  NS  =  P  >  .05. A  two-sided  Student’s  t  test 
+was  used.  C)  Quantification  of  cell  survival. The  colon  cancer  cell  lines 
+RKO and HT29 were treated with a scrambled control or two SMURF2-
+specific siRNAs (#1 and #2) for 48 hours, followed by 24-hour exposure to 
+1 µM PD184352 or DMSO. They were then fixed and stained with toluidine 
+blue  and  quantified.  DMSO-treated  cells  were  set  to  100%.  Bars  repre-
+sent means from three independent experiments; error bars refer to 95% 
+confidence intervals; NS = P > .05; ***P < .001. A two-sided Student’s t 
+
+test was used. D) Spheres of green fluorescent protein–expressing A375 
+cells, A375-pLKO-expressing A375 cells, or small hairpin SMURF 2(shS-
+MURF2)–expressing A375 cells (clone S2–C14) in three-dimensional col-
+lagen were treated with DMSO or PD184352 for 3 days. Nonfixed spheres 
+were stained with ethidium bromide (EtBr), and images were taken. Scale 
+bar = 200 µm. E) Quantitative real-time polymerase chain reaction (PCR) 
+analysis  of  VEGF  and  SPARC  expression  in  primary  fibroblasts  either 
+untreated (–) or treated (transforming growth factor [TGF-β]) with 5 ng/ml 
+TGF-β or transfected with either a scrambled control or individual SMURF2-
+specific siRNAs (S2#1 and #2). Bars represent means from five independ-
+ent experiments; error bars refer to 95% confidence intervals; NS = P > .05; 
+***P < .001. A two-sided Dunnett’s t test was used. F) Quantitative real-
+time PCR analysis of SMURF2 expression in normal skin cells and stage III 
+(n = 36) and stage IV (n = 41) melanomas. The expression was normalized 
+to β-actin. Box plots with mean values for SMURF2 expression are shown. 
+Normal = normal skin (n = 6), supplemented with additional cDNA derived 
+from human fibroblasts, keratinocytes, and melanocytes. The expression 
+in melanocytes was set to 1. ***P < .001. A two-sided Student’s t test to 
+compare expression in stage III and stage IV melanomas with normal was 
+used. G) Linear regression analysis of relative SMURF2 and PAX3 expres-
+sion levels in stage III melanomas. Goodness of Fit: r2 + 0.7883. A ranking 
+linear regression fit with Wald–Wolfowitz runs test was used to compare 
+SMURF2 and PAX3 expression from cDNA array data.
+
+42  Articles 
+
+|  JNCI
+
+Vol. 105, Issue 1  |  January 2, 2012
+
+Figure 7.  SMURF2 depletion sensitizes melanoma cells to MEK inhibition 
+in vivo. A) RFP-expressing 501mel pLKO or small hairpin SMURF2 (shS-
+MURF2) cells were injected into zebrafish larvae that were 48 hours post-
+fertilization,  and  the  larvae  were  treated  with  either  100 nM  PD184352 
+or  the  vehicle  dimethyl  sulfoxide  (DMSO). Three  days  after  drug  addi-
+tion, the xenografts were imaged. Scale bar = 36 µm. Quantification of 
+xenograft volumes (n = 19) was performed before drug addition on day 
+1 and on day 4 using Volocity software. Fold xenograft size indicates the 
+change  in  volume  between  day  1  and  day  4.  Black  squares  represent 
+individual  fish  injected  with  pLKO-501mel  cells;  black  triangles  repre-
+sent individual fish injected with 501mel-shSMURF2 cells. The horizontal 
+bar indicates the mean value of the fold xenograft size in the respective 
+group of zebrafish. A two-sided Student’s t test was used to calculate P 
+values; NS = P > .05; ***P < .001.  B) Dose–response curve of cell sur-
+vival in the presence of selumetinib. The indicated cell lines were treated 
+with the indicated concentrations of selumetinib for 24 hours before they 
+were  fixed,  stained  with  toluidine  blue,  and  quantified.  DMSO-treated 
+cells were set to 100%, and drug dose–response curves were analyzed 
+with  a  nonlinear  regression  curve  fit  model.  C)  Nude  mice  bearing 
+tumors  from A375-pLKO  cells  (empty  vector)  were  treated  with  either 
+vehicle (DMSO) or selumetininb (3 or 10 mg/kg once daily) for 29 consec-
+utive days. The results show mean volumes measured on days 7, 12, 19, 
+
+26, and 29 for groups of five mice with error bars to represent the 95% 
+confidence intervals. A two-sided Student’s t test was used to calculate 
+P values for day 29. D) Nude mice bearing tumors from SMURF2-depleted 
+A375-S2-C14  cells  were  treated  with  either  vehicle  (DMSO)  or  selu-
+metininb (3 or 10 mg/kg once daily) for 29 consecutive days. The results 
+show mean volumes measured on days 7, 12, 19, 26, and 29 for groups 
+of five mice with error bars to represent the 95% confidence intervals. 
+A two-sided Student’s t test was used to calculate P values for day 29. 
+E) Quantification of tumor volume at day 29. Results shown represent a 
+single experiment in which five mice per group were treated. Bars rep-
+resent means from each group of mice; error bars refer to 95% confi-
+dence intervals; **P = .003; *P = .03; NS = P > .05. A two-sided Student’s 
+t test was used. The horizontal line at 100 mm3 indicates the mean tumor 
+volume  at  the  beginning  of  drug  treatment.  F)  Model  of  survival  and 
+growth regulation in melanoma cells. The cooperation of MEK and MITF 
+is required for efficient survival. MEK predominantly regulates cell cycle 
+progression through ERK but also activates survival signals. MITF con-
+tributes  to  the  regulation  of  cell  cycle  progression  and  is  required  to 
+suppress  apoptosis.  SMURF2  depletion  on  its  own  reduced  cell  cycle 
+progression,  which  is  entirely  in  line  with  decreased  MITF  expression 
+(37). Under these conditions, MITF levels appear to be sufficient to pro-
+vide survival signals as long as MEK is fully active.
+
+jnci.oxfordjournals.org
+
+JNCI 
+
+|  Articles  43
+
+C  and  E).  However,  growth  of  tumors  derived  from  SMURF2-
+depleted A375 cells was greatly reduced at both dosing regimens, 
+with 10 mg/kg selumetinib almost completely suppressing tumor 
+growth and 3 mg/kg resulting in approximately 77% reduction in 
+tumor size compared with tumors in control mice treated with the 
+vehicle  DMSO  (shSMURF2/3mg/kg:  difference  =  77.15%,  95% 
+CI = 10.62% to 143.72%, P = .03; shSMURF2/10mg/kg: differ-
+ence = 97.9%, 95% CI = 38.65% to 155.50%, P = .005) (Figure 7, 
+D and E).
+
+Discussion
+The  efficacy  of  most  anticancer  drugs  is  closely  linked  to  their 
+cytotoxic potential. Cytostatic drugs can only stop tumor growth, 
+which  increases  the  risk  for  the  development  of  acquired  resist-
+ance because it allows for the survival and selection of cells that 
+are  able  to  continue  to  proliferate  in  the  presence  of  the  drug. 
+Therefore,  enhancing  the  cytotoxic  potential  of  a  drug  will  not 
+only improve the tumor response, but it will also reduce the emer-
+gence of acquired resistance. We found that increased expression of 
+MITF, PAX3, and SMURF2 allows melanoma cells to escape the 
+proapoptotic effects of MEK inhibition. We identified SMURF2 as 
+a regulator of PAX3 expression and, consequently, MITF expres-
+sion and demonstrate that exploiting this mechanism dramatically 
+enhances the cytotoxic potential of the MEK inhibitors PD184352 
+(CI-1040) and selumetinib (AZD6244) in vitro and in vivo.
+
+In  principle,  MEK  inhibitors  can  exert  cytotoxic  effects  by 
+directly  activating  the  apoptotic  programme  (6–8,33).  However, 
+for  this  to  occur,  high  drug  concentrations  and  long-term  drug 
+exposure are required, suggesting that MEK’s contribution to the 
+regulation of apoptosis is not major. Rather, it appears that the pre-
+dominant  function  of  MEK  is  to  regulate  cell  cycle  progression 
+through ERK, which is in agreement with observations that loss 
+of  ERK  phosphorylation  leads  to  a  G1  arrest,  but  not  always  to 
+the induction of apoptosis (7,10). In line with these findings, we 
+identified  cells  that  responded  to  the  MEK  inhibitor  PD184352 
+with target inhibition and reduced proliferation but were still able 
+to propagate in the long term, a situation likely to be found in a 
+tumor. We found that these cells are resistant to the proapoptotic 
+effects of MEK inhibition and that, although ERK activity is very 
+low, it is still sufficient to promote cell cycle progression. This find-
+ing is of great relevance because it highlights the challenge of tar-
+geting the MAP-kinase pathway as a single-agent treatment. It is, 
+therefore, of great importance to identify factors that will predict 
+and moreover enhance the sensitivity to MEK inhibitors.
+
+We  identified  the  melanocyte-specific  transcription  factor 
+MITF as a predictive marker for the sensitivity of melanoma cells 
+toward the cytotoxic effect of MEK inhibitors. We found that high 
+MITF expression protects cells from MEK inhibitor–induced cell 
+death, which is striking considering that MITF is amplified in up to 
+20% of melanomas (34). MITF is a central regulator of melanoma 
+cell fate because it controls differentiation, proliferation, and inva-
+sion (21,22,24). Although we do not know the exact mechanism as 
+to how MITF regulates survival in cells in which MEK is inhibited, 
+MITF is a known regulator of melanoma cell survival, where it can 
+induce the expression of BCL-2 or ML-inhibitor of apoptosis and 
+protect cells from cytotoxic agents (34–36).
+
+We have shown previously that MITF contributes to cell cycle 
+progression downstream of BRAF (37), but now we show that it 
+also cooperates with MEK to provide survival signals (Figure 7, F). 
+Although MEK can activate survival signals through ERK (7,8), 
+it is the cooperation of both MEK and MITF that is required for 
+survival. In this context, we identified SMURF2 as a regulator of 
+MITF expression through PAX3 (Figure 7, F). SMURF2 depletion 
+alone reduced cell cycle progression (Supplementary Figure 2, B, 
+available online), which is entirely in line with decreased MITF 
+expression. However MITF levels appear to be still sufficient to 
+provide  survival  signals  as  long  as  MEK  is  fully  active  because 
+we observed no effects on cell viability with SMURF2 depletion 
+alone. Thus, SMURF2 itself seems to be only relevant for mela-
+noma  cells  when  MEK  is  inhibited.  Importantly,  we  also  found 
+that  depleting  SMURF2  from  melanocytes  did  not  have  any 
+effect on their growth and survival. This suggests that targeting 
+SMURF2 in normal cells does not affect viability or growth prob-
+ably  because  of  compensatory  mechanisms,  an  assumption  that 
+is further supported by the fact that SMURF2-/- mice are viable 
+and  develop  healthy  and  normal  to  adulthood  (28). These  mice 
+eventually develop tumors; however, this occurs with a very long 
+latency  at  an  age  of  more  than  20  months  (38,39),  suggesting 
+that loss of SMURF2 function does not produce any immediate 
+adverse effects.
+
+SMURF2 is a HECT-domain E3 ubiquitin ligase, which reg-
+ulates  the  turnover  of  inhibitory  SMADs  and  associated TGF-β 
+receptors as well as regulatory SMADs (27). SMURF2 also regu-
+lates cell polarity, motility, and senescence in a SMAD- independ-
+ent manner (40–43). These findings suggest that SMURF2 plays an 
+important role in various aspects relevant for tumor initiation and 
+progression in a SMAD-dependent as well as SMAD-independent 
+manner. We found that SMURF2 regulates SMAD2 levels in mela-
+noma cells (Figure 3, E; Supplementary Figure 2, available online). 
+However, although SMAD2 has been shown to regulate the sup-
+pression of PAX3 in melanocytes (26), the complete mechanism as 
+to how SMURF2 suppresses PAX3 is not clear and might involve 
+additional factors other than SMAD2. We and others detected high 
+expression  levels  of  SMURF2  in  tumors  compared  with  normal 
+tissue (42,44), suggesting a deregulation of this ubiquitin ligase in 
+cancer. On the other hand, the neutralization of SMURF2 activity 
+by the ubiquitin-specific peptidase USP15 is important for TGF-
+β-mediated glioblastoma progression (45), suggesting tumor-spe-
+cific differences in SMURF2 function. A tumor-specific function 
+is supported by our finding that SMURF2 depletion from colon 
+cancer cells did not prime these cells for MEK inhibitor cytotoxic-
+ity despite a mutant BRAF status.
+
+We have identified SMURF2 as a potential therapeutic target in 
+melanoma. However, there are clear limitations to our study. First 
+we used xenograft assays to assess combined therapy in vivo, and 
+this approach does not consider the heterogeneity found in a real 
+tumor situation. Second, no SMURF2 inhibitor is available, and we 
+had to rely on knock-down experiments in our study, which might 
+produce  different  effects  than  inhibition  of  SMURF2  activity. 
+Finally, we have no clinical data showing that increased expression 
+of SMURF2 or MITF correlates with MEK inhibitor resistance, 
+but we hope to be able to collect such samples in the future and 
+analyze them for these potential resistance regulators.
+
+44  Articles 
+
+|  JNCI
+
+Vol. 105, Issue 1  |  January 2, 2012
+
+Recent  experiences  with  targeting  kinases  in  patients  have 
+exposed the inevitable risk of developing resistance because of com-
+plex kinase networks and feedback mechanisms (10,13–16,46,47). 
+Therefore, targeting a nonkinase might provide an advantage. E3 
+ubiquitin ligases gained a lot of attention as potential drug targets 
+when the MDM2/p53 inhibitors Nutlin1–3 were discovered, but 
+initial efforts to identify other E3 ubiquitin ligase inhibitors proved 
+difficult (48). On the other hand, recent successes with inhibitors 
+of  apoptosis  are  encouraging  (48),  suggesting  that  developing  a 
+SMURF2-specific  inhibitor  might  be  possible. Alternatively,  fur-
+ther characterization of the SMURF2, PAX3, and MITF regula-
+tion in melanoma may lead to the identification of better druggable 
+proteins that can be targeted in MEK inhibitor combination thera-
+pies. Our results strongly suggest that in melanoma such therapies 
+might  have  the  potential  to  increase  the  frequency  of  complete 
+responses  and  reduce  the  risk  of  the  development  of  acquired 
+resistance.
+
+references
+  1.  Davies H, Bignell GR, Cox C, et al. Mutations of the BRAF gene in human 
+
+cancer. Nature. 2002;417(6892):949–954.
+
+  2.  Wellbrock  C,  Hurlstone  A.  BRAF  as  therapeutic  target  in  melanoma. 
+
+Biochem Pharmacol. 2010;80(5):561–567.
+
+  3.  Kirkwood  JM,  Bastholt  L,  Robert  C,  et  al.  Phase  II,  open-label,  rand-
+omized  trial  of  the  MEK1/2  inhibitor  selumetinib  as  monotherapy  ver-
+sus temozolomide in patients with advanced melanoma. Clin Cancer Res. 
+2012;18(2):555–567.
+
+  4.  Infante JR, Fecher LA, Nallapareddy S, et al. Safety and efficacy results 
+from the first-in-human study of the oral MEK 1/2 inhibitor GSK1120212. 
+J Clin Oncol. 2010;28:15(Suppl):abstract 2503.
+
+  5.  Adjei AA, Cohen RB, Franklin W, et al. Phase I pharmacokinetic and phar-
+macodynamic study of the oral, small-molecule mitogen-activated protein 
+kinase  kinase  1/2  inhibitor  AZD6244  (ARRY-142886)  in  patients  with 
+advanced cancers. J Clin Oncol. 2008;26(13):2139–2146.
+
+  6.  Gray-Schopfer VC, Karasarides M, Hayward R, Marais R. Tumor necrosis 
+factor-alpha blocks apoptosis in melanoma cells when BRAF signaling is 
+inhibited. Cancer Res. 2007;67(1):122–129.
+
+  7.  VanBrocklin  MW,  Verhaegen  M,  Soengas  MS,  Holmen  SL.  Mitogen-
+activated  protein  kinase  inhibition  induces  translocation  of  Bmf  to  pro-
+mote apoptosis in melanoma. Cancer Res. 2009;69(5):1985–1994.
+
+  8.  Eisenmann KM, VanBrocklin MW, Staffend NA, Kitchen SM, Koo HM. 
+Mitogen-activated protein kinase pathway-dependent tumor-specific sur-
+vival signaling in melanoma cells through inactivation of the proapoptotic 
+protein bad. Cancer Res. 2003;63(23):8330–8337.
+
+  9.  Davies BR, Logie A, McKay JS, et al. AZD6244 (ARRY-142886), a potent 
+inhibitor  of  mitogen-activated  protein  kinase/extracellular  signal-regu-
+lated kinase kinase 1/2 kinases: mechanism of action in vivo, pharmacoki-
+netic/pharmacodynamic  relationship,  and  potential  for  combination  in 
+preclinical models. Mol Cancer Ther. 2007;6(8):2209–2219.
+
+  10.  Gopal YN,  Deng W, Woodman  SE,  et  al.  Basal  and  treatment-induced 
+activation of AKT mediates resistance to cell death by AZD6244 (ARRY-
+142886) in BRAF-mutant human cutaneous melanoma cells. Cancer Res. 
+2010;70(21):8736–8747.
+
+  11.  Emery CM, Vijayendran KG, Zipser MC, Sawyer AM, Niu L, Kim JJ, et al. 
+MEK1 mutations confer resistance to MEK and B-RAF inhibition. Proc 
+Natl Acad Sci U S A. 2009;106(48):20411–20416.
+
+  12.  Wagle  N,  Emery  C,  Berger  MF,  et  al.  Dissecting  therapeutic  resistance 
+to RAF inhibition in melanoma by tumor genomic profiling. J Clin Oncol. 
+2011; 29(22):3085–3096.
+
+  13.  Corcoran  RB,  Dias-Santagata  D,  Bergethon  K,  Iafrate  AJ,  Settleman  J, 
+Engelman JA. BRAF gene amplification can promote acquired resistance 
+to MEK inhibitors in cancer cells harboring the BRAF V600E mutation. 
+Sci Signal. 2010;3(149):ra84.
+
+  14.  Johannessen  CM,  Boehm  JS,  Kim  SY,  et  al.  COT  drives  resistance  to 
+RAF  inhibition  through  MAP  kinase  pathway  reactivation.  Nature. 
+2010;468(7326):968–972.
+
+  15.  Nazarian  R,  Shi  H,  Wang  Q,  et  al.  Melanomas  acquire  resistance  to 
+B-RAF(V600E)  inhibition  by  RTK  or  N-RAS  upregulation.  Nature. 
+2010;468(7326):973–977.
+
+  16.  Villanueva J, Vultur A, Lee JT, et al. Acquired resistance to BRAF inhibi-
+tors mediated by a RAF kinase switch in melanoma can be overcome by 
+cotargeting MEK and IGF-1R/PI3K. Cancer Cell. 2010;18(6):683–695.
+
+  17.  Liu  P,  Cheng  H,  Roberts TM,  Zhao  JJ. Targeting  the  phosphoinositide 
+
+3-kinase pathway in cancer. Nat Rev Drug Discov. 2009;8(8):627–644.
+
+  18.  Pal SK, Reckamp K, Yu H, Figlin RA. Akt inhibitors in clinical develop-
+ment for the treatment of cancer. Expert Opin Investig Drugs. 2010;19(11): 
+1355–1366.
+
+  19.  Balch CM, Gershenwald JE, Soong SJ, et al. Final version of 2009 AJCC 
+melanoma staging and classification. J Clin Oncol. 2009;27(36):6199–6206.
+  20.  Workman P, Aboagye EO, Balkwill F, et al. Guidelines for the welfare and 
+
+use of animals in cancer research. Br J Cancer. 2010;102(11):1555–1577.
+
+  21.  Levy C, Khaled M, Fisher DE. MITF: master regulator of melanocyte devel-
+
+opment and melanoma oncogene. Trends Mol Med. 2006;12(9):406–414.
+
+  22.  Arozarena I, Bischof H, Gilby D, Belloni B, Dummer R, Wellbrock C. In 
+melanoma, beta-catenin is a suppressor of invasion. Oncogene. 2011;30(45): 
+4531–4543.
+
+  23.  Wellbrock C, Marais R. Elevated expression of MITF counteracts B-RAF-
+stimulated melanocyte and melanoma cell proliferation. J Cell Biol. 2005; 
+170(5):703–708.
+
+  24.  Wellbrock C, Weisser C, Geissinger E, Troppmair J, Schartl M. Activation 
+of p59(Fyn) leads to melanocyte dedifferentiation by influencing MKP-1-
+regulated mitogen-activated protein kinase signaling. J Biol Chem. 2002; 
+277(8):6443–6454.
+
+  25.  Kubic  JD, Young  KP,  Plummer  RS,  Ludvik AE,  Lang  D.  Pigmentation 
+PAX-ways: the role of Pax3 in melanogenesis, melanocyte stem cell main-
+tenance, and disease. Pigment Cell Melanoma Res. 2008;21(6):627–645.
+
+  26.  Yang G, Li Y, Nishimura EK, et al. Inhibition of PAX3 by TGF-beta mod-
+
+ulates melanocyte viability. Mol Cell. 2008;32(4):554–563.
+
+  27.  Inoue Y, Imamura T. Regulation of TGF-beta family signaling by E3 ubiq-
+
+uitin ligases. Cancer Sci. 2008;99(11):2107–2112.
+
+  28.  Tang LY, Yamashita M, Coussens NP, et al. Ablation of Smurf2 reveals an 
+inhibition in TGF-beta signalling through multiple mono-ubiquitination 
+of Smad3. EMBO J. 2011;30(23):4777–4789.
+
+  29.  Hoek KS, Schlegel NC, Brafford P, et al. Metastatic potential of melano-
+mas defined by specific gene expression profiles with no BRAF signature. 
+Pigment Cell Res. 2006;19(4):290–302.
+
+  30.  Massague J. TGFbeta in Cancer. Cell. 2008;134(2):215–230.
+  31.  Haass NK, Sproesser K, Nguyen TK, et al. The mitogen-activated protein/
+extracellular  signal-regulated  kinase  kinase  inhibitor  AZD6244  (ARRY-
+142886)  induces  growth  arrest  in  melanoma  cells  and  tumor  regression 
+when combined with docetaxel. Clin Cancer Res. 2008;14(1):230–239.
+
+  32.  Denton CL, Gustafson DL. Pharmacokinetics and pharmacodynamics of 
+AZD6244 (ARRY-142886) in tumor-bearing nude mice. Cancer Chemother 
+Pharmacol. 2011;67(2):349–360.
+
+  33.  Cragg MS, Jansen ES, Cook M, Harris C, Strasser A, Scott CL. Treatment 
+of  B-RAF  mutant  human  tumor  cells  with  a  MEK  inhibitor  requires 
+Bim  and  is  enhanced  by  a  BH3  mimetic.  J  Clin  Invest.  2008;118(11): 
+3651–3659.
+
+  34.  Garraway LA, Widlund HR, Rubin MA, et al. Integrative genomic analyses 
+identify MITF as a lineage survival oncogene amplified in malignant mela-
+noma. Nature. 2005;436(7047):117–122.
+
+  35.  Dynek  JN,  Chan  SM,  Liu  J,  Zha  J,  Fairbrother  WJ,  Vucic  D. 
+Microphthalmia-associated transcription factor is a critical transcriptional 
+regulator  of  melanoma  inhibitor  of apoptosis  in  melanomas.  Cancer  Res. 
+2008;68(9):3124–3132.
+
+  36.  McGill  GG,  Horstmann  M, Widlund  HR,  et  al.  Bcl2  regulation  by  the 
+melanocyte  master  regulator  Mitf  modulates  lineage  survival  and  mela-
+noma cell viability. Cell. 2002;109(6):707–718.
+
+  37.  Wellbrock C, Rana S, Paterson H, Pickersgill H, Brummelkamp T, Marais 
+R. Oncogenic BRAF regulates melanoma proliferation through the lineage 
+specific factor MITF. PLoS One. 2008;3(7):e2734.
+
+jnci.oxfordjournals.org
+
+JNCI 
+
+|  Articles  45
+
+  38.  Blank  M,  Tang  Y,  Yamashita  M,  Burkett  SS,  Cheng  SY,  Zhang  YE.  A 
+tumor suppressor function of Smurf2 associated with controlling chroma-
+tin landscape and genome stability through RNF20. Nat Med. 2012;18(2): 
+227–234.
+
+  39.  Ramkumar  C,  Kong  Y,  Cui  H,  et  al.  Smurf2  regulates  the  senescence 
+response and suppresses tumorigenesis in mice. Cancer Res. 2012;72(11): 
+2714–2719.
+
+  40.  Narimatsu M, Bose R, Pye M, et al. Regulation of planar cell polarity by 
+
+  46.  Hatzivassiliou  G,  Song  K,  Yen  I,  et  al.  RAF  inhibitors  prime  wild-
+type  RAF  to  activate  the  MAPK  pathway  and  enhance  growth.  Nature. 
+2010;464(7287):431–435.
+
+  47.  Heidorn SJ, Milagre C, Whittaker S, et al. Kinase-dead BRAF and onco-
+genic  RAS  cooperate  to  drive  tumor  progression  through  CRAF.  Cell. 
+2010;140(2):209–221.
+
+  48.  Cohen P, Tcherpakov M. Will the ubiquitin system furnish as many drug 
+
+targets as protein kinases? Cell. 2010;143(5):686–693.
+
+Smurf ubiquitin ligases. Cell. 2009;137(2):295–307.
+
+  41.  Fukunaga E, Inoue Y, Komiya S, et al. Smurf2 induces ubiquitin-depend-
+ent degradation of Smurf1 to prevent migration of breast cancer cells. J 
+Biol Chem. 2008;283(51):35660–35667.
+
+  42.  Jin C, Yang YA, Anver MR, Morris N, Wang X, Zhang YE. Smad ubiqui-
+tination regulatory factor 2 promotes metastasis of breast cancer cells by 
+enhancing migration and invasiveness. Cancer Res. 2009;69(3):735–740.
+
+  43.  Zhang H, Cohen SN. Smurf2 up-regulation activates telomere-dependent 
+
+senescence. Genes Dev. 2004;18(24):3028–3040.
+
+  44.  Fukuchi M, Fukai Y, Masuda N, et al. High-level expression of the Smad 
+ubiquitin  ligase  Smurf2  correlates  with  poor  prognosis  in  patients  with 
+esophageal squamous cell carcinoma. Cancer Res. 2002;62(24):7162–7165.
+  45.  Eichhorn PJ, Rodon L, Gonzalez-Junca A, et al. USP15 stabilizes TGF-
+beta receptor I and promotes oncogenesis through the activation of TGF-
+beta signaling in glioblastoma. Nat Med. 2012;18(3):429–435.
+
+Funding
+This  work  was  supported  by  Cancer  Research  UK  (C11591/A10202  and 
+C11876/A12724). MS is funded by the BBSRC (FA01472 FLS) and the Alumni 
+Fund of the Manchester University.
+
+Notes
+The sponsors of this study had no role in the collection of the data, the analysis 
+and interpretation of the data, the decision to submit the manuscript for publica-
+tion, or the writing or the manuscript.
+
+Affiliations of authors: Molecular Cancer Studies, Wellcome Trust Centre 
+for  Cell  Matrix  Research,  University  of  Manchester,  Manchester,  UK  (MS, 
+JF,  IA,  AC,  AH,  CW);  Division  of  Cancer  Biology, The  Institute  of  Cancer 
+Research, Chester Beatty Laboratories, London, UK (RH, RM).
+
+46  Articles 
+
+|  JNCI
+
+Vol. 105, Issue 1  |  January 2, 2012
+
+

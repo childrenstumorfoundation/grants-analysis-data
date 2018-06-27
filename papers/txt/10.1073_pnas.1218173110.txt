@@ -1,0 +1,2067 @@
+NMR-based functional proﬁling of RASopathies
+and oncogenic RAS mutations
+
+Matthew J. Smitha, Benjamin G. Neela, and Mitsuhiko Ikuraa,b,1
+
+aCampbell Family Cancer Research Institute, Ontario Cancer Institute, and bDepartment of Medical Biophysics, University of Toronto, Toronto, ON, Canada
+M5G 1L7
+
+Edited by Peter E. Wright, The Scripps Research Institute, La Jolla, CA, and approved February 1, 2013 (received for review October 17, 2012)
+
+Defects in the RAS small G protein or its associated network of reg-
+ulatory proteins that disrupt GTPase cycling are a major cause of
+cancer and developmental RASopathy disorders. Lack of robust func-
+tional assays has been a major hurdle in RAS pathway-targeted drug
+development. We used NMR to obtain detailed mechanistic data on
+RAS cycling defects conferred by oncogenic mutations, or full-length
+RASopathy-derived regulatory proteins. By monitoring the confor-
+mation of wild-type and oncogenic RAS in real-time, we show that
+opposing properties integrate with regulators to hyperactivate on-
+cogenic RAS mutants. Q61L and G13D exhibited rapid nucleotide
+exchange and an unexpected susceptibility to GAP-mediated hydro-
+lysis, in direct contrast with G12V, indicating different approaches
+must be taken to inhibit these oncoproteins. An NMR methodology
+was established to directly monitor RAS cycling by intact, multido-
+main proteins encoded by RASopathy genes in mammalian cell
+extracts. By measuring GAP activity from tumor cells, we demon-
+strate how loss of neuroﬁbromatosis type 1 (NF1) increases RAS-
+GTP levels in NF1-derived cells. We further applied this methodology
+to proﬁle Noonan Syndrome (NS)-derived SOS1 mutants. Combining
+NMR with cell-based assays allowed us to differentiate defects in
+catalysis, allosteric regulation, and membrane targeting of individual
+mutants, while revealing a membrane-dependent compensatory ef-
+fect that attenuates dramatic increases in RAS activation shown by
+Y337C, L550P, and I252T. Our NMR method presents a precise and
+robust measure of RAS activity, providing mechanistic insights
+that facilitate discovery of therapeutics targeted against the RAS
+signaling network.
+nuclear magnetic resonance | real-time bioassay | guanine nucleotide
+exchange factor inhibition
+
+RAS functions downstream of membrane-bound receptors to
+
+control cell proliferation, differentiation, and survival path-
+ways crucial to development. Deregulated RAS signaling leads to
+disorders ranging from cancer to developmental syndromes
+termed RASopathies (1). RAS and its associated signaling net-
+work represent extremely attractive therapeutic targets, yet there
+has been minimal success at exploiting these for drug develop-
+ment (2, 3).
+
+RAS exists in two distinct conformations dependent on the state
+of bound nucleotide. Following stimulation, a GDP-to-GTP ex-
+change is catalyzed by guanine nucleotide exchange factors
+(GEFs), transmitting downstream signals through RAS-GTP to
+diverse effector proteins (4). Inactivation via GTP hydrolysis is
+assisted by GTPase-activating proteins (GAPs), which enhance
+the slow intrinsic activity of the enzyme. Disorders stemming from
+aberrations in RAS GTPase cycling (Fig. 1A) are driven by ab-
+normally high levels of activated RAS. Single amino acid muta-
+tions in RAS proteins are found in a remarkable 30% of human
+tumors, often in those with high-risk clinical features (1). Onco-
+genic mutations are most common at three loci, considered
+“hotspots” for transformation: Gly12, Gly13, and Gln61. The most
+frequently found G12V and Q61L mutations lower intrinsic hy-
+drolysis rates (5–8) and are widely believed to be insensitive to
+GAPs (9, 10). The biochemistry of G13D remains poorly studied,
+but clinical data suggest the biologic behavior of tumors carrying
+
+K-RAS mutations is highly codon-dependent (11, 12). This ﬁnding
+directly correlates underlying RAS biochemical defects with can-
+cer pathology, and a better appreciation of the intrinsic properties
+of RAS and its surrounding regulatory network could facilitate the
+design of speciﬁc, mechanism-based therapeutic approaches for
+patients carrying these mutations.
+
+RASopathies are a group of hereditary developmental syn-
+dromes triggered by germ-line mutations in genes encoding com-
+ponents of the RAS/MAPK pathway (1, 13). Neuroﬁbromatosis
+type 1 (NF1), resulting from deﬁciency in the RASGAP neuro-
+ﬁbromin (NF1) (14, 15), and Noonan Syndrome (NS), caused by
+gain-of-function mutations in the RASGEF SOS1 (in addition to
+other RAS/MAPK pathway components such as PTPN11, RAS,
+RAF, and MEK) (16, 17), are two RASopathies that directly affect
+GTPase cycling (Fig. 1A). Characterizing speciﬁc mutations has
+proven difﬁcult, as they evoke only a slight increase in RAS-GTP
+levels and they affect large, intricately regulated proteins.
+
+In this article we apply our recently developed GTPase assay
+(18) to directly measure RAS cycling defects and the regulatory
+impact of intact, multidomain RASopathy proteins in mammalian
+cell extracts. We characterize how opposing intrinsic properties
+integrate with regulators to hyperactivate oncogenic RAS. Our
+approach could detect NF1-deﬁciency in tumor cells and enable
+proﬁling of NS-associated SOS1 mutants. This methodology
+demonstrates the utility of NMR as a powerful readout probe for
+cell-based enzymatic activity, distinct from in-cell NMR or me-
+tabolite screening techniques. Our NMR assay does not rely on
+modiﬁed nucleotides (19) or effector-based interactions, and is
+amenable to high-throughput approaches toward drug discovery.
+As a proof of concept, we exploit the ability of an RAS binding
+domain (RBD) to inhibit hydrolysis, and take a synthetic ap-
+proach to obstruct both GEF-mediated and intrinsic exchange
+activity of wild-type and oncogenic RAS.
+
+Results
+Exchange and Hydrolysis Defects in Oncogenic RAS. To develop
+a robust, real-time NMR approach to monitoring defects in RAS
+GTPase cycling, we began by characterizing intrinsic exchange and
+hydrolysis. Overlays of 2D 1H/15N heteronuclear single quantum
+coherence (HSQC) spectra in the active (GTP-bound) versus in-
+active (GDP-bound) state reveal signiﬁcant chemical-shift per-
+turbations in wild-type and oncogenic RAS (Fig. 1B and Fig. S1).
+To measure hydrolysis, we loaded RAS proteins with GTP and
+recorded successive HSQC spectra. G12V (10×) and Q61L (80×)
+had drastically reduced hydrolysis rates (Fig. 1C, all rates are de-
+tailed in Table S1), consistent with data obtained using radio-
+labeled nucleotides (7, 20). G13D showed a lesser 2.8-fold
+
+Author contributions: M.J.S. and M.I. designed research; M.J.S. performed research; B.G.N.
+contributed new reagents/analytic tools; M.J.S. and M.I. analyzed data; and M.J.S. wrote
+the paper.
+
+The authors declare no conﬂict of interest.
+
+This article is a PNAS Direct Submission.
+1To whom correspondence should be addressed. E-mail: mikura@uhnres.utoronto.ca.
+
+This article contains supporting information online at www.pnas.org/lookup/suppl/doi:10.
+1073/pnas.1218173110/-/DCSupplemental.
+
+4574–4579 | PNAS | March 19, 2013 | vol. 110 | no. 12
+
+www.pnas.org/cgi/doi/10.1073/pnas.1218173110
+
+A
+
+Upstream Signals
+
+NFt1
+
+)
+1
+F
+N
+
+ 
+,
+
+P
+A
+G
+0
+2
+1
+p
+(
+
+P
+A
+G
+
+Pi
+
+e GDP
+RAS
+
+v
+i
+t
+c
+a
+n
+I
+
+Onco-
+genesis
+RAS
+
+GDP
+
+GTP
+
+G
+E
+F
+
+A
+c
+t
+i
+v
+
+eGTP
+
+NS
+
+B
+
+N
+5
+1
+
+112
+
+113
+
+114
+
+115
+
+116
+
+(
+
+S
+O
+S
+
+,
+ 
+
+R
+A
+S
+G
+R
+P
+
+,
+ 
+
+R
+A
+S
+G
+R
+F
+)
+
+C
+1.00
+
+)
+
+P
+T
+G
++
+P
+D
+G
+
+(
+/
+
+P
+D
+G
+
+0.75
+
+0.50
+
+0.25
+
+0.00
+
+Downstream Effectors
+
+Intrinsic Hydrolysis
+
+G12V
+
+Q61L
+
+G13D
+
+W T
+
+0
+
+250
+
+500
+
+750 1000 1250 1500
+
+T im e (m in)
+
+15N-H-RAS (1-171)
+GDP
+
+T144
+
+GMPPNP
+
+S145
+
+C118
+
+G151
+
+8.7
+
+8.6
+
+8.8
+1H
+
+T124
+
+Q25
+
+9.0
+
+8.9
+
+Tyr157
+GTP
+t=0
+
+GDP
+t=3.5 hrs
+
+D
+
+1.00
+
+)
+
+P
+T
+G
++
+P
+D
+G
+
+(
+/
+
+P
+D
+G
+
+0.75
+
+0.50
+
+0.25
+
+0.00
+
+Intrinsic Exchange
+
+G12V
+
+Q61L
+
+W T
+
+0
+
+200
+
+400
+
+600
+
+T im e (m in)
+
+G13D
+
+800
+
+Fig. 1. Monitoring GTPase activity by NMR. (A) RAS signaling revolves
+around the GTPase cycle, whereby RAS is activated when GDP is exchanged
+for GTP, a process facilitated by GEFs. Slow intrinsic hydrolysis is enhanced by
+the activity of GAPs. Disease states can occur by several mechanisms, in-
+cluding loss of NF1 GAP activity (NFt1, Neuroﬁbromatosis type 1), increased
+GEF activity, or RAS mutation.
+(B) NMR-based analysis of nucleotide-
+dependent changes in RAS conformation. Overlay of 2D 1H/15N HSQC spectra
+showing select amide resonances of RAS bound to GDP (black) or GMPPNP
+(red). RAS-GTP-derived peaks eventually shift to GDP positions as hydrolysis
+occurs (shown for Y157). (C) Use of peak intensity data to determine rates of
+intrinsic hydrolysis for wild-type and mutant RAS. 15N-RAS proteins were loaded
+with GTP and hydrolysis monitored by sequential HSQCs. (D) Monitoring ex-
+change reactions of wild-type and mutant RAS. GDP-bound RAS intrinsically
+exchanges in 10-fold molar excess GTPγS. Also see Fig. S1 and Table S2.
+
+reduction in hydrolysis rate. The inﬂuence of nucleotide exchange
+on the activation state of these mutants had not been well studied.
+To analyze intrinsic exchange, we added 10-fold molar excess
+GTPγS to GDP-loaded RAS, mimicking physiological nucleotide
+concentrations but avoiding competition with hydrolysis (Fig. 1D
+and Fig. S2A). Q61L undergoes 2.4-fold faster exchange than wild-
+type, whereas G12V has a 1.8-fold reduced rate. G13D showed
+rapid intrinsic exchange, 15-fold faster than wild-type. Previously
+determined nucleotide binding properties (wild-type, G12V, and
+Q61L; see summary in Table S2) clarify the contrasting rates and
+plateaus observed by NMR, but these real-time data remarkably
+demonstrate the characteristics rendering RAS mutants oncogenic.
+Selective monitoring of 15N-labeled RAS permits the in-
+troduction of unlabeled proteins, which remain NMR “invisible.”
+This allowed design of enzymatic assays examining the capacity for
+regulatory proteins to control RAS cycling. Using such an ap-
+proach, we ﬁrst monitored activity of the catalytic regions from two
+RAS regulators: SOScat from the SOS1 exchange factor (Rem/
+Cdc25 domains) (21), and GAP-334 from p120GAP (10) (Fig. 2A).
+When SOScat was added to 15N-RAS in the presence of GTP, nu-
+cleotide exchange was observed by chemical-shift perturbations,
+and the subsequent addition of GAP-334 stimulated hydrolysis (Fig.
+2B). We were able to precisely quantify activity from these catalytic
+fragments using decreasing molar ratios (Fig. S2 B and C). Fig. 2C
+presents the full characteristics of wild-type RAS in our assay.
+
+In addition to reduced intrinsic GTPase activities, oncogenic
+RAS proteins are believed to resist GAP-mediated hydrolysis (9,
+10). Indeed, G12V showed complete resistance to even stoichio-
+metric amounts of GAP-334 (Fig. S2 D and E). In contrast, ad-
+dition of equimolar quantities of GAP-334 actually increased the
+hydrolysis rates of Q61L (148×) and G13D (9×) (Fig. S2 F and G).
+Nonetheless, these rates remain markedly slower than wild-type
+
+rates using 1:5,000 GAP-334. We next considered SOS1-mediated
+activation of these mutants, and found that G12V required in-
+creased SOScat to achieve wild-type exchange rates (Fig. S2D).
+Conversely, Q61L required less SOScat, consistent with its high
+intrinsic exchange (Fig. S2F). The extremely rapid exchange rate
+of G13D prevented measurements with SOScat. As summarized in
+Fig. 2D and Fig. S2H, G12V is activated at a slower rate than wild-
+type, but its reduced catalytic activity and complete resistance to
+GAP sustain an active state. Conversely, Q61L is somewhat sen-
+sitive to GAP inactivation, but maintains a predominantly GTP-
+bound state via increased nucleotide exchange. This is extended
+even further in G13D, which has a less severe hydrolysis defect but
+an exceptionally high exchange rate. These results established
+a capacity for studying both positive and negative regulatory inputs
+to RAS using NMR, and revealed properties of G12V, G13D, and
+Q61L that render them transforming.
+
+Probing NF1-Deﬁciency in Tumor-Derived Cells. GAPs are large,
+multidomain proteins that are routinely studied following puriﬁ-
+cation of their catalytic regions. These analyses overlook potential
+autoregulatory mechanisms, differential association with cellular
+cofactors, or posttranslational modiﬁcations. Work on p120GAP,
+for example, suggests the full-length protein has 20-fold more
+activity than the C-terminal fragment alone (22). We therefore
+sought to directly monitor the activity of full-length GAPs from
+mammalian cell extracts by NMR. To start, we stably incorporated
+a Tet-inducible, Flag-tagged p120GAP construct into HEK 293
+cells. Fig. 3A illustrates how exogenously expressed p120GAP
+
+SOScat
+
+1049
+
+564
+
+His
+
+DH PH
+
+REM CDC25
+
+SH2
+
+SH3 SH2 PH
+
+GAP-334
+
+1047
+
+715
+C2 GAP
+
+SOS1
+
+p120GAP
+
+H-RAS WT
+
+Intr. Hydrolysis
+Intr. Exchange
+
++1:2500 GAP-334
++1:5000 SOS cat
+
+A
+
+B
+119
+
+120
+
+121
+
+N
+5
+1
+
+122
+
+123
+
+15N-H-RAS (1-171)
+
+Y157
+
+S17 V9
+
+S127 A59
+
+L19
+
+Y40
+
++ 10X GTP,1:1 SOScat
+9.6
+9.1
+
++1:1 GAP-334
+9.5
+9.2
+
+9.4
+
+9.3
+1H
+
+C
+
+SOScat
+57 kDa
+GAP-334
+38 kDa
+
+H-RAS
+19.5 kDa
+
+)
+
+P
+T
+G
++
+P
+D
+G
+
+(
+/
+
+P
+D
+G
+
+1.00
+
+0.75
+
+0.50
+
+0.25
+
+0.00
+
+0
+
+50
+
+D
+
+Relative Intrinsic Hydrolysis and Exchange
+GDP
+
+GDP
+
+GDP
+
+GDP
+
+150
+
+100
+200
+T im e (m in)
+
+Y
+R
+T
+S
+I
+M
+E
+H
+C
+O
+I
+B
+
+250
+
+300
+
+WT
+
+G12V
+
+Q61L
+
+G13D
+
+GTP
+
+GTP
+
+GTP
+
+GTP
+
+Relative GAP/GEF-Mediated Hydrolysis and Exchange
+
+GDP
+
+WT
+
+GTP
+
+X
+
+GDP
+
+G12V
+
+GTP
+
+GDP
+
+Q61L
+
+GTP
+
+GDP
+
+G13D
+
+N.D.:
+Rapid
+
+GTP
+
+Fig. 2. GEF/GAP-mediated exchange and hydrolysis properties. (A) Domain
+architecture of SOS1 and p120GAP. The catalytic fragments SOScat and GAP-
+334 are outlined. (B) Overlay of HSQC spectra reveals SOScat and GAP-334
+regulation of RAS. Shown are 15N-RAS-GDP alone (black), in the presence of
+GTP and 1:1 SOScat (red), and after addition of 1:1 GAP-334 (blue). Coomassie-
+stained gel displays resultant proteins at right. (C) Summary of wild-type RAS
+hydrolysis and exchange properties. The intrinsic hydrolysis rate is stimulated
+14-fold by 1:2,500 GAP-334. GDP-to-GTPγS exchange is increased 7-fold by
+1:5,000 SOScat. (D) Summary of intrinsic (Upper) and GAP/GEF-mediated
+(Lower) hydrolysis and exchange. Thickness of arrows denoting hydrolysis
+(gray) and exchange (red) cycling are derived from the calculated rates, and
+presented relative to wild-type. SOS-mediated exchange of G13D was not
+determined as it was too rapid (N.D.). Also see Fig. S2.
+
+Smith et al.
+
+PNAS | March 19, 2013 | vol. 110 | no. 12 | 4575
+
+A
+
+)
+
+P
+T
+G
++
+P
+D
+G
+
+(
+/
+
+P
+D
+G
+
+1.00
+
+0.75
+
+0.50
+
+0.25
+
+FL-p120GAP Lysate
+
+Intr. Hydrolysis
+
+-Tet Lysate
+
++Tet Lysate (p120GAP)
+
+Tet: - +
+
+α-Flag
+
+(p120GAP)
+95 120 145 170 195
+T im e (m in)
+
+20
+
+45
+
+70
+
+B
+
+t
+
+e
+a
+s
+y
+L
+
+P
+T
+G
+S
+A
+R
+
+-
+
+Control CRL-2768
+MPNST CRL-2884
+
+α-NF1
+α-p120GAP
+α-RAS
+α-Tubulin
+α-RAS (PD)
+α-RAS (load)
+GST-RBD
+
+Hydrolysis: Schwann Lysates
+
+Lysis Buffer
+
+CRL-2768 Control
+
+CRL-2884 MPNST
+
+C
+
+)
+
+P
+T
+G
++
+P
+D
+G
+
+(
+/
+
+P
+D
+G
+
+1.00
+
+0.75
+
+0.50
+
+0.25
+
+0.00
+
+0.035
+0.030
+0.025
+0.020
+0.015
+0.010
+0.005
+0.000
+
+)
+1
+-
+n
+m
+
+i
+
+(
+ 
+e
+t
+a
+R
+
+ 
+
+s
+
+i
+
+s
+y
+l
+
+o
+r
+d
+y
+H
+
+*
+
+*
+M PNST
+Control
+Buffer
+
+and stored on ice with no perceptible loss in activity. Therefore,
+our NMR-based approach is more sensitive and more robust
+than current biochemical methods for studying GAP activities in
+cell extracts.
+
+Activation and Regulation of Full-Length SOS1. SOS1 is regulated by
+an allosteric mechanism, whereby a network of PH, DH, and HF
+domain interactions control access to an Rem domain allosteric
+site that binds RAS, which in turn controls exchange of a second
+RAS protein at the active site (21, 27, 28). This makes it a para-
+digm for the requisite study of full-length proteins. Recruitment of
+SOS1 to membranes serves two functions: relief of autoinhibition
+and proximity to RAS. To monitor its exchange activity by NMR,
+SOS1 was transiently expressed in HEK 293 cells and lysates
+mixed with 15N-RAS and GTPγS. Increasing rates of nucleotide
+exchange were observed, with curves shifting from an exponential
+to sigmoidal ﬁt (Fig. 4A). These NMR assays contain detergent,
+reporting on SOS1 activity in the absence of membrane and the
+concentration of soluble RAS is sufﬁcient to displace the regula-
+tory HF-DH-PH module from the allosteric site. We therefore
+reasoned the exponential-sigmoidal shift reﬂected a requirement
+to accumulate RAS-GTP, a better allosteric substrate than RAS-
+GDP (28). Indeed, addition of unlabeled RAS preloaded with
+GTPγS, but not GDP, eliminated the sigmoidal ﬁt and augmented
+the exchange rate (Fig. S3 A and B).
+
+Analysis of SOS1 enzymatic activity requires lipid vesicles (27)
+or RAS-pathway activation in cells (29). We considered that
+
+FL-SOS1 Lysate
+3 μl
+Vector
+
+14 μl
+Intr. Exchange
+
+20 μl
+
+SOS-Δ C-CaaX
+B
+SOS-DH/Link
+Flag Vector
+SOS-Link
+SOS-Allo
+SOS-WT
+SOS-DH
+SOS-HF
+
+0
+
+25
+
+50
+
+75
+
+100 125 150 175
+
+T im e (m in)
+D
+
+pERK Induction:
+
+Starved Cells
+
+FL-SOS1
+
+NMR Exchange
+
+0.07
+0.06
+0.05
+0.04
+0.03
+0.02
+0.01
+0.00
+
+)
+1
+-
+
+n
+
+i
+
+m
+
+(
+ 
+e
+f
+i
+l
+-
+f
+l
+a
+H
+
+WCL: α-Flag (SOS)
+WCL: α-pERK1/2
+WCL: α-ERK1/2
+WCL: α-RAS
+RBD PD: α-RAS
+SOS1
+
+ΔC-CaaX
+
+REM CDC25
+
+Link
+Allo
+R552G W729E
+
+His
+HF
+E108K
+
+DH PH
+DH
+E268A
+M269A
+D271A
+E
+
+1.00
+
+0.75
+
+0.50
+
+0.25
+
+0.00
+
+K
+R
+E
+p
+
+ 
+
+d
+e
+z
+i
+l
+a
+m
+
+r
+o
+N
+
+Vector
+W T
+
+HF
+
+DH
+
+Link
+
+Allo
+CaaX
+
+DH/Link
+
+Autoinhibited
+            Allosteric Exposed
+
+llo
+
+A
+
+0.00 0.02 0.04 0.06 0.08
+
+NM R Exchange
+Half-life (m in -1)
+
+Allo
+VectorW THFDH
+DH/Link
+CaaX
+Link
+
+Allo
+CaaX
+VectorW THFDH
+Link
+DH/Link
+
+Fig. 4. Monitoring activity of full-length SOS1 in cell extracts. (A) Titration of
+lysates containing wild-type SOS1 to 15N-RAS and 10-fold GTPγS. The ﬁt shifts
+from a sigmoidal to an exponential model. Transfection of vector alone
+showed intrinsic exchange rate. (B) SOS1 mutants differentially activate the
+RAS/ERK pathway. Position of mutations noted in schematic (Lower). Mem-
+brane-targeted SOS1-ΔC-CaaX was a control. Immunoblots show expressed
+SOS1 (anti-Flag), activated ERK (anti-pERK), loaded ERK (anti-ERK), loaded RAS
+(anti-RAS), and activated RAS (GST-BRAF RBD pull-down, anti-RAS) in serum-
+starved cells. Results are representative of multiple repeated experiments. (C)
+Quantiﬁcation of ERK activation using densitometry. One-way ANOVA con-
+ﬁrms a signiﬁcant difference in mean pERK levels (P < 0.05). (D) Quantiﬁcation
+of NMR-derived SOS1 exchange activity. Lysates were normalized for SOS1
+expression. One-way ANOVA conﬁrms a signiﬁcant difference in mean ex-
+change activities (P < 0.05). (E) Plot correlating ERK activation in starved cells
+vs. intrinsic exchange as measured by NMR. A region correlating with allosteric
+control was extrapolated from vector alone through SOS1-WT (autoinhibited)
+and SOS1-DH/Link (allosteric-exposed). The SOS1-HF and CaaX proteins lay
+outside of the area (circled). Also see Figs. S3 and S4.
+
+A
+
+)
+
+P
+T
+G
++
+P
+D
+G
+
+(
+/
+
+P
+D
+G
+
+1.00
+
+0.75
+
+0.50
+
+0.25
+
+0.00
+
+C
+
+1.00
+0.75
+0.50
+0.25
+0.00
+
+K
+R
+E
+p
+
+ 
+
+d
+e
+z
+i
+l
+a
+m
+
+r
+o
+N
+
+20
+
+45
+
+70
+
+95
+
+120
+T im e (m in)
+
+145
+
+170
+
+Fig. 3. Monitoring GAP activity from cell extracts using NMR. (A) Tet-
+induced cells expressing Flag-tagged p120GAP highly stimulated RAS GTP
+hydrolysis compared with control lysates. Expression of p120GAP was con-
+ﬁrmed by anti-Flag immunoblot (Inset). (B) No signiﬁcant differences in
+control and MPNST cells, excepting NF1-deﬁciency. (Upper) Expression of
+NF1, p120GAP, and RAS in normalized cell lysates. Tubulin is used for loading
+control. RAS-GTP levels as determined by binding to GST-BRAF RBD are as
+shown (Lower) [anti-RAS (PD)]. (C) NMR measurements of RAS GTP hydro-
+lysis stimulated by control and MPNST-derived cells. Lysates were normalized
+by total protein concentration. Lysis buffer alone was used as control. (Right)
+Quantiﬁed rates after several replications of the GTP hydrolysis assay. *Un-
+paired, two-tailed t tests conﬁrm signiﬁcant differences between mean hy-
+drolysis rates of buffer and MPNST cells vs. Schwann control (P < 0.05).
+
+stimulated RAS-GTP hydrolysis 9-fold, whereas control lysates
+showed only a 2-fold increase (attributable to endogenous GAPs).
+These data established our capacity to study the activity of full-
+length GAPs expressed in cells.
+
+Patients diagnosed with NF1 are characterized by pigmentation
+defects, osseous lesions, cognitive deﬁcits, and predisposition to
+malignancies, such as neuroﬁbrosarcoma and leukemia. Although
+it is believed that NF1 pathogenesis involves excessive RAS acti-
+vation, it has been difﬁcult to detect increased RAS-GTP in many
+NF1-deﬁcient tumor cells (23, 24). Our approach could therefore
+prove valuable in identifying RAS cycling defects in GAP-deﬁcient
+cells. To test this possibility, we obtained two Schwann-like cell
+lines: CRL-2884, derived from a malignant peripheral nerve
+sheath tumor (MPNST) isolated from an NF1 patient (25), and
+CRL-2768 control Schwannoma cells (26). Expression levels of
+relevant proteins were proﬁled using immunoblots on whole-cell
+extracts (Fig. 3B). These results revealed equivalent levels of
+p120GAP and RAS, and conﬁrmed NF1-deﬁciency in CRL-2884.
+To assess whether a conventional approach could detect accu-
+mulated RAS-GTP, we performed an RBD interaction assay (Fig.
+3B) but observed no difference in RAS-GTP levels. This ﬁnding
+attests to a lack of sensitivity of the effector-binding approach, and
+exempliﬁes the challenges in studying disorders such as NF1.
+
+In contrast, NMR-based measurements showed a clear defect
+in RAS-GTP hydrolysis activity conferred by MPNST-derived
+cell extracts (Fig. 3C). CRL-2884 cells exhibited only 66% of the
+total hydrolysis capacity of controls (attributable to activity from
+GAPs other than NF1). Much less material was required com-
+pared with standard assays, and samples could be frozen, thawed,
+
+4576 | www.pnas.org/cgi/doi/10.1073/pnas.1218173110
+
+Smith et al.
+
+a combination of NMR-based exchange assays and cell-based
+analyses could delineate how speciﬁc mutations activate full-
+length SOS1, and help interpret the complex interplay between its
+regulatory domains and lipid membranes. A panel of mutants
+based on known NS mutations and structural data were used to
+establish this approach (Fig. S4). Included were mutants thought
+to relieve allosteric occlusion [DH-E268A/M269A/D271A (28)
+and Link-R552G (27)], stabilize association with membranes [HF-
+E108K (29)], and reduce afﬁnity for allosteric RAS [Allo-W729E
+(30)]. The activity of these SOS1 variants in serum-starved or
+EGF-stimulated cells was assessed by RBD pull-down assays and
+pERK immunoblotting (Fig. 4 B and C and Fig. S3 C and D).
+Mutations thought to relieve autoinhibition (DH/Link) or en-
+hance membrane binding (HF) increased RAS/MAPK output
+compared with wild-type. Next, we used NMR to directly assess
+RAS nucleotide exchange in lysates normalized for SOS1 ex-
+pression (Fig. 4D and Fig. S3 E and F). Exchange activation was
+decreased by the allosteric mutation, but augmented by single DH
+or Link mutations, while increasing synergistically in the double
+mutant. SOS-HF had a wild-type exchange rate, consistent with
+the notion it does not alter the autoinhibitory conformation. To
+validate this result, the relationship between exchange activity and
+pERK induction was plotted (Fig. 4E). SOS1-HF, like SOS1-
+CaaX, falls outside an area extrapolated from vector control
+through SOS1-WT (representing autoinhibited) and SOS1-DH/
+Link (representing allosteric-exposed), rationalized by their in-
+creased membrane association. Thus, by combining membrane-
+independent NMR measurements with cell-based analyses of
+SOS1 activity, we can deconvolute mechanisms by which SOS1
+mutants stimulate RAS exchange.
+
+Proﬁling NS Mutations in Full-Length SOS1. Aberrant SOS1 activa-
+tion is a major underlying symptom of NS (16, 17). Available
+
+structural and biochemical data are not sufﬁcient to predict the
+efﬁcacy of many NS mutations. We therefore proﬁled 13 pre-
+viously sequenced mutants (16, 17, 31) for which there are no data
+pertaining to their activity or molecular mechanism (Fig. 5A and
+Fig. S5 A–C). Fig. 5 B and C show the capacity of these mutants to
+induce ERK activation in starved cells. Six variants increased
+pERK (K170E, Y337C, G434R, L550P, Y702H, I733F), ﬁve in-
+duced levels comparable to wild-type (T37A, I252T, C441Y,
+S548R, P894R), and two actually reduced ERK activation (P655L,
+Q977R). The innate, membrane-independent exchange properties
+of these NS mutants were then determined by NMR (Fig. 5D).
+T37A, C441Y, P655L, and P894R activated RAS exchange only
+slightly better than wild-type, whereas Q977R showed reduced
+activity. K170E, G434R, and S548R exhibited a signiﬁcant 1.5-fold
+increase in exchange rate, and I252T, Y702H, and I733F imparted
+an even greater 2- to 3-fold increase. Y337C and L550P showed
+dramatically increased exchange rates (5×, 8×), yet this was not
+detectable in cells. Relating ERK activation to exchange revealed
+good correlation between the NMR-derived activities and pERK
+levels (Fig. 5E). However, Y337C, L550P, and I252T fall outside
+the correlation area because of lower than expected pERK stimu-
+lation. These residues lie in close proximity (Fig. 5F), with Y337C
+tethering the DH and PH domains, L550 bridging the HF/Linker
+and DH domains, and I252 residing in the hydrophobic core of the
+DH domain. Although these mutations relieve autoinhibition, we
+postulated that other factors must compensate their effect in cells
+where activity is membrane-dependent. To investigate whether
+enhanced membrane recruitment would reveal their exchange
+potential, we repeated the assays using serum-stimulated cells
+(Fig. S5 D and E). Only wild-type levels of pERK induction were
+observed from the three hyperactivated NS mutants. We next
+considered that these mutants may have a defect in membrane
+binding, and performed cell fractionation. All three hyperactive
+
+A
+
+G434
+
+C441
+
+Y337
+
+L550
+
+I252
+
+K170
+S548
+
+T37
+
+Autoinhibited SOS1
+PDB:3KSY
+P655L
+Y702H
+I733F
+REM CDC25
+P894R
+Q977R
+
+G434R
+C441Y
+DH PH
+I252T
+Y337C
+
+T37A
+HF
+K170E
+
+S548R
+L550P
+
+Q977
+
+P894
+
+P655
+
+I733
+
+Y702
+
+D
+
+)
+1
+-
+
+n
+
+i
+
+m
+
+(
+ 
+e
+f
+i
+l
+-
+f
+l
+a
+H
+
+0.125 NS M utants: NM R Exchange Activity
+0.100
+
+0.075
+
+0.050
+
+0.025
+
+WT
+
+0.000
+
+P655L
+G434R
+Q977R
+K170E
+Y337C
+Y702H
+S548R
+P894R
+C441Y
+L550P
+D H/Link
+I733F
+I252T
+T37A
+Vector
+W T
+
+B
+
+Vector
+W T
+
+DH/Link
+K170E
+I252T
+T37A
+
+G434R
+Y337C
+C441Y
+
+α-Flag (SOS1)
+α-pERK1/2
+α-ERK1/2
+
+W TDH/Link
+Q977R
+Y702H
+P894R
+S548R
+P655L
+L550P
+I733F
+
+α-Flag (SOS1)
+α-pERK1/2
+α-ERK1/2
+
+C
+
+K
+R
+E
+p
+
+ 
+
+d
+e
+z
+i
+l
+
+a
+m
+
+r
+o
+N
+
+1.00
+
+0.00
+
+NS M utants pERK Induction:
+
+Starved Cells
+
+0.75
+
+0.50
+
+0.25
+
+WT
+
+Y
+R
+T
+S
+I
+M
+E
+H
+C
+O
+I
+B
+
+P655L
+G434R
+Q977R
+K170E
+P894R
+Y702H
+Y337C
+S548R
+C441Y
+L550P
+D H/Link
+I733F
+I252T
+T37A
+Vector
+W T
+F
+
+HF
+
+PH
+**
+
+HF
+Link
+DH****
+Allo/Rem
+
+W729
+
+REM
+
+Link
+
+L550***
+
+I252*
+
+PH
+
+Y337
+**
+
+DH
+
+E
+
+K
+R
+E
+p
+
+ 
+
+d
+e
+z
+i
+l
+
+a
+m
+
+r
+o
+N
+
+0.75
+0.50
+
+0.25
+
+0.00
+
+ERK Activation vs. RAS
+Exchange: Starved  Cells
+1.00
+
+I252T
+Y337C
+L550P
+
+0.00 0.03 0.06 0.09 0.12
+
+NM R Exchange Half-life (m in -1)
+
+Vector
+W T
+DH/Link
+T37A
+K170E
+I252T
+Y337C
+G434R
+C441Y
+S548R
+L550P
+P655L
+Y702H
+I733F
+P894R
+Q977R
+
+Fig. 5. Proﬁling NS mutations. (A) Location of 13 NS mutations in crystal structure of autoinhibited SOS1, colored by corresponding domain in the modular
+outline. (B) NS mutants differentially activate the RAS/ERK pathway. Vector alone, SOS1-WT, and SOS1-DH/Link were controls. Immunoblots show SOS1
+expression (anti-Flag), activated ERK (anti-pERK), and loaded ERK (anti-ERK) for serum-starved cells. Results are representative of repeated experiments. (C)
+Quantiﬁcation of ERK activation in serum-starved cells. One-way ANOVA indicates signiﬁcant differences in mean pERK levels (P < 0.05). (D) Quantiﬁcation of
+NMR-based SOS1 exchange activity on lysates normalized for SOS1 expression. One-way ANOVA conﬁrms a signiﬁcant difference in mean activities (P < 0.05).
+(E) Plot correlating ERK activation in starved cells vs. intrinsic exchange activity. I252T, Y337C, and L550P lay outside the correlation area (circled). (F)
+Structural analysis of three high-exchange, low pERK NS mutants. DH domain is displayed as ribbons, surrounded by interacting regions of the PH (green), HF
+(purple), Linker (red) and Rem (blue) domains as surface representations. Mutated residues are highlighted (black). Schematic showing important interdomain
+contacts is boxed, with asterisks denoting these residues. Also see Fig. S5.
+
+Smith et al.
+
+PNAS | March 19, 2013 | vol. 110 | no. 12 | 4577
+
+mutants associated with membrane in the same ratio as wild-type
+(Fig. S5F). This ﬁnding suggests a membrane-dependent mech-
+anism is abrogating their activity in cells. Our analyses demon-
+strate the value of NMR-based enzymatic assays incorporating
+cell extracts, and provide new insight to the molecular mecha-
+nisms of individual NS mutations.
+
+Inhibition of RAS Exchange and Hydrolysis by Rationally Designed
+RBDs. Our NMR assay requires small amounts of material, func-
+tions in real-time with precise kinetics, and can directly evaluate
+mutant RAS and RASopathy-associated regulators from cell
+lysates. We asked whether our approach could be used to screen
+for inhibitors of hydrolysis or exchange. GAPs compete directly
+with effectors, and previous data have suggested that GAP-
+mediated hydrolysis is inhibited by the c-RAF1 RBD (32). Con-
+sistent with this ﬁnding, when GTP-loaded RAS was mixed with
+GAP-334 in the presence of BRAF RBD, sensitivity to GAP was
+abolished (Fig. 6A). Full-length p120GAP activity from whole-cell
+extracts was also inhibited (Fig. S6A). These experiments demon-
+strate a direct competition between GAPs and effector domains,
+and that inhibitors of RAS regulators can be detected by our assay.
+RBDs do not possess high afﬁnity for GDP-bound RAS (Fig.
+S6B) (33), so we took a synthetic approach to occlude GEFs.
+Recently identiﬁed point mutations in the c-RAF1 RBD enhance
+its interaction with RAS-GDP (34), and we constructed analogous
+mutations in the RBD of BRAF (hereafter BRAFGDP) (Fig. S6C).
+We veriﬁed binding of this mutant to inactive RAS using both
+NMR and a cell-based approach (Fig. S6 D and E). To determine
+whether our synthetic RBD could occlude and inhibit GEFs, we
+monitored SOScat-mediated exchange of 15N-RAS. As shown in
+Fig. S6F, BRAFGDP inhibited exchange of wild-type RAS (11×).
+Nucleotide exchange of the oncogenic mutant G12V was also
+reduced (50×) (Fig. S6G). As revealed earlier, Q61L exhibits both
+a high intrinsic rate of exchange and increased sensitivity to
+SOScat. Both rates were signiﬁcantly decreased in the presence of
+
+BRAF GAP-334 Inhibition
+
+Intr. Hydrolysis
+1.00
+
++ 1:5000 GAP-334
++ 2:1 BRAF + 1:5000 GAP-334
+
+BRAFGDP: H-RASQ61L Exchange
+Intr. Exchange
++1:5000 SOS cat
++ 2:1 BRAFGDP + 1:5000 SOS cat
+
++ 2:1 BRAFGDP
+
+B
+
+)
+
+P
+T
+G
++
+P
+D
+G
+
+(
+/
+
+P
+D
+G
+
+1.00
+
+0.75
+
+0.50
+
+0.25
+
+0.00
+
+D
+
+)
+
+P
+T
+G
++
+P
+D
+G
+
+(
+/
+
+P
+D
+G
+
+1.00
+
+0.75
+
+0.50
+
+0.25
+
+0.00
+
+0
+
+50
+
+100 150 200 250 300 350
+
+T im e (m in)
+
+BRAFGDP: FL-SOS1 Inhibition
+Vector
+SOS-DH/Link Lysate
++ 2:1 BRAFGDP + SOS-DH/Link
+
+0
+
+50
+
+150
+
+100
+T im e (m in)
+
+200
+
+250
+
+A
+
+y
+t
+i
+s
+n
+e
+t
+n
+
+I
+ 
+k
+a
+e
+P
+
+ 
+
+P
+D
+G
+
+C
+
+0.75
+
+0.50
+
+0.25
+
+0.00
+
+25
+
+Intrinsic
+
++SO S cat
+
+GTP
+
+Q61L
++/-
+SOS
+GTPG
+
+RAS
+
+GDP
+
+75
+
+125
+
+175
+T im e (m in)
+
+225
+
+BRAF GDP Exchange Inhibition
+
+W T
+
+G12V
+
++SO S cat
++BRAF G DP
+
+RAS
+
+RASGDP
+
+BRAF
+GDP
+
+0.00 0.25 0.50 0.75 1.00
+
+Relative Exchange Rate
+
+Fig. 6.
+Inhibition of GAP and GEF activity using RBDs. (A) 2-fold molar ex-
+cess of BRAF RBD inhibits GAP-334-mediated RAS GTP hydrolysis. (B) 2-fold
+BRAFGDP inhibits SOScat activity on RASQ61L to a rate slower than intrinsic.
+Intrinsic exchange is also inhibited. (C) Summary of nucleotide exchange
+rates in the presence or absence of BRAFGDP. Addition of SOScat stimulates
+exchange of wild-type, G12V or Q61L RAS (Upper, intrinsic and +SOScat). SOS
+activation of all RAS proteins was inhibited by complex with BRAFGDP
+(Lower, shaded). (D) BRAFGDP also inhibits full-length SOS-DH/Link exchange
+activity from lysates. Also see Fig. S6.
+
+BRAFGDP (Fig. 6B). Results are summarized in Fig. 6C. Fur-
+thermore, the synthetic RBD could prevent RAS activation by
+lysates expressing the full-length, hyperactivated SOS1-DH/Link
+mutant (Fig. 6D). Thus, we were able to effectively occlude GEF
+from the RAS nucleotide binding site to prevent its activation.
+These data establish our NMR assay as a viable and potentially
+high-throughput method toward drug discovery.
+
+Discussion
+We have applied real-time NMR to monitor defects in RAS
+cycling. Our approach permits analysis of multidomain regula-
+tory proteins, such as p120GAP, NF1, and SOS1 expressed in
+cells, and can distinguish defects involving expression, catalysis,
+allosteric regulation, and membrane targeting.
+
+As demonstrated by our NMR assays, nucleotide binding
+properties combine with hydrolysis defects to alter the active state
+of RAS mutants. G12V, G13D, and Q61L show opposing defects
+in exchange and hydrolysis, yet all hyperactivate RAS. This ﬁnding
+implies that different approaches are required for therapeutic
+interventions seeking to directly target these proteins. GTP is in
+10-fold excess over GDP in cells, and both G13D and Q61L are
+likely to be hypersensitive to GEF activation, or unlikely to even
+require GEF. Thus, approaches targeting their weakened hydro-
+lysis would likely be unsuccessful, but the reverse is true of G12V.
+Recent clinical data reveal a codon-dependent efﬁcacy for drugs
+targeting RAS-driven tumors, further substantiating that the in-
+dividual biochemical properties of these mutants play a vital role
+in tumor pathology (12, 35).
+
+NF1 is a GAP that negatively regulates RAS, but many of the
+mechanisms controlling the activation, localization, and speciﬁcity
+of this >250-kDa protein remain unknown. We were able to detect
+NF1-deﬁciency in tumor-derived cells, which had previously re-
+quired meticulous radio-labeling experiments (15, 36). We ob-
+served a decrease in the total hydrolysis capacity of these lysates,
+which appears sufﬁcient to cause accumulation of RAS-GTP
+levels able to promote tumourigenesis. Studies must now establish
+whether replenishing global loss of hydrolysis activity is enough to
+aid patients with NF1, or whether speciﬁc activity from neuro-
+ﬁbromin is required at precise cellular locales. Details of NF1
+activation, such as a role for phosphorylation (37), can now be
+studied using NMR in essentially any cell type or tissue system.
+
+SOS1 mutations are a major underlying element of NS (16, 17).
+Elegant structural and biochemical studies by Kuriyan and col-
+leagues have elucidated key elements controlling SOS1 auto-
+regulation, including HF and PH domain lipid interactions, and
+RAS association with the allosteric site (27–29, 38). As auto-
+inhibition of full-length SOS1 is detectable by NMR, we can
+combine membrane-independent measurements of RAS activa-
+tion with cell-based pERK induction to rationalize activation
+mechanisms for the 15 NS mutations analyzed in this work. Q977R
+was unique in possessing overall weaker activity than wild-type
+SOS1, and ﬁve other mutations displayed near-identical properties
+as wild-type (T37A, C441Y, S548R, P655L, and P894R). A third
+group exhibits correlation between ampliﬁed exchange activity
+and pERK induction (K170E, G434R, R552G, Y702H, and
+I733F), as one might predict of NS mutants. The four remaining
+mutations are divergent and require some discussion: E108K does
+not alter exchange rates, but induces pERK via increased mem-
+brane association, as previously hypothesized (27, 29). Y337C,
+L550P, and I252T drastically elevate RAS exchange rates, yet only
+stimulate pERK to similar levels as other activating NS mutants.
+The positioning of these residues (Fig. 5F) and their involvement
+in orienting the PH and HF/Linker modules in relation to the DH
+domain indicates a role in coupling the allosteric mechanism to
+membrane binding. These mutants are associated with membrane
+at similar levels to wild-type (Fig. S5F), induce pERK upon
+stimulation (Fig. S5D), and correlate well with data showing a
+tethered DH domain alone is not capable of inhibiting SOScat (39).
+
+4578 | www.pnas.org/cgi/doi/10.1073/pnas.1218173110
+
+Smith et al.
+
+We can therefore postulate that I252T, Y337C, and L550P show
+attenuated activation in cells because of membrane-dependent
+conformational defects that hinder interactions with allosteric or
+substrate RAS on the membrane surface (Fig. S7). This effect is
+absent in solution, resulting in hyperactivation. Taken together,
+our data strongly argue that the effects of NS mutations on in-
+dividual SOS1 domains are balanced by layered interdomain
+interactions and association with biological membranes, resulting
+in consistent, low-level RAS activation in cells.
+
+In this article we present an NMR-based methodology to de-
+tect defects in RAS GTPase cycling. As GTPase networks are
+intricately associated with disease, our methodology should be
+a valuable tool toward the detection of GTPase pathway defects,
+as well as the identiﬁcation and characterization of new thera-
+peutics targeting these important signaling networks.
+
+Materials and Methods
+Plasmid constructs and antibodies, puriﬁcation of recombinant proteins, cell
+culture, RBD pull downs and Western blotting, NMR spectroscopy, membrane
+fractionation, and statistical analysis are described in SI Materials and Methods.
+For GTPase analysis, RAS concentration was held consistent at 250 μM. To
+calculate the GDP-bound ratio [IGDP/(IGDP + IGTP)], peak intensities were
+extracted from individual spectrum with NMRView on at least eight paired
+(GTP/GDP) resonances, plotted against time, and data ﬁt to a one-phase ex-
+ponential or sigmoidal curve using GraphPad Prism. GAP assays in the presence
+of BRAF RBD were plotted using only GDP intensities, as many GTP-speciﬁc
+
+resonances undergo large chemical-shift perturbations upon effector binding.
+Resulting hydrolysis rates were identical to those calculated using the [IGDP/
+(IGDP + IGTP)] ratio, providing the reaction reached completion. All exchange
+assays were performed in a 10-fold molar excess of GTPγS to preclude compe-
+tition with hydrolysis. For NMR assays incorporating cell extracts, cells were
+lysed in NMR buffer [20 mM Tris (pH 7.5), 100 mM NaCl, 1 mM DTT and 5 mM
+MgCl2] plus detergent (1% Triton X-100) and protease inhibitors. Lysates were
+cleared by centrifugation and could be frozen and stored at −80 °C, or kept on
+ice for 24 h with no perceptible loss in activity. For direct comparison of
+Schwann cell-derived lysates or those expressing p120GAP, whole-cell extracts
+were normalized by total protein concentration. Generally, only 15 μg (exog-
+enous p120GAP) to 70 μg (endogenous) of total protein was required in 1.7-mm
+CryoProbe samples to provide strong induction of RAS GTP hydrolysis. Assays
+comparing exchange activities from various SOS1 mutants were performed
+with lysates normalized for SOS1 expression through three separate rounds of
+immunoblotting and densitometry analysis. Only 15-μg total protein provided
+strong exchange activity, although SOS1 required transient expression to sig-
+niﬁcantly increase protein levels over those provided by a Tet-inducible system.
+
+ACKNOWLEDGMENTS. We thank Greg Findlay and Chris Marshall for valuable
+discussion and thoughts on the manuscript. This work was supported in part by
+a grant from the Cancer Research Society (to M.I.); the Canadian Cancer Society
+(M.I.); National Institutes of Health Grant R37 CA49132 (to B.G.N.); the Ontario
+Ministry of Health and Long-Term Care; the Princess Margaret Hospital
+Foundation; and a Canadian Breast Cancer Foundation fellowship (to M.J.S.).
+M.I. and B.G.N. hold Canada Research Chairs. B.G.N. is a recipient of the
+Premier of Ontario’s Summit Award. The 800- and 600-MHz NMR spectrome-
+ters were funded by the Canada Foundation for Innovation.
+
+1. Fernández-Medarde A, Santos E (2011) Ras in cancer and developmental diseases.
+
+21. Margarit SM, et al. (2003) Structural evidence for feedback activation by Ras.GTP of
+
+Genes Cancer 2(3):344–358.
+
+2. Gysin S, Salt M, Young A, McCormick F (2011) Therapeutic strategies for targeting Ras
+
+proteins. Genes Cancer 2(3):359–372.
+
+3. Downward J (2003) Targeting RAS signalling pathways in cancer therapy. Nat Rev
+
+Cancer 3(1):11–22.
+
+4. Rodriguez-Viciana P, Sabatier C, McCormick F (2004) Signaling speciﬁcity by Ras family
+GTPases is determined by the full spectrum of effectors they regulate. Mol Cell Biol 24
+(11):4943–4954.
+
+5. Der CJ, Finkel T, Cooper GM (1986) Biological and biochemical properties of human
+
+rasH genes mutated at codon 61. Cell 44(1):167–176.
+
+6. Gibbs JB, Sigal IS, Poe M, Scolnick EM (1984) Intrinsic GTPase activity distinguishes
+normal and oncogenic ras p21 molecules. Proc Natl Acad Sci USA 81(18):5704–5708.
+7. McGrath JP, Capon DJ, Goeddel DV, Levinson AD (1984) Comparative biochemical
+properties of normal and activated human ras p21 protein. Nature 310(5979):
+644–649.
+
+8. Manne V, Bekesi E, Kung HF (1985) Ha-ras proteins exhibit GTPase activity: Point
+mutations that activate Ha-ras gene products result in decreased GTPase activity. Proc
+Natl Acad Sci USA 82(2):376–380.
+
+9. Bollag G, McCormick F (1991) Differential regulation of rasGAP and neuroﬁbroma-
+
+tosis gene product activities. Nature 351(6327):576–579.
+
+10. Scheffzek K, et al. (1997) The Ras-RasGAP complex: Structural basis for GTPase acti-
+
+vation and its loss in oncogenic Ras mutants. Science 277(5324):333–338.
+
+11. Guerrero S, et al. (2000) K-ras codon 12 mutation induces higher level of resistance to
+apoptosis and predisposition to anchorage-independent growth than codon 13 mu-
+tation or proto-oncogene overexpression. Cancer Res 60(23):6750–6756.
+
+12. Morelli MP, Kopetz S (2012) Hurdles and complexities of codon 13 KRAS mutations. J
+
+Clin Oncol 30(29):3565–3567.
+
+13. Tidyman WE, Rauen KA (2009) The RASopathies: Developmental syndromes of Ras/
+
+MAPK pathway dysregulation. Curr Opin Genet Dev 19(3):230–236.
+
+14. Legius E, Marchuk DA, Collins FS, Glover TW (1993) Somatic deletion of the neuro-
+ﬁbromatosis type 1 gene in a neuroﬁbrosarcoma supports a tumour suppressor gene
+hypothesis. Nat Genet 3(2):122–126.
+
+15. Bollag G, et al. (1996) Loss of NF1 results in activation of the Ras signaling pathway
+
+and leads to aberrant growth in haematopoietic cells. Nat Genet 12(2):144–148.
+
+16. Roberts AE, et al. (2007) Germline gain-of-function mutations in SOS1 cause Noonan
+
+syndrome. Nat Genet 39(1):70–74.
+
+17. Tartaglia M, et al. (2007) Gain-of-function SOS1 mutations cause a distinctive form of
+
+Noonan syndrome. Nat Genet 39(1):75–79.
+
+18. Marshall CB, et al. (2012) Probing the GTPase cycle with real-time NMR: GAP and GEF
+
+activities in cell extracts. Methods 57(4):473–485.
+
+19. Mazhab-Jafari MT, et al. (2010) Real-time NMR study of three small GTPases reveals
+that ﬂuorescent 2′(3′)-O-(N-methylanthraniloyl)-tagged nucleotides alter hydrolysis
+and exchange kinetics. J Biol Chem 285(8):5132–5136.
+
+the Ras-speciﬁc nucleotide exchange factor SOS. Cell 112(5):685–695.
+
+22. Gideon P, et al. (1992) Mutational and kinetic analyses of the GTPase-activating
+protein (GAP)-p21 interaction: The C-terminal domain of GAP is not sufﬁcient for full
+activity. Mol Cell Biol 12(5):2050–2056.
+
+23. The I, et al. (1993) Neuroﬁbromatosis type 1 gene mutations in neuroblastoma. Nat
+
+Genet 3(1):62–66.
+
+24. Johnson MR, Look AT, DeClue JE, Valentine MB, Lowy DR (1993) Inactivation of the
+NF1 gene in human melanoma and neuroblastoma cell lines without impaired reg-
+ulation of GTP.Ras. Proc Natl Acad Sci USA 90(12):5539–5543.
+
+25. Muir D, Neubauer D, Lim IT, Yachnis AT, Wallace MR (2001) Tumorigenic properties of
+
+neuroﬁbromin-deﬁcient neuroﬁbroma Schwann cells. Am J Pathol 158(2):501–513.
+
+26. Cichowski K, Santiago S, Jardim M, Johnson BW, Jacks T (2003) Dynamic regulation of
+the Ras pathway via proteolysis of the NF1 tumor suppressor. Genes Dev 17(4):
+449–454.
+
+27. Gureasko J, et al. (2010) Role of the histone domain in the autoinhibition and acti-
+vation of the Ras activator Son of sevenless. Proc Natl Acad Sci USA 107(8):3430–3435.
+28. Sondermann H, et al. (2004) Structural analysis of autoinhibition in the Ras activator
+
+Son of sevenless. Cell 119(3):393–405.
+
+29. Yadav KK, Bar-Sagi D (2010) Allosteric gating of Son of sevenless activity by the his-
+
+tone domain. Proc Natl Acad Sci USA 107(8):3436–3440.
+
+30. Freedman TS, et al. (2006) A Ras-induced conformational switch in the Ras activator
+
+Son of sevenless. Proc Natl Acad Sci USA 103(45):16692–16697.
+
+31. Lepri F, et al. (2011) SOS1 mutations in Noonan syndrome: Molecular spectrum,
+structural insights on pathogenic effects, and genotype-phenotype correlations. Hum
+Mutat 32(7):760–772.
+
+32. Schefﬂer JE, et al. (1994) Characterization of a 78-residue fragment of c-Raf-1 that
+comprises a minimal binding domain for the interaction with Ras-GTP. J Biol Chem
+269(35):22340–22346.
+
+33. Herrmann C, Martin GA, Wittinghofer A (1995) Quantitative analysis of the complex
+between p21ras and the Ras-binding domain of the human Raf-1 protein kinase.
+J Biol Chem 270(7):2901–2905.
+
+34. Filchtinski D, et al. (2010) What makes Ras an efﬁcient molecular switch: A compu-
+tational, biophysical, and structural study of Ras-GDP interactions with mutants of
+Raf. J Mol Biol 399(3):422–435.
+
+35. Guerrero S, et al. (2002) Codon 12 and codon 13 mutations at the K-ras gene induce
+
+different soft tissue sarcoma types in nude mice. FASEB J 16(12):1642–1644.
+
+36. Basu TN, et al. (1992) Aberrant regulation of ras proteins in malignant tumour cells
+
+from type 1 neuroﬁbromatosis patients. Nature 356(6371):713–715.
+
+37. Leondaritis G, Petrikkos L, Mangoura D (2009) Regulation of the Ras-GTPase acti-
+vating protein neuroﬁbromin by C-tail phosphorylation: Implications for protein ki-
+nase C/Ras/extracellular signal-regulated kinase 1/2 pathway signaling and neuronal
+differentiation. J Neurochem 109(2):573–583.
+
+38. Gureasko J, et al. (2008) Membrane-dependent signal integration by the Ras activator
+
+Son of sevenless. Nat Struct Mol Biol 15(5):452–461.
+
+20. Temeles GL, Gibbs JB, D’Alonzo JS, Sigal IS, Scolnick EM (1985) Yeast and mammalian
+
+39. Sacco E, et al. (2012) Regulation of hSos1 activity is a system-level property generated
+
+Ras proteins have conserved biochemical properties. Nature 313(6004):700–703.
+
+by its multi-domain structure. Biotechnol Adv 30(1):154–168.
+
+Y
+R
+T
+S
+I
+M
+E
+H
+C
+O
+I
+B
+
+Smith et al.
+
+PNAS | March 19, 2013 | vol. 110 | no. 12 | 4579
+
+

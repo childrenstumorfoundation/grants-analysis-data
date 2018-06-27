@@ -1,0 +1,2730 @@
+Cancer Cell
+
+Article
+
+Merlin/NF2 Loss-Driven Tumorigenesis
+Linked to CRL4DCAF1-Mediated Inhibition of the
+Hippo Pathway Kinases Lats1 and 2 in the Nucleus
+
+Wei Li,1,* Jonathan Cooper,1,2 Lu Zhou,3 Chenyi Yang,4 Hediye Erdjument-Bromage,5 David Zagzag,6 Matija Snuderl,6
+Marc Ladanyi,7 C. Oliver Hanemann,3 Pengbo Zhou,4 Matthias A. Karajannis,8 and Filippo G. Giancotti1,*
+1Cell Biology Program, Sloan Kettering Institute for Cancer Research, Memorial Sloan Kettering Cancer Center, New York, NY 10065, USA
+2Sloan Kettering Division, Weill Graduate School of Medical Sciences, Cornell University, New York, NY 10065, USA
+3Plymouth University Peninsula School of Medicine and Dentistry, Plymouth PL6 8BU, UK
+4Department of Pathology and Laboratory Medicine, Weill Cornell Medical College, New York, NY 10065, USA
+5Molecular Biology Program, Sloan Kettering Institute for Cancer Research, Memorial Sloan Kettering Cancer Center, New York,
+NY 10065, USA
+6NYU Cancer Institute and Department of Pathology, NYU Langone Medical Center, New York, NY 10016, USA
+7Department of Pathology and Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York,
+NY 10065, USA
+8NYU Cancer Institute and Department of Pediatrics, NYU Langone Medical Center, New York, NY 10016, USA
+*Correspondence: liw@mskcc.org (W.L.), f-giancotti@ski.mskcc.org (F.G.G.)
+http://dx.doi.org/10.1016/j.ccr.2014.05.001
+
+SUMMARY
+
+It is currently unclear whether Merlin/NF2 suppresses tumorigenesis by activating upstream components of
+the Hippo pathway at the plasma membrane or by inhibiting the E3 ubiquitin ligase CRL4DCAF1 in the nucleus.
+We found that derepressed CRL4DCAF1 promotes YAP- and TEAD-dependent transcription by ubiquitylating
+and, thereby, inhibiting Lats1 and 2 in the nucleus. Genetic epistasis experiments and analysis of tumor-
+derived missense mutations indicate that this signaling connection sustains the oncogenicity of Merlin-deﬁ-
+cient tumor cells. Analysis of clinical samples conﬁrms that this pathway operates in NF2-mutant tumors. We
+conclude that derepressed CRL4DCAF1 promotes activation of YAP by inhibiting Lats1 and 2 in the nucleus.
+
+INTRODUCTION
+
+The tumor suppressor Merlin/NF2 was identiﬁed in 1993 in
+patients affected by neuroﬁbromatosis type 2 (NF2) and was
+later found to be mutated in sporadic meningiomas, ependy-
+momas, and schwannomas; a large fraction of malignant
+pleural mesotheliomas; and a small percentage of other tumor
+types. Merlin is a multifunctional protein that shuttles between
+the cell cortex and the nucleus in a manner reminiscent of
+the cell adhesion and signaling component b-catenin. However,
+it remains unclear whether Merlin suppresses tumorigenesis by
+activating antimitogenic signals at the cell cortex or in the
+nucleus and by what molecular mechanism (Li et al., 2012
+and references therein).
+
+Studies in Drosophila suggest that Merlin combines with
+Expanded and Kibra at the cell cortex to activate the Hippo
+tumor suppressor pathway (Halder and Johnson, 2011). This
+pathway consists of a kinase cascade comprising the kinase
+Hippo (MST1/2 in mammals), the adaptor Salvador (Sav1), and
+the kinase Warts (Lats1/2). The ﬁnal element, Warts/Lats, phos-
+phorylates and inactivates the transcriptional coactivator Yorkie/
+YAP, suppressing Scalloped/TEAD-dependent transcription of
+genes involved in cell survival and proliferation (Hariharan and
+Bilder, 2006; Harvey and Tapon, 2007; Pan, 2010; Zhao et al.,
+2010a). In Drosophila, the Hippo pathway restrains cell prolifera-
+tion and promotes apoptosis to limit organ size and to suppress
+the development of
+tumorous overgrowths (Hariharan and
+Bilder, 2006; Harvey and Tapon, 2007; Pan, 2010; Zhao et al.,
+
+Signiﬁcance
+
+In spite of signiﬁcant advances, the mechanism by which Merlin/NF2 suppresses tumorigenesis has remained incompletely
+understood. We have found that Merlin translocates into the nucleus, where it inhibits the promitogenic E3 ubiquitin ligase
+CRL4DCAF1. Here we provide evidence that CRL4DCAF1 promotes YAP-dependent transcription and oncogenesis by ubiqui-
+tylating and, thereby, inhibiting the Hippo pathway components Lats1 and 2. Analysis of clinical samples indicates that this
+signaling mechanism operates in NF2-mutant tumors. These results reveal the mechanism by which Merlin activates the
+Hippo pathway and suppresses tumorigenesis.
+
+48 Cancer Cell 26, 48–60, July 14, 2014 ª2014 Elsevier Inc.
+
+Cancer Cell
+CRL4DCAF1 Promotes Oncogenesis by Inhibiting Lats
+
+2010a). Genetic studies in mouse models and genomic analyses
+of human tumors indicate that Lats1/2 can function as a tumor
+suppressor and YAP as an oncogene, providing evidence that
+the function of the downstream segment of the Hippo pathway
+is evolutionarily conserved (Overholtzer et al., 2006; St John
+et al., 1999; Zender et al., 2006). Because mammalian Merlin
+can inhibit YAP- and TEAD-dependent transcription and deletion
+of Yap suppresses liver overgrowth and tumorigenesis in mice
+carrying a conditional ablation of Nf2, it has been proposed
+that Merlin suppresses tumorigenesis by activating the Hippo
+pathway (Zhang et al., 2010; Zhao et al., 2007). However,
+because YAP is necessary for the expansion of bipotential liver
+progenitors during development, this result does not necessarily
+imply that YAP signaling drives hepatocellular carcinoma devel-
+opment. In fact, analysis of The Cancer Genome Atlas and Cos-
+mic data sets indicates that no Hippo pathway component is
+altered at a signiﬁcant frequency in human liver cancer (Cerami
+et al., 2012). In addition, the upstream regulators of the Hippo
+pathway, and the way in which they are interconnected, have
+diverged after the separation of arthropods and chordates (Bos-
+suyt et al., 2014), suggesting that Merlin inhibits Hippo signaling
+through divergent mechanisms in Drosophila and mammals.
+
+We have found that the dephosphorylated, active conformer
+of mammalian Merlin suppresses tumorigenesis by inhibiting
+the E3 ubiquitin ligase CRL4DCAF1 in the nucleus (Li et al.,
+2010). Intriguingly, CRL4DCAF1 controls an oncogenic program
+of gene expression that includes TEAD target genes, suggesting
+that Merlin controls Hippo signaling by inhibiting CRL4DCAF1 (Li
+et al., 2010). Here we provide evidence that derepressed
+CRL4DCAF1 targets Lats1 and 2 for ubiquitylation and inhibition
+in the nucleus and, thus, activates YAP-driven transcription
+and oncogenesis.
+
+RESULTS
+
+Deregulated CRL4DCAF1 Induces Activation of YAP
+To examine whether CRL4DCAF1 inactivates the Hippo signaling
+pathway, we examined NF2-mutant mesothelioma and schwan-
+noma cells. Meso-33 mesothelioma cells undergo a complete
+proliferation arrest in response to re-expression of Merlin (Li
+et al., 2010) and do not possess genetic abnormalities at the
+BAP1 locus, which is frequently mutated in malignant mesothe-
+liomas devoid of NF2 mutations (Bott et al., 2011). As antici-
+pated, re-expression of Merlin induced robust phosphorylation
+of YAP at its major negative regulatory site, S127, which is phos-
+phorylated by Lats1 and 2 in these cells (Figure 1A, lanes 1 and
+2). Notably, expression of DCAF1 reduced phosphorylation of
+YAP at the same site, suggesting that CRL4DCAF1 can promote
+YAP signaling (Figure S1A available online).
+
+We have shown previously that wild-type DCAF1 partially re-
+verses the inhibition of proliferation induced by Merlin, whereas
+a mutant
+lacking the C-terminal Merlin-binding segment
+(DCAF1 1417X) completely reverses this process (Li et al.,
+2010). Intriguingly, although wild-type DCAF1 alleviated the abil-
+ity of Merlin to induce phosphorylation of YAP, DCAF1 1417X
+suppressed it almost completely, suggesting that Merlin inacti-
+vates YAP by inhibiting CRL4DCAF1 (Figure 1A). In agreement
+with this hypothesis, depletion of DCAF1 induced phosphoryla-
+tion of YAP and suppressed expression of the YAP target genes
+
+CTGF (Figure 1B; Figure S1B), BIRC5, and CYR61 (Figure S1B).
+Moreover, it induced translocation of YAP/TAZ from the nucleus
+(Figures S1C and S1D) and suppressed transcription from a
+TEAD-dependent reporter (Figure S1E). These results indicate
+that CRL4DCAF1 is necessary for activation of YAP in NF2-mutant
+mesothelioma cells.
+
+To extend these ﬁndings, we examined FC-1801 mouse
+schwannoma cells that were derived from Nf2Flox/Flox mice (Lal-
+lemand et al., 2009). In response to re-expression of Merlin,
+these cells undergo proliferation arrest and are no longer tumor-
+igenic (Li et al., 2010). Expression of Merlin also induced phos-
+phorylation of YAP in these cells (Figure S1F). Strikingly,
+although YAP/TAZ accumulated almost exclusively in the nuclei
+of these cells, even when they were conﬂuent, silencing of
+DCAF1 provoked almost complete YAP/TAZ extrusion to the
+cytoplasm in most cells (Figure 1C; data not shown). Moreover,
+silencing of DCAF1 inhibited transcription from a TEAD-depen-
+dent reporter, although not as completely as overexpression of
+Merlin or dominant-negative TEAD (Figure 1D). Finally,
+in
+agreement with prior DNA microarray analyses (Li et al., 2010),
+overexpression of DCAF1 increased, and silencing of DCAF1
+decreased, the expression of YAP target genes in FC-1801
+cells (Figure S1G). Thus, derepression of CRL4DCAF1 activates
+YAP and induces TEAD-dependent transcription in NF2-mutant
+tumor cells.
+
+CRL4DCAF1 Activates YAP without Inhibiting MST or
+Salvador
+Unexpectedly, neither expression of Merlin nor silencing of
+DCAF1 increased phosphorylation of the activation loop of
+MST1 or MST2 (Figures S1H and S1I)
+(Deng et al., 2003;
+Glantschnig et al., 2002). In addition, neither of these manipula-
+tions promoted phosphorylation of Lats1 at the MST1/2 phos-
+phorylation site T1079. Rather, these manipulations decreased
+this phosphorylation (Figures S1H and S1I), presumably by acti-
+vating the negative feedback loops that restrain ﬂux through the
+Hippo pathway (Genevet et al., 2010; Hamaratoglu et al., 2006;
+Xiao et al., 2011). These results suggest that the deregulation
+of YAP induced by loss of Merlin and activation of CRL4DCAF1
+is not due to decreased activation of Lats1 by MST1/2.
+
+To corroborate this hypothesis, we examined whether simulta-
+neous depletion of MST1 and MST2 decreased phosphorylation
+of YAP in Merlin re-expressing or DCAF1-silenced Meso-33
+cells. Notably, phosphorylation of YAP proceeded unabated
+upon both manipulations (Figures 1E and 1F). Moreover, this
+process was not affected by inactivation of the mammalian
+ortholog of Salvador, Sav1, an essential component of the core
+Hippo cassette (Lee et al., 2008; Tapon et al., 2002) (Figures
+1G and 1H). Additional experiments revealed that silencing of
+Sav1 enhances TEAD-dependent transcription in Meso-33 cells,
+suggesting that the canonical Hippo pathway operates in these
+cells. However, expression of Merlin counteracted this process
+to a similar extent in control and Sav1-silenced cells (Figure S1J).
+As anticipated, silencing of DCAF1 and re-expression of Merlin
+failed to induce phosphorylation of YAP at S127 in cells depleted
+of Lats1 and 2 (Figures S1K and S1L). These ﬁndings indicate
+that the loss of Merlin and ensuing derepression of CRL4DCAF1
+activate YAP independently of decreased ﬂux through the core
+Hippo kinase cassette.
+
+Cancer Cell 26, 48–60, July 14, 2014 ª2014 Elsevier Inc. 49
+
+A
+
+DCAF1
+(WT)
+DCAF1
+(1417X)
+
+1
+
+1
+
+LisH WD40
+
+Merlin 
+binding
+motif
+
+1507
+
+1417
+
+-
+-
+-
+
+- +
+-
++  
+
+-
++-
++ +
+
+DCAF1 (WT)
+DCAF1 (1417X)
+HA-Merlin
+p-YAP
+YAP
+
+HA-DCAF1
+HA-Merlin
+
+Actin
+
+DCAF1
+3 4
+2
+
+1 
+
+B
+
+si-RNA
+
+Co.
+
+DCAF1
+p-YAP
+YAP
+CTGF
+Actin
+
+D
+
+120
+
+y
+t
+i
+v
+i
+t
+c
+A
+
+ 
+.
+c
+u
+L
+
+80
+
+40
+
+0
+
+p<0.001
+
+Co.
+
+sh-Co.
+sh-DCAF1
+
+DN-TEAD
+Merlin
+
+4 x GTIIC-Luc.
+
+Cancer Cell
+CRL4DCAF1 Promotes Oncogenesis by Inhibiting Lats
+
+sh-control                        sh-DCAF1
+
+C
+
+Z
+A
+T
+
+ 
+/
+ 
+
+P
+A
+Y
+
+I
+
+P
+A
+D
+
+/
+
+Z
+A
+T
+P
+A
+Y
++
+
+ 
+
+I
+
+P
+A
+D
+
+-
+-
+
+-
++
+
++ +
+-
++
+
+E
+
+si-MST1/2
+si-DCAF1
+p-YAP
+YAP
+DCAF1
+MST1
+MST2
+Actin
+
+F
+si-RNA:
+Merlin:
+p-YAP
+YAP
+Merlin
+MST1
+MST2
+Actin
+
+Co.   MST1/2   
+-
+
+- +
+
++
+
+G
+
+si-Sav1
+si-DCAF1
+
+-
+- + +
+- + - +
+
+H
+
+p-YAP
+
+YAP
+
+DCAF1
+
+Sav1
+
+Actin
+
+Co. Sav1
++
+
+-+
+
+-
+
+si-RNA
+Merlin
+p-YAP
+
+YAP
+
+Merlin
+
+Sav1
+
+Actin
+
+Figure 1. CRL4DCAF1 Controls YAP Activation and TEAD-Dependent Transcription in Merlin-Deﬁcient Cells
+(A) Schematics depicting wild-type (WT) and Merlin-resistant (1417X) DCAF1 (top). Meso-33 cells were transfected with HA-Merlin alone or in combination with
+HA-DCAF1 WT or 1417X and subjected to immunoblotting.
+(B) Meso-33 cells were transfected with the indicated small interfering RNAs (siRNA) and examined by immunoblotting. Co, control.
+(C) Nf2 mutant FC-1801 cells were transduced with the indicated short hairpin RNAs (shRNAs) and subjected to immunoﬂuorescent staining with anti-YAP/TAZ.
+Nuclei were stained with DAPI. Scale bar, 10 mm.
+(D) FC-1801 cells were transduced with either a control shRNA, a shRNA targeting DCAF1, Merlin, or dominant-negative (DN) TEAD2 followed by a TEAD reporter
+and subjected to a luciferase (Luc.) assay. Error bars show ± SEM.
+(E and G) Meso-33 cells were transfected with the indicated siRNAs and immunoblotted as indicated.
+(F and H) Meso-33 cells were transfected with the indicated siRNAs and then with an empty vector or Merlin and immunoblotted as indicated.
+See also Figure S1.
+
+Lats1 and Lats2 Are Potential Substrates of CRL4DCAF1
+Motivated by the above ﬁndings, we examined the hypothesis
+that CRL4DCAF1 inhibits Lats1 and 2 by promoting their
+ubiquitylation. FLAG-hemagglutinin (HA)-DCAF1 associated
+efﬁciently with endogenous Lats1 and 2 but not with MST1 or
+2 in human embryonic kidney 293T cells (HEK293T cells) (Fig-
+ures 2A and 2B; Figure S2A). Mutagenesis indicated that the
+C-terminal segment of DCAF1 interacts directly with the kinase
+domain of Lats1 (Figures S2B and S2C). Because we could not
+produce recombinant Lats2 in bacteria, we were unable to
+verify that the C-terminal segment of DCAF1 also interacts
+directly with the kinase domain of Lats2. However, the homol-
+ogy between the kinase domains of Lats1 and 2 suggests that
+this is the case. Because the C-terminal fragment of DCAF1
+contains the WD40 domain, which is involved in substrate
+recruitment (Angers et al., 2006; Jin et al., 2006), we hypothe-
+
+50 Cancer Cell 26, 48–60, July 14, 2014 ª2014 Elsevier Inc.
+
+sized that CRL4DCAF1 recruits Lats1 and 2 to direct
+ubiquitylation.
+
+their
+
+To examine whether Lats1 and 2 are ubiquitylated in vivo,
+HEK293T cells were transfected with His-ubiquitin and HA-
+tagged Lats1 or Lats2, treated with the proteasome inhibitor
+MG132, lysed in a guanidinium chloride-containing buffer, and
+subjected to pulldown with nickel beads. Anti-HA immunoblot-
+ting revealed that Lats1 is polyubiquitylated under
+these
+conditions (Figure 2C). Lower amounts of ubiquitylated Lats1
+were recovered in the absence of MG132 (W.L and F.G.G.,
+unpublished data),
+in consonance with the hypothesis that
+polyubiquitylation targets Lats1 for degradation through the pro-
+teasome. In contrast, Lats2 appeared to be oligoubiquitylated
+under the same experimental conditions (Figure 2D). Mass
+spectrometry indicated that Lats1 is modiﬁed by the addition
+of a single ubiquitin chain at K830 (Figure 2E; Table S1). K/R
+
+Cancer Cell
+CRL4DCAF1 Promotes Oncogenesis by Inhibiting Lats
+
+B
+
+D
+
+A
+
+C
+
+E
+
+A
+
+C
+
+D
+
+Figure 2. DCAF1 Interacts with Lats1/2, which Are Ubiquitylated
+In Vivo
+(A and B) 293T cells transfected with an empty vector or FLAG-HA-tagged (FH)
+DCAF1 were immunoprecipitated (IP) with anti-FLAG and immunoblotted as
+indicated.
+(C and D) Nickel precipitates and total lysates from 293T cells expressing
+HA-Lats1 or HA-Lats2 alone or in combination with His-ubiquitin (Ub) were
+immunoblotted with anti-HA. The asterisk points to a band that may corre-
+spond to Lats1/2 nonspeciﬁcally bound to nickel beads.
+(E) Summary of ubiquitylation sites identiﬁed on Lats1/2 by mass
+spectrometry.
+See also Figure S2 and Table S1.
+
+substitution of residue 830 did not reduce polyubiquitylation of
+Lats1 (Figure S2D), pointing to compensatory ubiquitylation of
+additional lysine residues (King et al., 1996). In contrast, Lats2
+was ubiquitylated at four sites (K383, K527, K633, and K968)
+(Figure 2E; Table S1). Simultaneous K/R substitutions at these
+residues did not reduce oligoubiquitylation of Lats2, again point-
+ing to compensatory ubiquitylation of additional lysine residues
+(Figure S2E).
+
+CRL4DCAF1 Promotes Proteasomal Degradation of Lats1
+To examine whether CRL4DCAF1 promotes polyubiquitylation of
+Lats1, we performed in vivo ubiquitylation experiments. Expres-
+sion of DCAF1 led to a large increase in polyubiquitylation of
+Lats1 in Meso-33 cells, and simultaneous expression of Merlin
+reversed this effect (Figure 3A). Moreover, although treatment
+with MG132 increased the level of polyubiquitylation of Lats1
+in control HEK293T cells, it failed to produce this effect in
+DCAF1-depleted cells, indicating that CRL4DCAF1 is required
+for efﬁcient polyubiquitylation of Lats1 (Figure S3A). To directly
+test whether CRL4DCAF1 mediates ubiquitylation of Lats1, we
+assembled recombinant CRL4DCAF1 in vitro and tested its ability
+
+B
+
++              -             +        +
+Ub
+-     +         +         +
+DDB1
+DCAF1 +     -         -             + 
+-   +          +         +
+Lats1
+
+Ub-Lats1
+
+DCAF1
+DDB1
+Cul4A
+
+*
+
+Ni2+ 
+Prep.
+
+Input
+
+si-Control           si-DCAF1 #1        si-DCAF1  #2
+
+0    4    8   16   24   
+
+0    4    8   16   24    0    4    8   16   24   
+
+Myc-DCAF1
+HA-Lats1
+Myc-Merlin
+
++          -   +   +
+ -         +       +   +
+-             -       -        +
+
+(Ub)n-Lats1
+
+HA-Lats1
+DCAF1
+Myc-Merlin
+Actin
+
+CHX (hrs):
+DCAF1
+Lats1
+Actin
+
+1.5
+
+1.0
+
+0.5
+
+i
+
+n
+e
+t
+o
+r
+P
+ 
+1
+s
+t
+a
+L
+
+0
+
+0
+
+E
+
+-   +     +       +      +
+
+HA-Merlin    -    -
+FH-DCAF1
+HA-DCAF1
+Lats1
+
+si-Control
+si-DCAF1 #1
+si-DCAF1 #2
+
+p<0.05
+
+10
+
+20
+
+30
+
+CHX Chase (hrs)
+
+Lats1
+HA-DCAF1
+HA-Merlin
+
+Actin
+
+IP:
+Flag
+
+Input
+
+F
+
+DCAF1
+
+WD40
+
+Merlin
+
+kinase
+
+Lats
+
+DCAF1
+
+Lats
+
+WD40
+kinase
+
+Ub(n)
+
+Merlin-inhibited CRL4DCAF1
+
+De-repressed CRL4DCAF1
+
+Active Lats1
+
+Ubiquitylated Lats1
+
+Figure 3. CRL4DCAF1 Ubiquitylates and Inhibits Lats
+(A) Meso-33 cells were transfected with His-ubiquitin and the indicated re-
+combinant proteins. Ubiquitylated proteins were nickel-puriﬁed (Ni2+ Prep.) and
+immunoblotted with anti-HA. Total lysates were immunoblotted as indicated.
+(B) CRL4DCAF1 was reconstituted in vitro using puriﬁed recombinant Cul4A/
+Rbx1, DDB1, and DCAF1 and incubated with recombinant FH-Lats1 as indi-
+cated. Reaction mixtures were immunoblotted as indicated. The arrow points
+to a band that corresponds to ubiquitylated Lats1. The asterisk indicates a
+band that corresponds to puriﬁed Lats1.
+(C) Meso-33 cells were transfected with the indicated siRNAs and subjected to a
+cycloheximide (CHX) chase assay. Lysates were immunoblotted as indicated.
+(D) The results in (C) and an additional replicate experiment were quantiﬁed by
+densitometry. Error bars show ± SEM.
+(E) 293T cells expressing FH-DCAF1 in combination with increasing quantities
+of HA-Merlin were immunoprecipitated with anti-FLAG and immunoblotted
+as indicated.
+(F) Diagram illustrating a model based on the deﬁnition of the sequence re-
+quirements for binding of DCAF1 to Lats and of Merlin to DCAF1. The WD40
+domain of DCAF1, which is implicated in substrate selection, binds directly to
+the kinase domain of Lats (right). Merlin binds through its FERM domain to the C-
+terminal segment of DCAF1, disrupting the association of DCAF1 with Lats (left).
+See also Figure S3.
+
+Cancer Cell 26, 48–60, July 14, 2014 ª2014 Elsevier Inc. 51
+
+Cancer Cell
+CRL4DCAF1 Promotes Oncogenesis by Inhibiting Lats
+
+p-YAP) revealed that deubiquitylated Lats2 possesses a greatly
+increased ability to phosphorylate GST-YAP at S127 compared
+with total Lats2 (Figure S3H, top). Immunoblotting conﬁrmed
+that treatment with USP8 drastically diminishes the total levels
+of ubiquitylation of endogenous proteins (Figure S3H, bottom).
+Taken together,
+these ﬁndings indicate that ubiquitylation
+profoundly inhibits the kinase activity of Lats2.
+
+Merlin Inhibits the Interaction between CRL4DCAF1 and
+Lats1
+Prior studies have indicated that Merlin inhibits CRL4DCAF1 by
+binding through its 4.1 protein, Ezrin, Radixin, and Moesin
+(FERM) domain to the C-terminal segment of DCAF1. Intrigu-
+ingly, patient-derived mutants of Merlin lacking the coiled-coil
+and C-terminal segments bind to DCAF1 but fail to suppress
+CRL4DCAF1, suggesting that these latter segments are also
+required for the inhibition of ligase activity (Li et al., 2010). To
+test whether Merlin inhibits CRL4DCAF1 by interfering with sub-
+strate recruitment, we examined whether expression of Merlin
+interferes with the association of FLAG-HA-DCAF1 with endog-
+enous Lats1 in HEK293T cells. Notably, cotransfection of
+increasing concentrations of HA-Merlin led to a dose-dependent
+reduction of the association of FLAG-HA-DCAF1 with Lats1 (Fig-
+ure 3E). These results suggest that the coiled-coil and C-terminal
+segments of Merlin may occlude the binding site for Lats on the
+WD40 domain of DCAF1 (Figure 3F).
+
+Nuclear Merlin Promotes Phosphorylation of YAP
+Because CRL4DCAF1 accumulates predominantly in the nucleus
+(Li et al., 2010), we examined whether Merlin needs to enter this
+compartment to inactivate YAP and induce proliferation arrest.
+First we generated a fusion protein consisting of an N-terminal
+ERT2 domain joined by a short linker to full-length Merlin or, as
+a control, to dsRed (Figure S4A). The ERT2 domain drives
+passenger proteins to the nucleus in response to tamoxifen
+binding (Feil et al., 1997). As anticipated, treatment with tamox-
+ifen induced accumulation of ERT2-Merlin and ERT2-DsRed in
+the nucleus (Figure S4B). Intriguingly, nuclear accumulation of
+Merlin, but not DsRed, induced phosphorylation of YAP and
+inhibited the proliferation of Meso-33 cells (Figures S4C and
+S4D). These results indicate that nuclear accumulation of
+Merlin is sufﬁcient to induce phosphorylation of YAP and to
+inhibit proliferation.
+
+To examine whether nuclear
+
+translocation of Merlin is
+required to induce proliferation arrest, we used mutational anal-
+ysis. Analysis of a series of deletion mutants revealed a poten-
+tial nuclear localization motif at position 24–27 (VRIV). Although
+alanine permutation of each residue or combinations of two or
+three residues within this motif partially inhibited nuclear accu-
+mulation of Merlin, a simultaneous alanine substitution of all
+four
+residues (24–27A) blocked this process completely
+(Figures 4A and 4B). A mutant form of Merlin lacking the
+VRIV sequence (D24–27) did not accumulate in the nucleus,
+even when Crm1-dependent nuclear export was blocked with
+leptomycin B, conﬁrming that this motif acts as a noncanonical
+nuclear localization sequence (Figure 4C). Functional analysis
+re-expression of Merlin D24–27 or Merlin
+revealed that
+24–27A does not induce phosphorylation of YAP or inhibit
+cell proliferation and soft agar growth in Meso-33 cells
+
+to ubiquitylate puriﬁed Lats1. We found that reconstituted CRL4
+E3 ligase ubiquitylates Lats1 in vitro (Figure 3B). However,
+because we did not detect a robust extension of ubiquitin chains
+under the conditions of the assay, we infer that additional factors
+may be required for chain elongation in vivo.
+
+It is well established that polyubiquitylation serves as a signal
+to target proteins for proteasome-mediated degradation.
+Because we had noticed that re-expression of Merlin and
+silencing of DCAF1 increase the steady-state levels of Lats1 in
+NF2-mutant cells (Figures S1H and S1I), we examined whether
+expression of DCAF1 causes the opposite effect. Stable expres-
+sion of moderate levels of DCAF1 decreased the steady state
+levels of Lats1 in FC-1801 cells (Figure S3B). Furthermore, cyclo-
+heximide chase experiments demonstrated that silencing of
+DCAF1 prolongs the half-life of Lats1 in Meso-33 cells by more
+than 2-fold, indicating that CRL4DCAF1 promotes degradation
+of Lats1 (Figures 3C and 3D).
+
+Because K830 lies within the kinase domain, polyubiquityla-
+tion of Lats1 may inhibit kinase activity by interfering with binding
+of ATP or recruitment of substrates. In addition, Lats1 and 2
+contain an N-terminal ubiquitin-binding domain (UBA), which
+could bind in cis or in trans to one or more C-terminal ubiquity-
+lated sequences, inducing conformational changes that interfere
+with kinase activity (Figure 2E). To examine whether polyubiqui-
+tylation inhibits the activity of Lats1, we expressed HA-Lats1
+and His-ubiquitin in HEK293T cells and isolated total and His-
+ubiquitylated Lats1 by sequential afﬁnity binding and elution
+(Figure S3C, top). An in vitro kinase assay indicated that ubiqui-
+tylated Lats1 possesses a severely diminished ability to phos-
+phorylate glutathione S-transferase (GST)-YAP at S127 as
+compared to total Lats1 (Figure S3C, bottom). These results
+suggest that polyubiquitylation inhibits Lats1 by blocking its
+kinase activity and promoting its degradation.
+
+CRL4DCAF1 Inhibits the Kinase Activity of Lats2
+To investigate whether CRL4DCAF1 promotes ubiquitylation of
+Lats2, we performed in vivo ubiquitylation experiments. Ectopic
+expression of DCAF1 increased oligoubiquitylation of Lats2 to a
+large extent, and simultaneous expression of Merlin reversed
+this process (Figure S3D). Conversely, depletion of DCAF1 sup-
+pressed oligoubiquitylation of Lats2 (Figure S3E). In addition, we
+tested the ability of in vitro-assembled CRL4DCAF1 to promote
+ubiquitylation of recombinant Lats2. The results indicated that
+CRL4DCAF1 can ubiquitylate Lats2 in vitro (Figure S3F). Collec-
+tively, these results suggest that CRL4DCAF1 mediates oligoubi-
+quitylation of Lats2.
+
+In agreement with the model that mono- and oligoubiquityla-
+tion modify protein function without affecting protein stability
+(Chen and Sun, 2009), silencing of DCAF1 did not increase the
+steady-state levels of Lats2 (Figure S3G). Interestingly, Lats2 is
+ubiquitylated at K968 within the kinase domain, at K633 near
+the binding site for the coactivator Mob1/Mats, and at K527
+near the PPXY motif involved in binding to YAP, suggesting
+that oligoubiquitylated Lats2 may exhibit a reduced ability to
+phosphorylate YAP/TAZ in vivo. To examine this hypothesis,
+we performed in-lysate kinase assays. Lysates from cells
+overexpressing HA-Lats2 were treated with the broad-speciﬁcity
+deubiquitylase USP8 or vehicle control and incubated with
+GST-YAP. Immunoblotting with anti-phosphorylated YAP (anti-
+
+52 Cancer Cell 26, 48–60, July 14, 2014 ª2014 Elsevier Inc.
+
+Cancer Cell
+CRL4DCAF1 Promotes Oncogenesis by Inhibiting Lats
+
+A
+
+C
+
+D
+
+WT       L64P     ∆24-27   24-27A
+CM   N   CM   N    CM   N   CM    N  
+
+Cytoplasm Nucleus
+
+WT(1-595)
+Δ1-38
+Δ1-27
+Δ1-18
+Δ15-20
+Δ19-27
+Δ21-23
+Δ24-27
+24-27>A
+
++
++
++
++
++
++
++
++
++
+
++
+-
+-
++
++
+-
++
+-
+-
+
+B
+
+Merlin
+
+Int. β1
+Rho-GDI
+Hist. H3
+
+Merlin-WT                                      Merlin  ∆24-27  
+
+ Control            Leptomycin B           Control           Leptomycin B
+
+n
+
+i
+l
+r
+e
+M
+A
+H
+
+-
+
+I
+
+P
+A
+D
+
+ 
+/
+
+ 
+r
+e
+M
+
+p-YAP
+YAP
+Merlin
+Actin
+
+r
+o
+t
+c
+e
+V
+
+T
+W
+
+7
+2
+P
+-
+4
+4
+2
+6
+L∆
+
+A
+7
+2
+-
+4
+2
+
+E
+
+)
+
+%
+
+(
+ 
+s
+
+l
+l
+
+ 
+
+e
+C
++
+U
+d
+r
+B
+
+100
+
+75
+
+50
+
+25
+
+0
+
+F
+s150
+
+l
+l
+
+N.S.
+
+e
+c
+ 
+
+1
+0
+0
+
+.
+
+0
+<
+p
+
+T
+W
+
+r
+o
+
+t
+c
+e
+V
+
+P
+4
+6
+L
+
+7
+2
+-
+4
+2
+Δ
+
+A
+7
+2
+-
+4
+2
+
+0
+0
+0
+2
+
+i
+
+ 
+/
+ 
+s
+e
+n
+o
+o
+C
+
+l
+
+100
+
+p<0.01
+
+50
+
+0
+
+1
+0
+0
+
+.
+
+0
+<
+p
+
+T
+W
+
+P
+4
+6
+L
+
+r
+o
+
+t
+c
+e
+V
+
+7
+2
+-
+4
+2
+Δ
+
+A
+7
+2
+-
+4
+2
+
+Figure 4. Nuclear Merlin Promotes YAP Phosphorylation and In-
+hibits Proliferation
+(A) Summary of biochemical subcellular fractionation experiments. Cyto-
+plasmic/membrane and soluble nuclear fractions from Meso-33 cells ex-
+pressing Merlin or indicated mutants were immunoblotted for Merlin.
+(B) Subcellular fractions from Meso-33 cells expressing wild-type Merlin or the
+indicated mutants were immunoblotted as indicated. CM, cytoplasmic/
+membrane fraction; N, nuclear fraction; Int. b1, integrin b1.
+(C) Meso-33 cells expressing wild-type Merlin (Mer) or Merlin D24–27 were
+treated or not treated with leptomycin B to block nuclear export. Fixed cells
+were immunostained as indicated. Scale bar, 20 mm.
+(D and E) Meso-33 cells expressing Merlin or its mutants were subjected to
+immunoblotting as indicated (D) or to a bromodeoxyuridine (BrdU) assay (E).
+N.S., not signiﬁcant.
+(F) FC-1801 cells transduced with wild-type Merlin or its mutants were sub-
+jected to a soft agar assay. Error bars show ± SEM.
+See also Figure S4.
+
+(Figures 4D–4F; Fig. S4E). These deﬁciencies do not arise from
+defective folding because these mutations are within the short
+and ﬂexible N-terminal extension that distinguishes Merlin from
+Ezrin, Radixin, and Moesin proteins. Furthermore, both Merlin
+D24–27 and Merlin 24–27A associated efﬁciently with Angio-
+motin (Figure S4F), a recently identiﬁed Merlin-binding protein
+primarily localized at tight junctions (Yi et al., 2011). In fact,
+possibly resulting from their increased accumulation in the
+cytoplasm, these Merlin mutants combined with Angiomotin
+to a larger extent compared with wild-type Merlin (Figure S4F).
+These results indicate that Merlin needs to translocate into the
+nucleus to inactivate YAP and to suppress cell proliferation,
+suggesting that the two events are linked.
+
+CRL4DCAF1 Inhibits Lats in the Nucleus
+Based on immunoﬂuorescence experiments on cells overex-
+pressing tagged constructs or subcellular fractionation experi-
+ments excluding the nuclear fraction, it has been proposed
+that Lats1 and 2 execute their function at the cell cortex or in
+the cytosol (Toji et al., 2004; Yang et al., 2004; Yin et al., 2013).
+Because derepressed CRL4DCAF1 exerts its pro-oncogenic
+function in the nucleus (Li et al., 2010), we considered the possi-
+bility that its substrates Lats1 and 2 localize in this compartment.
+Subcellular fractionation experiments indicated that endoge-
+nous Lats1 and 2 accumulate in the nuclear fraction, whereas
+MST1 and Sav1 partition preferentially in the nonnuclear fraction
+in normal mesothelial Met-5A cells (Figure 5A). In fact, similar
+proportions of all of these signaling components were found in
+the nonnuclear and the nuclear
+fraction under sparse or
+conﬂuent conditions (Figure 5A). Thus, although all of these com-
+ponents may shuttle in and out of the nucleus, MST1 and Sav1
+are present predominantly in the nonnuclear fraction and Lats1
+and 2 in the nuclear fraction at a steady state. Immunoﬂuores-
+cent staining with a rabbit monoclonal antibody against Lats1
+conﬁrmed that Lats1 accumulates in the nucleus in the large ma-
+jority of Met-5A cells. Intriguingly, however, it also detected a
+fraction of the kinase at or near cell-to-cell junctions (Figure 5B).
+In agreement with the observation that Meso-33 cells do not
+express E-cadherin nor assemble adherens junctions, we did
+not detect endogenous Lats1 at cell junctions or at the cell cortex
+in these cells (Figure 5C), suggesting that deregulated
+CRL4DCAF1 does not target Lats1 at the cell cortex in NF2-mutant
+cells.
+
+In the core Hippo kinase cassette, MST1 and 2 activate Lats1
+by phosphorylating T1079. Activated Lats1 then undergoes
+autophosphorylation at S909 (Chan et al., 2005). Immunoblotting
+indicated that Lats1 becomes activated as YAP is phosphory-
+lated and partially extruded from the nucleus in contact-inhibited
+Met-5A cells, conﬁrming the speciﬁcity of these antibodies (Fig-
+ures S5A and S5B). Notably, subcellular fractionation revealed
+that phosphorylated, active Lats1 accumulates almost exclu-
+sively in the nucleus in these cells (Figure 5D). Similar results
+were obtained with human liver epithelial HepG2 cells
+(Figure S5C) and primary mouse fetal liver progenitor cells (Fig-
+ure S5D). These observations raise the possibility that MST or
+another upstream kinase moves into the nucleus to activate
+Lats. Irrespective of the mechanism involved, the predominant
+accumulation of CRL4DCAF1 and activated Lats in the nucleus
+is consistent with the hypothesis that CRL4DCAF1 binds to Lats
+and inhibits it in the nucleus.
+
+Merlin Does Not Suppress Tumorigenesis from the Cell
+Cortex
+Having noted that Lats1 partially localizes to the cell cortex in
+normal but not NF2-mutant cells (Figures 5B and 5C), we asked
+whether
+re-expression of Merlin modiﬁes the subcellular
+localization of Lats1 in NF2-mutant cells. Upon transient trans-
+fection and ensuing overexpression, wild-type Merlin localized
+predominantly at lamellipodia and membrane rufﬂes in Meso-
+33 cells, presumably as a consequence of saturation of the
+nuclear import machinery, and it enhanced the recruitment of
+endogenous Lats1 to these locales (Figure S5E). Overexpression
+experiments indicated that HA-tagged Lats1 combines with
+
+Cancer Cell 26, 48–60, July 14, 2014 ª2014 Elsevier Inc. 53
+
+A
+
+F
+
+B
+
+D
+
+C
+
+E
+
+G
+
+Cancer Cell
+CRL4DCAF1 Promotes Oncogenesis by Inhibiting Lats
+
+Figure 5. CRL4DCAF1 Inhibits Lats in the
+Nucleus
+(A) Total lysates, cytosolic and crude membrane
+fractions (CM), and nuclear fractions (N)
+from
+sparse (Sp) or conﬂuent (Con) Met-5A cells were
+immunoblotted as indicated.
+(B and C) Sparse Met-5A cells and Meso-33 cells
+were stained with an anti-Lats1 antibody and
+DAPI. Scale bar, 20 mm.
+(D) Endogenous Lats1 was immunoprecipitated
+with an anti-Lats1 antibody from cytosolic and
+crude membrane fractions and nuclear fractions
+from sparse or conﬂuent Met5-A cells and
+immunoblotted as indicated.
+(E) HEK293T cells were transfected with empty
+vector (HA Ctrl) or FLAG-HA-tagged Merlin (wild
+type or its mutants) and were lysed 24 hr later in
+RIPA buffer without SDS. FLAG immunoprecipi-
+tates were washed using RIPA buffer without SDS.
+FLAG immunoprecipitates and input were im-
+munoblotted as indicated. Ctrl, control.
+(F) Fold enrichment of immunoprecipitated DCAF1
+and Lats1 was estimated by densitometry of blots
+in (E), where enrichment is expressed as the total
+density of the immunoprecipitated bands normal-
+ized to their respective inputs.
+(G) Meso-33 cells expressing Merlin or its mutants
+were subjected to immunoblotting as indicated.
+See also Figure S5.
+
+FLAG-HA-tagged Merlin in HEK293T cells (Figure S5F), in agree-
+ment with the recently proposed hypothesis that Merlin recruits
+Lats to the plasma membrane to promote its activation (Yin
+et al., 2013). Mutagenesis experiments indicated that the kinase
+domain of Lats1 interacts with the C-terminal coiled-coil
+segment of Merlin (Merlin 341–595) but not with its FERM domain
+(Merlin 341X) (Figures S5F and S5G). Together with the results of
+a recently published mutational analysis (Yin et al., 2013), these
+results suggest that Merlin can recruit Lats at the plasma mem-
+brane by binding through the N-terminal segment of its coiled-
+coil domain to the kinase domain of Lats.
+
+fail
+
+To investigate the functional relevance of the interaction of
+Merlin with Lats1, we tested four patient-derived missense mu-
+tants that
+to accumulate in the nucleus (L46R, L64P,
+L141P, and A211D) and one that enters into the nucleus but
+does not bind to DCAF1 (E270G) (Li et al., 2010). In addition,
+we examined the two synthetic nuclear-defective mutants,
+Merlin 24–27A and Merlin D24–27 (Figures 4A–4C). Coimmuno-
+precipitation analysis indicated that
+recombinant wild-type
+Merlin combines with endogenous Lats1 much less efﬁciently
+than with CRL4DCAF1 in an extraction buffer containing 0.5%
+Triton X-100 but no ionic detergent (Figures 5E and 5F). In addi-
+tion, although all nuclear-defective and patient-derived mutants
+of Merlin failed to associate with DCAF1 in this assay, none of
+them exhibited a reduced ability to interact with Lats1 (Figures
+5E and 5F). Similar results were obtained by using radio-immu-
+noprecipitation assay (RIPA) buffer containing 0.1% SDS (Fig-
+ure S5H), although we note that this buffer may unfold the
+FERM domain of Merlin, exposing hydrophobic segments
+(Mani et al., 2011). In agreement with these results, none of the
+
+54 Cancer Cell 26, 48–60, July 14, 2014 ª2014 Elsevier Inc.
+
+patient-derived mutants exhibited a reduced ability to recruit
+Lats1 to lamellipodia and membrane rufﬂes upon transient over-
+expression in Meso-33 cells (Figure S5E). In contrast, they all
+failed to induce phosphorylation of YAP at S127 (Figure 5G).
+These ﬁndings support the conclusion that Merlin suppresses
+tumorigenesis by inhibiting CRL4DCAF1 and, hence, stabilizing
+activated Lats in the nucleus rather than by recruiting Lats to
+the plasma membrane.
+
+CRL4DCAF1 Promotes Tumorigenesis by Inhibiting Lats
+To examine whether CRL4DCAF1 promotes oncogenesis by
+activating YAP, we conducted genetic epistasis experiments.
+As anticipated (Li et al., 2010), depletion of DCAF1 caused a
+profound proliferation arrest
+in Meso-33 cells (Figure 6A).
+Notably, expression of wild-type YAP and of YAP-5SA, which
+cannot be inactivated by Lats1/2 (Zhao et al., 2010b), rescued
+the DCAF1-silenced tumor cells from proliferation arrest in a
+manner proportional to their anticipated biological activity (Fig-
+ure 6A). In addition, YAP-5SA enabled the DCAF1-silenced
+FC-1801 cells to grow in soft agar and to form tumors upon sub-
+cutaneous injection in nude mice (Figures 6B and 6C).
+
+Next, we tested whether simultaneous depletion of Lats1 and
+2 rescues the tumorigenic potential of DCAF1-silenced NF2-mu-
+tant cells. Simultaneous silencing of Lats1 and 2 largely reversed
+the proliferation arrest induced by depletion of DCAF1 in Meso-
+33 cells (Figure 6D). In support of the speciﬁcity of this effect,
+silencing of Lats1/2 did not enhance the ability of DCAF1-com-
+petent cells to proliferate in this assay (Figure 6D). Furthermore,
+silencing of Lats1/2 enabled DCAF1-depleted Meso-33 cells
+to grow in soft agar as efﬁciently as those expressing DCAF1
+
+Cancer Cell
+CRL4DCAF1 Promotes Oncogenesis by Inhibiting Lats
+
+%
+ 
+s
+
+l
+l
+
+e
+C
+ 
++
+U
+d
+r
+B
+
+100
+75
+50
+25
+0
+
+A
+
+C
+
+B
+
+x
+e
+d
+n
+
+I
+ 
+y
+n
+o
+o
+C
+
+l
+
+150
+
+100
+
+50
+
+0
+
+p< 0.001
+p< 0.001
+p< 0.01
+
+si-Co.   si-DCAF1
+
+GFP
+
+YAP
+
+5SA
+
+p< 0.05
+
+Vector YAP-5SA
+
+sh-Co.
+
+sh-DCAF1#3
+sh-DCAF1#4
+
+e
+m
+u
+o
+V
+
+l
+
+ 
+r
+o
+m
+u
+T
+
+)
+3
+
+m
+m
+
+ 
+3
+0
+1
+x
+(
+
+0.4
+
+0.2
+
+0
+
+sh-Co.
+sh- #3
+sh- #4
+
++Vector
+
+0.4
+
+0.2
+
+1
+0
+0
+
+.
+
+0
+<
+p
+
+sh-Co.
+sh- #3
+sh- #4
+
++ YAP
+-5SA
+
+10        20           30          40
+
+Days after Injection
+
+0
+10           20           30          40
+
+Days after Injection
+
+sh-Co.
+sh-Lats1/2
+
+***
+
+***
+
+***
+
+sh-RNA:   Co.    #5     #6
+DCAF1
+
+E
+
+120
+
+l
+l
+
+e
+W
+
+80
+
+sh-Co.
+sh-Lats1/2
+*
+
+i
+
+l
+
+*
+
+*
+
+40
+
+ 
+/
+ 
+s
+e
+n
+o
+o
+C
+sh-RNA:   Co.   #5     #6
+DCAF1
+
+0
+
+D
+
+%
+ 
+s
+
+l
+l
+
+e
+C
+ 
++
+U
+d
+r
+B
+
+100
+80
+60
+40
+20
+0
+
+F
+
+.
+
+o
+C
+-
+h
+s
+
+1
+F
+A
+C
+D
+-
+h
+s
+
+5
+#
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+6
+#
+
+G
+sh-Co.  sh-Lats1/2         
+
+e
+m
+u
+o
+V
+
+l
+
+)
+3
+
+m
+m
+
+ 
+3
+0
+1
+x
+(
+
+ 
+r
+o
+m
+u
+T
+
+sh-Co.
+sh-DCAF1
+
+1.5
+
+1.0
+
+0.5
+
+***
+
+s
+h
+-
+C
+o
+
+.
+
+0
+20        30       40  days
+
+1.5
+
+e
+m
+u
+o
+V
+
+l
+
+)
+3
+
+m
+m
+
+1.0
+
+0.5
+
+ 
+3
+0
+1
+x
+(
+
+ 
+r
+o
+m
+u
+0T
+
+s
+h
+-
+L
+a
+
+t
+s
+1
+&
+2
+
+20        30       40  days
+Days after Injection
+
+Figure 6. CRL4DCAF1-Mediated Inhibition of Lats and Deregulated
+YAP Signaling Sustain the Oncogenic Properties of Merlin-Deﬁcient
+Tumor Cells
+(A) Meso-33 cells expressing GFP, YAP, or YAP-5SA were transfected with a
+SMARTpool control siRNA (si-Co.) or one targeting DCAF1 and subjected to a
+BrdU incorporation assay.
+(B) FC-1801 cells expressing empty vector or YAP-5SA were transduced with
+the indicated shRNAs and subjected to a soft agar assay. The graph illustrates
+the results (± SEM) normalized to the relative control in the vector or YAP-5SA
+group.
+(C) FC-1801 cells treated as in (B) were injected subcutaneously into nude
+mice.
+(D) Meso-33 cells transduced with a control shRNA or shRNAs targeting Lats1/
+2 were transduced with a control shRNA or two different shRNAs targeting
+DCAF1 and subjected to a BrdU incorporation assay. ***p < 0.001.
+(E) Meso-33 cells treated as in (D) were subjected to a soft agar assay.
+*p < 0.001.
+(F) Typical cell colonies in individual culture wells in the 24-well plate are
+shown.
+
+(Figures 6E and 6F). Similar results were obtained with FC-1801
+cells (Figure S6A).
+
+Finally, we examined whether silencing of Lats1/2 rescues the
+tumorigenic ability of DCAF1-depleted FC-1801 cells. Intrigu-
+ingly, silencing of Lats1/2 rescued the ability of DCAF1-depleted
+schwannoma cells to form tumors to a very large extent (Fig-
+ure 6G; Figure S6B). We consider this effect speciﬁc because
+silencing of Lats1/2 alone did not increase tumor growth (Fig-
+ures 6G; Figure S6B). Taken together, these ﬁndings indicate
+that derepression of CRL4DCAF1 promotes tumorigenesis
+of NF2-mutant cells by inactivating Lats1/2 and, hence, acti-
+vating YAP.
+
+CRL4DCAF1 Promotes YAP-Dependent Oncogenic Gene
+Expression in NF2 Mutant Tumors
+To explore the clinical relevance of the signaling mechanism we
+had identiﬁed, we ﬁrst examined a panel of 11 human malignant
+mesothelioma cell lines carrying or not inactivating mutations at
+the NF2 locus. Immunoblotting revealed that the NF2-mutant
+lines exhibited severely diminished levels of Lats1 but not
+Lats2 compared with NF2 wild-type lines (Figure 7A; Figure S7A).
+In addition, all except one of the NF2-mutant cell lines displayed
+decreased phosphorylation of YAP, and four of seven lines
+displayed increased expression of the YAP target gene CTGF
+(Figure 7A; Figure S7A). These results are consistent with the
+conclusion that CRL4DCAF1 promotes the activation of YAP in
+mesothelioma, at least in part, by increasing degradation of
+Lats1.
+
+To examine whether loss of NF2 induces YAP-dependent
+oncogenic gene expression in clinical samples, we generated a
+gene expression signature reﬂective of CRL4DCAF1-dependent
+YAP activity. Because only simultaneous depletion of YAP and
+TAZ induced Meso-33 cells to undergo a proliferation arrest as
+profound as that induced by depletion of DCAF1 (Figure 7B; Fig-
+ure S7B), we used a DNA microarray analysis to compare the
+effect of inactivation of CRL4DCAF1 and simultaneous inactivation
+of YAP and TAZ on gene expression. Although depletion of YAP
+or TAZ did not lead to profound changes in gene expression in
+Meso-33 cells, simultaneous depletion of both coactivators
+caused a signiﬁcant decline in gene expression, conﬁrming
+that YAP and TAZ function redundantly to control gene expres-
+sion in mesothelioma cells (Figure 7C). Notably, silencing of
+DCAF1 suppressed the expression of a large fraction of YAP/
+TAZ target genes (39%) (Figures 7C and 7D; Figure S7C; Table
+S2). An ingenuity pathway analysis indicated that these genes
+comprise a large number of cell cycle genes controlled by the
+RB-E2F network (Figure S7D; Tables S3 and S4). In addition,
+silencing of DCAF1 enhanced the expression of a somewhat
+smaller fraction of the genes repressed by YAP/TAZ (8%),
+including some transforming growth factor b target genes (Fig-
+ures 7C and 7D; Figure S7D; Tables S3 and S5). These results
+indicate that CRL4DCAF1 controls a large fraction of the transcrip-
+tional output of YAP in NF2-mutant cells.
+
+(G) FC-1801 cells transduced with a control shRNA (top) or shRNAs targeting
+Lats1/2 (bottom) were subsequently transduced with a control shRNA or a
+shRNA targeting DCAF1 and were injected subcutaneously into nude mice.
+Error bars show ± SEM. ***p < 0.001.
+See also Figure S6.
+
+Cancer Cell 26, 48–60, July 14, 2014 ª2014 Elsevier Inc. 55
+
+Cancer Cell
+CRL4DCAF1 Promotes Oncogenesis by Inhibiting Lats
+
+A
+
+Merlin-WT
+
+Merlin-Mutant
+
+B
+
+100
+
+2
+5
+4
+2
+H
+
+H
+1
+1
+2
+
+o
+s
+e
+M
+H
+
+-
+
+8
+2
+H
+
+0
+1
+-
+o
+s
+e
+M
+
+3
+3
+-
+o
+s
+e
+M
+
+7
+3
+-
+o
+s
+e
+M
+
+9
+-
+o
+s
+e
+M
+
+N
+M
+J
+
+T
+M
+A
+V
+
+2
+5
+0
+2
+H
+
+%
+ 
+s
+
+l
+l
+
+e
+C
+
+ 
++
+
+U
+d
+r
+B
+
+75
+
+50
+
+25
+
+0
+
+si-RNA:
+
+.
+
+o
+C
+
+P
+A
+Y
+
+Z
+A
+T
+
+Merlin
+Lats1
+Lats2
+YAP
+P-YAP
+
+CTGF
+
+RhoGDI
+
+E
+
+ 
+t
+
+e
+r
+o
+c
+S
+
+0.8
+0.6
+0.4
+0.2
+0
+-0.2E
+
+n
+e
+m
+h
+c
+i
+r
+n
+
+1
+0
+0
+
+.
+
+0
+<
+p
+
+n=44
+n=141
+n=63
+
+C
+
+D
+
+1.9
+
+-1.9
+
+189 142 226
+
+115 40 435
+
+1
+0
+0
+
+.
+
+ 
+
+0
+<
+p
+
+1
+0
+0
+
+.
+
+ 
+
+0
+<
+p
+
+si-RNA:   Co.            DCAF1
+
+    YAP
+ + TAZ
+
+si-RNA:  DCAF1 YAP/TAZ
+
++
+-
+-
+-
+
+-
++
+-
+-
+
+-
+-
++
+-
+
+-
+-
+-
++
+
+F
+
+GFP
+Merlin
+sh-Co.
+sh-DCAF1
+p-YAP
+YAP
+Merlin
+DCAF1
+GAPDH
+
+G
+
+.
+
+) 1.5
+U
+A
+
+.
+
+l
+
+(
+ 
+s
+e
+v
+e
+L
+P
+A
+Y
+-
+p
+
+ 
+
+1.0
+
+0.5
+
+0
+
+**n=40
+
+NF2
+
+deficient
+
+NF2
+WT
+
+H
+
+ 
+
+T
+W
+2
+F
+N
+
+ 
+ 
+ 
+ 
+ 
+t
+
+n
+e
+c
+i
+f
+
+i
+
+e
+d
+-
+2
+F
+N
+
+p< 0.001
+
+/
+
+Z
+A
+T
+P
+A
+Y
+
+1
+F
+A
+C
+D
+
+coregulated
+si-DCAF1
+
+si-Yap/Taz
+
+0      2.5     5.0    7.5     10    12.5
+
+Gene Rank (X1000)
+
+3.6                   0                      -4.2
+NF2-
+NF2+
+
+Ranking Metric Score
+
+YAP/ H
+
+p-YAP/ H
+
+Figure 7. CRL4DCAF1 Controls YAP/TAZ-
+Dependent Gene Expression in NF2 Mutant
+Tumors
+(A) A panel of human mesothelioma cell
+lines,
+including Merlin WT and Merlin mutant, were
+cultured under the same conditions. Lysates were
+immunoblotted as indicated.
+(B) Meso-33 cells transfected with the indicated
+SMARTpool siRNAs were subjected to a BrdU
+incorporation assay.
+(C) Meso-33 cells transfected with the indicated
+SMARTpool siRNAs were subjected to DNA mi-
+croarray analysis and unsupervised hierarchical
+clustering.
+(D) Venn diagram analysis of the genes down-
+regulated or upregulated following depletion of
+DCAF1 or both YAP and TAZ. P values were
+obtained by Fisher’s exact test.
+(E) Genes whose expression depend on DCAF1
+(orange), on both DCAF1 and YAP/TAZ (green), or
+on YAP/TAZ alone (blue) were subjected to GSEA
+in the gene expression proﬁles of human malignant
+mesothelioma classiﬁed by NF2 mutation status
+(NF2-, mutant; NF2+, wild-type).
+(F) Merlin-deﬁcient primary human schwannoma
+cells were transduced with a vector encoding GFP,
+Merlin, and control or DCAF1 shRNAs and sub-
+jected to immunoblotting.
+(G) Human meningioma and schwannoma sam-
+ples classiﬁed by NF2 mutation status were
+analyzed for YAP phosphorylation (A.U., arbitrary
+unit), which was normalized against total YAP
+expression. **p < 0.01.
+(H) Representative formalin-ﬁxed and parafﬁn-
+embedded NF2 wild-type or NF2-deﬁcient
+meningioma sections immunostained for YAP and
+phospho-YAP
+with
+hematoxylin (H). Scale bar, 100 mm. Error bars
+show ± SEM.
+See also Figure S7 and Tables S2 and S3–S6.
+
+counterstained
+
+and
+
+We next examined the gene expression proﬁles of 53 human
+mesotheliomas, 39 of which harbored a mutation or genomic
+loss at the NF2 locus (Bott et al., 2011). Unsupervised hierarchi-
+cal clustering strongly suggested that the NF2-mutant mesothe-
+liomas were endowed with a largely distinct gene expression
+program (Figure S7E). Gene set enrichment analysis (GSEA)
+revealed that CRL4DCAF1-activated genes were highly enriched
+in NF2-mutant mesotheliomas compared with the remaining me-
+sotheliomas (Figure 7E). Intriguingly, among DCAF1-activated
+genes, those regulated via YAP and TAZ were enriched to an
+even higher extent, whereas those genes activated by Yap or
+TAZ alone were less enriched (Figure 7E). These results indicate
+that CRL4DCAF1 controls YAP/TAZ-dependent gene expression
+in NF2-mutant mesotheliomas.
+
+To further examine the clinical relevance of our ﬁndings, we
+studied additional NF2-mutant tumor types. First, we analyzed
+primary human schwannoma cells freshly isolated from a pa-
+tient affected by NF2. Prior studies had shown that re-expres-
+sion of Merlin or silencing of DCAF1 suppresses the ability of
+these cells to proliferate in vitro (Li et al., 2010; Schulze et al.,
+2002). Interestingly, re-expression of Merlin and silencing of
+DCAF1 induced a similar level of phosphorylation of YAP in
+
+56 Cancer Cell 26, 48–60, July 14, 2014 ª2014 Elsevier Inc.
+
+these cells (Figure 7F), suggesting that CRL4DCAF1 also controls
+the output of the Hippo pathway in freshly explanted, patient-
+derived NF2 mutant schwannoma cells. We then examined
+activation of YAP in 40 human meningioma and vestibular
+schwannoma samples classiﬁed as NF2-mutant or not by using
+targeted genomic sequencing and immunoblotting with anti-
+Merlin (Figure S7F and Table S6). Immunoblotting tumor lysates
+with anti-p-YAP antibodies indicated that the level of phosphor-
+ylation of YAP was signiﬁcantly lower in NF2-mutant tumors
+compared with that of other tumors (Figure 7G; Figure S7F).
+Finally, we examined the expression of YAP and phosphoryla-
+tion of YAP on whole tissue sections of 31 meningiomas with
+a sufﬁcient quality and quantity of
+formalin-ﬁxed, parafﬁn-
+embedded tissue available. We observed strong nuclear stain-
+ing of tumor cells for YAP in 16 of 22 samples (73%) and no
+staining in 6 of 22 samples (27%). In addition, we noted weak
+to absent cytoplasmic staining of tumor cells for P-YAP in 12
+of 23 samples (52%) and moderate to strong staining in 11 of
+23 samples (48%) (Figure 7H; Table S6). There was a strong
+positive correlation of nuclear YAP staining and weak or absent
+cytoplasmic p-YAP staining in tumors with low Merlin expres-
+sion (p = 0.001 for YAP and p = 0.001 for phospho-YAP,
+
+Cancer Cell
+CRL4DCAF1 Promotes Oncogenesis by Inhibiting Lats
+
+Figure 8. Model Illustrating the Mechanism by which CRL4DCAF1
+Promotes Oncogenesis
+In Merlin-deﬁcient cells, CRL4DCAF1 promotes ubiquitylation of Lats1/2 and
+suppresses phosphorylation and inactivation of YAP. YAP promotes TEAD-
+dependent expression of proproliferative genes. It is likely that CRL4DCAF1
+contributes to oncogenesis by ubiquitylating additional targets. In normal cells,
+antimitogenic signals promote the accumulation of the dephosphorylated,
+active form of Merlin. Upon translocation in the nucleus, this form of Merlin
+binds to DCAF1 and suppresses CRL4DCAF1 activity. This model does not
+exclude that Merlin activates the core Hippo kinase cascade by a distinct
+mechanism.
+
+Mann-Whitney U test), indicating that loss of Merlin causes
+activation of YAP via reduced phosphorylation and increased
+accumulation in the nucleus. These clinical ﬁndings corroborate
+the hypothesis that CRL4DCAF1 inhibits Lats and, hence, acti-
+vates YAP in NF2-mutant tumors.
+
+DISCUSSION
+
+Our results reveal that derepressed CRL4DCAF1 functions in the
+nucleus of NF2-mutant cells to promote activation of YAP.
+Mechanistically, CRL4DCAF1 binds directly to Lats1 and 2 and
+directs their conjugation to ubiquitin. Although Lats1 is polyubi-
+quitylated and targeted for proteasome-dependent degradation,
+Lats2 is oligoubiquitylated at multiple sites, resulting in loss of
+kinase activity. As a consequence, active YAP and TAZ accumu-
+late in the nucleus and function redundantly to support the onco-
+genic potential of NF2-mutant cells. These results indicate that
+derepressed CRL4DCAF1 promotes tumorigenesis by inhibiting
+Lats1 and 2 and, thus, promoting YAP/TAZ- and TEAD-depen-
+dent transcription (Figure 8).
+
+Genetic epistasis experiments in Drosophila have suggested
+that Merlin cooperates with Expanded and Kibra to activate
+the core Hippo kinase cassette (Halder and Johnson, 2011).
+Although Merlin activates Hippo signaling and, thereby, also re-
+stricts activation of YAP in mammalian cells (Zhao et al., 2007),
+the molecular underpinnings of the connection of Merlin to the
+Hippo pathway have remained unclear. Recent studies have
+suggested that Merlin recruits Lats to the plasma membrane,
+facilitating its activation by an upstream kinase distinct from
+MST (Yin et al., 2013). Our results do not preclude the possibility
+that Merlin limits the proliferation of normal cells—for example,
+
+during contact
+inhibition—by multiple, possibly redundant,
+mechanisms, including those proposed above. However, they
+indicate that Merlin suppresses tumorigenesis largely, if not
+exclusively, by repressing CRL4DCAF1-dependent ubiquitylation
+of Lats in the nucleus.
+
+We observed that re-expression of Merlin induces phosphor-
+ylation and inactivation of YAP in NF2-mutant cells without
+increasing the levels of activation of MST1/2 or Lats1. In addi-
+tion, Merlin-mediated inactivation of YAP proceeded unabated
+in the absence of Sav1, which functions as an essential
+adaptor linking MST1/2 to Lats1/2. These results suggest
+that Merlin does not restrict the activation of YAP by engaging
+the core kinase cassette but, rather, by regulating Lats1 and 2.
+These observations are consistent with prior evidence sug-
+gesting that Lats-mediated phosphorylation and inactivation
+of YAP can occur independently of MST1/2 in certain mam-
+malian tissues (Yu et al., 2012; Zhou et al., 2009) and with a
+more recent study suggesting that Merlin facilitates Lats acti-
+vation by an unidentiﬁed upstream kinase distinct from MST
+(Yin et al., 2013).
+
+The results of our biochemical studies suggest that CRL4DCAF1
+employs distinct mechanisms to inhibit Lats1 and 2. Upon
+DCAF1-mediated recruitment to the ligase complex, Lats1 is
+polyubiquitylated and, hence, targeted for proteasome-medi-
+ated degradation.
+In contrast, Lats2 is oligoubiquitylated at
+multiple sites, including at lysines in the kinase domain, near
+the Mob1-binding site, and near the PPXY motif required for
+interaction with YAP. Presumably as a result of these multiple
+modiﬁcations, Lats2 becomes inactive. Future studies will be
+required to determine the impact of each one of these modiﬁ-
+cations on the kinase activity of Lats2 and its interaction with
+substrates or necessary cofactors. Notably, both Lats1 and
+Lats2 possess an N-terminal UBA domain, suggesting the
+possibility that an intramolecular association of this domain
+with a C-terminal ubiquitylated sequence motif may contribute
+to maintain the two kinases in an inactive state in NF2-mutant
+tumor cells.
+
+To examine the relevance of CRL4DCAF1-mediated inhibition of
+Lats1/2 in NF2 loss-driven oncogenesis, we reconstituted NF2-
+mutant cells with wild-type and mutant forms of Merlin. Deletion
+or alanine substitution of a short nuclear localization sequence
+prevented Merlin from interacting with CRL4DCAF1 and from
+suppressing the activation of YAP and cell proliferation.
+Conversely, tamoxifen-induced translocation of ERT2-Merlin in
+the nucleus and binding to CRL4DCAF1 resulted in the inhibition
+of YAP and cell proliferation. Furthermore, analysis of a large
+panel of patient-derived missense mutants of Merlin, which do
+not combine with CRL4DCAF1 as a result of their inability to enter
+into the nucleus and/or to bind to the Merlin-binding segment of
+DCAF1 (Li et al., 2010), revealed that all of them exhibit a severely
+reduced capacity to inhibit the activation of YAP and cell prolif-
+eration. Finally, in vitro and in vivo genetic epistasis experiments
+demonstrated that YAP and TAZ are necessary to maintain the
+oncogenicity of NF2-mutant tumor cells and that simultaneous
+inactivation of Lats1 and 2 rescues the oncogenicity of DCAF1-
+depleted NF2-mutant tumor cells. In our view, these results
+provide strong genetic evidence that Merlin suppresses tumori-
+genesis by inhibiting CRL4DCAF1 and, hence, increasing the
+levels of active Lats in the nucleus.
+
+Cancer Cell 26, 48–60, July 14, 2014 ª2014 Elsevier Inc. 57
+
+Cancer Cell
+CRL4DCAF1 Promotes Oncogenesis by Inhibiting Lats
+
+We validated the relevance of our ﬁndings for human tumori-
+genesis by using a variety of approaches. First, genetic manipu-
+lation indicated that re-expression of Merlin and silencing of
+DCAF1 inhibit activation of YAP and cell proliferation in primary
+schwannoma cells from NF2 patients. Second, immunoblotting
+and immunostaining of meningioma and vestibular schwannoma
+samples revealed a striking correlation between the loss of
+Merlin and the activation of YAP. Third, analysis of a panel of
+human mesothelioma lines indicated that deletion of NF2 corre-
+lates with reduced levels of Lats1 protein and increased
+activation of YAP. Finally, GSEA demonstrated that the gene
+expression program regulated by CRL4DCAF1 through activation
+of YAP/TAZ is highly enriched in NF2-mutant mesotheliomas
+compared with those lacking NF2 alterations.
+
+We note that simultaneous depletion of Lats1 and 2 did not
+completely rescue the ability of DCAF1-silenced NF2-mutant
+cells to overproliferate in vitro and in vivo, suggesting that
+CRL4DCAF1 may have additional substrates that contribute to
+its pro-oncogenic function. RORa, which has been identiﬁed
+recently as a CRL4DCAF1 substrate and exhibits severely reduced
+expression in human breast cancers (Lee et al., 2012), is a poten-
+tial candidate, but other, still unidentiﬁed substrates may
+contribute as well. These considerations suggest that entry of
+Merlin into the nucleus and inhibition of CRL4DCAF1 may have
+evolved to limit not only the activation of YAP but also that of
+additional pro-oncogenic signals. In addition to their biological
+implications,
+these ﬁndings indicate that pharmacological
+targeting of CRL4DCAF1 is a rational approach for the treatment
+of neuroﬁbromatosis type 2 and malignant pleural mesotheli-
+oma. We suggest that, because CRL4DCAF1 may promote onco-
+genesis through multiple mechanisms, CRL4DCAF1 inhibitors
+may display enhanced efﬁcacy in NF2-mutant tumors compared
+with drugs that interfere with the interaction of YAP with TEAD
+(Jiao et al., 2014; Liu-Chittenden et al., 2012).
+
+EXPERIMENTAL PROCEDURES
+
+Patients and Tumor Samples
+Human studies were approved by the institutional review boards of MSKCC,
+NYU-Langone Medical Center, and the Plymouth University Peninsula
+School of Medicine and Dentistry (see details in Supplemental Experimental
+Procedures).
+
+Subcellular Fractionation
+Nuclear and non-nuclear fractions were prepared using NE-PER nuclear and
+cytoplasmic extraction reagents following the manufacturer’s instructions
+(Thermo Fisher Scientiﬁc).
+
+Immunoﬂuorescent Staining
+Cells were ﬁxed with 4% paraformaldehyde for 20 min and permeabilized with
+0.3% sodium deoxycholate and 0.3% Triton X-100 for 30 min on ice. After
+blocking with 5% BSA, samples were incubated overnight at 4
+C with primary
+antibodies diluted in PBS/2.5% BSA/0.05% Triton X-100. After washing with
+PBS/0.1% Triton X-100, samples were incubated with secondary antibodies
+diluted as described above for 2 hr at 4
+C. Samples were ﬁnally washed
+with PBS/0.1% Triton X-100, rinsed with PBS, and mounted in Gelvatol.
+
+
+
+
+
+In Vitro Ubiquitylation Assay
+Afﬁnity-puriﬁed recombinant proteins,
+including E1 (Calbiochem), E2
+(UBCH5c), GST-Cul4A, His-Rbx1, GST-DDB1, His-ubiquitin, and FLAG-hem-
+agglutinin (FH)-DCAF1 and FH-Lats1 (puriﬁed from HEK293T cells) were incu-
+bated in 20 ml reaction buffer (50 mM Tris-HCl [pH 7.5], 0.2 M NaCl, 10 mM
+
+Based on the apparently prevalent
+
+localization of Hippo
+pathway components at the cell cortex or in the cytoplasm in
+Drosophila, it has been proposed that activated Lats phosphor-
+ylates YAP in the cytoplasm, preventing its accumulation in the
+nucleus through redundant mechanisms, such as binding to
+14-3-3 or b-TRCP-mediated ubiquitylation (Dong et al., 2007;
+Zhao et al., 2007, 2010b). Consistently, overexpressed tagged
+forms of Lats1 and 2 accumulate predominantly in the cytosol
+or at centrosomes, respectively (Toji et al., 2004; Yang et al.,
+2004), whereas a mutant form of YAP that cannot be phosphor-
+ylated by Lats accumulates in the nucleus and promotes TEAD-
+dependent transcription and oncogenesis (Zhao et al., 2007).
+Because overexpression can saturate the nuclear
+import
+machinery and exogenous tags can interfere with transport
+into the nucleus of recombinant proteins, we examined the local-
+ization of endogenous Lats in mammalian cells by using immu-
+noﬂuorescence staining and subcellular fractionation. We found
+that endogenous Lats accumulates in the nucleus independently
+of growth conditions. Importantly, phosphorylated and activated
+Lats was almost exclusively found in the nucleus. These obser-
+vations suggest that MST1/2 or another unidentiﬁed upstream
+kinase phosphorylates and activate Lats in the nucleus. Acti-
+vated Lats, in turn, phosphorylates YAP, promoting its extrusion
+from the nucleus.
+
+Our results do not exclude the possibility that Merlin may have
+additional functions at the cell cortex and, in fact, may also regu-
+late the Hippo pathway from this location. Of note, we observed
+that Merlin can bind, albeit weakly, to Lats1 and Lats2, and we
+detected a fraction of Lats1 near the plasma membrane in
+normal mesothelial cells undergoing contact-mediated inhibi-
+tion of proliferation. However, in contrast to the results of a
+more limited but similar analysis (Yin et al., 2013), we found
+that mutations that abolish the tumor suppressor function of
+Merlin do not interfere with its ability to bind to Lats1 and recruit
+it to the cell cortex. However, they consistently fail to bind to
+CRL4DCAF1 and to inactivate YAP. These results conﬁrm that
+Merlin’s function at the cell cortex is insufﬁcient to suppress
+tumorigenesis.
+
+We speculate that the signaling pathway we have delineated
+may have evolved after the separation of chordates from arthro-
+pods to provide additional control over the function of YAP. In
+fact, Drosophila Merlin contains a glycine residue at the position
+corresponding to E270 in human Merlin, a substitution that is
+predicted to abolish interaction with DCAF1 (Li et al., 2010).
+Moreover, the Drosophila ortholog of DCAF1, Mahjong (Tamori
+et al., 2010), does not contain a C-terminal Merlin-binding
+segment. These considerations suggest that the interaction of
+Merlin with CRL4DCAF1 has evolved in chordates to function as
+a clamp to restrain activation of YAP. In this model, Merlin and
+CRL4DCAF1 act as a negative and a positive component of a
+switch that ﬁne-tunes the activation of YAP in mammalian cells.
+Inactivation of NF2 eliminates the clamp, causing deregulated
+YAP/TEAD-dependent transcription of prosurvival and mito-
+genic genes. It remains to be examined whether this clamp on
+the activation of YAP also operates during development to limit
+stem cell self-renewal, organ size, and cell fate speciﬁcation,
+as is anticipated from the known physiological
+function of
+YAP and its deregulation following inactivation of NF2 during
+tumorigenesis.
+
+58 Cancer Cell 26, 48–60, July 14, 2014 ª2014 Elsevier Inc.
+
+Cancer Cell
+CRL4DCAF1 Promotes Oncogenesis by Inhibiting Lats
+
+MgCl2, 4 mM ATP, and 1 mM dithiothreitol) at 25
+terminated by boiling in SDS loading buffer.
+
+
+
+C for 2 hr. Reactions were
+
+Soft Agar and Tumorigenicity Assay
+For the soft agar assay, cells were trypsinized, resuspended in complete
+medium, and plated in 0.34% low melting temperature agarose (FMC Bio-
+products) in complete medium at 2 3104 (Meso-33 cells) or 1.2 3 104 (FC-
+1801 cells) per well
+in 24-well Ultra Low cluster plates (Costar). For the
+tumorigenicity assay, 1 3 106 FC-1801 cells were suspended in Ca/Mg-free
+PBS and injected subcutaneously into the right ﬂank of nude mice. Tumor
+volumes were determined by caliper measurement. Animal studies were con-
+ducted in accordance with protocols approved by the Institutional Animal Care
+and Use Committee of MSKCC.
+
+Statistical Methods
+Statistical signiﬁcance was determined by Student’s t test unless indicated
+otherwise.
+
+ACCESSION NUMBER
+
+Microarray data are available in the Gene Expression Omnibus under acces-
+sion number GSE56157.
+
+SUPPLEMENTAL INFORMATION
+
+Supplemental Information includes Supplemental Experimental Procedures,
+seven ﬁgures, and six tables and can be found with this article online at
+http://dx.doi.org/10.1016/j.ccr.2014.05.001.
+
+ACKNOWLEDGMENTS
+
+We thank I. Farrance, M. Giovannini, K. Guan, S. Jhanwar, D. Lim, M. Pagano,
+and D. Pan for reagents, R. Mukherjee and N. Antao for experimental
+assistance, the core facilities of MSKCC and NYU-Langone Medical Center
+for sample processing and analysis, and members of the F.G.G. laboratory
+for discussions. This work was supported by CTF Young Investigator Award
+2009-01-013 (to W.L.) and NIH grants R01 CA152975 (to F.G.G.), S10
+OD010591 (to the Microchemistry and Proteomics Core Laboratory of
+MSKCC), UL1 TR000038 (to the BioRepository and Immunohistochemistry
+Core Laboratory of NYU-Langone Medical Center), and P30 CA08748 (to
+MSKCC).
+
+Received: July 1, 2013
+Revised: February 14, 2014
+Accepted: May 1, 2014
+Published: July 14, 2014
+
+REFERENCES
+
+Angers, S., Li, T., Yi, X., MacCoss, M.J., Moon, R.T., and Zheng, N. (2006).
+Molecular architecture and assembly of the DDB1-CUL4A ubiquitin ligase
+machinery. Nature 443, 590–593.
+
+Bossuyt, W., Chen, C.L., Chen, Q., Sudol, M., McNeill, H., Pan, D., Kopp, A.,
+and Halder, G. (2014). An evolutionary shift in the regulation of the Hippo
+pathway between mice and ﬂies. Oncogene 33, 1218–1228.
+
+Bott, M., Brevet, M., Taylor, B.S., Shimizu, S., Ito, T., Wang, L., Creaney, J.,
+Lake, R.A., Zakowski, M.F., Reva, B., et al. (2011). The nuclear deubiquitinase
+BAP1 is commonly inactivated by somatic mutations and 3p21.1 losses in
+malignant pleural mesothelioma. Nat. Genet. 43, 668–672.
+
+Cerami, E., Gao, J., Dogrusoz, U., Gross, B.E., Sumer, S.O., Aksoy, B.A.,
+Jacobsen, A., Byrne, C.J., Heuer, M.L., Larsson, E., et al.
+(2012). The
+cBiol.cancer genomics portal: an open platform for exploring multidimensional
+cancer genomics data. Cancer Discov. 2, 401–404.
+
+Chan, E.H., Nousiainen, M., Chalamalasetty, R.B., Scha¨ fer, A., Nigg, E.A., and
+Sillje´ , H.H. (2005). The Ste20-like kinase Mst2 activates the human large tumor
+suppressor kinase Lats1. Oncogene 24, 2076–2086.
+
+Chen, Z.J.J., and Sun, L.J.J. (2009). Nonproteolytic functions of ubiquitin in cell
+signaling. Mol. Cell 33, 275–286.
+
+(2003). Regulation of mammalian
+Deng, Y., Pang, A., and Wang, J.H.
+STE20-like kinase 2 (MST2) by protein phosphorylation/dephosphorylation
+and proteolysis. J. Biol. Chem. 278, 11760–11767.
+
+Dong, J., Feldmann, G., Huang, J., Wu, S., Zhang, N., Comerford, S.A.,
+Gayyed, M.F., Anders, R.A., Maitra, A., and Pan, D. (2007). Elucidation of a
+universal size-control mechanism in Drosophila and mammals. Cell 130,
+1120–1133.
+
+Feil, R., Wagner, J., Metzger, D., and Chambon, P. (1997). Regulation of Cre
+recombinase activity by mutated estrogen receptor ligand-binding domains.
+Biochem. Biophys. Res. Commun. 237, 752–757.
+
+Genevet, A., Wehr, M.C., Brain, R., Thompson, B.J., and Tapon, N. (2010).
+Kibra is a regulator of the Salvador/Warts/Hippo signaling network. Dev. Cell
+18, 300–308.
+
+Glantschnig, H., Rodan, G.A., and Reszka, A.A. (2002). Mapping of MST1
+kinase sites of phosphorylation. Activation and autophosphorylation. J. Biol.
+Chem. 277, 42987–42996.
+
+Halder, G., and Johnson, R.L. (2011). Hippo signaling: growth control and
+beyond. Development 138, 9–22.
+
+Hamaratoglu, F., Willecke, M., Kango-Singh, M., Nolo, R., Hyun, E., Tao, C.,
+Jafar-Nejad, H., and Halder, G. (2006). The tumour-suppressor genes NF2/
+Merlin and Expanded act through Hippo signalling to regulate cell proliferation
+and apoptosis. Nat. Cell Biol. 8, 27–36.
+
+Hariharan, I.K., and Bilder, D. (2006). Regulation of imaginal disc growth by
+tumor-suppressor genes in Drosophila. Annu. Rev. Genet. 40, 335–361.
+
+Harvey, K., and Tapon, N. (2007). The Salvador-Warts-Hippo pathway - an
+emerging tumour-suppressor network. Nat. Rev. Cancer 7, 182–191.
+
+Jiao, S., Wang, H., Shi, Z., Dong, A., Zhang, W., Song, X., He, F., Wang, Y.,
+Zhang, Z., Wang, W., et al. (2014). A peptide mimicking VGLL4 function acts
+as a YAP antagonist therapy against gastric cancer. Cancer Cell 25, 166–180.
+
+Jin, J., Arias, E.E., Chen, J., Harper, J.W., and Walter, J.C. (2006). A family of
+diverse Cul4-Ddb1-interacting proteins includes Cdt2, which is required for S
+phase destruction of the replication factor Cdt1. Mol. Cell 23, 709–721.
+
+King, R.W., Glotzer, M., and Kirschner, M.W. (1996). Mutagenic analysis of the
+destruction signal of mitotic cyclins and structural characterization of ubiquiti-
+nated intermediates. Mol. Biol. Cell 7, 1343–1357.
+
+Lallemand, D., Manent, J., Couvelard, A., Watilliaux, A., Siena, M., Chareyre,
+F., Lampin, A., Niwa-Kawakita, M., Kalamarides, M., and Giovannini, M.
+(2009). Merlin regulates transmembrane receptor accumulation and signaling
+at the plasma membrane in primary mouse Schwann cells and in human
+schwannomas. Oncogene 28, 854–865.
+
+Lee, J.-H., Kim, T.-S., Yang, T.-H., Koo, B.-K., Oh, S.-P., Lee, K.-P., Oh, H.-J.,
+Lee, S.-H., Kong, Y.-Y., Kim, J.-M., and Lim, D.S. (2008). A crucial role of
+WW45 in developing epithelial tissues in the mouse. EMBO J. 27, 1231–1242.
+
+Lee, J.M., Lee, J.S., Kim, H., Kim, K., Park, H., Kim, J.Y., Lee, S.H., Kim, I.S.,
+Kim, J., Lee, M., et al. (2012). EZH2 generates a methyl degron that is recog-
+nized by the DCAF1/DDB1/CUL4 E3 ubiquitin ligase complex. Mol. Cell 48,
+572–586.
+
+Li, W., You, L., Cooper, J., Schiavon, G., Pepe-Caprio, A., Zhou, L., Ishii, R.,
+Giovannini, M., Hanemann, C.O., Long, S.B., et al. (2010). Merlin/NF2 sup-
+presses tumorigenesis by inhibiting the E3 ubiquitin ligase CRL4(DCAF1) in
+the nucleus. Cell 140, 477–490.
+
+Li, W., Cooper, J., Karajannis, M.A., and Giancotti, F.G. (2012). Merlin: a
+tumour suppressor with functions at the cell cortex and in the nucleus.
+EMBO Rep. 13, 204–215.
+
+Liu-Chittenden, Y., Huang, B., Shim, J.S., Chen, Q., Lee, S.J., Anders, R.A.,
+Liu, J.O., and Pan, D. (2012). Genetic and pharmacological disruption of the
+TEAD-YAP complex suppresses the oncogenic activity of YAP. Genes Dev.
+26, 1300–1305.
+
+Mani, T., Hennigan, R.F., Foster, L.A., Conrady, D.G., Herr, A.B., and Ip, W.
+(2011). FERM domain phosphoinositide binding targets merlin to the mem-
+brane and is essential for its growth-suppressive function. Mol. Cell. Biol. 31,
+1983–1996.
+
+Cancer Cell 26, 48–60, July 14, 2014 ª2014 Elsevier Inc. 59
+
+Cancer Cell
+CRL4DCAF1 Promotes Oncogenesis by Inhibiting Lats
+
+Overholtzer, M., Zhang, J., Smolen, G.A., Muir, B., Li, W., Sgroi, D.C., Deng,
+C.X., Brugge, J.S., and Haber, D.A. (2006). Transforming properties of YAP,
+a candidate oncogene on the chromosome 11q22 amplicon. Proc. Natl.
+Acad. Sci. USA 103, 12405–12410.
+
+Pan, D. (2010). The hippo signaling pathway in development and cancer. Dev.
+Cell 19, 491–505.
+
+Schulze, K.M., Hanemann, C.O., Mu¨ ller, H.W., and Hanenberg, H. (2002).
+Transduction of wild-type merlin into human schwannoma cells decreases
+schwannoma cell growth and induces apoptosis. Hum. Mol. Genet. 11, 69–76.
+
+St John, M.A.R., Tao, W., Fei, X., Fukumoto, R., Carcangiu, M.L., Brownstein,
+D.G., Parlow, A.F., McGrath, J., and Xu, T. (1999). Mice deﬁcient of Lats1
+develop soft-tissue sarcomas, ovarian tumours and pituitary dysfunction.
+Nat. Genet. 21, 182–186.
+
+Tamori, Y., Bialucha, C.U., Tian, A.G., Kajita, M., Huang, Y.C., Norman, M.,
+Harrison, N., Poulton, J., Ivanovitch, K., Disch, L., et al. (2010). Involvement
+of Lgl and Mahjong/VprBP in cell competition. PLoS Biol. 8, e1000422.
+
+Tapon, N., Harvey, K.F., Bell, D.W., Wahrer, D.C.R., Schiripo, T.A., Haber,
+D.A., and Hariharan, I.K. (2002). salvador Promotes both cell cycle exit and
+apoptosis in Drosophila and is mutated in human cancer cell lines. Cell 110,
+467–478.
+
+Toji, S., Yabuta, N., Hosomi, T., Nishihara, S., Kobayashi, T., Suzuki, S., Tamai,
+K., and Nojima, H. (2004). The centrosomal protein Lats2 is a phosphorylation
+target of Aurora-A kinase. Genes Cells 9, 383–397.
+
+Xiao, L., Chen, Y., Ji, M., Volle, D.J., Lewis, R.E., Tsai, M.-Y., and Dong, J.
+(2011). KIBRA phosphorylation is regulated by the mitotic kinase aurora and
+protein phosphatase 1. J. Biol. Chem. 286, 36304–36315.
+
+Yang, X., Yu, K., Hao, Y., Li, D.M., Stewart, R., Insogna, K.L., and Xu, T. (2004).
+LATS1 tumour suppressor affects cytokinesis by inhibiting LIMK1. Nat. Cell
+Biol. 6, 609–617.
+
+Yi, C., Troutman, S., Fera, D., Stemmer-Rachamimov, A., Avila, J.L., Christian,
+N., Persson, N.L., Shimono, A., Speicher, D.W., Marmorstein, R., et al. (2011).
+A tight junction-associated Merlin-angiomotin complex mediates Merlin’s
+
+regulation of mitogenic signaling and tumor suppressive functions. Cancer
+Cell 19, 527–540.
+
+Yin, F., Yu, J., Zheng, Y., Chen, Q., Zhang, N., and Pan, D. (2013). Spatial
+organization of Hippo signaling at the plasma membrane mediated by the
+tumor suppressor Merlin/NF2. Cell 154, 1342–1355.
+
+Yu, F.X., Zhao, B., Panupinthu, N., Jewell, J.L., Lian, I., Wang, L.H., Zhao, J.,
+Yuan, H., Tumaneng, K., Li, H., et al. (2012). Regulation of the Hippo-YAP
+pathway by G-protein-coupled receptor signaling. Cell 150, 780–791.
+
+Zender, L., Spector, M.S., Xue, W., Flemming, P., Cordon-Cardo, C., Silke, J.,
+Fan, S.T., Luk, J.M., Wigler, M., Hannon, G.J., et al. (2006). Identiﬁcation and
+validation of oncogenes in liver cancer using an integrative oncogenomic
+approach. Cell 125, 1253–1267.
+
+Zhang, N., Bai, H., David, K.K., Dong, J., Zheng, Y., Cai, J., Giovannini, M., Liu,
+P., Anders, R.A., and Pan, D. (2010). The Merlin/NF2 tumor suppressor
+functions through the YAP oncoprotein to regulate tissue homeostasis in
+mammals. Dev. Cell 19, 27–38.
+
+Zhao, B., Wei, X., Li, W., Udan, R.S., Yang, Q., Kim, J., Xie, J., Ikenoue, T., Yu,
+J., Li, L., et al. (2007). Inactivation of YAP oncoprotein by the Hippo pathway is
+involved in cell contact inhibition and tissue growth control. Genes Dev. 21,
+2747–2761.
+
+Zhao, B., Li, L., Lei, Q., and Guan, K.-L. (2010a). The Hippo-YAP pathway in
+organ size control and tumorigenesis: an updated version. Genes Dev. 24,
+862–874.
+
+Zhao, B., Li, L., Tumaneng, K., Wang, C.Y., and Guan, K.L. (2010b). A coordi-
+nated phosphorylation by Lats and CK1 regulates YAP stability through
+SCF(b-TRCP). Genes Dev. 24, 72–85.
+
+Zhou, D., Conrad, C., Xia, F., Park, J.-S., Payer, B., Yin, Y., Lauwers, G.Y.,
+Thasler, W., Lee, J.T., Avruch, J., and Bardeesy, N. (2009). Mst1 and Mst2
+maintain hepatocyte quiescence and suppress hepatocellular carcinoma
+development through inactivation of the Yap1 oncogene. Cancer Cell 16,
+425–438.
+
+60 Cancer Cell 26, 48–60, July 14, 2014 ª2014 Elsevier Inc.
+
+

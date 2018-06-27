@@ -1,0 +1,1006 @@
+MEK inhibition exhibits efficacy in human  
+
+and mouse neurofibromatosis tumors
+
+Walter J. Jessen,1 Shyra J. Miller,1 Edwin Jousma,1 Jianqiang Wu,1 Tilat A. Rizvi,1  
+
+Meghan E. Brundage,1 David Eaves,1 Brigitte Widemann,2 Mi-Ok Kim,3 Eva Dombi,2  
+
+Jessica Sabo,2 Atira Hardiman Dudley,1 Michiko Niwa-Kawakita,4 Grier P. Page,5  
+
+Marco Giovannini,6 Bruce J. Aronow,7 Timothy P. Cripe,1 and Nancy Ratner1
+
+1Division of Experimental Hematology and Cancer Biology, Children’s Hospital Medical Center, Cincinnati, Ohio, USA. 2Pediatric Oncology Branch,  
+
+National Cancer Institute, Bethesda, Maryland, USA. 3Biostatistics and Epidemiology, Department of Pediatrics,  
+
+Cincinnati Children’s Hospital Medical Center, Cincinnati, Ohio, USA. 4Institut National de la Santé et de la Recherche Médicale, Paris, France.  
+
+5Statistics and Epidemiology Unit, RTI International, South Chamblee, Georgia, USA. 6Department of Neural Tumor Research, House Ear Institute,  
+
+Los Angeles, California, USA. 7Biomedical Informatics, Cincinnati Children’s Hospital Medical Center, Cincinnati, Ohio, USA.
+
+Neurofibromatosis type 1 (NF1) patients develop benign neurofibromas and malignant peripheral nerve 
+sheath tumors (MPNST). These incurable peripheral nerve tumors result from loss of NF1 tumor suppressor 
+gene function, causing hyperactive Ras signaling. Activated Ras controls numerous downstream effectors, but 
+specific pathways mediating the effects of hyperactive Ras in NF1 tumors are unknown. We performed cross-
+species transcriptome analyses of mouse and human neurofibromas and MPNSTs and identified global nega-
+tive feedback of genes that regulate Ras/Raf/MEK/ERK signaling in both species. Nonetheless, ERK activation 
+was sustained in mouse and human neurofibromas and MPNST. We used a highly selective pharmacological 
+inhibitor of MEK, PD0325901, to test whether sustained Ras/Raf/MEK/ERK signaling contributes to neurofi-
+broma growth in a neurofibromatosis mouse model (Nf1fl/fl;Dhh-Cre) or in NF1 patient MPNST cell xenografts. 
+PD0325901 treatment reduced aberrantly proliferating cells in neurofibroma and MPNST, prolonged survival 
+of mice implanted with human MPNST cells, and shrank neurofibromas in more than 80% of mice tested. Our 
+data demonstrate that deregulated Ras/ERK signaling is critical for the growth of NF1 peripheral nerve tumors 
+and provide a strong rationale for testing MEK inhibitors in NF1 clinical trials.
+
+Introduction
+The hallmark manifestation of neurofibromatosis type 1 (NF1) 
+is the development of peripheral nerve tumors (1). In benign and 
+malignant peripheral nerve tumors, cells acquire somatic inacti-
+vation of the second NF1 allele and loss of NF1 (neurofibromin) 
+protein function (2). With few exceptions, NF1 patients develop 
+small benign dermal neurofibromas that can number into the 
+thousands and be extremely disfiguring. At least a third of NF1 
+patients develop larger benign plexiform neurofibromas that 
+cause disfigurement and morbidity when they compress vital 
+structures. Surgical removal of neurofibromas is not always fea-
+sible due to tumor location, resulting in substantial morbidity 
+for NF1 patients, and plexiform neurofibromas can transform to 
+malignant peripheral nerve sheath tumors (MPNSTs), a leading 
+cause of death in adults with NF1 (3–6). There is currently no 
+chemotherapeutic regimen that will effectively treat NF1 tumors, 
+warranting investigation into the development of novel molec-
+ular-targeted therapeutic strategies (7). Studies have begun to 
+identify molecular alterations in MPNST tumors, yet the path-
+way of molecular events contributing to neurofibroma growth or 
+progression to malignancy remains unclear (8).
+
+Neurofibromin is a Ras-GTPase activating protein (Ras-GAP), 
+converting active Ras-GTP to inactive Ras-GDP (9, 10). Therefore, 
+cells isolated from neurofibromas (11) and MPNSTs (12, 13) that 
+lack neurofibromin have elevated levels of active Ras-GTP. Aber-
+rant activation of Ras signaling generally leads to promotion of 
+tumor cell proliferation and/or survival (14). However, in benign 
+
+Conflict of interest: The authors have declared that no conflict of interest exists.
+Citation for this article: J Clin Invest. 2013;123(1):340–347. doi:10.1172/JCI60578.
+
+tumors, Ras signaling can alternatively be associated with onco-
+gene-induced senescence (15, 16), and evidence supports a role for 
+cellular senescence in NF1 dermal neurofibromas (17).
+
+At least 11 effector pathways downstream of Ras-GTP have 
+been described (18). Research focused on the biology of NF1 
+and pathogenesis of plexiform neurofibroma and MPNST has 
+identified potential therapeutic targets including Ras itself, Ras 
+effectors, growth factor receptors, and angiogenesis (8, 19). For 
+example, Ral and PI3K/AKT/mTOR/S6K1, where mTOR indi-
+cates mammalian target of rapamycin, are known to regulate 
+cell proliferation, survival, and cell death and have each been 
+implicated in NF1 tumorigenesis (20, 21). S6K1 is activated in 
+MPNST cells with NF1 mutations, and this response is attenu-
+ated by rapamycin in MPNST cell lines, MPNST xenografts, and 
+in a genetic engineered mouse model with Nf1 and p53 mutations 
+in cis (22, 23). On this basis, a phase II trial of rapamycin in plexi-
+form neurofibromas is ongoing. However, no chemotherapeu-
+tic approach blocking any molecular target, including tyrosine 
+kinases upstream of Ras, Ras, Ras effectors, or combination of 
+effectors, has to date prevented or arrested neurofibroma forma-
+tion or more than transiently delayed MPNST growth (7).
+
+Genetically engineered mouse (GEM) Nf1 models have been 
+developed using Cre/lox technology for ablation of Nf1 (24–28). 
+We chose the Nf1fl/fl;Dhh-Cre model for preclinical testing, as the 
+neurofibroma histology in this model replicates human neurofi-
+broma histology (25, 26). While some mouse models of neurofi-
+broma formation, and perhaps some human patients, require a 
+heterozygous genetic background (29), the Nf1fl/fl;Dhh-Cre model 
+does not, facilitating preclinical testing. We have used 7 Tesla 
+small-animal MRI to assess tumor growth rate in the Nf1fl/fl;Dhh-Cre  
+
+340 
+
+The Journal of Clinical Investigation      http://www.jci.org      Volume 123      Number 1      January 2013
+
+Research articleFigure 1
+PD0325901 reduces p-ERK and inhibits MPNST cell growth. (A–D) Brown staining indicates detection of p-ERK in paraffin tissue sections. p-ERK 
+is robust in human S462TY MPNST xenografts (A), but is absent 30 minutes after treatment with 10 mg/kg PD0325901 (PD) (B). p-ERK remains 
+detectable at low levels at 6 hours after treatment (C) and returns to pretreatment levels by 24 hours (D). Scale bar: 50 μm. (E) Dose-response anal-
+ysis of PD0325901 on 5 MPNST cell lines. Effect on cell growth is expressed as percentage of control, and PD0325901 concentration shows nM 
+concentrations on a log scale. (F) Tumor volume (mm3) was significantly reduced in S462TY MPNST xenografts treated with PD0325901 (n = 18)  
+versus control (n = 12). Reduction in tumor volume observed by treatment day 5 was maintained through day 15 (P = 0.004), when many control 
+mice required sacrifice. (E and F) Error bars represent mean ± SEM. (G) Survival of MPNST xenografted mice doubled with 3 months PD0325901 
+treatment (P < 0.0001).
+
+mouse model using volumetric MRI analysis. However, treatment 
+with the rapamycin analog RAD001 failed to block tumor growth, 
+and the multikinase inhibitor sorafenib affected few mice (30). 
+The same volumetric measurement technique is in use in ongo-
+ing clinical trials and has been proven to sensitively detect small 
+changes in tumor size over time (31, 32). The reproducibility of 
+this method is similar for tumors in mice and humans, and thus 
+the response criteria used in human trials can be applied to the 
+preclinical evaluation in mice. Here, we confirm the transcription-
+al similarities of human and mouse tumors using a bioinformatics 
+approach and illustrate the use of our GEM model for preclinical 
+evaluation of candidate molecular targets.
+
+We compared the transcriptomes of human NF1 tumors and 
+GEM Nf1 models to normal differentiated peripheral nerves of 
+each species to identify molecular mechanisms contributing to 
+tumorigenesis and shared potential therapeutic targets. Our 
+results  support  the  hypothesis  that  hyperactive  Ras  induces 
+expression of genes that suppresses the canonical downstream 
+pathway, Raf/MEK/ERK, in benign neurofibromas and MPNST. 
+Although these transcriptional changes suggest that a negative 
+feedback loop has been induced, ERK remains active in these 
+tumors. Based on these data, we performed preclinical trials of 
+the MEK inhibitor PD0325901 in mouse models of NF1-associ-
+ated peripheral nerve tumors and observed remarkable efficacy. 
+Similarly, elsewhere in this issue of the JCI, Chang and cowork-
+ers report dramatic responses to PD0325901 in a mouse model 
+of juvenile myelomonocytic leukemia (JMML) characterized by 
+homozygous Nf1 inactivation (33). Together, these data provide 
+a strong rationale for targeting MEK in the treatment of NF1-
+associated neoplasms.
+
+Results
+PD0325901 inhibits MEK and moderately reduces MPNST cell survival in 
+vitro. To identify molecular similarities between mouse and human 
+NF1 tumors, we performed cross-species transcriptome analysis 
+of human NF1-derived peripheral nerve tumors, neurofibroma 
+and MPNST (n = 32) (34), and mouse neurofibroma and MPNST  
+(n = 33) compared with normal differentiated peripheral nerves of 
+each species (Supplemental Table 1; supplemental material avail-
+able online with this article; doi:10.1172/JCI60578DS1). Human 
+data were publically available from our previous studies (34); 
+mouse data have been deposited in the GEO database (GSE41747). 
+Hierarchical clustering of orthologous transcripts defined expres-
+sion clusters (C17–C20; Supplemental Figure 1A). To prioritize 
+relevant genes, we queried transcripts from orthologous clusters 
+(C17–C20; Supplemental Figure 1) representing significant tran-
+scriptional changes in mouse and human samples. Notably, both 
+species upregulated expression of genes that negatively regulate 
+the canonical Ras effector pathway Raf/MEK/ERK (Supplemental 
+Table 2 and Supplemental Figure 1, B and C). Despite transcrip-
+tional upregulation of genes that repress Raf/MEK/ERK signaling, 
+and consistent with neurofibroma (11) and MPNST (12, 13) cells 
+having elevated levels of Ras-GTP, activation of the downstream 
+effector ERK was maintained in neurofibromas and MPNSTs, as 
+elevated levels of phosphorylated ERK (p-ERK) were detected in 
+neurofibromas and MPNSTs (Supplemental Figure 2).
+
+PD0325901 is a MEK inhibitor currently in clinical cancer tri-
+als (35, 36). Of 70 tested kinases, PD0325901 blocked MEK1 at 
+values of 1 μM in vitro, with the closely related MEK5 affected at 
+10-fold higher concentrations (37); no other kinases were affect-
+ed. The unusual specificity of this inhibitor is due to the fact that 
+
+ 
+
+The Journal of Clinical Investigation      http://www.jci.org      Volume 123      Number 1      January 2013 
+
+341
+
+research articleFigure 2
+PD0325901 inhibits neurofibroma growth. (A–F) 
+Serial MRI in Nf1flox/flox;Dhh-Cre mice given vehi-
+cle (A–C) versus 10 mg/kg PD0325901 (D–F). 
+MRI was conducted on 5-month-old pretreated 
+mice  (A  and D)  at  treatment  onset  (B  and E, 
+day  0;  7  months  old),  and  at  the  end  of  treat-
+ment (C and F, day 60; 9 months old). Images 
+show  representative  tumor-bearing  mice  given 
+vehicle control (A–C) or PD0325901 (D–F). Note 
+the reduction in size and intensity of bright bilat-
+eral  neurofibromas  treated  with  PD0325901. 
+(G) Volumetric  measurements  of  vehicle-treat-
+ed  or  PD0325901-treated  Nf1 flox/flox;Dhh-Cre  
+mice  indicate  a  decrease  in  neurofibroma  vol-
+ume treated with 1.5 mg/kg, 5 mg/kg, or 10 mg/kg 
+PD0325901 for 2 months. The y axis shows tumor 
+volume in mm3 quantified by measurements of 
+MRI scans. Each bar represents the difference in 
+tumor volume in an individual animal from day 0  
+(7 months) to day 60 (9 months). Mixed effects 
+model analysis indicated statistical significance for 
+each dose (P < 0.001; see Supplemental Figure 4).
+
+PD0325901 is not a direct kinase inhibitor, but rather an allosteric 
+inhibitor. In comparison with its predecessor CI-1040, PD0325901 
+is more potent and has improved duration and bioavailability and 
+increased metabolic stability (38). PD0325901 blocked Raf/MEK/
+ERK signaling based on pharmacodynamic measurement of p-ERK 
+in MPNST xenografts at intervals after PD0325901 exposure  
+(Figure 1, A–D). p-ERK disappeared by 30 minutes after dosing 
+MPNST xenografts (Figure 1B); levels remained low at 6 hours (Fig-
+ure 1C) and resembled pretreatment levels by 24 hours (Figure 1D).  
+Pharmacodynamic assessment of PD0325901 was at the end of 
+the 60-day treatment period, demonstrating that the inhibitor 
+remained efficacious throughout the experiment. Dose-response 
+analysis of PD0325901 was conducted on 5 MPNST cell lines 
+in vitro. Four MPNST cell lines were derived from NF1 patients 
+(S462TY, S462, ST8814, T265); 1 MPNST cell line was derived 
+from a sporadic MPNST (STS26T). After 4 days of treatment, 
+effects on survival in the 4 NF1-derived cell lines were modest and 
+variable (IC50 values 420–3100 nM (203–1495 ng/ml); (Figure 1E). 
+Some of these concentrations were below the achievable trough 
+plasma level (250 ng/ml) in humans (35); all were below the maxi-
+mal documented achievable peak plasma level (1508 ng/ml) (36). 
+Interestingly, the sporadic MPNST cell line (STS26T), expressing 
+low levels of Ras-GTP (39), was least sensitive to PD0325901. Rela-
+tive to other tumor cell lines, especially BRAF mutant cells (average 
+IC50 values < 10 nM) (40), MPNST cells were not particularly sensi-
+tive to MEK inhibition in vitro.
+
+To exclude PD0325901 off-target effects, we utilized a MEK 
+mutant,  L115P,  predicted  to  block  interaction  of  MEK  and 
+PD0325901 (33). Expressing this mutant protein in the NF1-defi-
+
+cient tumor cell line MPNST 8814 blocked ERK activation and cell 
+proliferation in PD0325901-treated cells. Importantly, expression 
+of the mutant did not block the effects of PD098059, a structur-
+ally unrelated MEK inhibitor (Supplemental Figure 3).
+
+To  test  the  effect  of  MEK  inhibition  on  MPNST  in  vivo, 
+S462TY MPNST cells derived from an NF1 patient were implant-
+ed into nu/nu mice (41) and treated with PD0325901 at a dose  
+(10 mg/kg/d) comparable to the dose previously tested in the 
+clinic (35, 36, 42). Inhibiting MEK activity diminished tumor 
+growth (Figure 1F) and doubled survival (mean survival = 22.5 vs. 
+52.5 days; P < 0.0001) (Figure 1G). We did not observe complete 
+suppression of tumor growth in vivo, supporting the moderate 
+response to MEK inhibition in vitro.
+
+Efficacy of PD0325901 on neurofibroma growth in vivo. In Nf1fl/fl; 
+Dhh-Cre mice, the Nf1 gene is deleted exclusively in Schwann cells. 
+All Nf1fl/fl;Dhh-Cre mice develop multiple neurofibromas with his-
+tological identity to human neurofibromas (25). Nf1fl/fl;Dhh-Cre 
+mice neurofibroma growth rates can be measured using serial 
+volumetric MRI analysis (30). Neurofibroma growth rates vary 
+among mice, mimicking human neurofibromas, which are also 
+monitored by serial MRI. There is less than 10% variability in mea-
+surement of the same tumor from 2 individuals, and tumor size 
+measured by MRI has been verified by direct dissection (43). We 
+measured tumor volume at 5 (Figure 2, A and D) and 7 (Figure 2, 
+B and E) months. Eighteen tumor-bearing mice were randomly 
+assigned to PD0325901 treatment (10 mg/kg/day) (Figure 2F); 
+10 received vehicle (Figure 2C). All tumors in an individual mouse 
+responded equally to treatment. Therefore, we compared the sum 
+of tumor volumes in each individual mouse before and after treat-
+
+342 
+
+The Journal of Clinical Investigation      http://www.jci.org      Volume 123      Number 1      January 2013
+
+research articleBecause  this  dose  of  MEK 
+inhibitor  has  been  reported  to 
+cause  toxicity  in  human  trials 
+after  prolonged  exposure  (35, 
+36,  42),  we  also  analyzed  mice 
+for  effects  at  lower  doses  of 
+PD0325901.  Sixteen  mice  were 
+treated  with  5  mg/kg  and  15 
+mice with 1.5 mg/kg PD0325901. 
+The 1.5 mg/kg PD0325901 dose 
+in  mice  provided  a  concentra-
+tion  similar  to  that  which  will 
+be  tested  in  upcoming  human 
+trials  (8  mg  BID).  A  striking 
+reduction  in  neurof ibroma 
+volumes  was  achieved  after  
+60 days of PD0325901 treatment  
+(Figure 2G). Remarkably, tumor 
+volumes  were  reduced  in  mice 
+treated  with  1.5  mg/kg  (10/15 
+mice),  5  mg/kg  (15/16  mice), 
+or  10  mg/kg  (14/18  mice) 
+PD0325901 (P < 0.001 each dose; 
+mixed models analysis; Supple-
+mental  Figure  4).  PD0325901 
+was well tolerated with no appar-
+ent toxicity at any dose.
+
+Reduced  tumor  volume  sug-
+gested  that  cell  proliferation 
+or  cell  death  might  be  altered 
+in  neurofibromas.  Cell  prolif-
+eration was decreased at the end 
+point of PD0325901 treatment 
+of Nf1fl/fl;Dhh-Cre neurofibromas 
+(Figure  3A).  Similar  effects  on 
+cell proliferation were observed 
+at all 3 doses (P < 0.001). Apop-
+tosis was not observed at the end 
+of the experiment (not shown), 
+but neurofibromas did regress. 
+MPNST xenografts treated with 
+PD0325901  showed  a  mod-
+est  and  marginally  significant  
+(P < 0.05) reduction in proliferat-
+ing Ki67+ cells (Figure 3B) relative 
+to  neurofibromas  (Figure  3A).  
+Similar effects on MPNST pro-
+liferation  were  observed  with 
+short-term (11 days) or long-term  
+(28 days) exposure to PD0325901 
+(Figure  3B).  Double  labeling 
+tumor  sections  with  Ki67  and 
+CNPase, a Schwann cell marker, 
+indicated that many of the prolif-
+erating cells were Schwann cells 
+(Figure 3, C and D).
+
+Figure 3
+Molecular mechanism of PD0325901 in Nf1fl/fl;Dhh-Cre neurofibromas and MPNST xenografts. (A and B) 
+Assessment of proliferation in neurofibromas and MPNSTs by quantification of Ki67+ cells as compared 
+with hematoxylin-stained nuclei. (A) Neurofibromas in Nf1fl/fl;Dhh-Cre mice treated with 1.5, 5.0, or 10 mg/kg  
+PD0325901 for 60 days showed a significant (***P < 0.001) reduction in the percentage of Ki67+ cells rela-
+tive to mice treated with control vehicle. (B) Mice harboring MPNST xenografts treated with PD0325901 
+for 11 days and 28 days show a significant (*P < 0.05) reduction in the percentage of Ki67+ cells relative 
+to mice treated with control vehicle. (C and D) Labeling of Ki67+ proliferating cells (green), CNPase+ (red) 
+Schwann cells, and DAPI+ (blue) cell nuclei in Nf1fl/fl;Dhh-Cre neurofibromas (C) and MPNST xenografts 
+(D). Arrows represent double-label cells (Ki67+; CNPase+). Scale bar: 50 μm. (E and F) Assessment of 
+vasculature in neurofibromas and MPNSTs by quantification of MECA+ endothelial cells. Number of 
+blood vessels per high-powered field was significantly (**P < 0.01) reduced in both neurofibromas (E) and 
+MPNSTs (F) in response to PD0325901. (G–J) p-S6K is detected in mouse neurofibromas (G and H) and 
+human MPNST xenografts (I and J); p-S6K levels decrease in response to treatment with PD0325901 
+(H and J) relative to control (G and I). (K–N) p-AKT is detected in mouse neurofibromas (K and L) and 
+human MPNST xenografts (M and N), and p-AKT levels do not change in response to treatment with 
+PD0325901 (L and N) relative to control (K and M). Scale bars: 50 μm.
+
+ment with vehicle or PD0325901. For statistical analyses, we also 
+studied 20 historical controls, untreated mice, and vehicle-treat-
+ed control mice from the same genotype and strain background 
+imaged previously.
+
+In addition to effects on tumor cell proliferation, the number 
+of MECA+ blood vessels was significantly reduced in both neuro-
+fibromas (Figure 3E; P = 0.003) and MPNST (Figure 3F; P = 0.008) 
+subsequent to PD0325901 treatment. This may have resulted indi-
+
+ 
+
+The Journal of Clinical Investigation      http://www.jci.org      Volume 123      Number 1      January 2013 
+
+343
+
+research articleFigure 4
+Negative feedback regulation of p-ERK in Dhh-Cre neurofibromas. (A–H) Brown staining indicates detection of p -ERK in paraffin tissue sections. 
+Nf1fl/fl;Dhh-Cre mouse p-ERK staining is robust in carrier-treated neurofibroma (A and E), but is absent 30 minutes after treatment with 10 mg/kg (B) 
+or 1.5 mg/kg (F) PD0325901. p-ERK becomes detectable 6 hours (C) after treatment with 10 mg/kg PD0325901 and returns to pretreatment levels by 
+24 hours (D). p-ERK also becomes detectable 6 hours (G) after treatment with 1.5 mg/kg PD0325901, but does not return to pretreatment levels by  
+24 hours (H). Scale bars: 50 μm. (I–K) qRT-PCR assessment of Ras pathway negative feedback. (I) Independent qRT-PCR confirmation of microarray 
+data (Supplemental Figure 1B) showing overexpression of SPRY4 and DUSP6 in Nf1fl/fl;Dhh-Cre neurofibromas relative to WT mouse nerve. (J) 
+Fold-change in SPRY4 and DUSP6 gene expression relative to pretreatment (control) at 6 and 24 hours after treatment with 10 mg/kg PD0325901, 
+reflecting changes in p-ERK observed in (A–D). (K) Fold change in SPRY4 and DUSP6 gene expression relative to pretreatment (control) at 6 and 
+24 hours after treatment with 1.5 mg/kg PD0325901, reflecting changes in p-ERK observed in E and F. Error bars represent mean ± SD.
+
+rectly from effects of tumor cells on endothelial cells or directly 
+through effects on blood vessels. In either case, changes in tumor 
+vasculature likely contributed to changes in tumor volume.
+
+Interestingly, we observed reduced p-S6K in PD0325901-treated 
+Nf1fl/fl;Dhh-Cre neurofibromas, but not MPNSTs (Figure 3, G–J), 
+suggesting that S6K is in part downstream of MEK in NF1 benign 
+tumor cells. A reduction in p-S6K after MEK inhibition was also 
+observed in melanoma cell lines (44). Ras/PI3K/Akt is a Ras path-
+way alternative to Ras/Raf/MEK/ERK, but PD0325901 did not 
+affect p-AKT levels in neurofibromas or MPNSTs (Figure 3, K–N), 
+validating PD0325901 specificity as a MEK inhibitor.
+
+PD0325901 maintains MEK inhibition at low doses in Nf1fl/fl;Dhh-Cre 
+neurofibromas. To determine whether the Raf/MEK/ERK negative 
+feedback mechanism suggested by the microarray data (Supple-
+mental Figure 1, B and C) was valid, we analyzed p-ERK and 
+expression of 2 candidate genes, SPRY4 and DUSP6, at the end 
+of the 60-day treatment period of Nf1fl/fl;Dhh-Cre with low-dose  
+(1.5 mg/kg) and high-dose (10 mg/kg) PD0325901. As observed 
+with high-dose treatment of MPNST xenografts (Figure 1, A–D), 
+p-ERK was reduced in Nf1fl/fl;Dhh-Cre neurofibromas relative to 
+control (Figure 4A) by 30 minutes (Figure 4B), remained low at  
+6 hours (Figure 4C), and was robust at 24 hours after the last dose 
+of drug (Figure 4D). Reduced p-ERK was observed whether neuro-
+fibromas shrank or did not shrink after exposure to PD0325901 
+
+(not shown). Similar results were observed with the low-dose treat-
+ment at 30 minutes and 6 hours (Figure 4, E–G). However, in sec-
+tions from mice treated with 1.5 mg/kg MEK inhibitor, p-ERK 
+remained suppressed at 24 hours (Figure 4H).
+
+We confirmed overexpression of SPRY4 and DUSP6 in Nf1 fl/fl; 
+Dhh-Cre neurofibromas relative to WT mouse nerve (Figure 4I). 
+Expression of SPRY4 and DUSP6 mRNA was each reduced relative 
+to vehicle control–treated mice at 6 hours following the last dose 
+of PD0325901 at 10 mg/kg (Figure 4J) or 1.5 mg/kg (Figure 4K)  
+PD0325901. However, a significant increase in expression at  
+24 hours was only observed with the higher dose (Figure 4, J and 
+K). These data suggest that different levels of MEK inhibition 
+differentially affect accumulation of mRNAs encoding negative 
+feedback regulators of ERK. Importantly, the data are consistent 
+with the response of neurofibromas to single-agent MEK inhibi-
+tion, even at low doses.
+
+Discussion
+A primary goal of this study was to identify and evaluate gene 
+expression signatures shared between human NF1 tumors and 
+GEM Nf1 models. We posited that shared signatures would reveal 
+critical mechanisms of tumorigenesis and key therapeutic targets 
+to facilitate preclinical studies and development of NF1 thera-
+peutics. Functional enrichment analysis identified a prominent 
+
+344 
+
+The Journal of Clinical Investigation      http://www.jci.org      Volume 123      Number 1      January 2013
+
+research articletheme, Raf/MEK/ERK suppression, shared between mouse and 
+human. Despite this transcriptional signature, ERK signaling 
+remained activated in NF1 tumors and inhibiting Raf/MEK/ERK 
+signaling with a MEK inhibitor diminished tumor cell growth. 
+Our data set provides a wealth of gene expression information and 
+supports MEK signaling as an important clinical target in NF1.
+
+Our results identify a transcriptional response to suppress Raf/
+MEK/ERK  activity  in  neurofibromas  and  MPNST,  including 
+overexpression of DUSP and Sprouty family members, feedback 
+inhibitors of Raf/MEK/ERK signaling. Expression of DUSP fam-
+ily members was reported in response to NF1 ablation in human 
+fibroblasts (17) and KRAS2-activating mutations in lung tumors 
+(45), suggesting a common mechanism of suppression in Ras-
+driven tumors. Elevated SPRY4 expression was also reported in 
+response to NF1 deficiency in fibroblasts, and exogenous expres-
+sion of SPRY2 induced senescence in NF1-deficient fibroblasts (17). 
+DUSP and Sprouty genes are members of a 52-gene transcriptional 
+profile that is specifically downstream of Raf/MEK/ERK signaling; 
+these genes are expressed at high levels in tumor cell lines with an 
+activating Raf mutation (V600EBRAF) but not tumor cell lines with 
+receptor tyrosine kinase (RTK) activation (46). Consistent with our 
+results in Nf1fl/fl;Dhh-Cre neurofibromas, PD0325901 MEK inhibi-
+tion reduces expression of these genes and blocks cell proliferation 
+in tumor cell lines with an activating Raf mutation (40).
+
+The PD0325901-induced reduction of neurofibroma volume in 
+39/49 (80%) of neurofibroma-bearing Nf1fl/fl;Dhh-Cre mice repre-
+sents the most dramatic result described to date for treatment of 
+neurofibroma-bearing mice. In contrast, RAD001 did not decrease 
+neurofibroma volume, and sorafenib, a multikinase inhibitor, 
+decreased tumor volume in only 5 of 9 (56%) mice (30). Imatinib, 
+a tyrosine kinase inhibitor, showed an un-quantified effect on 
+tumor burden in another neurofibroma mouse model (29). Plexi-
+form neurofibromas have a slow growth rate and a complex non-
+spherical shape. Therefore, standard response criteria for malig-
+nant solid tumors have limited applicability. A more sensitive 
+and reproducible method of response evaluation for human NF1 
+plexiform neurofibromas was developed, evaluating response and 
+progression using volumetric MRI analysis. Response is defined as 
+20% or greater decrease in tumor volume compared with baseline, 
+and progression is defined as 20% or greater increase in tumor vol-
+ume compared with baseline (32). Plexiform neurofibroma shrink-
+age has not been observed in clinical trials, with the exception of 
+up to 22% in response to pegintron (47) and rarely in response to 
+imatinib (48). The method of volumetric MRI analysis used in our 
+preclinical studies is identical to the method used in clinical trials, 
+and we used identical response criteria.
+
+Similar to our results, a previous study reported variable effects 
+on MPNST cell survival in vitro with the MEK inhibitor from 
+which PD0325901 was derived, PD184352 (CI-1040) (49). In con-
+trast, the PD0325901 MEK inhibitor showed a robust, yet tran-
+sient, in vivo effect on survival, possibly due to effects on tumor 
+vasculature. We did not observe persistent apoptosis following 
+PD0325901 treatment in vivo, in contrast with effects in vitro 
+(49). Due to the multiplicity of Ras effectors and complexity of 
+negative feedback regulation, therapeutic strategies against more 
+aggressive Ras-related tumors are likely to include combinations 
+of compounds that target multiple points in the Ras signaling 
+network (40, 50–52). These studies support the investigation of 
+combinatorial effects of PD0325901 with additional Ras pathway 
+inhibitors in NF1 tumors.
+
+Our results provide preclinical evidence implicating PD0325901 
+as a candidate NF1 therapeutic agent. This was unexpected, as the 
+MEK inhibitor from which PD0325901 was derived failed to show 
+efficacy in a GEM model of Nf1 JMML (53). Recently, PD0325901 
+was found to be effective in reversing myeloproliferative dis-
+ease in an activated KRas mouse model (54) and in Nf1-driven 
+JMML (33), likely due to the more persistent inhibition of MEK 
+by PD0325901, a second-generation MEK inhibitor modified to 
+improve efficacy for clinical cancer trials (55). Collectively, these 
+studies suggest that Raf/MEK/ERK is a critical pathway in NF1.
+
+Preliminary studies reported adverse effects after prolonged treat-
+ment of patients with advanced cancers with 10 mg or more BID 
+PD0325901 (35, 36, 42). MPNST xenografts were only moderately 
+sensitive to PD0325901 treatment at this dose, likely requiring 
+combination therapies for MPNST treatment. However, the results 
+of our experiments suggest that the lowest dose of 1.5 mg/kg in our 
+preclinical neurofibroma mouse model, equivalent to 8 mg BID in 
+humans, is as effective in inhibiting tumor growth as the higher dose 
+of 10 mg/kg, supporting evaluation of new dosing schedules in clin-
+ical trials of PD0325901. Furthermore, the lower dose (1.5 mg/kg)  
+appeared more effective in maintaining inhibition of MEK, with 
+the higher dose activating the negative feedback response and 
+elevating p-ERK to pretreatment levels. Fine-tuning the long-term 
+maximal effective dose below the threshold of negative feedback 
+may be relevant to monitoring PD0325901 in the clinic.
+
+In summary, NF1 mutation causing neurofibromatosis results in 
+hyperactive Ras, potentially activating numerous downstream signal-
+ing pathways. However, a successful targeted therapy in humans has 
+not yet been developed. Combining mouse and human transcrip-
+tome data focused attention on increased expression of genes that 
+suppress the Raf/MEK/ERK arm of Ras signaling. This transcrip-
+tional repression does not apparently compensate, as ERK phosphor-
+ylation was detected in neurofibromas and MPNST. Furthermore, 
+inhibition of neurofibroma and MPNST growth with PD0325901 
+indicated dependence of both tumor types on sustained Raf/MEK/
+ERK signaling. The results of our preclinical tests of PD0325901 in 
+MPNST and neurofibroma support investigation of MEK inhibitors 
+as candidate therapeutics in the treatment of Ras-related diseases, 
+including NF1 and other “RASopathies” (56). In addition, NF1 muta-
+tions are frequently found in tumor types other than neurofibroma 
+and MPNST, including glioblastoma (57), lung adenocarcinoma 
+(58), and ovarian cancer (59). Thus, PD0325901 may be a potential 
+molecular-targeted treatment for a wide variety of disorders.
+
+Methods
+Gene expression microarray. Mouse RNA isolation, hybridization and data nor-
+malization, mouse-human ortholog mapping and cross-species data integra-
+tion are described in Supplemental Methods. Mouse microarray data can be 
+accessed in the GEO MIAME-compliant public database (GSE41747).
+
+In vitro MPNST cytotoxicity assay. MPNST cell lines (STS26T, ST8814, 
+S462, S462TY, T265p21) were obtained and maintained as described 
+(41). All MPNST cell lines were derived from NF1 patients except STS26T. 
+MPNST cells were plated in quadruplicate for each dose of PD0325901 
+MEK inhibitor (gift of Pfizer Inc.). 24 hours after plating, cells were treated 
+with vehicle alone (0.1% DMSO) or inhibitor. Cell viability was quantified 
+96 hours after treatment by MTS assay as described (22).
+
+Transient transfection of MPNST cells. Nucleofection and Western analyses 
+
+are described in Supplemental Methods.
+
+MPNST xenograft. The subcutaneous NF1–/– S462-TY human MPNST 
+xenograft model has been previously described (41, 60). Administration 
+
+ 
+
+The Journal of Clinical Investigation      http://www.jci.org      Volume 123      Number 1      January 2013 
+
+345
+
+research articleand dose of PD0325901 were determined by previous animal studies (61). 
+Daily oral gavage of vehicle (0.5% [w/v] methylcellulose solution with 0.2% 
+[v/v] polysorbate 80 [Tween 80] or 10 mg/kg PD0325901 in vehicle) was 
+given for 28 days beginning when tumors reached 200 mm3 3–4 weeks 
+after injection. We measured tumors and weighed mice twice weekly once 
+tumors began enlarging. Tumor volume was calculated as follows: L × W2 
+(π/6), where L is the longest diameter and W is the width. Mice were treated 
+until tumors reached 2500 mm3 or a maximum of 92 days. 100% of control 
+tumors reached 2500 mm3. Two of 18 PD0325901-treated mice did not 
+reach 2500 mm3; one showed complete and sustained remission at 150 days.  
+Survival was analyzed by log-rank test using GraphPad Prism.
+
+Neurofibroma MRI and tumor volume measurement. MRI and tumor vol-
+ume measurement of Nf1fl/fl;Dhh-Cre mice was conducted as described (30). 
+Mice were administered vehicle control (0.5% [w/v] methylcellulose solu-
+tion with 0.2% [v/v] polysorbate 80 [Tween 80] or PD0325901 [1.5, 5.0, 
+or 10 mg/kg/d]) by oral gavage for 60 days. Due to the high cost of per-
+forming serial MRI, littermate controls (n = 5) were allocated to the vehicle 
+treatment group. In addition, historical controls (n = 20) were untreated 
+or vehicle-treated control mice from the same genotype and strain back-
+ground imaged over the 18 months preceding these experiments; these 
+were included to increase statistical power (mixed effects model analysis).
+MPNST statistical analysis. For MPNST, computing the mean and SEM 
+based solely on surviving mice created downward bias, as mice with large 
+tumors required sacrifice. We analyzed the longitudinally collected tumor 
+volumes together across time points and conducted mixed effects analysis 
+with autoregressive within-mouse dependent structure. Missing data from 
+sacrificed mice with large tumors constituted a missing-at-completely-ran-
+dom (MACR) condition, under which the mixed effects analysis provided 
+consistent estimates of mean tumor volume and SEM (62).
+
+Immunohistochemistry. Paraffin sections were deparaffinized, hydrated 
+and transferred to 0.1 M citrate buffer (pH 6.0) for antigen retrieval. Slides 
+were boiled for 10 minutes in citrate buffer, cooled at room temperature 
+for 30 minutes, then rinsed in water twice and in PBS 3 times. Sections 
+were quenched with 3% hydrogen peroxide for 10 minutes, rinsed in PBS, 
+and blocked in 10% normal goat serum with 0.3% Triton X-100. Sections 
+were incubated overnight in primary antibody diluted in block; rabbit 
+pERK (#4370, 1:200, Cell Signaling; see Supplemental Methods), rabbit 
+Ki67 (1:10,000; Novocastra), rat MECA 32 (1:5; Developmental Studies 
+Hybridoma Bank), rabbit pS6Kinase (1:800; Cell Signaling), rabbit pAKT 
+(1:50), and mouse CNPase (1:750; MAB226, Millipore). Sections were then 
+incubated in appropriate biotinylated secondary antibodies; goat anti-rab-
+bit or goat anti-rat (1:200; Vector). Some sections were counterstained with 
+Harris hematoxylin. Numbers of MECA+ blood vessels were counted in 10 
+×20 fields per MPNST (n = 5) and 5 ×20 fields per neurofibroma (n = 5)  
+for each condition. Statistical comparisons between control and tumor 
+samples were conducted using Student’s t test. All microscopic images were 
+acquired with Openlab software suites on a Zeiss Axiovert 200.
+
+For double labeling, paraffin sections were processed for antigen retriev-
+al as above and incubated overnight in a cocktail of 2 of the following 
+primary antibodies: rabbit p-ERK (1:200; 4370, Cell Signaling), mouse 
+CNPase (1:750; MAB226, Millipore), rabbit Ki67 (1:1000; Novocastra), and 
+rat MECA 32 (1:5; Developmental Studies Hybridoma Bank). Sections were 
+then incubated with a cocktail of 2 appropriate secondary antibodies: Goat 
+anti-rabbit Alexa Fluor 488 (1:800; Invitrogen), goat anti-mouse Alexa 
+Fluor 594 (1:1200; Invitrogen), and goat anti-rat Alexa Fluor 594 (1:1200; 
+Invitrogen). Sections were stained with DAPI (1:10,000) to visualize cell 
+nuclei and mounted with Fluoromount G. Pictures were taken under a 
+fluorescent microscope, and cells were counted using ImageJ software.
+
+qRT-PCR. mRNAs were extracted from WT sciatic nerves, Nf1fl/fl;Dhh-Cre 
+mouse neurofibromas, and PD0325901- or vehicle-treated Nf1fl/fl;Dhh-Cre 
+
+mouse neurofibromas using the Mini-mRNA isolation kit (QIAGEN). 
+The mRNA was reverse-transcribed using the Superscript Preamplifica-
+tion System (Gibco; Invitrogen). Superscript II reverse transcriptase was 
+used in the reaction, as per the manufacturer’s protocol. Duplicate samples 
+lacking reverse transcriptase were conducted to control for genomic DNA 
+contamination. Primers were designed and synthesized by Integrated DNA 
+Technologies (IDT) for quantitative RT-PCR (qRT-PCR) of SPRY4 and 
+DUSP6 (SPRY4F: 5′-TGTGAATCCCAGCTCAGTCATGGT-3′; SPRY4R: 
+5′-ATTCTCCACGTGGCTGGTCTTCAT-3′; DUSP6F: 5′-TGCCCAATCT-
+GTTTGAGAATGCGG-3′;  DUSP6R:  5′-CAATGCACCAGGACACCA-
+CAGTTT-3′). Mouse tubulin primers (IDT) were included in each reaction 
+as a positive control for cDNA. Triplicate reactions were performed in an ABI 
+Prism 7500 as described (63). For statistical analyses, 3 mice were included 
+for each treatment group. Relative gene expression was calibrated to tubu-
+lin expression. Fold change of SPRY4 or DUSP6 in untreated Nf1fl/fl;Dhh-Cre 
+mouse neurofibromas compared with WT levels or in PD0325901-treated 
+Nf1fl/fl;Dhh-Cre mouse neurofibromas compared with vehicle-treated Nf1fl/fl; 
+Dhh-Cre mouse neurofibromas was calculated using the ΔΔCT method.
+
+Statistics. For gene expression microarray data analyses, ANOVA tests 
+were used to identify transcripts differentially expressed; all tests were cor-
+rected for multiple testing effects by applying the Benjamini and Hochberg 
+false discovery rate correction. Significance was accepted at P < 0.05 for 
+all biological experiments. MPNST survival analyses used Kaplan Meier 
+analysis followed by a Gehan-Breslow-Wilcox log-rank test. Neurofibro-
+ma growth was modeled by Mixed Effects Model Analysis; we generated  
+P values with a random effects model analysis on log transformed tumor 
+volume data using the SAS mixed procedure. Proliferation, cell death, and 
+blood vessel quantification used 2-tailed Student’s t test.
+
+Study approval. Human paraffin-embedded tissues were collected under 
+Cincinnati Children’s Hospital Medical Center (CCHMC) IRB approval. 
+Informed consent was not required, as we used archival samples from a 
+tissue bank that remained anonymous. The CCHMC Animal Use and Care 
+Committee approved all animal use.
+
+Acknowledgments
+We thank Jan Manent for processing human nerve samples, 
+Kevin Shannon (UCSF) for numerous helpful discussions and 
+providing the mutant MEK L115P construct, Pfizer for provid-
+ing PD0325901 for preclinical testing, and Mila McCurrach for 
+organization of the CTF Preclinical Consortium. We thank Mar-
+garet Collins (CCHMC) for providing human tissue samples. 
+We gratefully acknowledge support from the DAMD Program 
+on  Neurofibromatosis  for  the  NF1  Microarray  Consortium 
+(DODW81XWH- 09-1-0135 and W81XWH-04-1-0273 to N. Rat-
+ner) and the Children’s Tumor Foundation for support to the 
+NF1 Preclinical Consortium (to T.P. Cripe and N. Ratner), and a 
+Bench to Bedside Award for MRI Analyses (NIH-P50-NS05753). 
+W.J. Jessen was supported in part by an ARRA supplement to 
+NIH grant R01-NS28840.
+
+Received for publication January 25, 2012, and accepted in revised 
+form October 23, 2012.
+
+Address correspondence to: Nancy Ratner, Children’s Hospital Medi-
+cal Center, Division of Experimental Hematology and Cancer Biology, 
+3333 Burnet Ave., M.L.C. 7013, Cincinnati, Ohio 45229, USA. Phone: 
+513.636.9469; Fax: 513.636.3549; E-mail: Nancy.Ratner@cchmc.org.
+
+Walter J. Jessen’s present address is: Biomarker Center of Excel-
+lence, Covance, Greenfield, Indiana, USA.
+
+346 
+
+The Journal of Clinical Investigation      http://www.jci.org      Volume 123      Number 1      January 2013
+
+research article  1. Theos A, Korf BR. Pathophysiology of neurofibroma-
+
+tosis type 1. Ann Intern Med. 2006;144(11):842–849.
+
+  2. De Raedt T, et al. Somatic loss of wild type NF1 
+allele in neurofibromas: comparison of NF1 micro-
+deletion and non-microdeletion patients. Genes 
+Chromosomes Cancer. 2006;45(10):893–904.
+
+  3. Carli M, et al. Pediatric malignant peripheral nerve 
+sheath tumor: the Italian and German soft tissue 
+sarcoma  cooperative  group. J  Clin  Oncol.  2005; 
+23(33):8422–8430.
+
+  4. Evans  DG,  Baser  ME,  McGaughran  J,  Sharif  S, 
+Howard E, Moran A. Malignant peripheral nerve 
+sheath  tumours  in  neurofibromatosis  1. J Med 
+Genet. 2002;39(5):311–314.
+
+  5. Friedrich RE, Hartmann M, Mautner VF. Malig-
+nant peripheral nerve sheath tumors (MPNST) 
+in  NF1-affected  children. Anticancer  Res.  2007; 
+27(4A):1957–1960.
+
+  6. McCaughan JA, Holloway SM, Davidson R, Lam 
+WW. Further evidence of the increased risk for 
+malignant peripheral nerve sheath tumour from a 
+Scottish cohort of patients with neurofibromatosis 
+type 1. J Med Genet. 2007;44(7):463–466.
+
+  7. Huson SM, et al. Back to the future: proceedings from 
+the 2010 NF Conference. Am J Med Genet A. 2011; 
+155A(2):307–321.
+
+  8. Carroll  SL,  Ratner  N.  How  does  the  Schwann 
+cell  lineage  form  tumors  in  NF1?  Glia.  2008; 
+56(14):1590–1605.
+
+  9. McCormick F. Ras signaling and NF1. Curr Opin 
+
+Genet Dev. 1995;5(1):51–55.
+
+  10. Le LQ, Parada LF. Tumor microenvironment and 
+neurofibromatosis type I: connecting the GAPs. 
+Oncogene. 2007;26(32):4609–4616.
+
+  11. Sherman LS, Atit R, Rosenbaum T, Cox AD, Rat-
+ner N. Single cell Ras-GTP analysis reveals altered 
+Ras activity in a subpopulation of neurofibroma 
+Schwann cells but not fibroblasts. J Biol Chem. 2000; 
+275(39):30740–30745.
+
+  12. Basu TN, Gutmann DH, Fletcher JA, Glover TW, 
+Collins  FS,  Downward  J.  Aberrant  regulation 
+of ras proteins in malignant tumour cells from 
+type 1 neurofibromatosis patients. Nature. 1992; 
+356(6371):663–664.
+
+  13. DeClue JE, et al. Abnormal regulation of mamma-
+lian p21ras contributes to malignant tumor growth 
+in von Recklinghausen (Type 1) neurofibromatosis.  
+Cell. 1992;69(2):265–273.
+
+  14. Downward J. Targeting RAS signalling pathways in 
+
+cancer therapy. Nat Rev Cancer. 2003;3(1):11–22.
+
+  15. Collado  M,  et  al.  Tumour  biology:  senes-
+cence  in  premalignant  tumours.  Nature.  2005; 
+436(7051):642.
+
+  16. Narita M, Lowe SW. Senescence comes of age. Nat 
+
+Med. 2005;11(9):920–922.
+
+  17. Courtois-Cox S, et al. A negative feedback signaling 
+network underlies oncogene-induced senescence. 
+Cancer Cell. 2006;10(6):459–472.
+
+  18. Cox AD, Der CJ. Ras history: the saga continues. 
+
+Small Gtpases. 2010;1(1):2–27.
+
+  19. Katz D, Lazar A, Lev D. Malignant peripheral nerve 
+sheath tumour (MPNST): the clinical implications 
+of cellular signalling pathways. Expert Rev Mol Med. 
+2009;11:e30.
+
+  20. Weiss B, Bollag G, Shannon K. Hyperactive Ras as a 
+therapeutic target in neurofibromatosis type 1. Am 
+J Med Genet. 1999;89(1):14–22.
+
+  21. Bodempudi V, et al. Ral overactivation in malignant 
+peripheral nerve sheath tumors. Mol Cell Biol. 2009; 
+29(14):3964–3974.
+
+  22. Johansson G, et al. Effective in vivo targeting of the 
+mammalian target of rapamycin pathway in malig-
+nant peripheral nerve sheath tumors. Mol Cancer 
+Ther. 2008;7(5):1237–1245.
+
+  23. Johannessen CM, Reczek EE, James MF, Brems H, 
+
+Legius E, Cichowski K. The NF1 tumor suppressor 
+critically regulates TSC2 and mTOR. Proc Natl Acad 
+Sci U S A. 2005;102(24):8573–8578.
+
+  24. Zhu Y, Ghosh P, Charnay P, Burns DK, Parada 
+LF. Neurofibromas in NF1: Schwann cell origin 
+and  role  of  tumor  environment. Science.  2002; 
+296(5569):920–922.
+
+  25. Wu J, et al. Plexiform and dermal neurofibromas 
+and pigmentation are caused by Nf1 loss in des-
+ert hedgehog-expressing cells. Cancer Cell. 2008; 
+13(2):105–116.
+
+  26. Zheng H, et al. Induction of abnormal proliferation 
+by nonmyelinating schwann cells triggers neurofi-
+broma formation. Cancer Cell. 2008;13(2):117–128.
+  27. Joseph NM, et al. The loss of Nf1 transiently pro-
+motes self-renewal but not tumorigenesis by neural 
+crest stem cells. Cancer Cell. 2008;13(2):129–140.
+
+  28. Gitler  AD,  et  al.  Nf1  has  an  essential  role  in 
+
+endothelial cells. Nat Genet. 2003;33(1):75–79.
+
+  29. Yang FC, et al. Nf1-dependent tumors require a 
+microenvironment  containing  Nf1+/–  and  c-kit-
+dependent bone marrow. Cell. 2008;135(3):437–448.
+  30. Wu J, et al. Preclincial testing of Sorafenib and 
+RAD001  in  the  Nf(flox/flox);DhhCre  mouse 
+model of plexiform neurofibroma using magnetic 
+resonance  imaging.  Pediatr  Blood  Cancer.  2012; 
+58(2):173–180.
+
+  31. Solomon J, Warren K, Dombi E, Patronas N, Wide-
+mann B. Automated detection and volume mea-
+surement of plexiform neurofibromas in neurofi-
+bromatosis 1 using magnetic resonance imaging. 
+Comput Med Imaging Graph. 2004;28(5):257–265.
+
+  32. Dombi  E,  et  al.  NF1  plexiform  neurofibroma 
+growth rate by volumetric MRI: relationship to age 
+and body weight. Neurology. 2007;68(9):643–647.
+
+  33. Chang T, et al. Sustained MEK inhibition abro-
+gates  myeloproliferative  disease  in Nf1  mutant 
+mice. J Clin Invest. 2013;123(1):335–339.
+
+  34. Miller SJ, et al. Integrative genomic analyses of 
+neurofibromatosis tumours identify SOX9 as a 
+biomarker and survival gene. EMBO Mol Med. 2009; 
+1(4):236–248.
+
+  35. Haura EB, et al. A phase II study of PD-0325901, an 
+oral MEK inhibitor, in previously treated patients 
+with  advanced  non-small  cell  lung  cancer. Clin  
+Cancer Res. 2010;16(8):2450–2457.
+
+  36. LoRusso PM, et al. Phase I pharmacokinetic and phar-
+macodynamic study of the oral MAPK/ERK kinase 
+inhibitor PD-0325901 in patients with advanced 
+cancers. Clin Cancer Res. 2010;16(6):1924–1937.
+
+  37. Bain  J,  et  al.  The  selectivity  of  protein  kinase 
+inhibitors:  a  further  update.  Biochem  J.  2007; 
+408(3):297–315.
+
+  38. Sebolt-Leopold JS, Herrera R. Targeting the mito-
+gen-activated protein kinase cascade to treat cancer.  
+Nat Rev Cancer. 2004;4(12):937–947.
+
+  39. Mahller YY, Rangwala F, Ratner N, Cripe TP. Malig-
+nant peripheral nerve sheath tumors with high and 
+low Ras-GTP are permissive for oncolytic herpes 
+simplex virus mutants. Pediatr Blood Cancer. 2006; 
+46(7):745–754.
+
+  40. Solit DB, et al. BRAF mutation predicts sensitivity to 
+
+MEK inhibition. Nature. 2006;439(7074):358–362.
+
+  41. Patel AV, et al. Ras-driven transcriptome analysis 
+identifies aurora kinase a as a potential malignant 
+peripheral nerve sheath tumor therapeutic target. 
+Clin Cancer Res. 2012;18(18):5020–5030.
+
+  42. Boasberg PD, Redfern CH, Daniels GA, Bodkin D, 
+Garrett CR, Ricart AD. Pilot study of PD-0325901 
+in previously treated patients with advanced mela-
+noma,  breast  cancer,  and  colon  cancer. Cancer  
+Chemother Pharmacol. 2011;68(2):547–552.
+
+  43. Wu  J,  et  al.  Preclincial  testing  of  sorafenib  and 
+RAD001 in the Nf(flox/flox);DhhCre mouse model 
+of plexiform neurofibroma using magnetic resonance 
+
+imaging. Pediatr Blood Cancer. 2012;58(2):173–180.
+
+  44. Ciuffreda L, et al. Growth-inhibitory and antian-
+giogenic activity of the MEK inhibitor PD0325901 
+in malignant melanoma with or without BRAF 
+mutations. Neoplasia. 2009;11(8):720–731.
+
+  45. Sweet-Cordero A, et al. An oncogenic KRAS2 expres-
+sion  signature  identified  by  cross-species  gene-
+expression analysis. Nat Genet. 2005;37(1):48–55.
+
+  46. Pratilas CA, et al. (V600E)BRAF is associated with 
+disabled feedback inhibition of RAF-MEK signaling 
+and elevated transcriptional output of the pathway. 
+Proc Natl Acad Sci U S A. 2009;106(11):4519–4524.
+
+  47. Jakacki RI, et al. Phase I trial of pegylated interfer-
+on-alpha-2b in young patients with plexiform neu-
+rofibromas. Neurology. 2011;18(3):265–272.
+
+  48. Robertson KA, et al. Phase II pilot study of ima-
+tinib mesylate in neurofibromatosis (NF1) patients 
+with plexiform neurofibromas. J Clin Oncol. 2011; 
+29(suppl; abstract 10030).
+
+  49. Mattingly RR, et al. The mitogen-activated protein 
+kinase/extracellular signal-regulated kinase kinase 
+inhibitor PD184352 (CI-1040) selectively induces 
+apoptosis in malignant schwannoma cell lines.  
+J Pharmacol Exp Ther. 2006;316(1):456–465.
+
+  50. Gysin S, Salt M, Young A, McCormick F. Thera-
+peutic strategies for targeting ras proteins. Genes 
+Cancer. 2011;2(3):359–372.
+
+  51. Sos ML, et al. Identifying genotype-dependent effi-
+cacy of single and combined PI3K- and MAPK-path-
+way inhibition in cancer. Proc Natl Acad Sci U S A.  
+2009;106(43):18351–18356.
+
+  52. Gioeli D, et al. Compensatory pathways induced by 
+MEK inhibition are effective drug targets for com-
+bination therapy against castration-resistant pros-
+tate cancer. Mol Cancer Ther. 2011;10(9):1581–1590.
+  53. Lauchle JO, et al. Response and resistance to MEK 
+inhibition in leukaemias initiated by hyperactive 
+Ras. Nature. 2009;461(7262):411–414.
+
+  54. Lyubynska N, et al. A MEK inhibitor abrogates 
+myeloproliferative disease in Kras mutant mice. Sci 
+Transl Med. 2011;3(76):76ra27.
+
+  55. Sebolt-Leopold JS, English JM. Mechanisms of drug 
+inhibition of signalling molecules. Nature. 2006; 
+441(7092):457–462.
+
+  56. Rauen KA, et al. Costello and cardio-facio-cutane-
+ous syndromes: Moving toward clinical trials in 
+RASopathies. Am J Med Genet C Semin Med Genet. 
+2011;157(2):136–146.
+
+  57. Masica  DL,  Karchin  R.  Correlation  of  somatic 
+mutation and expression identifies genes impor-
+tant in human glioblastoma progression and sur-
+vival. Cancer Res. 2011;71(13):4550–4561.
+
+  58. Ding L, et al. Somatic mutations affect key path-
+ways  in  lung  adenocarcinoma.  Nature.  2008; 
+455(7216):1069–1075.
+
+  59. Cancer Genome Atlas Research Network. Integrat-
+ed genomic analyses of ovarian carcinoma. Nature. 
+2011;474(7353):609–615.
+
+  60. Mahller YY, et al. Tissue inhibitor of metallopro-
+teinase-3 via oncolytic herpesvirus inhibits tumor 
+growth and vascular progenitors. Cancer Res. 2008; 
+68(4):1170–1179.
+
+  61. Brown AP, Carlson TC, Loi CM, Graziano MJ. Phar-
+macodynamic and toxicokinetic evaluation of the 
+novel MEK inhibitor, PD0325901, in the rat follow-
+ing oral and intravenous administration. Cancer 
+Chemother Pharmacol. 2007;59(5):671–679.
+
+  62. Liu  C,  Cripe  TP,  Kim  MO.  Statistical  issues  in 
+longitudinal data analysis for treatment efficacy 
+studies in the biomedical sciences. Mol Ther. 2010; 
+18(9):1724–1730.
+
+  63. Miller SJ, et al. Large-scale molecular comparison 
+of human schwann cells to malignant peripheral 
+nerve sheath tumor cell lines and tissues. Cancer 
+Res. 2006;66(5):2584–2591.
+
+ 
+
+The Journal of Clinical Investigation      http://www.jci.org      Volume 123      Number 1      January 2013 
+
+347
+
+research article

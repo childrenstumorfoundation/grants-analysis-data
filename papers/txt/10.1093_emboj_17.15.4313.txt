@@ -1,0 +1,1779 @@
+The EMBO Journal Vol.17 No.15 pp.4313–4327, 1998
+
+Structural analysis of the GAP-related domain from
+neuroﬁbromin and its implications
+
+Klaus Scheffzek1,
+Mohammad Reza Ahmadian,
+Lisa Wiesmu¨ ller2, Wolfgang Kabsch3,
+Patricia Stege, Frank Schmitz and
+Alfred Wittinghofer
+
+Max-Planck-Institut fu¨r molekulare Physiologie, Rheinlanddamm 201,
+44139 Dortmund and 3Max-Planck-Institut fu¨r medizinische
+Forschung, Jahnstrasse 29, 69120 Heidelberg, Germany
+2Present address: Heinrich Pette Institut fu¨r experimentelle Virologie
+an der Universita¨t Hamburg, Martinistrasse 52, 20251 Hamburg,
+Germany
+1Corresponding author
+e-mail: Klaus.Scheffzek@mpi-dortmund.mpg.de
+
+Neuroﬁbromin is the product of the NF1 gene, whose
+alteration is responsible for the pathogenesis of neuro-
+ﬁbromatosis type 1 (NF1), one of the most frequent
+genetic disorders in man. It acts as a GTPase activating
+protein (GAP) on Ras; based on homology to p120GAP,
+a segment spanning 250–400 aa and termed GAP-
+related domain (NF1GRD; 25–40 kDa) has been shown
+to be responsible for GAP activity and represents the
+only functionally deﬁned segment of neuroﬁbromin.
+Missense mutations found in NF1 patients map to
+NF1GRD, underscoring its importance for patho-
+genesis. X-ray crystallographic analysis of a proteo-
+lytically treated catalytic
+fragment of NF1GRD
+comprising residues 1198–1530 (NF1-333) of human
+neuroﬁbromin reveals NF1GRD as a helical protein
+that resembles the corresponding fragment derived
+from p120GAP (GAP-334). A central domain (NF1c)
+containing all residues conserved among RasGAPs is
+coupled to an extra domain (NF1ex), which despite
+very limited sequence homology is surprisingly similar
+to the corresponding part of GAP-334. Numerous point
+mutations found in NF1 patients or derived from
+genetic screening protocols can be analysed on the
+basis of the three-dimensional structural model, which
+also allows identiﬁcation of the site where structural
+changes in a differentially spliced isoform are to be
+expected. Based on the structure of
+the complex
+between Ras and GAP-334 described earlier, a model
+of the NF1GRD–Ras complex is proposed which is
+used to discuss the strikingly different properties of the
+Ras–p120GAP and Ras–neuroﬁbromin interactions.
+Keywords: cancer/GTP-hydrolysis/neuroﬁbromatosis/
+NF1/Ras
+
+Introduction
+Neuroﬁbromatosis
+Recklinghausen neuroﬁbromatosis,
+
+type 1 (NF1), also termed von
+is a common auto-
+
+somal dominant disease affecting ~1 in 3500 individuals
+(Riccardi, 1981, 1991; Riccardi and Eichner, 1986). Mul-
+tiple so-called ‘cafe´ au lait’ spots, Lish nodules of the
+iris, and neuroﬁbromas, benign cutaneous tumours, are
+hallmarks of the disease with important diagnostic relev-
+ance. While several manifestations are benign in character
+some of them involve a signiﬁcant risk of developing
+malignant or fatal traits, such as plexiform lesions or optic
+glioma (Gutmann and Collins, 1993). Therefore, NF1 has
+been grouped together with familial cancer syndromes
+(Bader, 1986).
+
+The NF1 gene has been identiﬁed to code for a large
+transcript that is disrupted or mutated in patients affected
+with NF1 (Cawthon et al., 1990; Viskochil et al., 1990;
+Wallace et al., 1990). Since the gene appeared to be
+inactivated in tumours it has been postulated to act as a
+tumour suppressor (Ponder, 1990; Stanbridge, 1990). In
+spite of conﬂicting genetic results, experimental evidence
+accumulated during the past few years indicate that loss
+of heterozygosity (LOH) precedes ﬁbrosarcomas and other
+lesions, with a somatic mutation following an inherited
+mutant allele (Serra et al., 1997).
+
+NF1 codes for a protein comprising 2818 amino acids
+(Marchuk et al., 1991) termed neuroﬁbromin (~280 kDa)
+that is found in the particulate fraction bound to a very
+large protein (DeClue et al., 1991). Analysis of the
+predicted protein sequence revealed homology between a
+segment spanning 250 amino acids with high and an
+additional 150 amino acids with lower homology to Ras-
+speciﬁc GTPase activating proteins (Xu et al., 1990a)
+such as p120GAP (Trahey and McCormick, 1987) and its
+yeast homologues IRA1 and IRA2 (Tanaka et al., 1990a,b,
+1991). Biochemical analyses and functional comple-
+mentation tests in yeast established this segment as a
+functional GAP-related domain (NF1GRD) that is able to
+stimulate GTP-hydrolysis on normal but not oncogenic
+Ras (Ballester et al., 1990; Martin et al., 1990; Xu et al.,
+1990b), thus linking neuroﬁbromatosis to the regulation
+of the Ras–MAP kinase pathway and its activation by
+oncogenes (Lowy and Willumsen, 1993). It has indeed
+been found that Ras is mostly in the GTP-bound form in
+cell lines established from malignant
+tumours without
+functional neuroﬁbromin (Basu et al., 1992; DeClue et al.,
+1992; Guha et al., 1996), suggesting that neuroﬁbromin
+is a major regulator of Ras in the parental cells due to
+its GAP activity. Further studies indicate that another
+mechanism of NF1-mediated tumour suppression is pos-
+sibly independent of its GAP activity (Nakafuku et al.,
+1993; Johnson et al., 1994; Griesser et al., 1995). Four
+differentially spliced isoforms have been detected so far
+(Gutmann et al., 1995), one of which, the type II transcript,
+is characterized by a 21 amino acids insertion within the
+GAP-related domain (GRD; Nishi et al., 1991; Suzuki
+et al., 1991; Andersen et al., 1993). Somatic mutations in
+
+© Oxford University Press
+
+4313
+
+K.Scheffzek etal.
+
+NF1 have been shown to map to the GRD and affect the
+interaction with Ras (Li et al., 1992; Purandare et al.,
+1994; Upadhyaya et al., 1997; Klose et al., 1998), under-
+scoring the importance of this part of the protein for
+proper neuroﬁbromin function. Neuroﬁbromin has been
+shown to associate with microtubules (Gregory et al.,
+1993) thus linking its function to aspects of structural
+reorganization of the cytoskeleton. It binds tubulin and
+the binding region presumably overlaps with NF1GRD
+since tubulin inhibits GAP activity (Bollag et al., 1993).
+The fundamental physiological importance of neuroﬁb-
+romin is underscored by the observation that mice with
+a targeted disruption of the neuroﬁbromin locus are
+embryonically lethal and show abnormalities of neural
+crest-derived tissues (Brannan et al., 1994; Jacks et al.,
+1994).
+
+We have previously determined the structure of GAP-
+334 (Scheffzek et al., 1996), the NF1GRD homologue in
+p120GAP, and of its complex with Ras (Scheffzek et al.,
+1997). Together with biochemical analyses (Mittal et al.,
+1996; Ahmadian et al., 1997b) this enabled us to character-
+ize the Ras–RasGAP interaction and to elucidate the
+mechanism of GTPase activation. In order to address the
+speciﬁc issues underlying neuroﬁbromin function, we
+report here the crystal structure of NF1GRD, determined
+from a proteolytically treated fragment comprising
+residues 1198–1530 (NF1-333). Signiﬁcant but limited
+homology with GAP-334 suggested structural similarity
+but also differences that might account for the strikingly
+different biochemical behaviour of the two proteins: (i) on
+a structural level, the minimal domain with full catalytic
+activity obtainable by limited proteolysis or recombinant
+expression is 270 residues for p120GAP, compared with
+230 for neuroﬁbromin (Ahmadian et al., 1996). (ii) For
+neuroﬁbromin, a fragment of 91 residues has been deﬁned
+to retain some catalytic activity and yet does not contain
+residues thought to be critical for catalysis, and an even
+smaller fragment with anti-oncogenic activity from the
+C-terminus of the catalytic fragment has been reported
+(Nur-E-Kamal et al., 1993; Fridman et al., 1994). The
+putative catalytic activity of these fragments could not be
+reconciled with the structure of GAP-334 or of its complex
+with Ras, raising the possibility of signiﬁcant deviations
+in the NF1GRD–Ras interaction pattern. (iii) The afﬁnity
+of neuroﬁbromin for Ras-GTP is 50- to 100-fold higher
+than that of p120GAP, and the kinetics of association and
+dissociation are much faster for the latter (Eccleston et al.,
+1993; Ahmadian et al., 1997a). (iv) Although the catalytic
+activity of both GAPs is generally sensitive to the presence
+of detergents, speciﬁc inhibition of neuroﬁbromin can be
+obtained by applying selective compounds such as dodecyl
+maltoside (Bollag and McCormick, 1991).
+
+On the basis of our structural model we analyse these
+features together with mutations found in NF1 patients or
+derived from mutational studies. In addition, we discuss
+aspects of NF1–tubulin interaction and, on the basis
+of the Ras–RasGAP complex, propose a Ras–NF1GRD
+complex model that should be an approximation of the
+transition state of the GTPase reaction.
+
+Results and discussion
+Structuredeterminationandmodelquality
+The structure was determined by X-ray crystallographic
+analysis of crystals obtained from proteolytically treated
+
+4314
+
+NF1-333 (described in Materials and methods). Since
+attempts to solve the structure by molecular replacement
+using the coordinates of GAP-334 (protein data bank
+accession code 1WER) as a search model were not
+successful, we used the Multiple Isomorphous Replace-
+ment (MIR) method. Using mercury and platinum deriva-
+tives we obtained a heavy atom model suitable for initial
+phase determination with a data set of 2.5 Å resolution,
+collected from six untreated crystals on the synchrotron
+beam line X11 at EMBL (c/o DESY; Hamburg, Germany),
+as native reference (Table I; Materials and methods). The
+initial electron density map (Figure 1A) was readily
+interpretable and could accommodate a Cα-model corres-
+ponding to the central domain (GAPc) of GAP-334
+(Scheffzek et al., 1996), which served as a guide during
+subsequent model building and reﬁnement. Remaining
+density within the asymmetric unit could be explained
+in part by N-terminal extension of this model up to residue
+1206. Two further helices turned out to represent segments
+derived from the C-terminal region of NF1-333 (Figure
+1A). Analysis of dissolved crystals or of the protein
+solution used for crystallization by polyacrylamide gel
+electrophoresis revealed two major components to be
+present in the crystals. N-terminal sequencing along with
+mass spectroscopy suggested that protease treatment of
+NF1-333 had nicked the polypeptide chain close to the
+position of Ser1474. The structural
+integrity of NF1-
+333 appears to remain basically unaffected by protease
+digestion. The observed crystal packing is consistent
+with an NF1GRD protein cleaved in the segment con-
+taining the proteinase K cleavage site, and would not be
+compatible with uncleaved NF1-333 in the asymmetric
+unit.
+
+A high degree of mobility appears to be characteristic
+of the NF1-333 in our crystals with extensive regions
+remaining without well deﬁned electron density. In suc-
+cessive rounds of interactive model building (program
+‘O’; Jones et al., 1991 and reﬁnement (program X-PLOR;
+Bruenger, 1991), residues showing sufﬁcient electron
+density were incorporated into the model, that presently
+contains 260 residues of NF1-333 deﬁning regions 1206–
+1304, 1331–1403, 1412–1463, 1485–1503 and 1514–1530,
+with interspacing segments predominantly ill-deﬁned in
+the electron density map. In the present model, ~30
+residues were built as alanine or glycine because of unclear
+side-chain density. A segment of the ﬁnal 2Fo–Fc map is
+shown in Figure 1B. Reﬁnement statistics and model
+quality are summarized in Table II, including those for
+the GAP-334 model which had not been completed at the
+time of its publication (Scheffzek et al., 1996). The current
+R-factor is 27% (Rfree ⫽ 37%), which is comparatively
+high and at least in part reﬂects residual electron density
+that could not be explained in terms of ordered polypeptide
+chains. For the following reasons we are very conﬁdent
+that the current NF1GRD model is largely correct: (i) we
+used the MIR method for structure determination, thus
+our initial phases are unbiased by the GAP model that
+only served as a guide for model building; (ii) coordinates
+of heavy atom sites are consistent with the mercury
+compound binding to cysteines; (iii) a loop which by
+sequence comparison contains three amino acids less than
+the corresponding stretch in GAP-334 is correspondingly
+shorter in NF1-333 (Figure 1C; see below). Thus, together
+
+Table I. Structure determination
+Crystal: a ⫽ 88.2 Å; b ⫽ 58.3 Å; c ⫽ 74.8 Å; α ⫽ γ ⫽ 90°, β ⫽ 118.1°; spacegroup C2
+
+Structure of neuroﬁbromin GAP
+
+Data collection:
+resolution (Å)
+No. obs. reﬂections
+No. uniq. reﬂections
+completeness (%)
+Rsym
+RF
+
+d (%)
+
+e (%)
+
+MIR-analysis:
+
+f
+
+resolution (Å)
+No. sites
+RC
+FH/Eg
+⬍m⬎h
+
+Native
+
+2.5
+50 100
+11 665
+99.8
+7.3
+–
+
+15–2.5
+–
+–
+–
+0.5
+
+CH3HgCla
+
+b
+CH3HgCl/K2PtCl4
+
+c
+ICH2COOH/K2PtCl4
+
+3
+14 694
+6191
+91.6
+5.4
+33.1
+
+15–3
+3
+0.5
+1.8
+
+3.5
+13 533
+4019
+96.5
+6.3
+38.3
+
+15–3.5
+5
+0.43
+2.1
+
+3
+18 658
+6262
+92.6
+4.9
+26.3
+
+15–3
+3
+0.76
+0.9
+
+i
+
+h
+
+|Ihi – Ih|/ Σ
+Σ
+h |FPH – FP|/ Σ
+h |PPH,obs – FPH,calc|/ Σ
+
+a1 mM, 12 h; b1 mM, 7 h/⫹0.1 mM, 15 h; c2 mM, 24 h/0.2 mM, 23 h.
+dRsym ⫽ Σ
+eRF ⫽ 2 Σ
+fRC ⫽ Σ
+gFH/E ⫽ √fH
+
+h |FPH,obs – FP|.
+2 / Σ (FPH,obs – FPH,calc)2, where fH
+
+2 are the heavy atom scattering factors.
+
+hi
+
+Ihi, where Ihi is the scaled intensity of the ith symmetry-related observation of reﬂection h, and Ih is the mean value.
+h |FPH ⫹ FP|, where FPH and FP are the derivative and native structure amplitudes.
+
+h⬍m⬎ ⫽ mean ﬁgure of merit.
+
+with the results of structure reﬁnement, several lines of
+evidence indicate that our structure determination presents
+a valid model of NF1GRD, suitable for analysis of various
+mutations associated with NF1 and with the structure of
+the Ras–GAP-334 complex at hand to discuss effects on
+the interaction with Ras.
+
+Overallstructure
+The purely helical protein is similar in structure to GAP-
+334 with a central domain (NF1c; segments 1253–1304,
+1331–1403 and 1412–1463) containing the conserved
+residues and an extra domain (NF1ex) that comprises
+segments 1206–1252, 1485–1503 and 1514–1530 (Figure
+2A and C). For graphic representation and clarity the
+regions missing from our NF1GRD model were comple-
+mented by the corresponding segments of the GAP-334
+model where they are mostly well-deﬁned. The two
+structures superimpose (Figure 2B) with an r.m.s.d. value
+of 1.83 Å when comparing the positions of 243 correspond-
+ing Cα-atoms using program ‘O’ (Jones et al., 1991). The
+largest differences are seen in the extra domain where
+helix α1ex appears to be shifted by ~3 Å in comparison
+with the corresponding helix in GAPex. The central domain
+coincides with a minimal catalytic fragment of neuro-
+ﬁbromin with full GAP activity, which was originally
+obtained by proteolysis and can be expressed as a recom-
+binant fusion protein and cleaved (Ahmadian et al., 1996).
+Interestingly, the corresponding fragment of p120GAP
+could not be expressed in Escherichia coli as a soluble
+protein. This suggests that despite close similarities in the
+primary sequence, subtle differences exist in the interaction
+patterns between the extra and the central domain in these
+two GAPs, and might inﬂuence ﬂexibility and/or exposure
+of hydrophobic residues. With regard to the absence of
+sequence homology within the extra domains of GAP-
+
+that
+
+334 and NF1GRD, and to the fact
+they are not
+involved in the interaction with Ras-GTP, their structures
+are surprisingly similar. This suggests a conserved function
+for this part of the proteins, possibly serving structural
+‘assistance’ for the central catalytic GAP modules. A
+detailed analysis of this issue will have to await
+the
+structure determination of other RasGAPs, which show
+no or very limited sequence homology outside the central
+catalytic domain (Figure 2C).
+
+Regions of high mobility predominantly include seg-
+ments connecting helices as indicated in Figure 2A and
+B. As extrapolated from the GAP-334 model, an extended
+chain linking the C-terminal end of NF1c to NF1ex contains
+the proteinase K cleavage site; since the corresponding
+region is ﬂexible in GAP-334 as well, it is unlikely that
+this is due to cleavage in NF1-333: rather, ﬂexibility
+makes this region more accessible to the protease. It is
+possible that the extensive mobility which is also reﬂected
+in the high Wilson B-factor (~50 Å2) provides an explan-
+ation why poor diffraction quality is common in most of
+our previously obtained crystals containing fragments of
+NF1GRD.
+
+TheRas-bindinggroove
+Given the similarity of GAP-334 and NF1-333, we use
+corresponding structural annotations and can identify the
+Ras-binding site as the groove in the surface of NF1c,
+which is bordered mainly by the ﬁnger loop (L1c) along
+with part of helix α2c and by the variable loop (L6c;
+Figure 2A and C) (Scheffzek et al., 1997). Helix α6c is
+less distorted than in GAPc with only Phe1392, next to
+the FLR-ﬁnger print motif of RasGAPs, interrupting the
+ideal helix geometry. Various hydrophobic and polar
+residues cover the ﬂoor of the groove, comprising con-
+served/invariant residues and amino acids that are different
+
+4315
+
+K.Scheffzek etal.
+
+Fig. 1. Aspects of structure determination (stereo views). (A) Experimental MIR map, (contoured at 20% of the maximum) calculated with phases
+derived from the heavy atom model. The Cα-traces of the central (blue) and extra domain (yellow) are included. (B) Segment of the 2Fo–Fc map
+(contoured at 1.2 σ) covering the C-terminal half of helix α7c and the variable loop (L6c) after structure reﬁnement with the model included. A
+segment of a neighbouring molecule covering residues 1373–1377 [see (C)] is shown in pink. (C) Section comparing NF1GRD (blue) and GAP-334
+(red) in the region of the loop preceding α6c, showing a three residue insertion in GAP-334 (see Figure 2B). Arginine 1375 contacts the N-terminal
+region of the ﬁnger loop. The corresponding situation is found for Lys884 in GAP-334.
+
+from their GAP-334 counterparts. The most prominent
+deviation is seen in position 1419 where a lysine protrudes
+into the groove, corresponding to an isoleucine (Ile931)
+in GAP-334 (see below). p120GAP and NF1GRD are
+inhibited by a large number of lipids, some of which act
+
+differentially (Bollag and McCormick, 1991; Golubic
+et al., 1991; Serth et al., 1991; Tsai et al., 1991). Using
+appropriate concentrations of arachidonate, phosphatidate
+and phosphatidylinositol-3,4-bisphosphate, NF1GRD can
+inhibited without disturbing p120GAP activity.
+be
+
+4316
+
+Table II. Reﬁnement statistics
+
+Reﬁnement
+
+NF1-333
+
+GAP-334a
+
+Resolution (Å)
+No. reﬂections
+b (%)
+Rcryst
+c (%)
+Rfree
+⬍B⬎ (Å2)
+r.m.s. bond length (Å)
+r.m.s. bond angle (°)
+
+30–2.5
+10 926 (F ⬎2 s)
+27
+37
+46.8
+0.008
+1.2
+
+5–1.6
+40 803
+22.1
+27.1
+26.1
+0.007
+0.9
+
+aReﬁnement statistics for the ﬁnal model as released in the PDB.
+bRcryst ⫽ Σ
+
+Foh, where Foh and Fch are the observed
+
+h |Foh – Fch|/ Σ
+
+h
+
+and calculated structure factor amplitudes for reﬂection h.
+cR-factor calculated for 10% randomly chosen reﬂections not included
+in the reﬁnement.
+
+Likewise, dodecyl maltoside has been used to distin-
+guish between neuroﬁbromin and p120GAP activity in
+crude cell extracts (Bollag and McCormick, 1991). It is
+probable that the amino acid composition in the groove
+region contributes
+signiﬁcantly to these differential
+properties. The structure suggests that these properties
+arise from a few residues in this region. Mutational
+analysis would be a powerful tool to address this question
+in more detail.
+
+The ﬁnger loop appears to be more ﬂexible than in
+GAP-334; as in GAP-334 the stretch preceding the ﬁnger
+arginine (Arg1276) is stabilized by a phenylalanine and a
+leucine participating in a hydrophobic core. The orientation
+of the loop is stabilized by the FLR-arginine (Arg1391),
+the structural and functional equivalent of Arg903 in GAP-
+334. The N-terminal region of the ﬁnger loop appears to
+be stabilized by Arg1375 which is packed against the
+neighbouring Phe1376 and belongs to the loop connecting
+helices α5c and α6c. In GAP-334 an equivalent situation
+can be observed, where Lys884, packed against Trp885,
+interacts with the N-terminal part of the ﬁnger loop. The
+loop carrying Lys884 contains three residues more than
+the NF1GRD counterpart and therefore appears as a
+‘bulge’ in a structural overlay (Figure 1C). The variable
+loop is in a similar conformation to that which it adopts
+in GAP-334 with Ala948 as an extra amino acid in GAP-
+334, in support of the idea that this loop is of variable
+length in RasGAPs (Scheffzek et al., 1997).
+
+Theminimumcatalyticdomain,acontroversy?
+Conﬂicting evidence to localize the minimal fragment of
+NF1GRD able to stimulate Ras-mediated GTP-hydrolysis
+has been reported. Originally, a 483 residue fragment of
+neuroﬁbromin was classiﬁed as a GAP-related domain
+(Martin et al., 1990), and was later shown to have similar
+enzymatic properties as full-length neuroﬁbromin (Bollag
+and McCormick, 1993). In analogy to p120GAP where
+the 334 C-terminal amino acids were shown to be sufﬁcient
+for GAP activity (Marshall et al., 1989), NF1-333, homo-
+logous in sequence to GAP-334, and similar constructs
+were shown to be fully active and were extensively
+analysed
+equilibrium methods
+(Wiesmu¨ller and Wittinghofer, 1992; Brownbridge et al.,
+1993; Eccleston et al., 1993; Nixon et al., 1995; Ahmadian
+et al., 1997a). Finally, proteolysis experiments and recom-
+
+kinetically
+
+and
+
+by
+
+Structure of neuroﬁbromin GAP
+
+binant expression studies showed a 230 residue fragment
+(Asp1248 to Phe1477; Figure 2C) to retain full catalytic
+activity (Ahmadian et al., 1996). From these experiments
+together with the crystal structures of GAP-334 (Scheffzek
+et al., 1996) and NF1GRD (this paper) we conclude that
+the central domains indeed represent minimum RasGAP-
+modules.
+
+Using a deletion cloning approach a fragment of 91
+amino acids (NF91; 1441–1531; Figure 2C) was identiﬁed
+to reverse the malignant phenotype induced by v-H-Ras,
+and to carry GAP activity, although 20-fold lower than
+NF1GRD (Nur-E-Kamal et al., 1993). In the structure this
+fragment would start at the C-terminal end of the variable
+loop and comprise helices α8c, α4ex-α6ex (Figures 2C and
+3), and thus be located completely outside the region that
+has been found to interact with Ras in the Ras–RasGAP
+complex (Scheffzek et al., 1997) and contains none of the
+critical residues of RasGAPs. One would have to postulate
+that the GAP activity reported for the NF91 fragment or
+its smaller relative NF78 (Fridmann et al., 1994) occurs
+by a mechanism that uses a protein–protein interface
+different
+the Ras–RasGAP
+complex. Site-directed mutagenesis of Arg1441 which is
+in a region reported to be critical for the function of
+this fragment might be a useful approach to address
+this issue.
+
+from that described for
+
+Patientmutationsandstructure–functionstudies
+Locations of mutations discussed in this section are
+summarized in the model shown in Figure 3. A variety
+of alterations in the NF1 gene have been found in tissues
+from NF1 patients, with no apparent hot-spot region (Shen
+et al., 1996). Very large deletions of up to 190 kb, and
+nonsense mutations all lead to truncation of the protein
+product, whereas small deletions induce frameshifts. A
+limited number of missense mutations has been described,
+20% of which are found in the catalytic and 1% in the
+extra domain of NF1GRD, some of which affect the GAP-
+activity (Figures 2A and C, and 3) (Li et al., 1992;
+Purandare et al., 1994; Upadhyaya et al., 1997; Klose
+et al., 1998; P.Nu¨rnberg, unpublished).
+
+Lysine 1423 appears to be the most frequently altered
+residue and has been found mutated to glutamate or
+glutamine in neuroﬁbromas as well as in solid tumours
+not associated with neuroﬁbromatosis, which reportedly
+inhibits the GAP activity (Li et al., 1992; Upadhyaya
+et al., 1997). Extensive analyses of this residue by site-
+directed mutagenesis have tested every natural amino acid
+substitution along with biochemical/biological character-
+ization of the mutant proteins (Poullet et al., 1994). These
+studies showed that the original wild-type residue lysine
+in position 1423 is the only amino acid that results in a
+functional protein, and suggest decreased Ras afﬁnity as
+the major effect of Lys1423 mutations (Poullet et al.,
+in line with earlier data on Lys1423→Ser by
+1994),
+Gutmann et al. (1993). In the structure, Lys1423 is located
+on helix α7c from which it protrudes into the surface
+groove to interact with Glu1437 (Figures 1B and 4). As
+an analogous interaction is weak in isolated GAP-334
+(Scheffzek et al., 1996) but very prominent in complex
+with Ras (Scheffzek et al., 1997),
+it appears to be
+additionally stabilized during the interaction with the Ras
+target; it is conceivable that charge inversion in this region
+
+4317
+
+K.Scheffzek etal.
+
+(as in the mutation Lys1423→Glu) not only disrupts a
+favourable internal interaction but might also contribute
+to the accumulation of negative charges in the interface
+region which is unfavourable for the mostly acidic effector
+region of Ras entering the surface groove. Correspond-
+ingly, the replacement by arginine has been scored as the
+least, and by glutamate as the most severe mutation of
+Lys1423 (Poullet et al., 1994). Involvement of Lys1423
+in an intramolecular polar interaction was in fact proposed
+by Wiesmu¨ller and Wittinghofer (1992) on the basis of
+its mutation to methionine that produced a thermally
+unstable protein.
+
+In a yeast genetic screen, Poullet et al. (1994) identiﬁed
+
+mutations of Phe1434 to serine or leucine as second site
+suppressors of certain Lys1423 mutations. Phe1434 is
+found in the middle of the variable loop L6c and in
+concert with Met1440 and Phe1443 it contributes to core
+stabilization (Figures 1B and 4). Its mutation to serine
+would provide space and a hydrogen bonding partner for
+neighbouring residues, while introduction of leucine would
+predominantly modify the hydrophobic interaction pattern.
+Considering the corresponding ‘ﬁrst site’ mutations of
+Lys1423 it is difﬁcult to rationalize the suppressor effect
+from presumed direct changes in the interaction patterns.
+However, the architecture of the α7c/variable loop region
+shows positions 1423 and 1434 in proximity to each other
+
+Fig. 2. Structure of NF1-333. (A) Ribbon representation of the NF1-333 model. The central domain (NF1c) is in blue and the extra domain (NF1ex)
+in yellow. Regions that are not visible in our model were ‘complemented’ by the corresponding segments derived from the GAP-334 model and are
+shown in red (see Figure 2B). Helices α6c and α7c forming the bottom of the Ras-binding groove are shown in light blue. Side chains of selected
+residues presumably involved in polar interactions with Ras (see text) are indicated. K1436 (light grey) appears to be ﬂexible and is modelled
+stereochemically. (B) Structural overlay of NF1-333 (blue) and GAP-334 (red) in stereo representation. (C) Sequence alignment of RasGAPs using
+the models of NF1-333 and GAP-334 as references; assignment of the secondary structure elements is according to the program DSSP (Kabsch and
+Sander, 1983), thin bars indicate 310 helices, dotted lines regions of high mobility. Abbreviations of species: hs, Homo sapiens; sc, Saccharomyces
+cerevisiae; bt, Bos taurus; ss, Sus scrofa; rn, Rattus norvegicus; mm, Mus musculus; ce, Caenorhabditis elegans; dm, Drosophila melanogaster. The
+assignment for GAP-334 is based on the ﬁnal reﬁned model (Table II) deposited with the Protein Data Bank (PDB; accession code 1WER). The
+minimum catalytic domain (NF230) and the fragment reported by Nur-E-Kamal et al. (1993) (NF91) are indicated as are the proteinase K cleavage
+site (PK) and the location of the type II transcript insertion (21 aa ins) (see Figure 3). The positions of patient mutations are highlighted in yellow.
+Invariant residues are in red, conserved residues in blue. Amino acids reportedly involved in Ras–RasGAP interaction (Scheffzek et al., 1997) are
+shown in light blue boxes for p120GAP.
+
+4318
+
+Structure of neuroﬁbromin GAP
+
+4319
+
+K.Scheffzek etal.
+
+Fig. 3. Sites of NF1GRD mutations. Ribbon drawing of NF1-333 to illustrate the location of mutations found in NF1-patients (light grey spheres,
+indicated in grey boxes) or derived from mutational analyses (dark grey spheres). The position where 21 amino acids are inserted in the type II
+transcript is indicated. The extension of the Δ53 deletion (Gutmann et al., 1993) is shown in grey, the NF91 fragment reported by Nur-E-Kamal
+et al. (1993) is in green.
+
+Fig. 4. Details of NF1-333 structure. Segment of NF1-333 showing the putative Ras-binding groove with residues conserved between NF1GRD and
+GAP-334 shown in orange, and selected amino acids that are different in the two proteins and presumably contribute to differential properties in
+white. As in Figure 2A, side chain of K1436 is modelled stereochemically.
+
+(Figures 1B and 4) suggesting that they both contribute
+to the properties of this region that obviously inﬂuences
+the afﬁnity for Ras.
+
+Apart from Lys1423, two other residues located in helix
+
+α7c were found mutated in NF1 patients, Lys1419 and
+Leu1425. Sporadic mutations of Lys1419 were found in
+two cases, once mutated to glutamine (Upadhyaya et al.,
+1997) and to arginine in a patient showing no apparent
+
+4320
+
+that
+
+malignancy (Purandare et al., 1994), with no published
+biochemical characterization available for either of them.
+In the structure, Lys1419 protrudes into the surface groove
+(Figures 1B and 4) and in a hypothetical complex with
+Ras is in a position to form a salt bridge with Glu37
+(see below) from the Ras effector region. Since the
+corresponding residue in GAP-334 is an isoleucine
+(Ile931; see above) one might predict that Lys1419 is
+one of
+the determinants of neuroﬁbromin’s higher
+afﬁnity for Ras. Leucine 1425 (Klose et al., 1998) is
+in the C-terminal half of helix α7c (Figure 3) and
+mutation to proline would be likely to disrupt
+the
+helical geometry of this region, which contains residues
+Lys1423, Gln1426 and Asn1430, that are all important
+for successful interaction with Ras.
+Serine 1468 is located in a presumed extended chain
+following α8c, in a region not visible in our structure.
+From its location at the C-terminus of NF1c one would
+not expect
+the mutation to glycine as found in
+NF1-patients (Upadhyaya et al., 1997) interferes with
+catalysing the GTPase on Ras. Upadhyaya et al. (1997)
+have identiﬁed a patient mutation affecting Arg1391
+(Arg1391→Ser),
+that belongs to the FLR-ﬁngerprint
+motif of RasGAPs. Arg1391 is involved in catalysis
+(Mittal et al., 1996; Ahmadian et al., 1997b; Scheffzek
+et al., 1997) and its replacement by serine was shown
+to reduce GAP activity of neuroﬁbromin 300-fold,
+although its role in binding and/or catalysis was not
+differentiated (Upadhyaya et al., 1997). The importance
+of this residue has been recognized in early studies on
+p120GAP where mutation of Arg903 and Leu902
+drastically interfered with GAP function (Brownbridge
+et al., 1993; Skinner et al., 1994). Mittal et al. (1996)
+have shown that
+is no
+longer able to form a ternary complex with Ras-GDP
+and aluminium ﬂuoride (AlFx), the presumed transition
+state analogue of the GTPase reaction, pointing towards
+a contribution of
+this residue in catalysis. Different
+biochemical effects were observed by Upadhyaya et al.
+(1997), Gutmann et al. (1993) and Ahmadian et al.
+(1997b) for Arg1391 mutations, presumably reﬂecting
+non-kinetic measurements under different conditions.
+Under saturating, kinetically controlled conditions the
+replacement of Arg1391 by alanine decreased the rate
+of GTP hydrolysis 45-fold (Ahmadian et al., 1997b).
+In the structure of NF1-333, Arg1391 stabilizes the
+ﬁnger loop (L1c) by forming polar interactions with
+main chain carbonyl oxygens of residues adjacent
+to
+Arg1276, the other invariant arginine of RasGAPs, that
+is even more critical for catalysis (Figure 4; Ahmadian
+et al., 1997b; see below). Shortening the Arg1391 side
+than lysine
+chain by introducing amino acids other
+would disrupt
+loop
+and thus would be expected to interfere with GAP
+function.
+The substitution Arg1276→Pro was found as an
+apparently spontaneous mutation in an NF1 patient with
+a malignant schwannoma (Klose et al., 1998). It is the
+ﬁrst reported case where a missense mutation in the
+GRD shows such a particular severe phenotype. The
+patient had no other alterations in the NF1 alleles
+except
+the second NF1 allele is lost, suggesting
+that the loss of GAP function in this case was the major
+
+the interaction with the ﬁnger
+
+the Arg1391Met NF1-mutant
+
+that
+
+Structure of neuroﬁbromin GAP
+
+cause of disease development. Biochemical analysis of
+the recombinant mutant GRD suggested a structurally
+intact protein that binds to Ras-GTP but whose GAP
+activity is reduced 8000-fold, consistent with the ﬁnding
+that
+in the Ras–RasGAP complex the corresponding
+residue Arg789 from GAP-334 is in a position to
+stabilize the transition state of the GTPase reaction,
+thus being crucial for GAP catalysis (Scheffzek et al.,
+1997). The extremely critical role of this arginine has
+been demonstrated in another study showing that
+its
+replacement by lysine or alanine decreases the reaction
+rate by three orders of magnitude and abrogates the
+ability to form a ternary complex with Ras-GDP and
+AlFx (Ahmadian et al., 1997b). Given the similarity of
+NF1GRD and GAP-334, Arg1276 can be predicted to
+contact the nucleotide in a similar way as Arg789 does
+in the Ras–RasGAP complex.
+
+Site-directed mutagenesis of invariant or conserved
+residues belonging to different regions of neuroﬁbromin
+has been carried out by Gutmann et al. (1993) (Figure 3).
+According to the qualitative effects on GAP activity
+in vitro and the ability to suppress heat-shock sensitivity
+in vivo, they were basically grouped into those that behave
+like wild-type NF1GRD (Pro1395→Ile, Pro1400→Arg,
+Asn1430→Met), those that showed no activity in vitro or
+in vivo (Gln→1426Arg) and those that showed wild-
+type activity in intact cells but no activity in vitro
+(Glu1264→Tyr, Ala1281→Arg).
+Proline 1395 and Pro1400 are located in the C-terminal
+half of helix α6c and according to the Ras–RasGAP
+structure overlay, substitution by isoleucine or arginine
+need not necessarily interfere with Ras interaction, as
+observed by the authors. Asparagine 1430 is located at
+the C-terminal end of α7c (Figures 1B and 4), and the
+mutation Asn1430→Met has a moderate effect on GAP
+activity without disturbing the ability to complement
+GAP function in yeast. A complementary mutation,
+Asn1430→His, leads to higher Ras afﬁnity, supporting
+the notion that this residue is involved in, but not crucial
+for Ras interaction (Morcos et al., 1996).
+substitutions Glu1264→Tyr, Ala1281→Arg,
+Gln1426→Arg and Lys1423→Ser were reported to elimin-
+ate GAP activity. Glutamate 1264,
+invariant
+residue in the GRD-chain, is located at the C-terminal
+end of helix α1c (Figure 3) from where its carboxylate
+group interacts with the hydroxyl group of Ser1279, which
+belongs to the ﬁnger loop. The mutation to tyrosine might
+lead to destabilization of the ﬁnger-loop region, thereby
+abrogating GAP activity. Alanine 1281 sits at
+the
+N-terminus of helix α2c and is buried within a hydrophobic
+core. Introduction of arginine in this region by the mutation
+Ala1281→Arg would suggest disruption of structural
+stability as the major cause for the observed loss of GAP
+activity. Arginine in the position of Gln1426 (Figures 1B,
+3 and 4) is presumably too large to be accommodated in
+the Ras–NF1GRD interface region.
+In the study by Gutmann et al. (1993) a deletion
+(Δ53) spanning residues 1227–1281 was investigated,
+and complete loss of GAP function reported. Since this
+segment, which in the structure comprises basically the
+ﬁnger loop with the preceding helices α3ex and α1c (Figure
+3), contains the most critical arginine 1276, loss of GAP
+activity for Δ53 is not surprising. On the other hand, since
+
+the ﬁrst
+
+The
+
+4321
+
+K.Scheffzek etal.
+
+removal of at least helix α1c is likely to disrupt the protein
+core one would not even expect Δ53 to form a folded,
+soluble protein.
+
+restoring the inability of
+
+A set of mutations was found in a screen for NF1GRD
+the yeast Ras-
+mutants
+(Asp92→Lys) mutant (Wood et al., 1994) to interact with
+NF1GRD (Morcos et al., 1996). Most of these can be
+mapped to regions that belong to the surface groove of
+NF1GRD (Figure 3) and some were reported to have
+high afﬁnity to wild-type Ras as well. These include
+Arg1413→Gly, Lys1436→Arg, Arg1391→Lys
+and
+Arg1276→Gly; Arg1413 belongs to a region that is not
+well-deﬁned in our structure,
+therefore the effect of
+increased afﬁnity cannot be accounted for on the basis of
+our model. Lysine 1436 together with the subsequent
+glutamate deﬁnes the newly identiﬁed KE-motif in Ras-
+GAPs that
+is located on the tip of the variable loop
+(Figures 1B, 3 and 4) (Scheffzek et al., 1997). In the
+complex between Ras and GAP-334 it is in tight contact
+with an acidic patch presented by the effector loop
+(Scheffzek et al., 1997b). An arginine in this position
+would allow for even more polar interactions with this
+region and especially with Asp38, which is in excellent
+agreement with the increased afﬁnity observed by Mori
+et al. (1995), and as suggested by Nakafuku et al. (1993)
+who showed that
+this mutant can suppress oncogenic
+Ras transformation by a mechanism distinct from its
+GAP activity.
+The effect of the increased afﬁnity of the Arg1391→Lys
+mutant, also observed by Ahmadian et al. (1997b), and
+of Arg1276→Gly cannot be directly rationalized from the
+structure, but could indicate that the two arginines are not
+only unnecessary for the ground state of the Ras–RasGAP
+complex (Geyer et al., 1996; Ahmadian et al., 1997b),
+but may actually be inhibitory to it.
+
+LocationofthetypeIItranscriptinsertion
+An isoform of neuroﬁbromin resulting from alternative
+splicing has been found to be expressed in all tissues
+examined, although the relative amounts vary (Nishi
+et al., 1991; Suzuki et al., 1991; Andersen et al., 1993).
+This so-called type II transcript involves the insertion
+of a 21 amino acid stretch following Gln1370 (Figure
+3) and has no counterpart in p120GAP, IRA1 and IRA2.
+In the structural model an insertion in this position is
+likely to disrupt the C-terminal part of helix α5c, and
+to represent an exposed part of the GRD. From the
+two
+large number of charged residues (six lysines,
+glutamates) clustered in the C-terminal half of
+the
+insertion, one might hypothesize that its function involves
+the interaction with another protein, or maybe even
+with other regions of neuroﬁbromin itself. Biochemical
+analyses have detected weaker GAP activity of the type
+II isoform as compared with type I (Andersen et al.,
+1993), which is due to an apparent weaker binding to
+Ras (Rey et al., 1994). From the structure of NF1GRD
+and taking into consideration the complex of GAP-334
+with Ras, the insertion need not directly interfere with
+Ras binding, but rather modiﬁes the interaction by long-
+range electrostatic contributions.
+
+Tubulinbindingaspects
+Neuroﬁbromin has been found associated with micro-
+tubules, suggesting its involvement in microtubule-medi-
+
+4322
+
+ated signal transduction pathways (Gregory et al., 1993).
+Tubulin inhibits GAP activity and the tubulin-binding
+region appears to overlap with the GRD (Bollag et al.,
+1993). The structure of tubulin and of a bacterial homo-
+logue have been determined recently (Loewe et al., 1998;
+Nogales et al., 1998), revealing albeit distant similarity to
+the G-domain fold of Ras (Milburn et al., 1990; Pai et al.,
+1990). This supports the observation that Ras and tubulin
+share common binding sites on their neuroﬁbromin target.
+Mutations of neuroﬁbromin critical for the interaction
+with Ras have indeed been shown to affect the interaction
+with cytoplasmic microtubules as well (Xu and Gutmann,
+1997). However, marked differences in the interaction
+patterns are to be expected, since the tubulin–neuroﬁbro-
+min interaction depends on the presence of 80 residues
+upstream of NF1-333 (Bollag et al., 1993) while the Ras–
+NF1GRD interaction does not. In the NF1-333 structure
+(as in GAP-334), N- and C-termini are in proximity to
+each other (Figure 2A), raising the possibility that residues
+from both the N- (1095–1198) and C-terminus (1530–
+1569) of the GRD investigated by Bollag et al. (1993)
+contribute to the architecture of a region critical for
+tubulin binding.
+
+ImplicationsfortheinteractionwithRas
+The interaction of neuroﬁbromin with Ras has kinetic and
+thermodynamic characteristics very different from that of
+p120GAP. This reﬂects different physiological require-
+ments for this interaction, as demonstrated by the different
+localization of the two RasGAPs, the different phenotypes
+of gene knockouts in mice (Brannan et al., 1994; Jacks
+et al., 1994; Henkemeyer et al., 1995) and Drosophila
+(Gaul et al., 1992; The et al., 1997), and the fact
+that neuroﬁbromin but not p120GAP acts as a tumour
+suppressor in humans. With the structure of NF1GRD and
+that of the Ras–RasGAP complex represented by Ras-
+GDP–AlF3–GAP-334 at hand (Scheffzek et al., 1997), we
+are now able to propose a model for the NF1–Ras
+interaction by aligning the central domains of NF1GRD
+and GAP-334 in the Ras–RasGAP complex (Figure 5A).
+Since the Ras–RasGAP complex was crystallized in the
+presence of aluminium ﬂuoride, a transition state analogue
+that is believed to mimic the phosphoryl group transferred
+during the GTPase reaction (Chabre, 1990; Wittinghofer,
+1997), we propose this model
+to be an albeit rough
+approximation of the transition state of the NF1GRD
+accelerated GTPase reaction.
+
+While GTP-hydrolysis rate enhancement by NF1GRD
+is similar to that by GAP-334, binding afﬁnity for Ras
+is ~50-fold larger with NF1GRD (Gideon et al., 1992;
+Wiesmu¨ller and Wittinghofer, 1992; Brownbridge et al.,
+1993; Eccleston et al., 1993; Ahmadian et al., 1997a).
+Furthermore, both the association and dissociation rate
+constants for the GAP-334–Ras interaction are too fast
+to be measured, but can be estimated to be at least 2- and
+100-fold faster than the interactions with neuroﬁbromin,
+respectively. To understand this difference we have
+investigated the regions of the GAP domains interacting
+with Ras and screened for differences in amino acid
+composition. From this comparison we found few amino
+acids as candidate residues co-responsible for
+the
+difference in Ras afﬁnity. Lysine 1419 corresponds to
+an isoleucine in GAP-334 and is in a position where
+
+Structure of neuroﬁbromin GAP
+
+Fig. 5. On the Ras–NF1GRD interaction. (A) Hypothetical complex between Ras (grey) and NF1-333 (blue), modelled according to the structure of
+the Ras-GDP–AlF3–GAP-334 complex. Segments coloured in red are derived from the GAP-334 model and correspond to regions of presumed high
+mobility in NF1GRD. SwI, Switch I; SwII, Switch II. Positions of patient mutations affecting the interaction with Ras are indicated by grey spheres.
+(B) Stereo view of the region covering part of a hydrophobic core stabilization of which involves residues derived from the ﬁnger loop and from α6c
+(see text).
+
+the effector
+
+thus allowing a tight
+
+it might interact with Ras. The proposed Ras–NF1GRD
+region
+complex would bring Glu37 of
+within reach of Lys1419,
+ionic
+interaction that might contribute to Ras-binding afﬁnity.
+Another conspicuous difference in the Ras binding
+groove concerns Thr1286, which corresponds to Glu799
+in GAP. In the Ras–RasGAP complex, Glu799 has been
+pushed aside from its position in uncomplexed GAP-334,
+making room for the also negatively charged side chain
+of Glu63 from Ras. In the interaction of Ras with
+neuroﬁbromin, Thr1286 would be expected to remain
+a
+in
+incoming
+Glu63.
+
+interact with
+
+the
+
+position
+
+to
+
+It has been shown by biochemical and structural analyses
+that the most important function of GAP is to supply an
+arginine (the ﬁnger) situated on loop L1c (the ﬁnger loop)
+into the active site of Ras to stabilize the transition state
+of the GTPase reaction. A striking difference in the ﬁnger
+loop region is Ala790 of GAP-334, which is a glycine in
+most other RasGAPs including neuroﬁbromin (Figure 2C).
+With glycine being situated next to the ﬁnger arginine
+(Arg1276), NF1GRD might provide more ﬂexibility to
+the ﬁnger loop and thus allow tighter binding to Ras.
+Preliminary mutational
+this
+residue
+(M.Ahmadian, unpublished) supports this idea.
+
+analysis
+
+of
+
+In both NF1GRD and GAP-334, the ﬁnger loop is
+
+4323
+
+K.Scheffzek etal.
+
+stabilized by interactions with other regions of the protein,
+most importantly with the arginine derived from the FLR-
+motif located in the middle of helix α6c. We have
+shown before that this supporting arginine is important in
+catalysis in that its mutation to alanine reduces the activity
+of NF1-333 50-fold and abrogates the ability to form a
+ternary complex with Ras-GDP and AlFx, whereas muta-
+tion to lysine barely affects catalysis (Ahmadian et al.,
+1997b).
+In the GAP-334 structure the N-terminal half of helix
+α6c is slightly displaced compared with NF1GRD and
+appears to be shifted towards the hydrophobic core,
+stabilizing the helical arrangement. While most of the
+hydrophobic amino acids located in helix α6c are largely
+similar in NF1GRD and GAP-334, Ala1387 corresponds
+to a phenylalanine (Phe899) that is tightly involved in
+core stabilization. It appears that in the absence of the
+equivalent side chain in NF1GRD, helix α6c is less ﬁrmly
+anchored into the core and as a result (Figure 5B) the
+ﬁnger loop might close further down, with Phe1275
+becoming more deeply buried within the core. This idea
+is supported by the observation that
+in GAP-334 the
+corresponding Phe788 undergoes hydrophobic interaction
+with Phe899. As this is one of the most dramatic differ-
+ences in the amino acid composition we propose it to
+contribute at least in part to the structural differences in
+this region and possibly also to differences in the inter-
+action with Ras.
+
+Summarizing the comparison between the Ras–GAP-
+334 and Ras–NF1 interactions, we can observe that a
+major difference between the two systems is an increased
+ﬂexibility of NF1 compared with GAP-334. This might
+contribute to the slower binding of Ras to NF1GRD,
+which might need limited conformational adjustments in
+the latter for tight binding. To compensate for the entropic
+cost of the conformational change and to explain the
+higher afﬁnity additional contact points in the interface
+will be required, although they cannot be inferred from
+the docking model. Once formed, however, the NF1GRD–
+Ras complex is much tighter and has a much lower
+dissociation rate constant.
+
+The difference in binding properties probably reﬂects
+the different physiological requirements of the two sys-
+tems, with Ras localized in the plasma membrane and
+p120GAP in the cytoplasm, and with the low afﬁnity and
+low concentration of both proteins it is to be assumed that
+they can only interact when GAP is relocalized to the
+plasma membrane during signal transduction. Neuroﬁb-
+romin is localized in the particulate fraction and its high-
+afﬁnity binding to Ras may allow it to increase GTP
+hydrolysis without translocation. The knowledge of the
+structural requirements and the availability of cell lines
+with the GAP and NF1 genes disrupted may allow us to
+test whether engineering GAP to have neuroﬁbromin-
+like properties and vice versa has any physiological
+consequences in those cells.
+
+Conclusions
+The work reported in this paper characterizes the ﬁrst
+functional domain of neuroﬁbromin in three dimensions.
+In light of the various mutations found in NF1 patients or
+investigated in structure–function studies, it gives insight
+
+4324
+
+into the structure of the GAP-related domain, which in
+turn may serve as a resource for designing further studies
+on the function of this protein. Together with the structure
+of the Ras–RasGAP complex it provides a useful model
+for analysis of various speciﬁc features of NF1GRD–Ras
+interaction.
+
+Materials and methods
+
+Proteinpreparation
+NF1-333 was expressed as a fusion protein with light meromyosin
+(LMM) that contained a cleavage site for IgA protease (Ahmadian et al.,
+1996). The fusion protein was puriﬁed according to Wolber et al. (1992)
+and cleaved with IgA protease obtained as described (Ahmadian et al.,
+1996). The puriﬁed protein was incubated with proteinase K (Boehringer
+Mannheim) at a substrate to protease ratio of 4000:1 for 60 min and
+then eluted from a gel ﬁltration column equilibrated with 30 mM Tris–
+HCl pH 7.5, containing 5 mM MgCl2 and 3 mM DTE. After concentration
+to 20 mg/ml the protein was stored at –70°C and thawed immediately
+before setting up crystallization drops. Further analysis was done by
+mass spectroscopy and polyacrylamide gel electrophoresis, including
+N-terminal sequencing of blotted bands.
+
+Crystallization
+Crystallization was carried out at room temperature by the hanging drop
+method, where equal amounts (1.5–2 μl) of protein and a solution
+containing 18–22% poly-ethylene-glycol 3350 (PEG-3350; Sigma),
+100 mM Tris–HCl pH 8 and 200 mM MgCl2 were mixed and equilibrated
+against a reservoir (400 μl) containing the same solution without protein.
+Crystals appeared after few hours or even minutes and grew within 2–
+3 days to an average ﬁnal size of ~600⫻200⫻200 μm. Although all
+preparations resulted in crystallizable protein, high quality crystals as
+opposed to twinned forms were obtained only by strictly following the
+preparation protocol. The crystals belong to the monoclinic space group
+C2 and contain one monomer in the asymmetric unit. They diffract to
+~3 Å resolution using a rotating anode, and to better than 2.5 Å in a
+synchrotron beam.
+
+Datacollectionandstructuredetermination
+Native data were collected using synchrotron radiation (λ ⫽ 0.91 Å) on
+beam line X11 at EMBL Hamburg (c/o DESY). We used the rotation
+method (oscillation angle, Δφ ⫽ 3°) with a MAR image plate detector
+placed at a crystal-detector distance of 20 cm for data recording. Because
+of radiation damage and since cryofreezing experiments were not
+promising, we collected partial data sets from six native crystals
+altogether, cooled to 4°C. Data processing with the program XDS
+(Kabsch, 1993) and scaling resulted in a complete merged data set of
+2.5 Å resolution (Table I).
+Heavy atom derivatives of 12 compounds under various conditions
+were prepared by soaking crystals in 400 μl of reservoir solution
+containing 0.1–5 mM of the respective compound. An isomorphous
+derivative was obtained by treatment of crystals with 0.5 mM methyl
+mercury chloride (MMCl). A derivative containing K2PtCl4 was sufﬁ-
+ciently isomorphous when pretreating crystals with MMCl. The effect
+of MMCl pre-treatment for phasing by this derivative could be improved
+by instead soaking the crystals in 2 mM iodo acetic acid containing
+reservoir solution for 24 h before exposure to 0.2 mM K2PtCl4, as
+described above. Derivative data were collected with the rotation method
+on an area detector (Siemens/Nicolet) mounted before an oscillation
+camera (Supper; crystal-detector distance, 10 cm; oscillation range,
+0.0833°) and a rotating anode (Elliott GX-18; 35 kV/50 mA) with Franks
+double mirror optics as the X-ray source. Each derivative data set was
+collected from one single crystal, cooled to ~4°C. Data were processed
+with XDS (Kabsch, 1993) and analysed with a program suite by
+W.Kabsch (unpublished; Table I). The solvent-ﬂattened electron density
+map (Figure 1A), calculated using the phases derived from the heavy
+atom model, was readily interpretable and required the inversion of the
+coordinates of heavy atom sites to be consistent with a protein composed
+of L-amino acids. The GAP-334 model could be accommodated in this
+map and was used as a guide in subsequent rounds of alternate model
+building (program ‘O’; Jones et al., 1991) and reﬁnement with X-PLOR
+(Version 3.851; Bruenger, 1991), including Powell minimization, simu-
+
+lated annealing, and restrained individual temperature factor reﬁnement.
+A bulk solvent correction was applied in the ﬁnal stages of reﬁnement.
+Graphical representation of the model was done with the programs
+Molscript (Kraulis, 1991) and Raster3D (Merritt and Bacon, 1997). The
+Brookhaven Protein Data Bank accession code for the NF1GRD structure
+is 1NF1.
+
+Acknowledgements
+We thank Anna Scherer for skilled technical assistance, Hans Wagner
+for excellent maintenance of the X-ray facilities at the Max-Planck-
+Institut fu¨r medizinische Forschung (Heidelberg), Alfred Lautwein,
+Andreas Becker, Werner Jahn and Ingrid Vetter for helpful discussions,
+Friedhelm Dra¨ger
+for help with Figure 2B, Rita Schebaum for
+secretarial assistance and Ken Holmes for general support. We thank
+Victor Lamzin and Paul Tucker at EMBL Hamburg (c/o DESY) for
+advice during data collection and Arnon Lavie for sharing beam time.
+support by the Peter and Traudl
+K.S. gratefully acknowledges
+Engelhorn Stiftung (Penzberg, Germany)
+and by the National
+Neuroﬁbromatosis Foundation (New York, USA), and A.W.
+the
+support of the EU (Bio4CT, 961110).
+
+References
+Ahmadian,M.R., Wiesmu¨ller,L., Lautwein,A., Bischoff,F.R.
+
+and
+Wittinghofer,A. (1996) Structural differences in the minimal catalytic
+domains
+and
+Neuroﬁbromin. J. Biol. Chem., 271, 16409–16415.
+
+the GTPase-activating
+
+p120GAP
+
+proteins
+
+of
+
+Ahmadian,M.R., Hoffmann,U., Goody,R.S. and Wittinghofer,A. (1997a)
+Individual rate constants for the interaction of Ras proteins with
+GTPase-activating proteins determined by ﬂuorescence spectroscopy.
+Biochemistry, 36, 4535–4541.
+
+Ahmadian,M.R., Stege,P., Scheffzek,K. and Wittinghofer,A. (1997b)
+Conﬁrmation of
+the GAP-
+stimulated GTP-hydrolysis reaction of Ras. Nature Struct. Biol., 4,
+686–689.
+
+the arginine-ﬁnger hypothesis
+
+for
+
+Andersen,L.B., Ballester,R., Marchuk,D.A., Chang,E., Gutman,D.H.,
+Saulino,A.M., Camonis,J., Wigler,M. and Collins,F.S.
+(1993) A
+conserved
+von Recklinghausen
+neuroﬁbromatosis (NF1) gene produces two neuroﬁbromin isoforms,
+both of which have GTPase-activating protein activity. Mol. Cell.
+Biol., 13, 487–495.
+
+alternative
+
+splice
+
+the
+
+in
+
+Bader,J.L. (1986) Neuroﬁbromatosis and cancer. Ann. NY Acad. Sci.,
+
+486, 57–65.
+
+Ballester,R., Marchuk,D., Boguski,M.,
+
+Letcher,R.,
+Wigler,M. and Collins,F. (1990) The NF1 locus encodes a protein
+functionally related to mammalian GAP and yeast IRA proteins.
+Cell, 63, 851–859.
+
+Saulino,A.,
+
+Basu,T.N., Gutmann,D.H., Fletcher,J.A., Glover,T.W., Collins,F.S. and
+Downward,J. (1992) Aberrant regulation of ras proteins in malignant
+cells from type 1 neuroﬁbromatosis patients. Nature, 356, 713–715.
+Bollag,G. and McCormick,F. (1991) Differential regulation of rasGAP
+and neuroﬁbromatosis gene product activities. Nature, 351, 576–579.
+Bollag,G., McCormick,F. and Clark,R. (1993) Characterization of full-
+length neuroﬁbromin: tubulin inhibits ras GAP activity. EMBO J.,
+12, 1923–1927.
+
+Brannan,C.I. et al. (1994) Targeted disruption of the neuroﬁbromatosis
+type-1 gene leads to developmental abnormalities in heart and
+various neural crest-derived tissues. Genes Dev., 8, 1019–1029.
+
+Brownbridge,G.G., Lowe,P.N., Moore,K.J.M., Skinners,R.H.
+
+and
+Webb,M.R. (1993) Interaction of GTPase activating proteins (GAPs)
+with p21ras measured by a novel ﬂuorescence anisotropy method.
+J. Biol. Chem., 268, 10914–10919.
+
+Bruenger,A.T.
+
+(1991) X-PLOR, a system for crystallography and
+
+NMR. Yale University, New Haven, CT.
+
+Cawthon,R.M. et al. (1990) A major segment of the neuroﬁbromatosis
+type 1 gene: cDNA sequence, genomic structure and point mutations.
+Cell, 62, 193–201.
+
+Chabre,M.
+
+(1990) Aluminoﬂuoride and berylloﬂuoride complexes:
+new phosphate analogs in enzymology. Trends Biochem. Sci., 15,
+6–10.
+
+Structure of neuroﬁbromin GAP
+
+DeClue,J.E., Cohen,B.D. and Lowy,D.R.
+
+Identiﬁcation and
+characterization of the neuroﬁbromatosis type 1 protein product.
+Proc. Natl Acad. Sci. USA, 88, 9914–9918.
+
+(1991)
+
+DeClue,J.E., Papageorge,A.G., Fletcher,J.A., Diehl,S.R., Ratner,N.,
+Vass,W.C. and Lowy,D.R. (1992) Abnormal regulation of mammalian
+p21ras contributes to malignant tumour growth in von Recklinghausen
+(type 1) neuroﬁbromatosis. Cell, 69, 265–273.
+
+Eccleston,J.F., Moore,K.J.M., Morgan,L., Skinner,R.H. and Lowe,P.N.
+(1993) Kinetics of interaction between normal and proline 12 Ras
+and the GTPase-activating proteins, p120-GAP and neuroﬁbromin.
+J. Biol. Chem., 268, 27012–27019.
+
+Fridman,M. et al. (1994) The minimal fragments of c-Raf-1 and NF1
+that can suppress v-Ha-Ras-induced malignant phenotype. J. Biol.
+Chem., 269, 30105–30108.
+
+Gaul,U., Mardon,G. and Rubin,G.M. (1992) A putative ras GTPase
+activating protein acts as a negative regulator of signalling by the
+Sevenless receptor tyrosine kinase. Cell, 68, 1007–1019.
+
+Geyer,M., Schweins,T., Herrmann,C., Prisner,T., Wittinghofer,A. and
+transitions in free p21H-ras
+Kalbitzer,H.R. (1996) Conformational
+and in p21H-ras complexed with the effector protein Raf-RBD and
+the GTPase activating protein GAP. Biochemistry, 35, 10308–10320.
+Gideon,P., John,J., Frech,M., Lautwein,A., Clark,R., Schefﬂer,J.E. and
+Wittinghofer,A.
+the
+GTPase-activating protein (GAP)-p21 interaction: The C-terminal
+domain of GAP is not sufﬁcient for full activity. Mol. Cell. Biol.,
+12, 2050–2056.
+
+(1992) Mutational and kinetic analysis of
+
+Golubic,M.,
+
+Tanaka,K., Dobrowolski,S., Wood,D.,
+
+Tsai,M.H.,
+Marshall,M., Tamanoi,F. and Stacey,D.W.
+(1991) The GTPase
+stimulatory activities of the neuroﬁbromatosis gene type 1 and the
+yeast IRA2 proteins are inhibited by arachidonic acid. EMBO J.,
+10, 2897–2903.
+
+Gregory,P.E., Gutmann,D.H., Mitchell,A., Park,S., Boguski,M., Jacks,T.,
+Wood,D.L., Jove,R. and Collins,F.S. (1993) Neuroﬁbromatosis type
+1 gene product (Neuroﬁbromin) associates with microtubules. Somat.
+Cell Mol. Genet., 19, 265–274.
+
+Griesser,J., Kaufmann,D., Eisenbarth,I., Ba¨uerle,C. and Krone,W.
+(1995) Ras-GTP regulation is not altered in cultured melanocytes
+with reduced levels of neuroﬁbromin derived from patients with
+neuroﬁbromatosis 1 (NF1). Biol. Chem. Hoppe-Seyler, 376, 91–101.
+Guha,A., Lau,N., Huvar,I., Gutmann,D., Provias,J., Pawson,T. and
+(1996) Ras-GTP levels are elevated in human NF1
+
+Boss,G.
+peripheral nerve tumors. Oncogene, 12, 507–513.
+
+Gutmann,D.H. and Collins,F.S. (1993) The neuroﬁbromatosis type 1
+gene and its protein product, Neuroﬁbromin. Neuron, 10, 335–343.
+Gutmann,D.H., Boguski,M., Marchuk,D., Wigler,M., Collins,F.S. and
+Ballester,R. (1993) Analysis of the neuroﬁbromatosis type 1 (NF1)
+GAP-related domain by site-directed mutagenesis. Oncogene, 8,
+761–769.
+
+Gutmann,D.H., Geist,R.T., Rose,K. and Wright,D.E. (1995) Expression
+of two new protein isoforms of the neuroﬁbromatosis type 1 gene
+product, neuroﬁbromin, in muscle tissues. Dev. Dyn., 202, 302–311.
+Henkemeyer,M., Rossi,D.J., Holmyard,D.P., Puri,M.C., Mbamalu,G.,
+Harpal,K., Shih,T.S., Jacks,T. and Pawson,T. (1995) Vascular system
+defects and neuronal apoptosis in mice lacking Ras GTPase-
+activating protein. Nature, 377, 695–701.
+
+Jacks,T., Shi,T.S., Schmitt,E.M., Bronson,R.T., Bernards,A.
+
+and
+Weinberg,R. (1994) Tumour predisposition in mice heterozygous
+for a targeted mutation in Nf1. Nature Genet., 7, 353–361.
+
+Johnson,M.R., DeClue,J.E., Felzmann,S., Vass,W.C., Xu,G., White,R.
+and Lowy,D.R.
+ras-dependent
+growth by a mechanism independent of its GTPase-accelerating
+function. Mol. Cell. Biol., 14, 641–645.
+
+(1994) Neuroﬁbromin can inhibit
+
+Jones,T.A., Zou,J.Y., Cowan,S.W. and Kjelgaard,M. (1991) Improved
+methods for building protein models in electron density maps and
+the location of errors in these models. Acta Crystallogr., A47,
+110–119.
+
+Kabsch,W. (1993) Automatic processing of rotation diffraction data
+from crystal of initially unknown symmetry and cell constants. J.
+Appl. Crystallogr., 26, 795–800.
+
+Kabsch,W. and Sander,C.
+
+(1983) Dictionary of protein secondary
+structures: pattern recognition of hydrogen-bonded and geometrical
+features. Biopolymers, 22, 2577–2637.
+
+4325
+
+K.Scheffzek etal.
+
+Klose,A.J. et al. (1998) Selective disactivation of neuroﬁbromin GAP-
+activity in neuroﬁbromatosis type 1 (NF1). Hum. Mol. Genet., 7,
+1261–1268.
+
+Kraulis,P. (1991) Molscript: a program to produce both detailed and
+
+schematic protein structures. J. Appl. Crystallogr., 24, 946–950.
+
+Li,Y. et al. (1992) Somatic mutations in the neuroﬁbromatosis 1 gene
+
+in human tumors. Cell, 69, 275–281.
+
+Loewe,J. and Amos,L.A. (1998) Crystal structure of the bacterial
+
+cell-division protein FtsZ. Nature, 391, 203–206.
+
+Lowy,D.R. and Willumsen,B.M. (1993) Function and regulation of
+
+Ras. Annu. Rev. Biochem., 62, 851–891.
+
+et
+
+of
+
+Marchuk,D.A.
+
+1
+neuroﬁbromatosis gene: complete sequence of the NF1 gene product.
+Genomics, 11, 931–940.
+
+cDNA cloning
+
+(1991)
+
+type
+
+the
+
+al.
+
+Marshall,M.S., Hill,W.S., Ng,A.S., Vogel,U.S., Schaber,M.D., Scolnick,
+E.M., Dixon,R.A.F., Sigal,I. and Gibbs,J.B. (1989) A C-terminal
+domain of GAP is sufﬁcient to stimulate ras p21 GTPase activity.
+EMBO J., 8, 1105–1110.
+
+et
+
+Martin,G.A.
+
+the
+neuroﬁbromatosis type 1 gene product interacts with ras p21. Cell,
+63, 843–849.
+
+(1990) The GAP-related
+
+domain
+
+al.
+
+of
+
+Merrit,E.A. and Bacon,D.J. (1997) Raster3D: Photorealistic molecular
+
+graphics. Methods Enzymol., 277, 505–524.
+
+Milburn,M.V., Tong,L., DeVos,A.M., Bru¨nger,A., Yamaizumi,Z.,
+Nishimura,S. and Kim,S.-H. (1990) Molecular switch for signal
+transduction: structural differences between active and inactive
+forms of protooncogenic ras proteins. Science, 247, 939–945.
+
+Mittal,R., Ahmadian,M.R., Goody,R.S. and Wittinghofer,A.
+
+(1996)
+Formation of a transition state analog of the Ras GTPase reaction
+by Ras(cid:129)GDP,
+tetraﬂuoroaluminate and GTPase-activating proteins.
+Science, 273, 115–117.
+
+Morcos,P., Thapar,N., Tusneem,N., Stacey,D. and Tamanoi,F. (1996)
+Identiﬁcation of neuroﬁbromin mutants that exhibit allele speciﬁcity
+or increased Ras afﬁnity resulting in suppression of activated ras
+alleles. Mol. Cell. Biol., 16, 2496–2503.
+
+Mori,S., Satoh,T., Koide,H., Nakafuku,M., Villafranca,E. and Kaziro,Y.
+(1995) Inhibition of Ras/Raf interaction by anti-oncogenic mutants
+of neuroﬁbromin, the neuroﬁbromatosis type 1 (NF1) gene product,
+in cell-free systems. J. Biol. Chem., 270, 28834–28838.
+
+Nakafuku,M., Nagamine,M., Ohtoshi,A., Tanaka,K., Toh-E,A. and
+Kaziro,Y.
+(1993) Suppression of oncogenic Ras by mutant
+neuroﬁbromatosis type 1 genes with single amino acid substitutions.
+Proc. Natl Acad. Sci. USA, 90, 6706–6710.
+
+Nishi,T., Lee,P.S.Y., Oka,K., Levin,V.A., Tanase,S., Morino,Y. and
+Saya,H.
+the
+neuroﬁbromatosis type 1 (NF1) gene transcripts related to neuronal
+differentiation. Oncogene, 6, 1555–1559.
+
+(1991) Differential expression of
+
+two types of
+
+Nixon,A.E., Brune,M., Lowe,P.N. and Webb,M. (1995) Kinetics of
+inorganic phosphate release during the interaction of p21ras with
+the GTPase-activating proteins p120-GAP and neuroﬁbromin.
+Biochemistry, 34, 15592–15598.
+
+Nogales,E., Wolf,S.G. and Downing,K.H. (1998) Structure of the αβ
+tubulin dimer by electron crystallography. Nature, 391, 199–203.
+
+Pai,E.F., Krengel,U., Petsko,G.A., Goody,R.S., Kabsch,W.
+
+Nur-E-Kamal,M.S.A., Varga,M. and Maruta,H. (1993) The GTPase-
+activating NF1 fragment of 91 amino acids reverses v-Ha-Ras-
+induced malignant phenotype. J. Biol. Chem., 268, 22331–22337.
+and
+Wittinghofer,A. (1990) Reﬁned crystal structure of the triphosphate
+conformation of H-ras p21 at 1.35 Å resolution: implications for
+the mechanism of GTP hydrolysis. EMBO J., 9, 2351–2359.
+
+Ponder,B.A.J. (1990) Inherited predisposition to cancer. Trends Genet.,
+
+6, 213–218.
+
+and Tamanoi,F.
+
+Poullet,P., Lin,B., Esson,K.
+
+(1994) Functional
+signiﬁcance of lysine 1423 of neuroﬁbromin and characterization
+of a second site suppressor which rescues mutations at this residue
+and suppresses RAS2Val-19-activated phenotypes. Mol. Cell. Biol.,
+14, 815–821.
+
+Purandare,S.M., Lanyon,W.G. and Connor,J.M. (1994) Characterisation
+of inherited and sporadic mutations in neuroﬁbromatosis type-1.
+Hum. Mol. Genet., 3, 1109–1115.
+
+Rey,I., Taylor-Harris,P., van Erp,H. and Hall,A. (1994) R-ras interacts
+with rasGAP, neuroﬁbromin and c-raf but does not regulate cell
+growth or differentiation. Oncogene, 9, 685–692.
+
+4326
+
+Riccardi,V.M. (1981) Von Recklinghausen neuroﬁbromatosis. N. Engl.
+
+J. Med., 305, 1617–1627.
+
+Riccardi,V.M. (1991) Neuroﬁbromatosis: past, present and future. N.
+
+Engl. J. Med., 324, 1283–1285.
+
+Riccardi,V.M. and Eichner,J.E. (1986) Neuroﬁbromatosis: Phenotype,
+Natural History and Pathogenesis. Johns Hopkins University Press,
+Baltimore, MD, USA.
+
+Scheffzek,K.,
+
+Lautwein,A.,
+
+and
+Wittinghofer,A. (1996) Crystal structure of the GTPase-activating
+domain of human p120GAP and implications for the interaction
+with Ras. Nature, 384, 591–596.
+
+Ahmadian,M.R.
+
+Kabsch,W.,
+
+Scheffzek,K., Ahmadian,M.R., Kabsch,W., Wiesmu¨ller,L., Lautwein,A.,
+Schmitz,F. and Wittinghofer,A. (1997) The Ras–RasGAP complex:
+Structural basis for GTPase activation and its loss in oncogenic
+Ras mutants. Science, 277, 333–338.
+
+Serra,E., Puig,S., Otero,D., Gaona,A., Kruyer,H., Ars,E., Estivill,X.
+and La´zaro,C. (1997) Conﬁrmation of a double-hit model for the
+NF1 gene in benign neuroﬁbromas. Am. J. Hum. Genet., 61, 512–519.
+Serth,J., Lautwein,A., Frech,M., Wittinghofer,A. and Pingoud,A. (1991)
+The inhibition of the GTPase activating protein–Ha-ras interaction
+by acidic lipids is due to physical association of the C-terminal
+domain of the GTPase activating protein with micellar structures.
+EMBO J., 10, 1325–1330.
+
+Shen,M.H., Harper,P.S. and Upadhyaya,M. (1996) Molecular genetics
+
+of neuroﬁbromatosis type 1 (NF1). J. Med. Genet., 33, 2–17.
+
+Skinner,R.H.,
+
+Picardo,M., Gane,N.M., Cook,N.D., Morgan,L.,
+Rowedder,J. and Lowe,P.N.
+the
+binding of RAS to neuroﬁbromin using a scintillation proximity
+assay. Anal. Biochem., 223, 259–265.
+
+(1994) Direct measurement of
+
+Stanbridge,E.J. (1990) Human tumor suppressor genes. Annu. Rev.
+
+Genet., 24, 615–657.
+
+Suzuki,Y., Suzuki,H., Kayama,T., Yoshimoto,T. and Shibahara,S. (1991)
+Brain tumors predominantly express the neuroﬁbromatosis type 1
+gene transcripts containing the 63 base insert in the region coding
+for GTPase activating protein-related domain. Biochem. Biophys.
+Res. Commun., 181, 955–961.
+
+Tanaka,K., Nakafuku,M.,
+
+Satoh,T., Marshall,M.S., Gibbs,J.B.,
+Matsumoto,K., Kaziro,Y. and Toh-e,A. (1990a) S.cerevisiae genes
+IRA1 and IRA2 encode proteins that may be functionally equivalent
+to mammalian ras GTPase activating protein. Cell, 60, 803–807.
+
+Tanaka,K., Nakafuku,M., Tamanoi,F., Kaziro,Y., Matsumoto,K. and
+Tohe,A. (1990b) IRA2, a second gene of Saccharomyces cerevisiae
+that encodes a protein with a domain homologous to mammalian
+ras GTPase-activating protein. Mol. Cell. Biol., 10, 4303–4313.
+
+Tanaka,K., Lin,B.K., Wood,D.R. and Tamanoi,F. (1991) IRA2, an
+upstream negative regulator of RAS in yeast, is a RAS GTPase-
+activating protein. Proc. Natl Acad. Sci. USA, 88, 468–472.
+
+The,I., Hannigan,G.E., Cowley,G.S., Reginald,S., Zhong,Y., Gusella,J.F.,
+Hariharan,I.K. and Bernards,A. (1997) Rescue of a Drosophila NF1
+mutant phenotype by protein kinase A. Science, 276, 791–794.
+
+Trahey,M. and McCormick,F. (1987) A cytoplasmic protein stimulates
+normal N-ras p21 GTPase, but does not affect oncogenic mutants.
+Science, 238, 542–545.
+
+Tsai,M.-H., Roudebush,M., Dobrowolski,S., Yu,C.-L., Gibbs,J.B. and
+Stacey,D.W.
+(1991) Ras GTPase-activating protein physically
+associates with mitogenically active phospholipids. Mol. Cell. Biol.,
+11, 2785–2793.
+
+Upadhyaya,M., Osborn,M.J., Maynard,J., Kim,M.R., Tamanoi,F. and
+the
+
+Cooper,D.N.
+neuroﬁbromatosis type 1 (NF1) gene. Hum. Genet., 99, 88–92.
+
+(1997) Mutational and functional analysis of
+
+Viskochil,D. et al. (1990) Deletions and a translocation interrupt a
+cloned gene at the neuroﬁbromatosis type 1 locus. Cell, 62, 187–192.
+Wallace,M.R. et al. (1990) Type 1 neuroﬁbromatosis gene: identiﬁcation
+of a large transcript disrupted in three NF1 patients. Science, 249,
+181–186.
+
+Wiesmu¨ller,L. and Wittinghofer,A. (1992) Expression of the GTPase
+activating domain of the neuroﬁbromatosis type 1 (NF1) gene in
+E.coli and role of the conserved lysine residue. J. Biol. Chem.,
+267, 10207–10210.
+
+Wittinghofer,A. (1997) Signaling mechanistics: Aluminum ﬂuoride for
+
+molecule of the year. Curr. Biol., 7, R682–R685.
+
+Wolber,V., Maeda,K., Schumann,R., Brandmeier,B., Wiesmu¨ller,L. and
+
+Structure of neuroﬁbromin GAP
+
+Wittinghofer,A. (1992) A universal expression-puriﬁcation system
+based on the coiled-coil
+interaction of myosin heavy chain.
+Biotechnology, 10, 900–904.
+
+Wood,D.R., Poullet,P., Wilson,B.A., Khalil,M., Tanaka,K., Cannon,J.F.
+and Tamanoi,F. (1994) Biochemical characterization of yeast RAS2
+mutants reveals a new region of
+ras protein involved in the
+interaction with GTPase-activating proteins. J. Biol. Chem., 269,
+5322–5327.
+
+Xu,G. et al. (1990a) The neuroﬁbromatosis type 1 gene encodes a
+
+protein related to GAP. Cell, 62, 599–608.
+
+Xu,G.F., Lin,B., Tanaka,K., Dunn,D., Wod,D., Gesteland,R., White,R.,
+Weiss,R. and Tamanoi,F.
+the
+neuroﬁbromatosis type 1 gene product stimulates ras GTPase and
+complements ira mutants of S.cerevisiae. Cell, 63, 835–841.
+
+(1990b) The catalytic domain of
+
+Xu,H. and Gutmann,D.H. (1997) Mutations in the GAP-related domain
+impair the ability of neuroﬁbromin to associate with microtubules.
+Brain Res., 759, 149–152.
+
+Received March 30, 1998; revised May 29, 1998;
+
+accepted June 2, 1998
+
+4327
+
+

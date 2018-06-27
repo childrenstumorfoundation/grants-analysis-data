@@ -1,0 +1,1414 @@
+Published Online: 19 October, 2015 | Supp Info: 
+Downloaded from 
+
+jcb.rupress.org 
+
+http://doi.org/10.1083/jcb.201503081
+
+on June 12, 2018
+
+Y
+G
+O
+L
+O
+
+I
+
+B
+
+L
+L
+E
+C
+
+F
+O
+
+L
+A
+N
+R
+U
+O
+J
+
+E
+H
+T
+
+NF2/Merlin mediates contact-dependent inhibition 
+of EGFR mobility and internalization via cortical 
+actomyosin
+
+Christine Chiasson-MacKenzie,1,2,4 Zachary S. Morris,1,2,4* Quentin Baca,5* Brett Morris,1,2,4* Joanna K. Coker,1,2,4 
+Rossen Mirchev,5 Anne E. Jensen,1,3 Thomas Carey,1,3 Shannon L. Stott,1,3,6 David E. Golan,5 and 
+Andrea I. McClatchey1,2,4
+
+1Center for Cancer Research, 2Department of Pathology, and 3BioMEMs Resource Center, Massachusetts General Hospital, Charlestown, MA 02129
+4Department of Pathology, 5Department of Biological Chemistry and Molecular Pharmacology, and 6Department of Medicine, Harvard Medical School, Boston, MA 
+02115
+
+The proliferation of normal cells is inhibited at confluence, but the molecular basis of this phenomenon, known as con-
+tact-dependent inhibition of proliferation, is unclear. We previously identified the neurofibromatosis type 2 (NF2) tumor 
+suppressor  Merlin  as  a  critical  mediator  of  contact-dependent  inhibition  of  proliferation  and  specifically  found  that 
+Merlin inhibits the internalization of, and signaling from, the epidermal growth factor receptor (EGFR) in response to cell 
+contact. Merlin is closely related to the membrane–cytoskeleton linking proteins Ezrin, Radixin, and Moesin, and local-
+ization of Merlin to the cortical cytoskeleton is required for contact-dependent regulation of EGFR. We show that Merlin 
+and Ezrin are essential components of a mechanism whereby mechanical forces associated with the establishment of 
+cell–cell junctions are transduced across the cell cortex via the cortical actomyosin cytoskeleton to control the lateral 
+mobility  and  activity  of  EGFR,  providing  novel  insight  into  how  cells  inhibit  mitogenic  signaling  in  response  to  cell 
+contact.
+
+Introduction
+
+The failure to undergo contact-dependent inhibition of prolif-
+eration  is  a  hallmark  of  tumor  cells  (Hanahan  and Weinberg, 
+2011),  but  a  mechanistic  understanding  of  how  normal  cells 
+stop  dividing  in  response  to  cell–cell  contact  is  lacking. Any 
+mechanism  of  contact-dependent  inhibition  of  proliferation 
+must invoke the ability of cells to “sense” the degree of contact 
+that they share with neighboring cells; whether this is achieved 
+via the generation of contact-dependent biochemical and/or me-
+chanical signals is unknown. Early studies of contact-dependent 
+inhibition of proliferation concluded that the responsiveness of 
+growth factor receptors on the cell surface, including the EGF 
+receptor (EGFR), is inhibited by cell contact despite a continu-
+ous supply of ligand (McClatchey and Yap, 2012). Many stud-
+ies have since supported the notion that signaling from various 
+growth factor receptors is inhibited in response to cell contact, 
+but the mechanistic basis for this is unknown.
+
+*Z.S. Morris, Q. Baca, and B. Morris contributed equally to this paper.
+Correspondence to Andrea I. McClatchey: mcclatch@helix.mgh.harvard.edu
+Abbreviations used in this paper: AJ, adherens junction; ANO VA, analysis of 
+variance;  CMV,  cytomegalovirus;  EGFR,  EGF  receptor;  ERM,  Ezrin,  Radixin, 
+and  Moesin;  HB,  hepatoblast;  LDC,  liver-derived  epithelial  cell;  MSD,  mean 
+square  displacement;  shSCR,  scrambled  short  hairpin;  SPTM,  single-particle 
+tracking  microscopy;  TJ,  tight  junction;  TR-EGF,  Texas  red–labeled  EGF;  ZA, 
+zonulae adherens.
+
+The Rockefeller University Press 
+J. Cell Biol. Vol. 211 No. 2  391–405
+www.jcb.org/cgi/doi/10.1083/jcb.201503081
+
+ $30.00
+
+The EGFR was the first discovered tyrosine kinase recep-
+tor and is a model for this critical class of mitogenic receptors 
+(Lemmon and Schlessinger, 2010). EGFR signaling is initiated 
+by  ligand-induced  conformational  changes  that  facilitate  di-
+merization,  activation  of  the  intracellular  kinase  domain,  and 
+recruitment of downstream effectors including components of 
+the  endocytic  machinery  (Lemmon  and  Schlessinger,  2010). 
+Endocytosis  has  long  been  considered  the  definitive  mech-
+anism  for  negative  regulation  of  activated  EGFR,  leading  to 
+pH-dependent  dissociation  of  the  receptor–ligand  complex 
+within  endocytic  vesicles  (Avraham  and Yarden,  2011).  Prior 
+to  ligand  dissociation,  however,  activated  endosomal  EGFR 
+is  sufficient  to  drive  cell  proliferation;  in  fact,  internalization 
+of  ligand-bound  receptor  is  necessary  for  the  activation  of 
+major  downstream  EGFR  signaling  pathways  (Lemmon  and 
+Schlessinger, 2010). If endocytosis were the principal mecha-
+nism for negatively regulating ligand-activated EGFR, the cell 
+would be able to do so only after exposure to the potent sig-
+naling  capacity  of  endosomal  EGFR.  Therefore,  mechanisms 
+
+©  2015  Chiassson-MacKenzie  et  al.  This  article  is  distributed  under  the  terms  of  an 
+Attribution–Noncommercial–Share Alike–No Mirror Sites license for the first six months after 
+the  publication  date  (see  http://www.rupress.org/terms).  After  six  months  it  is  available 
+under a Creative Commons License (Attribution–Noncommercial–Share Alike 3.0 Unported 
+license, as described at http://creativecommons.org/licenses/by-nc-sa/3.0/).
+
+391
+
+JCB: ArticleJCBlikely exist that enable a cell to prevent EGFR signaling at the 
+plasma membrane upon cell contact.
+
+In  previous  studies,  we  identified  the  neurofibromatosis 
+type 2 (NF2) tumor suppressor Merlin as a critical mediator of 
+contact-dependent inhibition of proliferation and specifically of 
+contact-dependent inhibition of EGFR internalization and sig-
+naling (Lallemand et al., 2003; Curto et al., 2007; Cole et al., 
+2008). These studies revealed that Merlin can block the inter-
+nalization of activated EGFR in a contact-dependent manner via 
+a mechanism that does not involve gross changes in ligand bind-
+ing or in EGFR phosphorylation, localization, or bulk plasma 
+membrane levels (Curto et al., 2007). Merlin is a unique type of 
+tumor suppressor that localizes predominantly to the cell cor-
+tex and is closely related to the membrane–cytoskeleton link-
+ing proteins Ezrin, Radixin, and Moesin (ERMs; McClatchey 
+and Fehon, 2009; Fehon et al., 2010). When activated, ERMs 
+assemble multiprotein complexes at the plasma membrane via 
+their N-terminal four-point-one ERM domain and link them to 
+the  cortical  actin  cytoskeleton  via  a  C-terminal  actin-binding 
+domain (Fehon et al., 2010). In doing so, ERMs dynamically 
+organize  the  morphological  and  mechanical  properties  of  the 
+cell cortex, as exemplified by their essential roles in building 
+and elaborating the apical surface of epithelia and in driving in-
+creased cortical rigidity during mitotic rounding (McClatchey, 
+2014). Merlin lacks a C-terminal actin-binding domain but lo-
+calizes to the cortical cytoskeleton and can interact directly with 
+the  actin-binding  protein α-catenin  (Gladden  et  al.,  2010).  In 
+fact, a key function of Merlin is to limit the cortical distribu-
+tion of Ezrin via a mechanism that involves α-catenin (Hebert 
+et al., 2012). Localization of Merlin to the cortical cytoskeleton 
+is necessary for contact-dependent inhibition of EGFR internal-
+ization, but the mechanism by which cortical Merlin controls 
+EGFR is unknown (Cole et al., 2008). Importantly, pharmaco-
+logic EGFR inhibitors block the proliferation of NF2−/− primary 
+and tumor cells in vitro and in vivo, suggesting that this mecha-
+nism is central to the tumor suppressor activity of Merlin (Mor-
+ris and McClatchey, 2009; Benhamouche et al., 2010).
+
+Membrane–cytoskeleton linking proteins such as Merlin/
+ERMs dynamically attach the cortical actomyosin cytoskeleton 
+to  the  plasma  membrane  (Gauthier  et  al.,  2012). The  cortical 
+cytoskeleton  can  thereby  impact  the  dynamic  distribution  of 
+plasma  membrane  receptors  (Jaqaman  and  Grinstein,  2012). 
+The cortical cytoskeleton is also physically and mechanically 
+coupled  to  cell  junctions  that,  in  turn,  transduce  intercellular 
+forces that enable cells to sense and respond to changes in their 
+mechanical environment (Lecuit et al., 2011). It seems logical 
+that these functions of the cortical cytoskeleton would be coor-
+dinated, but this has not been demonstrated. Mechanical forces 
+experienced by cells within tissues can dramatically modulate 
+cell signaling and behavior (DuFort et al., 2011). In fact, signal-
+ing downstream of EGFR is particularly sensitive to experimen-
+tal manipulation of the mechanical forces that are transduced 
+across  cell  junctions,  but  the  molecular  basis  of  this  is  not 
+known (Kim et al., 2009; Kim and Asthagiri, 2011). Coordina-
+tion between mechanosensing at cell junctions and control of 
+receptors across the cortex is therefore a critical “black box” in 
+our understanding of normal tissue morphogenesis and homeo-
+stasis  and  of  how  deregulation  of  cell  and  tissue  architecture 
+contributes to tumorigenesis.
+
+Given its localization to the cortical actomyosin network, 
+we  hypothesized  that  Merlin  may  be  central  to  a  mechanism 
+whereby mechanical signals are transduced from cell contacts 
+
+across  the  cortex  to  regulate  the  dynamic  distribution  and  in-
+ternalization of EGFR. Here, we show that Merlin controls the 
+properties of the cortical actomyosin network, which both im-
+mobilizes EGFR at the plasma membrane and stabilizes asso-
+ciated cell junctions in response to cell contact. In the absence 
+of Merlin, ectopic apical Ezrin drives increased contractility of 
+the cortical cytoskeleton, excess pulling on associated cell junc-
+tions, altered cortical Myosin IIA (MyoIIA) distribution, and a 
+failure to inhibit EGFR internalization upon cell contact. These 
+results uncover a novel mechanism of contact-dependent con-
+trol of mitogenic signaling, provide new insight into the cortical 
+function of Merlin, and suggest novel links between the control 
+of cellular mechanics and receptor trafficking.
+
+Results
+
+Merlin is required for cytoskeleton- and 
+signaling-dependent immobilization of apical 
+EGFR in response to cell contact
+Liver-derived epithelial cells (LDCs) from mice with a liver-spe-
+cific Nf2 deletion fail to undergo contact-dependent inhibition of 
+proliferation (Curto et al., 2007; Cole et al., 2008). This overpro-
+liferation is associated with persistent internalization of activated 
+EGFR and is blocked by EGFR inhibitors but not by elimination 
+of Yap, the primary effector of the Hippo signaling pathway that 
+can also be controlled by Merlin in some settings (Curto et al., 
+2007; Benhamouche et al., 2010; Boggiano and Fehon, 2012). 
+Reintroduction  of  wild-type  Nf2  (Nf2WT)  expression  restores 
+contact-dependent inhibition of EGFR internalization/signaling 
+and proliferation (Curto et al., 2007; Cole et al., 2008).
+
+Merlin associates with the cortical cytoskeleton, and this 
+association is required for Merlin-dependent inhibition of EGFR 
+internalization in contacting cells (Cole et al., 2008). Given that 
+the cortical cytoskeleton can control membrane receptor lateral 
+mobility,  we  hypothesized  that  Merlin  might  directly  or  indi-
+rectly  regulate  EGFR  internalization  by  altering  the  dynamic 
+distribution of receptor molecules to specific cytoskeletal and/
+or lipid compartments within the plasma membrane in response 
+to cell contact. Therefore, we used single-particle tracking mi-
+croscopy (SPTM) to examine Merlin-dependent effects on the 
+mobility of individual EGFR molecules at the dorsal surface of 
+Nf2−/− and Nf2WT-expressing LDCs (Saxton and Jacobson, 1997; 
+García-Sáez  and  Schwille,  2007). We  found  that  in  confluent 
+Nf2WT-expressing  cells,  the  mean  macro-diffusion  coefficient 
+(Dmacro) of the total EGFR population was markedly decreased 
+relative to that in Nf2−/− cells (4.4 ± 0.4 × 10−12 cm2 s−1 vs. 18 ± 
+1.5 × 10−12 cm2 s−1; P = 4.6 × 10−9), resulting in near-immobili-
+zation of the receptor (Fig. 1 A and Table S1). In contrast, non-
+confluent Nf2WT-expressing cells exhibited a moderate increase 
+in the lateral mobility of EGFR relative to nonconfluent Nf2−/− 
+cells (Fig. S1 A). The Dmacro values that we observed in these 
+experiments were comparable to those previously reported for 
+EGFR lateral mobility in other epithelial cells (Kusumi et al., 
+1993). Like that prior study, we also observed heterogeneity in 
+EGFR mobility. We found that SPTM datasets from our cells 
+were best modeled as two distinct receptor subpopulations with 
+Gaussian distributions of Dmacro values—a slower moving, im-
+mobilized or confined subpopulation and a faster moving, freely 
+diffusible subpopulation (Fig. 1 A).
+
+To confirm that acute inactivation of endogenous Merlin 
+led  to  similar  changes  in  the  lateral  mobility  and  internaliza-
+
+392
+
+JCB • Volume 211 • NumBer 2 • 2015
+
+Figure 1.  EGFR is immobilized at the plasma membrane in a Merlin- and actin-dependent manner. (A) SPTM depicting the mean diffusivity of EGFR 
+molecules in the plasma membrane of Nf2−/− (left) or Nf2WT-expressing (right) LDCs. Histograms (purple) show the relative frequency at which beads were 
+observed (y axis) with a given coefficient (Dmacro; x axis). Overlaid on each histogram is a two-Gaussian fit (orange and blue) and its sum (solid black). The 
+log-scale x axis displays Dmacro representing increasing lateral diffusivity from left to right. The underlying chart displays the log mean of Dmacro ± SEM as 
+well as the mean of the two-Gaussian fit subpopulations (right) and the percentage of receptors that fall into each subpopulation (parentheses). Subsequent 
+figures show only the log mean of the Dmacro ± SEM for comparison. Numerical values of calculated Dmacro for all experiments are displayed in Table S1. (B) 
+Lateral mobility of EGFR in Nf2−/− or Nf2WT-expressing LDCs with and without 5-µM cytochalasin D or 5-µM latrunculin A treatment. (C) Internalization of TR-
+EGF, which reliably marks EGF–EGFR complexes in Nf2−/− or Nf2WT-expressing LDCs with and without cytochalasin D or latrunculin A treatment. Numerical 
+values for quantification of TR-EGF vesicles per cell for all experiments are displayed in Table S2. (D) Representative confocal images of internalized TR-EGF 
+(red; 30-min stimulation) in mosaic populations of Nf2−/− and Nf2WT-expressing (green) LDCs with and without cytochalasin D. Bars, 10 µm. (B and C) 
+Data are represented as mean ± SEM. ***, P < 0.001 (one-way ANO VA with multiple comparisons). Data are representative of at least three experiments.
+
+Contact-dependent immobilization of eGFr by merlin • Chiasson-macKenzie et al.
+
+393
+
+tion of EGFR, we eliminated Merlin acutely via adenoviral ex-
+pression of the Cre-recombinase in primary Nf2lox/lox embryonic 
+hepatoblasts  (HBs).  Comparison  to  wild-type  HBs  confirmed 
+that endogenous Nf2 expression was associated with a dramatic 
+immobilization  of  EGFR  and  with  blocked  internalization  of 
+activated  EGFR  (monitored  by  Texas  red–labeled  EGF  [TR-
+EGF]) at confluence (Fig. S1, B–D; Table S1; and Table S2). 
+In contrast, Nf2−/− HBs exhibited persistent EGFR mobility and 
+internalization at confluence (Fig. S1, B–D).
+
+These  results  demonstrated  a  contact-dependent  effect 
+of Merlin on the lateral mobility of EGFR and confirmed that 
+this  regulation  of  EGFR  occurs  at  the  plasma  membrane.  In 
+fact, by expressing a version of Merlin tagged with the c-Src 
+myristoylation sequence for membrane localization (Nf2myr), we 
+confirmed  that  membrane-localized  Merlin  was  sufficient  for 
+contact-dependent regulation of EGFR internalization (Fig. S2 
+A). Importantly, Merlin blocked TR-EGF internalization at all 
+time points tested (Fig. S2 B), further supporting the notion that 
+Merlin prevents EGFR internalization from the plasma mem-
+brane rather than altering the kinetics of endocytosis or stimu-
+lating rapid recycling or degradation of internalized receptors.
+
+The lateral mobility of membrane receptors can be altered 
+by the cortical cytoskeleton and/or sterol-rich microdomains of 
+the plasma membrane (Lenne et al., 2006; Jaqaman and Grin-
+stein, 2012). To determine whether Merlin-dependent immobi-
+lization of EGFR in confluent cells requires an intact cortical 
+cytoskeleton,  we  examined  the  effects  of  latrunculin  A  and 
+cytochalasin  D,  compounds  that  disrupt  actin  polymerization 
+through  distinct  mechanisms,  on  EGFR  mobility  by  SPTM 
+(Wakatsuki et al., 2001). Treatment of confluent Nf2WT-express-
+ing  cells  with  either  compound  effectively  prevented  EGFR 
+immobilization; in contrast, neither agent significantly affected 
+EGFR mobility in Nf2−/− cells (Fig. 1 B). Merlin-dependent in-
+hibition of TR-EGF internalization in confluent cells was also 
+reversed by latrunculin A and cytochalasin D (Fig. 1, C and D). 
+Moreover, a mutant version of Merlin that specifically cannot 
+localize to the cortical cytoskeleton (Nf218–595) failed to immo-
+bilize EGFR or block TR-EGF internalization (Fig. S2 C; Cole 
+et al., 2008). In contrast, disruption of lipid rafts by depletion 
+of membrane cholesterol with methyl-β-cyclodextrin (MβCD) 
+did  not  prevent  EGFR  immobilization  in  confluent  Nf2WT-ex-
+pressing  cells  (Fig.  S2  D).  These  findings  suggest  that  con-
+tact-dependent EGFR immobilization and inhibition of EGFR 
+internalization depend on both the integrity of the cortical cyto-
+skeleton and the ability of Merlin to interact with it.
+
+To further understand the molecular basis of Merlin-me-
+diated  control  of  EGFR  internalization,  we  asked  whether 
+this phenomenon was signaling dependent. We used SPTM to 
+monitor the lateral mobility of receptors at the dorsal surface 
+of  confluent  Nf2−/−  and  Nf2WT-expressing  cells  that  had  been 
+serum starved overnight. Strikingly, in aggregate receptor pop-
+ulation  analyses  like  those  described  in  Fig.  1,  we  found  no 
+difference in EGFR mobility in Nf2WT-expressing versus Nf2−/− 
+cells upon initial exposure to EGF-labeled beads in serum-free 
+media  (Fig.  2  A,  left).  By  40–60  min,  however,  EGFR  was 
+completely  immobilized  in  Nf2WT-expressing  cells,  mirroring 
+our  previous  SPTM  measurements  on  confluent  cells  in  10% 
+serum (Fig. 2 A, right). Importantly, this time-dependent effect 
+of  exposure  to  EGF-labeled  beads  was  blocked  by  treatment 
+
+394
+
+JCB • Volume 211 • NumBer 2 • 2015
+
+Figure 2.  Rapid, local, signal-dependent immobilization of EGFR in con-
+fluent  Nf2WT-expressing  cells.  (A)  Lateral  mobility  of  EGFR  in  confluent, 
+serum-starved  Nf2wt-expressing  versus  Nf2−/−  LDCs  at  early  (0–20  min) 
+and late (40–60 min) time points after EGF-labeled beads were added. 
+Also shown is the impact of 1-µM erlotinib treatment on EGFR mobility in 
+Nf2WT-expressing cells. Data are represented as mean ± SEM. ***, P < 
+0.001 (one-way ANO VA with multiple comparisons). (B) Lateral mobility 
+of EGFR in confluent, serum-starved Nf2WT-expressing LDCs measured at 
+2-min intervals after visually observing bead-to-cell attachment. Data are 
+binned according to the time elapsed between exposing cells to EGF-la-
+beled beads and observing bead-to-cell attachment. The graph shown is a 
+representative time course of the mobility of a single bead over time. For 
+each experiment, n > 3 beads. (C) Lateral mobility of single EGF-labeled 
+beads on the surface of confluent, serum-starved Nf2WT-expressing cells at 
+increasing time points after release from a laser optical trap (arrow). Data 
+are representative of at least three experiments.
+
+with the EGFR inhibitor erlotinib; in the presence of erlotinib, 
+EGFR was not immobilized in confluent Nf2WT-expressing cells 
+40–60  min  after  exposure  to  EGF-labeled  beads  (Fig.  2  A). 
+Furthermore, EGFR was not immobilized at any time point in 
+Nf2−/− cells (Fig. 2 A).
+
+Because of the lack of a time zero (t0) for ligand binding in 
+these population studies, this phenomenon could, in principle, 
+reflect a global alteration of the cell cortex in response to the 
+activation  of  individual  receptors  by  ligand-conjugated  beads 
+(requiring >20 min). However, given the stoichiometry of bind-
+ing of ligand-coated beads in these experiments (approximately 
+one bead per cell), this explanation seemed unlikely, as such a 
+pancellular response would require a dramatic amplification of 
+very few receptor–ligand interactions for any given cell. Alter-
+natively, differential receptor mobilities at 0–20 versus 40–60 
+min  could  reflect  differences  in  the  mean  time  elapsed  since 
+formation  of  the  receptor–ligand  complexes  under  observa-
+tion.  To  determine  whether  time-dependent  effects  on  recep-
+tor mobility in serum-starved Nf2WT-expressing cells reflected 
+a pancellular or local phenomenon, we measured the mobility 
+of individual ligand-bound receptors every 2 min starting at a 
+defined t0 at which a bead was observed to associate with the 
+receptor and assume a planar pattern of mobility. We found that 
+regardless of when a receptor–ligand complex formed, the re-
+ceptor initially displayed a significant degree of mobility and 
+then was immobilized over a period of <4 min (Fig. 2 B). In 
+a complementary approach, we used laser optical tweezers to 
+place EGF-labeled beads on the dorsal surface of confluent, se-
+rum-starved Nf2WT-expressing cells and monitor their mobility 
+after release from the laser trap. After release, the beads initially 
+assumed  a  freely  diffusing  lateral  mobility  followed  by  rapid 
+immobilization over <100 s (Fig. 2 C). These data suggest that 
+the  contact-dependent  regulation  of  EGFR  by  Merlin  is  also 
+dependent on ligand-induced stimulation of EGFR kinase ac-
+tivity and may represent a mechanism of rapid feedback. Col-
+lectively,  our  findings  indicate  that  Merlin  inhibits  the  lateral 
+mobility  and  internalization  of  activated  EGFR  at  the  plasma 
+membrane in a rapid and localized manner in response to the 
+establishment of cell contact.
+
+Loss of Merlin yields increased mechanical 
+stress at the apical junction
+Merlin, like the ERMs, localizes to the cell cortex and to api-
+cal  cell–cell  junctions  (Fig.  S3  A;  Cole  et  al.,  2008)  and  is 
+important for the integrity of mature adherens junctions (AJs; 
+Lallemand et al., 2003; Gladden et al., 2010), raising the pos-
+sibility that Merlin controls EGFR indirectly by stabilizing cell 
+junctions. However, we recently found that a basic function of 
+Merlin is to restrict the cortical distribution of Ezrin in single 
+cells,  suggesting  that  Merlin  controls  cortical  cytoskeletal  or-
+ganization in the absence of cell junctions (Hebert et al., 2012). 
+To define the relationship between cell contact and EGFR inter-
+nalization, we examined cell junction establishment in LDCs, 
+which  are  HB-like  cells  that  establish  immature  AJs  and  do 
+not  form  tight  junctions  (TJs)  or  apical  microvilli  (Curto  et 
+al., 2007). We found that in both Nf2−/− and Nf2WT-expressing 
+LDCs, AJ components form discrete linear cell–cell boundar-
+ies at early time points after establishing contact (Fig. 3, A and 
+B; and Fig. S3 B). In contrast, at late confluence, AJs become 
+disrupted,  and AJ  components  are  mislocalized  in  Nf2−/−  but 
+not Nf2WT-expressing LDCs (Fig. 3, A and B; and Fig. S3 B). 
+We hypothesized that Merlin-deficient AJs may be fragile as a 
+
+result of a failure to stably associate with the actin cytoskeleton 
+(Takeichi,  2014).  Surprisingly,  however,  Merlin-deficient AJs 
+recruit similar levels of actin, as well as a marked increase in 
+vinculin, which is recruited to AJs as they experience elevated 
+mechanical tension (Fig. 3, C–E; and Fig. S3 C; Yonemura et 
+al., 2010). Moreover, reducing the mechanical stress on AJs via 
+either treatment with the type II myosin inhibitor blebbistatin 
+or culturing on soft hydrogels of defined stiffness (12 kPa; Fig. 
+S3 D), which reduces junctional forces (Maruthamuthu et al., 
+2011),  completely  rescued  late  junction  morphology  (Fig.  3, 
+F–H;  and  Fig.  S3  E).  Notably,  pharmacologic  inhibition  of 
+EGFR  did  not  rescue  junction  integrity  in  Nf2−/−  LDCs  (Fig. 
+S3 F). Together, these data suggest that loss of Merlin confers 
+excess mechanical stress on AJs.
+
+To corroborate these findings in a well-studied model of 
+junction formation, we examined Caco2 colonic epithelial cells. 
+Cultured Caco2 cells form a columnar monolayer with apical 
+junctions that mature to form distinct circumferential zonulae 
+adherens (ZAs) and apically positioned TJs (Otani et al., 2006; 
+Leerberg et al., 2014). We previously found that Merlin is es-
+sential for organotypic cyst formation by Caco2 cells but did not 
+investigate EGFR internalization or junction formation in these 
+studies (Hebert et al., 2012). Therefore, we first established that 
+EGFR  internalization  is  regulated  similarly  in  these  cells.  In-
+deed, TR-EGF  internalization  is  inhibited  in  confluent  Caco2 
+monolayers in the presence (cells expressing a scrambled short 
+hairpin [shSCR]) but not absence (shNF2-expressing) of Mer-
+lin, despite equivalent levels of EGFR activation (Fig. 4, A and 
+D; and not depicted). Furthermore, in control Caco2 cells, both 
+the ZA and apically positioned TJ form concise linear intercel-
+lular boundaries, but loss of Merlin yielded a markedly sinuous 
+junction  morphology  that  was  maintained  at  late  confluence 
+(Fig. 4, B, C, E, and F). Notably, this phenotype is distinct from 
+that caused by experimentally interfering with AJ or TJ integ-
+rity in the same cells (Dunagan et al., 2012; Verma et al., 2012). 
+Importantly,  as  in  LDCs,  blebbistatin  treatment  rescues  junc-
+tion morphology (Fig. 4, G and H). Thus, in two different types 
+of  epithelial  cells,  loss  of  Merlin  is  associated  with  a  loss  of 
+contact-dependent regulation of EGFR internalization and with 
+junctional changes that are caused by excess MyoII activity.
+
+Increased medioapical contraction in 
+confluent Merlin-deficient cells
+Mechanical stress on apical junctions can be driven by circum-
+ferential contraction of the actomyosin belt at the ZA or by con-
+traction of the medioapical cortical cytoskeleton, which exerts 
+radial inward pulling forces upon the ZA (Martin and Goldstein, 
+2014). Both are well-studied mechanisms of apical constriction 
+that drive tissue morphogenesis in other organisms, including 
+Drosophila melanogaster and Caenorhabditis elegans (Martin 
+and Goldstein, 2014). However, ZA contraction, which is driven 
+by  junctional  Myosin  II  activity,  is  typically  accompanied  by 
+a  smooth  ZA  morphology  (Hildebrand,  2005;  Nishimura  and 
+Takeichi,  2008;  Chua  et  al.,  2009).  In  contrast,  medioapical 
+contraction, driven by Myosin II activity at the cell apex, ap-
+plies force at discrete points along cell junctions, causing them 
+to bend inward and adopt a junctional morphology similar to 
+that  of  shNF2-expressing  Caco2  cells  (Martin  et  al.,  2009). 
+The altered junctional morphology apparent in the absence of 
+Merlin  could  reflect  a  reorientation  of  forces  from  parallel  to 
+orthogonal,  as  would  accompany  medioapical  contraction.  In 
+fact, in contrast to confluent control cells in which MyoIIA lo-
+
+Contact-dependent immobilization of eGFr by merlin • Chiasson-macKenzie et al.
+
+395
+
+Figure 3.  Cell junctions in Nf2−/− LDCs are under increased mechanical stress. (A) Confocal images showing Nf2−/− or Nf2WT-expressing LDCs at early 
+(left) and late (right) stages of confluence; cells were labeled with an anti–β-catenin antibody (red) and with phalloidin to detect F-actin (green). (B) Junc-
+tional localization of β-catenin was quantified by fluorescence intensity analysis of AJs in early and late confluent Nf2−/− and Nf2WT-expressing LDCs. (C) 
+Junctional localization of F-actin was quantified by fluorescence intensity analysis of AJs in late confluent Nf2−/− and Nf2WT-expressing LDCs. (D) Confocal 
+images showing endogenous vinculin at AJs in Nf2−/− and Nf2WT-expressing LDCs. (E) The amount of vinculin at AJs in Nf2−/− and Nf2WT-expressing LDCs 
+was quantified by measuring the junctional area stained for vinculin. (F) Confocal images showing endogenous β-catenin (red) and/or F-actin (green) in 
+Nf2−/− LDCs treated with 100-µM blebbistatin or vehicle (DMSO). (G) Junctional localization of β-catenin in DMSO- and blebbistatin-treated confluent 
+Nf2−/− LDCs was quantified by fluorescence intensity analysis of AJs. (H) Junctional localization of β-catenin in Nf2−/− LDCs cultured on stiff (40 kPa) and 
+soft (12 kPa) polyacrylamide hydrogels. (B, C, E, G, and H) Error bars indicate SEM (n = 25 junctions per group). *, P < 0.05; ***, P < 0.001. Data are 
+representative of at least three experiments. Bars, 10 µm. a.u., arbitrary units.
+
+calized to the ZA and uniformly across the medioapical cortex, 
+MyoIIA formed condensed apical foci in Merlin-deficient cells 
+that are strikingly reminiscent of the coalescence of apical My-
+osin II that is driven by centripetal cortical flow and accompa-
+nies medioapical contraction in flies (Fig. 5, A and B; Martin 
+
+and Goldstein, 2014). Notably, actin was not strongly enriched 
+in  the  MyoIIA  foci  (Fig.  S4  A). Apical  MyoIIA  coalescence 
+was also seen in Nf2−/− LDCs, which also exhibited increased 
+cortical levels of activated myosin regulatory light chain, con-
+sistent with increased apical contractility (Fig. S4, B and E). In 
+
+396
+
+JCB • Volume 211 • NumBer 2 • 2015
+
+Figure 4.  Merlin limits EGFR internalization and junctional stress in Caco2 colonic epithelial cells. (A) Confocal images of control (shSCR) and shNF2-ex-
+pressing Caco2 cells showing the localization of β-catenin (green) and internalized TR-EGF (red; 30 min after stimulation). (B) Confocal images of control 
+and shNF2-expressing Caco2 cells showing junctional localization of β-catenin (red) and F-actin (green). (C) Linearity index of β-catenin–labeled cell junc-
+tions in the experiment in B was quantified and graphed as the mean of the ratio of the length of a freehand-drawn line to a straight line drawn between 
+two junctional vertices. (D) Internalized TR-EGF was quantified by fluorescence intensity thresholding to measure the number of TR-EGF vesicles per cell. (E) 
+Confocal images showing junctional localization of ZO-1 (red) and F-actin (green). (F) Linearity index of ZO-1–labeled junctions calculated from the experi-
+ment in E. (G) Confocal images of shNF2-expressing Caco2 cells treated with 100-µM blebbistatin or DMSO showing junctional localization of E-cadherin 
+(red) and F-actin (green). (H) Linearity index of F-actin–labeled junctions calculated from the experiment in F. (C, D, F, and H) Error bars indicate SEM. n = 
+at least 25 junctions per group. *, P < 0.05; ***, P < 0.001. Data are representative of at least three experiments. Bars, 10 µm.
+
+contrast, the distribution of Myosin IIB was similar in wild-type 
+and Merlin-deficient cells of both types (Fig. 5 F and Fig. S4 C).
+Apical constriction in Drosophila ventral furrow cells is 
+accompanied by an apical shift and vertical shortening of the 
+apical junction that is thought to be caused by increased medio-
+apical pulling (Dawes-Hoang et al., 2005). We suspected that, 
+
+as during apical constriction, MyoIIA foci form as a result of a 
+ratchet-like mechanism that reflects apically restricted cortical 
+pulling  against  stable  apical  junctions.  Indeed,  we  found  that 
+Merlin-deficient junctions were condensed vertically at the api-
+cal junction complex, rather than evenly distributed along the 
+lateral  boundary,  despite  the  fact  that  shNF2-expressing  cells 
+
+Contact-dependent immobilization of eGFr by merlin • Chiasson-macKenzie et al.
+
+397
+
+Figure 5.  Features of apical contraction in Merlin-deficient cells. (A) Confocal images showing the cortical distribution of MyoIIA (green) and E-cadherin 
+(red) in control (shSCR) and shNF2-expressing Caco2 monolayers. Bars, 10μm. The distributions of E-cadherin and F-actin along the z axis are shown in 
+accompanying y-z views (apical = top). Bars, 5μm. (B) The cortical area covered by MyoIIA was quantified by calculating the ratio of cortical MyoIIA to the 
+total cortical area delimited by F-actin. n = 25 cells per group. (C) Y-Z confocal images of control and shNF2-expressing Caco2 cells showing the vertical 
+height and apical position of the ZA marked by β-catenin and F-actin. Arrows indicate the apical junction region. Bars, 5μm. (D) Ratio of E-cadherin–marked 
+cell junction height to total cell height in control and shNF2-expressing Caco2 cells. n = 10 cells per group. (E) Y-Z confocal images depicting the vertical 
+height and position of the E-cadherin and F-actin–stained ZA in shNF2-expressing Caco2 cells treated with either 100-µM blebbistatin or DMSO. Bars, 
+5μm. (F) Confocal images showing the distribution of Myosin IIB in control and shNF2-expressing Caco2 cells. Bars, 10μm. Error bars indicate SEM. ***, 
+P < 0.001. Data are representative of at least three experiments.
+
+exhibit a slightly greater average cell height (Fig. 5, C and D). 
+Notably, this aspect of Merlin-deficient AJs was also rescued by 
+blebbistatin, confirming that it is also a consequence of excess 
+mechanical force (Fig. 5 E). Together, these data are consistent 
+with a model wherein loss of Merlin drives increased medioap-
+ical  contraction,  MyoIIA  coalescence,  and  excess  mechanical 
+pulling forces on the ZA.
+
+Apical MyoIIA is required for contact-
+dependent inhibition of EGFR internalization
+Loss of the uniform distribution of apical MyoIIA in favor of 
+coalesced apical foci correlates with persistent TR-EGF inter-
+nalization  at  confluence  in  Merlin-deficient  LDCs  and  Caco2 
+cells (Fig. 5 A and Fig. 4 A). Indeed, blebbistatin treatment of 
+
+established Merlin-deficient monolayers rescues junction mor-
+phology (Fig. 4, G and H) but does not restore MyoIIA corti-
+cal distribution or block TR-EGF internalization in either cell 
+type (Fig. 6, A and B; and Fig. S4 B). This suggests that uni-
+formly distributed cortical MyoIIA activity is essential for the 
+inhibition  of  EGFR  internalization  in  confluent  control  cells. 
+In fact, we identified a strong anticorrelation between TR-EGF 
+internalization and the cortical area covered by MyoIIA in con-
+trol  populations  (Fig.  6  C).  To  further  test  this,  we  inhibited 
+Myosin  II  activity  in  confluent  wild-type  Caco2  monolayers. 
+Although blebbistatin had no apparent effect on the ZA or on 
+MyoIIA  distribution,  it  completely  reversed  the  inhibition  of 
+TR-EGF  internalization,  mimicking  the  effect  of  Merlin  defi-
+ciency (Fig. 6, D and E). Together, these data suggest that in 
+
+398
+
+JCB • Volume 211 • NumBer 2 • 2015
+
+Figure  6.  Uniformly  distributed  MyoIIA  is 
+essential  for  contact-dependent  inhibition  of 
+EGFR internalization. (A) Confocal images of 
+shNF2-expressing  cells  treated  with  100-µM 
+blebbistatin or DMSO and stained for MyoIIA 
+and F-actin. (B) Quantification of internalized 
+TR-EGF–containing vesicles (30 min after stim-
+ulation)  in  DMSO  and  blebbistatin-treated 
+shNF2-expressing  cells.  n  =  >50  cells  per 
+group. P > 0.05. (C) Graph shows the fraction 
+of cortical area covered by MyoIIA in shSCR 
+cells that do not (left) versus do (right) display 
+internalized  TR-EGF  at  30  min  after  stimula-
+tion. n = 25 cells per group. (D) Internalized 
+TR-EGF (30 min after stimulation) was quanti-
+fied in DMSO and blebbistatin-treated control 
+cells.  n  =  >50  cells  per  group.  (E)  Confocal 
+images  depict  MyoIIA  and  junctional  F-actin 
+localization in control Caco2 cells treated with 
+DMSO or 100-µM blebbistatin. Error bars in-
+dicate  SEM.  *,  P  <  0.05;  ***,  P  <  0.001. 
+Data  are  representative  of  at  least  three 
+experiments. Bars, 10 µm.
+
+normal  cells,  maintenance  of  active  MyoIIA  across  the  corti-
+cal cytoskeleton in response to cell–cell contact is required for 
+immobilizing EGFR and blocking EGFR internalization. Con-
+versely,  the  restriction  of  apical  MyoIIA  into  cortical  foci  in 
+the absence of Merlin eliminates the MyoIIA-dependent block 
+of EGFR internalization.
+
+Ectopic apical Ezrin in confluent Merlin-
+deficient cells
+Increased  medioapical  contractility  in  Merlin-deficient  cells 
+could  be  caused  by  increased  membrane  tension  (Gauthier  et 
+al., 2012). The ERM proteins are well-established membrane–
+cytoskeleton cross-linking proteins that drive increased mem-
+brane  tension  and  contractility  during  mitotic  rounding  in  fly 
+and mammalian cells (Carreno et al., 2008; Kunda et al., 2008; 
+Luxenburg et al., 2011). In fact, our earlier studies revealed that 
+a key consequence of Merlin loss in Caco2 cells, and in sev-
+
+eral  tissues  in  vivo,  is  increased  cortical  Ezrin  (Hebert  et  al., 
+2012).  In  Caco2  monolayers,  Ezrin  is  restricted  to  the  apical 
+surface; therefore, we asked whether excess Ezrin at the apical 
+cortex  is  a  feature  of  confluent  Merlin-deficient  monolayers. 
+Indeed, we found that the levels of apical Ezrin are markedly 
+increased in shNF2-expressing Caco2 cells and in Nf2−/− LDCs, 
+which also exhibit increased levels of activated ERM (pERM; 
+Fig.  7, A  and  B;  and  Fig.  S5,  A  and  B). Activation  of  Ezrin/
+ERMs in control cells using the cell-permeable phosphatase in-
+hibitor Calyculin A, which drives Ezrin/ERM phosphorylation 
+(Kunda et al., 2008; Viswanatha et al., 2012), promotes MyoIIA 
+coalescence and sinuous junction morphology, mirroring Mer-
+lin  deficiency  (Fig.  7,  C–F).  Moreover,  depletion  of  Ezrin  in 
+shNF2-expressing  Caco2  cells  completely  rescues  both  junc-
+tion morphology and MyoIIA distribution, demonstrating that 
+excess Ezrin drives the cortical and junction defects observed 
+in Merlin-deficient cells (Fig. 7, G–I; and Fig. S5 C). Finally, 
+
+Contact-dependent immobilization of eGFr by merlin • Chiasson-macKenzie et al.
+
+399
+
+in  confluent  control  cultures,  we  occasionally  observed  cells 
+with sinuous junctions that mirrored those of shNF2-express-
+ing Caco2 cells; closer inspection revealed that these cells were 
+mitotic and also exhibited increased apical Ezrin (Fig. S5 C). 
+The  apical  surface  of  mitotic  cells  was  constricted  relative  to 
+neighboring cells, with the bulging mitotic equator positioned 
+beneath  the  apical  surface  of  the  monolayer.  These  data  are 
+consistent with a model whereby in the absence of Merlin, in-
+creased  apical  Ezrin  drives  medioapical  contraction,  MyoIIA 
+redistribution,  loss  of  actomyosin-mediated  EGFR  immobi-
+lization,  and  persistent  internalization  of,  and  signaling  from, 
+ligand-bound EGFR at confluence.
+
+Discussion
+
+Our study indicates that mechanical forces associated with the 
+establishment  of  cell–cell  junctions  are  transduced  across  the 
+cell  cortex  via  the  cortical  actomyosin  cytoskeleton  to  con-
+trol  the  mobility  and  activity  of  plasma  membrane  receptors. 
+For EGFR, the consequence of this contact-dependent control 
+is  actin-  and  MyoII-dependent  immobilization  at  the  cortex, 
+which prevents internalization and recruitment of downstream 
+signaling effectors (Curto et al., 2007). Importantly, this mech-
+anism of control also requires EGFR kinase activity, suggesting 
+that in contacting cells activated EGFR recruits an alternative 
+effector that both immobilizes EGFR and impedes its associa-
+tion with canonical effectors, such as Grb2 and Cbl, that drive 
+endocytosis and mitogenic signaling. Notably, there are intrigu-
+ing parallels between our study and that of Lidke et al. (2005), 
+who showed that EGFR associates with filopodial actin and is 
+transported by retrograde flow toward the cell body via a mech-
+anism that requires EGFR kinase activity; once activated EGFR 
+dimers reach the cell body they are endocytosed, which would 
+enable mitogenic signaling (Lemmon and Schlessinger, 2010). 
+Although the mechanism by which EGFR communicates with 
+actin filaments in filopodia is not known, elimination of actin 
+treadmilling immobilized filopodial EGFR in that study (Lidke 
+et  al.,  2005).  We  propose  that  the  association  of  EGFR  with 
+a  mechanically  immobilized  cortical  cytoskeleton  in  contact-
+ing cells could proceed via a similar mechanism. The require-
+ment  for  EGFR  kinase  activity  for  contact-dependent  control 
+suggests that this mechanism may be unique to EGFR or to a 
+subset  of  receptors  that,  when  activated,  can  recruit  such  ac-
+tin-associating effectors.
+
+Merlin itself could link EGFR to a cortical cytoskeleton 
+that has been mechanically stabilized in response to cell con-
+tact via the PDZ domain–containing adapter NHE RF1 (Curto 
+et al., 2007). Alternatively, the primary effect of Merlin could 
+be to alter the configuration of the cortical cytoskeleton itself, 
+thereby facilitating the appropriate distribution and activation of 
+MyoIIA and other factors that immobilize EGFR and limit me-
+dioapical contraction at confluence. Most interesting is the pos-
+sibility that Merlin simultaneously alters the actin cytoskeleton 
+and links EGFR to it via NHE RF1; indeed, the closely related 
+ERM proteins seem designed to simultaneously link membrane 
+complexes to, and alter the properties of, the cortical cytoskele-
+ton (Fehon et al., 2010; McClatchey, 2014).
+
+Merlin  could  alter  the  configuration  of  the  cortical  cy-
+toskeleton  in  two  nonexclusive  ways:  (1)  by  limiting  cortical 
+Ezrin  and  (2)  by  controlling  the  activity  of  the  actin-binding 
+protein α-catenin, with which Merlin directly interacts (Glad-
+
+den et al., 2010). Although best known for its mechanosensitive 
+role in linking the AJ to the actin cytoskeleton, mounting evi-
+dence indicates that α-catenin can remodel actin away from cell 
+junctions (Lien et al., 2008; Benjamin et al., 2010; Buckley et 
+al., 2014). Most recently, it has been shown that α-catenin binds 
+cooperatively to, and alters the conformation of, actin filaments, 
+impeding the loading of other actin-modifying proteins (Han-
+sen et al., 2013). Merlin and α-catenin stabilize each other at the 
+cortex of single cells, and α-catenin loss mimics Merlin loss in 
+single cells, yielding ectopic cortical Ezrin (Hebert et al., 2012); 
+therefore, Merlin restricts cortical Ezrin via a mechanism that 
+involves α-catenin. An intriguing possibility then is that Merlin 
+facilitates α-catenin–dependent remodeling of actin filaments, 
+which in turn impedes the association of Ezrin. Such a mecha-
+nism could explain the propagation of mechanical signals from 
+the AJ/ZA, where α-catenin mechanosensitively links junction 
+complexes to the cortical cytoskeleton, across the cortex.
+
+Our data best fit a model wherein the primary consequence 
+of Merlin loss is excess medioapical contraction, which causes 
+secondary defects in apical cell junctions. The coalescence of 
+apical MyoIIA, together with both planar and vertical aspects 
+of junction morphology, mirror that of established examples of 
+medioapical contraction (Martin and Goldstein, 2014), and both 
+junctional  phenotypes  are  rescued  by  blebbistatin  treatment. 
+Medioapical  and  junctional  forces  must  be  balanced  in  order 
+to maintain proper intrajunctional tension and monolayer integ-
+rity, although how this coordination is achieved remains to be 
+defined (Wu et al., 2014). Merlin, Ezrin, and α-catenin all local-
+ize to both the medioapical cortex and to apical junctions, and 
+mutants that distinguish these localizations have not been iden-
+tified; therefore, we cannot rule out contributions of junctional 
+Merlin/Ezrin/α-catenin to maintaining this balance. Indeed, the 
+apical junction and medioapical cortex are perhaps best thought 
+of  as  a  continuum,  and  the  dual  localization  of  proteins  like 
+Merlin/Ezrin/α-catenin  and  actin  itself  is  likely  central  to  the 
+ability of cells to sense and respond to cell contact. Our data 
+argue that increased medioapical contraction in the absence of 
+Merlin is driven by Ezrin-induced changes in the configuration 
+of  the  cortical  cytoskeleton.  In  mitotic  cells,  elevated  cortical 
+Ezrin increases cortical rigidity by increasing local actin fila-
+ment  concentration  and  MyoII  accumulation  (Carreno  et  al., 
+2008; Kunda et al., 2008; Luxenburg et al., 2011). In the ab-
+sence of Merlin, an increase in cortical Ezrin, specifically across 
+the apical surface, could similarly drive minifilament formation, 
+actomyosin flow, and excess medioapical contraction (Lecuit et 
+al., 2011; Martin and Goldstein, 2014).
+
+Our studies also have important translational implications 
+for NF2 mutant tumors. First, deregulation of this mechanism 
+of EGFR control may be an important driver of NF2-associated 
+tumorigenesis.  Indeed,  pharmacologic  EGFR  inhibitors  block 
+the proliferation of neoplastic cells in Nf2 mutant mouse kidney 
+and liver tumors (Morris and McClatchey, 2009; Benhamouche 
+et al., 2010). Other receptors that are subject to this Merlin- and 
+contact-dependent control mechanism may be additional drivers 
+of NF2 mutant tumors or molecular escape pathways upon EGFR 
+inhibition. Second, basic insight into the role of Merlin in con-
+trolling the cortical cytoskeleton will inform our understanding 
+of how Merlin controls other pathways including the Hippo path-
+way, which is also sensitive to changes in the mechanical cellular 
+environment (Boggiano and Fehon, 2012). In fact, our work sug-
+gests that EGFR and Hippo signaling may be coordinated in re-
+sponse to changes in the mechanical forces experienced by cells.
+
+400
+
+JCB • Volume 211 • NumBer 2 • 2015
+
+Figure 7. 
+Increased cortical Ezrin drives apical contractility. (A) Endogenous Ezrin (red) and junctional F-actin (green) in confluent control and shNF2-ex-
+pressing Caco2 cells as depicted by representative confocal images. (B) The levels of apical Ezrin in A were quantified by calculating the ratio of apical 
+Ezrin to the total apical area delimited by F-actin. (C) Confocal images showing apical Ezrin and junctional F-actin in shSCR Caco2 cells treated with DMSO 
+or 1-µM calyculin A for 5 min. (D) Linearity index of F-actin–labeled junctions calculated from the experiment in C. (E) Levels of apical Ezrin in control or 
+calyculin A–treated cells. (F) Levels of cortical MyoIIA in control or calyculin A–treated cells. (G) Confocal images depict the levels and distribution of MyoIIA 
+(red) and F-actin (green) in shNF2- and shNF2/shEZR-expressing Caco2 cells. (H) Linearity index in shNF2- and shNF2/shEZR-expressing cells. (I) Cortical 
+area covered by MyoIIA in shNF2- and shNF2/shEZR-expressing cells. Error bars indicate SEM. **, P < 0.01; ***, P < 0.001. Data are representative 
+of at least two experiments. Bars, 10 µm.
+
+Finally, the demonstration that the transduction of mechan-
+ical forces experienced at cell junctions can influence plasma 
+membrane  receptors  across  the  cell  cortex  strongly  suggests 
+that changes in the external mechanical environment will have 
+
+a strong impact on receptor signaling. Indeed, EGFR signaling 
+is  known  to  be  sensitive  to  changes  in  the  mechanical  forces 
+experienced  across  cell  junctions  (Kim  et  al.,  2009;  Kim  and 
+Asthagiri,  2011).  Our  studies  suggest  that  apical  constriction 
+
+Contact-dependent immobilization of eGFr by merlin • Chiasson-macKenzie et al.
+
+401
+
+and EGFR trafficking could be coordinated in normal tissues, for 
+example during the programmed changes in apical expansion/
+constriction that intestinal epithelial cells undergo during mor-
+phogenesis and homeostasis (van der Flier and Clevers, 2009). 
+Our studies also predict that the mechanical environment will 
+markedly impact the contribution of EGFR signaling to tumori-
+genesis as well as the sensitivity of cells to pharmacologic inhib-
+itors of EGFR or other mechanosensitive receptors. Alterations 
+in cell and tissue architecture are universal and early features 
+of developing tumors, and mounting evidence indicates that the 
+mechanical forces experienced by cells within a tumor are very 
+different from those in normal tissues (Huang and Ingber, 2005; 
+DuFort et al., 2011; Kraning-Rush and Reinhart-King, 2012). 
+Moreover, most preclinical studies of drug sensitivity and re-
+sistance are performed in cells cultured in polystyrene dishes, 
+which are >1,000× stiffer than normal tissues (Kraning-Rush and 
+Reinhart-King, 2012) and may therefore not accurately predict 
+tumor cell drug sensitivity. Thus, knowledge of the impact of the 
+mechanical environment on EGFR signaling and drug sensitivity 
+may be essential toward predicting their clinical value in patients.
+
+Materials and methods
+
+Cell culture and reagents
+LDCs are HB-like cells derived from early hyperproliferative lesions 
+arising in Alb-Cre;Nf2lox/lox mice. Alb-Cre;Nf2lox/lox mice were generated 
+by crossing homozygous Nf2lox/lox mice (FVB/N) with transgenic mice 
+expressing  the  Cre-recombinase  gene  under  a  liver-specific  albumin 
+promoter (Alb-Cre; B6.Cg-Tg[Alb-cre]21Mgn/J; The Jackson Labora-
+tory; Giovannini et al., 2000; Postic and Magnuson, 2000). To isolate 
+cells, the liver of a 12-wk-old Alb-Cre;Nf2lox/lox mouse was removed, 
+minced, dissociated in Liver Dissociation Medium (Invitrogen), and cul-
+tured in 10% FBS-DMEM. Clonal cell lines were established by limit-
+ing dilution (Curto et al., 2007; Benhamouche et al., 2010). Wild-type 
+embryonic HBs were isolated from the livers of embryonic day (E) 14.5 
+Nf2lox/lox embryos as described for LDCs. HBs were plated on type I col-
+lagen (BD)–coated dishes in F12-DMEM medium supplemented with 
+10% FBS, 100 ng/ml EGF, 60 ng/ml IGF-II, and 10 mg/ml insulin. Once 
+epithelial clones appeared, several were isolated using cloning cylin-
+ders and further expanded (Benhamouche et al., 2010). Nf2 deletion in 
+cultured HBs was achieved via infection with adenoviral Cre-recombi-
+nase (Ad5CMV-Cre) as described previously (Lallemand et al., 2003). 
+Human  Caco2  cells  were  a  gift  from  W.  Lencer  (Boston  Children’s 
+Hospital, Boston, MA). AD-293 cells for adenovirus production were 
+purchased from Agilent Technologies, and 293T cells for retrovirus and 
+lentivirus production were purchased from ATCC. Cells were cultured 
+in DMEM containing 10% FBS and 1% penicillin/streptomycin.
+
+The following conditions were used for pharmacological treat-
+ments (duration of treatment before start of the experiment): cytocha-
+lasin  D  (Sigma-Aldrich),  5  µM  for  30  min;  latrunculin A  (Cayman), 
+5 µM for 30 min; methyl-β-cyclodextrin (Sigma-Aldrich), 10 mM for 
+45 min; blebbistatin (EMD Millipore), 100 µM for 30 min; erlotinib 
+(ChemieTek), 1 µM for 120 min; BIBW-2992 (Selleck), 1 µM for 60 
+min; and calyculin A (Sigma-Aldrich), 1 µM for 5 min. Treatment was 
+continued at the stated doses for the duration of the experiment.
+
+Plasmids and shRNA constructs
+Merlin expression constructs (Nf2WT and Nf218–595) were generated by 
+PCR amplification of the mouse Nf2 coding region (Lallemand et al., 
+2003; Cole et al., 2008). Human NF2myr, containing the c-src myris-
+toylation sequence for membrane targeting, was a gift from H. Mor-
+
+rison (Leibniz Institute, Jena, Germany). The C-terminal myc tag was 
+removed  by  PCR  (Hebert  et  al.,  2012).  Constructs  were  cloned  into 
+the pBABE or pAdCMV vectors under the control of a cytomegalo-
+virus (CMV) promoter. Lentiviral shRNA constructs targeting human 
+NF2  (5′-GAG GAAGC AACCC AAGAC GTT-3′)  or  a  scrambled  con-
+trol (shSCR; 5′-CAG TCGCG TTTGC GACTGG-3′) in a pLKO-puro.1 
+vector  under  the  control  of  the  human  U6  promoter  were  gifts  from 
+M. James (Massachusetts General Hospital, Boston, MA; James et al., 
+2008). The shRNA construct targeting human Ezrin (5′-TTG ATTCC 
+ATACA TTTCC AGG-3′) in a pLKO-puro.1 vector was purchased from 
+GE Healthcare (Hebert et al., 2012).
+
+Virus production and infection
+Nf2-expressing retroviruses were produced by cotransfecting 293T cells 
+with pBABE constructs and the ψ2 packaging vector using the Fugene6 
+transfection reagent (Promega). The virus was harvested 24, 36, and 48 h 
+after transfection. LDCs were infected with Nf2-expressing retroviruses, 
+and stable cell lines were generated by selection in 5 µg/ml puromycin. 
+For all experiments, an empty pBABE vector was used as a control. 
+Nf2WT-expressing adenoviruses were generated using the AdEasy system 
+(Agilent Technologies) as previously described (Lallemand et al., 2003). 
+Full-length mouse Nf2 was subcloned into the pAdCMV shuttle vector 
+under the control of a CMV promoter. The plasmid was digested with 
+Pme1 and cotransformed into BJ5183 cells with the adenoviral backbone 
+vector pAdEasy-1. Confirmed recombinant clones were linearized by 
+Pac1 digestion to expose the viral inverted terminal repeats and trans-
+fected into 293A cells for production of adenovirus. The virus was har-
+vested by lysis and concentration of virus-producing 293A cells. LDCs 
+were infected 24 h before the start of the experiment to induce gene 
+expression. For all experiments, an empty adenoviral vector was used 
+as a control. shRNA-expressing lentiviruses were generated by cotrans-
+fecting 293T cells with pLKO-puro.1 vectors and the packaging vectors 
+ΔVPR and VSVG. Viruses were harvested 24, 36, and 48 h after trans-
+fection. shSCR-, shNF2-, or shNF2/shEZR-expressing lentiviruses were 
+stably expressed in Caco2 cells after selection in 10 µg/ml puromycin.
+
+Antibodies
+Primary  antibodies  against  the  following  antigens  were  used  in  this 
+study:  1:250  (D1D8;  Cell  Signaling  Technology)  anti-Merlin  rabbit 
+monoclonal  antibody;  1:500  (C-18;  Santa  Cruz  Biotechnology,  Inc.) 
+anti-Merlin rabbit polyclonal antibody; 1:1,000 anti–β-catenin mouse 
+monoclonal  antibody  (BD);  1:500  anti–α-catenin  mouse  monoclonal 
+antibody  (7A4;  Zymed);  1:500  anti–N-cadherin  mouse  monoclonal 
+antibody (Transduction Labs); 1:500 anti–E-cadherin mouse monoclo-
+nal  antibody  (BD);  1:100  anti-Vinculin  mouse  monoclonal  antibody 
+(Sigma-Aldrich); 1:500 anti-nonmuscle Myosin IIA heavy chain rab-
+bit polyclonal antibody (Covance); 1:500 anti-nonmuscle Myosin IIB 
+heavy chain rabbit polyclonal antibody (Covance); anti–phospho-My-
+osin  light  chain  2  (serine  19)  1:100  rabbit  polyclonal  antibody  (Cell 
+Signaling  Technology);  1:500  anti–ZO-1  rabbit  polyclonal  antibody 
+(Life Technologies); 1:500 immunofluorescence and 1:1,000 Western 
+blot anti-Ezrin mouse monoclonal antibody (Neomarkers); 1:100 an-
+ti-pERM rabbit polyclonal antibody (Cell Signaling Technology); and 
+1:2,000 actin (Sigma-Aldrich). F-actin was labeled with Alexa Fluor 
+488–phalloidin  or  Rhodamine-phalloidin  (1:500;  Life  Technologies). 
+Secondary antibodies were species-specific antibodies conjugated with 
+Alexa Fluor 488, 555, or 647 for immunofluorescence (Life Technolo-
+gies). DAPI was added to cells during the final wash to label the nuclei.
+
+SPTM
+EGF-conjugated polystyrene microspheres were used to track EGFR 
+lateral mobility at the dorsal membrane of cells plated on 12-mm cov-
+
+402
+
+JCB • Volume 211 • NumBer 2 • 2015
+
+erslips. Bead binding was typically 0.5% of cells for BSA-labeled con-
+trol beads and 3% (sixfold selectivity) for EGF-labeled beads. SPTM 
+experiments were typically conducted in the presence of DMEM/10% 
+FBS.  Where  indicated,  SPTM  was  conducted  in  serum-free  DMEM 
+after overnight starvation after two PBS washes.
+
+Cells  were  observed  on  a  microscope  (TE2000-E;  Nikon) 
+equipped with differential interference contrast optics using a 60× oil 
+objective with an oil condenser (NA 1.4; Mirchev and Golan, 2001). 
+Images  of  a  single  bead  on  individual  cells  were  captured  at  1,000 
+frames per second with a camera (Fastcam Super10K; Photron), and 
+2,000  frames  were  recorded. Video  data  were  processed  with  Meta-
+Morph  software  (Molecular  Devices)  and  converted  to  trajectories. 
+Trajectory data were analyzed using mean square displacement (MSD) 
+analysis  implemented  in  custom  programs  written  in  MAT LAB  (po-
+pall,  popfunL,  popfunN,  sptload,  and  sptworkup;  see  supplemental 
+materials;  MathWorks).  Dmacro  coefficients  were  calculated  by  fitting 
+the initial third of the MSD versus time interval curve to the follow-
+ing equation: MSD = 4Dmacrotα. Statistical significance was determined 
+using a one-way analysis of variance (ANO VA) with multiple compari-
+sons. Distinct populations of trajectories were identified by using a ker-
+nel density function to calculate a population density estimate based on 
+the calculated Dmacro parameter and determine the relative contributions 
+of each subpopulation (Cairo et al., 2006).
+
+For laser optical tweezers, the beam was supplied by a 1,064-nm 
+neodymium-doped yttrium orthovanadate laser (Millennia IR; Spectra 
+Physics). The beam was expanded and directed through steering optics 
+consisting of a motorized gimbal mirror, used for moving the trap in the 
+x and y directions (i.e., in the sample plane), and a lens on a motorized 
+linear stage was used for positioning the trap in the z direction (i.e., per-
+pendicular to the sample plane). A dichroic filter was used to introduce 
+the  beam  into  the  microscope  light  path,  and  the  beam  was  focused 
+inside  the  sample  volume  by  a  100/1.3  NA  oil  immersion  objective. 
+The  sample  was  placed  on  a  stage  (XY-piezo;  Physik  Instrumente). 
+Laser tweezer manipulation and data collection were managed through 
+a custom-designed graphic user interface. Stage steering moved the cell 
+in contact with the functionalized bead captured in the laser trap. The 
+bead was held in contact with the cell membrane for 30 s to allow for-
+mation  of  ligand–receptor  interactions. The  trap  was  then  turned  off 
+and the bead was allowed to diffuse freely. Trajectories of beads that 
+remained attached to the cell were recorded and processed as described 
+in the previous paragraph.
+
+Polyacrylamide gel fabrication, collagen coating, and mechanical 
+validation
+Polyacrylamide solutions were prepared as previously described (Tse 
+and Engler, 2010). In brief, acrylamide and bis-acrylamide were com-
+bined  to  desired  concentrations  in  PBS.  Stiffness  was  controlled  by 
+varying  acrylamide  (40%  solution;  Sigma-Aldrich)  and  n,n′-meth-
+ylene-bis-acrylamide  (2%  solution;  Sigma-Aldrich)  concentrations; 
+acrylamide/bis-acrylamide  concentrations  for  soft  or  stiff  gels  were 
+5%/0.2%  or  8%/0.5%,  respectively.  Glass  coverslips  were  function-
+alized using 3-(trimethoxysilyl)propyl methacrylate (Sigma-Aldrich). 
+Gels  were  molded  into  a  125  µm  ×  12  mm–diameter  form  using  la-
+ser-cut  adhesive-backed  polyimide  film  (McMaster-Carr)  attached  to 
+hydrophobic cyclic olefin copolymer slides (Pure Slides) and polymer-
+ized on functionalized coverslips using 1:100 volume 10% ammonium 
+persulfate (Sigma-Aldrich) in H2O as an initiator and 1:1,000 volume 
+n,n,n′,n′-tetramethylethylenediamine  (Sigma-Aldrich)  as  a  catalyst. 
+Sulfo-SAN PAH (Thermo Fisher Scientific) was used to cross-link type 
+I collagen (BD) to the surface of the gels. Sulfo-SAN PAH was pho-
+toactivated using a UV cross-linker (UVP). Collagen was added at a 
+concentration of 0.1 mg/ml and allowed to incubate at 4°C for 24 h.
+
+Gel stiffness was determined by compressing a defined area of 
+hydrated 5 mm × 25 mm–diameter gels a known distance and measur-
+ing  the  reactive  force  using  a  parallel  plate  mounted  on  a  rheometer 
+(Discovery Hybrid HR-3; TA Instruments). From these bulk measure-
+ments, highly linear force-displacement curves were obtained. Stress 
+was calculated as the reactive force per unit area of the contact region of 
+the gel and parallel plate. A least squares fitting was applied to a linear 
+region of these curves corresponding to 7% strain, and the initial height 
+of the gels was calculated by finding the indentation value correspond-
+ing to zero force along this curve. The elastic modulus, E, was obtained 
+from this calculated initial height and the slope of the least squares fit.
+
+Immunofluorescence microscopy and TR-EGF internalization assay
+Cell  confluence  was  defined  as  previously  described  (Curto  et  al., 
+2007). In brief, early confluent cells were defined as those plated on 
+glass coverslips and allowed to grow until a monolayer formed (24–
+48 h). Late confluent cells were cultured for an additional 3–4 d after 
+initial monolayer formation. Internalization of TR-EGF was measured 
+as previously described (Curto et al., 2007). In brief, confluent mono-
+layers were serum starved in DMEM/1% BSA for 2 h and then incu-
+bated for 30 min at 37°C with 2 µg/ml TR-EGF (Life Technologies). 
+Cells were fixed in 4% paraformaldehyde in cytoskeletal stabilization 
+buffer (10-mM Pipes, pH 6.8, 100-mM KCl, 300-mM sucrose, 2-mM 
+EGTA, and 2-mM MgCl2) for 15 min followed by permeabilization in 
+0.2% Triton X-100 in PBS for 10 min. Confocal images were captured 
+on  an  inverted  laser-scanning  confocal  microscope  (LSM  710;  Carl 
+Zeiss) equipped with a 63× oil immersion objective (Plan Apochromat 
+NA 1.4; Carl Zeiss). All samples were fixed and were imaged at room 
+temperature.  DAPI  was  excited  with  a  405-nm  laser  line  of  a  diode 
+laser. Green and red fluorescent probes (Alexa Fluor 488, Alexa Fluor 
+555, and Rhodamine) were excited with the 488-nm or 514-nm laser 
+line of an argon laser, respectively. Far-red fluorescent probes (Alexa 
+Fluor 647) were excited with the 633-nm laser line of a helium–neon 
+laser. Two- or three-color fluorescent images were acquired as z stacks 
+in sequential mode using Zen software (2012; Carl Zeiss).
+
+Image analysis and statistics
+ImageJ software (version 1.4; National Institutes of Health) was used 
+for all image processing and analysis. For presented images, original z 
+stack images were converted to maximum intensity projections, and a 
+rolling ball background subtraction was applied to remove background 
+signal. The application of lookup tables was used to produce final im-
+ages. For fluorescent intensity analysis of cell–cell junctions, the region 
+of  interest  tool  was  used  to  define  areas  of  cell  contact  from  vertex 
+to vertex, as identified by β-catenin or α-catenin localization. Junction 
+intensity was determined by applying a threshold mask to the region of 
+interest and measuring the mean pixel intensity of the area within the 
+mask. Cortical MyoIIA or Ezrin localization was measured by applying 
+a thresholding mask and calculating the ratio of the area of MyoIIA or 
+Ezrin localization to the total surface area of the cell, as bounded by 
+F-actin or ZO-1 staining. The linearity index was determined similarly 
+to the method described previously (Tokuda et al., 2014). Cell–cell junc-
+tions stained for either ZO-1 or F-actin were manually traced from ver-
+tex to vertex using either a freehand line or a straight line. The linearity 
+index was calculated as the ratio of the length of the freehand line to the 
+length of the straight line. The results were graphed as the mean ratio 
+of freehand to straight line. TR-EGF internalization was quantified by 
+using a thresholding mask to identify internalized TR-EGF vesicles. The 
+number of vesicles per image was divided by the number of nuclei (as 
+determined by DAPI staining). Data from all analyses were imported 
+into Prism 6 software (GraphPad Software) for statistical analysis and 
+plotting of graphs. The Mann-Whitney test was used to compare groups.
+
+Contact-dependent immobilization of eGFr by merlin • Chiasson-macKenzie et al.
+
+403
+
+Online supplemental material
+Fig.  S1  shows  that  exogenous  and  endogenous  Merlin  regulate  the 
+lateral  mobility  and  internalization  of  EGFR  in  a  contact-dependent 
+manner. Fig. S2 demonstrates that EGFR immobilization and inhibi-
+tion of internalization occurs at the plasma membrane independently of 
+sterol-rich membrane microdomains. Fig. S3 shows the localization of 
+Merlin and AJ proteins in Nf2−/− and Nf2WT-expressing LDCs. Fig. S4 
+shows that LDCs exhibit MyoIIA coalescence and Myosin-dependent 
+regulation  of  TR-EGF  internalization.  Fig.  S5  shows  ectopic  apical 
+Ezrin  localization  and  increased  pERM  levels  in  Nf2−/−  LDCs,  de-
+creased Merlin and Ezrin levels in shNF2/shEzrin Caco2 cells, and that 
+mitotic control Caco2 cells exhibit sinuous junctions and increased api-
+cal Ezrin. Table S1 lists the Dmacro coefficients for EGFR under all ex-
+perimental conditions tested. Table S2 lists all of the data for TR-EGF 
+internalization under all experimental conditions tested. The following 
+custom MAT LAB programs were used to analyze trajectory data to de-
+termine MSD: popall loads the dataset and analyzes micro, macro, and 
+α diffusion; popfunL carries out population analysis of SPTM results 
+using log normal distribution analysis; popfunN carries out population 
+analysis  of  SPTM  results  using  normal  distribution  analysis;  sptload 
+reads all SPTM files and ensures the frame rates match; and sptworkup 
+loads all trajectories into an array and analyzes them using MSD and 
+subconfinement algorithms. Online supplemental material is available 
+at http://www.jcb.org/cgi/content/full/jcb.201503081/DC1.
+
+Acknowledgments
+
+We thank present and past members of the McClatchey laboratory for 
+valuable discussions; Helen Morrison, Marianne James, and Wayne 
+Lencer for reagents; Mathew Ulman for assistance in the generation of 
+polyacrylamide hydrogels; and Chris Chen and Nabeel El-Bardeesy 
+for helpful comments.
+
+This  work  was  supported  by  grants  from  the  National  Institutes  of 
+Health  (R01  CA113733  to  A.I.  McClatchey;  R01  HL032854  to 
+D.E.  Golan;  F31  GM78720  to  Q.  Baca;  and  T32  GM07306  to 
+Z.S. Morris) and a fellowship from the Children’s Tumor Foundation (to 
+C.  Chiasson-MacKenzie).  A.I.  McClatchey  is  the  Patricia  and  Scott 
+Eston MGH Reseach Scholar.
+
+The authors declare no competing financial interests.
+
+Submitted: 17 March 2015
+Accepted: 1 September 2015
+
+References
+Avraham,  R.,  and Y.  Yarden.  2011.  Feedback  regulation  of  EGFR  signalling: 
+Decision making by early and delayed loops. Nat. Rev. Mol. Cell Biol. 
+12:104–117. http://dx.doi.org/10.1038/nrm3048
+
+Benhamouche, S., M. Curto, I. Saotome, A.B. Gladden, C.H. Liu, M. Giovannini, 
+and A.I. McClatchey. 2010. Nf2/Merlin controls progenitor homeostasis 
+and tumorigenesis in the liver. Genes Dev. 24:1718–1730. http://dx.doi.
+org/10.1101/gad.1938710
+
+Benjamin,  J.M.,  A.V.  Kwiatkowski,  C.  Yang,  F.  Korobova,  S.  Pokutta, 
+T. Svitkina, W.I. Weis, and W.J. Nelson. 2010. αE-catenin regulates actin 
+dynamics independently of cadherin-mediated cell–cell adhesion. J. Cell 
+Biol. 189:339–352. http://dx.doi.org/10.1083/jcb.200910041
+
+Boggiano, J.C., and R.G. Fehon. 2012. Growth control by committee: Intercellular 
+junctions,  cell  polarity,  and  the  cytoskeleton  regulate  Hippo  signaling. 
+Dev. Cell. 22:695–702. http://dx.doi.org/10.1016/j.devcel.2012.03.013
+
+Buckley,  C.D.,  J.  Tan,  K.L.  Anderson,  D.  Hanein,  N.  Volkmann,  W.I.  Weis, 
+W.J.  Nelson,  and  A.R.  Dunn.  2014.  Cell  adhesion.  The  minimal  cad-
+herin-catenin  complex  binds  to  actin  filaments  under  force.  Science. 
+346:1254211. http://dx.doi.org/10.1126/science.1254211
+
+Cairo, C.W., R. Mirchev, and D.E. Golan. 2006. Cytoskeletal regulation couples 
+LFA-1 conformational changes to receptor lateral mobility and clustering. 
+Immunity. 25:297–308. http://dx.doi.org/10.1016/j.immuni.2006.06.012
+
+Carreno,  S.,  I.  Kouranti,  E.S.  Glusman,  M.T.  Fuller, A.  Echard,  and  F.  Payre. 
+2008. Moesin and its activating kinase Slik are required for cortical sta-
+bility and microtubule organization in mitotic cells. J. Cell Biol. 180:739–
+746. http://dx.doi.org/10.1083/jcb.200709161
+
+Chua, J., R. Rikhy, and J. Lippincott-Schwartz. 2009. Dynamin 2 orchestrates 
+the global actomyosin cytoskeleton for epithelial maintenance and apical 
+constriction. Proc. Natl. Acad. Sci. USA. 106:20770–20775. http://dx.doi.
+org/10.1073/pnas.0909812106
+
+Cole, B.K., M. Curto, A.W. Chan, and A.I. McClatchey. 2008. Localization to the 
+cortical  cytoskeleton  is  necessary  for  Nf2/merlin-dependent  epidermal 
+growth factor receptor silencing. Mol. Cell. Biol. 28:1274–1284. http://
+dx.doi.org/10.1128/MCB.01139-07
+
+Curto,  M.,  B.K.  Cole,  D.  Lallemand,  C.H.  Liu,  and  A.I.  McClatchey.  2007. 
+Contact-dependent inhibition of EGFR signaling by Nf2/Merlin. J. Cell 
+Biol. 177:893–903. http://dx.doi.org/10.1083/jcb.200703010
+
+Dawes-Hoang, R.E., K.M. Parmar, A.E. Christiansen, C.B. Phelps, A.H. Brand, 
+and  E.F.  Wieschaus.  2005.  folded  gastrulation,  cell  shape  change  and 
+the control of myosin localization. Development. 132:4165–4178. http://
+dx.doi.org/10.1242/dev.01938
+
+DuFort,  C.C.,  M.J.  Paszek,  and  V.M.  Weaver.  2011.  Balancing  forces: 
+Architectural control of mechanotransduction. Nat. Rev. Mol. Cell Biol. 
+12:308–319. http://dx.doi.org/10.1038/nrm3112
+
+Dunagan, M., K. Chaudhry, G. Samak, and R.K. Rao. 2012. Acetaldehyde dis-
+rupts tight junctions in Caco-2 cell monolayers by a protein phosphatase 
+2A-dependent  mechanism.  Am.  J.  Physiol.  Gastrointest.  Liver  Physiol. 
+303:G1356–G1364. http://dx.doi.org/10.1152/ajpgi.00526.2011
+
+Fehon, R.G., A.I. McClatchey, and A. Bretscher. 2010. Organizing the cell cor-
+tex:  The  role  of  ERM  proteins.  Nat.  Rev.  Mol.  Cell  Biol.  11:276–287. 
+http://dx.doi.org/10.1038/nrm2866
+
+García-Sáez, A.J.,  and  P.  Schwille.  2007.  Single  molecule  techniques  for  the 
+study of membrane proteins. Appl. Microbiol. Biotechnol. 76:257–266. 
+http://dx.doi.org/10.1007/s00253-007-1007-8
+
+Gauthier, N.C., T.A. Masters, and M.P. Sheetz. 2012. Mechanical feedback be-
+tween membrane tension and dynamics. Trends Cell Biol. 22:527–535. 
+http://dx.doi.org/10.1016/j.tcb.2012.07.005
+
+Giovannini,  M.,  E.  Robanus-Maandag,  M.  van  der Valk,  M.  Niwa-Kawakita, 
+V. Abramowski, L. Goutebroze, J.M. Woodruff, A. Berns, and G. Thomas. 
+2000. Conditional biallelic Nf2 mutation in the mouse promotes manifes-
+tations of human neurofibromatosis type 2. Genes Dev. 14:1617–1630.
+
+Gladden, A.B., A.M. Hebert, E.E. Schneeberger, and A.I. McClatchey. 2010. The 
+NF2 tumor suppressor, Merlin, regulates epidermal development through 
+the  establishment  of  a  junctional  polarity  complex.  Dev.  Cell.  19:727–
+739. http://dx.doi.org/10.1016/j.devcel.2010.10.008
+
+Hanahan, D., and R.A. Weinberg. 2011. Hallmarks of cancer: The next genera-
+
+tion. Cell. 144:646–674. http://dx.doi.org/10.1016/j.cell.2011.02.013
+
+Hansen, S.D., A.V. Kwiatkowski, C.Y. Ouyang, H. Liu, S. Pokutta, S.C. Watkins, 
+N.  Volkmann,  D.  Hanein,  W.I.  Weis,  R.D.  Mullins,  and  W.J.  Nelson. 
+2013. αE-catenin  actin-binding  domain  alters  actin  filament  conforma-
+tion  and  regulates  binding  of  nucleation  and  disassembly  factors.  Mol. 
+Biol. Cell. 24:3710–3720. http://dx.doi.org/10.1091/mbc.E13-07-0388
+
+Hebert, A.M., B. DuBoff, J.B. Casaletto, A.B. Gladden, and A.I. McClatchey. 
+2012.  Merlin/ERM  proteins  establish  cortical  asymmetry  and  centro-
+some  position.  Genes  Dev.  26:2709–2723.  http://dx.doi.org/10.1101/
+gad.194027.112
+
+Hildebrand, J.D. 2005. Shroom regulates epithelial cell shape via the apical po-
+sitioning of an actomyosin network. J. Cell Sci. 118:5191–5203. http://
+dx.doi.org/10.1242/jcs.02626
+
+Huang,  S.,  and  D.E.  Ingber.  2005.  Cell  tension,  matrix  mechanics,  and  can-
+cer  development.  Cancer  Cell.  8:175–176.  http://dx.doi.org/10.1016/j.
+ccr.2005.08.009
+
+James,  M.F.,  J.M.  Lelke,  M.  Maccollin,  S.R.  Plotkin,  A.O.  Stemmer-
+Rachamimov, V.  Ramesh,  and  J.F.  Gusella.  2008.  Modeling  NF2  with 
+human arachnoidal and meningioma cell culture systems: NF2 silencing 
+reflects the benign character of tumor growth. Neurobiol. Dis. 29:278–
+292. http://dx.doi.org/10.1016/j.nbd.2007.09.002
+
+Jaqaman, K., and S. Grinstein. 2012. Regulation from within: The cytoskeleton 
+in transmembrane signaling. Trends Cell Biol. 22:515–526. http://dx.doi.
+org/10.1016/j.tcb.2012.07.006
+
+Kim, J.H., and A.R. Asthagiri. 2011. Matrix stiffening sensitizes epithelial cells 
+to EGF and enables the loss of contact inhibition of proliferation. J. Cell 
+Sci. 124:1280–1287. http://dx.doi.org/10.1242/jcs.078394
+
+Kim,  J.H.,  K.  Kushiro,  N.A.  Graham,  and A.R.  Asthagiri.  2009.  Tunable  in-
+terplay  between  epidermal  growth  factor  and  cell–cell  contact  governs 
+
+404
+
+JCB • Volume 211 • NumBer 2 • 2015
+
+the  spatial  dynamics  of  epithelial  growth.  Proc.  Natl.  Acad.  Sci.  USA. 
+106:11149–11153. http://dx.doi.org/10.1073/pnas.0812651106
+
+Kraning-Rush, C.M., and C.A. Reinhart-King. 2012. Controlling matrix stiffness 
+and topography for the study of tumor cell migration. Cell Adhes. Migr. 
+6:274–279. http://dx.doi.org/10.4161/cam.21076
+
+Kunda,  P., A.E.  Pelling, T.  Liu,  and  B.  Baum.  2008.  Moesin  controls  cortical 
+rigidity, cell rounding, and spindle morphogenesis during mitosis. Curr. 
+Biol. 18:91–101. http://dx.doi.org/10.1016/j.cub.2007.12.051
+
+Kusumi, A., Y.  Sako,  and  M.  Yamamoto.  1993.  Confined  lateral  diffusion  of 
+membrane  receptors  as  studied  by  single  particle  tracking  (nanovid 
+microscopy).  Effects  of  calcium-induced  differentiation  in  cultured 
+epithelial  cells.  Biophys.  J.  65:2021–2040.  http://dx.doi.org/10.1016/
+S0006-3495(93)81253-0
+
+Lallemand,  D.,  M.  Curto,  I.  Saotome,  M.  Giovannini,  and  A.I.  McClatchey. 
+2003. NF2 deficiency promotes tumorigenesis and metastasis by desta-
+bilizing  adherens  junctions.  Genes  Dev.  17:1090–1100.  http://dx.doi.
+org/10.1101/gad.1054603
+
+Lecuit, T., P.F. Lenne, and E. Munro. 2011. Force generation, transmission, and in-
+tegration during cell and tissue morphogenesis. Annu. Rev. Cell Dev. Biol. 
+27:157–184. http://dx.doi.org/10.1146/annurev-cellbio-100109-104027
+
+Leerberg,  J.M.,  G.A.  Gomez,  S.  Verma,  E.J.  Moussa,  S.K.  Wu,  R.  Priya, 
+B.D.  Hoffman,  C.  Grashoff,  M.A.  Schwartz,  and  A.S.  Yap.  2014. 
+Tension-sensitive  actin  assembly  supports  contractility  at  the  epithelial 
+zonula adherens. Curr. Biol. 24:1689–1699. http://dx.doi.org/10.1016/j.
+cub.2014.06.028
+
+Lemmon, M.A., and J. Schlessinger. 2010. Cell signaling by receptor tyrosine ki-
+nases. Cell. 141:1117–1134. http://dx.doi.org/10.1016/j.cell.2010.06.011
+Lenne, P.F., L. Wawrezinieck, F. Conchonaud, O. Wurtz, A. Boned, X.J. Guo, 
+H. Rigneault, H.T. He, and D. Marguet. 2006. Dynamic molecular con-
+finement  in  the  plasma  membrane  by  microdomains  and  the  cytoskel-
+eton  meshwork.  EMBO  J.  25:3245–3256.  http://dx.doi.org/10.1038/
+sj.emboj.7601214
+
+Lidke,  D.S.,  K.A.  Lidke,  B.  Rieger,  T.M.  Jovin,  and  D.J.  Arndt-Jovin.  2005. 
+Reaching out for signals: Filopodia sense EGF and respond by directed 
+retrograde  transport  of  activated  receptors.  J.  Cell  Biol.  170:619–626. 
+http://dx.doi.org/10.1083/jcb.200503140
+
+Lien, W.H., V.I. Gelfand, and V. Vasioukhin. 2008. α–E-catenin binds to dyna-
+mitin and regulates dynactin-mediated intracellular traffic. J. Cell Biol. 
+183:989–997. http://dx.doi.org/10.1083/jcb.200805041
+
+Luxenburg, C., H.A. Pasolli, S.E. Williams, and E. Fuchs. 2011. Developmental 
+roles for Srf, cortical cytoskeleton and cell shape in epidermal spindle ori-
+entation. Nat. Cell Biol. 13:203–214. http://dx.doi.org/10.1038/ncb2163
+Martin, A.C.,  and  B.  Goldstein.  2014. Apical  constriction: Themes  and  varia-
+tions  on  a  cellular  mechanism  driving  morphogenesis.  Development. 
+141:1987–1998. http://dx.doi.org/10.1242/dev.102228
+
+Martin, A.C., M. Kaschube, and E.F. Wieschaus. 2009. Pulsed contractions of 
+an actin–myosin network drive apical constriction. Nature. 457:495–499. 
+http://dx.doi.org/10.1038/nature07522
+
+Maruthamuthu,  V.,  B.  Sabass,  U.S.  Schwarz,  and  M.L.  Gardel.  2011.  Cell-
+ECM traction force modulates endogenous tension at cell–cell contacts. 
+Proc.  Natl.  Acad.  Sci.  USA.  108:4708–4713.  http://dx.doi.org/10.1073/
+pnas.1011123108
+
+McClatchey, A.I. 2014. ERM proteins at a glance. J. Cell Sci. 127:3199–3204. 
+
+http://dx.doi.org/10.1242/jcs.098343
+
+McClatchey,  A.I.,  and  A.S.  Yap.  2012.  Contact  inhibition  (of  proliferation) 
+redux.  Curr.  Opin.  Cell  Biol.  24:685–694.  http://dx.doi.org/10.1016/j.
+ceb.2012.06.009
+
+Mirchev,  R.,  and  D.E.  Golan.  2001.  Single-particle  tracking  and  laser  optical 
+tweezers  studies  of  the  dynamics  of  individual  protein  molecules  in 
+membranes of intact human and mouse red cells. Blood Cells Mol. Dis. 
+27:143–147. http://dx.doi.org/10.1006/bcmd.2000.0367
+
+Morris,  Z.S.,  and A.I.  McClatchey.  2009. Aberrant  epithelial  morphology  and 
+persistent epidermal growth factor receptor signaling in a mouse model 
+of renal carcinoma. Proc. Natl. Acad. Sci. USA. 106:9767–9772. http://
+dx.doi.org/10.1073/pnas.0902031106
+
+Nishimura, T., and M. Takeichi. 2008. Shroom3-mediated recruitment of Rho 
+kinases  to  the  apical  cell  junctions  regulates  epithelial  and  neuroepi-
+thelial  planar  remodeling.  Development.  135:1493–1502.  http://dx.doi.
+org/10.1242/dev.019646
+
+Otani,  T.,  T.  Ichii,  S.  Aono,  and  M.  Takeichi.  2006.  Cdc42  GEF  Tuba  regu-
+lates the junctional configuration of simple epithelial cells. J. Cell Biol. 
+175:135–146. http://dx.doi.org/10.1083/jcb.200605012
+
+Postic,  C.,  and  M.A.  Magnuson.  2000.  DNA  excision 
+
+an 
+
+by 
+age. 
+(SICI)1526-968X(200002)26:2<149::AID-GENE16>3.0.CO;2-V
+
+albumin-Cre 
+Genesis. 
+
+transgene 
+26:149–150. 
+
+occurs 
+
+liver 
+progressively  with 
+http://dx.doi.org/10.1002/
+
+in 
+
+Saxton, M.J., and K. Jacobson. 1997. Single-particle tracking: Applications to 
+membrane dynamics. Annu. Rev. Biophys. Biomol.  Struct. 26:373–399. 
+http://dx.doi.org/10.1146/annurev.biophys.26.1.373
+
+Takeichi, M. 2014. Dynamic contacts: Rearranging adherens junctions to drive 
+epithelial  remodelling.  Nat.  Rev.  Mol.  Cell  Biol.  15:397–410.  http://
+dx.doi.org/10.1038/nrm3802
+
+Tokuda,  S.,  T.  Higashi,  and  M.  Furuse.  2014.  ZO-1  knockout  by  TAL EN-
+mediated  gene  targeting  in  MDCK  cells:  Involvement  of  ZO-1  in  the 
+regulation of cytoskeleton and cell shape. PLoS ONE. 9:e104994. http://
+dx.doi.org/10.1371/journal.pone.0104994
+
+Tse,  J.R.,  and A.J.  Engler.  2010.  Preparation  of  hydrogel  substrates  with  tun-
+able mechanical properties. In Current Protocols in Cell Biology. John 
+Wiley  &  Sons  Inc.,  New York.  http://dx.doi.org/10.1002/0471143030.
+cb1016s47
+
+van der Flier, L.G., and H. Clevers. 2009. Stem cells, self-renewal, and differenti-
+ation in the intestinal epithelium. Annu. Rev. Physiol. 71:241–260. http://
+dx.doi.org/10.1146/annurev.physiol.010908.163145
+
+Verma,  S.,  S.P.  Han,  M.  Michael,  G.A.  Gomez,  Z.  Yang,  R.D.  Teasdale, 
+A.  Ratheesh,  E.M.  Kovacs,  R.G.  Ali,  and A.S.  Yap.  2012. A WAVE2–
+Arp2/3  actin  nucleator  apparatus  supports  junctional  tension  at  the  ep-
+ithelial  zonula  adherens.  Mol.  Biol.  Cell.  23:4601–4610.  http://dx.doi.
+org/10.1091/mbc.E12-08-0574
+
+Viswanatha, R., P.Y. Ohouo, M.B. Smolka, and A. Bretscher. 2012. Local phos-
+phocycling  mediated  by  LOK/SLK  restricts  ezrin  function  to  the  api-
+cal  aspect  of  epithelial  cells.  J.  Cell  Biol.  199:969–984.  http://dx.doi.
+org/10.1083/jcb.201207047
+
+Wakatsuki, T., B. Schwab, N.C. Thompson, and E.L. Elson. 2001. Effects of cy-
+tochalasin D and latrunculin B on mechanical properties of cells. J. Cell 
+Sci. 114:1025–1036.
+
+Wu,  S.K.,  G.A.  Gomez,  M.  Michael,  S.  Verma,  H.L.  Cox,  J.G.  Lefevre, 
+R.G.  Parton,  N.A.  Hamilton,  Z.  Neufeld,  and A.S.  Yap.  2014.  Cortical 
+F-actin stabilization generates apical–lateral patterns of junctional con-
+tractility  that  integrate  cells  into  epithelia.  Nat.  Cell  Biol.  16:167–178. 
+http://dx.doi.org/10.1038/ncb2900
+
+McClatchey, A.I., and R.G. Fehon. 2009. Merlin and the ERM proteins—regu-
+lators of receptor distribution and signaling at the cell cortex. Trends Cell 
+Biol. 19:198–206. http://dx.doi.org/10.1016/j.tcb.2009.02.006
+
+Yonemura,  S.,  Y.  Wada,  T.  Watanabe,  A.  Nagafuchi,  and  M.  Shibata.  2010. 
+α-Catenin as a tension transducer that induces adherens junction devel-
+opment. Nat. Cell Biol. 12:533–542. http://dx.doi.org/10.1038/ncb2055
+
+Contact-dependent immobilization of eGFr by merlin • Chiasson-macKenzie et al.
+
+405
+
+

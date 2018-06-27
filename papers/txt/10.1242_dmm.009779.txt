@@ -1,0 +1,4547 @@
+Zebrafish neurofibromatosis type 1 genes have redundant functions in tumorigenesis and 
+embryonic development  
+
+Jimann Shin1,7*, Arun Padmanabhan2*, Eric D. de Groh2*, Jeong-Soo Lee1,8, Sam Haidar3, 
+Suzanne Dahlberg1, Feng Guo1, Shuning He1, Marc A. Wolman2, Michael Granato2, Nathan D. 
+Lawson4, Scot A. Wolfe4, Seok-Hyung Kim5, Lilianna Solnica-Krezel6, John P. Kanki1, Keith L. 
+Ligon3, Jonathan A. Epstein2‡ and A. Thomas Look1‡ 
+ 
+1Department of Pediatric Oncology, Dana-Farber Cancer Institute, and Children’s Hospital 
+Boston, Harvard Medical School, Boston, MA 02115, USA, 
+2Department of Cell and Developmental Biology, Penn Cardiovascular Institute, and the Institute 
+for Regenerative Medicine, Perelman School of Medicine at the University of Pennsylvania, 
+Philadelphia, PA 19104, USA, 
+3Department of Medical Oncology, Center for Molecular Oncologic Pathology, Dana-Farber 
+Cancer Institute, Harvard Medical School, Boston, MA 02215, USA, 
+4Program in Gene Function and Expression, University of Massachusetts Medical School, 
+Worcester, MA 06105, USA, 
+5Department of Neurology, Vanderbilt University School of Medicine, Nashville, TN 37232, 
+USA, 
+6Department of Developmental Biology, Washington University School of Medicine in St. Louis, 
+St. Louis, MO 63110, USA, 
+7Present address: Department of Developmental Biology, Washington University School of 
+Medicine in St. Louis, St. Louis, MO 63110, USA, 
+8Present address: Aging Research Center, Korea Research Institute of Bioscience and 
+Biotechnology, Daejeon 305-806, Korea 
+ 
+*These authors contributed equally to this work 
+‡Authors for correspondence 
+ 
+Running title: A zebrafish model of neurofibromatosis type 1 
+ 
+ 
+ 
+Jonathan A. Epstein 
+1154 BRB II 
+421 Curie Blvd 
+Philadelphia, PA 19104 
+epsteinj@mail.med.upenn.edu 
+(215) 898-8731 
+ 
+A. Thomas Look 
+Mayer Bldg, Rm 630  
+450 Brookline Ave 
+Boston, MA 02215  
+thomas_look@dfci.harvard.edu 
+(617) 632-5826 
+
+1 
+
+DMM Advance Online Articles. Published 5 July 2012 as doi: 10.1242/dmm.009779
+
+Access the most recent version at 
+
+http://dmm.biologists.org/lookup/doi/10.1242/dmm.009779
+
+ 
+
+© 2012. Published by The Company of Biologists Ltd.This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial Share Alike License(http://creativecommons.org/licenses/by-nc-sa/3.0), which permits unrestricted non-commercial use, distribution and reproduction inany medium provided that the original work is properly cited and all further distributions of the work or adaptation are subject to the same Creative Commons License terms.Disease Models & Mechanisms         DMMAccepted manuscriptSUMMARY 
+
+Neurofibromatosis type 1 (NF1) is a common, dominantly inherited genetic disorder that results 
+
+from mutations in the neurofibromin 1 (NF1) gene. Affected individuals demonstrate 
+
+abnormalities in neural crest-derived tissues that include hyperpigmented skin lesions and benign 
+
+peripheral nerve sheath tumors. NF1 patients also have a predisposition to malignancies 
+
+including juvenile myelomonocytic leukemia (JMML), optic glioma, glioblastoma, schwannoma, 
+
+and malignant peripheral nerve sheath tumors (MPNSTs). In an effort to better define the 
+
+molecular and cellular determinants of NF1 disease pathogenesis in vivo, we employed targeted 
+
+mutagenesis strategies to generate zebrafish harboring stable germline mutations in nf1a and 
+
+nf1b, orthologues of NF1. Animals homozygous for loss-of-function alleles of nf1a or nf1b alone 
+
+are phenotypically normal and viable. Homozygous loss of both alleles in combination generates 
+
+larval phenotypes that resemble aspects of the human disease and results in larval lethality 
+
+between 7 and 10 days post fertilization. nf1-null larvae demonstrate significant central and 
+
+peripheral nervous system defects. These include aberrant proliferation and differentiation of 
+
+oligodendrocyte progenitor cells (OPCs), dysmorphic myelin sheaths, and hyperplasia of 
+
+Schwann cells. Loss of nf1 contributes to tumorigenesis as demonstrated by an accelerated onset 
+
+and increased penetrance of high-grade gliomas and MPNSTs in adult nf1a+/-; nf1b-/-; p53e7/e7 
+
+animals. nf1-null larvae also demonstrate significant motor and learning defects. Importantly, we 
+
+identify and quantitatively analyze a novel melanophore phenotype in nf1-null larvae, providing 
+
+the first animal model of the pathognomonic pigmentation lesions of NF1. Together, these 
+
+findings support a role for nf1a and nf1b as potent tumor suppressor genes that also function in 
+
+the development of both central and peripheral glial cells as well as melanophores in zebrafish.  
+
+ 
+
+2 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptINTRODUCTION 
+
+Type 1 neurofibromatosis (NF1) is an autosomal dominant inherited genetic disorder 
+
+characterized by pigmented birthmarks known as café-au-lait spots, cutaneous and plexiform 
+
+neurofibromas arising in the glial cells of the peripheral nervous system (PNS), optic pathway 
+
+gliomas, cardiovascular abnormalities, and learning defects (Williams et al., 2009). The disease 
+
+results from mutations in the NF1 gene, encoding the large protein neurofibromin, which 
+
+contains a GTPase-activating protein-related domain (GRD) capable of inactivating the RAS 
+
+proto-oncogene (Cawthon et al., 1990; Viskochil et al., 1990; Wallace et al., 1990). Thus, NF1 
+
+loss results in aberrant activation of Ras signaling, which may predispose NF1 patients to a 
+
+variety of cancers (Cichowski and Jacks, 2001). Heterozygous Nf1 mutant mice develop 
+
+pheochromocytoma and myeloid leukemia, while the conditional loss of Nf1 in a p53-deficient 
+
+background results in highly penetrant malignant astrocytoma formation (Jacks et al., 1994; Zhu 
+
+et al., 2005a; Powers et al., 2007). Furthermore, two recent reports have identified NF1 
+
+mutations in approximately 15-23% of human glioblastoma patients (Parsons et al., 2008; The 
+
+Cancer Genome Atlas Research Network, 2008). While these studies demonstrate a strong link 
+
+between NF1 function and high-grade glioma, the critical signaling pathways governing the 
+
+development of tumorigenesis remain to be elucidated. An animal model facilitating the rapid 
+
+interrogation of epistatic and functional relationships within signaling pathways would serve as a 
+
+valuable tool for probing the pathology underlying NF1-induced cell transformation. 
+
+We recently developed a zebrafish model of NF1 deficiency using antisense morpholino 
+
+oligonucleotides to produce transient gene knockdown (Padmanabhan et al., 2009; Lee et al., 
+
+2010). Two zebrafish orthologues were identified that are highly homologous to human NF1 at 
+
+the amino acid level, sharing approximately 84% identity, including 91-93% identity within the 
+
+3 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptGRD. Both genes maintain syntenic relationships with human NF1 on chromosome 17q11.2 and 
+
+are likely the result of the well-described genomic duplication event that occurred early in the 
+
+evolution of teleosts (Amores et al., 1998). In our previous work with nf1 morphants, we 
+
+observed defects in both cardiovascular and nervous system development. However, due to the 
+
+transient nature of morpholino gene knockdown, the analysis of nf1-deficient phenotypes beyond 
+
+the first three days of life was not possible.  
+
+We report here the generation of stable mutant nf1 zebrafish lines, using both zinc finger 
+
+nuclease (ZFN) and targeting induced local lesions in genomes (TILLING) strategies, and the 
+
+detailed phenotypic analysis of this new animal model of human NF1. We have successfully 
+
+generated several independent null alleles of nf1a and nf1b. Mutant larvae carrying at least one 
+
+wild type nf1a or nf1b allele are viable, fertile, and show no obvious phenotypes during early 
+
+development. By contrast, nf1a-/-; nf1b-/- larvae exhibit overt pigmentation defects as early as 6 
+
+days post fertilization (dpf) and do not survive beyond 10 dpf. Beginning at 4 dpf, nf1a-/-; nf1b-/- 
+
+larvae exhibit hyperplasia of oligodendrocyte progenitor cells (OPCs) and Schwann cells as well 
+
+as melanophore hypoplasia. Defects resulting from the loss of nf1 in pigment cell and glial cell 
+
+lineages mirror those often observed in the tissues of NF1 patients. In a p53 mutant background 
+
+(p53e7/e7), nf1a+/-; nf1b-/- fish develop high-grade gliomas and malignant peripheral nerve sheath 
+
+tumors (MPNSTs), demonstrating a tumor-suppressor function for the zebrafish nf1 orthologues. 
+
+Thus, we have developed and characterized a heritable zebrafish model of NF1 that exhibits 
+
+clinical hallmarks of the disorder, including nervous system defects and increased susceptibility 
+
+to tumorigenesis. Furthermore, nf1 mutant zebrafish represent the first vertebrate model of the 
+
+pathognomonic pigmentation lesions associated with NF1.  
+
+4 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptRESULTS 
+
+Generation of zebrafish nf1a and nf1b mutants 
+
+We previously identified two zebrafish orthologues of human NF1, nf1a and nf1b, and 
+
+described the phenotypes that result from their loss-of-function during early development 
+
+induced by antisense morpholino oligonucleotides (Padmanabhan et al., 2009; Lee et al., 2010). 
+
+While this technology readily permits transient knockdown of gene expression, its efficacy is 
+
+limited to only the first few days of life. In an effort to gain a better understanding of the roles of 
+
+nf1a and nf1b during development, as well as in cancer predisposition, we employed multiple 
+
+approaches to develop stable lines of zebrafish harboring germline mutations in each of these 
+
+genes. Using a modular approach (Zhu et al., 2011), zinc finger nucleases (ZFNs) were 
+
+engineered with binding specificities directed to exon 26 of nf1a and exon 17 of nf1b (Fig. 1A,B). 
+
+Paired ZFN mRNAs were injected into zebrafish embryos and independent target-specific 
+
+mutant alleles for nf1a (nf1a!5 and nf1a!8) and nf1b (nf1b+10 and nf1b!55) were identified in the 
+
+F1 generation (Fig. 1C; supplementary material Fig. S1A-D). Each of these mutations included a 
+
+deletion and/or insertion within a coding exon that resulted in a frameshift, introducing 
+
+premature stop codons that would be expected to truncate the neurofibromin protein upstream of 
+
+the GRD (Fig. 1D,E). In a separate effort, we screened a library of ENU-mutagenized zebrafish 
+
+by targeting induced local lesions in genomes (TILLING) (Wienholds et al., 2002) and identified 
+
+a single founder harboring a nonsense mutation in exon 29 of nf1a (nf1aL1247X) (Fig. 1C; 
+
+supplementary material Fig. S1E-G). To confirm that the targeted alleles disrupted production of 
+
+full-length protein, we performed Western blots using an antibody that should recognize both 
+
+nf1a and nf1b with extracts prepared from 3 dpf wild type, nf1a!5/!5; nf1b+/+, nf1a+/+; nf1b+10/+10, 
+
+and nf1a!5/!5; nf1b+10/+10 larvae (Fig. 1F). We observed a complete loss of Nf1 signal in the 
+
+5 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptdouble-homozygous null extracts. We detected only low levels of protein expression in nf1a!5/!5; 
+
+nf1b+/+ mutant extracts when compared to wild type or nf1a+/+; nf1b+10/+10 mutant extracts, 
+
+which may reflect differences in expression levels of the two orthologues at 3 dpf. However, we 
+
+cannot rule out the possibility that the neurofibromin antibody we used recognizes the two 
+
+proteins with different affinities. We generated separate zebrafish lines with distinct null alleles 
+
+of both nf1a and nf1b to provide evidence that the observed phenotypes were in fact due to nf1 
+
+loss and did not involve any spurious passenger mutations specific to the isolation of any 
+
+individual nf1 mutant line (supplementary material Fig. S2). Because our data indicate that these 
+
+various null alleles are equivalent, we refer to them without individual allelic designations 
+
+henceforth (nf1a-/- and nf1b-/-). 
+
+Mutants carrying at least one wild type allele of either nf1a or nf1b are viable and fertile. 
+
+However, when crossing parental genotypes that would be expected to yield nf1a-/-; nf1b-/- 
+
+progeny, none were observed in the adult population. To investigate this further, we performed 
+
+quantitative survival studies. At 7 dpf, nf1a-/-; nf1b-/- larvae began to die with none surviving 
+
+beyond 10 dpf, while 100% of wild type larvae survived to 10 dpf (Fig. 1G). Furthermore, 100% 
+
+survival at 10 dpf was also observed in nf1a-/-; nf1b+/+ (n=26), nf1a+/+; nf1b-/- (n=22), nf1a-/-; 
+
+nf1b+/- (n=28), and nf1a+/-; nf1b-/- (n=24) larvae. The swim bladders of nf1a-/-; nf1b-/- larvae were 
+
+frequently observed to be underinflated. However, nf1a-/-; nf1b-/- larvae maintained the ability to 
+
+both consume and transit live paramecia, suggesting that premature death was not the result of 
+
+starvation (supplementary material Fig. S3). Additionally, an incompletely penetrant valvular 
+
+insufficiency phenotype was appreciated in nf1a-/-; nf1b-/- larvae, as well as in those harboring 
+
+only a single wild type nf1 allele (nf1a+/-; nf1b-/- and nf1a-/-; nf1b+/-) (supplementary material 
+
+Movies S1-3).  
+
+6 
+
+Disease Models & Mechanisms         DMMAccepted manuscript 
+
+OPC and Schwann cell hyperplasia in nf1a-/-; nf1b-/- larvae 
+
+We previously described OPC hyperplasia after nf1a and nf1b morpholino knockdown in 
+
+the context of a homozygous p53 mutant background (Lee et al., 2010). To examine nf1a and 
+
+nf1b function in OPCs and other tissues beyond the first few days of life, we crossed several cell-
+
+type specific zebrafish reporter lines into nf1a/nf1b mutant backgrounds. At 2 dpf, olig2 
+
+expression appeared normal in Tg(olig2:GFP); nf1a-/-; nf1b-/- embryos, as assessed by both 
+
+whole-mount in situ hybridization analysis of endogenous olig2 mRNA expression and GFP 
+
+expression (supplementary material Fig. S4A-D). We also evaluated nf1 loss in Tg(sox10:GFP) 
+
+embryos. This transgene drives GFP expression in specified ventral spinal cord OPCs, but not 
+
+the neighboring motoneurons that arise from a common progenitor cell, as well as in Schwann 
+
+cells of the posterior lateral line nerve (PLLn). At 2 dpf, similar numbers of sox10:GFP-positive 
+
+OPCs are detected in the dorsal and ventral spinal cord of wild type and nf1a-/-; nf1b-/- embryos 
+
+(supplementary material Fig. S4E,F). Examination of nf1-null PNS Schwann cells at 2 dpf 
+
+showed no effect on the number of sox10:GFP-expressing cells associated with the PLLn, which 
+
+innervate skin mechanosensory neuromast cells (supplementary material Fig. S4G,H). 
+
+However, nf1a-/-; nf1b-/- larvae exhibited increased numbers of OPCs at 4 dpf when 
+
+compared to controls, as evidenced by an excess of dorsally migrated olig2:GFP-positive OPCs 
+
+(Fig. 2A,B) along with increased numbers of both dorsally and ventrally positioned sox10:GFP-
+
+positive OPCs (Fig. 2C,D), consistent with our analyses of nf1 morphants at 3 dpf (Lee et al., 
+
+2010). In addition, we observed an increase in sox10:GFP-positive Schwann cells associated 
+
+with the PLLn (Fig. 2E,F). This increase in PLLn Schwann cell number was not associated with 
+
+altered proliferation of these cells (supplementary material Fig. S5A-F). To assess the roles of 
+
+7 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptnf1a and nf1b in the developing radial glial cells of the spinal cord, nf1a/nf1b mutants were 
+
+crossed into the Tg(gfap:GFP) line, which expresses GFP from the glial fibrillary acidic protein 
+
+(gfap) promoter. At 4 dpf, nf1a-/-; nf1b-/- larvae harboring a gfap:GFP transgene demonstrated no 
+
+readily discernible differences in gfap:GFP-positive spinal cord radial glial cells when compared 
+
+with wild type larvae (supplementary material Fig. S4I,J). However, gfap expression in the 
+
+extensive processes of radial glial cells precludes precise quantification and may obscure subtle 
+
+differences. 
+
+To determine whether neuronal numbers increased in concert with OPCs in nf1a/nf1b 
+
+mutant larvae, we used anti-HuC/D and anti-SOX10 antibodies to discriminate between 
+
+olig2:GFP-positive neurons and OPCs, respectively. No difference between the number of 
+
+olig2:GFP-, HuC/D-positive neurons was appreciable in 4 dpf spinal cord sections from wild 
+
+type and nf1a-/-; nf1b-/- larvae (Fig. 2G,H, green and magenta; Fig. 2K). However, the numbers of 
+
+olig2:GFP-, Sox10-positive OPCs (Fig. 2G,H, arrowheads; Fig. 2L) and PLLn Schwann cells 
+
+(Fig. 2I,J,M) were significantly increased at 4 dpf in nf1a-/-; nf1b-/- larvae relative to wild type 
+
+controls. OPC cell numbers continued to increase in nf1a-/-; nf1b-/- larvae at 8 dpf, as reflected by 
+
+increased numbers of dorsally localizing olig2:GFP-positive OPCs as well as both dorsally and 
+
+ventrally localizing sox10:GFP-positive OPCs (supplementary material Fig. S4M-P). Increased 
+
+numbers of sox10:GFP-expressing PLLn Schwann cells were also evident in nf1a-/-; nf1b-/- larvae 
+
+at 8 dpf (supplementary material Fig. S4Q,R). Thus, loss of nf1a and nf1b does not affect the 
+
+specification of OPCs at 2 dpf, but instead promotes the progressive expansion of OPCs without 
+
+a concomitant increase in neuronal cell numbers. Furthermore, nf1a/nf1b loss triggers Schwann 
+
+cell hyperplasia beginning at 4 dpf. 
+
+8 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptImmunohistochemical analysis using the Zrf1 antibody, which labels Gfap in zebrafish, 
+
+showed coexpression with GFP expressed from the gfap:GFP transgene and revealed a similar 
+
+pattern of expression in wild type and nf1a-/-; nf1b-/- larvae at 4 dpf (supplementary material Fig. 
+
+S6A,B). Zebrafish radial glial cells also express brain lipid-binding protein (Blbp), and 
+
+immunohistochemical analysis of wild type and nf1a-/-; nf1b-/- spinal cords with an anti-BLBP 
+
+antibody at 4 dpf revealed an obvious decrease in Blbp expression in the gfap:GFP-positive 
+
+radial glia of nf1a-/-; nf1b-/- larvae (supplementary material Fig. S6C,D). These results suggest 
+
+that while gfap:GFP-positive radial glial cells in nf1a-/-; nf1b-/- larvae appear normal in number, 
+
+they fail to express appropriate levels of Blbp indicating a defect in gliogenesis. An additional 
+
+abnormality of gliogenesis was observed at 8 dpf as a disruption in the regular segmental pattern 
+
+of glial process outgrowth in Tg(gfap:GFP); nf1a-/-; nf1b-/- larvae (supplementary material Fig. 
+
+S4K,L).  
+
+ 
+
+OPC hyperplasia in nf1a-/-; nf1b-/- larvae results from increased proliferation 
+
+In nf1a-/-; nf1b-/- larvae, OPC numbers were increased relative to control animals at 4 dpf, 
+
+but not at 2 dpf, suggesting that nf1-null OPCs might proliferate faster during this time period. 
+
+We assessed OPC proliferation by labeling larvae with BrdU for 12 hours starting at 3.5, 4.5, and 
+
+5.5 dpf followed by immunohistochemical analysis of transverse sections through the spinal cord. 
+
+By 4 dpf and continuing through 6 dpf, the number of olig2:GFP-, Sox10-positive OPCs in nf1-
+
+null larvae was significantly increased in comparison to wild type controls (Fig. 3A-H, arrows; 
+
+Fig. 3I). Mutant larvae further exhibited significantly increased numbers of olig2:GFP-, Sox10-, 
+
+BrdU-positive OPCs at 4 and 5 dpf when compared with controls, indicating that neurofibromin 
+
+normally suppresses the proliferation of OPCs during this period of development (Fig. 3A-H, 
+
+9 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptarrowheads; Fig. 3J). There was little detectable BrdU incorporation at 6 dpf in either mutant or 
+
+control populations  
+
+ 
+
+Myelination is aberrant in nf1a-/-; nf1b-/- larvae 
+
+We evaluated the ability of nf1a-/-; nf1b-/- OPCs to differentiate appropriately by 
+
+examining the gene expression levels of proteolipid protein 1a (plp1a) and myelin basic protein 
+
+(mbp), markers of differentiated oligodendrocytes, in wild type and mutant larvae at 5 dpf. In 
+
+nf1-null larvae, fewer plp1a-positive cells are detected in the midbrain and hindbrain regions 
+
+(Fig. 4A,B) as well as along the dorsal and ventral spinal cords (Fig. 4C,D) when compared with 
+
+controls. Central nervous system (CNS) expression of mbp, on the other hand, is 
+
+indistinguishable between wild type and nf1a-/-; nf1b-/- larvae at 5 dpf (supplementary material 
+
+Fig. S7). However, mbp expression is elevated in Schwann cells of the PLLn in nf1a-/-; nf1b-/- 
+
+larvae when compared with controls (Fig. 4E,F, arrowheads). These data are consistent with 
+
+perturbed oligodendrocyte differentiation in the CNS as well as in PNS Schwann cells associated 
+
+with the PLLn of nf1a-/-; nf1b-/- larvae. 
+
+We went on to examine the ultrastructure of myelinated CNS axons in control and nf1-
+
+null larvae by transmission electron microscopy. At 8 dpf, oligodendritic myelin sheaths are 
+
+tightly wrapped around CNS axons in the ventral spinal cord of wild type larvae (Fig. 4G,I). In 
+
+contrast, nf1a-/-; nf1b-/- axons are loosely encircled by multiple lamellae rather than compact 
+
+myelin sheaths, indicating that neurofibromin is required for the normal formation of the 
+
+concentric layers of oligodendrocyte membranes that enwrap neuronal axons of the CNS to 
+
+promote neural conduction (Fig. 4H,J). 
+
+ 
+
+10 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptLoss of nf1a and nf1b causes upregulation of Ras signaling in the spinal cord  
+
+Given the well-described role of neurofibromin as a negative regulator of Ras, we 
+
+hypothesized that nf1 loss in our mutants would lead to activation of downstream effector 
+
+pathways. Western analysis of whole larvae extracts revealed an upregulation of phospho-
+
+ERK1/2 (pERK1/2) in nf1a-/-; nf1b-/- larvae at 3 dpf, whereas levels in nf1a-/-; nf1b+/+ and 
+
+nf1a+/+; nf1b-/- larvae remained unchanged (Fig. 5A). These data are consistent with the absence 
+
+of functioning neurofibromin protein in nf1a-/-; nf1b-/- larvae and support functional redundancy 
+
+between nf1a and nf1b. We next assessed the activation of Ras effector pathways in the spinal 
+
+cords of wild type, nf1a+/-; nf1b-/-, nf1a-/-; nf1b+/-, and nf1a-/-; nf1b-/- animals by 
+
+immunohistochemical analysis of transverse larval sections. Antibodies directed against HuC/D, 
+
+pERK1/2, and phospho-S6 (pS6) were used to label neurons and assess activation of ERK and 
+
+mTOR signaling pathways, respectively (Fig. 5B-Q). While pERK1/2 staining was only 
+
+minimally observed in a few neurons and portions of spinal cord white matter at 4 dpf in wild 
+
+type larvae (Fig. 5B,N), a striking upregulation of pERK1/2 was detected in nf1a-/-; nf1b-/- larvae 
+
+(Fig. 5E,Q). Increased ERK signaling was also noted at 3 dpf in spinal cord neurons and white 
+
+matter of nf1a-/-; nf1b-/- larvae, but was absent at 2 dpf (supplementary material Fig. S8). 
+
+Although pS6 signaling was evident in multiple spinal cord neurons, we observed no differences 
+
+in these cells between wild type and nf1 mutant animals at 2, 3, or 4 dpf (supplementary material 
+
+Fig. S8Ae-Ah,Be-Bh; Fig. 6F-I). These data suggest that activation of mTOR signaling, as 
+
+assessed by S6 phosphorylation, is not altered at least in the spinal cord following nf1 loss. 
+
+ 
+
+nf1 and p53 cooperate to accelerate zebrafish tumorigenesis in vivo 
+
+11 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptMammalian NF1 has been shown to be a potent tumor suppressor; however, we did not 
+
+identify any tumors over 18 months of observation in adult zebrafish homozygous for either 
+
+mutant nf1 allele alone (nf1a-/-;nf1b+/+ or nf1a+/+;nf1b-/-) or in combination with heterozygous 
+
+loss of the remaining allele (nf1a+/-;nf1b-/- or nf1a-/-;nf1b+/-). Loss of p53 has been shown to 
+
+cooperate with NF1 (Cichowski et al., 1999; Vogel et al., 1999) as well as other mutations that 
+
+activate Ras signaling (Eliyahu et al., 1984; Parada et al., 1984; Kemp et al., 1994; Tanaka et al., 
+
+1994; Hundley et al., 1997) in mammalian tumorigenesis, so we next bred p53 mutant zebrafish 
+
+into an nf1-mutant background to generate p53e7/e7; nf1a+/-; nf1b-/- fish. These animals were 
+
+incrossed to derive p53e7/e7; nf1a+/+; nf1b-/- and p53e7/e7; nf1a+/-; nf1b-/- fish, which were 
+
+subsequently monitored carefully for tumorigenesis. At 31 weeks post fertilization (wpf), 
+
+p53e7/e7; nf1a+/-; nf1b-/- fish began to develop tumors with high penetrance while only one 
+
+p53e7/e7; nf1a+/+; nf1b-/- fish developed a tumor at 44 wpf (Fig. 6A). At 45 wpf, tumor penetrance 
+
+was higher in p53e7/e7; nf1a+/-; nf1b-/- fish (24/39; 62%) than in p53e7/e7; nf1a+/+; nf1b-/- fish 
+
+(1/14; 7%). We have previously reported that p53e7/e7 fish with wild type nf1 alleles develop 
+
+MPNSTs. These tumors did not begin to develop until 41 weeks of age, similar to the results 
+
+with nf1a+/+; nf1b-/-; p53e7/e7 animals (Fig. 6A). Furthermore, the penetrance of tumors in p53-null 
+
+animals was only 28% by 66 wpf (Berghmans et al., 2005). Thus, the combined loss of p53 and 3 
+
+of 4 nf1 alleles in zebrafish markedly accelerates the onset and increases the penetrance of 
+
+tumors when compared to the loss of p53 alone or the concomitant loss of p53 and both alleles of 
+
+nf1b, but with intact nf1a. 
+
+Tumors in p53e7/e7; nf1a+/-; nf1b-/- fish were observed in the brain (n=2), eye (n=8), gill 
+
+(n=1), abdomen (n=8) and trunk (n=5). Brain tumors developed very early (31 and 33 wpf) (Fig. 
+
+6A, arrows) and demonstrated features of diffuse high-grade gliomas, while all other tumor types 
+
+12 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptwere most consistent with MPNSTs (Fig. 6B-G). Histopathologically, the brain tumors were 
+
+highly cellular and composed of ovoid to rounded cells with marked nuclear pleomorphism and 
+
+diffuse single cell infiltration of parenchyma, including pre-existing neurons (Fig. 7A-F). 
+
+Occasional mitoses were identified, but no necrosis or vascular proliferation was detected (Fig. 
+
+7G-I). Assessment of tumor lineage by immunohistochemical analysis showed approximately 
+
+80% of tumor cells staining positive for the oligodendroglial marker Sox10, with little staining in 
+
+matched wild type tissue (Fig. 7J-L). The presence of a Sox10-negative tumor cell subpopulation 
+
+is consistent with the level of heterogeneity for oligodendroglial transcription factors, such as 
+
+Sox10 and Olig2, characteristic of astrocytic or mixed gliomas as compared with pure 
+
+oligodendroglial class tumors (Fig. 7K, arrowhead) (Ligon et al., 2004; Bannykh et al., 2006). 
+
+Staining for the astrocytic marker Gfap (Fig. 7M-O) highlighted a subpopulation of cells within 
+
+the tumor with coarse, irregular cytoplasmic processes also consistent with the presence of an 
+
+astrocytic lineage component (Fig. 7N, arrowheads). Tumor cells did not express the mature 
+
+neuronal markers HuC/D or synaptophysin (Sypa), consistent with their glial origin (Fig. 7P-U).  
+
+Immunohistochemical analysis for phospho-ERK1/2 (pERK1/2) and phospho-S6 (pS6) to assess 
+
+activation of ERK and mTOR signaling pathways, respectively (supplementary material Fig. 
+
+S9A-F) revealed increased pERK1/2 staining in the more malignant of these two brain tumors, 
+
+with normal amounts of pS6 (supplementary material Fig. S9C,D). The more hyperplastic brain 
+
+tumor showed increased pERK1/2 and pS6 staining (supplementary material Fig. S9E,F). These 
+
+data demonstrate that some, but not all, brain tumors in nf1a+/-; nf1b-/-; p53e7/e7 animals 
+
+demonstrate hyperactivation of ERK and mTOR pathways, consistent with mouse and human 
+
+NF1-derived MPNSTs and gliomas (Dasgupta et al., 2005; Zhu et al., 2005b). Collectively, these 
+
+findings suggest the tumors were high-grade gliomas most closely resembling human anaplastic 
+
+13 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptastrocytoma or anaplastic oligoastrocytoma WHO grade III. Furthermore, MPNSTs (Fig. 
+
+6C,E,G) exhibited spindle-shaped tumor cells and extensive necrosis consistent with this tumor 
+
+type (Ducatman et al., 1986; Wanebo et al., 1993; Hirose et al., 1998). Taken together, we 
+
+conclude that nf1a and nf1b mutations cooperate with p53 loss to generate high-grade gliomas 
+
+and MPNSTs. 
+
+ 
+
+nf1a-/-; nf1b-/- larvae show motor and learning deficits 
+
+Deficits in motor coordination and cognition, including learning and memory, are 
+
+characteristic of NF1 patients and animal models. To examine motor behavior and cognition in 
+
+nf1a-/-; nf1b-/- larvae, we performed kinematic analysis of the short-latency C-start (SLC), a 
+
+highly stereotyped yet modifiable acoustic startle reflex in the zebrafish (Burgess and Granato, 
+
+2007a; Wolman et al., 2011). Unlike their siblings, nf1a-/-; nf1b-/- larvae showed a deficit in 
+
+short-term SLC habituation when presented with repetitive acoustic stimulation (supplementary 
+
+material Fig. S10A). Furthermore, nf1a-/-; nf1b-/- larvae performed kinematically weaker SLC 
+
+responses, as indicated by decreased head turning angle, maximum angular velocity, and 
+
+distance traveled following delivery of an acoustic stimulus (supplementary material Fig. S10B-
+
+D). Taken together, these data support the hypothesis that nf1a and nf1b function redundantly 
+
+during zebrafish development and that only one of the four wild type nf1 alleles is required for 
+
+phenotypically normal embryonic development, motor behavior, and cognition. 
+
+  
+
+nf1 mutants exhibit melanophore defects 
+
+ 
+
+Notably, nf1 null larvae displayed aberrant lateral stripe pigmentation when compared to 
+
+wild type controls at 6 dpf (Fig. 8A-D). This phenotype was first appreciable at 4 dpf and was 
+
+14 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptmanifested as a disruption in the uniform pattern of melanophores arranged along the lateral 
+
+stripe (Fig. 8B,D, brackets). To further investigate this phenotype, we quantified melanophore 
+
+numbers along the lateral stripe of 3 and 6 dpf wild type and nf1a-/-; nf1b-/- larvae. No significant 
+
+differences in the number of melanophores comprising the 3 dpf lateral stripe were appreciable 
+
+in any combination of mutant nf1 alleles when compared with sibling wild type controls 
+
+(supplementary material Fig. S11). However, at 6 dpf, nf1a-/-; nf1b-/- larvae exhibited a 
+
+significant reduction in the number of lateral stripe melanophores (Fig. 8E). Less severe, but still 
+
+significant, decreases were also noted in larvae carrying two or three mutant nf1 alleles (Fig. 8E). 
+
+No difference in the number of apoptotic cells between wild type and mutant larvae was 
+
+discernible at 3 dpf (68.1±11 cells/larva, n=12 wild type versus 63.8±8.5, n=12 mutants; P=0.27) 
+
+(supplementary material Fig. S12A-F). Serial observation of melanophore development in 
+
+individual nf1a-/-; nf1b-/- and wild type larvae revealed a defect of migration or differentiation of 
+
+regeneration and metamorphic lineage melanophores. At 3 dpf, a time point at which 
+
+embryonic/ontogenetic melanophore development is complete (Hultman et al., 2009), no 
+
+difference in melanophore number along the lateral stripe was observed (supplementary material 
+
+Fig. S13A,B,G) indicating that the embryonic/ontogenetic melanophores develop normally in nf1 
+
+mutants. To assess the regeneration and metamorphic lineage of melanophores, we suppressed 
+
+melanin synthesis after 3 dpf by treatment with N-phenylthiourea (PTU) (Hultman and Johnson, 
+
+2010) allowing us to identify newly formed melanophores by their melanin-negative and pale 
+
+appearance (supplementary material Fig. S13C,D, red arrows). Removal of PTU at 5 dpf restores 
+
+melanin synthesis and regeneration and metamorphic melanophores appear melanin-positive by 
+
+6 dpf (supplementary material Fig. S13E,F, black arrows). The abnormal appearance of the 
+
+lateral stripe in mutant larvae can be attributed to defects in patterning of regeneration and 
+
+15 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptmetamorphic melanophores (supplementary material Fig S13F,G, brackets), suggesting 
+
+abnormal migration or differentiation of this lineage. Head melanophore numbers at 6 dpf were 
+
+not significantly changed between nf1 mutant larvae and sibling controls (supplementary 
+
+material Fig. S14). Collectively, these data demonstrate a specific defect in lateral stripe 
+
+melanophore numbers following nf1 allele loss, most prominent in the setting of biallelic 
+
+nf1a/nf1b loss. Each nf1a-/-; nf1b-/- larvae showed a unique pattern of lateral stripe melanophore 
+
+loss, suggesting a stochastic defect in melanophore differentiation from neural crest, proliferation, 
+
+migration, or survival, rather than a defect specific to any particular somite of the developing 
+
+embryo and larvae. 
+
+16 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptDISCUSSION 
+
+Neurofibromatosis type 1 (NF1) is a common tumor-predisposing, autosomal dominant 
+
+genetic disorder characterized by café-au-lait macules and cutaneous neurofibromas. In addition 
+
+to these pigmentation defects and tumors of the peripheral nervous system (PNS), NF1 patients 
+
+demonstrate highly diversified clinical features with multiple tissue types affected. Prominent 
+
+lesions include optic pathway gliomas, Lisch nodules, skeletal dysplasia, cardiovascular 
+
+abnormalities, learning defects, and various cancers such as leukemia and intestinal tumors (Side 
+
+et al., 1997; Side et al., 1998; Bahuau et al., 2000; Andersson et al., 2005; Williams et al., 2009). 
+
+It remains unclear how NF1 mutations contribute to the diverse symptoms and tissue types 
+
+affected in patients. Because neurofibromin is a very large protein that is highly conserved 
+
+evolutionarily, it is likely to have activities related to functional domains other than those 
+
+affecting Ras signaling. For example, in addition to Ras, neurofibromin can bind to microtubules, 
+
+syndecan, phospholipids, and amyloid precursor protein (Xu and Gutmann, 1997; Hsueh et al., 
+
+2001; D'Angelo et al., 2006; De Schepper et al., 2006). Intriguingly, recent studies indicate that 
+
+neurofibromin may function as a positive regulator of adenylyl cyclase (Guo et al., 2000; Tong et 
+
+al., 2002; Dasgupta et al., 2003). This function of neurofibromin modulates neuronal 
+
+differentiation (Hegedus et al., 2007), suggesting the possibility that cognitive defects in NF1 
+
+patients may be related to defects in cAMP signaling rather than activated Ras. Furthermore, the 
+
+tremendous clinical variability in the phenotypic spectrum seen among families with the same 
+
+molecular NF1 lesion posits the role of unlinked modifier loci in regulating the expressivity of 
+
+disease characteristics (Easton et al., 1993; Sabbagh et al., 2009). Nevertheless, the identification 
+
+of specific modifier genes and the relative contributions of Ras signaling versus other 
+
+neurofibromin-regulated pathways for specific phenotypes have yet to be fully elucidated. The 
+
+17 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptzebrafish model that we have developed offers an attractive tool for furthering this analysis 
+
+because it is amenable to small molecule screens, genetic modifier screens, and genetic rescue 
+
+experiments.  
+
+A hallmark feature of human NF1 is the presence of pigmentation defects known as café-
+
+au-lait spots. Little is known about the underlying mechanisms responsible for this abnormality, 
+
+and pigmentation abnormalities in other animal models of NF1 have not been described. In this 
+
+regard, it is of interest that zebrafish lacking neurofibromin exhibit abnormal patterning of the 
+
+melanophores that compose the lateral stripe, a phenotype similar to that following 
+
+pharmacologic inhibition of the upstream Ras effector ErbB (Hultman et al., 2009; Hultman and 
+
+Johnson, 2010). This easily observable and quantifiable phenotype offers the opportunity to 
+
+probe underlying molecular pathways modulated by nf1 in melanophores.  
+
+Several studies employing murine models have previously shown a role for 
+
+neurofibromin in regulating cell numbers of CNS OPCs and astrocytes as well as PNS Schwann 
+
+cells and sympathetic neurons (Brannan et al., 1994; Gutmann et al., 1999; Bennett et al., 2003; 
+
+Zhu et al., 2005b; Hegedus et al., 2007; Zheng et al., 2008). These are consistent with our 
+
+findings in nf1a/nf1b mutants and indicative of a strong evolutionary conservation of Nf1 
+
+function in neural development. Our observation of impaired compact myelin formation and 
+
+reduced CNS plp1a expression with unperturbed CNS and increased PNS mbp expression 
+
+suggests that the differentiation programs of oligodendrocytes and Schwann cells respond 
+
+differently to Nf1 deficiency. Alternatively, the observed ultrastructural defects in myelinated 
+
+CNS axons may arise secondary to neuronal defects. The accessibility of the zebrafish embryo to 
+
+mosaic analysis offers the ability to differentiate between these possibilities. Unlike Nf1-deficient 
+
+mice, however, nf1a/nf1b mutant radial glia failed to demonstrate an appreciable increase in 
+
+18 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptGfap expression. Instead, we observed a decrease in Blbp expression and irregularities in 
+
+patterning of nf1a-/-; nf1b-/- radial glial cells. This discrepancy may reflect species-specific 
+
+differences in neural tissue as opposed to Nf1 function, as it remains unclear if zebrafish radial 
+
+glia-like ependymal cells are functionally equivalent to mammalian astrocytes.  
+
+We have previously characterized cardiovascular defects resulting from morpholino 
+
+knockdown of nf1a and nf1b in zebrafish (Padmanabhan et al., 2009; Lee et al., 2010). These 
+
+defects were observed at 48 and 72 hpf and likely resulted from impairment of both maternal and 
+
+zygotic gene expression. In our stable compound mutants, we observed partially penetrant 
+
+insufficiency of the atrioventricular valve at 3 dpf along with significant edema and impaired 
+
+blood circulation associated with irregular heart rates beginning at 5-6 dpf (data not shown). 
+
+However, we could not determine if these effects were primary or secondary. It is possible that 
+
+impaired cardiac function is the cause of death of these larvae. The absence of earlier 
+
+cardiovascular phenotypes is most likely due to the activity of maternal transcripts (Abrams and 
+
+Mullins, 2009); confirmation of this interpretation will await the creation of a maternal zygotic 
+
+mutation. 
+
+Ubiquitous and conditional Nf1 knockout mice have been generated to investigate the 
+
+role of neurofibromin in development and tumorigenesis (Cichowski and Jacks, 2001; Le and 
+
+Parada, 2007). Conditional loss of Nf1 with p53 deficiency in mice results in the development of 
+
+grade III and IV astrocytomas with full penetrance (Zhu et al., 2005a), indicating that Nf1 
+
+mutations are associated not only with low-grade but also high-grade astrocytoma. Indeed, two 
+
+independent studies have demonstrated that NF1 mutations are found in about 15-23% of human 
+
+GBMs (Parsons et al., 2008; The Cancer Genome Atlas Research Network, 2008). Interestingly, 
+
+we also observed gliomas in zebrafish lacking nf1 and p53. Likewise, MPNSTs are observed in 
+
+19 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptboth mouse and zebrafish models. Thus, the relative advantages of murine and zebrafish systems 
+
+can be leveraged for future studies aimed at developing therapeutics for these lethal 
+
+complications of NF1. 
+
+In summary, we have developed and characterized zebrafish lines containing specific 
+
+targeted mutations in nf1a and nf1b. Compound deficiency of nf1a and nf1b results in lethality 
+
+and predisposes to tumor formation. These studies will provide a powerful new tool for analysis 
+
+of neurofibromin function and for the development of therapies for a common human disorder. 
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+20 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptMETHODS 
+
+Zebrafish lines  
+
+The nf1a!5, nf1a!8, nf1b+10, and nf1b!55 mutant alleles were generated by application of 
+
+modularly assembled zinc finger nucleases (ZFNs). The nf1aL1247X mutant allele was generated 
+
+by TILLING. Our nf1 mutant alleles were crossed into various transgenic lines, including 
+
+Tg(gfap:GFP) (Lam et al., 2009), Tg(sox10:GFP) (Thermes et al., 2002; Carney et al., 2006), 
+
+and Tg(olig2:GFP) (Shin et al., 2003), as well as the p53e7/e7 mutant line (Berghmans et al., 
+
+2005). Zebrafish were maintained under standard conditions as previously described 
+
+(Westerfield, 2000). All experiments involving animals were approved by the Institutional 
+
+Animal Care and Use Committees of Harvard University and the University of Pennsylvania. 
+
+ 
+
+TILLING with screening by CEL-I method 
+
+Individual samples from a pre-constructed “live library” of pooled genomic DNA from ENU-
+
+mutagenized F1 animals were used as a template for PCR with the following PCR primer pairs. 
+
+nf1a_outer_F: 5"-TGGCAAATAAATGCTGACAGA-3"; nf1a_inner_F: 5"-HEX-
+
+TTTTTATATCTCATGTTTAGCTCACAA-3"; nf1a_outer_R: 5"-
+
+AAGTCTTAAATGGCCTGAGTGG-3"; nf1a_inner_R: 5"-6FAM-
+
+AAATGGCCTGAGTGGTAATAAA-3". A nested PCR was performed first using the outer 
+
+primer pair with the following PCR conditions: 94°C for 2 minutes, 30 cycles of (94°C for 30 
+
+seconds, 60°C for 40 seconds, 72°C for 1 minute), 72°C for 5 minutes. Amplification was then 
+
+performed using the inner primer pair with the following PCR conditions: 94°C for 2 minutes, 25 
+
+cycles of (94°C for 30 seconds, 60°C for 40 seconds, 72°C for 1 minute), 72°C for 5 minutes. 
+
+PCR products were denatured, allowed to re-anneal, subjected to CEL-I digestion, and separated 
+
+21 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptby acrylamide electrophoresis using a LI-COR DNA analyzer. Upon identification of a genomic 
+
+DNA sample harboring a mutation in the analyzed region, the individual animals comprising that 
+
+genomic DNA pool were rescreened to identify the appropriate F1 animal harboring the lesion of 
+
+interest. This F1 animal was then outcrossed to wild type fish and progeny were selected for 
+
+based on presence of the desired mutation. A genotyping strategy was developed to identify 
+
+animals harboring the nonsense allele isolated by our TILLING strategy using the following 
+
+PCR primers: nf1a_stop_PstI_F: 5"-CTCTCTTCGACTCTCGCCATCTGCTGTATCAGCTGC-
+
+3"; nf1a_stop_R: 5"-GAAGCAGAAGGTCATAATCTTGCTGGCTAGGC-3". PCR conditions 
+
+were 95°C for 2 minutes, 32 cycles of (94°C for 30 seconds, 62°C for 30 seconds, 72°C for 30 
+
+seconds), 72°C for 5 minutes. This will generate a 134 bp PCR product. The wild type allele is 
+
+resistant to PCR digestion by PstI, however the mutant allele is not. 
+
+ 
+
+Modular assembly of ZFNs 
+
+The desired 3 finger zinc finger proteins (ZFPs) were constructed by a splice overlap extension 
+
+PCR strategy, with individual finger modules amplified from a archive of ZFPs with defined 
+
+DNA-binding specificities (Zhu et al., 2011). Three individual fingers (F1, F2, F3) were 
+
+amplified using primers specific to their desired backbone position, followed by an overlapping 
+
+PCR step to place them together into a single ZFP fragment which was cloned, sequence verified, 
+
+and subsequently subcloned in frame with a FokI nuclease variant in a pCS2 expression plasmid. 
+
+The primers for the three backbone positions were as follows: F1 forward: 5"-
+
+GCGATGGGTACCCGCCCATATGCTTGC-3"; F1 reverse: 5"-
+
+CACTGGAAGGGCTTCTGGCCTGTGTGAATCCGGATGTG-3"; F2 forward: 5"-
+
+CATCCGGATTCACACAGGCCAGAAGCCCTTCCAGTGTCGCATCTGC-3"; F2 reverse: 5"-
+
+22 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptATGTCGCATGCAAAAGGCTTCTCGCCTGTGTGGGTGCGGATGTG-3"; F3 forward: 5"-
+
+CGAGAAGCCTTTTGCATGCGACA-3"; F3 reverse: 5"-
+
+GCGTAGGATCCACCTGTGTGGATCTTGGTGTG-3". The PCR conditions for amplifying F1 
+
+were 98° C for 2 minutes, 15 cycles of (94°C for 30 seconds, 68°C for 30 seconds, 72°C for 20 
+
+seconds). The PCR conditions for F2 and F3 were 98°C for 2 minutes, 20 cycles of (94°C for 30 
+
+seconds, 57°C for 30 seconds, 72°C for 30 seconds). The three individual gel purified PCR 
+
+products for positions F1, F2, and F3 were combined (15 ng of each) in a PCR using Advantage 
+
+2 HiFi polymerase (Clontech) and subjected to thermal cycling according to the following 
+
+parameters: 94°C for 2 minutes, 5 cycles of (94°C for 30 seconds, 55°C for 30 seconds, 72°C for 
+
+30 seconds). Following this cycling program, F1 forward and F3 reverse primers were added to 
+
+the reaction and thermal cycling was continued as follows: 25 cycles of (94°C for 15 seconds, 
+
+68°C for 30 seconds). This PCR product of approximately 300 bp was gel purified, cloned, 
+
+sequence verified, and subcloned in frame with the DD/RR or EL/KK FokI variants (Miller et al., 
+
+2007; Szczepek et al., 2007) with and without the 3" UTR of nanos1 (Koprunner et al., 2001). 
+
+ 
+
+ZFN mRNA injections and PCR/RE genotyping assays 
+
+We utilized protocols similar to those we recently described (Zhu et al., 2011). pCS2-based 
+
+expression plasmids containing our constructed ZFNs were linearized downstream of the SV40 
+
+polyadenylation signal and used as templates for in vitro transcription of ZFN mRNAs (Ambion). 
+
+One-cell fertilized zebrafish embryos were injected with varying amounts of DD/RR or EL/KK 
+
+FokI variant mRNAs. Site-specific ZFN function was verified by a PCR/RE genotyping strategy 
+
+wherein introduction of mutagenic lesions at the target site leads to loss of a unique endogenous 
+
+restriction site. This same strategy was later used to genotype F1 animals. For nf1a and nf1b, 
+
+23 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptPCR was performed using the following primer pairs and PCR conditions: nf1a F genotyping 
+
+primer: 5"-GGTGTGTATGTAAATGGGCTCAATG-3"; nf1a R genotyping primer: 5"-
+
+TACAGTTTCCATAAAACCTGACATTTC-3"; nf1b F genotyping primer: 5"-
+
+TGCTACCTGCCGGCAGGCTCAG-3"; nf1b R genotyping primer: 5"-
+
+ACCTGTGACCATCATGTTACTGACA-3". PCR conditions for nf1a were 94°C for 2 minutes, 
+
+35 cycles of (94°C for 30 seconds, 54.8°C for 30 seconds, 72°C for 40 seconds), 72°C for 5 
+
+minutes. PCR conditions for nf1b were 94°C for 2 minutes, 35 cycles of (94°C for 30 seconds, 
+
+62°C for 30 seconds, 72°C for 40 seconds), 72°C for 5 minutes. For both nf1a and nf1b, a 223 bp 
+
+PCR product is generated. Mutant alleles are resistant to subsequent digestion with BspCNI or 
+
+DdeI (nf1a) and BslI or EcoNI (nf1b), whereas the wild type alleles are completely digested. The 
+
+molecular identities of the various mutant alleles were determined by cloning and sequencing the 
+
+restriction enzyme-resistant PCR products from individual embryos derived from outcrosses of 
+
+F1 animals to wild type fish. 
+
+ 
+
+Larval genotyping 
+
+A modified fin clip genotyping strategy was utilized to identify larval genotypes prior to sacrifice. 
+
+Briefly, 2 dpf larvae were anesthetized with tricaine and stereomicroscopic amputation was 
+
+performed on the caudal fin with an angled dissecting knife (Fine Science Tools, 10056-12). 
+
+Genomic DNA from fin-clipped tissue samples was prepared by collecting specimens in 1.5 #l 
+
+of the surrounding medium and dispensing into PCR tubes containing 7.5 #l of 60 mM NaOH, 
+
+which were incubated at 95°C for 20 minutes followed by 4°C for 5 minutes with the subsequent 
+
+addition of 1 #l of 1 M Tris, pH 8. PCR/RE genotyping for nf1a or nf1b was performed as 
+
+described with an increase in PCR cycle number to 40. Genomic DNA prepared by this strategy 
+
+24 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptwas sufficient for a single genotyping reaction. Thus, parental crosses were selected to ensure all 
+
+progeny were homozygous for the non-genotyped nf1 allele (e.g., nf1a+/-; nf1b-/- incross). This 
+
+was verified by genotyping the homozygous mutant allele in sibling clutchmates. 
+
+  
+
+Whole-mount in situ hybridization and TUNEL staining, immunohistochemistry, and 
+
+BrdU labeling 
+
+Antisense RNA probes were generated for plp1a (Park et al., 2002) and mbp (Lyons et al., 2005) 
+
+using a digoxigenin RNA labeling kit (Roche). A previously published protocol (Thisse and 
+
+Thisse, 2008) was followed with minor modifications. Terminal deoxynucleotidyl transferase 
+
+dUTP nick-end labeling (TUNEL) staining of larvae was performed using the ApopTag 
+
+Peroxidase In Situ Apoptosis Detection Kit (EMD Millipore) with minor modifications. Larvae 
+
+were subsequently blocked in 2% blocking reagent (Roche) for 4 hours at room temperature, 
+
+incubated overnight in anti-digoxigenin-POD antibody (Roche, 1:500) at 4°C, and TUNEL-
+
+positive cells were detected using the TSA fluorescein system (PerkinElmer). Apoptotic cells 
+
+were quantified by counting TUNEL-positive cells between somites 6 and 15. For 
+
+immunohistochemical analysis of zebrafish larvae, we used mouse anti-BrdU (Developmental 
+
+Studies Hybridoma Bank G3G4, 1:1000), mouse anti-HuC/D (Invitrogen A-21271, 1:100), 
+
+mouse anti-phospho-ERK1/2 (Sigma, 1:200), mouse anti-Zrf1 (Zebrafish International Resource 
+
+Center, 1:1000), rabbit anti-BLBP (Millipore AB9558, 1:1000), rabbit anti-phospho-S6 (Cell 
+
+Signaling 2211, 1:200), and rabbit anti-SOX10 (Park et al., 2005) (a generous gift from Dr. 
+
+Bruce Appel, 1:5000) as primary antibodies. For fluorescent detection of antibody labeling, we 
+
+used anti-mouse and anti-rabbit IgG antibodies conjugated with Alexa Fluor 488, 568, and 647 
+
+(Invitrogen, 1:200). Immunohistochemistry of adult zebrafish tumor samples was performed 
+
+25 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptaccording to a previously published protocol (Ligon et al., 2004). Primary antibodies included 
+
+anti-phospho-ERK1/2 (Cell Signaling 4370, 1:200), anti-phospho-S6 (Cell Signaling 2211, 1:50), 
+
+anti-phospho-histone H3 (Cell Signaling 9706, 1:100), rabbit anti-SOX10 (Park et al., 2005) 
+
+(1:3000), mouse anti-GFAP (Sigma G3893, 1:10000), anti-HuC/D (Invitrogen A-21271, 1:200), 
+
+and anti-synaptophysin (Millipore MAB5258, 1:1000). Antibody binding was detected using a 
+
+diaminobenzidine/peroxidase visualization system (EnVision+, Dako). Mayer’s hematoxylin was 
+
+used for counterstaining. For BrdU labeling, embryos were incubated in BrdU solution (10 mM 
+
+BrdU in 2% DMSO) for 12 hours. After BrdU incubation, embryos were fixed with 4% 
+
+paraformaldehyde and embedded in 1.5% agarose. Sections from embedded frozen specimens 
+
+were immersed in 2 M HCl for 15 minutes and processed for immunohistochemistry. Paraffin 
+
+sectioning followed by hematoxylin and eosin staining was performed at the DF/HCC Research 
+
+Pathology Core. 
+
+ 
+
+Behavioral analysis 
+
+Startle behavioral experiments were performed on 5 dpf larvae raised as previously described 
+
+(Burgess and Granato, 2007b). Larvae with underinflated swim bladders were excluded from 
+
+behavioral testing. Acoustic startle responses were elicited and measured as previously described 
+
+(Burgess and Granato, 2007a; Wolman et al., 2011), such that larvae could be tracked and 
+
+analyzed individually. All startle stimuli were 1000 Hz waveforms of 3 milliseconds duration at 
+
+an intensity of approximately 150 m/second2. Stimulus intensity was calculated by measuring the 
+
+displacement of the testing arena due to vibration. To evaluate short latency C-start (SLC) 
+
+behavior, images were recorded 30 milliseconds prior to and 90 milliseconds following the 
+
+delivery of the 3 millisecond acoustic stimulus. To examine acoustic startle larval motor 
+
+26 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptbehaviors, we captured video recordings using a MotionPro high-speed camera (Redlake) at 
+
+1000 frames per second with 512x512 pixel resolution using a 50 mm macro lens. Behavioral 
+
+analyses were carried out with the FLOTE software package (Burgess and Granato, 2007b; 
+
+Burgess and Granato, 2007a). Startle short-term habituation was performed and analyzed as 
+
+previously described (Wolman et al., 2011). Larvae were genotyped following behavioral testing.  
+
+ 
+
+Western blotting 
+
+Protein lysates were prepared from 3 dpf wild type, nf1a-/-; nf1b+/+, nf1a+/+; nf1b-/-, and nf1a-/-; 
+
+nf1b-/- larvae. Briefly, groups of 10 to 20 larvae with identical genotype were anesthetized with 
+
+tricaine, deyolked in a solution of ice-cold PBS with 0.1% Tween-20 (PBST), transferred to a 
+
+pre-chilled microcentrifuge tube containing 5 #l of lysis buffer (150 mM NaCl, 50 mM Tris, pH 
+
+8, 5 mM EDTA, 1 mM PMSF, 1% Igepal CA 630, 0.5% sodium deoxycholate, 0.1% SDS, and 
+
+1X Halt protease inhibitor cocktail (Thermo Fisher Scientific)) per larva, sonicated using a 
+
+Bioruptor (Diagenode), and cleared by centrifugation. Larval (100 #g) and 293T (25 #g) protein 
+
+lysates were separated by gel electrophoresis, transferred to PVDF membranes, and probed 
+
+overnight at 4°C with the following primary antibodies: anti-neurofibromin (Abcam ab17963, 
+
+1:1000), anti-alpha-tubulin (Sigma T6074, 1:1000), anti-phospho-ERK1/2 (Cell Signaling 4377, 
+
+1:1000), and anti-ERK1/2 (Cell Signaling 9102, 1:1000). Primary antibody binding was 
+
+visualized on x-ray film using anti-mouse-HRP (Cell Signaling 7076, 1:10000) or anti-rabbit-
+
+HRP (Cell Signaling 7074, 1:10000) secondary antibodies along with LumiGLO (Cell Signaling) 
+
+or SuperSignal West Femto (Thermo Fisher Scientific) chemiluminescent substrates. Each 
+
+Western blot was performed in three independent replicates with a representative image of one 
+
+presented. 
+
+27 
+
+Disease Models & Mechanisms         DMMAccepted manuscript 
+
+Quantification of lateral line and head melanophores 
+
+Lateral stripe melanophores, including those observed along the horizontal myoseptum, were 
+
+counted by a blinded observer in live progeny from nf1a+/-; nf1b+/- incrosses at 3 and 6 dpf. Each 
+
+discrete melanized region was counted as a single melanophore. Following 6 dpf lateral stripe 
+
+melanophore quantitation, larvae were immersed in E3 with 5 mg/ml epinephrine (Sigma E4375) 
+
+for 10 minutes to induce contraction of melanosomes around cell bodies and allow evaluation of 
+
+head melanophore numbers. Larvae were fixed overnight in 4% paraformaldehyde in PBS at 4°C, 
+
+washed twice with PBS for 5 minutes, and melanophores anterior to somite one across the crown 
+
+of the head (supplementary material Fig. S9) were counted. Larvae were subsequently genotyped 
+
+for nf1a and nf1b. Data analysis was performed by one-way ANOVA with Dunnett’s post-test 
+
+(GraphPad InStat 3.1a, GraphPad Software). 
+
+ 
+
+Serial tracking of lateral line melanophores 
+
+Lateral stripe melanophores of live progeny from nf1a+/-; nf1b-/- or wild type incrosses were 
+
+individually imaged at 3 dpf followed by incubation with 0.2 mM N-phenylthiourea (PTU, 
+
+Sigma) to prevent melanin synthesis. At 5 dpf, lateral stripe melanophores were again imaged 
+
+after which PTU was washed out. Larvae were reimaged at 6 dpf and subsequently genotyped for 
+
+nf1a. Images were acquired using a Nikon SMZ1500 microscope and NIS-Elements F2.20 
+
+software with identical setting. Melanophores in a 200 #m region, corresponding to roughly 12 
+
+somites at 3 dpf, were counted at 3 and 6 dpf for each larva. Statistical analysis was performed 
+
+using a one-tail, unpaired t-test (GraphPad Prism 5, GraphPad Software).  
+
+ 
+
+28 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptIntestinal transit assays 
+
+Groups of 5 dpf wild type and nf1a-/-; nf1b-/- larvae were placed in individual wells of 6-well 
+
+plates containing feeding medium (4 ml E3, 2 ml paramecia culture, and 5 #l of 2 #m yellow-
+
+green microspheres (Polysciences 18338)). Larvae were incubated at 28.5°C for 1 hour followed 
+
+by several E3 washes. Individual larvae were transferred to 24-well plates and visually assessed 
+
+for the presence of fluorescent microspheres in the intestinal bulb. Extent of intestinal transit was 
+
+observed at 2, 4, 6, and 24 hours. Transit was considered to be complete when fluorescence was 
+
+no longer detectable in the intestinal tract. 
+
+ 
+
+Transmission electron microscopy 
+
+Transmission electron microscopy (TEM) was carried out at the Harvard Medical School 
+
+Electron Microscopy Facility. Briefly, embryos were fixed in 2% formaldehyde/2.5% 
+
+glutaraldehyde, post-fixed with 1% osmium tetroxide, and embedded in epon. Sections were 
+
+collected in the trunk region of embryos. Images were captured by a Tecnai G$ Spirit BioTWIN 
+
+electron microscope with an AMT 2k CCD camera. 
+
+ 
+
+Tumor identification  
+
+nf1a!8/+; nf1b+10/+10; p53e7/e7 fish were incrossed and progeny were manually evaluated weekly 
+
+for 45 weeks. Animals identified as having tumors were separated and fin clipped for genotyping 
+
+purposes. These samples were subsequently subjected to histological and immunohistochemical 
+
+analyses as described above for determination of tumor type. At the completion of 45 weeks, all 
+
+tumor-free fish were genotyped for subsequent statistical analysis. 
+
+ 
+
+29 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptACKNOWLEDGEMENTS 
+
+We thank members of the Epstein and Look laboratories for helpful discussions, especially Rajan 
+
+Jain and Nikhil Singh. We are grateful to Jie He for her expert assistance with zebrafish 
+
+husbandry; Michael Pack and Mary Mullins for thoughtful suggestions; Joshua Abrams, Jesse 
+
+Isaacman-Beck, and Allison Rosenberg for technical instruction; and Thomas Joseph for critical 
+
+reading of the manuscript. 
+
+ 
+
+FUNDING 
+
+This work was supported by the Department of Defense (W81XWH-07-1-0228 and W81XWH-
+
+12-1-0125 to JAE and ATL) and the National Institutes of Health (R01 HL062974 to JAE; R01 
+
+HL093766 to NDL and SAW; T32 HL007843-15 to EDD; NIH R01 HG002995 to LSK). AP 
+
+was supported by a fellowship from the Sarnoff Cardiovascular Research Foundation, JS was 
+
+supported by a fellowship from the DFCI Pediatric Low-Grade Astrocytoma Program, and JSL 
+
+was supported by a Young Investigator Award from the Children’s Tumor Foundation. This 
+
+work was also supported by the Vanderbilt University Academic Venture Capital Fund to LSK 
+
+as well as the Spain Fund for Regenerative Medicine and the W.W. Smith Endowed Chair to 
+
+JAE. 
+
+ 
+
+COMPETING INTERESTS 
+
+The authors declare that they do not have any competing or financial interests. 
+
+ 
+
+AUTHOR CONTRIBUTIONS 
+
+30 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptJ.S., A.P., E.D.D., M.A.W., J.P.K., N.D.D., S.A.W., K.L.L, J.A.E., and A.T.L. conceived and 
+
+designed the experiments. J.S., A.P., E.D.D., J-S.L., S.H., S.D., F.G., and M.A.W. performed the 
+
+experiments. J.S., A.P., E.D.D., J.P.K., K.L.L., J.A.E., and A.T.L. analyzed the data. M.G., 
+
+N.D.L., S.A.W., S-H.K., L.S-K., and K.L.L. contributed reagents, materials, and analysis tools. 
+
+A.P., J.S., E.D.D., J.P.K., A.T.L., and J.A.E. wrote the paper. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+31 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptREFERENCES 
+
+Abrams, E. W. and Mullins, M. C. (2009). Early zebrafish development: it's in the maternal 
+genes. Curr Opin Genet Dev 19, 396-403. 
+Amores, A., Force, A., Yan, Y. L., Joly, L., Amemiya, C., Fritz, A., Ho, R. K., Langeland, J., 
+Prince, V., Wang, Y. L. et al. (1998). Zebrafish hox clusters and vertebrate genome evolution. 
+Science (New York, N.Y 282, 1711-1714. 
+Andersson, J., Sihto, H., Meis-Kindblom, J. M., Joensuu, H., Nupponen, N. and Kindblom, 
+L. G. (2005). NF1-associated gastrointestinal stromal tumors have unique clinical, phenotypic, 
+and genotypic characteristics. The American journal of surgical pathology 29, 1170-1176. 
+Bahuau, M., Laurendeau, I., Pelet, A., Assouline, B., Lamireau, T., Taine, L., Le Bail, B., 
+Vergnes, P., Gallet, S., Vidaud, M. et al. (2000). Tandem duplication within the 
+neurofibromatosis type 1 gene (NF1) and reciprocal t(15;16)(q26.3;q12.1) translocation in 
+familial association of NF1 with intestinal neuronal dysplasia type B (IND B). J Med Genet 37, 
+146-150. 
+Bannykh, S. I., Stolt, C. C., Kim, J., Perry, A. and Wegner, M. (2006). Oligodendroglial-
+specific transcriptional factor SOX10 is ubiquitously expressed in human gliomas. J Neurooncol 
+76, 115-127. 
+Bennett, M. R., Rizvi, T. A., Karyala, S., McKinnon, R. D. and Ratner, N. (2003). Aberrant 
+growth and differentiation of oligodendrocyte progenitors in neurofibromatosis type 1 mutants. J 
+Neurosci 23, 7207-7217. 
+Berghmans, S., Murphey, R. D., Wienholds, E., Neuberg, D., Kutok, J. L., Fletcher, C. D., 
+Morris, J. P., Liu, T. X., Schulte-Merker, S., Kanki, J. P. et al. (2005). tp53 mutant zebrafish 
+develop malignant peripheral nerve sheath tumors. Proc Natl Acad Sci U S A 102, 407-412. 
+Brannan, C. I., Perkins, A. S., Vogel, K. S., Ratner, N., Nordlund, M. L., Reid, S. W., 
+Buchberg, A. M., Jenkins, N. A., Parada, L. and Copeland, N. G. (1994). Targeted disruption 
+of the neurofibromatosis type-1 gene leads to developmental abnormalities in heart and various 
+neural crest-derived tissues. Genes & Development 8, 1019-1029. 
+Burgess, H. A. and Granato, M. (2007a). Sensorimotor gating in larval zebrafish. J Neurosci 
+27, 4984-4994. 
+Burgess, H. A. and Granato, M. (2007b). Modulation of locomotor activity in larval zebrafish 
+during light adaptation. J Exp Biol 210, 2526-2539. 
+Carney, T. J., Dutton, K. A., Greenhill, E., Delfino-Machin, M., Dufourcq, P., Blader, P. 
+and Kelsh, R. N. (2006). A direct role for Sox10 in specification of neural crest-derived sensory 
+neurons. Development 133, 4619-4630. 
+Cawthon, R. M., Weiss, R., Xu, G. F., Viskochil, D., Culver, M., Stevens, J., Robertson, M., 
+Dunn, D., Gesteland, R., O'Connell, P. et al. (1990). A major segment of the 
+neurofibromatosis type 1 gene: cDNA sequence, genomic structure, and point mutations. Cell 62, 
+193-201. 
+Cichowski, K. and Jacks, T. (2001). NF1 tumor suppressor gene function: narrowing the GAP. 
+Cell 104, 593-604. 
+Cichowski, K., Shih, T. S., Schmitt, E., Santiago, S., Reilly, K., McLaughlin, M. E., Bronson, 
+R. T. and Jacks, T. (1999). Mouse models of tumor development in neurofibromatosis type 1. 
+Science (New York, N.Y 286, 2172-2176. 
+D'Angelo, I., Welti, S., Bonneau, F. and Scheffzek, K. (2006). A novel bipartite phospholipid-
+binding module in the neurofibromatosis type 1 protein. EMBO reports 7, 174-179. 
+
+32 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptDasgupta, B., Dugan, L. L. and Gutmann, D. H. (2003). The neurofibromatosis 1 gene 
+product neurofibromin regulates pituitary adenylate cyclase-activating polypeptide-mediated 
+signaling in astrocytes. J Neurosci 23, 8949-8954. 
+Dasgupta, B., Yi, Y., Chen, D. Y., Weber, J. D. and Gutmann, D. H. (2005). Proteomic 
+analysis reveals hyperactivation of the mammalian target of rapamycin pathway in 
+neurofibromatosis 1-associated human and mouse brain tumors. Cancer Res 65, 2755-2760. 
+De Schepper, S., Boucneau, J. M., Westbroek, W., Mommaas, M., Onderwater, J., 
+Messiaen, L., Naeyaert, J. M. and Lambert, J. L. (2006). Neurofibromatosis type 1 protein 
+and amyloid precursor protein interact in normal human melanocytes and colocalize with 
+melanosomes. The Journal of investigative dermatology 126, 653-659. 
+Ducatman, B. S., Scheithauer, B. W., Piepgras, D. G., Reiman, H. M. and Ilstrup, D. M. 
+(1986). Malignant peripheral nerve sheath tumors. A clinicopathologic study of 120 cases. 
+Cancer 57, 2006-2021. 
+Easton, D. F., Ponder, M. A., Huson, S. M. and Ponder, B. A. (1993). An analysis of variation 
+in expression of neurofibromatosis (NF) type 1 (NF1): evidence for modifying genes. American 
+journal of human genetics 53, 305-313. 
+Eliyahu, D., Raz, A., Gruss, P., Givol, D. and Oren, M. (1984). Participation of p53 cellular 
+tumour antigen in transformation of normal embryonic cells. Nature 312, 646-649. 
+Guo, H. F., Tong, J., Hannan, F., Luo, L. and Zhong, Y. (2000). A neurofibromatosis-1-
+regulated pathway is required for learning in Drosophila. Nature 403, 895-898. 
+Gutmann, D. H., Loehr, A., Zhang, Y., Kim, J., Henkemeyer, M. and Cashen, A. (1999). 
+Haploinsufficiency for the neurofibromatosis 1 (NF1) tumor suppressor results in increased 
+astrocyte proliferation. Oncogene 18, 4450-4459. 
+Hegedus, B., Dasgupta, B., Shin, J. E., Emnett, R. J., Hart-Mahon, E. K., Elghazi, L., 
+Bernal-Mizrachi, E. and Gutmann, D. H. (2007). Neurofibromatosis-1 regulates neuronal and 
+glial cell differentiation from neuroglial progenitors in vivo by both cAMP- and Ras-dependent 
+mechanisms. Cell stem cell 1, 443-457. 
+Hirose, T., Scheithauer, B. W. and Sano, T. (1998). Perineurial malignant peripheral nerve 
+sheath tumor (MPNST): a clinicopathologic, immunohistochemical, and ultrastructural study of 
+seven cases. Am J Surg Pathol 22, 1368-1378. 
+Hsueh, Y. P., Roberts, A. M., Volta, M., Sheng, M. and Roberts, R. G. (2001). Bipartite 
+interaction between neurofibromatosis type I protein (neurofibromin) and syndecan 
+transmembrane heparan sulfate proteoglycans. J Neurosci 21, 3764-3770. 
+Hultman, K. A. and Johnson, S. L. (2010). Differential contribution of direct-developing and 
+stem cell-derived melanocytes to the zebrafish larval pigment pattern. Dev Biol 337, 425-431. 
+Hultman, K. A., Budi, E. H., Teasley, D. C., Gottlieb, A. Y., Parichy, D. M. and Johnson, S. 
+L. (2009). Defects in ErbB-dependent establishment of adult melanocyte stem cells reveal 
+independent origins for embryonic and regeneration melanocytes. PLoS Genet 5, e1000544. 
+Hundley, J. E., Koester, S. K., Troyer, D. A., Hilsenbeck, S. G., Subler, M. A. and Windle, J. 
+J. (1997). Increased tumor proliferation and genomic instability without decreased apoptosis in 
+MMTV-ras mice deficient in p53. Mol Cell Biol 17, 723-731. 
+Jacks, T., Shih, T. S., Schmitt, E. M., Bronson, R. T., Bernards, A. and Weinberg, R. A. 
+(1994). Tumour predisposition in mice heterozygous for a targeted mutation in Nf1. Nat Genet 7, 
+353-361. 
+
+33 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptKemp, C. J., Burns, P. A., Brown, K., Nagase, H. and Balmain, A. (1994). Transgenic 
+approaches to the analysis of ras and p53 function in multistage carcinogenesis. Cold Spring 
+Harb Symp Quant Biol 59, 427-434. 
+Koprunner, M., Thisse, C., Thisse, B. and Raz, E. (2001). A zebrafish nanos-related gene is 
+essential for the development of primordial germ cells. Genes Dev 15, 2877-2885. 
+Lam, C. S., Marz, M. and Strahle, U. (2009). gfap and nestin reporter lines reveal 
+characteristics of neural progenitors in the adult zebrafish brain. Dev Dyn 238, 475-486. 
+Le, L. Q. and Parada, L. F. (2007). Tumor microenvironment and neurofibromatosis type I: 
+connecting the GAPs. Oncogene 26, 4609-4616. 
+Lee, J. S., Padmanabhan, A., Shin, J., Zhu, S., Guo, F., Kanki, J. P., Epstein, J. A. and 
+Look, A. T. (2010). Oligodendrocyte progenitor cell numbers and migration are regulated by the 
+zebrafish orthologs of the NF1 tumor suppressor gene. Hum Mol Genet 19, 4643-4653. 
+Ligon, K. L., Alberta, J. A., Kho, A. T., Weiss, J., Kwaan, M. R., Nutt, C. L., Louis, D. N., 
+Stiles, C. D. and Rowitch, D. H. (2004). The oligodendroglial lineage marker OLIG2 is 
+universally expressed in diffuse gliomas. J Neuropathol Exp Neurol 63, 499-509. 
+Lyons, D. A., Pogoda, H. M., Voas, M. G., Woods, I. G., Diamond, B., Nix, R., Arana, N., 
+Jacobs, J. and Talbot, W. S. (2005). erbb3 and erbb2 are essential for schwann cell migration 
+and myelination in zebrafish. Curr Biol 15, 513-524. 
+Miller, J. C., Holmes, M. C., Wang, J., Guschin, D. Y., Lee, Y. L., Rupniewski, I., 
+Beausejour, C. M., Waite, A. J., Wang, N. S., Kim, K. A. et al. (2007). An improved zinc-
+finger nuclease architecture for highly specific genome editing. Nat Biotechnol 25, 778-785. 
+Padmanabhan, A., Lee, J. S., Ismat, F. A., Lu, M. M., Lawson, N. D., Kanki, J. P., Look, A. 
+T. and Epstein, J. A. (2009). Cardiac and vascular functions of the zebrafish orthologues of the 
+type I neurofibromatosis gene NFI. Proc Natl Acad Sci U S A 106, 22305-22310. 
+Parada, L. F., Land, H., Weinberg, R. A., Wolf, D. and Rotter, V. (1984). Cooperation 
+between gene encoding p53 tumour antigen and ras in cellular transformation. Nature 312, 649-
+651. 
+Park, H. C., Mehta, A., Richardson, J. S. and Appel, B. (2002). olig2 is required for zebrafish 
+primary motor neuron and oligodendrocyte development. Dev Biol 248, 356-368. 
+Park, H. C., Boyce, J., Shin, J. and Appel, B. (2005). Oligodendrocyte specification in 
+zebrafish requires notch-regulated cyclin-dependent kinase inhibitor function. J Neurosci 25, 
+6836-6844. 
+Parsons, D. W., Jones, S., Zhang, X., Lin, J. C., Leary, R. J., Angenendt, P., Mankoo, P., 
+Carter, H., Siu, I. M., Gallia, G. L. et al. (2008). An integrated genomic analysis of human 
+glioblastoma multiforme. Science (New York, N.Y 321, 1807-1812. 
+Powers, J. F., Evinger, M. J., Zhi, J., Picard, K. L. and Tischler, A. S. (2007). 
+Pheochromocytomas in Nf1 knockout mice express a neural progenitor gene expression profile. 
+Neuroscience 147, 928-937. 
+Sabbagh, A., Pasmant, E., Laurendeau, I., Parfait, B., Barbarot, S., Guillot, B., Combemale, 
+P., Ferkal, S., Vidaud, M., Aubourg, P. et al. (2009). Unravelling the genetic basis of variable 
+clinical expression in neurofibromatosis 1. Hum Mol Genet 18, 2768-2778. 
+Shin, J., Park, H. C., Topczewska, J. M., Mawdsley, D. J. and Appel, B. (2003). Neural cell 
+fate analysis in zebrafish using olig2 BAC transgenics. Methods Cell Sci 25, 7-14. 
+Side, L., Taylor, B., Cayouette, M., Conner, E., Thompson, P., Luce, M. and Shannon, K. 
+(1997). Homozygous inactivation of the NF1 gene in bone marrow cells from children with 
+neurofibromatosis type 1 and malignant myeloid disorders. N Engl J Med 336, 1713-1720. 
+
+34 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptSide, L. E., Emanuel, P. D., Taylor, B., Franklin, J., Thompson, P., Castleberry, R. P. and 
+Shannon, K. M. (1998). Mutations of the NF1 gene in children with juvenile myelomonocytic 
+leukemia without clinical evidence of neurofibromatosis, type 1. Blood 92, 267-272. 
+Szczepek, M., Brondani, V., Buchel, J., Serrano, L., Segal, D. J. and Cathomen, T. (2007). 
+Structure-based redesign of the dimerization interface reduces the toxicity of zinc-finger 
+nucleases. Nat Biotechnol 25, 786-793. 
+Tanaka, M., Omura, K., Watanabe, Y., Oda, Y. and Nakanishi, I. (1994). Prognostic factors 
+of colorectal cancer: K-ras mutation, overexpression of the p53 protein, and cell proliferative 
+activity. J Surg Oncol 57, 57-64. 
+The Cancer Genome Atlas Research Network. (2008). Comprehensive genomic 
+characterization defines human glioblastoma genes and core pathways. Nature 455, 1061-1068. 
+Thermes, V., Grabher, C., Ristoratore, F., Bourrat, F., Choulika, A., Wittbrodt, J. and Joly, 
+J. S. (2002). I-SceI meganuclease mediates highly efficient transgenesis in fish. Mech Dev 118, 
+91-98. 
+Thisse, C. and Thisse, B. (2008). High-resolution in situ hybridization to whole-mount 
+zebrafish embryos. Nat Protoc 3, 59-69. 
+Tong, J., Hannan, F., Zhu, Y., Bernards, A. and Zhong, Y. (2002). Neurofibromin regulates 
+G protein-stimulated adenylyl cyclase activity. Nat Neurosci 5, 95-96. 
+Viskochil, D., Buchberg, A. M., Xu, G., Cawthon, R. M., Stevens, J., Wolff, R. K., Culver, 
+M., Carey, J. C., Copeland, N. G., Jenkins, N. A. et al. (1990). Deletions and a translocation 
+interrupt a cloned gene at the neurofibromatosis type 1 locus. Cell 62, 187-192. 
+Vogel, K. S., Klesse, L. J., Velasco-Miguel, S., Meyers, K., Rushing, E. J. and Parada, L. F. 
+(1999). Mouse tumor model for neurofibromatosis type 1. Science (New York, N.Y 286, 2176-
+2179. 
+Wallace, M. R., Marchuk, D. A., Andersen, L. B., Letcher, R., Odeh, H. M., Saulino, A. M., 
+Fountain, J. W., Brereton, A., Nicholson, J., Mitchell, A. L. et al. (1990). Type 1 
+neurofibromatosis gene: identification of a large transcript disrupted in three NF1 patients. 
+Science (New York, N.Y 249, 181-186. 
+Wanebo, J. E., Malik, J. M., VandenBerg, S. R., Wanebo, H. J., Driesen, N. and Persing, J. 
+A. (1993). Malignant peripheral nerve sheath tumors. A clinicopathologic study of 28 cases. 
+Cancer 71, 1247-1253. 
+Westerfield, M. (2000). The Zebrafish Book: A Guide for the Laboratory Use of Zebrafish 
+(Danio rerio) (4th ed.). Eugene, OR: University of Oregon Press. 
+Wienholds, E., Schulte-Merker, S., Walderich, B. and Plasterk, R. H. (2002). Target-selected 
+inactivation of the zebrafish rag1 gene. Science 297, 99-102. 
+Williams, V. C., Lucas, J., Babcock, M. A., Gutmann, D. H., Korf, B. and Maria, B. L. 
+(2009). Neurofibromatosis type 1 revisited. Pediatrics 123, 124-133. 
+Wolman, M. A., Jain, R. A., Liss, L. and Granato, M. (2011). Chemical modulation of 
+memory formation in larval zebrafish. Proc Natl Acad Sci U S A 108, 15468-15473. 
+Xu, H. and Gutmann, D. H. (1997). Mutations in the GAP-related domain impair the ability of 
+neurofibromin to associate with microtubules. Brain research 759, 149-152. 
+Zheng, H., Chang, L., Patel, N., Yang, J., Lowe, L., Burns, D. K. and Zhu, Y. (2008). 
+Induction of abnormal proliferation by nonmyelinating schwann cells triggers neurofibroma 
+formation. Cancer cell 13, 117-128. 
+
+35 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptZhu, C., Smith, T., McNulty, J., Rayla, A. L., Lakshmanan, A., Siekmann, A. F., Buffardi, 
+M., Meng, X., Shin, J., Padmanabhan, A. et al. (2011). Evaluation and application of 
+modularly assembled zinc-finger nucleases in zebrafish. Development 138, 4555-4564. 
+Zhu, Y., Guignard, F., Zhao, D., Liu, L., Burns, D. K., Mason, R. P., Messing, A. and 
+Parada, L. F. (2005a). Early inactivation of p53 tumor suppressor gene cooperating with NF1 
+loss induces malignant astrocytoma. Cancer cell 8, 119-130. 
+Zhu, Y., Harada, T., Liu, L., Lush, M. E., Guignard, F., Harada, C., Burns, D. K., 
+Bajenaru, M. L., Gutmann, D. H. and Parada, L. F. (2005b). Inactivation of NF1 in CNS 
+causes increased glial progenitor proliferation and optic glioma formation. Development 132, 
+5577-5588. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+36 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptTRANSLATIONAL IMPACT 
+ 
+Clinical issue 
+Neurofibromatosis type 1 (NF1) is among the most commonly inherited human genetic disorders. 
+Despite nearly complete penetrance, the clinical expression of NF1 varies widely, even within 
+families harboring identical mutations at the NF1 locus. Not surprisingly, few genotype-
+phenotype relationships have thus far been reported for NF1, suggesting important contributions 
+from unlinked modifier genes and/or environmental factors. However, these observations do not 
+preclude mutations or deletions within the NF1 locus from influencing pathology. Instead, they 
+highlight the need for better experimental tools to address this important and clinically relevant 
+observation. A zebrafish model of NF1 would provide a powerful platform to begin elucidating 
+these mechanisms using scalable chemical and genetic approaches. 
+ 
+Results 
+The authors employ zinc finger nucleases and TILLING to isolate null alleles of the zebrafish 
+orthologues of human NF1, nf1a and nf1b. They report that zebrafish lacking nf1a and nf1b 
+exhibit valvular insufficiency, defects in learning and behavior, and early larval lethality. 
+Interestingly, larvae carrying a single wild type allele of either nf1a or nf1b are viable and fertile, 
+suggesting functional redundancy. The authors also observe hyperplasia and aberrant 
+differentiation in the oligodendrocyte progenitor cells and Schwann cells populating the nervous 
+systems of nf1-null larvae. This is accompanied by irregularities in the myelin sheaths 
+surrounding the neuronal axons of the central nervous system. Human NF1 is a potent tumor-
+suppressor gene and the authors provide evidence that zebrafish nf1a and nf1b function similarly. 
+They demonstrate Ras hyperactivation in the spinal cords of nf1-null larvae and that the 
+combined loss of nf1 and p53 accelerate tumorigenesis in these animals. Finally, the authors 
+characterize a melanophore defect resulting from nf1 loss that disrupts the uniform pigmentation 
+pattern observed along the lateral stripes. 
+ 
+Implications and future directions 
+Using zebrafish to probe the genetic, epistatic, and environmental factors underlying NF1 
+pathology offers several important advantages over currently available murine models. The low 
+costs and high fecundity of zebrafish coupled with their ability to survive for several days as 
+haploid organisms make them amenable to large-scale genetic screens. Thus, nf1-deficient 
+zebrafish should greatly facilitate the identification of modifier genes influencing NF1 
+pathogenesis. In addition, genetic rescue experiment using specific NF1 mutations or deletions 
+could be performed in an effort to clarify the molecular basis of pathology. The feasibility of 
+high-throughput chemical screening using this model may provide valuable mechanistic insights 
+and identify lead compounds for future therapeutics. Few treatment options are currently 
+available for individuals affected with NF1, so advances in this area are sorely needed. 
+Importantly, this represents the first animal model to demonstrate pigmentation defects 
+analogous to the pathognomonic café-au-lait spots seen in affected individuals. Therefore, this 
+model will provide a platform to further investigate one of the most common pathologies 
+associated with NF1. 
+ 
+
+37 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptMOVIE CAPTIONS 
+ 
+Movies S1-S3. A regurgitant atrioventricular valve (AV) phenotype is frequently observed 
+in embryos harboring loss of 3 or 4 wild type nf1 alleles at 3 dpf. 
+Analysis of clutches from nf1a; nf1b compound heterozygous mutant incrosses identified 
+embryos exhibiting a regurgitant AV valve phenotype at 3 dpf, wherein blood was seen to 
+traverse back and forth between the atrium and the ventricle as illustrated in these movies of 
+representative nf1a-/-; nf1b-/- (Movie S1), nf1a-/-; nf1b+/- (Movie S2), and nf1a+/-; nf1b-/- embryos 
+(Movie S3). 
+ 
+
+Disease Models & Mechanisms         DMMAccepted manuscriptA
+nf1a(cid:3)(cid:74)(cid:72)(cid:81)(cid:82)(cid:80)(cid:76)(cid:70)(cid:3)(cid:11)(cid:85)(cid:72)(cid:89)(cid:72)(cid:85)(cid:86)(cid:72)(cid:3)(cid:86)(cid:87)(cid:85)(cid:68)(cid:81)(cid:71)(cid:12)
+
+(cid:20)(cid:21)(cid:19)(cid:3)(cid:78)(cid:37)
+
+(cid:53)(cid:68)(cid:86)(cid:3)(cid:42)(cid:53)(cid:39)
+
+(cid:21)(cid:24)
+
+26
+
+(cid:41)(cid:82)(cid:78)(cid:44)
+
+EL
+
+TTCCTCTACAGCCTGAGGAGGGT
+AAGGAGATGTCGGACTCCTCCCA
+
+(cid:41)(cid:20)
+
+F2
+
+(cid:41)(cid:22)
+
+(cid:22)(cid:1223)(cid:3)(cid:61)(cid:41)(cid:51)
+
+(cid:41)(cid:20)
+
+F2
+
+(cid:24)(cid:1223)(cid:3)(cid:61)(cid:41)(cid:51)
+
+(cid:41)(cid:22)
+
+KK
+
+(cid:41)(cid:82)(cid:78)(cid:44)
+
+Helix
+
+Position
+-­1123456
+  QKCNLVR
+(cid:41)(cid:20)
+  RSDNLTR
+F2
+  QSGALTR
+(cid:41)(cid:22)
+  LAHHLTR
+(cid:41)(cid:20)
+  RSDNLTR
+F2
+  RSDNLTR
+(cid:41)(cid:22)
+
+(cid:51)
+(cid:41)
+(cid:61)
+
+(cid:3)
+(cid:1223)
+
+(cid:24)
+
+(cid:51)
+(cid:41)
+(cid:61)
+
+(cid:3)
+(cid:1223)
+
+(cid:22)
+
+B
+nf1b(cid:3)(cid:74)(cid:72)(cid:81)(cid:82)(cid:80)(cid:76)(cid:70)(cid:3)(cid:11)(cid:73)(cid:82)(cid:85)(cid:90)(cid:68)(cid:85)(cid:71)(cid:3)(cid:86)(cid:87)(cid:85)(cid:68)(cid:81)(cid:71)(cid:12)
+
+(cid:20)(cid:21)(cid:25)(cid:3)(cid:78)(cid:37)
+
+(cid:53)(cid:68)(cid:86)(cid:3)(cid:42)(cid:53)(cid:39)
+
+(cid:20)(cid:25)
+
+(cid:20)(cid:26)
+
+(cid:41)(cid:82)(cid:78)(cid:44)
+
+EL
+
+TTCCGTTACCTGTGTGAGGAGGCA
+AAGGCAATGGACACACTCCTCCGT
+
+(cid:41)(cid:20)
+
+F2
+
+(cid:41)(cid:22)
+
+(cid:22)(cid:1223)(cid:3)(cid:61)(cid:41)(cid:51)
+
+(cid:41)(cid:20)
+
+F2
+
+(cid:24)(cid:1223)(cid:3)(cid:61)(cid:41)(cid:51)
+
+(cid:41)(cid:22)
+
+KK
+
+(cid:41)(cid:82)(cid:78)(cid:44)
+
+Helix
+
+Position
+-­1123456
+  QKCNLVR
+(cid:41)(cid:20)
+  RSDNLKN
+F2
+  QSGALTR
+(cid:41)(cid:22)
+  QSGDLTR
+(cid:41)(cid:20)
+  RSDNLTR
+F2
+  RSDNLTR
+(cid:41)(cid:22)
+
+(cid:51)
+(cid:41)
+(cid:61)
+
+(cid:3)
+(cid:1223)
+
+(cid:24)
+
+(cid:51)
+(cid:41)
+(cid:61)
+
+(cid:3)
+(cid:1223)
+
+(cid:22)
+
+C
+
+D
+
+F
+
+nf1a exon 26
+(cid:168)(cid:24)(cid:3)(cid:11)(cid:14)(cid:25)(cid:15)(cid:168)(cid:20)(cid:20)(cid:12)
+(cid:168)(cid:27)
+nf1a exon 29
+(cid:47)(cid:20)(cid:21)(cid:23)(cid:26)(cid:59)
+nf1b (cid:72)(cid:91)(cid:82)(cid:81)(cid:3)(cid:20)(cid:26)
+(cid:14)(cid:20)(cid:19)(cid:3)(cid:11)(cid:14)(cid:20)(cid:22)(cid:15)(cid:168)(cid:22)(cid:12)
+(cid:168)(cid:24)(cid:24)(cid:3)(cid:11)(cid:14)(cid:26)(cid:15)(cid:168)(cid:25)(cid:21)(cid:12)
+
+GTCTTCCTCTACAGCCTGAGGAGGGTGACGGTGTTGAGCTCATGGAGGCCAAATCACAGCTCTTCCTGAA
+GTCTTCCTCTACGGTGAC-----GGTGACGGTGTTGAGCTCATGGAGGCCAAATCACAGCTCTTCCTGAA
+GTCTTCCTCT--------AGGAGGGTGACGGTGTTGAGCTCATGGAGGCCAAATCACAGCTCTTCCTGAA
+CTGCTGTATCAGCTGTTGTGGAATATGTTCTCC
+CTGCTGTATCAGCTGTAGTGGAATATGTTCTCC
+TGTTTCCGTTACCTGTGTGAGGAGGCAGAAATCCGGTGCGGTGTTGAAGACATCCCAGTGCAGTCTC
+TGTTTCCGTTACCCGTTTCCGTTTCCGTGAGGAGGCAGAAATCCGGTGCGGTGTTGAAGACATCCCA
+TGTTTCCGTTACC-------------------------------------------------------TTCCGTTAA
+
+nf1a exon 26
+(cid:168)(cid:24)(cid:3)(cid:11)(cid:14)(cid:25)(cid:15)(cid:168)(cid:20)(cid:20)(cid:12)
+
+LPLQPEEGDGVELMEAKSQLFL...
+LPLR*
+(cid:168)(cid:27) LPLGG*
+
+nf1a exon 29
+
+DELARVLVTLFDSRHLLYQLLW...
+
+(cid:47)(cid:20)(cid:21)(cid:23)(cid:26)(cid:59) DELARVLVTLFDSRHLLYQL*
+
+nf1b (cid:72)(cid:91)(cid:82)(cid:81)(cid:3)(cid:20)(cid:26)
+(cid:14)(cid:20)(cid:19)(cid:3)(cid:11)(cid:14)(cid:20)(cid:22)(cid:15)(cid:168)(cid:22)(cid:12)
+(cid:168)(cid:24)(cid:24)(cid:3)(cid:11)(cid:14)(cid:26)(cid:15)(cid:168)(cid:25)(cid:21)(cid:12) CFRYLPLTTTPSWSLPLSVT*
+
+CFRYLCEEAEIRCGVEDIPVQS...
+CFRYPFPFP*
+
+wild
+type
+
+nf1a(cid:168)(cid:24)(cid:18)(cid:168)(cid:24);
+nf1b(cid:14)(cid:18)(cid:14)
+
+nf1a(cid:14)(cid:18)(cid:14);
+nf1b(cid:14)(cid:20)(cid:19)(cid:18)(cid:14)(cid:20)(cid:19)
+
+nf1a(cid:168)(cid:24)(cid:18)(cid:168)(cid:24);
+nf1b(cid:14)(cid:20)(cid:19)(cid:18)(cid:14)(cid:20)(cid:19)
+
+293T
+
+E neurofibromin a 
+neurofibromin a(cid:168)(cid:24)
+neurofibromin a(cid:168)(cid:27)
+neurofibromin a(cid:47)(cid:20)(cid:21)(cid:23)(cid:26)(cid:59)
+neurofibromin b 
+neurofibromin b(cid:14)(cid:20)(cid:19)
+neurofibromin b(cid:168)(cid:24)(cid:24)
+G
+
+(cid:20)
+
+(cid:92)
+(cid:87)
+(cid:76)
+(cid:79)
+(cid:76)
+
+(cid:69)
+(cid:68)
+(cid:69)
+(cid:82)
+(cid:85)
+(cid:83)
+
+(cid:3)
+(cid:79)
+
+(cid:76)
+
+(cid:68)
+(cid:89)
+(cid:89)
+(cid:85)
+(cid:88)
+(cid:86)
+
+(cid:19)(cid:17)(cid:27)
+
+(cid:19)(cid:17)(cid:25)
+
+(cid:19)(cid:17)(cid:23)
+
+(cid:19)(cid:17)(cid:21)
+
+n
+e
+u
+r
+o
+
+f
+i
+
+b
+r
+o
+m
+n
+
+i
+
+(cid:1114)
+(cid:16)
+(cid:87)
+
+(cid:88)
+(cid:69)
+(cid:88)
+
+(cid:79)
+(cid:76)
+
+(cid:81)
+
+GRD
+(cid:20)(cid:19)(cid:26)(cid:24)(cid:3)(cid:68)(cid:68)
+(cid:20)(cid:19)(cid:26)(cid:25)(cid:3)(cid:68)(cid:68)
+
+(cid:20)(cid:21)(cid:23)(cid:25)(cid:3)(cid:68)(cid:68)
+
+GRD
+
+(cid:25)(cid:25)(cid:24)(cid:3)(cid:68)(cid:68)
+(cid:25)(cid:26)(cid:25)(cid:3)(cid:68)(cid:68)
+
+(cid:21)(cid:27)(cid:19)(cid:24)(cid:3)(cid:68)(cid:68)
+
+(cid:21)(cid:26)(cid:24)(cid:28)(cid:3)(cid:68)(cid:68)
+
+(cid:90)(cid:76)(cid:79)(cid:71)(cid:3)(cid:87)(cid:92)(cid:83)(cid:72)
+nf1a-/-; nf1b-/-
+
+(cid:19)
+
+(cid:19)
+
+(cid:20)
+
+2
+
+(cid:23)
+
+(cid:22)
+(cid:26)
+(cid:71)(cid:68)(cid:92)(cid:86)(cid:3)(cid:83)(cid:82)(cid:86)(cid:87)(cid:3)(cid:73)(cid:72)(cid:85)(cid:87)(cid:76)(cid:79)(cid:76)(cid:93)(cid:68)(cid:87)(cid:76)(cid:82)(cid:81)
+
+(cid:24)
+
+6
+
+(cid:27)
+
+9
+
+(cid:20)(cid:19)
+
+Fig.  1.  Zinc  finger  nuclease  (ZFN)  and  TILLING  strategies  generate  null  alleles  of  zebrafish  nf1a  and  nf1b.
+(A,B)  Schematic  representation  of  site  targeted  for  ZFN-­mediated  cleavage  in  exon  26  of  nf1a  and  exon  17  of  nf1b.  (C)  Align-­
+ments  of  nucleotide  sequences  from  wild  type  and  mutant  nf1a  and  nf1b  alleles.  ZFN  target  sites  appear  in  red.  Yellow  bases  
+represent  insertions  that  arise  from  repair  of  ZFN-­induced  mutagenic  lesions.  Black  bases  correspond  to  the  mutated  codon  in  the  
+nf1aL1247X  allele  generated  by  a  TILLING  strategy,  with  the  mutated  base  appearing  in  blue.  (D)  ZFN-­induced  mutagenic  lesions  in  
+nf1a  and  nf1b  produce  frameshift  mutations  that  lead  to  truncated  protein  products  following  short  regions  of  altered  translation,  
+which  are  indicated  in  green.  The  nonsense  mutation  in  the  nf1aL1247X  allele  generated  by  a  TILLING  strategy  also  appears  in  
+green.  (E)  The  truncated  protein  products  predicted  by  the  ZFN-­  and  TILLING-­induced  mutant  nf1a/nf1b  alleles  all  harbor  
+complete  or  partial  loss  of  the  neurofibromin  GAP-­related  domain  (GRD).  (F)  Western  blot  analysis  for  neurofibromin  in  protein  
+lysates  from  3  dpf  wild  type,  nf1a(cid:168)(cid:24)(cid:18)(cid:168)(cid:24);;  nf1b(cid:14)(cid:18)(cid:14),  nf1a(cid:14)(cid:18)(cid:14);;  nf1b(cid:14)(cid:20)(cid:19)(cid:18)(cid:14)(cid:20)(cid:19),  and  nf1a(cid:168)(cid:24)(cid:18)(cid:168)(cid:24);;  nf1b(cid:14)(cid:20)(cid:19)(cid:18)(cid:14)(cid:20)(cid:19)  zebrafish  larvae  (100  µg  each)  or  293T  
+(cid:70)(cid:72)(cid:79)(cid:79)(cid:86)(cid:3)(cid:11)(cid:21)(cid:24)(cid:3)(cid:151)(cid:74)(cid:12)(cid:3)(cid:71)(cid:72)(cid:80)(cid:82)(cid:81)(cid:86)(cid:87)(cid:85)(cid:68)(cid:87)(cid:72)(cid:86)(cid:3)(cid:68)(cid:69)(cid:86)(cid:72)(cid:81)(cid:70)(cid:72)(cid:3)(cid:82)(cid:73)(cid:3)(cid:49)(cid:73)(cid:20)(cid:3)(cid:83)(cid:85)(cid:82)(cid:87)(cid:72)(cid:76)(cid:81)(cid:3)(cid:76)(cid:81)(cid:3)nf1a(cid:16)(cid:18)(cid:16);;  nf1b(cid:16)(cid:18)(cid:16)  larvae.  Equal  loading  was  confirmed  by  stripping  the  membrane  
+and  reprobing  for  alpha-­tubulin.  (G)  Kaplan-­Meier  survival  analysis  demonstrates  that  100%  of  nf1a(cid:16)(cid:18)(cid:16);;  nf1b(cid:16)(cid:18)(cid:16)  larvae  (n=22)  die  by  
+10  dpf  as  compared  with  0%  of  wild  type  larvae  (n=27).
+
+Disease Models & Mechanisms         DMMAccepted manuscriptwild type
+
+nf1a-/-; nf1b-/-
+
+4 dpf
+B
+
+D
+
+F
+
+H
+
+olig2:GFP
+Sox10
+Hu
+
+olig2:GFP
+Sox10
+Hu
+
+sox10:GFP
+Sox10
+
+J
+
+sox10:GFP
+Sox10
+
+L
+
+10
+
+n
+o
+i
+t
+c
+e
+s
+
+/
+
+s
+C
+P
+O
+
+8
+
+6
+
+4
+
+2
+
+0
+
+***
+
+wild
+type
+
+nf1a-/-;
+nf1b-/-
+
+wild
+type
+
+nf1a-/-;
+nf1b-/-
+
+M
+
+e
+t
+i
+
+m
+o
+s
+
+/
+
+s
+
+l
+l
+
+ 
+
+e
+c
+n
+n
+a
+w
+h
+c
+S
+n
+L
+L
+P
+
+ 
+
+15
+
+10
+
+5
+
+0
+
+***
+
+wild
+type
+
+nf1a-/-;
+nf1b-/-
+
+P
+F
+G
+:
+2
+g
+
+i
+l
+
+o
+
+P
+F
+G
+:
+0
+1
+x
+o
+s
+
+A
+
+C
+
+E
+
+G
+
+I
+
+K
+
+n
+o
+i
+t
+c
+e
+s
+
+/
+
+ 
+
+s
+n
+o
+r
+u
+e
+n
++
+P
+F
+G
+:
+2
+g
+
+i
+l
+
+o
+
+25
+
+20
+
+15
+
+10
+
+5
+
+0
+
+Fig.  2.  Loss  of  nf1a  and  nf1b  causes  hyperplasia  of  oligodendrocyte  progenitor  cells  (OPCs)  and  Schwann  cells.
+(A,B)  Confocal  images  of  spinal  cords  in  nf1a-­/-­;;  nf1b-­/-­;;  Tg(olig2:GFP)  larvae  (B)  demonstrate  increased  numbers  of  dorsally  
+migrating  (white  brackets)  olig2:GFP-­positive  OPCs  when  compared  with  wild  type;;  Tg(olig2:GFP)  larvae  (A)  at  4  dpf.  Scale  
+bars:  20  µm.  (C,D)  Confocal  images  of  spinal  cord  in  nf1a-­/-­;;  nf1b-­/-­;;  Tg(sox10:GFP)  larvae  (D)  demonstrate  increased  numbers  of  
+both  dorsally  (white  brackets)  and  ventrally  (red  brackets)  positioned  sox10:GFP-­positive  OPCs  when  compared  with  wild  type;;  
+Tg(sox10:GFP)  larvae  (C)  at  4  dpf.  Scale  bars:  20  µm.  (E,F)  nf1a-­/-­;;  nf1b-­/-­;;  Tg(sox10:GFP)  larvae  (F)  show  an  increased  number  
+of  sox10:GFP-­positive  Schwann  cells  associated  with  the  peripheral  lateral  line  nerve  (PLLn;;  white  brackets)  when  compared  with  
+wild  type;;  Tg(sox10:GFP)  larvae  (E)  at  4  dpf.  Scale  bars:  20  µm.  (G,H)  Neuronal  numbers  (olig2:GFP-­  [green],  HuC/D-­  
+[magenta]  positive)  do  not  increase  in  concert  with  OPCs  (olig2:GFP-­  [green],  Sox10-­  [red]  positive;;  arrowheads)  in  transverse  
+sections  through  the  spinal  cord  of  nf1a-­/-­;;  nf1b-­/-­;;  Tg(olig2:GFP)  larvae  (H)  as  compared  to  wild  type;;  Tg(olig2:GFP)  larvae  (G)  at  
+4  dpf.  Scale  bars:  20  µm.  (I,J)  Increased  numbers  of  PLLn  Schwann  cells  (sox10:GFP-­  [green],  Sox10-­  [red]  positive)  are  appreci-­
+ated  in  transverse  sections  of  nf1a-­/-­;;  nf1b-­/-­;;  Tg(sox10:GFP)  larvae  (J)  when  compared  with  wild  type;;  Tg(sox10:GFP)  (I)  larvae  at  
+4  dpf.  Scale  bars:  20  µm.  (K,L)  Quantification  of  neurons  (olig2:GFP-­,  HuC/D-­positive  cells)  (K)  and  OPCs  (olig2:GFP-­,  Sox10-­
+positive  cells)  (L)  from  transverse  sections  through  the  spinal  cord  of  wild  type;;  Tg(olig2:GFP)  and  nf1a-­/-­;;  nf1b-­/-­;;  Tg(olig2:GFP)  
+larvae  at  4  dpf.  Values  indicate  mean  ±  SEM  per  section  (n=30  from  5  each  of  wild  type  and  nf1a-­/-­;;  nf1b-­/-­  larvae;;  ***P<0.001).  
+(M)  Quantification  of  sox10:GFP-­positive  Schwann  cells  in  the  PLLn  of  wild  type;;  Tg(sox10:GFP)  and  nf1a-­/-­;;  nf1b-­/-­;;  
+Tg(sox10:GFP)  larvae  at  4  dpf.  Values  indicate  mean  ±  SEM  per  hemisegment  (n=5  each  for  wild  type  and  nf1a-­/-­;;  nf1b-­/-­  larvae;;  
+***P<0.001).  
+
+Disease Models & Mechanisms         DMMAccepted manuscriptolig2:GFP
+
+BrdU
+
+Sox10
+
+merge
+
+e
+p
+y
+t
+ 
+d
+
+l
+i
+
+w
+
+-
+/
+-
+
+b
+1
+f
+n
+ 
+;
+
+-
+/
+-
+
+a
+1
+f
+n
+
+A
+
+E
+
+I
+
+n
+o
+i
+t
+c
+e
+s
+
+/
+ 
+
+s
+C
+P
+O
+
+B
+
+F
+
+***
+
+***
+
+***
+
+4 dpf
+
+5 dpf
+
+6 dpf
+
+C
+
+G
+
+nJ
+
+o
+i
+t
+c
+e
+s
+
+/
+
+s
+C
+P
+O
+ 
++
+U
+d
+r
+B
+
+4
+3
+2
+1
+0
+
+D
+
+H
+
+***
+
+wild type
+nf1a-/-; nf1b-/-
+
+**
+
+4 dpf
+
+5 dpf
+
+6 dpf
+
+10
+8
+6
+4
+2
+0
+
+Fig.  3.  Increased  proliferation  drives  OPC  hyperplasia  in  nf1a-­/-­;;  nf1b-­/-­  larvae.
+(A-­H)  Transverse  spinal  cord  sections  of  wild  type;;  Tg(olig2:GFP)  (A-­D)  and  nf1a-­/-­;;  nf1b-­/-­;;  Tg(olig2:GFP)  larvae  
+(E-­H)  labeled  with  anti-­BrdU  antibody  (B,F,  red)  or  anti-­SOX10  antibody  (C,G,  magenta)  at  4  dpf.  Arrows  indicate  
+BrdU-­negative,  Tg(olig2:GFP)-­,  Sox10-­positive  OPCs.  Arrowheads  indicate  BrdU-­positive,  Tg(olig2:GFP)-­,  
+Sox10-­positive  OPCs.  Scale  bars:  20  µm.  (I,J)  Quantification  of  total  (I)  and  BrdU-­positive  OPCs  (J)  from  transverse  
+spinal  cord  sections  of  wild  type;;  Tg(olig2:GFP)  and  nf1a-­/-­;;  nf1b-­/-­;;  Tg(olig2:GFP)  larvae  at  4,  5,  and  6  dpf.  Values  
+indicate  mean  ±  SEM  per  section  (n=30  from  5  each  of  wild  type  and  nf1a-­/-­;;  nf1b-­/-­  larvae;;  **P<0.01;;  ***P<0.001).
+
+Disease Models & Mechanisms         DMMAccepted manuscriptwild type
+
+nf1a-/-; nf1b-/-
+
+5 dpf
+B
+
+D
+
+F
+
+8 dpf
+H
+
+J
+
+A
+
+C
+
+E
+
+G
+
+I
+
+a
+1
+p
+p
+
+l
+
+p
+b
+m
+
+d
+r
+o
+c
+
+ 
+l
+
+a
+n
+p
+s
+
+i
+
+ 
+l
+
+a
+r
+t
+n
+e
+v
+
+Fig.  4.  nf1a-­/-­;;  nf1b-­/-­  larvae  exhibit  myelination  defects.
+(A-­D)  plp1a  expression  is  decreased  in  glial  cells  of  the  midbrain  and  hindbrain  regions  (A,B,  boxes)  as  well  as  the  
+dorsal  (black  bracket)  and  ventral  (white  brackets)  spinal  cord  of  nf1a-­/-­;;  nf1b-­/-­  larvae  (B,D)  when  compared  to  wild  
+type  larvae  (A,C)  by  whole-­mount  in  situ  hybridization  at  5  dpf.  Scale  bars:  100  µm.  (E,F)  mbp  expression  is  
+elevated  in  Schwann  cells  of  the  PLLn  (arrowheads)  of  nf1a-­/-­;;  nf1b-­/-­  larvae  (F)  when  compared  to  wild  type  larvae  
+(E)  by  whole-­mount  in  situ  hybridization  at  5  dpf.  Scale  bars:  100  µm.  (G-­J)  Transverse  sections  through  the  ventral  
+spinal  cord  nf1a-­/-­;;  nf1b-­/-­  larvae  (H,  boxed  region  magnified  in  J)  demonstrate  defects  in  formation  of  compact  myelin  
+sheaths  when  compared  with  wild  type  larvae  (G,  boxed  region  magnified  in  I)  at  8  dpf.  Scale  bars:  0.5  µm.
+
+Disease Models & Mechanisms         DMMAccepted manuscriptnf1a-/-; nf1b+/+
+
+nf1a+/+; nf1b-/-
+
+nf1a-/-; nf1b-/-
+
+wild type
+
+A
+
+pERK1/2
+
+ERK1/2
+
+nf1a+/-; nf1b-/- nf1a-/-; nf1b+/- nf1a-/-; nf1b-/-
+C
+
+D
+
+E
+
+G
+
+K
+
+O
+
+H
+
+L
+
+P
+
+I
+
+M
+
+Q
+
+wild type
+
+B
+
+F
+
+J
+
+N
+
+2
+
+/
+
+1
+K
+R
+E
+p
+
+6
+S
+p
+
+u
+H
+
+e
+g
+r
+e
+m
+
+Fig.  5.  nf1a/nf1b  mutants  exhibit  upregulation  of  phospho-­ERK1/2  (pERK1/2).
+(A)  Western  blot  analysis  for  pERK1/2  in  protein  lysates  prepared  from  wild  type,  nf1a-­/-­;;  nf1b+/+,  nf1a+/+;;  nf1b-­/-­,  and  
+nf1a-­/-­;;  nf1b-­/-­  larvae  (100  µg)  reveals  increased  pERK1/2  levels  nf1a-­/-­;;  nf1b-­/-­  larvae  as  compared  with  wild  type  or  
+single  allele  nf1-­null  larvae  at  3  dpf.  Equal  loading  was  confirmed  by  stripping  the  membrane  and  reprobing  for  total  
+ERK1/2.  (B-­Q)  Transverse  spinal  cord  sections  of  wild  type  (B,F,J,N),  nf1a+/-­;;  nf1b-­/-­  (C,G,K,O),  nf1a-­/-­;;  nf1b+/-­  
+(D,H,L,P)  and  nf1a-­/-­;;  nf1b-­/-­  (E,I,M,Q)  larvae  labeled  with  anti-­pERK1/2  antibody  (B-­E,  green),  anti-­phospho-­S6  
+antibody  (pS6)  (F-­I,  red),  or  anti-­HuC/D  antibody  (J-­M,  magenta)  demonstrate  marked  upregulation  of  pERK1/2  in  
+nf1a-­/-­;;  nf1b-­/-­  larvae  and  intermediate  levels  of  pERK1/2  in  larvae  harboring  a  single  functioning  nf1  allele  as  com-­
+pared  with  wild  type  larvae  at  4  dpf  (n=5  each  for  wild  type  and  mutant  larvae).  Scale  bars:  40  µm.
+
+Disease Models & Mechanisms         DMMAccepted manuscriptA
+
+B
+
+D
+
+E
+&
+H
+
+F
+
+y
+t
+i
+l
+i
+
+b
+a
+b
+o
+r
+p
+
+ 
+l
+
+i
+
+a
+v
+v
+r
+u
+s
+
+ 
+
+e
+e
+r
+f
+-
+r
+o
+m
+u
+t
+
+1
+
+0.8
+
+0.6
+
+0.4
+
+0.2
+
+0
+
+0
+
+nf1a+/+; nf1b-/-; p53e7/e7
+nf1a+/-; nf1b-/-; p53e7/e7
+
+10
+
+20
+
+weeks
+
+30
+
+40
+
+50
+
+nf1a+/-; nf1b-/-; p53e7/e7
+
+glioma (31 weeks)
+
+MPNST (32 weeks)
+
+C
+
+E
+
+G
+
+Fig.  6.  nf1a/nf1b  mutants  demonstrate  increased  susceptibility  to  tumorigenesis  in  a  p53  mutant  background.
+(A)  Kaplan-­Meier  tumor-­free  survival  analysis  for  nf1a+/-­;;  nf1b-­/-­;;  p53e7/e7  (n=39)  animals  demonstrates  significantly  decreased  
+survival  when  compared  with  nf1a+/+;;  nf1b-­/-­;;  p53e7/e7  (n=14)  animals  (P<0.001).  Arrows  indicate  ages  at  which  animals  were  
+identified  with  brain  tumors  demonstrating  features  of  diffuse  high-­grade  gliomas.  (B,C)  31-­week  old  nf1a+/-­;;  nf1b-­/-­;;  p53e7/e7  
+animal  with  a  high-­grade  glioma  (B,  arrowhead)  and  32-­week  old  nf1a+/-­;;  nf1b-­/-­;;  p53e7/e7  animal  with  a  malignant  peripheral  nerve  
+sheath  tumor  (MPNST)  (C,  arrowhead).  (D-­G)  Hematoxylin  and  eosin  (H&E)  staining  of  sagittal  sections  through  the  high-­grade  
+optic  glioma  (D,  boxed  area  magnified  in  F)  or  MPNST  (E,  boxed  area  magnified  in  G).  Scale  bars:  200  µm  (D  and  E);;  50  µm  (F  
+and  G).
+
+Disease Models & Mechanisms         DMMAccepted manuscriptp53e7/e7
+
+nf1a+/-; nf1b-/-
+
+C
+
+wild type
+
+A
+cb
+
+B
+cb
+
+v
+
+v
+
+tumor
+
+E
+
+H
+
+K
+
+N
+
+Q
+
+T
+
+E
+&
+H
+
+D
+
+G
+
+J
+
+M
+
+P
+
+S
+
+3
+H
+p
+
+0
+1
+x
+o
+S
+
+p
+a
+f
+G
+
+u
+H
+
+a
+p
+y
+S
+
+cb
+
+v
+
+tumor
+
+F
+
+I
+
+L
+
+O
+
+R
+
+U
+
+Fig.  7.  Tumors  from  nf1a+/-­;;  nf1b-­/-­;;  p53e7/e7  
+animals  express  glial  markers.
+(A-­F)  Hematoxylin  and  eosin  (H&E)  
+staining  of  sagittal  sections  through  p53e7/e7  
+brain  tissue  (A,D)  or  brain  tumors  in  nf1a+/-­;;  
+nf1b-­/-­;;  p53e7/e7  animals  at  31  (B,E)  and  33  
+(C,F)  weeks  post  fertilization  (wpf)  (cb,  
+cerebellum;;  v,  ventricle).  The  arrowhead  in  
+(E)  shows  infiltration  of  a  single  cell  
+through  the  parenchyma  and  around  normal  
+neurons.  (G-­U)  Immunohistochemical  
+analysis  for  phospho-­histone  H3  (G-­I,  pH3),  
+SRY-­box  10  (J-­L,  Sox10),  glial  fibrillary  
+acidic  protein  (M-­O,  Gfap),  HuC/D  (P-­R,  
+Hu),  and  synaptophysin  (S-­U,  Sypa)  on  
+sagittal  sections  through  p53e7/e7  brain  tissue  
+(G,J,M,P,S)  or  brain  tumors  in  nf1a+/-­;;  nf1b-­/-­;;  
+p53e7/e7  animals  at  31  (H,K,N,Q,T)  and  33  
+(I,L,O,R,U)  wpf  demonstrate  occasional  
+mitoses  in  tumor  tissue  (H,I)  with  the  
+majority  of  tumor  cells  staining  positive  for  
+the  oligodendroglial  marker  Sox10  (K,L),  a  
+Sox10-­negative  subpopulation  (K,  arrow-­
+head),  an  astrocytic  component  (N,  arrow-­
+heads  and  O),  and  the  absence  of  mature  
+neuronal  markers  HuC/D  (Q,R)  or  synapto-­
+physin  (T,U).  Scale  bars:  450  µm  (A-­C);;  20  
+µm  (D-­U).
+
+Disease Models & Mechanisms         DMMAccepted manuscripte
+p
+y
+t
+ 
+d
+
+l
+i
+
+w
+
+-
+/
+-
+
+b
+1
+f
+n
+ 
+;
+
+-
+/
+-
+
+a
+1
+f
+n
+
+E
+
+s
+e
+r
+o
+h
+p
+o
+n
+a
+e
+m
+e
+p
+i
+r
+t
+s
+
+ 
+
+l
+
+ 
+l
+
+a
+r
+e
+t
+a
+l
+
+A
+
+B
+
+C
+
+D
+
+60
+
+50
+
+40
+
+30
+
+20
+
+10
+
+0
+
+6 dpf
+
+*
+
+*
+
+**
+
+**
+
+wild
+type
+
+nf1a+/-;
+nf1b-/-
+
+nf1a-/-;
+nf1b+/+
+
+nf1a-/-;
+nf1b+/-
+
+nf1a-/-;
+nf1b-/-
+
+Fig.  8.  nf1  mutants  display  decreased  lateral  stripe  melanophores.
+(A-­D)  Lateral  stripe  melanophores  of  wild  type  (A,B)  larvae  demonstrate  a  normal  uniform  pattern  that  is  absent  in  
+nf1a-­/-­;;  nf1b-­/-­  larvae  (C,D)  at  6  dpf.  The  brackets  in  (D)  highlight  regions  where  melanophores  are  absent.  Scale  bars  
+0.5  mm  (A,C);;  150  µm  (B,D).  (E)  Quantification  of  lateral  stripe  melanophores  from  wild  type  (n=26),  nf1a+/-­;;  nf1b-­/-­  
+(n=30),  nf1a-­/-­;;  nf1b+/+  (n=14),  nf1a-­/-­;;  nf1b+/-­  (n=26),  and  nf1a-­/-­;;  nf1b-­/-­  (n=12)  larvae  at  6  dpf.  Each  point  represents  
+the  number  of  lateral  stripe  melanophores  in  an  individual  embryo  and  red  lines  indicate  mean  values  (*P<0.05;;  
+**P<0.01).
+
+Disease Models & Mechanisms         DMMAccepted manuscriptB
+
+D
+
+(cid:41)
+
+nf1a DdeI genotyping
+
+wild type
+
+(cid:168)(cid:24)(cid:18)(cid:14)
+
+(cid:168)(cid:24)(cid:18)(cid:168)(cid:24)
+
+(cid:168)(cid:27)(cid:18)(cid:14)
+
+(cid:168)(cid:27)(cid:18)(cid:168)(cid:27)
+
+nf1b EcoNI genotyping
+
+wild type
+
+(cid:14)(cid:20)(cid:19)(cid:18)(cid:14)
+
+(cid:14)(cid:20)(cid:19)(cid:18)(cid:14)(cid:20)(cid:19)
+
+(cid:168)(cid:24)(cid:24)(cid:18)(cid:14)
+
+(cid:168)(cid:24)(cid:24)(cid:18)(cid:168)(cid:24)(cid:24)
+
+nf1aL1247X PstI genotyping
+
+wild type
+
+(cid:47)(cid:20)(cid:21)(cid:23)(cid:26)(cid:59)(cid:18)(cid:14)
+
+(cid:47)(cid:20)(cid:21)(cid:23)(cid:26)(cid:59)(cid:18)(cid:47)(cid:20)(cid:21)(cid:23)(cid:26)(cid:59)
+
+A
+
+wild type
+
+PCR product
+
+mutant
+
+PCR product
+
+C
+
+wild type
+
+PCR product
+
+mutant
+
+PCR product
+
+137 bp
+
+DdeI
+
+86 bp
+
+DdeI
+nf1a exon 26
+(cid:24)(cid:1254)(cid:3)(cid:61)(cid:41)
+(cid:22)(cid:1254)(cid:3)(cid:61)(cid:41)
+223 bp
+
+indel
+
+nf1a exon 26
+
+EcoNI
+
+(cid:20)(cid:20)(cid:19)(cid:3)(cid:69)(cid:83)
+
+113 bp
+
+EcoNI
+nf1b exon 17
+(cid:24)(cid:1254)(cid:3)(cid:61)(cid:41)
+(cid:22)(cid:1254)(cid:3)(cid:61)(cid:41)
+
+223 bp
+
+indel
+
+nf1b exon 17
+
+E
+
+G
+
+CTCTCTTCGACTCTCGCCATCTGCTGTATCAGCTGCTGTGG...
+
+F primer
+
+wild type PCR product
+
+134 bp
+
+nf1a exon 29
+
+CTCTCTTCGACTCTCGCCATCTGCTGTATCAGCTGCAGTGG...
+
+F primer
+
+PstI
+
+mutant PCR product
+
+38 bp
+
+96 bp
+
+nf1aL1247X exon 29
+
+a
+1
+f
+n
+
+X
+7
+4
+2
+1
+L
+a
+1
+f
+n
+
+Fig.  S1.  Genotyping  strategies  for  identification  of  nf1  mutant  alleles.
+(A,B)  Schematic  diagram  of  PCR  products  generated  from  wild  type  and  ZFN-­induced  mutant  nf1a  (cid:68)(cid:79)(cid:79)(cid:72)(cid:79)(cid:72)(cid:86)(cid:3)(cid:11)(cid:36)(cid:12)(cid:17)(cid:3)(cid:55)(cid:75)(cid:72)(cid:3)(cid:76)(cid:81)(cid:71)(cid:72)(cid:79)(cid:86)(cid:3)(cid:11)(cid:36)(cid:15)(cid:3)(cid:69)(cid:79)(cid:88)(cid:72)(cid:3)(cid:69)(cid:82)(cid:91)(cid:12)(cid:3)(cid:76)(cid:81)(cid:3)(cid:87)(cid:75)(cid:72)(cid:3)(cid:168)(cid:27)(cid:3)
+(cid:68)(cid:81)(cid:71)(cid:3)(cid:168)(cid:24)(cid:3)nf1a  alleles  lead  to  loss  of  a  native  DdeI  site,  allowing  for  allelic  discrimination  by  gel  electrophoresis  of  DdeI  digested  PCR  products  (B,  
+red  arrow,  mutant  band;;  blue  arrows,  wild  type  bands).  (C,D)  Schematic  diagram  of  PCR  products  generated  from  wild  type  and  ZFN-­induced  
+mutant  nf1b  (cid:68)(cid:79)(cid:79)(cid:72)(cid:79)(cid:72)(cid:86)(cid:3)(cid:11)(cid:38)(cid:12)(cid:17)(cid:3)(cid:55)(cid:75)(cid:72)(cid:3)(cid:76)(cid:81)(cid:71)(cid:72)(cid:79)(cid:86)(cid:3)(cid:11)(cid:38)(cid:15)(cid:3)(cid:69)(cid:79)(cid:88)(cid:72)(cid:3)(cid:69)(cid:82)(cid:91)(cid:12)(cid:3)(cid:76)(cid:81)(cid:3)(cid:87)(cid:75)(cid:72)(cid:3)(cid:14)(cid:20)(cid:19)(cid:3)(cid:68)(cid:81)(cid:71)(cid:3)(cid:168)(cid:24)(cid:24)(cid:3)nf1b  alleles  lead  to  loss  of  a  native  EcoNI  site,  allowing  for  allelic  discrimina-­
+tion  by  gel  electrophoresis  of  EcoNI  digested  PCR  products  (D,  red  arrows,  mutant  bands;;  blue  arrow,  co-­migrating  wild  type  bands).  (E,F)  
+Schematic  diagram  of  PCR  products  generated  from  wild  type  and  TILLING-­induced  nf1aL1247X  alleles  (E).  The  forward  primer  (F  primer)  contains  
+a  1  base  pair  mismatch  with  the  native  nf1a  exon  29  sequence  so  as  to  create  a  PstI  restriction  site  in  the  mutant,  which  harbors  a  T  to  A  nonsense  
+mutation,  allowing  for  allelic  discrimination  by  gel  electrophoresis  of  PstI  digested  PCR  products  (F,  red  arrow,  mutant  band;;  blue  arrow,  wild  type  
+band).  (G)  Sequencing  chromatograms  from  wild  type  and  nf1aL1247X/L1247X  animals  (TILLING-­induced  mutation  highlighted).
+
+Disease Models & Mechanisms         DMMAccepted manuscriptwild type
+
+B
+
+F
+
+J
+
+A
+
+E
+
+I
+
+d
+e
+
+l
+
+i
+f
+ 
+t
+h
+g
+i
+r
+b
+
+P
+F
+G
+:
+2
+g
+
+i
+l
+
+o
+
+nf1a(cid:168)(cid:27)(cid:18)(cid:168)(cid:27); nf1b(cid:14)(cid:20)(cid:19)(cid:18)(cid:14)(cid:20)(cid:19)
+
+4 dpf
+
+C
+
+G
+
+K
+
+nf1a(cid:168)(cid:24)(cid:18)(cid:168)(cid:24); nf1b(cid:168)(cid:24)(cid:24)(cid:18)(cid:168)(cid:24)(cid:24)
+
+nf1a(cid:47)(cid:20)(cid:21)(cid:23)(cid:26)(cid:59)(cid:18)(cid:47)(cid:20)(cid:21)(cid:23)(cid:26)(cid:59); nf1b(cid:168)(cid:24)(cid:24)(cid:18)(cid:168)(cid:24)(cid:24)
+D
+
+H
+
+L
+
+Fig.  S2.  nf1-­null  mutants  with  different  allelic  combinations  of  nf1a  and  nf1b  are  phenotypically  identical.
+(A-­H)  Lateral  view  of  wild  type  (A,E,I),  nf1a(cid:168)(cid:27)(cid:18)(cid:168)(cid:27);;  nf1b(cid:14)(cid:20)(cid:19)(cid:18)(cid:14)(cid:20)(cid:19)  (B,F,J),  nf1a(cid:168)(cid:24)(cid:18)(cid:168)(cid:24);;  nf1b(cid:168)(cid:24)(cid:24)(cid:18)(cid:168)(cid:24)(cid:24)  (C,G,K),  and  nf1a(cid:47)(cid:20)(cid:21)(cid:23)(cid:26)(cid:59)(cid:18)(cid:47)(cid:20)(cid:21)(cid:23)(cid:26)(cid:59);;  
+nf1b(cid:14)(cid:20)(cid:19)(cid:18)(cid:14)(cid:20)(cid:19)  larvae  (D,F,L)  at  4  dpf.  (E-­H)  Magnified  views  of  the  boxed  region  in  A-­D  demonstrating  absence  of  
+melanophores  along  the  lateral  line  (arrows)  in  different  allelic  combinations  of  nf1a;;  nf1b  double  homozygous  
+mutant  alleles.  Scale  bars:  300  µm.  (I-­L)  Confocal  images  of  spinal  cords  in  Tg(olig2:GFP)  larvae  harboring  differ-­
+ent  allelic  combinations  of  nf1a;;  nf1b  homozygous  mutant  alleles  at  4  dpf.  OPC  hyperplasia  (brackets)  is  observed  in  
+all  three  allelic  combinations  of  nf1a;;  nf1b  double  homozygous  mutant  alleles.  Scale  bars:  300  µm.
+
+d
+e
+
+t
+i
+s
+n
+a
+r
+t
+ 
+s
+o
+y
+r
+b
+m
+e
+%
+
+ 
+
+100%
+
+80%
+
+60%
+
+40%
+
+20%
+
+0%
+
+2
+
+wild type (n=12)
+nf1a-/-; nf1b-/- (n=13)
+
+4
+
+hours post feeding
+
+6
+
+24
+
+-
+/
+-
+
+b
+1
+f
+n
+ 
+;
+
+-
+/
+-
+
+a
+1
+f
+n
+
+Fig.  S3.  Loss  of  nf1a  and  nf1b  does  not  affect  food  consumption  or  transit.
+(A)  Graph  depicting  intestinal  transit  time  for  5  dpf  wild  type  (black  line)  and  nf1a-­/-­;;  nf1b-­/-­  (red  line)  larvae  follow-­
+ing  a  1  hour  feeding  of  paramecia  and  fluorescent  microspheres.  Transit  was  considered  to  be  complete  when  fluores-­
+cent  microspheres  were  no  longer  detected  along  the  intestinal  tract  by  fluorescent  microscopy.  (B)  Representative  
+overlays  of  bright  field  and  fluorescent  images  from  5-­6  dpf  nf1a-­/-­;;  nf1b-­/-­  larvae  exhibiting  rapid-­  or  slow-­transit.
+
+wild type
+
+nf1a-/-; nf1b-/-
+
+A
+
+C
+
+E
+
+G
+
+I
+
+K
+
+M
+
+O
+
+Q
+
+2
+g
+
+i
+l
+
+o
+
+P
+F
+G
+:
+2
+g
+
+i
+l
+
+o
+
+P
+F
+G
+:
+0
+1
+x
+o
+s
+
+P
+F
+G
+:
+p
+a
+f
+g
+
+P
+F
+G
+:
+p
+a
+f
+g
+
+P
+F
+G
+:
+2
+g
+
+i
+l
+
+o
+
+P
+F
+G
+:
+0
+1
+x
+o
+s
+
+2 dpf
+B
+
+D
+
+F
+
+H
+
+4 dpf
+J
+
+8 dpf
+L
+
+N
+
+P
+
+R
+
+Fig.  S4.  Analysis  of  nf1a/nf1b  mutant  OPCs  and  Schwann  cells  at  2  dpf  and  radial  glia  at  4  dpf  appear  normal  
+with  defects  appreciated  in  all  three  populations  at  8  dpf.
+(A,B)  Whole-­mount  in  situ  hybridization  for  expression  of  endogenous  olig2  in  wild  type  (A)  and  nf1a-­/-­;;  nf1b-­/-­  (B)  
+larvae  at  2  dpf.  Scale  bars:  20  µm.  (C,D)  Spinal  cord  of  wild  type;;  Tg(olig2:GFP)  (C)  and  nf1a-­/-­;;  nf1b-­/-­;;  
+Tg(olig2:GFP)  (D)  larvae  at  2  dpf.  Scale  bars:  20  µm.  (E,F)  Spinal  cord  of  wild  type;;  Tg(sox10:GFP)  (E)  and  nf1a-­/-­;;  
+nf1b-­/-­;;  Tg(sox10:GFP)  (F)  larvae  at  2  dpf.  Brackets  indicate  ventrally  positioned  sox10:GFP-­positive  OPCs.  Scale  
+bars:  20  µm.  (G,H)  PLLn  of  wild  type;;  Tg(sox10:GFP)  (G)  and  nf1a-­/-­;;  nf1b-­/-­;;  Tg(sox10:GFP)  (H)  larvae  at  2  dpf.  
+Brackets  indicate  sox10:GFP-­positive  Schwann  cells  associated  with  the  PLLn.  Scale  bars:  20  µm.  (I,J)  Spinal  cord  
+of  wild  type;;  Tg(gfap:GFP)  (I)  and  nf1a-­/-­;;  nf1b-­/-­;;  Tg(gfap:GFP)  (J)  larvae  at  4  dpf.  Scale  bars:  20  µm.  (K,L)  Spinal  
+cord  of  wild  type;;  Tg(gfap:GFP)  (K)  and  nf1a-­/-­;;  nf1b-­/-­;;  Tg(gfap:GFP)  (L)  larvae  at  8  dpf.  Arrowheads  depict  the  
+normal  segmental  expression  of  GFP  in  wild  type  larvae  (K)  that  is  absent  in  nf1a-­/-­;;  nf1b-­/-­  larvae  (L).  Scale  bars:  20  
+µm.  (M,N)  Spinal  cord  of  wild  type;;  Tg(olig2:GFP)  (M)  and  nf1a-­/-­;;  nf1b-­/-­;;  Tg(olig2:GFP)  (N)  larvae  at  8  dpf.  
+Brackets  indicate  dorsally  positioned  olig2:GFP-­positive  OPCs.  Scale  bars:  20  µm.  (O,P)  Spinal  cord  of  wild  type;;  
+Tg(sox10:GFP)  (O)  and  nf1a-­/-­;;  nf1b-­/-­;;  Tg(sox10:GFP)  (P)  larvae  at  8  dpf.  White  and  red  brackets  indicate  dorsally  
+and  ventrally  positioned  sox10:GFP-­positive  OPCs,  respectively.  Scale  bars:  20  µm.  (Q,R)  PLLn  of  wild  type;;  
+Tg(sox10:GFP)  (Q)  and  nf1a-­/-­;;  nf1b-­/-­;;  Tg(sox10:GFP)  (R)  larvae  at  8  dpf.  Brackets  indicate  sox10:GFP-­positive  
+Schwann  cells  associated  with  the  PLLn.  Scale  bars:  20  µm.
+
+nf1a-/-; nf1b-/-
+
+wild type
+
+4 dpf
+
+B
+
+D
+
+F
+
+A
+
+C
+
+E
+
+P
+F
+G
+:
+0
+1
+x
+o
+s
+
+3
+H
+p
+
+e
+g
+r
+e
+m
+
+Fig.  S5.  Increase  in  posterior  lateral  line  nerve  (PLLn)  Schwann  cell  numbers  observed  in  nf1a-­/-­;;  nf1b-­/-­  larvae  
+at  4  dpf  is  not  due  to  increased  proliferation.
+(A-­F)  Representative  images  of  transgenic  sox10:GFP  expressing  wild  type  (A,C,E,  n=13)  and  nf1a-­/-­;;  nf1b-­/-­  (B,D,F,  
+n=7)  larvae.  No  increase  in  phospho-­histone  H3  (pH3)  staining  is  apparent  at  4  dpf  in  PLLn  Schwann  cells  of  nf1  
+(cid:80)(cid:88)(cid:87)(cid:68)(cid:81)(cid:87)(cid:86)(cid:3)(cid:11)(cid:39)(cid:15)(cid:41)(cid:12)(cid:3)(cid:90)(cid:75)(cid:72)(cid:81)(cid:3)(cid:70)(cid:82)(cid:80)(cid:83)(cid:68)(cid:85)(cid:72)(cid:71)(cid:3)(cid:90)(cid:76)(cid:87)(cid:75)(cid:3)(cid:90)(cid:76)(cid:79)(cid:71)(cid:3)(cid:87)(cid:92)(cid:83)(cid:72)(cid:3)(cid:70)(cid:82)(cid:81)(cid:87)(cid:85)(cid:82)(cid:79)(cid:86)(cid:3)(cid:11)(cid:38)(cid:15)(cid:40)(cid:12)(cid:17)(cid:3)(cid:54)(cid:70)(cid:68)(cid:79)(cid:72)(cid:3)(cid:69)(cid:68)(cid:85)(cid:86)(cid:29)(cid:3)(cid:24)(cid:19)(cid:3)(cid:541)(cid:80)(cid:17)
+
+wild type
+
+nf1a-/-; nf1b-/-
+
+4 dpf
+B
+
+gfap:GFP
+Zrf1
+
+gfap:GFP
+Zrf1
+
+gfap:GFP
+Blbp
+
+D
+
+gfap:GFP
+Blbp
+
+A
+
+C
+
+Fig.  S6.  Radial  glia  of  nf1a-­/-­;;  nf1b-­/-­  larvae  express  reduced  amounts  of  brain  lipid  binding  protein  (Blbp).
+(A,B)  Radial  glia  in  transverse  sections  through  the  spinal  cord  of  wild  type;;  Tg(gfap:GFP)  (A)  and  nf1a-­/-­;;  nf1b-­/-­;;  
+Tg(gfap:GFP)  (B)  larvae  at  4  dpf  are  marked  by  expression  of  the  gfap:GFP  transgene  (green)  and  the  Zrf1  antibody  
+(red).  (C,D)  Radial  glia  (green)  in  transverse  sections  through  the  spinal  cord  of  nf1a-­/-­;;  nf1b-­/-­;;  Tg(gfap:GFP)  larvae  
+(D)  demonstrate  decreased  Blbp  expression  (red),  as  identified  by  colocalization  (yellow,  arrowheads),  when  com-­
+pared  with  wild  type;;  Tg(gfap:GFP)  larvae  (C)  at  4  dpf.  Scale  bars:  20  µm.
+
+wild type
+
+nf1a-/-; nf1b-/-
+
+A
+
+C
+
+p
+b
+m
+
+5 dpf
+B
+
+D
+
+Fig.  S7.  Expression  of  mbp  in  the  brain  and  spinal  cord  of  nf1a-­/-­;;  nf1b-­/-­  larvae  appears  normal.
+(A,B)  No  difference  in  mbp  expression  is  appreciated  in  the  midbrain  and  hindbrain  regions  (A,B,  boxes)  as  well  as  
+along  the  dorsal  (black  brackets)  and  ventral  (white  brackets)  spinal  cord  of  nf1a-­/-­;;  nf1b-­/-­  larvae  (B,D)  when  com-­
+pared  to  wild  type  larvae  (A,C)  by  whole  mount  in  situ  hybridization  at  5  dpf.
+
+A
+
+wild type
+
+a
+
+e
+
+i
+
+m
+
+a
+
+e
+
+i
+
+m
+
+2
+
+/
+
+1
+K
+R
+E
+p
+
+6
+S
+p
+
+u
+H
+
+e
+g
+r
+e
+m
+
+2
+
+/
+
+1
+K
+R
+E
+p
+
+6
+S
+p
+
+u
+H
+
+e
+g
+r
+e
+m
+
+B
+
+wild type
+
+nf1a+/-; nf1b-/- nf1a-/-; nf1b+/- nf1a-/-; nf1b-/-
+b
+
+d
+
+c
+
+f
+
+j
+
+n
+
+g
+
+k
+
+o
+
+h
+
+l
+
+p
+
+nf1a+/-; nf1b-/- nf1a-/-; nf1b+/- nf1a-/-; nf1b-/-
+b
+
+d
+
+c
+
+f
+
+j
+
+n
+
+g
+
+k
+
+o
+
+h
+
+l
+
+p
+
+ 
+
+2
+d
+p
+f
+
+3
+ 
+d
+p
+f
+
+Fig.  S8.  Increased  ERK1/2  
+phosphorylation  is  appreci-­
+ated  in  the  spinal  cords  of  
+nf1a-­/-­;;  nf1b-­/-­  larvae  by  3  dpf.  
+Immunohistochemical  analysis  
+of  transverse  sections  through  
+the  spinal  cord  of  2  dpf  nf1a-­/-­;;  
+nf1b-­/-­  larvae  (Ad,Ah,Al,Ap)  
+demonstrates  no  appreciable  
+differences  in  pERK1/2  (green)  
+or  pS6  staining  (red)  when  
+compared  with  nf1a+/-­;;  nf1b-­/-­  
+(Ab,Af,Aj,An),  nf1a-­/-­;;  nf1b+/-­  
+(Ac,Ag,Ak,Ao),  or  wild  type  
+(Aa,Ae,Ai,Am)  larvae.  At  3  
+dpf,  however,  increased  
+pERK1/2  signal  is  noted  in  
+nf1a-­/-­;;  nf1b-­/-­  larvae  (Bd,Bp)  
+when  compared  with  nf1a+/-­;;  
+nf1b-­/-­  (Bb,Bn),  nf1a-­/-­;;  nf1b+/-­  
+(Bc,Bo),  or  wild  type  (Ba,Bm)  
+larvae,  with  no  differences  
+noted  in  levels  of  pS6  (Be-­Bh).  
+Activated  ERK1/2  signaling  is  
+most  prominent  in  spinal  cord  
+neurons,  as  identified  by  
+colocalization  (white)  with  
+HuC/D  expression  (magenta)  
+(Bl,Bp).  Scale  bars:  20  µm.  
+
+pERK1/2
+
+pS6
+
+B
+
+A
+
+e
+u
+s
+s
+
+i
+
+i
+t
+ 
+n
+a
+r
+b
+7
+e
+
+ 
+
+C
+
+E
+
+/
+
+7
+e
+3
+5
+p
+
+t
+n
+a
+n
+g
+
+i
+l
+
+a
+m
+
+c
+
+l
+
+i
+t
+s
+a
+p
+r
+e
+p
+y
+h
+
+D
+
+tumor
+
+F
+
+normal
+
+s
+r
+o
+m
+u
+t
+ 
+n
+a
+r
+b
+7
+e
+
+i
+
+ 
+
+/
+
+7
+e
+3
+5
+p
+ 
+;
+-
+/
+-
+
+b
+1
+f
+n
+ 
+;
+-
+/
++
+a
+1
+f
+n
+
+Fig.  S9.  nf1a+/-­;;  nf1b-­/-­  ;;p53e7/e7  brain  tumors  demonstrate  hyperactivation  of  ERK  and  mTOR  pathways.
+(A-­F)  Immunohistochemical  analysis  of  pERK1/2  and  pS6  in  p53e7/e7  brain  tissue  (A,B,  red  arrow  labels  normal  
+neuron)  as  well  as  nf1a+/-­;;  nf1b-­/-­;;  p53e7/e7  brain  tumors  demonstrating  a  predominantly  malignant  (C,D)  or  hyperpro-­
+liferative  (E,F)  phenotype.  The  more  malignant  and  infiltrative  nf1a+/-­;;  nf1b-­/-­;;  p53e7/e7  brain  tumor  demonstrates  
+increased  pERK1/2  staining  (C),  with  normal  levels  of  pS6  (D,  red  arrow  labels  normal  neuron)  when  compared  with  
+similarly  stained  p53e7/e7  brain  tissue  (A,B).  The  majority  of  tumor  cells  in  the  more  hyperplastic  nf1a+/-­;;  nf1b-­/-­;;  
+p53e7/e7  brain  tumor  show  staining  for  pERK1/2  (E)  along  with  heterogeneously  increased  pS6  (F).  
+
+A
+
+100
+
+)
+
+%
+
+(
+ 
+n
+o
+
+i
+t
+
+a
+u
+
+t
+i
+
+b
+a
+h
+
+ 
+
+e
+l
+r
+t
+a
+
+t
+s
+
+80
+
+60
+
+40
+
+20
+
+0
+
+*
+
+n=47
+
+n=41
+
+n=16
+
+n=28
+
+n=92
+
+wild type
+nf1a+/-; nf1b+/-
+
+nf1a+/-; nf1b-/-
+
+nf1a-/-; nf1b+/-
+
+nf1a-/-; nf1b-/-
+
+B
+
+)
+s
+e
+e
+r
+g
+e
+d
+(
+ 
+
+l
+
+e
+g
+n
+a
+n
+r
+u
+
+ 
+
+t
+ 
+
+d
+n
+e
+b
+-
+c
+
+150
+
+100
+
+50
+
+0
+
+*
+
+233
+n=31
+
+237
+n=31
+
+264
+n=41
+
+nf1a-/-; nf1b-/-
+*
+
+173
+n=32
+
+280
+n=37
+
+wild type
+nf1a+/-; nf1b+/-
+
+nf1a+/-; nf1b-/-
+
+nf1a-/-; nf1b+/-
+
+C
+
+l
+
+y
+t
+i
+c
+o
+e
+v
+ 
+r
+a
+u
+g
+n
+a
+
+l
+
+ 
+d
+n
+e
+b
+-
+c
+ 
+x
+a
+m
+
+)
+
+2
+s
+m
+/
+s
+e
+e
+r
+g
+e
+d
+(
+
+30
+
+20
+
+10
+
+0
+
+*
+
+233
+n=31
+
+237
+n=31
+
+264
+n=41
+
+8
+
+6
+
+4
+
+2
+
+D
+
+e
+
+l
+t
+r
+a
+
+t
+s
+ 
+t
+s
+o
+p
+
+)
+
+m
+m
+
+(
+
+ 
+
+ 
+d
+e
+v
+o
+m
+e
+c
+n
+a
+t
+s
+d
+
+i
+
+173
+n=32
+
+280
+n=37
+
+wild type
+nf1a+/-; nf1b+/-
+
+nf1a+/-; nf1b-/-
+
+nf1a-/-; nf1b+/-
+
+nf1a-/-; nf1b-/-
+
+173
+n=32
+
+280
+n=37
+
+233
+n=31
+
+237
+n=31
+
+264
+n=41
+
+0
+
+wild type
+nf1a+/-; nf1b+/-
+
+nf1a+/-; nf1b-/-
+
+nf1a-/-; nf1b+/-
+
+nf1a-/-; nf1b-/-
+
+Fig.  S10.  nf1a/nf1b  mutants  exhibit  acoustic  startle  C-­start  behavioral  deficits.  
+(A)  Mean  degree  of  short-­term  SLC  habituation  is  reduced  in  5  dpf  nf1a-­/-­;;  nf1b-­/-­  larvae.  (B-­C)  Measurement  of  mean  
+head  turning  angle  (B)  and  mean  maximum  angular  velocity  (C)  of  initial  C-­bend  following  delivery  of  acoustic  
+stimulus  demonstrates  a  significant  reduction  of  both  behavioral  measures  in  5  dpf  nf1a-­/-­;;  nf1b-­/-­  larvae.  (D)  Mean  
+distance  traveled  over  90  milliseconds  following  delivery  of  acoustic  stimulus,  as  a  result  of  short  latency  C-­start  
+behavioral  response,  is  also  significantly  reduced  in  5  dpf  nf1a-­/-­;;  nf1b-­/-­  larvae.  The  total  number  of  short  latency  
+C-­bends  and  number  of  larvae  tested  per  genotype  appear  at  the  base  of  each  bar  graph  (*P<0.001).  
+
+A
+
+)
+f
+p
+d
+3
+(
+ 
+
+ 
+
+s
+e
+r
+o
+h
+p
+o
+n
+a
+e
+m
+e
+p
+i
+r
+t
+s
+
+ 
+
+l
+
+ 
+l
+
+a
+r
+e
+t
+a
+
+l
+
+50
+
+40
+
+30
+
+20
+
+10
+
+0
+
+wild
+type
+
+nf1a+/+;
+nf1b+/-
+
+nf1a+/+;
+nf1b-/-
+
+nf1a+/-;
+nf1b+/+
+
+nf1a+/-;
+nf1b+/-
+
+nf1a+/-;
+nf1b-/-
+
+nf1a-/-;
+nf1b+/+
+
+nf1a-/-;
+nf1b+/-
+
+nf1a-/-;
+nf1b-/-
+
+B
+
+)
+f
+p
+d
+6
+(
+ 
+
+ 
+
+s
+e
+r
+o
+h
+p
+o
+n
+a
+
+l
+
+ 
+
+e
+m
+e
+p
+i
+r
+t
+s
+ 
+l
+a
+r
+e
+t
+a
+l
+
+80
+
+70
+
+60
+
+50
+
+40
+
+30
+
+wild
+type
+
+nf1a+/+;
+nf1b+/-
+
+nf1a+/+;
+nf1b-/-
+
+nf1a+/-;
+nf1b+/+
+
+nf1a+/-;
+nf1b+/-
+
+Fig.  S11.  Quantification  of  lateral  stripe  melanophores  in  wild  type  and  nf1a/nf1b  mutant  larvae  at  3  and  6  
+dpf.
+(A)  Quantification  of  lateral  stripe  melanophores  from  wild  type  (n=26),  nf1a+/+;;  nf1b+/-­  (n=34),  nf1a+/+;;  nf1b-­/-­  (n=25),  
+nf1a+/-­;;  nf1b+/+  (n=32),  nf1a+/-­;;  nf1b+/-­  (n=62),  nf1a+/-­;;  nf1b-­/-­  (n=30),  nf1a-­/-­;;  nf1b+/+  (n=14),  nf1a-­/-­;;  nf1b+/-­  (n=26),  and  
+nf1a-­/-­;;  nf1b-­/-­  (n=12)  larvae  at  3  dpf.  Each  point  represents  the  number  of  lateral  stripe  melanophores  in  an  individual  
+embryo  and  red  lines  indicate  mean  values.  (B)  Quantification  of  lateral  stripe  melanophores  from  wild  type  (n=26;;  
+same  as  displayed  in  Fig.  8),  nf1a+/+;;  nf1b+/-­  (n=34),  nf1a+/+;;  nf1b-­/-­  (n=25),  nf1a+/-­;;  nf1b+/+  (n=32),  and  nf1a+/-­;;  nf1b+/-­  
+(n=62)  larvae  at  6  dpf.  Each  point  represents  the  number  of  lateral  stripe  melanophores  in  an  individual  embryo  and  
+red  lines  indicate  mean  values.
+
+nf1a-/-; nf1b-/-
+
+wild type
+
+3 dpf
+
+B
+
+D
+
+F
+
+A
+
+C
+
+E
+
+d
+e
+
+l
+
+i
+f
+ 
+t
+h
+g
+i
+r
+b
+
+L
+E
+N
+U
+T
+
+e
+g
+r
+e
+m
+
+Fig.  S12.  Melanized  embryonic/ontogenetic  and  unmelanized  regeneration  and  metamorphic  melanophores  do  
+not  demonstrate  increased  apoptosis  at  3  dpf  in  nf1a-­/-­;;  nf1b-­/-­  larvae.
+(A-­F)  Representative  images  of  melanized  embryonic/ontogenetic  melanophores  along  the  lateral  stripe  visualized  at  
+3  dpf  in  wild  type  (A,C,E)  and  nf1a-­/-­;;  nf1b-­/-­  mutant  (B,D,F)  larvae.  No  difference  in  apoptotic  cells  was  noted  
+(68.1±11  cells/larva,  n=12  wild  type  versus  63.8±8.5,  n=12  mutants;;  P=0.27).  No  melanized  embryonic/ontogenetic  
+cells  are  noted  to  be  TUNEL-­positive  in  either  genotype  (C,D),  with  similar  numbers  of  TUNEL-­positive  cells  
+appearing  in  the  region  where  unmelanized  regeneration  and  metamorphic  melanophores  would  be  located  at  this  
+(cid:87)(cid:76)(cid:80)(cid:72)(cid:3)(cid:83)(cid:82)(cid:76)(cid:81)(cid:87)(cid:3)(cid:11)(cid:38)(cid:16)(cid:41)(cid:12)(cid:17)(cid:3)(cid:54)(cid:70)(cid:68)(cid:79)(cid:72)(cid:3)(cid:69)(cid:68)(cid:85)(cid:86)(cid:29)(cid:3)(cid:24)(cid:19)(cid:3)(cid:541)(cid:80)(cid:17)
+
+wild type
+
+a b
+
+c
+
+d
+
+a
+
+b
+
+c
+
+d
+
+nf1a-/-; nf1b-/-
+
+a
+
+b c
+
+d
+
+e
+
+f
+
+g
+
+a b
+
+c
+
+d
+
+e f
+
+g
+
+e
+
+e
+
+B
+
+D
+
+F
+
+a
+
+b
+
+c
+
+d
+
+e
+
+a b
+
+c
+
+d
+
+e f
+
+g
+
+A
+
+C
+
+E
+
+f
+p
+d
+3
+
+ 
+
+f
+p
+d
+5
+
+ 
+
+f
+p
+d
+6
+
+ 
+
+G
+
+s
+e
+r
+o
+h
+p
+o
+n
+a
+e
+m
+e
+p
+i
+r
+t
+s
+  
+l
+
+  
+
+l
+
+a
+r
+e
+
+t
+
+a
+
+l
+
+P=0.0007
+
+P<0.0001
+
+P=0.0294
+
+25  
+
+20  
+
+15  
+
+10  
+
+5  
+
+0  
+
+wild  type
+
+3  dpf
+
+wild  type
+
+6  dpf
+
+nf1a-­/-­;;  nf1b-­/-­
+
+3  dpf
+
+nf1a-­/-­;;  nf1b-­/-­
+
+6  dpf
+
+Fig.  S13.  Gaps  in  stereotyped  pigmentation  pattern  along  the  lateral  stripe  of  nf1a/nf1b  mutants  arise  from  
+failure  of  migration  or  differentiation  of  the  regeneration  and  metamorphic  melanophore  lineages.
+(A-­F)  Lateral  stripe  melanophores  were  initially  imaged  at  3  dpf  in  wild  type  (A)  and  nf1a-­/-­;;  nf1b-­/-­  (B)  larvae,  after  
+which  these  animals  were  treated  with  0.2  mM  N-­phenylthiourea  (PTU)  to  prevent  additional  melanin  synthesis.  
+Therefore  only  the  embryonic/ontogenetic  melanophores  melanized  before  PTU  addition  remain  melanin-­positive  
+(C,D,  embryonic/ontogenetic  melanophores  lettered)  at  5  dpf.  In  contrast,  the  regeneration  and  metamorphic  lineage  
+of  melanophores  are  melanin-­negative  and  appear  pale  (C,D,  red  arrows).  PTU  removal  after  5  dpf  restores  melanin  
+synthesis,  evident  at  6  dpf  when  these  melanophores  become  melanin-­positive  (E,F,  black  arrows).  nf1a/nf1b  mutants  
+demonstrate  gaps  (F,  brackets)  in  the  pigmentation  pattern  along  the  lateral  stripe  when  compared  with  wild  type  
+(cid:70)(cid:82)(cid:81)(cid:87)(cid:85)(cid:82)(cid:79)(cid:86)(cid:3)(cid:11)(cid:40)(cid:12)(cid:17)(cid:3)(cid:54)(cid:70)(cid:68)(cid:79)(cid:72)(cid:3)(cid:69)(cid:68)(cid:85)(cid:86)(cid:29)(cid:3)(cid:24)(cid:19)(cid:3)(cid:541)(cid:80)(cid:17)(cid:3)(cid:11)(cid:42)(cid:12)(cid:3)(cid:55)(cid:85)(cid:68)(cid:70)(cid:78)(cid:76)(cid:81)(cid:74)(cid:3)(cid:68)(cid:81)(cid:71)(cid:3)(cid:84)(cid:88)(cid:68)(cid:81)(cid:87)(cid:76)(cid:73)(cid:76)(cid:70)(cid:68)(cid:87)(cid:76)(cid:82)(cid:81)(cid:3)(cid:82)(cid:73)(cid:3)(cid:79)(cid:68)(cid:87)(cid:72)(cid:85)(cid:68)(cid:79)(cid:3)(cid:86)(cid:87)(cid:85)(cid:76)(cid:83)(cid:72)(cid:3)(cid:80)(cid:72)(cid:79)(cid:68)(cid:81)(cid:82)(cid:83)(cid:75)(cid:82)(cid:85)(cid:72)(cid:86)(cid:3)(cid:76)(cid:81)(cid:3)(cid:68)(cid:3)(cid:21)(cid:19)(cid:19)(cid:3)(cid:541)(cid:80)(cid:3)(cid:86)(cid:72)(cid:74)(cid:80)(cid:72)(cid:81)(cid:87)(cid:3)
+of  the  trunk  in  wild  type  (n=7)  and  nf1a-­/-­;;  nf1b-­/-­  (n=7)  animals  at  3  and  6  dpf.
+
+A
+
+)
+f
+p
+d
+6
+(
+ 
+
+ 
+
+s
+e
+r
+o
+h
+p
+o
+n
+a
+
+l
+
+ 
+
+e
+m
+d
+a
+e
+h
+
+80
+
+70
+
+60
+
+50
+
+40
+
+30
+
+wild
+type
+
+nf1a+/+;
+nf1b+/-
+
+nf1a+/+;
+nf1b-/-
+
+nf1a+/-;
+nf1b+/+
+
+nf1a+/-;
+nf1b+/-
+
+nf1a+/-;
+nf1b-/-
+
+nf1a-/-;
+nf1b+/+
+
+nf1a-/-;
+nf1b+/-
+
+nf1a-/-;
+nf1b-/-
+
+B
+
+Fig.  S14.  Quantification  of  head  melanophores  in  wild  type  and  nf1a/nf1b  mutant  larvae  at  6  dpf.  
+(A)  Quantification  of  head  melanophores  from  wild  type  (n=26),  nf1a+/+;;  nf1b+/-­  (n=34),  nf1a+/+;;  nf1b-­/-­  (n=25),  nf1a+/-­;;  
+nf1b+/+  (n=32),  nf1a+/-­;;  nf1b+/-­  (n=62),  nf1a+/-­;;  nf1b-­/-­  (n=30),  nf1a-­/-­;;  nf1b+/+  (n=14),  nf1a-­/-­;;  nf1b+/-­  (n=26),  and  nf1a-­/-­;;  
+nf1b-­/-­  (n=12)  larvae  at  6  dpf.  Each  point  represents  the  number  of  head  melanophores  in  an  individual  embryo  and  
+red  lines  indicate  mean  values.  (B)  Representative  image  depicting  head  melanophores  (boxed  region)  in  a  wild  type  
+larva  at  6  dpf  following  epinephrine  treatment  and  fixation.  Scale  bar:  200  µm.
+
+

@@ -1,0 +1,1568 @@
+Nuclear Engineering and Design 332 (2018) 88–98
+
+Contents lists available at ScienceDirect
+
+Nuclear Engineering and Design
+
+journal homepage: www.elsevier.com/locate/nucengdes
+
+Versatility and stabilization improvements of full core neutronics/thermal-
+hydraulics coupling between RMC and CTF
+Juanjuan Guoa, Shichang Liua, Xiaotong Shanga, Qicang Shenb, Xiaoyu Guoa, Shanfang Huanga,⁎,
+Kan Wanga, Xiaoming Chaic
+a Department of Engineering Physics, Tsinghua University, Beijing 100084, China
+b Department of Nuclear Engineering and Radiological Sciences, University of Michigan, 2355 Bonisteel Boulevard, Ann Arbor, MI 48109, USA
+c Science and Technology on Reactor System Design Technology, Nuclear Power Institute of China, Chengdu 610041, China
+
+T
+
+A R T I C L E I N F O
+
+A B S T R A C T
+
+Keywords:
+RMC
+CTF
+HDF5
+Versatile coupling
+Stabilization
+Hybrid coupling
+
+This paper presents the versatility and stabilization improvements of high ﬁdelity multi-physics coupling of
+neutronics and thermal-hydraulics. The coupling is accomplished between the Monte Carlo code RMC and the
+sub-channel code CTF. Target motion sampling method of RMC and the domain decomposition parallel strategy
+of CTF are used to decrease the memory requirement as well as to improve the calculation eﬃciency. The hybrid
+coupling method is adopted in coupled RMC/CTF code, in which CTF is invoked by RMC ﬂexibly. For code
+versatility and stabilization, the HDF5 (hierarchical data format) ﬁle is used to replace text ﬁles in data transfer
+between two coupled codes, and the predictor-corrector method is also proposed to stabilize the coupling. The
+coupled code is validated as versatile by successfully testing two full-core problems with diﬀerent scales. The
+BEAVRS full core calculation results show the eﬃciency improvement as a result of using the HDF5 ﬁle in the
+versatile coupled code, and the predictor-corrector method used in the simulation is demonstrated to be eﬀective
+for stabilizing and accelerating the coupling convergence. Moreover, a modiﬁed PWR full core problem simu-
+lation indicates that the coupling between neutronics and thermal-hydraulic inﬂuences the power distribution
+both radially and axially, because of the Doppler broadening eﬀect and coolant properties feedback.
+
+1. Introduction
+
+High ﬁdelity multi-physics numerical
+
+reactor simulations are
+gaining increasing attention in the nuclear energy area as the high
+performance computer technology develops rapidly. Realistic nuclear
+reactors are extremely complex coupled systems involving diﬀerent
+kinds of physics, including neutronics, thermal-hydraulics (TH), fuel
+performance, and chemistry. Thermal-hydraulics is a key inﬂuence
+factor on neutronics calculations and safety analyses due to the tem-
+perature and coolant density eﬀect on the core reactivity and power
+distribution. For high ﬁdelity simulations, the detailed precise reactor
+core analysis must take into account the interaction between neutronics
+and thermal-hydraulics (N-TH). Hence, the N-TH coupling has become
+a major issue and has been extensively studied.
+
+Currently, various kinds of Monte Carlo-TH coupled code systems
+using diﬀerent coupling means have been accomplished and improved
+constantly. The Karlsruhe Institute of Technology (KIT) has externally
+coupled the well-known Monte Carlo code MCNP (Briesmeister, 2000)
+with the thermal-hydraulics codes FLICA4 (Aniel et al., 2005) and
+
+SubChanFlow (Sanchez et al., 2010) respectively in an advanced plat-
+form NURESIM (Hoogenboom et al., 2011). Applications to the fuel pin
+lattice and clusters cases prove the ﬂexibility of this coupled system.
+Another coupled code system based on the Monte Carlo code MCNPX
+(Hendricks et al., 2007) and the sub-channel code COBRA-IV (Wheeler
+et al., 1976) was achieved externally by Miriam Vazquez at Ciemat
+(Vazquez et al., 2013), and it was applied to the fuel assembly calcu-
+lation at the pin level and the full core problem at the assembly level for
+fast reactors. Besides, the internal coupled code MCNP6 (Goorley,
+2013)/CTF (Salko et al., 2015) was also realized at the pin level by
+North Carolina State University for a full assembly scale simulation
+(Bennett et al., 2016), in which the sub-channel code CTF was added as
+a subfolder of the Monte Carlo code MCNP. The new generation of
+advanced Monte Carlo code RMC (Wang et al., 2015), developed and
+improved by the Reactor Engineering Analysis Lab (REAL) group in
+Tsinghua University, was also coupled with several thermal-hydraulics
+codes in diﬀerent ways. Li has accomplished the coupling of RMC and
+the CFD code CFX (Marchisio et al., 2003) externally for the Pebble
+Bed-Advanced High Temperature Reactor (PB-AHTR) core analysis (Li
+
+⁎ Corresponding author at: LIUQING Building Room 902, Tsinghua University, Beijing 100084, China.
+E-mail address: sfhuang@mail.tsinghua.edu.cn (S. Huang).
+
+https://doi.org/10.1016/j.nucengdes.2018.03.028
+Received 28 July 2017; Received in revised form 11 March 2018; Accepted 18 March 2018
+Available online 21 March 2018
+0029-5493/ © 2018 Elsevier B.V. All rights reserved.
+
+J. Guo et al.
+
+Nuclear Engineering and Design 332 (2018) 88–98
+
+et al., 2012a). Moreover, RMC and the sub-channel code COBRA-EN
+(Basile et al., 1999) were coupled employing the hybrid method by Liu
+et al. (2015), in which COBRA was invoked by RMC. Recently, the
+hybrid coupled code RMC/CTF was done by Guo for the complex
+BEAVRS (Horelik and Herman, 2012) full core pin by pin simulation
+(Guo et al., 2016). However, the pre-developed coupled code system
+between RMC and CTF still has some limitations. The main limitation is
+the versatility problem that this code cannot easily be applied to other
+all cases.
+
+Moreover, the Picard iteration was used in the pre-developed cou-
+pled code system, which is prone to numerical instabilities and low
+speed of convergence. The instabilities of Picard iteration will be en-
+larged in Monte Carlo-TH coupling, due to the statistical variance of the
+Monte Carlo method and strong feedback between N/T-H, etc.
+Recently, the Newton method combined with Monte Carlo perturbation
+theory (Auﬁero and Fratoni, 2017) was proposed to solve the stabili-
+zation problem for Monte Carlo-TH coupling. However, only the
+coolant density feedback on neutronics was considered in their study,
+and it is diﬃcult to obtain the Jacobian matrix of power distribution
+due to the perturbation of thermal/hydraulics ﬁelds.
+
+This paper aims to solve the versatility and stabilization problem of
+the Monte Carlo-TH coupling based on the hybrid RMC/CTF coupled
+code. The main improvement for code versatility is using the HDF5
+(Folk et al., 2011) ﬁle rather than the text ﬁle as the data transfer in-
+terface between the two codes. The HDF5 ﬁle uses hierarchical data
+format for logically storing and managing data, and it provides a ﬂex-
+ible and convenient interface for reading data. Besides, the predictor-
+corrector method (Noor, 2001) for accelerating convergence is also
+proposed in the coupling to stabilize the power distribution. The im-
+proved RMC/CTF coupled code is validated to be versatile by success-
+fully calculating two full-core problems that have diﬀerent scales. In
+addition, the predictor-corrector method is also demonstrated to be
+elegant and eﬀective by signiﬁcantly stabilizing and accelerating the
+convergence of the full core coupling.
+
+In this paper, Section 2 introduces coupled codes RMC and CTF
+brieﬂy. Section 3 describes the most important coupling scheme, and
+Section 4 explains the Stabilization of the coupling convergence. Fur-
+ther, Section 5 demonstrates the test benchmarks modeling and the
+simulation results, and Section 6 presents the conclusions and per-
+spectives ﬁnally.
+
+coupling. The high performance of RMC makes the coupling eﬃcient
+because coupling needs suﬃcient iterations to meet the convergence
+criterion. In the coupling process, RMC runs the criticality calculations
+to obtain the power proﬁles using mesh tallies, and it may calculate
+problems with arbitrary temperatures. For creating cross sections at
+arbitrary temperatures, the on-the-ﬂy interpolation method (Liu et al.,
+2016b) and the target motion sampling (TMS) method have been de-
+veloped in RMC (Liu et al., 2016c). In this paper, the TMS method is
+used in the coupling.
+
+2.2. Thermal-hydraulics code CTF
+
+CTF (CASL, 2015), representing Coolant Boiling in Rod Arrays-Two
+Fluid, is a 3D thermal–hydraulic sub-channel code designed for light
+water reactor (LWR) vessel analyses. It was developed by the Con-
+sortium for Advanced Simulation of Light Water Reactors (CASL) and
+the Reactor Dynamics and Fuel Management Group (RDFMG) at
+Pennsylvania State University (PSU). In addition, CTF has been im-
+proved and validated for both pressurized water reactor (PWR) and
+boiling water reactor (BWR) analyses. CTF uses a two-ﬂuid, three-ﬁeld
+modeling method and is able to eﬀectively calculate the temperature
+and density distribution of the coolant and the temperature distribution
+of the fuel and cladding. CTF has been extensively used throughout the
+nuclear industry due to its powerful functions and rapid development.
+
+2.2.1. PWR preprocessor and domain decomposition
+
+For the high-eﬃciency hybrid coupling, the PWR preprocessor and
+the domain decomposition parallel technology (Salko et al., 2015) of
+CTF are key technologies in the RMC/CTF coupling. Introductions to
+them can also be seen in Guo et al. (2017a). The PWR preprocessor can
+both greatly simplify the user input and eﬀectively reduce the input
+error by automatically generating the input ﬁle of CTF code. Moreover,
+the domain decomposition parallel technique dramatically contributes
+to the coupling eﬃciency through dividing the whole model into
+multiple domains. Compared with serial calculations, parallel calcula-
+tions can signiﬁcantly save time and improve the operation eﬃciency.
+Therefore, the PWR preprocessor and the domain decomposition tech-
+nique of CTF allow for eﬃcient and precise thermal-hydraulics simu-
+lations for large-scale complex problems, so they support the develop-
+ment of the high-eﬃciency RMC/CTF coupling.
+
+2. Computer codes
+
+2.2.2. HDF5 ﬁle output function
+
+Computer codes used in the coupling work are the Monte Carlo code
+RMC and the thermal-hydraulics sub-channel code CTF, which will be
+introduced in this section. Moreover, some technologies of the two
+codes play an important role in the coupling work and are also ex-
+plained in this section.
+
+2.1. Monte Carlo code RMC
+
+RMC (Wang et al., 2015) stands for Reactor Monte Carlo, which is a
+new Monte Carlo transport code for reactor core analysis. The code
+RMC has been developed by the Department of Engineering Physics at
+Tsinghua University, and has the advantages of being able to ﬂexibly
+treat complex geometry as well as conveniently use continuous energy
+point-wise cross sections of materials and temperatures. Besides, RMC is
+also advanced in complete functions and high performing speed (Wang
+et al., 2011). At present, RMC has the powerful functions of criticality
+calculation, burnup calculation (She et al., 2013), on-the-ﬂy cross sec-
+tions processing with temperature (Li et al., 2012b), N-TH coupling (Li
+et al., 2012a), etc. Furthermore, the functions of parallel calculation
+(She et al., 2013), source convergence acceleration (She et al., 2012),
+and domain decomposition (Liang et al., 2012), allow for running fast
+on high-performance computing platforms.
+
+With high performance and complete functions, RMC is suitable for
+
+For the versatility of the RMC/CTF coupled code, the HDF5 ﬁle
+output function of CTF plays a crucial role. Whether running in serial or
+in parallel, the code CTF used in this coupling is able to output all the
+calculation results to a HDF5 ﬁle if the HDF5 library is correctly in-
+stalled on the operating platform. Any HDF5 ﬁle produced by CTF has
+the same data arrangement except the name of the root group. The root
+group name is “deck.ctf.h5” when CTF runs in serial, which is diﬀerent
+from the name “pdeck.ctf.h5” in CTF parallel running. The HDF5 ﬁle
+“pdeck.ctf.h5” can be opened by HDFView, and the ﬁle data structure is
+shown in Fig. 1.
+
+“INPUT”,
+
+three HDF5
+
+The named group “pdeck.ctf.h5” is just the HDF5 root group, con-
+taining
+and
+“STATE_0001” (Fig. 1). The “STATE_0001” group has one group and
+several datasets that store important calculation results. Calculation
+results needed in the coupling are the coolant temperature and density,
+and the fuel temperature, which are all structured as datasets “chan-
+nel_liquid_temps [C]”, “liquid_density”, and “pin_fueltemps [C]”, re-
+spectively. Furthermore, all the information in datasets can be ﬂexibly
+obtained by HDF5 library functions, allowing for the versatility of the
+coupling.
+
+groups
+
+named
+
+“CORE”,
+
+3. Coupling scheme
+
+For versatile hybrid RMC/CTF coupling, the most important is the
+
+89
+
+J. Guo et al.
+
+Nuclear Engineering and Design 332 (2018) 88–98
+
+externally or internally. In the external coupling, both codes are in-
+voked by the external scripts or platforms. This method is easy to im-
+plement as the codes do not need change, but it cannot support the
+versatility of the coupling. For example, the neutronics code PARCS and
+thermal-hydraulics code Relap5 are coupled externally through a par-
+allel virtual machine (PVM) (Wu, et al., 2015). Conversely, internal
+coupling means integrating the codes into one single code that two
+codes should be modiﬁed greatly. It is complex to realize but has the
+advantages of good versatility, like the internal MCNP6/CTF coupled
+code (Bennett et al., 2016). To combine the advantages of the two
+coupling methods, the hybrid coupling method is proposed. In this
+section, the hybrid coupling method was reviewed, and the detailed
+information can be found in Guo et al. (2016).
+
+In the hybrid RMC/CTF coupling, the needed data was transferred
+through the CTF external output ﬁle and the RMC memory, indicating
+that CTF was invoked by RMC. Some internal scripts were added to
+RMC for invoking CTF and reading the CTF output ﬁle. As the master
+code, RMC ran ﬁrstly and calculated the power proﬁles in memory. The
+internal script of RMC then read the power data from the memory,
+produced the power input ﬁle for CTF and invoked CTF. CTF ran and
+calculated the thermal data, coolant temperature and density, and the
+fuel temperature. RMC read the data from the CTF output ﬁle and ran
+for a new iteration. This coupling process was repeated until the sa-
+tisfaction of the convergence criterion, and the coupling algorithm is
+shown in Fig. 2.
+
+3.2. Versatile coupling method
+
+The code versatility is the main improvement of the coupled RMC/
+CTF code in this paper. Without any change to codes, the original
+coupled RMC/CTF code can only simulate problems that have same
+geometry with the BEAVRS benchmark. To simulate more cases that
+have diﬀerent scales, the code versatility is improved. Versatility in this
+
+Fig. 1. The data structure of the HDF5 ﬁle for the BEAVRS benchmark.
+
+coupling scheme indicating how the coupling is accomplished. In this
+section, the ﬁrst part focuses on the basic hybrid coupling method
+providing information on data transfer process of the coupling. The
+most essential versatile coupling method introduced in the second part
+illustrates how the HDF5 ﬁle is used for the versatility of the coupling.
+Besides, the convergence criterion in the coupling is also explained in
+this section.
+
+3.1. Hybrid coupling method
+
+For convenient and ﬂexible coupling, the hybrid coupling method is
+used here. Actually, the hybrid method is a new coupling method and
+has been adopted in the original coupled RMC/CTF code. Traditionally,
+the neutronics code and the thermal-hydraulics code can be coupled
+
+Fig. 2. RMC and CTF coupling algorithm ﬂow chart (Guo et al., 2017a).
+
+90
+
+J. Guo et al.
+
+Nuclear Engineering and Design 332 (2018) 88–98
+
+paper refers to that the improved coupled code can simulate problems
+with diﬀerent scales without any change to the code itself. After the
+improvement, the coupled code can calculate the problems of the single
+fuel rod, assembly or full core.
+
+The most important process of the versatile method involves using
+HDF5 ﬁles to replace the text ﬁles in the data exchange. Therefore, the
+HDF5 technology is introduced ﬁrstly in this section, and then the
+implementation of the method is represented in detail.
+
+3.2.1. Introduction to HDF5 technology
+
+HDF5 is the abbreviation of the hierarchical data format for storing
+and managing scientiﬁc data, which contains a data model, a library
+and a ﬁle format. The detailed information of HDF5 technology can be
+seen in Guo et al. (2017b), so this paper gives a brief review to it.
+
+The HDF5 technology has been developed and improved by the HDF
+group located at the University of Illinois. It supports all kinds of da-
+tatypes for large-volume and complex data with ﬂexible and eﬃcient I/
+O. Moreover, HDF5 has the advantages of portability and extensibility.
+In addition, HDF5 can be expediently opened by the software HDFView,
+and can be ﬂexibly accessed by C, F90, C++, and Java APIs.
+
+The basic component of the HDF5 ﬁle is the HDF5 data model. It has
+the classiﬁcations of HDF5 groups, HDF5 datasets, and HDF5 datatype
+objects, which correspond to the groups, array data, and types in the
+HDF5 ﬁle, respectively.
+
+The HDF5 group, similar to the directory in a ﬁle system, is the
+explicit representation of the relationship between HDF5 groups, HDF5
+datasets, and HDF5 datatype objects. Generally, each HDF5 ﬁle must
+have one HDF5 group called the HDF5 root group, and this root group
+can contain any number of HDF5 groups or HDF5 datasets. HDF5 da-
+tasets can be viewed as located content variables, which are arranged
+logically as a multidimensional array. The detailed datasets information
+can be captured by the HDF5 dataspace. In addition, the datasets in-
+formation can also be easily obtained by functions of the HDF5 library
+which is designed mainly for accessing and managing all kinds of items
+in the HDF5 ﬁle. Using the HDF5 library, the HDF5 dataset can perform
+various operations, such as reading, creating, updating and deleting.
+
+The arrangement of the data structure is shown in Fig. 3, where the
+oval shapes represent HDF5 groups and rectangles denote HDF5 data-
+sets.
+
+Every HDF5 ﬁle starts with the top-level root group that governs all
+data of the ﬁle (Fig. 3). Every group can contain HDF5 datasets or new
+groups, but the name of any group or dataset must be unique in the
+scope of the HDF5 ﬁle for the inerrability of attaching data.
+
+HDF5 ﬁles are stored in a self-describing format, integrating the
+data and the primary source of the data. This format “allows one to
+access the data without knowing anything about
+the actual re-
+presentation of the data or the layout of the ﬁle” (Kuehn, 1996), which
+
+makes it possible to overcome the versatility problem of the original
+coupled code.
+
+3.2.2. Versatility achievement
+
+For the code versatility, the coupled RMC/CTF code was improved
+mainly from three aspects. Firstly, all ﬁxed geometry contents in the
+coupling code were changed to variables, which supports the code
+versatility. Another important change was adding all the power and
+geometry information to the RMC input ﬁle to be a new input card,
+shown as Fig. 4. In the coupling process, RMC was required to produce
+the CTF power input ﬁle, whose information should be previously
+known. Therefore, all the geometry and the power information included
+in the power input ﬁle, such as the full core map of the reactor and the
+total operating power, were all written in the RMC input ﬁle. Finally,
+the most signiﬁcant change is reading thermal data from HDF5 ﬁles
+instead of text output ﬁles by CTF. As described in Sections 2 and 3,
+using the HDF5 ﬁle highly supports the versatility of the coupling.
+Moreover, the change to the code also improved the simulation eﬃ-
+ciency. Previously, the CTF output ﬁles read by RMC were a collection
+of text ﬁles that each ﬁle contained one domain data. In every coupling
+iteration, RMC read the text ﬁles to get data of all domains, consuming
+more time than reading only one HDF5 ﬁle containing all domains data.
+With the versatile method used in the coupling, the new version of
+the coupled RMC/CTF code can be applied to problems that have dif-
+ferent scales when the input ﬁles of RMC and CTF are prepared.
+
+3.3. Convergence criterion
+
+In the coupling simulation, how to judge its convergence really
+deserves extensive and detailed study due to random variations of the
+Monte Carlo method. Recently, diﬀerent convergence criteria of the
+Monte Carlo and thermal-hydraulics coupling have been studied and
+evaluated by Guo et al. (2017a), including the average power relative
+variation and the power axial oﬀset. In this coupling, the power relative
+variation between two adjacent iterations is adopted as the con-
+vergence criterion. When it is smaller than the average relative error of
+all power values in the RMC tally ﬁle, the coupling is converged. This
+can be expressed as:
+
+(
+
+n
+P
+1
+−
+n
+P
+1
+
+1
+
+−
+1
+
+(
+
+n
+RE
+1
+−
+n
+RE
+1
+
+1
+
+2
+
+1
+
+− ⎞⎠ ⩽
+− ⎞⎠
+
+n
+RE
+N
+−
+n
+RE
+N
+
+1
+
+1
+
+2
+
+,
+
++
+
+2
+
+)
+−
+1
+
+2
+
+)
+
+n
+P
+2
+−
+n
+P
+2
+
+(
++
+
+(
+
+)
+
+−
+1
+1
+N
+n
+RE
+2
+−
+n
+RE
+2
+
+2
+
++…+⎛⎝
+)
+−
+1
+1
+N
+
+2
+
+n
+P
+N
+−
+n
+P
+N
+
+1
+
++…+⎛⎝
+
+(1)
+n represent the power value and the power relative
+
+where Pm
+error of the mth mesh in the nth iteration, respectively.
+
+n and REm
+
+This criterion is validated to be useful and appropriate, and its
+threshold involves neutronics calculation conditions,
+including the
+neutron number, inactive cycles and active cycles. Therefore, the cri-
+terion threshold varies from case to case.
+
+4. Stabilization of coupling convergence
+
+4.1. Power oscillations
+
+The power oscillation phenomenon refers to that the power dis-
+tribution deviates from the normal distribution in coupling iterations.
+Actually, this problem generally exists in the nonlinear coupling, and it
+may arise when simulating the coupling of Monte Carlo-TH for full core
+cases. This section takes the BEAVRS benchmark as an example to ac-
+count for the power oscillation phenomenon. Moreover, detailed in-
+formation of the benchmark is represented in Section 5.1.1, so only part
+information of the benchmark is shown here.
+
+BEAVRS benchmark is based on a PWR reactor design in the United
+
+Fig. 3. The data structure instructions of HDF5 ﬁle (Guo et al., 2017b).
+
+91
+
+J. Guo et al.
+
+Nuclear Engineering and Design 332 (2018) 88–98
+
+Fig. 4. Partial coupling information of the RMC input ﬁle.
+
+n
+
+n
+
+1
+
+)
+
+n
+
+−
+
+−
+
+−
+
+),
+1
+
+ρ
+,
+1
+
+=
+
+=
+
+F T
+(
+
+where φ represents the power distribution generated by the neutronics
+code, T and ρ are thermal parameters from the T/H code representing
+the coolant and fuel temperature and coolant density, and F denotes the
+function relationship between φ and T, ρ. In coupling iterations, Eq. (2)
+can be transformed into
+φ
+G φ
+(
+n
+(3)
+where φn and φn−1 are power distributions of nth and n−1th iterations,
+Tn−1, ρn−1 mean the temperature and density of fuel and coolant in the
+n−1th iteration, and the function relationship between φn and φn−1 is
+denoted by G. Eq. (3) means that the current power distribution is
+determined by the previous one. The relationship between φn and φn−1
+is a negative feedback as a result of the negative Doppler broadening
+eﬀect, so the converged power distribution exists and can be expressed
+as:
+=∗
+φ
+(4)
+where φ∗ is the converged power distribution in coupling iterations.
+The coupling process of N-TH is actually a ﬁxed-point iteration, and the
+data transfer process in iterations can be expressed as Fig. 7.
+
+∗
+G φ(
+
+),
+
+The relationship of diﬀerent parameters in one iteration is shown as
+Fig. 7, where Φ and R(Φ) represent power distributions transferred to
+CTF and that generated directly by RMC, respectively. Besides, T re-
+presents the matrixes of thermal parameters calculated by CTF, in-
+cluding the coolant temperature and density, and the fuel temperature.
+The relationship between Φn+1 and R(Φn) varies from diﬀerent pro-
+cessing methods. In the Picard iteration, Φn+1 is just equal to R(Φn).
+
+4.3. Predictor-corrector method for coupling stabilization
+
+The predictor-corrector method (Noor, 2001) is a commonly-used
+method to predict initial values for ordinary diﬀerential equations and
+accelerate convergence in Newton iterations.
+
+In ordinary diﬀerential equations, the initial value problem refers to
+
+the process of solving equations:
+⩽ ⩽ < + ∞
+⎧
+t
+⎨⎩
+
+=
+du
+dt
+u
+(0)
+
+t u
+( , ),
+u
+
+f
+=
+
+T
+
+0
+
+,
+
+0
+
+(5)
+
+if f(t, u) is continuous and satisﬁed of Lipschiz condition, which means
+that a positive number L allows the establishment of the equation:
+−
+t u
+f
+f
+)
+| ( ,
+1
+
+−
+L u u
+|
+2
+
+t u
+( ,
+2
+
+(6)
+
+⩽
+
+)|
+
+|,
+
+1
+
+ordinary diﬀerential equations have the unique solution that meets the
+initial condition. However, it’s diﬃcult to obtain the accurate solution,
+so calculating the numerical solution is a general method. When solving
+the initial values with predictor-corrector method, the Euler method is
+used in advance for obtaining the estimated value of the next nodal
+point.
+
+For accelerating the convergence in Newton iterations, the pre-
+dictor-corrector method is based on the opposite power distribution
+trend between two adjacent iterations, which can be expressed as:
+
++
+
+Φ
+n
+
+=
+
+Φ
+n
+
++
+
+1
+
+(Φ )
+n
+
+,
+
+R
+2
+
+(7)
+where Φn and R(Φn) are power distributions of CTF and RMC in the nth
+iteration, and Φn+1 is the power distribution transferred to CTF in the n
++1th iteration. This processing procedure is expected to counteract the
+
+Fig. 5. Radial cross section of the BEAVRS core. The 3.1% enriched assemblies are around
+the edge with the 2.4% and 1.6% enriched assemblies in the middle.
+
+States with 193 fuel assemblies, and each assembly has a 17 × 17
+conﬁguration. As shown in Fig. 5, assemblies have three diﬀerent 235U
+enrichments of 3.1%, 2.4% and 1.6% conﬁgured like a checkerboard.
+This benchmark is simulated by the pre-developed RMC/CTF cou-
+pled code without any treatment to the data exchange process, and the
+power and coolant density distributions in the coupling are shown as
+Fig. 6.
+
+After several iterations, the power and coolant density distributions
+become severely asymmetrical and has an opposite trend between two
+adjacent iterations (Fig. 6). The oscillation phenomenon is mainly due
+to the uncertainty of the Monte Carlo calculation and the negative
+feedback of temperature distributions. In the simulation, when an os-
+cillation occurs in one iteration due to the statistical error of the Monte
+Carlo method, the coolant density and fuel temperature in the next
+iteration will follow the power oscillation. Afterwards, the following
+power distribution has an opposite oscillation because of the strong
+negative Doppler broadening eﬀect and the moderator feedback.
+
+To overcome the power oscillations and converge the simulation in
+the full core pin level simulation of BEAVRS (Guo et al., 2016), the
+power distribution generated by RMC has the 1/8 symmetry treatment
+before being transferred to CTF given that the geometry and the fuel
+arrangement of the BEAVRS full core is almost 1/8 symmetrical.
+Moreover, this paper proposes the predictor-corrector method to solve
+power oscillations eﬀectively.
+
+4.2. Fixed-point iteration of coupling
+
+For convergence stabilization, the predictor-corrector method is
+proposed in the coupling, which has the advantages of simple im-
+plementation and eﬃcient acceleration. To explain this method, the
+ﬁxed-point iteration of the coupling should be introduced ﬁrst.
+
+In coupling iterations, the power distribution calculated by the
+neutronics code involves e.g., the fuel temperature, coolant tempera-
+ture and density, and the relationship can be expressed as:
+=φ
+
+F T ρ( , ),
+
+(2)
+
+92
+
+J. Guo et al.
+
+Nuclear Engineering and Design 332 (2018) 88–98
+
+Fig. 6. Radial power distribution (axially integrated) and coolant density distribution (top layer) of the BEAVRS full core for iterations #6 (left) and #7(right).
+
+according to Eq. (8), the error will decrease with increasing number of
+iterations. Moreover, the Eq. (8) can be rearranged as:
+
+Fig. 7. Data transfer process schematic diagram in #n + 1 coupling iteration.
+
+Φ
+n
+
++
+
+1
+
+= ⎛⎝ − ⎞⎠ −
+1 1
+
+n n
+
+1
+
+1
+
+n
+
+1
+
+−
+∑
+=
+
+1
+
+i
+
+R ϕ
+(
+i
+
+)
+
++
+
+1 (
+R ϕ
+n
+n
+
+)
+
+= ⎛⎝ − ⎞⎠ +
+1 1
+n
+
+ϕ
+n
+
+1 (
+R ϕ
+n
+n
+
+),
+
+(9)
+
+opposite oscillations of power distributions between Φn and R(Φn),
+which can stabilize and accelerate the coupling convergence.
+
+Power and density oscillations in Section 4.1 demonstrate that
+power distributions between adjacent iterations in the coupling, namely
+Φn and R(Φn), have the opposite oscillation, because of the uncertainty
+of Monte Carlo and negative feedback eﬀect. Based on this, the normal
+power distribution is expected to be obtained by averaging adjacent
+power distributions. Actually, some other methods for convergence
+acceleration are similar to the predictor-corrector method expect the
+coeﬃcient of Φn and R(Φn).
+
+The relaxation acceleration method proposed in Bennett et al.,
+(2016) also accounts for the statistical noise. This method deﬁnes the
+distribution as the sum of all the previous distributions as:
+
+Φ
+n
+
+∑=+
+n
+1
+=n
+i
+
+1
+
+1
+
+R ϕ
+( ),
+
+(8)
+
+93
+
+From Eq. (9), the relaxation technique is just a weighted function of
+the current power distribution R(ϕn) and the previous distribution ϕn.
+Therefore, the predictor-corrector method has the same weighted
+coeﬃcient of ϕn and R(ϕn) in all iterations. The acceleration eﬀect of
+the relaxation method has been shown in Bennett et al., (2016), and this
+paper demonstrates the acceleration eﬀect of the predictor-corrector
+method.
+
+5. Results and analyses
+
+The coupled code was tested on two diﬀerent scales examples. The
+ﬁrst test problem involves the BEAVRS full core problem whose mod-
+eling is the same as that tested by the pre-developed coupled RMC/CTF
+code. Moreover, it is calculated to test and verify the accuracy, stability
+and reliability of this new coupled RMC/CTF code version. Another test
+problem is a modiﬁed realistic reactor, in which geometry and opera-
+tion parameters are from Qinshan Phase Ⅱ (Li et al., 2007) and the fuel
+
+J. Guo et al.
+
+Nuclear Engineering and Design 332 (2018) 88–98
+
+Fig. 8. Axial cross section of the BEAVRS core.
+
+Table 1
+Nominal values of the thermal hydraulics conditions for BEAVRS benchmark.
+
+Table 3
+Convergence criterion for BEAVRS benchmark CTF calculation.
+
+Item
+
+Total power
+Initial mass ﬂow rate
+Reference pressure
+Inlet water temperature
+Outlet water temperature
+
+Value
+
+3411
+17,083
+15.517
+292.78
+310
+
+Units
+
+MW
+kg/s
+MPa
+°C
+°C
+
+Table 2
+Assembly geometry for BEAVRS benchmark.
+
+Item
+
+Number of fuel rods
+Number of guide tube rods
+Active length (mm)
+Bundle pitch (mm)
+Fuel rod diameter (mm)
+Cladding inner diameter (mm)
+Cladding outer diameter (mm)
+Pin pitch (mm)
+Guide tube inner diameter (mm)
+Guide tube outer diameter (mm)
+
+Size
+
+264
+25
+3657.6
+215.04
+7.84
+8.00
+9.14
+12.60
+11.22
+12.04
+
+arrangement is from Hoogenboom benchmark (Liu et al., 2016a). It is
+simulated to validate the versatility of the coupling code, which means
+that the coupled code in this paper can simulate diﬀerent scales pro-
+blems. Besides, power distributions of the two simulations demon-
+strated in Sections 5.1 and 5.2, have the 1/8 symmetry treatment,
+which are used as reference results of evaluating the stabilization eﬀect
+of the predictor-corrector method in Section 5.1.3.
+
+5.1. BEAVRS benchmark
+
+5.1.1. Problem modeling
+
+Benchmark for Evaluation And Validation of Reactor Simulations
+(BEAVRS) is a famous and commonly used test benchmark for reactor
+analysis released by the Computational Reactor Physics Group at MIT
+
+94
+
+Item
+
+Outer Iteration Convergence Criterion
+Maximum Number of Outer Iterations
+Maximum Number of Inner Iterations
+Global Energy Balance
+Global Mass Balance
+Fluid Energy Storage
+Solid Energy Storage
+Mass Storage
+
+Value
+
+0.001
+5
+40
+0.01%
+0.01%
+0.01%
+0.01%
+0.01%
+
+Table 4
+BEAVRS benchmark calculation time by using two diﬀerent coupling codes.
+
+Cost time
+
+Neutronics
+calculation
+(min)
+
+Previous code
+Current code
+
+14.20
+14.25
+
+Write
+power
+(min)
+
+1.28
+1.12
+
+Read TH
+(min)
+
+CTF runtime
+(min)
+
+One iteration
+(min)
+
+0.42
+0.008
+
+11.90
+10.02
+
+27.80
+25.40
+
+(Horelik and Herman, 2012). It is based on a 1960s commercial PWR
+reactor design in the United States with 193 fuel assemblies, with each
+assembly having a 17 × 17 conﬁguration. As shown in section 4.1,
+assemblies have three diﬀerent 235U enrichments of 3.1%, 2.4% and
+1.6% conﬁgured like a checkerboard.
+
+The modeling of this benchmark was the same as that of Guo et al.
+(2017a). Eight spacer grids were simulated in the coupling, as shown in
+Fig. 8. Besides, the core was divided into 10 segments axially and
+255 × 255 meshes radially. Radial meshes in RMC modeling were re-
+solved to pin level, and each polygon between four rods was a channel
+in CTF simulation. The BEAVRS benchmark geometry then had a total
+of 56,288 channels over the full core. The detailed data used in coupled
+calculations is listed in Tables 1–3.
+
+The calculation conditions were also identical to the simulation
+using previous coupled RMC/CTF code. Each RMC transport calculation
+used 200 inactive cycles and 200 active cycles in the ﬁrst iteration and
+500 active cycles in the following iterations. Each cycle simulated one
+
+J. Guo et al.
+
+Nuclear Engineering and Design 332 (2018) 88–98
+
+Fig. 9. Calculation time comparison between two diﬀerent code versions.
+
+Fig. 10. Converged radial power distributions of predictor-corrector and symmetry methods (axially integrated).
+
+Fig. 11. Converged axial power proﬁles of symmetry and predictor-corrector methods for
+the BEAVRS full core case (radially integrated).
+
+million neutrons, and the boron concentration was 599 ppm. The
+average relative statistical errors in the power of each fuel pin in RMC
+for all the meshes was 0.042, so the convergence criterion was set at
+0.042.
+
+5.1.2. Results veriﬁcation and time comparison
+
+In the coupling simulation for BEAVRS full core problem, 720 par-
+allel threads of “Tianhe-2” supercomputer were used for RMC calcula-
+tions and 193 cores for CTF calculations. This simulation ran for ap-
+proximately four hours and then converged. All the output data were
+identical to those using previous coupled RMC/CTF code, indicating
+that this versatile coupling method was correct, stable and eﬀective.
+
+Fig. 12. Convergence criterion proﬁles of symmetry and predictor-corrector methods for
+the BEAVRS full core case.
+
+The speciﬁc results can be referenced in Guo et al. (2016).
+
+The calculation time for this problem of the previous and current
+codes were counted to test and verify the eﬃciency improvement of the
+new versatile coupled code. The counted time contained the neutronics
+calculation, the data transfer process “write power” and “read TH”, and
+the CTF calculation. Besides, “Write power” meant the process of RMC
+transferring the power data to CTF, and “read TH” represented the
+process of RMC reading thermal parameters from CTF. The counted
+time of diﬀerent parts by using two coupling code systems is listed in
+Table 4, and it is also plotted as Fig. 9.
+
+The counted time in Table 4 belongs to the ﬁrst iteration of the
+coupled calculation by both the previous code and the current code.
+
+95
+
+J. Guo et al.
+
+Nuclear Engineering and Design 332 (2018) 88–98
+
+Table 5
+Convergence criterion data against iterations of symmetry and predictor-corrector
+methods for BEAVRS full core case.
+
+Iterations
+
+Convergence criterion
+of Symmetry method
+
+Convergence criterion of
+Predictor-corrector method
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+0.1744
+0.1091
+0.0829
+0.079
+0.0599
+0.0539
+0.045
+0.0448
+0.0413
+
+0.2917
+0.1238
+0.0406
+0.0398
+0.0395
+0.0374
+0.037
+0.0379
+0.0384
+
+Fig. 13. Radial cross section of the modiﬁed Qinshan Phase II reactor core (plotted by
+RMC). All fuel rods are 1.87% enriched.
+
+Table 6
+Nominal values of the thermal hydraulics conditions for modiﬁed Qinshan Phase II full
+core problem.
+
+Item
+
+Total power
+Initial mass ﬂow rate
+Reference pressure
+Inlet water temperature
+Outlet water temperature
+
+Value
+
+1930
+13494.44
+15.517
+293.4
+329.8
+
+Units
+
+MW
+kg/s
+MPa
+°C
+°C
+
+Fig. 14. Assembly layout showing guide tubes and instrument tube placement.
+
+The neutronics and CTF calculation time of other iterations may be
+diﬀerent from the ﬁrst iteration because the temperature and power
+distribution may change, but the “Read TH” process time almost had no
+variation because the data transfer was only inﬂuenced by the size of
+transferred data and the data ﬁle format. In the simulations, the
+transferred data size is always the same.
+
+The versatile coupled code improved the simulation eﬃciency
+mainly from reducing the time of “Read TH” process (Table 4 and
+Fig. 9). Moreover, the CTF runtime also changes from the state of
+computing resources, but it has no relationship with the data exchange.
+The previous coupled code read data from CTF through 193 text output
+ﬁles, whereas the current coupling code did it by one HDF5 ﬁle. In
+
+n
+Fig. 15. Convergence of δave
+lation.
+
+in modiﬁed Qinshan Phase II reactor core coupling simu-
+
+Fig. 16. Variation of Keﬀ during the iterations in modiﬁed Qinshan Phase II reactor core
+coupling simulation.
+
+addition, accessing data in HDF5 ﬁle has high eﬃciency because of the
+scientiﬁc data storage of the HDF5 ﬁle. Therefore, the “Read TH”
+process by using current versatile coupling code cost less time than that
+of using previous code, proving that the versatile coupling code based
+on HDF5 ﬁle can improve the calculation eﬃciency. Above all, com-
+pared with text ﬁles, exchanging data through HDF5 ﬁles is more
+ﬂexible and better for the versatility of the coupled code.
+
+5.1.3. Stabilization improvement using predictor-corrector method
+
+A new simulation for the BEAVRS full core case using the predictor-
+corrector method was performed, in which all calculation conditions
+were the same as the 1/8 symmetrical treatment case. To demonstrate
+the stabilization eﬀect of the predictor-corrector method, the coupling
+results should be accurate ﬁrst. The simulation results are presented in
+Figs. 10 and 11.
+
+The converged radial and axial power distributions of two cases
+using symmetry and predictor-corrector methods are all
+identical.
+Radial power distributions of two methods shown in Fig. 10 are almost
+the same visually, and the axial power proﬁles demonstrated in Fig. 11
+are also coincident. Simulation results indicate that the predictor-cor-
+rector method does not inﬂuence the converged coupling results, which
+is the basis of evaluating its stabilization and acceleration eﬀect. Pro-
+ﬁles of the convergence criterion described in Section 3.3 are presented
+in Fig. 12 and Table 5.
+
+As shown in Fig. 12, the predictor-corrector method can both sta-
+bilize and accelerate the coupling convergence compared with the
+
+96
+
+J. Guo et al.
+
+Nuclear Engineering and Design 332 (2018) 88–98
+
+Fig. 17. Radial power distribution in the modiﬁed Qinshan Phase Ⅱ reactor core (axially integrated).
+
+speciﬁcation for the assembly is given in Fig. 14 and Table 2.
+
+The mesh division and calculation conditions for this full core
+coupling is described in this part. The active core was divided into 10
+axial segments and 289 × 289 radial meshes both in RMC and CTF,
+leading to a total of 31,944 rods and 35,412 channels over the full core.
+Regarding the calculation condition, each RMC transport used 200 in-
+active cycles and 600 active cycles with 1000,000 neutrons per cycle,
+and the boron concentration was 360 ppm. Moreover, the convergence
+criterion was 0.022, which was the root-mean-square of relative sta-
+tistical errors tallied by RMC in all meshes.
+
+5.2.2. Calculation results
+
+Fig. 18. Axial power distribution in the modiﬁed Qinshan Phase Ⅱ reactor core (radially
+integrated).
+
+symmetry method. According to the cases, the convergence criterion at
+conditions described in Section 5.1 is 0.042. From Table 5, iterations
+needed for convergence of symmetry and predictor-corrector methods
+are 9 and 3, respectively. Simulation results prove that the predictor-
+corrector method can not only stabilize the coupling eﬀectively but also
+accelerate the convergence noticeably. In addition, predictor-corrector
+method can also be applied to the asymmetrical cases while the sym-
+metry method is only suitable for symmetrical cases, which indicates
+the versatility of the predictor-corrector method and new version RMC/
+CTF coupling code.
+
+5.2. Modiﬁed PWR full core
+
+5.2.1. Problem modeling
+
+Another test problem whose geometry and meshes are diﬀerent
+from the BEAVRS benchmark is also simulated to validate the versati-
+lity of the coupled code. It is actually a simple modiﬁed PWR full core
+based on the dimensions and state conditions of the Chinese realistic
+reactor, namely Qinshan Phase Ⅱ, and the fuel arrangement of the
+Hoogenboom benchmark. The full core has 121 assemblies, and each
+has 17 × 17 pin by pin arrangement with uniform enrichment of
+1.87%. In addition, each assembly contains 264 fuel rods, 24 guide
+tubes and one instrument tube in the center, and no control rods or
+removable burnable absorber assemblies are modeled in this problem.
+The radial cross section of this full core and the thermal-hydraulics
+speciﬁcations are shown in Fig. 13 and Table 6, and the geometry
+
+The coupling simulation ran on the Tianhe-2 supercomputer using
+720 parallel cores for RMC calculations and 121 cores for CTF calcu-
+lations. After running for about six hours, the simulation met the con-
+vergence criterion and ﬁnished. The proﬁles of the convergence cri-
+terion δave
+
+n and Keﬀ are shown in Figs. 15 and 16, respectively.
+
+The coupling simulation met the convergence criterion after several
+n was smaller than
+iterations (Fig. 15). The convergence criterion δave
+0.022 from the 7th iteration, indicating the convergence of the simu-
+lation. RMC ran ﬁrstly using uniform coolant temperature and density,
+and fuel temperature, resulting in less accurate power distribution.
+From the second iteration, RMC used the accurate thermal distribution
+n was relatively large in
+from CTF and calculated again. Therefore, δave
+the initial iterations, but after several iterations it became small.
+
+Keﬀ in the coupling process was essentially constant after a few
+iterations (Fig. 16). Keﬀ was large in the ﬁrst iteration because RMC had
+no T/H feedback, and it became small after iterations for the Doppler
+broadening eﬀect of the nuclear target.
+
+Besides δave
+
+n and Keﬀ proﬁles, the power distribution was also used to
+study the coupling eﬀect on the full core directly. Radial distributions
+with and without coupling are shown in Fig. 17, in which values are
+axially integrated. Moreover, the axial power distribution radially in-
+tegrated is shown in Fig. 18.
+
+The radial distribution with coupling was more uniform than that of
+without coupling (Fig. 17). From Fig. 17, the coupling with T/H feed-
+back decreased the peak value and increased the least value, namely
+homogenizing the radial power distribution, for the Doppler broad-
+ening eﬀect of the nuclear target.
+
+The coupling increased the power at the bottom of the core and
+reduced the peak power level (Fig. 18). In the coupled iterations, water
+ﬂowed from the bottom to the top and absorbed the heat from the fuel
+rod, so the water temperature in the higher position was greater than
+that of the lower position. On the contrary, the water density in the
+higher position was smaller than that of the lower position. Therefore,
+the higher water density near the bottom provided better moderation to
+neutrons, which increased the power in the lower part of the core and
+
+97
+
+J. Guo et al.
+
+Nuclear Engineering and Design 332 (2018) 88–98
+
+decreased the peak value position. The peak value decreased also be-
+cause of the Doppler broadening eﬀect.
+
+6. Conclusions and perspectives
+
+This paper presents a versatile and stable coupled neutronics and
+thermal-hydraulics code based on the Monte Carlo code RMC and sub-
+channel code CTF. The TMS cross sections of RMC are used to simplify
+the cross section calculations as well as reduce the memory require-
+ment. The coupled code uses the HDF5 ﬁle to replace text ﬁles in the
+data transfer process for code versatility and also adopts the predictor-
+corrector method to stabilize and accelerate the coupling convergence.
+The coupling uses the hybrid coupling method, enabling the modeling
+simpliﬁcation and the versatility of the code system through the use of
+the neutronics code memory.
+
+The coupled code is tested by two full core problems with diﬀerent
+scales to validate its accuracy and versatility. The BEAVRS full core
+problem is tested against the previous coupled code, and the simulation
+result shows the accuracy and eﬃciency improvement of the new ver-
+satile coupled RMC/CTF code. In addition, the successful simulation of
+the modiﬁed Qinshan Phase Ⅱ full core problem indicates the code
+versatility.
+
+The predictor-corrector method is applied to the BEAVRS full core
+case, and simulation results reveal its stabilization and acceleration
+eﬀect on coupling convergence without inﬂuencing the coupling results
+compared with the symmetry method.
+
+Coupling eﬀects on the radial and axial power distribution show the
+necessity of the coupling between neutronics and thermal-hydraulics.
+The radial power distribution after coupling becomes more uniform
+because of the Doppler broadening eﬀect of the nuclear target, de-
+monstrating the coupling homogenization eﬀect. Axially, the power
+peak decreases for the Doppler broadening eﬀect, and the power peak
+value position decreases for the coolant density distribution in axial
+direction.
+
+Further developments of the coupled RMC/CTF code can focus on
+applications of more cases including VERA problems, and on the cou-
+pling for transient and kinetics analysis. In addition, more methods for
+accelerating the convergence of coupling are being explored.
+
+Acknowledgments
+
+The work in this paper is partially supported by Project 11775127 of
+National Natual Science Foundation of China (NSFC), Science and
+Technology on Reactor System Design Technology Laboratory in China,
+Tianhe-2 (Milkyway-2) high performance computer platform and
+“Explorer 100” cluster system of Tsinghua National Laboratory for
+Information Science and Technology in China. The authors also thank
+Professor Kostadin N. Ivanov of North Carolina State University in the
+United States for supplying the CTF source codes of the United States
+and giving much necessary help.
+
+References
+
+Aniel, S., Bergeron, A., Fillion, P., et al., 2005. FLICA4: status of numerical and physical
+models and overview of applications. In: The 11th International Topical Meeting on
+Nuclear Thermal-Hydraulics (NURETH-11) Popes’ Palace Conference Center,
+Avignon, France, October 2–6, 2005.
+
+Auﬁero, M., Fratoni, M., 2017. Stabilization and convergence acceleration in coupled
+Monte Carlo–CFD calculations: the Newton method via MonteCarlo Perturbation
+Theory. In: International Conference on Mathematics and Computational Methods
+Applied to Nuclear Science and Engineering, Jeju, Korea, April 16–20, 2017.
+
+Basile, D. et al., 1999. COBRA-EN: An Upgraded Version of the COBRA-3C/MIT Code for
+Thermal–Hydraulic Transient Analysis of Light Water Reactor Fuel Assemblies and
+Cores. Report 1010/1, ENEL/CRTN, Milano.
+
+Bennett, A., Avramova, M., Ivanov, K., 2016. Coupled MCNP6/CTF code: development,
+
+testing, and application. Ann. Nucl. Energy 96, 1–11.
+
+Briesmeister, J.F., 2000. MCNP – A General Monte Carlo N-Particle Transport Code,
+
+Version 4C, LA-13709-M. Los Alamos National Laboratory, USA.
+
+CASL, 2015. COBRA-TF Subchannel Thermal-Hydraulics Code (CTF) Theory Manual.
+
+March, 10, 2015. Pennsylvania State University, USA.
+
+Folk, M., Heber, G., Koziol, Q., Pourmal, E., Robinson, D., 2011. An overview of the HDF5
+
+technology suite and its applications. In: Edbt/icdt Workshop on Array Databases,
+Uppsala, Sweden, March. 2011, pp. 36–47.
+
+Goorley, J.T., 2013. . Initial MCNP6 Release Overview. Los Alamos National Labs
+
+Tech.Rep. la-ur-13-22934.
+
+Guo, J.J., Liu, S.C., Shen Q.C., Huang, S.F., Wang, K., 2017b. A versatile method of
+
+coupled neutronics/thermal-hydraulics based on HDF5. In: M&C 2017 – International
+Conference on Mathematics & Computational Methods Applied to Nuclear Science &
+Engineering, Jeju, Korea, April 16–20.
+
+Guo, J.J., Liu, S.C., Shang, X.T., Wang, K., 2016. Neutronics/thermal-hydraulics coupling
+with RMC and CTF for BEAVRS benchmark calculation. Trans. Am. Nucl. Soc. 115,
+1281–1284.
+
+Guo, J.J., Liu, S.C., Shang, X.T., Huang, S.F., Wang, K., 2017a. Coupled Neutronics/
+Thermal-hydraulics analysis of a full PWR core using RMC and CTF. Ann. Nucl.
+Energy 109, 327–336.
+
+Hendricks, J.S., McKinney, G.W., Fensin, M.L., et al., 2007. MCNPX, Version 26D. Los
+
+Alamos National Laboratory LA-UR-07-4137.
+
+Hoogenboom, J.E., Ivanov, A., Sanchez, V., Diop, C., 2011. A ﬂexible coupling scheme for
+
+Monte Carlo and thermal-hydraulics codes. In: International Conference on
+Mathematics and Computational Methods Applied to Nuclear Science and
+Engineering, Rio de Janeiro, RJ, Brazil, May 8–12.
+
+Horelik, N., Herman, B., 2012. Benchmark for Evaluation and Validation of Reactor
+
+Simulations. MIT Computational Reactor Physics Group, URL.
+
+Kuehn, J.A., 1996. Faster Libraries for Creating Network-Portable Self-Describing
+
+Datasets. Cray User Group.
+
+Li, S., Wang, K., Yu, G., 2012b. A doppler broadening and Monte Carlo coupling code for
+
+temperature-dependent problems. In: 2012 ANS Annual Meeting–Nuclear Science
+and Technology: Managing the Global Impact of Economic and Natural Events,
+Chicago, IL, USA.
+
+Li, Z.Q., Kong, D.P., Liao, Z.J., et al., 2007. Qinshan npp fuel management strategy im-
+
+provement and implement. China Nucl. Sci. Technol. Rep. 21 (2), 1151–1160.
+
+Li, L.S., Yuan, H.M., Wang, K., 2012a. Coupling of RMC and CFX for analysis of pebble
+
+bed-advanced high temperature reactor core. Nucl. Eng. Des. 250, 385–391.
+
+Liang, J., Cai, Y., Wang, K., 2012. Study on domain decomposition method for Monte
+
+Carlo simulation of neutron transport. In: Asian-Core University Program on
+Advanced Energy Science – International Symposium on Advanced Energy Systems
+and Materials, Aomori, Japan.
+
+Liu, S.C., Yu, J.K. Liang, J.G., Wang, K., 2015. Study of neutronics and thermal-hydraulics
+coupling with RMC COBRA-EN system. In: 7th International Conference on Modelling
+and Simulation in Nuclear Science and Engineering (7ICMSNSE), Ottawa, Ontario,
+Canada, October 18–21.
+
+Liu, H.F., Zhang, B.H., Zhang, S., et al., 2016a. Full reactor core calculation performance
+validation of SuperMC based on Hoogenboom benchmark. Nucl. Tech. 39 (4), 80–84.
+Liu, S.C., Yuan, Y., Yu, J.K., Wang, K., 2016b. Development of on-the-ﬂy temperature-
+dependent cross-sections treatment in RMC code. Ann. Nucl. Energy 94, 144–149.
+
+Liu, S.C., Yuan, Y., Yu, J.K., Wang, K., 2016c. Reaction rate tally and depletion calculation
+
+with on-the-ﬂy temperature treatment. Ann. Nucl. Energy 92, 277–283.
+
+Marchisio, D.L., Vigil, R.D., Fox, R.O., 2003. Implementation of the quadrature method of
+moments in cfd codes for aggregation–breakage problems. Chem. Eng. Sci. 58 (15),
+3337–3351.
+
+Noor, M.A., 2001. A predictor-corrector algorithm for general variational inequalities.
+
+Appl. Math. Lett. 14 (1), 53–58.
+
+Salko, R., Schmidt, R., Avramova, M., 2015. Optimization and parallelization of the
+
+thermal–hydraulic subchannel code CTF for high-ﬁdelity multi-physics applications.
+Ann. Nucl. Energy 84, 122–130.
+
+Sanchez, V., Imke, U., Ivanov, A., Gomez, R., 2010. SUBCHANFLOW: a thermal-hydraulic
+sub-channel program to analyse fuel rod bundles and reactor cores. In: Proceedings of
+the 17th Paciﬁc Basin Nuclear Conference, Cancún, Q.R., México, October 24–30,
+2010.
+
+She, D., Wang, K., Yu, G., 2012. Asymptotic wielandt method and superhistory method
+
+for source convergence in Monte Carlo criticality calculation. Nucl. Sci. Eng. 172,
+127–137.
+
+She, D., Liu, Y., Wang, K., et al., 2013. Development of burnup methods and capabilities
+
+in Monte Carlo code RMC. Ann. Nucl. Energy 51, 289–294.
+
+Vazquez, M., Martin-Fuertes, F., Ivanov, A., 2013. Experience in neutronic/thermalhy-
+
+draulic coupling in Ciemat. In: 2nd Serpent International Users Group Meeting.
+
+Wang, K., Li, Z., She, D., Liang, J., Xu, Q., 2015. RMC – a Monte Carlo code for reactor
+
+core analysis. Ann. Nucl. Energy 82, 121–129.
+
+Wang, K., Li, Z., et al., 2011. Progress on RMC – a Monte Carlo neutron transport code for
+
+reactor analysis. In: International Conference on Mathematics and Computational
+Methods Applied to Nuclear Science and Engineering, Rio deJaneiro, Brazil.
+
+Wheeler, C.L., Stewart, C.W., Cena, R.J., Rowe, D.S., Sutey, A.M., 1976. COBRA-IV-I: An
+
+Interim Version of COBRA for Thermal-Hydraulic Analysis of Rod Bundle Nuclear
+Fuel Elements and Cores. Computer Codes.
+
+Wu, Z.Y., Yang, W.S., Shi, S.B., Ishii, M., 2015. Core design studies for a BWR-based small
+
+modular reactor with long-life core. Trans. Am. Nucl. Soc. 112, 751–754.
+
+98
+
+

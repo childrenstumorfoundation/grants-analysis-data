@@ -1,0 +1,1385 @@
+Cancer Cell
+
+Perspective
+
+Dragging Ras Back in the Ring
+
+Andrew G. Stephen,1 Dominic Esposito,1 Rachel K. Bagni,1 and Frank McCormick1,2,*
+1Leidos Biomedical Research, Inc., Frederick National Laboratory for Cancer Research, P.O. Box B, Frederick, MD 21702, USA
+2UCSF Helen Diller Family Comprehensive Cancer Center, Room 371, 1450 3rd Street, P.O. Box 589001, San Francisco, CA 94158-9001, USA
+*Correspondence: mccormic@cc.ucsf.edu
+http://dx.doi.org/10.1016/j.ccr.2014.02.017
+
+Ras proteins play a major role in human cancers but have not yielded to therapeutic attack. Ras-driven can-
+cers are among the most difﬁcult to treat and often excluded from therapies. The Ras proteins have been
+termed ‘‘undruggable,’’ based on failures from an era in which understanding of signaling transduction, feed-
+back loops, redundancy, tumor heterogeneity, and Ras’ oncogenic role was poor. Structures of Ras onco-
+proteins bound to their effectors or regulators are unsolved, and it is unknown precisely how Ras proteins
+activate their downstream targets. These knowledge gaps have impaired development of therapeutic strate-
+gies. A better understanding of Ras biology and biochemistry, coupled with new ways of targeting undrug-
+gable proteins, is likely to lead to new ways of defeating Ras-driven cancers.
+
+Fifty years have passed since the transforming power of Ras
+genes was ﬁrst recognized. Harvey sarcoma virus, Kirsten sar-
+coma virus, and Rasheed sarcoma virus contain Ras genes (so
+named for their role in forming rat sarcomas; reviewed in Barba-
+cid, 1987; Karnoub and Weinberg, 2008). These retroviruses
+initiated tumors efﬁciently and, using temperature-sensitive mu-
+tants, were shown to be necessary for tumor maintenance (Shih
+et al., 1979). They formed part of a fascinating collection of
+retroviruses that was assembled in the 1970s, each able to trans-
+form cells in culture and in avian and rodent models. These ex-
+periments were, essentially, unbiased screens for genes that
+cause cancer; the nature of the proteins that the genes encoded
+was completely unknown. Remarkably, the majority of these
+viruses encoded proteins that were later identiﬁed as compo-
+nents of
+the tyrosine kinase-Ras signaling pathway (Vogt,
+2012), even though the biochemical nature of these proteins
+was unknown, and tyrosine kinase activity had not been discov-
+ered (Eckhart et al., 1979). Of the hundreds of mutant proteins
+now known to contribute to cancer that could have been identi-
+ﬁed in these assays, including those involved in DNA repair,
+cellular metabolism, RNA splicing, and the other hallmarks of
+cancer (Hanahan and Weinberg, 2011), those in the tyrosine
+kinase-Ras pathway stand out as the major drivers and have
+been the richest source of targets of successful cancer therapies
+(Abl, epidermal growth factor receptor [EGFR], Her2/neu, B-Raf,
+Kit, ALK, etc.). These successes can therefore be attributed to
+the central, dominant role of this pathway in cancer, as well as
+the fortuitous abundance of druggable targets.
+
+However, speciﬁc therapies have not been developed for
+mutant Ras proteins themselves or for the cancers that they
+drive. Worse yet, tumors driven by Ras genes are excluded
+from treatment with other targeted therapies. Early efforts to
+block Ras cancers by preventing Ras farnesylation, once
+thought to be an essential posttranslational modiﬁcation for
+Ras activity, were thwarted by the unexpected presence of a
+backup system (geranylgeranyltransferase) that restored activity
+of K-Ras and N-Ras after farnesyltransferase treatment. Like-
+wise, efforts to kill Ras cancers by blocking one of Ras’ major
+downstream effectors, Raf kinase (Figure 1), ran into the unex-
+pected discovery that, in Ras-transformed cells, Raf inhibitors
+
+272 Cancer Cell 25, March 17, 2014 ª2014 Elsevier Inc.
+
+activate the pathway rather than inhibit it (see below and discus-
+sion in Holderﬁeld et al., 2013 and Lito et al., 2013). MAP kinase
+kinase (MEK) inhibitors and phosphatidylinositol 3-kinase (PI3K)
+inhibitors have not yet shown signiﬁcant clinical activity in Ras
+cancers, for reasons relating to feedback loops and poor thera-
+peutic windows, among other issues discussed below.
+
+A convergence of urgent unmet clinical needs and advances in
+drug discovery has energized new efforts to target Ras cancers
+within academic centers and in the biopharmaceutical industry.
+To catalyze these renewed efforts, the National Cancer Institute
+recently launched a national Ras program at Frederick National
+Laboratory for Cancer (see http://RasCentral.org), whose goal
+is to ﬁll critical knowledge gaps that are essential to target Ras
+cancers effectively and to engage the research community
+toward solving the Ras problem. Here, we will discuss some of
+these knowledge gaps, as well as recent advances and the chal-
+lenges that lie ahead.
+
+Ras Mutations in Cancer
+Ras genes were the ﬁrst oncogenes identiﬁed in human cancer
+cells. In a series of classic experiments, the groups of Weinberg,
+Cooper, Barbacid, and Wigler independently identiﬁed the trans-
+forming genes from T24/EJ bladder carcinoma cells as H-Ras
+(Der et al., 1982; Parada et al., 1982; Santos et al., 1982; Tapar-
+owsky et al., 1982). More than 30 years later, Ras genes are well
+established as the most frequently mutated oncogenes in human
+cancer (Table 1), though H-Ras itself is rarely one of them.
+Although these numbers are, by now, painfully familiar, they
+underscore major gaps in our knowledge of Ras biology. Most
+obviously, we do not understand why K-Ras mutation is much
+more frequent in human cancer than N-Ras or H-Ras, even
+though each of these is a powerful transforming gene in model
+systems, and all forms are expressed widely in adult tissues
+and in tumors.
+
+A simple explanation for the high frequency of K-Ras muta-
+tions, relative to H-Ras and N-Ras, is that the K-Ras protein
+has unique properties that favor oncogenesis. At ﬁrst sight, this
+seems unlikely because the Ras proteins are highly conserved,
+especially in their effector-binding regions where they are actu-
+ally identical. However, K-Ras, but not N-Ras or H-Ras, confers
+
+Cancer Cell
+
+Perspective
+
+Figure 1. Simpliﬁed View of the Ras
+Pathway
+Ras proteins are converted from their GDP state to
+their GTP state by GEFs, in response to upstream
+signals (Bos et al., 2007). GAPs convert Ras-GTP
+back to Ras-GDP. p120 GAP does this when re-
+cruited to activated RTKs. The signal that directs
+NF1 (neuroﬁbromin)/SPRED to inactivate Ras is
+not known. Several other GAPs are capable of
+downregulating Ras (Bos et al., 2007). Ras-GTP
+binds and activates multiple downstream effec-
+tors. The group of proteins shown on the left in-
+cludes potential effectors whose signiﬁcance is
+less well understood relative to RalGDS, Raf
+kinases, and PI3Ks (Gysin et al., 2011). Protein
+families are represented as single proteins to
+simplify the schematic; in addition, feedback loops
+are not included.
+
+stem-like properties on certain cell types (Quinlan and Settle-
+man, 2009). K-Ras-4B, the most highly expressed splice variant
+of K-Ras, binds calmodulin; H-Ras and N- Ras do not (Villalonga
+et al., 2001). We believe that this unique property of K-Ras-4B
+confers stem-like properties to cells expressing oncogenic
+K-Ras-4B proteins (M. Wang and F.M., unpublished data).
+
+Analysis of human syndromes caused by germline mutations
+in H-Ras or K-Ras supports the idea that K-Ras is a stronger
+oncogene. Unexpectedly, humans can tolerate germline-acti-
+vating mutations in H-Ras—the same activating mutations that
+drive somatic mutations. Costello syndrome, which is character-
+ized by germline H-Ras mutations, is associated with a broad
+spectrum of developmental abnormalities and a high risk for
+rhabdomyosarcomas and neuroblastomas (reviewed in Rauen,
+2013). It is puzzling that these individuals do not succumb
+to malignancies associated with sporadic H-Ras mutations
+(Table 1). Although fully activating alleles of H-Ras can be toler-
+ated, fully activated alleles of K-Ras may not. Variant alleles of
+K-Ras that account for a small fraction of Noonan’s syndrome
+and cardiofaciocutaneous syndrome are weakly activated rela-
+tive to their sporadic oncogenic counterparts (Schubbert et al.,
+2007).
+
+Further support for the idea that K-Ras has functions distinct
+from H-Ras and N-Ras comes from analyses of the roles of
+Ras genes in development. Mice that lack K-Ras die during
+embryogenesis, whereas mice lacking H-Ras and/or N-Ras are
+viable (Johnson et al., 1997). However, replacing K-Ras with
+H-Ras at the K-Ras genomic locus allows mice to develop, sug-
+gesting that differential regulation of K-Ras and H-Ras gene
+expression determines their relative importance in development
+rather than the properties of the proteins themselves (Potenza
+et al., 2005). Furthermore, Balmain and colleagues discovered
+that these H-Ras knock-in mice develop tumors in response to
+carcinogens at normal frequencies, except that they are now
+driven by H-Ras instead of K-Ras (To et al., 2008). These data
+argue strongly that the locus is critical and that the speciﬁc
+Ras paralog encoded at that locus does not affect the frequency
+at which tumors arise. Equally important, they ﬁnd that K-Ras-
+4A, not K-Ras-4B, is necessary for lung tumor initiation, although
+
+K-Ras-4B is much more highly expressed
+during progression. This supports the
+idea that K-Ras-4B is the more important
+target in established tumors but raises the concern that K-Ras-
+4A may have an important role in minor stem-like populations
+of established tumors. These ﬁndings point toward an urgent
+need to validate K-Ras-4A and K-Ras-4B as drug targets, a
+major issue that has not yet been addressed.
+
+Different frequencies of K-Ras, N-Ras, and H-Ras mutations
+in human tumors may also reﬂect differences in gene expression
+resulting from differential codon usage; rare codons limit K-Ras
+expression and thus allow more efﬁcient oncogenesis by pre-
+venting oncogene-induced senescence (Lampson et al., 2013).
+In addition, different rates of DNA repair have been reported
+for the K-Ras gene relative to N-Ras and H-Ras (Feng et al.,
+2002).
+
+The underlying reasons for different frequencies of speciﬁc
+activating mutations are not well understood either. Some of
+these differences reﬂect different mutagenic insults to the
+genome; the G12C mutation, for example, is a hallmark of expo-
+sure to tobacco smoke and, accordingly, is the most common
+mutation in K-Ras in lung cancer (reviewed in Prior et al., 2012;
+Table 2). Other differences in frequency may reﬂect different bio-
+logical properties of mutant proteins. For example, G12C and
+G12V K-Ras mutations in lung adenocarcinoma preferentially
+activate the RalGDS pathway, whereas G12D prefers the Raf/
+mitogen-activated protein kinase (MAPK) and PI3K pathways
+(Ihle et al., 2012). In addition, mutations at codon 61 have a
+more profound effect on intrinsic GTPase when these Ras
+proteins are bound to Raf kinase. This may drive a stronger
+signal through this effector pathway and account for higher fre-
+quency of N-Ras position 61 mutations in melanoma, a disease
+frequently driven by hyperactivation of Raf kinase through B-Raf
+mutations (Buhrman et al., 2010).
+
+From a clinical viewpoint, lung adenocarcinomas driven by
+K-Ras mutations at G12C and G12V have a worse outcome
+than G12D, possibly because these mutations engage different
+downstream effectors as described above (Figure 1; Ihle et al.,
+2012). As MEK and PI3K inhibitors are tested in the clinic, it will
+be important to ask whether Ras alleles respond differently to
+these treatments. Patients suffering from cancers driven by
+any of these Ras mutations are excluded from treatment with
+
+Cancer Cell 25, March 17, 2014 ª2014 Elsevier Inc. 273
+
+Cancer Cell
+
+Perspective
+
+Table 2. Incidence of KRAS Mutations in Three Human Cancers
+
+Colorectal
+
+Lung
+
+Pancreas
+
+All KRAS G12C G12D G12V G13D
+
+60,000
+
+5,700 25,000 15,700 13,600
+
+45,600
+
+23,000
+
+9,200 11,900
+
+1,500
+
+32,200
+
+1,000 19,500 11,500
+
+200
+
+Total new cases/year 137,800
+
+29,700 53,700 39,100 15,300
+
+Shown are the numbers of new cancer cases per year in the United States
+that contain the most frequent KRAS mutant alleles. Data are based on
+estimated new case incidence values from the National Cancer Institute
+and primary tumor mutation frequency data from COSMIC v.67.
+
+noma, 8%–10% lung adenocarcinoma, and at single-digit fre-
+quency in most other cancers (E.A. Collisson, personal commu-
+nication). Neuroﬁbromin must now be considered as a major
+tumor suppressor, along with p53 and phosphatase and tensin
+homolog, in human cancers.
+
+Loss of neuroﬁbromin is usually mutually exclusive with Ras
+mutation and receptor tyrosine kinase (RTK) activation, suggest-
+ing that these genetic events represent different ways of acti-
+vating similar pathways. However, the precise consequences
+of losing neuroﬁbromin are not entirely clear. Levels of Ras-
+GTP are high in cells lacking neuroﬁbromin, but which forms of
+hyperactive wild-type Ras proteins are most important to the
+malignant phenotype is a more difﬁcult question. Perhaps
+elevated H-Ras, N-Ras, K-Ras-4A, and K-Ras-4B all contribute
+to some extent. However, neuroﬁbromin is also a GAP for
+R-Ras proteins, and hyperactivation of these proteins can also
+contribute to the malignant phenotype because R-Ras proteins
+activate p110a, p110g, and p110d isoforms of PI3Ks (Marte
+et al., 1997; Huang et al., 2004).
+
+Recently, Legius and colleagues (Brems et al., 2007) discov-
+ered mutations in the Sprouty-related protein, SPRED1, in a
+form of neuroﬁbromatosis type I (NF1) in which the neuroﬁbromin
+gene is wild-type. This disease is now called Legius syndrome
+(Brems et al., 2007). SPRED1 has a well-established pedigree
+as a negative regulator of the Raf/MAPK pathway, though the
+mechanism has been unclear. However, the fact that loss of neu-
+roﬁbromin is, to a signiﬁcant extent, phenocopied by loss of
+SPRED1, supports the idea that NF1 is a disease of hyperactive
+Ras and that the major function of neuroﬁbromin is to turn Ras
+off. The neuroﬁbromin protein itself is over 2,800 amino acids
+in length, and the GAP domain only accounts for about 300
+amino acids, raising the possibility that neuroﬁbromin has other
+functions that are not directly related to negative regulation of
+Ras. Most attempts to identify additional functions have failed,
+however, and it seems most likely that neuroﬁbromin senses
+an unidentiﬁed cellular metabolite and downregulates Ras
+accordingly, just as p120 Ras-GAP senses phosphotyrosine res-
+idues, and downregulates Ras when it binds to these residues on
+activated receptors in the plasma membrane (reviewed in Bos
+et al., 2007). Whatever neuroﬁbromin senses (if this model is
+correct) is likely to be conserved between S. cerevisiae and hu-
+mans because the S. cerevisiae IRA1 and IRA2 proteins look very
+much like neuroﬁbromin. Unfortunately, the complete lack of any
+recognizable domains or motifs outside the GAP domain and a
+SEC14 domain has not helped in identifying what these proteins
+recognize.
+
+Table 1. Frequency of Ras Isoform Mutations in Selected Human
+Cancers
+
+Primary Tissue
+
+KRAS (%) HRAS (%) NRAS (%)
+
+Total (%)
+
+Pancreas
+
+Colon
+
+Small intestine
+
+Biliary tract
+
+Endometrium
+
+Lung
+
+Skin (melanoma)
+
+Cervix
+
+Urinary tract
+
+71
+
+35
+
+35
+
+26
+
+17
+
+19
+
+1
+
+8
+
+5
+
+0
+
+1
+
+0
+
+0
+
+<1
+
+<1
+
+1
+
+9
+
+10
+
+<1
+
+6
+
+<1
+
+2
+
+5
+
+1
+
+18
+
+2
+
+1
+
+71
+
+42
+
+35
+
+28
+
+22
+
+20
+
+20
+
+19
+
+16
+
+Data were compiled from the Catalogue of Somatic Mutations in Cancer
+(COSMIC) version 67. All human cancers that had total Ras mutation fre-
+quencies above 15% are listed.
+
+cetuximab (colorectal cancer) or erlotinib (lung adenocarcinoma)
+because these treatments are ineffective for cancers with these
+Ras mutations and may even increase rates of progression.
+Likewise, malignant melanomas with mutant N-Ras are ex-
+cluded from treatment with vemurafenib. However, surprisingly,
+K-Ras-G13D-bearing colorectal cancers may show clinical
+beneﬁt when treated with cetuximab. This result challenges our
+understanding of how these Ras mutations actually function in
+clinical situations (De Roock et al., 2010).
+
+Even the prototypic oncogenes of Harvey and Kirsten sar-
+coma viruses are not fully understood; each has a codon 12 mu-
+tation, but each also carries a mutation of alanine 59 to threonine,
+which becomes phosphorylated by guanosine triphosphate
+(GTP). This must have helped Scolnick and colleagues (Shih
+et al., 1979) identify Ras’ crucial guanosine diphosphate (GDP)/
+GTP properties; without covalent phosphorylation, association
+with these nucleotides would have been very hard to detect.
+However, how phosphorylation at threonine 59 contributes to
+Ras’ potent oncogenicity is unclear. This A59T mutation inhibits
+Ras-Raf interaction (Shirouzu et al., 1994) and is extremely rare
+in human cancer. These anecdotes simply remind us that after
+50 years, we still have a lot to learn about the biological and
+biochemical functions of Ras proteins.
+
+Although K-Ras has emerged as by far the major Ras gene
+mutated in human cancer, it is surprising that other activating
+mutations in other members of the Ras superfamily, such as
+R-Ras or Rap proteins, occur very rarely. This is surprising
+because these proteins share identical or near-identical
+effector-binding regions. However, only H-Ras, N-Ras, and
+K-Ras are capable of binding and activating Raf kinases, and
+this unique property may well account for their predominance
+as human oncogenes. In contrast, the closely related R-Ras pro-
+teins bind and activate PI3Ks but are rarely mutated in human
+cancer (Rodriguez-Viciana et al., 2004).
+
+Activating mutations in Ras genes, coupled with a long history
+of Ras biology, implicate these mutant Ras proteins as major
+drivers in many cancers. Loss of the Ras GTPase-activating
+protein (GAP) neuroﬁbromin inculpates hyperactive wild-type
+Ras proteins as drivers in many more cancers. Somatic loss of
+neuroﬁbromin expression by mutation, deletion, or by other
+means occurs in about 14% glioblastoma, 13%–14% mela-
+
+274 Cancer Cell 25, March 17, 2014 ª2014 Elsevier Inc.
+
+Cancer Cell
+
+Perspective
+
+Figure 2. Structure Showing Small Molecule-Directed Electrophilic
+Attack of K-Ras-G12C
+K-Ras-G12C (Protein Data Bank 4LUC_A) is displayed in surface represen-
+tation. The cocrystallized ligands, GDP and N-(1-[(2,4-dichlorophenoxy)acetyl]
+piperidin- 4-yl)-4-sulfanylbutanamide, are shown in stick mode. The location of
+calcium ion is shown as a green ball. Switch 1 (28–38) and switch 2 (57–63) are
+highlighted by orange and red colors, respectively. Key ligand-interacting
+residue (C12, V9, V7, F78, I100, M72, Q99, and R68) positions are colored
+green. Position of C12 residue is shown in ball and stick (green). Note that
+residues 58 and 60 are part of both switch 2 and the key ligand-interacting
+group (shown in blue).
+
+By comparing proteins that bind to wild-type SPRED1 versus
+mutants from Legius syndrome, we found that neuroﬁbromin
+binds directly to SPRED proteins, via their EVH1 domains, and
+that SPRED proteins bring neuroﬁbromin to the plasma mem-
+brane (Stowe et al., 2012). SPRED proteins also bind to c-Kit,
+and perhaps to other RTKs, suggesting that neuroﬁbromin regu-
+lates Ras locally in response to speciﬁc receptor signaling, rather
+than simply suppressing Ras throughout the plasma membrane.
+In this case, loss of neuroﬁbromin may lead to local activation of
+Ras that is coupled to speciﬁc receptors, suggesting that inhib-
+itors of these receptors might reverse the effects of neuroﬁbro-
+min loss. The recent Cancer Genome Atlas analysis of mutations
+in lung cancer revealed an intriguing overlap between neuroﬁ-
+bromin loss and Met ampliﬁcation, suggesting a functional
+connection that merits further investigation (E.A. Collisson, per-
+sonal communication).
+
+Validation of Ras as a Target
+Ras oncogenes can certainly initiate cancer in model organisms
+and probably do so in humans. However, their role in maintaining
+tumors is less clear. There is signiﬁcant evidence that supports
+K-Ras as a continued candidate for direct therapeutic targeting,
+dating back to the classic studies of temperature-sensitive mu-
+tants of Ras, by Scolnick, Lowy, and colleagues and including
+microinjection studies with antibodies that block Ras activity
+(Kung et al., 1986) or block speciﬁc mutant alleles of Ras (Fera-
+misco et al., 1985). Ablation of K-Ras in mouse models of lung
+adenocarcinoma (Fisher et al., 2001) or pancreas cancer (Ying
+et al., 2012) led to dramatic tumor regression, just as ablation
+of H-Ras leads to tumor regression in mouse models of mela-
+noma (Chin et al., 1999). On the other hand, K-Ras knockdown
+
+in human cell lines resulted in a spectrum of responses, revealing
+a range of K-Ras dependencies (Singh et al., 2009). Assessment
+of Ras dependency in 3D culture systems suggests that this
+assay system is a more stringent measure of Ras dependency.
+These studies raise the question of what is the most relevant
+system to measure this essential parameter and, in general, re-
+sponses to candidate therapeutics targeting K-Ras. Further-
+more, the degree to which Ras genes are knocked down may
+be critical. Genetic ablation is obviously different than small
+interfering RNA- or small hairpin RNA (shRNA)-mediated knock-
+down. It is also clear that knocking down activated Ras can
+lead to hyperactivation of upstream pathways, such as EGFR
+signaling (Young et al., 2013). Presumably, these pathways are
+suppressed in cells with activated Ras and rebound when the
+suppressor is removed. Although this rebound effect may not
+be sufﬁcient to sustain a malignant phenotype, it may offset pro-
+apoptotic effects associated with oncogene inactivation.
+
+Do K-Ras Therapies Have to Be Allele Speciﬁc?
+The most speciﬁc way to block oncogenic Ras would be to target
+the activating substitution itself. The ﬁrst example was recently
+published by Shokat and colleagues, who identiﬁed electrophilic
+compounds that react covalently with cysteine-12 in G12C
+mutant K-Ras (Ostrem et al., 2013). These compounds interact
+selectively with the GDP form of K-Ras-G12C protein (Figure 2)
+and bind at a pocket near switch 2 that had not been apparent
+from analysis of crystal structures. A similar approach led to
+the identiﬁcation of a GDP analog that covalently and speciﬁcally
+binds G12C and renders this oncogenic protein inactive (Lim
+et al., 2014). Perhaps other compounds could be identiﬁed that
+interact speciﬁcally with the G12D and G13D mutant forms using
+similar strategies. These brilliant experiments remind us that
+these proteins are in dynamic and ﬂexible states that might
+present more opportunities for small molecule attack than was
+previously realized. Indeed, it is well established that Ras-GTP
+exists in two states, only one of which is active and each with
+distinct binding properties for effectors, GAPs, and nucleotide
+(Geyer et al., 1996; Liao et al., 2008).
+
+The idea of targeting the GDP-bound form of an oncogenic
+mutant seems counterintuitive because we often think of onco-
+genic mutants as being locked in their GTP-bound states,
+signaling persistently downstream. However, codon 12 mutants
+retain measurable intrinsic GTPase activity, even though they are
+all refractory to GAP-mediated GTPase stimulation. Although
+GTP hydrolysis rates are slow, the GDP off rates are also slow,
+and indeed, oncogenic mutants often exist with similar levels
+of GTP and GDP: if intrinsic GTPase and GDP off rates were
+identical, Ras proteins would be 50% GTP bound and 50%
+GDP bound. This presents an opportunity for targeting the
+GDP-bound state and trapping it in the off state and so prevent-
+ing recharging with GTP.
+
+As an alternative to targeting speciﬁc Ras mutants, such as
+G12C, compounds could be developed that target individual
+Ras isoforms but do not discriminate between wild-type and
+mutant Ras proteins. This could be achieved by targeting spe-
+ciﬁc hypervariable regions at the C terminus where the Ras pro-
+teins differ most widely (Figure 3). The C-terminal hypervariable
+region of K-Ras-4B is very different from the hypervariable
+regions of other Ras proteins and is involved in the speciﬁc
+
+Cancer Cell 25, March 17, 2014 ª2014 Elsevier Inc. 275
+
+Cancer Cell
+
+Perspective
+
+Whether oncogenic Ras proteins are regulated at all by Sos
+and other GEFs has been surprisingly difﬁcult to determine deﬁn-
+itively, partly because there are many types of GEFs in mamma-
+lian cells. Furthermore, GEFs such as Sos have allosteric sites for
+Ras binding as well as sites for GDP/GTP exchange, and it is
+hard to measure GTP loading on individual Ras isoforms in cells.
+However, it is clear that mutant Ras proteins are not 100% GTP
+bound, and GEFs could increase the fraction of Ras-GTP to
+some extent. However, targeting Sos or other GEFs for treating
+mutant Ras cancers does not appear an attractive proposition.
+Oncogenic mutants may or may not depend on GEFs, to some
+degree, but wild-type Ras proteins most certainly do. For
+these reasons, recent efforts to target mutant Ras that led
+to compounds that bind at the Sos-binding site may seem
+disappointing (Maurer et al., 2012; Sun et al., 2012). However,
+the compounds that these groups discovered could be excel-
+lent starting points toward the discovery of compounds that
+have selectivity for mutant forms of K-Ras or block effector
+interactions.
+
+Restoring GTP Hydrolysis
+Mutations at codons 12, 13, and 61 inhibit GAP-mediated GTP
+hydrolysis. As a result, mutant Ras proteins accumulate with
+elevated GTP-bound proportion. Trahey and McCormick
+discovered GAP while seeking to explain how relatively small
+changes in intrinsic GTPase between wild-type and mutant
+Ras proteins accounted for profound differences in transforming
+activity (Trahey and McCormick, 1987). Intrinsic rates of GTP hy-
+drolysis are ﬁve orders of magnitude slower than rates catalyzed
+by GAPs and therefore do not contribute signiﬁcantly to steady-
+state levels of Ras-GTP. However, once Ras proteins bind effec-
+tors, GAPs can no longer interact, and intrinsic GTPase may
+become important in determining how long Ras and its effectors
+remain engaged.
+Indeed, effector binding may well affect
+intrinsic GTPase activity of Ras as it does for heterotrimeric G
+proteins. If indeed intrinsic GTPase limits signal output, perhaps
+assays for compounds that stimulate intrinsic GTPase of Ras
+effector complexes may merit consideration. Mattos and col-
+leagues recently showed that the Ras-binding domain of Raf
+(the RBD) has a profound effect on suppressing intrinsic hydro-
+lysis rates of Ras Q61 mutants, but not wild-type Ras or G12V
+mutants (Buhrman et al., 2010). They propose that suppression
+of intrinsic GTPase stabilizes Ras-Raf complexes and increases
+signal output to the MAPK pathway selectively; this accounts for
+the preference of Q61 mutants over G12 mutants in melanoma, a
+disease that is clearly Raf-MAPK driven (Buhrman et al., 2010).
+In the 1980s, several groups, including those at Cetus and
+Hoffmann La Roche, screened for compounds that restore
+GTP hydrolysis to mutant Ras, in the presence or absence of
+GAP. These screens failed to ﬁnd compounds that increased
+GTPase rates. Furthermore, as structures of Ras proteins
+emerged, mostly from Wittinghofer’s group, it became clear
+that codon 12 substitutions presented a steric block to GAP-
+mediated GTP hydrolysis that could not be overcome by a small
+molecule. These studies were mostly based on G12V mutations
+because these were the most widely used at that time. Whether
+the same conclusion can be applied to other mutations such as
+G12D or G13D remains to be seen because structures of these
+proteins bound to GAP have not been solved.
+
+Figure 3. Schematic Representation of the Ras Isoforms
+The structures of the G domain of H-Ras, N-Ras, and K-Ras have been solved
+and are virtually identical, but the structure of processed hypervariable
+regions has not been solved and is therefore depicted as a linear sequence.
+Lipid modiﬁcations with farnesyl (purple) and palmitoyl (orange) chains are
+shown.
+
+interaction of K-Ras-4B with calmodulin (Lopez-Alcala´ et al.,
+2008). Because K-Ras-4B seems to be the major form of
+K-Ras in established tumors, these speciﬁc biochemical proper-
+ties may afford unique opportunities for therapeutic attack.
+Mouse models suggest that such compounds would be well
+tolerated because animals lacking any single isoform of Ras
+are viable (A. Balmain, personal communication).
+
+Targeting GDP/GTP Binding and Exchange
+Ras proteins bind GDP and GTP with picomolar afﬁnity. It is
+generally accepted that oncogenic Ras proteins cannot be
+attacked with nucleotide analogs because high GTP concentra-
+tions make competition impossible. The high afﬁnity for GTP is
+also considered a barrier, though it is easy to imagine that ana-
+logs could be developed with equally high afﬁnity. This approach
+to targeting Ras has therefore been abandoned. However, Ras
+proteins in their GTP state exist in complexes with effectors
+(Raf kinases, RalGDS, PI3K, other Ras-binding proteins), as
+well as regulators (GAPs and guanine nucleotide exchange fac-
+tors [GEFs]). The effects of most of these proteins on nucleotide
+binding have not been measured. GEFs, of course, greatly
+reduce the afﬁnity for nucleotides, allowing GDP to be released
+rapidly and replaced by GTP. Although oncogenic mutants do
+not need GEFs to put them in the active state, they are still sen-
+sitive to GEF-mediated exchange and cycle through a complex
+state in which nucleotide-free Ras protein is bound to the GEF;
+this may provide a potential opportunity for a mutant-speciﬁc
+nucleotide analog to bind. In support of this, we noted many
+years ago that antibodies directed against speciﬁc codon 12 mu-
+tants were effective at reversing transformation in cells, as cited
+above, yet these antibodies do not bind to nucleotide-loaded
+Ras (Clark et al., 1985). We therefore speculate that oncogenic
+Ras exists in a nucleotide-free state frequently enough to make
+it vulnerable to attack.
+
+276 Cancer Cell 25, March 17, 2014 ª2014 Elsevier Inc.
+
+Cancer Cell
+
+Perspective
+
+The approach of restoring GTP hydrolysis to mutant proteins
+received a brief infusion of hope when Scheffzek and colleagues
+showed that G12V H-Ras could indeed hydrolyze a GTP analog
+diaminobenzophenone-phosphoroamidate-GTP in which the
+aromatic amino group mimics the catalytic effects of GAP’s
+arginine ﬁnger (Ahmadian et al., 1999). A small molecule that
+provided this local charge might therefore trick mutant Ras
+into GTP hydrolysis. At ﬁrst sight, the GTD-/GTP-binding site
+of Ras does not offer any room for such a molecule to bind.
+However,
+these issues deserve rethinking—perhaps G12D
+offers more possibilities for this kind of attack than G12V, for
+example.
+
+Targeting Ras Posttranslational Modiﬁcation Pathways
+Ras proteins are processed in several steps (reviewed in Gysin
+et al., 2011), including farnesylation, proteolytic cleavage at the
+C terminus by RCE1, and carboxymethylation by isoprenylcys-
+teine carboxyl methyltransferase (ICMT). K-Ras-4A, H-Ras,
+and N-Ras are further processed by palmitoylation (Figure 3).
+These reactions are not only essential for plasma membrane
+localization but also for Raf kinase activation. The failure of farne-
+syltransferase inhibitors has been well documented. By sheer
+bad luck, the forms of Ras that play the major roles in human
+cancer, K-Ras and N-Ras, can be geranylgeranylated when far-
+nesyltransferase is inhibited, allowing newly synthesized Ras
+proteins to be inserted correctly in the membrane and to function
+normally. H-Ras, on the other hand, is not geranylgeranylated,
+suggesting that tumors driven by mutant H-Ras, such as bladder
+cancer or thyroid cancer, might be susceptible to farnesyltrans-
+ferase inhibition. Targeting RCE1 or ICMT has also been evalu-
+ated, though the consequences of blocking these enzymes are
+difﬁcult to predict or understand. For example, inhibition of either
+enzyme can actually lead to increased Ras-mediated tumorigen-
+esis (Court et al., 2013; Wahlstrom et al., 2007).
+
+Palmitoylation and depalmitoylation of H-Ras, K-Ras-4A, and
+N-Ras proteins provide dynamic aspects to membrane localiza-
+tion and may present therapeutic opportunities for these pro-
+teins. Recent work demonstrated that acyl protein thioesterase
+1 (APT1), which is responsible for Ras depalmitoylation, could
+be targeted by palmostatin B to selectively inhibit the growth
+of N-Ras mutant leukemia cells (Xu et al., 2012). In contrast,
+K-Ras-4B localization seemed relatively static and stable: spe-
+ciﬁc localization of K-Ras-4B to plasma membranes is based
+on electrostatic interactions between lysine residues in the hy-
+pervariable region and phospholipids in the membrane. How-
+ever, another therapeutic opportunity has been presented by
+the discovery that PDE6d acts as a solubilizing factor that
+modulates Ras proteins by sustaining their dynamic distribution
+in cellular membranes. A small molecule was identiﬁed that pre-
+vents association of K-Ras-4B, and other proteins, with PDEd
+and so delocalizes these proteins and inhibits downstream
+signaling (Zimmermann et al., 2013). Little is still known about
+the trafﬁcking of Ras to and from the membrane, and there are
+likely to be additional factors or chaperones involved in the
+movement of the proteins that could serve as targets for small
+molecules. In a related study, K-Ras-4B was shown to undergo
+retrograde trafﬁcking from the plasma membrane to endomem-
+branes. This may serve as an additional pathway to speciﬁcally
+disrupt for therapeutic beneﬁt (Bivona et al., 2006).
+
+In addition to these processing events, several recent papers
+have highlighted other posttranslational modiﬁcations of K-Ras
+that could serve as therapeutic targets. Mono-ubiquitination at
+Lys147 has been shown to enhance GTP loading and effector-
+binding afﬁnity of K-Ras (Sasaki et al., 2011), suggesting that
+targeting of ubiquitin pathway enzymes might have an effect
+on K-Ras activity. Acetylation of Lys104 was shown to decrease
+GEF-induced nucleotide exchange, leading to reduced transfor-
+mation efﬁciency in cells, and the deacetylases SIRT2 and
+HDAC6 were shown to regulate the level of acetylation of
+K-Ras (Yang et al., 2013), suggesting that inhibitors of these
+enzymes might have an effect on the oncogenic potential of
+mutant K-Ras tumors. Finally, nitrosylation of Cys118 in H-Ras
+has been shown to activate Ras by enhancing nucleotide disso-
+ciation, leading to higher levels of GTP-bound protein. The eNos
+protein was identiﬁed as a strong enhancer of nitrosylation and
+therefore could also be a therapeutic target to attack mutant
+Ras (Lim et al., 2008).
+
+Downstream Pathways and Drug Targets
+When it became clear that targeting mutant Ras proteins directly
+was technically impossible with the tools available at that time,
+the search for drugs that block Ras activity moved downstream.
+In the early 1990s, the MAPK pathway and the PI3K pathway
+were known to be downstream of Ras (Figure 1). In 1993, four
+groups showed that Ras binds directly to Raf kinase (Moodie
+et al., 1993; Van Aelst et al., 1993; Warne et al., 1993; Zhang
+et al., 1993), and later, activation of Raf kinase by Ras was
+achieved in vitro (Stokoe and McCormick, 1997). This was unex-
+pectedly difﬁcult; for one thing, Raf activation by Ras required
+fully processed Ras in a lipid environment, and direct binding
+of unprocessed Ras failed to activate the kinase. Furthermore,
+autophosphorylation rapidly shut down Raf kinase in vitro; we
+had to preincubate processed Ras with Raf in the absence of
+ATP before measuring Raf kinase activity. This autophosphory-
+lation accounts, at least in part, for paradoxical activation of
+Raf kinase by Raf inhibitors, a phenomenon that was discovered
+16 years later (reviewed in Holderﬁeld et al., 2013). These issues
+complicate the development of in vitro assays for compounds
+that prevent Ras-dependent activation of Raf kinase, an obvious
+system for therapeutic intervention. Direct blocking of Ras-Raf
+binding with small molecules does not appear to be a promising
+approach because the binding surface (two antiparallel b
+strands) offers no foothold in which a compound could bind.
+However, for example, preventing binding using peptides or by
+indirect allosteric approaches has been considered (see Wu
+et al., 2013).
+
+The drug discovery group at Onyx Pharmaceuticals began
+screening for Raf kinase inhibitors in 1992 after it was able pro-
+duce active c-Raf kinase in baculovirus (by coinfection with
+v-Src) and to reconstitute the MAPK pathway in vitro (Macdonald
+et al., 1993). It was then assumed that in cancer cells with mutant
+Ras, the Raf/MAPK pathway would be hyperactive and that
+drugs that inhibit Raf would be effective ways of treating Ras
+mutant cancers. It was also assumed that MEK and extracellular
+signal-regulated kinase (ERK) inhibitors would have the same
+effect. In hindsight, most of the assumptions were incorrect:
+the Raf/MAPK pathway is not often hyperactive in human cancer
+cells with mutant Ras, as measured by steady-state levels of
+
+Cancer Cell 25, March 17, 2014 ª2014 Elsevier Inc. 277
+
+Cancer Cell
+
+Perspective
+
+The third direct effector arm of Ras signaling that plays a major
+role in human cancer is the RalGDS (Ral guanine nucleotide
+dissociation stimulator) pathway (Figure 1). Perhaps the best
+evidence of the importance of this effector pathway comes
+from demonstration that mice null for RalGDS have reduced
+skin carcinogen-induced tumor incidence, size, and progression
+to malignancy compared to wild-type mice (Gonza´ lez-Garcı´a
+et al., 2005). These data, and many others (Martin et al., 2011;
+Kashatus, 2013), support a role for RalGDS both in vitro and
+in vivo as an important effector pathway utilized by oncogenic
+Ras to drive tumorigenesis that could potentially be exploited
+for therapeutic intervention, although the absence of somatic
+mutations in this effector pathway makes its precise role less
+clear than the Raf/MAPK and PI3K pathways. On the other
+hand, Ral signaling is upstream of NF-kB and TBK1, both of
+which have been implicated as essential genes downstream of
+K-Ras (Neel et al., 2011; Kashatus, 2013).
+
+further implicating the importance of
+
+Other potential Ras effectors that could be important in cancer
+and therefore a source of potential therapeutic targets include
+phospholipase CE and Tiam1, a GEF that stimulates the activa-
+tion of Rac (Figure 1). Rac1 is necessary for K-Ras tumor initia-
+tion,
+this pathway in
+K-Ras tumorigenesis, though not yet providing obvious thera-
+peutic targets (Gysin et al., 2011). Likewise, cyclin D1, NF-kB,
+and Myc are necessary for Ras tumorigenesis; further analysis
+of the role of these pathways may lead to new therapeutic in-
+sights. For example, Puyol et al. (2010) recently demonstrated
+that germline or conditional deletion of Cdk4 led to senescence
+in lung cells expressing activated K-Ras. Furthermore, treatment
+with a Cdk4 inhibitor reduced the growth of K-Ras-driven tu-
+mors. Finally, unbiased shRNA screens have revealed potential
+targets for K-Ras cancers. These include STK33, TBK1, and
+GATA-2. So far, STK33 inhibition does not appear to be a useful
+approach to K-Ras cancers (Weiwer et al., 2012). TBK1 inhibitors
+are still being investigated: this target is of particular interest
+because it
+the well-validated RalGDS pathway.
+GATA2 is also of considerable interest; genetic ablation leads
+to tumor regression in mouse models of adenocarcinoma of
+the lung, and whereas this transcription factor may appear to
+be the least druggable of targets, its role in regulating the protea-
+some suggested therapeutic approaches that appear very
+promising (Kumar et al., 2012).
+
+is part of
+
+Future Prospects
+In this Review, we have summarized some of the challenges of
+targeting Ras cancers. Despite the tremendous progress that
+has been made, we still have to learn a great deal about these
+cancers before we can be conﬁdent that we can treat them effec-
+tively. Recent experience in targeting Raf and MEK has under-
+scored how a pathway that appeared simple and linear is
+extremely complex and poorly understood at the level of detail
+required to shut it down effectively. Nobody expected that Raf
+inhibitors would activate Raf kinase in Ras-transformed cells,
+for example, or that inhibition of downstream kinases like MEK
+would lead to activation of upstream signaling. We need a
+much deeper analysis of the molecular mechanisms underlying
+Ras regulation and effector engagement before we can expect
+to interfere with these mechanisms effectively. It seems to us
+more likely that these deeper insights will
+lead to productive
+
+phospho-MEK or phospho-ERK. Raf inhibitors lead to paradox-
+ical activation of Raf kinase following exposure to Raf inhibitors,
+especially in Ras mutant cancers (reviewed in Lito et al., 2013).
+MEK and ERK inhibitors do not show paradoxical activation
+but are generally ineffective on their own because they relieve
+feedback inhibition on upstream kinases, leading to activation
+of PI3K, among other effects (Mirzoeva et al., 2009; Corcoran
+et al., 2012; Turke et al., 2012; Montero-Conde et al., 2013),
+and because they lack a clear therapeutic window. MEK1/
+MEK2 isoforms have a high degree of amino acid identity, sug-
+gesting redundant roles in signaling. The same is true for
+ERK1/ERK2. However, knocking out the gene encoding MEK1,
+Map2k1 (Giroux et al., 1999), or the gene encoding ERK2,
+Mapk1 (Hatano et al., 2003; Saba-El-Leil et al., 2003; Yao
+et al., 2003), is embryonic lethal, indicating a requirement for
+signaling from a particular isoform, at least in the context of
+embryogenesis. Although Map2k2 / 
+(MEK2 null) and Mapk3 / 
+(ERK1 null) mice are viable,
+in vivo ablation of MEK1 in a
+Map2k2 / 
+background (Scholl et al., 2007; Blasco et al.,
+2011) or ERK2 in a Mapk3 / 
+background (Chan et al., 2013) re-
+sults in apoptosis and lethality in adult mice. This may suggest a
+limited therapeutic window for any pan inhibitor of these kinases,
+and the clinical toxicity of potential drugs in this target class
+bears this out.
+
+The Onyx/Bayer screen for c-Raf inhibitors led to the discov-
+ery and development of sorafenib. However,
+it was disap-
+pointing when sorafenib failed to show clinical beneﬁt in early
+clinical trials against Ras mutant cancers, and this lack of
+response was difﬁcult to understand because sorafenib does
+indeed inhibit Raf kinase. Despite this, sorafenib and ﬂuoro-
+sorafenib (regorafenib) have since been approved for the treat-
+ment of renal cell carcinoma, hepatocellular carcinoma, thyroid
+cancer, colorectal cancer, and gastrointestinal stromal cancer.
+In hepatocellular carcinoma, biomarker analysis in Phase II clin-
+ical trials showed a clear correlation between levels of phospho-
+ERK and clinical response, suggesting that inhibition of Raf
+kinase is responsible for part of the clinical beneﬁt (Abou-Alfa
+et al., 2006), but in the other indications, it appears likely that in-
+hibition of vascular endothelial growth factor receptor 2 or other
+kinases is responsible. Hopefully, a clearer picture will emerge
+through analysis of exceptional responders or through decipher-
+ing mechanisms of drug resistance.
+
+Inhibitors of PI3K pathway have not yet fared much better in
+the clinic, also because of feedback mechanisms that activate
+upstream signaling, as well as poor therapeutic index. However,
+the relative failure of these downstream approaches does not
+mean that they are not critical to Ras oncogenesis. Indeed, abla-
+tion of c-Raf (but not B-Raf) in mice inhibits development and de-
+lays progression of Ras-driven tumors in a lung adenocarcinoma
+model (Blasco et al., 2011). However, in an in vivo pancreatic
+cancer mouse model, B-Raf was shown to be required for tumor
+progression (Sobczak et al., 2008). This suggests tissue-speciﬁc
+signaling cascades and will require more investigation. Genetic
+disruption of Ras binding to PI3K-a has a similar effect. We
+can therefore assume that small molecules that can block down-
+stream signaling without triggering feedback and with the cor-
+rect speciﬁcity and biochemical properties may still be effective,
+but more work needs to be done to develop such compounds
+effectively.
+
+278 Cancer Cell 25, March 17, 2014 ª2014 Elsevier Inc.
+
+Cancer Cell
+
+Perspective
+
+approaches for intervention than to the conclusion that Ras is
+indeed undruggable. New technologies and insights and fresh
+eyes are likely to solve this problem. We are also optimistic
+that completely different approaches to treating cancer will
+contribute to eliminating Ras cancers, including new ways of
+knocking down/out genes using RNAi and CRISPR technologies
+and delivering these payloads to tumors (Davis et al., 2010), as
+well as new ways of deploying the immune system. In this
+respect, it is noteworthy that anti-CTLA-4 therapy appears to
+be equally effective in treating melanoma driven by N-Ras or
+B-Raf; therefore, Ras cancers may not be excluded from these
+approaches as they have been from others. All of these consid-
+erations lead us to be optimistic about future prospects of ﬁnally
+delivering the knockout punch.
+
+ACKNOWLEDGMENTS
+
+Thanks to Sarangan Ravichandran (Frederick National Laboratory for Cancer
+Research) for help with Figure 2. F.M. wishes to thank his friends and col-
+leagues in the Ras community, past and present members of his lab at
+UCSF and at Frederick National Lab for Cancer Research for discussions,
+data, and friendship, and for the NCI, Daiichi Sankyo, The Children’s Tumor
+Foundation, the Pancreatic Cancer Action Network, Wellspring, and the
+Lustgarten Foundation for support. This work has been funded in whole or
+in part with federal
+funds from the National Cancer Institute, National
+Institutes of Health, under contract HHSN261200800001E. The content of
+this publication does not necessarily reﬂect the views or policies of the
+Department of Health and Human Services, nor does mention of trade
+names, commercial products, or organizations imply endorsement by the
+U.S. Government.
+
+REFERENCES
+
+Abou-Alfa, G.K., Schwartz, L., Ricci, S., Amadori, D., Santoro, A., Figer, A., De
+Greve, J., Douillard, J.Y., Lathia, C., Schwartz, B., et al. (2006). Phase II study
+of sorafenib in patients with advanced hepatocellular carcinoma. J. Clin.
+Oncol. 24, 4293–4300.
+
+Ahmadian, M.R., Zor, T., Vogt, D., Kabsch, W., Selinger, Z., Wittinghofer, A.,
+and Scheffzek, K. (1999). Guanosine triphosphatase stimulation of oncogenic
+Ras mutants. Proc. Natl. Acad. Sci. USA 96, 7065–7070.
+
+Barbacid, M. (1987). ras genes. Annu. Rev. Biochem. 56, 779–827.
+
+Bivona, T.G., Quatela, S.E., Bodemann, B.O., Ahearn, I.M., Soskis, M.J., Mor,
+A., Miura, J., Wiener, H.H., Wright, L., Saba, S.G., et al. (2006). PKC regulates a
+farnesyl-electrostatic switch on K-Ras that promotes its association with Bcl-
+XL on mitochondria and induces apoptosis. Mol. Cell 21, 481–493.
+
+Blasco, R.B., Francoz, S., Santamarı´a, D., Can˜ amero, M., Dubus, P., Charron,
+J., Baccarini, M., and Barbacid, M. (2011). c-Raf, but not B-Raf, is essential for
+development of K-Ras oncogene-driven non-small cell
+lung carcinoma.
+Cancer Cell 19, 652–663.
+
+Clark, R., Wong, G., Arnheim, N., Nitecki, D., and McCormick, F. (1985). Anti-
+bodies speciﬁc for amino acid 12 of the ras oncogene product inhibit GTP
+binding. Proc. Natl. Acad. Sci. USA 82, 5280–5284.
+
+Corcoran, R.B., Ebi, H., Turke, A.B., Coffee, E.M., Nishino, M., Cogdill, A.P.,
+Brown, R.D., Della Pelle, P., Dias-Santagata, D., Hung, K.E., et al. (2012).
+EGFR-mediated re-activation of MAPK signaling contributes to insensitivity
+of BRAF mutant colorectal cancers to RAF inhibition with vemurafenib. Cancer
+Discov. 2, 227–235.
+
+Court, H., Amoyel, M., Hackman, M., Lee, K.E., Xu, R., Miller, G., Bar-Sagi, D.,
+Bach, E.A., Bergo¨ , M.O., and Philips, M.R. (2013). Isoprenylcysteine carboxyl-
+methyltransferase deﬁciency exacerbates KRAS-driven pancreatic neoplasia
+via Notch suppression. J. Clin. Invest. 123, 4681–4694.
+
+Davis, M.E., Zuckerman, J.E., Choi, C.H., Seligson, D., Tolcher, A., Alabi, C.A.,
+Yen, Y., Heidel, J.D., and Ribas, A. (2010). Evidence of RNAi in humans from
+systemically administered siRNA via targeted nanoparticles. Nature 464,
+1067–1070.
+
+Der, C.J., Krontiris, T.G., and Cooper, G.M. (1982). Transforming genes of
+human bladder and lung carcinoma cell lines are homologous to the ras genes
+of Harvey and Kirsten sarcoma viruses. Proc. Natl. Acad. Sci. USA 79, 3637–
+3640.
+
+De Roock, W., Jonker, D.J., Di Nicolantonio, F., Sartore-Bianchi, A., Tu, D.,
+Siena, S., Lamba, S., Arena, S., Frattini, M., Piessevaux, H., et al. (2010).
+Association of KRAS p.G13D mutation with outcome in patients with chemo-
+therapy-refractory metastatic colorectal cancer treated with cetuximab. JAMA
+304, 1812–1820.
+
+Eckhart, W., Hutchinson, M.A., and Hunter, T. (1979). An activity phosphory-
+lating tyrosine in polyoma T antigen immunoprecipitates. Cell 18, 925–933.
+
+Feng, Z., Hu, W., Chen, J.X., Pao, A., Li, H., Rom, W., Hung, M.C., and Tang,
+M.S. (2002). Preferential DNA damage and poor repair determine ras gene
+mutational hotspot in human cancer. J. Natl. Cancer Inst. 94, 1527–1536.
+
+Feramisco, J.R., Clark, R., Wong, G., Arnheim, N., Milley, R., and McCormick,
+F. (1985). Transient reversion of ras oncogene-induced cell transformation by
+antibodies speciﬁc for amino acid 12 of ras protein. Nature 314, 639–642.
+
+Fisher, G.H., Wellen, S.L., Klimstra, D., Lenczowski, J.M., Tichelaar, J.W.,
+Lizak, M.J., Whitsett, J.A., Koretsky, A., and Varmus, H.E. (2001). Induction
+and apoptotic regression of lung adenocarcinomas by regulation of a K-Ras
+transgene in the presence and absence of tumor suppressor genes. Genes
+Dev. 15, 3249–3262.
+
+Geyer, M., Schweins, T., Herrmann, C., Prisner, T., Wittinghofer, A., and Kal-
+bitzer, H.R. (1996). Conformational transitions in p21ras and in its complexes
+with the effector protein Raf-RBD and the GTPase activating protein GAP.
+Biochemistry 35, 10308–10320.
+
+Giroux, S., Tremblay, M., Bernard, D., Cardin-Girard, J.F., Aubry, S., Larouche,
+L., Rousseau, S., Huot, J., Landry, J., Jeannotte, L., and Charron, J. (1999).
+Embryonic death of Mek1-deﬁcient mice reveals a role for this kinase in angio-
+genesis in the labyrinthine region of the placenta. Curr. Biol. 9, 369–372.
+
+Gonza´ lez-Garcı´a, A., Pritchard, C.A., Paterson, H.F., Mavria, G., Stamp, G.,
+and Marshall, C.J. (2005). RalGDS is required for tumor formation in a model
+of skin carcinogenesis. Cancer Cell 7, 219–226.
+
+Bos, J.L., Rehmann, H., and Wittinghofer, A. (2007). GEFs and GAPs: critical
+elements in the control of small G proteins. Cell 129, 865–877.
+
+Gysin, S., Salt, M., Young, A., and McCormick, F. (2011). Therapeutic strate-
+gies for targeting ras proteins. Genes Cancer 2, 359–372.
+
+Brems, H., Chmara, M., Sahbatou, M., Denayer, E., Taniguchi, K., Kato, R.,
+Somers, R., Messiaen, L., De Schepper, S., Fryns, J.P., et al. (2007). Germline
+loss-of-function mutations in SPRED1 cause a neuroﬁbromatosis 1-like
+phenotype. Nat. Genet. 39, 1120–1126.
+
+Buhrman, G., Holzapfel, G., Fetics, S., and Mattos, C. (2010). Allosteric mod-
+ulation of Ras positions Q61 for a direct role in catalysis. Proc. Natl. Acad. Sci.
+USA 107, 4931–4936.
+
+Chan, G., Gu, S., and Neel, B.G. (2013). Erk1 and Erk2 are required for main-
+tenance of hematopoietic stem cells and adult hematopoiesis. Blood 121,
+3594–3598.
+
+Hanahan, D., and Weinberg, R.A. (2011). Hallmarks of cancer: the next gener-
+ation. Cell 144, 646–674.
+
+Hatano, N., Mori, Y., Oh-hora, M., Kosugi, A., Fujikawa, T., Nakai, N., Niwa, H.,
+Miyazaki, J., Hamaoka, T., and Ogata, M. (2003). Essential role for ERK2
+mitogen-activated protein kinase in placental development. Genes Cells 8,
+847–856.
+
+Holderﬁeld, M., Merritt, H., Chan, J., Wallroth, M., Tandeske, L., Zhai, H.,
+Tellew, J., Hardy, S., Hekmat-Nejad, M., Stuart, D.D., et al. (2013). RAF inhib-
+itors activate the MAPK pathway by relieving inhibitory autophosphorylation.
+Cancer Cell 23, 594–602.
+
+Chin, L., Tam, A., Pomerantz, J., Wong, M., Holash, J., Bardeesy, N., Shen, Q.,
+O’Hagan, R., Pantginis, J., Zhou, H., et al. (1999). Essential role for oncogenic
+Ras in tumour maintenance. Nature 400, 468–472.
+
+Huang, Y., Rangwala, F., Fulkerson, P.C., Ling, B., Reed, E., Cox, A.D., Kam-
+holz, J., and Ratner, N. (2004). Role of TC21/R-Ras2 in enhanced migration of
+neuroﬁbromin-deﬁcient Schwann cells. Oncogene 23, 368–378.
+
+Cancer Cell 25, March 17, 2014 ª2014 Elsevier Inc. 279
+
+Cancer Cell
+
+Perspective
+
+Ihle, N.T., Byers, L.A., Kim, E.S., Saintigny, P., Lee, J.J., Blumenschein, G.R.,
+Tsao, A., Liu, S., Larsen, J.E., Wang, J., et al. (2012). Effect of KRAS oncogene
+substitutions on protein behavior:
+implications for signaling and clinical
+outcome. J. Natl. Cancer Inst. 104, 228–239.
+
+Johnson, L., Greenbaum, D., Cichowski, K., Mercer, K., Murphy, E., Schmitt,
+E., Bronson, R.T., Umanoff, H., Edelmann, W., Kucherlapati, R., and Jacks,
+T. (1997). K-ras is an essential gene in the mouse with partial functional overlap
+with N-ras. Genes Dev. 11, 2468–2481.
+
+Karnoub, A.E., and Weinberg, R.A. (2008). Ras oncogenes: split personalities.
+Nat. Rev. Mol. Cell Biol. 9, 517–531.
+
+Kashatus, D.F. (2013). Ral GTPases in tumorigenesis: emerging from the
+shadows. Exp. Cell Res. 319, 2337–2342.
+
+Kumar, M.S., Hancock, D.C., Molina-Arcas, M., Steckel, M., East, P., Diefen-
+bacher, M., Armenteros-Monterroso, E., Lassailly, F., Matthews, N., Nye, E.,
+et al. (2012). The GATA2 transcriptional network is requisite for RAS onco-
+gene-driven non-small cell lung cancer. Cell 149, 642–655.
+
+Kung, H.F., Smith, M.R., Bekesi, E., Manne, V., and Stacey, D.W. (1986).
+Reversal of transformed phenotype by monoclonal antibodies against Ha-
+ras p21 proteins. Exp. Cell Res. 162, 363–371.
+
+Lampson, B.L., Pershing, N.L., Prinz, J.A., Lacsina, J.R., Marzluff, W.F., Nic-
+chitta, C.V., MacAlpine, D.M., and Counter, C.M. (2013). Rare codons regulate
+KRas oncogenesis. Curr. Biol. 23, 70–75.
+
+Liao, J., Shima, F., Araki, M., Ye, M., Muraoka, S., Sugimoto, T., Kawamura,
+M., Yamamoto, N., Tamura, A., and Kataoka, T. (2008). Two conformational
+states of Ras GTPase exhibit differential GTP-binding kinetics. Biochem.
+Biophys. Res. Commun. 369, 327–332.
+
+Lim, K.H., Ancrile, B.B., Kashatus, D.F., and Counter, C.M. (2008). Tumour
+maintenance is mediated by eNOS. Nature 452, 646–649.
+
+Lim, S.M., Westover, K.D., Ficarro, S.B., Harrison, R.A., Choi, H.G., Pacold,
+M.E., Carrasco, M., Hunter, J., Kim, N.D., Xie, T., et al. (2014). Therapeutic tar-
+geting of oncogenic K-Ras by a covalent catalytic site inhibitor. Angew. Chem.
+Int. Ed. Engl. 53, 199–204.
+
+Lito, P., Rosen, N., and Solit, D.B. (2013). Tumor adaptation and resistance to
+RAF inhibitors. Nat. Med. 19, 1401–1409.
+
+Neel, N.F., Martin, T.D., Stratford, J.K., Zand, T.P., Reiner, D.J., and Der, C.J.
+(2011). The RalGEF-Ral effector signaling network: the road less traveled for
+anti-Ras drug discovery. Genes Cancer 2, 275–287.
+
+Ostrem, J.M., Peters, U., Sos, M.L., Wells, J.A., and Shokat, K.M. (2013).
+K-Ras(G12C) inhibitors allosterically control GTP afﬁnity and effector interac-
+tions. Nature 503, 548–551.
+
+Parada, L.F., Tabin, C.J., Shih, C., and Weinberg, R.A. (1982). Human EJ
+bladder carcinoma oncogene is homologue of Harvey sarcoma virus ras
+gene. Nature 297, 474–478.
+
+Potenza, N., Vecchione, C., Notte, A., De Rienzo, A., Rosica, A., Bauer, L.,
+Affuso, A., De Felice, M., Russo, T., Poulet, R., et al. (2005). Replacement of
+K-Ras with H-Ras supports normal embryonic development despite inducing
+cardiovascular pathology in adult mice. EMBO Rep. 6, 432–437.
+
+Prior, I.A., Lewis, P.D., and Mattos, C. (2012). A comprehensive survey of Ras
+mutations in cancer. Cancer Res. 72, 2457–2467.
+
+Puyol, M., Martı´n, A., Dubus, P., Mulero, F., Pizcueta, P., Khan, G., Guerra, C.,
+Santamarı´a, D., and Barbacid, M. (2010). A synthetic lethal interaction between
+K-Ras oncogenes and Cdk4 unveils a therapeutic strategy for non-small cell
+lung carcinoma. Cancer Cell 18, 63–73.
+
+Quinlan, M.P., and Settleman, J. (2009). Isoform-speciﬁc ras functions in
+development and cancer. Future Oncol. 5, 105–116.
+
+Rauen, K.A. (2013). The RASopathies. Annu. Rev. Genomics Hum. Genet. 14,
+355–369.
+
+Rodriguez-Viciana, P., Sabatier, C., and McCormick, F. (2004). Signaling spec-
+iﬁcity by Ras family GTPases is determined by the full spectrum of effectors
+they regulate. Mol. Cell. Biol. 24, 4943–4954.
+
+Saba-El-Leil, M.K., Vella, F.D., Vernay, B., Voisin, L., Chen, L., Labrecque, N.,
+Ang, S.L., and Meloche, S. (2003). An essential function of the mitogen-acti-
+vated protein kinase Erk2 in mouse trophoblast development. EMBO Rep. 4,
+964–968.
+
+Santos, E., Tronick, S.R., Aaronson, S.A., Pulciani, S., and Barbacid, M. (1982).
+T24 human bladder carcinoma oncogene is an activated form of the normal
+human homologue of BALB- and Harvey-MSV transforming genes. Nature
+298, 343–347.
+
+Lopez-Alcala´ , C., Alvarez-Moya, B., Villalonga, P., Calvo, M., Bachs, O., and
+Agell, N. (2008). Identiﬁcation of essential
+interacting elements in K-Ras/
+calmodulin binding and its role in K-Ras localization. J. Biol. Chem. 283,
+10621–10631.
+
+Sasaki, A.T., Carracedo, A., Locasale, J.W., Anastasiou, D., Takeuchi, K., Ka-
+houd, E.R., Haviv, S., Asara, J.M., Pandolﬁ, P.P., and Cantley, L.C. (2011).
+Ubiquitination of K-Ras enhances activation and facilitates binding to select
+downstream effectors. Sci. Signal. 4, ra13.
+
+Macdonald, S.G., Crews, C.M., Wu, L., Driller, J., Clark, R., Erikson, R.L., and
+McCormick, F. (1993). Reconstitution of the Raf-1-MEK-ERK signal transduc-
+tion pathway in vitro. Mol. Cell. Biol. 13, 6615–6620.
+
+Marte, B.M., Rodriguez-Viciana, P., Wennstrom, S., Warne, P.H., and Down-
+ward, J. (1997). R-Ras can activate the phosphoinositide 3-kinase but not
+the MAP kinase arm of the Ras effector pathways. Curr. Biol. 7, 63–70.
+
+Martin, T.D., Samuel, J.C., Routh, E.D., Der, C.J., and Yeh, J.J. (2011). Activa-
+tion and involvement of Ral GTPases in colorectal cancer. Cancer Res. 71,
+206–215.
+
+Maurer, T., Garrenton, L.S., Oh, A., Pitts, K., Anderson, D.J., Skelton, N.J.,
+Fauber, B.P., Pan, B., Malek, S., Stokoe, D., et al. (2012). Small-molecule
+ligands bind to a distinct pocket in Ras and inhibit SOS-mediated nucleotide
+exchange activity. Proc. Natl. Acad. Sci. USA 109, 5299–5304.
+
+Mirzoeva, O.K., Das, D., Heiser, L.M., Bhattacharya, S., Siwak, D., Gendel-
+man, R., Bayani, N., Wang, N.J., Neve, R.M., Guan, Y., et al. (2009). Basal sub-
+type and MAPK/ERK kinase (MEK)-phosphoinositide 3-kinase feedback
+signaling determine susceptibility of breast cancer cells to MEK inhibition.
+Cancer Res. 69, 565–572.
+
+Montero-Conde, C., Ruiz-Llorente, S., Dominguez, J.M., Knauf, J.A., Viale, A.,
+Sherman, E.J., Ryder, M., Ghossein, R.A., Rosen, N., and Fagin, J.A. (2013).
+Relief of feedback inhibition of HER3 transcription by RAF and MEK inhibitors
+attenuates their antitumor effects in BRAF-mutant thyroid carcinomas. Cancer
+Discov. 3, 520–533.
+
+Scholl, F.A., Dumesic, P.A., Barragan, D.I., Harada, K., Bissonauth, V., Char-
+ron, J., and Khavari, P.A. (2007). Mek1/2 MAPK kinases are essential for
+mammalian development, homeostasis, and Raf-induced hyperplasia. Dev.
+Cell 12, 615–629.
+
+Schubbert, S., Bollag, G., Lyubynska, N., Nguyen, H., Kratz, C.P., Zenker, M.,
+Niemeyer, C.M., Molven, A., and Shannon, K. (2007). Biochemical and func-
+tional characterization of germ line KRAS mutations. Mol. Cell. Biol. 27,
+7765–7770.
+
+Shih, T.Y., Weeks, M.O., Young, H.A., and Scolnick, E.M. (1979). p21 of Kirsten
+murine sarcoma virus is thermolabile in a viral mutant temperature sensitive for
+the maintenance of transformation. J. Virol. 31, 546.
+
+Shirouzu, M., Koide, H., Fujita-Yoshigaki, J., Oshio, H., Toyama, Y., Yamasaki,
+K., Fuhrman, S.A., Villafranca, E., Kaziro, Y., and Yokoyama, S. (1994). Muta-
+tions that abolish the ability of Ha-Ras to associate with Raf-1. Oncogene 9,
+2153–2157.
+
+Singh, A., Greninger, P., Rhodes, D., Koopman, L., Violette, S., Bardeesy, N.,
+and Settleman, J. (2009). A gene expression signature associated with ‘‘K-Ras
+addiction’’ reveals regulators of EMT and tumor cell survival. Cancer Cell 15,
+489–500.
+
+Sobczak, I., Galabova-Kovacs, G., Sadzak, I., Kren, A., Christofori, G., and
+Baccarini, M. (2008). B-Raf is required for ERK activation and tumor progres-
+sion in a mouse model of pancreatic beta-cell carcinogenesis. Oncogene 27,
+4779–4787.
+
+Moodie, S.A., Willumsen, B.M., Weber, M.J., and Wolfman, A. (1993). Com-
+plexes of Ras.GTP with Raf-1 and mitogen-activated protein kinase kinase.
+Science 260, 1658–1661.
+
+Stokoe, D., and McCormick, F. (1997). Activation of c-Raf-1 by Ras and Src
+through different mechanisms: activation in vivo and in vitro. EMBO J. 16,
+2384–2396.
+
+280 Cancer Cell 25, March 17, 2014 ª2014 Elsevier Inc.
+
+Cancer Cell
+
+Perspective
+
+Stowe, I.B., Mercado, E.L., Stowe, T.R., Bell, E.L., Oses-Prieto, J.A., Herna´ n-
+dez, H., Burlingame, A.L., and McCormick, F. (2012). A shared molecular
+mechanism underlies the human rasopathies Legius syndrome and
+Neuroﬁbromatosis-1. Genes Dev. 26, 1421–1426.
+
+Sun, Q., Burke, J.P., Phan, J., Burns, M.C., Olejniczak, E.T., Waterson, A.G.,
+Lee, T., Rossanese, O.W., and Fesik, S.W. (2012). Discovery of small mole-
+cules that bind to K-Ras and inhibit Sos-mediated activation. Angew. Chem.
+Int. Ed. Engl. 51, 6140–6143.
+
+Taparowsky, E., Suard, Y., Fasano, O., Shimizu, K., Goldfarb, M., and Wigler,
+M. (1982). Activation of the T24 bladder carcinoma transforming gene is linked
+to a single amino acid change. Nature 300, 762–765.
+
+To, M.D., Wong, C.E., Karnezis, A.N., Del Rosario, R., Di Lauro, R., and Bal-
+main, A. (2008). Kras regulatory elements and exon 4A determine mutation
+speciﬁcity in lung cancer. Nat. Genet. 40, 1240–1244.
+
+Trahey, M., and McCormick, F. (1987). A cytoplasmic protein stimulates
+normal N-ras p21 GTPase, but does not affect oncogenic mutants. Science
+238, 542–545.
+
+Turke, A.B., Song, Y., Costa, C., Cook, R., Arteaga, C.L., Asara, J.M., and
+Engelman, J.A. (2012). MEK inhibition leads to PI3K/AKT activation by relieving
+a negative feedback on ERBB receptors. Cancer Res. 72, 3228–3237.
+
+Van Aelst, L., Barr, M., Marcus, S., Polverino, A., and Wigler, M. (1993). Com-
+plex formation between RAS and RAF and other protein kinases. Proc. Natl.
+Acad. Sci. USA 90, 6213–6217.
+
+Villalonga, P., Lo´ pez-Alcala´ , C., Bosch, M., Chiloeches, A., Rocamora, N., Gil,
+J., Marais, R., Marshall, C.J., Bachs, O., and Agell, N. (2001). Calmodulin binds
+to K-Ras, but not to H- or N-Ras, and modulates its downstream signaling.
+Mol. Cell. Biol. 21, 7345–7354.
+
+Vogt, P.K. (2012). Retroviral oncogenes: a historical primer. Nat. Rev. Cancer
+12, 639–648.
+
+Warne, P.H., Viciana, P.R., and Downward, J. (1993). Direct interaction of Ras
+and the amino-terminal region of Raf-1 in vitro. Nature 364, 352–355.
+
+Weiwer, M., Spoonamore, J., Wei, J., Guichard, B., Ross, N.T., Masson, K.,
+Silkworth, W., Dandapani, S., Palmer, M., Scherer, C.A., et al. (2012). A potent
+and selective quinoxalinone-based STK33 inhibitor does not show synthetic
+lethality in KRAS-dependent cells. ACS Med. Chem. Lett. 3, 1034–1038.
+
+Wu, X., Upadhyaya, P., Villalona-Calero, M.A., Briesewitz, R., and Pei, D. (2013).
+Inhibition of Ras-effector interaction by cyclic peptides. Medchemcomm 4,
+378–382.
+
+Xu, J., Hedberg, C., Dekker, F.J., Li, Q., Haigis, K.M., Hwang, E., Waldmann,
+H., and Shannon, K. (2012). Inhibiting the palmitoylation/depalmitoylation
+cycle selectively reduces the growth of hematopoietic cells expressing onco-
+genic Nras. Blood 119, 1032–1035.
+
+Yang, M.H., Laurent, G., Bause, A.S., Spang, R., German, N., Haigis, M.C., and
+Haigis, K.M. (2013). HDAC6 and SIRT2 regulate the acetylation state and
+oncogenic activity of mutant K-RAS. Mol. Cancer Res. 11, 1072–1077.
+
+Yao, Y., Li, W., Wu, J., Germann, U.A., Su, M.S., Kuida, K., and Boucher, D.M.
+(2003). Extracellular signal-regulated kinase 2 is necessary for mesoderm dif-
+ferentiation. Proc. Natl. Acad. Sci. USA 100, 12759–12764.
+
+Ying, H., Kimmelman, A.C., Lyssiotis, C.A., Hua, S., Chu, G.C., Fletcher-
+Sananikone, E., Locasale, J.W., Son, J., Zhang, H., Coloff, J.L., et al. (2012).
+Oncogenic Kras maintains pancreatic tumors through regulation of anabolic
+glucose metabolism. Cell 149, 656–670.
+
+Young, A., Lou, D., and McCormick, F. (2013). Oncogenic and wild-type Ras
+play divergent roles in the regulation of mitogen-activated protein kinase
+signaling. Cancer Discov. 3, 112–123.
+
+Zhang, X.F., Settleman, J., Kyriakis, J.M., Takeuchi-Suzuki, E., Elledge, S.J.,
+Marshall, M.S., Bruder, J.T., Rapp, U.R., and Avruch, J. (1993). Normal and
+oncogenic p21ras proteins bind to the amino-terminal regulatory domain of
+c-Raf-1. Nature 364, 308–313.
+
+Wahlstrom, A.M., Cutts, B.A., Karlsson, C., Andersson, K.M., Liu, M., Sjogren,
+A.K., Swolin, B., Young, S.G., and Bergo, M.O. (2007). Rce1 deﬁciency accel-
+erates the development of K-RAS-induced myeloproliferative disease. Blood
+109, 763–768.
+
+Zimmermann, G., Papke, B., Ismail, S., Vartak, N., Chandra, A., Hoffmann, M.,
+Hahn, S.A., Triola, G., Wittinghofer, A., Bastiaens, P.I., and Waldmann, H.
+(2013). Small molecule inhibition of the KRAS-PDEd interaction impairs onco-
+genic KRAS signalling. Nature 497, 638–642.
+
+Cancer Cell 25, March 17, 2014 ª2014 Elsevier Inc. 281
+
+

@@ -1,0 +1,1774 @@
+Molecular Biology of the Cell
+Vol. 16, 4557–4571, October 2005
+
+G␣ Subunit Gpa2 Recruits Kelch Repeat Subunits That
+Inhibit Receptor-G Protein Coupling during cAMP-
+induced Dimorphic Transitions in Saccharomyces
+cerevisiae
+Toshiaki Harashima* and Joseph Heitman*†
+
+*Department of Molecular Genetics and Microbiology and †Howard Hughes Medical Institute, Duke
+University Medical Center, Durham, NC 27710
+
+Submitted May 9, 2005; Revised June 23, 2005; Accepted July 12, 2005
+Monitoring Editor: Charles Boone
+
+All eukaryotic cells sense extracellular stimuli and activate intracellular signaling cascades via G protein-coupled
+receptors (GPCR) and associated heterotrimeric G proteins. The Saccharomyces cerevisiae GPCR Gpr1 and associated G␣
+subunit Gpa2 sense extracellular carbon sources (including glucose) to govern ﬁlamentous growth. In contrast to
+conventional G␣subunits, Gpa2 forms an atypical G protein complex with the kelch repeat G␤mimic proteins Gpb1 and
+Gpb2. Gpb1/2 negatively regulate cAMP signaling by inhibiting Gpa2 and an as yet unidentiﬁed target. Here we show
+that Gpa2 requires lipid modiﬁcations of its N-terminus for membrane localization but association with the Gpr1 receptor
+or Gpb1/2 subunits is dispensable for membrane targeting. Instead, Gpa2 promotes membrane localization of its
+associated G␤ mimic subunit Gpb2. We also show that the Gpa2 N-terminus binds both to Gpb2 and to the C-terminal
+tail of the Gpr1 receptor and that Gpb1/2 binding interferes with Gpr1 receptor coupling to Gpa2. Our studies invoke
+novel mechanisms involving GPCR-G protein modules that may be conserved in multicellular eukaryotes.
+
+INTRODUCTION
+All eukaryotic cells deploy on their surface signaling mod-
+ules composed of G protein-coupled receptors (GPCR) and
+heterotrimeric G proteins to sense extracellular cues. GPCRs
+are conserved from yeasts to humans and constitute a family
+of cell surface receptors that contain seven transmembrane
+domains and sense myriad extracellular ligands including
+nutrients, odorants, hormones and pheromones, and pho-
+tons (Gilman, 1987; Strader et al., 1994; Lefkowitz, 2000;
+Mombaerts, 2004). Heterotrimeric G proteins consist of ␣, ␤,
+and ␥ subunits, in which the G␣ subunits are guanine nu-
+cleotide binding proteins and the G␤␥subunits form a mem-
+brane-tethered heterodimer (Bourne, 1997; Sprang, 1997;
+Gautam et al., 1998; Schwindinger and Robishaw, 2001; Ca-
+brera-Vera et al., 2003). Ligand binding triggers conforma-
+tional changes in the GPCR that stimulate GDP-GTP ex-
+change on G␣ and release of the G␤␥ dimer. Released G␣-
+GTP, G␤␥, or both signal downstream effectors. GTP-to-
+GDP hydrolysis (either intrinsic or RGS protein-stimulated)
+induces reassociation of the G␣-GDP subunit with G␤␥,
+extinguishing the signal (De Vries and Gist Farquhar, 1999;
+Guan and Han, 1999; Ross and Wilkie, 2000).
+
+The yeast Saccharomyces cerevisiae expresses 3 GPCRs
+(Ste2, Ste3, and Gpr1) and 2 G␣ subunits (Gpa1 and Gpa2),
+comprising two signaling modules: one that senses phero-
+mones during mating and the other that senses nutrients
+and controls ﬁlamentous growth (Lengeler et al., 2000; Ha-
+
+This article was published online ahead of print in MBC in Press
+(http://www.molbiolcell.org/cgi/doi/10.1091/mbc.E05–05–0403)
+on July 19, 2005.
+Address correspondence to: Joseph Heitman (heitm001@duke.edu).
+
+rashima and Heitman, 2004). S. cerevisiae exists in two hap-
+loid mating types, a and ␣, which communicate via mating
+pheromones. a haploid cells express a pheromone and the
+GPCR Ste2 to sense extracellular ␣ pheromone. ␣ haploid
+cells express ␣ pheromone and the GPCR Ste3 that senses a
+pheromone. In both cell types, Ste2 and Ste3 are coupled to
+the G␣ subunit Gpa1, which forms a conventional heterotri-
+meric G protein with the G␤␥ subunits Ste4/18. On phero-
+mone binding to either receptor, GDP-GTP exchange occurs
+on Gpa1 and the Ste4/18 G␤␥ complex dissociates. The
+liberated Ste4/18 dimer activates the pheromone responsive
+MAP kinase cascade culminating in mating (for reviews, see
+Dohlman and Thorner, 2001; Dohlman, 2002; Schwartz and
+Madhani, 2004).
+
+In contrast to the pheromone GPCRs that are haploid- and
+mating-type-speciﬁc, a distinct GPCR, Gpr1, is expressed in
+both diploid and haploid cells. The Gpr1 receptor activates
+cAMP-PKA signaling and governs diploid pseudohyphal
+differentiation and haploid invasive growth via the coupled
+G␣ subunit Gpa2 (for reviews, see Lengeler et al., 2000; Pan
+et al., 2000; Gancedo, 2001; Harashima and Heitman 2004).
+gpr1 and gpa2 mutants are defective in both pseudohyphal
+growth and transient cAMP production in response to glu-
+cose (Ku¨ bler et al., 1997; Lorenz and Heitman, 1997; Co-
+lombo et al., 1998; Yun et al., 1998; Kraakman et al., 1999;
+Lorenz et al., 2000; Rolland et al., 2000; Tamaki et al., 2000;
+Lemaire et al., 2004). Recent studies provide evidence that
+glucose and structurally related sugars serve as ligands for
+the GPCR Gpr1 (Kraakman et al., 1999; Lorenz et al., 2000;
+Rolland et al., 2000; Lemaire et al., 2004).
+
+The yeast G␣ subunit Gpa2 shares 35–55% identity with
+other fungal and mammalian G␣ subunits, and the pre-
+dicted secondary structures are highly conserved between
+Gpa2 and canonical G␣ subunits (Harashima and Heitman,
+
+© 2005 by The American Society for Cell Biology
+
+4557
+
+T. Harashima and J. Heitman
+
+2004). Amino acid residues that confer dominant pheno-
+types when mutated are also conserved. For instance, a
+mutation of Gln300 to Leu (Q300L) in Gpa2 is analogous to
+the Gi␣1 Q204L mutation that abolishes the intrinsic GTPase
+activity and functions as an activated form of Gpa2 (Ha-
+rashima and Heitman, 2002). A mutation of Gly299 to Ala
+(Gpa2 G299A) is analogous to Gi␣1 G203A and G␣s G226A
+that fail to undergo the GTP-induced conformational change
+and thereby serves as a dominant negative allele and inter-
+acts with Gpb1/2 and Gpr1 more strongly compared with
+the wild-type Gpa2 (Lorenz and Heitman 1997; Harashima
+and Heitman, 2002).
+
+Nevertheless, Gpa2 does not form a heterotrimeric com-
+plex with the known yeast G␤␥ subunits Ste4/18 (Lorenz et
+al., 2000; Harashima and Heitman, 2002, 2004). Recent stud-
+ies identiﬁed two novel Gpa2 associated proteins, the kelch
+proteins Gpb1 and Gpb2, which are functionally redundant
+and share ⬃35% identity (Harashima and Heitman, 2002;
+Batlle et al., 2003). The kelch motif is known to mediate
+protein-protein interactions (Adams et al., 2000). Gpb1 and
+Gpb2 each contain seven kelch repeats, which share no
+sequence homology with the seven WD40 repeats of canon-
+ical G␤ subunits. The crystal structure of the kelch repeat
+enzyme galactose oxidase reveals that the seven kelch re-
+peats can adopt a seven-bladed ␤-propeller structure strik-
+ingly similar to G␤subunits (Ito et al., 1991, 1994; Wall et al.,
+1995; Lambright et al., 1996; Sondek et al., 1996; Adams et al.,
+2000; Harashima and Heitman, 2002).
+
+gpb1,2 mutants exhibit enhanced PKA phenotypes, includ-
+ing increased ﬁlamentous growth, sensitivity to nitrogen
+starvation and heat shock, reduced glycogen accumulation,
+and reduced sporulation (Harashima and Heitman, 2002;
+Batlle et al., 2003). The gpb1,2 mutant phenotypes are par-
+tially alleviated by gpa2 mutations and abolished by muta-
+tion of the TPK2 gene that encodes one of the three PKA
+catalytic subunits. These genetic ﬁndings support a model in
+which the kelch proteins Gpb1/2 negatively regulate the
+cAMP signaling pathway by inhibiting Gpa2 and an uniden-
+tiﬁed target that may be an upstream element of the PKA
+pathway including adenylyl cyclase or its regulator Ras or
+regulatory proteins of Ras (Harashima and Heitman, 2002).
+In contrast to canonical G␣ subunits, G␣ Gpa2 has an
+extended N-terminus (Figure 1). This region shares no ho-
+mology with known G␣subunits, whereas the remainder of
+Gpa2 shares ⬎60% identity with G␣ subunits in closely
+related yeasts and ⬎40% identity with mammalian G␣ sub-
+units. The N-terminal regions of G␣ subunits are known to
+mediate membrane localization and physical interactions
+with the cognate GPCR and G␤␥ dimer (Navon and Fung,
+1987; Hamm et al., 1988; Journot et al., 1991; Lambright et al.,
+1996; Wall et al., 1998; Yamaguchi et al., 2003; Herrmann et
+al., 2004).
+
+All G␣ subunits of heterotrimeric G proteins bear N-
+terminal lipid modiﬁcations (myristoylation and palmitoyl-
+ation) necessary for membrane targeting (for reviews, see
+Chen and Manning, 2001; Cabrera-Vera et al., 2003). Myris-
+toylation involves the irreversible cotranslational addition of
+a 14-carbon myristoyl group on glycine at the second posi-
+tion in the consensus sequence MGXXXS and this occurs via
+an amide linkage after proteolytic removal of the initiating
+methionine (Johnson et al., 1994; Ashraﬁ et al., 1998; Farazi et
+al., 2001). Palmitoylation occurs on all G␣ subunits with the
+exception of G␣t (transducin) and involves posttranslational
+attachment of a saturated 16-carbon fatty acid, palmitate, via
+thioester linkage to cysteine residue(s) near the N-terminus.
+There is no palmitoylation consensus sequence, and palmi-
+toylation is reversible and may be regulated. Both palmi-
+
+toylation and myristoylation may play roles in addition to
+membrane localization (Linder et al., 1991; Gallego et al.,
+1992; Wedegaertner et al., 1993; Wilson and Bourne, 1995;
+Wise et al., 1997; Morales et al., 1998; Evanko et al., 2000;
+Fishburn et al., 2000).
+
+S. cerevisiae serves as a powerful model to study GPCR-G
+protein signaling (for reviews, see Jeansonne, 1994; Lengeler
+et al., 2000; Dohlman and Thorner, 2001; Dohlman, 2002;
+Harashima and Heitman, 2004). The G␣ subunit Gpa1 is
+myristoylated at the Gly2 residue and palmitoylated at the
+Cys3 residue (Song and Dohlman, 1996; Song et al., 1996).
+Myristoylation is required for Gpa1 membrane targeting
+and palmitoylation, yet not for interaction with G␤␥(Song et
+al., 1996). On the other hand, a Gpa1 palmitoylation-site
+mutant protein (Gpa1C3A) is still partially localized to the
+plasma membrane, partially functional, and bound to G␤␥
+(Song and Dohlman, 1996). The G␤␥ dimer, the associated
+GPCR Ste2/3, or components of the Gpa1 mediated MAP
+kinase cascade are not required for Gpa1 membrane local-
+ization (Song and Dohlman, 1996), but the Ste4/18 G␤␥
+dimer does promote receptor-Gpa1 coupling (Blumer and
+Thorner, 1990).
+
+The distinct G␣ subunit Gpa2 forms an unusual protein
+complex with the atypical binding partner kelch G␤ mimics
+Gpb1/2 and contains an extended N-terminus. Thus novel
+regulatory mechanisms may direct Gpa2 to the plasma
+membrane and enable Gpa2 to function as a molecular
+switch. Here we show that Gpa2 shares similar characteris-
+tics with Gpa1 involving lipid modiﬁcations and their func-
+tion. Gpa2 interacting proteins are dispensable for Gpa2
+membrane localization. However, unexpectedly, Gpa2 is re-
+quired for membrane targeting of the kelch G␤mimic Gpb2,
+in striking contrast to conventional heterotrimeric G pro-
+teins. Furthermore, the kelch G␤ mimic proteins Gpb1/2
+were found to interfere with Gpr1 receptor-G␣ Gpa2 cou-
+pling.
+
+MATERIALS AND METHODS
+Strains, Media, and Plasmids
+Media and standard yeast experimental procedures were as described (Sher-
+man, 1991). To express genes heterologously in yeast cells, an attenuated
+ADH1 promoter and an ADH1 terminator from the yeast two-hybrid vector
+pGBT9 were ampliﬁed by fusion PCR using primers, GCTTGCATGCAACT-
+TCTTTT/CGACGGATCCCCGGGAATTCCATCTTTCAGGAGGCTTGCT
+and AGCAAGCCTCCTGAAAGATGGAATTCCCGGGGATCCGTCG/
+CGGCATGCCGGTAGAGGTGT, for the 1st round PCR and primers, GCTT-
+GCATGCAACTTCTTTT/CGGCATGCCGGTAGAGGTGT for the second
+round PCR. The resulting PCR products were blunted with T4 DNA poly-
+merase and cloned into the 2␮ plasmid YEplac195 that was digested with
+HindIII and EcoRI and then blunted with T4 DNA polymerase to create a
+yeast expression vector pTH19 (URA3 2␮). pTH171 (LEU2 2␮), pTH172 (TRP1
+2␮), and pTH173 (LYS5 2␮) are pTH19 derivatives. The nuclear localization
+signal (NLS) derived from the SV40 T antigen (PPKKKRKVA) was used to
+direct fusion proteins into the nucleus (Are´valo-Rodrı´guez and Heitman,
+2005). pFA6a-GFP(S65T)-kanMX6 was used as the substrate for PCR to am-
+plify GFP (Longtine et al., 1998). Plasmids and yeast strains used in this study
+are listed in Tables 1 and 2. Details of plasmids and strains are available upon
+request.
+
+Pseudohyphal and Invasive Growth
+Pseudohyphal and invasive growth assays were investigated as described
+previously (Harashima and Heitman, 2002).
+
+Microscopic Studies
+If not speciﬁcally described in ﬁgure legends, growth conditions were as
+follows. For protein localization study, cells were grown in synthetic minimal
+media to stationary phase and examined for protein localization under a
+ﬂuorescent microscope (Zeiss Axioskop2 plus, Thornwood, NY) or a confocal
+microscope (Zeiss LSM 410).
+
+4558
+
+Molecular Biology of the Cell
+
+Table 1. S. cerevisiae strains
+
+Strain
+
+⌺1278b congenic strains
+
+MLY40␣
+MLY61a/␣
+MLY97a/␣
+MLY132␣
+MLY132a/␣
+MLY212a/␣
+
+MLY232a/␣
+MLY277a/␣
+
+THY212a/␣
+
+THY224a/␣
+THY243a/␣
+
+THY246a/␣
+
+S288C background strains
+
+S1338
+THY452
+
+Novel Heteromeric G Protein Signaling
+
+Genotype
+
+Source/Reference
+
+MAT␣ ura3-52
+MATa/␣ ura3-52/ura3-52
+MATa/␣ ura3-52/ura3-52 leu2⌬::hisG/leu2⌬::hisG
+MAT␣ gpa2⌬::G418 ura3-52
+MATa/␣ gpa2⌬::G418/gpa2⌬::G418 ura3-52/ura3-52
+MATa/␣ gpa2⌬::G418/gpa2⌬::G418 ura3-52/ura3-52
+
+leu2⌬::hisG/leu2⌬::hisG
+
+MATa/␣ gpr1⌬::G418/gpr1⌬::G418 ura3-52/ura3-52
+MATa/␣ gpa2⌬::G418/gpa2⌬::G418 gpr1⌬::G418/gpr1⌬::G418
+
+ura3-52/ura3-52
+
+ura3-52/ura3-52
+
+MATa/␣ gpb1⌬::hph/gpb1⌬::hph gpb2⌬::G418/gpb2⌬::G418
+
+MATa/␣ gpg1⌬::hph/gpg1⌬::hph ura3-52/ura3-52
+MATa/␣ gpb1⌬::hph/gpb1⌬::hph gpb2⌬::G418/gpb2⌬::G418
+
+gpr1⌬::hph/gpr1⌬::hph ura3-52/ura3-52
+
+MATa/␣ gpb1⌬::hph/gpb1⌬::hph gpb2⌬::G418/gpb2⌬::G418
+
+gpg1⌬::nat/gpg1⌬::nat ura3-52/ura3-52
+
+Lorenz and Heitman (1997)
+Lorenz and Heitman (1997)
+Lorenz and Heitman (1997)
+Lorenz and Heitman (1997)
+Lorenz and Heitman (1997)
+Lorenz and Heitman (1997)
+
+Lorenz et al. (2000)
+Laboratory stock
+
+Harashima and Heitman (2002)
+
+This study
+Harashima and Heitman (2002)
+
+Harashima and Heitman (2002)
+
+MATa ura3⌬::loxP leu2⌬::loxP trp1⌬::loxP gal2
+MATa ura3⌬::loxP leu2⌬::loxP trp1⌬::loxP lys5⌬::loxP gal2
+
+Ito-Harashima
+This study
+
+Preparation of Crude Cell Extracts and
+Immunoprecipitation
+⬵
+Total cell extracts from yeast cells that were grown to midlog phase (OD600
+0.8) in synthetic dropout media were prepared in lysis buffer (50 mM HEPES,
+pH 7.6, 120 mM NaCl, 0.3% CHAPS, 1 mM EDTA, 20 mM NaF, 20 mM
+␤-glycerophosphate, 0.1 mM Na-orthovanadate, 0.5 mM dithiothreitol, pro-
+tease inhibitors (Calbiochem, La Jolla, CA; cocktail IV), and 0.5 mM phenyl-
+methylsulfonyl ﬂuoride) using a bead-beater. After centrifugation (25,000 ⫻ g,
+20 min), crude extracts (2 mg) were mixed with anti-FLAG M2 afﬁnity gel
+(Sigma, St. Louis, MO) to precipitate FLAG tagged proteins.
+
+In Vivo Lipid Modiﬁcations
+⫽ 0.6–0.7, collected,
+Cells were grown in 10 ml of SD-Ura medium to OD600
+and resuspended into 5 ml of fresh SD-Ura medium. After 10 min, cerulenin
+was added at a ﬁnal concentration of 2 ␮g/ml, and cells were incubated for
+an additional 15 min under the same conditions. Subsequently, [3H]myristic
+acid or [3H]palmitic acid was added to the cultures at a ﬁnal concentration of
+50 ␮Ci/ml for myristoylation analysis or 500 ␮Ci/ml for palmitoylation
+analysis. After 3 h, cells were collected and washed once with H2O and twice
+with phosphate-buffered saline. Preparation of crude cell extracts and immu-
+noprecipitation of FLAG tagged proteins were performed as above. The
+bound FLAG tagged proteins were eluted by boiling for 5 min in SDS-PAGE
+sample buffer in the presence of ␤-mercaptoethanol for the myristoylation
+analysis and in the absence of ␤-mercaptoethanol for the palmitoylation
+analysis (Song and Dohlman, 1996). After SDS-PAGE, gels were ﬁxed in
+H2O/2-propanol/acetic acid (65:25:10 vol/vol/vol) for 30 min and then
+soaked at room temperature for 18 h either in 1 M hydroxylamine (pH 7.0) to
+cleave thioester-linked fatty acids or 1 M Tris-HCl (pH 7.0) as a control. The
+gels were ﬁxed again, treated with Amplify (Amersham, Piscataway, NJ) for
+30 min, dried, and then exposed to an x-ray ﬁlm (BioMax MS ﬁlm, Eastman
+Kodak, Rochester, NY) with an intensifying screen (BioMax Transcreen LE,
+Kodak) at ⫺80°C for 1–2 mo. Expression of the FLAG-tagged proteins was
+veriﬁed by Western blot analysis using anti-FLAG M2 antibody (Sigma).
+
+cAMP Assay
+cAMP assay was as described in Lorenz et al. (2000) with some modiﬁcations.
+Brieﬂy, at the time points indicated, 0.5 ml of cell suspension was transferred
+into a microfuge tube containing 0.5 ml of 10% ice-cold trichloroacetic acid
+and was immediately frozen in liquid nitrogen. To prepare intracellular
+cAMP, cells were permeabilized by defrosting at 4°C overnight. Cell extracts
+were neutralized by ether extraction and lyophilized. Intracellular cAMP
+levels were determined by using a cAMP enzyme immunoassay kit (Amer-
+sham).
+
+RESULTS
+G␣ Subunit Gpa2 Is Myristoylated and Palmitoylated
+The G␣ protein Gpa2 is coupled to the GPCR Gpr1 and
+signals to activate the downstream effector adenylyl cyclase
+
+in response to glucose. Based on analogy to other GPCR-G␣
+systems, we hypothesized that Gpa2 would be localized to
+the cell membrane for function. To address this, Gpa2 was
+fused to green ﬂuorescent protein (GFP). To avoid perturb-
+ing protein localization or receptor coupling sequences typ-
+ically linked to the amino and carboxy terminal regions of
+G␣proteins (Figure 1A), GFP was fused between the ﬁrst 10
+amino acids (1–10) of Gpa2 and the remainder of the protein
+(amino acids 4–449) to produce a Gpa21–10-GFP-Gpa24 – 449
+internal fusion protein. This Gpa2-GFP fusion protein was
+functional based on its ability to complement the pseudohy-
+phal defect of gpa2 mutant cells (unpublished data). As
+shown in Figure 2A, the Gpa2-GFP fusion protein was lo-
+calized to the cell membrane. A C-terminally GFP tagged
+Gpa2 protein was nonfunctional (unpublished data), in ac-
+cord with the known role of the G␣ C-terminal domain in
+receptor coupling (Slessareva et al., 2003; Herrmann et al.,
+2004).
+
+To establish the minimal Gpa2 domain required for mem-
+brane localization, the ﬁrst 10 (Gpa21–10), 20 (Gpa21–20), or 30
+(Gpa21–30) amino acids of Gpa2 were fused to a GFP cassette
+and expressed in vivo. All three C-terminally tagged Gpa2-
+GFP proteins were localized to the plasma membrane (Fig-
+ure 2A). Therefore, as few as the ﬁrst 10 amino acids of Gpa2
+sufﬁce for plasma membrane targeting.
+
+In conventional G␣ subunits, lipid modiﬁcations of the
+N-terminus mediate membrane localization (Chen and Man-
+ning, 2001). Myristoylation occurs at Gly2 in the myristoyl-
+ation consensus sequence G2XXXS6 (Johnson et al., 1994).
+Palmitoylation can occur at any cysteine residue near the
+N-terminus. Gpa2 contains glycine and serine in the second
+and sixth positions for myristoylation and cysteine at the
+fourth position from the N-terminus. To examine whether
+these sites are lipid modiﬁed, a Gpa21–20-GFP-FLAG protein
+in which the ﬁrst 20 amino acids of Gpa2 were fused to a
+GFP-FLAG cassette was expressed in yeast cells and as-
+sessed for lipid modiﬁcations. Gpa21–20-GFP-FLAG variants
+containing mutations in the potential lipid modiﬁcation sites
+(G2A, C4A, or S6Y) were also analyzed.
+
+As a positive control for lipid modiﬁcation experiments,
+an equivalent Gpa11–20-GFP-FLAG protein was constructed,
+
+Vol. 16, October 2005
+
+4559
+
+T. Harashima and J. Heitman
+
+Table 2. Plasmids
+
+Plasmid
+
+pTH19
+pTH26
+pTH27
+pTH47
+pTH48
+pTH49
+pTH62
+pTH65
+pTH68
+pTH69
+pTH71
+pTH73
+pTH75
+pTH80
+pTH81
+pTH84
+pTH91
+pTH92
+pTH93
+pTH100
+pTH103
+pTH106
+pTH114
+pTH127
+pTH128
+pTH130
+pTH133
+pTH134
+pTH136
+pTH144
+pTH145
+pTH149
+pTH155
+pTH157
+pTH158
+pTH159
+pTH160
+pTH161
+pTH163
+pTH164
+pTH166
+pTH167
+pTH168
+pTH169
+pTH170
+pTH171
+pTH172
+pTH173
+pTH174
+pTH178
+pTH191
+pTH192
+
+Description
+
+Source/Reference
+
+PADH1 URA3 2␮
+PADH1-GPB1 URA3 2␮ (pTH19)
+PADH1-GPB2 URA3 2␮ (pTH19)
+PADH1-GPA2 URA3 2␮ (pTH19)
+PADH1-GPA2Q300L URA3 2␮ (pTH19)
+PADH1-GPA2G299A URA3 2␮ (pTH19)
+PADH1-GPA2G2A URA3 2␮ (pTH19)
+PADH1-GPA21–30 aa::GFP URA3 2␮ (pTH19)
+PADH1-GPA2C4A URA3 2␮ (pTH19)
+PADH1-GPA2S6Y URA3 2␮ (pTH19)
+PADH1-GPA21–10 aa::GFP URA3 2␮ (pTH19)
+PADH1-GFP URA3 2␮ (pTH19)
+PADH1-GFP-GPB2 URA3 2␮ (pTH19)
+PADH1-GPA21–10::GFP::GPA24–449 URA3 2␮ (pTH19)
+PADH1-GPA21–20 aa::GFP-FLAG URA3 2␮ (pTH19)
+PADH1-GFP-GPB2 LEU2 2␮ (pTH171)
+PADH1-GPA21–20 aa G2A::GFP-FLAG URA3 2␮ (pTH19)
+PADH1-GPA21–20 aa C4A::GFP-FLAG URA3 2␮ (pTH19)
+PADH1-GPA21–20 aa S6Y::GFP-FLAG URA3 2␮ (pTH19)
+PADH1- GFP-FLAG URA3 2␮ (pTH19)
+PADH1-GPA11–20 aa::GFP-FLAG URA3 2␮ (pTH19)
+PADH1-GFP-GPB1 URA3 2␮ (pTH19)
+PADH1-GPB2 LEU2 2␮ (pTH171)
+PADH1-GPA11–10-GPA2⌬1–100 URA3 2␮ (pTH19)
+PADH1-GPA11–10-GPA2⌬1–100 G299A URA3 2␮ (pTH19)
+PADH1-GPA2⌬␣ (51–57) G299A URA3 2␮ (pTH19)
+PADH1-GPA2⌬␣ (51–57) URA3 2␮ (pTH19)
+PADH1-GPA11–10-GPA2⌬1–29 G299A URA3 2␮ (pTH19)
+PADH1-GPA2⌬16–84 G299A URA3 2␮ (pTH19)
+PADH1-GPA11–10-GPA2⌬1–14 G299A URA3 2␮ (pTH19)
+PADH1-GPA2⌬46–84 G299A URA3 2␮ (pTH19)
+PADH1-GPA2G2A-NLS URA3 2␮ (pTH19)
+PADH1-GPA2⌬46–100 URA3 2␮ (pTH19)
+PADH1-GPA11–10-GPA2⌬1–29 URA3 2␮ (pTH19)
+PADH1-GPA2⌬46–84 URA3 2␮ (pTH19)
+PADH1-GPA2⌬31–84 G299A URA3 2␮ (pTH19)
+PADH1-GPA2⌬31–84 URA3 2␮ (pTH19)
+PADH1-GPA2⌬16–84 URA3 2␮ (pTH19)
+PADH1-MLS-GFP-GPB2 URA3 2␮ (pTH19)
+PADH1-MLS-GFP-GPB1 URA3 2␮ (pTH19)
+PADH1-NLS-GFP-GPB2 URA3 2␮ (pTH19)
+PADH1-NLS-GFP-GPB1 URA3 2␮ (pTH19)
+PADH1-GPA2⌬46–100 G299A URA3 2␮ (pTH19)
+PADH1-GPA11–10-GPA2⌬1–14 URA3 2␮ (pTH19)
+PADH1-GFP-GPR1C TRP1 2␮ (pTH172)
+PADH1 LEU2 2␮
+PADH1 TRP1 2␮
+PADH1 LYS5 2␮
+PADH1-GPB1 LYS5 2␮ (pTH173)
+PADH1-GPA2⌬46–449 URA3 2␮ (pTH19)
+PADH1-GPA11–10-GPA2⌬1–44 URA3 2␮ (pTH19)
+PADH1-GPA11–10-GPA2⌬1–44 G299A URA3 2␮ (pTH19)
+
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+This study
+
+which was derived from the Gpa1 G␣subunit coupled to the
+Ste2/3 pheromone receptors (Figure 2B). Gpa1 is known to
+be myristoylated at the second position on glycine (Gly2)
+and palmitoylated on cysteine in the third position (Cys3)
+(Song and Dohlman, 1996; Song et al., 1996). Gpa1 myris-
+toylation is essential for membrane localization and function
+and required for palmitoylation, and palmitoylation also
+promotes membrane localization and function. In addition,
+the ﬁrst 9 amino acids of Gpa1 sufﬁce for membrane local-
+ization of a Gpa1-GST fusion protein (Gillen et al., 1998).
+
+As shown in Figure 2B, the wild-type Gpa2 fusion protein
+was myristoylated and the myristoylation site and myris-
+toylation consensus sequence mutant proteins, Gpa2G2A and
+
+Gpa2S6Y, were not, suggesting that Gpa2 is subject to my-
+ristoylation at Gly2. Gpa2 was also palmitoylated and a
+mutation in the putative palmitoylation site (Gpa2C4A) abol-
+ished this modiﬁcation (Figure 2C). Therefore, Gpa2 is also
+subject to palmitoylation at Cys4. We note that the Gpa2C4A
+fusion protein exhibited a decreased level of myristoylation
+compared with the wild-type protein. Interestingly, reduced
+myristoylation was also observed with the Gpa1C3S mutant
+(Song and Dohlman, 1996). These results are indicative of
+either a sequence preference in the myristoylation consensus
+sequence (G2XXXS6) or a role for palmitoylation in promot-
+ing myristoylation or its maintenance.
+
+4560
+
+Molecular Biology of the Cell
+
+Novel Heteromeric G Protein Signaling
+
+Figure 1. N-terminal alpha helix of G␣subunits (␣N domain) is involved in receptor and G␤␥dimer coupling. (A) The ␣N domain provides
+one of the binding interfaces between G␣ and G␤ and the receptor. This image shows a hypothetical model (PDB ﬁle 1BOK) for a GPCR-G
+protein module (GPCR; Rhodopsin, PDB ﬁle 1F88, G protein; PDB ﬁle 1GOT). The ␣N domain of the G␣ subunit that is required for G␤
+subunit and receptor coupling is shown (modiﬁed from Cabrera-Vera et al., 2003). (B) The predicted secondary structures of the conventional
+rat G␣i subunit and the yeast G␣ Gpa2 protein based on PHD (Rost et al., 1993). Gpa2 shares 34% identity with the rat G␣i subunit and the
+predicted secondary structure is highly conserved between the two, except for the extended Gpa2 N-terminus. Secondary structure
+assignments were based on those of G␣t/␣I (Lambright et al., 1996). (C) An alignment of the amino acid sequence of the N-terminus of Gpa2
+homologues from S. cerevisiae and the related yeasts C. glabrata and S. castellii. C. glabrata and S. castellii express homologues of the S. cerevisiae
+GPCR Gpr1 and G␤ mimic Gpb1/2 proteins as well as a Gpa2 homologue, yet the N-termini of their Gpa2 homologues share no signiﬁcant
+homology. Amino acids forming a potential alpha helix in the N-termini are indicated by red rectangles. Identical amino acids are marked
+(*) and shaded in gray, and conserved amino acids are also indicated (F). The 100th amino acid (R) of Gpa2 is shown in red. The ␤1 and ␣1
+domains assigned in Figure 1B are shown. Alignments were obtained using Clustal W (Thompson et al., 1994).
+
+Similar to Gpa1, Gpa2 requires myristoylation for palmi-
+toylation because the G2A and S6Y mutations, which abolish
+myristoylation, also blocked palmitoylation. Consistent with
+these results, the Gpa2-GFP-FLAG proteins bearing the G2A,
+C4A, or S6Y mutations failed to localize to the plasma mem-
+brane, and thus myristoylation and palmitoylation are re-
+quired for Gpa2 plasma membrane localization (Figure 2A).
+
+To address the physiological roles of these lipid modiﬁ-
+cations, the G2A, C4A, and S6Y mutations were introduced
+into the GPA2 gene and expressed in a ⌺1278b gpa2/gpa2
+diploid or gpa2 haploid mutant strain. As shown in Figure 2,
+
+D and E, the GPA2G2A myristoylation site mutant failed to
+complement either the pseudohyphal or the invasive growth
+defects. The GPA2S6Y and GPA2C4A myristoylation consen-
+sus sequence or palmitoylation site mutants showed severe
+defects in both assays. Furthermore, introduction of a dom-
+inant active mutation (Q300L) that abolishes Gpa2 GTPase
+activity failed to restore activity of the GPA2G2A mutant
+protein (Gpa2G2A, Q300L, unpublished data). Thus, myris-
+toylation and palmitoylation both play critical roles in Gpa2
+membrane localization and signaling. Importantly, the un-
+usual G␣ subunit Gpa2 shares common features with the
+
+Vol. 16, October 2005
+
+4561
+
+T. Harashima and J. Heitman
+
+(Gpa21–10,
+
+Figure 2. Myristoylation and palmitoyl-
+ation are required for membrane localization
+and function of the G␣ subunit Gpa2. (A) The
+ﬁrst 10 amino acids from Gpa2 are sufﬁcient
+for membrane localization. A functionally, in-
+ternally GFP-tagged Gpa2 (Gpa2, pTH80),
+truncated GFP-tagged Gpa2 proteins, Gpa21–10-
+GFP
+pTH71), Gpa21–20-GFP-
+FLAG (Gpa21–20, pTH81), and Gpa21–30-GFP
+(Gpa21–30, pTH65), or mutant truncated GFP-
+tagged Gpa2 proteins, Gpa21–20 G2A-GFP-
+FLAG (Gpa21–20 G2A, pTH91), Gpa21–20 C4A-
+GFP-FLAG (Gpa21–20 C4A, pTH92),
+and
+Gpa21–20 S6Y-GFP-FLAG (Gpa21–20 S6Y, pTH93),
+were expressed from a 2␮ plasmid in wild-
+type yeast cells (MLY61a/␣) to test for protein
+localization. The GFP cassette alone (⫺,
+pTH73) was also expressed as a control. Scale
+bar, 5 ␮m. (B and C) Gpa2 is myristoylated (B)
+and palmitoylated (C). gpa2 mutant cells
+(MLY132a/␣) expressing the Gpa21–20-GFP-
+FLAG (Gpa2WT, pTH81), Gpa21–20 G2A-GFP-
+FLAG (Gpa2G2A, pTH91), Gpa21–20 S6Y-GFP-
+FLAG (Gpa2S6Y, pTH93), Gpa21–20 C4A-GFP-
+FLAG (Gpa2C4A, pTH92), GFP-FLAG (GFP,
+pTH100), or Gpa11–20-GFP-FLAG (Gpa1,
+pTH103) proteins were metabolically labeled
+with [3H]myristic acid or [3H]palmitic acid.
+FLAG-tagged proteins were puriﬁed using an-
+ti-FLAG afﬁnity gel and subjected to SDS-
+PAGE. Gels were treated with 1 M Tris-HCl, 1
+M hydroxylamine that cleaves the palmitoyl
+moiety of fatty acids, or subjected to Western
+blot using an anti-FLAG antibody to verify
+puriﬁed protein levels. Radiolabeled puriﬁed
+proteins were visualized by autoradiography.
+(D and E) Myristoylation and palmitoylation
+are required for Gpa2 function. Full-length
+wild-type (Gpa2WT, pTH47) or mutant Gpa2
+proteins (Gpa2G2A (pTH62), Gpa2C4A (pTH68),
+and Gpa2S6Y (pTH69)) were expressed in gpa2
+mutant cells (MLY132a/␣or MLY132␣) to test
+for diploid ﬁlamentous growth (D) and hap-
+loid invasive growth (E). gpa2 mutant cells con-
+taining an empty plasmid (pTH19) served as
+control.
+
+conventional G␣ subunit Gpa1 with respect to lipid modiﬁ-
+cations and their physiological roles.
+
+Gpa2 Binding Partners Are Not Required for Gpa2
+Membrane Localization
+In heterotrimeric G proteins, G␤␥ subunits can promote
+membrane localization of their associated G␣ subunits.
+Therefore, the localization of Gpa2 was examined in the
+absence of Gpb1/2 or when Gpb1/2 were overexpressed. As
+shown in Figure 3, A and B, Gpa2 membrane localization
+was unchanged under both conditions. Furthermore, dele-
+tion of other known Gpa2 associated proteins, namely the
+GPCR Gpr1 or the G␥ subunit mimic Gpg1, or even the
+elimination of multiple binding partners (Gpb1/2 and Gpr1
+or Gpb1/2 and Gpg1), did not perturb Gpa2 plasma mem-
+brane localization, suggesting these binding partners are not
+required for membrane targeting (Figure 3A).
+
+Because Gpa2 is a component of the glucose sensing
+cAMP signaling pathway and the agonist induced redistri-
+bution of G␣s has been reported in mammalian cells (We-
+degaertner et al., 1996; Thiyagarajan et al., 2002), we exam-
+ined if carbon source affects Gpa2 protein localization
+(Figure 3C). Glucose serves as a ligand for Gpr1 (Yun et al.,
+
+1998; Kraakman et al., 1999; Lorenz et al., 2000; Rolland et al.,
+2000; Lemaire et al., 2004). Glucose, fructose, and galactose
+are structurally related hexoses, yet galactose is not a ligand
+for Gpr1 (Lorenz et al., 2000; Lemaire et al., 2004). Fructose is
+controversial, although fructose can induce cAMP produc-
+tion when added to glucose-starved cells (Yun et al., 1998;
+Lemaire et al., 2004). Maltose and galactose induce ﬁlamen-
+tous growth in a Gpr1-Gpa2-independent manner (Lorenz et
+al., 2000). Ethanol and glycerol are structurally unrelated
+nonfermentable carbon sources. As shown in Figure 3C,
+Gpa2 was localized to the plasma membrane to the same
+extent under all conditions tested. Therefore, the carbon
+sources examined do not inﬂuence Gpa2 protein localization
+and Gpa2 is localized to the cell membrane irrespective of
+activity of the Gpr1-Gpa2 signaling pathway.
+
+Kelch G␤ Mimic Gpb2 Is Recruited to the Plasma
+Membrane by Gpa2
+If the kelch proteins Gpb1/2 function as G␤ mimics, we
+hypothesized that Gpb1/2 should also be membrane local-
+ized. To examine protein localization, a functional GFP-
+Gpb2 protein was expressed in gpa2⌬ cells (Figure 4). When
+GFP-Gpb2 was expressed alone, Gpb2 was found to be
+
+4562
+
+Molecular Biology of the Cell
+
+Novel Heteromeric G Protein Signaling
+
+Figure 4. G␣ subunit Gpa2 recruits the kelch G␤ subunit mimic
+Gpb2 to the plasma membrane. (A) A functional GFP-Gpb2 protein
+(pTH84) was coexpressed with Gpa2 (pTH47), Gpa2G299A (pTH49),
+Gpa2G2A (pTH62), or Gpa2G2A-NLS (pTH149) proteins in gpa2⌬
+mutant cells (MLY212a/␣), and protein localization was investi-
+gated by confocal (A) or direct ﬂuorescence microscopy (B). The
+empty vector pTH19 (⫺) served as control. Nuclear localization was
+conﬁrmed by DAPI staining (unpublished data). Scale bar, 5 ␮m.
+
+extensively when coexpressed with the Gpa2G299A mutant
+protein that is unable to undergo the GTP-induced confor-
+mational change when compared with wild-type Gpa2 (Fig-
+ure 4A). This ﬁnding is in accord with previous data show-
+ing that Gpb2 binds to Gpa2 in vivo and preferentially
+associates with Gpa2-GDP (Harashima and Heitman, 2002).
+When GFP-Gpb2 was coexpressed with the nonfunctional
+Gpa2G2A mutant that is no longer directed to the plasma
+membrane, GFP-Gpb2 was no longer localized to the plasma
+membrane (Figure 4). To exclude the possibility that the
+observed Gpb2 membrane localization is an indirect second-
+ary consequence due to overexpression of the functional
+wild-type Gpa2 protein, GFP-Gpb2 was coexpressed with a
+nuclear localization signal (NLS) containing Gpa2G2A mu-
+tant protein (Gpa2G2A-NLS). Strikingly, Gpa2G2A-NLS now
+misdirected Gpb2 to the nucleus (Figure 4B). Therefore, the
+G␣ protein Gpa2 forms a stable complex with the kelch G␤
+mimic protein Gpb2 and serves to recruit Gpb2 to the
+plasma membrane. That Gpa2G2A-NLS directs Gpb2 to the
+nucleus also demonstrates that lipid modiﬁcations are not
+required for the Gpa2-Gpb2 interaction. This is consistent
+with ﬁndings regarding interaction of the yeast G␣ subunit
+Gpa1 and the mammalian G␣subunit G␣i with their respec-
+tive G␤ subunits (Jones et al., 1990; Song et al., 1996).
+
+Kelch G␤ Mimic Gpb2 and the C-terminal Tail of the
+Gpr1 Receptor Bind to the N-terminal Region of Gpa2
+In canonical G␣ subunits, an N-terminal alpha helix called
+the ␣N domain provides a binding surface for the G␤ sub-
+unit and the coupled receptor (Lambright et al., 1996; Wall et
+al., 1998). Because the ␣N domain is less conserved among
+G␣ subunits, we searched for any related alpha helical do-
+main in the extended N-terminus of Gpa2 using the PHD
+secondary structure prediction method (Rost and Sander,
+1993). A sequence spanning amino acid residues 49–57 was
+identiﬁed that is predicted to form an alpha helix, although
+this region does not share any signiﬁcant identity with
+known ␣N domains (Figure 1).
+
+Figure 3. The G␣ subunit Gpa2 is localized to the plasma mem-
+brane independent of its known binding partners. (A) Gpa2-GFP
+protein (pTH80) was expressed in gpr1 (MLY232a/␣), gpg1
+(THY224a/␣), gpb1,2 (THY212a/␣), gpb1,2 gpr1 (THY243a/␣), and
+gpb1,2 gpg1 (THY246a/␣) mutant cells and protein localization was
+analyzed. (B) Overexpression of the kelch G␤ mimic proteins
+Gpb1/2 has no effect on Gpa2 membrane localization. The Gpa2-
+GFP protein was coexpressed with Gpb1 (pTH26), Gpb2 (pTH27), or
+both (pTH26 and pTH114) in wild-type cells (MLY97a/␣). (C) Mem-
+brane localization of Gpa2 was not altered by carbon sources. gpa2
+mutant cells (MLY132a/␣) expressing the Gpa2-GFP protein were
+grown in synthetic media containing different carbon sources and
+Gpa2 protein localization was assessed. Scale bars, 5 ␮m.
+
+cytoplasmic. However, when GFP-Gpb2 was coexpressed
+with either wild-type Gpa2 or a dominant negative Gpa2
+(Gpa2G299A), GFP-Gpb2 was directed to the plasma mem-
+brane (Figure 4). Confocal microscopic analysis revealed
+that Gpb2 was localized to the plasma membrane more
+
+Vol. 16, October 2005
+
+4563
+
+T. Harashima and J. Heitman
+
+Figure 5. N-terminus of G␣ Gpa2 is re-
+quired for binding to the kelch protein Gpb2
+and the GPCR Gpr1. A series of deletions
+was created in the N-terminal region of
+Gpa2G299A, and these deletion constructs
+were coexpressed with the GFP-Gpb2 pro-
+tein (pTH84) in gpa2⌬ cells (MLY212a/␣) or
+with GFP-Gpr1C (pTH170) in wild-type cells
+(S1338) to determine roles of the N-terminal
+region of Gpa2 on interaction with Gpb2 and
+the C-terminal tail of Gpr1. Deletion mutant
+Gpa2G299A proteins constructed and results
+are shown schematically. ⌬1–14, ⌬1–29, ⌬1–
+44, and ⌬1–100 mutant proteins were fused
+to the ﬁrst 10 amino acids from the yeast G␣
+subunit Gpa1 to restore targeting to the
+plasma membrane and Gpa1 residues are
+depicted as a gray box. Scale bar, 5 ␮m.
+
+plays an important role in Gpb2 binding (Figure 5). How-
+ever, the ﬁrst 15 or 30 amino acids were not sufﬁcient for
+Gpb2 binding because neither the Gpa2 ⌬16–84 nor the
+⌬31–84 mutant was able to recruit Gpb2 to the plasma
+membrane. On the other hand, membrane localization of
+GFP-Gpb2 was observed when it was coexpressed with the
+Gpa2 ⌬46–84 and ⌬46–100 mutants. Taken together, these
+ﬁndings indicate that the ﬁrst 45 amino acids are necessary
+for Gpb2 interaction. This N-terminal region alone (1–45 aa)
+was not sufﬁcient because GFP-Gpb2 was cytoplasmic with
+the Gpa2⌬46 – 449 variant. Structural analyses have revealed
+that G␤ binding interfaces are present not only in the N-
+terminus (the ␣N domain) but also in the central region (␤2
+to ␣2 domain) of conventional G␣ molecules (Figure 1 and
+Lambright et al., 1996; Wall et al., 1998). Therefore, by anal-
+ogy Gpa2 may also require the corresponding internal con-
+served region in conjunction with the N-terminal 1–45 aa to
+bind Gpb2, although we cannot exclude a possibility that the
+Gpa2⌬46 – 449 variant failed to recruit Gpb2 to the plasma
+membrane because of instability. Note that the deletions
+examined were also introduced into a wild-type Gpa2 con-
+struct and tested for GFP-Gpb2 interaction as above, and
+results were essentially equivalent to the ones with the
+Gpa2G299A deletion variants with the minor difference that
+plasma membrane localization of GFP-Gpb2 was weaker
+when the wild-type Gpa2 deletion variant were coex-
+pressed. This is consistent with the fact that Gpa2G299A binds
+to Gpb2 more strongly than does wild-type Gpa2 (Figure 4,
+Harashima and Heitman, 2002, 2004).
+
+We next addressed regions of the Gpa2 molecule involved
+in association with the Gpr1 receptor. Previously, the Gpr1
+C-terminal tail composed of 99 amino acids was isolated in
+a yeast two-hybrid screen that identiﬁed Gpa2 interacting
+proteins (Xue et al., 1998). Because Gpr1 that is C-terminally
+
+To examine if this candidate alpha helical domain of Gpa2
+is involved in the interaction with Gpb2, the domain was
+deleted in the dominant negative Gpa2G299A mutant
+⌬␣ (51–57)) and the resulting mutant derivative was coex-
+(Gpa2
+pressed with the GFP-Gpb2 protein to test for protein local-
+ization. As noted above, Gpa2G299A recruits GFP-Gpb2 to
+the plasma membrane (Figure 5). Similarly, Gpa2⌬␣ (51–57)
+also brought GFP-Gpb2 to the plasma membrane (Figure 5).
+Therefore, the sequence spanning amino acids 51–57, which
+is predicted to be an N-terminal alpha helical region, is not
+required for Gpa2-Gpb2 binding.
+
+We next addressed whether other sequences in the Gpa2
+N-terminal extension are required for Gpb2 interaction. For
+this purpose, deletions were introduced into the N-terminal
+region of the GPA2G299A allele to create ⌬1–14, ⌬1–29, ⌬1–44,
+and ⌬1–100 derivatives of Gpa2G299A, which were also then
+fused to the ﬁrst 10 amino acids from the S. cerevisiae G␣
+subunit Gpa1 that are sufﬁcient for membrane localization
+(unpublished data; Gillen et al., 1998). Internal deletions
+were also created (⌬16–84, ⌬31–84, ⌬46–84, and ⌬46–100,
+Figure 5). This deletion mutant series was coexpressed with
+GFP-Gpb2 to examine which Gpa2 mutants are capable of
+recruiting GFP-Gpb2 to the plasma membrane (Figure 5). All
+deletions generated for this study (except for the ⌬46–449
+Gpa2 mutant) are predicted to have no signiﬁcant impact on
+the secondary structure of Gpa2, based on PHD analysis,
+and the function and expression of
+these alleles of
+GPA2G299A were conﬁrmed by introducing these alleles into
+wild-type diploid cells and examining pseudohyphal
+growth (unpublished data). All deletion constructs and rep-
+resentative results are shown in Figure 5.
+
+GFP-Gpb2 did not associate with the plasma membrane
+when coexpressed with the ⌬1–14, ⌬1–29, ⌬1–44, or ⌬1–100
+Gpa2 derivatives, indicating that the N-terminus of Gpa2
+
+4564
+
+Molecular Biology of the Cell
+
+tagged with GFP is nonfunctional (unpublished data), likely
+because of interference with Gpr1-Gpa2 coupling, we fused
+GFP to the N-terminus of the 99 amino acid soluble C-
+terminal tail of Gpr1. The resulting GFP fusion protein (GFP-
+Gpr1C) was coexpressed with the Gpa2G299A variants to
+examine roles of the N-terminal extension on interactions
+with the coupled receptor Gpr1, as above (Figure 5, also see
+Figure 8).
+
+As shown in Figure 5, any variant of Gpa2 lacking the ﬁrst
+15 amino acids failed to recruit GFP-Gpr1C to the plasma
+membrane (Gpa2⌬1–14, Gpa2⌬1–29, Gpa2⌬1– 44, and Gpa2⌬1–100),
+whereas all of the variants containing amino acids 1–15
+(Gpa2⌬16 – 84, Gpa2⌬31– 84, Gpa2⌬46 – 84, and Gpa2⌬46 –100) re-
+cruited GFP-Gpr1C, similar to full length Gpa2G299A. The
+only exception was Gpa2⌬46 – 449, which failed to recruit the
+GFP-Gpr1C to the plasma membrane. These observations
+indicate that the N-terminal region of Gpa2 participates in
+associating with the receptor C-terminal tail, but that C-
+terminal regions of Gpa2 likely also participate. Importantly,
+the C-terminal tail of other G␣ subunits is known to be
+involved in receptor coupling (Slessareva et al., 2003; Herr-
+mann et al., 2004). Consistent with this model, Gpa2⌬1–100
+still interacted with the C-terminal tail of Gpr1 in the yeast
+two-hybrid assay and Gpa2 function was perturbed by a
+C-terminal GFP tag (unpublished data). In summary, these
+data indicate that both the N-terminal and more C-terminal
+regions of the G␣ protein Gpa2 are required for interactions
+with both Gpb2 and Gpr1.
+
+Functional Roles of the Gpa2 N-terminus
+To address roles of the Gpa2 amino terminus, N-terminal
+deletions were introduced into wild-type Gpa2. The result-
+ing deletion alleles were expressed in diploid or haploid
+gpa2 mutant cells to examine whether these mutants com-
+plement gpa2 defects in pseudohyphal growth,
+invasive
+growth, and glucose-induced cAMP production (Figure 6).
+These mutant alleles were also introduced into diploid gpr1
+gpa2 mutant cells to examine whether they require Gpr1 for
+function or act as dominant alleles that bypass the receptor.
+Cells expressing Gpa2⌬1–100 exhibited reduced pseudohy-
+phal and invasive growth and reduced levels of basal and
+glucose-induced cAMP, indicating that the N-terminal re-
+gion plays an important functional role or that deletion of
+the 1–100 amino acids might result in misfolding of Gpa2
+(Figures 6). Gpa2⌬46 – 84, Gpa2⌬46 –100, and Gpa2⌬␣ (51–57) all
+functioned as wild-type Gpa2, likely because Gpb2 and the
+C-terminal tail of Gpr1 still bind to these deletion proteins
+(Figure 6 and unpublished data). The ⌬1–14, ⌬1–29, ⌬1–44,
+⌬16–84, or ⌬31–84 GPA2 mutant genes were largely able to
+complement gpa2 mutant phenotypes. One interpretation of
+these results is that these deletion proteins still functionally
+interact with Gpr1 and Gpb2 via other Gpa2 domains and
+are capable of functioning, similar to wild-type Gpa2. Or
+expression of the deletion Gpa2 proteins from a multicopy
+plasmid might mask their reduced activity so that expres-
+sion from a low copy plasmid could elicit altered mutant
+phenotypes. Alternatively, these results could be due to
+counterbalancing defects in Gpa2 interaction with Gpr1 and
+Gpb2 because Gpr1/Gpa2 and Gpb2 control the cAMP sig-
+naling pathway positively and negatively, respectively (see
+Discussion).
+
+Kelch G␤ Mimic Proteins Gpb1/2 Function on the Plasma
+Membrane
+Gpb2 is directed to the plasma membrane in a Gpa2 depen-
+dent manner, indicating that the kelch G␤ mimic proteins
+Gpb1/2 may function on the plasma membrane. To examine
+
+Novel Heteromeric G Protein Signaling
+
+this hypothesis, the ﬁrst 10 amino acids of Gpa2 (hereafter,
+the membrane localization sequence [MLS]) that sufﬁce for
+membrane localization were fused to the N-terminus of the
+GFP-Gpb1 or GFP-Gpb2 protein. The resulting fusion pro-
+teins were tested for protein localization and complemen-
+tation of the elevated ﬁlamentous phenotype of gpb1,2
+mutant cells (Figure 7). We also tested the effects of fusing
+a nuclear localization signal (NLS) from the SV40 T anti-
+gen to the N-terminus of the GFP-Gpb1 or GFP-Gpb2
+protein (Figure 7).
+
+The MLS- and NLS-fused GFP-Gpb1/2 proteins were pre-
+dominantly localized to the plasma membrane and the nu-
+cleus, respectively (Figure 7A). Furthermore, the MLS-GFP-
+Gpb1/2 fusion proteins complemented the gpb1,2 double
+mutant phenotype and restored wild-type pseudohyphal
+growth (Figure 7B).
+the nuclear localized
+Gpb1/2 proteins (NLS-GFP-Gpb1/2) were nonfunctional
+(Figure 7B). These ﬁndings provide evidence that Gpb1/2
+can function when heterologously targeted to the plasma
+membrane. These results also indicate that the as yet un-
+identiﬁed second target of Gpb1/2 might be membrane
+associated.
+
+In contrast,
+
+Kelch G␤ Mimic Proteins Gpb1/2 Inhibit Gpr1-Gpa2
+Coupling
+Gpa2 interacts with the C-terminal tail of the Gpr1 receptor
+and recruits the GFP-Gpr1 C-tail fusion protein to the
+plasma membrane. Here we used this assay to analyze
+Gpr1-Gpa2 coupling in further detail. GFP-Gpr1C is local-
+ized to the plasma membrane when coexpressed with the
+dominant negative Gpa2G299A allele. Additionally, mem-
+brane localization of GFP-Gpr1C was less pronounced when
+coexpressed with wild-type Gpa2, suggesting that the C-
+terminal tail of Gpr1 binds more strongly to Gpa2G299A
+compared to wild-type Gpa2 (Figure 8). On the other hand,
+interaction of Gpa2 with the C-terminal tail of Gpr1 was
+reduced even further with the dominant Gpa2Q300L allele
+(Figure 8). This is consistent with the widely accepted model
+in which the G␣-GDP complex binds to the cognate GPCR,
+whereas the G␣-GTP complex dissociates from the GPCR.
+To conﬁrm the interaction between GFP-Gpr1C and Gpa2,
+the nonfunctional nuclear localized Gpa2G2A-NLS was co-
+expressed with GFP-Gpr1C. In this case, GFP-Gpr1C was
+now misdirected to the nucleus (Figure 8).
+
+Because Gpb2 is directed to the plasma membrane in a
+Gpa2-dependent manner and binds to the N-terminus of
+Gpa2 where the C-terminal tail of Gpr1 also binds, we
+hypothesized that Gpb1/2 could negatively regulate Gpa2
+function by inhibiting the Gpr1-Gpa2 interaction. To address
+this hypothesis, the wild-type Gpb1/2 proteins were simul-
+taneously coexpressed with the GFP-Gpr1C and Gpa2G299A
+proteins. As shown in Figure 8, the membrane localization of
+GFP-Gpr1 was signiﬁcantly reduced by coexpression of
+Gpb1/2, indicating that Gpb1/2 compete with the C-termi-
+nal tail of Gpr1 for binding to the N-terminus of Gpa2.
+Gpb1/2 may thereby control Gpa2 function by impairing
+receptor coupling. This is in contrast to canonical G␤ sub-
+units, which function to promote interactions of the G␣
+subunit with the associated GPCR.
+
+DISCUSSION
+The Roles of the N-terminal Region of Gpa2
+The MG2XXXS6 sequence in open reading frames and the
+glycine residue of the consensus sequence are well deﬁned
+as a myristoylation consensus sequence and the myristoyl-
+
+Vol. 16, October 2005
+
+4565
+
+T. Harashima and J. Heitman
+
+Figure 6. Function of the N-terminal deletion Gpa2 proteins in vivo. (A) Schematic of N-terminal deletion Gpa2 variants and complemen-
+tation results in gpa2 or gpr1 gpa2 mutant cells. N-terminal deletions were created in the wild-type GPA2 gene and introduced into gpa2
+(MLY132␣ for invasive growth assay and MLY132a/␣ for pseudohyphal growth assay) or gpr1 gpa2 (MLY277a/␣) mutant cells and ability
+to complement pseudohyphal and invasive growth defects was examined. Representative data are shown in B for pseudohyphal growth and
+in C for invasive growth. (D) Glucose-induced cAMP production in gpa2 (MLY132␣) mutant cells expressing the N-terminal deletion Gpa2
+derivatives. The values shown are the mean of two independent experiments, except the control, which is representative of cells carrying the
+empty vector (pTH19).
+
+ation site. On the other hand, no obvious consensus se-
+quence is established for palmitoylation, yet palmitoylation
+mostly occurs in a cysteine residue(s) near the N-terminus.
+The G␣ subunit Gpa2 contains the MG2XXXS6 myristoyl-
+ation consensus sequence and a cysteine at the fourth posi-
+tion of its N-terminus. A cysteine after the N-terminal cys-
+teine appears at the 189th position of the Gpa2 protein. Our
+biochemical studies revealed that Gpa2 is myristoylated and
+palmitoylated. Furthermore, the labeling and site-directed
+mutagenesis studies shown in Figure 2 provide evidence
+that Gpa2 is myristoylated at Gly2 and, most likely, also
+palmitoylated at Cys4.
+
+Introduction of site-speciﬁc mutations (G2A, C4A, and
+S6Y) into the GPA2 and GPA2-GFP fusion genes demon-
+strates that myristoylation and palmitoylation are critical for
+plasma membrane targeting and function of Gpa2. Although
+it still remains to be established why myristoylation is es-
+sential for G␣ function, recent studies demonstrate that
+GPCR-G␣ fusion proteins, in which G␣ is localized to the
+plasma membrane yet no longer lipid modiﬁed, are func-
+tional in vivo (for review, see Seifert et al., 1999). Further-
+more, a nonmyristoylated G␣i2Q205L protein is unable to
+signal and fails to transform rat ﬁbroblasts (Gallego et al.,
+1992). Consistently, we also found that a nonmyristoylated
+
+4566
+
+Molecular Biology of the Cell
+
+Novel Heteromeric G Protein Signaling
+
+tors. Structural and biochemical studies implicate the N-
+terminal alpha helix (␣N domain)
+in G␤␥ dimer and
+receptor coupling (Lambright et al., 1996; Wall et al., 1998).
+Gpa2 contains an alpha helix in the extended N-terminus,
+yet the position of this helix is not conserved (Figure 1).
+More strikingly, the alpha helix is not involved in coupling
+to the kelch subunit Gpb2 or to the Gpr1 C-terminal tail.
+Studies using Gpa2 variants that carry a series of deletions in
+the Gpa2 N-terminus identiﬁed binding domains for the
+Gpr1 C-terminal tail and Gpb2 that map to amino acids 1–15
+and 1–45 and are not predicted to form an alpha helix.
+
+Lipid modiﬁcations alone are not sufﬁcient to restore these
+interactions as the Gpa2 ⌬1–14 mutant that is lipid modiﬁed
+on an appended Gpa11–10 peptide did not direct the binding
+partners to the plasma membrane. Rather, amino acid se-
+quences that lie between residues 1–45 are important for the
+interactions. Interestingly, the non-alpha helical N-terminus
+(spanning amino acids 1–6) of G␣q is known to be involved
+in receptor selectivity (Kostenis et al., 1997). Therefore, the
+N-terminus may play a direct role in receptor coupling by
+providing a binding interface or an indirect role by inﬂu-
+encing overall structure. Either possibility is novel and fur-
+ther studies, especially structural studies, should address
+the role of the N-terminus of Gpa2.
+
+The Role of the Gpr1 C-terminal Tail
+Previous studies suggest the presence of preactivation com-
+plexes in which an unoccupied, inactive GPCR is coupled to
+the G␣subunit (Samama et al., 1993; Stefan et al., 1998; Dosil
+et al., 2000). Such preactivation complexes are not necessarily
+required for formation of the activated ternary complex in
+which a ligand bound, activated receptor forms a complex
+with a G protein to stimulate GDP-GTP exchange on G␣, yet
+the preactivation complexes are involved in regulation of
+speciﬁcity and intensity of G-protein mediated signaling
+(Neubig, 1994; Shea and Linderman, 1997). In S. cerevisiae,
+the C-terminal tail of the ␣-factor receptor Ste2 is implicated
+in the formation of the preactivation complex with its asso-
+ciated G␣ Gpa1 (Dosil et al., 2000). Although no direct evi-
+dence has been reported for a preactivation complex be-
+tween the Gpr1 receptor and Gpa2, our data support the
+existence of one. First, the cytoplasmic C-terminal tail of
+Gpr1 binds to wild-type Gpa2 and a nuclear localized
+Gpa2G2A-NLS. Second, Gpr1 and Gpa2 are still functional in
+the absence of the G␤ mimic subunits Gpb1/2, suggesting a
+promiscuous coupling between Gpr1 and Gpa2.
+
+These observations may be relevant to our ﬁnding that
+N-terminal deletion variants of Gpa2 (⌬1–14, ⌬1–29, ⌬1–44,
+and ⌬1–100) that are unable to bind to the Gpr1 C-terminal
+tail are still functional and can respond to glucose to stim-
+ulate cAMP production. This interpretation may also ex-
+plain why cells expressing these Gpa2 variants exhibited
+near wild-type phenotypes. It is conceivable that a reduced
+afﬁnity of the Gpa2 variants with the Gpr1 receptor could
+result in a decrease in signaling leading to a low-PKA phe-
+notype. However, these Gpa2 variants also show decreased
+binding to the kelch subunits Gpb1/2 that negatively control
+cAMP signaling, affecting Gpb1/2 function to activate the as
+yet unidentiﬁed second target that inhibits cAMP signaling.
+
+Kelch Subunits Gpb1/2 Inhibit Gpr1-Gpa2 Coupling
+G-protein activity is controlled at multiple steps including
+expression, protein localization, GDP-GTP exchange, and
+GTPase activity. GPCRs activate G proteins by stimulating
+GDP dissociation from G␣and acting as guanine nucleotide
+exchange factors, thereby leading to G␣ in the active G␣-
+GTP form. On the other hand, the GoLoco family protein
+
+Figure 7. Kelch G␤mimic proteins Gpb1/2 function on the plasma
+membrane. A membrane localization sequence (MLS) or nuclear
+localization signal (NLS) was fused to the N-terminus of the func-
+tional GFP-Gpb1/2 proteins (pTH106/pTH75) and the resulting
+fusion proteins (pTH163, pTH164, pTH166, or pTH167) were ex-
+pressed in diploid gpb1,2 double mutant cells (THY212a/␣) to test
+for protein localization (A) and function (B). The MLS-GFP-Gpb1/2
+fusion proteins were recruited to the plasma membrane and were as
+functional as the wild-type Gpb1/2 proteins, whereas the NLS-GFP-
+Gpb1/2 fusion proteins were directed to the nucleus and nonfunc-
+tional. Cells bearing the empty vector (pTH19) or the GPB1 (pTH26)
+or GPB2 (pTH27) plasmid served as controls. Scale bar, 5 ␮m.
+
+dominant Gpa2Q300L mutant (equivalent to G␣i2 Q205L) is
+incapable of enhancing ﬁlamentous growth in wild-type
+cells. These ﬁndings support a model in which lipid modi-
+ﬁcations are necessary for plasma membrane targeting that
+is a prerequisite for G␣ function. Alternatively, myristoyl-
+ation may play an important role in G␣ structure that is
+required for receptor coupling (Preininger et al., 2003).
+
+In heterotrimeric G proteins, the N-terminus is also in-
+volved in interactions with G␤␥ dimer, receptors, and effec-
+
+Vol. 16, October 2005
+
+4567
+
+T. Harashima and J. Heitman
+
+Figure 8. Kelch G␤mimic proteins Gpb1/2 interfere with the interaction between Gpa2 and the C-terminal tail of Gpr1. (A) The GFP-Gpr1C
+fusion protein (pTH170) was expressed alone or coexpressed with Gpa2 variants, wild-type Gpa2 (pTH47), Gpa2Q300L (pTH48), Gpa2G299A
+(pTH49), or NLS-Gpa2G2A (pTH149) with or without Gpb1/2 (pTH174/pTH114) in wild-type cells (THY452). Empty vectors (pTH171 and
+pTH173) were used as controls for the Gpb1/2 plasmids, pTH174 and pTH114. The location of nuclei were conﬁrmed by DAPI staining.
+
+AGS3 functions as a guanine nucleotide dissociation inhib-
+itor (GDI) by inhibiting GDP-GTP exchange (De Vries et al.,
+2000). Although GoLoco homologues are conserved in mul-
+ticellular eukaryotes, no such homolog is apparent in the
+yeast genome.
+
+Our previous studies revealed that the kelch subunits
+Gpb1 and Gpb2 negatively control Gpa2 and preferentially
+associate with Gpa2-GDP (Harashima and Heitman, 2002).
+However, neither loss nor overexpression of Gpb1/2 per-
+turbed Gpa2 membrane localization or expression. In addi-
+tion, Gpb1/2 did not exhibit GDI activity under standard in
+vitro conditions (unpublished data). Here we show that
+
+Gpb1/2 inhibit Gpa2-Gpr1 coupling. A model governing
+how the kelch Gpb1/2 subunits control Gpa2 is that Gpb1/2
+bind to the Gpa2 N-terminal region spanning amino acids
+1–45 and occlude binding of the Gpr1 C-terminal tail to the
+ﬁrst ﬁfteen amino acids of Gpa2 (Figure 9).
+
+In canonical heterotrimeric G proteins, G␤␥ subunits are
+required for receptor-G␣ coupling. In S. cerevisiae, the G␤␥
+dimer plays an essential role in pheromone receptor-G␣
+Gpa1 coupling (Blumer and Thorner, 1990). In mammalian
+systems, a role for the G␤␥ subunits in coupling of ␤
+2-
+adrenergic receptor-G␣s, M2-muscarinic receptor-G␣o, A1-
+adenosine and 5-HT1A receptors-G␣i, and ␤
+2-adrenergic re-
+
+Figure 9. Model of canonical heterotrimeric and atypical G protein signaling in budding yeast. The canonical heterotrimeric G protein
+composed of the Gpa1/Ste4/Ste18 subunits regulates the pheromone responsive MAPK cascade, whereas the atypical heteromeric G protein
+consisting of the Gpa2/Gpb1/2 subunits controls the nutrient sensing cAMP-PKA signaling pathway. For details, see Discussion.
+
+4568
+
+Molecular Biology of the Cell
+
+ceptor-G␣i has been established (Richardson and Robishaw,
+1999; Hou et al., 2001; Lim et al., 2001; Ku¨ hn et al., 2002). This
+function is opposite to the role of the kelch subunits, yet
+importantly, yeast and mammalian WD40 repeat G␤␥ sub-
+units and the kelch subunits all converge to modulate recep-
+tor-G␣ coupling. That receptor-G␣ coupling is oppositely
+regulated may depend on how tightly and speciﬁcally a
+given G␣ binds to its associated receptor. In yeast, the pher-
+omone receptor Ste2 is functionally coupled to the G␣ pro-
+tein Gpa1 and not to the Gpa2 G␣ subunit (Blumer and
+Thorner, 1990). During diploid ﬁlamentation, the glucose
+receptor Gpr1 is associated with Gpa2 and not with the
+haploid speciﬁc G␣Gpa1. Importantly, the Gpa2 G␣subunit
+is still partially functional and able to signal in response to
+the agonist glucose via Gpr1 in the absence of Gpb1/2,
+suggesting that Gpa2 can functionally couple to its receptor
+in the absence of Gpb1/2 (Harashima and Heitman, 2002).
+Therefore, Gpa2 may normally be tightly associated with the
+Gpr1 receptor, and Gpb1/2 function to compete with this
+association to reduce signaling in the absence of glucose.
+
+Generally, the intracellular third loop of GPCRs plays a
+crucial role in interactions with the G␣subunit. Although S.
+cerevisiae Gpa2 has been reported to interact with the intra-
+cellular third loop of Gpr1 in the yeast two-hybrid assay
+(Yun et al., 1997), we were unable to recapitulate this result
+(unpublished data). This could be attributable to a weak
+interaction between Gpa2 and the third loop of Gpr1. In
+contrast, the Gpr1 C-terminal tail avidly binds to Gpa2 in
+two-hybrid assays (Yun et al., 1997; Xue et al., 1998; Kraak-
+man et al., 1999; Harashima and Heitman, 2002). We also
+showed that the Gpa2-Gpr1 C-terminal tail interaction can
+be detected using the GFP tagged C-terminal tail of Gpr1 in
+vivo (Figures 5 and 8). These data indicate that the Gpr1
+C-terminus plays an important role in Gpa2 binding. This
+atypical feature of the Gpr1 receptor-Gpa2 G␣complex may
+mirror the unusual aspects by which the kelch subunits
+Gpb1/2 inhibit the signaling complex.
+
+Is Gpa2 an Unusual G␣ or an Ancestral G␣ Subunit?
+Our studies provide evidence that lipid modiﬁcations (my-
+ristoylation and palmitoylation) of G␣ Gpa2 are necessary
+and sufﬁcient for Gpa2 plasma membrane targeting but are
+not required for interaction with the kelch G␤mimic subunit
+Gpb2. Instead, Gpa2 directs Gpb2 to the plasma membrane.
+Mammalian G␣ subunits as well as the yeast canonical G␣
+subunit Gpa1 share similar features. Like Gpa2, lipid mod-
+iﬁcations but not the G␤␥ dimer are required for plasma
+membrane localization of yeast Gpa1 and mammalian G␣
+(Song et al., 1996; Gillen et al., 1998; Galbiati et al., 1999). It
+has also been reported that a nonlipidated G␣ still binds to
+G␤␥ subunits in yeast and mammals (Jones et al., 1990;
+Degtyarev et al., 1994; Song et al., 1996). Studies also provide
+evidence that G␣, at least in part, directs G␤␥subunits to the
+plasma membrane in vivo (Song et al., 1996; Takida and
+Wedegaertner, 2003). Although Gpa2 shares similar features
+with canonical G␣ subunits, a striking contrast is the inabil-
+ity of Gpa2 to form a heterotrimeric G protein. The G␣
+subunit Gpa1 in the ﬁssion yeast Schizosaccharomyces pombe,
+which functions in pheromone-mediated signaling, also fails
+to form a heterotrimeric G protein with the known G␤␥
+subunits Git5/11. The kelch protein Ral2 has been proposed
+as a possible Gpa1-associated subunit based on genetic stud-
+ies (Fukui et al., 1989; Harashima and Heitman, 2002; Hoff-
+man, 2005).
+
+Another contrast between canonical G␣ subunits and
+Gpa2 is that G␤␥ subunits typically promote receptor-G␣
+coupling, whereas Gpb1/2 inhibit receptor-Gpa2 coupling
+
+Novel Heteromeric G Protein Signaling
+
+(Figure 9). The receptor Gpr1 and G␣ Gpa2 can still in part
+function and signal in response to glucose without the G␤
+mimic subunits Gpb1/2, indicating a promiscuous and spe-
+ciﬁc coupling between Gpr1 and Gpa2 even in the absence of
+Gpb1/2 (Harashima and Heitman, 2002). In S. cerevisiae, the
+cAMP-PKA signaling pathway is essential for cell growth
+and determines cell fates in response to extracellular nutri-
+ents (Harashima and Heitman, 2004). Therefore the cAMP-
+PKA signaling pathway should be strictly controlled, and
+for this reason, Gpb1/2 may interfere with promiscuous
+Gpr1-Gpa2 coupling to facilitate responses to extracellular
+nutrients. On the other hand, in canonical G proteins, the
+G␤␥ dimer may control G␣ function by increasing the spec-
+iﬁcity of receptor coupling (Richardson and Robishaw, 1999;
+Hou et al., 2001; Lim et al., 2001; Ku¨ hn et al., 2002). Impor-
+tantly, the kelch G␤ mimic subunits Gpb1/2 and canonical
+G␤␥ dimer both regulate receptor-G␣ coupling. Thus, the
+Gpa2/Gpb1/2 protein complex shares features with canon-
+ical heterotrimeric G proteins, and we propose Gpa2 is an
+ancestral subunit rather than an unusual G␣subunit. In this
+model, eukaryotic cells ﬁrst acquired a GPCR and associated
+G␣ subunit to sense and signal extracellular cues. Later,
+seven-bladed ␤-propeller-type subunits (kelch or WD40
+based) were recruited to the GPCR-G␣ signaling complex.
+Finally, farnesylated G␥subunits were recruited to promote
+membrane localization. In this model, the atypical features
+of the nutrient and pheromone GPCR-G␣signaling modules
+in budding and ﬁssion yeasts might mirror features of their
+ancestral signaling modules from which they derive.
+
+Alternatively, yeasts might uniquely have evolved an “al-
+ternative” G␣ subunit and established a novel G protein
+signaling system to sense extracellular stimuli, in which an
+atypical G␣ subunit forms a complex and functions with an
+unusual binding-partner kelch G␤ mimic protein. Further
+studies in both unicellular and multicellular organisms
+would distinguish these possibilities.
+
+ACKNOWLEDGMENTS
+
+We thank Sayoko Ito-Harashima for providing a yeast strain and Cristl Arndt
+and Emily Wenink for assistance. We also thank Yong-Sun Bahn, Alex Id-
+nurm, Julian Rutherford, Chaoyang Xue, Andy Alspaugh, Pat Casey, Henrik
+Dohlman, and Bob Lefkowitz for critical reading. This study was supported
+by the Department of Defense Neuroﬁbromatosis program (W81xwh-04-01-
+0208). T.H. was supported by a fellowship from the Children’s Tumor Foun-
+dation and J.H. is an investigator of the Howard Hughes Medical Institute.
+
+REFERENCES
+
+Adams, J., Kelso, R., and Cooley, L. (2000). The kelch repeat superfamily of
+proteins: propellers of cell function. Trends Cell Biol. 10, 17–24.
+Are´valo-Rodrı´guez, M., and Heitman, J. (2005). Cyclophilin A is localized to
+the nucleus and controls meiosis in Saccharomyces cerevisiae. Eukaryot. Cell 4,
+17–29.
+Ashraﬁ, K., Farazi, T. A., and Gordon, J. I. (1998). A role for Saccharomyces
+cerevisiae fatty acid activation protein 4 in regulating protein N-myristoylation
+during entry into stationary phase. J. Biol. Chem. 273, 25864–25874.
+Batlle, M., Lu, A. L., Green, D. A., Xue, Y., and Hirsch, J. P. (2003). Krh1p and
+Krh2p act downstream of the Gpa2p G␣ subunit to negatively regulate
+haploid invasive growth. J. Cell Sci. 116, 701–710.
+Blumer, K. J., and Thorner, J. (1990). ␤ and ␥ subunits of a yeast guanine
+nucleotide-binding protein are not essential for membrane association of the
+␣ subunit but are required for receptor coupling. Proc. Natl. Acad. Sci. USA
+87, 4363–4367.
+Bourne, H. R. (1997). How receptors talk to trimeric G proteins. Curr. Opin.
+Cell Biol. 9, 134–142.
+Cabrera-Vera, T. M., Vanhauwe, J., Thomas, T. O., Medkova, M., Preininger,
+A., Mazzoni, M. R., and Hamm, H. E. (2003). Insights into G protein structure,
+function, and regulation. Endocr. Rev. 24, 765–781.
+
+Vol. 16, October 2005
+
+4569
+
+T. Harashima and J. Heitman
+
+Chen, C. A., and Manning, D. R. (2001). Regulation of G proteins by covalent
+modiﬁcation. Oncogene 20, 1643–1652.
+
+Colombo, S. et al. (1998). Involvement of distinct G-proteins, Gpa2 and Ras, in
+glucose- and intracellular acidiﬁcation-induced cAMP signalling in the yeast
+Saccharomyces cerevisiae. EMBO J. 17, 3326–3341.
+
+De Vries, L., Fischer, T., Tronche`re, H., Brothers, G. M., Strockbine, B.,
+Siderovski, D. P., and Farquhar, M. G. (2000). Activator of G protein signaling
+3 is a guanine dissociation inhibitor for G␣
+i subunits. Proc. Natl. Acad. Sci.
+USA 97, 14364–14369.
+
+De Vries, L., and Gist Farquhar, M. (1999). RGS proteins: more than just GAPs
+for heterotrimeric G proteins. Trends Cell Biol. 9, 138–144.
+
+Degtyarev, M. Y., Spiegel, A. M., and Jones, T. L. (1994). Palmitoylation of a
+G protein ␣
+i subunit requires membrane localization not myristoylation.
+J. Biol. Chem. 269, 30898–30903.
+
+Dohlman, H. G. (2002). G proteins and pheromone signaling. Annu. Rev.
+Physiol. 64, 129–152.
+
+Dohlman, H. G., and Thorner, J. W. (2001). Regulation of G protein-initiated
+signal transduction in yeast: paradigms and principles. Annu. Rev. Biochem.
+70, 703–754.
+
+Dosil, M., Schandel, K. A., Gupta, E., Jenness, D. D., and Konopka, J. B. (2000).
+The C terminus of the Saccharomyces cerevisiae ␣-factor receptor contributes to
+the formation of preactivation complexes with its cognate G protein. Mol.
+Cell. Biol. 20, 5321–5329.
+
+Evanko, D. S., Thiyagarajan, M. M., and Wedegaertner, P. B. (2000). Interac-
+tion with G␤␥ is required for membrane targeting and palmitoylation of G␣
+s
+and G␣
+Farazi, T. A., Waksman, G., and Gordon, J. I. (2001). The biology and enzy-
+mology of protein N-myristoylation. J. Biol. Chem. 276, 39501–39504.
+
+q. J. Biol. Chem. 275, 1327–1336.
+
+Fishburn, C. S., Pollitt, S. K., and Bourne, H. R. (2000). Localization of a
+peripheral membrane protein: G␤␥targets G␣
+Z. Proc. Natl. Acad. Sci. USA 97,
+1085–1090.
+
+Fukui, Y., Miyake, S., Satoh, M., and Yamamoto, M. (1989). Characterization
+of the Schizosaccharomyces pombe ral2 gene implicated in activation of the ras1
+gene product. Mol. Cell. Biol. 9, 5617–5622.
+
+Galbiati, F., Volonte´, D., Meani, D., Milligan, G., Lublin, D. M., Lisanti, M. P.,
+and Parenti, M. (1999). The dually acylated NH2-terminal domain of Gi1␣ is
+sufﬁcient to target a green ﬂuorescent protein reporter to caveolin-enriched
+plasma membrane domains. Palmitoylation of caveolin-1 is required for the
+recognition of dually acylated G-protein ␣subunits in vivo. J. Biol. Chem. 274,
+5843–5850.
+
+Gallego, C., Gupta, S. K., Winitz, S., Eisfelder, B. J., and Johnson, G. L. (1992).
+Myristoylation of the G␣
+i2 polypeptide, a G protein ␣subunit, is required for
+its signaling and transformation functions. Proc. Natl. Acad. Sci. USA 89,
+9695–9699.
+
+Gancedo, J. M. (2001). Control of pseudohyphae formation in Saccharomyces
+cerevisiae. Fems Microbiol. Rev. 25, 107–123.
+Gautam, N., Downes, G. B., Yan, K., and Kisselev, O. (1998). The G-protein ␤␥
+complex. Cell Signal 10, 447–455.
+
+Gillen, K. M., Pausch, M., and Dohlman, H. G. (1998). N-terminal domain of
+Gpa1 (G protein ␣ subunit) is sufﬁcient for plasma membrane targeting in
+yeast Saccharomyces cerevisiae. J. Cell Sci. 111, 3235–3244.
+
+Gilman, A. G. (1987). G-Proteins: transducers of receptor-generated signals.
+Annu. Rev. Biochem. 56, 615–649.
+
+Guan, K. L., and Han, M. (1999). A G-protein signaling network mediated by
+an RGS protein. Genes Dev. 13, 1763–1767.
+
+Hamm, H. E., Deretic, D., Arendt, A., Hargrave, P. A., Koenig, B., and
+Hofmann, K. P. (1988). Site of G protein binding to rhodopsin mapped with
+synthetic peptides from the ␣ subunit. Science 241, 832–835.
+Harashima, T., and Heitman, J. (2002). The G␣ protein Gpa2 controls yeast
+differentiation by interacting with kelch repeat proteins that mimic G␤ sub-
+units. Mol. Cell 10, 163–173.
+
+Harashima, T., and Heitman, J. (2004). Nutrient control of dimorphic growth
+in Saccharomyces cerevisiae. In: Topics in Current Genetics, Vol. 7, ed. J Wind-
+erickx and P. M. Taylor, Heidelberg: Springer-Verlag, 131–169.
+
+Herrmann, R., Heck, M., Henklein, P., Henklein, P., Kleuss, C., Hofmann,
+K. P., and Ernst, O. P. (2004). Sequence of interactions in receptor-G protein
+coupling. J. Biol. Chem. 279, 24283–24290.
+
+Hoffman, C. S. (2005). Except in every detail: comparing and contrasting
+G-protein signaling in Saccharomyces cerevisiae and Schizosaccharomyces pombe.
+Eukaryot. Cell 4, 495–503.
+
+Hou, Y., Chang, V., Capper, A. B., Taussig, R., and Gautam, N. (2001). G
+Protein ␤ subunit types differentially interact with a muscarinic receptor but
+not adenylyl cyclase type II or phospholipase C-␤2/3. J. Biol. Chem. 276,
+19982–19988.
+
+Ito, N., Phillips, S. E., Stevens, C., Ogel, Z. B., McPherson, M. J., Keen, J. N.,
+Yadav, K. D., and Knowles, P. F. (1991). Novel thioether bond revealed by a
+1.7 Å crystal structure of galactose oxidase. Nature 350, 87–90.
+
+Ito, N., Phillips, S.E.V., Yadav, K.D.S., and Knowles, P. F. (1994). Crystal
+structure of a free radical enzyme, galactose oxidase. J. Mol. Biol. 238, 794–
+814.
+
+Jeansonne, N. E. (1994). Yeast as a model system for mammalian seven-
+transmembrane segment receptors. Proc. Soc. Exp. Biol. Med. 206, 35–44.
+
+Johnson, D. R., Bhatnagar, R. S., Knoll, L. J., and Gordon, J. I. (1994). Genetic
+and biochemical studies of protein N-myristoylation. Annu. Rev. Biochem. 63,
+869–914.
+
+Jones, T. L., Simonds, W. F., Merendino, J. J., Jr., Brann, M. R., and Spiegel,
+A. M. (1990). Myristoylation of an inhibitory GTP-binding protein ␣ subunit
+is essential for its membrane attachment. Proc. Natl. Acad. Sci. USA 87,
+568–572.
+
+Journot, L., Pantaloni, C., Bockaert, J., and Audigier, Y. (1991). Deletion within
+␣ impairs its ability to interact with ␤␥
+the amino-terminal region of Gs
+subunits and to activate adenylate cyclase. J. Biol. Chem. 266, 9009–9015.
+
+Kostenis, E., Degtyarev, M. Y., Conklin, B. R., and Wess, J. (1997). The
+N-terminal extension of G␣
+q is critical for constraining the selectivity of
+receptor coupling. J. Biol. Chem. 272, 19107–19110.
+
+Kraakman, L., Lemaire, K., Ma, P. S., Teunissen, A.W.R.H., Donaton, M.C.V.,
+Van Dijck, P., Winderickx, J., de Winde, J. H., and Thevelein, J. M. (1999). A
+Saccharomyces cerevisiae G-protein coupled receptor, Gpr1, is speciﬁcally re-
+quired for glucose activation of the cAMP pathway during the transition to
+growth on glucose. Mol. Microbiol. 32, 1002–1012.
+
+Ku¨ bler, E., Mo¨sch, H. U., Rupp, S., and Lisanti, M. P. (1997). Gpa2p, a
+G-protein ␣-subunit, regulates growth and pseudohyphal development in
+Saccharomyces cerevisiae via a cAMP-dependent mechanism. J. Biol. Chem. 272,
+20321–20323.
+
+Ku¨ hn, B., Christel, C., Wieland, T., Schultz, G., and Gudermann, T. (2002).
+G-protein ␤␥-subunits contribute to the coupling speciﬁcity of the ␤
+2-adren-
+ergic receptor to Gs. Naunyn Schmiedebergs Arch. Pharmacol. 365, 231–241.
+Lambright, D. G., Sondek, J., Bohm, A., Skiba, N. P., Hamm, H. E., and Sigler,
+P. B. (1996). The 2.0 Å crystal structure of a heterotrimeric G protein. Nature
+379, 311–319.
+
+Lefkowitz, R. J. (2000). The superfamily of heptahelical receptors. Nat. Cell
+Biol. 2, E133–E136.
+
+Lemaire, K., Van de Velde, S., Van Dijck, P., and Thevelein, J. M. (2004).
+Glucose and sucrose act as agonist and mannose as antagonist ligands of the
+G protein-coupled receptor Gpr1 in the yeast Saccharomyces cerevisiae. Mol.
+Cell 16, 293–299.
+
+Lengeler, K. B., Davidson, R. C., D’Souza, C., Harashima, T., Shen, W. C.,
+Wang, P., Pan, X. W., Waugh, M., and Heitman, J. (2000). Signal transduction
+cascades regulating fungal development and virulence. Microbiol. Mol. Biol.
+Rev. 64, 746–785.
+
+Lim, W. K., Myung, C. S., Garrison, J. C., and Neubig, R. R. (2001). Receptor-G
+protein ␥speciﬁcity: ␥11 shows unique potency for A1 adenosine and 5-HT1A
+receptors. Biochemistry 40, 10532–10541.
+
+Linder, M. E., Pang, I. H., Duronio, R. J., Gordon, J. I., Sternweis, P. C., and
+Gilman, A. G. (1991). Lipid modiﬁcations of G protein subunits. Myristoyl-
+ation of Go␣ increases its afﬁnity for ␤␥. J. Biol. Chem. 266, 4654–4659.
+Longtine, M. S., McKenzie III, A., Demarini, D. J., Shah, N. G., Wach, A.,
+Brachat, A., Philippsen, P., and Pringle, J. R. (1998). Additional modules for
+versatile and economical PCR-based gene deletion and modiﬁcation in Sac-
+charomyces cerevisiae. Yeast 14, 953–961.
+
+Lorenz, M. C., and Heitman, J. (1997). Yeast pseudohyphal growth is regu-
+lated by GPA2, a G protein ␣ homolog. EMBO J. 16, 7008–7018.
+
+Lorenz, M. C., Pan, X. W., Harashima, T., Cardenas, M. E., Xue, Y., Hirsch,
+J. P., and Heitman, J. (2000). The G protein-coupled receptor Gpr1 is a nutrient
+sensor that regulates pseudohyphal differentiation in Saccharomyces cerevisiae.
+Genetics 154, 609–622.
+
+Mombaerts, P. (2004). Genes and ligands for odorant, vomeronasal and taste
+receptors. Nat. Rev. Neurosci. 5, 263–278.
+
+Morales, J., Fishburn, C. S., Wilson, P. T., and Bourne, H. R. (1998). Plasma
+membrane localization of G␣
+
+z requires two signals. Mol. Biol. Cell 9, 1–14.
+
+4570
+
+Molecular Biology of the Cell
+
+Navon, S. E., and Fung, B. K. (1987). Characterization of transducin from
+bovine retinal rod outer segments. Participation of the amino-terminal region
+of T␣ in subunit interaction. J. Biol. Chem. 262, 15746–15751.
+Neubig, R. R. (1994). Membrane organization in G-protein mechanisms.
+FASEB J. 8, 939–946.
+Pan, X., Harashima, T., and Heitman, J. (2000). Signal transduction cascades
+regulating pseudohyphal differentiation of Saccharomyces cerevisiae. Curr.
+Opin. Microbiol. 3, 567–572.
+Preininger, A. M., Van Eps, N., Yu, N. J., Medkova, M., Hubbell, W. L., and
+Hamm, H. E. (2003). The myristoylated amino terminus of G␣
+i1 plays a critical
+role in the structure and function of G␣
+i1 subunits in solution. Biochemistry
+42, 7931–7941.
+Richardson, M., and Robishaw, J. D. (1999). The ␣
+2A-adrenergic receptor
+discriminates between Gi heterotrimers of different ␤␥subunit composition in
+Sf9 insect cell membranes. J. Biol. Chem. 274, 13525–13533.
+Rolland, F., de Winde, J. H., Lemaire, K., Boles, E., Thevelein, J. M., and
+Winderickx, J. (2000). Glucose-induced cAMP signalling in yeast requires
+both a G-protein coupled receptor system for extracellular glucose detection
+and a separable hexose kinase-dependent sensing process. Mol. Microbiol. 38,
+348–358.
+Ross, E. M., and Wilkie, T. M. (2000). GTPase-activating proteins for hetero-
+trimeric G proteins: Regulators of G protein signaling (RGS) and RGS-like
+proteins. Annu. Rev. Biochem. 69, 795–827.
+Rost, B., and Sander, C. (1993). Prediction of protein secondary structure at
+better than 70% accuracy. J. Mol. Biol. 232, 584–599.
+Samama, P., Cotecchia, S., Costa, T., and Lefkowitz, R. J. (1993). A mutation-
+induced activated state of the ␤
+2-adrenergic receptor. Extending the ternary
+complex model. J. Biol. Chem. 268, 4625–4636.
+Schwartz, M. A., and Madhani, H. D. (2004). Principles of MAP kinase
+signaling speciﬁcity in Saccharomyces cerevisiae. Annu. Rev. Genet. 38, 725–748.
+Schwindinger, W. F., and Robishaw, J. D. (2001). Heterotrimeric G-protein
+␤␥-dimers in growth and differentiation. Oncogene 20, 1653–1660.
+Seifert, R., Wenzel-Seifert, K., and Kobilka, B. K. (1999). GPCR-G␣ fusion
+proteins: molecular analysis of receptor-G-protein coupling. Trends Pharma-
+col. Sci. 20, 383–389.
+Shea, L., and Linderman, J. J. (1997). Mechanistic model of G-protein signal
+transduction. Determinants of efﬁcacy and effect of precoupled receptors.
+Biochem. Pharmacol. 53, 519–530.
+Sherman, F. (1991). Getting started with yeast. Methods Enzymol. 194, 3–21.
+Slessareva, J. E., Ma, H., Depree, K. M., Flood, L. A., Bae, H., Cabrera-Vera,
+T. M., Hamm, H. E., and Graber, S. G. (2003). Closely related G-protein-
+coupled receptors use multiple and distinct domains on G-protein ␣-subunits
+for selective coupling. J. Biol. Chem. 278, 50530–50536.
+Sondek, J., Bohm, A., Lambright, D. G., Hamm, H. E., and Sigler, P. B. (1996).
+Crystal structure of a GA protein ␤␥ dimer at 2.1 Å resolution. Nature 379,
+369–374.
+Song, J., and Dohlman, H. G. (1996). Partial constitutive activation of phero-
+mone responses by a palmitoylation-site mutant of a G protein ␣ subunit in
+yeast. Biochemistry 35, 14806–14817.
+Song, J., Hirschman, J., Gunn, K., and Dohlman, H. G. (1996). Regulation of
+membrane and subunit interactions by N-myristoylation of a G protein ␣
+subunit in yeast. J. Biol. Chem. 271, 20273–20283.
+
+Novel Heteromeric G Protein Signaling
+
+Sprang, S. R. (1997). G protein mechanisms: Insights from structural analysis.
+Annu. Rev. Biochem. 66, 639–678.
+
+Stefan, C. J., Overton, M. C., and Blumer, K. J. (1998). Mechanisms governing
+the activation and trafﬁcking of yeast G protein-coupled receptors. Mol. Biol.
+Cell 9, 885–899.
+
+Strader, C. D., Fong, T. M., Tota, M. R., Underwood, D., and Dixon, R. A.
+(1994). Structure and function of G protein-coupled receptors. Annu. Rev.
+Biochem. 63, 101–132.
+
+Takida, S., and Wedegaertner, P. B. (2003). Heterotrimer formation, together
+with isoprenylation, is required for plasma membrane targeting of G␤␥.
+J. Biol. Chem. 278, 17284–17290.
+
+Tamaki, H., Miwa, T., Shinozaki, M., Saito, M., Yun, C. W., Yamamoto, K., and
+Kumagai, H. (2000). GPR1 regulates ﬁlamentous growth through FLO11 in
+yeast Saccharomyces cerevisiae. Biochem. Biophys. Res. Commun. 267, 164–168.
+
+Thiyagarajan, M. M., Bigras, E., Van Tol, H. H., He´bert, T. E., Evanko, D. S.,
+and Wedegaertner, P. B. (2002). Activation-induced subcellular redistribution
+of G␣
+s is dependent upon its unique N-terminus. Biochemistry 41, 9470–9484.
+Thompson, J. D., Higgins, D. G., and Gibson, T. J. (1994). CLUSTAL W:
+improving the sensitivity of progressive multiple sequence alignment
+through sequence weighting, position-speciﬁc gap penalties and weight ma-
+trix choice. Nucleic Acids Res. 22, 4673–4680.
+
+Wall, M. A., Coleman, D. E., Lee, E., In˜ iguez-Lluhi, J. A., Posner, B. A.,
+Gilman, A. G., and Sprang, S. R. (1995). The structure of the G protein
+heterotrimer Gi␣1␤1␥2. Cell 83, 1047–1058.
+Wall, M. A., Posner, B. A., and Sprang, S. R. (1998). Structural basis of activity
+and subunit recognition in G protein heterotrimers. Structure 6, 1169–1183.
+
+Wedegaertner, P. B., Bourne, H. R., and von Zastrow, M. (1996). Activation-
+induced subcellular redistribution of Gs␣. Mol. Biol. Cell 7, 1225–1233.
+Wedegaertner, P. B., Chu, D. H., Wilson, P. T., Levis, M. J., and Bourne, H. R.
+(1993). Palmitoylation is required for signaling functions and membrane
+attachment of Gq
+Wilson, P. T., and Bourne, H. R. (1995). Fatty acylation of az. Effects of
+palmitoylation and myristoylation on ␣
+z signaling. J. Biol. Chem. 270, 9667–
+9675.
+
+␣. J. Biol. Chem. 268, 25001–25008.
+
+␣ and Gs
+
+Wise, A., Grassie, M. A., Parenti, M., Lee, M., Rees, S., and Milligan, G. (1997).
+␣ abrogates functional
+A cysteine-3 to serine mutation of the G-protein Gi1
+activation by the ␣
+2A-adrenoceptor but not interactions with the ␤␥ complex.
+Biochemistry 36, 10620–10629.
+
+Xue, Y., Batlle, M., and Hirsch, J. P. (1998). GPR1 encodes a putative G
+protein-coupled receptor that associates with the Gpa2p G␣ subunit and
+functions in a Ras-independent pathway. EMBO J. 17, 1996–2007.
+
+Yamaguchi, Y., Katoh, H., and Negishi, M. (2003). N-terminal short sequences
+of ␣ subunits of the G12 family determine selective coupling to receptors.
+J. Biol. Chem. 278, 14936–14939.
+
+Yun, C. W., Tamaki, H., Nakayama, R., Yamamoto, K., and Kumagai, H.
+(1997). G-protein coupled receptor from yeast Saccharomyces cerevisiae. Bio-
+chem. Biophys. Res. Commun. 240, 287–292.
+
+Yun, C. W., Tamaki, H., Nakayama, R., Yamamoto, K., and Kumagai, H.
+(1998). Gpr1p, a putative G-protein coupled receptor, regulates glucose-de-
+pendent cellular cAMP level in yeast Saccharomyces cerevisiae. Biochem. Bio-
+phys. Res. Commun. 252, 29–33.
+
+Vol. 16, October 2005
+
+4571
+
+
