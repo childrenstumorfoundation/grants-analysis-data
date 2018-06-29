@@ -1,0 +1,933 @@
+Schindeler et al. BMC Musculoskeletal Disorders 2010, 11:105
+http://www.biomedcentral.com/1471-2474/11/105
+
+Research article
+
+RESEARCH ARTICLE
+Rapid cell culture and pre-clinical screening of a 
+transforming growth factor-β (TGF-β) inhibitor for 
+orthopaedics
+
+Open Access
+
+Aaron Schindeler*1,2, Alyson Morse1, Lauren Peacock1, Kathy Mikulec1, Nicole YC Yu1,3, Renjing Liu1,2, 
+Sandy Kijumnuayporn1,2, Michelle M McDonald1, Paul A Baldock4, Andrew J Ruys3 and David G Little1,2
+
+Abstract
+Background: Transforming growth factor-β (TGF-β) and bone morphogenetic proteins (BMPs) utilize parallel and 
+related signaling pathways, however the interaction between these pathways in bone remains unclear. TGF-β 
+inhibition has been previously reported to promote osteogenic differentiation in vitro, suggesting it may have a 
+capacity to augment orthopaedic repair. We have explored this concept using an approach that represents a template 
+for the testing of agents with prospective orthopaedic applications.
+Methods: The effects of BMP-2, TGF-β1, and the TGF-β receptor (ALK-4/5/7) inhibitor SB431542 on osteogenic 
+differentiation were tested in the MC3T3-E1 murine pre-osteoblast cell line. Outcome measures included alkaline 
+phosphatase staining, matrix mineralization, osteogenic gene expression (Runx2, Alp, Ocn) and phosphorylation of 
+SMAD transcription factors. Next we examined the effects of SB431542 in two orthopaedic animal models. The first was 
+a marrow ablation model where reaming of the femur leads to new intramedullary bone formation. In a second model, 
+20 μg rhBMP-2 in a polymer carrier was surgically introduced to the hind limb musculature to produce ectopic bone 
+nodules.
+Results: BMP-2 and SB431542 increased the expression of osteogenic markers in vitro, while TGF-β1 decreased their 
+expression. Both BMP-2 and SB431542 were found to stimulate pSMAD1 and we also observed a non-canonical 
+repression of pSMAD2. In contrast, neither in vivo system was able to provide evidence of improved bone formation or 
+repair with SB431542 treatment. In the marrow ablation model, systemic dosing with up to 10 mg/kg/day SB431542 
+did not significantly increase reaming-induced bone formation compared to vehicle only controls. In the ectopic bone 
+model, local co-administration of 38 μg or 192 μg SB431542 did not increase bone formation.
+Conclusions: ALK-4/5/7 inhibitors can promote osteogenic differentiation in vitro, but this may not readily translate to 
+in vivo orthopaedic applications.
+
+Background
+Bone Morphogenetic Proteins (BMPs) are critical in the
+formation of cartilage and bone. Osteogenic BMPs, such
+as BMP-2, and -7 are widely recognized to promote an
+osteogenic response [1]. Transforming Growth Factor-β
+(TGF-β) belongs to the same superfamily as the BMPs,
+although  its  role  in  bone  is  less  clear.  Both  BMPs  and
+TGF-β  bind  to related  Type  I receptors (also  known  as
+
+* Correspondence: AaronS@chw.edu.au
+1 Department of Orthopaedic Research & Biotechnology, The Children's 
+Hospital at Westmead, Locked Bag 4001, Westmead, NSW 2145, Australia
+Full list of author information is available at the end of the article
+
+Activin  Receptor-like  Kinases  or  ALKs)  and  Type  II
+receptors  and  activate  downstream  SMAD  signaling
+pathways [2-4]. The osteogenic BMPs can bind to ALKs
+1/2/3/6 and BMPRII or ActRII to induce phosphorylation
+of  the  receptor-regulated  SMADs  (R-SMADs)  1/5/8.  In
+the case of TGF-β and the non-osteogenic BMPs, ligand
+binding  to  receptors  such  as  ALKs  4/5/7  and  TβRII
+induces phosphorylation of R-SMADs 2/3.
+
+There is conflicting evidence on the effects of TGF-β
+signaling  on  bone  formation.  TGF-β 
+isoforms  are
+robustly expressed during the early stages of bone healing
+[5,6], and exogenous TGF-β has been purported to aug-
+
+© 2010 Schindeler et al; licensee BioMed Central Ltd. This is an Open Access article distributed under the terms of the Creative Com-
+mons Attribution License (http://creativecommons.org/licenses/by/2.0), which permits unrestricted use, distribution, and reproduc-
+tion in any medium, provided the original work is properly cited.
+
+Schindeler et al. BMC Musculoskeletal Disorders 2010, 11:105
+http://www.biomedcentral.com/1471-2474/11/105
+
+Page 2 of 9
+
+ment  bone  markers  in  cultured  human  osteoblasts  [7]
+and can lead to improvements in bone repair in ortho-
+paedic  animal  models  [8-10].  However,  in  cultured
+murine  cell  lines,  TGF-β  acting  through  SMAD3  was
+reported to antagonize osteogenesis [11,12] and compa-
+rable findings were found in human mesenchymal stem
+cells [13]. Further work suggests that exogenous TGF-β
+can delay osteogenesis in favor of chondrogenesis [14]. In
+addition  to  direct  effects  on  osteogenic  differentiation,
+TGF-β may also lead to increased fibrosis. In rodent dis-
+traction  osteogenesis  and  fracture  models,  TGF-β1  and
+TGF-β2 treatment (respectively) did not lead to improved
+outcomes but did result in increased fibrous and cartilage
+tissue [15,16]. In these studies, inflammation and edema
+were also reported as unfavorable side-effects.
+
+TGF-β signaling has also been linked to other fibrotic
+conditions,  such  as  the  genetic  disorder  Marfan  syn-
+drome.  Animal  models  with  aberrant  TGF-β  signaling
+have  been  successfully  treated  with  TGF-β  neutralizing
+antibody or with Losartan, a small-molecule angiotensin
+II  AT1  receptor  blocker  (ARB)  [17-19].  ARBs  are  now
+under trial for Marfans syndrome [20], and may be appli-
+cable  for  other  TGF-β  related  disorders.  However,  the
+affects of ARBs on TGF-β protein expression are indirect
+and do not appear to translate to bone [21], thus making
+these agents less attractive for orthopaedic applications.
+In contrast, a novel synthetic compound, SB431542, has
+been shown to rapidly and selectively inhibit ALK-4/5/7
+but not ALK-2/3/6 kinase activity [22]. This enables the
+blockade  of  the  classical  TGF-β-SMAD2/3  signaling
+pathway  whilst  allowing  osteogenic  BMP-SMAD1/5/8
+signaling.
+
+In  a  seminal  study  by  Maeda  et  al.  (2004),  SB431542
+repression  of  TGF-β  signaling  was  found  to  enhance
+osteoblastic  differentiation  in  BMP-2  treated  C2C12
+myoblasts  [23].  Osteoblastic  differentiation  and  matrix
+mineralization  were  also  increased  in  cultured  human
+mesenchymal stem cells. Based on these in vitro findings,
+we  speculated  that  this  compound  may  also  be  able  to
+positively influence bone formation or healing. As a puta-
+tive anti-fibrotic agent, SB431542 could have additional
+benefits in the context of orthopaedic repair where fibro-
+sis is problematic.
+
+In  this  study  we  have  used  both  in  vitro  and  in  vivo
+methods suitable for the rapid screening of compounds
+specifically  for  orthopaedic  applications.  These  assays
+represent  a  systematic  approach  that  can  be  readily
+applied  to  other  putative  pro-osteogenic  agents.  In  cell
+culture  experiments,  we  treated  the  MC3T3-E1  pre-
+osteoblast  cell  line  with  purified  recombinant  BMP-2,
+purified  TGF-β1,  and  the  TGF-β  receptor  inhibitor
+SB431542,  individually  and  in  combination.  Outcome
+measures included alkaline phosphatase (AP) and miner-
+alization staining, osteogenic gene expression, and activa-
+
+tion of downstream SMAD signaling pathways. Next, we
+attempted  to  translate  the  effects  of  TGF-β  inhibition
+using  animal  models.  This  included  a  marrow  ablation
+model  (where  intramedullary  reaming  produces  bone
+formation  over  a  10-day  period  via  intramembranous
+ossification),  and  BMP-2  implantation  (where  ectopic
+bone  nodules  are  induced  in  muscle  over  3  weeks  via
+endochondral ossification). This study design represents
+a  straightforward  methodology  for  testing  prospective
+orthopaedic agents.
+
+Methods
+Cell culture methods
+MC3T3-E1 pre-osteoblasts were grown in α-MEM media
+containing  10%  FBS  (Invitrogen,  Carlsbad,  CA,  USA).
+Passage number 20 cells were used, and cultured for no
+more  than  2  weeks  prior  to  initiating  differentiation.
+Osteogenic differentiation was instigated by supplement-
+ing media with 50 mg/L ascorbic acid and 10 mM β-glyc-
+erophosphate  (Sigma  Aldrich,  St  Louis,  MO,  USA).  All
+culture media contained 2 mM L-glutamine, and antibi-
+otics (100 units/ml penicillin and 0.1 mg/ml streptomy-
+cin) (Invitrogen). Cultures were grown in 37°C incubators
+at 5% CO2 with media changes every 2-3 days. For stain-
+ing experiments cells were plated in 48-well plates at 5 ×
+104  cells/well.  For  cDNA  or  protein  collection  experi-
+ments cells were seeded in 6-well plates at 2 × 105 cells/
+well. Cells were plated overnight and were sub-confluent
+prior to the addition of drugs or recombinant proteins.
+
+Recombinant proteins and drugs
+Recombinant human BMP-2 (rhBMP-2) (Medtronic Aus-
+tralasia, North Ryde, NSW, Australia) was solubilized in
+sterile water at stock concentrations of 100 μg/ml. Trans-
+forming  growth  factor-beta  1  (TGF-β1)  was  purchased
+from Sigma Aldrich (T1654), and reconstituted at 1 μg/
+ml  in  filtered  0.1%  BSA  in  4  mM  HCl.  The  ALK-4/5/7
+inhibitor  SB431542  was  purchased  from  Sigma  Aldrich
+(S4317) and solubilized in dimethylsulfoxide (DMSO) at
+stock concentration of 10 mM. For in vitro experiments,
+all wells received the same volume of DMSO (<0.1%) to
+avoid  the  confounding  effects  of  DMSO  on  osteogenic
+differentiation  [24].  PTH(1-34)  peptide  was  purchased
+from Auspep (Parkville, VIC, USA).
+
+Alkaline phosphatase (AP) and Alizarin Red S staining
+Prior to staining, all cells were washed with PBS and fixed
+with  4%  paraformaldehyde  (PFA).  AP  staining  was  per-
+formed using a solution containing 0.5 mg/ml naphthol
+AS-BI  phosphate  (Sigma  Aldrich),  0.5  mg/ml  Fast  Blue
+(Sigma  Aldrich),  10%  N,N-dimethylformamide  (Sigma
+Aldrich), 0.5% MgCl2 in 0.1 M Tris (pH 9.4) for 10 min at
+room temperature [25]. Mineralization of calcium depos-
+its was assessed by Alizarin Red S staining (40 mM, pH
+
+Schindeler et al. BMC Musculoskeletal Disorders 2010, 11:105
+http://www.biomedcentral.com/1471-2474/11/105
+
+Page 3 of 9
+
+4.2) (LabChem, Pittsburgh, PA, USA) for 10 min at room
+temperature, followed by multiple  washes  with distilled
+water to remove background staining [26].
+RNA extraction, cDNA preparation, and real-time 
+quantitative PCR (qPCR)
+Total RNA was isolated using TRIZOL reagent (Invitro-
+gen). Equivalent amounts of total RNA were used to syn-
+thesize cDNA by reverse-transcription using Superscript
+III Reverse Transcriptase (Invitrogen). All samples were
+amplified using the SYBR Green PCR reagent kit (Inte-
+grated Sciences, Chatswood, NSW, Australia). PCR was
+performed on the Rotor-Gene 3000 (Corbett Life Science,
+Sydney,  NSW,  Australia).  PCR  primer  sequences  and
+amplification conditions are as previously published [27].
+PCR reactions were performed in quadruplicate and nor-
+malized to the housekeeping Gapdh. Data are presented
+as  mean  fold  induction  relative  to  untreated  cells,  with
+the standard deviation shown in parentheses.
+Western blotting
+Cell extracts were harvested in SDS sample buffer, dena-
+tured at 95°C for 10 min, separated by electrophoresis on
+a  1%  SDS-PAGE  gel,  and  then  transferred  by  semi-dry
+electroblotting to PVDF membrane (Millipore, Billerica,
+MA,  USA)  [27].  Immunoblotting  was  performed  with
+anti-Smad1  and  anti-Smad2  (Zymed/Invitrogen),  anti-
+pSmad1  and  anti-pSmad2  (Cell  Signaling  Technology,
+Boston, MA, USA), and α-Tubulin (Sigma-Aldrich) anti-
+bodies. Horseradish peroxidase-conjugated donkey anti-
+rabbit IgG and sheep anti-mouse IgG secondary antibod-
+ies were used (GE Healthcare, Little Chalfont, Bucking-
+hamshire,  UK).  Chemiluminescence  reagents 
+(New
+England Biolabs, Ipswich, MA, USA) were used to visual-
+ize the blots on X-ray film.
+Surgical models
+Experiments using mice were approved by the SWAHS
+Animal Ethics Committee (Protocol 5031). In all studies,
+8-10 week old C57BL6/J mice were used and anesthesia
+was induced with inhaled isofluorane. Pain was managed
+using  buprenorphine  (0.05-0.1  mg/kg)  subcutaneously
+(s.c.) postoperatively (then every 12 hours as required).
+Dehydration was managed by saline injection as required.
+Marrow Ablation Model New intramedullary bone was
+induced  by  femoral  reaming  as  previously  described  in
+rats [28] and mice [29]. An incision was made on the right
+hind  leg  lateral  to  the  knee  and  a  25G  needle  pushed
+through the cortex of the distal femur between the inter-
+condyles  and  unilaterally  up  the  medullary  canal  to
+loosen the marrow. This needle was removed and 0.1 ml
+of saline was injected into the cavity to flush out the mar-
+row using a 30G needle. The wound was closed using 5-0
+nylon suture (Ethicon). Mice were dosed  s.c. daily with
+SB431542 in DMSO from the day of surgery until sacri-
+fice at day 10. Control groups received an equivalent vol-
+ume of vehicle (DMSO)  or the  bone  inducing agent 25
+
+μg/kg/day PTH1-34 (Auspep). In an initial study, 1 mg/kg/
+day  SB43152,  DMSO  control,  and  PTH1-34 groups  were
+examined (N = 6). In a second study, a wider dose range
+was used of 0.1 mg/kg/day, 1 mg/kg/day, and 10 mg/kg/
+day SB431542 (N = 6) with DMSO controls (N = 6) and a
+nominal number of repeated PTH(1-34) controls (N = 2).
+BMP-2 Implantation Model New  bone  formation  in  a
+quadriceps muscle pouch was assayed after 3 weeks fol-
+lowing  the  implantation  of  a  BMP-2  containing  pellet.
+Pellets  containing  20  μg  recombinant  human  BMP-2
+(Medronic  Australasia)  and  0  μg,  38  μg,  or  192  μg
+SB431542 (Sigma-Aldrich) were manufactured by solubi-
+lizing Poly-(D, L-lactic acid) polymer (viscosity 0.55-0.75,
+average  Mw  75000-12000,  Sigma-Aldrich)  and  drugs  in
+ethyl acetate (analytical reagent grade, Chem Supply, Gill-
+man,  SA,  Australia)  and  evaporating  the  solvent  under
+vacuum.  The  BMP-2  dose  was  previously  determined
+empirically  using  this  polymer  delivery  system  and  the
+ratio of BMP-2/SB431542 was based on in vitro efficacy.
+Pellets were molded by compression in a modified 0.3 ml
+syringe.  Pellets  were  surgically  implanted  by  a  surgeon
+experienced  in  mice  using  published  methods  [25].
+Group sizes of N = 8 were used.
+
+Radiographic analysis
+The  bone  formed  in  both  models  was  examined  at  the
+experimental  endpoint  using  a  digital  X-ray  machine
+(Faxitron X-ray Corp., Wheeling, IL, United States).
+
+To quantify  the  total bone mineral content (BMC) in
+the  distal  region  of  reamed  and  unreamed  femora,
+peripheral Quantitative Computed Tomography (pQCT)
+and analysis was performed using a XCT-960A scanner
+(Stratec Medizintechnik, Pforzheim, Germany). A region
+spanning  the  midshaft  to  the  distal  femur  was  selected
+after a pre-scan and measurements were taken from ten 2
+× 5 × 0.2 mm slices using a red collimation mask. These
+values were averaged and  for each mouse the reaming-
+induced bone was normalized to the non-operated limb.
+To quantify the total bone volume (BV, mm3) in each
+BMP-induced bone pellet, micro Computed Tomography
+(microCT) scanning was performed using SkyScan 1174
+compact microCT scanner (SkyScan, Kontich, Belgium).
+The X-ray source voltage was set at 50 kV and beam cur-
+rent set at 800 μA. To minimize the beam hardening arti-
+facts a 0.5 mm aluminum X-ray beam filter was used to
+attenuate soft X-rays at the source. Samples were scanned
+at 8.7 μm resolution and 0.4° angular increments. Acqui-
+sition time was approximately 30 minutes/specimen. BV
+analysis was performed using CTAnalyser software, ver-
+sion 1.9.2.3 (SkyScan). A global grey value threshold rep-
+resenting new bone formation (47-255) was defined and
+applied to all samples. Total bone volume was calculated
+for  the  entire  pellet.  Representative  three-dimensional
+
+Schindeler et al. BMC Musculoskeletal Disorders 2010, 11:105
+http://www.biomedcentral.com/1471-2474/11/105
+
+Page 4 of 9
+
+bone  pellets  were  reconstructed  with  transaxial  slices
+(100 slices) of the pellet's mid-section, using CTVol Real-
+istic Visualisation software version 2.1.0.0 (SkyScan).
+
+For statistical analysis of in vivo data, group sizes <10
+necessitated  stringent  non-parametric  statistical  tests.
+Kruskal  Wallis  and  Mann  Whitney  U  tests  were  per-
+formed using SPSS Statistics version 17 (SPSS Inc., Chi-
+cago, IL, United States).
+
+Histological Analysis
+Samples were harvested and fixed in 4% PFA and stored
+in 70% ethanol. Bone was decalcified at room tempera-
+ture  on  a  shaker  in  0.34  M  EDTA  (pH  8.0)  containing
+0.5% PFA for 3 days, followed by 38 days in 0.34 M EDTA
+(pH  8.0)  with  changes  every  3-4  days.  Samples  were
+embedded  in  paraffin  blocks  and  5  mm-thick  sections
+cut. Sections were stained with Picrosirius red and Alcian
+blue for bone and cartilage.
+
+Results
+In vitro interactions of TGF-β and BMP signaling pathways
+To  verify  the  capacity  of  TGF-β  signaling  to  modulate
+osteogenesis we tested BMP-2, TGF-β, and the ALK-4/5/
+7 inhibitor SB431542 in the MC3T3-E1 pre-osteoblastic
+cell line that is commonly employed to model osteoblast
+differentiation.  Without  treatment,  MC3T3-E1  cells
+express the alkaline phosphatase (AP) enzyme at day 3,
+and  matrix  mineralization  was  seen  at  day  10.  Matrix
+mineralization in particular is an unambiguous marker of
+mature  bone  cell  function.  Colorimetric  assays  were
+selected to facilitate rapid screening. To further validate
+the colorimetric assays, qPCR markers of early osteoblast
+differentiation were also examined at 3 days and mature
+markers at 10 days.
+
+Dose  response  curves  were  performed  for  individual
+agents (data not shown) and doses that showed sub-max-
+imal  and  no  toxic  effects  when  given  individually  were
+selected for further analysis in combination. As expected,
+AP  (Figure  1A)  and  mineralization  stains  (Figure  1B)
+were  suppressed  by  exogenous  TGF-β1  treatment  and
+augmented with BMP-2 treatment. The SB431542 inhibi-
+tor was found to be sufficient to promote osteogenic dif-
+ferentiation in isolation and was able to produce additive
+effects when co-treated with BMP-2. Neither SB431542
+nor  BMP-2  could  individually  overcome  the  repressive
+effects  of  TGF-β1  on  osteogenesis,  although  this  was
+observed when they were used in combination. The com-
+parable  outcomes  seen  for  AP  and  mineralization  indi-
+cate  these  agents  do  not  have  differing  effects  on  early
+osteoblast differentiation and mature osteoblast function.
+In  a  subsequent  experiment,  cDNA  was  synthesized
+from treated cells and this was analyzed by qPCR. Bone
+genes included the early osteogenic/chondrogenic com-
+mitment  factor  Runx2  (Table  A1A),  the  osteoblastic
+
+Figure 1 Effects of TGF-β, BMP-2, and SB431542 on cultured 
+MC3T3-E1 pre-osteoblasts. Cells were grown and treated with 
+agents (50 ng/ml BMP-2, 5 ng/ml TGF-β1, and 1 μM or 5 μM SB431542) 
+and subjected to a rapid staining protocol that visually indicated os-
+teogenic differentiation at 3 days (A, Alkaline Phosphatase) or matrix 
+mineralization at 10 days (B, Alizarin Red S). These results confirmed 
+that SB431542 can promote both early osteoblast differentiation and 
+mature osteoblast function in vitro, and these results were indepen-
+dently repeated. To confirm mechanistically the effects of these com-
+pounds on downstream signaling (SMAD activity), Western analysis 
+was performed on day 3 samples using pSMAD1, pSMAD2, SMAD1, 
+SMAD2 and α-Tubulin antibodies. These data indicated that BMP-2 
+and SB431542 could promote SMAD1 phosphorylation and reduce 
+SMAD2 phosphorylation.
+
+marker  Alp  (Table  B1B),  and  the  mature  bone  marker
+osteocalcin (Ocn) (Table C1C). Gene expression profiles
+reflected the AP and mineralization staining data results
+with SB431542 able to augment osteogenesis alone and in
+combination with BMP-2. These data reinforce the con-
+cept that blockade of the ALK-4/5/7 receptors can aug-
+ment  the  differentiation  of  committed  osteoprogenitors
+in vitro.
+
+Modulation of R-SMAD activity
+While  BMP  and  TGF-β  can  mediate  strong  transient
+changes in SMAD activity, particularly in serum starved
+cells, we sought to determine the sustained activation of
+SMADs  concomitant  with  osteogenic  differentiation  as
+has been examined previously [23]. The phosphorylation
+status of SMAD1 and SMAD2 were assayed as represen-
+tative of the activity of the osteogenic (BMP-stimulated)
+and  non-osteogenic  (TGF-β1  stimulated)  R-SMADs
+respectively. Consistent with the onset of AP expression,
+samples  were  collected  at  day  3.  The  phosphorylated
+(pSMAD1,  pSMAD2)  forms  of  the  protein  were  exam-
+ined by western blotting, with total SMAD1 and α-Tubu-
+lin  included  as  a  loading  controls  (Figure  1C).  BMP-2
+increased  pSMAD1  levels,  and  also  reduced  pSMAD2
+levels.  While  the  classical  model  for  TGF-β1  signaling
+indicates that it acts primarily via pSMAD2, we observed
+in the MC3T3-E1 system that exogenous TGF-β1 treat-
+ment suppressed pSMAD1 and that pSMAD2 levels were
+unchanged.  SB431542  both  reduced  pSMAD2  and
+
+Schindeler et al. BMC Musculoskeletal Disorders 2010, 11:105
+http://www.biomedcentral.com/1471-2474/11/105
+
+Page 5 of 9
+
+Table 1: Runx2, Alp and Ocn expressions in day 3 samples (fold-change in gene expression)
+
+(A) Runx2 expression in day 3 samples (fold-change in gene expression)
+
+0 μM SB431542
+
+5 μM SB431542
+
+no BMP-2/TGF-β1
+50 ng/ml BMP-2
+5 ng/ml TGF-β1
+50 ng/ml BMP-2, 5 ng/ml TGF-β1
+
+1.00 (0.11)
+1.62 (0.10)
+0.54 (0.10)
+0.56 (0.12)
+
+1.77 (0.15)
+3.59 (0.34)
+2.01 (0.09)
+2.05 (0.23)
+
+(B) Alp expression in day 3 samples (fold-change in gene expression)
+
+0 μM SB431542
+
+5 μM SB431542
+
+no BMP-2/TGF-β1
+50 ng/ml BMP-2
+5 ng/ml TGF-β1
+50 ng/ml BMP-2, 5 ng/ml TGF-β1
+
+1.00 (0.13)
+5.50 (1.25)
+0.15 (0.04)
+0.27 (0.05)
+
+3.51 (0.25)
+11.05 (0.29)
+0.92 (0.08)
+3.47 (0.38)
+
+(C) Ocn expression in day 10 samples (fold-change in gene expression)
+
+0 μM SB431542
+
+5 μM SB431542
+
+no BMP-2/TGF-β1
+50 ng/ml BMP-2
+5 ng/ml TGF-β1
+50 ng/ml BMP-2, 5 ng/ml TGF-β1
+
+1.00 (0.06)
+4.11 (0.28)
+0.06 (0.01)
+0.69 (0.06)
+
+1.45 (0.25)
+5.18 (0.34)
+0.70 (0.03)
+3.72 (0.06)
+
+increased pSMAD1, suggesting a sophisticated signaling
+mechanism for this compound.
+
+Effects of SB431542 in a murine marrow ablation model
+Healthy C57BL6/J mice underwent a surgical procedure
+where the marrow cavity was reamed to promote fibrosis
+followed by new bone formation. An in vivo dose of 1 mg/
+kg/day  SB431542  was  initially  extrapolated  from  the
+effective 2 μg/ml (5 μM) in vitro dose based on the ratio
+of systemic PTH1-34 (25 μg/kg/wk) to an effective in vitro
+dose of 50 ng/ml known to stimulate primary osteoblast
+differentiation (data not shown).
+
+In an initial screen to validate the model system, mice
+were given DMSO vehicle alone, 25 μg/kg/day PTH(1-34),
+or 1 mg/kg/day SB431542 with all drugs given s.c. Hind
+limbs were harvested after 10 days and analyzed by X-ray,
+histology, and pQCT scanning. X-ray images showed the
+presence  of  additional  mineralized  tissue  within  the
+intramedullary canals of reamed limbs, indicative of new
+bone  formation  (Figure  2A).  Quantification  by  pQCT
+showed consistent increases in BMC in the reamed limbs
+compared to the non-operated limbs of DMSO treated (P
+=  0.055),  SB431542  treated  (P  =  0.055),  and  PTH(1-34)
+
+treated (P = 0.004) animals. These differences were more
+evident in terms of new bone directly below the growth
+plate  in  histological  sections  (Figure  2A).  Nevertheless,
+neither  pQCT  nor  histology  showed  any  additional
+improvement in marrow ablation-induced new bone for-
+mation with SB431542 treatment (12% decrease in BMC
+with SB431542 over DMSO, P = 0.26). In contrast, PTH(1-
+34)  treatment  greatly  increased  bone  formation  in  the
+reamed limbs (P = 0.055), and this was also seen histolog-
+ically (Figure 2A). The strong effects seen with PTH(1-34)
+validated the capacity of this model to reveal the effects of
+potent bone anabolics.
+
+In  a  second  experiment  a  wider  range  of  SB431542
+doses were used (0.1-10 mg/kg/day). There was concern
+that doses higher than 10 mg/kg/day could have toxic or
+non-specific effects, as in vitro doses above 20 μM rapidly
+induced cell death. For the analysis, to reduce the con-
+founding  impact  of  intra-mouse  variation  in  femoral
+BMC, the BMC in the marrow ablated limb was calcu-
+lated  relative  to  the  non-operated  (unreamed)  limb.
+Again, a consistent increase was seen in BMC with mar-
+row  ablation,  although  none  of  the  SB431542  treated
+groups showed a significant increase in BMC compared
+
+Schindeler et al. BMC Musculoskeletal Disorders 2010, 11:105
+http://www.biomedcentral.com/1471-2474/11/105
+
+Page 6 of 9
+
+experimental endpoint as misplacement or shifting of the
+pellet had led to the ectopic bone fusing with the femur.
+The bone volume of the entire pellet was visualized and
+quantified  by  microCT.  The  low  dose  SB431542  group
+showed a 47% reduction in bone volume compared to the
+BMP-only  control  group  (P  =  0.06).  The  higher  dose
+SB431542 group was comparable to the BMP-only group
+(P = 0.21) (Figure 3A). Neither group supported the ini-
+tial  hypothesis  that  SB431542  could  increase  BMP-2
+induced  bone  formation.  For  representative  pellets,
+transaxial  sections  in  the  centers  of  the  pellets  were
+reconstructed to create 3 D models (Figure 3B).
+
+Discussion
+The study by Maeda et al. (2004) used an in vitro system
+to characterize the response of myogenic progenitors to
+BMP signaling and treatment with SB431542 [23]. They
+showed that SB431542 enhanced the effects of BMP-2 on
+osteogenesis and that this was associated with increased
+SMAD1 signaling and decreased SMAD2 signaling. Our
+data using the MC3T3-E1 cell line supports a pro-osteo-
+genic effect of SB431542 on pre-osteoblasts, even in the
+absence of exogenous BMP-2. In terms of a screening sys-
+tem  for  novel  compounds,  the  MC3T3-E1  system  is
+rapid,  low-cost,  and  suitable  for  generating  rapid  dose
+response  curves.  Due  to  limitations  with  this  cell  line
+[30,31], prospective agents should also be trialed on pri-
+mary  mesenchymal  stem  cells,  however  in  the  case  of
+SB431542 this data was already available [23]. Maeda et al
+also  examined  the  expression  of  I-SMADs  (inhibitory
+SMADs), which are downstream negative regulators of R-
+SMAD signaling, and showed a suppression of SMAD6
+and SMAD7 by SB431542 with prolonged treatment [23].
+While I-SMADs represent potentially important modifi-
+ers of R-SMAD signaling, they are transcriptionally regu-
+lated by and secondary to the initial R-SMAD response.
+Our in vitro data indicates that BMP and TGF-β signals
+can modulate R-SMAD signaling in a non-canonical fash-
+ion. Specifically, ALK-4/5/7 inhibition led to increases in
+pSMAD1 levels and BMP-2 treatment led to a reduction
+in pSMAD2 levels (Figure 1).
+
+In this study we have also employed two rapid surgical
+models to screen for pro-osteogenic effects in a bone for-
+mation/bone repair context. The first was a marrow abla-
+tion  model  previously  described  in  the  context  of
+biglycan null mice that show decreased bone formation
+following  reaming  [29].  We  adopted  a  high-resolution
+multi-slice pQCT scanning approach for quantification,
+which was found to give more accurate results than indi-
+vidual sections that were more susceptible to positional
+effects. We confirmed that reaming consistently induced
+new bone formation in all groups. PTH(1-34) administra-
+tion further increased the amount of bone on the reamed
+side, validating the model system. In contrast, SB431542
+
+Figure 2 Radiographic analysis of the marrow ablation model. 
+This model utilizes femoral reaming to induce new bone formation 
+with femora harvested at day 10. Representative X-rays and histologi-
+cal sections (A) of DMSO vehicle, 1 mg/kg/day SB431542, and 25 μg/
+kg/day PTH1-34 treated groups are shown. Radiographs illustrate an 
+overall increase an intramedullary bone with reaming throughout the 
+operated limb, particularly with PTH1-34 treatment. This is also seen be-
+low the growth plate (oriented to the left) in histological sections with 
+bone stained with Picrosirius red. To test and quantify the effects of a 
+range of inhibitor doses in this model, DMSO vehicle, 0.1-10 mg/kg/
+day SB431542, and 25 μg/kg/day PTH1-34 treated groups were analyzed 
+by pQCT (B). The marrow ablation-induced bone was analyzed by cal-
+culating the average BMC of reamed limbs relative to unreamed limbs. 
+Only PTH1-34 treatment created a significant increase in reaming-in-
+duced bone formation (P = 0.05).
+
+to DMSO controls (Figure 2B). SB431542 treatment did
+not  have  an  effect  on  BMC  in  the  non-operated  limb.
+
+Effects of SB431542 in a BMP-2 induced bone formation 
+model
+As  an  alternative  method  for  inducing  bone  formation,
+PDLLA  polymer  pellets  containing  BMP-2  were
+implanted  intramuscularly  in  quadriceps  of  C57BL6/J
+mice.  In  addition  to  the  BMP-only  control  group,  two
+other groups were supplemented with low dose (92 μg)
+and high dose (384 μg) SB431542. The BMP-2 doses were
+based on previous experience with the model system [25]
+and  local  SB431542  doses  were  extrapolated  from  the
+ratio of BMP-2:SB431542 used in vitro. Bone formation
+occurred over 3 weeks. Two mice were excluded at the
+
+Schindeler et al. BMC Musculoskeletal Disorders 2010, 11:105
+http://www.biomedcentral.com/1471-2474/11/105
+
+Page 7 of 9
+
+Figure 3 Radiographic analysis of the BMP-2 implantation model. This model uses 20 μg BMP-2 implanted into the hind limb to induce ectopic 
+bone formation in 3 weeks. The effects of local SB431542 co-delivery were quantified by microCT measurement of bone volume in the entire bone 
+pellets (A). Relative to BMP-2 alone, SB431542 did not increase bone formation (47% decrease, P < 0.06 for 92 μg SB431542; 25% decrease, P < 0.21 
+for 384 μg SB431542). This is further illustrated by representative microCT reconstructions of bone nodule cross-sections.
+
+did not produce any substantive pro-osteogenic effect in
+reamed bones or in non-operated limbs.
+
+The second model was a BMP-2 intramuscular implan-
+tation model [25], which contains an endochondral bone
+formation component. Again, no significant increase was
+observed  in  bone  formation  with  SB431542  treatment,
+rather a trend was seen towards reduced bone with local
+dosing (Figure 3).
+
+The  lack of  a  beneficial effect  of  the  TGF-β  inhibitor
+SB431542 in the in vivo models may be due to several rea-
+sons. One possibility was an inappropriate dose selection,
+although  higher  doses  were  likely  to  non-specifically
+affect other receptors. In a previously published study, a
+single  dose  of  0.2  mg/kg  was  used  to  affect  metabolic
+changes in rats [32], indicating that our dose range of up
+to 10 mg/kg/day should be capable of producing signifi-
+cant  physiological  effects  in mice.  This  SB431542 com-
+pound  has  also been successfully  used  in organ  culture
+experiments to produce developmental effects [33]. Nev-
+ertheless, 
+the  specificity  and/or  bioavailability  of
+SB431542  may  be  suboptimal  for  in  vivo  studies,  and
+there  certainly  exists  the  potential  for  more  specific
+inhibitor compounds to produce improved results.
+
+An alternative explanation for the disparity between in
+vitro and in vivo results may be due to the fundamental
+differences  between  the  techniques  and  outcome  mea-
+sures in the different systems. Cell culture models focus
+primarily on the process of cell differentiation, generally
+on committed bone cells [11-14,23]. In contrast, surgical
+models  also  incorporate  elements  of  osteoprogenitor
+
+recruitment and proliferation. In the context of TGF-β,
+this may be critical as TGF-β release has been recently
+shown to play a major role in the recruitment of osteo-
+progenitors  for  bone  homeostasis  [34].  Thus  our  study
+may highlight a basic limitation of in vitro systems and
+stress the utility of expediting screens with surgical mod-
+els such as the marrow ablation or BMP-2 implantation
+model.
+
+Conclusions
+Our data confirms that TGF-β inhibition can enhance the
+differentiation of committed osteoprogenitors in culture,
+and  these  effects  were  additive  with  BMP-2  treatment.
+However, these cell culture phenomena did not translate
+into  increased  bone  formation  in  a  marrow  ablation  or
+BMP-induced ectopic bone models. This may be due to
+effects of TGF-β on osteoprogenitor recruitment that are
+not modeled in vitro. Findings from marrow ablation and
+BMP-2 implantation models suggest that sustained global
+TGF-β suppression with SB431542 is likely to be ineffec-
+tive for orthopaedic applications.
+
+Competing interests
+The authors declare that they have no competing interests.
+
+Authors' contributions
+AS conceptualized  and  organized  the  study.  AM  performed  cell  culture  and
+histology analyses with the aid of RL, SK, and MMD. LP and KM performed sur-
+gical experiments in mice. NYCY performed quantative microCT analysis with
+support  by  PAB  and  AJR.  DGL  was  the  senior  researcher  who  guided  the
+research study. The study was primarily written by AS and  DGL, although all
+authors read and approved the manuscript.
+
+Schindeler et al. BMC Musculoskeletal Disorders 2010, 11:105
+http://www.biomedcentral.com/1471-2474/11/105
+
+Page 8 of 9
+
+Acknowledgements
+Ms Kate Sullivan provided valuable advice during manuscript preparation. We 
+would like to thank Dr Mateusz Kolanczyk for supplying SMAD and pSMAD 
+western blotting methods. Dr Schindeler's salary is supported by a Children's 
+Tumor Foundation Young Investigator Award. Ms Liu receives a Peter Bega 
+Scholarship from The Children's Hospital at Westmead. Ms Yu receives a Bio-
+medical Postgraduate Scholarship from the National Health & Medical 
+Research Council.
+
+Author Details
+1Department of Orthopaedic Research & Biotechnology, The Children's 
+Hospital at Westmead, Locked Bag 4001, Westmead, NSW 2145, Australia, 
+2Discipline of Paediatrics and Child Health, Faculty of Medicine, A27 University 
+of Sydney, NSW 2006, Australia, 3School of Aerospace, Mechanical and 
+Mechatronic Engineering, J07 University of Sydney, NSW 2006, Australia and 
+4Osteoporosis and Bone Biology Research Program, Garvan Institute of Medical 
+Research, 384 Victoria St, Darlinghurst, NSW 2010, Australia
+
+Received: 6 January 2010 Accepted: 28 May 2010 
+Published: 28 May 2010
+
+BMC Musculoskeletal Disorders 2010, 11:105
+This article is available from: http://www.biomedcentral.com/1471-2474/11/105
+© 2010 Schindeler et al; licensee BioMed Central Ltd. 
+This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/2.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.
+
+References
+1.
+
+Ebara S, Nakayama K: Mechanism for the action of bone morphogenetic 
+proteins and regulation of their activity.  Spine (Phila Pa 1976) 2002, 
+27:S10-S15.
+Kawabata M, Imamura T, Miyazono K: Signal transduction by bone 
+morphogenetic proteins.  Cytokine Growth Factor Rev 1998, 9:49-61.
+Feng XH, Derynck R: Specificity and versatility in tgf-beta signaling 
+through Smads.  Annu Rev Cell Dev Biol 2005, 21:659-693.
+ten Dijke P, Arthur HM: Extracellular control of TGFbeta signalling in 
+vascular development and disease.  Nat Rev Mol Cell Biol 2007, 8:857-869.
+Cho TJ, Gerstenfeld LC, Einhorn TA: Differential temporal expression of 
+members of the transforming growth factor beta superfamily during 
+murine fracture healing.  J Bone Miner Res 2002, 17:513-520.
+Gerstenfeld LC, Cullinane DM, Barnes GL, Graves DT, Einhorn TA: Fracture 
+healing as a post-natal developmental process: molecular, spatial, and 
+temporal aspects of its regulation.  J Cell Biochem 2003, 88:873-884.
+Zhang H, Ahmad M, Gronowicz G: Effects of transforming growth factor-
+beta 1 (TGF-beta1) on in vitro mineralization of human osteoblasts on 
+implant materials.  Biomaterials 2003, 24:2013-2020.
+Srouji S, Blumenfeld I, Rachmiel A, Livne E: Bone defect repair in rat tibia 
+by TGF-beta1 and IGF-1 released from hydrogel scaffold.  Cell Tissue 
+Bank 2004, 5:223-230.
+
+2.
+
+3.
+
+4.
+
+5.
+
+6.
+
+7.
+
+8.
+
+9. Ozkan K, Eralp L, Kocaoglu M, Ahishali B, Bilgic B, Mutlu Z, Turker M, Ozkan 
+
+FU, Sahin K, Guven M: The effect of transforming growth factor beta1 
+(TGF-beta1) on the regenerate bone in distraction osteogenesis.  
+Growth Factors 2007, 25:101-107.
+
+10. Ripamonti U, Ferretti C, Teare J, Blann L: Transforming growth factor-beta 
+
+isoforms and the induction of bone formation: implications for 
+reconstructive craniofacial surgery.  J Craniofac Surg 2009, 20:1544-1555.
+
+11. Alliston T, Choy L, Ducy P, Karsenty G, Derynck R: TGF-beta-induced 
+
+repression of CBFA1 by Smad3 decreases cbfa1 and osteocalcin 
+expression and inhibits osteoblast differentiation.  EMBO J 2001, 
+20:2254-2272.
+
+12. Kang JS, Alliston T, Delston R, Derynck R: Repression of Runx2 function 
+by TGF-beta through recruitment of class II histone deacetylases by 
+Smad3.  EMBO J 2005, 24:2543-2555.
+
+13. Moioli EK, Hong L, Mao JJ: Inhibition of osteogenic differentiation of 
+
+14.
+
+human mesenchymal stem cells.  Wound Repair Regen 2007, 15:413-421.
+Iwasaki M, Nakata K, Nakahara H, Nakase T, Kimura T, Kimata K, Caplan AI, 
+Ono K: Transforming growth factor-beta 1 stimulates chondrogenesis 
+and inhibits osteogenesis in high density culture of periosteum-
+derived cells.  Endocrinology 1993, 132:1603-1608.
+
+15. Critchlow MA, Bland YS, Ashhurst DE: The effect of exogenous 
+
+transforming growth factor-beta 2 on healing fractures in the rabbit.  
+Bone 1995, 16:521-527.
+
+16. Rauch F, Lauzier D, Travers R, Glorieux F, Hamdy R: Effects of locally 
+
+applied transforming growth factor-beta1 on distraction osteogenesis 
+in a rabbit limb-lengthening model.  Bone 2000, 26:619-624.
+
+17. Cohn RD, van Erp C, Habashi JP, Soleimani AA, Klein EC, Lisi MT, Gamradt 
+M, ap Rhys CM, Holm TM, Loeys BL, Ramirez F, Judge DP, Ward CW, Dietz 
+
+HC: Angiotensin II type 1 receptor blockade attenuates TGF-beta-
+induced failure of muscle regeneration in multiple myopathic states.  
+Nat Med 2007, 13:204-210.
+
+18. Habashi JP, Judge DP, Holm TM, Cohn RD, Loeys BL, Cooper TK, Myers L, 
+Klein EC, Liu G, Calvi C, Podowski M, Neptune ER, Halushka MK, Bedja D, 
+Gabrielson K, Rifkin DB, Carta L, Ramirez F, Huso DL, Dietz HC: Losartan, an 
+AT1 antagonist, prevents aortic aneurysm in a mouse model of Marfan 
+syndrome.  Science 2006, 312:117-121.
+
+19. Lim DS, Lutucuta S, Bachireddy P, Youker K, Evans A, Entman M, Roberts R, 
+
+Marian AJ: Angiotensin II blockade reverses myocardial fibrosis in a 
+transgenic mouse model of human hypertrophic cardiomyopathy.  
+Circulation 2001, 103:789-791.
+
+20. Lacro RV, Dietz HC, Wruck LM, Bradley TJ, Colan SD, Devereux RB, Klein GL, 
+Li JS, Minich LL, Paridon SM, Pearson GD, Printz BF, Pyeritz RE, Radojewski 
+E, Roman MJ, Saul JP, Stylianou MP, Mahony L, Pediatric Heart Network 
+Investigators: Rationale and design of a randomized clinical trial of 
+beta-blocker therapy (atenolol) versus angiotensin II receptor blocker 
+therapy (losartan) in individuals with Marfan syndrome.  Am Heart J 
+2007, 154:624-631.
+
+21. Li YQ, Ji H, Shen Y, Ding LJ, Zhuang P, Yang YL, Huang QJ: Chronic 
+
+22.
+
+treatment with angiotensin AT1 receptor antagonists reduced serum 
+but not bone TGF-beta1 levels in ovariectomized rats.  Can J Physiol 
+Pharmacol 2009, 87:51-55.
+Inman GJ, Nicolas FJ, Callahan JF, Harling JD, Gaster LM, Reith AD, Laping 
+NJ, Hill CS: SB-431542 is a potent and specific inhibitor of transforming 
+growth factor-beta superfamily type I activin receptor-like kinase (ALK) 
+receptors ALK4, ALK5, and ALK7.  Mol Pharmacol 2002, 62:65-74.
+
+23. Maeda S, Hayashi M, Komiya S, Imamura T, Miyazono K: Endogenous TGF-
+
+beta signaling suppresses maturation of osteoblastic mesenchymal 
+cells.  EMBO J 2004, 23:552-563.
+
+24. Cheung WM, Ng WW, Kung AW: Dimethyl sulfoxide as an inducer of 
+
+differentiation in preosteoblast MC3T3-E1 cells.  FEBS Lett 2006, 
+580:121-126.
+
+25. Schindeler A, Ramachandran M, Godfrey C, Morse A, McDonald M, 
+Mikulec K, Little DG: Modeling bone morphogenetic protein and 
+bisphosphonate combination therapy in wild-type and Nf1 
+haploinsufficient mice.  J Orthop Res 2008, 26:65-74.
+
+26. Schindeler A, Little DG: Osteoclasts but not osteoblasts are affected by a 
+calcified surface treated with zoledronic acid in vitro.  Biochem Biophys 
+Res Commun 2005, 338:710-716.
+
+27. Liu R, Ginn SL, Lek M, North KN, Alexander IE, Little DG, Schindeler A: 
+
+Myoblast sensitivity and fibroblast insensitivity to osteogenic 
+conversion by BMP-2 correlates with the expression of Bmpr-1a.  BMC 
+Musculoskelet Disord 2009, 10:51.
+
+28. Zhang Q, Cuartas E, Mehta N, Gilligan J, Ke HZ, Saltzman WM, Kotas M, Ma 
+
+M, Rajan S, Chalouni C, Carlson J, Vignery A: Replacement of bone 
+marrow by bone in rat femurs: the bone bioreactor.  Tissue Eng Part A 
+2008, 14:237-246.
+
+29. Chen XD, Allen MR, Bloomfield S, Xu T, Young M: Biglycan-deficient mice 
+have delayed osteogenesis after marrow ablation.  Calcif Tissue Int 2003, 
+72:577-582.
+
+30. Chung CY, Iida-Klein A, Wyatt LE, Rudkin GH, Ishida K, Yamaguchi DT, 
+
+Miller TA: Serial passage of MC3T3-E1 cells alters osteoblastic function 
+and responsiveness to transforming growth factor-beta1 and bone 
+morphogenetic protein-2.  Biochem Biophys Res Commun 1999, 
+265:246-251.
+
+31. Huang W, Carlsen B, Rudkin GH, Shah N, Chung C, Ishida K, Yamaguchi DT, 
+
+32.
+
+Miller TA: Effect of serial passage on gene expression in MC3T3-E1 
+preosteoblastic cells: a microarray study.  Biochem Biophys Res Commun 
+2001, 281:1120-1126.
+Ishikawa T, Mizunoya W, Shibakusa T, Inoue K, Fushiki T: Transforming 
+growth factor-beta in the brain regulates fat metabolism during 
+endurance exercise.  Am J Physiol Endocrinol Metab 2006, 
+291:E1151-E1159.
+
+33. Okano J, Takigawa T, Seki K, Suzuki S, Shiota K, Ishibashi M: Transforming 
+
+growth factor beta 2 promotes the formation of the mouse 
+cochleovestibular ganglion in organ culture.  Int J Dev Biol 2005, 
+49:23-31.
+
+34. Tang Y, Wu X, Lei W, Pang L, Wan C, Shi Z, Zhao L, Nagy TR, Peng X, Hu J, 
+
+Feng X, Van Hul W, Wan M, Cao X: TGF-beta1-induced migration of bone 
+mesenchymal stem cells couples bone resorption with formation.  Nat 
+Med 2009, 15:757-765.
+
+Schindeler et al. BMC Musculoskeletal Disorders 2010, 11:105
+http://www.biomedcentral.com/1471-2474/11/105
+
+Page 9 of 9
+
+Pre-publication history
+The pre-publication history for this paper can be accessed here:
+http://www.biomedcentral.com/1471-2474/11/105/prepub
+
+doi: 10.1186/1471-2474-11-105
+Cite this article as: Schindeler et al., Rapid cell culture and pre-clinical 
+screening of a transforming growth factor-? (TGF-?) inhibitor for orthopae-
+dics BMC Musculoskeletal Disorders 2010, 11:105
+
+

@@ -1,0 +1,264 @@
+Page  1 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1 of 1 DOCUMENT 
+
+1989, U.S. Department of Health and Human Services; 
+
+Journal of the National Cancer Institute 
+
+J Natl Cancer Inst 1989; 81: 1088-1092 
+
+July 19, 1989 
+
+ 
+SECTION: REPORTS 
+ 
+LENGTH: 2249 words 
+ 
+TITLE: Display and Analysis of Patterns of Differential Activity of Drugs Against Human Tumor Cell Lines: 
+Development of Mean Graph and COMPARE Algorithm 
+ 
+AUTHOR: K. D. Paull, <1> R. H. Shoemaker, L. Hodes, A. Monks, D. A. Scudiero, L. Rubinstein, J. Plowman, M. R. 
+Boyd 
+ 
+ABSTRACT: The objective of this study was to develop and investigate an approach to optimally detect, rank, display, 
+and analyze patterns of differential growth inhibition among cultured cell lines.    Such patterns of cellular responsive-
+ness are produced by substances tested in vitro against disease-oriented panels of human tumor cell lines in a new anti-
+cancer screening model under development by the National Cancer Institute.    In the first phase of the study, we devel-
+oped a key methodological tool, the mean graph, which allowed the transformation of the numerical cell line response 
+data into graphic patterns.    These patterns were particularly expressive of differential cell growth inhibition and were 
+conveniently amenable to further analyses by an algorithm we devised and implemented in the COMPARE computer 
+program. 
+ 
+  TEXT: 
+
+The National Cancer Institute (NCI) is implementing a new anticancer drug-screening program using a dis-
+
+ease-oriented panel of cultured human tumor cell lines for the initial stages of screening.    More detailed aspects of this 
+program and its origins, goals, methods, techniques, and rationale were described previously [n1-n4].    Criteria to define 
+activity in the new screen are being explored.    One criterion under study, differential cell growth inhibition, was the 
+principal focus of our study. 
+
+Differential growth inhibition as defined here means that a cell line or group of cell lines can be inhibited to a given 
+
+extent at a lower concentration of test drug than is required to exert the same effect on other cell lines.    Differential 
+growth inhibition has not been systematically investigated as a criterion for new drug selection.    Therefore, unique data 
+treatment and display methods were necessary for examination of its potential for determining activity in the new NCI 
+drug screen.    The objective of this study was development of methods to optimally detect, rank, and display test results 
+that signal differential growth inhibition.    A key result of the first phase of the study, the mean graph, has catalyzed 
+development of additional methods by transforming the numerical cell line response data into graphic patterns that ex-
+press differential growth inhibition. 
+   
+Methods 
+
+We performed dose-response testing with cells from each cell line in a pilot screening panel.    This panel consisted 
+of [SYMBOL OMITTED]50 cell lines, including colon, lung, ovarian, and renal carcinoma; melanoma; central nervous 
+system tumors; human leukemia; and a miscellaneous group of cell lines including the MCF-7 breast cancer and P388 
+murine leukemia cell lines and multidrug-resistant variants of these two lines.    Test samples were prepared in dimethyl 
+sulfoxide at their maximum soluble concentrations, diluted 1:200 with medium, and tested in culture at five 
+log[10]dilutions. 
+
+HHS, NCI, J Natl Cancer Inst, July 19, 1989   
+
+Page  2 
+
+Drug screening was performed with automated assay methods described previously [n2,n3].    It is important to note 
+
+that use of a different assay method or end point determination could yield substantively different screening data pro-
+files and interpretations.    Nevertheless, our general approach to data display and analysis may be applicable to a variety 
+of assays and/or end points. 
+   
+Results and Discussion 
+
+The large amount of data generated for each compound ([SYMBOL OMITTED]50 dose-response curves) required 
+an optimal format for the graphic presentation of differential cell growth inhibition.    The mean graph format developed 
+for this purpose not only permits the ready visualization of any differential growth inhibition expressed by a test com-
+pound but also creates a framework for logical analysis of the data.    This framework provides the foundation for com-
+puter-assisted analysis of the data, a vital development, considering the unprecedented scale of the NCI in vitro 
+drug-screening program.    However, the most intriguing property of the mean graph format is that it yields identifiable 
+and characteristic "fingerprint" patterns, which appear to possess a remarkable degree of structure-function information. 
+   
+Mean Graph 
+
+The concept for the mean graph emerged in part from attempts to detect differential growth inhibition from a 
+
+standard bar graph presentation.    Indications of differential growth inhibition in a standard bar graph format reside only 
+in the "ragged edge," the region between the tips of the bars for the least responsive cell line and the most responsive 
+cell line.    Figure 1 illustrates a typical horizontal bar graph and the corresponding mean graph.    In this horizontal bar 
+graph, the lengths of the bars are directly proportional to the potency of the test compound against the tumor cell line, 
+which is expressed as the logarithm of the concentration resulting in 50% growth inhibition (IC[50]).    The region be-
+tween the baseline and the right end of the bar representing the least potent response (fig. 1A) tends to defeat the per-
+ception of differential growth inhibition.    As an alternative, we developed a graph centered at the arithmetic mean of 
+the logarithm of the IC[50] values for all cell line responses measured for a compound.    While choice of the mean as an 
+anchor point is arbitrary, its use has proven to be advantageous for the development of other mean-graph-derived anal-
+yses such as the estimation of relative cell line sensitivities [n5]. 
+
+The mean graph (fig. 1C) is constructed by projecting bars to the right or left of the mean, depending on whether 
+
+cell sensitivity to a test drug is more or less than average.    The length of a bar is proportional to the difference between 
+the logarithm of the cell line IC[50] and the mean.    Differential growth inhibition is depicted by the bar (delta), which 
+projects to either side of the mean.    A bar projecting 3 log units to the right of the mean, for example, would reflect a 
+cellular response 1,000 times more sensitive than the average of all of the cellular responses to the compound repre-
+sented on the graph. 
+   
+Ranking by Degree of Differential Growth Inhibition 
+
+One approach to surveillance of the drug-screening data base is to rank compounds by their degree of differential 
+
+growth inhibition.    A novel technique for ranking follows from the mean graph format. 
+
+The first step in this approach is to identify a single best delta for a compound among all the deltas generated for it.   
+
+This best delta is identified as Delta.    The simplest definition of Delta is the highest numerical value of delta.    Howev-
+er, a potentially better definition of the best delta is that delta representing the largest number of standard deviations 
+from the mean of all the deltas observed for a cell line.    Thus, Delta is the statistically rarest delta.    The advantage of 
+this statistical approach is that it helps to reduce the selection bias toward the intrinsically more sensitive cell lines.    To 
+obtain Delta by this method, one calculates the number of standard deviations from the mean of deltas that each delta 
+represents. 
+
+The cell line-specific mean of delta values and the corresponding standard deviations are computed from the delta 
+values for each cell line for all of the compounds evaluated.    For a given delta, the appropriate mean is subtracted from 
+the delta, and this difference is divided by the corresponding standard deviation.    The quotient is the number of stand-
+ard deviations from the cell line-specific mean.    The means and standard deviations for each cell line are listed in table 
+1. 
+   
+Table 1.    Cell line-specific means, standard deviations, and confidence limits of delta* 
+
+[SEE ORIGINAL SOURCE] 
+
+HHS, NCI, J Natl Cancer Inst, July 19, 1989   
+
+Page  3 
+
+The second step in this method is to rank compounds in order of their differential growth inhibition using the Deltas 
+selected in the first step.    Searching and sorting by Deltas provides an efficient means to identify compounds exhibiting 
+differential growth inhibition. 
+   
+Pattern-Recognition Algorithm 
+
+Another application of the mean graph format relates to pattern recognition.    This format creates a characteristic 
+
+fingerprint pattern for each compound.    The possibility that these patterns might contain other exploitable information 
+was investigated.    We devised a simple algorithm that was implemented in the COMPARE computer program to rank 
+the similarity of the mean graph pattern of a specified "seed" compound to the patterns of all the other compounds in the 
+NCI screening project data base.    Any previously tested compound can be used as the seed to initiate the pat-
+tern-recognition program. 
+
+The COMPARE program evaluates the similarity of mean graph patterns by computing average differences be-
+
+tween the deltas obtained for a specified seed compound and the corresponding deltas for each of the other compounds 
+in the data base.    For a seed compound screened against a panel of 50 cell lines, the 50 deltas obtained for those cell 
+lines are subtracted from the corresponding deltas obtained in testing the same 50 cell lines (or a subset of these lines if 
+all 50 were not tested) against each of the other compounds in the data base.    In this way, the mean graph pattern for 
+the seed compound is sequentially compared quantitatively with all other mean graph patterns available.    For each 
+compound, two parameters are calculated: Av, which is the average difference between deltas (computed as the mean of 
+the absolute values of the differences), and Max, which is the maximum difference observed. 
+
+The Av and the Max values are used by the COMPARE program to create a list of compounds ordered according to 
+
+the similarity of their mean graph patterns to the mean graph pattern of the seed compound.    The compounds are first 
+sorted by Av values; compounds with lower Av values are ranked higher.    Then compounds with the same Av values 
+are further sorted by Max values; compounds with lower Max values are ranked higher.    The purpose of creating the 
+ordered list was to first rank the compounds by their similarity in mean graph fingerprints and then to investigate 
+whether this similarity correlates with any other significant property common to the ranked compounds and the seed 
+compound. 
+
+Since the meaning of the similarity in mean graph patterns was the central question, it was necessary to obtain ad-
+
+ditional information about the test compounds as well as relevant information about the seed compound.    We con-
+structed a data base of 88 test compounds suitable for this purpose and analyzed this data base with the COMPARE 
+program.    Application of the algorithm to data sets restricted to well-known or prototypical seed compounds led to in-
+triguing results.    Compounds known to be DNA binders (table 2), biological alkylating agents, or antimetabolites were 
+grouped to a significant extent with agents having similar activity or structure. 
+   
+Table 2.    COMPARE pattern-recognition program: similarity of DNA binders and topoisomerase II inhibitors to doxo-
+rubicin * 
+
+[SEE ORIGINAL SOURCE] 
+
+In table 2, the seed compound was doxorubicin.    The three compounds with the closest Av values were mitoxan-
+trone, amsacrine, and acodazole.    These three drugs and the seed compound are thought to be DNA binders and topoi-
+somerase II inhibitors.    The matching sequence includes taxol, rhizoxin, and then three more DNA binders (oxantra-
+zole, bisantrene, and amonafide). 
+
+The COMPARE analysis using the alkylating agent melphalan as the seed for comparison showed a significant 
+
+clustering of the known alkylating agents.    Pipobroman, uracil mustard, and chlorambucil were ranked in that sequence 
+as the closest matches to melphalan in the test set.    The antimetabolite cytarabine was also used as the seed compound 
+in a COMPARE analysis.    Its close biological and structural analogue fazarabine ranked second to thioguanine in the 
+listing. 
+
+There is an important caveat that applies to our algorithm.    The algorithm must give a "best match" whether or not 
+a meaningful one exists in the data base, and thus, unrelated compounds are sometimes given a high ranking.    Despite 
+this caveat, it seems that the observed mean graph patterns express valuable information, sometimes reflecting similari-
+ties in biological properties and/or chemical structure and properties.    Expression of such similarities in the mean 
+graphs appears to be sufficiently robust that this relatively simple algorithm of the COMPARE program can successful-
+
+HHS, NCI, J Natl Cancer Inst, July 19, 1989   
+
+Page  4 
+
+ly detect and rank these similarities in an order that seems to have an exploitable degree of correlation with inde-
+pendently derived rankings of similarity based on biochemical and/or structural considerations. 
+   
+Conclusions 
+
+We have developed a set of computerized procedures to facilitate the detection , ranking, display, and analysis of 
+patterns of differential growth inhibition.    These procedures are conceptually centered in the mean graph, which was 
+designed to graphically represent screening results for individual compounds tested against large numbers of tumor cell 
+lines.    Experimental applications of the COMPARE program to a limited data base accrued from the pilot screen sug-
+gest the possibility of meaningful clustering of mean graph patterns that is related to biological properties and/or chem-
+ical structure and properties.    The potential wealth of information to be generated in the course of the new NCI 
+drug-screening experiment can be subjected to a wide variety of analytical procedures.    Our work represents only the 
+first of many potential avenues to data display and analysis that may be explored in the course of this project. 
+ 
+ 
+SUPPLEMENTARY INFORMATION: K. D. Paull, R. H. Shoemaker, L. Hodes, L. Rubinstein, J. Plowman, M. R. 
+Boyd, Developmental Therapeutics Program, Division of Cancer Treatment, National Cancer Institute, National Insti-
+tutes of Health, Bethesda, MD. 
+Received November 7, 1988; revised March 23, 1989; accepted April 4, 1989. 
+
+A. Monks, D. A. Scudiero, Program Resources Inc., NCI-Frederick Cancer Research Facility, Frederick, MD. 
+
+<1> Correspondence to: Dr. K. D. Paull, Developmental Therapeutics Program, National Cancer Institute, NIH, 
+
+Executive Plaza North, Rm. 831 , Bethesda, MD 20892. 
+ 
+  REFERENCES: 
+ 
+[n1.] BOYD MR, SHOEMAKER RH, MCLEMORE TL, ET AL: Drug development. In Thoracic Oncology (Roth JA, 
+Ruckdeschel JC, Weisenburger TH, eds). Philadelphia: Saunders. In press 
+   
+[n2.] ALLEY MC, SCUDIERO DA, MONKS A, ET AL: Feasibility of drug screening with panels of human tumor cell 
+lines using a microculture tetrazolium assay. Cancer Res 48:589-601, 1988 
+   
+[n3.] SCUDIERO D, SHOEMAKER RH, PAULL KD, ET AL: Evaluation of a soluble tetrazolium/formazan assay for 
+cell growth and drug sensitivity in culture using human and other tumor cell lines. Cancer Res 48:4827-4833, 1988 
+   
+[n4.] SHOEMAKER RH, MONKS A, ALLEY MC, ET AL: Development of human tumor cell line panels for use in 
+disease-oriented drug screening. In Prediction of Response to Cancer Chemotherapy (Hall T, ed). New York: Alan R 
+Liss, 1988, pp 265-286 
+   
+[n5.] PAULL KD, HODES L, PLOWMAN J, ET AL: Reproducibility and response patterns of the IC50 values and 
+relative cell line sensitivities from the NCI human tumor cell line drug screening project. Proc Am Assoc Cancer Res 
+29:488, 1988 
+ 
+GRAPHIC: Figure 1, Comparison of two display formats for perception of differential growth inhibition in dis-
+ease-oriented human tumor cell line panel. In standard horizontal bar graph, display of differential drug effects is con-
+fined to "ragged edge". Ready perception of differential effects in section 1B is effectively defeated by presence of large 
+base section, 1A. Mean graph format, section 1C, facilitates perception of differential responses of cell lines by elimi-
+nating base section and projecting bars in opposite directions depending on whether cell sensitivity to the drug is more 
+or less than average. Resulting fingerprint patterns provide delta values used in COMPARE analyses, LEUK = leuke-
+mia; NSCLC = non-small cell lung cancer, SCLC = small cell lung cancer, CNS = central nervous system; and MISC = 
+miscellaneous. Range = No. of log units between values for most sensitive and least sensitive cell lines. 
+ 
+
+

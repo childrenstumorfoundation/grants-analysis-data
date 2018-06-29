@@ -1,1406 +1,3679 @@
-Merlin/NF2 Suppresses Tumorigenesis
-by Inhibiting the E3 Ubiquitin Ligase
-CRL4DCAF1 in the Nucleus
+I
 
-Wei Li,1,8 Liru You,1,8 Jonathan Cooper,1,4 Gaia Schiavon,1 Angela Pepe-Caprio,1 Lu Zhou,5 Ryohei Ishii,6
-Marco Giovannini,7 C. Oliver Hanemann,5 Stephen B. Long,2 Hediye Erdjument-Bromage,3 Pengbo Zhou,6
-Paul Tempst,3 and Filippo G. Giancotti1,*
-1Cell Biology Program
-2Structural Biology Program
-3Molecular Biology Program
-Memorial Sloan-Kettering Cancer Center, New York, NY 10065, USA
-4Sloan-Kettering Division, Weill Graduate School of Medical Sciences, Cornell University, New York, NY 10065, USA
-5Peninsula College of Medicine and Dentistry, University of Plymouth, Plymouth PL6 8BU, UK
-6Department of Pathology and Laboratory Medicine, Weil Cornell Medical College, New York, NY 10065, USA
-7House Ear Institute, Center for Neural Tumor Research, Los Angeles, CA 90057, USA
-8These authors contributed equally to this work
-*Correspondence: f-giancotti@ski.mskcc.org
-DOI 10.1016/j.cell.2010.01.029
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+NIH Public Access
+Author Manuscript
+Cell. Author manuscript; available in PMC 2011 February 19.
+Published in final edited form as:
+
+Cell. 2010 February 19; 140(4): 477–490. doi:10.1016/j.cell.2010.01.029.
+
+Merlin/NF2 Suppresses Tumorigenesis by Inhibiting the E3
+Ubiquitin Ligase CRL4DCAF1 in the Nucleus
+
+Wei Li1,8, Liru You1,8, Jonathan Cooper1,2, Gaia Schiavon1, Angela Pepe-Caprio1, Lu
+Zhou3, Ryohei Ishii4, Marco Giovannini5, C. Oliver Hanemann3, Stephen B. Long6, Hediye
+Erdjument-Bromage7, Pengbo Zhou4, Paul Tempst7, and Filippo G. Giancotti1,*
+1 Cell Biology Program, Memorial Sloan-Kettering Cancer Center, New York, NY 10065
+2 Sloan-Kettering Division, Weill Graduate School of Medical Sciences, Cornell University, New
+York, NY 10065
+3 Peninsula College of Medicine and Dentistry, University of Plymouth, Plymouth, PL6 8BU UK
+4 Department of Pathology and Laboratory Medicine, Weil Cornell Medical College, New York, NY
+10065, USA
+5 House Ear Institute, Center for Neural Tumor Research, Los Angeles, CA 90057, USA
+6 Structural Biology Program, Memorial Sloan-Kettering Cancer Center, New York, NY 10065
+7 Molecular Biology Program, Memorial Sloan-Kettering Cancer Center, New York, NY 10065
 
 SUMMARY
 
-Current models imply that the FERM domain protein
-Merlin, encoded by the tumor suppressor NF2,
-inhibits mitogenic signaling at or near the plasma
-membrane. Here, we show that the closed, growth-
-inhibitory form of Merlin accumulates in the nucleus,
-binds to the E3 ubiquitin ligase CRL4DCAF1, and
-suppresses its activity. Depletion of DCAF1 blocks
-the promitogenic effect of inactivation of Merlin.
-Conversely, enforced expression of a Merlin-insensi-
-tive mutant of DCAF1 counteracts the antimitogenic
-effect of Merlin. Re-expression of Merlin and
-silencing of DCAF1 implement a similar, tumor-
-suppressive program of gene expression. Tumor-
-derived mutations invariably disrupt Merlin’s ability
-to interact with or inhibit CRL4DCAF1. Finally, deple-
-tion of DCAF1 inhibits the hyperproliferation of
-Schwannoma
-and
-suppresses the oncogenic potential of Merlin-deﬁ-
-cient
-lines. We propose that Merlin
-suppresses tumorigenesis by translocating to the
-nucleus to inhibit CRL4DCAF1.
-
-from NF2
-
-tumor cell
-
-cells
-
-patients
+Current models imply that the FERM domain protein Merlin, encoded by the tumor suppressor
+NF2, inhibits mitogenic signaling at or near the plasma membrane. Here, we show that the closed,
+growth inhibitory form of Merlin accumulates in the nucleus, binds to the E3 ubiquitin ligase
+CRL4DCAF1, and suppresses its activity. Depletion of DCAF1 blocks the promitogenic effect of
+inactivation of Merlin. Conversely, enforced expression of a Merlin-insensitive mutant of DCAF1
+counteracts the antimitogenic effect of Merlin. Re-expression of Merlin and silencing of DCAF1
+induce a similar, tumor-suppressive program of gene expression. Tumor-derived mutations
+invariably disrupt Merlin’s ability to interact with or inhibit CRL4DCAF1. Finally, depletion of
+DCAF1 inhibits the hyperproliferation of Schwannoma cells from NF2 patients and suppresses the
+oncogenic potential of Merlin-deficient tumor cell lines. We propose that Merlin suppresses
+tumorigenesis by translocating to the nucleus to inhibit CRL4DCAF1
 
 INTRODUCTION
 
-The tumor suppressor NF2, which is inactivated in the familial
-cancer syndrome Neuroﬁbromatosis type 2, encodes for Merlin,
-a member of the Ezrin/Radixin/Moesin (ERM) family of proteins.
-The prevalence of NF2 mutations in sporadic tumors, especially
-Schwannomas, meningiomas, and malignant mesotheliomas,
-and the predisposition of heterozygous Nf2 mutant mice to
+The tumor suppressor NF2, which is inactivated in the familial cancer syndrome
+Neurofibromatosis type 2, encodes for Merlin, a member of the Ezrin/Radixin/Moesin (ERM)
+family of proteins. The prevalence of NF2 mutations in sporadic tumors, especially
+Schwannomas, meningiomas, and malignant mesotheliomas, and the predisposition of
+heterozygous Nf2 mutant mice to develop multiple malignant tumor types suggest that Merlin
 
-develop multiple malignant tumor types suggest that Merlin
-has a relatively broad tumor-suppressor function (McClatchey
-and Giovannini, 2005; Okada et al., 2007). Despite extensive
-research on Merlin’s role as a tumor suppressor, its biological
+*Corresponding Author: F-Giancotti@ski.mskcc.org.
+8Equal contributions.
+Publisher's Disclaimer: This is a PDF file of an unedited manuscript that has been accepted for publication. As a service to our customers
+we are providing this early version of the manuscript. The manuscript will undergo copyediting, typesetting, and review of the resulting
+proof before it is published in its final citable form. Please note that during the production process errors may be discovered which could
+affect the content, and all legal disclaimers that apply to the journal pertain.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Li et al.
+
+Page 2
+
+has a relatively broad tumor suppressor function (McClatchey and Giovannini, 2005; Okada
+et al., 2007). Despite extensive research on Merlin’s role as a tumor suppressor, its biological
 function remains poorly understood.
 
-Classical ERM proteins, which consist of an N-terminal FERM
-domain, a coiled-coil domain, and a C-terminal segment con-
-taining an actin-binding motif, switch between a closed confor-
-mation, presumed dormant, and an open conformation, which
-mediates linkage of certain cell adhesion receptors to the actin
-cytoskeleton (Bretscher et al., 2002). The sequence homology
-of Merlin to ERM proteins and its apparently prevalent localiza-
-tion to the cortical cytoskeleton have led to the hypothesis that
-Merlin functions at or near the plasma membrane to inhibit the
-transmission of promitogenic signals (McClatchey and Fehon,
-2009). However, Merlin does not contain a canonical actin-
-binding motif. In addition, it is the closed form of Merlin that
-suppresses tumorigenesis and is thereby considered ‘‘active.’’
-In fact, many tumor-derived missense mutations are predicted
-to disrupt the closed conformation (Okada et al., 2007).
+Classical ERM proteins, which consist of an N-terminal FERM domain, a coiled-coil domain,
+and a C-terminal segment containing an actin-binding motif, switch between a closed
+conformation, presumed dormant, and an open conformation, which mediates linkage of
+certain cell adhesion receptors to the actin cytoskeleton (Bretscher et al., 2002). The sequence
+homology of Merlin to ERM proteins and its apparently prevalent localization to the cortical
+cytoskeleton have led to the hypothesis that Merlin functions at or near the plasma membrane
+to inhibit the transmission of promitogenic signals (McClatchey and Fehon, 2009). However,
+Merlin does not contain a canonical actin-binding motif. In addition, it is the closed form of
+Merlin that suppresses tumorigenesis and is thereby considered “active”. In fact, many tumor-
+derived missense mutations are predicted to disrupt the closed conformation (Okada et al.,
+2007).
 
-The interconversion between the closed and the open form of
-Merlin is promoted by the p21-activated kinase PAK, which
-phosphorylates Merlin at S518, disrupting the intramolecular
-C-terminal tail-FERM interaction, which maintains the protein
-in the closed conformation (Kissil et al., 2002; Xiao et al., 2002).
-Cadherin-mediated adhesion inhibits PAK, causing an accumu-
-lation of the dephosphorylated, growth-inhibitory form of Merlin.
-Conversely, integrin-dependent adhesion to the matrix activates
-PAK, causing inactivation of Merlin and, thereby, presumably
-removing a block to cell-cycle progression (Okada et al., 2005).
-Accordingly, inactivation of Merlin induces exit from contact
-inhibition (Lallemand et al., 2003; Lallemand et al., 2009; Okada
-et al., 2005) and accelerates progression through the G1 phase
-of the cell cycle (Lo´ pez-Lago et al., 2009). These results suggest
+The interconversion between the closed and the open form of Merlin is promoted by the p21-
+activated kinase PAK, which phosphorylates Merlin at S518, disrupting the intramolecular C-
+terminal tail-FERM interaction, which maintains the protein in the closed conformation (Kissil
+et al., 2002; Xiao et al., 2002). Cadherin-mediated adhesion inhibits PAK, causing an
+accumulation of the de-phosphorylated, growth inhibitory form of Merlin. Conversely,
+integrin-dependent adhesion to the matrix activates PAK, causing inactivation of Merlin and,
+thereby, presumably removing a block to cell cycle progression (Okada et al., 2005).
+Accordingly, inactivation of Merlin induces exit from contact inhibition (Lallemand et al.,
+2003; Lallemand et al., 2009; Okada et al., 2005) and accelerates progression through the G1
+phase of the cell cycle (Lopez-Lago et al., 2009). These results suggest that Merlin integrates
+antithetic signals from cadherins and integrins to regulate cell cycle progression.
 
-Cell 140, 477–490, February 19, 2010 ª2010 Elsevier Inc. 477
+Merlin exerts inhibitory effects on multiple mitogenic signaling pathways. The closed form of
+Merlin suppresses the recruitment of Rac to the plasma membrane and the activation of PAK
+(Kaempchen et al., 2003; Kissil et al., 2003; Okada et al., 2005) and inhibits the activation of
+mTORC1 independently of Akt (James et al., 2009; Lopez-Lago et al., 2009). Furthermore,
+Merlin inhibits the Ras-ERK and PI-3K-Akt pathways and Focal Adhesion Kinase (FAK)-Src
+signaling (Ammoun et al., 2008; Jin et al., 2006a; Poulikakos et al., 2006; Rong et al., 2004).
+Finally, Merlin cooperates with the related ERM protein Expanded to activate the Hippo tumor
+suppressor pathway in drosophila (Cho et al., 2006; Hamaratoglu et al., 2006). However, the
+contribution of each of the identified pathways to NF2-dependent tumorigenesis has not been
+defined.
 
-Figure 1. Merlin Associates with CRL4DCAF1 in the Nucleus
-(A) Cos7 cells were transfected with the indicated FH-tagged (FH; FLAG-HA) forms of Merlin, lysed in RIPA, and subjected to TAP. Proteins were separated by
-SDS-PAGE and stained with Colloidal Blue. Dots point to the FH-tagged baits and asterisks to the 169 and 127 kD bands identiﬁed by mass spectrometry as
-DCAF1 and DDB1, respectively.
-(B) 293T cells were transfected with FH-DCAF1 or empty vector. Total lysates and Flag immunoprecipitates (M2) were subjected to immunoblotting with anti-
-bodies to the indicated proteins.
-(C) As in (B), with transfection of the indicated constructs and immunoprecipitation with anti-FLAG (M2) or control (C) antibodies.
-(D) As in (B), with cotransfection of Myc-Merlin or empty vector and immunoprecipitation with anti-FLAG (M2) or control (C). To control for the speciﬁcity of the
-anti-P-Merlin antibodies, the indicated sample was treated with calf intestinal alkaline phosphatase (CIP) prior to SDS-PAGE. Endogenous Merlin was detected
-upon longer exposure.
-(E) Meso-33 cells were transiently transfected with the indicated constructs and subjected to double-immunoﬂuorescent staining with anti-HA and anti-Myc fol-
-lowed by DAPI.
-(F) HeLa cells were infected with lentiviral vectors encoding a shRNA targeting Merlin or a control shRNA and subjected to immunoblotting (left) or staining with
-afﬁnity-puriﬁed antibodies to the N-terminal segment of Merlin followed by DAPI (right).
-(G) The indicated cells were stained as in (F).
-
-478 Cell 140, 477–490, February 19, 2010 ª2010 Elsevier Inc.
-
-that Merlin integrates antithetic signals from cadherins and
-integrins to regulate cell-cycle progression.
-
-Merlin exerts inhibitory effects on multiple mitogenic signaling
-pathways. The closed form of Merlin suppresses the recruitment
-of Rac to the plasma membrane and the activation of PAK
-(Kaempchen et al., 2003; Kissil et al., 2003; Okada et al., 2005)
-and inhibits the activation of mTORC1 independently of Akt
-(James et al., 2009; Lo´ pez-Lago et al., 2009). Furthermore,
-Merlin inhibits the Ras-ERK and PI-3K-Akt pathways and focal
-adhesion kinase (FAK)-Src signaling (Ammoun et al., 2008; Jin
-et al., 2006a; Poulikakos et al., 2006; Rong et al., 2004). Finally,
-Merlin cooperates with the related ERM protein Expanded to
-activate the Hippo tumor-suppressor pathway in Drosophila
-(Cho et al., 2006; Hamaratoglu et al., 2006). However, the contri-
-bution of each of the identiﬁed pathways to NF2-dependent
-tumorigenesis has not been deﬁned.
-
-Although yeast two-hybrid screens and other approaches
-have led to the identiﬁcation of several Merlin-binding proteins,
-the biochemical function of Merlin and, hence, the mechanism
-through which it suppresses tumorigenesis have remained
-elusive. This study shows that the closed form of Merlin enters
-the nucleus, binds to the E3 ubiquitin ligase CRL4DCAF1, and
-inhibits its activity. Genetic evidence indicates that this inhibitory
-interaction is essential for tumor suppression.
+Although yeast two hybrid screens and other approaches have led to the identification of several
+Merlin-binding proteins, the biochemical function of Merlin and, hence, the mechanism
+through which it suppresses tumorigenesis have remained elusive. This study shows that the
+closed form of Merlin enters the nucleus, binds to the E3 ubiquitin ligase CRL4DCAF1, and
+inhibits its activity. Genetic evidence indicates that this inhibitory interaction is essential for
+tumor suppression.
 
 RESULTS
+The Closed Form of Merlin Binds to DCAF1, the Substrate Receptor of the E3 Ubiquitin Ligase
+CRL4DCAF1
 
-The Closed Form of Merlin Binds to DCAF1,
-the Substrate Receptor of the E3 Ubiquitin
-Ligase CRL4DCAF1
-Tandem afﬁnity puriﬁcation (TAP) revealed that Merlin, tagged
-at either its N or its C terminus, associates with proteins display-
-ing an apparent molecular weight of 169 kD and 127 kD
-(Figure 1A). The two proteins were recovered in similar amounts,
-each at an apparent ratio of 1:5 to Merlin. Importantly, the
-tumor-derived mutant L64P, which lacks tumor-suppressor
-activity (Gutmann et al., 2001), did not associate with these
-proteins (Figure 1A). MALDI-reTOF-MS followed by peptide
-mass ﬁngerprinting and mass spectrometric sequencing
-unequivocally identiﬁed the 127kD protein as DDB1 (DNA
-Damage-Binding protein 1) and the 169 kD protein as DCAF1
-(DDB1-and Cul4-Associated Factor 1)
-(Figure 1A). NanoLC-
-MS/MS indicated that wild-type Merlin, but not Merlin-L64P,
-interacts also with Cul4B, albeit at a lower apparent stoichiom-
-etry (Table S1 available online).
+Tandem Affinity Purification (TAP) revealed that Merlin, tagged at either its N- or its C-
+terminus, associates with proteins displaying an apparent molecular weight of 169 kD and 127
+kD (Figure 1A). The two proteins were recovered in similar amounts, each at an apparent ratio
 
-Prior studies have established that DDB1 functions as a SKP1-
-like adaptor to recruit WD40 domain-containing substrate recep-
-tors, such as DDB2, CSA (the Cockayne syndrome protein A),
-and Det1-COP1 to the E3 ligase Cul4-Roc1 (Lee and Zhou,
-2007, and references therein; O’Connell and Harper, 2007, and
-references therein). DCAF1, which was originally identiﬁed as
+Cell. Author manuscript; available in PMC 2011 February 19.
 
-the cellular receptor for the HIV protein Vpr and designated
-VprBP, is one of several additional WD40 domain substrate
-receptors able to combine with DDB1 to mediate assembly of
-distinct Cul4 (CRL4) ligases (Lee and Zhou, 2007). In agreement
-with the mass spectrometric analysis, immunoblotting indicated
-that FH-Merlin combines with DCAF1, DDB1, and Cul4, but not
-DYRK2 or EDD (Figure 1B), components of the alternative
-EDD-DYRK2-DDB1-VprBP E3 ligase complex (Maddika and
-Chen, 2009). These observations indicate that Merlin interacts
-selectively with the E3 ligase CRL4DCAF1.
+I
 
-Since Merlin formed a stoichiometric complex with DCAF1 but
-not DDB1 upon cotransfection in Cos7 cells (Figure S1A), we
-hypothesized that Merlin binds directly to DCAF1 but indirectly
-to DDB1. To test this hypothesis, we examined the ability of
-GST-fusion proteins comprising either the FERM or the helical
-and C-terminal domain of Merlin to bind to in vitro translated
-DCAF1 or DDB1. As shown in Figure S1B, the FERM domain
-of Merlin bound directly to DCAF1 but not DDB1, whereas the
-helical and C-terminal segments did not (Figure S1B). Thus,
-Merlin binds directly, through its FERM domain, to DCAF1.
+-
 
-In contrast,
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
 
-To examine whether the conformational transition between the
-open and the closed form regulates Merlin’s binding to
-CRL4DCAF1, we tested the behavior of two well-characterized
-phosphorylation mutants. Merlin-S518A, which cannot be phos-
-phorylated at S518 and is stabilized in the closed conformation,
-associated efﬁciently with DCAF1 and DDB1 in transfected 293T
-cells.
-the phosphorylation site mimetic mutant
-Merlin-S518D, which is thought to maintain an open conforma-
-tion, displayed dramatically diminished binding to DCAF1 and
-DDB1 (Figure 1C). As anticipated, Ezrin and Merlin-L64P ex-
-hibited essentially no binding in this assay. In agreement with
-the model that the closed form of Merlin selectively interacts
-with CRL4DCAF1, immunoblotting with anti-P-Merlin antibodies
-indicated that the fraction of recombinant Merlin bound to
-FH-DCAF1 is not detectably phosphorylated at S518 (Figure 1D).
-Thus, the unphosphorylated, closed form of Merlin interacts
-speciﬁcally with CRL4DCAF1, whereas the open form and a
-well-characterized tumor-derived mutant do not, raising the
-possibility that Merlin suppresses cell proliferation and tumori-
-genesis by binding to CRL4DCAF1.
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Li et al.
+
+Page 3
+
+of ~ 1:5 to Merlin. Importantly, the tumor-derived mutant L64P, which lacks tumor suppressor
+activity (Gutmann et al., 2001), did not associate with these proteins (Figure 1A). MALDI-
+reTOF-MS followed by peptide mass fingerprinting and mass spectrometric sequencing
+unequivocally identified the 127kD protein as DDB1 (DNA Damage Binding protein 1) and
+the 169 kD protein as DCAF1 (DDB1-and Cul4-Associated Factor 1) (Figure 1A). NanoLC-
+MS/MS indicated that wild type Merlin, but not Merlin-L64P, interacts also with Cul4B, albeit
+at a lower apparent stoichiometry (Table S1).
+
+Prior studies have established that DDB1 functions as a SKP1-like adaptor to recruit WD40
+domain-containing substrate receptors, such as DDB2, CSA (the Cockayne syndrome protein
+A), and Det1-COP1 to the E3 ligase Cul4-Roc1 (Lee and Zhou, 2007; O’Connell and Harper,
+2007). DCAF1, which was originally identified as the cellular receptor for the HIV protein Vpr
+and designated VprBP, is one of several additional WD40 domain substrate receptors able to
+combine with DDB1 to mediate assembly of distinct Cul4 (CRL4) ligases (Lee and Zhou,
+2007). In agreement with the mass spectrometric analysis, immunoblotting indicated that FH-
+Merlin combines with DCAF1, DDB1, and Cul4, but not DYRK2 or EDD (Figure 1B),
+components of the alternative EDD-DYRK2-DDB1-VprBP E3 ligase complex (Maddika and
+Chen, 2009). These observations indicate that Merlin interacts selectively with the E3 ligase
+CRL4DCAF1.
+
+Since Merlin formed a stoichiometric complex with DCAF1 but not DDB1 upon cotransfection
+in Cos7 cells (Figure S1A), we hypothesized that Merlin binds directly to DCAF1 but indirectly
+to DDB1. To test this hypothesis, we examined the ability of GST-fusion proteins comprising
+either the FERM or the helical and C-terminal domain of Merlin to bind to in vitro translated
+DCAF1 or DDB1. As shown in Figure S1B, the FERM domain of Merlin bound directly to
+DCAF1 but not DDB1, whereas the helical and C-terminal segments did not (Figure S1B).
+Thus, Merlin binds directly, through its FERM domain, to DCAF1.
+
+To examine if the conformational transition between the open and the closed form regulates
+Merlin’s binding to CRL4DCAF1, we tested the behavior of two well-characterized
+phosphorylation mutants. Merlin-S518A, which cannot be phosphorylated at S518 and is
+stabilized in the closed conformation, associated efficiently with DCAF1 and DDB1 in
+transfected 293T cells. In contrast, the phosphorylation site mimetic mutant Merlin-S518D,
+which is thought to maintain an open conformation, displayed dramatically diminished binding
+to DCAF1 and DDB1 (Figure 1C). As anticipated, Ezrin and Merlin-L64P exhibited essentially
+no binding in this assay. In agreement with the model that the closed form of Merlin selectively
+interacts with CRL4DCAF1, immunoblotting with anti-P-Merlin antibodies indicated that the
+fraction of recombinant Merlin bound to FH-DCAF1 is not detectably phosphorylated at S518
+(Figure 1D). Thus, the unphosphorylated, closed form of Merlin interacts specifically with
+CRL4DCAF1, whereas the open form and a well-characterized tumor-derived mutant do not,
+raising the possibility that Merlin suppresses cell proliferation and tumorigenesis by binding
+to CRL4DCAF1.
 
 Merlin Associates with CRL4DCAF1 in the Nucleus
-To identify the cellular compartment where Merlin interacts
-with CRL4DCAF1, we cotransfected Myc-tagged DCAF1 and
-HA-tagged Merlin into Merlin-deﬁcient Meso-33 mesothelioma
-cells. These cells undergo growth arrest following re-expression
-of Merlin and therefore represent an excellent model to study the
-tumor-suppressor function of Merlin (see below). Immunoﬂuo-
-rescent staining indicated that Myc-DCAF1 localizes in the
-nucleus in Meso-33 cells (Figure 1E), suggesting that CRL4DCAF1
-functions in this compartment like other CRL4 ligases (Lee and
 
-(H) MCF-10A cells were subjected to subcellular fractionation. Equal amounts of proteins from the nuclear (NF) and nonnuclear (CM; cytosol + crude
-membranes) fraction were subjected to immunoblotting with antibodies to the indicated proteins.
-(I) Equal amounts of proteins from the nonnuclear (CM) and nuclear-soluble (NS) fraction of HeLa cells and Merlin immunoprecipitates were immunoblotted as
-indicated. Anti-Cul4 recognizes Cul4-A as well as a higher molecular weight band, possibly corresponding to neddylated Cul4-A or Cul4-B (asterisk).
-See also Figure S1.
+To identify the cellular compartment where Merlin interacts with CRL4DCAF1, we co-
+transfected Myc-tagged DCAF1 and HA-tagged Merlin into Merlin-deficient Meso-33
+mesothelioma cells. These cells undergo growth arrest following re-expression of Merlin and
+therefore represent an excellent model to study the tumor suppressor function of Merlin (see
+Figure 5D below). Immunofluorescent staining indicated that Myc-DCAF1 localizes in the
+nucleus in Meso-33 cells (Figure 1E), suggesting that CRL4DCAF1 functions in this
+compartment like other CRL4 ligases (Lee and Zhou, 2007; O’Connell and Harper, 2007).
+Interestingly, in addition to localizing underneath the plasma membrane, HA-Merlin also
 
-Cell 140, 477–490, February 19, 2010 ª2010 Elsevier Inc. 479
+Cell. Author manuscript; available in PMC 2011 February 19.
 
-Zhou, 2007; O’Connell and Harper, 2007). Interestingly, in addi-
-tion to localizing underneath the plasma membrane, HA-Merlin
-also accumulated in the nucleus (Figure 1E). Subcellular fraction-
-ation conﬁrmed these results (Figure S1C).
+I
 
-We reasoned that poor permeabilization of
+-
 
-the nuclear
-membrane or epitope masking may have hampered detection
-of Merlin in the nucleus in previous immunoﬂuorescence studies
-(with the exception of Muranen et al., 2005). To study the localiza-
-tion of endogenous Merlin, we designed a ﬁxation and permeabi-
-lization protocol able to circumvent these potential problems (see
-the Experimental Procedures). Using this protocol, we found that
-a monospeciﬁc antibody to the N-terminal segment of Merlin
-generates prominent nuclear staining in multiple cell types,
-including HeLa squamous carcinoma cells and nonneoplastic
-HEI286 Schwann cells, LP9 mesothelial cells, and MCF-10A
-mammary epithelial cells (Figures 1F and 1G). This pattern of
-staining was speciﬁc because it was suppressed by silencing of
-Merlin (Figure 1F) and could be reproduced by using an antibody
-to a C-terminal epitope (Figures S1D and S1E). Finally, biochem-
-ical fractionation conﬁrmed that Merlin and DCAF1 accumulate in
-the nucleus in multiple cell types (Figure 1H and Figure S1F).
-Thus, Merlin can enter the nucleus and bind to DCAF1.
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
 
-Many CRL4 ligases associate with DNA or chromatin during
-the cell cycle or in response to DNA damage (O’Connell and
-Harper, 2007). However, subnuclear fractionation indicated
-that both DCAF1 and Merlin accumulate in the soluble nuclear
-fraction and do not move into the chromatin fraction during
-cell-cycle progression or in response to UV-induced DNA
-damage (W.L. and F.G.G., unpublished data), consistent with
-the hypothesis that CRL4DCAF1 performs a function distinct
-from that of other known CRL4 ligases. Interestingly, coimmuno-
-precipitation analysis showed that Merlin combines with DCAF1,
-DDB1, and Cul4 in the soluble nuclear fraction, but not in the
-nonnuclear fraction, despite the presence of abundant amounts
-of these components (Figure 1I). This suggests that association
-with a cofactor, dissociation of an inhibitor, or a posttranslational
-modiﬁcation occurring in the nucleus promote the association of
-Merlin with CRL4DCAF1. Taken together, these results indicate
-that
-the closed, growth-inhibitory form of Merlin binds to
-CRL4DCAF1 in the nucleus.
+ 
 
-Merlin Is Not a Substrate of CRL4DCAF1
-Constitutively activated Akt can promote phosphorylation and
-proteasome-mediated degradation of Merlin (Tang et al.,
-2007), and overexpression studies have suggested that
-CRL4DCAF1 mediates this process (Huang and Chen, 2008).
-However, experiments with Cycloheximide indicated that Merlin
-exhibits a half-life far exceeding 24 hr in several cell types (Fig-
-ure S2A). In addition, treatment with the proteasome inhibitor
-MG132 did not stabilize recombinant Merlin in Cos7 cells, and
-Merlin-S518D and Merlin-L64P, which do not interact with
-CRL4DCAF1, did not display increased stability in this assay
-(Figure S2B). Finally, knockdown of DCAF1 did not cause
-increased accumulation of Merlin in multiple cell types under
-standard culture conditions, or in HeLa cells acutely exposed
-to mitogens (Figures S2C and S2D). In fact, depletion of DCAF1
-decreased the levels of Merlin, especially shortly after mitogenic
-stimulation, suggesting that binding to DCAF1 stabilizes Merlin
+t
 
-480 Cell 140, 477–490, February 19, 2010 ª2010 Elsevier Inc.
+M
+a
+n
+u
+s
+c
+r
+i
+p
 
-(Figure S2D). These results argue that Merlin is not targeted for
-degradation by CRL4DCAF1 and suggest that Merlin functions
-upstream, not downstream, of CRL4DCAF1.
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Li et al.
+
+Page 4
+
+accumulated in the nucleus (Figure 1E). Subcellular fractionation confirmed these results
+(Figure S1C).
+
+We reasoned that poor permeabilization of the nuclear membrane or epitope masking may have
+hampered detection of Merlin in the nucleus in previous immunofluorescence studies (with the
+exception of Muranen et al., 2005). To study the localization of endogenous Merlin, we
+designed a fixation and permeabilization protocol able to circumvent these potential problems
+(see Experimental Procedures). Using this protocol, we found that a monospecific antibody to
+the N-terminal segment of Merlin generates prominent nuclear staining in multiple cell types,
+including HeLa squamous carcinoma cells and non-neoplastic HEI286 Schwann cells, LP9
+mesothelial cells, and MCF-10A mammary epithelial cells (Figure 1F and 1G). This pattern
+of staining was specific because it was suppressed by silencing of Merlin (Figure 1F) and could
+be reproduced by using an antibody to a C-terminal epitope (Figure S1D and E). Finally,
+biochemical fractionation confirmed that Merlin and DCAF1 accumulate in the nucleus in
+multiple cell types (Figures 1H and S1F). Thus, Merlin can enter the nucleus and bind to
+DCAF1.
+
+Many CRL4 ligases associate with DNA or chromatin during the cell cycle or in response to
+DNA damage (O’Connell and Harper, 2007). However, subnuclear fractionation indicated that
+both DCAF1 and Merlin accumulate in the soluble nuclear fraction and do not move into the
+chromatin fraction during cell cycle progression or in response to UV-induced DNA damage
+(Li and Giancotti, unpublished), consistent with the hypothesis that CRL4DCAF1 performs a
+function distinct from that of other known CRL4 ligases. Interestingly, coimmunoprecipitation
+analysis showed that Merlin combines with DCAF1, DDB1, and Cul4 in the soluble nuclear
+fraction, but not in the non-nuclear fraction despite the presence of abundant amounts of these
+components (Figure 1I). This suggests that association with a cofactor, dissociation of an
+inhibitor, or a post-translational modification occurring in the nucleus promote the association
+of Merlin with CRL4DCAF1. Taken together, these results indicate that the closed, growth
+inhibitory form of Merlin binds to CRL4DCAF1 in the nucleus.
+
+Merlin is not a Substrate of CRL4DCAF1
+
+Constitutively activated Akt can promote phosphorylation and proteasome-mediated
+degradation of Merlin (Tang et al., 2007) and overexpression studies have suggested that
+CRL4DCAF1 mediates this process (Huang and Chen, 2008). However, experiments with
+Cycloheximide indicated that Merlin exhibits a half-life far exceeding 24 hours in several cell
+types (Figure S2A). In addition, treatment with the proteasome inhibitor MG132 did not
+stabilize recombinant Merlin in Cos7 cells, and Merlin-S518D and Merlin-L64P, which do not
+interact with CRL4DCAF1, did not display increased stability in this assay (Figure S2B). Finally,
+knock down of DCAF1 did not cause increased accumulation of Merlin in multiple cell types
+under standard culture conditions as well as in HeLa cells acutely exposed to mitogens (Figure
+S2C and S2D). In fact, depletion of DCAF1 decreased the levels of Merlin, especially shortly
+after mitogenic stimulation, suggesting that binding to DCAF1 stabilizes Merlin (Figure S2D).
+These results argue that Merlin is not targeted for degradation by CRL4DCAF1 and suggest that
+Merlin functions upstream, not downstream, of CRL4DCAF1.
 
 Merlin Inhibits CRL4DCAF1
-To examine the effect of Merlin on the ubiquitylating activity of
-CRL4DCAF1, we set up an in vivo ubiquitylation assay. Cos7 cells
-were transfected with FH-DCAF1 and Myc-ubiquitin, treated
-with MG132 to stabilize ubiquitylated products, and immunopre-
-cipitated with anti-Flag to isolate CRL4DCAF1 and associated
-ubiquitylated products. Immunoblotting with anti-Myc antibody
-revealed that FH-DCAF1 isolated from MG132-treated cells co-
-precipitates with ubiquitylated species of apparent molecular
-weight ranging from 55 to 300 kD, suggesting that CRL4DCAF1
-ubiquitylates in vivo one or more substrates and that these
-remain associated with the enzyme throughout immunoprecipi-
-tation (Figure 2A, left). In contrast, FH-DCAF1 isolated from
-untreated cells contained a modest amount of ubiquitylated
-species of apparent molecular weight ranging from 180 to 250
-kD. Cotransfection of increasing concentrations of HA-Merlin
-caused a dose-dependent suppression of the accumulation of
-ubiquitylated products, suggesting that Merlin suppresses the
-ubiquitylating activity of CRL4DCAF1 (Figure 2A left). Immunoblot-
-ting with anti-HA antibody indicated that Merlin does not
-become ubiquitylated upon association with DCAF1, consistent
-with the notion that Merlin is a regulator and not a substrate of the
-ligase (Figure 2A right). Immunoblotting of total lysates provided
-a control for the expression levels of recombinant proteins and
-indicated that treatment with MG132 partially stabilizes DCAF1
-(Figure S2E). These observations suggest that Merlin binds to
-CRL4DCAF1 and suppresses its ability to mediate ubiquitylation
-of target proteins.
 
-To conﬁrm this hypothesis, we examined whether a mutant
-form of DCAF1 unable to bind to Merlin mediates enhanced
-CRL4DCAF1 ligase activity in cells expressing endogenous Merlin.
-Deletion mapping indicated that the GST-FERM domain of
-Merlin binds directly to a 90 aa C-terminal segment of DCAF1
-in vitro (Figure S2F).
-Immunoprecipitation experiments con-
-ﬁrmed that DCAF1 (1–1417) lacking this C-terminal segment
-combines with endogenous DDB1 but not with HA-Merlin in
-Cos7 cells (Figure 2B). Interestingly, this mutant retained the
-ability to interact with the HIV protein Vpr (Figure 2B), suggesting
-that it is not grossly misfolded and indicating that Merlin and Vpr
-bind to distinct sites on DCAF1. In addition, mutation of the
-double DxR box on the bottom surface of the WD40 propeller
-fold of DCAF1 (R1247/1283A) disrupted the association of
-DCAF1 with DDB1, as previously reported (Jin et al., 2006b),
-but not with Merlin (Figure S2G),
-indicating that distinct
-segments of DCAF1 mediate interaction with DDB1 and with
-Merlin. Notably, in vivo ubiquitylation assays revealed that ligase
-complexes containing DCAF1 (1–1417) exhibit higher apparent
-enzymatic activity than those containing wild-type DCAF1 in
-Cos7 cells (Figure 2C). Pretreatment with MG132 caused a large
-increase in the activity of CRL4 containing wild-type DCAF1 but
-had only a small effect on CRL4 containing DCAF1 (1–1417) (Fig-
-ure 2C and Figure S2E), suggesting that the latter is a more
-potent E3 ligase. These results suggest that deletion of the Merlin
-binding segment of DCAF1 leads to constitutive activation of
+To examine the effect of Merlin on the ubiquitylating activity of CRL4DCAF1, we set up an in
+vivo ubiquitylation assay. Cos7 cells were transfected with FH-DCAF1 and Myc-ubiquitin,
+treated with MG132 to stabilize ubiquitylated products, and immunoprecipitated with anti-Flag
+to isolate CRL4DCAF1 and associated ubiquitylated products. Immunoblotting with anti-Myc
+antibody revealed that FH-DCAF1 isolated from MG132-treated cells coprecipitates with
+ubiquitylated species of apparent molecular weight ranging from 55 to 300 kD, suggesting that
 
-Figure 2. Merlin Inhibits CRL4DCAF1-Depen-
-dent Ubiquitylation
-(A) Cos7 cells were transfected with 3 mg
-FH-DCAF1 and 2 mg Myc-Ubiquitin in combination
-with the indicated amounts of HA-Merlin and
-treated with MG132 or left untreated. Flag or
-control
-immunoprecipitates (M2 and C, respec-
-tively) were subjected to immunoblotting with
-anti-Myc to visualize ubiquitylated proteins (left)
-or anti-HA to visualize DCAF1 and Merlin (right).
-Upper arrow points to DCAF1 and lower arrow to
-Merlin.
-(B) Cos7 cells were transfected with FH-DCAF1
-or FH-DCAF1 (1–1417)
-in combination with
-HA-Merlin (top panel) or HA-Vpr (bottom panel).
-Flag or control
-immunoprecipitates were sub-
-jected to immunoblotting. Levels of expression of
-DCAF1, DDB1, and Merlin or Vpr were veriﬁed
-by immunoblotting aliquots of total lysates.
-(C) As in (B), with cotransfection of Myc-Ubiquitin
-and treatment or not with MG132. Flag or control
-immunoprecipitates were immunoblotted with
-anti-Myc (left) or anti-HA (right).
-(D) Cos7 cells stably infected with lentiviral vectors
-encoding a control shRNA or a shRNA targeting
-Merlin were subjected to immunoblotting (left) or
-transfected with FH-DCAF1 and Myc-Ubiquitin
-followed by immunoblotting of Flag or control
-immunoprecipitates with anti-Myc (middle) or
-anti-HA (right).
-(E) Hypothetical model of Merlin-mediated inhibi-
-tion of CRL4DCAF1. Merlin is proposed to function
-as a competitive inhibitor of CRL4DCAF1. Blue
-hexagons, three b propeller folds of DDB1, which
-contact Cul4 (B) and DCAF1 (A and C); yellow
-hexagon, WD40 domain of DCAF1; yellow sticks,
-double DxR box implicated in binding to DDB1;
-S, substrate; Ub, ubiquitin; Mer, closed Merlin.
-See also Figure S2.
+Cell. Author manuscript; available in PMC 2011 February 19.
 
-CRL4DCAF1, consistent with the notion that Merlin inhibits the E3
-ligase activity.
+I
 
-Finally, we tested the effect of depletion of Merlin on
-CRL4DCAF1 activity. Cos7 cells were infected with lentiviruses en-
-coding a control short hairpin RNA (shRNA) or a shRNA targeting
-Merlin and then subjected to in vivo ubiquitylation assay. The
-results indicated that depletion of Merlin causes a signiﬁcant
-increase in CRL4DCAF1 ligase activity (Figure 2D). The effect of
-the shRNA targeting Merlin was speciﬁc, because it was sup-
-pressed by overexpression of HA-Merlin but not of HA-Ezrin,
-which does not associate with FH-DCAF1 (Figures S2H and
-S2I). Together, the results of positive expression, mutational
-activation, and depletion provide compelling evidence that
-Merlin functions as a negative regulator of CRL4DCAF1 (see
-Figure 2E for a hypothetical model).
+-
 
-CRL4DCAF1 Mediates the Hyperproliferation Caused
-by Inactivation of Merlin
-Recent studies have implicated CRL4DCAF1 in DNA replication
-and progression through the G2 phase of the cell cycle (Hrecka
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
 
-interfering RNAs (siRNAs)
+ 
 
-et al., 2007; McCall et al., 2008). To examine whether Merlin
-suppresses cell proliferation by inhibiting CRL4DCAF1, we
-silenced DCAF1 in NF2 mutant Meso-33 mesothelioma cells
-using a smart pool of small
-(Fig-
-ure S3A). Since loss of Merlin promotes progression through
-G1 (Lo´ pez-Lago et al., 2009), we examined whether loss of
-DCAF1 affects this speciﬁc phase of the cell cycle. BrdU incor-
-poration experiments revealed that depletion of DCAF1 inhibits
-the ability of G0 synchronized Meso-33 cells to progress through
-G1 and enter S phase in response to mitogens (Figure 3A).
-Deconstruction of the smartpool indicated that each individual
-siRNA in the pool was able to inhibit expression of DCAF1 and
-cell proliferation, as expected from speciﬁc inhibition (Figures
-S3B and S3C).
-In contrast, silencing of DCAF1 exerted a
-moderate growth inhibitory effect in normal mesothelial Met-5A
-cells (Figure 3B and Figure S3D), suggesting that Merlin-deﬁ-
-cient cells are more sensitive to inactivation of DCAF1 than their
-normal counterpart.
+t
 
-To further explore the role of CRL4DCAF1 in the proliferation of
-Merlin-deﬁcient tumor cells, we designed a shRNA able to target
+M
+a
+n
+u
+s
+c
+r
+i
+p
 
-Cell 140, 477–490, February 19, 2010 ª2010 Elsevier Inc. 481
+t
 
-Figure 3. DCAF1 Mediates Hyperproliferation and
-Loss of Contact Inhibition in Merlin-Deﬁcient Cells
-(A and B) Meso-33 cells (A) and Met-5a cells (B) were
-transfected with a SMARTpool of siRNAs targeting the
-adaptor protein AP3b, DCAF1, or a control nontargeting
-pool, deprived of growth factors for 24 hr, incubated
-with BrdU in the presence of mitogens for 24 hr, and sub-
-jected to anti-BrdU staining followed by counterstaining
-with DAPI. The graph shows the percentage (± standard
-error of the mean [SEM]) of BrdU+ cells and the pictures
-show representative ﬁelds.
-(C and D) HUVECs (C) and HEI 286 human Schwann cells
-(D) were transfected with a control si-RNA or two distinct
-si-RNAs targeting DCAF1, alone or in combination with a
-previously validated si-RNA targeting Merlin (Okada
-et al., 2005). Cells were deprived of growth factors for
-24 hr, plated under conﬂuent (C) or sparse (D) conditions
-on ﬁbronectin, and subjected to BrdU incorporation in
-the presence of mitogens for 24 hr followed by anti-BrdU
-staining. The graphs show the percentage (±SEM) of
-BrdU+ cells.
-Immunoblotting was used to verify the
-efﬁciency of knockdown.
-(E) Meso-33 cells were transiently transfected with the
-indicated mg of vectors encoding HA-Merlin, alone or in
-combination with FH-DCAF1 or FH-DCAF1 (1–1417), and
-subjected to immunoblotting (left) and BrdU incorporation
-assay (right). The anti-HA blots including FH-DCAF1 and
-HA-Merlin were exposed for the same time. The graph
-shows the percentage (±SEM) of BrdU+ cells.
-See also Figure S3.
+I
 
-both human and mouse DCAF1. Silencing of DCAF1 with this
-shRNA inhibited phosphorylation of Rb and entry into the S
-phase in Meso-33 cells (Figure S3E). FACS analysis of unsyn-
-chronized Meso-33 cells conﬁrmed that depletion of DCAF1
-predominantly inhibits progression through G1 (control Meso-
-33: 23% G1, 68% S, 9% G2/M; DCAF1-depleted Meso-33:
-59% G1, 35% S, 6% G2/M). Re-expression of DCAF1 from
-either a moderate or a strong promoter rescued phosphorylation
-of Rb and cell-cycle progression, conﬁrming the speciﬁcity of the
-shRNA targeting DCAF1 (Figure S3E). We therefore used this
-shRNA to silence DCAF1 in FC-1801 Schwannoma cells, which
-were derived from NF2 conditional knockout mice, and their
-normal counterpart, the FH-912 cells. Notably, inactivation of
-DCAF1 caused a more profound growth inhibition in Merlin null
-FC-1801 cells as compared to Merlin-positive FH-912 cells
-(Figure S3F), conﬁrming that CRL4DCAF1 is required for the prolif-
-eration of Merlin-deﬁcient tumor cells but to a lesser degree for
-that of normal cells. These observations suggest that CRL4DCAF1
-is a key component of the oncogenic signaling pathway acti-
-vated by loss of Merlin.
+-
 
-To examine whether CRL4DCAF1 is required for exit from
-contact inhibition after inactivation of Merlin, we silenced Merlin
-in conﬂuent human umbilical vein endothelial cells (HUVECs). As
-anticipated, this manipulation induced a signiﬁcant fraction of
-conﬂuent HUVECs to enter into S phase (Figure 3C). Notably,
+N
+H
+P
+A
+A
+u
 
-depletion of DCAF1 with each of two distinct siRNAs suppressed
-this unscheduled event (Figure 3C), suggesting that Merlin
-induces contact inhibition through inhibition of CRL4DCAF1.
+ 
 
-To conﬁrm that CRL4DCAF1 functions downstream of Merlin,
-we conducted an additional genetic epistasis experiment in
-HEI-286 Schwann cells, which are immortalized but not
-neoplastic. Silencing of Merlin caused these cells to undergo
-accelerated progression through G1 and entry into S phase in
-response to growth factors (Figure 3D), in agreement with the
-observation that Merlin contributes to restraining G1 progression
-(Lo´ pez-Lago et al., 2009). Inactivation of DCAF1 reverted the
-hyperproliferation caused by depletion of Merlin but did not
-affect the rate of growth of control cells expressing Merlin
-(Figure 3D), providing additional evidence that CRL4DCAF1 medi-
-ates the growth inhibitory effect of Merlin.
+t
 
-If Merlin suppresses cell proliferation by inhibiting CRL4DCAF1,
-expression of a mutant form of DCAF1 unable to interact
-with Merlin should counteract the antimitogenic effect of Merlin.
-To test this prediction, we transfected Meso-33 cells with
-FH-Merlin, alone or in combination with wild-type DCAF1 or
-DCAF1 (1–1417), and subjected them to BrdU incorporation
-assay. Interestingly, expression of DCAF1 (1–1417) fully rescued
-Meso-33 cells from undergoing growth arrest upon introduction
-of Merlin, whereas wild-type DCAF1 had only a moderate effect
-(Figure 3E). We note that, in spite of its higher level of expression,
+h
+o
+r
+ 
 
-482 Cell 140, 477–490, February 19, 2010 ª2010 Elsevier Inc.
+M
+a
+n
+u
+s
+c
+r
+i
+p
 
-Figure 4. Expression of Merlin and Depletion of DCAF1 Induce a Largely Overlapping Gene Expression Program
-(A) FC-1801 cells were infected with lentiviral vectors encoding a shRNA targeting DCAF1 (sh-DCAF1), a control shRNA (sh-Control), wild-type Merlin, Merlin-
-L64P, or sh-DCAF1 in combination with wild-type Merlin and subjected to DNA microarray analysis. Unsupervised clustering of 1566 probe sets differentially
-expressed R2 fold in at least one of the two major comparisons (sh-DCAF1 versus sh-Control and Merlin-WT versus Merlin-L64P). Values were normalized
-to parental uninfected cells.
-(B) Venn diagram shows the overlap between the list of genes differentially expressed upon expression of Merlin-WT or silencing of DCAF1 (R2-fold change).
-Coregulated genes (885) are identiﬁed as differentially expressed R2-fold in one of the two comparisons and displaying a consensual signiﬁcant change in the
-other comparison (p % 0.01 by the ANOVA test).
-(C) Six hundred and sixty-seven genes coregulated upon expression of Merlin-WT or silencing of DCAF1 (R2-fold change in both comparisons) were subjected to
-ingenuity pathway analysis. Both downregulated (353) and upregulated (314) genes are included in the category of biological functions. Representative down-
-regulated genes are shown in blue, and representative upregulated genes in red in order of decreasing average fold change.
-See also Figure S4.
+t
 
-Merlin did not bind stoichiometrically to wild-type DCAF1 under
-these experimental conditions (Figure S3G). Presumably, tran-
-sient transfection saturates the cellular machinery that modiﬁes
-Merlin to enable it to bind to CRL4DCAF1 in Meso-33 cells. Taken
-together, these results provide strong evidence that Merlin
-suppresses cell proliferation by inhibiting CRL4DCAF1.
+I
 
-Merlin-Mediated Inhibition of CRL4DCAF1 Activates
-a Growth-Inhibitory Gene Expression Program
-CRL4 ligases can regulate gene expression by promoting ubiq-
-uitylation of histones and recruitment of enzymes involved in
-chromatin remodeling or histone methylation or by inducing
-proteasome-mediated degradation of
-transcription factors
-(O’Connell and Harper, 2007). To examine whether Merlin
-controls gene expression through inhibition of CRL4DCAF1, we
-compared the gene expression program activated by expression
-of Merlin or depletion of DCAF1 in Nf2 /  FC-1801 mouse
-Schwannoma cells. Unsupervised clustering of 1566 probe
-sets differentially expressed upon expression of wild-type but
+-
 
-not L64P mutant Merlin or upon speciﬁc depletion of DCAF1 re-
-vealed largely overlapping changes in gene expression
-(Figure 4A).
-In fact, expression of Merlin and depletion of
-DCAF1 induced a concordant upregulation or downregulation
-of 855 probe sets (54%) (Figure 4B and Figure S4A). In spite of
-this considerable functional overlap, expression of Merlin and
-knock down of DCAF1 also induced speciﬁc effects on gene
-expression (Figure 4B). These results indicate that Merlin regu-
-lates gene expression largely through inhibition of CRL4DCAF1
-that Merlin has CRL4DCAF1-independent
-but also suggest
-functions.
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
 
-Ingenuity pathway analysis revealed that expression of Merlin
-and inactivation of CRL4DCAF1 cause a concordant downregula-
-tion of genes promoting cell-cycle progression and upregulation
-of genes involved in growth arrest and apoptosis (Figure 4C). In
-addition, these two manipulations downregulated several cell
-adhesion genes, such as the integrin a subunits Itga6 and
-Itga7, the integrin counter-receptor Vcam1, and the integrin-
-linked kinase Ilk, and upregulated the Rho effectors Rock1 and
+ 
 
-Cell 140, 477–490, February 19, 2010 ª2010 Elsevier Inc. 483
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
 
-Limk1. Ingenuity analysis of canonical pathways indicated that
-expression of Merlin and loss of DCAF1 inhibit integrin and
-PDGF signaling as well as the signaling pathways jointly regu-
-lated by integrins and receptor tyrosine kinases (Figure S4B).
-Interestingly, these two manipulations also led to downregula-
-tion of the integrin signaling component Bcar3, which has been
-implicated in recruitment of p130CAS to lamellipodia and in acti-
-vation of Rac (Schrecengost et al., 2007). A survey of the genes
-coordinately regulated by expression of Merlin or loss of DCAF1
-revealed additional features of the gene expression program
-activated by Merlin through inhibition of CRL4DCAF1. In addition
-to expanding the category of genes involved in cell adhesion
-and receptor tyrosine kinase signaling, this analysis revealed
-through CRL4DCAF1, several genes
-that Merlin regulates,
-involved in intracellular trafﬁcking and a fraction of the known
-Hippo pathway target genes (Figure S4C). These observations
-suggest that Merlin’s inhibition of CRL4DCAF1 activates a broad
-tumor-suppressive gene expression program.
+Li et al.
 
-Intramolecular Association of the FERM Domain
-with the C-Terminal Tail Promotes Nuclear
+Page 5
+
+CRL4DCAF1 ubiquitylates in vivo one or more substrates and that these remain associated with
+the enzyme throughout immunoprecipitation (Figure 2A, left). In contrast, FH-DCAF1 isolated
+from untreated cells contained a modest amount of ubiquitylated species of apparent molecular
+weight ranging from 180 to 250 kD. Co-transfection of increasing concentrations of HA-Merlin
+caused a dose-dependent suppression of the accumulation of ubiquitylated products, suggesting
+that Merlin suppresses the ubiquitylating activity of CRL4DCAF1 (Figure 2A left).
+Immunoblotting with anti-HA antibody indicated that Merlin does not become ubiquitylated
+upon association with DCAF1, consistent with the notion that Merlin is a regulator and not a
+substrate of the ligase (Figure 2A right). Immunoblotting of total lysates provided a control
+for the expression levels of recombinant proteins and indicated that treatment with MG132
+partially stabilizes DCAF1 (Figure S2E). These observations suggest that Merlin binds to
+CRL4DCAF1 and suppresses its ability to mediate ubiquitylation of target proteins.
+
+To confirm this hypothesis, we examined if a mutant form of DCAF1 unable to bind to Merlin
+mediates enhanced CRL4DCAF1 ligase activity in cells expressing endogenous Merlin.
+Deletion mapping indicated that the GST-FERM domain of Merlin binds directly to a 90 amino
+acid C-terminal segment of DCAF1 in vitro (Figure S2F). Immunoprecipitation experiments
+confirmed that DCAF1 (1-1417) lacking this C-terminal segment combines with endogenous
+DDB1 but not with HA-Merlin in Cos7 cells (Figure 2B). Interestingly, this mutant retained
+the ability to interact with the HIV protein Vpr (Figure 2B), suggesting that it is not grossly
+misfolded and indicating that Merlin and Vpr bind to distinct sites on DCAF1. In addition,
+mutation of the double DxR box on the bottom surface of the WD40 propeller fold of DCAF1
+(R1247/1283A) disrupted the association of DCAF1 with DDB1, as previously reported (Jin
+et al., 2006b), but not with Merlin (Figure S2G), indicating that distinct segments of DCAF1
+mediate interaction with DDB1 and with Merlin. Notably, in vivo ubiquitylation assays
+revealed that ligase complexes containing DCAF1 (1-1417) exhibit higher apparent enzymatic
+activity as compared to those containing wild type DCAF1 in Cos7 cells (Figures 2C).
+Pretreatment with MG132 caused a large increase in the activity of CRL4 containing wild type
+DCAF1 but had only a small effect on CRL4 containing DCAF1 (1-1417) (Figures 2C and
+S2E), suggesting that the latter is a more potent E3 ligase. These results suggest that deletion
+of the Merlin binding segment of DCAF1 leads to constitutive activation of CRL4DCAF1,
+consistent with the notion that Merlin inhibits the E3 ligase activity.
+
+Finally, we tested the effect of depletion of Merlin on CRL4DCAF1 activity. Cos7 cells were
+infected with lentiviruses encoding a control sh-RNA or a sh-RNA targeting Merlin and then
+subjected to in vivo ubiquitylation assay. The results indicated that depletion of Merlin causes
+a significant increase in CRL4DCAF1 ligase activity (Figure 2D). The effect of the sh-RNA
+targeting Merlin was specific, because it was suppressed by overexpression of HA-Merlin but
+not of HA-Ezrin, which does not associate with FH-DCAF1 (Figure S2H and S2I). Together,
+the results of positive expression, mutational activation, and depletion provide compelling
+evidence that Merlin functions as a negative regulator of CRL4DCAF1 (see Figure 2E for a
+hypothetical model).
+
+CRL4DCAF1 Mediates the Hyperproliferation Caused by Inactivation of Merlin
+
+Recent studies have implicated CRL4DCAF1 in DNA replication and progression through the
+G2 phase of the cell cycle (Hrecka et al., 2007; McCall et al., 2008). To examine if Merlin
+suppresses cell proliferation by inhibiting CRL4DCAF1, we silenced DCAF1 in NF2 mutant
+Meso-33 mesothelioma cells using a smart pool of siRNAs (Figure S3A). Since loss of Merlin
+promotes progression through G1 (Lopez-Lago et al., 2009), we examined if loss of DCAF1
+affects this specific phase of the cell cycle. BrdU incorporation experiments revealed that
+depletion of DCAF1 inhibits the ability of G0 synchronized Meso-33 cells to progress through
+G1 and enter S phase in response to mitogens (Figure 3A). Deconstruction of the smartpool
+
+Cell. Author manuscript; available in PMC 2011 February 19.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Li et al.
+
+Page 6
+
+indicated that each individual siRNA in the pool was able to inhibit expression of DCAF1 and
+cell proliferation, as expected from specific inhibition (Figure S3B and S3C). In contrast,
+silencing of DCAF1 exerted a moderate growth inhibitory effect in normal mesothelial Met-5A
+cells (Figure 3B and S3D), suggesting that Merlin-deficient cells are more sensitive to
+inactivation of DCAF1 than their normal counterpart.
+
+To further explore the role of CRL4DCAF1 in the proliferation of Merlin-deficient tumor cells,
+we designed a shRNA able to target both human and mouse DCAF1. Silencing of DCAF1 with
+this shRNA inhibited phosphorylation of Rb and entry into the S phase in Meso-33 cells (Figure
+S3E). FACS analysis of unsynchronized Meso-33 cells confirmed that depletion of DCAF1
+predominantly inhibits progression through G1 (control Meso-33: 23% G1, 68% S, 9% G2/M;
+DCAF1-depleted Meso-33: 59% G1, 35% S, 6% G2/M). Re-expression of DCAF1 from either
+a moderate or a strong promoter rescued phosphorylation of Rb and cell cycle progression,
+confirming the specificity of the shRNA targeting DCAF1 (Figure S3E). We therefore used
+this shRNA to silence DCAF1 in FC-1801 Schwannoma cells, which were derived from
+NF2 conditional knock out mice, and their normal counterpart, the FH-912 cells. Notably,
+inactivation of DCAF1 caused a more profound growth inhibition in Merlin-null FC-1801 cells
+as compared to Merlin-positive FH-912 cells (Figure S3F), confirming that CRL4DCAF1 is
+required for the proliferation of Merlin-deficient tumor cells but to a lesser degree for that of
+normal cells. These observations suggest that CRL4DCAF1 is a key component of the oncogenic
+signaling pathway activated by loss of Merlin.
+
+To examine if CRL4DCAF1 is required for exit from contact inhibition following inactivation
+of Merlin, we silenced Merlin in confluent HUVECs. As anticipated, this manipulation induced
+a significant fraction of confluent HUVECs to enter into S phase (Figure 3C). Notably,
+depletion of DCAF1 using each of two distinct siRNAs suppressed this unscheduled event
+(Figure 3C), suggesting that Merlin induces contact inhibition through inhibition of
+CRL4DCAF1.
+
+To confirm that CRL4DCAF1 functions downstream of Merlin, we conducted an additional
+genetic epistasis experiment in HEI-286 Schwann cells, which are immortalized but not
+neoplastic. Silencing of Merlin caused these cells to undergo accelerated progression through
+G1 and entry into S phase in response to growth factors (Figure 3D), in agreement with the
+observation that Merlin contributes to restraining G1 progression (Lopez-Lago et al., 2009).
+Inactivation of DCAF1 reverted the hyperproliferation caused by depletion of Merlin but did
+not affect the rate of growth of control cells expressing Merlin (Figure 3D), providing additional
+evidence that CRL4DCAF1 mediates the growth inhibitory effect of Merlin.
+
+If Merlin suppresses cell proliferation by inhibiting CRL4DCAF1, expression of a mutant form
+of DCAF1 unable to interact with Merlin should counteract the antimitogenic effect of Merlin.
+To test this prediction, Meso-33 cells were transfected with FH-Merlin, alone or in combination
+with wild type DCAF1 or DCAF1 (1-1417), and subjected to BrdU incorporation assay.
+Interestingly, expression of DCAF1 (1-1417) fully rescued Meso-33 cells from undergoing
+growth arrest upon introduction of Merlin, whereas wild type DCAF1 had only a moderate
+effect (Figure 3E). We note that, in spite of its higher level of expression, Merlin did not bind
+stoichiometrically to wild type DCAF1 under these experimental conditions (Figure S3G).
+Presumably, transient transfection saturates the cellular machinery that modifies Merlin to
+enable it to bind to CRL4DCAF1 in Meso-33 cells. Taken together, these results provide strong
+evidence that Merlin suppresses cell proliferation by inhibiting CRL4DCAF1.
+
+Cell. Author manuscript; available in PMC 2011 February 19.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Li et al.
+
+Page 7
+
+Merlin-mediated Inhibition of CRL4DCAF1 Activates a Growth Inhibitory Gene Expression
+Program
+
+CRL4 ligases can regulate gene expression by promoting ubiquitylation of histones and
+recruitment of enzymes involved in chromatin remodeling or histone methylation or by
+inducing proteasome-mediated degradation of transcription factors (O’Connell and Harper,
+2007). To examine if Merlin controls gene expression through inhibition of CRL4DCAF1, we
+compared the gene expression program activated by expression of Merlin or depletion of
+DCAF1 in Nf2−/− FC-1801 mouse Schwannoma cells. Unsupervised clustering of 1566
+probesets differentially expressed upon expression of wild type but not L64P mutant Merlin
+or upon specific depletion of DCAF1 revealed largely overlapping changes in gene expression
+(Figure 4A). In fact, expression of Merlin and depletion of DCAF1 induced a concordant
+upregulation or downregulation of 855 probesets (54%) (Figures 4B and S4A). In spite of this
+considerable functional overlap, expression of Merlin and knock down of DCAF1 also induced
+specific effects on gene expression (Figure 4B). These results indicate that Merlin regulates
+gene expression largely through inhibition of CRL4DCAF1 but also suggest that Merlin has
+CRL4DCAF1-independent functions.
+
+Ingenuity pathway analysis revealed that expression of Merlin and inactivation of
+CRL4DCAF1 cause a concordant downregulation of genes promoting cell cycle progression
+and upregulation of genes involved in growth arrest and apoptosis (Figure 4C). In addition,
+these two manipulations downregulated several cell adhesion genes, such as the integrin α
+subunits Itga6 and Itga7 and the integrin counter-receptor Vcam1, and the integrin-linked
+kinase Ilk, and upregulated the Rho effectors Rock1 and Limk1. Ingenuity analysis of canonical
+pathways indicated that expression of Merlin and loss of DCAF1 inhibit integrin and PDGF
+signaling as well as the signaling pathways jointly regulated by integrins and receptor tyrosine
+kinases (Figure S4B). Interestingly, these two manipulations also led to downregulation of the
+integrin signaling component Bcar3, which has been implicated in recruitment of p130CAS to
+lamellipodia and in activation of Rac (Schrecengost et al., 2007). A survey of the genes
+coordinately regulated by expression of Merlin or loss of DCAF1 revealed additional features
+of the gene expression program activated by Merlin through inhibition of CRL4DCAF1. In
+addition to expanding the category of genes involved in cell adhesion and receptor tyrosine
+kinase signaling, this analysis revealed that Merlin regulates, through CRL4DCAF1, several
+genes involved in intracellular trafficking and a fraction of the known Hippo pathway target
+genes (Figure S4C). These observations suggest that Merlin’s inhibition of CRL4DCAF1
+activates a broad tumor suppressive gene expression program.
+
+Intramolecular Association of the FERM Domain with the C-terminal Tail Promotes Nuclear
 Accumulation of Merlin
-In order to obtain insight into the regulation of the association of
-Merlin with CRL4DCAF1, we studied the mechanism that enables
-Merlin to accumulate in the nucleus. Preliminary experiments
-indicated that Merlin’s translocation in the nucleus does not
-require DCAF1 (W.L. and F.G.G., unpublished data). Since Merlin
-does not contain a canonical nuclear import sequence, we
-examined the ability of the FERM domain and of the a-helical
-and C-terminal domain of the protein to localize to the nucleus.
-The FERM domain of Merlin (1–341) accumulated in the nucleus
-of Meso-33 cells to a signiﬁcantly larger degree as compared to
-the a-helical and C-terminal
-wild-type Merlin.
-domain of the protein (341–595) failed to localize to the nucleus
-under the same conditions (Figures S5A and S5B). These results
-indicate that the FERM domain of Merlin is sufﬁcient for nuclear
-translocation and suggest that the C-terminal portion of the
-protein may exert an inhibitory role. Since this portion of Merlin
-contains a nuclear export signal
-(Kressel and Schmucker,
-2002), it is possible that this signal
-is masked in the closed
-conformer.
 
-In contrast,
+In order to obtain insight into the regulation of the association of Merlin with CRL4DCAF1, we
+studied the mechanism that enables Merlin to accumulate in the nucleus. Preliminary
+experiments indicated that Merlin’s translocation in the nucleus does not require DCAF1 (Li
+and Giancotti, unpublished). Since Merlin does not contain a canonical nuclear import
+sequence, we examined the ability of the FERM domain and of the α-helical and C-terminal
+domain of the protein to localize to the nucleus. The FERM domain of Merlin (1-341)
+accumulated in the nucleus of Meso-33 cells to a significantly larger degree as compared to
+wild type Merlin. In contrast, the α-helical and C-terminal domain of the protein (341–595)
+failed to localize to the nucleus under the same conditions (Figure S5A and S5B). These results
+indicate that the FERM domain of Merlin is sufficient for nuclear translocation and suggest
+that the C-terminal portion of the protein may exert an inhibitory role. Since this portion of
+Merlin contains a nuclear export signal (Kressel and Schmucker, 2002), it is possible that this
+signal is masked in the closed conformer.
 
-To examine whether antimitogenic signals, such as cell-to-cell
-adhesion and growth factor deprivation, regulate the accumula-
-tion of Merlin in the nucleus, we monitored the subcellular local-
-ization of the unphosphorylated and phosphorylated form of
-Merlin under various growth conditions. Mobility shift assay
-and immunoblotting with anti-P-Merlin (S518)
-indicated that
-the dephosphorylated form of Merlin, which was prevalent in
-conﬂuent cells especially if they were not exposed to mitogens,
-accumulated predominantly in the nucleus, whereas Merlin
-phosphorylated at S518 remained largely conﬁned to the non-
-nuclear fraction under all conditions (Figures S5C and S5D).
-To conﬁrm that the closed, growth-inhibitory form of Merlin
-accumulates preferentially in the nucleus, we examined the
-subcellular distribution of Merlin-S518A, which cannot be
-phosphorylated by PAK, and Merlin-S518D, which mimics the
-phosphorylated form of the protein. Notably, Merlin-S518A
-accumulated in the nucleus to a signiﬁcantly higher extent than
+Cell. Author manuscript; available in PMC 2011 February 19.
 
-484 Cell 140, 477–490, February 19, 2010 ª2010 Elsevier Inc.
+I
 
-did wild-type Merlin (Figure S5E). In contrast, Merlin-S518D
-displayed defective nuclear accumulation, suggesting that
-PAK-mediated phosphorylation inhibits nuclear localization of
-Merlin. In agreement with this hypothesis, a dominant negative
-form of PAK enhanced nuclear accumulation of Merlin (W.L.
-and F.G.G., unpublished data). Thus, intramolecular association
-of the FERM domain with the C-terminal tail promotes nuclear
-accumulation of Merlin, whereas phosphorylation of S518
-inhibits this process.
+-
 
-Tumor-Derived Mutations Prevent Merlin’s Ability
-to Interact with or to Inhibit CRL4DCAF1
-Most NF2 missense mutations map to the FERM domain (Ahro-
-nowitz et al., 2007). To further study the relevance of Merlin’s
-interaction with CRL4DCAF1 for tumor suppression, we examined
-several of these mutations. L46R, F62S, L64P, L141P, A211D,
-and E270G have been found in two or more unrelated NF2
-patients or are known to track with disease in individual families
-and are therefore bona ﬁde pathogenic mutations. In contrast,
-G197C, which was identiﬁed in a single patient affected by
-mild bilateral Schwannoma, may represent a polymorphism
-or a passenger mutation (Ahronowitz et al., 2007). Structural
-considerations suggest that L46R, F62S, L64P, L141P, and
-A211D disrupt the hydrophobic core of subdomain A or B,
-whereas E270G simply removes a surface charge from subdo-
-main C (Figures 5A–5C). In contrast, G197C can be accommo-
-dated by a slight adjustment of the surface loop in which it
-resides, without overt effects on the overall structure of subdo-
-main B, and does not introduce or delete a charge (Figure 5C).
-To evaluate their growth-suppressive function, we introduced
-Merlin and mutants thereof into Meso-33 cells. As anticipated,
-wild-type Merlin and Merlin-S518A suppressed progression
-through G1 and entry in S phase in these cells, whereas
-Merlin-S518D inhibited proliferation to a much smaller degree
-(Figure 5D). Notably, all the bona ﬁde pathogenic mutants were
-found to be devoid of growth inhibitory activity in Meso-33 cells.
-In contrast, Merlin G197C suppressed proliferation as effectively
-as wild-type Merlin, suggesting that this is not a pathogenic
-mutation (Figure 5D). To examine the ability of tumor-derived
-mutants of Merlin to interact with CRL4DCAF1 in cells, we sub-
-jected Cos7 cells expressing FH-Merlin and mutants thereof to
-coimmunoprecipitation. Remarkably, all the bona ﬁde tumor-
-derived mutant forms of Merlin did not interact with CRL4DCAF1
-in vivo, whereas the control mutant G197C associated with the
-ligase as efﬁciently as wild-type Merlin under the same condi-
-tions (Figure 5E, see Figure 1C for L64P), providing evidence
-that Merlin needs to combine with CRL4DCAF1 to suppress
-tumorigenesis.
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
 
-To obtain insight into the mechanism through which each of
-these pathogenic missense mutations impairs association of
-Merlin with CRL4DCAF1 in vivo, we ﬁrst assessed their effect
-on nuclear accumulation of the protein. Biochemical fraction-
-ation indicated that L46R, L64P, L141P, and A211D accumu-
-late in the nucleus to a much smaller degree than wild-type
-Merlin or G197C (Figures 6A and 6B). Defective nuclear trans-
-location and decreased level of expression, presumably arising
-from deﬁcient protein stability, contributed to varying degrees
-these mutants into the
-to inhibit accumulation of each of
+ 
 
-Figure 5. Several Pathogenic Missense Mutations Disrupt
-Binding of Merlin to CRL4DCAF1 In Vivo
-(A) Tumor-derived mutants (red sticks) are shown in the context of the
-overall structure of the FERM domain of human Merlin (colored
-ribbons; PDB 1ISN). The a-helical coiled-coil domain from the crystal
-structure of the closed form of Spodoptera frugiperda Moesin (thin
-gray a-carbon trace; PDB 2I1K), which is highly homologous to human
-Merlin, is shown for reference. The coiled-coil domain was positioned
-by superimposing the FERM domains from the structures of Merlin
-and Moesin, which have a root mean square deviation for a-carbon
-atoms of 1.3 A˚ and share 62% sequence identity.
-(B) Close-up view of tumor-derived mutations (red sticks) located in
-subdomain A (green ribbon) in the crystal structure of human Merlin.
-Residues in contact with mutated residues are drawn as sticks and
-colored according to atom type (carbon, yellow; sulfur, green).
-(C) Subdomain B represented as in (B), with oxygen as magenta
-sticks. Red sphere, G197.
-(D) Meso-33 cells were transiently transfected with empty vector or
-vectors encoding wild-type Merlin or indicated mutants. Asynchron-
-ized cells growing in 10% fetal calf serum were subjected to BrdU
-incorporation assay. The graph indicates the percentage (±SEM) of
-BrdU-positive cells. Pictures show representative ﬁelds of cells trans-
-fected with indicated vectors and stained with anti-BrdU (red) and
-DAPI (blue).
-(E) Cos7 cells were transfected with FH-tagged versions of wild-type
-Merlin or indicated mutants. Flag or control
-immunoprecipitates
-(M2 and C, respectively) and total lysates were immunoblotted as
-indicated.
-See also Figure S5.
+t
 
-Merlin, which we had shown binds efﬁciently to in vitro
-translated DCAF1. As shown in Figures 6C and 6D,
-GST-FERM-A211D bound to DCAF1 in vitro almost as
-efﬁciently as wild-type GST-FERM or GST-FERM-
-G197C, suggesting that the A211D mutant does not
-interact in vivo with CRL4DCAF1 because it does not
-accumulate in the nucleus to sufﬁcient levels (Figures
-6A and 6B). All the other mutant FERM domains dis-
-played decreased ability to bind to recombinant
-DCAF1: L46R, L64P, and E270G did not bind at all under
-our experimental conditions, whereas F62S and L141P
-displayed defective binding (Figures 6C and 6D). Since
-F62S and E270G were able to accumulate in the nucleus
-to normal or near-normal levels (Figures 6A and 6B), we
-infer that they do not combine in vivo with CRL4DCAF1
-because they are unable to interact directly with
-DCAF1 with sufﬁcient afﬁnity. Notably, the E270G mutation
-simply removes a charge from a surface exposed loop on sub-
-domain C (Figure 5A), implicating this loop in interaction with
-DCAF1 and conﬁrming the high speciﬁcity of the interaction of
-Merlin with DCAF1. In contrast, both defective nuclear accumu-
-lation and deﬁcient binding to DCAF1 contribute to the inability
-of L46R, L64P, and L141P to interact with CRL4DCAF1 in vivo.
-Together, these experiments indicate that the six tumor-derived
-missense mutants that we have tested do not combine with
-CRL4DCAF1 in vivo, owing to defective accumulation in the
-nucleus, deﬁcient binding to DCAF1, or a combination of the
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Li et al.
+
+Page 8
+
+To examine whether antimitogenic signals, such as cell-to-cell adhesion and growth factor
+deprivation, regulate the accumulation of Merlin in the nucleus, we monitored the subcellular
+localization of the unphoshorylated and phosphorylated form of Merlin under various growth
+conditions. Mobility shift assay and immunoblotting with anti-P-Merlin (S518) indicated that
+the de-phosphorylated form of Merlin, which was prevalent in confluent cells especially if they
+were not exposed to mitogens, accumulated predominantly in the nucleus, whereas Merlin
+phosphorylated at S518 remained largely confined to the non-nuclear fraction under all
+conditions (Figure S5C and S5D). To confirm that the closed, growth inhibitory form of Merlin
+accumulates preferentially in the nucleus, we examined the subcellular distribution of Merlin-
+S518A, which cannot be phosphorylated by PAK, and Merlin-S518D, which mimics the
+phosphorylated form of the protein. Notably, Merlin-S518A accumulated in the nucleus to a
+significantly higher extent as compared to wild type Merlin (Figure S5E). In contrast, Merlin-
+S518D displayed defective nuclear accumulation, suggesting that PAK-mediated
+phosphorylation inhibits nuclear localization of Merlin. In agreement with this hypothesis, a
+dominant negative form of PAK enhanced nuclear accumulation of Merlin (Li and Giancotti,
+unpublished). Thus, intramolecular association of the FERM domain with the C-terminal tail
+promotes nuclear accumulation of Merlin, whereas phosphorylation of S518 inhibits this
+process.
+
+Tumor-derived Mutations Prevent Merlin’s Ability to Interact with or to Inhibit CRL4DCAF1
+
+Most NF2 missense mutations map to the FERM domain (Ahronowitz et al., 2007). To further
+study the relevance of Merlin’s interaction with CRL4DCAF1 for tumor suppression, we
+examined several of these mutations. L46R, F62S, L64P, L141P, A211D, and E270G have
+been found in two or more unrelated NF2 patients or are known to track with disease in
+individual families and are therefore bona fide pathogenic mutations. In contrast, G197C,
+which was identified in a single patient affected by mild bilateral Schwannoma, may represent
+a polymorphism or a passenger mutation (Ahronowitz et al., 2007). Structural considerations
+suggest that L46R, F62S, L64P, L141P, and A211D disrupt the hydrophobic core of subdomain
+A or B, whereas E270G simply removes a surface charge from subdomain C (Figure 5A–C).
+In contrast, G197C can be accommodated by a slight adjustment of the surface loop in which
+it resides, without overt effects on the overall structure of subdomain B, and does not introduce
+or delete a charge (Figure 5C).
+
+To evaluate their growth suppressive function, Merlin and mutants thereof were introduced
+into Meso-33 cells. As anticipated, wild type Merlin and Merlin-S518A suppressed progression
+through G1 and entry in S-phase in these cells, whereas Merlin-S518D inhibited proliferation
+to a much smaller degree (Figure 5D). Notably, all the bona fide pathogenic mutants were
+found to be devoid of growth inhibitory activity in Meso-33 cells. In contrast, Merlin G197C
+suppressed proliferation as effectively as wild type Merlin, suggesting that this is not a
+pathogenic mutation (Figure 5D). To examine the ability of tumor-derived mutants of Merlin
+to interact with CRL4DCAF1 in cells, Cos7 cells expressing FH-Merlin and mutants thereof
+were subjected to coimmunoprecipitation. Remarkably, all the bona fide tumor-derived mutant
+forms of Merlin did not interact with CRL4DCAF1 in vivo, whereas the control mutant G197C
+associated with the ligase as efficiently as wild type Merlin under the same conditions (Figure
+5E, see Fig. 1C for L64P), providing evidence that Merlin needs to combine with
+CRL4DCAF1 to suppress tumorigenesis.
+
+To obtain insight into the mechanism through which each of these pathogenic missense
+mutations impairs association of Merlin with CRL4DCAF1 in vivo, we first assessed their effect
+on nuclear accumulation of the protein. Biochemical fractionation indicated that L46R, L64P,
+L141P, and A211D accumulate in the nucleus to a much smaller degree than wild type Merlin
+or G197C (Figure 6A and 6B). Defective nuclear translocation and decreased level of
+
+Cell. Author manuscript; available in PMC 2011 February 19.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Li et al.
+
+Page 9
+
+expression, presumably arising from deficient protein stability, contributed to varying degrees
+to inhibit accumulation of each of these mutants into the nucleus. At the two opposite ends of
+the spectrum, L46R and L141 did not accumulate in the nucleus in spite of near wild type levels
+of expression, suggesting that these two mutations affect predominantly nuclear translocation,
+whereas A211D nuclear levels were low largely as a consequence of reduced expression
+(Figure 6A and B). In contrast, F62S and E270 translocated into the nucleus as efficiently as
+wild type Merlin, although the amounts of the latter in the nucleus appeared to be reduced.
+These results suggest that defective stability and nuclear translocation contribute to impair the
+interaction of certain tumor-derived mutant forms of Merlin with CRL4DCAF1.
+
+To examine the ability of tumor-derived missense mutants to interact with CRL4DCAF1 in vitro,
+we engineered each mutation into a fusion protein comprising the isolated FERM domain of
+Merlin, which we had shown binds efficiently to in vitro translated DCAF1. As shown in Figure
+6C and 6D, GST-FERM-A211D bound to DCAF1 in vitro almost as efficiently as wild type
+GST-FERM or GST-FERM-G197C, suggesting that the A211D mutant does not interact in
+vivo with CRL4DCAF1 because it does not accumulate in the nucleus to sufficient levels (Figure
+6A and B). All the other mutant FERM domains displayed decreased ability to bind to
+recombinant DCAF1: L46R, L64P, and E270G did not bind at all under our experimental
+conditions, whereas F62S and L141P displayed defective binding (Figure 6C and D). Since
+the F62S and E270G were able to accumulate in the nucleus to normal or near normal levels
+(Figure 6A and B), we infer that they do not combine in vivo with CRL4DCAF1 because they
+are unable to interact directly with DCAF1 with sufficient affinity. Notably, the E270G
+mutation simply removes a charge from a surface exposed loop on subdomain C (Figure 5A),
+implicating this loop in interaction with DCAF1 and confirming the high specificity of the
+interaction of Merlin with DCAF1. In contrast, both defective nuclear accumulation and
+deficient binding to DCAF1 contribute to the inability of L46R, L64P, and L141P to interact
+with CRL4DCAF1 in vivo. Together, these experiments indicate that the six tumor-derived
+missense mutants that we have tested do not combine with CRL4DCAF1 in vivo, owing to
+defective accumulation in the nucleus, deficient binding to DCAF1, or a combination of the
 two mechanisms.
 
-While mutations that introduce stop codons within the FERM
-domain are likely to give rise to misfolded and unstable protein
+While mutations that introduce stop codons within the FERM domain are likely to give rise to
+misfolded and unstable proteins products, certain nonsense mutations delete only the C-
+terminal domain – a structural perturbation that may affect the ability of Merlin to maintain a
+closed conformation. To examine if tumor-derived nonsense mutations affect the ability of
+Merlin to interact with or to suppress CRL4DCAF1, we examined two prevalent truncation
+mutants: Merlin 466X, which lacks the C-terminal portion of the α helical domain as well as
+the C-terminal domain, and Merlin 341X, which retains the FERM domain but lacks both the
+α helical and the C-terminal domain (Ahronowitz et al., 2007). Coimmunoprecipitation
+indicated that these two Merlin mutants retain the ability to interact with CRL4DCAF1 in vivo
+(Figure 6E). In fact, progressive deletion from the C-terminus resulted in increased, as opposed
+to decreased, binding of Merlin to the ligase. Since the isolated FERM domain of Merlin
+accumulates in the nucleus to a larger extent than the wild type protein, whereas the C-terminal
+portion of Merlin including the α helical and C-terminal domain remains in the cytoplasm
+(Figure S5B), it is possible that increased nuclear accumulation facilitates the interaction of
+tumor-derived truncations mutants with CRL4DCAF1. Interestingly, in spite of its increased
+ability to bind to CRL4DCAF1 in vivo, the FERM domain of Merlin did not suppress
+CRL4DCAF1 ligase activity in vivo as efficiently as wild type Merlin (Figure 6F), indicating
+that the α helical and C-terminal domain contribute to Merlin’s inhibitory activity. These results
+suggest that the tumor-derived truncation mutants of Merlin that retain the FERM domain are
+able to interact with CRL4DCAF1 but fail to suppress its activity. The observation that several
+distinct tumor-derived mutations impair Merlin’s ability to translocate into the nucleus, to bind
 
-Cell 140, 477–490, February 19, 2010 ª2010 Elsevier Inc. 485
+Cell. Author manuscript; available in PMC 2011 February 19.
 
-nucleus. At the two opposite ends of the spectrum, L46R and
-L141 did not accumulate in the nucleus in spite of near wild-
-type levels of expression, suggesting that these two mutations
-affect predominantly nuclear translocation, whereas A211D
-nuclear levels were low largely as a consequence of reduced
-expression (Figures 6A and 6B). In contrast, F62S and E270
-translocated into the nucleus as efﬁciently as wild-type Merlin,
-although the amounts of the latter in the nucleus appeared to
-be reduced. These results suggest that defective stability and
-nuclear translocation contribute to impair the interaction of
-certain tumor-derived mutant forms of Merlin with CRL4DCAF1.
-To examine the ability of tumor-derived missense mutants to
-interact with CRL4DCAF1 in vitro, we engineered each mutation
-into a fusion protein comprising the isolated FERM domain of
+I
 
-Figure 6. Pathogenic Mutations Disrupt the Ability of
-Merlin to Accumulate in the Nucleus, to Bind to DCAF1,
-or to Inhibit CRL4DCAF1
-(A) Meso-33 cells were transiently transfected with FH-tagged
-versions of wild-type Merlin or the indicated mutants and sub-
-jected to subcellular fractionation. Equal amounts of proteins
-from the nonnuclear (CM) and nuclear (NF) fractions were sub-
-jected to immunoblotting.
-(B) The amount of Merlin or indicated mutants present in nuclear
-and nonnuclear fractions was estimated by densitometry of the
-blot in (A). Top: ratio of Merlin or indicated mutants present in
-nuclear versus nonnuclear fractions. Bottom: amount of each
-Merlin mutant present in the nucleus as a percentage over the
-wild-type value.
-(C) In vitro-translated and TNT-labeled DCAF1 was incubated with
-0.5, 1, and 2 mg GST fusion proteins comprising the FERM domain
-of wild-type Merlin or indicated mutants. GST-bound DCAF1 was
-detected by blotting with HRP-streptavidin.
-(D) Densitometric analysis of (C). The graph shows the binding
-values in arbitrary units.
-(E) Cos7 cells were transfected with the indicated FH-tagged
-forms of Merlin and subjected to immunoprecipitation with control
-(C) or anti-Flag Mab (M2) followed by immunoblotting.
-(F) Cos7 cells were transfected with FH-DCAF1 and HA-Ubiquitin
-in combination with the indicated Myc-tagged constructs or
-empty vector and treated with MG132. Flag or control immunopre-
-cipitates were immunoblotted with anti-HA (left). Total
-lysates
-were immunoblotted with anti-Myc (right).
+-
 
-prevalent
-truncation mutants: Merlin 466X, which
-lacks the C-terminal portion of the a-helical domain
-as well as the C-terminal domain, and Merlin 341X,
-which retains the FERM domain but lacks both the a-
-helical and the C-terminal domains (Ahronowitz
-et al., 2007). Coimmunoprecipitation indicated that
-these two Merlin mutants retain the ability to interact
-with CRL4DCAF1 in vivo (Figure 6E). In fact, progressive
-deletion from the C terminus resulted in increased, as
-opposed to decreased, binding of Merlin to the ligase.
-Since the isolated FERM domain of Merlin accumu-
-lates in the nucleus to a larger extent than the wild-
-type protein, whereas the C-terminal portion of Merlin
-including the a-helical and C-terminal domain remains
-in the cytoplasm (Figure S5B),
-it is possible that
-increased nuclear accumulation facilitates the interac-
-tion of
-tumor-derived truncations mutants with
-CRL4DCAF1.
-its increased
-ability to bind to CRL4DCAF1 in vivo, the FERM domain
-of Merlin did not suppress CRL4DCAF1 ligase activity
-in vivo as efﬁciently as wild-type Merlin (Figure 6F),
-indicating that the a-helical and C-terminal domains
-contribute to Merlin’s inhibitory activity. These results
-suggest that the tumor-derived truncation mutants
-of Merlin that retain the FERM domain are able to
-interact with CRL4DCAF1 but fail to suppress its activity.
-The observation that several distinct tumor-derived mutations
-impair Merlin’s ability to translocate into the nucleus, to bind to
-DCAF1, or to inhibit CRL4DCAF1 activity provides strong genetic
-evidence that Merlin suppresses tumorigenesis by inhibiting
-CRL4DCAF1.
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
 
-Interestingly,
+ 
 
-in spite of
+t
 
-products, certain nonsense mutations delete only the C-terminal
-domain—a structural perturbation that may affect the ability of
-Merlin to maintain a closed conformation. To examine whether
-tumor-derived nonsense mutations affect the ability of Merlin
-to interact with or to suppress CRL4DCAF1, we examined two
+M
+a
+n
+u
+s
+c
+r
+i
+p
 
-486 Cell 140, 477–490, February 19, 2010 ª2010 Elsevier Inc.
+t
 
-Figure 7. Silencing of DCAF1 Suppresses
-the Tumorigenic Potential of Merlin-
-Deﬁcient Cells
-(A) Meso-33 cells were infected with lentiviral
-vectors encoding two distinct shRNAs targeting
-DCAF1 (sh-1 and sh-2) or a control shRNA
-(sh-Contr.) and subjected to immunoblotting.
-(B) FC-1801 cells treated as in (A). Cells infected
-with sh-1 were also infected with a retroviral vector
-encoding a shRNA-resistant version of DCAF1 or
-with empty vector. Immunoblotting was as indi-
-cated.
-(C) Meso-33 cells infected with the indicated lenti-
-viral vectors were subjected to soft agar assay.
-The graph illustrates the total number (±SEM) of
-colonies present in each well after 2 weeks of
-culture. Representative images are shown.
-(D and E) Two million FC-1801 cells infected with
-the indicated lentiviral vectors were injected
-subcutaneously in nude mice.
-(D) shows the
-increase in volume (±SEM) over time of tumors
-generated by cells infected with lentiviruses
-encoding a control shRNA (sh-Control) or two
-distinct shRNAs targeting DCAF1 (sh-1 and
-sh-2). (E) shows the increase in volume (±SEM) over time of tumors generated by cells infected with sh-1 and either a retroviral vector encoding a shRNA-resistant
-version of DCAF1 or empty vector. Data were obtained from the same experiment. Note the different scale of the y axes of the two graphs.
-(F) Primary Schwann cells from two normal individuals (NF2+/+) and Schwannoma cells from two NF2 patients (NF2 / ) were infected with lentiviruses encoding
-a shRNA targeting DCAF1 (sh-2) or a control shRNA (sh-Co.), deprived of growth factors, restimulated with mitogens in the presence of BrdU, and subjected to
-anti-BrdU staining. The graph shows the percentage (±SEM) of BrdU+ cells.
-See also Figure S6.
+I
 
-Inactivation of DCAF1 Suppresses the Tumorigenic
-Potential of Mesothelioma and Schwannoma Cells
-To test whether CRL4DCAF1 is required for NF2-dependent tumor-
-igenesis, we silenced DCAF1 in Meso-33 and FC-1801 cells
-(Figures 7A and 7B). Knockdown of DCAF1 inhibited the ability
-of both mesothelioma and Schwannoma cells to grow in soft
-agar (Figure 7C and Figure S6A).
-In contrast, depletion of
-DCAF1 did not affect the ability of Ras-V12 or v-Src transformed
-cells to express elevated levels of Cyclin D1 and p-Rb and to prolif-
-erate under adherent conditions or in soft agar (Figures S6B and
-S6C), suggesting that inactivation of CRL4DCAF1 speciﬁcally
-inhibits the malignant properties of Merlin-deﬁcient tumor cells.
+-
 
-Meso-33 cells as well as other Merlin-deﬁcient mesothelioma
-cell lines did not give rise to tumors upon subcutaneous or intra-
-pleural injection in mice. In contrast, the FC-1801 cells, which
-express robust levels of DCAF1, gave rise to sizeable tumors in
-less than 4 weeks upon subcutaneous injection in nude mice
-(Figure 7D). Silencing of DCAF1 with two distinct shRNAs in-
-hibited tumor growth in vivo by approximately 75% at day 24.
-This effect was highly speciﬁc, as moderate overexpression
-of a shRNA-resistant form of DCAF1 rescued the ability of
-FC-1801 cells expressing one of the two shRNAs targeting
-DCAF1 to give rise to subcutaneous tumors (Figure 7E). In fact,
-the tumors generated by these cells grew at a much faster
-pace as compared to those generated by parental FC-1801 cells
-(by approximately 2-fold, compare Figures 7D and 7E, data are
-from the same experiment), suggesting that elevated levels of
-DCAF1 can promote tumorigenesis.
+N
+H
+P
+A
+A
+u
 
-To explore the relevance of our ﬁndings to the pathogenesis of
-NF2, we examined whether DCAF1 affects the ability of primary
-human Schwannoma cells derived from NF2 patients to prolif-
+ 
 
-erate in vitro. Silencing of DCAF1 suppressed the ability of these
-cells to progress through G1 and enter into S phase in response
-to mitogens. In contrast, knockdown of DCAF1 did not signiﬁ-
-cantly affect the proliferation of control human Schwann cells
-(Figure 7F). Together, these results indicate that CRL4DCAF1 is
-necessary for NF2-dependent hyperproliferation, anchorage-
-independent growth, and tumorigenesis.
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Li et al.
+
+Page 10
+
+to DCAF1, or to inhibit CRL4DCAF1 activity provides strong genetic evidence that Merlin
+suppresses tumorigenesis by inhibiting CRL4DCAF1.
+
+Inactivation of DCAF1 Suppresses the Tumorigenic Potential of Mesothelioma and
+Schwannoma Cells
+
+To test if CRL4DCAF1 is required for NF2-dependent tumorigenesis, we silenced DCAF1 in
+Meso-33 and FC-1801 cells (Figure 7A and 7B). Knock down of DCAF1 inhibited the ability
+of both mesothelioma and Schwannoma cells to grow in soft agar (Figures 7C and S6A). In
+contrast, depletion of DCAF1 did not affect the ability of Ras-V12 or v-Src transformed cells
+to express elevated levels of Cyclin D1 and p-Rb and to proliferate under adherent conditions
+or in soft agar (Figure S6B and S6C), suggesting that inactivation of CRL4DCAF1 specifically
+inhibits the malignant properties of Merlin-deficient tumor cells.
+
+Meso-33 cells as well as other Merlin-deficient mesothelioma cell lines did not give rise to
+tumors upon subcutaneous or intrapleural injection in mice. In contrast, the FC-1801 cells,
+which express robust levels of DCAF1, gave rise to sizeable tumors in less than 4 weeks upon
+subcutaneous injection in nude mice (Figure 7D). Silencing of DCAF1 with two distinct
+shRNAs inhibited tumor growth in vivo by approximately 75% at day 24. This effect was
+highly specific, as moderate overexpression of an shRNA-resistant form of DCAF1 rescued
+the ability of FC-1801 cells expressing one of the two shRNAs targeting DCAF1 to give rise
+to subcutaneous tumors (Figure 7E). In fact, the tumors generated by these cells grew at a much
+faster pace as compared to those generated by parental FC-1801 cells (by approximately 2 fold,
+compare Figure 7D and 7E, data are from the same experiment), suggesting that elevated levels
+of DCAF1 can promote tumorigenesis.
+
+To explore the relevance of our findings to the pathogenesis of NF2, we examined if DCAF1
+affects the ability of primary human Schwannoma cells derived from NF2 patients to proliferate
+in vitro. Silencing of DCAF1 suppressed the ability of these cells to progress through G1 and
+enter into S phase in response to mitogens. In contrast, knock down of DCAF1 did not
+significantly affect the proliferation of control human Schwann cells (Figure 7F). Together,
+these results indicate that CRL4DCAF1 is necessary for NF2-dependent hyperproliferation,
+anchorage-independent growth, and tumorigenesis.
 
 DISCUSSION
 
-The mechanism by which Merlin suppresses tumorigenesis has
-remained elusive since the discovery of the NF2 gene. This study
-reveals that the closed, growth-inhibitory form of Merlin translo-
-cates to the nucleus, binds to the E3 ubiquitin ligase CRL4DCAF1,
-and suppresses its ability to ubiquitylate target proteins. Multiple
-converging lines of evidence indicate that Merlin’s inhibition of
-CRL4DCAF1 activity is required to induce growth arrest and
-suppress tumorigenesis. Notably, analysis of several tumor-
-derived mutants indicates that some display impaired nuclear
-translocation, others fail to interact with DCAF1, and still others
-bind to DCAF1 but do not suppress CRL4DCAF1 E3 ligase activity.
-Furthermore, silencing of DCAF1 reverses the consequences of
-Merlin inactivation in normal cells and suppresses the ability of
-Merlin-deﬁcient tumor cells to grow in soft agar and in nude
-mice. These ﬁndings indicate that entry into the nucleus and inhi-
-bition of CRL4DCAF1 are integral components of the mechanism
+The mechanism by which Merlin suppresses tumorigenesis has remained elusive since the
+discovery of the NF2 gene. This study reveals that the closed, growth inhibitory form of Merlin
+translocates to the nucleus, binds to the E3 ubiquitin ligase CRL4DCAF1, and suppresses its
+ability to ubiquitylate target proteins. Multiple converging lines of evidence indicate that
+Merlin’s inhibition of CRL4DCAF1 activity is required to induce growth arrest and suppress
+tumorigenesis. Notably, analysis of several tumor-derived mutants indicates that some display
+impaired nuclear translocation, others fail to interact with DCAF1, and still others bind to
+DCAF1 but do not suppress CRL4DCAF1 E3 ligase activity. Furthermore, silencing of DCAF1
+reverses the consequences of Merlin inactivation in normal cells and suppresses the ability of
+Merlin-deficient tumor cells to grow in soft agar and in nude mice. These findings indicate that
+entry into the nucleus and inhibition of CRL4DCAF1 are integral components of the mechanism
 by which Merlin suppresses tumorigenesis.
 
-The mechanisms through which antimitogenic signals induce
-Merlin to inhibit CRL4DCAF1 are likely to be complex. Our results
-suggest that these signals promote, largely through inhibition of
-the closed form of Merlin, which
-PAK, accumulation of
+The mechanisms through which anti-mitogenic signals induce Merlin to inhibit CRL4DCAF1
+are likely to be complex. Our results suggest that these signals promote, largely through
+inhibition of PAK, accumulation of the closed form of Merlin, which translocates into the
+nucleus. Merlin does not contain a classical importin-α nuclear localization sequence but has
+a C-terminal CRM1-dependent nuclear export signal (Kressel and Schmucker, 2002).
 
-Cell 140, 477–490, February 19, 2010 ª2010 Elsevier Inc. 487
+Cell. Author manuscript; available in PMC 2011 February 19.
 
-export
+I
 
-signal
+-
 
-nuclear
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
 
-(Kressel
+ 
 
-translocates into the nucleus. Merlin does not contain a classical
-importin-a nuclear localization sequence but has a C-terminal
-CRM1-dependent
-and
-Schmucker, 2002). Mutational analysis suggests that the FERM
-domain is necessary and sufﬁcient for nuclear entry, whereas
-the C-terminal coiled-coil domain inhibits this process unless it
-is folded back and interacts with the FERM domain. In addition
-or instead, unfolding of the C-terminal helical domain may expose
-the nuclear export signal and thereby facilitate Merlin’s exit from
-the nucleus. Interestingly, other FERM domain proteins, such as
-the isoforms H and R of band 4.1 and FAK, appear to shuttle in
-and out of the nucleus through similar conformational transitions
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Li et al.
+
+Page 11
+
+Mutational analysis suggests that the FERM domain is necessary and sufficient for nuclear
+entry, whereas the C-terminal coiled-coil domain inhibits this process unless it is folded back
+and interacts with the FERM domain. In addition or instead, unfolding of the C-terminal helical
+domain may expose the nuclear export signal and thereby facilitate Merlin’s exit from the
+nucleus. Interestingly, other FERM domain proteins, such as the isoforms H and R of band 4.1
+and FAK, appear to shuttle in and out of the nucleus through similar conformational transitions
 (Gascard et al., 1999; Lim et al., 2008; Luque et al., 1998).
 
-Upon entering the nucleus, the closed form of Merlin binds to
-the C-terminal segment of DCAF1. Our results indicate that
-Merlin is not a substrate of CRL4DCAF1 but exerts its antimito-
-genic function by blocking DCAF1-dependent recruitment or
-ubiquitylation of CRL4DCAF1 substrates. Since subdomain A of
-the FERM domain of Merlin consists of an ubiquitin-like fold
-(Shimizu et al., 2002), Merlin may function as an inhibitory pseu-
-dosubstrate for CRL4DCAF1. Reconstitution of CRL4DCAF1 ligase
-activity in vitro will be necessary to directly test this model. Irre-
-spective of the speciﬁc mechanism by which Merlin inhibits
-CRL4DCAF1, several
-lines of evidence support the conclusion
-that this inhibitory interaction restrains cell proliferation. First,
-inactivation of Merlin enables normal cells to exit from contact
-inhibition and to undergo cell cycle progression, while depletion
-of DCAF1 suppresses both effects. Second, enforced expres-
-sion of a Merlin-insensitive mutant of DCAF1 counteracts the
-antimitogenic effect of Merlin. Third, depletion of DCAF1 sup-
-presses hyperproliferation in Merlin-deﬁcient Schwannoma
-and mesothelioma cells but inhibits their normal counterpart to
-a lesser extent, consistent with the hypothesis that loss of Merlin
-activates oncogenic signaling through CRL4DCAF1. Finally,
-silencing of DCAF1 suppresses the ability of primary human
-Schwannoma cells from NF2 patients to proliferate in vitro, sug-
-gesting that deregulated CRL4DCAF1 activity contributes to the
-pathogenesis of NF2.
+Upon entering the nucleus, the closed form of Merlin binds to the C-terminal segment of
+DCAF1. Our results indicate that Merlin is not a substrate of CRL4DCAF1 but exerts its
+antimitogenic function by blocking DCAF1-dependent recruitment or ubiquitylation of
+CRL4DCAF1 substrates. Since subdomain A of the FERM domain of Merlin consists of an
+ubiquitin-like fold (Shimizu et al., 2002), Merlin may function as an inhibitory pseudosubstrate
+for CRL4DCAF1. Reconstitution of CRL4DCAF1 ligase activity in vitro will be necessary to
+directly test this model. Irrespective of the specific mechanism by which Merlin inhibits
+CRL4DCAF1, several lines of evidence support the conclusion that this inhibitory interaction
+restrains cell proliferation. First, inactivation of Merlin enables normal cells to exit from contact
+inhibition and to undergo cell cycle progression, while depletion of DCAF1 suppresses both
+effects. Second, enforced expression of a Merlin-insensitive mutant of DCAF1 counteracts the
+antimitogenic effect of Merlin. Third, depletion of DCAF1 suppresses hyperproliferation in
+Merlin-deficient Schwannoma and mesothelioma cells but inhibits their normal counterpart to
+a lesser extent, consistent with the hypothesis that loss of Merlin activates oncogenic signaling
+through CRL4DCAF1. Finally, silencing of DCAF1 suppresses the ability of primary human
+Schwannoma cells from NF2 patients to proliferate in vitro, suggesting that deregulated
+CRL4DCAF1 activity contributes to the pathogenesis of NF2.
 
-CRL4 ligases have been implicated in chromatin remodeling,
-DNA replication, and the response to DNA damage (Lee and
-Zhou, 2007; O’Connell and Harper, 2007). For example,
-CRL4DDB2 promotes the ubiquitylation of several histones and
-the DNA repair components DDB2 and XPC, restricting the
-threshold of DNA damage response and inhibiting UV-induced
-skin carcinogenesis, CRL4CSA mediates ubiquitylation of CSB,
-a SWI2/SNF2 ATP-dependent chromatin remodeling enzyme,
-and CRL4DET1-Cop1 promotes ubiquitylation and proteasome-
-mediated degradation of the transcription factor c-Jun (reviewed
-in Lee and Zhou, 2007 and O’Connell and Harper, 2007; Liu et al.,
-2009). Although the physiological substrates of CRL4DCAF1 have
-not been identiﬁed, our results suggest that CRL4DCAF1 broadly
-regulates gene expression. In fact, expression of Merlin and
-depletion of DCAF1 cause similar changes in the expression of
-several hundred genes, suggesting that Merlin controls a wide
-gene expression program through inhibition of CRL4DCAF1.
-Notably, this program includes the inhibition of genes involved
-in promoting progression through each phase of the cell cycle
-as well as the upregulation of genes involved in growth arrest
+CRL4 ligases have been implicated in chromatin remodeling, DNA replication, and the
+response to DNA damage (Lee and Zhou, 2007; O’Connell and Harper, 2007). For example,
+CRL4DDB2 promotes the ubiquitylation of several histones and the DNA repair components
+DDB2 and XPC, restricting the threshold of DNA damage response and inhibiting UV-induced
+skin carcinogenesis, CRL4CSA mediates ubiquitylation of CSB, a SWI2/SNF2 ATP-dependent
+chromatin remodeling enzyme, and CRL4DET1-Cop1 promotes ubiquitylation and proteasome–
+mediated degradation of the transcription factor c-Jun (reviewed in Lee and Zhou, 2007 and
+in O’Connell and Harper, 2007; Liu et al., 2009). Although the physiological substrates of
+CRL4DCAF1 have not been identified, our results suggest that CRL4DCAF1 broadly regulates
+gene expression. In fact, expression of Merlin and depletion of DCAF1 cause similar changes
+in the expression of several hundred genes, suggesting that Merlin controls a wide gene
+expression program through inhibition of CRL4DCAF1. Notably, this program includes the
+inhibition of genes involved in promoting progression through each phase of the cell cycle as
+well as the upregulation of genes involved in growth arrest and apoptosis. Parenthetically, we
+speculate that knock down of DCAF1 may cause an accumulation of Merlin-deficient cells in
+G1 because loss of Merlin specifically deregulates this phase of the cell cycle. In addition, we
+have observed that Merlin controls, through CRL4DCAF1, the expression of genes involved in
+receptor tyrosine kinase and adhesion signaling, intracellular trafficking, and a subset of Hippo
+pathway target genes. The ability of CRL4DCAF1 to regulate these genes may explain some of
+the effects that Merlin has been reported to exert on receptor tyrosine kinase and adhesion
+signaling (Ammoun et al., 2008; Curto et al., 2007; Kissil, 2003; Lallemand et al., 2009; Okada
+et al., 2005; Poulikakos et al., 2006; Shaw et al., 2001). The observation that re-expression of
+Merlin and depletion of DCAF1 induce a gene expression program of similar breadth,
+specificity, and scope reinforces the model that Merlin suppresses tumorigenesis through
+inhibition of CRL4DCAF1.
 
-488 Cell 140, 477–490, February 19, 2010 ª2010 Elsevier Inc.
+Cell. Author manuscript; available in PMC 2011 February 19.
 
-and apoptosis. Parenthetically, we speculate that knockdown
-of DCAF1 may cause an accumulation of Merlin-deﬁcient cells
-in G1 because loss of Merlin speciﬁcally deregulates this phase
-of the cell cycle. In addition, we have observed that Merlin
-controls, through CRL4DCAF1, the expression of genes involved
-in receptor tyrosine kinase and adhesion signaling, intracellular
-trafﬁcking, and a subset of Hippo pathway target genes. The
-ability of CRL4DCAF1 to regulate these genes may explain some
-of the effects that Merlin has been reported to exert on receptor
-tyrosine kinase and adhesion signaling (Ammoun et al., 2008;
-Curto et al., 2007; Kissil et al., 2003; Lallemand et al., 2009;
-Okada et al., 2005; Poulikakos et al., 2006; Shaw et al., 2001).
-The observation that re-expression of Merlin and depletion of
-DCAF1 induce a gene expression program of similar breadth,
-speciﬁcity, and scope reinforces the model
-that Merlin
-suppresses tumorigenesis through inhibition of CRL4DCAF1.
+I
 
-The analysis of
+-
 
-tumor-derived mutations,
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
 
-in particular
-missense mutations, has provided considerable insight into the
-function of important tumor suppressors, such as P53, RB,
-PTEN, and APC. We have studied six pathogenic missense
-mutations mapping to the FERM domain of Merlin and found
-that each of them impairs the ability of Merlin to accumulate in
-the nucleus and/or bind to DCAF1. Both types of defects disrupt
-the association of Merlin with CRL4DCAF1. In contrast, severe
-truncation mutants, such as 341X, display increased accumula-
-tion in the nucleus and interaction with CRL4DCAF1 in vivo but fail
-to suppress ligase activity. Among the missense mutations,
-L64R, F62S, and L64P, located in subdomain A, disrupt binding
-to DCAF1 in vitro, whereas L141P and A211D, mapping to sub-
-domain B, do not. Furthermore, E270G, which removes a single
-charge from the surface of subdomain C, drastically reduces
-binding to DCAF1 in vitro. These results implicate subdomains
-A and C in interaction with DCAF1 and suggest that mutations
-in other portions of the protein, such as subdomain B and the
-helical segment, may affect nuclear localization determinants
-or disrupt the closed conformation that is required for nuclear
-accumulation. The observation that many pathogenic NF2 muta-
-tions disrupt, and several others are predicted to disrupt, the
-ability of Merlin to interact with or to suppress CRL4DCAF1
-provides strong genetic evidence that Merlin suppresses tumor-
-igenesis by inhibiting this E3 ligase.
+ 
 
-In conclusion, our results indicate that NF2-dependent tumor-
-igenesis arises from the inability of mutant Merlin to enter into the
-nucleus and to suppress CRL4DCAF1-dependent gene expres-
-sion. This delineated tumor-suppressor pathway bears antithetic
-resemblance to the Wnt/b-catenin pathway, where an intercel-
-lular signal hijacks the cytoskeletal component b-catenin to
-promote oncogenic gene expression in the nucleus (Clevers,
-2006). Identiﬁcation of the substrate(s) of CRL4DCAF1 and eluci-
-dation of the mechanism through which this ligase exerts its
-pro-proliferative and anti-apoptotic role should help to generate
-targeted therapies for NF2 mutant tumors.
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Li et al.
+
+Page 12
+
+The analysis of tumor-derived mutations, in particular missense mutations, has provided
+considerable insight into the function of important tumor suppressors, such as P53, RB,
+PTEN, and APC. We have studied 6 pathogenic missense mutations mapping to the FERM
+domain of Merlin and found that each of them impairs the ability of Merlin to accumulate in
+the nucleus and/or bind to DCAF1. Both types of defects disrupt the association of Merlin with
+CRL4DCAF1. In contrast, severe truncation mutants, such as 341X, display increased
+accumulation in the nucleus and interaction with CRL4DCAF1 in vivo but fail to suppress ligase
+activity. Amongst the missense mutations, L64R, F62S, and L64P, located in subdomain A,
+disrupt binding to DCAF1 in vitro, whereas L141P and A211D, mapping to subdomain B, do
+not. Furthermore, E270G, which removes a single charge from the surface of subdomain C,
+drastically reduces binding to DCAF1 in vitro. These results implicate subdomain A and C in
+interaction with DCAF1 and suggest that mutations in other portions of the protein, such as
+subdomain B and the helical segment, may affect nuclear localization determinants or disrupt
+the closed conformation that is required for nuclear accumulation. The observation that many
+pathogenic NF2 mutations disrupt, and several others are predicted to disrupt, the ability of
+Merlin to interact with or to suppress CRL4DCAF1 provides strong genetic evidence that Merlin
+suppresses tumorigenesis by inhibiting this E3 ligase.
+
+In conclusion, our results indicate that NF2-dependent tumorigenesis arises from the inability
+of mutant Merlin to enter into the nucleus and to suppress CRL4DCAF1-dependent gene
+expression. This newly delineated tumor suppressor pathway bears antithetic resemblance to
+the Wnt/β-catenin pathway, where an intercellular signal hijacks the cytoskeletal component
+β-catenin to promote oncogenic gene expression in the nucleus (Clevers, 2006). Identification
+of the substrate(s) of CRL4DCAF1 and elucidation of the mechanism through which this ligase
+exerts its pro-proliferative and anti-apoptotic role should help to generate targeted therapies
+for NF2 mutant tumors.
 
 EXPERIMENTAL PROCEDURES
-
 Materials and Standard Protocols
-Cells, antibodies, vectors, and other materials are described in the Extended
-Experimental Procedures. The protocols used for immunoprecipitation, GST
 
-pull down, subcellular fractionation, and immunoblotting are outlined in the
-Extended Experimental Procedures.
-
-SUPPLEMENTAL INFORMATION
+Cell lines, antibodies, vectors, and other materials are described in Supplemental Data. The
+protocols used for immunoprecipitation, GST pull down, subcellular fractionation, and
+immunoblotting are outlined in Supplemental Data.
 
 TAP and Mass Spectrometry
-Cos7 cells transiently expressing FH-tagged Merlin or Merlin-L64P were lysed
-in RIPA buffer and subjected to TAP using the FLAG HA Tandem Afﬁnity
-Puriﬁcation Kit (Sigma TP0010). Proteins were separated by SDS-PAGE,
-visualized with Gelcode (Pierce), and subjected to MALDI-reTOF-MS/MS.
-Alternatively, gel stacks were subjected to nanoLC-MS/MS. See details in
-the Extended Experimental Procedures.
 
-Immunoﬂuorescent Staining
-Cells were ﬁxed with 4% paraformaldehyde in PBS for 20 min and incubated in
-permeabilization buffer (PDT: 0.3% sodium deoxycholate and 0.3% Triton
-X-100 in PBS) for 30 min on ice. Fixation and permeabilization with organic
-solvents, such as methanol or acetone, or ﬁxation with paraformaldehyde
-followed by permeabilization with 0.5% Triton X-100 alone for 20 min did not
-allow efﬁcient detection of Merlin in the nucleus. After ﬁxation and permeabi-
-lization, cells were incubated overnight at 4C with primary antibodies diluted
-in PDT. After washing with PDT, cells were incubated with secondary anti-
-bodies diluted in PDT for 2 hr at 4C. Cells were washed with PDT, rinsed
-with PBS, and mounted in Gelvatol. When indicated, nuclei were stained
-with DAPI.
+Cos7 cells transiently expressing FH-tagged Merlin or Merlin-L64P were lysed in RIPA buffer
+and subjected to TAP using the FLAG HA Tandem Affinity Purification Kit (Sigma TP0010).
+Proteins were separated by SDS-PAGE, visualized with Gelcode (Pierce), and subjected to
+MALDI-reTOF-MS/MS. Alternatively, gel stacks were subjected to nanoLC-MS/MS. See
+details in Supplemental Data.
+
+Immunofluorescent Staining
+
+Cells were fixed with 4% paraformaldehyde in PBS for 20 min and incubated in
+permeabilization buffer (PDT: 0.3% sodium deoxycholate, 0.3% Triton X-100 in PBS) for 30
+min on ice. Fixation and permeabilization with organic solvents, such as methanol or acetone,
+or fixation with paraformaldehyde followed by permeabilization with 0.5% Triton X-100 alone
+for 20 minutes did not allow efficient detection of Merlin in the nucleus. After fixation and
+permeabilization, cells were incubated overnight at 4°C with primary antibodies diluted in
+PDT. After washing with PDT, cells were incubated with secondary antibodies diluted in PDT
+for 2 hours at 4°C. Cells were washed with PDT, rinsed with PBS, and mounted in Gelvatol.
+When indicated, nuclei were stained with DAPI.
+
+Cell. Author manuscript; available in PMC 2011 February 19.
+
+Li et al.
 
 Ubiquitylation Assay
-Cos7 cells were transfected with indicated plasmids and, when indicated,
-treated with 25 mM MG132 for 6 hr. Lysates were incubated with either anti-
-Flag beads or control mouse IgG beads. Eluted products were subjected to
-immunoblotting. Detailed procedures are described in the Extended Experi-
-mental Procedures.
+
+Page 13
+
+Cos7 cells were transfected with indicated plasmids and, when indicated, treated with 25 μM
+MG132 for 6 hours. Lysates were incubated with either anti-Flag beads or control mouse IgG
+beads. Eluted products were subjected to immunoblotting. Detailed procedures are described
+in Supplemental Data.
 
 BrdU Incorporation Assay
-Cells were synchronized in G0 by growth factor deprivation or growth to high
-density and then stimulated with mitogens for 24 hr in the presence of BrdU.
-Anti-BrdU staining was used to measure progression through G1 and entry
-in S phase. See details in the Extended Experimental Procedures.
+
+Cells were synchronized in G0 by growth factor deprivation or growth to high density and then
+stimulated with mitogens for 24 hours in the presence of BrdU. Anti-BrdU staining was used
+to measure progression through G1 and entry in S phase. See details in Supplemental Data.
 
 Gene Expression and Silencing
-Retroviral and lentiviral vectors encoding recombinant proteins or shRNAs
-were generated as previously described (Pylayeva et al., 2007). Sequences
-for shRNAs and detailed procedures are described in the Extended Experi-
-mental Procedures.
+
+Retroviral and lentiviral vectors encoding recombinant proteins or shRNAs were generated as
+previously described (Pylayeva et al., 2007). Sequences for shRNAs and detailed procedures
+are described in Supplemental Data.
 
 DNA Microarray Analysis
-FC-1801 cells were left untreated or transduced with lentiviruses encoding
-sh-control, sh-DCAF1, Merlin-WT, Merlin-L64P, or a combination of viruses
-encoding sh-DCAF1 and Merlin-WT and were plated in triplicate at subconﬂu-
-ent density in complete medium. Complementary DNAs (cDNAs) were hybrid-
-ized to GeneChip Mouse Genome 430a 2.0 Array chips (Affymetrix). Raw data
-are available in Gene Expression Omnibus (accession number GSE19305).
-Data analysis is described in the Extended Experimental Procedures.
+
+FC-1801 cells were left untreated or transduced with lentiviruses encoding sh-control, sh-
+DCAF1, Merlin-WT, Merlin-L64P, or a combination of viruses encoding sh-DCAF1 and
+Merlin-WT and were plated in triplicate at subconfluent density in complete medium. cDNAs
+were hybridized to GeneChip Mouse Genome 430a 2.0 Array chips (Affymetrix). Raw data
+are available in Gene Expression Omnibus (accession no. GSE19305). Data analysis is
+described in Supplemental Data.
 
 Soft Agar and Tumorigenicity Assay
-For soft agar assay, cells were trypsinized, resuspended in complete medium,
-and plated in 0.34% low melting temperature agarose (FMC Bioproducts) in
-complete medium. Meso-33 cells were seeded at 2 3 104 and FC-1801 at
-6 3 104 per well in 6-well Ultra Low Cluster Plates (Costar). For tumorigenicity
-assay, 2 3 106 FC-1801 cells were suspended in calcium/magnesium-free
-PBS and injected subcutaneously into the right ﬂank of nude mice. Tumor
+
+For soft agar assay, cells were trypsinized, resuspended in complete medium, and plated in
+0.34% low melting temperature agarose (FMC Bioproducts) in complete medium. Meso-33
+cells were seeded at 2 × 104 and FC-1801 at 6 × 104 per well in 6-well Ultra Low Cluster Plates
+(Costar). For tumorigenicity assay, 2 × 106 FC-1801 cells were suspended in calcium/
+magnesium-free PBS and injected subcutaneously into the right flank of nude mice. Tumor
 volumes were determined by caliper measurement.
 
-ACCESSION NUMBERS
+Supplementary Material
 
-The DNA microarray dataset reported in this paper has been deposited in the
-Gene Expression Omnibus of NCBI with the accession number GSE19305.
+Refer to Web version on PubMed Central for supplementary material.
 
-Supplemental Information includes Extended Experimental Procedures, six
-ﬁgures, and one table and can be found with this article online at doi:10.
-1016/j.cell.2010.01.029.
+Acknowledgments
 
-ACKNOWLEDGMENTS
+We thank J. Brugge, S. Jhanwar and D. Lim for cell lines, M. Pagano for constructs, L. Fabrizio and M. Yaneva for
+help with mass spectrometry, and members of the Giancotti laboratory for discussions. This work was supported by
+the Baker Street Foundation and NIH Cancer Center Support Grant P30 CA08748. W.L. is recipient of a Young
+Investigator Award from the Children’s Tumor Foundation. P.Z. was supported by NIH grant R01 CA098210.
 
-We thank J. Brugge, S. Jhanwar, and D. Lim for cell lines, M. Pagano for
-constructs, L. Fabrizio and M. Yaneva for help with mass spectrometry, and
-members of the Giancotti laboratory for discussions. This work was supported
-by the Baker Street Foundation and National Institutes of Health (NIH) Cancer
-Center Support Grant P30 CA08748. W.L. is recipient of a Young Investigator
-Award from the Children’s Tumor Foundation. P.Z. was supported by NIH
-grant R01 CA098210.
+References
 
-Received: January 22, 2009
-Revised: August 7, 2009
-Accepted: January 16, 2010
-Published: February 18, 2010
+I
 
-REFERENCES
+-
 
-Ahronowitz, I., Xin, W., Kiely, R., Sims, K., MacCollin, M., and Nunes, F.P.
-(2007). Mutational spectrum of the NF2 gene: a meta-analysis of 12 years of
-research and diagnostic laboratory ﬁndings. Hum. Mutat. 28, 1–12.
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
 
-Ammoun, S., Flaiz, C., Ristic, N., Schuldt, J., and Hanemann, C.O. (2008).
-Dissecting and targeting the growth factor-dependent and growth
-factor-independent extracellular signal-regulated kinase pathway in human
-schwannoma. Cancer Res. 68, 5236–5245.
+ 
 
-Bretscher, A., Edwards, K., and Fehon, R.G. (2002). ERM proteins and merlin:
-integrators at the cell cortex. Nat. Rev. Mol. Cell Biol. 3, 586–599.
+t
 
-Cho, E., Feng, Y., Rauskolb, C., Maitra, S., Fehon, R., and Irvine, K.D. (2006).
-Delineation of a Fat tumor suppressor pathway. Nat. Genet. 38, 1142–1150.
+M
+a
+n
+u
+s
+c
+r
+i
+p
 
-Clevers, H. (2006). Wnt/beta-catenin signaling in development and disease.
-Cell 127, 469–480.
+t
 
-Curto, M., Cole, B.K., Lallemand, D., Liu, C.H., and McClatchey, A.I. (2007).
-Contact-dependent inhibition of EGFR signaling by Nf2/Merlin. J. Cell Biol.
-177, 893–903.
+I
 
-Gascard, P., Nunomura, W., Lee, G., Walensky, L.D., Krauss, S.W., Takakuwa,
-Y., Chasis, J.A., Mohandas, N., and Conboy, J.G. (1999). Deciphering the
-nuclear import pathway for the cytoskeletal red cell protein 4.1R. Mol. Biol.
-Cell 10, 1783–1798.
+-
 
-Gutmann, D.H., Hirbe, A.C., and Haipek, C.A. (2001). Functional analysis of
-neuroﬁbromatosis 2 (NF2) missense mutations. Hum. Mol. Genet. 10, 1519–
-1529.
+N
+H
+P
+A
+A
+u
 
-Hamaratoglu, F., Willecke, M., Kango-Singh, M., Nolo, R., Hyun, E., Tao, C.,
-Jafar-Nejad, H., and Halder, G. (2006). The tumour-suppressor genes NF2/
-Merlin and Expanded act through Hippo signalling to regulate cell proliferation
-and apoptosis. Nat. Cell Biol. 8, 27–36.
+ 
 
-Hrecka, K., Gierszewska, M., Srivastava, S., Kozaczkiewicz, L., Swanson,
-S.K., Florens, L., Washburn, M.P., and Skowronski, J. (2007). Lentiviral Vpr
-usurps Cul4-DDB1[VprBP] E3 ubiquitin ligase to modulate cell cycle. Proc.
-Natl. Acad. Sci. USA 104, 11778–11783.
+t
 
-Huang, J., and Chen, J. (2008). VprBP targets Merlin to the Roc1-Cul4A-DDB1
-E3 ligase complex for degradation. Oncogene 27, 4056–4064.
+h
+o
+r
+ 
 
-James, M.F., Han, S., Polizzano, C., Plotkin, S.R., Manning, B.D., Stemmer-
-Rachamimov, A.O., Gusella, J.F., and Ramesh, V. (2009). NF2/merlin is a
-novel negative regulator of mTOR complex 1, and activation of mTORC1 is
-associated with meningioma and schwannoma growth. Mol. Cell. Biol. 29,
-4250–4261.
+M
+a
+n
+u
+s
+c
+r
+i
+p
 
-Jin, H., Sperka, T., Herrlich, P., and Morrison, H.
-(2006a). Tumorigenic
-transformation by CPI-17 through inhibition of a merlin phosphatase. Nature
-442, 576–579.
+t
 
-Cell 140, 477–490, February 19, 2010 ª2010 Elsevier Inc. 489
+I
 
-Jin, J., Arias, E.E., Chen, J., Harper, J.W., and Walter, J.C. (2006b). A family of
-diverse Cul4-Ddb1-interacting proteins includes Cdt2, which is required for S
-phase destruction of the replication factor Cdt1. Mol. Cell 23, 709–721.
+-
 
-Kaempchen, K., Mielke, K., Utermark, T., Langmesser, S., and Hanemann,
-C.O. (2003). Upregulation of the Rac1/JNK signaling pathway in primary
-human schwannoma cells. Hum. Mol. Genet. 12, 1211–1221.
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
 
-Kissil, J.L., Johnson, K.C., Eckman, M.S., and Jacks, T. (2002). Merlin phos-
-phorylation by p21-activated kinase 2 and effects of phosphorylation on merlin
-localization. J. Biol. Chem. 277, 10394–10399.
+ 
 
-Kissil, J.L., Wilker, E.W., Johnson, K.C., Eckman, M.S., Yaffe, M.B., and Jacks,
-T. (2003). Merlin, the product of the Nf2 tumor suppressor gene, is an inhibitor
-of the p21-activated kinase, Pak1. Mol. Cell 12, 841–849.
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
 
-Kressel, M., and Schmucker, B. (2002). Nucleocytoplasmic transfer of the NF2
-tumor suppressor protein merlin is regulated by exon 2 and a CRM1-depen-
-dent nuclear export signal in exon 15. Hum. Mol. Genet. 11, 2269–2278.
+Ahronowitz I, Xin W, Kiely R, Sims K, MacCollin M, Nunes FP. Mutational spectrum of the NF2 gene:
+a meta-analysis of 12 years of research and diagnostic laboratory findings. Hum Mutat 2007;28:1–12.
+[PubMed: 16983642]
 
-Lallemand, D., Curto, M., Saotome, I., Giovannini, M., and McClatchey, A.I.
-(2003). NF2 deﬁciency promotes tumorigenesis and metastasis by destabiliz-
-ing adherens junctions. Genes Dev. 17, 1090–1100.
+Ammoun S, Flaiz C, Ristic N, Schuldt J, Hanemann CO. Dissecting and targeting the growth factor-
+dependent and growth factor-independent extracellular signal-regulated kinase pathway in human
+schwannoma. Cancer Res 2008;68:5236–5245. [PubMed: 18593924]
 
-Lallemand, D., Manent, J., Couvelard, A., Watilliaux, A., Siena, M., Chareyre,
-F., Lampin, A., Niwa-Kawakita, M., Kalamarides, M., and Giovannini, M.
-(2009). Merlin regulates transmembrane receptor accumulation and signaling
-at the plasma membrane in primary mouse Schwann cells and in human
-schwannomas. Oncogene 28, 854–865.
+Cell. Author manuscript; available in PMC 2011 February 19.
 
-Lee, J., and Zhou, P. (2007). DCAFs, the missing link of the CUL4-DDB1
-ubiquitin ligase. Mol. Cell 26, 775–780.
+I
 
-Lim, S.T., Chen, X.L., Lim, Y., Hanson, D.A., Vo, T.T., Howerton, K., Larocque,
-N., Fisher, S.J., Schlaepfer, D.D., and Ilic, D. (2008). Nuclear FAK promotes cell
-proliferation and survival through FERM-enhanced p53 degradation. Mol. Cell
-29, 9–22.
+-
 
-Liu, L., Lee, S., Zhang, J., Peters, S.B., Hannah, J., Zhang, Y., Yin, Y., Koff, A.,
-Ma, L., and Zhou, P. (2009). CUL4A abrogation augments DNA damage
-response and protection against skin carcinogenesis. Mol. Cell 34, 451–460.
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
 
-Lo´ pez-Lago, M.A., Okada, T., Murillo, M.M., Socci, N., and Giancotti, F.G.
-(2009). Loss of the tumor suppressor gene NF2, encoding merlin, constitutively
-activates integrin-dependent mTORC1 signaling. Mol. Cell. Biol. 29, 4235–
-4249.
+ 
 
-Luque, C.M., Lallena, M.J., Alonso, M.A., and Correas, I. (1998). An alternative
-domain determines nuclear localization in multifunctional protein 4.1. J. Biol.
-Chem. 273, 11643–11649.
+t
 
-Maddika, S., and Chen, J. (2009). Protein kinase DYRK2 is a scaffold that
-facilitates assembly of an E3 ligase. Nat. Cell Biol. 11, 409–419.
+M
+a
+n
+u
+s
+c
+r
+i
+p
 
-McCall, C.M., Miliani de Marval, P.L., Chastain, P.D., 2nd, Jackson, S.C., He,
-Y.J., Kotake, Y., Cook, J.G., and Xiong, Y. (2008). Human immunodeﬁciency
-virus type 1 Vpr-binding protein VprBP, a WD40 protein associated with the
+t
 
-DDB1-CUL4 E3 ubiquitin ligase, is essential for DNA replication and embryonic
-development. Mol. Cell. Biol. 28, 5621–5633.
+I
 
-McClatchey, A.I., and Fehon, R.G. (2009). Merlin and the ERM proteins—
-regulators of receptor distribution and signaling at the cell cortex. Trends
-Cell Biol. 19, 198–206.
+-
 
-McClatchey, A.I., and Giovannini, M. (2005). Membrane organization and
-tumorigenesis—the NF2 tumor suppressor, Merlin. Genes Dev. 19, 2265–
-2277.
+N
+H
+P
+A
+A
+u
 
-Muranen, T., Gro¨ nholm, M., Renkema, G.H., and Carpe´ n, O. (2005). Cell cycle-
-dependent nucleocytoplasmic shuttling of the neuroﬁbromatosis 2 tumour
-suppressor merlin. Oncogene 24, 1150–1158.
+ 
 
-O’Connell, B.C., and Harper, J.W. (2007). Ubiquitin proteasome system (UPS):
-what can chromatin do for you? Curr. Opin. Cell Biol. 19, 206–214.
+t
 
-Okada, T., Lopez-Lago, M., and Giancotti, F.G. (2005). Merlin/NF-2 mediates
-contact inhibition of growth by suppressing recruitment of Rac to the plasma
-membrane. J. Cell Biol. 171, 361–371.
+h
+o
+r
+ 
 
-Okada, T., You, L., and Giancotti, F.G. (2007). Shedding light on Merlin’s
-wizardry. Trends Cell Biol. 17, 222–229.
+M
+a
+n
+u
+s
+c
+r
+i
+p
 
-Poulikakos, P.I., Xiao, G.H., Gallagher, R., Jablonski, S., Jhanwar, S.C., and
-Testa, J.R. (2006). Re-expression of the tumor suppressor NF2/merlin inhibits
-invasiveness in mesothelioma cells and negatively regulates FAK. Oncogene
-25, 5960–5968.
+t
 
-Pylayeva, Y., Guo, W., and Giancotti, F.G. (2007). Analysis of integrin signaling
-in genetically engineered mouse models of mammary tumor progression.
-Methods Enzymol. 426, 439–461.
+I
 
-Rong, R., Tang, X., Gutmann, D.H., and Ye, K. (2004). Neuroﬁbromatosis
-2 (NF2) tumor suppressor merlin inhibits phosphatidylinositol 3-kinase through
-binding to PIKE-L. Proc. Natl. Acad. Sci. USA 101, 18200–18205.
+-
 
-Schrecengost, R.S., Riggins, R.B., Thomas, K.S., Guerrero, M.S., and Bouton,
-A.H. (2007). Breast cancer antiestrogen resistance-3 expression regulates
-breast cancer cell migration through promotion of p130Cas membrane local-
-ization and membrane rufﬂing. Cancer Res. 67, 6174–6182.
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
 
-Shaw, R.J., Paez, J.G., Curto, M., Yaktine, A., Pruitt, W.M., Saotome, I.,
-O’Bryan, J.P., Gupta, V., Ratner, N., Der, C.J., et al. (2001). The Nf2 tumor
-suppressor, merlin, functions in Rac-dependent signaling. Dev. Cell 1, 63–72.
+ 
 
-Shimizu, T., Seto, A., Maita, N., Hamada, K., Tsukita, S., Tsukita, S., and
-Hakoshima, T. (2002). Structural basis for neuroﬁbromatosis type 2. Crystal
-structure of the merlin FERM domain. J. Biol. Chem. 277, 10332–10336.
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
 
-Tang, X., Jang, S.W., Wang, X., Liu, Z., Bahr, S.M., Sun, S.Y., Brat, D.,
-Gutmann, D.H., and Ye, K.
-(2007). Akt phosphorylation regulates the
-tumour-suppressor merlin through ubiquitination and degradation. Nat. Cell
-Biol. 9, 1199–1207.
+Li et al.
 
-Xiao, G.H., Beeser, A., Chernoff, J., and Testa, J.R. (2002). p21-activated
-kinase links Rac/Cdc42 signaling to merlin. J. Biol. Chem. 277, 883–886.
+Page 14
 
-490 Cell 140, 477–490, February 19, 2010 ª2010 Elsevier Inc.
+Bretscher A, Edwards K, Fehon RG. ERM proteins and merlin: integrators at the cell cortex. Nat Rev
+
+Mol Cell Biol 2002;3:586–599. [PubMed: 12154370]
+
+Cho E, Feng Y, Rauskolb C, Maitra S, Fehon R, Irvine KD. Delineation of a Fat tumor suppressor
+
+pathway. Nat Genet 2006;38:1142–1150. [PubMed: 16980976]
+
+Clevers H. Wnt/beta-catenin signaling in development and disease. Cell 2006;127:469–480. [PubMed:
+
+17081971]
+
+Curto M, Cole BK, Lallemand D, Liu CH, McClatchey AI. Contact-dependent inhibition of EGFR
+
+signaling by Nf2/Merlin. J Cell Biol 2007;177:893–903. [PubMed: 17548515]
+
+Gascard P, Nunomura W, Lee G, Walensky LD, Krauss SW, Takakuwa Y, Chasis JA, Mohandas N,
+
+Conboy JG. Deciphering the nuclear import pathway for the cytoskeletal red cell protein 4.1R. Mol
+Biol Cell 1999;10:1783–1798. [PubMed: 10359596]
+
+Gutmann DH, Hirbe AC, Haipek CA. Functional analysis of neurofibromatosis 2 (NF2) missense
+
+mutations. Hum Mol Genet 2001;10:1519–1529. [PubMed: 11448944]
+
+Hamaratoglu F, Willecke M, Kango-Singh M, Nolo R, Hyun E, Tao C, Jafar-Nejad H, Halder G. The
+tumour-suppressor genes NF2/Merlin and Expanded act through Hippo signalling to regulate cell
+proliferation and apoptosis. Nat Cell Biol 2006;8:27–36. [PubMed: 16341207]
+
+Hrecka K, Gierszewska M, Srivastava S, Kozaczkiewicz L, Swanson SK, Florens L, Washburn MP,
+
+Skowronski J. Lentiviral Vpr usurps Cul4-DDB1[VprBP] E3 ubiquitin ligase to modulate cell cycle.
+Proc Natl Acad Sci USA 2007;104:11778–11783. [PubMed: 17609381]
+
+Huang J, Chen J. VprBP targets Merlin to the Roc1-Cul4A-DDB1 E3 ligase complex for degradation.
+
+Oncogene 2008;27:4056–4064. [PubMed: 18332868]
+
+James MF, Han S, Polizzano C, Plotkin SR, Manning BD, Stemmer-Rachamimov AO, Gusella JF,
+
+Ramesh V. NF2/merlin is a novel negative regulator of mTOR complex 1, and activation of mTORC1
+is associated with meningioma and schwannoma growth. Mol Cell Biol 2009;29:4250–4261.
+[PubMed: 19451225]
+
+Jin H, Sperka T, Herrlich P, Morrison H. Tumorigenic transformation by CPI-17 through inhibition of a
+
+merlin phosphatase. Nature 2006a;442:576–579. [PubMed: 16885985]
+
+Jin J, Arias EE, Chen J, Harper JW, Walter JC. A family of diverse Cul4-Ddb1-interacting proteins
+includes Cdt2, which is required for S phase destruction of the replication factor Cdt1. Mol Cell
+2006b;23:709–721. [PubMed: 16949367]
+
+Kaempchen K, Mielke K, Utermark T, Langmesser S, Hanemann CO. Upregulation of the Rac1/JNK
+
+signaling pathway in primary human schwannoma cells. Hum Mol Genet 2003;12:1211–1221.
+[PubMed: 12761036]
+
+Kissil JL, Johnson KC, Eckman MS, Jacks T. Merlin phosphorylation by p21-activated kinase 2 and
+
+effects of phosphorylation on merlin localization. J Biol Chem 2002;277:10394–10399. [PubMed:
+11782491]
+
+Kissil JL, Wilker EW, Johnson KC, Eckman MS, Yaffe MB, Jacks T. Merlin, the product of the Nf2
+
+tumor suppressor gene, is an inhibitor of the p21-activated kinase, Pak1. Mol Cell 2003;12:841–849.
+[PubMed: 14580336]
+
+Kressel M, Schmucker B. Nucleocytoplasmic transfer of the NF2 tumor suppressor protein merlin is
+regulated by exon 2 and a CRM1-dependent nuclear export signal in exon 15. Hum Mol Genet
+2002;11:2269–2278. [PubMed: 12217955]
+
+Lallemand D, Curto M, Saotome I, Giovannini M, McClatchey AI. NF2 deficiency promotes
+
+tumorigenesis and metastasis by destabilizing adherens junctions. Genes Dev 2003;17:1090–1100.
+[PubMed: 12695331]
+
+Lallemand D, Manent J, Couvelard A, Watilliaux A, Siena M, Chareyre F, Lampin A, Niwa-Kawakita
+
+M, Kalamarides M, Giovannini M. Merlin regulates transmembrane receptor accumulation and
+signaling at the plasma membrane in primary mouse Schwann cells and in human schwannomas.
+Oncogene 2009;28:854–865. [PubMed: 19029950]
+
+Lee J, Zhou P. DCAFs, the missing link of the CUL4-DDB1 ubiquitin ligase. Mol Cell 2007;26:775–
+
+780. [PubMed: 17588513]
+
+Lim ST, Chen XL, Lim Y, Hanson DA, Vo TT, Howerton K, Larocque N, Fisher SJ, Schlaepfer DD, Ilic
+D. Nuclear FAK promotes cell proliferation and survival through FERM-enhanced p53 degradation.
+Mol Cell 2008;29:9–22. [PubMed: 18206965]
+
+Cell. Author manuscript; available in PMC 2011 February 19.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Li et al.
+
+Page 15
+
+Liu L, Lee S, Zhang J, Peters SB, Hannah J, Zhang Y, Yin Y, Koff A, Ma L, Zhou P. CUL4A abrogation
+augments DNA damage response and protection against skin carcinogenesis. Mol Cell 2009;34:451–
+460. [PubMed: 19481525]
+
+Lopez-Lago MA, Okada T, Murillo MM, Socci N, Giancotti FG. Loss of the tumor suppressor gene NF2,
+
+encoding merlin, constitutively activates integrin-dependent mTORC1 signaling. Mol Cell Biol
+2009;29:4235–4249. [PubMed: 19451229]
+
+Luque CM, Lallena MJ, Alonso MA, Correas I. An alternative domain determines nuclear localization
+
+in multifunctional protein 4.1. J Biol Chem 1998;273:11643–11649. [PubMed: 9565584]
+
+Maddika S, Chen J. Protein kinase DYRK2 is a scaffold that facilitates assembly of an E3 ligase. Nat
+
+Cell Biol 2009;11:409–419. [PubMed: 19287380]
+
+McCall CM, Miliani de Marval PL, Chastain PD 2nd, Jackson SC, He YJ, Kotake Y, Cook JG, Xiong
+Y. Human immunodeficiency virus type 1 Vpr-binding protein VprBP, a WD40 protein associated
+with the DDB1-CUL4 E3 ubiquitin ligase, is essential for DNA replication and embryonic
+development. Mol Cell Biol 2008;28:5621–5633. [PubMed: 18606781]
+
+McClatchey AI, Fehon RG. Merlin and the ERM proteins--regulators of receptor distribution and
+
+signaling at the cell cortex. Trends Cell Biol 2009;19:198–206. [PubMed: 19345106]
+
+McClatchey AI, Giovannini M. Membrane organization and tumorigenesis--the NF2 tumor suppressor,
+
+Merlin. Genes Dev 2005;19:2265–2277. [PubMed: 16204178]
+
+Muranen T, Gronholm M, Renkema GH, Carpen O. Cell cycle-dependent nucleocytoplasmic shuttling
+
+of the neurofibromatosis 2 tumour suppressor merlin. Oncogene 2005;24:1150–1158. [PubMed:
+15580288]
+
+O’Connell BC, Harper JW. Ubiquitin proteasome system (UPS): what can chromatin do for you? Curr
+
+Opin Cell Biol 2007;19:206–214. [PubMed: 17314036]
+
+Okada T, Lopez-Lago M, Giancotti FG. Merlin/NF-2 mediates contact inhibition of growth by
+
+suppressing recruitment of Rac to the plasma membrane. J Cell Biol 2005;171:361–371. [PubMed:
+16247032]
+
+Okada T, You L, Giancotti FG. Shedding light on Merlin’s wizardry. Trends Cell Biol 2007;17:222–229.
+
+[PubMed: 17442573]
+
+Pan D. Hippo signaling in organ size control. Genes Dev 2007;21:886–897. [PubMed: 17437995]
+Poulikakos PI, Xiao GH, Gallagher R, Jablonski S, Jhanwar SC, Testa JR. Re-expression of the tumor
+suppressor NF2/merlin inhibits invasiveness in mesothelioma cells and negatively regulates FAK.
+Oncogene 2006;25:5960–5968. [PubMed: 16652148]
+
+Pylayeva Y, Guo W, Giancotti FG. Analysis of integrin signaling in genetically engineered mouse models
+
+of mammary tumor progression. Methods Enzymol 2007;426:439–461. [PubMed: 17697895]
+
+Rong R, Tang X, Gutmann DH, Ye K. Neurofibromatosis 2 (NF2) tumor suppressor merlin inhibits
+
+phosphatidylinositol 3-kinase through binding to PIKE-L. Proc Natl Acad Sci USA 2004;101:18200–
+18205. [PubMed: 15598747]
+
+Schrecengost RS, Riggins RB, Thomas KS, Guerrero MS, Bouton AH. Breast cancer antiestrogen
+resistance-3 expression regulates breast cancer cell migration through promotion of p130Cas
+membrane localization and membrane ruffling. Cancer Res 2007;67:6174–6182. [PubMed:
+17616674]
+
+Shaw RJ, Paez JG, Curto M, Yaktine A, Pruitt WM, Saotome I, O’Bryan JP, Gupta V, Ratner N, Der CJ,
+et al. The Nf2 tumor suppressor, merlin, functions in Rac-dependent signaling. Dev Cell 2001;1:63–
+72. [PubMed: 11703924]
+
+Shimizu T, Seto A, Maita N, Hamada K, Tsukita S, Hakoshima T. Structural basis for neurofibromatosis
+
+type 2. Crystal structure of the merlin FERM domain. J Biol Chem 2002;277:10332–10336.
+[PubMed: 11756419]
+
+Tang X, Jang SW, Wang X, Liu Z, Bahr SM, Sun SY, Brat D, Gutmann DH, Ye K. Akt phosphorylation
+
+regulates the tumour-suppressor merlin through ubiquitination and degradation. Nat Cell Biol
+2007;9:1199–1207. [PubMed: 17891137]
+
+Xiao GH, Beeser A, Chernoff J, Testa JR. p21-activated kinase links Rac/Cdc42 signaling to merlin. J
+
+Biol Chem 2002;277:883–886. [PubMed: 11719502]
+
+Cell. Author manuscript; available in PMC 2011 February 19.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Li et al.
+
+Page 16
+
+Figure 1. Merlin Associates with CRL4DCAF1 in the Nucleus
+(A) Cos7 cells were transfected with the indicated FH-tagged (FH; FLAG-HA) forms of
+Merlin, lysed in RIPA, and subjected to TAP. Proteins were separated by SDS-PAGE and
+stained with Colloidal Blue. Dots point to the FH-tagged baits and asterisks to the 169 and 127
+kD bands identified by mass spectrometry as DCAF1 and DDB1, respectively.
+(B) 293T cells were transfected with FH-DCAF1 or empty vector. Total lysates and Flag-
+immunoprecipitates (M2) were subjected to immunoblotting with antibodies to the indicated
+proteins.
+(C) As in (B), with transfection of the indicated constructs and immunoprecipitation with anti-
+FLAG (M2) or control (C) antibodies.
+(D) As in (B), with cotransfection of Myc-Merlin or empty vector and immunoprecipitation
+with anti-FLAG (M2) or control (C). To control for the specificity of the anti-P-Merlin
+antibodies, the indicated sample was treated with calf intestinal alkaline phosphatase (CIP)
+prior to SDS-PAGE. Endogenous Merlin was detected upon longer exposure.
+
+Cell. Author manuscript; available in PMC 2011 February 19.
+
+Li et al.
+
+Page 17
+
+(E) Meso-33 cells were transiently transfected with the indicated constructs and subjected to
+double immunofluorescent staining with anti-HA and anti-Myc followed by DAPI.
+(F) HeLa cells were infected with lentiviral vectors encoding a sh-RNA targeting Merlin or a
+control sh-RNA and subjected to immunoblotting (left) or staining with affinity-purified
+antibodies to the N-terminal segment of Merlin followed by DAPI (right).
+(G) The indicated cells were stained as in panel F.
+(H) MCF-10A cells were subjected to subcellular fractionation. Equal amounts of proteins
+from the nuclear (NF) and non-nuclear (CM; cytosol + crude membranes) fraction were
+subjected to immunoblotting with antibodies to the indicated proteins.
+(I) Equal amounts of proteins from the non-nuclear (CM) and nuclear-soluble (NS) fraction of
+HeLa cells and Merlin-immunoprecipitates were immunoblotted as indicated. Anti-Cul4
+recognizes Cul4-A as well as a higher molecular weight band, possibly corresponding to
+neddylated Cul4-A or Cul4-B (asterisk).
+See also Supplemental Figure S1.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Cell. Author manuscript; available in PMC 2011 February 19.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Li et al.
+
+Page 18
+
+Figure 2. Merlin Inhibits CRL4DCAF1-dependent Ubiquitylation
+(A) Cos7 cells were transfected with 3 μg of FH-DCAF1 and 2 μg of Myc-Ubiquitin in
+combination with the indicated amounts of HA-Merlin and treated with MG132 or left
+untreated. Flag- or control-immunoprecipitates (M2 and C, respectively) were subjected to
+immunoblotting with anti-Myc to visualize ubiquitylated proteins (left) or anti-HA to visualize
+DCAF1 and Merlin (right). Upper arrow points to DCAF1 and lower arrow to Merlin.
+(B) Cos7 cells were transfected with FH-DCAF1 or FH-DCAF1 (1-1417) in combination with
+HA-Merlin (top panel) or HA-Vpr (bottom panel). Flag- or control-immunoprecipitates were
+subjected to immunoblotting. Levels of expression of DCAF1, DDB1 and Merlin or Vpr were
+verified by immunoblotting aliquots of total lysates.
+
+Cell. Author manuscript; available in PMC 2011 February 19.
+
+Li et al.
+
+Page 19
+
+(C) As in (B), with cotransfection of Myc-Ubiquitin and treatment or not with MG132. Flag-
+or control-immunoprecipitates were immunoblotted with anti-Myc (left) or anti-HA (right).
+(D) Cos7 cells stably infected with lentiviral vectors encoding a control sh-RNA or a sh-RNA
+targeting Merlin were subjected to immunoblotting (left) or transfected with FH-DCAF1 and
+Myc-Ubiquitin followed by immunoblotting of Flag- or control-immunoprecipitates with anti-
+Myc (middle) or anti-HA (right).
+(E) Hypothetical model of Merlin-mediated inhibition of CRL4DCAF1. Merlin is proposed to
+function as a competitive inhibitor of CRL4DCAF1. Blue hexagons, three β propeller folds of
+DDB1, which contact Cul4 (B) and DCAF1 (A and C). Yellow hexagon, WD40 domain of
+DCAF1; yellow sticks, double DxR box implicated in binding to DDB1; S, substrate; Ub,
+ubiquitin; Mer, closed Merlin.
+See also Supplemental Figure S2.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Cell. Author manuscript; available in PMC 2011 February 19.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Li et al.
+
+Page 20
+
+Figure 3. DCAF1 Mediates Hyperproliferation and Loss of Contact Inhibition in Merlin-deficient
+Cells
+(A, B) Meso-33 cells (A) and Met-5a cells (B) were transfected with a SMARTpool of siRNAs
+targeting the adaptor protein AP3β, DCAF1, or a control non-targeting pool, deprived of
+growth factors for 24 hours, incubated with BrdU in the presence of mitogens for 24 hours,
+and subjected to anti-BrdU staining followed by counterstaining with DAPI. The graph shows
+the percentage (± SEM) of BrdU+ cells and the pictures show representative fields.
+(C, D) HUVEC cells (C) and HEI 286 human Schwann cells (D) were transfected with a control
+si-RNA or 2 distinct si-RNAs targeting DCAF1, alone or in combination with a previously
+validated si-RNA targeting Merlin (Okada et al., 2005). Cells were deprived of growth factors
+
+Cell. Author manuscript; available in PMC 2011 February 19.
+
+Li et al.
+
+Page 21
+
+for 24 hours, plated under confluent (C) or sparse (D) conditions on fibronectin, and subjected
+to BrdU incorporation in the presence of mitogens for 24 hours followed by anti-BrdU staining.
+The graphs show the percentage (± SEM) of BrdU+ cells. Immunoblotting was used to verify
+the efficiency of knock down.
+(E) Meso-33 cells were transiently transfected with the indicated μg of vectors encoding HA-
+Merlin, alone or in combination with FH-DCAF1 or FH-DCAF1 (1-1417), and subjected to
+immunoblotting (left) and BrdU incorporation assay (right). The anti-HA blots including FH-
+DCAF1 and HA-Merlin were exposed for the same time. The graph shows the percentage
+(±SEM) of BrdU+ cells.
+See also Supplemental Figure S3.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Cell. Author manuscript; available in PMC 2011 February 19.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Li et al.
+
+Page 22
+
+Figure 4. Expression of Merlin and Depletion of DCAF1 Induce a Largely Overlapping Gene
+Expression Program
+(A) FC-1801 cells were infected with lentiviral vectors encoding a sh-RNA targeting DCAF1
+(sh-DCAF1), a control sh-RNA (sh-Control), wild type Merlin, Merlin-L64P, or sh-DCAF1
+in combination with wild type Merlin and subjected to DNA microarray analysis. Unsupervised
+clustering of 1,566 probesets differentially expressed ≥ 2 fold in at least one of the two major
+comparisons (sh-DCAF1 versus sh-Control and Merlin-WT versus Merlin-L64P). Values
+normalized to parental uninfected cells.
+(B) Venn Diagram shows the overlap between the list of genes differentially expressed upon
+expression of Merlin-WT or silencing of DCAF1 (fold change ≥ 2). Coregulated genes (885)
+are identified as differentially expressed ≥2 fold in one of the two comparisons and displaying
+a consensual significant change in the other comparison (p ≤ 0.01 by the ANOVA test).
+(C). 667 genes coregulated upon expression of Merlin-WT or silencing of DCAF1 (fold change
+≥ 2 in both comparisons) was subjected to Ingenuity Pathway analysis. Both down-regulated
+(353) and upregulated genes (314) are included in the category of Biological Functions.
+Representative downregulated genes are shown in blue and representative upregulated genes
+in red in order of decreasing average fold change.
+See also Supplemental Figure S4.
+
+Cell. Author manuscript; available in PMC 2011 February 19.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Li et al.
+
+Page 23
+
+Figure 5. Several Pathogenic Missense Mutations Disrupt Binding of Merlin to CRL4DCAF1 In
+Vivo
+(A) Tumor derived mutants (red sticks) are shown in the context of the overall structure of the
+FERM domain of human Merlin (colored ribbons; PDB 1ISN). The α-helical coiled-coil
+domain from the crystal structure of the closed form of Spodoptera frugiperda Moesin (thin
+grey αcarbon trace; PDB 2I1K), which is highly homologous to human Merlin, is shown for
+reference. The coiled-coil domain was positioned by superimposing the FERM domains from
+the structures of Merlin and Moesin, which have a root mean square deviation for α-carbon
+atoms of 1.3 Å and share 62% sequence identity.
+(B) Close-up view of tumor-derived mutations (red sticks) located in subdomain A (green
+ribbon) in the crystal structure of human Merlin. Residues in contact with mutated residues are
+drawn as sticks and colored according to atom type (carbon, yellow; sulfur, green).
+(C) Subdomain B represented as in (B), with oxygens as magenta sticks. Red sphere, G197.
+
+Cell. Author manuscript; available in PMC 2011 February 19.
+
+Li et al.
+
+Page 24
+
+(D) Meso-33 cells were transiently transfected with empty vector or vectors encoding wild
+type Merlin or indicated mutants. Asynchronized cells growing in 10% FCS were subjected
+to BrdU incorporation assay. The graph indicates the percentage (± SEM) of BrdU-positive
+cells. Pictures show representative fields of cells transfected with indicated vectors and stained
+with anti-BrdU (red) and DAPI (blue).
+(E) Cos7 cells were transfected with FH-tagged versions of wild type Merlin or indicated
+mutants. Flag- or control-immunoprecipitates (M2 and C, respectively) and total lysates were
+immunoblotted as indicated.
+See also Supplemental Figure S5.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Cell. Author manuscript; available in PMC 2011 February 19.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Li et al.
+
+Page 25
+
+Figure 6. Pathogenic Mutations Disrupt the Ability of Merlin to Accumulate in the Nucleus, to Bind
+to DCAF1, or to Inhibit CRL4DCAF1
+(A) Meso-33 cells were transiently transfected with FH-tagged versions of wild type Merlin
+or the indicated mutants and subjected to subcellular fractionation. Equal amounts of proteins
+from the non-nuclear (CM) and nuclear (NF) fractions were subjected to immunoblotting.
+(B) The amount of Merlin or indicated mutants present in nuclear and non-nuclear fractions
+was estimated by densitometry of the blot in panel A. (Top) ratio of Merlin or indicated mutants
+present in nuclear vs. non-nuclear fractions; (Bottom) amount of each Merlin mutant present
+in the nucleus as a percentage over the wild type value.
+(C) In vitro translated and TNT-labeled DCAF1 was incubated with 0.5, 1, and 2 μg of GST
+fusion proteins comprising the FERM domain of wild type Merlin or indicated mutants. GST-
+bound DCAF1 was detected by blotting with streptavidin.
+(D) Densitometric analysis of (C). The graph shows the binding values in arbitrary units.
+
+Cell. Author manuscript; available in PMC 2011 February 19.
+
+Li et al.
+
+Page 26
+
+(E) Cos7 cells were transfected with the indicated FH-tagged forms of Merlin and subjected
+to immunoprecipitation with control (C) or anti-Flag Mab (M2) followed by immunoblotting.
+(F) Cos7 cells were transfected with FH-DCAF1 and HA-Ubiquitin in combination with the
+indicated Myc-tagged constructs or empty vector and treated with MG132. Flag- or control-
+immunoprecipitates were immunoblotted with anti-HA (left). Total lysates were
+immunoblotted with anti-Myc (right).
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Cell. Author manuscript; available in PMC 2011 February 19.
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+h
+o
+r
+ 
+
+ 
+
+t
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+
+ 
+
+t
+
+h
+o
+r
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+
+t
+
+I
+
+-
+
+N
+H
+P
+A
+A
+u
+t
+h
+o
+r
+ 
+
+ 
+
+M
+a
+n
+u
+s
+c
+r
+i
+p
+t
+
+Li et al.
+
+Page 27
+
+Figure 7. Silencing of DCAF1 Suppresses the Tumorigenic Potential of Merlin-deficient Cells
+(A) Meso-33 cells were infected with lentiviral vectors encoding two distinct sh-RNAs
+targeting DCAF1 (sh-1 and sh-2) or a control sh-RNA (sh-Contr.) and subjected to
+immunoblotting.
+(B) FC-1801 cells treated as in (A). Cells infected with sh-1 were also infected with a retroviral
+vector encoding a sh-RNA-resistant version of DCAF1 or with empty vector. Immunoblotting
+was as indicated.
+(C) Meso-33 cells infected with the indicated lentiviral vectors were subjected to soft agar
+assay. The graph illustrates the total number (± SEM) of colonies present in each well after 2
+weeks of culture. Representative images shown.
+(D, E) 2 × 106 FC-1801 cells infected with the indicated lentiviral vectors were injected
+subcutaneously in nude mice. (D) shows the increase in volume (± SEM) over time of tumors
+generated by cells infected with lentiviruses encoding a control sh-RNA (sh-Control) or two
+distinct sh-RNAs targeting DCAF1 (sh-1 and sh-2). (E) shows the increase in volume (± SEM)
+over time of tumors generated by cells infected with sh-1 and either a retroviral vector encoding
+a sh-RNA-resistant version of DCAF1 or empty vector. Data were obtained from the same
+experiment. Note the different scale of the Y axes of the two graphs.
+(F) Primary Schwann cells from 2 normal individuals (NF2+/+) and Schwannoma cells from
+2 NF2 patients (NF2−/−) were infected with lentiviruses encoding a sh-RNA targeting DCAF1
+(sh-2) or a control sh-RNA (sh-Co.), deprived of growth factors, restimulated with mitogens
+in the presence of BrdU, and subjected to anti-BrdU staining. The graph shows the percentage
+(± SEM) of BrdU+ cells.
+See also Supplemental Figure S6.
+
+Cell. Author manuscript; available in PMC 2011 February 19.
 
 
