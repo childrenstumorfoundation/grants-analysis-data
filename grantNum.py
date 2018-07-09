@@ -4,15 +4,17 @@
 import regex as re
 import glob
 import codecs
+import openpyxl
 
 # 1, PDF:
 # finds all pathnames that match a specific pattern
 list_with_grantnum = []
+dictionary = {}
 
 def searchByGrantNum(mylist):
 # grantRegex = re.compile(r'\d{4}-\d{2}-\d{3}')
     grantRegex = re.compile("(\d{4}-\d{2}-\d{3}){e<=1}")
-#ctf = re.compile("(Children's Tumor Foundation){e<=4}", flags=re.IGNORECASE)
+
     for i in range(0, len(mylist)):
         filename = mylist[i]
         print(str(filename))
@@ -43,6 +45,7 @@ def searchByGrantNum(mylist):
                 print(str(len(list)) + ' grant numbers')
                 print(str(list)+'\n')
                 list_with_grantnum.append(filename)
+                dictionary[filename]=list
 
 mylist = glob.glob("C:\\Users\\cliu\\PycharmProjects\\1\\*.pdf")
 final_list = []
@@ -56,3 +59,20 @@ searchByGrantNum(final_list)
 print('Following is the list of files with grant number:')
 print(list_with_grantnum)
 print(len(list_with_grantnum))
+
+print('file, grant pairs:')
+print(dictionary)
+
+# enter paperID and grantID into a seperate excel named workbook1
+
+wb = openpyxl.load_workbook('Workbook1.xlsx')
+sheet = wb['Sheet1']
+
+for i in range(0, len(list_with_grantnum)):
+    sheet['A'+str(i+2)]= list_with_grantnum[i] 
+    string = str(list_with_grantnum[i]).replace('_', '/')
+    doi_string = string.split('.pdf')[0]
+    sheet['C'+str(i+2)] =doi_string
+    sheet['B'+str(i+2)]=str(dictionary[list_with_grantnum[i]])
+    
+wb.save('Workbook1.xlsx')
