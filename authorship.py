@@ -1,6 +1,6 @@
-# the program searches for researcher strings (according to CTF-Grant excel) in each publication file
-# and find all papers the author's name appears in
 
+# the program takes the "researcher" cell in the ctf-grant excel, search for it in publication pdfs,
+# and find all files that the author appears in
 import openpyxl
 import codecs
 import regex as re
@@ -23,10 +23,11 @@ sheet2 = wb2.active
 numRow2 = sheet2.max_row
 
 name_not_appear = []
-
 def searchByAuthorshipDate(list):
-# build a dictionary to pair up the author - grant start year:
+# build a dictionary to pair up the author - end year:
     dictionary = {}
+# build on top of dictionary, add the grant number
+    dictionary1 = {}
 # build a list of author names in text format, without the duplicates.
     mylist=[]
 
@@ -34,8 +35,14 @@ def searchByAuthorshipDate(list):
         author = sheet['O'+str(rowindex)].value
         mylist.append(author)
         startYear = sheet['L'+str(rowindex)].value
-        # use a nested list within a dictionary to store more than one value(grant end year) to the key(author)
+        # use a nested list within a dictionary to store more than one value(grant start year) to the key(author),
+#each value followed by its grant number
+        grant_number = sheet['C'+str(rowindex)].value
+        nested_list =[]
+        nested_list.append(startYear)
+        nested_list.append(grant_number)
         dictionary.setdefault(author, []).append(startYear)
+        dictionary1.setdefault(author, []).append(nested_list)
 
 # the set() built-in function get unique collection of author names.
     finallist = set(mylist)
@@ -63,6 +70,11 @@ def searchByAuthorshipDate(list):
 
         if len(listTOdate)==0:
             name_not_appear.append(name)
+            # record grant ID1 for author without potential file list
+            column2 = 9
+            for i1 in range(0, len(dictionary1[name])):
+                sheet2[c_l(column2) + str(a)] = dictionary1[name][i1][1]
+                column2+=1
 
 # 3, date approach
 # get the publication year of the list of publication papers from publication.xlsx
@@ -72,20 +84,22 @@ def searchByAuthorshipDate(list):
             for rowindex1 in range (2,numRow1+1):
                 if publication == sheet1['L'+str(rowindex1)].value:
                     publicationyear = sheet1['B' + str(rowindex1)].value
-            list_grantyear = dictionary[name]
+            list_grantyear = dictionary1[name]
 
             column = 3
+            column1 = 9
             for i in range(0, len(list_grantyear)):
-                if list_grantyear[i] <= publicationyear:
-                    dictionary2.setdefault(list_grantyear[i],[]).append(publication)
+                if list_grantyear[i][0] <= publicationyear:
+                    dictionary2.setdefault(list_grantyear[i][0],[]).append(publication)
                     if sheet2[c_l(column+i) + str(a)].value == None:
                         sheet2[c_l(column+i) + str(a)] = publication
                     else:
                         newvalue = str(sheet2[c_l(column+i) + str(a)].value) + ' , '+ str(publication)
                         sheet2[c_l(column + i) + str(a)]=newvalue
-                else:
-                    print('grant year:'+str(list_grantyear[i]) + '  publication year:'+str(publicationyear))
-                    print(str(publication)+' is not possible')
+                # else:
+                #     print('grant year:'+str(list_grantyear[i]) + '  publication year:'+str(publicationyear))
+                #     print(str(publication)+' is not possible')
+                sheet2[c_l(column1+i)+str(a)] =list_grantyear[i][1]
         a+=1
         print(dictionary2)
 
@@ -97,8 +111,10 @@ for row in range (2, numRow1):
 searchByAuthorshipDate(list)
 wb2.save('author_grantyear_paperIDs.xlsx')
 
-print(name_not_appear)
 print(len(name_not_appear))
+
+
+
 
 
 
