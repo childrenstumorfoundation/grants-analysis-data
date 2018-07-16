@@ -73,6 +73,7 @@ for i in range(3, numRow1+1):
                             item = str(item).replace('/', '_') + '.txt'
                             dois1.append(item)
                         sheet2['D' + str(i1)] = ','.join(dois1)
+                        wb2.save('possible_list.xlsx')
                         check = False
 
                     elif userinput=='n':
@@ -84,6 +85,7 @@ for i in range(3, numRow1+1):
                             item = str(item).replace('/', '_') + '.txt'
                             dois1.append(item)
                         sheet2['D' + str(i1)] = ','.join(dois1)
+                        wb2.save('possible_list.xlsx')
                         check = False
 
                     elif userinput=='m':
