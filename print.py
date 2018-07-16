@@ -21,7 +21,12 @@ wb2 = openpyxl.load_workbook('possible_list.xlsx')
 sheet2 = wb2.active
 numRow2 = sheet2.max_row
 
+wb3 = openpyxl.load_workbook('list.xlsx')
+sheet3 = wb3.active
+numRow3 = sheet3.max_row
+
 dictionary = {}
+final_list = []
 
 for i in range(3, numRow1+1):
     grant_num =sheet['C'+str(i)].value
@@ -65,6 +70,7 @@ for i in range(3, numRow1+1):
                 while check:
                     userinput = input("Type in 'y'/ 'n' /'m' for 'YES /NO /MAYBE ': ")
                     if userinput=='y':
+                        final_list.append(grant_num)
                         dictionary[grant_num]=doi
                         dois.remove(doi)
                         myString = ''
@@ -75,6 +81,7 @@ for i in range(3, numRow1+1):
                         sheet2['D' + str(i1)] = ','.join(dois1)
                         wb2.save('possible_list.xlsx')
                         check = False
+                        print(dictionary)
 
                     elif userinput=='n':
                         # remove it from the string of the list of paper IDs
@@ -93,4 +100,11 @@ for i in range(3, numRow1+1):
                     else:
                         print('wrong command')
 
+for num in range (0, len(final_list)):
+    sheet3['A' + str(i + 2)] = final_list[i]
+    sheet3['B' + str(i + 2)] = str(dictionary[final_list[i]])
+
 wb2.save('possible_list.xlsx')
+wb3.save('list.xlsx')
+
+print(dictionary)
